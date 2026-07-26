@@ -5,72 +5,28 @@
         "id": 9001,
         "timestamp": 1785081600,
         "venue": {
-          "name": "Estádio Demo",
-          "city": "Brasil"
+          "name": "Cícero de Souza Marques",
+          "city": "Bragança Paulista"
         },
         "status": {
-          "long": "2H",
-          "short": "2H",
-          "elapsed": 67
+          "long": "HT",
+          "short": "HT",
+          "elapsed": 45
         }
       },
       "league": {
-        "round": "Regular Season - 15"
+        "round": "Regular Season - 20"
       },
       "teams": {
         "home": {
-          "id": 127,
-          "name": "Flamengo",
-          "logo": "https://media.api-sports.io/football/teams/127.png"
+          "id": 794,
+          "name": "Bragantino",
+          "logo": "https://media.api-sports.io/football/teams/794.png"
         },
         "away": {
-          "id": 121,
-          "name": "Palmeiras",
-          "logo": "https://media.api-sports.io/football/teams/121.png"
-        }
-      },
-      "goals": {
-        "home": 2,
-        "away": 1
-      },
-      "score": {
-        "halftime": {
-          "home": 1,
-          "away": 0
-        },
-        "fulltime": {
-          "home": null,
-          "away": null
-        }
-      }
-    },
-    {
-      "fixture": {
-        "id": 9002,
-        "timestamp": 1785088800,
-        "venue": {
-          "name": "Estádio Demo",
-          "city": "Brasil"
-        },
-        "status": {
-          "long": "1H",
-          "short": "1H",
-          "elapsed": 28
-        }
-      },
-      "league": {
-        "round": "Regular Season - 15"
-      },
-      "teams": {
-        "home": {
-          "id": 131,
-          "name": "Corinthians",
-          "logo": "https://media.api-sports.io/football/teams/131.png"
-        },
-        "away": {
-          "id": 124,
-          "name": "São Paulo",
-          "logo": "https://media.api-sports.io/football/teams/124.png"
+          "id": 147,
+          "name": "Coritiba",
+          "logo": "https://media.api-sports.io/football/teams/147.png"
         }
       },
       "goals": {
@@ -90,11 +46,11 @@
     },
     {
       "fixture": {
-        "id": 9003,
-        "timestamp": 1785096000,
+        "id": 9002,
+        "timestamp": 1785090600,
         "venue": {
-          "name": "Estádio Demo",
-          "city": "Brasil"
+          "name": "Maracanã",
+          "city": "Rio de Janeiro"
         },
         "status": {
           "long": "NS",
@@ -103,18 +59,62 @@
         }
       },
       "league": {
-        "round": "Regular Season - 15"
+        "round": "Regular Season - 20"
       },
       "teams": {
         "home": {
-          "id": 118,
-          "name": "Bahia",
-          "logo": "https://media.api-sports.io/football/teams/118.png"
+          "id": 127,
+          "name": "Flamengo",
+          "logo": "https://media.api-sports.io/football/teams/127.png"
         },
         "away": {
-          "id": 154,
-          "name": "Botafogo",
-          "logo": "https://media.api-sports.io/football/teams/154.png"
+          "id": 126,
+          "name": "São Paulo",
+          "logo": "https://media.api-sports.io/football/teams/126.png"
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {
+        "halftime": {
+          "home": null,
+          "away": null
+        },
+        "fulltime": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 9003,
+        "timestamp": 1785090600,
+        "venue": {
+          "name": "Arena do Grêmio",
+          "city": "Porto Alegre"
+        },
+        "status": {
+          "long": "NS",
+          "short": "NS",
+          "elapsed": null
+        }
+      },
+      "league": {
+        "round": "Regular Season - 20"
+      },
+      "teams": {
+        "home": {
+          "id": 130,
+          "name": "Grêmio",
+          "logo": "https://media.api-sports.io/football/teams/130.png"
+        },
+        "away": {
+          "id": 124,
+          "name": "Fluminense",
+          "logo": "https://media.api-sports.io/football/teams/124.png"
         }
       },
       "goals": {
@@ -135,10 +135,54 @@
     {
       "fixture": {
         "id": 9004,
+        "timestamp": 1785094200,
+        "venue": {
+          "name": "Allianz Parque",
+          "city": "São Paulo"
+        },
+        "status": {
+          "long": "1H",
+          "short": "1H",
+          "elapsed": 22
+        }
+      },
+      "league": {
+        "round": "Regular Season - 20"
+      },
+      "teams": {
+        "home": {
+          "id": 121,
+          "name": "Palmeiras",
+          "logo": "https://media.api-sports.io/football/teams/121.png"
+        },
+        "away": {
+          "id": 1062,
+          "name": "Atlético-MG",
+          "logo": "https://media.api-sports.io/football/teams/1062.png"
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 0
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 0
+        },
+        "fulltime": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 9005,
         "timestamp": 1784995200,
         "venue": {
-          "name": "Estádio Demo",
-          "city": "Brasil"
+          "name": "Neo Química Arena",
+          "city": "São Paulo"
         },
         "status": {
           "long": "FT",
@@ -147,23 +191,67 @@
         }
       },
       "league": {
-        "round": "Regular Season - 14"
+        "round": "Regular Season - 19"
       },
       "teams": {
         "home": {
-          "id": 1062,
-          "name": "Atlético-MG",
-          "logo": "https://media.api-sports.io/football/teams/1062.png"
+          "id": 131,
+          "name": "Corinthians",
+          "logo": "https://media.api-sports.io/football/teams/131.png"
         },
         "away": {
-          "id": 119,
-          "name": "Internacional",
-          "logo": "https://media.api-sports.io/football/teams/119.png"
+          "id": 118,
+          "name": "Bahia",
+          "logo": "https://media.api-sports.io/football/teams/118.png"
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 0
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 1
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 9006,
+        "timestamp": 1785002400,
+        "venue": {
+          "name": "Nilton Santos",
+          "city": "Rio de Janeiro"
+        },
+        "status": {
+          "long": "FT",
+          "short": "FT",
+          "elapsed": 90
+        }
+      },
+      "league": {
+        "round": "Regular Season - 19"
+      },
+      "teams": {
+        "home": {
+          "id": 120,
+          "name": "Botafogo",
+          "logo": "https://media.api-sports.io/football/teams/120.png"
+        },
+        "away": {
+          "id": 128,
+          "name": "Santos",
+          "logo": "https://media.api-sports.io/football/teams/128.png"
         }
       },
       "goals": {
         "home": 1,
-        "away": 1
+        "away": 0
       },
       "score": {
         "halftime": {
@@ -172,26 +260,26 @@
         },
         "fulltime": {
           "home": 1,
-          "away": 1
+          "away": 0
         }
       }
     },
     {
       "fixture": {
-        "id": 9005,
-        "timestamp": 1785002400,
+        "id": 9007,
+        "timestamp": 1785168000,
         "venue": {
-          "name": "Estádio Demo",
-          "city": "Brasil"
+          "name": "Mineirão",
+          "city": "Belo Horizonte"
         },
         "status": {
-          "long": "FT",
-          "short": "FT",
-          "elapsed": 90
+          "long": "NS",
+          "short": "NS",
+          "elapsed": null
         }
       },
       "league": {
-        "round": "Regular Season - 14"
+        "round": "Regular Season - 21"
       },
       "teams": {
         "home": {
@@ -200,97 +288,9 @@
           "logo": "https://media.api-sports.io/football/teams/135.png"
         },
         "away": {
-          "id": 120,
-          "name": "Grêmio",
-          "logo": "https://media.api-sports.io/football/teams/120.png"
-        }
-      },
-      "goals": {
-        "home": 3,
-        "away": 0
-      },
-      "score": {
-        "halftime": {
-          "home": 1,
-          "away": 0
-        },
-        "fulltime": {
-          "home": 3,
-          "away": 0
-        }
-      }
-    },
-    {
-      "fixture": {
-        "id": 9006,
-        "timestamp": 1785168000,
-        "venue": {
-          "name": "Estádio Demo",
-          "city": "Brasil"
-        },
-        "status": {
-          "long": "NS",
-          "short": "NS",
-          "elapsed": null
-        }
-      },
-      "league": {
-        "round": "Regular Season - 16"
-      },
-      "teams": {
-        "home": {
-          "id": 130,
-          "name": "Santos",
-          "logo": "https://media.api-sports.io/football/teams/130.png"
-        },
-        "away": {
-          "id": 133,
-          "name": "Vasco",
-          "logo": "https://media.api-sports.io/football/teams/133.png"
-        }
-      },
-      "goals": {
-        "home": null,
-        "away": null
-      },
-      "score": {
-        "halftime": {
-          "home": null,
-          "away": null
-        },
-        "fulltime": {
-          "home": null,
-          "away": null
-        }
-      }
-    },
-    {
-      "fixture": {
-        "id": 9007,
-        "timestamp": 1785175200,
-        "venue": {
-          "name": "Estádio Demo",
-          "city": "Brasil"
-        },
-        "status": {
-          "long": "NS",
-          "short": "NS",
-          "elapsed": null
-        }
-      },
-      "league": {
-        "round": "Regular Season - 16"
-      },
-      "teams": {
-        "home": {
-          "id": 125,
-          "name": "Fluminense",
-          "logo": "https://media.api-sports.io/football/teams/125.png"
-        },
-        "away": {
-          "id": 152,
-          "name": "Fortaleza",
-          "logo": "https://media.api-sports.io/football/teams/152.png"
+          "id": 119,
+          "name": "Internacional",
+          "logo": "https://media.api-sports.io/football/teams/119.png"
         }
       },
       "goals": {
@@ -311,10 +311,10 @@
     {
       "fixture": {
         "id": 9008,
-        "timestamp": 1785254400,
+        "timestamp": 1785175200,
         "venue": {
-          "name": "Estádio Demo",
-          "city": "Brasil"
+          "name": "São Januário",
+          "city": "Rio de Janeiro"
         },
         "status": {
           "long": "NS",
@@ -323,18 +323,18 @@
         }
       },
       "league": {
-        "round": "Regular Season - 16"
+        "round": "Regular Season - 21"
       },
       "teams": {
         "home": {
-          "id": 129,
-          "name": "Bragantino",
-          "logo": "https://media.api-sports.io/football/teams/129.png"
+          "id": 133,
+          "name": "Vasco",
+          "logo": "https://media.api-sports.io/football/teams/133.png"
         },
         "away": {
-          "id": 136,
-          "name": "Vitória",
-          "logo": "https://media.api-sports.io/football/teams/136.png"
+          "id": 154,
+          "name": "Fortaleza",
+          "logo": "https://media.api-sports.io/football/teams/154.png"
         }
       },
       "goals": {
@@ -368,13 +368,13 @@
               "points": 40,
               "goalsDiff": 12,
               "all": {
-                "played": 14,
-                "win": 10,
-                "draw": 2,
+                "played": 19,
+                "win": 12,
+                "draw": 3,
                 "lose": 2,
                 "goals": {
-                  "for": 28,
-                  "against": 16
+                  "for": 32,
+                  "against": 18
                 }
               },
               "form": "WWDWL",
@@ -390,13 +390,13 @@
               "points": 39,
               "goalsDiff": 11,
               "all": {
-                "played": 14,
-                "win": 10,
-                "draw": 2,
+                "played": 19,
+                "win": 12,
+                "draw": 3,
                 "lose": 2,
                 "goals": {
-                  "for": 27,
-                  "against": 16
+                  "for": 31,
+                  "against": 18
                 }
               },
               "form": "WWDWL",
@@ -412,13 +412,13 @@
               "points": 38,
               "goalsDiff": 10,
               "all": {
-                "played": 14,
-                "win": 9,
-                "draw": 2,
+                "played": 19,
+                "win": 11,
+                "draw": 3,
                 "lose": 2,
                 "goals": {
-                  "for": 26,
-                  "against": 17
+                  "for": 30,
+                  "against": 19
                 }
               },
               "form": "WWDWL",
@@ -427,20 +427,20 @@
             {
               "rank": 4,
               "team": {
-                "id": 124,
+                "id": 126,
                 "name": "São Paulo",
-                "logo": "https://media.api-sports.io/football/teams/124.png"
+                "logo": "https://media.api-sports.io/football/teams/126.png"
               },
               "points": 37,
               "goalsDiff": 9,
               "all": {
-                "played": 14,
-                "win": 9,
-                "draw": 2,
+                "played": 19,
+                "win": 11,
+                "draw": 3,
                 "lose": 3,
                 "goals": {
-                  "for": 25,
-                  "against": 17
+                  "for": 29,
+                  "against": 19
                 }
               },
               "form": "WWDWL",
@@ -449,20 +449,20 @@
             {
               "rank": 5,
               "team": {
-                "id": 118,
-                "name": "Bahia",
-                "logo": "https://media.api-sports.io/football/teams/118.png"
+                "id": 128,
+                "name": "Santos",
+                "logo": "https://media.api-sports.io/football/teams/128.png"
               },
               "points": 36,
               "goalsDiff": 8,
               "all": {
-                "played": 14,
-                "win": 8,
-                "draw": 2,
+                "played": 19,
+                "win": 10,
+                "draw": 3,
                 "lose": 3,
                 "goals": {
-                  "for": 24,
-                  "against": 18
+                  "for": 28,
+                  "against": 20
                 }
               },
               "form": "WWDWL",
@@ -471,20 +471,20 @@
             {
               "rank": 6,
               "team": {
-                "id": 154,
-                "name": "Botafogo",
-                "logo": "https://media.api-sports.io/football/teams/154.png"
+                "id": 124,
+                "name": "Fluminense",
+                "logo": "https://media.api-sports.io/football/teams/124.png"
               },
               "points": 35,
               "goalsDiff": 7,
               "all": {
-                "played": 14,
-                "win": 8,
-                "draw": 2,
+                "played": 19,
+                "win": 10,
+                "draw": 3,
                 "lose": 3,
                 "goals": {
-                  "for": 23,
-                  "against": 18
+                  "for": 27,
+                  "against": 20
                 }
               },
               "form": "WWDWL",
@@ -493,20 +493,20 @@
             {
               "rank": 7,
               "team": {
-                "id": 1062,
-                "name": "Atlético-MG",
-                "logo": "https://media.api-sports.io/football/teams/1062.png"
+                "id": 120,
+                "name": "Botafogo",
+                "logo": "https://media.api-sports.io/football/teams/120.png"
               },
               "points": 34,
               "goalsDiff": 6,
               "all": {
-                "played": 14,
-                "win": 7,
-                "draw": 2,
+                "played": 19,
+                "win": 9,
+                "draw": 3,
                 "lose": 4,
                 "goals": {
-                  "for": 22,
-                  "against": 19
+                  "for": 26,
+                  "against": 21
                 }
               },
               "form": "WWDWL",
@@ -515,20 +515,20 @@
             {
               "rank": 8,
               "team": {
-                "id": 119,
-                "name": "Internacional",
-                "logo": "https://media.api-sports.io/football/teams/119.png"
+                "id": 1062,
+                "name": "Atlético-MG",
+                "logo": "https://media.api-sports.io/football/teams/1062.png"
               },
               "points": 33,
               "goalsDiff": 5,
               "all": {
-                "played": 14,
-                "win": 7,
-                "draw": 2,
+                "played": 19,
+                "win": 9,
+                "draw": 3,
                 "lose": 4,
                 "goals": {
-                  "for": 21,
-                  "against": 19
+                  "for": 25,
+                  "against": 21
                 }
               },
               "form": "WWDWL",
@@ -544,13 +544,13 @@
               "points": 32,
               "goalsDiff": 4,
               "all": {
-                "played": 14,
-                "win": 6,
-                "draw": 2,
+                "played": 19,
+                "win": 8,
+                "draw": 3,
                 "lose": 4,
                 "goals": {
-                  "for": 20,
-                  "against": 20
+                  "for": 24,
+                  "against": 22
                 }
               },
               "form": "WWDWL",
@@ -559,20 +559,20 @@
             {
               "rank": 10,
               "team": {
-                "id": 120,
+                "id": 130,
                 "name": "Grêmio",
-                "logo": "https://media.api-sports.io/football/teams/120.png"
+                "logo": "https://media.api-sports.io/football/teams/130.png"
               },
               "points": 31,
               "goalsDiff": 3,
               "all": {
-                "played": 14,
-                "win": 6,
-                "draw": 2,
+                "played": 19,
+                "win": 8,
+                "draw": 3,
                 "lose": 5,
                 "goals": {
-                  "for": 19,
-                  "against": 20
+                  "for": 23,
+                  "against": 22
                 }
               },
               "form": "WWDWL",
@@ -581,20 +581,20 @@
             {
               "rank": 11,
               "team": {
-                "id": 130,
-                "name": "Santos",
-                "logo": "https://media.api-sports.io/football/teams/130.png"
+                "id": 119,
+                "name": "Internacional",
+                "logo": "https://media.api-sports.io/football/teams/119.png"
               },
               "points": 30,
               "goalsDiff": 2,
               "all": {
-                "played": 14,
-                "win": 5,
-                "draw": 2,
+                "played": 19,
+                "win": 7,
+                "draw": 3,
                 "lose": 5,
                 "goals": {
-                  "for": 18,
-                  "against": 21
+                  "for": 22,
+                  "against": 23
                 }
               },
               "form": "WWDWL",
@@ -603,20 +603,20 @@
             {
               "rank": 12,
               "team": {
-                "id": 133,
-                "name": "Vasco",
-                "logo": "https://media.api-sports.io/football/teams/133.png"
+                "id": 118,
+                "name": "Bahia",
+                "logo": "https://media.api-sports.io/football/teams/118.png"
               },
               "points": 29,
               "goalsDiff": 1,
               "all": {
-                "played": 14,
-                "win": 5,
-                "draw": 2,
+                "played": 19,
+                "win": 7,
+                "draw": 3,
                 "lose": 5,
                 "goals": {
-                  "for": 17,
-                  "against": 21
+                  "for": 21,
+                  "against": 23
                 }
               },
               "form": "WWDWL",
@@ -625,20 +625,20 @@
             {
               "rank": 13,
               "team": {
-                "id": 125,
-                "name": "Fluminense",
-                "logo": "https://media.api-sports.io/football/teams/125.png"
+                "id": 154,
+                "name": "Fortaleza",
+                "logo": "https://media.api-sports.io/football/teams/154.png"
               },
               "points": 28,
               "goalsDiff": 0,
               "all": {
-                "played": 14,
-                "win": 4,
-                "draw": 2,
+                "played": 19,
+                "win": 6,
+                "draw": 3,
                 "lose": 6,
                 "goals": {
-                  "for": 16,
-                  "against": 22
+                  "for": 20,
+                  "against": 24
                 }
               },
               "form": "WWDWL",
@@ -647,20 +647,20 @@
             {
               "rank": 14,
               "team": {
-                "id": 152,
-                "name": "Fortaleza",
-                "logo": "https://media.api-sports.io/football/teams/152.png"
+                "id": 794,
+                "name": "Bragantino",
+                "logo": "https://media.api-sports.io/football/teams/794.png"
               },
               "points": 27,
               "goalsDiff": -1,
               "all": {
-                "played": 14,
-                "win": 4,
-                "draw": 2,
+                "played": 19,
+                "win": 6,
+                "draw": 3,
                 "lose": 6,
                 "goals": {
-                  "for": 15,
-                  "against": 22
+                  "for": 19,
+                  "against": 24
                 }
               },
               "form": "WWDWL",
@@ -669,20 +669,20 @@
             {
               "rank": 15,
               "team": {
-                "id": 129,
-                "name": "Bragantino",
-                "logo": "https://media.api-sports.io/football/teams/129.png"
+                "id": 133,
+                "name": "Vasco",
+                "logo": "https://media.api-sports.io/football/teams/133.png"
               },
               "points": 26,
               "goalsDiff": -2,
               "all": {
-                "played": 14,
-                "win": 3,
-                "draw": 2,
+                "played": 19,
+                "win": 5,
+                "draw": 3,
                 "lose": 6,
                 "goals": {
-                  "for": 14,
-                  "against": 23
+                  "for": 18,
+                  "against": 25
                 }
               },
               "form": "WWDWL",
@@ -698,13 +698,13 @@
               "points": 25,
               "goalsDiff": -3,
               "all": {
-                "played": 14,
-                "win": 3,
-                "draw": 2,
+                "played": 19,
+                "win": 5,
+                "draw": 3,
                 "lose": 7,
                 "goals": {
-                  "for": 13,
-                  "against": 23
+                  "for": 17,
+                  "against": 25
                 }
               },
               "form": "WWDWL",
@@ -713,20 +713,20 @@
             {
               "rank": 17,
               "team": {
-                "id": 144,
-                "name": "Atlético-GO",
-                "logo": "https://media.api-sports.io/football/teams/144.png"
+                "id": 152,
+                "name": "Juventude",
+                "logo": "https://media.api-sports.io/football/teams/152.png"
               },
               "points": 24,
               "goalsDiff": -4,
               "all": {
-                "played": 14,
-                "win": 2,
-                "draw": 2,
+                "played": 19,
+                "win": 4,
+                "draw": 3,
                 "lose": 7,
                 "goals": {
-                  "for": 12,
-                  "against": 24
+                  "for": 16,
+                  "against": 26
                 }
               },
               "form": "WWDWL",
@@ -742,13 +742,13 @@
               "points": 23,
               "goalsDiff": -5,
               "all": {
-                "played": 14,
-                "win": 2,
-                "draw": 2,
+                "played": 19,
+                "win": 4,
+                "draw": 3,
                 "lose": 7,
                 "goals": {
-                  "for": 11,
-                  "against": 24
+                  "for": 15,
+                  "against": 26
                 }
               },
               "form": "WWDWL",
@@ -757,20 +757,20 @@
             {
               "rank": 19,
               "team": {
-                "id": 140,
+                "id": 129,
                 "name": "Ceará",
-                "logo": "https://media.api-sports.io/football/teams/140.png"
+                "logo": "https://media.api-sports.io/football/teams/129.png"
               },
               "points": 22,
               "goalsDiff": -6,
               "all": {
-                "played": 14,
-                "win": 1,
-                "draw": 2,
+                "played": 19,
+                "win": 3,
+                "draw": 3,
                 "lose": 8,
                 "goals": {
-                  "for": 10,
-                  "against": 25
+                  "for": 14,
+                  "against": 27
                 }
               },
               "form": "WWDWL",
@@ -779,20 +779,20 @@
             {
               "rank": 20,
               "team": {
-                "id": 126,
-                "name": "Juventude",
-                "logo": "https://media.api-sports.io/football/teams/126.png"
+                "id": 147,
+                "name": "Coritiba",
+                "logo": "https://media.api-sports.io/football/teams/147.png"
               },
               "points": 21,
               "goalsDiff": -7,
               "all": {
-                "played": 14,
-                "win": 1,
-                "draw": 2,
+                "played": 19,
+                "win": 3,
+                "draw": 3,
                 "lose": 8,
                 "goals": {
-                  "for": 9,
-                  "against": 25
+                  "for": 13,
+                  "against": 27
                 }
               },
               "form": "WWDWL",
@@ -821,7 +821,7 @@
             "total": 12
           },
           "games": {
-            "appearences": 14
+            "appearences": 19
           }
         }
       ]
@@ -843,7 +843,7 @@
             "total": 10
           },
           "games": {
-            "appearences": 14
+            "appearences": 18
           }
         }
       ]
@@ -865,7 +865,7 @@
             "total": 9
           },
           "games": {
-            "appearences": 13
+            "appearences": 17
           }
         }
       ]
@@ -887,7 +887,7 @@
             "total": 8
           },
           "games": {
-            "appearences": 12
+            "appearences": 16
           }
         }
       ]
@@ -901,15 +901,15 @@
       "statistics": [
         {
           "team": {
-            "id": 124,
+            "id": 126,
             "name": "São Paulo",
-            "logo": "https://media.api-sports.io/football/teams/124.png"
+            "logo": "https://media.api-sports.io/football/teams/126.png"
           },
           "goals": {
             "total": 7
           },
           "games": {
-            "appearences": 14
+            "appearences": 19
           }
         }
       ]
@@ -933,7 +933,7 @@
             "assists": 8
           },
           "games": {
-            "appearences": 14
+            "appearences": 19
           }
         }
       ]
@@ -955,7 +955,7 @@
             "assists": 7
           },
           "games": {
-            "appearences": 13
+            "appearences": 17
           }
         }
       ]
@@ -977,7 +977,7 @@
             "assists": 6
           },
           "games": {
-            "appearences": 14
+            "appearences": 18
           }
         }
       ]
@@ -999,7 +999,7 @@
             "assists": 5
           },
           "games": {
-            "appearences": 14
+            "appearences": 18
           }
         }
       ]
@@ -1013,15 +1013,15 @@
       "statistics": [
         {
           "team": {
-            "id": 124,
+            "id": 126,
             "name": "São Paulo",
-            "logo": "https://media.api-sports.io/football/teams/124.png"
+            "logo": "https://media.api-sports.io/football/teams/126.png"
           },
           "goals": {
             "assists": 5
           },
           "games": {
-            "appearences": 12
+            "appearences": 16
           }
         }
       ]
@@ -1033,6 +1033,6 @@
     "mode": "live",
     "liveIntervalMs": 120000
   },
-  "fetchedAt": "2026-07-26T22:04:01.270Z",
+  "fetchedAt": "2026-07-26T22:39:47.114Z",
   "source": "demo"
 }

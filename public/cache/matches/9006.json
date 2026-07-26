@@ -1,44 +1,44 @@
 {
   "fixture": {
     "id": 9006,
-    "timestamp": 1785168000,
+    "timestamp": 1785002400,
     "venue": {
-      "name": "Estádio Demo",
-      "city": "Brasil"
+      "name": "Nilton Santos",
+      "city": "Rio de Janeiro"
     },
     "status": {
-      "long": "NS",
-      "short": "NS",
-      "elapsed": null
+      "long": "FT",
+      "short": "FT",
+      "elapsed": 90
     }
   },
   "league": {
-    "round": "Regular Season - 16"
+    "round": "Regular Season - 19"
   },
   "teams": {
     "home": {
-      "id": 130,
-      "name": "Santos",
-      "logo": "https://media.api-sports.io/football/teams/130.png"
+      "id": 120,
+      "name": "Botafogo",
+      "logo": "https://media.api-sports.io/football/teams/120.png"
     },
     "away": {
-      "id": 133,
-      "name": "Vasco",
-      "logo": "https://media.api-sports.io/football/teams/133.png"
+      "id": 128,
+      "name": "Santos",
+      "logo": "https://media.api-sports.io/football/teams/128.png"
     }
   },
   "goals": {
-    "home": null,
-    "away": null
+    "home": 1,
+    "away": 0
   },
   "score": {
     "halftime": {
-      "home": null,
-      "away": null
+      "home": 0,
+      "away": 0
     },
     "fulltime": {
-      "home": null,
-      "away": null
+      "home": 1,
+      "away": 0
     }
   },
   "events": [
@@ -48,15 +48,15 @@
         "extra": null
       },
       "team": {
-        "id": 130,
-        "name": "Santos",
-        "logo": "https://media.api-sports.io/football/teams/130.png"
+        "id": 120,
+        "name": "Botafogo",
+        "logo": "https://media.api-sports.io/football/teams/120.png"
       },
       "player": {
-        "name": "Pedro"
+        "name": "Jogador A"
       },
       "assist": {
-        "name": "Arrascaeta"
+        "name": "Meia"
       },
       "type": "Goal",
       "detail": "Normal Goal"
@@ -67,12 +67,12 @@
         "extra": null
       },
       "team": {
-        "id": 133,
-        "name": "Vasco",
-        "logo": "https://media.api-sports.io/football/teams/133.png"
+        "id": 128,
+        "name": "Santos",
+        "logo": "https://media.api-sports.io/football/teams/128.png"
       },
       "player": {
-        "name": "Veiga"
+        "name": "Jogador B"
       },
       "assist": {
         "name": null
@@ -86,92 +86,35 @@
         "extra": null
       },
       "team": {
-        "id": 133,
-        "name": "Vasco",
-        "logo": "https://media.api-sports.io/football/teams/133.png"
+        "id": 128,
+        "name": "Santos",
+        "logo": "https://media.api-sports.io/football/teams/128.png"
       },
       "player": {
-        "name": "Rony"
+        "name": "Atacante"
       },
       "assist": {
-        "name": "Estêvão"
+        "name": "Meia"
       },
       "type": "Goal",
       "detail": "Normal Goal"
-    },
-    {
-      "time": {
-        "elapsed": 63,
-        "extra": null
-      },
-      "team": {
-        "id": 130,
-        "name": "Santos",
-        "logo": "https://media.api-sports.io/football/teams/130.png"
-      },
-      "player": {
-        "name": "Bruno Henrique"
-      },
-      "assist": {
-        "name": "Gerson"
-      },
-      "type": "Goal",
-      "detail": "Normal Goal"
-    },
-    {
-      "time": {
-        "elapsed": 70,
-        "extra": null
-      },
-      "team": {
-        "id": 130,
-        "name": "Santos",
-        "logo": "https://media.api-sports.io/football/teams/130.png"
-      },
-      "player": {
-        "name": "Plata"
-      },
-      "assist": {
-        "name": "Luiz Araújo"
-      },
-      "type": "subst",
-      "detail": "Substitution 1"
-    },
-    {
-      "time": {
-        "elapsed": 78,
-        "extra": null
-      },
-      "team": {
-        "id": 133,
-        "name": "Vasco",
-        "logo": "https://media.api-sports.io/football/teams/133.png"
-      },
-      "player": {
-        "name": "Flaco López"
-      },
-      "assist": {
-        "name": null
-      },
-      "type": "Card",
-      "detail": "Red Card"
     }
   ],
   "lineups": [
     {
       "team": {
-        "id": 130,
-        "name": "Santos",
-        "logo": "https://media.api-sports.io/football/teams/130.png"
+        "id": 120,
+        "name": "Botafogo",
+        "logo": "https://media.api-sports.io/football/teams/120.png"
       },
       "formation": "4-2-3-1",
       "coach": {
-        "name": "Filipe Luís"
+        "name": "Técnico Casa"
       },
       "startXI": [
         {
           "player": {
-            "name": "Rossi",
+            "name": "Goleiro",
             "number": 1,
             "pos": "G",
             "grid": "1:1"
@@ -179,7 +122,7 @@
         },
         {
           "player": {
-            "name": "Varela",
+            "name": "Lateral D",
             "number": 2,
             "pos": "D",
             "grid": "2:4"
@@ -187,7 +130,7 @@
         },
         {
           "player": {
-            "name": "Léo Ortiz",
+            "name": "Zagueiro",
             "number": 3,
             "pos": "D",
             "grid": "2:3"
@@ -195,7 +138,7 @@
         },
         {
           "player": {
-            "name": "Léo Pereira",
+            "name": "Zagueiro",
             "number": 4,
             "pos": "D",
             "grid": "2:2"
@@ -203,7 +146,7 @@
         },
         {
           "player": {
-            "name": "Ayrton Lucas",
+            "name": "Lateral E",
             "number": 6,
             "pos": "D",
             "grid": "2:1"
@@ -211,7 +154,7 @@
         },
         {
           "player": {
-            "name": "Pulgar",
+            "name": "Volante",
             "number": 5,
             "pos": "M",
             "grid": "3:2"
@@ -219,15 +162,15 @@
         },
         {
           "player": {
-            "name": "De la Cruz",
-            "number": 18,
+            "name": "Volante",
+            "number": 8,
             "pos": "M",
             "grid": "3:1"
           }
         },
         {
           "player": {
-            "name": "Luiz Araújo",
+            "name": "Meia",
             "number": 7,
             "pos": "M",
             "grid": "4:3"
@@ -235,24 +178,24 @@
         },
         {
           "player": {
-            "name": "Arrascaeta",
-            "number": 14,
+            "name": "Meia",
+            "number": 10,
             "pos": "M",
             "grid": "4:2"
           }
         },
         {
           "player": {
-            "name": "Plata",
-            "number": 9,
+            "name": "Ponta",
+            "number": 11,
             "pos": "M",
             "grid": "4:1"
           }
         },
         {
           "player": {
-            "name": "Pedro",
-            "number": 21,
+            "name": "Centroavante",
+            "number": 9,
             "pos": "F",
             "grid": "5:1"
           }
@@ -261,17 +204,9 @@
       "substitutes": [
         {
           "player": {
-            "name": "Bruno Henrique",
-            "number": 27,
+            "name": "Reserva",
+            "number": 21,
             "pos": "F",
-            "grid": null
-          }
-        },
-        {
-          "player": {
-            "name": "Gerson",
-            "number": 8,
-            "pos": "M",
             "grid": null
           }
         }
@@ -279,99 +214,99 @@
     },
     {
       "team": {
-        "id": 133,
-        "name": "Vasco",
-        "logo": "https://media.api-sports.io/football/teams/133.png"
+        "id": 128,
+        "name": "Santos",
+        "logo": "https://media.api-sports.io/football/teams/128.png"
       },
       "formation": "4-3-3",
       "coach": {
-        "name": "Abel Ferreira"
+        "name": "Técnico Fora"
       },
       "startXI": [
         {
           "player": {
-            "name": "Weverton",
-            "number": 21,
+            "name": "Goleiro",
+            "number": 1,
             "pos": "G",
             "grid": "1:1"
           }
         },
         {
           "player": {
-            "name": "Mayke",
-            "number": 12,
+            "name": "Lateral D",
+            "number": 2,
             "pos": "D",
             "grid": "2:4"
           }
         },
         {
           "player": {
-            "name": "Gustavo Gómez",
-            "number": 15,
+            "name": "Zagueiro",
+            "number": 3,
             "pos": "D",
             "grid": "2:3"
           }
         },
         {
           "player": {
-            "name": "Murilo",
-            "number": 26,
+            "name": "Zagueiro",
+            "number": 4,
             "pos": "D",
             "grid": "2:2"
           }
         },
         {
           "player": {
-            "name": "Piquerez",
-            "number": 22,
+            "name": "Lateral E",
+            "number": 6,
             "pos": "D",
             "grid": "2:1"
           }
         },
         {
           "player": {
-            "name": "Zé Rafael",
-            "number": 8,
+            "name": "Volante",
+            "number": 5,
             "pos": "M",
             "grid": "3:3"
           }
         },
         {
           "player": {
-            "name": "Aníbal Moreno",
-            "number": 5,
+            "name": "Meia",
+            "number": 8,
             "pos": "M",
             "grid": "3:2"
           }
         },
         {
           "player": {
-            "name": "Veiga",
-            "number": 23,
+            "name": "Meia",
+            "number": 10,
             "pos": "M",
             "grid": "3:1"
           }
         },
         {
           "player": {
-            "name": "Estêvão",
-            "number": 41,
+            "name": "Ponta",
+            "number": 7,
             "pos": "F",
             "grid": "4:3"
           }
         },
         {
           "player": {
-            "name": "Rony",
-            "number": 10,
+            "name": "Centroavante",
+            "number": 9,
             "pos": "F",
             "grid": "4:2"
           }
         },
         {
           "player": {
-            "name": "Flaco López",
-            "number": 42,
+            "name": "Ponta",
+            "number": 11,
             "pos": "F",
             "grid": "4:1"
           }
@@ -380,8 +315,8 @@
       "substitutes": [
         {
           "player": {
-            "name": "Felipe Anderson",
-            "number": 9,
+            "name": "Reserva",
+            "number": 19,
             "pos": "F",
             "grid": null
           }
@@ -392,22 +327,22 @@
   "statistics": [
     {
       "team": {
-        "id": 130,
-        "name": "Santos",
-        "logo": "https://media.api-sports.io/football/teams/130.png"
+        "id": 120,
+        "name": "Botafogo",
+        "logo": "https://media.api-sports.io/football/teams/120.png"
       },
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "58%"
+          "value": "54%"
         },
         {
           "type": "Total Shots",
-          "value": 14
+          "value": 11
         },
         {
           "type": "Shots on Goal",
-          "value": 6
+          "value": 4
         },
         {
           "type": "Corner Kicks",
@@ -415,11 +350,11 @@
         },
         {
           "type": "Fouls",
-          "value": 11
+          "value": 12
         },
         {
           "type": "Yellow Cards",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Red Cards",
@@ -427,20 +362,20 @@
         },
         {
           "type": "Pass Accuracy",
-          "value": "86%"
+          "value": "84%"
         }
       ]
     },
     {
       "team": {
-        "id": 133,
-        "name": "Vasco",
-        "logo": "https://media.api-sports.io/football/teams/133.png"
+        "id": 128,
+        "name": "Santos",
+        "logo": "https://media.api-sports.io/football/teams/128.png"
       },
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "42%"
+          "value": "46%"
         },
         {
           "type": "Total Shots",
@@ -460,11 +395,11 @@
         },
         {
           "type": "Yellow Cards",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Red Cards",
-          "value": 1
+          "value": 0
         },
         {
           "type": "Pass Accuracy",

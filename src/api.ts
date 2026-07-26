@@ -17,6 +17,8 @@ import { isMatchToday, isMatchUpcoming } from "./utils";
 export type { DashboardData, BudgetInfo } from "./types";
 
 const API_BASE = (import.meta.env.VITE_API_BASE ?? "").replace(/\/$/, "");
+/** Vite base path, e.g. `/Brasileirao2026/` on GitHub Pages — needed for static demo cache. */
+const STATIC_BASE = (import.meta.env.BASE_URL ?? "/").replace(/\/$/, "");
 const FETCH_TIMEOUT_MS = 15_000;
 
 async function fetchWithTimeout(input: string, init?: RequestInit): Promise<Response> {
@@ -34,8 +36,14 @@ async function fetchWithTimeout(input: string, init?: RequestInit): Promise<Resp
   }
 }
 
+/** Worker / Vite proxy API routes (absolute when VITE_API_BASE is set). */
 function apiUrl(path: string): string {
   return `${API_BASE}${path}`;
+}
+
+/** Static files under `public/` — must include Vite `base` on project Pages sites. */
+function cacheUrl(path: string): string {
+  return `${STATIC_BASE}${path}`;
 }
 
 function normalizeStatus(short: string): MatchStatus {
@@ -295,7 +303,12 @@ interface DashboardPayload {
 }
 
 async function loadDashboardPayload(): Promise<DashboardPayload> {
-  const endpoints = [apiUrl("/api/dashboard"), apiUrl("/cache/dashboard.json")];
+  // Prefer live API / Vite proxy; fall back to packaged demo cache.
+  // Cache paths must include BASE_URL so GitHub Pages project sites resolve correctly.
+  const endpoints = [
+    API_BASE ? apiUrl("/api/dashboard") : "/api/dashboard",
+    cacheUrl("/cache/dashboard.json"),
+  ];
   let lastError: Error | null = null;
   for (const url of endpoints) {
     try {
@@ -338,7 +351,10 @@ export async function fetchDashboard(): Promise<DashboardData> {
 }
 
 export async function fetchMatchDetail(id: number): Promise<MatchDetail | null> {
-  const endpoints = [apiUrl(`/api/match/${id}`), apiUrl(`/cache/matches/${id}.json`)];
+  const endpoints = [
+    API_BASE ? apiUrl(`/api/match/${id}`) : `/api/match/${id}`,
+    cacheUrl(`/cache/matches/${id}.json`),
+  ];
   for (const url of endpoints) {
     try {
       const res = await fetchWithTimeout(url);

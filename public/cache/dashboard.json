@@ -3,15 +3,103 @@
     {
       "fixture": {
         "id": 9001,
-        "timestamp": 1785081600,
+        "timestamp": 1785092400,
+        "venue": {
+          "name": "Fonte Nova",
+          "city": "Salvador"
+        },
+        "status": {
+          "long": "FT",
+          "short": "FT",
+          "elapsed": 90
+        }
+      },
+      "league": {
+        "round": "Regular Season - 20"
+      },
+      "teams": {
+        "home": {
+          "id": 118,
+          "name": "Bahia",
+          "logo": "https://media.api-sports.io/football/teams/118.png"
+        },
+        "away": {
+          "id": 131,
+          "name": "Corinthians",
+          "logo": "https://media.api-sports.io/football/teams/131.png"
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 1,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 1,
+          "away": 1
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 9002,
+        "timestamp": 1785092400,
+        "venue": {
+          "name": "Mineirão",
+          "city": "Belo Horizonte"
+        },
+        "status": {
+          "long": "FT",
+          "short": "FT",
+          "elapsed": 90
+        }
+      },
+      "league": {
+        "round": "Regular Season - 20"
+      },
+      "teams": {
+        "home": {
+          "id": 135,
+          "name": "Cruzeiro",
+          "logo": "https://media.api-sports.io/football/teams/135.png"
+        },
+        "away": {
+          "id": 120,
+          "name": "Botafogo",
+          "logo": "https://media.api-sports.io/football/teams/120.png"
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": 0,
+          "away": 1
+        },
+        "fulltime": {
+          "home": 0,
+          "away": 1
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 9003,
+        "timestamp": 1785101400,
         "venue": {
           "name": "Cícero de Souza Marques",
           "city": "Bragança Paulista"
         },
         "status": {
-          "long": "HT",
-          "short": "HT",
-          "elapsed": 45
+          "long": "2H",
+          "short": "2H",
+          "elapsed": 68
         }
       },
       "league": {
@@ -46,16 +134,16 @@
     },
     {
       "fixture": {
-        "id": 9002,
-        "timestamp": 1785090600,
+        "id": 9004,
+        "timestamp": 1785101400,
         "venue": {
           "name": "Maracanã",
           "city": "Rio de Janeiro"
         },
         "status": {
-          "long": "NS",
-          "short": "NS",
-          "elapsed": null
+          "long": "2H",
+          "short": "2H",
+          "elapsed": 67
         }
       },
       "league": {
@@ -74,13 +162,13 @@
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "fulltime": {
           "home": null,
@@ -90,16 +178,16 @@
     },
     {
       "fixture": {
-        "id": 9003,
-        "timestamp": 1785090600,
+        "id": 9005,
+        "timestamp": 1785101400,
         "venue": {
           "name": "Arena do Grêmio",
           "city": "Porto Alegre"
         },
         "status": {
-          "long": "NS",
-          "short": "NS",
-          "elapsed": null
+          "long": "2H",
+          "short": "2H",
+          "elapsed": 66
         }
       },
       "league": {
@@ -118,13 +206,13 @@
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
       "score": {
         "halftime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         },
         "fulltime": {
           "home": null,
@@ -134,10 +222,10 @@
     },
     {
       "fixture": {
-        "id": 9004,
-        "timestamp": 1785094200,
+        "id": 9006,
+        "timestamp": 1785105000,
         "venue": {
-          "name": "Allianz Parque",
+          "name": "Nubank Parque",
           "city": "São Paulo"
         },
         "status": {
@@ -178,129 +266,41 @@
     },
     {
       "fixture": {
-        "id": 9005,
-        "timestamp": 1784995200,
+        "id": 9007,
+        "timestamp": 1785105000,
         "venue": {
-          "name": "Neo Química Arena",
-          "city": "São Paulo"
+          "name": "Mangueirão",
+          "city": "Belém"
         },
         "status": {
-          "long": "FT",
-          "short": "FT",
-          "elapsed": 90
+          "long": "1H",
+          "short": "1H",
+          "elapsed": 18
         }
       },
       "league": {
-        "round": "Regular Season - 19"
+        "round": "Regular Season - 20"
       },
       "teams": {
         "home": {
-          "id": 131,
-          "name": "Corinthians",
-          "logo": "https://media.api-sports.io/football/teams/131.png"
+          "id": 1198,
+          "name": "Remo",
+          "logo": "https://media.api-sports.io/football/teams/1198.png"
         },
         "away": {
-          "id": 118,
-          "name": "Bahia",
-          "logo": "https://media.api-sports.io/football/teams/118.png"
+          "id": 136,
+          "name": "Vitória",
+          "logo": "https://media.api-sports.io/football/teams/136.png"
         }
       },
       "goals": {
-        "home": 2,
-        "away": 1
-      },
-      "score": {
-        "halftime": {
-          "home": 1,
-          "away": 0
-        },
-        "fulltime": {
-          "home": 2,
-          "away": 1
-        }
-      }
-    },
-    {
-      "fixture": {
-        "id": 9006,
-        "timestamp": 1785002400,
-        "venue": {
-          "name": "Nilton Santos",
-          "city": "Rio de Janeiro"
-        },
-        "status": {
-          "long": "FT",
-          "short": "FT",
-          "elapsed": 90
-        }
-      },
-      "league": {
-        "round": "Regular Season - 19"
-      },
-      "teams": {
-        "home": {
-          "id": 120,
-          "name": "Botafogo",
-          "logo": "https://media.api-sports.io/football/teams/120.png"
-        },
-        "away": {
-          "id": 128,
-          "name": "Santos",
-          "logo": "https://media.api-sports.io/football/teams/128.png"
-        }
-      },
-      "goals": {
-        "home": 1,
+        "home": 0,
         "away": 0
       },
       "score": {
         "halftime": {
           "home": 0,
           "away": 0
-        },
-        "fulltime": {
-          "home": 1,
-          "away": 0
-        }
-      }
-    },
-    {
-      "fixture": {
-        "id": 9007,
-        "timestamp": 1785168000,
-        "venue": {
-          "name": "Mineirão",
-          "city": "Belo Horizonte"
-        },
-        "status": {
-          "long": "NS",
-          "short": "NS",
-          "elapsed": null
-        }
-      },
-      "league": {
-        "round": "Regular Season - 21"
-      },
-      "teams": {
-        "home": {
-          "id": 135,
-          "name": "Cruzeiro",
-          "logo": "https://media.api-sports.io/football/teams/135.png"
-        },
-        "away": {
-          "id": 119,
-          "name": "Internacional",
-          "logo": "https://media.api-sports.io/football/teams/119.png"
-        }
-      },
-      "goals": {
-        "home": null,
-        "away": null
-      },
-      "score": {
-        "halftime": {
-          "home": null,
-          "away": null
         },
         "fulltime": {
           "home": null,
@@ -311,7 +311,7 @@
     {
       "fixture": {
         "id": 9008,
-        "timestamp": 1785175200,
+        "timestamp": 1785178800,
         "venue": {
           "name": "São Januário",
           "city": "Rio de Janeiro"
@@ -374,7 +374,7 @@
                 "lose": 2,
                 "goals": {
                   "for": 32,
-                  "against": 18
+                  "against": 16
                 }
               },
               "form": "WWDWL",
@@ -396,7 +396,7 @@
                 "lose": 2,
                 "goals": {
                   "for": 31,
-                  "against": 18
+                  "against": 16
                 }
               },
               "form": "WWDWL",
@@ -418,7 +418,7 @@
                 "lose": 2,
                 "goals": {
                   "for": 30,
-                  "against": 19
+                  "against": 17
                 }
               },
               "form": "WWDWL",
@@ -440,7 +440,7 @@
                 "lose": 3,
                 "goals": {
                   "for": 29,
-                  "against": 19
+                  "against": 17
                 }
               },
               "form": "WWDWL",
@@ -462,7 +462,7 @@
                 "lose": 3,
                 "goals": {
                   "for": 28,
-                  "against": 20
+                  "against": 18
                 }
               },
               "form": "WWDWL",
@@ -484,7 +484,7 @@
                 "lose": 3,
                 "goals": {
                   "for": 27,
-                  "against": 20
+                  "against": 18
                 }
               },
               "form": "WWDWL",
@@ -506,7 +506,7 @@
                 "lose": 4,
                 "goals": {
                   "for": 26,
-                  "against": 21
+                  "against": 19
                 }
               },
               "form": "WWDWL",
@@ -528,7 +528,7 @@
                 "lose": 4,
                 "goals": {
                   "for": 25,
-                  "against": 21
+                  "against": 19
                 }
               },
               "form": "WWDWL",
@@ -550,7 +550,7 @@
                 "lose": 4,
                 "goals": {
                   "for": 24,
-                  "against": 22
+                  "against": 20
                 }
               },
               "form": "WWDWL",
@@ -572,7 +572,7 @@
                 "lose": 5,
                 "goals": {
                   "for": 23,
-                  "against": 22
+                  "against": 20
                 }
               },
               "form": "WWDWL",
@@ -594,7 +594,7 @@
                 "lose": 5,
                 "goals": {
                   "for": 22,
-                  "against": 23
+                  "against": 21
                 }
               },
               "form": "WWDWL",
@@ -616,7 +616,7 @@
                 "lose": 5,
                 "goals": {
                   "for": 21,
-                  "against": 23
+                  "against": 21
                 }
               },
               "form": "WWDWL",
@@ -638,7 +638,7 @@
                 "lose": 6,
                 "goals": {
                   "for": 20,
-                  "against": 24
+                  "against": 22
                 }
               },
               "form": "WWDWL",
@@ -660,7 +660,7 @@
                 "lose": 6,
                 "goals": {
                   "for": 19,
-                  "against": 24
+                  "against": 22
                 }
               },
               "form": "WWDWL",
@@ -682,7 +682,7 @@
                 "lose": 6,
                 "goals": {
                   "for": 18,
-                  "against": 25
+                  "against": 23
                 }
               },
               "form": "WWDWL",
@@ -704,7 +704,7 @@
                 "lose": 7,
                 "goals": {
                   "for": 17,
-                  "against": 25
+                  "against": 23
                 }
               },
               "form": "WWDWL",
@@ -726,7 +726,7 @@
                 "lose": 7,
                 "goals": {
                   "for": 16,
-                  "against": 26
+                  "against": 24
                 }
               },
               "form": "WWDWL",
@@ -748,7 +748,7 @@
                 "lose": 7,
                 "goals": {
                   "for": 15,
-                  "against": 26
+                  "against": 24
                 }
               },
               "form": "WWDWL",
@@ -770,7 +770,7 @@
                 "lose": 8,
                 "goals": {
                   "for": 14,
-                  "against": 27
+                  "against": 25
                 }
               },
               "form": "WWDWL",
@@ -792,7 +792,7 @@
                 "lose": 8,
                 "goals": {
                   "for": 13,
-                  "against": 27
+                  "against": 25
                 }
               },
               "form": "WWDWL",
@@ -1033,6 +1033,6 @@
     "mode": "live",
     "liveIntervalMs": 120000
   },
-  "fetchedAt": "2026-07-26T22:39:47.114Z",
+  "fetchedAt": "2026-07-26T22:52:10.001Z",
   "source": "demo"
 }

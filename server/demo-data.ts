@@ -1,16 +1,32 @@
 /** Offline/demo payload shaped like API-Football responses so the UI works without a key. */
 
-function tsToday(hour: number, minute = 0): number {
-  const d = new Date();
-  d.setHours(hour, minute, 0, 0);
-  return Math.floor(d.getTime() / 1000);
-}
+/**
+ * Kickoff wall-clock times are defined in America/Sao_Paulo (Brasileirão schedule),
+ * then stored as absolute UTC so the UI can show them in the viewer's local timezone
+ * (e.g. Louisiana CDT).
+ */
+function tsBrazil(dayOffset: number, hour: number, minute = 0): number {
+  const fmt = new Intl.DateTimeFormat("en-CA", {
+    timeZone: "America/Sao_Paulo",
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit",
+  });
+  const parts = Object.fromEntries(
+    fmt
+      .formatToParts(new Date())
+      .filter((p) => p.type !== "literal")
+      .map((p) => [p.type, p.value])
+  ) as Record<string, string>;
 
-function tsDays(daysFromNow: number, hour = 16): number {
-  const d = new Date();
-  d.setDate(d.getDate() + daysFromNow);
-  d.setHours(hour, 0, 0, 0);
-  return Math.floor(d.getTime() / 1000);
+  // Noon UTC on that Brazil calendar day, then shift by dayOffset (avoids DST edge cases).
+  const baseUtc = Date.UTC(Number(parts.year), Number(parts.month) - 1, Number(parts.day), 12, 0, 0);
+  const shifted = new Date(baseUtc + dayOffset * 86_400_000);
+  const y = shifted.getUTCFullYear();
+  const m = shifted.getUTCMonth();
+  const d = shifted.getUTCDate();
+  // São Paulo is UTC−3 year-round (no DST since 2019).
+  return Math.floor(Date.UTC(y, m, d, hour + 3, minute, 0) / 1000);
 }
 
 /** Verified API-Sports crest IDs (media.api-sports.io/football/teams/{id}.png). */
@@ -35,6 +51,7 @@ const teams = [
   { id: 134, name: "Athletico-PR", code: "CAP", logo: "https://media.api-sports.io/football/teams/134.png" },
   { id: 129, name: "Ceará", code: "CEA", logo: "https://media.api-sports.io/football/teams/129.png" },
   { id: 147, name: "Coritiba", code: "CFC", logo: "https://media.api-sports.io/football/teams/147.png" },
+  { id: 1198, name: "Remo", code: "REM", logo: "https://media.api-sports.io/football/teams/1198.png" },
 ] as const;
 
 type Team = (typeof teams)[number];
@@ -67,8 +84,8 @@ function fixture(
     goals: { home: goals[0], away: goals[1] },
     score: {
       halftime: {
-        home: goals[0] != null ? Math.floor(goals[0] / 2) : null,
-        away: goals[1] != null ? Math.floor(goals[1] / 2) : null,
+        home: goals[0],
+        away: goals[1],
       },
       fulltime: {
         home: status.short === "FT" ? goals[0] : null,
@@ -79,84 +96,84 @@ function fixture(
 }
 
 export function demoDashboard() {
-  // Sample slate inspired by a typical Rodada 20 Sunday — logos use verified team IDs.
+  // Snapshot aligned with a typical Rodada 20 Sunday slate (demo — not a live feed).
   const fixtures = [
     fixture(
       9001,
+      byName.Bahia,
+      byName.Corinthians,
+      { short: "FT", elapsed: 90 },
+      [1, 1],
+      tsBrazil(0, 16, 0),
+      "Regular Season - 20",
+      "Fonte Nova",
+      "Salvador"
+    ),
+    fixture(
+      9002,
+      byName.Cruzeiro,
+      byName.Botafogo,
+      { short: "FT", elapsed: 90 },
+      [0, 1],
+      tsBrazil(0, 16, 0),
+      "Regular Season - 20",
+      "Mineirão",
+      "Belo Horizonte"
+    ),
+    fixture(
+      9003,
       byName.Bragantino,
       byName.Coritiba,
-      { short: "HT", elapsed: 45 },
+      { short: "2H", elapsed: 68 },
       [0, 0],
-      tsToday(16, 0),
+      tsBrazil(0, 18, 30),
       "Regular Season - 20",
       "Cícero de Souza Marques",
       "Bragança Paulista"
     ),
     fixture(
-      9002,
+      9004,
       byName.Flamengo,
       byName["São Paulo"],
-      { short: "NS", elapsed: null },
-      [null, null],
-      tsToday(18, 30),
+      { short: "2H", elapsed: 67 },
+      [0, 0],
+      tsBrazil(0, 18, 30),
       "Regular Season - 20",
       "Maracanã",
       "Rio de Janeiro"
     ),
     fixture(
-      9003,
+      9005,
       byName.Grêmio,
       byName.Fluminense,
-      { short: "NS", elapsed: null },
-      [null, null],
-      tsToday(18, 30),
+      { short: "2H", elapsed: 66 },
+      [0, 0],
+      tsBrazil(0, 18, 30),
       "Regular Season - 20",
       "Arena do Grêmio",
       "Porto Alegre"
     ),
     fixture(
-      9004,
+      9006,
       byName.Palmeiras,
       byName["Atlético-MG"],
       { short: "1H", elapsed: 22 },
       [0, 0],
-      tsToday(19, 30),
+      tsBrazil(0, 19, 30),
       "Regular Season - 20",
-      "Allianz Parque",
+      "Nubank Parque",
       "São Paulo"
-    ),
-    fixture(
-      9005,
-      byName.Corinthians,
-      byName.Bahia,
-      { short: "FT", elapsed: 90 },
-      [2, 1],
-      tsDays(-1, 16),
-      "Regular Season - 19",
-      "Neo Química Arena",
-      "São Paulo"
-    ),
-    fixture(
-      9006,
-      byName.Botafogo,
-      byName.Santos,
-      { short: "FT", elapsed: 90 },
-      [1, 0],
-      tsDays(-1, 18),
-      "Regular Season - 19",
-      "Nilton Santos",
-      "Rio de Janeiro"
     ),
     fixture(
       9007,
-      byName.Cruzeiro,
-      byName.Internacional,
-      { short: "NS", elapsed: null },
-      [null, null],
-      tsDays(1, 16),
-      "Regular Season - 21",
-      "Mineirão",
-      "Belo Horizonte"
+      byName.Remo,
+      byName.Vitória,
+      { short: "1H", elapsed: 18 },
+      [0, 0],
+      tsBrazil(0, 19, 30),
+      "Regular Season - 20",
+      "Mangueirão",
+      "Belém"
     ),
     fixture(
       9008,
@@ -164,7 +181,7 @@ export function demoDashboard() {
       byName.Fortaleza,
       { short: "NS", elapsed: null },
       [null, null],
-      tsDays(1, 18),
+      tsBrazil(1, 16, 0),
       "Regular Season - 21",
       "São Januário",
       "Rio de Janeiro"
@@ -175,7 +192,7 @@ export function demoDashboard() {
     {
       league: {
         standings: [
-          teams.map((t, i) => ({
+          teams.slice(0, 20).map((t, i) => ({
             rank: i + 1,
             team: { id: t.id, name: t.name, logo: t.logo },
             points: 40 - i,
@@ -267,16 +284,13 @@ export function demoMatchDetail(id: number) {
     (dash.fixtures as ReturnType<typeof fixture>[]).find((f) => f.fixture.id === id) ??
     (dash.fixtures as ReturnType<typeof fixture>[])[0];
 
-  const homeName = base.teams.home.name;
-  const awayName = base.teams.away.name;
-
   return {
     ...base,
     events: [
       {
         time: { elapsed: 12, extra: null },
         team: base.teams.home,
-        player: { name: homeName === "Flamengo" ? "Pedro" : "Jogador A" },
+        player: { name: "Jogador A" },
         assist: { name: "Meia" },
         type: "Goal",
         detail: "Normal Goal",
@@ -284,7 +298,7 @@ export function demoMatchDetail(id: number) {
       {
         time: { elapsed: 34, extra: null },
         team: base.teams.away,
-        player: { name: awayName === "São Paulo" ? "Luciano" : "Jogador B" },
+        player: { name: "Jogador B" },
         assist: { name: null },
         type: "Card",
         detail: "Yellow Card",

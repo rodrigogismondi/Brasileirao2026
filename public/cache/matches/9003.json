@@ -1,15 +1,15 @@
 {
   "fixture": {
     "id": 9003,
-    "timestamp": 1785090600,
+    "timestamp": 1785101400,
     "venue": {
-      "name": "Arena do Grêmio",
-      "city": "Porto Alegre"
+      "name": "Cícero de Souza Marques",
+      "city": "Bragança Paulista"
     },
     "status": {
-      "long": "NS",
-      "short": "NS",
-      "elapsed": null
+      "long": "2H",
+      "short": "2H",
+      "elapsed": 68
     }
   },
   "league": {
@@ -17,24 +17,24 @@
   },
   "teams": {
     "home": {
-      "id": 130,
-      "name": "Grêmio",
-      "logo": "https://media.api-sports.io/football/teams/130.png"
+      "id": 794,
+      "name": "Bragantino",
+      "logo": "https://media.api-sports.io/football/teams/794.png"
     },
     "away": {
-      "id": 124,
-      "name": "Fluminense",
-      "logo": "https://media.api-sports.io/football/teams/124.png"
+      "id": 147,
+      "name": "Coritiba",
+      "logo": "https://media.api-sports.io/football/teams/147.png"
     }
   },
   "goals": {
-    "home": null,
-    "away": null
+    "home": 0,
+    "away": 0
   },
   "score": {
     "halftime": {
-      "home": null,
-      "away": null
+      "home": 0,
+      "away": 0
     },
     "fulltime": {
       "home": null,
@@ -48,9 +48,9 @@
         "extra": null
       },
       "team": {
-        "id": 130,
-        "name": "Grêmio",
-        "logo": "https://media.api-sports.io/football/teams/130.png"
+        "id": 794,
+        "name": "Bragantino",
+        "logo": "https://media.api-sports.io/football/teams/794.png"
       },
       "player": {
         "name": "Jogador A"
@@ -67,9 +67,9 @@
         "extra": null
       },
       "team": {
-        "id": 124,
-        "name": "Fluminense",
-        "logo": "https://media.api-sports.io/football/teams/124.png"
+        "id": 147,
+        "name": "Coritiba",
+        "logo": "https://media.api-sports.io/football/teams/147.png"
       },
       "player": {
         "name": "Jogador B"
@@ -86,9 +86,9 @@
         "extra": null
       },
       "team": {
-        "id": 124,
-        "name": "Fluminense",
-        "logo": "https://media.api-sports.io/football/teams/124.png"
+        "id": 147,
+        "name": "Coritiba",
+        "logo": "https://media.api-sports.io/football/teams/147.png"
       },
       "player": {
         "name": "Atacante"
@@ -103,9 +103,9 @@
   "lineups": [
     {
       "team": {
-        "id": 130,
-        "name": "Grêmio",
-        "logo": "https://media.api-sports.io/football/teams/130.png"
+        "id": 794,
+        "name": "Bragantino",
+        "logo": "https://media.api-sports.io/football/teams/794.png"
       },
       "formation": "4-2-3-1",
       "coach": {
@@ -214,9 +214,9 @@
     },
     {
       "team": {
-        "id": 124,
-        "name": "Fluminense",
-        "logo": "https://media.api-sports.io/football/teams/124.png"
+        "id": 147,
+        "name": "Coritiba",
+        "logo": "https://media.api-sports.io/football/teams/147.png"
       },
       "formation": "4-3-3",
       "coach": {
@@ -327,9 +327,9 @@
   "statistics": [
     {
       "team": {
-        "id": 130,
-        "name": "Grêmio",
-        "logo": "https://media.api-sports.io/football/teams/130.png"
+        "id": 794,
+        "name": "Bragantino",
+        "logo": "https://media.api-sports.io/football/teams/794.png"
       },
       "statistics": [
         {
@@ -368,9 +368,9 @@
     },
     {
       "team": {
-        "id": 124,
-        "name": "Fluminense",
-        "logo": "https://media.api-sports.io/football/teams/124.png"
+        "id": 147,
+        "name": "Coritiba",
+        "logo": "https://media.api-sports.io/football/teams/147.png"
       },
       "statistics": [
         {

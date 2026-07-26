@@ -1,22 +1,33 @@
 /**
  * Seeds public/cache for GitHub Pages demo mode.
- * Keep crest IDs in sync with server/demo-data.ts (verified API-Sports IDs).
+ * Keep crest IDs / slate in sync with server/demo-data.ts.
+ *
+ * Kickoff wall times are America/Sao_Paulo; stored as UTC so the UI can
+ * render them in the viewer's local timezone (e.g. Louisiana).
  */
 import { writeFileSync, mkdirSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 
-function tsToday(hour, minute = 0) {
-  const d = new Date();
-  d.setHours(hour, minute, 0, 0);
-  return Math.floor(d.getTime() / 1000);
-}
-
-function tsDays(daysFromNow, hour = 16) {
-  const d = new Date();
-  d.setDate(d.getDate() + daysFromNow);
-  d.setHours(hour, 0, 0, 0);
-  return Math.floor(d.getTime() / 1000);
+function tsBrazil(dayOffset, hour, minute = 0) {
+  const fmt = new Intl.DateTimeFormat("en-CA", {
+    timeZone: "America/Sao_Paulo",
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit",
+  });
+  const parts = Object.fromEntries(
+    fmt
+      .formatToParts(new Date())
+      .filter((p) => p.type !== "literal")
+      .map((p) => [p.type, p.value])
+  );
+  const baseUtc = Date.UTC(Number(parts.year), Number(parts.month) - 1, Number(parts.day), 12, 0, 0);
+  const shifted = new Date(baseUtc + dayOffset * 86_400_000);
+  const y = shifted.getUTCFullYear();
+  const m = shifted.getUTCMonth();
+  const d = shifted.getUTCDate();
+  return Math.floor(Date.UTC(y, m, d, hour + 3, minute, 0) / 1000);
 }
 
 const teams = [
@@ -40,6 +51,7 @@ const teams = [
   { id: 134, name: "Athletico-PR", logo: "https://media.api-sports.io/football/teams/134.png" },
   { id: 129, name: "Ceará", logo: "https://media.api-sports.io/football/teams/129.png" },
   { id: 147, name: "Coritiba", logo: "https://media.api-sports.io/football/teams/147.png" },
+  { id: 1198, name: "Remo", logo: "https://media.api-sports.io/football/teams/1198.png" },
 ];
 
 const byName = Object.fromEntries(teams.map((t) => [t.name, t]));
@@ -59,10 +71,7 @@ function fixture(id, home, away, status, goals, timestamp, round, venue, city = 
     },
     goals: { home: goals[0], away: goals[1] },
     score: {
-      halftime: {
-        home: goals[0] != null ? Math.floor(goals[0] / 2) : null,
-        away: goals[1] != null ? Math.floor(goals[1] / 2) : null,
-      },
+      halftime: { home: goals[0], away: goals[1] },
       fulltime: {
         home: status.short === "FT" ? goals[0] : null,
         away: status.short === "FT" ? goals[1] : null,
@@ -72,21 +81,21 @@ function fixture(id, home, away, status, goals, timestamp, round, venue, city = 
 }
 
 const fixtures = [
-  fixture(9001, byName.Bragantino, byName.Coritiba, { short: "HT", elapsed: 45 }, [0, 0], tsToday(16, 0), "Regular Season - 20", "Cícero de Souza Marques", "Bragança Paulista"),
-  fixture(9002, byName.Flamengo, byName["São Paulo"], { short: "NS", elapsed: null }, [null, null], tsToday(18, 30), "Regular Season - 20", "Maracanã", "Rio de Janeiro"),
-  fixture(9003, byName.Grêmio, byName.Fluminense, { short: "NS", elapsed: null }, [null, null], tsToday(18, 30), "Regular Season - 20", "Arena do Grêmio", "Porto Alegre"),
-  fixture(9004, byName.Palmeiras, byName["Atlético-MG"], { short: "1H", elapsed: 22 }, [0, 0], tsToday(19, 30), "Regular Season - 20", "Allianz Parque", "São Paulo"),
-  fixture(9005, byName.Corinthians, byName.Bahia, { short: "FT", elapsed: 90 }, [2, 1], tsDays(-1, 16), "Regular Season - 19", "Neo Química Arena", "São Paulo"),
-  fixture(9006, byName.Botafogo, byName.Santos, { short: "FT", elapsed: 90 }, [1, 0], tsDays(-1, 18), "Regular Season - 19", "Nilton Santos", "Rio de Janeiro"),
-  fixture(9007, byName.Cruzeiro, byName.Internacional, { short: "NS", elapsed: null }, [null, null], tsDays(1, 16), "Regular Season - 21", "Mineirão", "Belo Horizonte"),
-  fixture(9008, byName.Vasco, byName.Fortaleza, { short: "NS", elapsed: null }, [null, null], tsDays(1, 18), "Regular Season - 21", "São Januário", "Rio de Janeiro"),
+  fixture(9001, byName.Bahia, byName.Corinthians, { short: "FT", elapsed: 90 }, [1, 1], tsBrazil(0, 16, 0), "Regular Season - 20", "Fonte Nova", "Salvador"),
+  fixture(9002, byName.Cruzeiro, byName.Botafogo, { short: "FT", elapsed: 90 }, [0, 1], tsBrazil(0, 16, 0), "Regular Season - 20", "Mineirão", "Belo Horizonte"),
+  fixture(9003, byName.Bragantino, byName.Coritiba, { short: "2H", elapsed: 68 }, [0, 0], tsBrazil(0, 18, 30), "Regular Season - 20", "Cícero de Souza Marques", "Bragança Paulista"),
+  fixture(9004, byName.Flamengo, byName["São Paulo"], { short: "2H", elapsed: 67 }, [0, 0], tsBrazil(0, 18, 30), "Regular Season - 20", "Maracanã", "Rio de Janeiro"),
+  fixture(9005, byName.Grêmio, byName.Fluminense, { short: "2H", elapsed: 66 }, [0, 0], tsBrazil(0, 18, 30), "Regular Season - 20", "Arena do Grêmio", "Porto Alegre"),
+  fixture(9006, byName.Palmeiras, byName["Atlético-MG"], { short: "1H", elapsed: 22 }, [0, 0], tsBrazil(0, 19, 30), "Regular Season - 20", "Nubank Parque", "São Paulo"),
+  fixture(9007, byName.Remo, byName.Vitória, { short: "1H", elapsed: 18 }, [0, 0], tsBrazil(0, 19, 30), "Regular Season - 20", "Mangueirão", "Belém"),
+  fixture(9008, byName.Vasco, byName.Fortaleza, { short: "NS", elapsed: null }, [null, null], tsBrazil(1, 16, 0), "Regular Season - 21", "São Januário", "Rio de Janeiro"),
 ];
 
 const standings = [
   {
     league: {
       standings: [
-        teams.map((t, i) => ({
+        teams.slice(0, 20).map((t, i) => ({
           rank: i + 1,
           team: { id: t.id, name: t.name, logo: t.logo },
           points: 40 - i,
@@ -96,7 +105,7 @@ const standings = [
             win: Math.max(0, 12 - Math.floor(i / 2)),
             draw: 3,
             lose: 2 + Math.floor(i / 3),
-            goals: { for: 32 - i, against: 18 + Math.floor(i / 2) },
+            goals: { for: 32 - i, against: 16 + Math.floor(i / 2) },
           },
           form: "WWDWL",
           description:
@@ -228,4 +237,14 @@ writeFileSync(join(cacheDir, "dashboard.json"), JSON.stringify(payload, null, 2)
 for (const f of fixtures) {
   writeFileSync(join(matchesDir, `${f.fixture.id}.json`), JSON.stringify(matchDetail(f), null, 2));
 }
+
+// Sanity: 18:30 BRT → 16:30 America/Chicago (Louisiana CDT in July)
+const fla = fixtures.find((f) => f.teams.home.name === "Flamengo");
+const chicago = new Date(fla.fixture.timestamp * 1000).toLocaleString("en-US", {
+  timeZone: "America/Chicago",
+  hour: "numeric",
+  minute: "2-digit",
+  hour12: true,
+});
 console.log("Wrote demo cache +", fixtures.length, "match details");
+console.log("Flamengo kickoff in Louisiana (America/Chicago):", chicago);

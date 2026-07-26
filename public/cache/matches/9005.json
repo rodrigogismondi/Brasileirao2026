@@ -1,44 +1,44 @@
 {
   "fixture": {
     "id": 9005,
-    "timestamp": 1784995200,
+    "timestamp": 1785101400,
     "venue": {
-      "name": "Neo Química Arena",
-      "city": "São Paulo"
+      "name": "Arena do Grêmio",
+      "city": "Porto Alegre"
     },
     "status": {
-      "long": "FT",
-      "short": "FT",
-      "elapsed": 90
+      "long": "2H",
+      "short": "2H",
+      "elapsed": 66
     }
   },
   "league": {
-    "round": "Regular Season - 19"
+    "round": "Regular Season - 20"
   },
   "teams": {
     "home": {
-      "id": 131,
-      "name": "Corinthians",
-      "logo": "https://media.api-sports.io/football/teams/131.png"
+      "id": 130,
+      "name": "Grêmio",
+      "logo": "https://media.api-sports.io/football/teams/130.png"
     },
     "away": {
-      "id": 118,
-      "name": "Bahia",
-      "logo": "https://media.api-sports.io/football/teams/118.png"
+      "id": 124,
+      "name": "Fluminense",
+      "logo": "https://media.api-sports.io/football/teams/124.png"
     }
   },
   "goals": {
-    "home": 2,
-    "away": 1
+    "home": 0,
+    "away": 0
   },
   "score": {
     "halftime": {
-      "home": 1,
+      "home": 0,
       "away": 0
     },
     "fulltime": {
-      "home": 2,
-      "away": 1
+      "home": null,
+      "away": null
     }
   },
   "events": [
@@ -48,9 +48,9 @@
         "extra": null
       },
       "team": {
-        "id": 131,
-        "name": "Corinthians",
-        "logo": "https://media.api-sports.io/football/teams/131.png"
+        "id": 130,
+        "name": "Grêmio",
+        "logo": "https://media.api-sports.io/football/teams/130.png"
       },
       "player": {
         "name": "Jogador A"
@@ -67,9 +67,9 @@
         "extra": null
       },
       "team": {
-        "id": 118,
-        "name": "Bahia",
-        "logo": "https://media.api-sports.io/football/teams/118.png"
+        "id": 124,
+        "name": "Fluminense",
+        "logo": "https://media.api-sports.io/football/teams/124.png"
       },
       "player": {
         "name": "Jogador B"
@@ -86,9 +86,9 @@
         "extra": null
       },
       "team": {
-        "id": 118,
-        "name": "Bahia",
-        "logo": "https://media.api-sports.io/football/teams/118.png"
+        "id": 124,
+        "name": "Fluminense",
+        "logo": "https://media.api-sports.io/football/teams/124.png"
       },
       "player": {
         "name": "Atacante"
@@ -103,9 +103,9 @@
   "lineups": [
     {
       "team": {
-        "id": 131,
-        "name": "Corinthians",
-        "logo": "https://media.api-sports.io/football/teams/131.png"
+        "id": 130,
+        "name": "Grêmio",
+        "logo": "https://media.api-sports.io/football/teams/130.png"
       },
       "formation": "4-2-3-1",
       "coach": {
@@ -214,9 +214,9 @@
     },
     {
       "team": {
-        "id": 118,
-        "name": "Bahia",
-        "logo": "https://media.api-sports.io/football/teams/118.png"
+        "id": 124,
+        "name": "Fluminense",
+        "logo": "https://media.api-sports.io/football/teams/124.png"
       },
       "formation": "4-3-3",
       "coach": {
@@ -327,9 +327,9 @@
   "statistics": [
     {
       "team": {
-        "id": 131,
-        "name": "Corinthians",
-        "logo": "https://media.api-sports.io/football/teams/131.png"
+        "id": 130,
+        "name": "Grêmio",
+        "logo": "https://media.api-sports.io/football/teams/130.png"
       },
       "statistics": [
         {
@@ -368,9 +368,9 @@
     },
     {
       "team": {
-        "id": 118,
-        "name": "Bahia",
-        "logo": "https://media.api-sports.io/football/teams/118.png"
+        "id": 124,
+        "name": "Fluminense",
+        "logo": "https://media.api-sports.io/football/teams/124.png"
       },
       "statistics": [
         {

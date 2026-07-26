@@ -23,6 +23,7 @@ export function isMatchUpcoming(m: Match): boolean {
   return m.datetime * 1000 > Date.now();
 }
 
+/** Kickoff in the viewer's local timezone (device TZ — e.g. Louisiana). */
 export function formatKickoff(match: Match, lang: Lang): string {
   const d = new Date(match.datetime * 1000);
   const formatted = d.toLocaleString(LOCALE[lang], {

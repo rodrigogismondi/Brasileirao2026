@@ -1,15 +1,15 @@
 {
   "fixture": {
     "id": 9001,
-    "timestamp": 1785081600,
+    "timestamp": 1785092400,
     "venue": {
-      "name": "Cícero de Souza Marques",
-      "city": "Bragança Paulista"
+      "name": "Fonte Nova",
+      "city": "Salvador"
     },
     "status": {
-      "long": "HT",
-      "short": "HT",
-      "elapsed": 45
+      "long": "FT",
+      "short": "FT",
+      "elapsed": 90
     }
   },
   "league": {
@@ -17,28 +17,28 @@
   },
   "teams": {
     "home": {
-      "id": 794,
-      "name": "Bragantino",
-      "logo": "https://media.api-sports.io/football/teams/794.png"
+      "id": 118,
+      "name": "Bahia",
+      "logo": "https://media.api-sports.io/football/teams/118.png"
     },
     "away": {
-      "id": 147,
-      "name": "Coritiba",
-      "logo": "https://media.api-sports.io/football/teams/147.png"
+      "id": 131,
+      "name": "Corinthians",
+      "logo": "https://media.api-sports.io/football/teams/131.png"
     }
   },
   "goals": {
-    "home": 0,
-    "away": 0
+    "home": 1,
+    "away": 1
   },
   "score": {
     "halftime": {
-      "home": 0,
-      "away": 0
+      "home": 1,
+      "away": 1
     },
     "fulltime": {
-      "home": null,
-      "away": null
+      "home": 1,
+      "away": 1
     }
   },
   "events": [
@@ -48,9 +48,9 @@
         "extra": null
       },
       "team": {
-        "id": 794,
-        "name": "Bragantino",
-        "logo": "https://media.api-sports.io/football/teams/794.png"
+        "id": 118,
+        "name": "Bahia",
+        "logo": "https://media.api-sports.io/football/teams/118.png"
       },
       "player": {
         "name": "Jogador A"
@@ -67,9 +67,9 @@
         "extra": null
       },
       "team": {
-        "id": 147,
-        "name": "Coritiba",
-        "logo": "https://media.api-sports.io/football/teams/147.png"
+        "id": 131,
+        "name": "Corinthians",
+        "logo": "https://media.api-sports.io/football/teams/131.png"
       },
       "player": {
         "name": "Jogador B"
@@ -86,9 +86,9 @@
         "extra": null
       },
       "team": {
-        "id": 147,
-        "name": "Coritiba",
-        "logo": "https://media.api-sports.io/football/teams/147.png"
+        "id": 131,
+        "name": "Corinthians",
+        "logo": "https://media.api-sports.io/football/teams/131.png"
       },
       "player": {
         "name": "Atacante"
@@ -103,9 +103,9 @@
   "lineups": [
     {
       "team": {
-        "id": 794,
-        "name": "Bragantino",
-        "logo": "https://media.api-sports.io/football/teams/794.png"
+        "id": 118,
+        "name": "Bahia",
+        "logo": "https://media.api-sports.io/football/teams/118.png"
       },
       "formation": "4-2-3-1",
       "coach": {
@@ -214,9 +214,9 @@
     },
     {
       "team": {
-        "id": 147,
-        "name": "Coritiba",
-        "logo": "https://media.api-sports.io/football/teams/147.png"
+        "id": 131,
+        "name": "Corinthians",
+        "logo": "https://media.api-sports.io/football/teams/131.png"
       },
       "formation": "4-3-3",
       "coach": {
@@ -327,9 +327,9 @@
   "statistics": [
     {
       "team": {
-        "id": 794,
-        "name": "Bragantino",
-        "logo": "https://media.api-sports.io/football/teams/794.png"
+        "id": 118,
+        "name": "Bahia",
+        "logo": "https://media.api-sports.io/football/teams/118.png"
       },
       "statistics": [
         {
@@ -368,9 +368,9 @@
     },
     {
       "team": {
-        "id": 147,
-        "name": "Coritiba",
-        "logo": "https://media.api-sports.io/football/teams/147.png"
+        "id": 131,
+        "name": "Corinthians",
+        "logo": "https://media.api-sports.io/football/teams/131.png"
       },
       "statistics": [
         {

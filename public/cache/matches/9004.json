@@ -1,15 +1,15 @@
 {
   "fixture": {
     "id": 9004,
-    "timestamp": 1785094200,
+    "timestamp": 1785101400,
     "venue": {
-      "name": "Allianz Parque",
-      "city": "São Paulo"
+      "name": "Maracanã",
+      "city": "Rio de Janeiro"
     },
     "status": {
-      "long": "1H",
-      "short": "1H",
-      "elapsed": 22
+      "long": "2H",
+      "short": "2H",
+      "elapsed": 67
     }
   },
   "league": {
@@ -17,14 +17,14 @@
   },
   "teams": {
     "home": {
-      "id": 121,
-      "name": "Palmeiras",
-      "logo": "https://media.api-sports.io/football/teams/121.png"
+      "id": 127,
+      "name": "Flamengo",
+      "logo": "https://media.api-sports.io/football/teams/127.png"
     },
     "away": {
-      "id": 1062,
-      "name": "Atlético-MG",
-      "logo": "https://media.api-sports.io/football/teams/1062.png"
+      "id": 126,
+      "name": "São Paulo",
+      "logo": "https://media.api-sports.io/football/teams/126.png"
     }
   },
   "goals": {
@@ -48,9 +48,9 @@
         "extra": null
       },
       "team": {
-        "id": 121,
-        "name": "Palmeiras",
-        "logo": "https://media.api-sports.io/football/teams/121.png"
+        "id": 127,
+        "name": "Flamengo",
+        "logo": "https://media.api-sports.io/football/teams/127.png"
       },
       "player": {
         "name": "Jogador A"
@@ -67,9 +67,9 @@
         "extra": null
       },
       "team": {
-        "id": 1062,
-        "name": "Atlético-MG",
-        "logo": "https://media.api-sports.io/football/teams/1062.png"
+        "id": 126,
+        "name": "São Paulo",
+        "logo": "https://media.api-sports.io/football/teams/126.png"
       },
       "player": {
         "name": "Jogador B"
@@ -86,9 +86,9 @@
         "extra": null
       },
       "team": {
-        "id": 1062,
-        "name": "Atlético-MG",
-        "logo": "https://media.api-sports.io/football/teams/1062.png"
+        "id": 126,
+        "name": "São Paulo",
+        "logo": "https://media.api-sports.io/football/teams/126.png"
       },
       "player": {
         "name": "Atacante"
@@ -103,9 +103,9 @@
   "lineups": [
     {
       "team": {
-        "id": 121,
-        "name": "Palmeiras",
-        "logo": "https://media.api-sports.io/football/teams/121.png"
+        "id": 127,
+        "name": "Flamengo",
+        "logo": "https://media.api-sports.io/football/teams/127.png"
       },
       "formation": "4-2-3-1",
       "coach": {
@@ -214,9 +214,9 @@
     },
     {
       "team": {
-        "id": 1062,
-        "name": "Atlético-MG",
-        "logo": "https://media.api-sports.io/football/teams/1062.png"
+        "id": 126,
+        "name": "São Paulo",
+        "logo": "https://media.api-sports.io/football/teams/126.png"
       },
       "formation": "4-3-3",
       "coach": {
@@ -327,9 +327,9 @@
   "statistics": [
     {
       "team": {
-        "id": 121,
-        "name": "Palmeiras",
-        "logo": "https://media.api-sports.io/football/teams/121.png"
+        "id": 127,
+        "name": "Flamengo",
+        "logo": "https://media.api-sports.io/football/teams/127.png"
       },
       "statistics": [
         {
@@ -368,9 +368,9 @@
     },
     {
       "team": {
-        "id": 1062,
-        "name": "Atlético-MG",
-        "logo": "https://media.api-sports.io/football/teams/1062.png"
+        "id": 126,
+        "name": "São Paulo",
+        "logo": "https://media.api-sports.io/football/teams/126.png"
       },
       "statistics": [
         {

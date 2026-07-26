@@ -1,0 +1,476 @@
+{
+  "fixture": {
+    "id": 9008,
+    "timestamp": 1785254400,
+    "venue": {
+      "name": "Estádio Demo",
+      "city": "Brasil"
+    },
+    "status": {
+      "long": "NS",
+      "short": "NS",
+      "elapsed": null
+    }
+  },
+  "league": {
+    "round": "Regular Season - 16"
+  },
+  "teams": {
+    "home": {
+      "id": 129,
+      "name": "Bragantino",
+      "logo": "https://media.api-sports.io/football/teams/129.png"
+    },
+    "away": {
+      "id": 136,
+      "name": "Vitória",
+      "logo": "https://media.api-sports.io/football/teams/136.png"
+    }
+  },
+  "goals": {
+    "home": null,
+    "away": null
+  },
+  "score": {
+    "halftime": {
+      "home": null,
+      "away": null
+    },
+    "fulltime": {
+      "home": null,
+      "away": null
+    }
+  },
+  "events": [
+    {
+      "time": {
+        "elapsed": 12,
+        "extra": null
+      },
+      "team": {
+        "id": 129,
+        "name": "Bragantino",
+        "logo": "https://media.api-sports.io/football/teams/129.png"
+      },
+      "player": {
+        "name": "Pedro"
+      },
+      "assist": {
+        "name": "Arrascaeta"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal"
+    },
+    {
+      "time": {
+        "elapsed": 34,
+        "extra": null
+      },
+      "team": {
+        "id": 136,
+        "name": "Vitória",
+        "logo": "https://media.api-sports.io/football/teams/136.png"
+      },
+      "player": {
+        "name": "Veiga"
+      },
+      "assist": {
+        "name": null
+      },
+      "type": "Card",
+      "detail": "Yellow Card"
+    },
+    {
+      "time": {
+        "elapsed": 51,
+        "extra": null
+      },
+      "team": {
+        "id": 136,
+        "name": "Vitória",
+        "logo": "https://media.api-sports.io/football/teams/136.png"
+      },
+      "player": {
+        "name": "Rony"
+      },
+      "assist": {
+        "name": "Estêvão"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal"
+    },
+    {
+      "time": {
+        "elapsed": 63,
+        "extra": null
+      },
+      "team": {
+        "id": 129,
+        "name": "Bragantino",
+        "logo": "https://media.api-sports.io/football/teams/129.png"
+      },
+      "player": {
+        "name": "Bruno Henrique"
+      },
+      "assist": {
+        "name": "Gerson"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal"
+    },
+    {
+      "time": {
+        "elapsed": 70,
+        "extra": null
+      },
+      "team": {
+        "id": 129,
+        "name": "Bragantino",
+        "logo": "https://media.api-sports.io/football/teams/129.png"
+      },
+      "player": {
+        "name": "Plata"
+      },
+      "assist": {
+        "name": "Luiz Araújo"
+      },
+      "type": "subst",
+      "detail": "Substitution 1"
+    },
+    {
+      "time": {
+        "elapsed": 78,
+        "extra": null
+      },
+      "team": {
+        "id": 136,
+        "name": "Vitória",
+        "logo": "https://media.api-sports.io/football/teams/136.png"
+      },
+      "player": {
+        "name": "Flaco López"
+      },
+      "assist": {
+        "name": null
+      },
+      "type": "Card",
+      "detail": "Red Card"
+    }
+  ],
+  "lineups": [
+    {
+      "team": {
+        "id": 129,
+        "name": "Bragantino",
+        "logo": "https://media.api-sports.io/football/teams/129.png"
+      },
+      "formation": "4-2-3-1",
+      "coach": {
+        "name": "Filipe Luís"
+      },
+      "startXI": [
+        {
+          "player": {
+            "name": "Rossi",
+            "number": 1,
+            "pos": "G",
+            "grid": "1:1"
+          }
+        },
+        {
+          "player": {
+            "name": "Varela",
+            "number": 2,
+            "pos": "D",
+            "grid": "2:4"
+          }
+        },
+        {
+          "player": {
+            "name": "Léo Ortiz",
+            "number": 3,
+            "pos": "D",
+            "grid": "2:3"
+          }
+        },
+        {
+          "player": {
+            "name": "Léo Pereira",
+            "number": 4,
+            "pos": "D",
+            "grid": "2:2"
+          }
+        },
+        {
+          "player": {
+            "name": "Ayrton Lucas",
+            "number": 6,
+            "pos": "D",
+            "grid": "2:1"
+          }
+        },
+        {
+          "player": {
+            "name": "Pulgar",
+            "number": 5,
+            "pos": "M",
+            "grid": "3:2"
+          }
+        },
+        {
+          "player": {
+            "name": "De la Cruz",
+            "number": 18,
+            "pos": "M",
+            "grid": "3:1"
+          }
+        },
+        {
+          "player": {
+            "name": "Luiz Araújo",
+            "number": 7,
+            "pos": "M",
+            "grid": "4:3"
+          }
+        },
+        {
+          "player": {
+            "name": "Arrascaeta",
+            "number": 14,
+            "pos": "M",
+            "grid": "4:2"
+          }
+        },
+        {
+          "player": {
+            "name": "Plata",
+            "number": 9,
+            "pos": "M",
+            "grid": "4:1"
+          }
+        },
+        {
+          "player": {
+            "name": "Pedro",
+            "number": 21,
+            "pos": "F",
+            "grid": "5:1"
+          }
+        }
+      ],
+      "substitutes": [
+        {
+          "player": {
+            "name": "Bruno Henrique",
+            "number": 27,
+            "pos": "F",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "name": "Gerson",
+            "number": 8,
+            "pos": "M",
+            "grid": null
+          }
+        }
+      ]
+    },
+    {
+      "team": {
+        "id": 136,
+        "name": "Vitória",
+        "logo": "https://media.api-sports.io/football/teams/136.png"
+      },
+      "formation": "4-3-3",
+      "coach": {
+        "name": "Abel Ferreira"
+      },
+      "startXI": [
+        {
+          "player": {
+            "name": "Weverton",
+            "number": 21,
+            "pos": "G",
+            "grid": "1:1"
+          }
+        },
+        {
+          "player": {
+            "name": "Mayke",
+            "number": 12,
+            "pos": "D",
+            "grid": "2:4"
+          }
+        },
+        {
+          "player": {
+            "name": "Gustavo Gómez",
+            "number": 15,
+            "pos": "D",
+            "grid": "2:3"
+          }
+        },
+        {
+          "player": {
+            "name": "Murilo",
+            "number": 26,
+            "pos": "D",
+            "grid": "2:2"
+          }
+        },
+        {
+          "player": {
+            "name": "Piquerez",
+            "number": 22,
+            "pos": "D",
+            "grid": "2:1"
+          }
+        },
+        {
+          "player": {
+            "name": "Zé Rafael",
+            "number": 8,
+            "pos": "M",
+            "grid": "3:3"
+          }
+        },
+        {
+          "player": {
+            "name": "Aníbal Moreno",
+            "number": 5,
+            "pos": "M",
+            "grid": "3:2"
+          }
+        },
+        {
+          "player": {
+            "name": "Veiga",
+            "number": 23,
+            "pos": "M",
+            "grid": "3:1"
+          }
+        },
+        {
+          "player": {
+            "name": "Estêvão",
+            "number": 41,
+            "pos": "F",
+            "grid": "4:3"
+          }
+        },
+        {
+          "player": {
+            "name": "Rony",
+            "number": 10,
+            "pos": "F",
+            "grid": "4:2"
+          }
+        },
+        {
+          "player": {
+            "name": "Flaco López",
+            "number": 42,
+            "pos": "F",
+            "grid": "4:1"
+          }
+        }
+      ],
+      "substitutes": [
+        {
+          "player": {
+            "name": "Felipe Anderson",
+            "number": 9,
+            "pos": "F",
+            "grid": null
+          }
+        }
+      ]
+    }
+  ],
+  "statistics": [
+    {
+      "team": {
+        "id": 129,
+        "name": "Bragantino",
+        "logo": "https://media.api-sports.io/football/teams/129.png"
+      },
+      "statistics": [
+        {
+          "type": "Ball Possession",
+          "value": "58%"
+        },
+        {
+          "type": "Total Shots",
+          "value": 14
+        },
+        {
+          "type": "Shots on Goal",
+          "value": 6
+        },
+        {
+          "type": "Corner Kicks",
+          "value": 5
+        },
+        {
+          "type": "Fouls",
+          "value": 11
+        },
+        {
+          "type": "Yellow Cards",
+          "value": 1
+        },
+        {
+          "type": "Red Cards",
+          "value": 0
+        },
+        {
+          "type": "Pass Accuracy",
+          "value": "86%"
+        }
+      ]
+    },
+    {
+      "team": {
+        "id": 136,
+        "name": "Vitória",
+        "logo": "https://media.api-sports.io/football/teams/136.png"
+      },
+      "statistics": [
+        {
+          "type": "Ball Possession",
+          "value": "42%"
+        },
+        {
+          "type": "Total Shots",
+          "value": 9
+        },
+        {
+          "type": "Shots on Goal",
+          "value": 3
+        },
+        {
+          "type": "Corner Kicks",
+          "value": 3
+        },
+        {
+          "type": "Fouls",
+          "value": 14
+        },
+        {
+          "type": "Yellow Cards",
+          "value": 2
+        },
+        {
+          "type": "Red Cards",
+          "value": 1
+        },
+        {
+          "type": "Pass Accuracy",
+          "value": "81%"
+        }
+      ]
+    }
+  ]
+}

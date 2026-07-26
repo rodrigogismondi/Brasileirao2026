@@ -162,12 +162,12 @@
         }
       },
       "goals": {
-        "home": 0,
+        "home": 1,
         "away": 0
       },
       "score": {
         "halftime": {
-          "home": 0,
+          "home": 1,
           "away": 0
         },
         "fulltime": {
@@ -374,7 +374,7 @@
                 "lose": 2,
                 "goals": {
                   "for": 32,
-                  "against": 16
+                  "against": 18
                 }
               },
               "form": "WWDWL",
@@ -396,7 +396,7 @@
                 "lose": 2,
                 "goals": {
                   "for": 31,
-                  "against": 16
+                  "against": 18
                 }
               },
               "form": "WWDWL",
@@ -418,7 +418,7 @@
                 "lose": 2,
                 "goals": {
                   "for": 30,
-                  "against": 17
+                  "against": 19
                 }
               },
               "form": "WWDWL",
@@ -440,7 +440,7 @@
                 "lose": 3,
                 "goals": {
                   "for": 29,
-                  "against": 17
+                  "against": 19
                 }
               },
               "form": "WWDWL",
@@ -462,7 +462,7 @@
                 "lose": 3,
                 "goals": {
                   "for": 28,
-                  "against": 18
+                  "against": 20
                 }
               },
               "form": "WWDWL",
@@ -484,7 +484,7 @@
                 "lose": 3,
                 "goals": {
                   "for": 27,
-                  "against": 18
+                  "against": 20
                 }
               },
               "form": "WWDWL",
@@ -506,7 +506,7 @@
                 "lose": 4,
                 "goals": {
                   "for": 26,
-                  "against": 19
+                  "against": 21
                 }
               },
               "form": "WWDWL",
@@ -528,7 +528,7 @@
                 "lose": 4,
                 "goals": {
                   "for": 25,
-                  "against": 19
+                  "against": 21
                 }
               },
               "form": "WWDWL",
@@ -550,7 +550,7 @@
                 "lose": 4,
                 "goals": {
                   "for": 24,
-                  "against": 20
+                  "against": 22
                 }
               },
               "form": "WWDWL",
@@ -572,7 +572,7 @@
                 "lose": 5,
                 "goals": {
                   "for": 23,
-                  "against": 20
+                  "against": 22
                 }
               },
               "form": "WWDWL",
@@ -594,7 +594,7 @@
                 "lose": 5,
                 "goals": {
                   "for": 22,
-                  "against": 21
+                  "against": 23
                 }
               },
               "form": "WWDWL",
@@ -616,7 +616,7 @@
                 "lose": 5,
                 "goals": {
                   "for": 21,
-                  "against": 21
+                  "against": 23
                 }
               },
               "form": "WWDWL",
@@ -638,7 +638,7 @@
                 "lose": 6,
                 "goals": {
                   "for": 20,
-                  "against": 22
+                  "against": 24
                 }
               },
               "form": "WWDWL",
@@ -660,7 +660,7 @@
                 "lose": 6,
                 "goals": {
                   "for": 19,
-                  "against": 22
+                  "against": 24
                 }
               },
               "form": "WWDWL",
@@ -682,7 +682,7 @@
                 "lose": 6,
                 "goals": {
                   "for": 18,
-                  "against": 23
+                  "against": 25
                 }
               },
               "form": "WWDWL",
@@ -704,7 +704,7 @@
                 "lose": 7,
                 "goals": {
                   "for": 17,
-                  "against": 23
+                  "against": 25
                 }
               },
               "form": "WWDWL",
@@ -726,7 +726,7 @@
                 "lose": 7,
                 "goals": {
                   "for": 16,
-                  "against": 24
+                  "against": 26
                 }
               },
               "form": "WWDWL",
@@ -748,7 +748,7 @@
                 "lose": 7,
                 "goals": {
                   "for": 15,
-                  "against": 24
+                  "against": 26
                 }
               },
               "form": "WWDWL",
@@ -770,7 +770,7 @@
                 "lose": 8,
                 "goals": {
                   "for": 14,
-                  "against": 25
+                  "against": 27
                 }
               },
               "form": "WWDWL",
@@ -792,7 +792,7 @@
                 "lose": 8,
                 "goals": {
                   "for": 13,
-                  "against": 25
+                  "against": 27
                 }
               },
               "form": "WWDWL",
@@ -815,6 +815,7 @@
           "team": {
             "id": 127,
             "name": "Flamengo",
+            "code": "FLA",
             "logo": "https://media.api-sports.io/football/teams/127.png"
           },
           "goals": {
@@ -837,6 +838,7 @@
           "team": {
             "id": 131,
             "name": "Corinthians",
+            "code": "COR",
             "logo": "https://media.api-sports.io/football/teams/131.png"
           },
           "goals": {
@@ -859,6 +861,7 @@
           "team": {
             "id": 1062,
             "name": "Atlético-MG",
+            "code": "CAM",
             "logo": "https://media.api-sports.io/football/teams/1062.png"
           },
           "goals": {
@@ -881,6 +884,7 @@
           "team": {
             "id": 121,
             "name": "Palmeiras",
+            "code": "PAL",
             "logo": "https://media.api-sports.io/football/teams/121.png"
           },
           "goals": {
@@ -903,6 +907,7 @@
           "team": {
             "id": 126,
             "name": "São Paulo",
+            "code": "SAO",
             "logo": "https://media.api-sports.io/football/teams/126.png"
           },
           "goals": {
@@ -927,6 +932,7 @@
           "team": {
             "id": 127,
             "name": "Flamengo",
+            "code": "FLA",
             "logo": "https://media.api-sports.io/football/teams/127.png"
           },
           "goals": {
@@ -949,6 +955,7 @@
           "team": {
             "id": 121,
             "name": "Palmeiras",
+            "code": "PAL",
             "logo": "https://media.api-sports.io/football/teams/121.png"
           },
           "goals": {
@@ -971,6 +978,7 @@
           "team": {
             "id": 121,
             "name": "Palmeiras",
+            "code": "PAL",
             "logo": "https://media.api-sports.io/football/teams/121.png"
           },
           "goals": {
@@ -993,6 +1001,7 @@
           "team": {
             "id": 127,
             "name": "Flamengo",
+            "code": "FLA",
             "logo": "https://media.api-sports.io/football/teams/127.png"
           },
           "goals": {
@@ -1015,6 +1024,7 @@
           "team": {
             "id": 126,
             "name": "São Paulo",
+            "code": "SAO",
             "logo": "https://media.api-sports.io/football/teams/126.png"
           },
           "goals": {
@@ -1033,6 +1043,6 @@
     "mode": "live",
     "liveIntervalMs": 120000
   },
-  "fetchedAt": "2026-07-26T22:52:10.001Z",
+  "fetchedAt": "2026-07-26T23:01:00.551Z",
   "source": "demo"
 }

@@ -44,7 +44,26 @@
   "events": [
     {
       "time": {
-        "elapsed": 12,
+        "elapsed": 74,
+        "extra": null
+      },
+      "team": {
+        "id": 120,
+        "name": "Botafogo",
+        "logo": "https://media.api-sports.io/football/teams/120.png"
+      },
+      "player": {
+        "name": "Savarino"
+      },
+      "assist": {
+        "name": "Marlon Freitas"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal"
+    },
+    {
+      "time": {
+        "elapsed": 88,
         "extra": null
       },
       "team": {
@@ -53,51 +72,11 @@
         "logo": "https://media.api-sports.io/football/teams/135.png"
       },
       "player": {
-        "name": "Jogador A"
+        "name": "Lucas Silva"
       },
-      "assist": {
-        "name": "Meia"
-      },
-      "type": "Goal",
-      "detail": "Normal Goal"
-    },
-    {
-      "time": {
-        "elapsed": 34,
-        "extra": null
-      },
-      "team": {
-        "id": 120,
-        "name": "Botafogo",
-        "logo": "https://media.api-sports.io/football/teams/120.png"
-      },
-      "player": {
-        "name": "Jogador B"
-      },
-      "assist": {
-        "name": null
-      },
+      "assist": null,
       "type": "Card",
       "detail": "Yellow Card"
-    },
-    {
-      "time": {
-        "elapsed": 51,
-        "extra": null
-      },
-      "team": {
-        "id": 120,
-        "name": "Botafogo",
-        "logo": "https://media.api-sports.io/football/teams/120.png"
-      },
-      "player": {
-        "name": "Atacante"
-      },
-      "assist": {
-        "name": "Meia"
-      },
-      "type": "Goal",
-      "detail": "Normal Goal"
     }
   ],
   "lineups": [
@@ -109,12 +88,12 @@
       },
       "formation": "4-2-3-1",
       "coach": {
-        "name": "Técnico Casa"
+        "name": "Leonardo Jardim"
       },
       "startXI": [
         {
           "player": {
-            "name": "Goleiro",
+            "name": "Cássio",
             "number": 1,
             "pos": "G",
             "grid": "1:1"
@@ -122,31 +101,31 @@
         },
         {
           "player": {
-            "name": "Lateral D",
-            "number": 2,
+            "name": "William",
+            "number": 12,
             "pos": "D",
             "grid": "2:4"
           }
         },
         {
           "player": {
-            "name": "Zagueiro",
-            "number": 3,
+            "name": "Fabrício Bruno",
+            "number": 15,
             "pos": "D",
             "grid": "2:3"
           }
         },
         {
           "player": {
-            "name": "Zagueiro",
-            "number": 4,
+            "name": "Lucas Villalba",
+            "number": 25,
             "pos": "D",
             "grid": "2:2"
           }
         },
         {
           "player": {
-            "name": "Lateral E",
+            "name": "Kaiki",
             "number": 6,
             "pos": "D",
             "grid": "2:1"
@@ -154,39 +133,39 @@
         },
         {
           "player": {
-            "name": "Volante",
-            "number": 5,
+            "name": "Lucas Silva",
+            "number": 16,
             "pos": "M",
             "grid": "3:2"
           }
         },
         {
           "player": {
-            "name": "Volante",
-            "number": 8,
+            "name": "Lucas Romero",
+            "number": 29,
             "pos": "M",
             "grid": "3:1"
           }
         },
         {
           "player": {
-            "name": "Meia",
-            "number": 7,
+            "name": "Matheus Pereira",
+            "number": 10,
             "pos": "M",
             "grid": "4:3"
           }
         },
         {
           "player": {
-            "name": "Meia",
-            "number": 10,
+            "name": "Dinenno",
+            "number": 97,
             "pos": "M",
             "grid": "4:2"
           }
         },
         {
           "player": {
-            "name": "Ponta",
+            "name": "Christian",
             "number": 11,
             "pos": "M",
             "grid": "4:1"
@@ -194,8 +173,8 @@
         },
         {
           "player": {
-            "name": "Centroavante",
-            "number": 9,
+            "name": "Kaio Jorge",
+            "number": 19,
             "pos": "F",
             "grid": "5:1"
           }
@@ -204,8 +183,16 @@
       "substitutes": [
         {
           "player": {
-            "name": "Reserva",
-            "number": 21,
+            "name": "Gabigol",
+            "number": 9,
+            "pos": "F",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "name": "Dudu",
+            "number": 7,
             "pos": "F",
             "grid": null
           }
@@ -218,22 +205,22 @@
         "name": "Botafogo",
         "logo": "https://media.api-sports.io/football/teams/120.png"
       },
-      "formation": "4-3-3",
+      "formation": "4-2-3-1",
       "coach": {
-        "name": "Técnico Fora"
+        "name": "Renato Paiva"
       },
       "startXI": [
         {
           "player": {
-            "name": "Goleiro",
-            "number": 1,
+            "name": "John",
+            "number": 12,
             "pos": "G",
             "grid": "1:1"
           }
         },
         {
           "player": {
-            "name": "Lateral D",
+            "name": "Vitinho",
             "number": 2,
             "pos": "D",
             "grid": "2:4"
@@ -241,7 +228,7 @@
         },
         {
           "player": {
-            "name": "Zagueiro",
+            "name": "Bastos",
             "number": 3,
             "pos": "D",
             "grid": "2:3"
@@ -249,75 +236,83 @@
         },
         {
           "player": {
-            "name": "Zagueiro",
-            "number": 4,
+            "name": "Alexander Barboza",
+            "number": 20,
             "pos": "D",
             "grid": "2:2"
           }
         },
         {
           "player": {
-            "name": "Lateral E",
-            "number": 6,
+            "name": "Marçal",
+            "number": 21,
             "pos": "D",
             "grid": "2:1"
           }
         },
         {
           "player": {
-            "name": "Volante",
-            "number": 5,
-            "pos": "M",
-            "grid": "3:3"
-          }
-        },
-        {
-          "player": {
-            "name": "Meia",
-            "number": 8,
+            "name": "Marlon Freitas",
+            "number": 17,
             "pos": "M",
             "grid": "3:2"
           }
         },
         {
           "player": {
-            "name": "Meia",
-            "number": 10,
+            "name": "Danilo Barbosa",
+            "number": 5,
             "pos": "M",
             "grid": "3:1"
           }
         },
         {
           "player": {
-            "name": "Ponta",
-            "number": 7,
-            "pos": "F",
+            "name": "Savarino",
+            "number": 10,
+            "pos": "M",
             "grid": "4:3"
           }
         },
         {
           "player": {
-            "name": "Centroavante",
-            "number": 9,
-            "pos": "F",
+            "name": "Luiz Henrique",
+            "number": 7,
+            "pos": "M",
             "grid": "4:2"
           }
         },
         {
           "player": {
-            "name": "Ponta",
+            "name": "Jeffinho",
             "number": 11,
-            "pos": "F",
+            "pos": "M",
             "grid": "4:1"
+          }
+        },
+        {
+          "player": {
+            "name": "Tiquinho Soares",
+            "number": 9,
+            "pos": "F",
+            "grid": "5:1"
           }
         }
       ],
       "substitutes": [
         {
           "player": {
-            "name": "Reserva",
-            "number": 19,
+            "name": "Júnior Santos",
+            "number": 37,
             "pos": "F",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "name": "Gregore",
+            "number": 26,
+            "pos": "M",
             "grid": null
           }
         }
@@ -334,11 +329,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "54%"
+          "value": "57%"
         },
         {
           "type": "Total Shots",
-          "value": 11
+          "value": 15
         },
         {
           "type": "Shots on Goal",
@@ -346,11 +341,11 @@
         },
         {
           "type": "Corner Kicks",
-          "value": 5
+          "value": 7
         },
         {
           "type": "Fouls",
-          "value": 12
+          "value": 10
         },
         {
           "type": "Yellow Cards",
@@ -362,7 +357,7 @@
         },
         {
           "type": "Pass Accuracy",
-          "value": "84%"
+          "value": "86%"
         }
       ]
     },
@@ -375,7 +370,7 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "46%"
+          "value": "43%"
         },
         {
           "type": "Total Shots",
@@ -387,11 +382,11 @@
         },
         {
           "type": "Corner Kicks",
-          "value": 3
+          "value": 2
         },
         {
           "type": "Fouls",
-          "value": 14
+          "value": 15
         },
         {
           "type": "Yellow Cards",
@@ -403,7 +398,7 @@
         },
         {
           "type": "Pass Accuracy",
-          "value": "81%"
+          "value": "79%"
         }
       ]
     }

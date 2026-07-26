@@ -136,7 +136,7 @@ export function demoDashboard() {
       byName.Flamengo,
       byName["São Paulo"],
       { short: "2H", elapsed: 67 },
-      [0, 0],
+      [1, 0],
       tsBrazil(0, 18, 30),
       "Regular Season - 20",
       "Maracanã",
@@ -278,107 +278,656 @@ export function demoDashboard() {
   };
 }
 
+type DetailExtras = {
+  events: Array<{
+    time: { elapsed: number; extra: number | null };
+    team: "home" | "away";
+    player: { name: string };
+    assist: { name: string | null };
+    type: string;
+    detail: string;
+  }>;
+  lineups: Array<{
+    side: "home" | "away";
+    formation: string;
+    coach: string;
+    startXI: Array<{ name: string; number: number; pos: string; grid: string }>;
+    substitutes: Array<{ name: string; number: number; pos: string }>;
+  }>;
+  statistics: [Array<{ type: string; value: string | number }>, Array<{ type: string; value: string | number }>];
+};
+
+function xi(
+  rows: Array<[number, string, string, string]>
+): Array<{ name: string; number: number; pos: string; grid: string }> {
+  return rows.map(([number, name, pos, grid]) => ({ name, number, pos, grid }));
+}
+
+/** Per-fixture narrative so match detail is not generic placeholders. */
+const MATCH_DETAILS: Record<number, DetailExtras> = {
+  // Flamengo 1-0 São Paulo — aligned with a live reference snapshot
+  9004: {
+    events: [
+      {
+        time: { elapsed: 56, extra: null },
+        team: "home",
+        player: { name: "Léo Pereira" },
+        assist: { name: null },
+        type: "Goal",
+        detail: "Normal Goal",
+      },
+      {
+        time: { elapsed: 57, extra: null },
+        team: "home",
+        player: { name: "Arrascaeta" },
+        assist: { name: "Lorran" },
+        type: "subst",
+        detail: "Substitution 1",
+      },
+      {
+        time: { elapsed: 62, extra: null },
+        team: "home",
+        player: { name: "Alex Sandro" },
+        assist: { name: null },
+        type: "Card",
+        detail: "Yellow Card",
+      },
+      {
+        time: { elapsed: 65, extra: null },
+        team: "away",
+        player: { name: "Ferreira" },
+        assist: { name: "Artur" },
+        type: "subst",
+        detail: "Substitution 1",
+      },
+      {
+        time: { elapsed: 65, extra: null },
+        team: "away",
+        player: { name: "Victor Sá" },
+        assist: { name: "Danielzinho" },
+        type: "subst",
+        detail: "Substitution 2",
+      },
+    ],
+    lineups: [
+      {
+        side: "home",
+        formation: "4-2-3-1",
+        coach: "Filipe Luís",
+        startXI: xi([
+          [1, "Rossi", "G", "1:1"],
+          [2, "Varela", "D", "2:4"],
+          [3, "Léo Ortiz", "D", "2:3"],
+          [4, "Léo Pereira", "D", "2:2"],
+          [26, "Alex Sandro", "D", "2:1"],
+          [5, "Pulgar", "M", "3:2"],
+          [18, "De la Cruz", "M", "3:1"],
+          [7, "Luiz Araújo", "M", "4:3"],
+          [19, "Lorran", "M", "4:2"],
+          [9, "Plata", "M", "4:1"],
+          [21, "Pedro", "F", "5:1"],
+        ]),
+        substitutes: [
+          { name: "Arrascaeta", number: 14, pos: "M" },
+          { name: "Bruno Henrique", number: 27, pos: "F" },
+          { name: "Gerson", number: 8, pos: "M" },
+          { name: "Danilo", number: 13, pos: "D" },
+        ],
+      },
+      {
+        side: "away",
+        formation: "4-3-3",
+        coach: "Hernán Crespo",
+        startXI: xi([
+          [23, "Rafael", "G", "1:1"],
+          [2, "Igor Vinícius", "D", "2:4"],
+          [5, "Arboleda", "D", "2:3"],
+          [28, "Alan Franco", "D", "2:2"],
+          [13, "Rafinha", "D", "2:1"],
+          [25, "Alisson", "M", "3:3"],
+          [21, "Bobadilla", "M", "3:2"],
+          [18, "Danielzinho", "M", "3:1"],
+          [17, "Artur", "F", "4:3"],
+          [10, "Luciano", "F", "4:2"],
+          [9, "Calleri", "F", "4:1"],
+        ]),
+        substitutes: [
+          { name: "Ferreira", number: 11, pos: "F" },
+          { name: "Victor Sá", number: 7, pos: "F" },
+          { name: "Pablo Maia", number: 29, pos: "M" },
+          { name: "Wellington Rato", number: 27, pos: "M" },
+        ],
+      },
+    ],
+    statistics: [
+      [
+        { type: "Ball Possession", value: "58%" },
+        { type: "Total Shots", value: 14 },
+        { type: "Shots on Goal", value: 5 },
+        { type: "Corner Kicks", value: 6 },
+        { type: "Fouls", value: 11 },
+        { type: "Yellow Cards", value: 1 },
+        { type: "Red Cards", value: 0 },
+        { type: "Pass Accuracy", value: "87%" },
+      ],
+      [
+        { type: "Ball Possession", value: "42%" },
+        { type: "Total Shots", value: 8 },
+        { type: "Shots on Goal", value: 2 },
+        { type: "Corner Kicks", value: 3 },
+        { type: "Fouls", value: 13 },
+        { type: "Yellow Cards", value: 2 },
+        { type: "Red Cards", value: 0 },
+        { type: "Pass Accuracy", value: "81%" },
+      ],
+    ],
+  },
+  9001: {
+    events: [
+      {
+        time: { elapsed: 23, extra: null },
+        team: "home",
+        player: { name: "Everaldo" },
+        assist: { name: "Everton Ribeiro" },
+        type: "Goal",
+        detail: "Normal Goal",
+      },
+      {
+        time: { elapsed: 41, extra: null },
+        team: "away",
+        player: { name: "Yuri Alberto" },
+        assist: { name: "Garro" },
+        type: "Goal",
+        detail: "Normal Goal",
+      },
+      {
+        time: { elapsed: 68, extra: null },
+        team: "away",
+        player: { name: "Raniele" },
+        assist: { name: null },
+        type: "Card",
+        detail: "Yellow Card",
+      },
+    ],
+    lineups: [
+      {
+        side: "home",
+        formation: "4-3-3",
+        coach: "Rogério Ceni",
+        startXI: xi([
+          [22, "Marcos Felipe", "G", "1:1"],
+          [2, "Gilberto", "D", "2:4"],
+          [3, "Gabriel Xavier", "D", "2:3"],
+          [4, "Kanu", "D", "2:2"],
+          [6, "Luciano Juba", "D", "2:1"],
+          [5, "Cauly", "M", "3:3"],
+          [8, "Jean Lucas", "M", "3:2"],
+          [10, "Everton Ribeiro", "M", "3:1"],
+          [7, "Ademir", "F", "4:3"],
+          [9, "Everaldo", "F", "4:2"],
+          [11, "Biel", "F", "4:1"],
+        ]),
+        substitutes: [
+          { name: "Thaciano", number: 16, pos: "M" },
+          { name: "Rafael Ratão", number: 19, pos: "F" },
+        ],
+      },
+      {
+        side: "away",
+        formation: "4-2-3-1",
+        coach: "Dorival Júnior",
+        startXI: xi([
+          [1, "Hugo Souza", "G", "1:1"],
+          [2, "Fagner", "D", "2:4"],
+          [3, "Félix Torres", "D", "2:3"],
+          [5, "Cacá", "D", "2:2"],
+          [21, "Matheuzinho", "D", "2:1"],
+          [14, "Raniele", "M", "3:2"],
+          [8, "Charles", "M", "3:1"],
+          [10, "Garro", "M", "4:3"],
+          [11, "Romero", "M", "4:2"],
+          [27, "Breno Bidon", "M", "4:1"],
+          [9, "Yuri Alberto", "F", "5:1"],
+        ]),
+        substitutes: [
+          { name: "Memphis Depay", number: 10, pos: "F" },
+          { name: "Coronado", number: 77, pos: "M" },
+        ],
+      },
+    ],
+    statistics: [
+      [
+        { type: "Ball Possession", value: "49%" },
+        { type: "Total Shots", value: 12 },
+        { type: "Shots on Goal", value: 4 },
+        { type: "Corner Kicks", value: 5 },
+        { type: "Fouls", value: 14 },
+        { type: "Yellow Cards", value: 2 },
+        { type: "Red Cards", value: 0 },
+        { type: "Pass Accuracy", value: "83%" },
+      ],
+      [
+        { type: "Ball Possession", value: "51%" },
+        { type: "Total Shots", value: 11 },
+        { type: "Shots on Goal", value: 5 },
+        { type: "Corner Kicks", value: 4 },
+        { type: "Fouls", value: 12 },
+        { type: "Yellow Cards", value: 3 },
+        { type: "Red Cards", value: 0 },
+        { type: "Pass Accuracy", value: "85%" },
+      ],
+    ],
+  },
+  9002: {
+    events: [
+      {
+        time: { elapsed: 74, extra: null },
+        team: "away",
+        player: { name: "Savarino" },
+        assist: { name: "Marlon Freitas" },
+        type: "Goal",
+        detail: "Normal Goal",
+      },
+      {
+        time: { elapsed: 88, extra: null },
+        team: "home",
+        player: { name: "Lucas Silva" },
+        assist: { name: null },
+        type: "Card",
+        detail: "Yellow Card",
+      },
+    ],
+    lineups: [
+      {
+        side: "home",
+        formation: "4-2-3-1",
+        coach: "Leonardo Jardim",
+        startXI: xi([
+          [1, "Cássio", "G", "1:1"],
+          [12, "William", "D", "2:4"],
+          [15, "Fabrício Bruno", "D", "2:3"],
+          [25, "Lucas Villalba", "D", "2:2"],
+          [6, "Kaiki", "D", "2:1"],
+          [16, "Lucas Silva", "M", "3:2"],
+          [29, "Lucas Romero", "M", "3:1"],
+          [10, "Matheus Pereira", "M", "4:3"],
+          [97, "Dinenno", "M", "4:2"],
+          [11, "Christian", "M", "4:1"],
+          [19, "Kaio Jorge", "F", "5:1"],
+        ]),
+        substitutes: [
+          { name: "Gabigol", number: 9, pos: "F" },
+          { name: "Dudu", number: 7, pos: "F" },
+        ],
+      },
+      {
+        side: "away",
+        formation: "4-2-3-1",
+        coach: "Renato Paiva",
+        startXI: xi([
+          [12, "John", "G", "1:1"],
+          [2, "Vitinho", "D", "2:4"],
+          [3, "Bastos", "D", "2:3"],
+          [20, "Alexander Barboza", "D", "2:2"],
+          [21, "Marçal", "D", "2:1"],
+          [17, "Marlon Freitas", "M", "3:2"],
+          [5, "Danilo Barbosa", "M", "3:1"],
+          [10, "Savarino", "M", "4:3"],
+          [7, "Luiz Henrique", "M", "4:2"],
+          [11, "Jeffinho", "M", "4:1"],
+          [9, "Tiquinho Soares", "F", "5:1"],
+        ]),
+        substitutes: [
+          { name: "Júnior Santos", number: 37, pos: "F" },
+          { name: "Gregore", number: 26, pos: "M" },
+        ],
+      },
+    ],
+    statistics: [
+      [
+        { type: "Ball Possession", value: "57%" },
+        { type: "Total Shots", value: 15 },
+        { type: "Shots on Goal", value: 4 },
+        { type: "Corner Kicks", value: 7 },
+        { type: "Fouls", value: 10 },
+        { type: "Yellow Cards", value: 2 },
+        { type: "Red Cards", value: 0 },
+        { type: "Pass Accuracy", value: "86%" },
+      ],
+      [
+        { type: "Ball Possession", value: "43%" },
+        { type: "Total Shots", value: 9 },
+        { type: "Shots on Goal", value: 3 },
+        { type: "Corner Kicks", value: 2 },
+        { type: "Fouls", value: 15 },
+        { type: "Yellow Cards", value: 3 },
+        { type: "Red Cards", value: 0 },
+        { type: "Pass Accuracy", value: "79%" },
+      ],
+    ],
+  },
+};
+
+const TEAM_SQUADS: Record<
+  string,
+  {
+    coach: string;
+    formation: string;
+    xi: Array<[number, string, string, string]>;
+    bench: Array<{ name: string; number: number; pos: string }>;
+  }
+> = {
+  Bragantino: {
+    coach: "Fernando Seabra",
+    formation: "4-2-3-1",
+    xi: [
+      [1, "Cleiton", "G", "1:1"],
+      [2, "Nathan Mendes", "D", "2:4"],
+      [3, "Pedro Henrique", "D", "2:3"],
+      [4, "Luan Cândido", "D", "2:2"],
+      [6, "Juninho Capixaba", "D", "2:1"],
+      [5, "Jadsom", "M", "3:2"],
+      [8, "Eric Ramires", "M", "3:1"],
+      [7, "Helinho", "M", "4:3"],
+      [10, "Lincoln", "M", "4:2"],
+      [11, "Vitinho", "M", "4:1"],
+      [9, "Eduardo Sasha", "F", "5:1"],
+    ],
+    bench: [
+      { name: "Borbas", number: 18, pos: "F" },
+      { name: "Lucas Evangelista", number: 16, pos: "M" },
+    ],
+  },
+  Coritiba: {
+    coach: "Mozart",
+    formation: "4-3-3",
+    xi: [
+      [1, "Pedro Morisco", "G", "1:1"],
+      [2, "Natanael", "D", "2:4"],
+      [3, "Bruno Viana", "D", "2:3"],
+      [4, "Marcio Silva", "D", "2:2"],
+      [6, "Jamerson", "D", "2:1"],
+      [5, "Sebastian Gomez", "M", "3:3"],
+      [8, "Matheus Bianqui", "M", "3:2"],
+      [10, "Josué", "M", "3:1"],
+      [7, "Robson", "F", "4:3"],
+      [9, "Alejo Véliz", "F", "4:2"],
+      [11, "Brandão", "F", "4:1"],
+    ],
+    bench: [
+      { name: "Figueiredo", number: 19, pos: "F" },
+      { name: "Filipe Machado", number: 15, pos: "M" },
+    ],
+  },
+  Grêmio: {
+    coach: "Gustavo Quinteros",
+    formation: "4-2-3-1",
+    xi: [
+      [1, "Tiago Volpi", "G", "1:1"],
+      [2, "João Pedro", "D", "2:4"],
+      [3, "Kannemann", "D", "2:3"],
+      [4, "Rodrigo Ely", "D", "2:2"],
+      [6, "Reinaldo", "D", "2:1"],
+      [5, "Villasanti", "M", "3:2"],
+      [8, "Dodi", "M", "3:1"],
+      [7, "Edenilson", "M", "4:3"],
+      [10, "Cristaldo", "M", "4:2"],
+      [11, "Pavón", "M", "4:1"],
+      [9, "Braithwaite", "F", "5:1"],
+    ],
+    bench: [
+      { name: "Soteldo", number: 7, pos: "M" },
+      { name: "Arezo", number: 19, pos: "F" },
+    ],
+  },
+  Fluminense: {
+    coach: "Mano Menezes",
+    formation: "4-2-3-1",
+    xi: [
+      [1, "Fábio", "G", "1:1"],
+      [2, "Samuel Xavier", "D", "2:4"],
+      [3, "Thiago Silva", "D", "2:3"],
+      [4, "Ignácio", "D", "2:2"],
+      [6, "Guga", "D", "2:1"],
+      [5, "André", "M", "3:2"],
+      [8, "Martinelli", "M", "3:1"],
+      [7, "Arias", "M", "4:3"],
+      [10, "Ganso", "M", "4:2"],
+      [11, "Keno", "M", "4:1"],
+      [14, "Cano", "F", "5:1"],
+    ],
+    bench: [
+      { name: "Serna", number: 19, pos: "F" },
+      { name: "Nonato", number: 16, pos: "M" },
+    ],
+  },
+  Palmeiras: {
+    coach: "Abel Ferreira",
+    formation: "4-2-3-1",
+    xi: [
+      [21, "Weverton", "G", "1:1"],
+      [12, "Mayke", "D", "2:4"],
+      [15, "Gustavo Gómez", "D", "2:3"],
+      [26, "Murilo", "D", "2:2"],
+      [22, "Piquerez", "D", "2:1"],
+      [5, "Aníbal Moreno", "M", "3:2"],
+      [8, "Zé Rafael", "M", "3:1"],
+      [41, "Estêvão", "M", "4:3"],
+      [23, "Veiga", "M", "4:2"],
+      [10, "Rony", "M", "4:1"],
+      [9, "Vitor Roque", "F", "5:1"],
+    ],
+    bench: [
+      { name: "Flaco López", number: 42, pos: "F" },
+      { name: "Felipe Anderson", number: 18, pos: "M" },
+    ],
+  },
+  "Atlético-MG": {
+    coach: "Cuca",
+    formation: "4-2-3-1",
+    xi: [
+      [22, "Everson", "G", "1:1"],
+      [2, "Saravia", "D", "2:4"],
+      [3, "Lyanco", "D", "2:3"],
+      [4, "Júnior Alonso", "D", "2:2"],
+      [6, "Guilherme Arana", "D", "2:1"],
+      [5, "Alan Franco", "M", "3:2"],
+      [8, "Gustavo Scarpa", "M", "3:1"],
+      [7, "Bernard", "M", "4:3"],
+      [10, "Zaracho", "M", "4:2"],
+      [11, "Paulinho", "M", "4:1"],
+      [9, "Hulk", "F", "5:1"],
+    ],
+    bench: [
+      { name: "Deyverson", number: 19, pos: "F" },
+      { name: "Fausto Vera", number: 18, pos: "M" },
+    ],
+  },
+  Remo: {
+    coach: "Marcelo Cabo",
+    formation: "4-3-3",
+    xi: [
+      [1, "Marcelo Rangel", "G", "1:1"],
+      [2, "Nathan", "D", "2:4"],
+      [3, "Raimar", "D", "2:3"],
+      [4, "Fabiano", "D", "2:2"],
+      [6, "Luan Martins", "D", "2:1"],
+      [5, "Paulinho Curuá", "M", "3:3"],
+      [8, "Giovanni Augusto", "M", "3:2"],
+      [10, "Jáderson", "M", "3:1"],
+      [7, "Pedro Rocha", "F", "4:3"],
+      [9, "Muriqui", "F", "4:2"],
+      [11, "Ribamar", "F", "4:1"],
+    ],
+    bench: [
+      { name: "Sávio", number: 19, pos: "F" },
+      { name: "Ronald", number: 16, pos: "M" },
+    ],
+  },
+  Vitória: {
+    coach: "Thiago Carpini",
+    formation: "4-2-3-1",
+    xi: [
+      [1, "Lucas Arcanjo", "G", "1:1"],
+      [2, "Willean Lepo", "D", "2:4"],
+      [3, "Camutanga", "D", "2:3"],
+      [4, "Wagner Leonardo", "D", "2:2"],
+      [6, "Lucas Esteves", "D", "2:1"],
+      [5, "Willian Oliveira", "M", "3:2"],
+      [8, "Luan Santos", "M", "3:1"],
+      [7, "Matheuzinho", "M", "4:3"],
+      [10, "Jáderson", "M", "4:2"],
+      [11, "Osvaldo", "M", "4:1"],
+      [9, "Alerrandro", "F", "5:1"],
+    ],
+    bench: [
+      { name: "Everaldo", number: 19, pos: "F" },
+      { name: "Filipe Machado", number: 16, pos: "M" },
+    ],
+  },
+  Vasco: {
+    coach: "Fábio Carille",
+    formation: "4-2-3-1",
+    xi: [
+      [1, "Léo Jardim", "G", "1:1"],
+      [2, "Puma Rodríguez", "D", "2:4"],
+      [3, "Maicon", "D", "2:3"],
+      [4, "Léo", "D", "2:2"],
+      [6, "Lucas Piton", "D", "2:1"],
+      [5, "Hugo Moura", "M", "3:2"],
+      [8, "Juan Sforza", "M", "3:1"],
+      [10, "Payet", "M", "4:3"],
+      [11, "David", "M", "4:2"],
+      [7, "Adson", "M", "4:1"],
+      [99, "Vegetti", "F", "5:1"],
+    ],
+    bench: [
+      { name: "Praxedes", number: 21, pos: "M" },
+      { name: "Alex Teixeira", number: 9, pos: "F" },
+    ],
+  },
+  Fortaleza: {
+    coach: "Juan Pablo Vojvoda",
+    formation: "3-4-3",
+    xi: [
+      [1, "João Ricardo", "G", "1:1"],
+      [2, "Tingaa", "D", "2:4"],
+      [3, "Brítez", "D", "2:3"],
+      [4, "Benevenuto", "D", "2:2"],
+      [6, "Bruno Pacheco", "D", "2:1"],
+      [5, "Zé Welison", "M", "3:2"],
+      [8, "Hércules", "M", "3:1"],
+      [7, "Pochettino", "M", "4:3"],
+      [10, "Moises", "M", "4:2"],
+      [11, "Marinho", "M", "4:1"],
+      [9, "Lucero", "F", "5:1"],
+    ],
+    bench: [
+      { name: "Yago Pikachu", number: 22, pos: "M" },
+      { name: "Juan Martín Lucero", number: 19, pos: "F" },
+    ],
+  },
+};
+
+function defaultDetail(homeName: string, awayName: string): DetailExtras {
+  const home = TEAM_SQUADS[homeName];
+  const away = TEAM_SQUADS[awayName];
+  const hAttack = home?.xi[10]?.[1] ?? "Atacante";
+  const aMid = away?.xi[7]?.[1] ?? "Meia";
+  const aAttack = away?.xi[9]?.[1] ?? "Atacante";
+
+  return {
+    events: [
+      {
+        time: { elapsed: 28, extra: null },
+        team: "home",
+        player: { name: hAttack },
+        assist: { name: null },
+        type: "Card",
+        detail: "Yellow Card",
+      },
+      {
+        time: { elapsed: 61, extra: null },
+        team: "away",
+        player: { name: aAttack },
+        assist: { name: aMid },
+        type: "subst",
+        detail: "Substitution 1",
+      },
+    ],
+    lineups: [
+      {
+        side: "home",
+        formation: home?.formation ?? "4-2-3-1",
+        coach: home?.coach ?? "Técnico",
+        startXI: xi(home?.xi ?? [[1, "Goleiro", "G", "1:1"]]),
+        substitutes: home?.bench ?? [{ name: "Reserva", number: 21, pos: "F" }],
+      },
+      {
+        side: "away",
+        formation: away?.formation ?? "4-3-3",
+        coach: away?.coach ?? "Técnico",
+        startXI: xi(away?.xi ?? [[1, "Goleiro", "G", "1:1"]]),
+        substitutes: away?.bench ?? [{ name: "Reserva", number: 19, pos: "F" }],
+      },
+    ],
+    statistics: [
+      [
+        { type: "Ball Possession", value: "52%" },
+        { type: "Total Shots", value: 10 },
+        { type: "Shots on Goal", value: 3 },
+        { type: "Corner Kicks", value: 4 },
+        { type: "Fouls", value: 12 },
+        { type: "Yellow Cards", value: 2 },
+        { type: "Red Cards", value: 0 },
+        { type: "Pass Accuracy", value: "84%" },
+      ],
+      [
+        { type: "Ball Possession", value: "48%" },
+        { type: "Total Shots", value: 9 },
+        { type: "Shots on Goal", value: 2 },
+        { type: "Corner Kicks", value: 3 },
+        { type: "Fouls", value: 13 },
+        { type: "Yellow Cards", value: 2 },
+        { type: "Red Cards", value: 0 },
+        { type: "Pass Accuracy", value: "82%" },
+      ],
+    ],
+  };
+}
+
 export function demoMatchDetail(id: number) {
   const dash = demoDashboard();
   const base =
     (dash.fixtures as ReturnType<typeof fixture>[]).find((f) => f.fixture.id === id) ??
     (dash.fixtures as ReturnType<typeof fixture>[])[0];
 
+  const extras = MATCH_DETAILS[base.fixture.id] ?? defaultDetail(base.teams.home.name, base.teams.away.name);
+
   return {
     ...base,
-    events: [
-      {
-        time: { elapsed: 12, extra: null },
-        team: base.teams.home,
-        player: { name: "Jogador A" },
-        assist: { name: "Meia" },
-        type: "Goal",
-        detail: "Normal Goal",
-      },
-      {
-        time: { elapsed: 34, extra: null },
-        team: base.teams.away,
-        player: { name: "Jogador B" },
-        assist: { name: null },
-        type: "Card",
-        detail: "Yellow Card",
-      },
-      {
-        time: { elapsed: 51, extra: null },
-        team: base.teams.away,
-        player: { name: "Atacante" },
-        assist: { name: "Meia" },
-        type: "Goal",
-        detail: "Normal Goal",
-      },
-    ],
-    lineups: [
-      {
-        team: base.teams.home,
-        formation: "4-2-3-1",
-        coach: { name: "Técnico Casa" },
-        startXI: [
-          { player: { name: "Goleiro", number: 1, pos: "G", grid: "1:1" } },
-          { player: { name: "Lateral D", number: 2, pos: "D", grid: "2:4" } },
-          { player: { name: "Zagueiro", number: 3, pos: "D", grid: "2:3" } },
-          { player: { name: "Zagueiro", number: 4, pos: "D", grid: "2:2" } },
-          { player: { name: "Lateral E", number: 6, pos: "D", grid: "2:1" } },
-          { player: { name: "Volante", number: 5, pos: "M", grid: "3:2" } },
-          { player: { name: "Volante", number: 8, pos: "M", grid: "3:1" } },
-          { player: { name: "Meia", number: 7, pos: "M", grid: "4:3" } },
-          { player: { name: "Meia", number: 10, pos: "M", grid: "4:2" } },
-          { player: { name: "Ponta", number: 11, pos: "M", grid: "4:1" } },
-          { player: { name: "Centroavante", number: 9, pos: "F", grid: "5:1" } },
-        ],
-        substitutes: [{ player: { name: "Reserva", number: 21, pos: "F", grid: null } }],
-      },
-      {
-        team: base.teams.away,
-        formation: "4-3-3",
-        coach: { name: "Técnico Fora" },
-        startXI: [
-          { player: { name: "Goleiro", number: 1, pos: "G", grid: "1:1" } },
-          { player: { name: "Lateral D", number: 2, pos: "D", grid: "2:4" } },
-          { player: { name: "Zagueiro", number: 3, pos: "D", grid: "2:3" } },
-          { player: { name: "Zagueiro", number: 4, pos: "D", grid: "2:2" } },
-          { player: { name: "Lateral E", number: 6, pos: "D", grid: "2:1" } },
-          { player: { name: "Volante", number: 5, pos: "M", grid: "3:3" } },
-          { player: { name: "Meia", number: 8, pos: "M", grid: "3:2" } },
-          { player: { name: "Meia", number: 10, pos: "M", grid: "3:1" } },
-          { player: { name: "Ponta", number: 7, pos: "F", grid: "4:3" } },
-          { player: { name: "Centroavante", number: 9, pos: "F", grid: "4:2" } },
-          { player: { name: "Ponta", number: 11, pos: "F", grid: "4:1" } },
-        ],
-        substitutes: [{ player: { name: "Reserva", number: 19, pos: "F", grid: null } }],
-      },
-    ],
+    events: extras.events.map((e) => ({
+      ...e,
+      team: e.team === "home" ? base.teams.home : base.teams.away,
+      assist: e.assist.name != null ? { name: e.assist.name } : null,
+    })),
+    lineups: extras.lineups.map((l) => {
+      const team = l.side === "home" ? base.teams.home : base.teams.away;
+      return {
+        team,
+        formation: l.formation,
+        coach: { name: l.coach },
+        startXI: l.startXI.map((p) => ({
+          player: { name: p.name, number: p.number, pos: p.pos, grid: p.grid },
+        })),
+        substitutes: l.substitutes.map((p) => ({
+          player: { name: p.name, number: p.number, pos: p.pos, grid: null },
+        })),
+      };
+    }),
     statistics: [
-      {
-        team: base.teams.home,
-        statistics: [
-          { type: "Ball Possession", value: "54%" },
-          { type: "Total Shots", value: 11 },
-          { type: "Shots on Goal", value: 4 },
-          { type: "Corner Kicks", value: 5 },
-          { type: "Fouls", value: 12 },
-          { type: "Yellow Cards", value: 2 },
-          { type: "Red Cards", value: 0 },
-          { type: "Pass Accuracy", value: "84%" },
-        ],
-      },
-      {
-        team: base.teams.away,
-        statistics: [
-          { type: "Ball Possession", value: "46%" },
-          { type: "Total Shots", value: 9 },
-          { type: "Shots on Goal", value: 3 },
-          { type: "Corner Kicks", value: 3 },
-          { type: "Fouls", value: 14 },
-          { type: "Yellow Cards", value: 3 },
-          { type: "Red Cards", value: 0 },
-          { type: "Pass Accuracy", value: "81%" },
-        ],
-      },
+      { team: base.teams.home, statistics: extras.statistics[0] },
+      { team: base.teams.away, statistics: extras.statistics[1] },
     ],
   };
 }

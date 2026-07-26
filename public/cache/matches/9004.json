@@ -28,12 +28,12 @@
     }
   },
   "goals": {
-    "home": 0,
+    "home": 1,
     "away": 0
   },
   "score": {
     "halftime": {
-      "home": 0,
+      "home": 1,
       "away": 0
     },
     "fulltime": {
@@ -44,7 +44,7 @@
   "events": [
     {
       "time": {
-        "elapsed": 12,
+        "elapsed": 56,
         "extra": null
       },
       "team": {
@@ -53,36 +53,51 @@
         "logo": "https://media.api-sports.io/football/teams/127.png"
       },
       "player": {
-        "name": "Jogador A"
+        "name": "Léo Pereira"
       },
-      "assist": {
-        "name": "Meia"
-      },
+      "assist": null,
       "type": "Goal",
       "detail": "Normal Goal"
     },
     {
       "time": {
-        "elapsed": 34,
+        "elapsed": 57,
         "extra": null
       },
       "team": {
-        "id": 126,
-        "name": "São Paulo",
-        "logo": "https://media.api-sports.io/football/teams/126.png"
+        "id": 127,
+        "name": "Flamengo",
+        "logo": "https://media.api-sports.io/football/teams/127.png"
       },
       "player": {
-        "name": "Jogador B"
+        "name": "Arrascaeta"
       },
       "assist": {
-        "name": null
+        "name": "Lorran"
       },
+      "type": "subst",
+      "detail": "Substitution 1"
+    },
+    {
+      "time": {
+        "elapsed": 62,
+        "extra": null
+      },
+      "team": {
+        "id": 127,
+        "name": "Flamengo",
+        "logo": "https://media.api-sports.io/football/teams/127.png"
+      },
+      "player": {
+        "name": "Alex Sandro"
+      },
+      "assist": null,
       "type": "Card",
       "detail": "Yellow Card"
     },
     {
       "time": {
-        "elapsed": 51,
+        "elapsed": 65,
         "extra": null
       },
       "team": {
@@ -91,13 +106,32 @@
         "logo": "https://media.api-sports.io/football/teams/126.png"
       },
       "player": {
-        "name": "Atacante"
+        "name": "Ferreira"
       },
       "assist": {
-        "name": "Meia"
+        "name": "Artur"
       },
-      "type": "Goal",
-      "detail": "Normal Goal"
+      "type": "subst",
+      "detail": "Substitution 1"
+    },
+    {
+      "time": {
+        "elapsed": 65,
+        "extra": null
+      },
+      "team": {
+        "id": 126,
+        "name": "São Paulo",
+        "logo": "https://media.api-sports.io/football/teams/126.png"
+      },
+      "player": {
+        "name": "Victor Sá"
+      },
+      "assist": {
+        "name": "Danielzinho"
+      },
+      "type": "subst",
+      "detail": "Substitution 2"
     }
   ],
   "lineups": [
@@ -109,12 +143,12 @@
       },
       "formation": "4-2-3-1",
       "coach": {
-        "name": "Técnico Casa"
+        "name": "Filipe Luís"
       },
       "startXI": [
         {
           "player": {
-            "name": "Goleiro",
+            "name": "Rossi",
             "number": 1,
             "pos": "G",
             "grid": "1:1"
@@ -122,7 +156,7 @@
         },
         {
           "player": {
-            "name": "Lateral D",
+            "name": "Varela",
             "number": 2,
             "pos": "D",
             "grid": "2:4"
@@ -130,7 +164,7 @@
         },
         {
           "player": {
-            "name": "Zagueiro",
+            "name": "Léo Ortiz",
             "number": 3,
             "pos": "D",
             "grid": "2:3"
@@ -138,7 +172,7 @@
         },
         {
           "player": {
-            "name": "Zagueiro",
+            "name": "Léo Pereira",
             "number": 4,
             "pos": "D",
             "grid": "2:2"
@@ -146,15 +180,15 @@
         },
         {
           "player": {
-            "name": "Lateral E",
-            "number": 6,
+            "name": "Alex Sandro",
+            "number": 26,
             "pos": "D",
             "grid": "2:1"
           }
         },
         {
           "player": {
-            "name": "Volante",
+            "name": "Pulgar",
             "number": 5,
             "pos": "M",
             "grid": "3:2"
@@ -162,15 +196,15 @@
         },
         {
           "player": {
-            "name": "Volante",
-            "number": 8,
+            "name": "De la Cruz",
+            "number": 18,
             "pos": "M",
             "grid": "3:1"
           }
         },
         {
           "player": {
-            "name": "Meia",
+            "name": "Luiz Araújo",
             "number": 7,
             "pos": "M",
             "grid": "4:3"
@@ -178,24 +212,24 @@
         },
         {
           "player": {
-            "name": "Meia",
-            "number": 10,
+            "name": "Lorran",
+            "number": 19,
             "pos": "M",
             "grid": "4:2"
           }
         },
         {
           "player": {
-            "name": "Ponta",
-            "number": 11,
+            "name": "Plata",
+            "number": 9,
             "pos": "M",
             "grid": "4:1"
           }
         },
         {
           "player": {
-            "name": "Centroavante",
-            "number": 9,
+            "name": "Pedro",
+            "number": 21,
             "pos": "F",
             "grid": "5:1"
           }
@@ -204,9 +238,33 @@
       "substitutes": [
         {
           "player": {
-            "name": "Reserva",
-            "number": 21,
+            "name": "Arrascaeta",
+            "number": 14,
+            "pos": "M",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "name": "Bruno Henrique",
+            "number": 27,
             "pos": "F",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "name": "Gerson",
+            "number": 8,
+            "pos": "M",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "name": "Danilo",
+            "number": 13,
+            "pos": "D",
             "grid": null
           }
         }
@@ -220,20 +278,20 @@
       },
       "formation": "4-3-3",
       "coach": {
-        "name": "Técnico Fora"
+        "name": "Hernán Crespo"
       },
       "startXI": [
         {
           "player": {
-            "name": "Goleiro",
-            "number": 1,
+            "name": "Rafael",
+            "number": 23,
             "pos": "G",
             "grid": "1:1"
           }
         },
         {
           "player": {
-            "name": "Lateral D",
+            "name": "Igor Vinícius",
             "number": 2,
             "pos": "D",
             "grid": "2:4"
@@ -241,72 +299,72 @@
         },
         {
           "player": {
-            "name": "Zagueiro",
-            "number": 3,
+            "name": "Arboleda",
+            "number": 5,
             "pos": "D",
             "grid": "2:3"
           }
         },
         {
           "player": {
-            "name": "Zagueiro",
-            "number": 4,
+            "name": "Alan Franco",
+            "number": 28,
             "pos": "D",
             "grid": "2:2"
           }
         },
         {
           "player": {
-            "name": "Lateral E",
-            "number": 6,
+            "name": "Rafinha",
+            "number": 13,
             "pos": "D",
             "grid": "2:1"
           }
         },
         {
           "player": {
-            "name": "Volante",
-            "number": 5,
+            "name": "Alisson",
+            "number": 25,
             "pos": "M",
             "grid": "3:3"
           }
         },
         {
           "player": {
-            "name": "Meia",
-            "number": 8,
+            "name": "Bobadilla",
+            "number": 21,
             "pos": "M",
             "grid": "3:2"
           }
         },
         {
           "player": {
-            "name": "Meia",
-            "number": 10,
+            "name": "Danielzinho",
+            "number": 18,
             "pos": "M",
             "grid": "3:1"
           }
         },
         {
           "player": {
-            "name": "Ponta",
-            "number": 7,
+            "name": "Artur",
+            "number": 17,
             "pos": "F",
             "grid": "4:3"
           }
         },
         {
           "player": {
-            "name": "Centroavante",
-            "number": 9,
+            "name": "Luciano",
+            "number": 10,
             "pos": "F",
             "grid": "4:2"
           }
         },
         {
           "player": {
-            "name": "Ponta",
-            "number": 11,
+            "name": "Calleri",
+            "number": 9,
             "pos": "F",
             "grid": "4:1"
           }
@@ -315,9 +373,33 @@
       "substitutes": [
         {
           "player": {
-            "name": "Reserva",
-            "number": 19,
+            "name": "Ferreira",
+            "number": 11,
             "pos": "F",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "name": "Victor Sá",
+            "number": 7,
+            "pos": "F",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "name": "Pablo Maia",
+            "number": 29,
+            "pos": "M",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "name": "Wellington Rato",
+            "number": 27,
+            "pos": "M",
             "grid": null
           }
         }
@@ -334,27 +416,27 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "54%"
+          "value": "58%"
         },
         {
           "type": "Total Shots",
-          "value": 11
+          "value": 14
         },
         {
           "type": "Shots on Goal",
-          "value": 4
-        },
-        {
-          "type": "Corner Kicks",
           "value": 5
         },
         {
+          "type": "Corner Kicks",
+          "value": 6
+        },
+        {
           "type": "Fouls",
-          "value": 12
+          "value": 11
         },
         {
           "type": "Yellow Cards",
-          "value": 2
+          "value": 1
         },
         {
           "type": "Red Cards",
@@ -362,7 +444,7 @@
         },
         {
           "type": "Pass Accuracy",
-          "value": "84%"
+          "value": "87%"
         }
       ]
     },
@@ -375,15 +457,15 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "46%"
+          "value": "42%"
         },
         {
           "type": "Total Shots",
-          "value": 9
+          "value": 8
         },
         {
           "type": "Shots on Goal",
-          "value": 3
+          "value": 2
         },
         {
           "type": "Corner Kicks",
@@ -391,11 +473,11 @@
         },
         {
           "type": "Fouls",
-          "value": 14
+          "value": 13
         },
         {
           "type": "Yellow Cards",
-          "value": 3
+          "value": 2
         },
         {
           "type": "Red Cards",

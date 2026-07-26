@@ -44,7 +44,7 @@
   "events": [
     {
       "time": {
-        "elapsed": 12,
+        "elapsed": 28,
         "extra": null
       },
       "team": {
@@ -53,36 +53,15 @@
         "logo": "https://media.api-sports.io/football/teams/794.png"
       },
       "player": {
-        "name": "Jogador A"
+        "name": "Eduardo Sasha"
       },
-      "assist": {
-        "name": "Meia"
-      },
-      "type": "Goal",
-      "detail": "Normal Goal"
-    },
-    {
-      "time": {
-        "elapsed": 34,
-        "extra": null
-      },
-      "team": {
-        "id": 147,
-        "name": "Coritiba",
-        "logo": "https://media.api-sports.io/football/teams/147.png"
-      },
-      "player": {
-        "name": "Jogador B"
-      },
-      "assist": {
-        "name": null
-      },
+      "assist": null,
       "type": "Card",
       "detail": "Yellow Card"
     },
     {
       "time": {
-        "elapsed": 51,
+        "elapsed": 61,
         "extra": null
       },
       "team": {
@@ -91,13 +70,13 @@
         "logo": "https://media.api-sports.io/football/teams/147.png"
       },
       "player": {
-        "name": "Atacante"
+        "name": "Alejo Véliz"
       },
       "assist": {
-        "name": "Meia"
+        "name": "Josué"
       },
-      "type": "Goal",
-      "detail": "Normal Goal"
+      "type": "subst",
+      "detail": "Substitution 1"
     }
   ],
   "lineups": [
@@ -109,12 +88,12 @@
       },
       "formation": "4-2-3-1",
       "coach": {
-        "name": "Técnico Casa"
+        "name": "Fernando Seabra"
       },
       "startXI": [
         {
           "player": {
-            "name": "Goleiro",
+            "name": "Cleiton",
             "number": 1,
             "pos": "G",
             "grid": "1:1"
@@ -122,7 +101,7 @@
         },
         {
           "player": {
-            "name": "Lateral D",
+            "name": "Nathan Mendes",
             "number": 2,
             "pos": "D",
             "grid": "2:4"
@@ -130,7 +109,7 @@
         },
         {
           "player": {
-            "name": "Zagueiro",
+            "name": "Pedro Henrique",
             "number": 3,
             "pos": "D",
             "grid": "2:3"
@@ -138,7 +117,7 @@
         },
         {
           "player": {
-            "name": "Zagueiro",
+            "name": "Luan Cândido",
             "number": 4,
             "pos": "D",
             "grid": "2:2"
@@ -146,7 +125,7 @@
         },
         {
           "player": {
-            "name": "Lateral E",
+            "name": "Juninho Capixaba",
             "number": 6,
             "pos": "D",
             "grid": "2:1"
@@ -154,7 +133,7 @@
         },
         {
           "player": {
-            "name": "Volante",
+            "name": "Jadsom",
             "number": 5,
             "pos": "M",
             "grid": "3:2"
@@ -162,7 +141,7 @@
         },
         {
           "player": {
-            "name": "Volante",
+            "name": "Eric Ramires",
             "number": 8,
             "pos": "M",
             "grid": "3:1"
@@ -170,7 +149,7 @@
         },
         {
           "player": {
-            "name": "Meia",
+            "name": "Helinho",
             "number": 7,
             "pos": "M",
             "grid": "4:3"
@@ -178,7 +157,7 @@
         },
         {
           "player": {
-            "name": "Meia",
+            "name": "Lincoln",
             "number": 10,
             "pos": "M",
             "grid": "4:2"
@@ -186,7 +165,7 @@
         },
         {
           "player": {
-            "name": "Ponta",
+            "name": "Vitinho",
             "number": 11,
             "pos": "M",
             "grid": "4:1"
@@ -194,7 +173,7 @@
         },
         {
           "player": {
-            "name": "Centroavante",
+            "name": "Eduardo Sasha",
             "number": 9,
             "pos": "F",
             "grid": "5:1"
@@ -204,9 +183,17 @@
       "substitutes": [
         {
           "player": {
-            "name": "Reserva",
-            "number": 21,
+            "name": "Borbas",
+            "number": 18,
             "pos": "F",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "name": "Lucas Evangelista",
+            "number": 16,
+            "pos": "M",
             "grid": null
           }
         }
@@ -220,12 +207,12 @@
       },
       "formation": "4-3-3",
       "coach": {
-        "name": "Técnico Fora"
+        "name": "Mozart"
       },
       "startXI": [
         {
           "player": {
-            "name": "Goleiro",
+            "name": "Pedro Morisco",
             "number": 1,
             "pos": "G",
             "grid": "1:1"
@@ -233,7 +220,7 @@
         },
         {
           "player": {
-            "name": "Lateral D",
+            "name": "Natanael",
             "number": 2,
             "pos": "D",
             "grid": "2:4"
@@ -241,7 +228,7 @@
         },
         {
           "player": {
-            "name": "Zagueiro",
+            "name": "Bruno Viana",
             "number": 3,
             "pos": "D",
             "grid": "2:3"
@@ -249,7 +236,7 @@
         },
         {
           "player": {
-            "name": "Zagueiro",
+            "name": "Marcio Silva",
             "number": 4,
             "pos": "D",
             "grid": "2:2"
@@ -257,7 +244,7 @@
         },
         {
           "player": {
-            "name": "Lateral E",
+            "name": "Jamerson",
             "number": 6,
             "pos": "D",
             "grid": "2:1"
@@ -265,7 +252,7 @@
         },
         {
           "player": {
-            "name": "Volante",
+            "name": "Sebastian Gomez",
             "number": 5,
             "pos": "M",
             "grid": "3:3"
@@ -273,7 +260,7 @@
         },
         {
           "player": {
-            "name": "Meia",
+            "name": "Matheus Bianqui",
             "number": 8,
             "pos": "M",
             "grid": "3:2"
@@ -281,7 +268,7 @@
         },
         {
           "player": {
-            "name": "Meia",
+            "name": "Josué",
             "number": 10,
             "pos": "M",
             "grid": "3:1"
@@ -289,7 +276,7 @@
         },
         {
           "player": {
-            "name": "Ponta",
+            "name": "Robson",
             "number": 7,
             "pos": "F",
             "grid": "4:3"
@@ -297,7 +284,7 @@
         },
         {
           "player": {
-            "name": "Centroavante",
+            "name": "Alejo Véliz",
             "number": 9,
             "pos": "F",
             "grid": "4:2"
@@ -305,7 +292,7 @@
         },
         {
           "player": {
-            "name": "Ponta",
+            "name": "Brandão",
             "number": 11,
             "pos": "F",
             "grid": "4:1"
@@ -315,9 +302,17 @@
       "substitutes": [
         {
           "player": {
-            "name": "Reserva",
+            "name": "Figueiredo",
             "number": 19,
             "pos": "F",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "name": "Filipe Machado",
+            "number": 15,
+            "pos": "M",
             "grid": null
           }
         }
@@ -334,19 +329,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "54%"
+          "value": "52%"
         },
         {
           "type": "Total Shots",
-          "value": 11
+          "value": 10
         },
         {
           "type": "Shots on Goal",
-          "value": 4
+          "value": 3
         },
         {
           "type": "Corner Kicks",
-          "value": 5
+          "value": 4
         },
         {
           "type": "Fouls",
@@ -375,7 +370,7 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "46%"
+          "value": "48%"
         },
         {
           "type": "Total Shots",
@@ -383,7 +378,7 @@
         },
         {
           "type": "Shots on Goal",
-          "value": 3
+          "value": 2
         },
         {
           "type": "Corner Kicks",
@@ -391,11 +386,11 @@
         },
         {
           "type": "Fouls",
-          "value": 14
+          "value": 13
         },
         {
           "type": "Yellow Cards",
-          "value": 3
+          "value": 2
         },
         {
           "type": "Red Cards",
@@ -403,7 +398,7 @@
         },
         {
           "type": "Pass Accuracy",
-          "value": "81%"
+          "value": "82%"
         }
       ]
     }

@@ -97,14 +97,18 @@ a {
   display: grid;
   place-items: center;
   border-radius: 12px;
-  background: linear-gradient(145deg, #f0c419, #9a7a08);
-  color: #0a1f12;
-  font-family: var(--display);
-  font-weight: 800;
-  font-size: 0.85rem;
-  letter-spacing: -0.04em;
-  box-shadow: 0 8px 24px rgba(240, 196, 25, 0.25);
+  background: linear-gradient(160deg, rgba(240, 196, 25, 0.18), rgba(10, 31, 18, 0.65));
+  border: 1px solid rgba(240, 196, 25, 0.35);
+  box-shadow: 0 8px 24px rgba(240, 196, 25, 0.2);
   animation: brand-pop 0.7s ease-out;
+  overflow: hidden;
+}
+
+.brand-mark img {
+  width: 82%;
+  height: 82%;
+  display: block;
+  object-fit: contain;
 }
 
 .brand h1 {

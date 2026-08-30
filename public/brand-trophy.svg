@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none" role="img" aria-hidden="true">
+  <defs>
+    <linearGradient id="gold" x1="10" y1="4" x2="54" y2="60" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#ffe89a"/>
+      <stop offset=".4" stop-color="#f0c419"/>
+      <stop offset="1" stop-color="#8a6a06"/>
+    </linearGradient>
+    <linearGradient id="ball" x1="24" y1="12" x2="40" y2="30" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#fff6c8"/>
+      <stop offset="1" stop-color="#d4a40e"/>
+    </linearGradient>
+  </defs>
+  <!-- pedestal -->
+  <path d="M20 51.5h24a2 2 0 0 1 2 2v1a2 2 0 0 1-2 2H20a2 2 0 0 1-2-2v-1a2 2 0 0 1 2-2z" fill="url(#gold)"/>
+  <path d="M23.5 46.5h17a2 2 0 0 1 2 2V51H21.5v-2.5a2 2 0 0 1 2-2z" fill="url(#gold)"/>
+  <!-- curved arms -->
+  <path d="M24.5 46.5c-7.5-9-5.5-18.5 1.5-25.5" stroke="url(#gold)" stroke-width="3.4" stroke-linecap="round"/>
+  <path d="M39.5 46.5c7.5-9 5.5-18.5-1.5-25.5" stroke="url(#gold)" stroke-width="3.4" stroke-linecap="round"/>
+  <!-- diamond (Brazilian flag lozenge) -->
+  <path d="M32 6.5 48 22.5 32 38.5 16 22.5Z" fill="url(#gold)" stroke="#6a5205" stroke-width=".75" stroke-linejoin="round"/>
+  <!-- football -->
+  <circle cx="32" cy="22.5" r="8" fill="url(#ball)" stroke="#6a5205" stroke-width=".85"/>
+  <path d="M32 15v15M24.5 22.5h15M26.8 17.2c2.5 1.9 8 1.9 10.4 0M26.8 27.8c2.5-1.9 8-1.9 10.4 0" stroke="#6a5205" stroke-width=".9" stroke-linecap="round"/>
+</svg>

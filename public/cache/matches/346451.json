@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 51
+      "elapsed": 55
     },
     "timerStart": "2026-08-30T22:38:14.542Z",
     "timerStatus": "INICIADO"
@@ -147,6 +147,42 @@
         "name": "Kannemann"
       },
       "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 50,
+        "extra": null
+      },
+      "team": {
+        "id": 284,
+        "name": "Grêmio"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "João Pedro"
+      },
+      "assist": {
+        "name": "Enamorado"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 51,
+        "extra": null
+      },
+      "team": {
+        "id": 284,
+        "name": "Grêmio"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Carlos Vinícius"
+      },
+      "assist": {
+        "name": "Braithwaite"
+      }
     }
   ],
   "lineups": [
@@ -590,7 +626,7 @@
         },
         {
           "type": "Total Passes",
-          "value": 318
+          "value": 343
         },
         {
           "type": "Pass Accuracy",
@@ -598,7 +634,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 39
+          "value": 42
         },
         {
           "type": "Total Shots",
@@ -666,7 +702,7 @@
         },
         {
           "type": "Total Passes",
-          "value": 244
+          "value": 256
         },
         {
           "type": "Pass Accuracy",
@@ -674,7 +710,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 38
+          "value": 41
         },
         {
           "type": "Total Shots",
@@ -714,11 +750,11 @@
         },
         {
           "type": "Tackles",
-          "value": 17
+          "value": 18
         },
         {
           "type": "Fouls",
-          "value": 6
+          "value": 7
         },
         {
           "type": "Yellow Cards",

@@ -183,9 +183,14 @@ function renderTable(data: DashboardData, lang: Lang): string {
     </div>`;
 }
 
-function renderPlayerList(rows: PlayerStatRow[], lang: Lang, unitKey: "tabGoals" | "tabAssists"): string {
+function renderPlayerList(
+  rows: PlayerStatRow[],
+  lang: Lang,
+  unitKey: "tabGoals" | "tabAssists",
+  emptyKey: "noScorers" | "noAssists" = "noScorers"
+): string {
   if (rows.length === 0) {
-    return `<div class="empty-state"><p>${escapeHtml(t(lang, "noMatches"))}</p></div>`;
+    return `<div class="empty-state"><p>${escapeHtml(t(lang, emptyKey))}</p></div>`;
   }
   return `
     <ol class="player-list">
@@ -196,7 +201,9 @@ function renderPlayerList(rows: PlayerStatRow[], lang: Lang, unitKey: "tabGoals"
           <span class="player-rank">${i + 1}</span>
           <div class="player-info">
             <strong>${escapeHtml(p.name)}</strong>
-            <span class="muted">${crestImg(p.teamLogo, p.team)} ${escapeHtml(p.team)} · ${escapeHtml(t(lang, "apps"))} ${p.appearances}</span>
+            <span class="muted">${crestImg(p.teamLogo, p.team)} ${escapeHtml(p.team)}${
+              p.appearances > 0 ? ` · ${escapeHtml(t(lang, "apps"))} ${p.appearances}` : ""
+            }</span>
           </div>
           <span class="player-value" title="${escapeHtml(t(lang, unitKey))}">${p.value}</span>
         </li>`
@@ -211,7 +218,11 @@ function renderScorers(data: DashboardData, lang: Lang, tab: "goals" | "assists"
       <button class="filter-btn ${tab === "goals" ? "active" : ""}" data-scorers-tab="goals">${escapeHtml(t(lang, "tabGoals"))}</button>
       <button class="filter-btn ${tab === "assists" ? "active" : ""}" data-scorers-tab="assists">${escapeHtml(t(lang, "tabAssists"))}</button>
     </div>
-    ${tab === "goals" ? renderPlayerList(data.scorers, lang, "tabGoals") : renderPlayerList(data.assists, lang, "tabAssists")}`;
+    ${
+      tab === "goals"
+        ? renderPlayerList(data.scorers, lang, "tabGoals", "noScorers")
+        : renderPlayerList(data.assists, lang, "tabAssists", "noAssists")
+    }`;
 }
 
 function renderLangSwitch(lang: Lang): string {

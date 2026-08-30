@@ -9,6 +9,10 @@ import { spawnSync } from "node:child_process";
 import vm from "node:vm";
 
 const GE_URL = "https://ge.globo.com/futebol/brasileirao-serie-a/";
+const BETEXPLORER_FIXTURES =
+  "https://www.betexplorer.com/football/brazil/serie-a-betano/fixtures/";
+const BETEXPLORER_RESULTS =
+  "https://www.betexplorer.com/football/brazil/serie-a-betano/results/";
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
 const CACHE_DIR = join(ROOT, "public", "cache");
 const MATCHES_DIR = join(CACHE_DIR, "matches");
@@ -221,6 +225,7 @@ function minimalMatchDetail(fixtureRow) {
     events: [],
     lineups: [],
     statistics: [],
+    sportsFieldUrl: null,
   };
 }
 
@@ -434,6 +439,7 @@ async function enrichFromTransmission(fixtureRow) {
     started && scoreboard?.away != null ? scoreboard.away : fixtureRow.goals.away;
 
   const { _geUrl, ...base } = fixtureRow;
+  const sportsFieldUrl = trv2.theSportsField?.url || null;
   return {
     ...base,
     fixture: {
@@ -455,11 +461,92 @@ async function enrichFromTransmission(fixtureRow) {
     events,
     lineups,
     statistics,
+    odds: base.odds ?? null,
+    sportsFieldUrl,
   };
 }
 
 function sleep(ms) {
   return new Promise((r) => setTimeout(r, ms));
+}
+
+function normalizeTeamKey(name) {
+  return String(name || "")
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .toLowerCase()
+    .replace(/\b(rj|sc|sp|mg|pr|rs|ba|pe|ce|go|df|pa)\b/g, "")
+    .replace(/\b(ec|fc|se|sa|cr|aa|ac|clube|futebol|regatas|sport)\b/g, "")
+    .replace(/atletico/g, "athletico")
+    .replace(/[^a-z0-9]/g, "");
+}
+
+function parseBetexplorerOddsPage(html) {
+  const out = [];
+  const rowRe =
+    /<tr>[\s\S]*?<a[^>]*class="in-match"[^>]*>\s*<span>(?:<strong>)?([^<]+?)(?:<\/strong>)?<\/span>\s*-\s*<span>(?:<strong>)?([^<]+?)(?:<\/strong>)?<\/span><\/a>[\s\S]*?data-odd="([0-9.]+)"[\s\S]*?data-odd="([0-9.]+)"[\s\S]*?data-odd="([0-9.]+)"[\s\S]*?<\/tr>/gi;
+  let m;
+  while ((m = rowRe.exec(html))) {
+    const home = m[1].trim();
+    const away = m[2].trim();
+    const odds = {
+      home: Number(m[3]),
+      draw: Number(m[4]),
+      away: Number(m[5]),
+      source: "betexplorer",
+    };
+    if (odds.home > 1 && odds.draw > 1 && odds.away > 1) {
+      out.push({
+        homeKey: normalizeTeamKey(home),
+        awayKey: normalizeTeamKey(away),
+        homeName: home,
+        awayName: away,
+        odds,
+      });
+    }
+  }
+  return out;
+}
+
+async function fetchBetexplorerOdds() {
+  const rows = [];
+  for (const url of [BETEXPLORER_FIXTURES, BETEXPLORER_RESULTS]) {
+    try {
+      const html = await fetchHtml(url, 25000);
+      rows.push(...parseBetexplorerOddsPage(html));
+    } catch (err) {
+      console.warn(
+        "Betexplorer odds fetch failed:",
+        url,
+        err instanceof Error ? err.message : String(err)
+      );
+    }
+    await sleep(200);
+  }
+  // Prefer first occurrence (fixtures usually listed before results duplicates)
+  const map = new Map();
+  for (const row of rows) {
+    const key = `${row.homeKey}__${row.awayKey}`;
+    if (!map.has(key)) map.set(key, row);
+  }
+  return map;
+}
+
+function findOddsForFixture(oddsMap, homeName, awayName) {
+  if (!oddsMap?.size) return null;
+  const hk = normalizeTeamKey(homeName);
+  const ak = normalizeTeamKey(awayName);
+  const direct = oddsMap.get(`${hk}__${ak}`);
+  if (direct) return direct.odds;
+  for (const row of oddsMap.values()) {
+    if (
+      (row.homeKey === hk || row.homeKey.includes(hk) || hk.includes(row.homeKey)) &&
+      (row.awayKey === ak || row.awayKey.includes(ak) || ak.includes(row.awayKey))
+    ) {
+      return row.odds;
+    }
+  }
+  return null;
 }
 
 function parseScorersFromHtml(html) {
@@ -541,6 +628,13 @@ async function main() {
       mode === "live" ? 90_000 : mode === "prematch" ? 5 * 60_000 : 15 * 60_000;
 
     const scorers = parseScorersFromHtml(html);
+    const oddsMap = await fetchBetexplorerOdds();
+    let oddsMatched = 0;
+    for (const f of fixtures) {
+      const odds = findOddsForFixture(oddsMap, f.teams.home.name, f.teams.away.name);
+      f.odds = odds;
+      if (odds) oddsMatched++;
+    }
 
     const payload = {
       fixtures: fixtures.map(({ _geUrl, ...f }) => f),
@@ -560,6 +654,8 @@ async function main() {
         edicao: data.edicao?.nome ?? "Campeonato Brasileiro",
         provider: "ge.globo.com",
         scorersCount: scorers.length,
+        oddsMatched,
+        oddsAvailable: oddsMap.size,
       },
     };
 
@@ -585,6 +681,7 @@ async function main() {
               fixture: detail.fixture,
               goals: detail.goals,
               score: detail.score,
+              odds: detail.odds ?? payload.fixtures[idx].odds ?? null,
             };
           }
         } catch (err) {
@@ -603,7 +700,7 @@ async function main() {
     writeFileSync(join(CACHE_DIR, "dashboard.json"), JSON.stringify(payload, null, 2));
 
     console.log(
-      `Synced GE cache: rodada ${rodada}, ${fixtures.length} jogos, ${data.classificacao?.length ?? 0} times, enriched=${enriched}, failed=${failed}, scorers=${scorers.length}, source=${payload.source}`
+      `Synced GE cache: rodada ${rodada}, ${fixtures.length} jogos, ${data.classificacao?.length ?? 0} times, enriched=${enriched}, failed=${failed}, scorers=${scorers.length}, odds=${oddsMatched}/${oddsMap.size}, source=${payload.source}`
     );
   } catch (err) {
     writeDemoFallback(err instanceof Error ? err.message : String(err));

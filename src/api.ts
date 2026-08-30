@@ -75,6 +75,7 @@ interface RawFixture {
     away: { id: number; name: string; logo: string };
   };
   goals: { home: number | null; away: number | null };
+  odds?: { home: number; draw: number; away: number; source?: string } | null;
 }
 
 function mapMatch(f: RawFixture): Match {
@@ -195,6 +196,7 @@ interface RawDetail extends RawFixture {
     statistics: Array<{ type: string; value: string | number | null }>;
   }>;
   score?: { halftime?: { home: number | null; away: number | null } };
+  sportsFieldUrl?: string | null;
 }
 
 function minuteStr(e: RawEvent): string {
@@ -277,6 +279,16 @@ export function mapMatchDetail(raw: RawDetail): MatchDetail {
     subs,
     stats,
     lineups,
+    odds:
+      raw.odds && raw.odds.home > 1 && raw.odds.draw > 1 && raw.odds.away > 1
+        ? {
+            home: raw.odds.home,
+            draw: raw.odds.draw,
+            away: raw.odds.away,
+            source: raw.odds.source,
+          }
+        : null,
+    sportsFieldUrl: raw.sportsFieldUrl ?? null,
   };
 }
 
@@ -290,6 +302,8 @@ export function matchSummaryFromList(m: Match): MatchDetail {
     subs: [],
     stats: [],
     lineups: [],
+    odds: null,
+    sportsFieldUrl: null,
   };
 }
 

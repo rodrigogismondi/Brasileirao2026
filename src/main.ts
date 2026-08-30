@@ -78,9 +78,12 @@ function mount(): void {
     paint();
   };
 
-  const scheduleRefresh = (liveIntervalMs: number, hasLive: boolean) => {
+  const scheduleRefresh = (liveIntervalMs: number, mode: string) => {
     if (refreshTimer) clearInterval(refreshTimer);
-    const ms = hasLive ? Math.max(60_000, liveIntervalMs) : IDLE_REFRESH_MS;
+    const ms =
+      mode === "idle"
+        ? Math.max(IDLE_REFRESH_MS, liveIntervalMs)
+        : Math.max(60_000, liveIntervalMs);
     refreshTimer = setInterval(() => void load(true), ms);
   };
 
@@ -96,7 +99,7 @@ function mount(): void {
     try {
       const data = await fetchDashboard();
       state = { ...state, data, loading: false, error: null };
-      scheduleRefresh(data.budget.liveIntervalMs, data.live.length > 0);
+      scheduleRefresh(data.budget.liveIntervalMs, data.budget.mode);
       if (state.selectedMatchId) {
         await loadMatchDetail(state.selectedMatchId, true);
       }

@@ -6,7 +6,8 @@ on:
   workflow_dispatch:
   # Refresh live scores / tabela from GE during the season
   schedule:
-    - cron: "*/15 * * * *"
+    # Refresh scores, lineups and match details from GE during the season
+    - cron: "*/5 * * * *"
 
 permissions:
   contents: read

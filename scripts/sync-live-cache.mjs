@@ -1059,10 +1059,10 @@ async function main() {
     let enriched = 0;
     let failed = 0;
     for (const f of fixtures) {
-      const round = fixtureRoundNumber(f);
       const enrich = shouldEnrich(f, rodada, { liveOnly });
-      // Fast path: only rewrite current-round / enriched match files.
-      if (!fullSeason && !enrich && round !== rodada) continue;
+      // Fast path: only rewrite match files we actually re-fetched.
+      // Never clobber a previously enriched finished match with a minimal stub.
+      if (!fullSeason && !enrich) continue;
 
       let detail = minimalMatchDetail(f);
       if (enrich) {

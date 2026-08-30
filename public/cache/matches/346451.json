@@ -10,7 +10,9 @@
       "long": "NS",
       "short": "NS",
       "elapsed": null
-    }
+    },
+    "timerStart": "2026-08-30T20:12:07.032Z",
+    "timerStatus": "PAUSADO"
   },
   "league": {
     "round": "Regular Season - 25"
@@ -48,7 +50,443 @@
     "source": "betexplorer"
   },
   "events": [],
-  "lineups": [],
+  "lineups": [
+    {
+      "team": {
+        "id": 284,
+        "name": "Grêmio",
+        "logo": "https://s.sde.globo.com/media/organizations/2018/03/12/gremio.svg"
+      },
+      "formation": "4-3-3",
+      "coach": {
+        "name": "Luís Castro"
+      },
+      "startXI": [
+        {
+          "player": {
+            "id": "weverton2",
+            "name": "Weverton",
+            "number": 1,
+            "pos": "Gol",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "crispavon",
+            "name": "Pavón",
+            "number": 7,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "gustavomartins",
+            "name": "Gustavo Martins",
+            "number": 6,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "wallace",
+            "name": "Wallace",
+            "number": 82,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "marlon453453",
+            "name": "Marlon",
+            "number": 23,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "danilobarbosa",
+            "name": "Danilo Barbosa",
+            "number": 15,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "villasanti",
+            "name": "Villasanti",
+            "number": 20,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "krovinovic",
+            "name": "Krovinovic",
+            "number": 10,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "enamorado",
+            "name": "Enamorado",
+            "number": 99,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "braithwaite",
+            "name": "Braithwaite",
+            "number": 22,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "jovane",
+            "name": "Jovane Cabral",
+            "number": 77,
+            "pos": "Ata",
+            "grid": null
+          }
+        }
+      ],
+      "substitutes": [
+        {
+          "player": {
+            "id": "gabriel-grando",
+            "name": "Gabriel Grando",
+            "number": 12,
+            "pos": "Gol",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "joaopedro06",
+            "name": "João Pedro",
+            "number": 18,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "wagner-leonardo",
+            "name": "Wagner Leonardo",
+            "number": 3,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "kannemann",
+            "name": "Kannemann",
+            "number": 4,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "pedro-gabriel-pinheiro",
+            "name": "Pedro Gabriel",
+            "number": 54,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "bernardo-zortea",
+            "name": "Bernardo Zortea",
+            "number": 50,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "jeferson-forneck",
+            "name": "Jefinho",
+            "number": 40,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "Riquelme-Freitas",
+            "name": "Riquelme",
+            "number": 65,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "francis-amuzu",
+            "name": "Amuzu",
+            "number": 9,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "tetemat",
+            "name": "Tetê",
+            "number": 11,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "matheusnascimento",
+            "name": "Matheus Nascimento",
+            "number": 30,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "carlosviniciusalves",
+            "name": "Carlos Vinícius",
+            "number": 95,
+            "pos": "Ata",
+            "grid": null
+          }
+        }
+      ]
+    },
+    {
+      "team": {
+        "id": 315,
+        "name": "Chapecoense",
+        "logo": "https://s.sde.globo.com/media/organizations/2021/06/21/CHAPECOENSE-2018.svg"
+      },
+      "formation": "4-3-3",
+      "coach": {
+        "name": "Rafael Lacerda"
+      },
+      "startXI": [
+        {
+          "player": {
+            "id": "andersonsp",
+            "name": "Anderson",
+            "number": 98,
+            "pos": "Gol",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "heitorfonseca",
+            "name": "Heitor",
+            "number": 5,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "kauanfg",
+            "name": "Kauan",
+            "number": 21,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "eduardodoma",
+            "name": "Eduardo Doma",
+            "number": 3,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "brunopacheco",
+            "name": "Bruno Pacheco",
+            "number": 91,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "brunomatias",
+            "name": "Bruno Matias",
+            "number": 16,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "yagofelipe",
+            "name": "Yago Felipe",
+            "number": 88,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "giovanni-augusto",
+            "name": "Giovanni Augusto",
+            "number": 10,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "marcinhoantonio",
+            "name": "Marcinho",
+            "number": 7,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "tulio-eduardo",
+            "name": "Túlio Eduardo",
+            "number": 9,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "garcezmau",
+            "name": "Garcez",
+            "number": 31,
+            "pos": "Ata",
+            "grid": null
+          }
+        }
+      ],
+      "substitutes": [
+        {
+          "player": {
+            "id": "matheusaurelio",
+            "name": "Matheus Aurélio",
+            "number": 30,
+            "pos": "Gol",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "everton-cruz",
+            "name": "Everton",
+            "number": 26,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "rafaelthyere",
+            "name": "Rafael Thyere",
+            "number": 15,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "Luciano-Ludwig",
+            "name": "Luciano",
+            "number": 44,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "fernando-bueno",
+            "name": "Fernando",
+            "number": 12,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "david",
+            "name": "David",
+            "number": 19,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "borrerody",
+            "name": "Borrero",
+            "number": 77,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "miguel-carvalho",
+            "name": "Miguel Carvalho",
+            "number": 80,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "enioseba",
+            "name": "Ênio",
+            "number": 97,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "franrossi",
+            "name": "Franco Rossi",
+            "number": 29,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "rubensth",
+            "name": "Rubens",
+            "number": 70,
+            "pos": "Ata",
+            "grid": null
+          }
+        }
+      ]
+    }
+  ],
   "statistics": [],
-  "sportsFieldUrl": null
+  "sportsFieldUrl": "https://widgets.thesports01.com/br/2d/football?profile=9gm9whvzgheuzr0&uuid=8yomo4h1g7vyq0j&hidetime=1"
 }

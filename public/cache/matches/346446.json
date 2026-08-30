@@ -10,7 +10,9 @@
       "long": "FT",
       "short": "FT",
       "elapsed": 90
-    }
+    },
+    "timerStart": "2026-08-30T02:27:46.075Z",
+    "timerStatus": "PAUSADO"
   },
   "league": {
     "round": "Regular Season - 25"
@@ -47,8 +49,851 @@
     "away": 3.83,
     "source": "betexplorer"
   },
-  "events": [],
-  "lineups": [],
-  "statistics": [],
-  "sportsFieldUrl": null
+  "events": [
+    {
+      "time": {
+        "elapsed": 24,
+        "extra": null
+      },
+      "team": {
+        "id": 283,
+        "name": "Cruzeiro"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "João Marcelo"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 26,
+        "extra": null
+      },
+      "team": {
+        "id": 267,
+        "name": "Vasco"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Adson"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 32,
+        "extra": null
+      },
+      "team": {
+        "id": 267,
+        "name": "Vasco"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "player": {
+        "name": "Tchê Tchê"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 54,
+        "extra": null
+      },
+      "team": {
+        "id": 267,
+        "name": "Vasco"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "player": {
+        "name": "Lucas Freitas"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 61,
+        "extra": null
+      },
+      "team": {
+        "id": 283,
+        "name": "Cruzeiro"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Wesley"
+      },
+      "assist": {
+        "name": "João Costa"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 61,
+        "extra": null
+      },
+      "team": {
+        "id": 283,
+        "name": "Cruzeiro"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Matheus Pereira"
+      },
+      "assist": {
+        "name": "Lucho Rodríguez"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 69,
+        "extra": null
+      },
+      "team": {
+        "id": 267,
+        "name": "Vasco"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Puma Rodríguez"
+      },
+      "assist": {
+        "name": "Adson"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 78,
+        "extra": null
+      },
+      "team": {
+        "id": 267,
+        "name": "Vasco"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Barros"
+      },
+      "assist": {
+        "name": "Santiago Sosa"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 79,
+        "extra": null
+      },
+      "team": {
+        "id": 283,
+        "name": "Cruzeiro"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Felipe Morais"
+      },
+      "assist": {
+        "name": "Kaique Kenji"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 79,
+        "extra": null
+      },
+      "team": {
+        "id": 283,
+        "name": "Cruzeiro"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Lucas Silva"
+      },
+      "assist": {
+        "name": "Zé Lucas"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 79,
+        "extra": null
+      },
+      "team": {
+        "id": 267,
+        "name": "Vasco"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "David"
+      },
+      "assist": {
+        "name": "Colidio"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 84,
+        "extra": null
+      },
+      "team": {
+        "id": 267,
+        "name": "Vasco"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Ramon Rique"
+      },
+      "assist": {
+        "name": "Tchê Tchê"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 84,
+        "extra": null
+      },
+      "team": {
+        "id": 267,
+        "name": "Vasco"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Marino Hinestroza"
+      },
+      "assist": {
+        "name": "Andrés Gómez"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 84,
+        "extra": null
+      },
+      "team": {
+        "id": 283,
+        "name": "Cruzeiro"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Wanderson"
+      },
+      "assist": {
+        "name": "Villarreal"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 91,
+        "extra": null
+      },
+      "team": {
+        "id": 267,
+        "name": "Vasco"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "player": {
+        "name": "David"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 93,
+        "extra": null
+      },
+      "team": {
+        "id": 267,
+        "name": "Vasco"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Barros"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 94,
+        "extra": null
+      },
+      "team": {
+        "id": 283,
+        "name": "Cruzeiro"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "player": {
+        "name": "Felipe Morais"
+      },
+      "assist": null
+    }
+  ],
+  "lineups": [
+    {
+      "team": {
+        "id": 267,
+        "name": "Vasco",
+        "logo": "https://s.sde.globo.com/media/organizations/2021/09/04/vasco_SVG.svg"
+      },
+      "formation": "4-3-3",
+      "coach": {
+        "name": "Pedro Emanuel"
+      },
+      "startXI": [
+        {
+          "player": {
+            "id": "leojardim",
+            "name": "Léo Jardim",
+            "number": 1,
+            "pos": "Gol",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "paulohenrique-parana",
+            "name": "Paulo Henrique",
+            "number": 96,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "cuestacar",
+            "name": "Carlos Cuesta",
+            "number": 46,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "lucasfreitas",
+            "name": "Lucas Freitas",
+            "number": 43,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "lucas-piton",
+            "name": "Lucas Piton",
+            "number": 6,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "sosasanti",
+            "name": "Santiago Sosa",
+            "number": 5,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "tche-tche",
+            "name": "Tchê Tchê",
+            "number": 3,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "thiagomendes",
+            "name": "Thiago Mendes",
+            "number": 23,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "adsonsoares",
+            "name": "Adson",
+            "number": 28,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "colidio",
+            "name": "Colidio",
+            "number": 9,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "carlosgomez",
+            "name": "Andrés Gómez",
+            "number": 11,
+            "pos": "Ata",
+            "grid": null
+          }
+        }
+      ],
+      "substitutes": [
+        {
+          "player": {
+            "id": "danielfuzato",
+            "name": "Daniel Fuzato",
+            "number": 13,
+            "pos": "Gol",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "joserodriguezlu",
+            "name": "Puma Rodríguez",
+            "number": 2,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "saldivia",
+            "name": "Saldivia",
+            "number": 4,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "brunoandre",
+            "name": "Bruno André",
+            "number": 80,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "riquelme-avellar",
+            "name": "Avellar",
+            "number": 82,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "Euder",
+            "name": "Euder",
+            "number": 70,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "cauan-barros",
+            "name": "Barros",
+            "number": 88,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "nuno-moreira",
+            "name": "Nuno Moreira",
+            "number": 17,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "ramon-rique",
+            "name": "Ramon Rique",
+            "number": 83,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "david1234",
+            "name": "David",
+            "number": 7,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "marinohin",
+            "name": "Marino Hinestroza",
+            "number": 18,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "spinelli",
+            "name": "Spinelli",
+            "number": 77,
+            "pos": "Ata",
+            "grid": null
+          }
+        }
+      ]
+    },
+    {
+      "team": {
+        "id": 283,
+        "name": "Cruzeiro",
+        "logo": "https://s.sde.globo.com/media/organizations/2021/02/13/cruzeiro_2021.svg"
+      },
+      "formation": "4-3-3",
+      "coach": {
+        "name": "Artur Jorge"
+      },
+      "startXI": [
+        {
+          "player": {
+            "id": "otavioeleo",
+            "name": "Otávio",
+            "number": 81,
+            "pos": "Gol",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "williamasevedo",
+            "name": "William",
+            "number": 12,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "joaomarcelo",
+            "name": "João Marcelo",
+            "number": 43,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "jonathan",
+            "name": "Jonathan Jesus",
+            "number": 34,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "rojasgabr",
+            "name": "Gabriel Rojas",
+            "number": 27,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "ze-lucas",
+            "name": "Zé Lucas",
+            "number": 5,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "matheushenrique1297",
+            "name": "Matheus Henrique",
+            "number": 7,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "KaiqueKenji",
+            "name": "Kaique Kenji",
+            "number": 70,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "joao-gabriel-costa",
+            "name": "João Costa",
+            "number": 67,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "villarreal",
+            "name": "Villarreal",
+            "number": 22,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "lucirodri",
+            "name": "Lucho Rodríguez",
+            "number": 97,
+            "pos": "Ata",
+            "grid": null
+          }
+        }
+      ],
+      "substitutes": [
+        {
+          "player": {
+            "id": "cassio-ramos",
+            "name": "Cássio",
+            "number": 1,
+            "pos": "Gol",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "Kaua-Moraes",
+            "name": "Kauã Moraes",
+            "number": 2,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "fagner",
+            "name": "Fagner",
+            "number": 23,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "lvillalba",
+            "name": "Villalba",
+            "number": 25,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "lucassilva",
+            "name": "Lucas Silva",
+            "number": 16,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "lucasromero",
+            "name": "Lucas Romero",
+            "number": 29,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "matheusfcpereira",
+            "name": "Matheus Pereira",
+            "number": 10,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "felipe-morais",
+            "name": "Felipe Morais",
+            "number": 38,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "marquinhos-alencar",
+            "name": "Marquinhos",
+            "number": 11,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "kaio-jorge",
+            "name": "Kaio Jorge",
+            "number": 19,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "wesley-corinthians",
+            "name": "Wesley",
+            "number": 20,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "wanderson123",
+            "name": "Wanderson",
+            "number": 94,
+            "pos": "Ata",
+            "grid": null
+          }
+        }
+      ]
+    }
+  ],
+  "statistics": [
+    {
+      "team": {
+        "id": 267,
+        "name": "Vasco"
+      },
+      "statistics": [
+        {
+          "type": "Ball Possession",
+          "value": "49%"
+        },
+        {
+          "type": "Total Shots",
+          "value": 10
+        },
+        {
+          "type": "Shots off Goal",
+          "value": 12
+        },
+        {
+          "type": "Blocked Shots",
+          "value": 4
+        },
+        {
+          "type": "Corner Kicks",
+          "value": 11
+        },
+        {
+          "type": "Fouls",
+          "value": 15
+        },
+        {
+          "type": "Offsides",
+          "value": 1
+        },
+        {
+          "type": "Goalkeeper Saves",
+          "value": 8
+        },
+        {
+          "type": "Yellow Cards",
+          "value": 2
+        },
+        {
+          "type": "Red Cards",
+          "value": 0
+        },
+        {
+          "type": "Pass Accuracy",
+          "value": "18%"
+        }
+      ]
+    },
+    {
+      "team": {
+        "id": 283,
+        "name": "Cruzeiro"
+      },
+      "statistics": [
+        {
+          "type": "Ball Possession",
+          "value": "51%"
+        },
+        {
+          "type": "Total Shots",
+          "value": 6
+        },
+        {
+          "type": "Shots off Goal",
+          "value": 4
+        },
+        {
+          "type": "Blocked Shots",
+          "value": 2
+        },
+        {
+          "type": "Corner Kicks",
+          "value": 3
+        },
+        {
+          "type": "Fouls",
+          "value": 12
+        },
+        {
+          "type": "Offsides",
+          "value": 0
+        },
+        {
+          "type": "Goalkeeper Saves",
+          "value": 8
+        },
+        {
+          "type": "Yellow Cards",
+          "value": 1
+        },
+        {
+          "type": "Red Cards",
+          "value": 0
+        },
+        {
+          "type": "Pass Accuracy",
+          "value": "19%"
+        }
+      ]
+    }
+  ],
+  "sportsFieldUrl": "https://widgets.thesports01.com/br/2d/football?profile=9gm9whvzgheuzr0&uuid=2y8m4zh5w3gnql0&hidetime=1"
 }

@@ -909,6 +909,50 @@ a {
   min-width: 0;
 }
 
+.md-event-title-row {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  min-width: 0;
+}
+
+.md-event-title-row strong {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.md-card-ico {
+  display: inline-block;
+  width: 0.72rem;
+  height: 0.95rem;
+  border-radius: 0.12rem;
+  flex-shrink: 0;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.25);
+}
+
+.md-card-ico-yellow {
+  background: linear-gradient(160deg, #fde047, #eab308);
+}
+
+.md-card-ico-red {
+  background: linear-gradient(160deg, #fb7185, #dc2626);
+}
+
+.md-card-ico-sm {
+  width: 0.55rem;
+  height: 0.72rem;
+}
+
+.md-ball-ico {
+  width: auto;
+  height: auto;
+  background: none;
+  box-shadow: none;
+  font-size: 0.85rem;
+  line-height: 1;
+}
+
 .md-sub-body {
   gap: 0.2rem;
 }

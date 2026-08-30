@@ -380,9 +380,9 @@ function mapStatistics(stats, home, away) {
 }
 
 function shouldEnrich(fixtureRow) {
-  const short = fixtureRow.fixture?.status?.short;
-  if (!fixtureRow._geUrl) return false;
-  return ["FT", "HT", "1H", "2H", "ET", "BT", "P", "LIVE", "AET", "PEN"].includes(short);
+  // Current rodada is ~10 matches; enrich all with a GE page so pre-match
+  // lineups appear as soon as GE publishes them (not only after kickoff).
+  return Boolean(fixtureRow._geUrl);
 }
 
 async function fetchHtml(url, timeoutMs = 20000) {
@@ -395,6 +395,16 @@ async function fetchHtml(url, timeoutMs = 20000) {
   } finally {
     clearTimeout(t);
   }
+}
+
+function statusFromPeriod(periodAbbr, fallback) {
+  const p = String(periodAbbr || "");
+  if (/ENCERR|POS_JOGO/i.test(p)) return { long: "FT", short: "FT", elapsed: 90 };
+  if (/INTERVALO|^HT$/i.test(p)) return { long: "HT", short: "HT", elapsed: 45 };
+  if (/1T|PRIMEIRO/i.test(p)) return { long: "1H", short: "1H", elapsed: null };
+  if (/2T|SEGUNDO/i.test(p)) return { long: "2H", short: "2H", elapsed: null };
+  if (/PRORROGA|PENALT/i.test(p)) return { long: "ET", short: "ET", elapsed: null };
+  return fallback;
 }
 
 async function enrichFromTransmission(fixtureRow) {
@@ -410,17 +420,18 @@ async function enrichFromTransmission(fixtureRow) {
   const lineups = [homeLineup, awayLineup].filter(Boolean);
   const statistics = mapStatistics(trv2.statistics, home, away);
 
+  const periodAbbr =
+    match.period?.abbreviation ||
+    match.period?.id ||
+    trv2.transmission?.period?.abbreviation ||
+    "";
+  const status = statusFromPeriod(periodAbbr, fixtureRow.fixture.status);
   const scoreboard = match.scoreboard;
+  const started = status.short !== "NS";
   const goalsHome =
-    scoreboard?.home != null ? scoreboard.home : fixtureRow.goals.home;
+    started && scoreboard?.home != null ? scoreboard.home : fixtureRow.goals.home;
   const goalsAway =
-    scoreboard?.away != null ? scoreboard.away : fixtureRow.goals.away;
-
-  const periodAbbr = String(match.period?.abbreviation || match.period?.id || "");
-  let status = { ...fixtureRow.fixture.status };
-  if (/ENCERR|POS_JOGO|FT/i.test(periodAbbr) || trv2.transmission?.period?.abbreviation === "Encerrado") {
-    status = { long: "FT", short: "FT", elapsed: 90 };
-  }
+    started && scoreboard?.away != null ? scoreboard.away : fixtureRow.goals.away;
 
   const { _geUrl, ...base } = fixtureRow;
   return {
@@ -473,9 +484,19 @@ async function main() {
     const rodada = data.rodada?.atual ?? 0;
     const fixtures = mapFixtures(data.lista_jogos, rodada);
     const standings = mapStandings(data.classificacao);
+    const nowSec = Math.floor(Date.now() / 1000);
     const hasLive = fixtures.some((f) =>
       ["1H", "HT", "2H", "LIVE", "ET", "BT", "P"].includes(f.fixture.status.short)
     );
+    const hasPrematch = fixtures.some((f) => {
+      if (f.fixture.status.short !== "NS") return false;
+      const eta = f.fixture.timestamp - nowSec;
+      // Lineups usually drop ~1h before; keep a wider window.
+      return eta <= 3 * 3600 && eta >= -30 * 60;
+    });
+    const mode = hasLive ? "live" : hasPrematch ? "prematch" : "idle";
+    const liveIntervalMs =
+      mode === "live" ? 90_000 : mode === "prematch" ? 5 * 60_000 : 15 * 60_000;
 
     const payload = {
       fixtures: fixtures.map(({ _geUrl, ...f }) => f),
@@ -485,8 +506,8 @@ async function main() {
       budget: {
         used: 0,
         remaining: 100,
-        mode: hasLive ? "live" : "idle",
-        liveIntervalMs: hasLive ? 90_000 : 15 * 60_000,
+        mode,
+        liveIntervalMs,
       },
       fetchedAt: new Date().toISOString(),
       source: "ge-globo",

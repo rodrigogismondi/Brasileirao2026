@@ -62,6 +62,11 @@ function roundLabel(round: string | undefined): string {
   return round.replace("Regular Season - ", "Rodada ");
 }
 
+function roundNumberFromLabel(round: string | undefined): number | null {
+  const m = String(round || "").match(/(\d+)\s*$/);
+  return m ? Number(m[1]) : null;
+}
+
 interface RawFixture {
   fixture: {
     id: number;
@@ -103,6 +108,7 @@ function mapMatch(f: RawFixture): Match {
     time: dt.toTimeString().slice(0, 5),
     datetime: f.fixture.timestamp,
     venue: f.fixture.venue?.name || f.fixture.venue?.city || "",
+    roundNumber: roundNumberFromLabel(f.league?.round),
   };
 }
 
@@ -321,6 +327,11 @@ interface DashboardPayload {
   budget: BudgetInfo;
   fetchedAt: string;
   source: string;
+  meta?: {
+    rodada?: number;
+    ultimaRodada?: number;
+    rounds?: number[];
+  };
 }
 
 async function loadDashboardPayload(): Promise<DashboardPayload> {
@@ -356,6 +367,14 @@ export async function fetchDashboard(): Promise<DashboardData> {
     .sort((a, b) => b.datetime - a.datetime)
     .slice(0, 10);
 
+  const roundsFromMatches = [
+    ...new Set(all.map((m) => m.roundNumber).filter((n): n is number => n != null && n > 0)),
+  ].sort((a, b) => a - b);
+  const rounds =
+    data.meta?.rounds && data.meta.rounds.length > 0 ? data.meta.rounds : roundsFromMatches;
+  const currentRound = data.meta?.rodada ?? rounds[rounds.length - 1] ?? 1;
+  const lastRound = data.meta?.ultimaRodada ?? rounds[rounds.length - 1] ?? currentRound;
+
   return {
     all,
     live,
@@ -369,6 +388,9 @@ export async function fetchDashboard(): Promise<DashboardData> {
     fetchedAt: new Date(data.fetchedAt),
     demo: data.source === "demo",
     source: data.source ?? "demo",
+    currentRound,
+    lastRound,
+    rounds,
   };
 }
 

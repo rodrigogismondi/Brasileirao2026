@@ -9,6 +9,7 @@ const IDLE_REFRESH_MS = 15 * 60_000;
 let state: AppState = {
   view: "schedule",
   scheduleFilter: "today",
+  selectedRound: null,
   lang: detectLang(),
   data: null,
   loading: true,
@@ -116,7 +117,13 @@ function mount(): void {
 
     try {
       const data = await fetchDashboard();
-      state = { ...state, data, loading: false, error: null };
+      state = {
+        ...state,
+        data,
+        loading: false,
+        error: null,
+        selectedRound: state.selectedRound ?? data.currentRound,
+      };
       scheduleRefresh(data.budget.liveIntervalMs, data.budget.mode);
       scheduleLiveClock();
       if (state.selectedMatchId) {
@@ -146,8 +153,50 @@ function mount(): void {
 
     el.querySelectorAll("[data-filter]").forEach((node) => {
       node.addEventListener("click", () => {
-        state = { ...state, scheduleFilter: (node as HTMLElement).dataset.filter! };
+        const filter = (node as HTMLElement).dataset.filter!;
+        state = {
+          ...state,
+          scheduleFilter: filter,
+          selectedRound:
+            filter === "all"
+              ? (state.selectedRound ?? state.data?.currentRound ?? null)
+              : state.selectedRound,
+        };
         paint();
+      });
+    });
+
+    el.querySelectorAll('[data-action="round-prev"]').forEach((node) => {
+      node.addEventListener("click", () => {
+        const rounds = state.data?.rounds ?? [];
+        const cur = state.selectedRound ?? state.data?.currentRound ?? 1;
+        const idx = rounds.indexOf(cur);
+        if (idx > 0) {
+          state = { ...state, selectedRound: rounds[idx - 1]! };
+          paint();
+        }
+      });
+    });
+
+    el.querySelectorAll('[data-action="round-next"]').forEach((node) => {
+      node.addEventListener("click", () => {
+        const rounds = state.data?.rounds ?? [];
+        const cur = state.selectedRound ?? state.data?.currentRound ?? 1;
+        const idx = rounds.indexOf(cur);
+        if (idx >= 0 && idx < rounds.length - 1) {
+          state = { ...state, selectedRound: rounds[idx + 1]! };
+          paint();
+        }
+      });
+    });
+
+    el.querySelectorAll('[data-action="round-select"]').forEach((node) => {
+      node.addEventListener("change", () => {
+        const n = Number((node as HTMLSelectElement).value);
+        if (Number.isFinite(n) && n > 0) {
+          state = { ...state, selectedRound: n };
+          paint();
+        }
       });
     });
 

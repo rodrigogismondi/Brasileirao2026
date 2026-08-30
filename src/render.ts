@@ -65,30 +65,70 @@ function renderMatchRow(m: Match, lang: Lang, compact = false): string {
     </article>`;
 }
 
-function renderSchedule(data: DashboardData, filter: string, lang: Lang): string {
+function renderRoundPicker(
+  data: DashboardData,
+  selectedRound: number,
+  lang: Lang
+): string {
+  const rounds = data.rounds.length > 0 ? data.rounds : [data.currentRound];
+  const idx = rounds.indexOf(selectedRound);
+  const atStart = idx <= 0;
+  const atEnd = idx < 0 || idx >= rounds.length - 1;
+  const options = rounds
+    .map(
+      (n) =>
+        `<option value="${n}" ${n === selectedRound ? "selected" : ""}>${escapeHtml(
+          t(lang, "roundLabel", { n })
+        )}</option>`
+    )
+    .join("");
+
+  return `
+    <div class="round-bar" role="group" aria-label="${escapeHtml(t(lang, "roundLabel", { n: selectedRound }))}">
+      <button type="button" class="round-nav-btn" data-action="round-prev" ${atStart ? "disabled" : ""} aria-label="${escapeHtml(t(lang, "roundPrev"))}">‹</button>
+      <select class="round-select" data-action="round-select" aria-label="${escapeHtml(t(lang, "roundLabel", { n: selectedRound }))}">
+        ${options}
+      </select>
+      <button type="button" class="round-nav-btn" data-action="round-next" ${atEnd ? "disabled" : ""} aria-label="${escapeHtml(t(lang, "roundNext"))}">›</button>
+    </div>`;
+}
+
+function renderSchedule(
+  data: DashboardData,
+  filter: string,
+  lang: Lang,
+  selectedRound: number
+): string {
   let matches = data.all;
   if (filter === "live") matches = matches.filter((m) => m.status === "live");
   else if (filter === "today") matches = matches.filter(isMatchToday);
   else if (filter === "upcoming") matches = matches.filter(isMatchUpcoming);
   else if (filter === "finished") matches = matches.filter((m) => m.status === "finished");
+  else if (filter === "all") {
+    matches = matches.filter((m) => m.roundNumber === selectedRound);
+  }
 
   const descending = filter === "finished";
   const byDate = groupMatchesByDate(matches, descending);
+  const roundPicker = filter === "all" ? renderRoundPicker(data, selectedRound, lang) : "";
 
   if (matches.length === 0) {
-    return `<div class="empty-state"><p>${escapeHtml(t(lang, "noMatches"))}</p></div>`;
+    return `${roundPicker}<div class="empty-state"><p>${escapeHtml(t(lang, "noMatches"))}</p></div>`;
   }
 
-  return [...byDate.entries()]
-    .sort(([a], [b]) => (descending ? b.localeCompare(a) : a.localeCompare(b)))
-    .map(
-      ([date, dayMatches]) => `
+  return (
+    roundPicker +
+    [...byDate.entries()]
+      .sort(([a], [b]) => (descending ? b.localeCompare(a) : a.localeCompare(b)))
+      .map(
+        ([date, dayMatches]) => `
       <section class="day-section">
         <h3 class="day-header">${escapeHtml(formatDateHeader(date, lang))}</h3>
         <div class="match-grid">${dayMatches.map((m) => renderMatchRow(m, lang)).join("")}</div>
       </section>`
-    )
-    .join("");
+      )
+      .join("")
+  );
 }
 
 function renderLive(data: DashboardData, lang: Lang): string {
@@ -225,6 +265,7 @@ function renderLangSwitch(lang: Lang): string {
 export interface AppState {
   view: ViewId;
   scheduleFilter: string;
+  selectedRound: number | null;
   lang: Lang;
   data: DashboardData | null;
   loading: boolean;
@@ -252,6 +293,7 @@ function renderMatchDetailOverlay(state: AppState): string {
 
 export function renderApp(state: AppState): string {
   const { view, data, loading, error, scheduleFilter, lang } = state;
+  const selectedRound = state.selectedRound ?? data?.currentRound ?? 1;
 
   let content = "";
   if (loading && !data) {
@@ -270,7 +312,7 @@ export function renderApp(state: AppState): string {
               )
               .join("")}
           </div>
-          ${renderSchedule(data, scheduleFilter, lang)}`;
+          ${renderSchedule(data, scheduleFilter, lang, selectedRound)}`;
         break;
       case "live":
         content = renderLive(data, lang);

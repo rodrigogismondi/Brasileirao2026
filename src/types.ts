@@ -23,6 +23,8 @@ export interface Match {
   time: string;
   datetime: number;
   venue: string;
+  /** Numeric round (1–38) when known. */
+  roundNumber: number | null;
 }
 
 export interface StandingRow {
@@ -134,4 +136,7 @@ export interface DashboardData {
   fetchedAt: Date;
   demo: boolean;
   source: string;
+  currentRound: number;
+  lastRound: number;
+  rounds: number[];
 }

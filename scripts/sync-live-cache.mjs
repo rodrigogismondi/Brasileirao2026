@@ -422,10 +422,31 @@ function periodIndicatesInPlay(periodAbbr) {
   return /1T|2T|HT|ET|BT|PR|INTERVALO|PRIMEIRO|SEGUNDO|PRORROGA|PENALT/i.test(p);
 }
 
+/** Prefer transmission.period — match.period often lags behind (stays 1T into the break). */
+function resolvePeriodAbbr(transmission, match) {
+  return (
+    transmission?.period?.abbreviation ||
+    transmission?.period?.id ||
+    match?.period?.abbreviation ||
+    match?.period?.id ||
+    ""
+  );
+}
+
+function maxPlayElapsed(plays) {
+  return Math.max(
+    0,
+    ...(plays || [])
+      .map((p) => momentToElapsed(p.moment, p.period?.abbreviation || p.period?.id))
+      .filter((n) => Number.isFinite(n) && n > 0)
+  );
+}
+
 /**
  * GE's `currentTime` is often stuck at "00:00". The real clock is
  * `timerStart` (period kickoff ISO) + `timerStatus: INICIADO`.
  * For 2T/ET, timerStart resets at that period's start.
+ * Never tick while PAUSADO / Intervalo — that was counting through HT.
  */
 function elapsedFromTransmissionClock(transmission, periodAbbr, now = Date.now()) {
   const period = String(
@@ -440,6 +461,11 @@ function elapsedFromTransmissionClock(transmission, periodAbbr, now = Date.now()
 
   const timerStatus = String(transmission?.timerStatus || "").toUpperCase();
   const timerStart = transmission?.timerStart;
+
+  // Paused clock (VAR / injury / whistle): do not use wall time.
+  if (timerStatus === "PAUSADO") {
+    return null;
+  }
 
   if (timerStatus === "INICIADO" && timerStart) {
     const startMs = Date.parse(timerStart);
@@ -470,6 +496,29 @@ function elapsedFromTransmissionClock(transmission, periodAbbr, now = Date.now()
   return null;
 }
 
+/** GE sometimes leaves period on 1T while timer is PAUSADO after the half ends. */
+function maybePromoteHalftime(status, transmission, plays, clockElapsed) {
+  if (!status || status.short === "FT" || status.short === "NS" || status.short === "HT") {
+    return status;
+  }
+  const timerStatus = String(transmission?.timerStatus || "").toUpperCase();
+  const period = String(transmission?.period?.abbreviation || transmission?.period?.id || "");
+  if (/INTERVALO|^HT$/i.test(period)) {
+    return { long: "HT", short: "HT", elapsed: 45 };
+  }
+  const playMax = maxPlayElapsed(plays);
+  const elapsed = clockElapsed ?? status.elapsed ?? playMax;
+  // End of 1H: whistle + pause, or plays already past 45'
+  if (
+    status.short === "1H" &&
+    timerStatus === "PAUSADO" &&
+    (elapsed >= 44 || playMax >= 44)
+  ) {
+    return { long: "HT", short: "HT", elapsed: 45 };
+  }
+  return status;
+}
+
 async function enrichFromTransmission(fixtureRow) {
   const url = fixtureRow._geUrl;
   const html = await fetchHtml(url);
@@ -483,11 +532,7 @@ async function enrichFromTransmission(fixtureRow) {
   const lineups = [homeLineup, awayLineup].filter(Boolean);
   const statistics = mapStatistics(trv2.statistics, home, away);
 
-  const periodAbbr =
-    match.period?.abbreviation ||
-    match.period?.id ||
-    trv2.transmission?.period?.abbreviation ||
-    "";
+  const periodAbbr = resolvePeriodAbbr(trv2.transmission, match);
   const listaStatus = fixtureRow.fixture.status;
   const nowSec = Math.floor(Date.now() / 1000);
   const beforeKickoff = nowSec < fixtureRow.fixture.timestamp - 60;
@@ -547,14 +592,19 @@ async function enrichFromTransmission(fixtureRow) {
   if (status.short !== "NS" && status.short !== "FT" && clock?.elapsed != null) {
     status = { ...status, elapsed: clock.elapsed };
   } else if (status.short !== "NS" && status.short !== "FT" && status.elapsed == null) {
-    const timed = (trv2.plays || [])
-      .map((p) => momentToElapsed(p.moment, p.period?.abbreviation || p.period?.id))
-      .filter((n) => Number.isFinite(n) && n > 0);
-    if (timed.length) status = { ...status, elapsed: Math.max(...timed) };
+    const playMax = maxPlayElapsed(trv2.plays);
+    if (playMax > 0) status = { ...status, elapsed: playMax };
   }
 
-  const timerStart = trv2.transmission?.timerStart || null;
-  const timerStatus = trv2.transmission?.timerStatus || null;
+  status = maybePromoteHalftime(status, trv2.transmission, trv2.plays, clock?.elapsed);
+
+  let timerStart = trv2.transmission?.timerStart || null;
+  let timerStatus = trv2.transmission?.timerStatus || null;
+  // Freeze client ticking during HT even if GE still says INICIADO briefly
+  if (status.short === "HT") {
+    timerStatus = "PAUSADO";
+    if (status.elapsed == null) status = { ...status, elapsed: 45 };
+  }
 
   const { _geUrl, ...base } = fixtureRow;
   const sportsFieldUrl = trv2.theSportsField?.url || null;

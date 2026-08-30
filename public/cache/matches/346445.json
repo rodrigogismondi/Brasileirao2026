@@ -7,12 +7,12 @@
       "city": ""
     },
     "status": {
-      "long": "1H",
-      "short": "1H",
-      "elapsed": 48
+      "long": "HT",
+      "short": "HT",
+      "elapsed": 45
     },
-    "timerStart": "2026-08-30T19:00:11.572Z",
-    "timerStatus": "INICIADO"
+    "timerStart": "2026-08-30T19:49:19.101Z",
+    "timerStatus": "PAUSADO"
   },
   "league": {
     "round": "Regular Season - 25"
@@ -45,8 +45,8 @@
   },
   "odds": {
     "home": 1.28,
-    "draw": 5.59,
-    "away": 9.73,
+    "draw": 5.75,
+    "away": 9.63,
     "source": "betexplorer"
   },
   "events": [
@@ -540,7 +540,7 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "71%"
+          "value": "68%"
         },
         {
           "type": "Total Shots",
@@ -560,7 +560,7 @@
         },
         {
           "type": "Fouls",
-          "value": 4
+          "value": 5
         },
         {
           "type": "Offsides",
@@ -580,7 +580,7 @@
         },
         {
           "type": "Pass Accuracy",
-          "value": "24%"
+          "value": "23%"
         }
       ]
     },
@@ -592,7 +592,7 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "29%"
+          "value": "32%"
         },
         {
           "type": "Total Shots",
@@ -600,7 +600,7 @@
         },
         {
           "type": "Shots off Goal",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Blocked Shots",
@@ -608,7 +608,7 @@
         },
         {
           "type": "Corner Kicks",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Fouls",
@@ -632,7 +632,7 @@
         },
         {
           "type": "Pass Accuracy",
-          "value": "62%"
+          "value": "53%"
         }
       ]
     }

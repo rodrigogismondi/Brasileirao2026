@@ -5,7 +5,8 @@ name: Sync live cache
 
 on:
   schedule:
-    - cron: "*/5 * * * *"
+    # Every 2 min so HT / live clock flips land quickly
+    - cron: "*/2 * * * *"
   workflow_dispatch:
 
 permissions:

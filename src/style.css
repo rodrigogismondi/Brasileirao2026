@@ -1053,10 +1053,44 @@ a {
   min-width: 0;
 }
 
-.md-xi li span:nth-child(2) {
+.md-player-name {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  min-width: 0;
+}
+
+.md-player-label {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
+  min-width: 0;
+}
+
+.md-player-icons {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.12rem;
+  flex-shrink: 0;
+  line-height: 1;
+}
+
+.md-ico {
+  font-size: 0.72rem;
+  font-weight: 800;
+}
+
+.md-ico-goals {
+  letter-spacing: -0.08em;
+  font-size: 0.7rem;
+}
+
+.md-ico-in {
+  color: #22c55e;
+}
+
+.md-ico-out {
+  color: #ef4444;
 }
 
 .md-pos {

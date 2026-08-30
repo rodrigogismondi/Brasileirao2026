@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 86
+      "elapsed": 89
     },
     "timerStart": "2026-08-30T22:36:54.288Z",
     "timerStatus": "INICIADO"
@@ -188,6 +188,40 @@
       },
       "assist": {
         "name": "Alesson"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 84,
+        "extra": null
+      },
+      "team": {
+        "id": 2305,
+        "name": "Mirassol"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Denilson"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 86,
+        "extra": null
+      },
+      "team": {
+        "id": 275,
+        "name": "Palmeiras"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Heittor"
+      },
+      "assist": {
+        "name": "Maurício"
       }
     }
   ],

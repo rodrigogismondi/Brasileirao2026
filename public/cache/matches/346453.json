@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 46
+      "elapsed": 49
     },
     "timerStart": "2026-08-30T22:31:29.617Z",
     "timerStatus": "INICIADO"
@@ -143,6 +143,22 @@
       "detail": "Normal Goal",
       "player": {
         "name": "Erick Pulga"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 48,
+        "extra": null
+      },
+      "team": {
+        "id": 265,
+        "name": "Bahia"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "player": {
+        "name": "?"
       },
       "assist": null
     }
@@ -606,15 +622,15 @@
         },
         {
           "type": "Total Passes",
-          "value": 318
+          "value": 323
         },
         {
           "type": "Pass Accuracy",
-          "value": "88%"
+          "value": "87%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 39
+          "value": 41
         },
         {
           "type": "Total Shots",
@@ -658,7 +674,7 @@
         },
         {
           "type": "Fouls",
-          "value": 4
+          "value": 5
         },
         {
           "type": "Yellow Cards",
@@ -682,19 +698,19 @@
         },
         {
           "type": "Total Passes",
-          "value": 160
+          "value": 170
         },
         {
           "type": "Pass Accuracy",
-          "value": "81%"
+          "value": "79%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 31
+          "value": 35
         },
         {
           "type": "Total Shots",
-          "value": 5
+          "value": 6
         },
         {
           "type": "Shots on Goal",
@@ -702,7 +718,7 @@
         },
         {
           "type": "Shots off Goal",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Blocked Shots",
@@ -730,7 +746,7 @@
         },
         {
           "type": "Tackles",
-          "value": 14
+          "value": 15
         },
         {
           "type": "Fouls",

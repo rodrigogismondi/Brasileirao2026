@@ -746,7 +746,11 @@ async function enrichFromTransmission(fixtureRow) {
   }
 
   const { _geUrl, ...base } = fixtureRow;
-  const sportsFieldUrl = trv2.theSportsField?.url || null;
+  // TheSports pitch widgets for this league usually show an empty
+  // "unavailable" placeholder — do not surface them as a heatmap URL.
+  const rawFieldUrl = trv2.theSportsField?.url || null;
+  const sportsFieldUrl =
+    rawFieldUrl && !/thesports/i.test(String(rawFieldUrl)) ? rawFieldUrl : null;
   return {
     ...base,
     fixture: {

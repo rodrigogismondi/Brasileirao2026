@@ -41,7 +41,816 @@
       "away": 1
     }
   },
-  "events": [],
-  "lineups": [],
-  "statistics": []
+  "events": [
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 287,
+        "name": "Vitória"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Mateus Silva"
+      },
+      "assist": {
+        "name": "Brítez"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 24,
+        "extra": null
+      },
+      "team": {
+        "id": 282,
+        "name": "Atlético-MG"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "player": {
+        "name": "Thiago Borbas"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 34,
+        "extra": null
+      },
+      "team": {
+        "id": 287,
+        "name": "Vitória"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Tarzia"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 44,
+        "extra": null
+      },
+      "team": {
+        "id": 282,
+        "name": "Atlético-MG"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Preciado"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 59,
+        "extra": null
+      },
+      "team": {
+        "id": 282,
+        "name": "Atlético-MG"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Gustavo Scarpa"
+      },
+      "assist": {
+        "name": "Thiago Borbas"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 59,
+        "extra": null
+      },
+      "team": {
+        "id": 282,
+        "name": "Atlético-MG"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Cissé"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 62,
+        "extra": null
+      },
+      "team": {
+        "id": 282,
+        "name": "Atlético-MG"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "player": {
+        "name": "Reinier"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 68,
+        "extra": null
+      },
+      "team": {
+        "id": 287,
+        "name": "Vitória"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Renê"
+      },
+      "assist": {
+        "name": "Alex Bruno"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 68,
+        "extra": null
+      },
+      "team": {
+        "id": 287,
+        "name": "Vitória"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Matheuzinho"
+      },
+      "assist": {
+        "name": "Tarzia"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 68,
+        "extra": null
+      },
+      "team": {
+        "id": 287,
+        "name": "Vitória"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Erick"
+      },
+      "assist": {
+        "name": "Emmanuel Martínez"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 74,
+        "extra": null
+      },
+      "team": {
+        "id": 282,
+        "name": "Atlético-MG"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Dudu"
+      },
+      "assist": {
+        "name": "Minda"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 80,
+        "extra": null
+      },
+      "team": {
+        "id": 287,
+        "name": "Vitória"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Walace"
+      },
+      "assist": {
+        "name": "Caíque"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 86,
+        "extra": null
+      },
+      "team": {
+        "id": 287,
+        "name": "Vitória"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "player": {
+        "name": "Erick"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 89,
+        "extra": null
+      },
+      "team": {
+        "id": 282,
+        "name": "Atlético-MG"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Vitor Hugo"
+      },
+      "assist": {
+        "name": "Alexsander"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 89,
+        "extra": null
+      },
+      "team": {
+        "id": 282,
+        "name": "Atlético-MG"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Cauã Soares"
+      },
+      "assist": {
+        "name": "Reinier"
+      }
+    }
+  ],
+  "lineups": [
+    {
+      "team": {
+        "id": 282,
+        "name": "Atlético-MG",
+        "logo": "https://s.sde.globo.com/media/organizations/2018/03/10/atletico-mg.svg"
+      },
+      "formation": "4-3-3",
+      "coach": {
+        "name": "Eduardo Domínguez"
+      },
+      "startXI": [
+        {
+          "player": {
+            "id": "gabriel-delfim",
+            "name": "Gabriel Delfim",
+            "number": 1,
+            "pos": "G",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "angelo-preciado",
+            "name": "Preciado",
+            "number": 23,
+            "pos": "D",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "natanaelmoreira",
+            "name": "Natanael",
+            "number": 2,
+            "pos": "D",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "vitao",
+            "name": "Vitão",
+            "number": 40,
+            "pos": "D",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "kaua-pascini",
+            "name": "Kauã Pascini",
+            "number": 36,
+            "pos": "D",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "tomperez213",
+            "name": "Tomás Pérez",
+            "number": 25,
+            "pos": "M",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "mamady-cisse",
+            "name": "Cissé",
+            "number": 39,
+            "pos": "M",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "alexsander1003",
+            "name": "Alexsander",
+            "number": 5,
+            "pos": "M",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "reinier",
+            "name": "Reinier",
+            "number": 19,
+            "pos": "F",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "borbas",
+            "name": "Thiago Borbas",
+            "number": 18,
+            "pos": "F",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "mindaal",
+            "name": "Minda",
+            "number": 27,
+            "pos": "F",
+            "grid": null
+          }
+        }
+      ],
+      "substitutes": [
+        {
+          "player": {
+            "id": "robert",
+            "name": "Robert",
+            "number": 31,
+            "pos": "G",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "lemos",
+            "name": "Lemos",
+            "number": 53,
+            "pos": "D",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "vitorhugo02",
+            "name": "Vitor Hugo",
+            "number": 14,
+            "pos": "D",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "renanlodi",
+            "name": "Renan Lodi",
+            "number": 6,
+            "pos": "D",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "kevcastano",
+            "name": "Castaño",
+            "number": 15,
+            "pos": "M",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "alanfranco121",
+            "name": "Alan Franco",
+            "number": 21,
+            "pos": "M",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "gustavoscarpa",
+            "name": "Gustavo Scarpa",
+            "number": 10,
+            "pos": "M",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "gutte",
+            "name": "Gutte",
+            "number": 48,
+            "pos": "M",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "cassierramat",
+            "name": "Cassierra",
+            "number": 9,
+            "pos": "F",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "cuello",
+            "name": "Cuello",
+            "number": 28,
+            "pos": "F",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "caua-soares",
+            "name": "Cauã Soares",
+            "number": 29,
+            "pos": "F",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "dudu",
+            "name": "Dudu",
+            "number": 92,
+            "pos": "F",
+            "grid": null
+          }
+        }
+      ]
+    },
+    {
+      "team": {
+        "id": 287,
+        "name": "Vitória",
+        "logo": "https://s.sde.globo.com/media/organizations/2025/12/18/Vitoria_2025.svg"
+      },
+      "formation": "4-3-3",
+      "coach": {
+        "name": "Jair Ventura"
+      },
+      "startXI": [
+        {
+          "player": {
+            "id": "lucasarcanjo",
+            "name": "Lucas Arcanjo",
+            "number": 1,
+            "pos": "G",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "emabritez",
+            "name": "Brítez",
+            "number": 2,
+            "pos": "D",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "caca-menezes",
+            "name": "Cacá",
+            "number": 25,
+            "pos": "D",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "luancandido",
+            "name": "Luan Cândido",
+            "number": 36,
+            "pos": "D",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "jamerson-jesus",
+            "name": "Jamerson",
+            "number": 83,
+            "pos": "D",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "caique-jesus",
+            "name": "Caíque",
+            "number": 95,
+            "pos": "M",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "emmanuelmartinez",
+            "name": "Emmanuel Martínez",
+            "number": 6,
+            "pos": "M",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "pochettino",
+            "name": "Pochettino",
+            "number": 8,
+            "pos": "M",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "marinho2",
+            "name": "Marinho",
+            "number": 7,
+            "pos": "F",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "alexbruno-vitoriape",
+            "name": "Alex Bruno",
+            "number": 9,
+            "pos": "F",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "ditarzia",
+            "name": "Tarzia",
+            "number": 12,
+            "pos": "F",
+            "grid": null
+          }
+        }
+      ],
+      "substitutes": [
+        {
+          "player": {
+            "id": "yuri-sena",
+            "name": "Yuri Sena",
+            "number": 71,
+            "pos": "G",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "mateusinho",
+            "name": "Mateus Silva",
+            "number": 98,
+            "pos": "D",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "edenilsonsnf",
+            "name": "Edenílson",
+            "number": 26,
+            "pos": "D",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "ramon02",
+            "name": "Ramon",
+            "number": 13,
+            "pos": "D",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "walace-gremio",
+            "name": "Walace",
+            "number": 15,
+            "pos": "M",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "ze-vitor-neves",
+            "name": "Zé Vitor",
+            "number": 88,
+            "pos": "M",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "matheuzinho-martins",
+            "name": "Matheuzinho",
+            "number": 10,
+            "pos": "M",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "osvaldo6",
+            "name": "Osvaldo",
+            "number": 11,
+            "pos": "F",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "fabriciosds",
+            "name": "Fabri",
+            "number": 23,
+            "pos": "F",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "erick-serafim",
+            "name": "Erick",
+            "number": 33,
+            "pos": "F",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "renatokayzer",
+            "name": "Renato Kayzer",
+            "number": 79,
+            "pos": "F",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "Rene",
+            "name": "Renê",
+            "number": 91,
+            "pos": "F",
+            "grid": null
+          }
+        }
+      ]
+    }
+  ],
+  "statistics": [
+    {
+      "team": {
+        "id": 282,
+        "name": "Atlético-MG"
+      },
+      "statistics": [
+        {
+          "type": "Ball Possession",
+          "value": "59%"
+        },
+        {
+          "type": "Total Shots",
+          "value": 8
+        },
+        {
+          "type": "Shots off Goal",
+          "value": 10
+        },
+        {
+          "type": "Blocked Shots",
+          "value": 4
+        },
+        {
+          "type": "Corner Kicks",
+          "value": 4
+        },
+        {
+          "type": "Fouls",
+          "value": 12
+        },
+        {
+          "type": "Offsides",
+          "value": 2
+        },
+        {
+          "type": "Goalkeeper Saves",
+          "value": 7
+        },
+        {
+          "type": "Yellow Cards",
+          "value": 2
+        },
+        {
+          "type": "Red Cards",
+          "value": 0
+        },
+        {
+          "type": "Pass Accuracy",
+          "value": "14%"
+        }
+      ]
+    },
+    {
+      "team": {
+        "id": 287,
+        "name": "Vitória"
+      },
+      "statistics": [
+        {
+          "type": "Ball Possession",
+          "value": "41%"
+        },
+        {
+          "type": "Total Shots",
+          "value": 3
+        },
+        {
+          "type": "Shots off Goal",
+          "value": 9
+        },
+        {
+          "type": "Blocked Shots",
+          "value": 4
+        },
+        {
+          "type": "Corner Kicks",
+          "value": 5
+        },
+        {
+          "type": "Fouls",
+          "value": 13
+        },
+        {
+          "type": "Offsides",
+          "value": 0
+        },
+        {
+          "type": "Goalkeeper Saves",
+          "value": 10
+        },
+        {
+          "type": "Yellow Cards",
+          "value": 1
+        },
+        {
+          "type": "Red Cards",
+          "value": 0
+        },
+        {
+          "type": "Pass Accuracy",
+          "value": "20%"
+        }
+      ]
+    }
+  ]
 }

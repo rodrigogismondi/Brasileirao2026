@@ -1,23 +1,39 @@
 /**
- * Sync public/cache from GE Globo's Brasileirão tabela page (no API key).
- * Falls back to demo cache if the scrape fails.
+ * Sync public/cache from GE Globo's Brasileirão tabela + match transmission pages.
+ * Falls back to demo cache if the tabela scrape fails.
  */
 import { writeFileSync, mkdirSync, readdirSync, unlinkSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 import { spawnSync } from "node:child_process";
+import vm from "node:vm";
 
 const GE_URL = "https://ge.globo.com/futebol/brasileirao-serie-a/";
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
 const CACHE_DIR = join(ROOT, "public", "cache");
 const MATCHES_DIR = join(CACHE_DIR, "matches");
 
-const ZONE_BY_COLOR = {
-  "#0000ff": "libertadores",
-  "#00ffff": "pre-libertadores",
-  "#008040": "sudamericana",
-  "#ff0000": "relegation",
+const UA =
+  "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36";
+
+const FETCH_HEADERS = {
+  "User-Agent": UA,
+  Accept: "text/html,application/xhtml+xml",
+  "Accept-Language": "pt-BR,pt;q=0.9,en;q=0.8",
 };
+
+const STAT_MAP = [
+  ["ballPossession", "Ball Possession", (n) => `${n}%`],
+  ["goalFinish", "Total Shots", (n) => n],
+  ["wrongFinish", "Shots off Goal", (n) => n],
+  ["blockedFinish", "Blocked Shots", (n) => n],
+  ["cornerKick", "Corner Kicks", (n) => n],
+  ["foulMade", "Fouls", (n) => n],
+  ["offSide", "Offsides", (n) => n],
+  ["defense", "Goalkeeper Saves", (n) => n],
+  ["yellowCardReceived", "Yellow Cards", (n) => n],
+  ["redCardReceived", "Red Cards", (n) => n],
+];
 
 function extractBalanced(source, startIdx) {
   const open = source[startIdx];
@@ -59,6 +75,15 @@ function parseGeScript(html) {
   const start = body.indexOf("{", eq);
   const raw = extractBalanced(body, start);
   return JSON.parse(raw);
+}
+
+function parseTrv2(html) {
+  const marker = html.indexOf("window.trv2");
+  if (marker < 0) throw new Error("window.trv2 not found");
+  const eq = html.indexOf("=", marker);
+  const start = html.indexOf("{", eq);
+  const raw = extractBalanced(html, start);
+  return vm.runInNewContext("(" + raw + ")", Object.create(null), { timeout: 8000 });
 }
 
 /** Interpret GE wall-clock `YYYY-MM-DDTHH:mm` as America/Sao_Paulo. */
@@ -104,7 +129,6 @@ function mapFixtures(listaJogos, rodadaAtual) {
     const away = jogo.equipes.visitante;
     const status = mapStatus(jogo);
     const ts = tsBrazilLocal(jogo.data_realizacao);
-    const dt = new Date(ts * 1000);
     const goalsHome = jogo.placar_oficial_mandante;
     const goalsAway = jogo.placar_oficial_visitante;
     return {
@@ -200,17 +224,235 @@ function minimalMatchDetail(fixtureRow) {
   };
 }
 
-async function fetchGeHtml() {
-  const res = await fetch(GE_URL, {
-    headers: {
-      "User-Agent":
-        "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36",
-      Accept: "text/html,application/xhtml+xml",
-      "Accept-Language": "pt-BR,pt;q=0.9,en;q=0.8",
+function momentToElapsed(moment, periodAbbr) {
+  const [mmRaw] = String(moment || "0:0").split(":");
+  const mm = Number(mmRaw) || 0;
+  const abbr = String(periodAbbr || "").toUpperCase();
+  if (abbr === "2T" || abbr.includes("SEGUNDO")) return 45 + mm;
+  if (abbr === "1T" || abbr.includes("PRIMEIRO")) return mm;
+  if (abbr === "PR" || abbr.includes("PRORROGA")) return 90 + mm;
+  return mm;
+}
+
+function mapPos(position) {
+  const initials = String(position?.initials || "").toUpperCase();
+  const desc = String(position?.description || "").toLowerCase();
+  if (initials === "GOL" || desc.includes("goleiro")) return "G";
+  if (
+    ["LAD", "LAE", "ZAD", "ZAE", "ZAG"].includes(initials) ||
+    desc.includes("zagueiro") ||
+    desc.includes("lateral") ||
+    desc.includes("defesa")
+  ) {
+    return "D";
+  }
+  if (
+    ["VOL", "MEC", "MEI"].includes(initials) ||
+    desc.includes("volante") ||
+    desc.includes("meio")
+  ) {
+    return "M";
+  }
+  if (initials === "ATA" || desc.includes("atacante") || desc.includes("ponteiro")) return "F";
+  return "M";
+}
+
+function mapPlayer(p) {
+  const num = p?.shirtNumber != null && p.shirtNumber !== "" ? Number(p.shirtNumber) : null;
+  return {
+    player: {
+      id: p?.slug ?? null,
+      name: p?.popularName || p?.name || "?",
+      number: Number.isFinite(num) ? num : null,
+      pos: mapPos(p?.position),
+      grid: null,
     },
-  });
-  if (!res.ok) throw new Error(`GE HTTP ${res.status}`);
-  return await res.text();
+  };
+}
+
+function mapSquadSide(side, teamMeta) {
+  if (!side?.lineUp?.length) return null;
+  return {
+    team: { id: teamMeta.id, name: teamMeta.name, logo: teamMeta.logo },
+    formation: side.formation || null,
+    coach: {
+      name: side.coach?.popularName || side.coach?.name || "—",
+    },
+    startXI: side.lineUp.map(mapPlayer),
+    substitutes: (side.bench ?? []).map(mapPlayer),
+  };
+}
+
+function goalDetail(kind) {
+  const k = String(kind || "").toUpperCase();
+  if (k.includes("PENALTY") || k.includes("PENALTI") || k.includes("PÊNALTI")) return "Penalty";
+  if (k.includes("OWN")) return "Own Goal";
+  return "Normal Goal";
+}
+
+function cardDetail(kind) {
+  const k = String(kind || "").toUpperCase();
+  if (k.includes("RED") && k.includes("YELLOW")) return "Second Yellow Card";
+  if (k.includes("RED")) return "Red Card";
+  return "Yellow Card";
+}
+
+function mapEvents(plays, homeId, awayId, homeName, awayName) {
+  const events = [];
+  for (const play of plays ?? []) {
+    const typeId = play?.playType?.id;
+    if (!typeId || !["GOAL", "CARD", "SUBSTITUTION"].includes(typeId)) continue;
+    const details = play.details ?? {};
+    const teamId = details.team?.id ?? play.team?.id;
+    if (teamId == null) continue;
+    const teamName =
+      teamId === homeId ? homeName : teamId === awayId ? awayName : details.team?.abbreviation || "";
+    const elapsed = momentToElapsed(play.moment, play.period?.abbreviation || play.period?.id);
+    const base = {
+      time: { elapsed, extra: null },
+      team: { id: teamId, name: teamName },
+    };
+
+    if (typeId === "GOAL") {
+      events.push({
+        ...base,
+        type: "Goal",
+        detail: goalDetail(details.kind),
+        player: { name: details.athlete?.popularName || details.athlete?.name || "?" },
+        assist: details.assist
+          ? { name: details.assist.popularName || details.assist.name }
+          : null,
+      });
+    } else if (typeId === "CARD") {
+      events.push({
+        ...base,
+        type: "Card",
+        detail: cardDetail(details.kind),
+        player: { name: details.athlete?.popularName || details.athlete?.name || "?" },
+        assist: null,
+      });
+    } else if (typeId === "SUBSTITUTION") {
+      events.push({
+        ...base,
+        type: "subst",
+        detail: "Substitution 1",
+        player: {
+          name: details.comingIn?.popularName || details.comingIn?.name || "?",
+        },
+        assist: {
+          name: details.leaving?.popularName || details.leaving?.name || "?",
+        },
+      });
+    }
+  }
+  return events.sort((a, b) => (a.time.elapsed ?? 0) - (b.time.elapsed ?? 0));
+}
+
+function mapStatistics(stats, home, away) {
+  if (!stats?.homeTeam && !stats?.awayTeam) return [];
+  const homeSide = stats.homeTeam ?? {};
+  const awaySide = stats.awayTeam ?? {};
+  const homeRows = [];
+  const awayRows = [];
+  for (const [key, label, fmt] of STAT_MAP) {
+    const hv = homeSide[key]?.total;
+    const av = awaySide[key]?.total;
+    if (hv == null && av == null) continue;
+    homeRows.push({ type: label, value: fmt(hv ?? 0) });
+    awayRows.push({ type: label, value: fmt(av ?? 0) });
+  }
+  const homePass = homeSide.totalPasses?.total;
+  const awayPass = awaySide.totalPasses?.total;
+  const homeRight = homeSide.rightPasses?.total;
+  const awayRight = awaySide.rightPasses?.total;
+  if (homePass || awayPass) {
+    const hAcc =
+      homePass > 0 ? Math.round(((homeRight ?? 0) / homePass) * 100) : 0;
+    const aAcc =
+      awayPass > 0 ? Math.round(((awayRight ?? 0) / awayPass) * 100) : 0;
+    homeRows.push({ type: "Pass Accuracy", value: `${hAcc}%` });
+    awayRows.push({ type: "Pass Accuracy", value: `${aAcc}%` });
+  }
+  return [
+    { team: { id: home.id, name: home.name }, statistics: homeRows },
+    { team: { id: away.id, name: away.name }, statistics: awayRows },
+  ];
+}
+
+function shouldEnrich(fixtureRow) {
+  const short = fixtureRow.fixture?.status?.short;
+  if (!fixtureRow._geUrl) return false;
+  return ["FT", "HT", "1H", "2H", "ET", "BT", "P", "LIVE", "AET", "PEN"].includes(short);
+}
+
+async function fetchHtml(url, timeoutMs = 20000) {
+  const ctrl = new AbortController();
+  const t = setTimeout(() => ctrl.abort(), timeoutMs);
+  try {
+    const res = await fetch(url, { headers: FETCH_HEADERS, signal: ctrl.signal });
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    return await res.text();
+  } finally {
+    clearTimeout(t);
+  }
+}
+
+async function enrichFromTransmission(fixtureRow) {
+  const url = fixtureRow._geUrl;
+  const html = await fetchHtml(url);
+  const trv2 = parseTrv2(html);
+  const match = trv2.transmission?.match ?? {};
+  const home = fixtureRow.teams.home;
+  const away = fixtureRow.teams.away;
+  const events = mapEvents(trv2.plays, home.id, away.id, home.name, away.name);
+  const homeLineup = mapSquadSide(match.squads?.homeTeam, home);
+  const awayLineup = mapSquadSide(match.squads?.awayTeam, away);
+  const lineups = [homeLineup, awayLineup].filter(Boolean);
+  const statistics = mapStatistics(trv2.statistics, home, away);
+
+  const scoreboard = match.scoreboard;
+  const goalsHome =
+    scoreboard?.home != null ? scoreboard.home : fixtureRow.goals.home;
+  const goalsAway =
+    scoreboard?.away != null ? scoreboard.away : fixtureRow.goals.away;
+
+  const periodAbbr = String(match.period?.abbreviation || match.period?.id || "");
+  let status = { ...fixtureRow.fixture.status };
+  if (/ENCERR|POS_JOGO|FT/i.test(periodAbbr) || trv2.transmission?.period?.abbreviation === "Encerrado") {
+    status = { long: "FT", short: "FT", elapsed: 90 };
+  }
+
+  const { _geUrl, ...base } = fixtureRow;
+  return {
+    ...base,
+    fixture: {
+      ...base.fixture,
+      status,
+      venue: {
+        name: match.location?.popularName || match.location?.name || base.fixture.venue.name,
+        city: base.fixture.venue.city,
+      },
+    },
+    goals: { home: goalsHome, away: goalsAway },
+    score: {
+      halftime: base.score.halftime,
+      fulltime: {
+        home: status.short === "FT" ? goalsHome : null,
+        away: status.short === "FT" ? goalsAway : null,
+      },
+    },
+    events,
+    lineups,
+    statistics,
+  };
+}
+
+function sleep(ms) {
+  return new Promise((r) => setTimeout(r, ms));
+}
+
+async function fetchGeHtml() {
+  return fetchHtml(GE_URL);
 }
 
 function writeDemoFallback(reason) {
@@ -231,7 +473,9 @@ async function main() {
     const rodada = data.rodada?.atual ?? 0;
     const fixtures = mapFixtures(data.lista_jogos, rodada);
     const standings = mapStandings(data.classificacao);
-    const hasLive = fixtures.some((f) => ["1H", "HT", "2H", "LIVE"].includes(f.fixture.status.short));
+    const hasLive = fixtures.some((f) =>
+      ["1H", "HT", "2H", "LIVE", "ET", "BT", "P"].includes(f.fixture.status.short)
+    );
 
     const payload = {
       fixtures: fixtures.map(({ _geUrl, ...f }) => f),
@@ -258,15 +502,42 @@ async function main() {
       if (name.endsWith(".json")) unlinkSync(join(MATCHES_DIR, name));
     }
     writeFileSync(join(CACHE_DIR, "dashboard.json"), JSON.stringify(payload, null, 2));
+
+    let enriched = 0;
+    let failed = 0;
     for (const f of fixtures) {
-      writeFileSync(
-        join(MATCHES_DIR, `${f.fixture.id}.json`),
-        JSON.stringify(minimalMatchDetail(f), null, 2)
-      );
+      let detail = minimalMatchDetail(f);
+      if (shouldEnrich(f)) {
+        try {
+          detail = await enrichFromTransmission(f);
+          enriched++;
+          // Keep dashboard fixture score/status in sync when transmission has FT data
+          const idx = payload.fixtures.findIndex((x) => x.fixture.id === f.fixture.id);
+          if (idx >= 0) {
+            payload.fixtures[idx] = {
+              ...payload.fixtures[idx],
+              fixture: detail.fixture,
+              goals: detail.goals,
+              score: detail.score,
+            };
+          }
+        } catch (err) {
+          failed++;
+          console.warn(
+            `Match detail enrich failed for ${f.fixture.id}:`,
+            err instanceof Error ? err.message : String(err)
+          );
+        }
+        await sleep(150);
+      }
+      writeFileSync(join(MATCHES_DIR, `${f.fixture.id}.json`), JSON.stringify(detail, null, 2));
     }
 
+    // Rewrite dashboard after possible score/status updates from transmissions
+    writeFileSync(join(CACHE_DIR, "dashboard.json"), JSON.stringify(payload, null, 2));
+
     console.log(
-      `Synced GE cache: rodada ${rodada}, ${fixtures.length} jogos, ${data.classificacao?.length ?? 0} times, source=${payload.source}`
+      `Synced GE cache: rodada ${rodada}, ${fixtures.length} jogos, ${data.classificacao?.length ?? 0} times, enriched=${enriched}, failed=${failed}, source=${payload.source}`
     );
   } catch (err) {
     writeDemoFallback(err instanceof Error ? err.message : String(err));

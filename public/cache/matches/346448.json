@@ -9,10 +9,10 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 93
+      "elapsed": 98
     },
-    "timerStart": "2026-08-30T20:09:39.565Z",
-    "timerStatus": "INICIADO"
+    "timerStart": "2026-08-30T21:02:40.941Z",
+    "timerStatus": "PAUSADO"
   },
   "league": {
     "round": "Regular Season - 25"
@@ -250,6 +250,24 @@
       },
       "assist": {
         "name": "Barreal"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 77,
+        "extra": null
+      },
+      "team": {
+        "id": 264,
+        "name": "Corinthians"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Gui Negão"
+      },
+      "assist": {
+        "name": "Dieguinho"
       }
     },
     {
@@ -734,11 +752,11 @@
         },
         {
           "type": "Shots off Goal",
-          "value": 14
+          "value": 15
         },
         {
           "type": "Blocked Shots",
-          "value": 6
+          "value": 7
         },
         {
           "type": "Corner Kicks",
@@ -746,11 +764,11 @@
         },
         {
           "type": "Fouls",
-          "value": 8
+          "value": 9
         },
         {
           "type": "Offsides",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Goalkeeper Saves",
@@ -766,7 +784,7 @@
         },
         {
           "type": "Pass Accuracy",
-          "value": "15%"
+          "value": "13%"
         }
       ]
     },
@@ -786,7 +804,7 @@
         },
         {
           "type": "Shots off Goal",
-          "value": 3
+          "value": 4
         },
         {
           "type": "Blocked Shots",
@@ -798,15 +816,15 @@
         },
         {
           "type": "Fouls",
-          "value": 15
+          "value": 16
         },
         {
           "type": "Offsides",
-          "value": 4
+          "value": 5
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 7
+          "value": 8
         },
         {
           "type": "Yellow Cards",
@@ -818,7 +836,7 @@
         },
         {
           "type": "Pass Accuracy",
-          "value": "22%"
+          "value": "21%"
         }
       ]
     }

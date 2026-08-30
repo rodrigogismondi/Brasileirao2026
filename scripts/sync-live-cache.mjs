@@ -534,7 +534,9 @@ async function fetchHtml(url, timeoutMs = 20000, retries = 0) {
 
 function statusFromPeriod(periodAbbr, fallback) {
   const p = String(periodAbbr || "");
-  if (/ENCERR|POS_JOGO/i.test(p)) return { long: "FT", short: "FT", elapsed: 90 };
+  if (/ENCERR|POS_JOGO|FIM_DE_JOGO|FIM DE JOGO|^FT$/i.test(p)) {
+    return { long: "FT", short: "FT", elapsed: 90 };
+  }
   if (/INTERVALO|^HT$/i.test(p)) return { long: "HT", short: "HT", elapsed: 45 };
   if (/1T|PRIMEIRO/i.test(p)) return { long: "1H", short: "1H", elapsed: null };
   if (/2T|SEGUNDO/i.test(p)) return { long: "2H", short: "2H", elapsed: null };
@@ -622,17 +624,28 @@ function elapsedFromTransmissionClock(transmission, periodAbbr, now = Date.now()
 }
 
 /** GE sometimes leaves period on 1T while timer is PAUSADO after the half ends. */
-function maybePromoteHalftime(status, transmission, plays, clockElapsed) {
-  if (!status || status.short === "FT" || status.short === "NS" || status.short === "HT") {
+function maybePromotePeriod(status, transmission, plays, clockElapsed) {
+  if (!status || status.short === "FT" || status.short === "NS") {
     return status;
   }
   const timerStatus = String(transmission?.timerStatus || "").toUpperCase();
   const period = String(transmission?.period?.abbreviation || transmission?.period?.id || "");
+  if (/ENCERR|POS_JOGO|FIM_DE_JOGO|FIM DE JOGO|^FT$/i.test(period)) {
+    return { long: "FT", short: "FT", elapsed: 90 };
+  }
   if (/INTERVALO|^HT$/i.test(period)) {
     return { long: "HT", short: "HT", elapsed: 45 };
   }
   const playMax = maxPlayElapsed(plays);
   const elapsed = clockElapsed ?? status.elapsed ?? playMax;
+  // Full time: 2H paused after 90'+
+  if (
+    status.short === "2H" &&
+    timerStatus === "PAUSADO" &&
+    (elapsed >= 90 || playMax >= 90)
+  ) {
+    return { long: "FT", short: "FT", elapsed: 90 };
+  }
   // End of 1H: whistle + pause, or plays already past 45'
   if (
     status.short === "1H" &&
@@ -718,7 +731,7 @@ async function enrichFromTransmission(fixtureRow) {
     if (playMax > 0) status = { ...status, elapsed: playMax };
   }
 
-  status = maybePromoteHalftime(status, trv2.transmission, trv2.plays, clock?.elapsed);
+  status = maybePromotePeriod(status, trv2.transmission, trv2.plays, clock?.elapsed);
 
   let timerStart = trv2.transmission?.timerStart || null;
   let timerStatus = trv2.transmission?.timerStatus || null;
@@ -726,6 +739,10 @@ async function enrichFromTransmission(fixtureRow) {
   if (status.short === "HT") {
     timerStatus = "PAUSADO";
     if (status.elapsed == null) status = { ...status, elapsed: 45 };
+  }
+  if (status.short === "FT") {
+    timerStatus = "PAUSADO";
+    status = { ...status, elapsed: status.elapsed ?? 90 };
   }
 
   const { _geUrl, ...base } = fixtureRow;

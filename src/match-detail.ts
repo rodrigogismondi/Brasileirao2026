@@ -266,20 +266,88 @@ function formatPos(pos: string): string {
   return pos.length <= 3 ? pos : pos.slice(0, 3);
 }
 
-function renderPlayers(players: TeamLineup["startXI"]): string {
+function normPlayerName(name: string): string {
+  return String(name || "")
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .toLowerCase()
+    .replace(/[^a-z0-9]/g, "");
+}
+
+function samePlayer(a: string, b: string): boolean {
+  const na = normPlayerName(a);
+  const nb = normPlayerName(b);
+  if (!na || !nb) return false;
+  return na === nb || na.includes(nb) || nb.includes(na);
+}
+
+function playerGoalCount(detail: MatchDetail, team: 1 | 2, playerName: string): number {
+  const goals = team === 1 ? detail.goals1 : detail.goals2;
+  return goals.filter((g) => samePlayer(g.name, playerName)).length;
+}
+
+function playerSubbedOut(detail: MatchDetail, team: 1 | 2, playerName: string): boolean {
+  return detail.subs.some((s) => s.team === team && samePlayer(s.playerOut, playerName));
+}
+
+function playerSubbedIn(detail: MatchDetail, team: 1 | 2, playerName: string): boolean {
+  return detail.subs.some((s) => s.team === team && samePlayer(s.playerIn, playerName));
+}
+
+function renderPlayerIcons(
+  detail: MatchDetail,
+  team: 1 | 2,
+  playerName: string,
+  role: "xi" | "bench",
+  lang: Lang
+): string {
+  const goals = playerGoalCount(detail, team, playerName);
+  const out = role === "xi" && playerSubbedOut(detail, team, playerName);
+  const cameIn = role === "bench" && playerSubbedIn(detail, team, playerName);
+  if (!goals && !out && !cameIn) return "";
+  const parts: string[] = [];
+  if (goals > 0) {
+    parts.push(
+      `<span class="md-ico md-ico-goals" title="${escapeHtml(t(lang, "mdGoal"))}">${"⚽".repeat(goals)}</span>`
+    );
+  }
+  if (cameIn) {
+    parts.push(
+      `<span class="md-ico md-ico-in" title="${escapeHtml(t(lang, "mdSubIn"))}" aria-label="${escapeHtml(t(lang, "mdSubIn"))}">↑</span>`
+    );
+  }
+  if (out) {
+    parts.push(
+      `<span class="md-ico md-ico-out" title="${escapeHtml(t(lang, "mdSubOut"))}" aria-label="${escapeHtml(t(lang, "mdSubOut"))}">↓</span>`
+    );
+  }
+  return `<span class="md-player-icons">${parts.join("")}</span>`;
+}
+
+function renderPlayers(
+  players: TeamLineup["startXI"],
+  detail: MatchDetail,
+  team: 1 | 2,
+  role: "xi" | "bench",
+  lang: Lang
+): string {
   return players
     .map(
       (p) => `
       <li>
         <span class="md-num">${p.number ?? "–"}</span>
-        <span>${escapeHtml(p.name)}</span>
+        <span class="md-player-name">
+          <span class="md-player-label">${escapeHtml(p.name)}</span>
+          ${renderPlayerIcons(detail, team, p.name, role, lang)}
+        </span>
         <span class="muted md-pos">${escapeHtml(formatPos(p.pos))}</span>
       </li>`
     )
     .join("");
 }
 
-function renderLineupColumn(l: TeamLineup, lang: Lang): string {
+function renderLineupColumn(l: TeamLineup, detail: MatchDetail, lang: Lang): string {
+  const team: 1 | 2 = l.team === detail.team2 ? 2 : 1;
   return `
     <section class="md-lineup-card">
       <header>
@@ -289,9 +357,9 @@ function renderLineupColumn(l: TeamLineup, lang: Lang): string {
           <span class="muted">${escapeHtml(l.formation)} · ${escapeHtml(l.coach)}</span>
         </div>
       </header>
-      <ul class="md-xi">${renderPlayers(l.startXI)}</ul>
+      <ul class="md-xi">${renderPlayers(l.startXI, detail, team, "xi", lang)}</ul>
       <h4>${escapeHtml(t(lang, "mdBench"))}</h4>
-      <ul class="md-xi md-bench">${renderPlayers(l.substitutes)}</ul>
+      <ul class="md-xi md-bench">${renderPlayers(l.substitutes, detail, team, "bench", lang)}</ul>
     </section>`;
 }
 
@@ -308,7 +376,7 @@ function renderLineups(detail: MatchDetail, lang: Lang): string {
   const columns = [home, away].filter(Boolean) as TeamLineup[];
   return `
     <div class="md-lineups ${columns.length > 1 ? "md-lineups-split" : ""}">
-      ${columns.map((l) => renderLineupColumn(l, lang)).join("")}
+      ${columns.map((l) => renderLineupColumn(l, detail, lang)).join("")}
     </div>`;
 }
 

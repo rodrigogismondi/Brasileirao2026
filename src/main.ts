@@ -145,7 +145,10 @@ function mount(): void {
         error: null,
         selectedRound: state.selectedRound ?? data.currentRound,
       };
-      scheduleRefresh(data.budget.liveIntervalMs, data.budget.mode);
+      scheduleRefresh(
+        data.budget.liveIntervalMs,
+        data.live.length > 0 ? "live" : data.budget.mode
+      );
       scheduleLiveClock();
       if (state.selectedMatchId) {
         await loadMatchDetail(state.selectedMatchId, true);

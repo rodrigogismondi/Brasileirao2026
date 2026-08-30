@@ -11942,9 +11942,7 @@
           "long": "FT",
           "short": "FT",
           "elapsed": 90
-        },
-        "timerStart": "2026-08-29T23:33:54.861Z",
-        "timerStatus": "PAUSADO"
+        }
       },
       "league": {
         "round": "Regular Season - 25"
@@ -11994,9 +11992,7 @@
           "long": "FT",
           "short": "FT",
           "elapsed": 90
-        },
-        "timerStart": "2026-08-30T01:25:24.952Z",
-        "timerStatus": "PAUSADO"
+        }
       },
       "league": {
         "round": "Regular Season - 25"
@@ -12046,9 +12042,7 @@
           "long": "FT",
           "short": "FT",
           "elapsed": 90
-        },
-        "timerStart": "2026-08-30T02:27:46.075Z",
-        "timerStatus": "PAUSADO"
+        }
       },
       "league": {
         "round": "Regular Season - 25"
@@ -12098,9 +12092,7 @@
           "long": "FT",
           "short": "FT",
           "elapsed": 90
-        },
-        "timerStart": "2026-08-30T16:11:28.071Z",
-        "timerStatus": "PAUSADO"
+        }
       },
       "league": {
         "round": "Regular Season - 25"
@@ -12150,9 +12142,7 @@
           "long": "FT",
           "short": "FT",
           "elapsed": 90
-        },
-        "timerStart": "2026-08-30T21:03:43.203Z",
-        "timerStatus": "PAUSADO"
+        }
       },
       "league": {
         "round": "Regular Season - 25"
@@ -12202,9 +12192,7 @@
           "long": "FT",
           "short": "FT",
           "elapsed": 90
-        },
-        "timerStart": "2026-08-30T21:19:25.418Z",
-        "timerStatus": "PAUSADO"
+        }
       },
       "league": {
         "round": "Regular Season - 25"
@@ -12251,12 +12239,12 @@
           "city": ""
         },
         "status": {
-          "long": "NS",
-          "short": "NS",
-          "elapsed": null
+          "long": "1H",
+          "short": "1H",
+          "elapsed": 24
         },
-        "timerStart": "2026-08-30T20:31:21.710Z",
-        "timerStatus": "PAUSADO"
+        "timerStart": "2026-08-30T21:30:37.507Z",
+        "timerStatus": "INICIADO"
       },
       "league": {
         "round": "Regular Season - 25"
@@ -12274,8 +12262,8 @@
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
       "score": {
         "halftime": {
@@ -12303,12 +12291,12 @@
           "city": ""
         },
         "status": {
-          "long": "NS",
-          "short": "NS",
-          "elapsed": null
+          "long": "1H",
+          "short": "1H",
+          "elapsed": 22
         },
-        "timerStart": "2026-08-30T20:12:07.032Z",
-        "timerStatus": "PAUSADO"
+        "timerStart": "2026-08-30T21:32:32.980Z",
+        "timerStatus": "INICIADO"
       },
       "league": {
         "round": "Regular Season - 25"
@@ -12326,8 +12314,8 @@
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 1
       },
       "score": {
         "halftime": {
@@ -12358,9 +12346,7 @@
           "long": "NS",
           "short": "NS",
           "elapsed": null
-        },
-        "timerStart": "2026-08-30T21:20:41.430Z",
-        "timerStatus": "PAUSADO"
+        }
       },
       "league": {
         "round": "Regular Season - 25"
@@ -12410,9 +12396,7 @@
           "long": "NS",
           "short": "NS",
           "elapsed": null
-        },
-        "timerStart": null,
-        "timerStatus": "PAUSADO"
+        }
       },
       "league": {
         "round": "Regular Season - 25"
@@ -18498,14 +18482,14 @@
                 "name": "Palmeiras",
                 "logo": "https://s.sde.globo.com/media/organizations/2019/07/06/Palmeiras.svg"
               },
-              "points": 51,
+              "points": 52,
               "goalsDiff": 24,
-              "form": "LWDLW",
+              "form": "WDLWD",
               "description": "Copa Libertadores",
               "all": {
-                "played": 24,
+                "played": 25,
                 "win": 15,
-                "draw": 6,
+                "draw": 7,
                 "lose": 3,
                 "goals": {
                   "for": 44,
@@ -18806,23 +18790,45 @@
                 "name": "Grêmio",
                 "logo": "https://s.sde.globo.com/media/organizations/2018/03/12/gremio.svg"
               },
-              "points": 25,
+              "points": 26,
               "goalsDiff": -7,
-              "form": "LDWLL",
+              "form": "DWLLD",
               "description": null,
               "all": {
-                "played": 23,
+                "played": 24,
                 "win": 6,
-                "draw": 7,
+                "draw": 8,
                 "lose": 10,
                 "goals": {
-                  "for": 24,
-                  "against": 31
+                  "for": 25,
+                  "against": 32
                 }
               }
             },
             {
               "rank": 16,
+              "team": {
+                "id": 2305,
+                "name": "Mirassol",
+                "logo": "https://s.sde.globo.com/media/organizations/2026/07/17/MIrassol.svg"
+              },
+              "points": 25,
+              "goalsDiff": -10,
+              "form": "WLLDD",
+              "description": null,
+              "all": {
+                "played": 24,
+                "win": 6,
+                "draw": 7,
+                "lose": 11,
+                "goals": {
+                  "for": 26,
+                  "against": 36
+                }
+              }
+            },
+            {
+              "rank": 17,
               "team": {
                 "id": 267,
                 "name": "Vasco",
@@ -18831,7 +18837,7 @@
               "points": 25,
               "goalsDiff": -12,
               "form": "DDLLW",
-              "description": null,
+              "description": "Relegation",
               "all": {
                 "played": 24,
                 "win": 6,
@@ -18844,7 +18850,7 @@
               }
             },
             {
-              "rank": 17,
+              "rank": 18,
               "team": {
                 "id": 285,
                 "name": "Internacional",
@@ -18862,28 +18868,6 @@
                 "goals": {
                   "for": 24,
                   "against": 28
-                }
-              }
-            },
-            {
-              "rank": 18,
-              "team": {
-                "id": 2305,
-                "name": "Mirassol",
-                "logo": "https://s.sde.globo.com/media/organizations/2026/07/17/MIrassol.svg"
-              },
-              "points": 24,
-              "goalsDiff": -10,
-              "form": "DWLLD",
-              "description": "Relegation",
-              "all": {
-                "played": 23,
-                "win": 6,
-                "draw": 6,
-                "lose": 11,
-                "goals": {
-                  "for": 26,
-                  "against": 36
                 }
               }
             },
@@ -18916,18 +18900,18 @@
                 "name": "Chapecoense",
                 "logo": "https://s.sde.globo.com/media/organizations/2021/06/21/CHAPECOENSE-2018.svg"
               },
-              "points": 14,
+              "points": 15,
               "goalsDiff": -22,
-              "form": "LDLDW",
+              "form": "DLDWD",
               "description": "Relegation",
               "all": {
-                "played": 23,
+                "played": 24,
                 "win": 2,
-                "draw": 8,
+                "draw": 9,
                 "lose": 13,
                 "goals": {
-                  "for": 24,
-                  "against": 46
+                  "for": 25,
+                  "against": 47
                 }
               }
             }
@@ -20042,10 +20026,10 @@
   "budget": {
     "used": 0,
     "remaining": 100,
-    "mode": "prematch",
-    "liveIntervalMs": 120000
+    "mode": "live",
+    "liveIntervalMs": 20000
   },
-  "fetchedAt": "2026-08-30T21:25:15.361Z",
+  "fetchedAt": "2026-08-30T21:55:28.618Z",
   "source": "ge-globo",
   "meta": {
     "rodada": 25,

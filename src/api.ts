@@ -88,7 +88,15 @@ interface RawFixture {
 function mapMatch(f: RawFixture): Match {
   const dt = new Date(f.fixture.timestamp * 1000);
   const period = f.fixture.status.short || null;
-  const status = normalizeStatus(f.fixture.status.short);
+  let status = normalizeStatus(f.fixture.status.short);
+  // Soft-live: when the live-cache cron lags, GE lista may still say NS
+  // after kickoff. Promote so the UI leaves "em breve" / upcoming.
+  if (status === "upcoming" || status === "scheduled") {
+    const ageSec = Math.floor(Date.now() / 1000) - f.fixture.timestamp;
+    if (ageSec >= 90 && ageSec < 3 * 3600) {
+      status = "live";
+    }
+  }
   const score =
     f.goals.home != null && f.goals.away != null ? ([f.goals.home, f.goals.away] as [number, number]) : null;
   const odds =
@@ -100,6 +108,7 @@ function mapMatch(f: RawFixture): Match {
           source: f.odds.source,
         }
       : null;
+  const isLive = status === "live";
   return {
     id: f.fixture.id,
     round: roundLabel(f.league?.round),
@@ -108,11 +117,11 @@ function mapMatch(f: RawFixture): Match {
     logo1: f.teams.home.logo ?? "",
     logo2: f.teams.away.logo ?? "",
     status,
-    score,
-    liveMinute: status === "live" ? f.fixture.status.elapsed : null,
-    period: status === "live" ? period : null,
-    timerStart: status === "live" ? f.fixture.timerStart ?? null : null,
-    timerStatus: status === "live" ? f.fixture.timerStatus ?? null : null,
+    score: score ?? (isLive ? ([0, 0] as [number, number]) : null),
+    liveMinute: isLive ? f.fixture.status.elapsed : null,
+    period: isLive ? (period === "NS" ? "1H" : period) : null,
+    timerStart: isLive ? f.fixture.timerStart ?? null : null,
+    timerStatus: isLive ? f.fixture.timerStatus ?? null : null,
     date: dt.toISOString().slice(0, 10),
     time: dt.toTimeString().slice(0, 5),
     datetime: f.fixture.timestamp,

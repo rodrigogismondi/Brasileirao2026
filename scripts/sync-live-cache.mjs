@@ -140,23 +140,36 @@ function formToApi(ultimos) {
     .join("");
 }
 
+/** GE broadcast ids that mean the match feed is in play (or about to be). */
+const LIVE_BROADCASTS = new Set([
+  "LIVE",
+  "REAL_TIME",
+  "AO_VIVO",
+  "INTERVALO",
+  "INTERVALO_ESP",
+  "INTERVALO_1T",
+  "INTERVALO_2T",
+]);
+
+const FINISHED_BROADCASTS = new Set(["ENCERRADA", "FIM", "AFTER_GAME", "POS_JOGO"]);
+
 function mapStatus(jogo) {
-  const broadcast = jogo?.transmissao?.broadcast?.id ?? "";
+  const broadcast = String(jogo?.transmissao?.broadcast?.id ?? "").toUpperCase();
   const hasScore =
     jogo.placar_oficial_mandante != null && jogo.placar_oficial_visitante != null;
-  if (broadcast === "ENCERRADA") {
+  if (FINISHED_BROADCASTS.has(broadcast)) {
     return { short: "FT", elapsed: 90 };
   }
-  // Finished with official score but broadcast lagging
-  if (hasScore && broadcast && broadcast !== "LIVE" && !jogo.jogo_ja_comecou) {
+  // Finished with official score but broadcast lagging (not a live feed id)
+  if (hasScore && broadcast && !LIVE_BROADCASTS.has(broadcast) && !jogo.jogo_ja_comecou) {
     return { short: "FT", elapsed: 90 };
   }
-  if (jogo.jogo_ja_comecou || (broadcast === "LIVE" && hasScore)) {
+  if (jogo.jogo_ja_comecou || (LIVE_BROADCASTS.has(broadcast) && hasScore)) {
     // Period refined later from transmission page
     return { short: "1H", elapsed: null };
   }
   // GE often marks pre-match coverage as LIVE before kickoff
-  if (broadcast === "LIVE" && !hasScore && !jogo.jogo_ja_comecou) {
+  if (LIVE_BROADCASTS.has(broadcast) && !hasScore && !jogo.jogo_ja_comecou) {
     return { short: "NS", elapsed: null };
   }
   return { short: "NS", elapsed: null };

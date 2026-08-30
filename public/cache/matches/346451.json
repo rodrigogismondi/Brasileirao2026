@@ -7,12 +7,12 @@
       "city": ""
     },
     "status": {
-      "long": "NS",
-      "short": "NS",
-      "elapsed": null
+      "long": "1H",
+      "short": "1H",
+      "elapsed": 22
     },
-    "timerStart": "2026-08-30T20:12:07.032Z",
-    "timerStatus": "PAUSADO"
+    "timerStart": "2026-08-30T21:32:32.980Z",
+    "timerStatus": "INICIADO"
   },
   "league": {
     "round": "Regular Season - 25"
@@ -30,8 +30,8 @@
     }
   },
   "goals": {
-    "home": null,
-    "away": null
+    "home": 1,
+    "away": 1
   },
   "score": {
     "halftime": {
@@ -49,7 +49,40 @@
     "away": 6.03,
     "source": "betexplorer"
   },
-  "events": [],
+  "events": [
+    {
+      "time": {
+        "elapsed": 14,
+        "extra": null
+      },
+      "team": {
+        "id": 315,
+        "name": "Chapecoense"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "player": {
+        "name": "Garcez"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 15,
+        "extra": null
+      },
+      "team": {
+        "id": 284,
+        "name": "Grêmio"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "player": {
+        "name": "Enamorado"
+      },
+      "assist": null
+    }
+  ],
   "lineups": [
     {
       "team": {
@@ -154,9 +187,9 @@
         },
         {
           "player": {
-            "id": "jovane",
-            "name": "Jovane Cabral",
-            "number": 77,
+            "id": "francis-amuzu",
+            "name": "Amuzu",
+            "number": 9,
             "pos": "Ata",
             "grid": null
           }
@@ -232,15 +265,6 @@
             "name": "Riquelme",
             "number": 65,
             "pos": "Mei",
-            "grid": null
-          }
-        },
-        {
-          "player": {
-            "id": "francis-amuzu",
-            "name": "Amuzu",
-            "number": 9,
-            "pos": "Ata",
             "grid": null
           }
         },
@@ -459,15 +483,6 @@
         },
         {
           "player": {
-            "id": "enioseba",
-            "name": "Ênio",
-            "number": 97,
-            "pos": "Ata",
-            "grid": null
-          }
-        },
-        {
-          "player": {
             "id": "franrossi",
             "name": "Franco Rossi",
             "number": 29,
@@ -483,10 +498,172 @@
             "pos": "Ata",
             "grid": null
           }
+        },
+        {
+          "player": {
+            "id": "enioseba",
+            "name": "Ênio",
+            "number": 97,
+            "pos": "Ata",
+            "grid": null
+          }
         }
       ]
     }
   ],
-  "statistics": [],
+  "statistics": [
+    {
+      "team": {
+        "id": 284,
+        "name": "Grêmio"
+      },
+      "statistics": [
+        {
+          "type": "Ball Possession",
+          "value": "65%"
+        },
+        {
+          "type": "Total Passes",
+          "value": 135
+        },
+        {
+          "type": "Pass Accuracy",
+          "value": "89%"
+        },
+        {
+          "type": "Incomplete Passes",
+          "value": 15
+        },
+        {
+          "type": "Total Shots",
+          "value": 4
+        },
+        {
+          "type": "Shots on Goal",
+          "value": 2
+        },
+        {
+          "type": "Shots off Goal",
+          "value": 1
+        },
+        {
+          "type": "Blocked Shots",
+          "value": 1
+        },
+        {
+          "type": "Hit Woodwork",
+          "value": 0
+        },
+        {
+          "type": "Corner Kicks",
+          "value": 2
+        },
+        {
+          "type": "Offsides",
+          "value": 0
+        },
+        {
+          "type": "Penalties",
+          "value": 0
+        },
+        {
+          "type": "Goalkeeper Saves",
+          "value": 2
+        },
+        {
+          "type": "Tackles",
+          "value": 2
+        },
+        {
+          "type": "Fouls",
+          "value": 3
+        },
+        {
+          "type": "Yellow Cards",
+          "value": 0
+        },
+        {
+          "type": "Red Cards",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "team": {
+        "id": 315,
+        "name": "Chapecoense"
+      },
+      "statistics": [
+        {
+          "type": "Ball Possession",
+          "value": "35%"
+        },
+        {
+          "type": "Total Passes",
+          "value": 63
+        },
+        {
+          "type": "Pass Accuracy",
+          "value": "81%"
+        },
+        {
+          "type": "Incomplete Passes",
+          "value": 12
+        },
+        {
+          "type": "Total Shots",
+          "value": 4
+        },
+        {
+          "type": "Shots on Goal",
+          "value": 2
+        },
+        {
+          "type": "Shots off Goal",
+          "value": 1
+        },
+        {
+          "type": "Blocked Shots",
+          "value": 1
+        },
+        {
+          "type": "Hit Woodwork",
+          "value": 0
+        },
+        {
+          "type": "Corner Kicks",
+          "value": 2
+        },
+        {
+          "type": "Offsides",
+          "value": 0
+        },
+        {
+          "type": "Penalties",
+          "value": 0
+        },
+        {
+          "type": "Goalkeeper Saves",
+          "value": 2
+        },
+        {
+          "type": "Tackles",
+          "value": 5
+        },
+        {
+          "type": "Fouls",
+          "value": 3
+        },
+        {
+          "type": "Yellow Cards",
+          "value": 0
+        },
+        {
+          "type": "Red Cards",
+          "value": 0
+        }
+      ]
+    }
+  ],
   "sportsFieldUrl": null
 }

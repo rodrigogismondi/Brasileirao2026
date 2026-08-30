@@ -4,6 +4,9 @@ on:
   push:
     branches: [main, master]
   workflow_dispatch:
+  # Fallback when the dedicated sync-live cron does not fire on this repo.
+  schedule:
+    - cron: "*/5 * * * *"
 
 permissions:
   contents: read

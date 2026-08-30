@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 39
+      "elapsed": 42
     },
     "timerStart": "2026-08-30T21:32:32.980Z",
     "timerStatus": "INICIADO"
@@ -95,6 +95,22 @@
       "detail": "Normal Goal",
       "player": {
         "name": "Pavón"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 39,
+        "extra": null
+      },
+      "team": {
+        "id": 284,
+        "name": "Grêmio"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Marlon"
       },
       "assist": null
     }

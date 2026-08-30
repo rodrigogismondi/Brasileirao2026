@@ -12241,7 +12241,7 @@
         "status": {
           "long": "2H",
           "short": "2H",
-          "elapsed": 95
+          "elapsed": 98
         },
         "timerStart": "2026-08-30T22:36:54.288Z",
         "timerStatus": "INICIADO"
@@ -12291,12 +12291,12 @@
           "city": ""
         },
         "status": {
-          "long": "2H",
-          "short": "2H",
-          "elapsed": 94
+          "long": "FT",
+          "short": "FT",
+          "elapsed": 90
         },
-        "timerStart": "2026-08-30T22:38:14.542Z",
-        "timerStatus": "INICIADO"
+        "timerStart": "2026-08-30T23:27:42.996Z",
+        "timerStatus": "PAUSADO"
       },
       "league": {
         "round": "Regular Season - 25"
@@ -12323,8 +12323,8 @@
           "away": null
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 3,
+          "away": 1
         }
       },
       "odds": {
@@ -20031,7 +20031,7 @@
     "mode": "live",
     "liveIntervalMs": 20000
   },
-  "fetchedAt": "2026-08-30T23:27:20.060Z",
+  "fetchedAt": "2026-08-30T23:30:13.142Z",
   "source": "ge-globo",
   "meta": {
     "rodada": 25,

@@ -11,7 +11,14 @@ export interface Match {
   logo2: string;
   status: MatchStatus;
   score: [number, number] | null;
+  /** Synced elapsed minute (may be slightly stale between syncs). */
   liveMinute: number | null;
+  /** GE period code: 1H, HT, 2H, ET, LIVE, … */
+  period: string | null;
+  /** ISO kickoff of the current period from GE `timerStart`. */
+  timerStart: string | null;
+  /** GE timerStatus: INICIADO | PAUSADO | … */
+  timerStatus: string | null;
   date: string;
   time: string;
   datetime: number;

@@ -73,6 +73,38 @@ export function statusLabel(status: Match["status"], lang: Lang): string {
   }
 }
 
+/**
+ * Live display minute from GE timerStart when the clock is running.
+ * Falls back to the last synced `liveMinute` (e.g. while PAUSADO).
+ */
+export function resolveLiveMinute(m: Match, now = Date.now()): number | null {
+  if (m.status !== "live") return null;
+  if (m.period === "HT") return null;
+
+  const running = String(m.timerStatus || "").toUpperCase() === "INICIADO";
+  if (running && m.timerStart) {
+    const startMs = Date.parse(m.timerStart);
+    if (Number.isFinite(startMs)) {
+      let mins = Math.floor((now - startMs) / 60000);
+      if (mins < 0) mins = 0;
+      if (mins > 130) mins = 130;
+      if (m.period === "2H") mins = 45 + mins;
+      else if (m.period === "ET") mins = 90 + mins;
+      return mins;
+    }
+  }
+
+  return m.liveMinute;
+}
+
+/** Badge text for a live match: "34'" | "INT" | "AO VIVO". */
+export function liveBadgeText(m: Match, lang: Lang, now = Date.now()): string {
+  if (m.period === "HT") return t(lang, "statusHT");
+  const minute = resolveLiveMinute(m, now);
+  if (minute != null) return `${minute}'`;
+  return t(lang, "statusLive");
+}
+
 export function groupMatchesByDate(matches: Match[], descending = false): Map<string, Match[]> {
   const map = new Map<string, Match[]>();
   for (const m of matches) {

@@ -1,6 +1,6 @@
 import type { MatchDetail, MatchDetailTab, TeamLineup } from "./types";
 import { t, type Lang } from "./i18n";
-import { escapeHtml, formatKickoff, formatScore, statusLabel, teamInitials } from "./utils";
+import { escapeHtml, formatKickoff, formatScore, liveBadgeText, statusLabel, teamInitials } from "./utils";
 
 interface TimelineEvent {
   kind: "goal" | "yellow" | "red" | "sub";
@@ -441,7 +441,7 @@ export function renderMatchDetailPanel(
 ): string {
   const liveBadge =
     detail.status === "live"
-      ? `<span class="badge badge-live">${detail.liveMinute != null ? `${detail.liveMinute}'` : t(lang, "statusLive")}</span>`
+      ? `<span class="badge badge-live">${escapeHtml(liveBadgeText(detail, lang))}</span>`
       : `<span class="badge badge-${detail.status}">${statusLabel(detail.status, lang)}</span>`;
 
   let body = "";

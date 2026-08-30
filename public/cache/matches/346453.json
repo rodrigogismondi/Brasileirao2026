@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 53
+      "elapsed": 55
     },
     "timerStart": "2026-08-30T23:37:22.890Z",
     "timerStatus": "INICIADO"
@@ -159,6 +159,22 @@
       "detail": "Normal Goal",
       "player": {
         "name": "Erick"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 51,
+        "extra": null
+      },
+      "team": {
+        "id": 285,
+        "name": "Internacional"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "player": {
+        "name": "Vitinho"
       },
       "assist": null
     }
@@ -618,23 +634,23 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "63%"
+          "value": "60%"
         },
         {
           "type": "Total Passes",
-          "value": 370
+          "value": 381
         },
         {
           "type": "Pass Accuracy",
-          "value": "87%"
+          "value": "86%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 47
+          "value": 52
         },
         {
           "type": "Total Shots",
-          "value": 6
+          "value": 7
         },
         {
           "type": "Shots on Goal",
@@ -646,7 +662,7 @@
         },
         {
           "type": "Blocked Shots",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Hit Woodwork",
@@ -670,11 +686,11 @@
         },
         {
           "type": "Tackles",
-          "value": 9
+          "value": 11
         },
         {
           "type": "Fouls",
-          "value": 5
+          "value": 6
         },
         {
           "type": "Yellow Cards",
@@ -694,11 +710,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "37%"
+          "value": "40%"
         },
         {
           "type": "Total Passes",
-          "value": 218
+          "value": 234
         },
         {
           "type": "Pass Accuracy",
@@ -706,19 +722,19 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 41
+          "value": 45
         },
         {
           "type": "Total Shots",
-          "value": 6
+          "value": 8
         },
         {
           "type": "Shots on Goal",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Shots off Goal",
-          "value": 3
+          "value": 4
         },
         {
           "type": "Blocked Shots",
@@ -742,7 +758,7 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Tackles",
@@ -750,11 +766,11 @@
         },
         {
           "type": "Fouls",
-          "value": 10
+          "value": 12
         },
         {
           "type": "Yellow Cards",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Red Cards",

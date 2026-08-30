@@ -47,6 +47,13 @@ export interface PlayerStatRow {
 
 export type MatchDetailTab = "events" | "stats" | "lineups";
 
+export interface MatchOdds {
+  home: number;
+  draw: number;
+  away: number;
+  source?: string;
+}
+
 export interface MatchGoal {
   name: string;
   minute: string;
@@ -96,6 +103,8 @@ export interface MatchDetail extends Match {
   subs: MatchSub[];
   stats: MatchStatRow[];
   lineups: TeamLineup[];
+  odds: MatchOdds | null;
+  sportsFieldUrl: string | null;
 }
 
 export interface BudgetInfo {

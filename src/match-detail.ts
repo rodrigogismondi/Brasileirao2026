@@ -152,11 +152,59 @@ function renderEvents(detail: MatchDetail, lang: Lang): string {
     </ul>`;
 }
 
-function renderStats(detail: MatchDetail, lang: Lang): string {
-  if (detail.stats.length === 0) {
-    return `<p class="muted">${escapeHtml(t(lang, "mdNoStats"))}</p>`;
+function renderOddsBar(detail: MatchDetail, lang: Lang): string {
+  const odds = detail.odds;
+  if (!odds) return "";
+  const ih = 1 / odds.home;
+  const id = 1 / odds.draw;
+  const ia = 1 / odds.away;
+  const sum = ih + id + ia || 1;
+  const ph = Math.round((ih / sum) * 100);
+  const pd = Math.round((id / sum) * 100);
+  const pa = Math.max(0, 100 - ph - pd);
+  const o = (n: number) => n.toFixed(2);
+  return `
+    <div class="md-odds" aria-label="${escapeHtml(t(lang, "mdOdds"))}">
+      <div class="md-odds-labels">
+        <span><strong>${escapeHtml(detail.team1)}</strong> ${o(odds.home)}</span>
+        <span>${escapeHtml(t(lang, "mdOddsDraw"))} ${o(odds.draw)}</span>
+        <span>${o(odds.away)} <strong>${escapeHtml(detail.team2)}</strong></span>
+      </div>
+      <div class="md-odds-bar" title="${escapeHtml(t(lang, "mdOddsHint"))}">
+        <i class="md-odds-home" style="width:${ph}%"></i>
+        <i class="md-odds-draw" style="width:${pd}%"></i>
+        <i class="md-odds-away" style="width:${pa}%"></i>
+      </div>
+      <div class="md-odds-pct muted">
+        <span>${ph}%</span><span>${pd}%</span><span>${pa}%</span>
+      </div>
+    </div>`;
+}
+
+function renderHeatmap(detail: MatchDetail, lang: Lang): string {
+  if (!detail.sportsFieldUrl) {
+    return `<p class="muted md-heat-empty">${escapeHtml(t(lang, "mdNoHeatmap"))}</p>`;
   }
   return `
+    <div class="md-heatmap">
+      <p class="muted md-heat-caption">${escapeHtml(t(lang, "mdHeatmapHint"))}</p>
+      <div class="md-heatmap-frame">
+        <iframe
+          src="${escapeHtml(detail.sportsFieldUrl)}"
+          title="${escapeHtml(t(lang, "mdHeatmap"))}"
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </div>`;
+}
+
+function renderStats(detail: MatchDetail, lang: Lang): string {
+  const statsBlock =
+    detail.stats.length === 0
+      ? `<p class="muted">${escapeHtml(t(lang, "mdNoStats"))}</p>`
+      : `
     <div class="md-stats">
       ${detail.stats
         .map((s) => {
@@ -178,6 +226,13 @@ function renderStats(detail: MatchDetail, lang: Lang): string {
         })
         .join("")}
     </div>`;
+
+  return `
+    ${statsBlock}
+    <section class="md-heat-section">
+      <h3 class="md-section-title">${escapeHtml(t(lang, "mdHeatmap"))}</h3>
+      ${renderHeatmap(detail, lang)}
+    </section>`;
 }
 
 /** Short Portuguese position labels (Gol / Def / Mei / Ata). */
@@ -296,6 +351,7 @@ export function renderMatchDetailPanel(
               <span>${escapeHtml(detail.team2)}</span>
             </div>
           </div>
+          ${renderOddsBar(detail, lang)}
           ${detail.venue ? `<p class="md-venue muted">${escapeHtml(detail.venue)}</p>` : ""}
         </div>
         <div class="md-tabs">

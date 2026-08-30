@@ -42,6 +42,12 @@
           "home": 2,
           "away": 1
         }
+      },
+      "odds": {
+        "home": 1.91,
+        "draw": 3.33,
+        "away": 4.24,
+        "source": "betexplorer"
       }
     },
     {
@@ -86,6 +92,12 @@
           "home": 2,
           "away": 1
         }
+      },
+      "odds": {
+        "home": 2.42,
+        "draw": 3.22,
+        "away": 2.98,
+        "source": "betexplorer"
       }
     },
     {
@@ -130,6 +142,12 @@
           "home": 3,
           "away": 1
         }
+      },
+      "odds": {
+        "home": 1.96,
+        "draw": 3.47,
+        "away": 3.83,
+        "source": "betexplorer"
       }
     },
     {
@@ -174,6 +192,12 @@
           "home": 3,
           "away": 3
         }
+      },
+      "odds": {
+        "home": 2.34,
+        "draw": 3.1,
+        "away": 3.23,
+        "source": "betexplorer"
       }
     },
     {
@@ -185,8 +209,8 @@
           "city": ""
         },
         "status": {
-          "long": "NS",
-          "short": "NS",
+          "long": "1H",
+          "short": "1H",
           "elapsed": null
         }
       },
@@ -206,8 +230,8 @@
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
       "score": {
         "halftime": {
@@ -218,6 +242,12 @@
           "home": null,
           "away": null
         }
+      },
+      "odds": {
+        "home": 1.28,
+        "draw": 5.59,
+        "away": 9.73,
+        "source": "betexplorer"
       }
     },
     {
@@ -229,8 +259,8 @@
           "city": ""
         },
         "status": {
-          "long": "NS",
-          "short": "NS",
+          "long": "1H",
+          "short": "1H",
           "elapsed": null
         }
       },
@@ -250,8 +280,8 @@
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
       "score": {
         "halftime": {
@@ -262,6 +292,12 @@
           "home": null,
           "away": null
         }
+      },
+      "odds": {
+        "home": 1.88,
+        "draw": 3.29,
+        "away": 4.42,
+        "source": "betexplorer"
       }
     },
     {
@@ -306,6 +342,12 @@
           "home": null,
           "away": null
         }
+      },
+      "odds": {
+        "home": 3.48,
+        "draw": 3.26,
+        "away": 2.14,
+        "source": "betexplorer"
       }
     },
     {
@@ -350,6 +392,12 @@
           "home": null,
           "away": null
         }
+      },
+      "odds": {
+        "home": 1.54,
+        "draw": 4.06,
+        "away": 5.94,
+        "source": "betexplorer"
       }
     },
     {
@@ -394,6 +442,12 @@
           "home": null,
           "away": null
         }
+      },
+      "odds": {
+        "home": 1.83,
+        "draw": 3.55,
+        "away": 4.24,
+        "source": "betexplorer"
       }
     },
     {
@@ -438,6 +492,12 @@
           "home": null,
           "away": null
         }
+      },
+      "odds": {
+        "home": 2.17,
+        "draw": 3.19,
+        "away": 3.43,
+        "source": "betexplorer"
       }
     }
   ],
@@ -475,14 +535,14 @@
                 "name": "Flamengo",
                 "logo": "https://s.sde.globo.com/media/organizations/2018/04/10/Flamengo-2018.svg"
               },
-              "points": 45,
+              "points": 46,
               "goalsDiff": 24,
-              "form": "DDWWL",
+              "form": "DWWLD",
               "description": "Copa Libertadores",
               "all": {
-                "played": 23,
+                "played": 24,
                 "win": 13,
-                "draw": 6,
+                "draw": 7,
                 "lose": 4,
                 "goals": {
                   "for": 45,
@@ -651,14 +711,14 @@
                 "name": "Corinthians",
                 "logo": "https://s.sde.globo.com/media/organizations/2024/10/09/Corinthians_2024_Q4ahot4.svg"
               },
-              "points": 32,
+              "points": 33,
               "goalsDiff": 2,
-              "form": "DDWLL",
+              "form": "DWLLD",
               "description": "Copa Sudamericana",
               "all": {
-                "played": 24,
+                "played": 25,
                 "win": 8,
-                "draw": 8,
+                "draw": 9,
                 "lose": 8,
                 "goals": {
                   "for": 26,
@@ -669,6 +729,28 @@
             {
               "rank": 11,
               "team": {
+                "id": 263,
+                "name": "Botafogo",
+                "logo": "https://s.sde.globo.com/media/organizations/2019/02/04/botafogo-svg.svg"
+              },
+              "points": 31,
+              "goalsDiff": 0,
+              "form": "WDLLD",
+              "description": "Copa Sudamericana",
+              "all": {
+                "played": 24,
+                "win": 8,
+                "draw": 7,
+                "lose": 9,
+                "goals": {
+                  "for": 37,
+                  "against": 37
+                }
+              }
+            },
+            {
+              "rank": 12,
+              "team": {
                 "id": 276,
                 "name": "São Paulo",
                 "logo": "https://s.sde.globo.com/media/organizations/2018/03/11/sao-paulo.svg"
@@ -676,7 +758,7 @@
               "points": 30,
               "goalsDiff": 1,
               "form": "DLDLW",
-              "description": "Copa Sudamericana",
+              "description": null,
               "all": {
                 "played": 24,
                 "win": 8,
@@ -685,28 +767,6 @@
                 "goals": {
                   "for": 29,
                   "against": 28
-                }
-              }
-            },
-            {
-              "rank": 12,
-              "team": {
-                "id": 263,
-                "name": "Botafogo",
-                "logo": "https://s.sde.globo.com/media/organizations/2019/02/04/botafogo-svg.svg"
-              },
-              "points": 30,
-              "goalsDiff": 0,
-              "form": "WWDLL",
-              "description": null,
-              "all": {
-                "played": 23,
-                "win": 8,
-                "draw": 6,
-                "lose": 9,
-                "goals": {
-                  "for": 37,
-                  "against": 37
                 }
               }
             },
@@ -739,14 +799,14 @@
                 "name": "Santos",
                 "logo": "https://s.sde.globo.com/media/organizations/2018/03/12/santos.svg"
               },
-              "points": 26,
+              "points": 27,
               "goalsDiff": -3,
-              "form": "LDLWD",
+              "form": "DLWDD",
               "description": null,
               "all": {
-                "played": 23,
+                "played": 24,
                 "win": 6,
-                "draw": 8,
+                "draw": 9,
                 "lose": 9,
                 "goals": {
                   "for": 33,
@@ -1997,15 +2057,17 @@
   "budget": {
     "used": 0,
     "remaining": 100,
-    "mode": "prematch",
-    "liveIntervalMs": 300000
+    "mode": "live",
+    "liveIntervalMs": 90000
   },
-  "fetchedAt": "2026-08-30T18:54:40.592Z",
+  "fetchedAt": "2026-08-30T19:08:12.319Z",
   "source": "ge-globo",
   "meta": {
     "rodada": 25,
     "edicao": "Campeonato Brasileiro 2026",
     "provider": "ge.globo.com",
-    "scorersCount": 50
+    "scorersCount": 50,
+    "oddsMatched": 10,
+    "oddsAvailable": 239
   }
 }

@@ -237,24 +237,24 @@ function momentToElapsed(moment, periodAbbr) {
 function mapPos(position) {
   const initials = String(position?.initials || "").toUpperCase();
   const desc = String(position?.description || "").toLowerCase();
-  if (initials === "GOL" || desc.includes("goleiro")) return "G";
+  if (initials === "GOL" || desc.includes("goleiro")) return "Gol";
   if (
     ["LAD", "LAE", "ZAD", "ZAE", "ZAG"].includes(initials) ||
     desc.includes("zagueiro") ||
     desc.includes("lateral") ||
     desc.includes("defesa")
   ) {
-    return "D";
+    return "Def";
   }
   if (
     ["VOL", "MEC", "MEI"].includes(initials) ||
     desc.includes("volante") ||
     desc.includes("meio")
   ) {
-    return "M";
+    return "Mei";
   }
-  if (initials === "ATA" || desc.includes("atacante") || desc.includes("ponteiro")) return "F";
-  return "M";
+  if (initials === "ATA" || desc.includes("atacante") || desc.includes("ponteiro")) return "Ata";
+  return "Mei";
 }
 
 function mapPlayer(p) {

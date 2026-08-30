@@ -180,6 +180,37 @@ function renderStats(detail: MatchDetail, lang: Lang): string {
     </div>`;
 }
 
+/** Short Portuguese position labels (Gol / Def / Mei / Ata). */
+function formatPos(pos: string): string {
+  const p = String(pos || "").trim().toUpperCase();
+  if (!p) return "";
+  if (["G", "GK", "GKP", "GOL", "GOALKEEPER"].includes(p) || p.startsWith("GOL")) return "Gol";
+  if (
+    ["D", "DF", "DEF", "DEFENDER", "CB", "LB", "RB", "LWB", "RWB"].includes(p) ||
+    p.startsWith("DEF")
+  ) {
+    return "Def";
+  }
+  if (
+    ["M", "MF", "MID", "MEI", "MIDFIELDER", "CDM", "CM", "CAM", "LM", "RM", "VOL", "MEC"].includes(
+      p
+    ) ||
+    p.startsWith("MEI") ||
+    p.startsWith("MID")
+  ) {
+    return "Mei";
+  }
+  if (
+    ["F", "FW", "ST", "ATA", "ATTACKER", "FORWARD", "CF", "LW", "RW", "SS"].includes(p) ||
+    p.startsWith("ATA") ||
+    p.startsWith("ATT") ||
+    p.startsWith("FOR")
+  ) {
+    return "Ata";
+  }
+  return pos.length <= 3 ? pos : pos.slice(0, 3);
+}
+
 function renderPlayers(players: TeamLineup["startXI"]): string {
   return players
     .map(
@@ -187,7 +218,7 @@ function renderPlayers(players: TeamLineup["startXI"]): string {
       <li>
         <span class="md-num">${p.number ?? "–"}</span>
         <span>${escapeHtml(p.name)}</span>
-        <span class="muted">${escapeHtml(p.pos)}</span>
+        <span class="muted md-pos">${escapeHtml(formatPos(p.pos))}</span>
       </li>`
     )
     .join("");

@@ -9,7 +9,6 @@ const IDLE_REFRESH_MS = 15 * 60_000;
 let state: AppState = {
   view: "schedule",
   scheduleFilter: "today",
-  scorersTab: "goals",
   lang: detectLang(),
   data: null,
   loading: true,
@@ -128,14 +127,6 @@ function mount(): void {
     el.querySelectorAll("[data-filter]").forEach((node) => {
       node.addEventListener("click", () => {
         state = { ...state, scheduleFilter: (node as HTMLElement).dataset.filter! };
-        paint();
-      });
-    });
-
-    el.querySelectorAll("[data-scorers-tab]").forEach((node) => {
-      node.addEventListener("click", () => {
-        const tab = (node as HTMLElement).dataset.scorersTab as "goals" | "assists";
-        state = { ...state, scorersTab: tab };
         paint();
       });
     });

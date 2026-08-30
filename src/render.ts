@@ -183,14 +183,9 @@ function renderTable(data: DashboardData, lang: Lang): string {
     </div>`;
 }
 
-function renderPlayerList(
-  rows: PlayerStatRow[],
-  lang: Lang,
-  unitKey: "tabGoals" | "tabAssists",
-  emptyKey: "noScorers" | "noAssists" = "noScorers"
-): string {
+function renderPlayerList(rows: PlayerStatRow[], lang: Lang): string {
   if (rows.length === 0) {
-    return `<div class="empty-state"><p>${escapeHtml(t(lang, emptyKey))}</p></div>`;
+    return `<div class="empty-state"><p>${escapeHtml(t(lang, "noScorers"))}</p></div>`;
   }
   return `
     <ol class="player-list">
@@ -201,28 +196,17 @@ function renderPlayerList(
           <span class="player-rank">${i + 1}</span>
           <div class="player-info">
             <strong>${escapeHtml(p.name)}</strong>
-            <span class="muted">${crestImg(p.teamLogo, p.team)} ${escapeHtml(p.team)}${
-              p.appearances > 0 ? ` · ${escapeHtml(t(lang, "apps"))} ${p.appearances}` : ""
-            }</span>
+            <span class="muted">${crestImg(p.teamLogo, p.team)} ${escapeHtml(p.team)}</span>
           </div>
-          <span class="player-value" title="${escapeHtml(t(lang, unitKey))}">${p.value}</span>
+          <span class="player-value" title="${escapeHtml(t(lang, "tabGoals"))}">${p.value}</span>
         </li>`
         )
         .join("")}
     </ol>`;
 }
 
-function renderScorers(data: DashboardData, lang: Lang, tab: "goals" | "assists"): string {
-  return `
-    <div class="filter-bar">
-      <button class="filter-btn ${tab === "goals" ? "active" : ""}" data-scorers-tab="goals">${escapeHtml(t(lang, "tabGoals"))}</button>
-      <button class="filter-btn ${tab === "assists" ? "active" : ""}" data-scorers-tab="assists">${escapeHtml(t(lang, "tabAssists"))}</button>
-    </div>
-    ${
-      tab === "goals"
-        ? renderPlayerList(data.scorers, lang, "tabGoals", "noScorers")
-        : renderPlayerList(data.assists, lang, "tabAssists", "noAssists")
-    }`;
+function renderScorers(data: DashboardData, lang: Lang): string {
+  return renderPlayerList(data.scorers, lang);
 }
 
 function renderLangSwitch(lang: Lang): string {
@@ -240,7 +224,6 @@ function renderLangSwitch(lang: Lang): string {
 export interface AppState {
   view: ViewId;
   scheduleFilter: string;
-  scorersTab: "goals" | "assists";
   lang: Lang;
   data: DashboardData | null;
   loading: boolean;
@@ -267,7 +250,7 @@ function renderMatchDetailOverlay(state: AppState): string {
 }
 
 export function renderApp(state: AppState): string {
-  const { view, data, loading, error, scheduleFilter, lang, scorersTab } = state;
+  const { view, data, loading, error, scheduleFilter, lang } = state;
 
   let content = "";
   if (loading && !data) {
@@ -295,7 +278,7 @@ export function renderApp(state: AppState): string {
         content = renderTable(data, lang);
         break;
       case "scorers":
-        content = renderScorers(data, lang, scorersTab);
+        content = renderScorers(data, lang);
         break;
     }
   }

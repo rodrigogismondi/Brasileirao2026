@@ -20,6 +20,8 @@ let state: AppState = {
 };
 
 let refreshTimer: ReturnType<typeof setInterval> | null = null;
+let clockTimer: ReturnType<typeof setInterval> | null = null;
+const LIVE_CLOCK_MS = 15_000;
 
 function mount(): void {
   const root = document.getElementById("app");
@@ -88,6 +90,21 @@ function mount(): void {
     refreshTimer = setInterval(() => void load(true), ms);
   };
 
+  const scheduleLiveClock = () => {
+    if (clockTimer) clearInterval(clockTimer);
+    clockTimer = null;
+    const needsTick = Boolean(
+      state.data?.live.some(
+        (m) => m.timerStart && String(m.timerStatus || "").toUpperCase() === "INICIADO"
+      )
+    );
+    if (!needsTick) return;
+    clockTimer = setInterval(() => {
+      // Recompute minutes from timerStart without waiting for the next cache sync.
+      paint();
+    }, LIVE_CLOCK_MS);
+  };
+
   const load = async (silent = false) => {
     if (!silent) {
       state = { ...state, loading: true, error: null };
@@ -101,6 +118,7 @@ function mount(): void {
       const data = await fetchDashboard();
       state = { ...state, data, loading: false, error: null };
       scheduleRefresh(data.budget.liveIntervalMs, data.budget.mode);
+      scheduleLiveClock();
       if (state.selectedMatchId) {
         await loadMatchDetail(state.selectedMatchId, true);
       }

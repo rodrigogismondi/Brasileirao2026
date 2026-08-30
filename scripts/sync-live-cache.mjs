@@ -422,6 +422,54 @@ function periodIndicatesInPlay(periodAbbr) {
   return /1T|2T|HT|ET|BT|PR|INTERVALO|PRIMEIRO|SEGUNDO|PRORROGA|PENALT/i.test(p);
 }
 
+/**
+ * GE's `currentTime` is often stuck at "00:00". The real clock is
+ * `timerStart` (period kickoff ISO) + `timerStatus: INICIADO`.
+ * For 2T/ET, timerStart resets at that period's start.
+ */
+function elapsedFromTransmissionClock(transmission, periodAbbr, now = Date.now()) {
+  const period = String(
+    periodAbbr ||
+      transmission?.period?.abbreviation ||
+      transmission?.period?.id ||
+      ""
+  );
+  if (/INTERVALO|^HT$/i.test(period)) {
+    return { elapsed: 45, fromTimer: false };
+  }
+
+  const timerStatus = String(transmission?.timerStatus || "").toUpperCase();
+  const timerStart = transmission?.timerStart;
+
+  if (timerStatus === "INICIADO" && timerStart) {
+    const startMs = Date.parse(timerStart);
+    if (Number.isFinite(startMs)) {
+      let mins = Math.floor((now - startMs) / 60000);
+      if (mins < 0) mins = 0;
+      if (mins > 130) mins = 130;
+      if (/2T|SEGUNDO/i.test(period)) mins = 45 + mins;
+      else if (/PRORROGA|^PR$|PR_/i.test(period)) mins = 90 + mins;
+      return { elapsed: mins, fromTimer: true };
+    }
+  }
+
+  // Rare: GE currentTime actually advancing (mm:ss)
+  const ct = String(transmission?.currentTime || "");
+  const m = ct.match(/^(\d{1,3}):(\d{2})$/);
+  if (m) {
+    const mm = Number(m[1]);
+    const ss = Number(m[2]);
+    if (mm > 0 || ss > 0) {
+      let mins = mm + (ss >= 30 ? 1 : 0);
+      if (/2T|SEGUNDO/i.test(period)) mins = 45 + Number(m[1]);
+      else if (/PRORROGA|^PR$|PR_/i.test(period)) mins = 90 + Number(m[1]);
+      return { elapsed: mins, fromTimer: false };
+    }
+  }
+
+  return null;
+}
+
 async function enrichFromTransmission(fixtureRow) {
   const url = fixtureRow._geUrl;
   const html = await fetchHtml(url);
@@ -494,13 +542,19 @@ async function enrichFromTransmission(fixtureRow) {
     goalsAway = listaAway;
   }
 
-  // Approximate elapsed from latest timed play when GE clock is stuck
-  if (status.short !== "NS" && status.short !== "FT" && status.elapsed == null) {
+  // Prefer GE timerStart wall-clock; last play moment lags and currentTime is often 00:00
+  const clock = elapsedFromTransmissionClock(trv2.transmission, periodAbbr);
+  if (status.short !== "NS" && status.short !== "FT" && clock?.elapsed != null) {
+    status = { ...status, elapsed: clock.elapsed };
+  } else if (status.short !== "NS" && status.short !== "FT" && status.elapsed == null) {
     const timed = (trv2.plays || [])
       .map((p) => momentToElapsed(p.moment, p.period?.abbreviation || p.period?.id))
       .filter((n) => Number.isFinite(n) && n > 0);
     if (timed.length) status = { ...status, elapsed: Math.max(...timed) };
   }
+
+  const timerStart = trv2.transmission?.timerStart || null;
+  const timerStatus = trv2.transmission?.timerStatus || null;
 
   const { _geUrl, ...base } = fixtureRow;
   const sportsFieldUrl = trv2.theSportsField?.url || null;
@@ -509,6 +563,8 @@ async function enrichFromTransmission(fixtureRow) {
     fixture: {
       ...base.fixture,
       status,
+      timerStart,
+      timerStatus,
       venue: {
         name: match.location?.popularName || match.location?.name || base.fixture.venue.name,
         city: base.fixture.venue.city,

@@ -68,6 +68,8 @@ interface RawFixture {
     timestamp: number;
     venue?: { name?: string; city?: string };
     status: { short: string; elapsed: number | null };
+    timerStart?: string | null;
+    timerStatus?: string | null;
   };
   league?: { round?: string };
   teams: {
@@ -80,6 +82,7 @@ interface RawFixture {
 
 function mapMatch(f: RawFixture): Match {
   const dt = new Date(f.fixture.timestamp * 1000);
+  const period = f.fixture.status.short || null;
   const status = normalizeStatus(f.fixture.status.short);
   const score =
     f.goals.home != null && f.goals.away != null ? ([f.goals.home, f.goals.away] as [number, number]) : null;
@@ -93,6 +96,9 @@ function mapMatch(f: RawFixture): Match {
     status,
     score,
     liveMinute: status === "live" ? f.fixture.status.elapsed : null,
+    period: status === "live" ? period : null,
+    timerStart: status === "live" ? f.fixture.timerStart ?? null : null,
+    timerStatus: status === "live" ? f.fixture.timerStatus ?? null : null,
     date: dt.toISOString().slice(0, 10),
     time: dt.toTimeString().slice(0, 5),
     datetime: f.fixture.timestamp,

@@ -20,6 +20,7 @@ import {
   statusLabel,
   teamInitials,
   timeAgo,
+  liveBadgeText,
 } from "./utils";
 
 function crestImg(src: string, alt: string): string {
@@ -32,7 +33,7 @@ function crestImg(src: string, alt: string): string {
 function renderMatchRow(m: Match, lang: Lang, compact = false): string {
   const liveBadge =
     m.status === "live"
-      ? `<span class="badge badge-live">${m.liveMinute != null ? `${m.liveMinute}'` : t(lang, "statusLive")}</span>`
+      ? `<span class="badge badge-live">${escapeHtml(liveBadgeText(m, lang))}</span>`
       : `<span class="badge badge-${m.status}">${statusLabel(m.status, lang)}</span>`;
 
   const meta = compact

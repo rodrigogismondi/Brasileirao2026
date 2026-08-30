@@ -76,17 +76,22 @@ function statLabel(key: string, lang: Lang): string {
     lang === "pt"
       ? {
           "Ball Possession": "Posse de bola",
+          "Total Passes": "Total de passes",
+          "Pass Accuracy": "Precisão de passe",
+          "Incomplete Passes": "Passes errados",
           "Total Shots": "Finalizações",
           "Shots on Goal": "Chutes no gol",
           "Shots off Goal": "Chutes para fora",
           "Blocked Shots": "Chutes bloqueados",
+          "Hit Woodwork": "Na trave",
           "Corner Kicks": "Escanteios",
+          Offsides: "Impedimentos",
+          Penalties: "Pênaltis",
+          "Goalkeeper Saves": "Defesas",
+          Tackles: "Desarmes",
           Fouls: "Faltas",
           "Yellow Cards": "Cartões amarelos",
           "Red Cards": "Cartões vermelhos",
-          "Pass Accuracy": "Precisão de passe",
-          Offsides: "Impedimentos",
-          "Goalkeeper Saves": "Defesas",
         }
       : {};
   return map[key] ?? key;

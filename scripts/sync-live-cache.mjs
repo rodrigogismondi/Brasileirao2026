@@ -26,17 +26,46 @@ const FETCH_HEADERS = {
   "Accept-Language": "pt-BR,pt;q=0.9,en;q=0.8",
 };
 
-const STAT_MAP = [
-  ["ballPossession", "Ball Possession", (n) => `${n}%`],
-  ["goalFinish", "Total Shots", (n) => n],
-  ["wrongFinish", "Shots off Goal", (n) => n],
-  ["blockedFinish", "Blocked Shots", (n) => n],
-  ["cornerKick", "Corner Kicks", (n) => n],
-  ["foulMade", "Fouls", (n) => n],
-  ["offSide", "Offsides", (n) => n],
-  ["defense", "Goalkeeper Saves", (n) => n],
-  ["yellowCardReceived", "Yellow Cards", (n) => n],
-  ["redCardReceived", "Red Cards", (n) => n],
+function sideStatTotal(side, key) {
+  const v = side?.[key]?.total;
+  return v == null ? null : Number(v) || 0;
+}
+
+function totalShotsForSide(side) {
+  const parts = ["goalFinish", "ballOutFinish", "blockedFinish", "ballOnThePost"].map((k) =>
+    sideStatTotal(side, k)
+  );
+  if (parts.every((v) => v == null)) return null;
+  return parts.reduce((sum, v) => sum + (v ?? 0), 0);
+}
+
+/**
+ * GE `trv2.statistics` field → display label + formatter.
+ * Notes from GE payloads (Flamengo x Botafogo etc.):
+ * - `goalFinish` = shots on target ("no gol"), NOT total shots
+ * - `ballOutFinish` = shots off target ("pra fora"); `wrongFinish` is a
+ *   combined off+blocked figure — prefer `ballOutFinish` for off-target
+ * - `rightPasses` is already a percentage (e.g. 89), not a pass count
+ * - Total shots = on target + off target + blocked + woodwork
+ */
+const STAT_DEFS = [
+  { key: "ballPossession", label: "Ball Possession", fmt: (n) => `${n}%` },
+  { key: "totalPasses", label: "Total Passes", fmt: (n) => n },
+  { key: "rightPasses", label: "Pass Accuracy", fmt: (n) => `${n}%` },
+  { key: "wrongPasses", label: "Incomplete Passes", fmt: (n) => n },
+  { key: "__totalShots", label: "Total Shots", fmt: (n) => n, compute: totalShotsForSide },
+  { key: "goalFinish", label: "Shots on Goal", fmt: (n) => n },
+  { key: "ballOutFinish", label: "Shots off Goal", fmt: (n) => n },
+  { key: "blockedFinish", label: "Blocked Shots", fmt: (n) => n },
+  { key: "ballOnThePost", label: "Hit Woodwork", fmt: (n) => n },
+  { key: "cornerKick", label: "Corner Kicks", fmt: (n) => n },
+  { key: "offSide", label: "Offsides", fmt: (n) => n },
+  { key: "penaltyReceived", label: "Penalties", fmt: (n) => n },
+  { key: "defense", label: "Goalkeeper Saves", fmt: (n) => n },
+  { key: "tackle", label: "Tackles", fmt: (n) => n },
+  { key: "foulMade", label: "Fouls", fmt: (n) => n },
+  { key: "yellowCardReceived", label: "Yellow Cards", fmt: (n) => n },
+  { key: "redCardReceived", label: "Red Cards", fmt: (n) => n },
 ];
 
 function extractBalanced(source, startIdx) {
@@ -372,25 +401,16 @@ function mapStatistics(stats, home, away) {
   const awaySide = stats.awayTeam ?? {};
   const homeRows = [];
   const awayRows = [];
-  for (const [key, label, fmt] of STAT_MAP) {
-    const hv = homeSide[key]?.total;
-    const av = awaySide[key]?.total;
+
+  for (const def of STAT_DEFS) {
+    const hv = def.compute ? def.compute(homeSide) : sideStatTotal(homeSide, def.key);
+    const av = def.compute ? def.compute(awaySide) : sideStatTotal(awaySide, def.key);
     if (hv == null && av == null) continue;
-    homeRows.push({ type: label, value: fmt(hv ?? 0) });
-    awayRows.push({ type: label, value: fmt(av ?? 0) });
+    const fmt = def.fmt ?? ((n) => n);
+    homeRows.push({ type: def.label, value: fmt(hv ?? 0) });
+    awayRows.push({ type: def.label, value: fmt(av ?? 0) });
   }
-  const homePass = homeSide.totalPasses?.total;
-  const awayPass = awaySide.totalPasses?.total;
-  const homeRight = homeSide.rightPasses?.total;
-  const awayRight = awaySide.rightPasses?.total;
-  if (homePass || awayPass) {
-    const hAcc =
-      homePass > 0 ? Math.round(((homeRight ?? 0) / homePass) * 100) : 0;
-    const aAcc =
-      awayPass > 0 ? Math.round(((awayRight ?? 0) / awayPass) * 100) : 0;
-    homeRows.push({ type: "Pass Accuracy", value: `${hAcc}%` });
-    awayRows.push({ type: "Pass Accuracy", value: `${aAcc}%` });
-  }
+
   return [
     { team: { id: home.id, name: home.name }, statistics: homeRows },
     { team: { id: away.id, name: away.name }, statistics: awayRows },

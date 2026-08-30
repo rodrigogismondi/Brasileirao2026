@@ -11942,9 +11942,7 @@
           "long": "FT",
           "short": "FT",
           "elapsed": 90
-        },
-        "timerStart": "2026-08-29T23:33:54.861Z",
-        "timerStatus": "PAUSADO"
+        }
       },
       "league": {
         "round": "Regular Season - 25"
@@ -11994,9 +11992,7 @@
           "long": "FT",
           "short": "FT",
           "elapsed": 90
-        },
-        "timerStart": "2026-08-30T01:25:24.952Z",
-        "timerStatus": "PAUSADO"
+        }
       },
       "league": {
         "round": "Regular Season - 25"
@@ -12046,9 +12042,7 @@
           "long": "FT",
           "short": "FT",
           "elapsed": 90
-        },
-        "timerStart": "2026-08-30T02:27:46.075Z",
-        "timerStatus": "PAUSADO"
+        }
       },
       "league": {
         "round": "Regular Season - 25"
@@ -12098,9 +12092,7 @@
           "long": "FT",
           "short": "FT",
           "elapsed": 90
-        },
-        "timerStart": "2026-08-30T16:11:28.071Z",
-        "timerStatus": "PAUSADO"
+        }
       },
       "league": {
         "round": "Regular Season - 25"
@@ -12149,7 +12141,7 @@
         "status": {
           "long": "2H",
           "short": "2H",
-          "elapsed": 60
+          "elapsed": 95
         },
         "timerStart": "2026-08-30T20:07:23.483Z",
         "timerStatus": "INICIADO"
@@ -12170,7 +12162,7 @@
         }
       },
       "goals": {
-        "home": 1,
+        "home": 3,
         "away": 0
       },
       "score": {
@@ -12201,7 +12193,7 @@
         "status": {
           "long": "2H",
           "short": "2H",
-          "elapsed": 58
+          "elapsed": 93
         },
         "timerStart": "2026-08-30T20:09:39.565Z",
         "timerStatus": "INICIADO"
@@ -12254,9 +12246,7 @@
           "long": "NS",
           "short": "NS",
           "elapsed": null
-        },
-        "timerStart": null,
-        "timerStatus": "PAUSADO"
+        }
       },
       "league": {
         "round": "Regular Season - 25"
@@ -12306,9 +12296,7 @@
           "long": "NS",
           "short": "NS",
           "elapsed": null
-        },
-        "timerStart": "2026-08-30T20:12:07.032Z",
-        "timerStatus": "PAUSADO"
+        }
       },
       "league": {
         "round": "Regular Season - 25"
@@ -12358,9 +12346,7 @@
           "long": "NS",
           "short": "NS",
           "elapsed": null
-        },
-        "timerStart": null,
-        "timerStatus": "PAUSADO"
+        }
       },
       "league": {
         "round": "Regular Season - 25"
@@ -12410,9 +12396,7 @@
           "long": "NS",
           "short": "NS",
           "elapsed": null
-        },
-        "timerStart": null,
-        "timerStatus": "PAUSADO"
+        }
       },
       "league": {
         "round": "Regular Season - 25"
@@ -18521,7 +18505,7 @@
                 "logo": "https://s.sde.globo.com/media/organizations/2018/04/10/Flamengo-2018.svg"
               },
               "points": 48,
-              "goalsDiff": 25,
+              "goalsDiff": 27,
               "form": "DWWLW",
               "description": "Copa Libertadores",
               "all": {
@@ -18530,7 +18514,7 @@
                 "draw": 6,
                 "lose": 4,
                 "goals": {
-                  "for": 46,
+                  "for": 48,
                   "against": 21
                 }
               }
@@ -18741,7 +18725,7 @@
                 "logo": "https://s.sde.globo.com/media/organizations/2019/02/04/botafogo-svg.svg"
               },
               "points": 30,
-              "goalsDiff": -1,
+              "goalsDiff": -3,
               "form": "WDLLL",
               "description": null,
               "all": {
@@ -18751,7 +18735,7 @@
                 "lose": 10,
                 "goals": {
                   "for": 37,
-                  "against": 38
+                  "against": 40
                 }
               }
             },
@@ -19072,6 +19056,28 @@
     {
       "player": {
         "id": 7,
+        "name": "Samuel Lino",
+        "photo": "https://s.sde.globo.com/media/person_role/2025/07/30/photo_140x140.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "name": "Flamengo",
+            "logo": "https://s.sde.globo.com/media/organizations/2018/04/09/Flamengo-65.png"
+          },
+          "goals": {
+            "total": 8,
+            "assists": null
+          },
+          "games": {
+            "appearences": 0
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 8,
         "name": "Gabriel",
         "photo": "https://s.sde.globo.com/media/person_role/2026/03/27/photo_140x140_z4GBWzj.png"
       },
@@ -19093,7 +19099,7 @@
     },
     {
       "player": {
-        "id": 8,
+        "id": 9,
         "name": "Luciano",
         "photo": "https://s.sde.globo.com/media/person_role/2026/03/27/photo_140x140_Gvi1KDn.png"
       },
@@ -19115,7 +19121,7 @@
     },
     {
       "player": {
-        "id": 9,
+        "id": 10,
         "name": "Danilo",
         "photo": "https://s.sde.globo.com/media/person_role/2026/07/06/photo_140x140_z4bUUy7.png"
       },
@@ -19137,7 +19143,7 @@
     },
     {
       "player": {
-        "id": 10,
+        "id": 11,
         "name": "Calleri",
         "photo": "https://s.sde.globo.com/media/person_role/2026/02/20/photo_140x140_2u6NnKV.png"
       },
@@ -19159,7 +19165,7 @@
     },
     {
       "player": {
-        "id": 11,
+        "id": 12,
         "name": "Arthur Cabral",
         "photo": "https://s.sde.globo.com/media/person_role/2026/07/06/photo_140x140_LWtebKu.png"
       },
@@ -19181,7 +19187,7 @@
     },
     {
       "player": {
-        "id": 12,
+        "id": 13,
         "name": "Luciano Juba",
         "photo": "https://s.sde.globo.com/media/person_role/2026/07/06/photo_140x140_JKUCf8p.png"
       },
@@ -19190,28 +19196,6 @@
           "team": {
             "name": "Bahia",
             "logo": "https://s.sde.globo.com/media/organizations/2014/04/14/bahia_60x60.png"
-          },
-          "goals": {
-            "total": 7,
-            "assists": null
-          },
-          "games": {
-            "appearences": 0
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 13,
-        "name": "Samuel Lino",
-        "photo": "https://s.sde.globo.com/media/person_role/2025/07/30/photo_140x140.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "name": "Flamengo",
-            "logo": "https://s.sde.globo.com/media/organizations/2018/04/09/Flamengo-65.png"
           },
           "goals": {
             "total": 7,
@@ -19974,6 +19958,28 @@
     {
       "player": {
         "id": 48,
+        "name": "Carrascal",
+        "photo": "https://s.sde.globo.com/media/person_role/2026/05/25/photo_140x140_cMvap9e.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "name": "Flamengo",
+            "logo": "https://s.sde.globo.com/media/organizations/2018/04/09/Flamengo-65.png"
+          },
+          "goals": {
+            "total": 4,
+            "assists": null
+          },
+          "games": {
+            "appearences": 0
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 49,
         "name": "Leozinho",
         "photo": "https://s.sde.globo.com/media/person_role/2025/03/14/photo_140x140_Wofj7zI.png"
       },
@@ -19995,7 +20001,7 @@
     },
     {
       "player": {
-        "id": 49,
+        "id": 50,
         "name": "Juninho Capixaba",
         "photo": "https://s.sde.globo.com/media/person_role/2025/04/02/photo_140x140_x8QAvhh.png"
       },
@@ -20014,28 +20020,6 @@
           }
         }
       ]
-    },
-    {
-      "player": {
-        "id": 50,
-        "name": "Lucho Acosta",
-        "photo": "https://s.sde.globo.com/media/person_role/2026/07/06/photo_140x140_DdPgkDh.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "name": "Fluminense",
-            "logo": "https://s.sde.globo.com/media/organizations/2014/04/14/fluminense_60x60.png"
-          },
-          "goals": {
-            "total": 3,
-            "assists": null
-          },
-          "games": {
-            "appearences": 0
-          }
-        }
-      ]
     }
   ],
   "assists": [],
@@ -20043,9 +20027,9 @@
     "used": 0,
     "remaining": 100,
     "mode": "live",
-    "liveIntervalMs": 60000
+    "liveIntervalMs": 20000
   },
-  "fetchedAt": "2026-08-30T20:23:17.205Z",
+  "fetchedAt": "2026-08-30T20:57:43.350Z",
   "source": "ge-globo",
   "meta": {
     "rodada": 25,
@@ -20090,12 +20074,14 @@
       37,
       38
     ],
+    "seasonSyncedAt": "2026-08-30T20:57:13.843Z",
+    "fullSeasonSync": false,
     "edicao": "Campeonato Brasileiro 2026",
     "provider": "ge.globo.com",
     "scorersCount": 50,
-    "oddsMatched": 273,
-    "oddsPreserved": 0,
-    "oddsAvailable": 239,
+    "oddsMatched": 0,
+    "oddsPreserved": 273,
+    "oddsAvailable": 0,
     "fixturesCount": 380
   }
 }

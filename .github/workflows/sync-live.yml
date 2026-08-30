@@ -1,20 +1,23 @@
 name: Sync live cache
 
-# Commits fresh GE/BetExplorer cache to main so Pages stays current during matchdays.
-# A push to main then triggers the Deploy workflow.
+# Fast live tick: updates current-round scores and commits cache to main.
+# A push to main then triggers Deploy (which skips re-sync for these commits).
 
 on:
   schedule:
-    # Every 2 min so HT / live clock flips land quickly
-    - cron: "*/2 * * * *"
+    # GitHub may delay cron; keep it frequent during matchdays.
+    - cron: "*/5 * * * *"
   workflow_dispatch:
+  # Also run after human/agent pushes that aren't themselves a cache sync
+  repository_dispatch:
+    types: [sync-live]
 
 permissions:
   contents: write
 
 concurrency:
   group: sync-live-cache
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   sync:

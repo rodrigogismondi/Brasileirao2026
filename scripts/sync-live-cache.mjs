@@ -397,13 +397,41 @@ function mapStatistics(stats, home, away) {
   ];
 }
 
-function shouldEnrich(fixtureRow, rodadaAtual) {
+function shouldEnrich(fixtureRow, rodadaAtual, { liveOnly = false } = {}) {
   if (!fixtureRow._geUrl) return false;
   const st = fixtureRow.fixture.status.short;
   if (["1H", "HT", "2H", "LIVE", "ET", "BT", "P"].includes(st)) return true;
+  if (liveOnly) return false;
   const round = Number(String(fixtureRow.league?.round || "").match(/(\d+)\s*$/)?.[1] || 0);
   // Full transmission enrich only for the current round (~10 pages).
   return round === rodadaAtual;
+}
+
+function loadExistingDashboard() {
+  const path = join(CACHE_DIR, "dashboard.json");
+  if (!existsSync(path)) return null;
+  try {
+    return JSON.parse(readFileSync(path, "utf8"));
+  } catch {
+    return null;
+  }
+}
+
+function fixtureRoundNumber(f) {
+  return Number(String(f.league?.round || "").match(/(\d+)\s*$/)?.[1] || 0);
+}
+
+function needsFullSeasonSync(existing, data, rodada) {
+  if (process.env.FORCE_SEASON_SYNC === "1") return true;
+  if (!existing?.fixtures?.length) return true;
+  const ultima = data.rodada?.ultima ?? 38;
+  const rounds = existing.meta?.rounds ?? [];
+  if (rounds.length < Math.max(1, ultima - 1)) return true;
+  const seasonAt = Date.parse(existing.meta?.seasonSyncedAt || "");
+  if (!Number.isFinite(seasonAt)) return true;
+  // Refresh the full calendar every 6h (or when the current round advances).
+  if (existing.meta?.rodada && existing.meta.rodada !== rodada) return true;
+  return Date.now() - seasonAt > 6 * 3600 * 1000;
 }
 
 const GE_RESOURCE_FALLBACK = "d1a37fa4-e948-43a6-ba53-ab24ab3a45b1";
@@ -660,24 +688,21 @@ async function enrichFromTransmission(fixtureRow) {
     status = { long: "NS", short: "NS", elapsed: null };
   }
 
-  const listaHome = fixtureRow.goals.home;
-  const listaAway = fixtureRow.goals.away;
   const boardReady =
     scoreboard && scoreboard.home != null && scoreboard.away != null;
-  const preferBoard = boardReady && status.short !== "NS";
-  let goalsHome = preferBoard ? scoreboard.home : listaHome;
-  let goalsAway = preferBoard ? scoreboard.away : listaAway;
-  // If lista placar is ahead of a stale scoreboard, keep the higher total
-  if (
-    status.short !== "NS" &&
-    listaHome != null &&
-    listaAway != null &&
-    goalsHome != null &&
-    goalsAway != null &&
-    listaHome + listaAway > goalsHome + goalsAway
-  ) {
-    goalsHome = listaHome;
-    goalsAway = listaAway;
+  const listaHome = fixtureRow.goals.home;
+  const listaAway = fixtureRow.goals.away;
+  // Pick the freshest placar: whichever source has more total goals wins.
+  let goalsHome = listaHome;
+  let goalsAway = listaAway;
+  if (boardReady && status.short !== "NS") {
+    const listaTotal =
+      listaHome != null && listaAway != null ? listaHome + listaAway : -1;
+    const boardTotal = Number(scoreboard.home) + Number(scoreboard.away);
+    if (boardTotal >= listaTotal) {
+      goalsHome = scoreboard.home;
+      goalsAway = scoreboard.away;
+    }
   }
   if (status.short === "NS") {
     goalsHome = listaHome;
@@ -914,14 +939,44 @@ function writeDemoFallback(reason) {
 }
 
 async function main() {
+  if (process.env.SKIP_LIVE_SYNC === "1") {
+    console.log("Skipping live sync (SKIP_LIVE_SYNC=1)");
+    return;
+  }
+
   try {
+    const existing = loadExistingDashboard();
     const html = await fetchGeHtml();
     const data = parseGeScript(html);
     const rodada = data.rodada?.atual ?? 0;
     const currentFixtures = mapFixtures(data.lista_jogos, rodada);
-    const season = await fetchSeasonFixtures(html, data, currentFixtures);
-    const fixtures = season.fixtures;
-    const ultimaRodada = season.ultima;
+    const fullSeason = needsFullSeasonSync(existing, data, rodada);
+
+    let fixtures;
+    let ultimaRodada;
+    let seasonSyncedAt;
+    if (fullSeason) {
+      const season = await fetchSeasonFixtures(html, data, currentFixtures);
+      fixtures = season.fixtures;
+      ultimaRodada = season.ultima;
+      seasonSyncedAt = new Date().toISOString();
+    } else {
+      const byId = new Map();
+      for (const f of existing.fixtures) byId.set(f.fixture.id, f);
+      for (const f of currentFixtures) {
+        const prev = byId.get(f.fixture.id);
+        byId.set(f.fixture.id, {
+          ...f,
+          odds: prev?.odds ?? null,
+        });
+      }
+      fixtures = [...byId.values()].sort(
+        (a, b) => a.fixture.timestamp - b.fixture.timestamp
+      );
+      ultimaRodada = existing.meta?.ultimaRodada ?? data.rodada?.ultima ?? 38;
+      seasonSyncedAt = existing.meta?.seasonSyncedAt ?? existing.fetchedAt;
+    }
+
     const standings = mapStandings(data.classificacao);
     const nowSec = Math.floor(Date.now() / 1000);
     const hasLive = fixtures.some((f) =>
@@ -930,21 +985,24 @@ async function main() {
     const hasPrematch = fixtures.some((f) => {
       if (f.fixture.status.short !== "NS") return false;
       const eta = f.fixture.timestamp - nowSec;
-      // Lineups usually drop ~1h before; keep a wider window.
       return eta <= 3 * 3600 && eta >= -30 * 60;
     });
     const mode = hasLive ? "live" : hasPrematch ? "prematch" : "idle";
     const liveIntervalMs =
-      mode === "live" ? 60_000 : mode === "prematch" ? 3 * 60_000 : 15 * 60_000;
+      mode === "live" ? 20_000 : mode === "prematch" ? 2 * 60_000 : 15 * 60_000;
 
     const scorers = parseScorersFromHtml(html);
     const previousOdds = loadPreviousOddsById();
-    const oddsMap = await fetchBetexplorerOdds();
+    // Skip BetExplorer on the fast live tick — keep last odds, avoid 429s.
+    let oddsMap = new Map();
     let oddsMatched = 0;
     let oddsPreserved = 0;
+    if (fullSeason || mode === "idle" || process.env.FORCE_ODDS_SYNC === "1") {
+      oddsMap = await fetchBetexplorerOdds();
+    }
     for (const f of fixtures) {
       const fresh = findOddsForFixture(oddsMap, f.teams.home.name, f.teams.away.name);
-      const kept = previousOdds.get(f.fixture.id) ?? null;
+      const kept = f.odds ?? previousOdds.get(f.fixture.id) ?? null;
       if (isValidOdds(fresh)) {
         f.odds = fresh;
         oddsMatched++;
@@ -957,11 +1015,7 @@ async function main() {
     }
 
     const rounds = [
-      ...new Set(
-        fixtures
-          .map((f) => Number(String(f.league?.round || "").match(/(\d+)\s*$/)?.[1] || 0))
-          .filter((n) => n > 0)
-      ),
+      ...new Set(fixtures.map(fixtureRoundNumber).filter((n) => n > 0)),
     ].sort((a, b) => a - b);
 
     const payload = {
@@ -981,6 +1035,8 @@ async function main() {
         rodada,
         ultimaRodada,
         rounds,
+        seasonSyncedAt,
+        fullSeasonSync: fullSeason,
         edicao: data.edicao?.nome ?? "Campeonato Brasileiro",
         provider: "ge.globo.com",
         scorersCount: scorers.length,
@@ -992,20 +1048,27 @@ async function main() {
     };
 
     mkdirSync(MATCHES_DIR, { recursive: true });
-    for (const name of readdirSync(MATCHES_DIR)) {
-      if (name.endsWith(".json")) unlinkSync(join(MATCHES_DIR, name));
+    if (fullSeason) {
+      for (const name of readdirSync(MATCHES_DIR)) {
+        if (name.endsWith(".json")) unlinkSync(join(MATCHES_DIR, name));
+      }
     }
     writeFileSync(join(CACHE_DIR, "dashboard.json"), JSON.stringify(payload, null, 2));
 
+    const liveOnly = !fullSeason && hasLive;
     let enriched = 0;
     let failed = 0;
     for (const f of fixtures) {
+      const round = fixtureRoundNumber(f);
+      const enrich = shouldEnrich(f, rodada, { liveOnly });
+      // Fast path: only rewrite current-round / enriched match files.
+      if (!fullSeason && !enrich && round !== rodada) continue;
+
       let detail = minimalMatchDetail(f);
-      if (shouldEnrich(f, rodada)) {
+      if (enrich) {
         try {
           detail = await enrichFromTransmission(f);
           enriched++;
-          // Keep dashboard fixture score/status in sync when transmission has FT data
           const idx = payload.fixtures.findIndex((x) => x.fixture.id === f.fixture.id);
           if (idx >= 0) {
             payload.fixtures[idx] = {
@@ -1025,7 +1088,7 @@ async function main() {
             err instanceof Error ? err.message : String(err)
           );
         }
-        await sleep(150);
+        await sleep(120);
       }
       if (!isValidOdds(detail.odds)) {
         detail.odds = f.odds ?? previousOdds.get(f.fixture.id) ?? null;
@@ -1033,11 +1096,10 @@ async function main() {
       writeFileSync(join(MATCHES_DIR, `${f.fixture.id}.json`), JSON.stringify(detail, null, 2));
     }
 
-    // Rewrite dashboard after possible score/status updates from transmissions
     writeFileSync(join(CACHE_DIR, "dashboard.json"), JSON.stringify(payload, null, 2));
 
     console.log(
-      `Synced GE cache: rodada ${rodada}/${ultimaRodada}, ${fixtures.length} jogos, ${data.classificacao?.length ?? 0} times, enriched=${enriched}, failed=${failed}, scorers=${scorers.length}, odds=${oddsMatched}/${oddsMap.size} (kept ${oddsPreserved}), source=${payload.source}`
+      `Synced GE cache: rodada ${rodada}/${ultimaRodada}, ${fixtures.length} jogos, fullSeason=${fullSeason}, enriched=${enriched}, failed=${failed}, scorers=${scorers.length}, odds=${oddsMatched}/${oddsMap.size} (kept ${oddsPreserved}), mode=${mode}, source=${payload.source}`
     );
   } catch (err) {
     writeDemoFallback(err instanceof Error ? err.message : String(err));

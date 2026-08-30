@@ -121,8 +121,22 @@ function renderEventBody(e: TimelineEvent, lang: Lang): string {
   if (e.kind === "goal") {
     return `
       <span class="md-event-body">
-        <strong>${escapeHtml(e.title)}</strong>
+        <span class="md-event-title-row">
+          <span class="md-card-ico md-ball-ico" aria-hidden="true">⚽</span>
+          <strong>${escapeHtml(e.title)}</strong>
+        </span>
         <span class="muted">${escapeHtml(e.detail ? `${t(lang, "mdGoal")} · ${e.detail}` : t(lang, "mdGoal"))}</span>
+      </span>`;
+  }
+  if (e.kind === "yellow" || e.kind === "red") {
+    const label = e.kind === "red" ? t(lang, "mdRed") : t(lang, "mdYellow");
+    return `
+      <span class="md-event-body">
+        <span class="md-event-title-row">
+          <span class="md-card-ico md-card-ico-${e.kind}" title="${escapeHtml(label)}" aria-label="${escapeHtml(label)}"></span>
+          <strong>${escapeHtml(e.title)}</strong>
+        </span>
+        <span class="muted">${escapeHtml(e.detail ?? label)}</span>
       </span>`;
   }
   return `
@@ -308,6 +322,21 @@ function playerSubbedIn(detail: MatchDetail, team: 1 | 2, playerName: string): b
   return detail.subs.some((s) => s.team === team && samePlayer(s.playerIn, playerName));
 }
 
+function playerCardKinds(
+  detail: MatchDetail,
+  team: 1 | 2,
+  playerName: string
+): { yellow: boolean; red: boolean } {
+  let yellow = false;
+  let red = false;
+  for (const c of detail.cards) {
+    if (c.team !== team || !samePlayer(c.name, playerName)) continue;
+    if (c.type === "red") red = true;
+    else yellow = true;
+  }
+  return { yellow, red };
+}
+
 function renderPlayerIcons(
   detail: MatchDetail,
   team: 1 | 2,
@@ -318,11 +347,22 @@ function renderPlayerIcons(
   const goals = playerGoalCount(detail, team, playerName);
   const out = role === "xi" && playerSubbedOut(detail, team, playerName);
   const cameIn = role === "bench" && playerSubbedIn(detail, team, playerName);
-  if (!goals && !out && !cameIn) return "";
+  const cards = playerCardKinds(detail, team, playerName);
+  if (!goals && !out && !cameIn && !cards.yellow && !cards.red) return "";
   const parts: string[] = [];
   if (goals > 0) {
     parts.push(
       `<span class="md-ico md-ico-goals" title="${escapeHtml(t(lang, "mdGoal"))}">${"⚽".repeat(goals)}</span>`
+    );
+  }
+  if (cards.yellow) {
+    parts.push(
+      `<span class="md-card-ico md-card-ico-yellow md-card-ico-sm" title="${escapeHtml(t(lang, "mdYellow"))}" aria-label="${escapeHtml(t(lang, "mdYellow"))}"></span>`
+    );
+  }
+  if (cards.red) {
+    parts.push(
+      `<span class="md-card-ico md-card-ico-red md-card-ico-sm" title="${escapeHtml(t(lang, "mdRed"))}" aria-label="${escapeHtml(t(lang, "mdRed"))}"></span>`
     );
   }
   if (cameIn) {

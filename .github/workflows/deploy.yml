@@ -4,6 +4,9 @@ on:
   push:
     branches: [main, master]
   workflow_dispatch:
+  # Refresh live scores / tabela from GE during the season
+  schedule:
+    - cron: "*/15 * * * *"
 
 permissions:
   contents: read
@@ -27,11 +30,16 @@ jobs:
 
       - run: npm ci
 
+      - name: Sync live cache from GE Globo
+        run: npm run sync-live
+        continue-on-error: false
+
       - name: Build
         env:
           VITE_BASE_PATH: /${{ github.event.repository.name }}/
           # Optional: point the static site at a Cloudflare Worker
           VITE_API_BASE: ${{ vars.VITE_API_BASE }}
+        # prebuild also syncs; running sync-live above makes failures visible early
         run: npm run build
 
       - uses: actions/upload-pages-artifact@v3

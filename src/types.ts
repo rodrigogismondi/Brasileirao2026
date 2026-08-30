@@ -117,4 +117,5 @@ export interface DashboardData {
   budget: BudgetInfo;
   fetchedAt: Date;
   demo: boolean;
+  source: string;
 }

@@ -2,11 +2,11 @@
   "fixtures": [
     {
       "fixture": {
-        "id": 9001,
-        "timestamp": 1785092400,
+        "id": 346450,
+        "timestamp": 1788039000,
         "venue": {
-          "name": "Fonte Nova",
-          "city": "Salvador"
+          "name": "Arena MRV",
+          "city": ""
         },
         "status": {
           "long": "FT",
@@ -15,306 +15,174 @@
         }
       },
       "league": {
-        "round": "Regular Season - 20"
+        "round": "Regular Season - 25"
       },
       "teams": {
         "home": {
-          "id": 118,
-          "name": "Bahia",
-          "logo": "https://media.api-sports.io/football/teams/118.png"
-        },
-        "away": {
-          "id": 131,
-          "name": "Corinthians",
-          "logo": "https://media.api-sports.io/football/teams/131.png"
-        }
-      },
-      "goals": {
-        "home": 1,
-        "away": 1
-      },
-      "score": {
-        "halftime": {
-          "home": 1,
-          "away": 1
-        },
-        "fulltime": {
-          "home": 1,
-          "away": 1
-        }
-      }
-    },
-    {
-      "fixture": {
-        "id": 9002,
-        "timestamp": 1785092400,
-        "venue": {
-          "name": "Mineirão",
-          "city": "Belo Horizonte"
-        },
-        "status": {
-          "long": "FT",
-          "short": "FT",
-          "elapsed": 90
-        }
-      },
-      "league": {
-        "round": "Regular Season - 20"
-      },
-      "teams": {
-        "home": {
-          "id": 135,
-          "name": "Cruzeiro",
-          "logo": "https://media.api-sports.io/football/teams/135.png"
-        },
-        "away": {
-          "id": 120,
-          "name": "Botafogo",
-          "logo": "https://media.api-sports.io/football/teams/120.png"
-        }
-      },
-      "goals": {
-        "home": 0,
-        "away": 1
-      },
-      "score": {
-        "halftime": {
-          "home": 0,
-          "away": 1
-        },
-        "fulltime": {
-          "home": 0,
-          "away": 1
-        }
-      }
-    },
-    {
-      "fixture": {
-        "id": 9003,
-        "timestamp": 1785101400,
-        "venue": {
-          "name": "Cícero de Souza Marques",
-          "city": "Bragança Paulista"
-        },
-        "status": {
-          "long": "2H",
-          "short": "2H",
-          "elapsed": 68
-        }
-      },
-      "league": {
-        "round": "Regular Season - 20"
-      },
-      "teams": {
-        "home": {
-          "id": 794,
-          "name": "Bragantino",
-          "logo": "https://media.api-sports.io/football/teams/794.png"
-        },
-        "away": {
-          "id": 147,
-          "name": "Coritiba",
-          "logo": "https://media.api-sports.io/football/teams/147.png"
-        }
-      },
-      "goals": {
-        "home": 0,
-        "away": 0
-      },
-      "score": {
-        "halftime": {
-          "home": 0,
-          "away": 0
-        },
-        "fulltime": {
-          "home": null,
-          "away": null
-        }
-      }
-    },
-    {
-      "fixture": {
-        "id": 9004,
-        "timestamp": 1785101400,
-        "venue": {
-          "name": "Maracanã",
-          "city": "Rio de Janeiro"
-        },
-        "status": {
-          "long": "2H",
-          "short": "2H",
-          "elapsed": 67
-        }
-      },
-      "league": {
-        "round": "Regular Season - 20"
-      },
-      "teams": {
-        "home": {
-          "id": 127,
-          "name": "Flamengo",
-          "logo": "https://media.api-sports.io/football/teams/127.png"
-        },
-        "away": {
-          "id": 126,
-          "name": "São Paulo",
-          "logo": "https://media.api-sports.io/football/teams/126.png"
-        }
-      },
-      "goals": {
-        "home": 1,
-        "away": 0
-      },
-      "score": {
-        "halftime": {
-          "home": 1,
-          "away": 0
-        },
-        "fulltime": {
-          "home": null,
-          "away": null
-        }
-      }
-    },
-    {
-      "fixture": {
-        "id": 9005,
-        "timestamp": 1785101400,
-        "venue": {
-          "name": "Arena do Grêmio",
-          "city": "Porto Alegre"
-        },
-        "status": {
-          "long": "2H",
-          "short": "2H",
-          "elapsed": 66
-        }
-      },
-      "league": {
-        "round": "Regular Season - 20"
-      },
-      "teams": {
-        "home": {
-          "id": 130,
-          "name": "Grêmio",
-          "logo": "https://media.api-sports.io/football/teams/130.png"
-        },
-        "away": {
-          "id": 124,
-          "name": "Fluminense",
-          "logo": "https://media.api-sports.io/football/teams/124.png"
-        }
-      },
-      "goals": {
-        "home": 0,
-        "away": 0
-      },
-      "score": {
-        "halftime": {
-          "home": 0,
-          "away": 0
-        },
-        "fulltime": {
-          "home": null,
-          "away": null
-        }
-      }
-    },
-    {
-      "fixture": {
-        "id": 9006,
-        "timestamp": 1785105000,
-        "venue": {
-          "name": "Nubank Parque",
-          "city": "São Paulo"
-        },
-        "status": {
-          "long": "1H",
-          "short": "1H",
-          "elapsed": 22
-        }
-      },
-      "league": {
-        "round": "Regular Season - 20"
-      },
-      "teams": {
-        "home": {
-          "id": 121,
-          "name": "Palmeiras",
-          "logo": "https://media.api-sports.io/football/teams/121.png"
-        },
-        "away": {
-          "id": 1062,
+          "id": 282,
           "name": "Atlético-MG",
-          "logo": "https://media.api-sports.io/football/teams/1062.png"
+          "logo": "https://s.sde.globo.com/media/organizations/2018/03/10/atletico-mg.svg"
+        },
+        "away": {
+          "id": 287,
+          "name": "Vitória",
+          "logo": "https://s.sde.globo.com/media/organizations/2025/12/18/Vitoria_2025.svg"
         }
       },
       "goals": {
-        "home": 0,
-        "away": 0
+        "home": 2,
+        "away": 1
       },
       "score": {
         "halftime": {
-          "home": 0,
-          "away": 0
-        },
-        "fulltime": {
           "home": null,
           "away": null
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 1
         }
       }
     },
     {
       "fixture": {
-        "id": 9007,
-        "timestamp": 1785105000,
+        "id": 346447,
+        "timestamp": 1788044400,
         "venue": {
-          "name": "Mangueirão",
-          "city": "Belém"
+          "name": "Morumbis",
+          "city": ""
         },
         "status": {
-          "long": "1H",
-          "short": "1H",
-          "elapsed": 18
+          "long": "FT",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
-        "round": "Regular Season - 20"
+        "round": "Regular Season - 25"
       },
       "teams": {
         "home": {
-          "id": 1198,
-          "name": "Remo",
-          "logo": "https://media.api-sports.io/football/teams/1198.png"
+          "id": 276,
+          "name": "São Paulo",
+          "logo": "https://s.sde.globo.com/media/organizations/2018/03/11/sao-paulo.svg"
         },
         "away": {
-          "id": 136,
-          "name": "Vitória",
-          "logo": "https://media.api-sports.io/football/teams/136.png"
+          "id": 280,
+          "name": "Bragantino",
+          "logo": "https://s.sde.globo.com/media/organizations/2021/06/28/bragantino.svg"
         }
       },
       "goals": {
-        "home": 0,
-        "away": 0
+        "home": 2,
+        "away": 1
       },
       "score": {
         "halftime": {
-          "home": 0,
-          "away": 0
-        },
-        "fulltime": {
           "home": null,
           "away": null
+        },
+        "fulltime": {
+          "home": 2,
+          "away": 1
         }
       }
     },
     {
       "fixture": {
-        "id": 9008,
-        "timestamp": 1785178800,
+        "id": 346446,
+        "timestamp": 1788049200,
         "venue": {
           "name": "São Januário",
-          "city": "Rio de Janeiro"
+          "city": ""
+        },
+        "status": {
+          "long": "FT",
+          "short": "FT",
+          "elapsed": 90
+        }
+      },
+      "league": {
+        "round": "Regular Season - 25"
+      },
+      "teams": {
+        "home": {
+          "id": 267,
+          "name": "Vasco",
+          "logo": "https://s.sde.globo.com/media/organizations/2021/09/04/vasco_SVG.svg"
+        },
+        "away": {
+          "id": 283,
+          "name": "Cruzeiro",
+          "logo": "https://s.sde.globo.com/media/organizations/2021/02/13/cruzeiro_2021.svg"
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 1
+      },
+      "score": {
+        "halftime": {
+          "home": null,
+          "away": null
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 1
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 346452,
+        "timestamp": 1788098400,
+        "venue": {
+          "name": "Arena da Baixada",
+          "city": ""
+        },
+        "status": {
+          "long": "FT",
+          "short": "FT",
+          "elapsed": 90
+        }
+      },
+      "league": {
+        "round": "Regular Season - 25"
+      },
+      "teams": {
+        "home": {
+          "id": 293,
+          "name": "Athletico-PR",
+          "logo": "https://s.sde.globo.com/media/organizations/2026/01/07/Athletico-PR.svg"
+        },
+        "away": {
+          "id": 266,
+          "name": "Fluminense",
+          "logo": "https://s.sde.globo.com/media/organizations/2018/03/11/fluminense.svg"
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 3
+      },
+      "score": {
+        "halftime": {
+          "home": null,
+          "away": null
+        },
+        "fulltime": {
+          "home": 3,
+          "away": 3
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 346445,
+        "timestamp": 1788116400,
+        "venue": {
+          "name": "Maracanã",
+          "city": ""
         },
         "status": {
           "long": "NS",
@@ -323,18 +191,238 @@
         }
       },
       "league": {
-        "round": "Regular Season - 21"
+        "round": "Regular Season - 25"
       },
       "teams": {
         "home": {
-          "id": 133,
-          "name": "Vasco",
-          "logo": "https://media.api-sports.io/football/teams/133.png"
+          "id": 262,
+          "name": "Flamengo",
+          "logo": "https://s.sde.globo.com/media/organizations/2018/04/10/Flamengo-2018.svg"
         },
         "away": {
-          "id": 154,
-          "name": "Fortaleza",
-          "logo": "https://media.api-sports.io/football/teams/154.png"
+          "id": 263,
+          "name": "Botafogo",
+          "logo": "https://s.sde.globo.com/media/organizations/2019/02/04/botafogo-svg.svg"
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {
+        "halftime": {
+          "home": null,
+          "away": null
+        },
+        "fulltime": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 346448,
+        "timestamp": 1788116400,
+        "venue": {
+          "name": "Neo Química Arena",
+          "city": ""
+        },
+        "status": {
+          "long": "NS",
+          "short": "NS",
+          "elapsed": null
+        }
+      },
+      "league": {
+        "round": "Regular Season - 25"
+      },
+      "teams": {
+        "home": {
+          "id": 264,
+          "name": "Corinthians",
+          "logo": "https://s.sde.globo.com/media/organizations/2024/10/09/Corinthians_2024_Q4ahot4.svg"
+        },
+        "away": {
+          "id": 277,
+          "name": "Santos",
+          "logo": "https://s.sde.globo.com/media/organizations/2018/03/12/santos.svg"
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {
+        "halftime": {
+          "home": null,
+          "away": null
+        },
+        "fulltime": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 346449,
+        "timestamp": 1788125400,
+        "venue": {
+          "name": "Maião",
+          "city": ""
+        },
+        "status": {
+          "long": "NS",
+          "short": "NS",
+          "elapsed": null
+        }
+      },
+      "league": {
+        "round": "Regular Season - 25"
+      },
+      "teams": {
+        "home": {
+          "id": 2305,
+          "name": "Mirassol",
+          "logo": "https://s.sde.globo.com/media/organizations/2026/07/17/MIrassol.svg"
+        },
+        "away": {
+          "id": 275,
+          "name": "Palmeiras",
+          "logo": "https://s.sde.globo.com/media/organizations/2019/07/06/Palmeiras.svg"
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {
+        "halftime": {
+          "home": null,
+          "away": null
+        },
+        "fulltime": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 346451,
+        "timestamp": 1788125400,
+        "venue": {
+          "name": "Arena do Grêmio",
+          "city": ""
+        },
+        "status": {
+          "long": "NS",
+          "short": "NS",
+          "elapsed": null
+        }
+      },
+      "league": {
+        "round": "Regular Season - 25"
+      },
+      "teams": {
+        "home": {
+          "id": 284,
+          "name": "Grêmio",
+          "logo": "https://s.sde.globo.com/media/organizations/2018/03/12/gremio.svg"
+        },
+        "away": {
+          "id": 315,
+          "name": "Chapecoense",
+          "logo": "https://s.sde.globo.com/media/organizations/2021/06/21/CHAPECOENSE-2018.svg"
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {
+        "halftime": {
+          "home": null,
+          "away": null
+        },
+        "fulltime": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 346453,
+        "timestamp": 1788129000,
+        "venue": {
+          "name": "Casa de Apostas Arena Fonte Nova",
+          "city": ""
+        },
+        "status": {
+          "long": "NS",
+          "short": "NS",
+          "elapsed": null
+        }
+      },
+      "league": {
+        "round": "Regular Season - 25"
+      },
+      "teams": {
+        "home": {
+          "id": 265,
+          "name": "Bahia",
+          "logo": "https://s.sde.globo.com/media/organizations/2018/03/11/bahia.svg"
+        },
+        "away": {
+          "id": 285,
+          "name": "Internacional",
+          "logo": "https://s.sde.globo.com/media/organizations/2018/03/11/internacional.svg"
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {
+        "halftime": {
+          "home": null,
+          "away": null
+        },
+        "fulltime": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 346454,
+        "timestamp": 1788217200,
+        "venue": {
+          "name": "Mangueirão",
+          "city": ""
+        },
+        "status": {
+          "long": "NS",
+          "short": "NS",
+          "elapsed": null
+        }
+      },
+      "league": {
+        "round": "Regular Season - 25"
+      },
+      "teams": {
+        "home": {
+          "id": 364,
+          "name": "Remo",
+          "logo": "https://s.sde.globo.com/media/organizations/2021/02/25/Remo-PA.svg"
+        },
+        "away": {
+          "id": 294,
+          "name": "Coritiba",
+          "logo": "https://s.sde.globo.com/media/organizations/2018/03/11/coritiba.svg"
         }
       },
       "goals": {
@@ -361,688 +449,461 @@
             {
               "rank": 1,
               "team": {
-                "id": 127,
-                "name": "Flamengo",
-                "logo": "https://media.api-sports.io/football/teams/127.png"
+                "id": 275,
+                "name": "Palmeiras",
+                "logo": "https://s.sde.globo.com/media/organizations/2019/07/06/Palmeiras.svg"
               },
-              "points": 40,
-              "goalsDiff": 12,
+              "points": 51,
+              "goalsDiff": 24,
+              "form": "LWDLW",
+              "description": "Copa Libertadores",
               "all": {
-                "played": 19,
-                "win": 12,
-                "draw": 3,
-                "lose": 2,
+                "played": 24,
+                "win": 15,
+                "draw": 6,
+                "lose": 3,
                 "goals": {
-                  "for": 32,
-                  "against": 18
+                  "for": 44,
+                  "against": 20
                 }
-              },
-              "form": "WWDWL",
-              "description": "Copa Libertadores"
+              }
             },
             {
               "rank": 2,
               "team": {
-                "id": 121,
-                "name": "Palmeiras",
-                "logo": "https://media.api-sports.io/football/teams/121.png"
+                "id": 262,
+                "name": "Flamengo",
+                "logo": "https://s.sde.globo.com/media/organizations/2018/04/10/Flamengo-2018.svg"
               },
-              "points": 39,
-              "goalsDiff": 11,
+              "points": 45,
+              "goalsDiff": 24,
+              "form": "DDWWL",
+              "description": "Copa Libertadores",
               "all": {
-                "played": 19,
-                "win": 12,
-                "draw": 3,
-                "lose": 2,
+                "played": 23,
+                "win": 13,
+                "draw": 6,
+                "lose": 4,
                 "goals": {
-                  "for": 31,
-                  "against": 18
+                  "for": 45,
+                  "against": 21
                 }
-              },
-              "form": "WWDWL",
-              "description": "Copa Libertadores"
+              }
             },
             {
               "rank": 3,
               "team": {
-                "id": 131,
-                "name": "Corinthians",
-                "logo": "https://media.api-sports.io/football/teams/131.png"
+                "id": 293,
+                "name": "Athletico-PR",
+                "logo": "https://s.sde.globo.com/media/organizations/2026/01/07/Athletico-PR.svg"
               },
-              "points": 38,
-              "goalsDiff": 10,
+              "points": 45,
+              "goalsDiff": 12,
+              "form": "DWDWD",
+              "description": "Copa Libertadores",
               "all": {
-                "played": 19,
-                "win": 11,
-                "draw": 3,
-                "lose": 2,
+                "played": 25,
+                "win": 13,
+                "draw": 6,
+                "lose": 6,
                 "goals": {
-                  "for": 30,
-                  "against": 19
+                  "for": 37,
+                  "against": 25
                 }
-              },
-              "form": "WWDWL",
-              "description": "Copa Libertadores"
+              }
             },
             {
               "rank": 4,
               "team": {
-                "id": 126,
-                "name": "São Paulo",
-                "logo": "https://media.api-sports.io/football/teams/126.png"
+                "id": 266,
+                "name": "Fluminense",
+                "logo": "https://s.sde.globo.com/media/organizations/2018/03/11/fluminense.svg"
               },
-              "points": 37,
-              "goalsDiff": 9,
+              "points": 42,
+              "goalsDiff": 7,
+              "form": "DDWWD",
+              "description": "Copa Libertadores",
               "all": {
-                "played": 19,
+                "played": 25,
                 "win": 11,
-                "draw": 3,
-                "lose": 3,
+                "draw": 9,
+                "lose": 5,
                 "goals": {
-                  "for": 29,
-                  "against": 19
+                  "for": 39,
+                  "against": 32
                 }
-              },
-              "form": "WWDWL",
-              "description": "Copa Libertadores"
+              }
             },
             {
               "rank": 5,
               "team": {
-                "id": 128,
-                "name": "Santos",
-                "logo": "https://media.api-sports.io/football/teams/128.png"
+                "id": 283,
+                "name": "Cruzeiro",
+                "logo": "https://s.sde.globo.com/media/organizations/2021/02/13/cruzeiro_2021.svg"
               },
-              "points": 36,
-              "goalsDiff": 8,
+              "points": 39,
+              "goalsDiff": -1,
+              "form": "WWWWL",
+              "description": "Copa Libertadores Qualifiers",
               "all": {
-                "played": 19,
-                "win": 10,
-                "draw": 3,
-                "lose": 3,
+                "played": 25,
+                "win": 11,
+                "draw": 6,
+                "lose": 8,
                 "goals": {
-                  "for": 28,
-                  "against": 20
+                  "for": 35,
+                  "against": 36
                 }
-              },
-              "form": "WWDWL",
-              "description": "Copa Libertadores Qualifiers"
+              }
             },
             {
               "rank": 6,
               "team": {
-                "id": 124,
-                "name": "Fluminense",
-                "logo": "https://media.api-sports.io/football/teams/124.png"
+                "id": 265,
+                "name": "Bahia",
+                "logo": "https://s.sde.globo.com/media/organizations/2018/03/11/bahia.svg"
               },
-              "points": 35,
-              "goalsDiff": 7,
+              "points": 37,
+              "goalsDiff": 6,
+              "form": "DDDDW",
+              "description": "Copa Sudamericana",
               "all": {
-                "played": 19,
-                "win": 10,
-                "draw": 3,
-                "lose": 3,
+                "played": 24,
+                "win": 9,
+                "draw": 10,
+                "lose": 5,
                 "goals": {
-                  "for": 27,
-                  "against": 20
+                  "for": 34,
+                  "against": 28
                 }
-              },
-              "form": "WWDWL",
-              "description": "Copa Libertadores Qualifiers"
+              }
             },
             {
               "rank": 7,
               "team": {
-                "id": 120,
-                "name": "Botafogo",
-                "logo": "https://media.api-sports.io/football/teams/120.png"
+                "id": 282,
+                "name": "Atlético-MG",
+                "logo": "https://s.sde.globo.com/media/organizations/2018/03/10/atletico-mg.svg"
               },
-              "points": 34,
-              "goalsDiff": 6,
+              "points": 36,
+              "goalsDiff": 4,
+              "form": "WDWDW",
+              "description": "Copa Sudamericana",
               "all": {
-                "played": 19,
-                "win": 9,
-                "draw": 3,
-                "lose": 4,
+                "played": 24,
+                "win": 10,
+                "draw": 6,
+                "lose": 8,
                 "goals": {
-                  "for": 26,
-                  "against": 21
+                  "for": 32,
+                  "against": 28
                 }
-              },
-              "form": "WWDWL",
-              "description": "Copa Sudamericana"
+              }
             },
             {
               "rank": 8,
               "team": {
-                "id": 1062,
-                "name": "Atlético-MG",
-                "logo": "https://media.api-sports.io/football/teams/1062.png"
+                "id": 280,
+                "name": "Bragantino",
+                "logo": "https://s.sde.globo.com/media/organizations/2021/06/28/bragantino.svg"
               },
-              "points": 33,
-              "goalsDiff": 5,
+              "points": 35,
+              "goalsDiff": 4,
+              "form": "DLDWL",
+              "description": "Copa Sudamericana",
               "all": {
-                "played": 19,
-                "win": 9,
-                "draw": 3,
-                "lose": 4,
+                "played": 24,
+                "win": 10,
+                "draw": 5,
+                "lose": 9,
                 "goals": {
-                  "for": 25,
-                  "against": 21
+                  "for": 29,
+                  "against": 25
                 }
-              },
-              "form": "WWDWL",
-              "description": "Copa Sudamericana"
+              }
             },
             {
               "rank": 9,
               "team": {
-                "id": 135,
-                "name": "Cruzeiro",
-                "logo": "https://media.api-sports.io/football/teams/135.png"
+                "id": 294,
+                "name": "Coritiba",
+                "logo": "https://s.sde.globo.com/media/organizations/2018/03/11/coritiba.svg"
               },
-              "points": 32,
-              "goalsDiff": 4,
+              "points": 34,
+              "goalsDiff": -1,
+              "form": "DLWDW",
+              "description": "Copa Sudamericana",
               "all": {
-                "played": 19,
-                "win": 8,
-                "draw": 3,
-                "lose": 4,
+                "played": 24,
+                "win": 9,
+                "draw": 7,
+                "lose": 8,
                 "goals": {
-                  "for": 24,
-                  "against": 22
+                  "for": 30,
+                  "against": 31
                 }
-              },
-              "form": "WWDWL",
-              "description": "Copa Sudamericana"
+              }
             },
             {
               "rank": 10,
               "team": {
-                "id": 130,
-                "name": "Grêmio",
-                "logo": "https://media.api-sports.io/football/teams/130.png"
+                "id": 264,
+                "name": "Corinthians",
+                "logo": "https://s.sde.globo.com/media/organizations/2024/10/09/Corinthians_2024_Q4ahot4.svg"
               },
-              "points": 31,
-              "goalsDiff": 3,
+              "points": 32,
+              "goalsDiff": 2,
+              "form": "DDWLL",
+              "description": "Copa Sudamericana",
               "all": {
-                "played": 19,
+                "played": 24,
                 "win": 8,
-                "draw": 3,
-                "lose": 5,
+                "draw": 8,
+                "lose": 8,
                 "goals": {
-                  "for": 23,
-                  "against": 22
+                  "for": 26,
+                  "against": 24
                 }
-              },
-              "form": "WWDWL",
-              "description": "Copa Sudamericana"
+              }
             },
             {
               "rank": 11,
               "team": {
-                "id": 119,
-                "name": "Internacional",
-                "logo": "https://media.api-sports.io/football/teams/119.png"
+                "id": 276,
+                "name": "São Paulo",
+                "logo": "https://s.sde.globo.com/media/organizations/2018/03/11/sao-paulo.svg"
               },
               "points": 30,
-              "goalsDiff": 2,
+              "goalsDiff": 1,
+              "form": "DLDLW",
+              "description": "Copa Sudamericana",
               "all": {
-                "played": 19,
-                "win": 7,
-                "draw": 3,
-                "lose": 5,
+                "played": 24,
+                "win": 8,
+                "draw": 6,
+                "lose": 10,
                 "goals": {
-                  "for": 22,
-                  "against": 23
+                  "for": 29,
+                  "against": 28
                 }
-              },
-              "form": "WWDWL",
-              "description": "Copa Sudamericana"
+              }
             },
             {
               "rank": 12,
               "team": {
-                "id": 118,
-                "name": "Bahia",
-                "logo": "https://media.api-sports.io/football/teams/118.png"
+                "id": 263,
+                "name": "Botafogo",
+                "logo": "https://s.sde.globo.com/media/organizations/2019/02/04/botafogo-svg.svg"
               },
-              "points": 29,
-              "goalsDiff": 1,
+              "points": 30,
+              "goalsDiff": 0,
+              "form": "WWDLL",
+              "description": null,
               "all": {
-                "played": 19,
-                "win": 7,
-                "draw": 3,
-                "lose": 5,
+                "played": 23,
+                "win": 8,
+                "draw": 6,
+                "lose": 9,
                 "goals": {
-                  "for": 21,
-                  "against": 23
+                  "for": 37,
+                  "against": 37
                 }
-              },
-              "form": "WWDWL",
-              "description": "Copa Sudamericana"
+              }
             },
             {
               "rank": 13,
               "team": {
-                "id": 154,
-                "name": "Fortaleza",
-                "logo": "https://media.api-sports.io/football/teams/154.png"
+                "id": 287,
+                "name": "Vitória",
+                "logo": "https://s.sde.globo.com/media/organizations/2025/12/18/Vitoria_2025.svg"
               },
-              "points": 28,
-              "goalsDiff": 0,
+              "points": 29,
+              "goalsDiff": -13,
+              "form": "LLWLL",
+              "description": null,
               "all": {
-                "played": 19,
-                "win": 6,
-                "draw": 3,
-                "lose": 6,
+                "played": 25,
+                "win": 8,
+                "draw": 5,
+                "lose": 12,
                 "goals": {
-                  "for": 20,
-                  "against": 24
+                  "for": 24,
+                  "against": 37
                 }
-              },
-              "form": "WWDWL",
-              "description": null
+              }
             },
             {
               "rank": 14,
               "team": {
-                "id": 794,
-                "name": "Bragantino",
-                "logo": "https://media.api-sports.io/football/teams/794.png"
+                "id": 277,
+                "name": "Santos",
+                "logo": "https://s.sde.globo.com/media/organizations/2018/03/12/santos.svg"
               },
-              "points": 27,
-              "goalsDiff": -1,
+              "points": 26,
+              "goalsDiff": -3,
+              "form": "LDLWD",
+              "description": null,
               "all": {
-                "played": 19,
+                "played": 23,
                 "win": 6,
-                "draw": 3,
-                "lose": 6,
+                "draw": 8,
+                "lose": 9,
                 "goals": {
-                  "for": 19,
-                  "against": 24
+                  "for": 33,
+                  "against": 36
                 }
-              },
-              "form": "WWDWL",
-              "description": null
+              }
             },
             {
               "rank": 15,
               "team": {
-                "id": 133,
-                "name": "Vasco",
-                "logo": "https://media.api-sports.io/football/teams/133.png"
+                "id": 284,
+                "name": "Grêmio",
+                "logo": "https://s.sde.globo.com/media/organizations/2018/03/12/gremio.svg"
               },
-              "points": 26,
-              "goalsDiff": -2,
+              "points": 25,
+              "goalsDiff": -7,
+              "form": "LDWLL",
+              "description": null,
               "all": {
-                "played": 19,
-                "win": 5,
-                "draw": 3,
-                "lose": 6,
+                "played": 23,
+                "win": 6,
+                "draw": 7,
+                "lose": 10,
                 "goals": {
-                  "for": 18,
-                  "against": 25
+                  "for": 24,
+                  "against": 31
                 }
-              },
-              "form": "WWDWL",
-              "description": null
+              }
             },
             {
               "rank": 16,
               "team": {
-                "id": 136,
-                "name": "Vitória",
-                "logo": "https://media.api-sports.io/football/teams/136.png"
+                "id": 267,
+                "name": "Vasco",
+                "logo": "https://s.sde.globo.com/media/organizations/2021/09/04/vasco_SVG.svg"
               },
               "points": 25,
-              "goalsDiff": -3,
+              "goalsDiff": -12,
+              "form": "DDLLW",
+              "description": null,
               "all": {
-                "played": 19,
-                "win": 5,
-                "draw": 3,
-                "lose": 7,
+                "played": 24,
+                "win": 6,
+                "draw": 7,
+                "lose": 11,
                 "goals": {
-                  "for": 17,
-                  "against": 25
+                  "for": 27,
+                  "against": 39
                 }
-              },
-              "form": "WWDWL",
-              "description": null
+              }
             },
             {
               "rank": 17,
               "team": {
-                "id": 152,
-                "name": "Juventude",
-                "logo": "https://media.api-sports.io/football/teams/152.png"
+                "id": 285,
+                "name": "Internacional",
+                "logo": "https://s.sde.globo.com/media/organizations/2018/03/11/internacional.svg"
               },
-              "points": 24,
+              "points": 25,
               "goalsDiff": -4,
+              "form": "LDDDD",
+              "description": "Relegation",
               "all": {
-                "played": 19,
-                "win": 4,
-                "draw": 3,
-                "lose": 7,
+                "played": 24,
+                "win": 5,
+                "draw": 10,
+                "lose": 9,
                 "goals": {
-                  "for": 16,
-                  "against": 26
+                  "for": 24,
+                  "against": 28
                 }
-              },
-              "form": "WWDWL",
-              "description": "Relegation"
+              }
             },
             {
               "rank": 18,
               "team": {
-                "id": 134,
-                "name": "Athletico-PR",
-                "logo": "https://media.api-sports.io/football/teams/134.png"
+                "id": 2305,
+                "name": "Mirassol",
+                "logo": "https://s.sde.globo.com/media/organizations/2026/07/17/MIrassol.svg"
               },
-              "points": 23,
-              "goalsDiff": -5,
+              "points": 24,
+              "goalsDiff": -10,
+              "form": "DWLLD",
+              "description": "Relegation",
               "all": {
-                "played": 19,
-                "win": 4,
-                "draw": 3,
-                "lose": 7,
+                "played": 23,
+                "win": 6,
+                "draw": 6,
+                "lose": 11,
                 "goals": {
-                  "for": 15,
-                  "against": 26
+                  "for": 26,
+                  "against": 36
                 }
-              },
-              "form": "WWDWL",
-              "description": "Relegation"
+              }
             },
             {
               "rank": 19,
               "team": {
-                "id": 129,
-                "name": "Ceará",
-                "logo": "https://media.api-sports.io/football/teams/129.png"
+                "id": 364,
+                "name": "Remo",
+                "logo": "https://s.sde.globo.com/media/organizations/2021/02/25/Remo-PA.svg"
               },
-              "points": 22,
-              "goalsDiff": -6,
+              "points": 23,
+              "goalsDiff": -11,
+              "form": "WLDDL",
+              "description": "Relegation",
               "all": {
-                "played": 19,
-                "win": 3,
-                "draw": 3,
-                "lose": 8,
+                "played": 24,
+                "win": 5,
+                "draw": 8,
+                "lose": 11,
                 "goals": {
-                  "for": 14,
-                  "against": 27
+                  "for": 28,
+                  "against": 39
                 }
-              },
-              "form": "WWDWL",
-              "description": "Relegation"
+              }
             },
             {
               "rank": 20,
               "team": {
-                "id": 147,
-                "name": "Coritiba",
-                "logo": "https://media.api-sports.io/football/teams/147.png"
+                "id": 315,
+                "name": "Chapecoense",
+                "logo": "https://s.sde.globo.com/media/organizations/2021/06/21/CHAPECOENSE-2018.svg"
               },
-              "points": 21,
-              "goalsDiff": -7,
+              "points": 14,
+              "goalsDiff": -22,
+              "form": "LDLDW",
+              "description": "Relegation",
               "all": {
-                "played": 19,
-                "win": 3,
-                "draw": 3,
-                "lose": 8,
+                "played": 23,
+                "win": 2,
+                "draw": 8,
+                "lose": 13,
                 "goals": {
-                  "for": 13,
-                  "against": 27
+                  "for": 24,
+                  "against": 46
                 }
-              },
-              "form": "WWDWL",
-              "description": "Relegation"
+              }
             }
           ]
         ]
       }
     }
   ],
-  "scorers": [
-    {
-      "player": {
-        "id": 1,
-        "name": "Pedro",
-        "photo": ""
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 127,
-            "name": "Flamengo",
-            "code": "FLA",
-            "logo": "https://media.api-sports.io/football/teams/127.png"
-          },
-          "goals": {
-            "total": 12
-          },
-          "games": {
-            "appearences": 19
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 2,
-        "name": "Yuri Alberto",
-        "photo": ""
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 131,
-            "name": "Corinthians",
-            "code": "COR",
-            "logo": "https://media.api-sports.io/football/teams/131.png"
-          },
-          "goals": {
-            "total": 10
-          },
-          "games": {
-            "appearences": 18
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 3,
-        "name": "Hulk",
-        "photo": ""
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 1062,
-            "name": "Atlético-MG",
-            "code": "CAM",
-            "logo": "https://media.api-sports.io/football/teams/1062.png"
-          },
-          "goals": {
-            "total": 9
-          },
-          "games": {
-            "appearences": 17
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 4,
-        "name": "Vitor Roque",
-        "photo": ""
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 121,
-            "name": "Palmeiras",
-            "code": "PAL",
-            "logo": "https://media.api-sports.io/football/teams/121.png"
-          },
-          "goals": {
-            "total": 8
-          },
-          "games": {
-            "appearences": 16
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 5,
-        "name": "Luciano",
-        "photo": ""
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 126,
-            "name": "São Paulo",
-            "code": "SAO",
-            "logo": "https://media.api-sports.io/football/teams/126.png"
-          },
-          "goals": {
-            "total": 7
-          },
-          "games": {
-            "appearences": 19
-          }
-        }
-      ]
-    }
-  ],
-  "assists": [
-    {
-      "player": {
-        "id": 10,
-        "name": "Arrascaeta",
-        "photo": ""
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 127,
-            "name": "Flamengo",
-            "code": "FLA",
-            "logo": "https://media.api-sports.io/football/teams/127.png"
-          },
-          "goals": {
-            "assists": 8
-          },
-          "games": {
-            "appearences": 19
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 11,
-        "name": "Estêvão",
-        "photo": ""
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 121,
-            "name": "Palmeiras",
-            "code": "PAL",
-            "logo": "https://media.api-sports.io/football/teams/121.png"
-          },
-          "goals": {
-            "assists": 7
-          },
-          "games": {
-            "appearences": 17
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 12,
-        "name": "Veiga",
-        "photo": ""
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 121,
-            "name": "Palmeiras",
-            "code": "PAL",
-            "logo": "https://media.api-sports.io/football/teams/121.png"
-          },
-          "goals": {
-            "assists": 6
-          },
-          "games": {
-            "appearences": 18
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 13,
-        "name": "Gerson",
-        "photo": ""
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 127,
-            "name": "Flamengo",
-            "code": "FLA",
-            "logo": "https://media.api-sports.io/football/teams/127.png"
-          },
-          "goals": {
-            "assists": 5
-          },
-          "games": {
-            "appearences": 18
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 14,
-        "name": "Neres",
-        "photo": ""
-      },
-      "statistics": [
-        {
-          "team": {
-            "id": 126,
-            "name": "São Paulo",
-            "code": "SAO",
-            "logo": "https://media.api-sports.io/football/teams/126.png"
-          },
-          "goals": {
-            "assists": 5
-          },
-          "games": {
-            "appearences": 16
-          }
-        }
-      ]
-    }
-  ],
+  "scorers": [],
+  "assists": [],
   "budget": {
     "used": 0,
     "remaining": 100,
-    "mode": "live",
-    "liveIntervalMs": 120000
+    "mode": "idle",
+    "liveIntervalMs": 900000
   },
-  "fetchedAt": "2026-07-26T23:01:00.551Z",
-  "source": "demo"
+  "fetchedAt": "2026-08-30T18:20:06.438Z",
+  "source": "ge-globo",
+  "meta": {
+    "rodada": 25,
+    "edicao": "Campeonato Brasileiro 2026",
+    "provider": "ge.globo.com"
+  }
 }

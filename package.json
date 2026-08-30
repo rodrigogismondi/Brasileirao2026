@@ -5,9 +5,10 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "prebuild": "node scripts/generate-demo-cache.mjs",
+    "prebuild": "node scripts/sync-live-cache.mjs",
     "build": "tsc && vite build",
     "preview": "vite preview",
+    "sync-live": "node scripts/sync-live-cache.mjs",
     "demo-cache": "node scripts/generate-demo-cache.mjs"
   },
   "devDependencies": {

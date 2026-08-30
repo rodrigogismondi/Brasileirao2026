@@ -43,7 +43,8 @@ function apiUrl(path: string): string {
 
 /** Static files under `public/` — must include Vite `base` on project Pages sites. */
 function cacheUrl(path: string): string {
-  return `${STATIC_BASE}${path}`;
+  const bust = `t=${Date.now()}`;
+  return `${STATIC_BASE}${path}${path.includes("?") ? "&" : "?"}${bust}`;
 }
 
 function normalizeStatus(short: string): MatchStatus {
@@ -347,6 +348,7 @@ export async function fetchDashboard(): Promise<DashboardData> {
     budget: data.budget,
     fetchedAt: new Date(data.fetchedAt),
     demo: data.source === "demo",
+    source: data.source ?? "demo",
   };
 }
 

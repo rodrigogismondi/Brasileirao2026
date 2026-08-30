@@ -141,6 +141,12 @@ a {
   border: 1px solid rgba(240, 196, 25, 0.35);
 }
 
+.demo-badge-live {
+  background: rgba(46, 204, 113, 0.15);
+  color: #7dffa6;
+  border-color: rgba(46, 204, 113, 0.4);
+}
+
 .lang-switch {
   display: flex;
   gap: 0.2rem;

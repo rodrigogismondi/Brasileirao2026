@@ -186,6 +186,17 @@ function mapFixtures(listaJogos, rodadaAtual) {
     const ts =
       parsedTs ??
       Math.floor(Date.UTC(2026, 0, 1) / 1000) + Number(rodadaAtual) * 86400 + Number(jogo.id % 1000);
+    // Soft kickoff: GE lista can lag (still NS) after the scheduled start.
+    const nowSec = Math.floor(Date.now() / 1000);
+    let resolved = status;
+    if (
+      resolved.short === "NS" &&
+      parsedTs &&
+      nowSec - parsedTs >= 90 &&
+      nowSec - parsedTs < 3 * 3600
+    ) {
+      resolved = { short: "1H", elapsed: null };
+    }
     const goalsHome = jogo.placar_oficial_mandante;
     const goalsAway = jogo.placar_oficial_visitante;
     return [
@@ -198,9 +209,9 @@ function mapFixtures(listaJogos, rodadaAtual) {
             city: "",
           },
           status: {
-            long: status.short,
-            short: status.short,
-            elapsed: status.elapsed,
+            long: resolved.short,
+            short: resolved.short,
+            elapsed: resolved.elapsed,
           },
         },
         league: { round: `Regular Season - ${rodadaAtual}` },
@@ -220,8 +231,8 @@ function mapFixtures(listaJogos, rodadaAtual) {
         score: {
           halftime: { home: null, away: null },
           fulltime: {
-            home: status.short === "FT" ? goalsHome : null,
-            away: status.short === "FT" ? goalsAway : null,
+            home: resolved.short === "FT" ? goalsHome : null,
+            away: resolved.short === "FT" ? goalsAway : null,
           },
         },
         _geUrl: jogo.transmissao?.url ?? null,
@@ -434,6 +445,9 @@ function shouldEnrich(fixtureRow, rodadaAtual, { liveOnly = false } = {}) {
   if (!fixtureRow._geUrl) return false;
   const st = fixtureRow.fixture.status.short;
   if (["1H", "HT", "2H", "LIVE", "ET", "BT", "P"].includes(st)) return true;
+  // GE lista often stays NS for a few minutes after kickoff — still enrich.
+  const ageSec = Math.floor(Date.now() / 1000) - Number(fixtureRow.fixture.timestamp || 0);
+  if (st === "NS" && ageSec >= 60 && ageSec < 3 * 3600) return true;
   if (liveOnly) return false;
   const round = Number(String(fixtureRow.league?.round || "").match(/(\d+)\s*$/)?.[1] || 0);
   // Full transmission enrich only for the current round (~10 pages).

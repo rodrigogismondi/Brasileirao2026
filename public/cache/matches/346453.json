@@ -7,8 +7,8 @@
       "city": ""
     },
     "status": {
-      "long": "NS",
-      "short": "NS",
+      "long": "1H",
+      "short": "1H",
       "elapsed": null
     },
     "timerStart": "2026-08-30T21:20:41.430Z",
@@ -30,8 +30,8 @@
     }
   },
   "goals": {
-    "home": null,
-    "away": null
+    "home": 0,
+    "away": 0
   },
   "score": {
     "halftime": {
@@ -162,7 +162,116 @@
           }
         }
       ],
-      "substitutes": []
+      "substitutes": [
+        {
+          "player": {
+            "id": "guiherrera",
+            "name": "Guido Herrera",
+            "number": 17,
+            "pos": "Gol",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "marcomoreno",
+            "name": "Marco Moreno",
+            "number": 3,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "kanu-victor-hugo",
+            "name": "Kanu",
+            "number": 4,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "marcos-victor",
+            "name": "Marcos Victor",
+            "number": 44,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "zeguilc",
+            "name": "Zé Guilherme",
+            "number": 66,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "caioalexandre",
+            "name": "Caio Alexandre",
+            "number": 8,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "michelaraujovillar",
+            "name": "Michel Araújo",
+            "number": 15,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "ademirsant",
+            "name": "Ademir",
+            "number": 7,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "willianjose",
+            "name": "Willian José",
+            "number": 12,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "everaldo211",
+            "name": "Everaldo",
+            "number": 27,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "kauefurquim",
+            "name": "Kauê Furquim",
+            "number": 57,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "ruan-pablo",
+            "name": "Ruan Pablo",
+            "number": 77,
+            "pos": "Ata",
+            "grid": null
+          }
+        }
+      ]
     },
     {
       "team": {
@@ -195,18 +304,18 @@
         },
         {
           "player": {
-            "id": "maripan",
-            "name": "Maripán",
-            "number": 3,
+            "id": "felixtorres",
+            "name": "Félix Torres",
+            "number": 4,
             "pos": "Def",
             "grid": null
           }
         },
         {
           "player": {
-            "id": "juninho-coritiba",
-            "name": "Juninho",
-            "number": 18,
+            "id": "maripan",
+            "name": "Maripán",
+            "number": 3,
             "pos": "Def",
             "grid": null
           }
@@ -222,9 +331,9 @@
         },
         {
           "player": {
-            "id": "rodrigovillagra",
-            "name": "Villagra",
-            "number": 5,
+            "id": "ronaldo123",
+            "name": "Ronaldo",
+            "number": 16,
             "pos": "Mei",
             "grid": null
           }
@@ -240,18 +349,18 @@
         },
         {
           "player": {
-            "id": "vitornaum",
-            "name": "Vitinho",
-            "number": 28,
+            "id": "thiagomaia",
+            "name": "Thiago Maia",
+            "number": 29,
             "pos": "Mei",
             "grid": null
           }
         },
         {
           "player": {
-            "id": "alanpatrick",
-            "name": "Alan Patrick",
-            "number": 10,
+            "id": "vitornaum",
+            "name": "Vitinho",
+            "number": 28,
             "pos": "Mei",
             "grid": null
           }
@@ -267,17 +376,279 @@
         },
         {
           "player": {
+            "id": "alanpatrick",
+            "name": "Alan Patrick",
+            "number": 10,
+            "pos": "Ata",
+            "grid": null
+          }
+        }
+      ],
+      "substitutes": [
+        {
+          "player": {
+            "id": "anthoni",
+            "name": "Anthoni",
+            "number": 12,
+            "pos": "Gol",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "pedrokaua",
+            "name": "Pedro Kauã",
+            "number": 46,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "juninho-coritiba",
+            "name": "Juninho",
+            "number": 18,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "luiz-felipe-morais",
+            "name": "Luiz Felipe",
+            "number": 53,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "rodrigovillagra",
+            "name": "Villagra",
+            "number": 5,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "calebe-silva",
+            "name": "Calebe",
+            "number": 30,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "gabriel-vinicius",
+            "name": "Gabriel Vinicius",
+            "number": 52,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
             "id": "carbonerojo",
             "name": "Carbonero",
             "number": 7,
             "pos": "Ata",
             "grid": null
           }
+        },
+        {
+          "player": {
+            "id": "alerrandro",
+            "name": "Alerrandro",
+            "number": 9,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "eliasson",
+            "name": "Eliasson",
+            "number": 17,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "sanabriatonny",
+            "name": "Sanabria",
+            "number": 19,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "joao-victor",
+            "name": "João Victor",
+            "number": 44,
+            "pos": "Ata",
+            "grid": null
+          }
         }
-      ],
-      "substitutes": []
+      ]
     }
   ],
-  "statistics": [],
+  "statistics": [
+    {
+      "team": {
+        "id": 265,
+        "name": "Bahia"
+      },
+      "statistics": [
+        {
+          "type": "Ball Possession",
+          "value": "50%"
+        },
+        {
+          "type": "Total Passes",
+          "value": 17
+        },
+        {
+          "type": "Pass Accuracy",
+          "value": "82%"
+        },
+        {
+          "type": "Incomplete Passes",
+          "value": 3
+        },
+        {
+          "type": "Total Shots",
+          "value": 0
+        },
+        {
+          "type": "Shots on Goal",
+          "value": 0
+        },
+        {
+          "type": "Shots off Goal",
+          "value": 0
+        },
+        {
+          "type": "Blocked Shots",
+          "value": 0
+        },
+        {
+          "type": "Hit Woodwork",
+          "value": 0
+        },
+        {
+          "type": "Corner Kicks",
+          "value": 0
+        },
+        {
+          "type": "Offsides",
+          "value": 0
+        },
+        {
+          "type": "Penalties",
+          "value": 0
+        },
+        {
+          "type": "Goalkeeper Saves",
+          "value": 1
+        },
+        {
+          "type": "Tackles",
+          "value": 0
+        },
+        {
+          "type": "Fouls",
+          "value": 0
+        },
+        {
+          "type": "Yellow Cards",
+          "value": 0
+        },
+        {
+          "type": "Red Cards",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "team": {
+        "id": 285,
+        "name": "Internacional"
+      },
+      "statistics": [
+        {
+          "type": "Ball Possession",
+          "value": "50%"
+        },
+        {
+          "type": "Total Passes",
+          "value": 12
+        },
+        {
+          "type": "Pass Accuracy",
+          "value": "83%"
+        },
+        {
+          "type": "Incomplete Passes",
+          "value": 2
+        },
+        {
+          "type": "Total Shots",
+          "value": 0
+        },
+        {
+          "type": "Shots on Goal",
+          "value": 0
+        },
+        {
+          "type": "Shots off Goal",
+          "value": 0
+        },
+        {
+          "type": "Blocked Shots",
+          "value": 0
+        },
+        {
+          "type": "Hit Woodwork",
+          "value": 0
+        },
+        {
+          "type": "Corner Kicks",
+          "value": 0
+        },
+        {
+          "type": "Offsides",
+          "value": 0
+        },
+        {
+          "type": "Penalties",
+          "value": 0
+        },
+        {
+          "type": "Goalkeeper Saves",
+          "value": 0
+        },
+        {
+          "type": "Tackles",
+          "value": 1
+        },
+        {
+          "type": "Fouls",
+          "value": 0
+        },
+        {
+          "type": "Yellow Cards",
+          "value": 0
+        },
+        {
+          "type": "Red Cards",
+          "value": 0
+        }
+      ]
+    }
+  ],
   "sportsFieldUrl": null
 }

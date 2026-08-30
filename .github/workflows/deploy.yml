@@ -32,9 +32,11 @@ jobs:
 
       - name: Detect cache-only sync commit
         id: meta
+        env:
+          # Use env — interpolating the message into the script breaks on quotes.
+          COMMIT_MSG: ${{ github.event.head_commit.message }}
         run: |
-          msg="${{ github.event.head_commit.message }}"
-          if echo "$msg" | grep -q "chore: sync live"; then
+          if printf '%s' "$COMMIT_MSG" | grep -q "chore: sync live"; then
             echo "skip_sync=1" >> "$GITHUB_OUTPUT"
           else
             echo "skip_sync=0" >> "$GITHUB_OUTPUT"

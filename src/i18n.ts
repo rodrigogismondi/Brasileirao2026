@@ -80,11 +80,7 @@ const strings = {
     mdYellow: "Yellow card",
     mdRed: "Red card",
     mdSub: "Substitution",
-    demoBadge: "Demo data",
-    liveSourceBadge: "Live · GE",
     budgetLabel: "API {used}/{total}",
-    footer:
-      "Unofficial fan dashboard · Data via GE Globo / API-Football · Not affiliated with CBF",
     zoneLib: "Libertadores",
     zonePreLib: "Libertadores qualifiers",
     zoneSula: "Sudamericana",
@@ -157,11 +153,7 @@ const strings = {
     mdYellow: "Cartão amarelo",
     mdRed: "Cartão vermelho",
     mdSub: "Substituição",
-    demoBadge: "Dados demo",
-    liveSourceBadge: "Ao vivo · GE",
     budgetLabel: "API {used}/{total}",
-    footer:
-      "Painel não oficial · Dados via GE Globo / API-Football · Sem vínculo com a CBF",
     zoneLib: "Libertadores",
     zonePreLib: "Pré-Libertadores",
     zoneSula: "Sul-Americana",

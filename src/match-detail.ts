@@ -195,16 +195,29 @@ function renderOddsBar(detail: MatchDetail, lang: Lang): string {
     </div>`;
 }
 
-function renderHeatmap(detail: MatchDetail, lang: Lang): string {
-  if (!detail.sportsFieldUrl) {
-    return `<p class="muted md-heat-empty">${escapeHtml(t(lang, "mdNoHeatmap"))}</p>`;
+/** True only when we have a pitch map URL that is actually usable in-app. */
+function usableHeatmapUrl(url: string | null | undefined): string | null {
+  if (!url) return null;
+  try {
+    const host = new URL(url).hostname.toLowerCase();
+    // TheSports embeds for Brasileirão almost always render an empty
+    // "unavailable" placeholder — treat them as missing rather than show that UI.
+    if (host.includes("thesports")) return null;
+  } catch {
+    return null;
   }
+  return url;
+}
+
+function renderHeatmap(detail: MatchDetail, lang: Lang): string {
+  const url = usableHeatmapUrl(detail.sportsFieldUrl);
+  if (!url) return "";
   return `
     <div class="md-heatmap">
       <p class="muted md-heat-caption">${escapeHtml(t(lang, "mdHeatmapHint"))}</p>
       <div class="md-heatmap-frame">
         <iframe
-          src="${escapeHtml(detail.sportsFieldUrl)}"
+          src="${escapeHtml(url)}"
           title="${escapeHtml(t(lang, "mdHeatmap"))}"
           loading="lazy"
           referrerpolicy="no-referrer-when-downgrade"
@@ -241,12 +254,17 @@ function renderStats(detail: MatchDetail, lang: Lang): string {
         .join("")}
     </div>`;
 
+  const heat = renderHeatmap(detail, lang);
+  const heatSection = heat
+    ? `<section class="md-heat-section">
+      <h3 class="md-section-title">${escapeHtml(t(lang, "mdHeatmap"))}</h3>
+      ${heat}
+    </section>`
+    : "";
+
   return `
     ${statsBlock}
-    <section class="md-heat-section">
-      <h3 class="md-section-title">${escapeHtml(t(lang, "mdHeatmap"))}</h3>
-      ${renderHeatmap(detail, lang)}
-    </section>`;
+    ${heatSection}`;
 }
 
 /** Short Portuguese position labels (Gol / Def / Mei / Ata). */

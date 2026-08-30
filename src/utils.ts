@@ -79,7 +79,7 @@ export function statusLabel(status: Match["status"], lang: Lang): string {
  */
 export function resolveLiveMinute(m: Match, now = Date.now()): number | null {
   if (m.status !== "live") return null;
-  if (m.period === "HT") return null;
+  if (isHalftime(m, now)) return null;
 
   const running = String(m.timerStatus || "").toUpperCase() === "INICIADO";
   if (running && m.timerStart) {
@@ -97,12 +97,38 @@ export function resolveLiveMinute(m: Match, now = Date.now()): number | null {
   return m.liveMinute;
 }
 
-/** Badge text for a live match: "34'" | "INT" | "AO VIVO". */
+/** True when GE says Intervalo, or 1H is paused past 45', or cache lagged past typical half length. */
+export function isHalftime(m: Match, now = Date.now()): boolean {
+  if (m.status !== "live") return false;
+  if (m.period === "HT") return true;
+
+  const paused = String(m.timerStatus || "").toUpperCase() === "PAUSADO";
+  if (paused && (m.period === "1H" || (m.liveMinute != null && m.liveMinute >= 44))) {
+    return true;
+  }
+
+  // Cache lag: still "1H"/"INICIADO" after a half that should already be over.
+  if (m.period === "1H" && m.timerStart) {
+    const startMs = Date.parse(m.timerStart);
+    if (Number.isFinite(startMs)) {
+      const mins = Math.floor((now - startMs) / 60000);
+      // 45' + ~7' stoppage — beyond that the half is almost certainly over (cache lag).
+      if (mins >= 52) return true;
+    }
+  }
+
+  return false;
+}
+
+/** Badge text for a live match: "34'" | "45+3'" | "INT" | "AO VIVO". */
 export function liveBadgeText(m: Match, lang: Lang, now = Date.now()): string {
-  if (m.period === "HT") return t(lang, "statusHT");
+  if (isHalftime(m, now)) return t(lang, "statusHT");
   const minute = resolveLiveMinute(m, now);
-  if (minute != null) return `${minute}'`;
-  return t(lang, "statusLive");
+  if (minute == null) return t(lang, "statusLive");
+  // Stoppage in the 1st half: show 45+N instead of 48'/52'
+  if (m.period === "1H" && minute > 45) return `45+${minute - 45}'`;
+  if (m.period === "2H" && minute > 90) return `90+${minute - 90}'`;
+  return `${minute}'`;
 }
 
 export function groupMatchesByDate(matches: Match[], descending = false): Map<string, Match[]> {

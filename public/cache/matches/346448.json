@@ -7,12 +7,12 @@
       "city": ""
     },
     "status": {
-      "long": "1H",
-      "short": "1H",
-      "elapsed": 47
+      "long": "HT",
+      "short": "HT",
+      "elapsed": 45
     },
-    "timerStart": "2026-08-30T19:00:59.565Z",
-    "timerStatus": "INICIADO"
+    "timerStart": "2026-08-30T19:50:43.374Z",
+    "timerStatus": "PAUSADO"
   },
   "league": {
     "round": "Regular Season - 25"
@@ -44,9 +44,9 @@
     }
   },
   "odds": {
-    "home": 1.88,
-    "draw": 3.29,
-    "away": 4.42,
+    "home": 1.87,
+    "draw": 3.32,
+    "away": 4.43,
     "source": "betexplorer"
   },
   "events": [
@@ -129,6 +129,54 @@
       "detail": "Normal Goal",
       "player": {
         "name": "Oliva"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 46,
+        "extra": null
+      },
+      "team": {
+        "id": 264,
+        "name": "Corinthians"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Garro"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 48,
+        "extra": null
+      },
+      "team": {
+        "id": 264,
+        "name": "Corinthians"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Raniele"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 48,
+        "extra": null
+      },
+      "team": {
+        "id": 277,
+        "name": "Santos"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Lucas Veríssimo"
       },
       "assist": null
     }
@@ -588,7 +636,7 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "55%"
+          "value": "54%"
         },
         {
           "type": "Total Shots",
@@ -608,7 +656,7 @@
         },
         {
           "type": "Fouls",
-          "value": 3
+          "value": 4
         },
         {
           "type": "Offsides",
@@ -620,7 +668,7 @@
         },
         {
           "type": "Yellow Cards",
-          "value": 1
+          "value": 3
         },
         {
           "type": "Red Cards",
@@ -628,7 +676,7 @@
         },
         {
           "type": "Pass Accuracy",
-          "value": "30%"
+          "value": "29%"
         }
       ]
     },
@@ -640,7 +688,7 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "45%"
+          "value": "46%"
         },
         {
           "type": "Total Shots",
@@ -660,7 +708,7 @@
         },
         {
           "type": "Fouls",
-          "value": 10
+          "value": 11
         },
         {
           "type": "Offsides",
@@ -672,7 +720,7 @@
         },
         {
           "type": "Yellow Cards",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Red Cards",
@@ -680,7 +728,7 @@
         },
         {
           "type": "Pass Accuracy",
-          "value": "40%"
+          "value": "39%"
         }
       ]
     }

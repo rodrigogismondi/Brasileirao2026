@@ -412,6 +412,7 @@ a {
   border-radius: 6px;
   background: rgba(255, 255, 255, 0.08);
   color: var(--text-muted);
+  white-space: nowrap;
 }
 
 .badge-live {
@@ -421,6 +422,7 @@ a {
 
 .badge-finished {
   background: rgba(255, 255, 255, 0.08);
+  letter-spacing: 0.02em;
 }
 
 .live-banner {

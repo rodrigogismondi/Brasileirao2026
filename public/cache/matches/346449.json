@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 101
+      "elapsed": 104
     },
     "timerStart": "2026-08-30T22:36:54.288Z",
     "timerStatus": "INICIADO"
@@ -156,6 +156,24 @@
     },
     {
       "time": {
+        "elapsed": 75,
+        "extra": null
+      },
+      "team": {
+        "id": 2305,
+        "name": "Mirassol"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Carlos Eduardo"
+      },
+      "assist": {
+        "name": "Gustavo Mosquito"
+      }
+    },
+    {
+      "time": {
         "elapsed": 78,
         "extra": null
       },
@@ -243,6 +261,22 @@
     {
       "time": {
         "elapsed": 96,
+        "extra": null
+      },
+      "team": {
+        "id": 275,
+        "name": "Palmeiras"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Arthur"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 97,
         "extra": null
       },
       "team": {
@@ -712,11 +746,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "48%"
+          "value": "49%"
         },
         {
           "type": "Total Passes",
-          "value": 446
+          "value": 456
         },
         {
           "type": "Pass Accuracy",
@@ -724,11 +758,11 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 63
+          "value": 66
         },
         {
           "type": "Total Shots",
-          "value": 10
+          "value": 12
         },
         {
           "type": "Shots on Goal",
@@ -736,11 +770,11 @@
         },
         {
           "type": "Shots off Goal",
-          "value": 3
+          "value": 4
         },
         {
           "type": "Blocked Shots",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Hit Woodwork",
@@ -788,11 +822,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "52%"
+          "value": "51%"
         },
         {
           "type": "Total Passes",
-          "value": 480
+          "value": 481
         },
         {
           "type": "Pass Accuracy",
@@ -800,7 +834,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 86
+          "value": 87
         },
         {
           "type": "Total Shots",

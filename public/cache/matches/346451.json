@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 55
+      "elapsed": 58
     },
     "timerStart": "2026-08-30T22:38:14.542Z",
     "timerStatus": "INICIADO"
@@ -183,6 +183,38 @@
       "assist": {
         "name": "Braithwaite"
       }
+    },
+    {
+      "time": {
+        "elapsed": 54,
+        "extra": null
+      },
+      "team": {
+        "id": 315,
+        "name": "Chapecoense"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Eduardo Doma"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 55,
+        "extra": null
+      },
+      "team": {
+        "id": 284,
+        "name": "Grêmio"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "player": {
+        "name": "Gustavo Martins"
+      },
+      "assist": null
     }
   ],
   "lineups": [

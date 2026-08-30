@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 45
+      "elapsed": 48
     },
     "timerStart": "2026-08-30T21:32:32.980Z",
     "timerStatus": "INICIADO"
@@ -111,6 +111,22 @@
       "detail": "Yellow Card",
       "player": {
         "name": "Marlon"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 44,
+        "extra": null
+      },
+      "team": {
+        "id": 284,
+        "name": "Grêmio"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Kannemann"
       },
       "assist": null
     }

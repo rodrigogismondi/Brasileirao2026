@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 40
+      "elapsed": 44
     },
     "timerStart": "2026-08-30T22:31:29.617Z",
     "timerStatus": "INICIADO"
@@ -127,6 +127,22 @@
       "detail": "Yellow Card",
       "player": {
         "name": "Bernabei"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 41,
+        "extra": null
+      },
+      "team": {
+        "id": 265,
+        "name": "Bahia"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "player": {
+        "name": "?"
       },
       "assist": null
     }
@@ -590,15 +606,15 @@
         },
         {
           "type": "Total Passes",
-          "value": 288
+          "value": 311
         },
         {
           "type": "Pass Accuracy",
-          "value": "88%"
+          "value": "87%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 36
+          "value": 39
         },
         {
           "type": "Total Shots",
@@ -646,7 +662,7 @@
         },
         {
           "type": "Yellow Cards",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Red Cards",
@@ -666,19 +682,19 @@
         },
         {
           "type": "Total Passes",
-          "value": 146
+          "value": 154
         },
         {
           "type": "Pass Accuracy",
-          "value": "82%"
+          "value": "80%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 27
+          "value": 31
         },
         {
           "type": "Total Shots",
-          "value": 4
+          "value": 5
         },
         {
           "type": "Shots on Goal",
@@ -686,7 +702,7 @@
         },
         {
           "type": "Shots off Goal",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Blocked Shots",
@@ -702,7 +718,7 @@
         },
         {
           "type": "Offsides",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Penalties",
@@ -718,11 +734,11 @@
         },
         {
           "type": "Fouls",
-          "value": 6
+          "value": 8
         },
         {
           "type": "Yellow Cards",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Red Cards",

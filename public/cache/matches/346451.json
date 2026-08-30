@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 78
+      "elapsed": 82
     },
     "timerStart": "2026-08-30T22:38:14.542Z",
     "timerStatus": "INICIADO"
@@ -96,7 +96,7 @@
       "type": "Goal",
       "detail": "Normal Goal",
       "player": {
-        "name": "Enamorado"
+        "name": "Gustavo Martins"
       },
       "assist": null
     },
@@ -320,6 +320,42 @@
       },
       "assist": {
         "name": "Bruno Pacheco"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 79,
+        "extra": null
+      },
+      "team": {
+        "id": 315,
+        "name": "Chapecoense"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Ênio"
+      },
+      "assist": {
+        "name": "Giovanni Augusto"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 79,
+        "extra": null
+      },
+      "team": {
+        "id": 315,
+        "name": "Chapecoense"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Borrero"
+      },
+      "assist": {
+        "name": "Marcinho"
       }
     }
   ],
@@ -764,19 +800,19 @@
         },
         {
           "type": "Total Passes",
-          "value": 400
+          "value": 419
         },
         {
           "type": "Pass Accuracy",
-          "value": "86%"
+          "value": "85%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 57
+          "value": 62
         },
         {
           "type": "Total Shots",
-          "value": 9
+          "value": 10
         },
         {
           "type": "Shots on Goal",
@@ -784,7 +820,7 @@
         },
         {
           "type": "Shots off Goal",
-          "value": 3
+          "value": 4
         },
         {
           "type": "Blocked Shots",
@@ -796,7 +832,7 @@
         },
         {
           "type": "Corner Kicks",
-          "value": 4
+          "value": 5
         },
         {
           "type": "Offsides",
@@ -812,11 +848,11 @@
         },
         {
           "type": "Tackles",
-          "value": 9
+          "value": 10
         },
         {
           "type": "Fouls",
-          "value": 8
+          "value": 9
         },
         {
           "type": "Yellow Cards",
@@ -840,7 +876,7 @@
         },
         {
           "type": "Total Passes",
-          "value": 422
+          "value": 435
         },
         {
           "type": "Pass Accuracy",
@@ -848,7 +884,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 58
+          "value": 59
         },
         {
           "type": "Total Shots",
@@ -884,7 +920,7 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 3
+          "value": 4
         },
         {
           "type": "Tackles",

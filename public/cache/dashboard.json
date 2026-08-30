@@ -12241,7 +12241,7 @@
         "status": {
           "long": "2H",
           "short": "2H",
-          "elapsed": 80
+          "elapsed": 83
         },
         "timerStart": "2026-08-30T22:36:54.288Z",
         "timerStatus": "INICIADO"
@@ -12293,7 +12293,7 @@
         "status": {
           "long": "2H",
           "short": "2H",
-          "elapsed": 78
+          "elapsed": 82
         },
         "timerStart": "2026-08-30T22:38:14.542Z",
         "timerStatus": "INICIADO"
@@ -12345,7 +12345,7 @@
         "status": {
           "long": "1H",
           "short": "1H",
-          "elapsed": 40
+          "elapsed": 44
         },
         "timerStart": "2026-08-30T22:31:29.617Z",
         "timerStatus": "INICIADO"
@@ -18484,17 +18484,17 @@
                 "name": "Palmeiras",
                 "logo": "https://s.sde.globo.com/media/organizations/2019/07/06/Palmeiras.svg"
               },
-              "points": 51,
-              "goalsDiff": 23,
+              "points": 52,
+              "goalsDiff": 24,
               "form": "WDLWD",
               "description": "Copa Libertadores",
               "all": {
                 "played": 25,
                 "win": 15,
-                "draw": 6,
-                "lose": 4,
+                "draw": 7,
+                "lose": 3,
                 "goals": {
-                  "for": 44,
+                  "for": 45,
                   "against": 21
                 }
               }
@@ -18810,28 +18810,6 @@
             {
               "rank": 16,
               "team": {
-                "id": 2305,
-                "name": "Mirassol",
-                "logo": "https://s.sde.globo.com/media/organizations/2026/07/17/MIrassol.svg"
-              },
-              "points": 27,
-              "goalsDiff": -9,
-              "form": "WLLDD",
-              "description": null,
-              "all": {
-                "played": 24,
-                "win": 7,
-                "draw": 6,
-                "lose": 11,
-                "goals": {
-                  "for": 27,
-                  "against": 36
-                }
-              }
-            },
-            {
-              "rank": 17,
-              "team": {
                 "id": 285,
                 "name": "Internacional",
                 "logo": "https://s.sde.globo.com/media/organizations/2018/03/11/internacional.svg"
@@ -18839,7 +18817,7 @@
               "points": 26,
               "goalsDiff": -4,
               "form": "DDDDD",
-              "description": "Relegation",
+              "description": null,
               "all": {
                 "played": 25,
                 "win": 5,
@@ -18848,6 +18826,28 @@
                 "goals": {
                   "for": 25,
                   "against": 29
+                }
+              }
+            },
+            {
+              "rank": 17,
+              "team": {
+                "id": 2305,
+                "name": "Mirassol",
+                "logo": "https://s.sde.globo.com/media/organizations/2026/07/17/MIrassol.svg"
+              },
+              "points": 25,
+              "goalsDiff": -10,
+              "form": "WLLDD",
+              "description": "Relegation",
+              "all": {
+                "played": 24,
+                "win": 6,
+                "draw": 7,
+                "lose": 11,
+                "goals": {
+                  "for": 27,
+                  "against": 37
                 }
               }
             },
@@ -20031,7 +20031,7 @@
     "mode": "live",
     "liveIntervalMs": 20000
   },
-  "fetchedAt": "2026-08-30T23:12:12.159Z",
+  "fetchedAt": "2026-08-30T23:15:31.968Z",
   "source": "ge-globo",
   "meta": {
     "rodada": 25,

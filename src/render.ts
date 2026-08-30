@@ -23,6 +23,9 @@ import {
   liveBadgeText,
 } from "./utils";
 
+const ASSET_BASE = (import.meta.env.BASE_URL ?? "/").replace(/\/?$/, "/");
+const BRAND_TROPHY_SRC = `${ASSET_BASE}brand-trophy.svg`;
+
 function crestImg(src: string, alt: string): string {
   if (!src) {
     return `<span class="crest-placeholder" title="${escapeHtml(alt)}">${escapeHtml(teamInitials(alt))}</span>`;
@@ -337,7 +340,9 @@ export function renderApp(state: AppState): string {
       <header class="header">
         <div class="header-inner">
           <div class="brand">
-            <div class="brand-mark" aria-hidden="true">BR26</div>
+            <div class="brand-mark" aria-hidden="true">
+              <img src="${escapeHtml(BRAND_TROPHY_SRC)}" alt="" width="40" height="40" decoding="async" />
+            </div>
             <div>
               <h1>${escapeHtml(t(lang, "title"))}</h1>
               <p class="tagline">${escapeHtml(t(lang, "tagline"))}</p>

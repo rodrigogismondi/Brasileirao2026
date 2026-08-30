@@ -24,7 +24,7 @@ import {
 } from "./utils";
 
 const ASSET_BASE = (import.meta.env.BASE_URL ?? "/").replace(/\/?$/, "/");
-const BRAND_TROPHY_SRC = `${ASSET_BASE}brand-trophy.svg`;
+const BRAND_TROPHY_SRC = `${ASSET_BASE}brand-brasileirao.svg`;
 
 function crestImg(src: string, alt: string): string {
   if (!src) {

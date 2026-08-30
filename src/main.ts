@@ -80,9 +80,11 @@ function mount(): void {
   const scheduleRefresh = (liveIntervalMs: number, mode: string) => {
     if (refreshTimer) clearInterval(refreshTimer);
     const ms =
-      mode === "idle"
-        ? Math.max(IDLE_REFRESH_MS, liveIntervalMs)
-        : Math.max(60_000, liveIntervalMs);
+      mode === "live"
+        ? Math.max(45_000, liveIntervalMs)
+        : mode === "prematch"
+          ? Math.max(60_000, liveIntervalMs)
+          : Math.max(IDLE_REFRESH_MS, liveIntervalMs);
     refreshTimer = setInterval(() => void load(true), ms);
   };
 

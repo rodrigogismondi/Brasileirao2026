@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": null
+      "elapsed": 15
     }
   },
   "league": {
@@ -28,7 +28,7 @@
     }
   },
   "goals": {
-    "home": 0,
+    "home": 1,
     "away": 0
   },
   "score": {
@@ -47,7 +47,24 @@
     "away": 9.73,
     "source": "betexplorer"
   },
-  "events": [],
+  "events": [
+    {
+      "time": {
+        "elapsed": 12,
+        "extra": null
+      },
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "player": {
+        "name": "Samuel Lino"
+      },
+      "assist": null
+    }
+  ],
   "lineups": [
     {
       "team": {
@@ -503,11 +520,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "80%"
+          "value": "77%"
         },
         {
           "type": "Total Shots",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Shots off Goal",
@@ -519,7 +536,7 @@
         },
         {
           "type": "Corner Kicks",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Fouls",
@@ -543,7 +560,7 @@
         },
         {
           "type": "Pass Accuracy",
-          "value": "152%"
+          "value": "66%"
         }
       ]
     },
@@ -555,7 +572,7 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "20%"
+          "value": "23%"
         },
         {
           "type": "Total Shots",
@@ -575,7 +592,7 @@
         },
         {
           "type": "Fouls",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Offsides",
@@ -595,7 +612,7 @@
         },
         {
           "type": "Pass Accuracy",
-          "value": "938%"
+          "value": "228%"
         }
       ]
     }

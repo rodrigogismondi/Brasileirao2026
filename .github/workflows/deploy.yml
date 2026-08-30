@@ -4,10 +4,6 @@ on:
   push:
     branches: [main, master]
   workflow_dispatch:
-  # Refresh live scores / tabela from GE during the season
-  schedule:
-    # Refresh scores, lineups and match details from GE during the season
-    - cron: "*/5 * * * *"
 
 permissions:
   contents: read

@@ -114,13 +114,18 @@ function mapStatus(jogo) {
   const broadcast = jogo?.transmissao?.broadcast?.id ?? "";
   const hasScore =
     jogo.placar_oficial_mandante != null && jogo.placar_oficial_visitante != null;
-  if (broadcast === "ENCERRADA" || (hasScore && broadcast !== "LIVE")) {
+  if (broadcast === "ENCERRADA") {
     return { short: "FT", elapsed: 90 };
   }
-  if (jogo.jogo_ja_comecou && broadcast !== "ENCERRADA") {
-    return { short: "2H", elapsed: null };
+  // Finished with official score but broadcast lagging
+  if (hasScore && broadcast && broadcast !== "LIVE" && !jogo.jogo_ja_comecou) {
+    return { short: "FT", elapsed: 90 };
   }
-  // GE marks pre-match coverage as LIVE before kickoff
+  if (jogo.jogo_ja_comecou || (broadcast === "LIVE" && hasScore)) {
+    // Period refined later from transmission page
+    return { short: "1H", elapsed: null };
+  }
+  // GE often marks pre-match coverage as LIVE before kickoff
   if (broadcast === "LIVE" && !hasScore && !jogo.jogo_ja_comecou) {
     return { short: "NS", elapsed: null };
   }
@@ -430,13 +435,54 @@ async function enrichFromTransmission(fixtureRow) {
     match.period?.id ||
     trv2.transmission?.period?.abbreviation ||
     "";
-  const status = statusFromPeriod(periodAbbr, fixtureRow.fixture.status);
+  const transmissionActive =
+    /^(LIVE)$/i.test(String(trv2.transmission?.status || "")) ||
+    /INICIADO|RODANDO|ANDAMENTO/i.test(String(trv2.transmission?.timerStatus || ""));
+  let status = statusFromPeriod(periodAbbr, fixtureRow.fixture.status);
+  if (
+    status.short === "NS" &&
+    (transmissionActive ||
+      fixtureRow.fixture.status.short !== "NS" ||
+      (match.scoreboard && (match.scoreboard.home > 0 || match.scoreboard.away > 0)))
+  ) {
+    status = { long: "1H", short: "1H", elapsed: null };
+  }
+  if (!periodAbbr && transmissionActive && status.short === "NS") {
+    status = { long: "1H", short: "1H", elapsed: null };
+  }
+
   const scoreboard = match.scoreboard;
-  const started = status.short !== "NS";
-  const goalsHome =
-    started && scoreboard?.home != null ? scoreboard.home : fixtureRow.goals.home;
-  const goalsAway =
-    started && scoreboard?.away != null ? scoreboard.away : fixtureRow.goals.away;
+  const listaHome = fixtureRow.goals.home;
+  const listaAway = fixtureRow.goals.away;
+  const boardReady =
+    scoreboard && scoreboard.home != null && scoreboard.away != null;
+  const preferBoard =
+    boardReady &&
+    (status.short !== "NS" ||
+      transmissionActive ||
+      scoreboard.home > 0 ||
+      scoreboard.away > 0);
+  let goalsHome = preferBoard ? scoreboard.home : listaHome;
+  let goalsAway = preferBoard ? scoreboard.away : listaAway;
+  // If lista placar is ahead of a stale scoreboard, keep the higher total
+  if (
+    listaHome != null &&
+    listaAway != null &&
+    goalsHome != null &&
+    goalsAway != null &&
+    listaHome + listaAway > goalsHome + goalsAway
+  ) {
+    goalsHome = listaHome;
+    goalsAway = listaAway;
+  }
+
+  // Approximate elapsed from latest timed play when GE clock is stuck
+  if (status.short !== "NS" && status.short !== "FT" && status.elapsed == null) {
+    const timed = (trv2.plays || [])
+      .map((p) => momentToElapsed(p.moment, p.period?.abbreviation || p.period?.id))
+      .filter((n) => Number.isFinite(n) && n > 0);
+    if (timed.length) status = { ...status, elapsed: Math.max(...timed) };
+  }
 
   const { _geUrl, ...base } = fixtureRow;
   const sportsFieldUrl = trv2.theSportsField?.url || null;
@@ -625,7 +671,7 @@ async function main() {
     });
     const mode = hasLive ? "live" : hasPrematch ? "prematch" : "idle";
     const liveIntervalMs =
-      mode === "live" ? 90_000 : mode === "prematch" ? 5 * 60_000 : 15 * 60_000;
+      mode === "live" ? 60_000 : mode === "prematch" ? 3 * 60_000 : 15 * 60_000;
 
     const scorers = parseScorersFromHtml(html);
     const oddsMap = await fetchBetexplorerOdds();

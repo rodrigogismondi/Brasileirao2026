@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": null
+      "elapsed": 13
     }
   },
   "league": {
@@ -47,7 +47,24 @@
     "away": 4.42,
     "source": "betexplorer"
   },
-  "events": [],
+  "events": [
+    {
+      "time": {
+        "elapsed": 9,
+        "extra": null
+      },
+      "team": {
+        "id": 277,
+        "name": "Santos"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Barreal"
+      },
+      "assist": null
+    }
+  ],
   "lineups": [
     {
       "team": {
@@ -503,7 +520,7 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "49%"
+          "value": "50%"
         },
         {
           "type": "Total Shots",
@@ -511,7 +528,7 @@
         },
         {
           "type": "Shots off Goal",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Blocked Shots",
@@ -531,7 +548,7 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 0
+          "value": 2
         },
         {
           "type": "Yellow Cards",
@@ -543,7 +560,7 @@
         },
         {
           "type": "Pass Accuracy",
-          "value": "276%"
+          "value": "109%"
         }
       ]
     },
@@ -555,27 +572,27 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "51%"
+          "value": "50%"
         },
         {
           "type": "Total Shots",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Shots off Goal",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Blocked Shots",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Corner Kicks",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Fouls",
-          "value": 2
+          "value": 5
         },
         {
           "type": "Offsides",
@@ -587,7 +604,7 @@
         },
         {
           "type": "Yellow Cards",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Red Cards",
@@ -595,7 +612,7 @@
         },
         {
           "type": "Pass Accuracy",
-          "value": "300%"
+          "value": "96%"
         }
       ]
     }

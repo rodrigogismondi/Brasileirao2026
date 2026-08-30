@@ -44,9 +44,9 @@
         }
       },
       "odds": {
-        "home": 1.91,
-        "draw": 3.33,
-        "away": 4.24,
+        "home": 1.89,
+        "draw": 3.28,
+        "away": 4.44,
         "source": "betexplorer"
       }
     },
@@ -94,9 +94,9 @@
         }
       },
       "odds": {
-        "home": 2.42,
-        "draw": 3.22,
-        "away": 2.98,
+        "home": 2.44,
+        "draw": 3.13,
+        "away": 3,
         "source": "betexplorer"
       }
     },
@@ -144,9 +144,9 @@
         }
       },
       "odds": {
-        "home": 1.96,
-        "draw": 3.47,
-        "away": 3.83,
+        "home": 1.97,
+        "draw": 3.41,
+        "away": 3.84,
         "source": "betexplorer"
       }
     },
@@ -194,8 +194,8 @@
         }
       },
       "odds": {
-        "home": 2.34,
-        "draw": 3.1,
+        "home": 2.35,
+        "draw": 3.05,
         "away": 3.23,
         "source": "betexplorer"
       }
@@ -211,7 +211,7 @@
         "status": {
           "long": "1H",
           "short": "1H",
-          "elapsed": null
+          "elapsed": 15
         }
       },
       "league": {
@@ -230,7 +230,7 @@
         }
       },
       "goals": {
-        "home": 0,
+        "home": 1,
         "away": 0
       },
       "score": {
@@ -261,7 +261,7 @@
         "status": {
           "long": "1H",
           "short": "1H",
-          "elapsed": null
+          "elapsed": 13
         }
       },
       "league": {
@@ -359,8 +359,8 @@
           "city": ""
         },
         "status": {
-          "long": "NS",
-          "short": "NS",
+          "long": "1H",
+          "short": "1H",
           "elapsed": null
         }
       },
@@ -409,8 +409,8 @@
           "city": ""
         },
         "status": {
-          "long": "NS",
-          "short": "NS",
+          "long": "1H",
+          "short": "1H",
           "elapsed": null
         }
       },
@@ -459,8 +459,8 @@
           "city": ""
         },
         "status": {
-          "long": "NS",
-          "short": "NS",
+          "long": "1H",
+          "short": "1H",
           "elapsed": null
         }
       },
@@ -535,17 +535,17 @@
                 "name": "Flamengo",
                 "logo": "https://s.sde.globo.com/media/organizations/2018/04/10/Flamengo-2018.svg"
               },
-              "points": 46,
-              "goalsDiff": 24,
-              "form": "DWWLD",
+              "points": 48,
+              "goalsDiff": 25,
+              "form": "DWWLW",
               "description": "Copa Libertadores",
               "all": {
                 "played": 24,
-                "win": 13,
-                "draw": 7,
+                "win": 14,
+                "draw": 6,
                 "lose": 4,
                 "goals": {
-                  "for": 45,
+                  "for": 46,
                   "against": 21
                 }
               }
@@ -729,28 +729,6 @@
             {
               "rank": 11,
               "team": {
-                "id": 263,
-                "name": "Botafogo",
-                "logo": "https://s.sde.globo.com/media/organizations/2019/02/04/botafogo-svg.svg"
-              },
-              "points": 31,
-              "goalsDiff": 0,
-              "form": "WDLLD",
-              "description": "Copa Sudamericana",
-              "all": {
-                "played": 24,
-                "win": 8,
-                "draw": 7,
-                "lose": 9,
-                "goals": {
-                  "for": 37,
-                  "against": 37
-                }
-              }
-            },
-            {
-              "rank": 12,
-              "team": {
                 "id": 276,
                 "name": "São Paulo",
                 "logo": "https://s.sde.globo.com/media/organizations/2018/03/11/sao-paulo.svg"
@@ -758,7 +736,7 @@
               "points": 30,
               "goalsDiff": 1,
               "form": "DLDLW",
-              "description": null,
+              "description": "Copa Sudamericana",
               "all": {
                 "played": 24,
                 "win": 8,
@@ -767,6 +745,28 @@
                 "goals": {
                   "for": 29,
                   "against": 28
+                }
+              }
+            },
+            {
+              "rank": 12,
+              "team": {
+                "id": 263,
+                "name": "Botafogo",
+                "logo": "https://s.sde.globo.com/media/organizations/2019/02/04/botafogo-svg.svg"
+              },
+              "points": 30,
+              "goalsDiff": -1,
+              "form": "WDLLL",
+              "description": null,
+              "all": {
+                "played": 24,
+                "win": 8,
+                "draw": 6,
+                "lose": 10,
+                "goals": {
+                  "for": 37,
+                  "against": 38
                 }
               }
             },
@@ -1219,6 +1219,28 @@
     {
       "player": {
         "id": 13,
+        "name": "Samuel Lino",
+        "photo": "https://s.sde.globo.com/media/person_role/2025/07/30/photo_140x140.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "name": "Flamengo",
+            "logo": "https://s.sde.globo.com/media/organizations/2018/04/09/Flamengo-65.png"
+          },
+          "goals": {
+            "total": 7,
+            "assists": null
+          },
+          "games": {
+            "appearences": 0
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 14,
         "name": "Jajá",
         "photo": "https://s.sde.globo.com/media/person_role/2026/03/31/photo_140x140_HhBEQDC.png"
       },
@@ -1240,7 +1262,7 @@
     },
     {
       "player": {
-        "id": 14,
+        "id": 15,
         "name": "Maurício",
         "photo": "https://s.sde.globo.com/media/person_role/2026/08/19/photo_140x140_6MjlXVn.png"
       },
@@ -1262,7 +1284,7 @@
     },
     {
       "player": {
-        "id": 15,
+        "id": 16,
         "name": "Matheus Pereira",
         "photo": "https://s.sde.globo.com/media/person_role/2025/04/01/photo_140x140_paqfi1w.png"
       },
@@ -1284,7 +1306,7 @@
     },
     {
       "player": {
-        "id": 16,
+        "id": 17,
         "name": "Pedro Rocha",
         "photo": "https://s.sde.globo.com/media/person_role/2025/02/26/photo_140x140_OEA2Hhd.png"
       },
@@ -1306,7 +1328,7 @@
     },
     {
       "player": {
-        "id": 17,
+        "id": 18,
         "name": "Neymar",
         "photo": "https://s.sde.globo.com/media/person_role/2026/08/19/photo_140x140_Aji3JX5.png"
       },
@@ -1328,7 +1350,7 @@
     },
     {
       "player": {
-        "id": 18,
+        "id": 19,
         "name": "Kaio Jorge",
         "photo": "https://s.sde.globo.com/media/person_role/2025/04/01/photo_140x140_1G1qpE6.png"
       },
@@ -1337,28 +1359,6 @@
           "team": {
             "name": "Cruzeiro",
             "logo": "https://s.sde.globo.com/media/organizations/2021/02/13/65_cruzeiro-2021.png"
-          },
-          "goals": {
-            "total": 6,
-            "assists": null
-          },
-          "games": {
-            "appearences": 0
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 19,
-        "name": "Samuel Lino",
-        "photo": "https://s.sde.globo.com/media/person_role/2025/07/30/photo_140x140.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "name": "Flamengo",
-            "logo": "https://s.sde.globo.com/media/organizations/2018/04/09/Flamengo-65.png"
           },
           "goals": {
             "total": 6,
@@ -2060,7 +2060,7 @@
     "mode": "live",
     "liveIntervalMs": 90000
   },
-  "fetchedAt": "2026-08-30T19:08:12.319Z",
+  "fetchedAt": "2026-08-30T19:18:00.962Z",
   "source": "ge-globo",
   "meta": {
     "rodada": 25,

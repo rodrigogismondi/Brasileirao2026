@@ -2,7 +2,7 @@
  * Sync public/cache from GE Globo's Brasileirão tabela + match transmission pages.
  * Falls back to demo cache if the tabela scrape fails.
  */
-import { writeFileSync, mkdirSync, readdirSync, unlinkSync } from "node:fs";
+import { writeFileSync, mkdirSync, readdirSync, unlinkSync, readFileSync, existsSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 import { spawnSync } from "node:child_process";
@@ -473,16 +473,35 @@ async function fetchSeasonFixtures(html, data, currentFixtures) {
   };
 }
 
-async function fetchHtml(url, timeoutMs = 20000) {
-  const ctrl = new AbortController();
-  const t = setTimeout(() => ctrl.abort(), timeoutMs);
-  try {
-    const res = await fetch(url, { headers: FETCH_HEADERS, signal: ctrl.signal });
-    if (!res.ok) throw new Error(`HTTP ${res.status}`);
-    return await res.text();
-  } finally {
-    clearTimeout(t);
+async function fetchHtml(url, timeoutMs = 20000, retries = 0) {
+  let lastErr;
+  for (let attempt = 0; attempt <= retries; attempt++) {
+    const ctrl = new AbortController();
+    const t = setTimeout(() => ctrl.abort(), timeoutMs);
+    try {
+      const res = await fetch(url, { headers: FETCH_HEADERS, signal: ctrl.signal });
+      if (res.status === 429 || res.status === 503) {
+        lastErr = new Error(`HTTP ${res.status}`);
+        if (attempt < retries) {
+          await sleep(1500 * (attempt + 1));
+          continue;
+        }
+        throw lastErr;
+      }
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      return await res.text();
+    } catch (err) {
+      lastErr = err;
+      if (attempt < retries) {
+        await sleep(1500 * (attempt + 1));
+        continue;
+      }
+      throw err;
+    } finally {
+      clearTimeout(t);
+    }
   }
+  throw lastErr ?? new Error("fetch failed");
 }
 
 function statusFromPeriod(periodAbbr, fallback) {
@@ -760,7 +779,7 @@ async function fetchBetexplorerOdds() {
   const rows = [];
   for (const url of [BETEXPLORER_FIXTURES, BETEXPLORER_RESULTS]) {
     try {
-      const html = await fetchHtml(url, 25000);
+      const html = await fetchHtml(url, 25000, 3);
       rows.push(...parseBetexplorerOddsPage(html));
     } catch (err) {
       console.warn(
@@ -769,13 +788,53 @@ async function fetchBetexplorerOdds() {
         err instanceof Error ? err.message : String(err)
       );
     }
-    await sleep(200);
+    await sleep(400);
   }
   // Prefer first occurrence (fixtures usually listed before results duplicates)
   const map = new Map();
   for (const row of rows) {
     const key = `${row.homeKey}__${row.awayKey}`;
     if (!map.has(key)) map.set(key, row);
+  }
+  return map;
+}
+
+function isValidOdds(odds) {
+  return Boolean(odds && odds.home > 1 && odds.draw > 1 && odds.away > 1);
+}
+
+/** Keep last-known odds when BetExplorer rate-limits or drops live fixtures. */
+function loadPreviousOddsById() {
+  const map = new Map();
+  const dashPath = join(CACHE_DIR, "dashboard.json");
+  if (existsSync(dashPath)) {
+    try {
+      const dash = JSON.parse(readFileSync(dashPath, "utf8"));
+      for (const f of dash.fixtures || []) {
+        if (f?.fixture?.id != null && isValidOdds(f.odds)) {
+          map.set(f.fixture.id, f.odds);
+        }
+      }
+    } catch {
+      /* ignore corrupt cache */
+    }
+  }
+  if (existsSync(MATCHES_DIR)) {
+    try {
+      for (const name of readdirSync(MATCHES_DIR)) {
+        if (!name.endsWith(".json")) continue;
+        try {
+          const detail = JSON.parse(readFileSync(join(MATCHES_DIR, name), "utf8"));
+          if (detail?.fixture?.id != null && isValidOdds(detail.odds)) {
+            map.set(detail.fixture.id, detail.odds);
+          }
+        } catch {
+          /* skip bad file */
+        }
+      }
+    } catch {
+      /* ignore */
+    }
   }
   return map;
 }
@@ -879,12 +938,22 @@ async function main() {
       mode === "live" ? 60_000 : mode === "prematch" ? 3 * 60_000 : 15 * 60_000;
 
     const scorers = parseScorersFromHtml(html);
+    const previousOdds = loadPreviousOddsById();
     const oddsMap = await fetchBetexplorerOdds();
     let oddsMatched = 0;
+    let oddsPreserved = 0;
     for (const f of fixtures) {
-      const odds = findOddsForFixture(oddsMap, f.teams.home.name, f.teams.away.name);
-      f.odds = odds;
-      if (odds) oddsMatched++;
+      const fresh = findOddsForFixture(oddsMap, f.teams.home.name, f.teams.away.name);
+      const kept = previousOdds.get(f.fixture.id) ?? null;
+      if (isValidOdds(fresh)) {
+        f.odds = fresh;
+        oddsMatched++;
+      } else if (isValidOdds(kept)) {
+        f.odds = kept;
+        oddsPreserved++;
+      } else {
+        f.odds = null;
+      }
     }
 
     const rounds = [
@@ -916,6 +985,7 @@ async function main() {
         provider: "ge.globo.com",
         scorersCount: scorers.length,
         oddsMatched,
+        oddsPreserved,
         oddsAvailable: oddsMap.size,
         fixturesCount: fixtures.length,
       },
@@ -943,7 +1013,9 @@ async function main() {
               fixture: detail.fixture,
               goals: detail.goals,
               score: detail.score,
-              odds: detail.odds ?? payload.fixtures[idx].odds ?? null,
+              odds: isValidOdds(detail.odds)
+                ? detail.odds
+                : payload.fixtures[idx].odds ?? null,
             };
           }
         } catch (err) {
@@ -955,6 +1027,9 @@ async function main() {
         }
         await sleep(150);
       }
+      if (!isValidOdds(detail.odds)) {
+        detail.odds = f.odds ?? previousOdds.get(f.fixture.id) ?? null;
+      }
       writeFileSync(join(MATCHES_DIR, `${f.fixture.id}.json`), JSON.stringify(detail, null, 2));
     }
 
@@ -962,7 +1037,7 @@ async function main() {
     writeFileSync(join(CACHE_DIR, "dashboard.json"), JSON.stringify(payload, null, 2));
 
     console.log(
-      `Synced GE cache: rodada ${rodada}/${ultimaRodada}, ${fixtures.length} jogos, ${data.classificacao?.length ?? 0} times, enriched=${enriched}, failed=${failed}, scorers=${scorers.length}, odds=${oddsMatched}/${oddsMap.size}, source=${payload.source}`
+      `Synced GE cache: rodada ${rodada}/${ultimaRodada}, ${fixtures.length} jogos, ${data.classificacao?.length ?? 0} times, enriched=${enriched}, failed=${failed}, scorers=${scorers.length}, odds=${oddsMatched}/${oddsMap.size} (kept ${oddsPreserved}), source=${payload.source}`
     );
   } catch (err) {
     writeDemoFallback(err instanceof Error ? err.message : String(err));

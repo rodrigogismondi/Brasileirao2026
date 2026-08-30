@@ -12149,7 +12149,7 @@
         "status": {
           "long": "2H",
           "short": "2H",
-          "elapsed": 49
+          "elapsed": 60
         },
         "timerStart": "2026-08-30T20:07:23.483Z",
         "timerStatus": "INICIADO"
@@ -12199,12 +12199,12 @@
           "city": ""
         },
         "status": {
-          "long": "HT",
-          "short": "HT",
-          "elapsed": 45
+          "long": "2H",
+          "short": "2H",
+          "elapsed": 58
         },
-        "timerStart": "2026-08-30T19:50:43.374Z",
-        "timerStatus": "PAUSADO"
+        "timerStart": "2026-08-30T20:09:39.565Z",
+        "timerStatus": "INICIADO"
       },
       "league": {
         "round": "Regular Season - 25"
@@ -12288,8 +12288,8 @@
         }
       },
       "odds": {
-        "home": 3.25,
-        "draw": 3.31,
+        "home": 3.28,
+        "draw": 3.29,
         "away": 2.21,
         "source": "betexplorer"
       }
@@ -12307,7 +12307,7 @@
           "short": "NS",
           "elapsed": null
         },
-        "timerStart": null,
+        "timerStart": "2026-08-30T20:12:07.032Z",
         "timerStatus": "PAUSADO"
       },
       "league": {
@@ -12392,9 +12392,9 @@
         }
       },
       "odds": {
-        "home": 1.81,
-        "draw": 3.61,
-        "away": 4.33,
+        "home": 1.8,
+        "draw": 3.63,
+        "away": 4.35,
         "source": "betexplorer"
       }
     },
@@ -20045,7 +20045,7 @@
     "mode": "live",
     "liveIntervalMs": 60000
   },
-  "fetchedAt": "2026-08-30T20:12:07.074Z",
+  "fetchedAt": "2026-08-30T20:23:17.205Z",
   "source": "ge-globo",
   "meta": {
     "rodada": 25,
@@ -20094,6 +20094,7 @@
     "provider": "ge.globo.com",
     "scorersCount": 50,
     "oddsMatched": 273,
+    "oddsPreserved": 0,
     "oddsAvailable": 239,
     "fixturesCount": 380
   }

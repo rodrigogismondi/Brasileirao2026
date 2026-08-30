@@ -25,6 +25,7 @@ export interface Match {
   venue: string;
   /** Numeric round (1–38) when known. */
   roundNumber: number | null;
+  odds: MatchOdds | null;
 }
 
 export interface StandingRow {

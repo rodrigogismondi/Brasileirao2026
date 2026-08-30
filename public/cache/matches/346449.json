@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 75
+      "elapsed": 77
     },
     "timerStart": "2026-08-30T22:36:54.288Z",
     "timerStatus": "INICIADO"
@@ -31,7 +31,7 @@
   },
   "goals": {
     "home": 1,
-    "away": 0
+    "away": 1
   },
   "score": {
     "halftime": {
@@ -137,6 +137,22 @@
       "assist": {
         "name": "Eduardo"
       }
+    },
+    {
+      "time": {
+        "elapsed": 74,
+        "extra": null
+      },
+      "team": {
+        "id": 275,
+        "name": "Palmeiras"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "player": {
+        "name": "Maurício"
+      },
+      "assist": null
     }
   ],
   "lineups": [
@@ -594,19 +610,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "52%"
+          "value": "51%"
         },
         {
           "type": "Total Passes",
-          "value": 378
+          "value": 380
         },
         {
           "type": "Pass Accuracy",
-          "value": "89%"
+          "value": "88%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 43
+          "value": 45
         },
         {
           "type": "Total Shots",
@@ -650,7 +666,7 @@
         },
         {
           "type": "Fouls",
-          "value": 10
+          "value": 12
         },
         {
           "type": "Yellow Cards",
@@ -670,11 +686,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "48%"
+          "value": "49%"
         },
         {
           "type": "Total Passes",
-          "value": 361
+          "value": 385
         },
         {
           "type": "Pass Accuracy",
@@ -682,15 +698,15 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 63
+          "value": 65
         },
         {
           "type": "Total Shots",
-          "value": 8
+          "value": 9
         },
         {
           "type": "Shots on Goal",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Shots off Goal",
@@ -726,7 +742,7 @@
         },
         {
           "type": "Fouls",
-          "value": 6
+          "value": 5
         },
         {
           "type": "Yellow Cards",

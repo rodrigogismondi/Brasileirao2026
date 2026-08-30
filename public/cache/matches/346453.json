@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 61
+      "elapsed": 65
     },
     "timerStart": "2026-08-30T23:37:22.890Z",
     "timerStatus": "INICIADO"
@@ -228,6 +228,42 @@
       },
       "assist": {
         "name": "Cristian Olivera"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 63,
+        "extra": null
+      },
+      "team": {
+        "id": 285,
+        "name": "Internacional"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Calebe"
+      },
+      "assist": {
+        "name": "Thiago Maia"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 63,
+        "extra": null
+      },
+      "team": {
+        "id": 285,
+        "name": "Internacional"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Sanabria"
+      },
+      "assist": {
+        "name": "Bernabei"
       }
     }
   ],
@@ -686,11 +722,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "60%"
+          "value": "59%"
         },
         {
           "type": "Total Passes",
-          "value": 404
+          "value": 420
         },
         {
           "type": "Pass Accuracy",
@@ -698,11 +734,11 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 56
+          "value": 58
         },
         {
           "type": "Total Shots",
-          "value": 7
+          "value": 9
         },
         {
           "type": "Shots on Goal",
@@ -710,7 +746,7 @@
         },
         {
           "type": "Shots off Goal",
-          "value": 1
+          "value": 3
         },
         {
           "type": "Blocked Shots",
@@ -738,7 +774,7 @@
         },
         {
           "type": "Tackles",
-          "value": 11
+          "value": 12
         },
         {
           "type": "Fouls",
@@ -762,19 +798,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "40%"
+          "value": "41%"
         },
         {
           "type": "Total Passes",
-          "value": 236
+          "value": 251
         },
         {
           "type": "Pass Accuracy",
-          "value": "81%"
+          "value": "82%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 45
+          "value": 46
         },
         {
           "type": "Total Shots",
@@ -818,7 +854,7 @@
         },
         {
           "type": "Fouls",
-          "value": 12
+          "value": 13
         },
         {
           "type": "Yellow Cards",

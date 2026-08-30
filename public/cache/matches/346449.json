@@ -7,12 +7,12 @@
       "city": ""
     },
     "status": {
-      "long": "2H",
-      "short": "2H",
-      "elapsed": 104
+      "long": "FT",
+      "short": "FT",
+      "elapsed": 90
     },
     "timerStart": "2026-08-30T22:36:54.288Z",
-    "timerStatus": "INICIADO"
+    "timerStatus": "PAUSADO"
   },
   "league": {
     "round": "Regular Season - 25"
@@ -39,8 +39,8 @@
       "away": null
     },
     "fulltime": {
-      "home": null,
-      "away": null
+      "home": 1,
+      "away": 1
     }
   },
   "odds": {
@@ -882,11 +882,11 @@
         },
         {
           "type": "Yellow Cards",
-          "value": 2
+          "value": 0
         },
         {
           "type": "Red Cards",
-          "value": 0
+          "value": 1
         }
       ]
     }

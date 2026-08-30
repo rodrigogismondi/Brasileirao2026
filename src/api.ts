@@ -97,6 +97,26 @@ function mapMatch(f: RawFixture): Match {
       status = "live";
     }
   }
+  // Soft-FT: GE often leaves 2H/INICIADO after the final whistle.
+  // timerStart is second-half kickoff — 56'+ ≈ 90+11'.
+  if (status === "live" && (period === "2H" || period === "ET")) {
+    const startMs = Date.parse(f.fixture.timerStart || "");
+    if (Number.isFinite(startMs)) {
+      const halfMins = Math.floor((Date.now() - startMs) / 60000);
+      const threshold = period === "ET" ? 35 : 56;
+      if (halfMins >= threshold) {
+        status = "finished";
+      }
+    }
+    if (
+      status === "live" &&
+      period === "2H" &&
+      f.fixture.status.elapsed != null &&
+      f.fixture.status.elapsed >= 102
+    ) {
+      status = "finished";
+    }
+  }
   const score =
     f.goals.home != null && f.goals.away != null ? ([f.goals.home, f.goals.away] as [number, number]) : null;
   const odds =
@@ -119,7 +139,7 @@ function mapMatch(f: RawFixture): Match {
     status,
     score: score ?? (isLive ? ([0, 0] as [number, number]) : null),
     liveMinute: isLive ? f.fixture.status.elapsed : null,
-    period: isLive ? (period === "NS" ? "1H" : period) : null,
+    period: isLive ? (period === "NS" ? "1H" : period) : status === "finished" ? "FT" : null,
     timerStart: isLive ? f.fixture.timerStart ?? null : null,
     timerStatus: isLive ? f.fixture.timerStatus ?? null : null,
     date: dt.toISOString().slice(0, 10),

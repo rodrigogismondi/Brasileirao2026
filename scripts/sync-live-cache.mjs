@@ -616,6 +616,21 @@ function maxPlayElapsed(plays) {
   );
 }
 
+/** GE often keeps transmission.period on 2T after the whistle; plays flip to FIM_DE_JOGO. */
+function playsIndicateFullTime(plays) {
+  for (const p of plays || []) {
+    const period = String(p.period?.abbreviation || p.period?.id || "");
+    if (/ENCERR|POS_JOGO|FIM_DE_JOGO|FIM DE JOGO|^FT$/i.test(period)) return true;
+    const blocks = p.body?.blocks;
+    const bodyText = Array.isArray(blocks)
+      ? blocks.map((b) => b?.text || "").join(" ")
+      : "";
+    const text = `${p.title || ""} ${bodyText}`.replace(/\s+/g, " ").trim();
+    if (/^fim de jogo\b/i.test(text) || /\bfim de jogo!/i.test(text)) return true;
+  }
+  return false;
+}
+
 /**
  * GE's `currentTime` is often stuck at "00:00". The real clock is
  * `timerStart` (period kickoff ISO) + `timerStatus: INICIADO`.
@@ -677,7 +692,7 @@ function maybePromotePeriod(status, transmission, plays, clockElapsed) {
   }
   const timerStatus = String(transmission?.timerStatus || "").toUpperCase();
   const period = String(transmission?.period?.abbreviation || transmission?.period?.id || "");
-  if (/ENCERR|POS_JOGO|FIM_DE_JOGO|FIM DE JOGO|^FT$/i.test(period)) {
+  if (/ENCERR|POS_JOGO|FIM_DE_JOGO|FIM DE JOGO|^FT$/i.test(period) || playsIndicateFullTime(plays)) {
     return { long: "FT", short: "FT", elapsed: 90 };
   }
   if (/INTERVALO|^HT$/i.test(period)) {
@@ -692,6 +707,20 @@ function maybePromotePeriod(status, transmission, plays, clockElapsed) {
     (elapsed >= 90 || playMax >= 90)
   ) {
     return { long: "FT", short: "FT", elapsed: 90 };
+  }
+  // Soft FT: GE left 2H/INICIADO ticking after the match ended (common lag).
+  // 2H timerStart is the second-half kickoff — 56'+ of that clock ≈ 90+11'.
+  if (status.short === "2H") {
+    const startMs = Date.parse(transmission?.timerStart || "");
+    if (Number.isFinite(startMs)) {
+      const halfMins = Math.floor((Date.now() - startMs) / 60000);
+      if (halfMins >= 56) {
+        return { long: "FT", short: "FT", elapsed: 90 };
+      }
+    }
+    if (elapsed >= 102 || playMax >= 100) {
+      return { long: "FT", short: "FT", elapsed: 90 };
+    }
   }
   // End of 1H: whistle + pause, or plays already past 45'
   if (

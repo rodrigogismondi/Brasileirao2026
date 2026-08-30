@@ -7,11 +7,11 @@
       "city": ""
     },
     "status": {
-      "long": "2H",
-      "short": "2H",
-      "elapsed": 98
+      "long": "FT",
+      "short": "FT",
+      "elapsed": 90
     },
-    "timerStart": "2026-08-30T21:02:40.941Z",
+    "timerStart": "2026-08-30T21:19:25.418Z",
     "timerStatus": "PAUSADO"
   },
   "league": {
@@ -39,8 +39,8 @@
       "away": null
     },
     "fulltime": {
-      "home": null,
-      "away": null
+      "home": 0,
+      "away": 1
     }
   },
   "odds": {
@@ -504,7 +504,7 @@
         {
           "player": {
             "id": "luizfernandonardi",
-            "name": "Luiz Fernando",
+            "name": "Luizinho",
             "number": 64,
             "pos": "Ata",
             "grid": null
@@ -889,5 +889,5 @@
       ]
     }
   ],
-  "sportsFieldUrl": "https://widgets.thesports01.com/br/2d/football?profile=9gm9whvzgheuzr0&uuid=vjxm8ghe54jer6o&hidetime=1"
+  "sportsFieldUrl": null
 }

@@ -2,7 +2,22 @@ import { fetchDashboard, fetchMatchDetail, matchSummaryFromList } from "./api";
 import { detectLang, LOCALE, saveLang, type Lang } from "./i18n";
 import { renderApp, type AppState } from "./render";
 import type { MatchDetailTab, ViewId } from "./types";
+import { registerSW } from "virtual:pwa-register";
 import "./style.css";
+
+registerSW({
+  immediate: true,
+  onRegisteredSW(_swUrl, registration) {
+    if (!registration) return;
+    // Pick up new deploys while the PWA stays open (common on mobile).
+    setInterval(() => {
+      void registration.update();
+    }, 60_000);
+  },
+  onNeedRefresh() {
+    window.location.reload();
+  },
+});
 
 const IDLE_REFRESH_MS = 15 * 60_000;
 

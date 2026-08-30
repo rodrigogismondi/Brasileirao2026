@@ -72,29 +72,27 @@ function logoImg(src: string, alt: string, size = 28): string {
 }
 
 function statLabel(key: string, lang: Lang): string {
-  const map: Record<string, string> =
-    lang === "pt"
-      ? {
-          "Ball Possession": "Posse de bola",
-          "Total Passes": "Total de passes",
-          "Pass Accuracy": "Precisão de passe",
-          "Incomplete Passes": "Passes errados",
-          "Total Shots": "Finalizações",
-          "Shots on Goal": "Chutes no gol",
-          "Shots off Goal": "Chutes para fora",
-          "Blocked Shots": "Chutes bloqueados",
-          "Hit Woodwork": "Na trave",
-          "Corner Kicks": "Escanteios",
-          Offsides: "Impedimentos",
-          Penalties: "Pênaltis",
-          "Goalkeeper Saves": "Defesas",
-          Tackles: "Desarmes",
-          Fouls: "Faltas",
-          "Yellow Cards": "Cartões amarelos",
-          "Red Cards": "Cartões vermelhos",
-        }
-      : {};
-  return map[key] ?? key;
+  const pt: Record<string, string> = {
+    "Ball Possession": "Posse de bola",
+    "Total Passes": "Total de passes",
+    "Pass Accuracy": "Precisão de passe",
+    "Incomplete Passes": "Passes errados",
+    "Total Shots": "Finalizações",
+    "Shots on Goal": "Chutes no gol",
+    "Shots off Goal": "Chutes para fora",
+    "Blocked Shots": "Chutes bloqueados",
+    "Hit Woodwork": "Na trave",
+    "Corner Kicks": "Escanteios",
+    Offsides: "Impedimentos",
+    Penalties: "Pênaltis",
+    "Goalkeeper Saves": "Defesas",
+    Tackles: "Desarmes",
+    Fouls: "Faltas",
+    "Yellow Cards": "Cartões amarelos",
+    "Red Cards": "Cartões vermelhos",
+  };
+  if (lang !== "pt") return key;
+  return pt[key] ?? key;
 }
 
 function parseStatNumber(v: string | number): number {

@@ -77,7 +77,7 @@ export default defineConfig(({ mode }) => {
       apiProxyPlugin(apiKey, forceDemo),
       VitePWA({
         registerType: "autoUpdate",
-        injectRegister: "auto",
+        injectRegister: null,
         includeAssets: ["favicon.ico", "favicon-32x32.png", "apple-touch-icon.png"],
         manifest: {
           name: "Brasileirão 2026",

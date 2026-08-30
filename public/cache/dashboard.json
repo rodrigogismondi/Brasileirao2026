@@ -12345,7 +12345,7 @@
         "status": {
           "long": "1H",
           "short": "1H",
-          "elapsed": 4
+          "elapsed": 7
         },
         "timerStart": "2026-08-30T22:31:29.617Z",
         "timerStatus": "INICIADO"
@@ -18594,14 +18594,14 @@
                 "name": "Bahia",
                 "logo": "https://s.sde.globo.com/media/organizations/2018/03/11/bahia.svg"
               },
-              "points": 37,
+              "points": 38,
               "goalsDiff": 6,
-              "form": "DDDDW",
+              "form": "DDDWD",
               "description": "Copa Sudamericana",
               "all": {
-                "played": 24,
+                "played": 25,
                 "win": 9,
-                "draw": 10,
+                "draw": 11,
                 "lose": 5,
                 "goals": {
                   "for": 34,
@@ -18810,6 +18810,28 @@
             {
               "rank": 16,
               "team": {
+                "id": 285,
+                "name": "Internacional",
+                "logo": "https://s.sde.globo.com/media/organizations/2018/03/11/internacional.svg"
+              },
+              "points": 26,
+              "goalsDiff": -4,
+              "form": "DDDDD",
+              "description": null,
+              "all": {
+                "played": 25,
+                "win": 5,
+                "draw": 11,
+                "lose": 9,
+                "goals": {
+                  "for": 24,
+                  "against": 28
+                }
+              }
+            },
+            {
+              "rank": 17,
+              "team": {
                 "id": 2305,
                 "name": "Mirassol",
                 "logo": "https://s.sde.globo.com/media/organizations/2026/07/17/MIrassol.svg"
@@ -18817,7 +18839,7 @@
               "points": 25,
               "goalsDiff": -10,
               "form": "WLLDD",
-              "description": null,
+              "description": "Relegation",
               "all": {
                 "played": 24,
                 "win": 6,
@@ -18830,7 +18852,7 @@
               }
             },
             {
-              "rank": 17,
+              "rank": 18,
               "team": {
                 "id": 267,
                 "name": "Vasco",
@@ -18848,28 +18870,6 @@
                 "goals": {
                   "for": 27,
                   "against": 39
-                }
-              }
-            },
-            {
-              "rank": 18,
-              "team": {
-                "id": 285,
-                "name": "Internacional",
-                "logo": "https://s.sde.globo.com/media/organizations/2018/03/11/internacional.svg"
-              },
-              "points": 25,
-              "goalsDiff": -4,
-              "form": "LDDDD",
-              "description": "Relegation",
-              "all": {
-                "played": 24,
-                "win": 5,
-                "draw": 10,
-                "lose": 9,
-                "goals": {
-                  "for": 24,
-                  "against": 28
                 }
               }
             },
@@ -20031,7 +20031,7 @@
     "mode": "live",
     "liveIntervalMs": 20000
   },
-  "fetchedAt": "2026-08-30T22:36:17.860Z",
+  "fetchedAt": "2026-08-30T22:39:15.498Z",
   "source": "ge-globo",
   "meta": {
     "rodada": 25,

@@ -31,7 +31,7 @@ List polls do **not** multiply by concurrent matches — one live call returns a
 
 [API-Football](https://www.api-football.com/) — league id `71`, season `2026`.
 
-Without a key, the app syncs **live scores and standings from GE Globo** on every GitHub Pages deploy (and every 15 minutes via Actions). Demo data is only used if that sync fails.
+Without a key, the app syncs **live scores, standings, and match details** (events, lineups, stats) from GE Globo on every GitHub Pages deploy (and every 15 minutes via Actions). Finished and in-progress fixtures are enriched from each match’s transmission page (`window.trv2`). Demo data is only used if that sync fails.
 
 ## Setup
 

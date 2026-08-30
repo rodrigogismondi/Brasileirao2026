@@ -77,6 +77,8 @@ function statLabel(key: string, lang: Lang): string {
           "Ball Possession": "Posse de bola",
           "Total Shots": "Finalizações",
           "Shots on Goal": "Chutes no gol",
+          "Shots off Goal": "Chutes para fora",
+          "Blocked Shots": "Chutes bloqueados",
           "Corner Kicks": "Escanteios",
           Fouls: "Faltas",
           "Yellow Cards": "Cartões amarelos",

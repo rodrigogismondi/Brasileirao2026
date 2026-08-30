@@ -1,0 +1,54 @@
+{
+  "fixture": {
+    "id": 346261,
+    "timestamp": 1770251400,
+    "venue": {
+      "name": "Arena do Grêmio",
+      "city": ""
+    },
+    "status": {
+      "long": "FT",
+      "short": "FT",
+      "elapsed": 90
+    }
+  },
+  "league": {
+    "round": "Regular Season - 2"
+  },
+  "teams": {
+    "home": {
+      "id": 284,
+      "name": "Grêmio",
+      "logo": "https://s.sde.globo.com/media/organizations/2018/03/12/gremio.svg"
+    },
+    "away": {
+      "id": 263,
+      "name": "Botafogo",
+      "logo": "https://s.sde.globo.com/media/organizations/2019/02/04/botafogo-svg.svg"
+    }
+  },
+  "goals": {
+    "home": 5,
+    "away": 3
+  },
+  "score": {
+    "halftime": {
+      "home": null,
+      "away": null
+    },
+    "fulltime": {
+      "home": 5,
+      "away": 3
+    }
+  },
+  "odds": {
+    "home": 2.33,
+    "draw": 3.13,
+    "away": 3.3,
+    "source": "betexplorer"
+  },
+  "events": [],
+  "lineups": [],
+  "statistics": [],
+  "sportsFieldUrl": null
+}

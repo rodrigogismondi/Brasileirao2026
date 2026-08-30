@@ -92,8 +92,9 @@ function parseTrv2(html) {
 
 /** Interpret GE wall-clock `YYYY-MM-DDTHH:mm` as America/Sao_Paulo. */
 function tsBrazilLocal(isoLocal) {
-  const m = isoLocal.match(/^(\d{4})-(\d{2})-(\d{2})T(\d{2}):(\d{2})/);
-  if (!m) return Math.floor(Date.now() / 1000);
+  if (!isoLocal) return null;
+  const m = String(isoLocal).match(/^(\d{4})-(\d{2})-(\d{2})T(\d{2}):(\d{2})/);
+  if (!m) return null;
   const [, y, mo, d, h, mi] = m.map(Number);
   // São Paulo is UTC−3 year-round
   return Math.floor(Date.UTC(y, mo - 1, d, h + 3, mi, 0) / 1000);
@@ -133,50 +134,57 @@ function mapStatus(jogo) {
 }
 
 function mapFixtures(listaJogos, rodadaAtual) {
-  return (listaJogos ?? []).map((jogo) => {
-    const home = jogo.equipes.mandante;
-    const away = jogo.equipes.visitante;
+  return (listaJogos ?? []).flatMap((jogo) => {
+    const home = jogo?.equipes?.mandante;
+    const away = jogo?.equipes?.visitante;
+    if (!jogo?.id || !home || !away) return [];
     const status = mapStatus(jogo);
-    const ts = tsBrazilLocal(jogo.data_realizacao);
+    const parsedTs = tsBrazilLocal(jogo.data_realizacao);
+    // Postponed / TBD kickoffs occasionally omit data_realizacao — keep a stable sort key.
+    const ts =
+      parsedTs ??
+      Math.floor(Date.UTC(2026, 0, 1) / 1000) + Number(rodadaAtual) * 86400 + Number(jogo.id % 1000);
     const goalsHome = jogo.placar_oficial_mandante;
     const goalsAway = jogo.placar_oficial_visitante;
-    return {
-      fixture: {
-        id: jogo.id,
-        timestamp: ts,
-        venue: {
-          name: jogo.sede?.nome_popular ?? "",
-          city: "",
+    return [
+      {
+        fixture: {
+          id: jogo.id,
+          timestamp: ts,
+          venue: {
+            name: jogo.sede?.nome_popular ?? "",
+            city: "",
+          },
+          status: {
+            long: status.short,
+            short: status.short,
+            elapsed: status.elapsed,
+          },
         },
-        status: {
-          long: status.short,
-          short: status.short,
-          elapsed: status.elapsed,
+        league: { round: `Regular Season - ${rodadaAtual}` },
+        teams: {
+          home: {
+            id: home.id,
+            name: home.nome_popular,
+            logo: home.escudo,
+          },
+          away: {
+            id: away.id,
+            name: away.nome_popular,
+            logo: away.escudo,
+          },
         },
+        goals: { home: goalsHome, away: goalsAway },
+        score: {
+          halftime: { home: null, away: null },
+          fulltime: {
+            home: status.short === "FT" ? goalsHome : null,
+            away: status.short === "FT" ? goalsAway : null,
+          },
+        },
+        _geUrl: jogo.transmissao?.url ?? null,
       },
-      league: { round: `Regular Season - ${rodadaAtual}` },
-      teams: {
-        home: {
-          id: home.id,
-          name: home.nome_popular,
-          logo: home.escudo,
-        },
-        away: {
-          id: away.id,
-          name: away.nome_popular,
-          logo: away.escudo,
-        },
-      },
-      goals: { home: goalsHome, away: goalsAway },
-      score: {
-        halftime: { home: null, away: null },
-        fulltime: {
-          home: status.short === "FT" ? goalsHome : null,
-          away: status.short === "FT" ? goalsAway : null,
-        },
-      },
-      _geUrl: jogo.transmissao?.url ?? null,
-    };
+    ];
   });
 }
 
@@ -389,10 +397,80 @@ function mapStatistics(stats, home, away) {
   ];
 }
 
-function shouldEnrich(fixtureRow) {
-  // Current rodada is ~10 matches; enrich all with a GE page so pre-match
-  // lineups appear as soon as GE publishes them (not only after kickoff).
-  return Boolean(fixtureRow._geUrl);
+function shouldEnrich(fixtureRow, rodadaAtual) {
+  if (!fixtureRow._geUrl) return false;
+  const st = fixtureRow.fixture.status.short;
+  if (["1H", "HT", "2H", "LIVE", "ET", "BT", "P"].includes(st)) return true;
+  const round = Number(String(fixtureRow.league?.round || "").match(/(\d+)\s*$/)?.[1] || 0);
+  // Full transmission enrich only for the current round (~10 pages).
+  return round === rodadaAtual;
+}
+
+const GE_RESOURCE_FALLBACK = "d1a37fa4-e948-43a6-ba53-ab24ab3a45b1";
+const GE_FASE_FALLBACK = "fase-unica-campeonato-brasileiro-2026";
+
+function parseGeTabelaIds(html) {
+  const resourceId =
+    html.match(/data-bs-resource-id="([^"]+)"/)?.[1] || GE_RESOURCE_FALLBACK;
+  const faseSlug =
+    html.match(/fase-unica-campeonato-brasileiro-\d+/)?.[0] || GE_FASE_FALLBACK;
+  return { resourceId, faseSlug };
+}
+
+async function fetchRoundJogos(resourceId, faseSlug, n) {
+  const url = `https://api.globoesporte.globo.com/tabela/${resourceId}/fase/${faseSlug}/rodada/${n}/jogos`;
+  const ctrl = new AbortController();
+  const t = setTimeout(() => ctrl.abort(), 20000);
+  try {
+    const res = await fetch(url, {
+      headers: { ...FETCH_HEADERS, Accept: "application/json" },
+      signal: ctrl.signal,
+    });
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    const data = await res.json();
+    if (!Array.isArray(data)) {
+      throw new Error(`Unexpected round payload (${typeof data})`);
+    }
+    return data;
+  } finally {
+    clearTimeout(t);
+  }
+}
+
+/** All season rounds from GE API; current-round HTML fixtures overlay (live status). */
+async function fetchSeasonFixtures(html, data, currentFixtures) {
+  const rodadaAtual = data.rodada?.atual ?? 1;
+  const ultima = data.rodada?.ultima ?? 38;
+  const { resourceId, faseSlug } = parseGeTabelaIds(html);
+  const byId = new Map();
+
+  for (let n = 1; n <= ultima; n++) {
+    try {
+      const jogos = await fetchRoundJogos(resourceId, faseSlug, n);
+      for (const f of mapFixtures(jogos, n)) {
+        byId.set(f.fixture.id, f);
+      }
+    } catch (err) {
+      console.warn(
+        `Round ${n} fetch failed:`,
+        err instanceof Error ? err.stack || err.message : String(err)
+      );
+    }
+    await sleep(120);
+  }
+
+  // Prefer tabela HTML for current round (live clock / fresher scores).
+  for (const f of currentFixtures) {
+    byId.set(f.fixture.id, f);
+  }
+
+  return {
+    fixtures: [...byId.values()].sort((a, b) => a.fixture.timestamp - b.fixture.timestamp),
+    resourceId,
+    faseSlug,
+    ultima,
+    rodadaAtual,
+  };
 }
 
 async function fetchHtml(url, timeoutMs = 20000) {
@@ -781,7 +859,10 @@ async function main() {
     const html = await fetchGeHtml();
     const data = parseGeScript(html);
     const rodada = data.rodada?.atual ?? 0;
-    const fixtures = mapFixtures(data.lista_jogos, rodada);
+    const currentFixtures = mapFixtures(data.lista_jogos, rodada);
+    const season = await fetchSeasonFixtures(html, data, currentFixtures);
+    const fixtures = season.fixtures;
+    const ultimaRodada = season.ultima;
     const standings = mapStandings(data.classificacao);
     const nowSec = Math.floor(Date.now() / 1000);
     const hasLive = fixtures.some((f) =>
@@ -806,6 +887,14 @@ async function main() {
       if (odds) oddsMatched++;
     }
 
+    const rounds = [
+      ...new Set(
+        fixtures
+          .map((f) => Number(String(f.league?.round || "").match(/(\d+)\s*$/)?.[1] || 0))
+          .filter((n) => n > 0)
+      ),
+    ].sort((a, b) => a - b);
+
     const payload = {
       fixtures: fixtures.map(({ _geUrl, ...f }) => f),
       standings,
@@ -821,11 +910,14 @@ async function main() {
       source: "ge-globo",
       meta: {
         rodada,
+        ultimaRodada,
+        rounds,
         edicao: data.edicao?.nome ?? "Campeonato Brasileiro",
         provider: "ge.globo.com",
         scorersCount: scorers.length,
         oddsMatched,
         oddsAvailable: oddsMap.size,
+        fixturesCount: fixtures.length,
       },
     };
 
@@ -839,7 +931,7 @@ async function main() {
     let failed = 0;
     for (const f of fixtures) {
       let detail = minimalMatchDetail(f);
-      if (shouldEnrich(f)) {
+      if (shouldEnrich(f, rodada)) {
         try {
           detail = await enrichFromTransmission(f);
           enriched++;
@@ -870,7 +962,7 @@ async function main() {
     writeFileSync(join(CACHE_DIR, "dashboard.json"), JSON.stringify(payload, null, 2));
 
     console.log(
-      `Synced GE cache: rodada ${rodada}, ${fixtures.length} jogos, ${data.classificacao?.length ?? 0} times, enriched=${enriched}, failed=${failed}, scorers=${scorers.length}, odds=${oddsMatched}/${oddsMap.size}, source=${payload.source}`
+      `Synced GE cache: rodada ${rodada}/${ultimaRodada}, ${fixtures.length} jogos, ${data.classificacao?.length ?? 0} times, enriched=${enriched}, failed=${failed}, scorers=${scorers.length}, odds=${oddsMatched}/${oddsMap.size}, source=${payload.source}`
     );
   } catch (err) {
     writeDemoFallback(err instanceof Error ? err.message : String(err));

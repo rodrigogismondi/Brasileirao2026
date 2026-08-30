@@ -7,12 +7,12 @@
       "city": ""
     },
     "status": {
-      "long": "HT",
-      "short": "HT",
-      "elapsed": 45
+      "long": "2H",
+      "short": "2H",
+      "elapsed": 49
     },
-    "timerStart": "2026-08-30T19:49:19.101Z",
-    "timerStatus": "PAUSADO"
+    "timerStart": "2026-08-30T20:07:23.483Z",
+    "timerStatus": "INICIADO"
   },
   "league": {
     "round": "Regular Season - 25"
@@ -45,11 +45,29 @@
   },
   "odds": {
     "home": 1.28,
-    "draw": 5.75,
-    "away": 9.63,
+    "draw": 5.7,
+    "away": 9.95,
     "source": "betexplorer"
   },
   "events": [
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 263,
+        "name": "Botafogo"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Danilo Pereira"
+      },
+      "assist": {
+        "name": "Montoro"
+      }
+    },
     {
       "time": {
         "elapsed": 12,
@@ -580,7 +598,7 @@
         },
         {
           "type": "Pass Accuracy",
-          "value": "23%"
+          "value": "22%"
         }
       ]
     },
@@ -612,7 +630,7 @@
         },
         {
           "type": "Fouls",
-          "value": 3
+          "value": 4
         },
         {
           "type": "Offsides",
@@ -632,7 +650,7 @@
         },
         {
           "type": "Pass Accuracy",
-          "value": "53%"
+          "value": "52%"
         }
       ]
     }

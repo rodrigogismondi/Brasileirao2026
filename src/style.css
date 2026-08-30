@@ -291,6 +291,58 @@ a {
   color: var(--accent);
 }
 
+.round-bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  margin: 0 0 1rem;
+  padding: 0.55rem 0.65rem;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: rgba(255, 255, 255, 0.03);
+}
+
+.round-nav-btn {
+  width: 2.1rem;
+  height: 2.1rem;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  background: rgba(255, 255, 255, 0.04);
+  color: var(--text);
+  font-size: 1.35rem;
+  line-height: 1;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+.round-nav-btn:disabled {
+  opacity: 0.35;
+  cursor: default;
+}
+
+.round-select {
+  flex: 1;
+  max-width: 14rem;
+  appearance: none;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: rgba(0, 0, 0, 0.25);
+  padding-right: 0.75rem;
+  color: var(--text);
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 0.95rem;
+  padding: 0.45rem 2rem 0.45rem 0.75rem;
+  text-align: center;
+  cursor: pointer;
+}
+
+.round-select:focus {
+  outline: 2px solid rgba(240, 196, 25, 0.45);
+  outline-offset: 1px;
+}
+
 .day-header {
   margin: 1.25rem 0 0.75rem;
   font-family: var(--display);

@@ -307,7 +307,6 @@ export function renderApp(state: AppState): string {
             </div>
           </div>
           <div class="header-actions">
-            ${data?.demo ? `<span class="demo-badge">${escapeHtml(t(lang, "demoBadge"))}</span>` : data ? `<span class="demo-badge demo-badge-live">${escapeHtml(t(lang, "liveSourceBadge"))}</span>` : ""}
             ${renderLangSwitch(lang)}
             ${updated ? `<span class="updated" title="${escapeHtml(budget)}">${escapeHtml(t(lang, "updated", { time: updated }))}</span>` : ""}
             <button class="btn btn-ghost" data-action="refresh" title="${escapeHtml(t(lang, "refreshNow"))}" ${loading ? "disabled" : ""}>
@@ -323,9 +322,6 @@ export function renderApp(state: AppState): string {
         </nav>
       </header>
       <main class="main">${content}</main>
-      <footer class="footer">
-        <p>${escapeHtml(t(lang, "footer"))}</p>
-      </footer>
     </div>
     ${renderMatchDetailOverlay(state)}`;
 }

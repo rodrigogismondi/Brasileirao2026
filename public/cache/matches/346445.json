@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 15
+      "elapsed": 34
     }
   },
   "league": {
@@ -63,6 +63,24 @@
         "name": "Samuel Lino"
       },
       "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 20,
+        "extra": null
+      },
+      "team": {
+        "id": 263,
+        "name": "Botafogo"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Lucas Monzón"
+      },
+      "assist": {
+        "name": "Alex Telles"
+      }
     }
   ],
   "lineups": [
@@ -520,35 +538,35 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "77%"
+          "value": "72%"
         },
         {
           "type": "Total Shots",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Shots off Goal",
-          "value": 2
+          "value": 8
         },
         {
           "type": "Blocked Shots",
-          "value": 1
+          "value": 5
         },
         {
           "type": "Corner Kicks",
-          "value": 2
+          "value": 4
         },
         {
           "type": "Fouls",
-          "value": 1
+          "value": 4
         },
         {
           "type": "Offsides",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 1
+          "value": 3
         },
         {
           "type": "Yellow Cards",
@@ -560,7 +578,7 @@
         },
         {
           "type": "Pass Accuracy",
-          "value": "66%"
+          "value": "30%"
         }
       ]
     },
@@ -572,19 +590,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "23%"
+          "value": "28%"
         },
         {
           "type": "Total Shots",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Shots off Goal",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Blocked Shots",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Corner Kicks",
@@ -592,7 +610,7 @@
         },
         {
           "type": "Fouls",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Offsides",
@@ -600,7 +618,7 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 1
+          "value": 6
         },
         {
           "type": "Yellow Cards",
@@ -612,7 +630,7 @@
         },
         {
           "type": "Pass Accuracy",
-          "value": "228%"
+          "value": "94%"
         }
       ]
     }

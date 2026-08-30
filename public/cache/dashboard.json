@@ -44,9 +44,9 @@
         }
       },
       "odds": {
-        "home": 1.89,
-        "draw": 3.28,
-        "away": 4.44,
+        "home": 1.91,
+        "draw": 3.33,
+        "away": 4.24,
         "source": "betexplorer"
       }
     },
@@ -94,9 +94,9 @@
         }
       },
       "odds": {
-        "home": 2.44,
-        "draw": 3.13,
-        "away": 3,
+        "home": 2.42,
+        "draw": 3.22,
+        "away": 2.98,
         "source": "betexplorer"
       }
     },
@@ -144,9 +144,9 @@
         }
       },
       "odds": {
-        "home": 1.97,
-        "draw": 3.41,
-        "away": 3.84,
+        "home": 1.96,
+        "draw": 3.47,
+        "away": 3.83,
         "source": "betexplorer"
       }
     },
@@ -194,8 +194,8 @@
         }
       },
       "odds": {
-        "home": 2.35,
-        "draw": 3.05,
+        "home": 2.34,
+        "draw": 3.1,
         "away": 3.23,
         "source": "betexplorer"
       }
@@ -211,7 +211,7 @@
         "status": {
           "long": "1H",
           "short": "1H",
-          "elapsed": 15
+          "elapsed": 34
         }
       },
       "league": {
@@ -261,7 +261,7 @@
         "status": {
           "long": "1H",
           "short": "1H",
-          "elapsed": 13
+          "elapsed": 36
         }
       },
       "league": {
@@ -281,7 +281,7 @@
       },
       "goals": {
         "home": 0,
-        "away": 0
+        "away": 1
       },
       "score": {
         "halftime": {
@@ -344,9 +344,9 @@
         }
       },
       "odds": {
-        "home": 3.48,
+        "home": 3.39,
         "draw": 3.26,
-        "away": 2.14,
+        "away": 2.17,
         "source": "betexplorer"
       }
     },
@@ -359,8 +359,8 @@
           "city": ""
         },
         "status": {
-          "long": "1H",
-          "short": "1H",
+          "long": "NS",
+          "short": "NS",
           "elapsed": null
         }
       },
@@ -396,7 +396,7 @@
       "odds": {
         "home": 1.54,
         "draw": 4.06,
-        "away": 5.94,
+        "away": 5.92,
         "source": "betexplorer"
       }
     },
@@ -409,8 +409,8 @@
           "city": ""
         },
         "status": {
-          "long": "1H",
-          "short": "1H",
+          "long": "NS",
+          "short": "NS",
           "elapsed": null
         }
       },
@@ -459,8 +459,8 @@
           "city": ""
         },
         "status": {
-          "long": "1H",
-          "short": "1H",
+          "long": "NS",
+          "short": "NS",
           "elapsed": null
         }
       },
@@ -711,18 +711,18 @@
                 "name": "Corinthians",
                 "logo": "https://s.sde.globo.com/media/organizations/2024/10/09/Corinthians_2024_Q4ahot4.svg"
               },
-              "points": 33,
-              "goalsDiff": 2,
-              "form": "DWLLD",
+              "points": 32,
+              "goalsDiff": 1,
+              "form": "DWLLL",
               "description": "Copa Sudamericana",
               "all": {
                 "played": 25,
                 "win": 8,
-                "draw": 9,
-                "lose": 8,
+                "draw": 8,
+                "lose": 9,
                 "goals": {
                   "for": 26,
-                  "against": 24
+                  "against": 25
                 }
               }
             },
@@ -799,17 +799,17 @@
                 "name": "Santos",
                 "logo": "https://s.sde.globo.com/media/organizations/2018/03/12/santos.svg"
               },
-              "points": 27,
-              "goalsDiff": -3,
-              "form": "DLWDD",
+              "points": 29,
+              "goalsDiff": -2,
+              "form": "DLWDW",
               "description": null,
               "all": {
                 "played": 24,
-                "win": 6,
-                "draw": 9,
+                "win": 7,
+                "draw": 8,
                 "lose": 9,
                 "goals": {
-                  "for": 33,
+                  "for": 34,
                   "against": 36
                 }
               }
@@ -2058,9 +2058,9 @@
     "used": 0,
     "remaining": 100,
     "mode": "live",
-    "liveIntervalMs": 90000
+    "liveIntervalMs": 60000
   },
-  "fetchedAt": "2026-08-30T19:18:00.962Z",
+  "fetchedAt": "2026-08-30T19:38:49.265Z",
   "source": "ge-globo",
   "meta": {
     "rodada": 25,

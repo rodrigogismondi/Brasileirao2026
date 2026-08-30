@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 91
+      "elapsed": 94
     },
     "timerStart": "2026-08-30T22:38:14.542Z",
     "timerStatus": "INICIADO"
@@ -357,6 +357,22 @@
       "assist": {
         "name": "Marcinho"
       }
+    },
+    {
+      "time": {
+        "elapsed": 91,
+        "extra": null
+      },
+      "team": {
+        "id": 284,
+        "name": "Grêmio"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Tetê"
+      },
+      "assist": null
     }
   ],
   "lineups": [
@@ -800,15 +816,15 @@
         },
         {
           "type": "Total Passes",
-          "value": 480
+          "value": 507
         },
         {
           "type": "Pass Accuracy",
-          "value": "86%"
+          "value": "87%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 65
+          "value": 67
         },
         {
           "type": "Total Shots",
@@ -844,7 +860,7 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 9
+          "value": 11
         },
         {
           "type": "Tackles",
@@ -876,7 +892,7 @@
         },
         {
           "type": "Total Passes",
-          "value": 476
+          "value": 491
         },
         {
           "type": "Pass Accuracy",
@@ -884,7 +900,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 63
+          "value": 64
         },
         {
           "type": "Total Shots",

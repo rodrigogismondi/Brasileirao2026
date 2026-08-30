@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 19
+      "elapsed": 22
     },
     "timerStart": "2026-08-30T22:31:29.617Z",
     "timerStatus": "INICIADO"
@@ -31,7 +31,7 @@
   },
   "goals": {
     "home": 0,
-    "away": 0
+    "away": 1
   },
   "score": {
     "halftime": {
@@ -63,6 +63,22 @@
       "detail": "Normal Goal",
       "player": {
         "name": "Alan Patrick"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 17,
+        "extra": null
+      },
+      "team": {
+        "id": 285,
+        "name": "Internacional"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "?"
       },
       "assist": null
     }
@@ -522,19 +538,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "62%"
+          "value": "63%"
         },
         {
           "type": "Total Passes",
-          "value": 170
+          "value": 192
         },
         {
           "type": "Pass Accuracy",
-          "value": "89%"
+          "value": "88%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 19
+          "value": 24
         },
         {
           "type": "Total Shots",
@@ -574,7 +590,7 @@
         },
         {
           "type": "Tackles",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Fouls",
@@ -598,19 +614,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "38%"
+          "value": "37%"
         },
         {
           "type": "Total Passes",
-          "value": 75
+          "value": 91
         },
         {
           "type": "Pass Accuracy",
-          "value": "80%"
+          "value": "81%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 15
+          "value": 17
         },
         {
           "type": "Total Shots",
@@ -650,7 +666,7 @@
         },
         {
           "type": "Tackles",
-          "value": 6
+          "value": 7
         },
         {
           "type": "Fouls",
@@ -658,7 +674,7 @@
         },
         {
           "type": "Yellow Cards",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Red Cards",

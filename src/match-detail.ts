@@ -274,11 +274,25 @@ function normPlayerName(name: string): string {
     .replace(/[^a-z0-9]/g, "");
 }
 
+function playerNameTokens(name: string): string[] {
+  return String(name || "")
+    .split(/\s+/)
+    .map(normPlayerName)
+    .filter(Boolean);
+}
+
+/** Match scorers/subs to lineup names without substring false positives (Cano≠Canobbio, Léo≠Leozinho). */
 function samePlayer(a: string, b: string): boolean {
   const na = normPlayerName(a);
   const nb = normPlayerName(b);
   if (!na || !nb) return false;
-  return na === nb || na.includes(nb) || nb.includes(na);
+  if (na === nb) return true;
+  const ta = playerNameTokens(a);
+  const tb = playerNameTokens(b);
+  // Single-token nickname/surname must equal a full token on the other side
+  if (ta.length === 1 && tb.includes(ta[0])) return true;
+  if (tb.length === 1 && ta.includes(tb[0])) return true;
+  return false;
 }
 
 function playerGoalCount(detail: MatchDetail, team: 1 | 2, playerName: string): number {

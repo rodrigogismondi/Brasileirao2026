@@ -12241,7 +12241,7 @@
         "status": {
           "long": "2H",
           "short": "2H",
-          "elapsed": 65
+          "elapsed": 68
         },
         "timerStart": "2026-08-30T22:36:54.288Z",
         "timerStatus": "INICIADO"
@@ -12293,7 +12293,7 @@
         "status": {
           "long": "2H",
           "short": "2H",
-          "elapsed": 64
+          "elapsed": 67
         },
         "timerStart": "2026-08-30T22:38:14.542Z",
         "timerStatus": "INICIADO"
@@ -12345,7 +12345,7 @@
         "status": {
           "long": "1H",
           "short": "1H",
-          "elapsed": 25
+          "elapsed": 28
         },
         "timerStart": "2026-08-30T22:31:29.617Z",
         "timerStatus": "INICIADO"
@@ -18594,17 +18594,17 @@
                 "name": "Bahia",
                 "logo": "https://s.sde.globo.com/media/organizations/2018/03/11/bahia.svg"
               },
-              "points": 37,
-              "goalsDiff": 5,
-              "form": "DDDWL",
+              "points": 38,
+              "goalsDiff": 6,
+              "form": "DDDWD",
               "description": "Copa Sudamericana",
               "all": {
                 "played": 25,
                 "win": 9,
-                "draw": 10,
-                "lose": 6,
+                "draw": 11,
+                "lose": 5,
                 "goals": {
-                  "for": 34,
+                  "for": 35,
                   "against": 29
                 }
               }
@@ -18810,28 +18810,6 @@
             {
               "rank": 16,
               "team": {
-                "id": 285,
-                "name": "Internacional",
-                "logo": "https://s.sde.globo.com/media/organizations/2018/03/11/internacional.svg"
-              },
-              "points": 28,
-              "goalsDiff": -3,
-              "form": "DDDDW",
-              "description": null,
-              "all": {
-                "played": 25,
-                "win": 6,
-                "draw": 10,
-                "lose": 9,
-                "goals": {
-                  "for": 25,
-                  "against": 28
-                }
-              }
-            },
-            {
-              "rank": 17,
-              "team": {
                 "id": 2305,
                 "name": "Mirassol",
                 "logo": "https://s.sde.globo.com/media/organizations/2026/07/17/MIrassol.svg"
@@ -18839,7 +18817,7 @@
               "points": 27,
               "goalsDiff": -9,
               "form": "WLLDW",
-              "description": "Relegation",
+              "description": null,
               "all": {
                 "played": 24,
                 "win": 7,
@@ -18848,6 +18826,28 @@
                 "goals": {
                   "for": 27,
                   "against": 36
+                }
+              }
+            },
+            {
+              "rank": 17,
+              "team": {
+                "id": 285,
+                "name": "Internacional",
+                "logo": "https://s.sde.globo.com/media/organizations/2018/03/11/internacional.svg"
+              },
+              "points": 26,
+              "goalsDiff": -4,
+              "form": "DDDDD",
+              "description": "Relegation",
+              "all": {
+                "played": 25,
+                "win": 5,
+                "draw": 11,
+                "lose": 9,
+                "goals": {
+                  "for": 25,
+                  "against": 29
                 }
               }
             },
@@ -20031,7 +20031,7 @@
     "mode": "live",
     "liveIntervalMs": 20000
   },
-  "fetchedAt": "2026-08-30T22:57:24.600Z",
+  "fetchedAt": "2026-08-30T23:00:20.796Z",
   "source": "ge-globo",
   "meta": {
     "rodada": 25,

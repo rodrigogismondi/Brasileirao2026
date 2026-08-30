@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 37
+      "elapsed": 40
     },
     "timerStart": "2026-08-30T22:31:29.617Z",
     "timerStatus": "INICIADO"
@@ -95,6 +95,38 @@
       "detail": "Normal Goal",
       "player": {
         "name": "Erick Pulga"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 38,
+        "extra": null
+      },
+      "team": {
+        "id": 265,
+        "name": "Bahia"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Cristian Olivera"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 38,
+        "extra": null
+      },
+      "team": {
+        "id": 285,
+        "name": "Internacional"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Bernabei"
       },
       "assist": null
     }
@@ -558,15 +590,15 @@
         },
         {
           "type": "Total Passes",
-          "value": 260
+          "value": 288
         },
         {
           "type": "Pass Accuracy",
-          "value": "87%"
+          "value": "88%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 33
+          "value": 36
         },
         {
           "type": "Total Shots",
@@ -606,7 +638,7 @@
         },
         {
           "type": "Tackles",
-          "value": 5
+          "value": 6
         },
         {
           "type": "Fouls",
@@ -634,7 +666,7 @@
         },
         {
           "type": "Total Passes",
-          "value": 143
+          "value": 146
         },
         {
           "type": "Pass Accuracy",
@@ -642,15 +674,15 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 26
+          "value": 27
         },
         {
           "type": "Total Shots",
-          "value": 3
+          "value": 4
         },
         {
           "type": "Shots on Goal",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Shots off Goal",
@@ -682,11 +714,11 @@
         },
         {
           "type": "Tackles",
-          "value": 10
+          "value": 14
         },
         {
           "type": "Fouls",
-          "value": 5
+          "value": 6
         },
         {
           "type": "Yellow Cards",

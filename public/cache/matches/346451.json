@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 76
+      "elapsed": 78
     },
     "timerStart": "2026-08-30T22:38:14.542Z",
     "timerStatus": "INICIADO"
@@ -268,6 +268,58 @@
       },
       "assist": {
         "name": "Danilo Barbosa"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 71,
+        "extra": null
+      },
+      "team": {
+        "id": 315,
+        "name": "Chapecoense"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Bruno Pacheco"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 75,
+        "extra": null
+      },
+      "team": {
+        "id": 284,
+        "name": "Grêmio"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Tetê"
+      },
+      "assist": {
+        "name": "Amuzu"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 75,
+        "extra": null
+      },
+      "team": {
+        "id": 315,
+        "name": "Chapecoense"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Fernando"
+      },
+      "assist": {
+        "name": "Bruno Pacheco"
       }
     }
   ],
@@ -708,11 +760,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "52%"
+          "value": "51%"
         },
         {
           "type": "Total Passes",
-          "value": 394
+          "value": 400
         },
         {
           "type": "Pass Accuracy",
@@ -720,11 +772,11 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 56
+          "value": 57
         },
         {
           "type": "Total Shots",
-          "value": 8
+          "value": 9
         },
         {
           "type": "Shots on Goal",
@@ -732,7 +784,7 @@
         },
         {
           "type": "Shots off Goal",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Blocked Shots",
@@ -756,7 +808,7 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 7
+          "value": 9
         },
         {
           "type": "Tackles",
@@ -784,27 +836,27 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "48%"
+          "value": "49%"
         },
         {
           "type": "Total Passes",
-          "value": 401
+          "value": 422
         },
         {
           "type": "Pass Accuracy",
-          "value": "87%"
+          "value": "86%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 54
+          "value": 58
         },
         {
           "type": "Total Shots",
-          "value": 24
+          "value": 26
         },
         {
           "type": "Shots on Goal",
-          "value": 6
+          "value": 7
         },
         {
           "type": "Shots off Goal",
@@ -812,7 +864,7 @@
         },
         {
           "type": "Blocked Shots",
-          "value": 3
+          "value": 4
         },
         {
           "type": "Hit Woodwork",
@@ -836,7 +888,7 @@
         },
         {
           "type": "Tackles",
-          "value": 20
+          "value": 21
         },
         {
           "type": "Fouls",

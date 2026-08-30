@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 77
+      "elapsed": 80
     },
     "timerStart": "2026-08-30T22:36:54.288Z",
     "timerStatus": "INICIADO"
@@ -153,6 +153,42 @@
         "name": "Maurício"
       },
       "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 78,
+        "extra": null
+      },
+      "team": {
+        "id": 2305,
+        "name": "Mirassol"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "André Luis"
+      },
+      "assist": {
+        "name": "Bruno Santos"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 79,
+        "extra": null
+      },
+      "team": {
+        "id": 2305,
+        "name": "Mirassol"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Fernandinho"
+      },
+      "assist": {
+        "name": "Alesson"
+      }
     }
   ],
   "lineups": [
@@ -610,19 +646,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "51%"
+          "value": "50%"
         },
         {
           "type": "Total Passes",
-          "value": 380
+          "value": 391
         },
         {
           "type": "Pass Accuracy",
-          "value": "88%"
+          "value": "87%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 45
+          "value": 51
         },
         {
           "type": "Total Shots",
@@ -658,15 +694,15 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 5
+          "value": 6
         },
         {
           "type": "Tackles",
-          "value": 16
+          "value": 17
         },
         {
           "type": "Fouls",
-          "value": 12
+          "value": 13
         },
         {
           "type": "Yellow Cards",
@@ -686,23 +722,23 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "49%"
+          "value": "50%"
         },
         {
           "type": "Total Passes",
-          "value": 385
+          "value": 409
         },
         {
           "type": "Pass Accuracy",
-          "value": "83%"
+          "value": "82%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 65
+          "value": 74
         },
         {
           "type": "Total Shots",
-          "value": 9
+          "value": 10
         },
         {
           "type": "Shots on Goal",
@@ -714,7 +750,7 @@
         },
         {
           "type": "Blocked Shots",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Hit Woodwork",
@@ -738,7 +774,7 @@
         },
         {
           "type": "Tackles",
-          "value": 13
+          "value": 14
         },
         {
           "type": "Fouls",

@@ -417,6 +417,11 @@ function statusFromPeriod(periodAbbr, fallback) {
   return fallback;
 }
 
+function periodIndicatesInPlay(periodAbbr) {
+  const p = String(periodAbbr || "");
+  return /1T|2T|HT|ET|BT|PR|INTERVALO|PRIMEIRO|SEGUNDO|PRORROGA|PENALT/i.test(p);
+}
+
 async function enrichFromTransmission(fixtureRow) {
   const url = fixtureRow._geUrl;
   const html = await fetchHtml(url);
@@ -435,43 +440,56 @@ async function enrichFromTransmission(fixtureRow) {
     match.period?.id ||
     trv2.transmission?.period?.abbreviation ||
     "";
-  const transmissionActive =
-    /^(LIVE)$/i.test(String(trv2.transmission?.status || "")) ||
-    /INICIADO|RODANDO|ANDAMENTO/i.test(String(trv2.transmission?.timerStatus || ""));
-  let status = statusFromPeriod(periodAbbr, fixtureRow.fixture.status);
-  if (
+  const listaStatus = fixtureRow.fixture.status;
+  const nowSec = Math.floor(Date.now() / 1000);
+  const beforeKickoff = nowSec < fixtureRow.fixture.timestamp - 60;
+  const hasPreGame = Boolean(trv2.transmission?.hasPreGame);
+  const scoreboard = match.scoreboard;
+  const boardHasGoals =
+    scoreboard &&
+    ((Number(scoreboard.home) || 0) > 0 || (Number(scoreboard.away) || 0) > 0);
+
+  // GE marks many pre-match pages as status "LIVE" — that is NOT kickoff.
+  let status = statusFromPeriod(periodAbbr, listaStatus);
+  if (beforeKickoff && listaStatus.short === "NS" && !periodIndicatesInPlay(periodAbbr)) {
+    status = { long: "NS", short: "NS", elapsed: null };
+  } else if (
     status.short === "NS" &&
-    (transmissionActive ||
-      fixtureRow.fixture.status.short !== "NS" ||
-      (match.scoreboard && (match.scoreboard.home > 0 || match.scoreboard.away > 0)))
+    !beforeKickoff &&
+    (periodIndicatesInPlay(periodAbbr) ||
+      ["1H", "HT", "2H", "ET", "BT", "P", "LIVE"].includes(listaStatus.short) ||
+      boardHasGoals)
   ) {
     status = { long: "1H", short: "1H", elapsed: null };
-  }
-  if (!periodAbbr && transmissionActive && status.short === "NS") {
-    status = { long: "1H", short: "1H", elapsed: null };
+  } else if (
+    status.short === "NS" &&
+    hasPreGame &&
+    !periodIndicatesInPlay(periodAbbr) &&
+    listaStatus.short === "NS"
+  ) {
+    status = { long: "NS", short: "NS", elapsed: null };
   }
 
-  const scoreboard = match.scoreboard;
   const listaHome = fixtureRow.goals.home;
   const listaAway = fixtureRow.goals.away;
   const boardReady =
     scoreboard && scoreboard.home != null && scoreboard.away != null;
-  const preferBoard =
-    boardReady &&
-    (status.short !== "NS" ||
-      transmissionActive ||
-      scoreboard.home > 0 ||
-      scoreboard.away > 0);
+  const preferBoard = boardReady && status.short !== "NS";
   let goalsHome = preferBoard ? scoreboard.home : listaHome;
   let goalsAway = preferBoard ? scoreboard.away : listaAway;
   // If lista placar is ahead of a stale scoreboard, keep the higher total
   if (
+    status.short !== "NS" &&
     listaHome != null &&
     listaAway != null &&
     goalsHome != null &&
     goalsAway != null &&
     listaHome + listaAway > goalsHome + goalsAway
   ) {
+    goalsHome = listaHome;
+    goalsAway = listaAway;
+  }
+  if (status.short === "NS") {
     goalsHome = listaHome;
     goalsAway = listaAway;
   }
@@ -504,9 +522,9 @@ async function enrichFromTransmission(fixtureRow) {
         away: status.short === "FT" ? goalsAway : null,
       },
     },
-    events,
+    events: status.short === "NS" ? [] : events,
     lineups,
-    statistics,
+    statistics: status.short === "NS" ? [] : statistics,
     odds: base.odds ?? null,
     sportsFieldUrl,
   };

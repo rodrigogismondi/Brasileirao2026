@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 13
+      "elapsed": 36
     }
   },
   "league": {
@@ -29,7 +29,7 @@
   },
   "goals": {
     "home": 0,
-    "away": 0
+    "away": 1
   },
   "score": {
     "halftime": {
@@ -61,6 +61,72 @@
       "detail": "Yellow Card",
       "player": {
         "name": "Barreal"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 19,
+        "extra": null
+      },
+      "team": {
+        "id": 277,
+        "name": "Santos"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Willian Arão"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 23,
+        "extra": null
+      },
+      "team": {
+        "id": 277,
+        "name": "Santos"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Oliva"
+      },
+      "assist": {
+        "name": "Gustavo Henrique"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 30,
+        "extra": null
+      },
+      "team": {
+        "id": 264,
+        "name": "Corinthians"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Gabriel Paulista"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 32,
+        "extra": null
+      },
+      "team": {
+        "id": 277,
+        "name": "Santos"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "player": {
+        "name": "Oliva"
       },
       "assist": null
     }
@@ -520,7 +586,7 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "50%"
+          "value": "53%"
         },
         {
           "type": "Total Shots",
@@ -528,7 +594,7 @@
         },
         {
           "type": "Shots off Goal",
-          "value": 1
+          "value": 3
         },
         {
           "type": "Blocked Shots",
@@ -536,11 +602,11 @@
         },
         {
           "type": "Corner Kicks",
-          "value": 0
+          "value": 2
         },
         {
           "type": "Fouls",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Offsides",
@@ -552,7 +618,7 @@
         },
         {
           "type": "Yellow Cards",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Red Cards",
@@ -560,7 +626,7 @@
         },
         {
           "type": "Pass Accuracy",
-          "value": "109%"
+          "value": "42%"
         }
       ]
     },
@@ -572,15 +638,15 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "50%"
+          "value": "47%"
         },
         {
           "type": "Total Shots",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Shots off Goal",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Blocked Shots",
@@ -592,11 +658,11 @@
         },
         {
           "type": "Fouls",
-          "value": 5
+          "value": 8
         },
         {
           "type": "Offsides",
-          "value": 0
+          "value": 2
         },
         {
           "type": "Goalkeeper Saves",
@@ -604,7 +670,7 @@
         },
         {
           "type": "Yellow Cards",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Red Cards",
@@ -612,7 +678,7 @@
         },
         {
           "type": "Pass Accuracy",
-          "value": "96%"
+          "value": "48%"
         }
       ]
     }

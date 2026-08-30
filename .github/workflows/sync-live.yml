@@ -1,0 +1,46 @@
+name: Sync live cache
+
+# Commits fresh GE/BetExplorer cache to main so Pages stays current during matchdays.
+# A push to main then triggers the Deploy workflow.
+
+on:
+  schedule:
+    - cron: "*/5 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync-live-cache
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+
+      - run: npm ci
+
+      - name: Sync live cache from GE / BetExplorer
+        run: npm run sync-live
+
+      - name: Commit and push cache if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add public/cache
+          if git diff --staged --quiet; then
+            echo "No cache changes"
+            exit 0
+          fi
+          git commit -m "chore: sync live Brasileirão cache"
+          git push

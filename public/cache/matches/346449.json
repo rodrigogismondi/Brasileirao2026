@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 68
+      "elapsed": 72
     },
     "timerStart": "2026-08-30T22:36:54.288Z",
     "timerStatus": "INICIADO"
@@ -65,6 +65,78 @@
         "name": "Eduardo"
       },
       "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 68,
+        "extra": null
+      },
+      "team": {
+        "id": 2305,
+        "name": "Mirassol"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Japa"
+      },
+      "assist": {
+        "name": "Neto Moura"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 69,
+        "extra": null
+      },
+      "team": {
+        "id": 275,
+        "name": "Palmeiras"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Lucas Evangelista"
+      },
+      "assist": {
+        "name": "Vitor Roque"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 69,
+        "extra": null
+      },
+      "team": {
+        "id": 275,
+        "name": "Palmeiras"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Khellven"
+      },
+      "assist": {
+        "name": "Felipe Anderson"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 69,
+        "extra": null
+      },
+      "team": {
+        "id": 2305,
+        "name": "Mirassol"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Gustavo Cazonatti"
+      },
+      "assist": {
+        "name": "Eduardo"
+      }
     }
   ],
   "lineups": [
@@ -522,11 +594,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "53%"
+          "value": "52%"
         },
         {
           "type": "Total Passes",
-          "value": 371
+          "value": 374
         },
         {
           "type": "Pass Accuracy",
@@ -534,15 +606,15 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 40
+          "value": 41
         },
         {
           "type": "Total Shots",
-          "value": 9
+          "value": 10
         },
         {
           "type": "Shots on Goal",
-          "value": 4
+          "value": 5
         },
         {
           "type": "Shots off Goal",
@@ -574,7 +646,7 @@
         },
         {
           "type": "Tackles",
-          "value": 14
+          "value": 16
         },
         {
           "type": "Fouls",
@@ -598,11 +670,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "47%"
+          "value": "48%"
         },
         {
           "type": "Total Passes",
-          "value": 332
+          "value": 351
         },
         {
           "type": "Pass Accuracy",
@@ -610,7 +682,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 58
+          "value": 61
         },
         {
           "type": "Total Shots",

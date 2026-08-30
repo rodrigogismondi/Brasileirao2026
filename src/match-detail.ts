@@ -316,31 +316,75 @@ function playerNameTokens(name: string): string[] {
     .filter(Boolean);
 }
 
-/** Match scorers/subs to lineup names without substring false positives (Cano≠Canobbio, Léo≠Leozinho). */
-function samePlayer(a: string, b: string): boolean {
-  const na = normPlayerName(a);
-  const nb = normPlayerName(b);
-  if (!na || !nb) return false;
-  if (na === nb) return true;
-  const ta = playerNameTokens(a);
-  const tb = playerNameTokens(b);
-  // Single-token nickname/surname must equal a full token on the other side
-  if (ta.length === 1 && tb.includes(ta[0])) return true;
-  if (tb.length === 1 && ta.includes(tb[0])) return true;
-  return false;
+/**
+ * Pair an event name with a lineup player.
+ * Prefer exact full-name matches so "Eduardo" does not also hit "Carlos Eduardo".
+ * Fall back to unique token shorthand (e.g. "Cano" → "Germán Cano") only when
+ * a single squad member owns that token.
+ */
+function resolveSquadPlayer(eventName: string, squadNames: string[]): string | null {
+  const ne = normPlayerName(eventName);
+  if (!ne || squadNames.length === 0) return null;
+
+  const exact = squadNames.filter((n) => normPlayerName(n) === ne);
+  if (exact.length === 1) return exact[0]!;
+  if (exact.length > 1) return exact[0]!;
+
+  const et = playerNameTokens(eventName);
+  if (et.length === 0) return null;
+
+  if (et.length === 1) {
+    const token = et[0]!;
+    const owners = squadNames.filter((n) => playerNameTokens(n).includes(token));
+    if (owners.length === 1) return owners[0]!;
+    // Ambiguous token (Eduardo vs Carlos Eduardo) — only accept a sole exact name.
+    return null;
+  }
+
+  // Multi-token event name: require every token to appear, prefer unique match.
+  const hits = squadNames.filter((n) => {
+    const tokens = playerNameTokens(n);
+    return et.every((t) => tokens.includes(t));
+  });
+  if (hits.length === 1) return hits[0]!;
+  const exactMulti = hits.filter((n) => normPlayerName(n) === ne);
+  return exactMulti[0] ?? null;
+}
+
+function teamSquadNames(detail: MatchDetail, team: 1 | 2): string[] {
+  const lineup = detail.lineups[team - 1];
+  if (!lineup) return [];
+  return [...lineup.startXI, ...lineup.substitutes].map((p) => p.name).filter(Boolean);
 }
 
 function playerGoalCount(detail: MatchDetail, team: 1 | 2, playerName: string): number {
   const goals = team === 1 ? detail.goals1 : detail.goals2;
-  return goals.filter((g) => samePlayer(g.name, playerName)).length;
+  const squad = teamSquadNames(detail, team);
+  const target = normPlayerName(playerName);
+  return goals.filter((g) => {
+    const resolved = resolveSquadPlayer(g.name, squad);
+    return resolved != null && normPlayerName(resolved) === target;
+  }).length;
 }
 
 function playerSubbedOut(detail: MatchDetail, team: 1 | 2, playerName: string): boolean {
-  return detail.subs.some((s) => s.team === team && samePlayer(s.playerOut, playerName));
+  const squad = teamSquadNames(detail, team);
+  const target = normPlayerName(playerName);
+  return detail.subs.some((s) => {
+    if (s.team !== team) return false;
+    const resolved = resolveSquadPlayer(s.playerOut, squad);
+    return resolved != null && normPlayerName(resolved) === target;
+  });
 }
 
 function playerSubbedIn(detail: MatchDetail, team: 1 | 2, playerName: string): boolean {
-  return detail.subs.some((s) => s.team === team && samePlayer(s.playerIn, playerName));
+  const squad = teamSquadNames(detail, team);
+  const target = normPlayerName(playerName);
+  return detail.subs.some((s) => {
+    if (s.team !== team) return false;
+    const resolved = resolveSquadPlayer(s.playerIn, squad);
+    return resolved != null && normPlayerName(resolved) === target;
+  });
 }
 
 function playerCardKinds(
@@ -348,10 +392,14 @@ function playerCardKinds(
   team: 1 | 2,
   playerName: string
 ): { yellow: boolean; red: boolean } {
+  const squad = teamSquadNames(detail, team);
+  const target = normPlayerName(playerName);
   let yellow = false;
   let red = false;
   for (const c of detail.cards) {
-    if (c.team !== team || !samePlayer(c.name, playerName)) continue;
+    if (c.team !== team) continue;
+    const resolved = resolveSquadPlayer(c.name, squad);
+    if (!resolved || normPlayerName(resolved) !== target) continue;
     if (c.type === "red") red = true;
     else yellow = true;
   }

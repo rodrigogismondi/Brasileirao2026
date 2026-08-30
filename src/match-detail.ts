@@ -9,6 +9,7 @@ interface TimelineEvent {
   sortKey: number;
   title: string;
   detail?: string;
+  playerOut?: string;
 }
 
 function minuteSortKey(minute: string | number): number {
@@ -27,7 +28,7 @@ function buildTimeline(detail: MatchDetail, lang: Lang): TimelineEvent[] {
       minute: g.minute,
       sortKey: minuteSortKey(g.minute),
       title: g.name,
-      detail: g.assist ? `${t(lang, "mdGoal")} · ${g.assist}` : t(lang, "mdGoal"),
+      detail: g.assist ? g.assist : undefined,
     });
   }
   for (const g of detail.goals2) {
@@ -37,7 +38,7 @@ function buildTimeline(detail: MatchDetail, lang: Lang): TimelineEvent[] {
       minute: g.minute,
       sortKey: minuteSortKey(g.minute),
       title: g.name,
-      detail: g.assist ? `${t(lang, "mdGoal")} · ${g.assist}` : t(lang, "mdGoal"),
+      detail: g.assist ? g.assist : undefined,
     });
   }
   for (const c of detail.cards) {
@@ -57,7 +58,7 @@ function buildTimeline(detail: MatchDetail, lang: Lang): TimelineEvent[] {
       minute: String(s.minute),
       sortKey: minuteSortKey(s.minute),
       title: s.playerIn,
-      detail: `${t(lang, "mdSub")} · ${s.playerOut}`,
+      playerOut: s.playerOut,
     });
   }
   return events.sort((a, b) => b.sortKey - a.sortKey);
@@ -97,6 +98,40 @@ function parseStatNumber(v: string | number): number {
   return Number.isFinite(n) ? n : 0;
 }
 
+function eventCrest(detail: MatchDetail, team: 1 | 2): string {
+  const logo = team === 1 ? detail.logo1 : detail.logo2;
+  const name = team === 1 ? detail.team1 : detail.team2;
+  return `<span class="md-event-crest">${logoImg(logo, name, 22)}</span>`;
+}
+
+function renderEventBody(e: TimelineEvent, lang: Lang): string {
+  if (e.kind === "sub") {
+    return `
+      <span class="md-event-body md-sub-body">
+        <span class="md-sub-row md-sub-in">
+          <span class="md-sub-arrow" aria-hidden="true">↑</span>
+          <strong>${escapeHtml(e.title)}</strong>
+        </span>
+        <span class="md-sub-row md-sub-out">
+          <span class="md-sub-arrow" aria-hidden="true">↓</span>
+          <span>${escapeHtml(e.playerOut ?? "")}</span>
+        </span>
+      </span>`;
+  }
+  if (e.kind === "goal") {
+    return `
+      <span class="md-event-body">
+        <strong>${escapeHtml(e.title)}</strong>
+        <span class="muted">${escapeHtml(e.detail ? `${t(lang, "mdGoal")} · ${e.detail}` : t(lang, "mdGoal"))}</span>
+      </span>`;
+  }
+  return `
+    <span class="md-event-body">
+      <strong>${escapeHtml(e.title)}</strong>
+      ${e.detail ? `<span class="muted">${escapeHtml(e.detail)}</span>` : ""}
+    </span>`;
+}
+
 function renderEvents(detail: MatchDetail, lang: Lang): string {
   const events = buildTimeline(detail, lang);
   if (events.length === 0) {
@@ -109,10 +144,8 @@ function renderEvents(detail: MatchDetail, lang: Lang): string {
           (e) => `
         <li class="md-event md-event-${e.kind} md-event-team${e.team}">
           <span class="md-min">${escapeHtml(e.minute)}'</span>
-          <span class="md-event-body">
-            <strong>${escapeHtml(e.title)}</strong>
-            ${e.detail ? `<span class="muted">${escapeHtml(e.detail)}</span>` : ""}
-          </span>
+          ${eventCrest(detail, e.team)}
+          ${renderEventBody(e, lang)}
         </li>`
         )
         .join("")}
@@ -160,29 +193,36 @@ function renderPlayers(players: TeamLineup["startXI"]): string {
     .join("");
 }
 
+function renderLineupColumn(l: TeamLineup, lang: Lang): string {
+  return `
+    <section class="md-lineup-card">
+      <header>
+        ${logoImg(l.logo, l.team, 22)}
+        <div>
+          <strong>${escapeHtml(l.team)}</strong>
+          <span class="muted">${escapeHtml(l.formation)} · ${escapeHtml(l.coach)}</span>
+        </div>
+      </header>
+      <ul class="md-xi">${renderPlayers(l.startXI)}</ul>
+      <h4>${escapeHtml(t(lang, "mdBench"))}</h4>
+      <ul class="md-xi md-bench">${renderPlayers(l.substitutes)}</ul>
+    </section>`;
+}
+
 function renderLineups(detail: MatchDetail, lang: Lang): string {
   if (detail.lineups.length === 0) {
     return `<p class="muted">${escapeHtml(t(lang, "mdNoLineups"))}</p>`;
   }
+  const home =
+    detail.lineups.find((l) => l.team === detail.team1) ?? detail.lineups[0];
+  const away =
+    detail.lineups.find((l) => l.team === detail.team2) ??
+    detail.lineups.find((l) => l !== home) ??
+    detail.lineups[1];
+  const columns = [home, away].filter(Boolean) as TeamLineup[];
   return `
-    <div class="md-lineups">
-      ${detail.lineups
-        .map(
-          (l) => `
-        <section class="md-lineup-card">
-          <header>
-            ${logoImg(l.logo, l.team, 24)}
-            <div>
-              <strong>${escapeHtml(l.team)}</strong>
-              <span class="muted">${escapeHtml(t(lang, "mdFormation"))}: ${escapeHtml(l.formation)} · ${escapeHtml(t(lang, "mdCoach"))}: ${escapeHtml(l.coach)}</span>
-            </div>
-          </header>
-          <ul class="md-xi">${renderPlayers(l.startXI)}</ul>
-          <h4>${escapeHtml(t(lang, "mdBench"))}</h4>
-          <ul class="md-xi md-bench">${renderPlayers(l.substitutes)}</ul>
-        </section>`
-        )
-        .join("")}
+    <div class="md-lineups ${columns.length > 1 ? "md-lineups-split" : ""}">
+      ${columns.map((l) => renderLineupColumn(l, lang)).join("")}
     </div>`;
 }
 

@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 22
+      "elapsed": 25
     },
     "timerStart": "2026-08-30T22:31:29.617Z",
     "timerStatus": "INICIADO"
@@ -30,7 +30,7 @@
     }
   },
   "goals": {
-    "home": 0,
+    "home": 1,
     "away": 1
   },
   "score": {
@@ -79,6 +79,22 @@
       "detail": "Yellow Card",
       "player": {
         "name": "?"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 22,
+        "extra": null
+      },
+      "team": {
+        "id": 265,
+        "name": "Bahia"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "player": {
+        "name": "Erick Pulga"
       },
       "assist": null
     }

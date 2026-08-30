@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 61
+      "elapsed": 64
     },
     "timerStart": "2026-08-30T22:38:14.542Z",
     "timerStatus": "INICIADO"
@@ -215,6 +215,42 @@
         "name": "Gustavo Martins"
       },
       "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 60,
+        "extra": null
+      },
+      "team": {
+        "id": 315,
+        "name": "Chapecoense"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Miguel Carvalho"
+      },
+      "assist": {
+        "name": "Bruno Matias"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 60,
+        "extra": null
+      },
+      "team": {
+        "id": 315,
+        "name": "Chapecoense"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Franco Rossi"
+      },
+      "assist": {
+        "name": "Garcez"
+      }
     }
   ],
   "lineups": [
@@ -654,11 +690,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "56%"
+          "value": "54%"
         },
         {
           "type": "Total Passes",
-          "value": 346
+          "value": 354
         },
         {
           "type": "Pass Accuracy",
@@ -666,7 +702,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 44
+          "value": 46
         },
         {
           "type": "Total Shots",
@@ -730,11 +766,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "44%"
+          "value": "46%"
         },
         {
           "type": "Total Passes",
-          "value": 276
+          "value": 292
         },
         {
           "type": "Pass Accuracy",
@@ -742,7 +778,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 42
+          "value": 45
         },
         {
           "type": "Total Shots",
@@ -766,7 +802,7 @@
         },
         {
           "type": "Corner Kicks",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Offsides",
@@ -782,7 +818,7 @@
         },
         {
           "type": "Tackles",
-          "value": 18
+          "value": 19
         },
         {
           "type": "Fouls",

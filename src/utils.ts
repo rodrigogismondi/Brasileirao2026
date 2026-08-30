@@ -101,11 +101,11 @@ export function resolveLiveMinute(m: Match, now = Date.now()): number | null {
 export function isHalftime(m: Match, now = Date.now()): boolean {
   if (m.status !== "live") return false;
   if (m.period === "HT") return true;
+  // Do not treat 2H pause / full-time whistle as Intervalo.
+  if (m.period === "2H" || m.period === "ET" || m.period === "FT") return false;
 
   const paused = String(m.timerStatus || "").toUpperCase() === "PAUSADO";
-  if (paused && (m.period === "1H" || (m.liveMinute != null && m.liveMinute >= 44))) {
-    return true;
-  }
+  if (paused && m.period === "1H") return true;
 
   // Cache lag: still "1H"/"INICIADO" after a half that should already be over.
   if (m.period === "1H" && m.timerStart) {

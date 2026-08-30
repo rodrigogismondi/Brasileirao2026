@@ -12242,9 +12242,7 @@
           "long": "FT",
           "short": "FT",
           "elapsed": 90
-        },
-        "timerStart": "2026-08-30T23:37:11.384Z",
-        "timerStatus": "PAUSADO"
+        }
       },
       "league": {
         "round": "Regular Season - 25"
@@ -12343,7 +12341,7 @@
         "status": {
           "long": "2H",
           "short": "2H",
-          "elapsed": 55
+          "elapsed": 60
         },
         "timerStart": "2026-08-30T23:37:22.890Z",
         "timerStatus": "INICIADO"
@@ -12365,7 +12363,7 @@
       },
       "goals": {
         "home": 3,
-        "away": 1
+        "away": 2
       },
       "score": {
         "halftime": {
@@ -18571,7 +18569,7 @@
                 "logo": "https://s.sde.globo.com/media/organizations/2018/03/11/bahia.svg"
               },
               "points": 40,
-              "goalsDiff": 8,
+              "goalsDiff": 7,
               "form": "DDDWW",
               "description": "Copa Libertadores Qualifiers",
               "all": {
@@ -18581,7 +18579,7 @@
                 "lose": 5,
                 "goals": {
                   "for": 37,
-                  "against": 29
+                  "against": 30
                 }
               }
             },
@@ -18857,7 +18855,7 @@
                 "logo": "https://s.sde.globo.com/media/organizations/2018/03/11/internacional.svg"
               },
               "points": 25,
-              "goalsDiff": -6,
+              "goalsDiff": -5,
               "form": "DDDDL",
               "description": "Relegation",
               "all": {
@@ -18866,7 +18864,7 @@
                 "draw": 10,
                 "lose": 10,
                 "goals": {
-                  "for": 25,
+                  "for": 26,
                   "against": 31
                 }
               }
@@ -20029,7 +20027,7 @@
     "mode": "live",
     "liveIntervalMs": 20000
   },
-  "fetchedAt": "2026-08-30T23:48:17.855Z",
+  "fetchedAt": "2026-08-30T23:52:49.379Z",
   "source": "ge-globo",
   "meta": {
     "rodada": 25,

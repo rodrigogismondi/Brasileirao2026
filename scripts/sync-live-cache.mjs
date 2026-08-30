@@ -793,6 +793,28 @@ async function enrichFromTransmission(fixtureRow) {
       goalsAway = scoreboard.away;
     }
   }
+  // Goal plays often land before lista/scoreboard catch up — prefer event tally.
+  if (status.short !== "NS" && events.length) {
+    let eh = 0;
+    let ea = 0;
+    for (const e of events) {
+      if (e.type !== "Goal") continue;
+      const own = /own/i.test(String(e.detail || ""));
+      const isHome = e.team?.id === home.id;
+      if (own) {
+        if (isHome) ea++;
+        else eh++;
+      } else if (isHome) eh++;
+      else ea++;
+    }
+    const eventTotal = eh + ea;
+    const currentTotal =
+      goalsHome != null && goalsAway != null ? goalsHome + goalsAway : -1;
+    if (eventTotal > currentTotal) {
+      goalsHome = eh;
+      goalsAway = ea;
+    }
+  }
   if (status.short === "NS") {
     goalsHome = listaHome;
     goalsAway = listaAway;

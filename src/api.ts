@@ -262,11 +262,20 @@ export function mapMatchDetail(raw: RawDetail): MatchDetail {
   const goals2: MatchGoal[] = [];
   const cards: MatchCard[] = [];
   const subs: MatchSub[] = [];
+  let scoredHome = 0;
+  let scoredAway = 0;
 
   for (const e of raw.events ?? []) {
     const team: 1 | 2 = e.team.id === homeId ? 1 : 2;
     const minute = e.time.elapsed ?? 0;
     if (e.type === "Goal") {
+      const own = /own/i.test(String(e.detail || ""));
+      // Lineup icons follow the player/event team; placar credits the beneficiary.
+      if (own) {
+        if (team === 1) scoredAway++;
+        else scoredHome++;
+      } else if (team === 1) scoredHome++;
+      else scoredAway++;
       const g: MatchGoal = {
         name: e.player?.name ?? "?",
         minute: minuteStr(e),
@@ -289,6 +298,14 @@ export function mapMatchDetail(raw: RawDetail): MatchDetail {
       });
     }
   }
+
+  // Keep header score in sync with goal events when official placar lags.
+  const storedHome = base.score?.[0] ?? 0;
+  const storedAway = base.score?.[1] ?? 0;
+  const score: [number, number] | null =
+    scoredHome + scoredAway > storedHome + storedAway
+      ? [scoredHome, scoredAway]
+      : base.score;
 
   const stats: MatchStatRow[] = [];
   const homeStats = raw.statistics?.[0]?.statistics ?? [];
@@ -322,6 +339,7 @@ export function mapMatchDetail(raw: RawDetail): MatchDetail {
   const ht = raw.score?.halftime;
   return {
     ...base,
+    score,
     halfTime:
       ht?.home != null && ht?.away != null ? [ht.home, ht.away] : null,
     goals1,

@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 55
+      "elapsed": 60
     },
     "timerStart": "2026-08-30T23:37:22.890Z",
     "timerStatus": "INICIADO"
@@ -31,7 +31,7 @@
   },
   "goals": {
     "home": 3,
-    "away": 1
+    "away": 2
   },
   "score": {
     "halftime": {
@@ -177,6 +177,58 @@
         "name": "Vitinho"
       },
       "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 53,
+        "extra": null
+      },
+      "team": {
+        "id": 285,
+        "name": "Internacional"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Maripán"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 55,
+        "extra": null
+      },
+      "team": {
+        "id": 265,
+        "name": "Bahia"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Michel Araújo"
+      },
+      "assist": {
+        "name": "Erick"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 55,
+        "extra": null
+      },
+      "team": {
+        "id": 265,
+        "name": "Bahia"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Ademir"
+      },
+      "assist": {
+        "name": "Cristian Olivera"
+      }
     }
   ],
   "lineups": [
@@ -638,7 +690,7 @@
         },
         {
           "type": "Total Passes",
-          "value": 381
+          "value": 404
         },
         {
           "type": "Pass Accuracy",
@@ -646,7 +698,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 52
+          "value": 56
         },
         {
           "type": "Total Shots",
@@ -670,7 +722,7 @@
         },
         {
           "type": "Corner Kicks",
-          "value": 1
+          "value": 3
         },
         {
           "type": "Offsides",
@@ -714,7 +766,7 @@
         },
         {
           "type": "Total Passes",
-          "value": 234
+          "value": 236
         },
         {
           "type": "Pass Accuracy",
@@ -726,7 +778,7 @@
         },
         {
           "type": "Total Shots",
-          "value": 8
+          "value": 9
         },
         {
           "type": "Shots on Goal",
@@ -734,7 +786,7 @@
         },
         {
           "type": "Shots off Goal",
-          "value": 4
+          "value": 5
         },
         {
           "type": "Blocked Shots",

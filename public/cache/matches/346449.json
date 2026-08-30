@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 98
+      "elapsed": 101
     },
     "timerStart": "2026-08-30T22:36:54.288Z",
     "timerStatus": "INICIADO"
@@ -223,6 +223,38 @@
       "assist": {
         "name": "Maurício"
       }
+    },
+    {
+      "time": {
+        "elapsed": 93,
+        "extra": null
+      },
+      "team": {
+        "id": 2305,
+        "name": "Mirassol"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Neto Moura"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 96,
+        "extra": null
+      },
+      "team": {
+        "id": 275,
+        "name": "Palmeiras"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Arthur"
+      },
+      "assist": null
     }
   ],
   "lineups": [
@@ -680,11 +712,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "49%"
+          "value": "48%"
         },
         {
           "type": "Total Passes",
-          "value": 429
+          "value": 446
         },
         {
           "type": "Pass Accuracy",
@@ -692,7 +724,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 62
+          "value": 63
         },
         {
           "type": "Total Shots",
@@ -732,7 +764,7 @@
         },
         {
           "type": "Tackles",
-          "value": 18
+          "value": 19
         },
         {
           "type": "Fouls",
@@ -756,11 +788,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "51%"
+          "value": "52%"
         },
         {
           "type": "Total Passes",
-          "value": 468
+          "value": 480
         },
         {
           "type": "Pass Accuracy",
@@ -768,7 +800,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 83
+          "value": 86
         },
         {
           "type": "Total Shots",
@@ -804,7 +836,7 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 3
+          "value": 4
         },
         {
           "type": "Tackles",
@@ -812,11 +844,11 @@
         },
         {
           "type": "Fouls",
-          "value": 10
+          "value": 11
         },
         {
           "type": "Yellow Cards",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Red Cards",

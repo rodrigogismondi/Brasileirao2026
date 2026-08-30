@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 50
+      "elapsed": 53
     },
     "timerStart": "2026-08-30T22:36:54.288Z",
     "timerStatus": "INICIADO"
@@ -49,7 +49,24 @@
     "away": 2.21,
     "source": "betexplorer"
   },
-  "events": [],
+  "events": [
+    {
+      "time": {
+        "elapsed": 49,
+        "extra": null
+      },
+      "team": {
+        "id": 2305,
+        "name": "Mirassol"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "player": {
+        "name": "Eduardo"
+      },
+      "assist": null
+    }
+  ],
   "lineups": [
     {
       "team": {
@@ -505,11 +522,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "53%"
+          "value": "54%"
         },
         {
           "type": "Total Passes",
-          "value": 287
+          "value": 306
         },
         {
           "type": "Pass Accuracy",
@@ -517,15 +534,15 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 33
+          "value": 35
         },
         {
           "type": "Total Shots",
-          "value": 6
+          "value": 7
         },
         {
           "type": "Shots on Goal",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Shots off Goal",
@@ -581,19 +598,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "47%"
+          "value": "46%"
         },
         {
           "type": "Total Passes",
-          "value": 247
+          "value": 251
         },
         {
           "type": "Pass Accuracy",
-          "value": "83%"
+          "value": "82%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 42
+          "value": 46
         },
         {
           "type": "Total Shots",
@@ -629,7 +646,7 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Tackles",

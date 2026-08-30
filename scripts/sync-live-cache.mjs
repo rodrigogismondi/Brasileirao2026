@@ -462,6 +462,48 @@ function sleep(ms) {
   return new Promise((r) => setTimeout(r, ms));
 }
 
+function parseScorersFromHtml(html) {
+  const sectionMatch = html.match(
+    /class="artilharia-wrapper"[\s\S]*?<div class="ranking-content">([\s\S]*?)(?:<\/div>\s*<\/div>\s*<\/section>|<\/section>)/i
+  );
+  const section = sectionMatch?.[1] ?? "";
+  const items = [...section.matchAll(/class="ranking-item-wrapper"[\s\S]*?(?=class="ranking-item-wrapper"|$)/gi)];
+  const scorers = [];
+  let rank = 0;
+  let prevGoals = null;
+  for (const item of items) {
+    const block = item[0];
+    const name = block.match(/class="jogador-nome"[^>]*>([^<]+)/i)?.[1]?.trim();
+    const goalsRaw = block.match(/class="jogador-gols"[^>]*>\s*(\d+)/i)?.[1];
+    if (!name || goalsRaw == null) continue;
+    const goals = Number(goalsRaw);
+    if (prevGoals == null || goals < prevGoals) {
+      rank = scorers.length + 1;
+      prevGoals = goals;
+    }
+    // tied players keep same display order; rank number from GE may be blank for ties
+    const photo = block.match(/class="jogador-foto"[\s\S]*?<img[^>]+src="([^"]+)"/i)?.[1] ?? "";
+    const teamLogo = block.match(/class="jogador-escudo"[\s\S]*?<img[^>]+src="([^"]+)"/i)?.[1] ?? "";
+    const team =
+      block.match(/class="jogador-escudo"[\s\S]*?<img[^>]+alt="([^"]*)"/i)?.[1] ?? "";
+    scorers.push({
+      player: {
+        id: scorers.length + 1,
+        name,
+        photo,
+      },
+      statistics: [
+        {
+          team: { name: team, logo: teamLogo },
+          goals: { total: goals, assists: null },
+          games: { appearences: 0 },
+        },
+      ],
+    });
+  }
+  return scorers;
+}
+
 async function fetchGeHtml() {
   return fetchHtml(GE_URL);
 }
@@ -498,10 +540,12 @@ async function main() {
     const liveIntervalMs =
       mode === "live" ? 90_000 : mode === "prematch" ? 5 * 60_000 : 15 * 60_000;
 
+    const scorers = parseScorersFromHtml(html);
+
     const payload = {
       fixtures: fixtures.map(({ _geUrl, ...f }) => f),
       standings,
-      scorers: [],
+      scorers,
       assists: [],
       budget: {
         used: 0,
@@ -515,6 +559,7 @@ async function main() {
         rodada,
         edicao: data.edicao?.nome ?? "Campeonato Brasileiro",
         provider: "ge.globo.com",
+        scorersCount: scorers.length,
       },
     };
 
@@ -558,7 +603,7 @@ async function main() {
     writeFileSync(join(CACHE_DIR, "dashboard.json"), JSON.stringify(payload, null, 2));
 
     console.log(
-      `Synced GE cache: rodada ${rodada}, ${fixtures.length} jogos, ${data.classificacao?.length ?? 0} times, enriched=${enriched}, failed=${failed}, source=${payload.source}`
+      `Synced GE cache: rodada ${rodada}, ${fixtures.length} jogos, ${data.classificacao?.length ?? 0} times, enriched=${enriched}, failed=${failed}, scorers=${scorers.length}, source=${payload.source}`
     );
   } catch (err) {
     writeDemoFallback(err instanceof Error ? err.message : String(err));

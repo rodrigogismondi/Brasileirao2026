@@ -27,16 +27,25 @@ jobs:
 
       - run: npm ci
 
+      - name: Detect cache-only sync commit
+        id: meta
+        run: |
+          msg="${{ github.event.head_commit.message }}"
+          if echo "$msg" | grep -q "chore: sync live"; then
+            echo "skip_sync=1" >> "$GITHUB_OUTPUT"
+          else
+            echo "skip_sync=0" >> "$GITHUB_OUTPUT"
+          fi
+
       - name: Sync live cache from GE Globo
-        # Cache-only commits already ran sync-live; skip the slow re-scrape.
-        if: ${{ !contains(github.event.head_commit.message || '', 'chore: sync live') }}
+        if: steps.meta.outputs.skip_sync != '1'
         run: npm run sync-live
 
       - name: Build
         env:
           VITE_BASE_PATH: /${{ github.event.repository.name }}/
           VITE_API_BASE: ${{ vars.VITE_API_BASE }}
-          SKIP_LIVE_SYNC: ${{ contains(github.event.head_commit.message || '', 'chore: sync live') && '1' || '' }}
+          SKIP_LIVE_SYNC: ${{ steps.meta.outputs.skip_sync }}
         run: npm run build
 
       - uses: actions/upload-pages-artifact@v3

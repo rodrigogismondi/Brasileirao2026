@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 27
+      "elapsed": 30
     },
     "timerStart": "2026-08-30T21:32:32.980Z",
     "timerStatus": "INICIADO"
@@ -68,7 +68,7 @@
     },
     {
       "time": {
-        "elapsed": 15,
+        "elapsed": 17,
         "extra": null
       },
       "team": {
@@ -79,6 +79,22 @@
       "detail": "Normal Goal",
       "player": {
         "name": "Enamorado"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 27,
+        "extra": null
+      },
+      "team": {
+        "id": 284,
+        "name": "Grêmio"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "player": {
+        "name": "Pavón"
       },
       "assist": null
     }
@@ -520,11 +536,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "64%"
+          "value": "62%"
         },
         {
           "type": "Total Passes",
-          "value": 156
+          "value": 184
         },
         {
           "type": "Pass Accuracy",
@@ -532,15 +548,15 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 19
+          "value": 23
         },
         {
           "type": "Total Shots",
-          "value": 4
+          "value": 5
         },
         {
           "type": "Shots on Goal",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Shots off Goal",
@@ -556,7 +572,7 @@
         },
         {
           "type": "Corner Kicks",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Offsides",
@@ -596,11 +612,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "36%"
+          "value": "38%"
         },
         {
           "type": "Total Passes",
-          "value": 82
+          "value": 110
         },
         {
           "type": "Pass Accuracy",
@@ -608,11 +624,11 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 15
+          "value": 20
         },
         {
           "type": "Total Shots",
-          "value": 4
+          "value": 5
         },
         {
           "type": "Shots on Goal",
@@ -620,7 +636,7 @@
         },
         {
           "type": "Shots off Goal",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Blocked Shots",
@@ -652,7 +668,7 @@
         },
         {
           "type": "Fouls",
-          "value": 3
+          "value": 4
         },
         {
           "type": "Yellow Cards",

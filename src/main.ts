@@ -90,7 +90,7 @@ function mount(): void {
     if (refreshTimer) clearInterval(refreshTimer);
     const ms =
       mode === "live"
-        ? Math.max(45_000, liveIntervalMs)
+        ? Math.max(20_000, liveIntervalMs)
         : mode === "prematch"
           ? Math.max(60_000, liveIntervalMs)
           : Math.max(IDLE_REFRESH_MS, liveIntervalMs);

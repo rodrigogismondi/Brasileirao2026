@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 60
+      "elapsed": 95
     },
     "timerStart": "2026-08-30T20:07:23.483Z",
     "timerStatus": "INICIADO"
@@ -30,7 +30,7 @@
     }
   },
   "goals": {
-    "home": 1,
+    "home": 3,
     "away": 0
   },
   "score": {
@@ -119,6 +119,160 @@
       "assist": {
         "name": "Luiz Araújo"
       }
+    },
+    {
+      "time": {
+        "elapsed": 65,
+        "extra": null
+      },
+      "team": {
+        "id": 263,
+        "name": "Botafogo"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Medina"
+      },
+      "assist": {
+        "name": "Edenílson"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 74,
+        "extra": null
+      },
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Carrascal"
+      },
+      "assist": {
+        "name": "Arrascaeta"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 76,
+        "extra": null
+      },
+      "team": {
+        "id": 263,
+        "name": "Botafogo"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Villalba"
+      },
+      "assist": {
+        "name": "Vitinho"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 76,
+        "extra": null
+      },
+      "team": {
+        "id": 263,
+        "name": "Botafogo"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Júnior Santos"
+      },
+      "assist": {
+        "name": "Arthur Cabral"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 83,
+        "extra": null
+      },
+      "team": {
+        "id": 263,
+        "name": "Botafogo"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Marçal"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 85,
+        "extra": null
+      },
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "player": {
+        "name": "Samuel Lino"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 87,
+        "extra": null
+      },
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Everton"
+      },
+      "assist": {
+        "name": "Pedro"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 88,
+        "extra": null
+      },
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "player": {
+        "name": "Carrascal"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 88,
+        "extra": null
+      },
+      "team": {
+        "id": 263,
+        "name": "Botafogo"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Justino"
+      },
+      "assist": null
     }
   ],
   "lineups": [
@@ -576,11 +730,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "67%"
+          "value": "62%"
         },
         {
           "type": "Total Shots",
-          "value": 2
+          "value": 6
         },
         {
           "type": "Shots off Goal",
@@ -596,63 +750,11 @@
         },
         {
           "type": "Fouls",
-          "value": 5
+          "value": 8
         },
         {
           "type": "Offsides",
-          "value": 1
-        },
-        {
-          "type": "Goalkeeper Saves",
-          "value": 4
-        },
-        {
-          "type": "Yellow Cards",
-          "value": 0
-        },
-        {
-          "type": "Red Cards",
-          "value": 0
-        },
-        {
-          "type": "Pass Accuracy",
-          "value": "19%"
-        }
-      ]
-    },
-    {
-      "team": {
-        "id": 263,
-        "name": "Botafogo"
-      },
-      "statistics": [
-        {
-          "type": "Ball Possession",
-          "value": "33%"
-        },
-        {
-          "type": "Total Shots",
-          "value": 2
-        },
-        {
-          "type": "Shots off Goal",
-          "value": 5
-        },
-        {
-          "type": "Blocked Shots",
-          "value": 2
-        },
-        {
-          "type": "Corner Kicks",
-          "value": 1
-        },
-        {
-          "type": "Fouls",
-          "value": 4
-        },
-        {
-          "type": "Offsides",
-          "value": 0
+          "value": 3
         },
         {
           "type": "Goalkeeper Saves",
@@ -668,7 +770,59 @@
         },
         {
           "type": "Pass Accuracy",
-          "value": "39%"
+          "value": "13%"
+        }
+      ]
+    },
+    {
+      "team": {
+        "id": 263,
+        "name": "Botafogo"
+      },
+      "statistics": [
+        {
+          "type": "Ball Possession",
+          "value": "38%"
+        },
+        {
+          "type": "Total Shots",
+          "value": 4
+        },
+        {
+          "type": "Shots off Goal",
+          "value": 10
+        },
+        {
+          "type": "Blocked Shots",
+          "value": 3
+        },
+        {
+          "type": "Corner Kicks",
+          "value": 3
+        },
+        {
+          "type": "Fouls",
+          "value": 9
+        },
+        {
+          "type": "Offsides",
+          "value": 3
+        },
+        {
+          "type": "Goalkeeper Saves",
+          "value": 10
+        },
+        {
+          "type": "Yellow Cards",
+          "value": 2
+        },
+        {
+          "type": "Red Cards",
+          "value": 0
+        },
+        {
+          "type": "Pass Accuracy",
+          "value": "22%"
         }
       ]
     }

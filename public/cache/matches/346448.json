@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 58
+      "elapsed": 93
     },
     "timerStart": "2026-08-30T20:09:39.565Z",
     "timerStatus": "INICIADO"
@@ -179,6 +179,96 @@
         "name": "Lucas Veríssimo"
       },
       "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 63,
+        "extra": null
+      },
+      "team": {
+        "id": 264,
+        "name": "Corinthians"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Pedro Raul"
+      },
+      "assist": {
+        "name": "Allan"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 65,
+        "extra": null
+      },
+      "team": {
+        "id": 277,
+        "name": "Santos"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Rony"
+      },
+      "assist": {
+        "name": "Gabriel Bontempo"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 71,
+        "extra": null
+      },
+      "team": {
+        "id": 277,
+        "name": "Santos"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Rollheiser"
+      },
+      "assist": {
+        "name": "Gabriel"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 72,
+        "extra": null
+      },
+      "team": {
+        "id": 277,
+        "name": "Santos"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Davizinho"
+      },
+      "assist": {
+        "name": "Barreal"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 83,
+        "extra": null
+      },
+      "team": {
+        "id": 264,
+        "name": "Corinthians"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Matheus Pereira"
+      },
+      "assist": {
+        "name": "Raniele"
+      }
     }
   ],
   "lineups": [
@@ -636,31 +726,31 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "55%"
+          "value": "58%"
         },
         {
           "type": "Total Shots",
-          "value": 0
+          "value": 2
         },
         {
           "type": "Shots off Goal",
-          "value": 6
+          "value": 14
         },
         {
           "type": "Blocked Shots",
-          "value": 1
+          "value": 6
         },
         {
           "type": "Corner Kicks",
-          "value": 3
+          "value": 8
         },
         {
           "type": "Fouls",
-          "value": 5
+          "value": 8
         },
         {
           "type": "Offsides",
-          "value": 0
+          "value": 2
         },
         {
           "type": "Goalkeeper Saves",
@@ -676,7 +766,7 @@
         },
         {
           "type": "Pass Accuracy",
-          "value": "21%"
+          "value": "15%"
         }
       ]
     },
@@ -688,7 +778,7 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "45%"
+          "value": "42%"
         },
         {
           "type": "Total Shots",
@@ -708,15 +798,15 @@
         },
         {
           "type": "Fouls",
-          "value": 11
+          "value": 15
         },
         {
           "type": "Offsides",
-          "value": 3
+          "value": 4
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 1
+          "value": 7
         },
         {
           "type": "Yellow Cards",
@@ -728,7 +818,7 @@
         },
         {
           "type": "Pass Accuracy",
-          "value": "31%"
+          "value": "22%"
         }
       ]
     }

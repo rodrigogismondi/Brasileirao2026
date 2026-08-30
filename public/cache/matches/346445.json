@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 49
+      "elapsed": 60
     },
     "timerStart": "2026-08-30T20:07:23.483Z",
     "timerStatus": "INICIADO"
@@ -100,6 +100,24 @@
       },
       "assist": {
         "name": "Alex Telles"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 56,
+        "extra": null
+      },
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Lucas Paquetá"
+      },
+      "assist": {
+        "name": "Luiz Araújo"
       }
     }
   ],
@@ -558,7 +576,7 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "68%"
+          "value": "67%"
         },
         {
           "type": "Total Shots",
@@ -566,7 +584,7 @@
         },
         {
           "type": "Shots off Goal",
-          "value": 11
+          "value": 13
         },
         {
           "type": "Blocked Shots",
@@ -574,7 +592,7 @@
         },
         {
           "type": "Corner Kicks",
-          "value": 4
+          "value": 5
         },
         {
           "type": "Fouls",
@@ -586,7 +604,7 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 3
+          "value": 4
         },
         {
           "type": "Yellow Cards",
@@ -598,7 +616,7 @@
         },
         {
           "type": "Pass Accuracy",
-          "value": "22%"
+          "value": "19%"
         }
       ]
     },
@@ -610,7 +628,7 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "32%"
+          "value": "33%"
         },
         {
           "type": "Total Shots",
@@ -618,11 +636,11 @@
         },
         {
           "type": "Shots off Goal",
-          "value": 2
+          "value": 5
         },
         {
           "type": "Blocked Shots",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Corner Kicks",
@@ -638,7 +656,7 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 7
+          "value": 8
         },
         {
           "type": "Yellow Cards",
@@ -650,7 +668,7 @@
         },
         {
           "type": "Pass Accuracy",
-          "value": "52%"
+          "value": "39%"
         }
       ]
     }

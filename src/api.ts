@@ -91,6 +91,15 @@ function mapMatch(f: RawFixture): Match {
   const status = normalizeStatus(f.fixture.status.short);
   const score =
     f.goals.home != null && f.goals.away != null ? ([f.goals.home, f.goals.away] as [number, number]) : null;
+  const odds =
+    f.odds && f.odds.home > 1 && f.odds.draw > 1 && f.odds.away > 1
+      ? {
+          home: f.odds.home,
+          draw: f.odds.draw,
+          away: f.odds.away,
+          source: f.odds.source,
+        }
+      : null;
   return {
     id: f.fixture.id,
     round: roundLabel(f.league?.round),
@@ -109,6 +118,7 @@ function mapMatch(f: RawFixture): Match {
     datetime: f.fixture.timestamp,
     venue: f.fixture.venue?.name || f.fixture.venue?.city || "",
     roundNumber: roundNumberFromLabel(f.league?.round),
+    odds,
   };
 }
 
@@ -299,7 +309,7 @@ export function mapMatchDetail(raw: RawDetail): MatchDetail {
             away: raw.odds.away,
             source: raw.odds.source,
           }
-        : null,
+        : base.odds,
     sportsFieldUrl: raw.sportsFieldUrl ?? null,
   };
 }
@@ -314,7 +324,7 @@ export function matchSummaryFromList(m: Match): MatchDetail {
     subs: [],
     stats: [],
     lineups: [],
-    odds: null,
+    odds: m.odds,
     sportsFieldUrl: null,
   };
 }

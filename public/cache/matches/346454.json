@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 38
+      "elapsed": 41
     },
     "timerStart": "2026-08-31T23:00:42.316Z",
     "timerStatus": "INICIADO"
@@ -120,6 +120,24 @@
       },
       "assist": {
         "name": "BOM CHUTE"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 39,
+        "extra": null
+      },
+      "team": {
+        "id": 364,
+        "name": "Remo"
+      },
+      "type": "Important",
+      "detail": "Em cobrança rápida de lateral, a bola chega nos pés de Taliari. Ele tira Pedro Morisco, mas finaliza na rede pelo lado de fora do gol do Coritiba.",
+      "player": {
+        "name": "Gabriel Taliari"
+      },
+      "assist": {
+        "name": "QUAAAAASE"
       }
     }
   ],
@@ -578,15 +596,15 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "58%"
+          "value": "56%"
         },
         {
           "type": "Total Passes",
-          "value": 193
+          "value": 200
         },
         {
           "type": "Pass Accuracy",
-          "value": "81%"
+          "value": "82%"
         },
         {
           "type": "Incomplete Passes",
@@ -594,7 +612,7 @@
         },
         {
           "type": "Total Shots",
-          "value": 10
+          "value": 11
         },
         {
           "type": "Shots on Goal",
@@ -602,7 +620,7 @@
         },
         {
           "type": "Shots off Goal",
-          "value": 6
+          "value": 7
         },
         {
           "type": "Blocked Shots",
@@ -654,19 +672,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "42%"
+          "value": "44%"
         },
         {
           "type": "Total Passes",
-          "value": 132
+          "value": 156
         },
         {
           "type": "Pass Accuracy",
-          "value": "83%"
+          "value": "84%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 23
+          "value": 25
         },
         {
           "type": "Total Shots",

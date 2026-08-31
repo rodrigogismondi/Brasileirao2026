@@ -1215,10 +1215,24 @@ async function main() {
       writeFileSync(join(MATCHES_DIR, `${f.fixture.id}.json`), JSON.stringify(detail, null, 2));
     }
 
+    // Enrichment can promote 2H→FT (FIM_DE_JOGO); recompute budget from final statuses.
+    const finalHasLive = payload.fixtures.some((f) =>
+      ["1H", "HT", "2H", "LIVE", "ET", "BT", "P"].includes(f.fixture.status.short)
+    );
+    const finalHasPrematch = payload.fixtures.some((f) => {
+      if (f.fixture.status.short !== "NS") return false;
+      const eta = f.fixture.timestamp - nowSec;
+      return eta <= 3 * 3600 && eta >= -30 * 60;
+    });
+    const finalMode = finalHasLive ? "live" : finalHasPrematch ? "prematch" : "idle";
+    payload.budget.mode = finalMode;
+    payload.budget.liveIntervalMs =
+      finalMode === "live" ? 20_000 : finalMode === "prematch" ? 2 * 60_000 : 15 * 60_000;
+
     writeFileSync(join(CACHE_DIR, "dashboard.json"), JSON.stringify(payload, null, 2));
 
     console.log(
-      `Synced GE cache: rodada ${rodada}/${ultimaRodada}, ${fixtures.length} jogos, fullSeason=${fullSeason}, enriched=${enriched}, failed=${failed}, scorers=${scorers.length}, odds=${oddsMatched}/${oddsMap.size} (kept ${oddsPreserved}), mode=${mode}, source=${payload.source}`
+      `Synced GE cache: rodada ${rodada}/${ultimaRodada}, ${fixtures.length} jogos, fullSeason=${fullSeason}, enriched=${enriched}, failed=${failed}, scorers=${scorers.length}, odds=${oddsMatched}/${oddsMap.size} (kept ${oddsPreserved}), mode=${finalMode}, source=${payload.source}`
     );
   } catch (err) {
     writeDemoFallback(err instanceof Error ? err.message : String(err));

@@ -44,12 +44,28 @@
     }
   },
   "odds": {
-    "home": 1.88,
-    "draw": 3.31,
-    "away": 4.48,
+    "home": 1.87,
+    "draw": 3.32,
+    "away": 4.43,
     "source": "betexplorer"
   },
   "events": [
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 264,
+        "name": "Corinthians"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Hugo Souza"
+      },
+      "assist": null
+    },
     {
       "time": {
         "elapsed": 9,
@@ -748,7 +764,7 @@
         },
         {
           "type": "Total Passes",
-          "value": 654
+          "value": 653
         },
         {
           "type": "Pass Accuracy",
@@ -756,7 +772,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 92
+          "value": 93
         },
         {
           "type": "Total Shots",
@@ -796,7 +812,7 @@
         },
         {
           "type": "Tackles",
-          "value": 12
+          "value": 13
         },
         {
           "type": "Fouls",
@@ -804,7 +820,7 @@
         },
         {
           "type": "Yellow Cards",
-          "value": 3
+          "value": 4
         },
         {
           "type": "Red Cards",

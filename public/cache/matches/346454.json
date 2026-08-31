@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 47
+      "elapsed": 50
     },
     "timerStart": "2026-08-31T23:00:42.316Z",
     "timerStatus": "INICIADO"
@@ -174,6 +174,24 @@
       },
       "assist": {
         "name": "SEM PERIGO"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 47,
+        "extra": null
+      },
+      "team": {
+        "id": 294,
+        "name": "Coritiba"
+      },
+      "type": "Important",
+      "detail": "Fernando Sobral cobra escanteio pelo Coritiba, a bola vai na segunda trave e encontra Pedro Rocha. Ele cabeceia e isola por cima do gol do Remo.",
+      "player": {
+        "name": "Pedro Rocha"
+      },
+      "assist": {
+        "name": "LOOOONGE"
       }
     }
   ],
@@ -632,15 +650,15 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "54%"
+          "value": "55%"
         },
         {
           "type": "Total Passes",
-          "value": 217
+          "value": 231
         },
         {
           "type": "Pass Accuracy",
-          "value": "82%"
+          "value": "83%"
         },
         {
           "type": "Incomplete Passes",
@@ -648,19 +666,19 @@
         },
         {
           "type": "Total Shots",
-          "value": 11
+          "value": 15
         },
         {
           "type": "Shots on Goal",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Shots off Goal",
-          "value": 7
+          "value": 9
         },
         {
           "type": "Blocked Shots",
-          "value": 4
+          "value": 5
         },
         {
           "type": "Hit Woodwork",
@@ -684,11 +702,11 @@
         },
         {
           "type": "Tackles",
-          "value": 10
+          "value": 11
         },
         {
           "type": "Fouls",
-          "value": 5
+          "value": 4
         },
         {
           "type": "Yellow Cards",
@@ -708,19 +726,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "46%"
+          "value": "45%"
         },
         {
           "type": "Total Passes",
-          "value": 172
+          "value": 183
         },
         {
           "type": "Pass Accuracy",
-          "value": "85%"
+          "value": "84%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 26
+          "value": 29
         },
         {
           "type": "Total Shots",
@@ -744,7 +762,7 @@
         },
         {
           "type": "Corner Kicks",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Offsides",
@@ -756,11 +774,11 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 4
+          "value": 6
         },
         {
           "type": "Tackles",
-          "value": 5
+          "value": 6
         },
         {
           "type": "Fouls",

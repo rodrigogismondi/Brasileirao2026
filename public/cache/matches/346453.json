@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 74
+      "elapsed": 76
     },
     "timerStart": "2026-08-30T23:37:22.890Z",
     "timerStatus": "INICIADO"
@@ -297,6 +297,24 @@
         "name": "Michel Araújo"
       },
       "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 75,
+        "extra": null
+      },
+      "team": {
+        "id": 265,
+        "name": "Bahia"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Marcos Victor"
+      },
+      "assist": {
+        "name": "Román Gómez"
+      }
     }
   ],
   "lineups": [
@@ -754,11 +772,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "59%"
+          "value": "57%"
         },
         {
           "type": "Total Passes",
-          "value": 468
+          "value": 478
         },
         {
           "type": "Pass Accuracy",
@@ -766,7 +784,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 63
+          "value": 64
         },
         {
           "type": "Total Shots",
@@ -806,7 +824,7 @@
         },
         {
           "type": "Tackles",
-          "value": 14
+          "value": 15
         },
         {
           "type": "Fouls",
@@ -830,19 +848,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "41%"
+          "value": "43%"
         },
         {
           "type": "Total Passes",
-          "value": 305
+          "value": 343
         },
         {
           "type": "Pass Accuracy",
-          "value": "82%"
+          "value": "83%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 54
+          "value": 60
         },
         {
           "type": "Total Shots",
@@ -882,7 +900,7 @@
         },
         {
           "type": "Tackles",
-          "value": 17
+          "value": 19
         },
         {
           "type": "Fouls",

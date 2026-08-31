@@ -44,9 +44,9 @@
     }
   },
   "odds": {
-    "home": 2.34,
-    "draw": 3.1,
-    "away": 3.23,
+    "home": 2.2,
+    "draw": 3.23,
+    "away": 3.2,
     "source": "betexplorer"
   },
   "events": [
@@ -337,6 +337,22 @@
       "assist": {
         "name": "Hulk"
       }
+    },
+    {
+      "time": {
+        "elapsed": 92,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "?"
+      },
+      "assist": null
     },
     {
       "time": {
@@ -946,7 +962,7 @@
         },
         {
           "type": "Yellow Cards",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Red Cards",

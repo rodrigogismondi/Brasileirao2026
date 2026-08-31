@@ -44,12 +44,44 @@
     }
   },
   "odds": {
-    "home": 1.78,
-    "draw": 3.65,
-    "away": 4.43,
+    "home": 1.79,
+    "draw": 3.57,
+    "away": 4.46,
     "source": "betexplorer"
   },
   "events": [
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 285,
+        "name": "Internacional"
+      },
+      "type": "Card",
+      "detail": "Red Card",
+      "player": {
+        "name": "?"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 265,
+        "name": "Bahia"
+      },
+      "type": "Card",
+      "detail": "Red Card",
+      "player": {
+        "name": "Everaldo"
+      },
+      "assist": null
+    },
     {
       "time": {
         "elapsed": 15,
@@ -942,7 +974,7 @@
         },
         {
           "type": "Red Cards",
-          "value": 0
+          "value": 1
         }
       ]
     },
@@ -1018,7 +1050,7 @@
         },
         {
           "type": "Red Cards",
-          "value": 0
+          "value": 1
         }
       ]
     }

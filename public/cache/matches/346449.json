@@ -44,12 +44,28 @@
     }
   },
   "odds": {
-    "home": 3.5,
-    "draw": 3.35,
-    "away": 2.05,
+    "home": 3.52,
+    "draw": 3.3,
+    "away": 2.1,
     "source": "betexplorer"
   },
   "events": [
+    {
+      "time": {
+        "elapsed": 26,
+        "extra": null
+      },
+      "team": {
+        "id": 275,
+        "name": "Palmeiras"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "?"
+      },
+      "assist": null
+    },
     {
       "time": {
         "elapsed": 49,
@@ -866,7 +882,7 @@
         },
         {
           "type": "Yellow Cards",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Red Cards",

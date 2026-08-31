@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 79
+      "elapsed": 83
     },
     "timerStart": "2026-08-30T23:37:22.890Z",
     "timerStatus": "INICIADO"
@@ -297,6 +297,42 @@
         "name": "Michel Araújo"
       },
       "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 75,
+        "extra": null
+      },
+      "team": {
+        "id": 285,
+        "name": "Internacional"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Juninho"
+      },
+      "assist": {
+        "name": "Matheus Bahia"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 75,
+        "extra": null
+      },
+      "team": {
+        "id": 285,
+        "name": "Internacional"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Carbonero"
+      },
+      "assist": {
+        "name": "Alan Patrick"
+      }
     },
     {
       "time": {
@@ -776,7 +812,7 @@
         },
         {
           "type": "Total Passes",
-          "value": 478
+          "value": 504
         },
         {
           "type": "Pass Accuracy",
@@ -784,15 +820,15 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 64
+          "value": 66
         },
         {
           "type": "Total Shots",
-          "value": 11
+          "value": 12
         },
         {
           "type": "Shots on Goal",
-          "value": 6
+          "value": 7
         },
         {
           "type": "Shots off Goal",
@@ -812,7 +848,7 @@
         },
         {
           "type": "Offsides",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Penalties",
@@ -820,7 +856,7 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Tackles",
@@ -852,7 +888,7 @@
         },
         {
           "type": "Total Passes",
-          "value": 343
+          "value": 358
         },
         {
           "type": "Pass Accuracy",
@@ -860,11 +896,11 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 60
+          "value": 62
         },
         {
           "type": "Total Shots",
-          "value": 9
+          "value": 10
         },
         {
           "type": "Shots on Goal",
@@ -876,7 +912,7 @@
         },
         {
           "type": "Blocked Shots",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Hit Woodwork",
@@ -896,11 +932,11 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 4
+          "value": 5
         },
         {
           "type": "Tackles",
-          "value": 19
+          "value": 20
         },
         {
           "type": "Fouls",

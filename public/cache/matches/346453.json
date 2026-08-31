@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 65
+      "elapsed": 68
     },
     "timerStart": "2026-08-30T23:37:22.890Z",
     "timerStatus": "INICIADO"
@@ -265,6 +265,22 @@
       "assist": {
         "name": "Bernabei"
       }
+    },
+    {
+      "time": {
+        "elapsed": 65,
+        "extra": null
+      },
+      "team": {
+        "id": 265,
+        "name": "Bahia"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Román Gómez"
+      },
+      "assist": null
     }
   ],
   "lineups": [
@@ -722,11 +738,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "59%"
+          "value": "60%"
         },
         {
           "type": "Total Passes",
-          "value": 420
+          "value": 435
         },
         {
           "type": "Pass Accuracy",
@@ -734,7 +750,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 58
+          "value": 59
         },
         {
           "type": "Total Shots",
@@ -762,7 +778,7 @@
         },
         {
           "type": "Offsides",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Penalties",
@@ -798,19 +814,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "41%"
+          "value": "40%"
         },
         {
           "type": "Total Passes",
-          "value": 251
+          "value": 271
         },
         {
           "type": "Pass Accuracy",
-          "value": "82%"
+          "value": "83%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 46
+          "value": 47
         },
         {
           "type": "Total Shots",
@@ -850,7 +866,7 @@
         },
         {
           "type": "Tackles",
-          "value": 15
+          "value": 16
         },
         {
           "type": "Fouls",

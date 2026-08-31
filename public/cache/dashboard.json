@@ -11942,9 +11942,7 @@
           "long": "FT",
           "short": "FT",
           "elapsed": 90
-        },
-        "timerStart": "2026-08-29T23:33:54.861Z",
-        "timerStatus": "PAUSADO"
+        }
       },
       "league": {
         "round": "Regular Season - 25"
@@ -11994,9 +11992,7 @@
           "long": "FT",
           "short": "FT",
           "elapsed": 90
-        },
-        "timerStart": "2026-08-30T01:25:24.952Z",
-        "timerStatus": "PAUSADO"
+        }
       },
       "league": {
         "round": "Regular Season - 25"
@@ -12046,9 +12042,7 @@
           "long": "FT",
           "short": "FT",
           "elapsed": 90
-        },
-        "timerStart": "2026-08-30T02:27:46.075Z",
-        "timerStatus": "PAUSADO"
+        }
       },
       "league": {
         "round": "Regular Season - 25"
@@ -12098,9 +12092,7 @@
           "long": "FT",
           "short": "FT",
           "elapsed": 90
-        },
-        "timerStart": "2026-08-30T16:11:28.071Z",
-        "timerStatus": "PAUSADO"
+        }
       },
       "league": {
         "round": "Regular Season - 25"
@@ -12150,9 +12142,7 @@
           "long": "FT",
           "short": "FT",
           "elapsed": 90
-        },
-        "timerStart": "2026-08-30T21:03:43.203Z",
-        "timerStatus": "PAUSADO"
+        }
       },
       "league": {
         "round": "Regular Season - 25"
@@ -12202,9 +12192,7 @@
           "long": "FT",
           "short": "FT",
           "elapsed": 90
-        },
-        "timerStart": "2026-08-30T21:19:25.418Z",
-        "timerStatus": "PAUSADO"
+        }
       },
       "league": {
         "round": "Regular Season - 25"
@@ -12254,9 +12242,7 @@
           "long": "FT",
           "short": "FT",
           "elapsed": 90
-        },
-        "timerStart": "2026-08-30T23:37:11.384Z",
-        "timerStatus": "PAUSADO"
+        }
       },
       "league": {
         "round": "Regular Season - 25"
@@ -12306,9 +12292,7 @@
           "long": "FT",
           "short": "FT",
           "elapsed": 90
-        },
-        "timerStart": "2026-08-30T23:31:50.133Z",
-        "timerStatus": "PAUSADO"
+        }
       },
       "league": {
         "round": "Regular Season - 25"
@@ -12358,9 +12342,7 @@
           "long": "FT",
           "short": "FT",
           "elapsed": 90
-        },
-        "timerStart": "2026-08-31T00:32:29.024Z",
-        "timerStatus": "PAUSADO"
+        }
       },
       "league": {
         "round": "Regular Season - 25"
@@ -12407,12 +12389,12 @@
           "city": ""
         },
         "status": {
-          "long": "NS",
-          "short": "NS",
-          "elapsed": null
+          "long": "1H",
+          "short": "1H",
+          "elapsed": 12
         },
-        "timerStart": null,
-        "timerStatus": "PAUSADO"
+        "timerStart": "2026-08-31T23:00:42.316Z",
+        "timerStatus": "INICIADO"
       },
       "league": {
         "round": "Regular Season - 25"
@@ -12430,8 +12412,8 @@
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
       "score": {
         "halftime": {
@@ -18714,14 +18696,14 @@
                 "name": "Coritiba",
                 "logo": "https://s.sde.globo.com/media/organizations/2018/03/11/coritiba.svg"
               },
-              "points": 34,
+              "points": 35,
               "goalsDiff": -1,
-              "form": "DLWDW",
+              "form": "LWDWD",
               "description": "Copa Sudamericana",
               "all": {
-                "played": 24,
+                "played": 25,
                 "win": 9,
-                "draw": 7,
+                "draw": 8,
                 "lose": 8,
                 "goals": {
                   "for": 30,
@@ -18934,14 +18916,14 @@
                 "name": "Remo",
                 "logo": "https://s.sde.globo.com/media/organizations/2021/02/25/Remo-PA.svg"
               },
-              "points": 23,
+              "points": 24,
               "goalsDiff": -11,
-              "form": "WLDDL",
+              "form": "LDDLD",
               "description": "Relegation",
               "all": {
-                "played": 24,
+                "played": 25,
                 "win": 5,
-                "draw": 8,
+                "draw": 9,
                 "lose": 11,
                 "goals": {
                   "for": 28,
@@ -20082,10 +20064,10 @@
   "budget": {
     "used": 0,
     "remaining": 100,
-    "mode": "idle",
-    "liveIntervalMs": 900000
+    "mode": "live",
+    "liveIntervalMs": 20000
   },
-  "fetchedAt": "2026-08-31T19:11:07.148Z",
+  "fetchedAt": "2026-08-31T23:13:11.265Z",
   "source": "ge-globo",
   "meta": {
     "rodada": 25,
@@ -20131,13 +20113,13 @@
       38
     ],
     "seasonSyncedAt": "2026-08-31T19:11:01.740Z",
-    "fullSeasonSync": true,
+    "fullSeasonSync": false,
     "edicao": "Campeonato Brasileiro 2026",
     "provider": "ge.globo.com",
     "scorersCount": 50,
-    "oddsMatched": 281,
-    "oddsPreserved": 0,
-    "oddsAvailable": 247,
+    "oddsMatched": 0,
+    "oddsPreserved": 281,
+    "oddsAvailable": 0,
     "fixturesCount": 380
   }
 }

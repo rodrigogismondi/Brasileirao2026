@@ -7,12 +7,12 @@
       "city": ""
     },
     "status": {
-      "long": "NS",
-      "short": "NS",
-      "elapsed": null
+      "long": "1H",
+      "short": "1H",
+      "elapsed": 12
     },
-    "timerStart": null,
-    "timerStatus": "PAUSADO"
+    "timerStart": "2026-08-31T23:00:42.316Z",
+    "timerStatus": "INICIADO"
   },
   "league": {
     "round": "Regular Season - 25"
@@ -30,8 +30,8 @@
     }
   },
   "goals": {
-    "home": null,
-    "away": null
+    "home": 0,
+    "away": 0
   },
   "score": {
     "halftime": {
@@ -136,9 +136,9 @@
         },
         {
           "player": {
-            "id": "antoniogaleano",
-            "name": "Galeano",
-            "number": 21,
+            "id": "yagopikachu",
+            "name": "Yago Pikachu",
+            "number": 22,
             "pos": "Ata",
             "grid": null
           }
@@ -154,15 +154,124 @@
         },
         {
           "player": {
-            "id": "vitor-bueno",
-            "name": "Vitor Bueno",
-            "number": 15,
+            "id": "antoniogaleano",
+            "name": "Galeano",
+            "number": 21,
             "pos": "Ata",
             "grid": null
           }
         }
       ],
-      "substitutes": []
+      "substitutes": [
+        {
+          "player": {
+            "id": "ygor-vinhas",
+            "name": "Ygor Vinhas",
+            "number": 94,
+            "pos": "Gol",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "ivan-quaresma",
+            "name": "Ivan",
+            "number": 97,
+            "pos": "Gol",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "matheusalexandre",
+            "name": "Matheus Alexandre",
+            "number": 2,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "matheusfelipe",
+            "name": "Matheus Felipe",
+            "number": 4,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "zeivaldo",
+            "name": "Zé Ivaldo",
+            "number": 27,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "leoandrade",
+            "name": "Léo Andrade",
+            "number": 5,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "patrick01",
+            "name": "Patrick",
+            "number": 8,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "jaderson",
+            "name": "Jáderson",
+            "number": 10,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "vitor-bueno",
+            "name": "Vitor Bueno",
+            "number": 15,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "david_braga",
+            "name": "David Braga",
+            "number": 26,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "gabrielpoveda",
+            "name": "Gabriel Poveda",
+            "number": 9,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "alefmanga",
+            "name": "Alef Manga",
+            "number": 11,
+            "pos": "Ata",
+            "grid": null
+          }
+        }
+      ]
     },
     {
       "team": {
@@ -240,9 +349,9 @@
         },
         {
           "player": {
-            "id": "josuefilipe",
-            "name": "Josué",
-            "number": 10,
+            "id": "fernandosobral",
+            "name": "Fernando Sobral",
+            "number": 88,
             "pos": "Mei",
             "grid": null
           }
@@ -275,9 +384,271 @@
           }
         }
       ],
-      "substitutes": []
+      "substitutes": [
+        {
+          "player": {
+            "id": "keiller",
+            "name": "Keiller",
+            "number": 13,
+            "pos": "Gol",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "maicon7",
+            "name": "Maicon",
+            "number": 3,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "rodrigo-moledo",
+            "name": "Rodrigo Moledo",
+            "number": 4,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "felipejonatan",
+            "name": "Felipe Jonatan",
+            "number": 6,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "khensane",
+            "name": "Khensane",
+            "number": 30,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "vinipaulista",
+            "name": "Vini Paulista",
+            "number": 36,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "gustavooliveira",
+            "name": "Gustavo",
+            "number": 39,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "Paulo-Roberto",
+            "name": "Paulo Roberto",
+            "number": 18,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "fabinholuciano",
+            "name": "Fabinho",
+            "number": 28,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "davidcoxa",
+            "name": "David",
+            "number": 33,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "lucas-crepaldi",
+            "name": "Lucas Crepaldi",
+            "number": 37,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "rodrigorodrigues",
+            "name": "Rodrigo Rodrigues",
+            "number": 99,
+            "pos": "Ata",
+            "grid": null
+          }
+        }
+      ]
     }
   ],
-  "statistics": [],
+  "statistics": [
+    {
+      "team": {
+        "id": 364,
+        "name": "Remo"
+      },
+      "statistics": [
+        {
+          "type": "Ball Possession",
+          "value": "53%"
+        },
+        {
+          "type": "Total Passes",
+          "value": 64
+        },
+        {
+          "type": "Pass Accuracy",
+          "value": "84%"
+        },
+        {
+          "type": "Incomplete Passes",
+          "value": 10
+        },
+        {
+          "type": "Total Shots",
+          "value": 2
+        },
+        {
+          "type": "Shots on Goal",
+          "value": 0
+        },
+        {
+          "type": "Shots off Goal",
+          "value": 1
+        },
+        {
+          "type": "Blocked Shots",
+          "value": 1
+        },
+        {
+          "type": "Hit Woodwork",
+          "value": 0
+        },
+        {
+          "type": "Corner Kicks",
+          "value": 0
+        },
+        {
+          "type": "Offsides",
+          "value": 0
+        },
+        {
+          "type": "Penalties",
+          "value": 0
+        },
+        {
+          "type": "Goalkeeper Saves",
+          "value": 0
+        },
+        {
+          "type": "Tackles",
+          "value": 5
+        },
+        {
+          "type": "Fouls",
+          "value": 1
+        },
+        {
+          "type": "Yellow Cards",
+          "value": 0
+        },
+        {
+          "type": "Red Cards",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "team": {
+        "id": 294,
+        "name": "Coritiba"
+      },
+      "statistics": [
+        {
+          "type": "Ball Possession",
+          "value": "47%"
+        },
+        {
+          "type": "Total Passes",
+          "value": 44
+        },
+        {
+          "type": "Pass Accuracy",
+          "value": "80%"
+        },
+        {
+          "type": "Incomplete Passes",
+          "value": 9
+        },
+        {
+          "type": "Total Shots",
+          "value": 2
+        },
+        {
+          "type": "Shots on Goal",
+          "value": 0
+        },
+        {
+          "type": "Shots off Goal",
+          "value": 1
+        },
+        {
+          "type": "Blocked Shots",
+          "value": 0
+        },
+        {
+          "type": "Hit Woodwork",
+          "value": 1
+        },
+        {
+          "type": "Corner Kicks",
+          "value": 0
+        },
+        {
+          "type": "Offsides",
+          "value": 0
+        },
+        {
+          "type": "Penalties",
+          "value": 0
+        },
+        {
+          "type": "Goalkeeper Saves",
+          "value": 1
+        },
+        {
+          "type": "Tackles",
+          "value": 3
+        },
+        {
+          "type": "Fouls",
+          "value": 0
+        },
+        {
+          "type": "Yellow Cards",
+          "value": 0
+        },
+        {
+          "type": "Red Cards",
+          "value": 0
+        }
+      ]
+    }
+  ],
   "sportsFieldUrl": null
 }

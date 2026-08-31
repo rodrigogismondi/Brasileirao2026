@@ -189,6 +189,7 @@ function renderTable(data: DashboardData, lang: Lang): string {
           <tr>
             <th>${escapeHtml(t(lang, "colPos"))}</th>
             <th>${escapeHtml(t(lang, "colTeam"))}</th>
+            <th>${escapeHtml(t(lang, "colPts"))}</th>
             <th>${escapeHtml(t(lang, "colPlayed"))}</th>
             <th>${escapeHtml(t(lang, "colWon"))}</th>
             <th>${escapeHtml(t(lang, "colDrawn"))}</th>
@@ -196,7 +197,6 @@ function renderTable(data: DashboardData, lang: Lang): string {
             <th>${escapeHtml(t(lang, "colGF"))}</th>
             <th>${escapeHtml(t(lang, "colGA"))}</th>
             <th>${escapeHtml(t(lang, "colGD"))}</th>
-            <th>${escapeHtml(t(lang, "colPts"))}</th>
           </tr>
         </thead>
         <tbody>
@@ -209,10 +209,10 @@ function renderTable(data: DashboardData, lang: Lang): string {
                 ${crestImg(row.logo, row.name)}
                 ${escapeHtml(row.name)}
               </td>
+              <td class="pts"><strong>${row.points}</strong></td>
               <td>${row.played}</td><td>${row.won}</td><td>${row.drawn}</td><td>${row.lost}</td>
               <td>${row.goalsFor}</td><td>${row.goalsAgainst}</td>
               <td class="${row.goalDiff > 0 ? "positive" : row.goalDiff < 0 ? "negative" : ""}">${row.goalDiff > 0 ? "+" : ""}${row.goalDiff}</td>
-              <td><strong>${row.points}</strong></td>
             </tr>`
             )
             .join("")}

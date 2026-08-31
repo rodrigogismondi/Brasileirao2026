@@ -575,6 +575,16 @@ a {
   text-align: left;
 }
 
+.standings-table td.pts,
+.standings-table th:nth-child(3) {
+  font-variant-numeric: tabular-nums;
+  min-width: 2.4rem;
+}
+
+.standings-table td.pts {
+  color: var(--accent, #f5d76e);
+}
+
 .team-cell {
   display: flex;
   align-items: center;

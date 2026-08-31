@@ -5,6 +5,7 @@ import type {
   MatchCard,
   MatchDetail,
   MatchGoal,
+  MatchMoment,
   MatchStatRow,
   MatchStatus,
   MatchSub,
@@ -262,6 +263,7 @@ export function mapMatchDetail(raw: RawDetail): MatchDetail {
   const goals2: MatchGoal[] = [];
   const cards: MatchCard[] = [];
   const subs: MatchSub[] = [];
+  const moments: MatchMoment[] = [];
   let scoredHome = 0;
   let scoredAway = 0;
 
@@ -295,6 +297,14 @@ export function mapMatchDetail(raw: RawDetail): MatchDetail {
         minute,
         playerIn: e.player?.name ?? "?",
         playerOut: e.assist?.name ?? "?",
+      });
+    } else if (e.type === "Important") {
+      moments.push({
+        team,
+        minute,
+        name: e.player?.name ?? "?",
+        title: e.assist?.name || e.detail || e.player?.name || "Lance",
+        detail: e.detail || undefined,
       });
     }
   }
@@ -346,6 +356,7 @@ export function mapMatchDetail(raw: RawDetail): MatchDetail {
     goals2,
     cards,
     subs,
+    moments,
     stats,
     lineups,
     odds:
@@ -369,6 +380,7 @@ export function matchSummaryFromList(m: Match): MatchDetail {
     goals2: [],
     cards: [],
     subs: [],
+    moments: [],
     stats: [],
     lineups: [],
     odds: m.odds,

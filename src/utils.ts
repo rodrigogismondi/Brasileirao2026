@@ -97,6 +97,14 @@ export function resolveLiveMinute(m: Match, now = Date.now()): number | null {
   return m.liveMinute;
 }
 
+/** Wall-clock minutes since period timerStart, if available. */
+function minutesSinceTimerStart(m: Match, now: number): number | null {
+  if (!m.timerStart) return null;
+  const startMs = Date.parse(m.timerStart);
+  if (!Number.isFinite(startMs)) return null;
+  return Math.floor((now - startMs) / 60000);
+}
+
 /** True when GE says Intervalo, or 1H is paused past 45', or cache lagged past typical half length. */
 export function isHalftime(m: Match, now = Date.now()): boolean {
   if (m.status !== "live") return false;
@@ -104,17 +112,19 @@ export function isHalftime(m: Match, now = Date.now()): boolean {
   // Do not treat 2H pause / full-time whistle as Intervalo.
   if (m.period === "2H" || m.period === "ET" || m.period === "FT") return false;
 
+  const wallMins = minutesSinceTimerStart(m, now);
+  const syncedMins = m.liveMinute ?? 0;
+
+  // PAUSADO during 1H is often hydration/VAR — only call it Intervalo near/after 45'.
   const paused = String(m.timerStatus || "").toUpperCase() === "PAUSADO";
-  if (paused && m.period === "1H") return true;
+  if (paused && m.period === "1H") {
+    if (syncedMins >= 45 || (wallMins != null && wallMins >= 45)) return true;
+  }
 
   // Cache lag: still "1H"/"INICIADO" after a half that should already be over.
-  if (m.period === "1H" && m.timerStart) {
-    const startMs = Date.parse(m.timerStart);
-    if (Number.isFinite(startMs)) {
-      const mins = Math.floor((now - startMs) / 60000);
-      // 45' + ~7' stoppage — beyond that the half is almost certainly over (cache lag).
-      if (mins >= 52) return true;
-    }
+  if (m.period === "1H" && wallMins != null) {
+    // 45' + ~7' stoppage — beyond that the half is almost certainly over (cache lag).
+    if (wallMins >= 52) return true;
   }
 
   return false;

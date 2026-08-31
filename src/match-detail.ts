@@ -3,7 +3,7 @@ import { t, type Lang } from "./i18n";
 import { escapeHtml, formatKickoff, formatScore, liveBadgeText, statusLabel, teamInitials } from "./utils";
 
 interface TimelineEvent {
-  kind: "goal" | "yellow" | "red" | "sub";
+  kind: "goal" | "yellow" | "red" | "sub" | "moment";
   team: 1 | 2;
   minute: string;
   sortKey: number;
@@ -59,6 +59,16 @@ function buildTimeline(detail: MatchDetail, lang: Lang): TimelineEvent[] {
       sortKey: minuteSortKey(s.minute),
       title: s.playerIn,
       playerOut: s.playerOut,
+    });
+  }
+  for (const m of detail.moments ?? []) {
+    events.push({
+      kind: "moment",
+      team: m.team,
+      minute: String(m.minute),
+      sortKey: minuteSortKey(m.minute),
+      title: m.name,
+      detail: m.detail && m.detail !== m.name ? m.detail : m.title,
     });
   }
   return events.sort((a, b) => b.sortKey - a.sortKey);
@@ -140,6 +150,16 @@ function renderEventBody(e: TimelineEvent, lang: Lang): string {
           <strong>${escapeHtml(e.title)}</strong>
         </span>
         <span class="muted">${escapeHtml(e.detail ?? label)}</span>
+      </span>`;
+  }
+  if (e.kind === "moment") {
+    return `
+      <span class="md-event-body">
+        <span class="md-event-title-row">
+          <span class="md-moment-ico" aria-hidden="true">◆</span>
+          <strong>${escapeHtml(e.title)}</strong>
+        </span>
+        ${e.detail ? `<span class="muted">${escapeHtml(e.detail)}</span>` : `<span class="muted">${escapeHtml(t(lang, "mdMoment"))}</span>`}
       </span>`;
   }
   return `

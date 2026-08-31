@@ -84,6 +84,15 @@ export interface MatchSub {
   playerOut: string;
 }
 
+/** Editorial / important GE play (shot, chance, woodwork, …). */
+export interface MatchMoment {
+  team: 1 | 2;
+  minute: number;
+  name: string;
+  title: string;
+  detail?: string;
+}
+
 export interface MatchStatRow {
   key: string;
   values: [string | number, string | number];
@@ -111,6 +120,7 @@ export interface MatchDetail extends Match {
   goals2: MatchGoal[];
   cards: MatchCard[];
   subs: MatchSub[];
+  moments: MatchMoment[];
   stats: MatchStatRow[];
   lineups: TeamLineup[];
   odds: MatchOdds | null;

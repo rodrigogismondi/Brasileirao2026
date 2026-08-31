@@ -949,6 +949,20 @@ a {
   border-color: rgba(96, 165, 250, 0.25);
 }
 
+.md-event-moment {
+  border-color: rgba(148, 163, 184, 0.28);
+}
+
+.md-moment-ico {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1rem;
+  color: var(--accent);
+  font-size: 0.65rem;
+  opacity: 0.9;
+}
+
 .md-min {
   font-family: var(--display);
   font-weight: 700;

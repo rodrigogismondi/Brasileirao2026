@@ -164,6 +164,10 @@ function mapStatus(jogo) {
   if (hasScore && broadcast && !LIVE_BROADCASTS.has(broadcast) && !jogo.jogo_ja_comecou) {
     return { short: "FT", elapsed: 90 };
   }
+  // Lista broadcast can say INTERVALO while transmission.period still lags on 1T.
+  if (/^INTERVALO/.test(broadcast)) {
+    return { short: "HT", elapsed: 45 };
+  }
   if (jogo.jogo_ja_comecou || (LIVE_BROADCASTS.has(broadcast) && hasScore)) {
     // Period refined later from transmission page
     return { short: "1H", elapsed: null };
@@ -368,11 +372,22 @@ function cardDetail(kind) {
   return "Yellow Card";
 }
 
+function playBodyText(play) {
+  const blocks = play?.body?.blocks;
+  if (!Array.isArray(blocks)) return "";
+  return blocks
+    .map((b) => b?.text || "")
+    .filter(Boolean)
+    .join(" ")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
 function mapEvents(plays, homeId, awayId, homeName, awayName) {
   const events = [];
   for (const play of plays ?? []) {
     const typeId = play?.playType?.id;
-    if (!typeId || !["GOAL", "CARD", "SUBSTITUTION"].includes(typeId)) continue;
+    if (!typeId || !["GOAL", "CARD", "SUBSTITUTION", "IMPORTANT"].includes(typeId)) continue;
     const details = play.details ?? {};
     const teamId = details.team?.id ?? play.team?.id;
     if (teamId == null) continue;
@@ -413,6 +428,20 @@ function mapEvents(plays, homeId, awayId, homeName, awayName) {
         assist: {
           name: details.leaving?.popularName || details.leaving?.name || "?",
         },
+      });
+    } else if (typeId === "IMPORTANT") {
+      const title = String(play.title || "").trim();
+      if (!title) continue;
+      // Skip GE auto stubs ("Aos 11 min do 1º tempo - chute…"); keep editorial moments.
+      if (/^Aos\s+\d+\s*min/i.test(title)) continue;
+      const athlete = details.athlete?.popularName || details.athlete?.name || "";
+      const body = playBodyText(play);
+      events.push({
+        ...base,
+        type: "Important",
+        detail: body || title,
+        player: { name: athlete || title },
+        assist: athlete ? { name: title } : null,
       });
     }
   }

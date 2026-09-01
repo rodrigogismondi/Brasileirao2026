@@ -1041,12 +1041,14 @@ a {
   justify-content: center;
   flex-shrink: 0;
   vertical-align: middle;
-  line-height: 0;
+  line-height: 1;
 }
 
-.md-ball-own svg {
-  display: block;
-  overflow: visible;
+.md-ball-own-glyph {
+  font-size: 0.85rem;
+  line-height: 1;
+  /* Remap black→#ef4444; white stays white (see filter in index.html). */
+  filter: url(#own-goal-recolor);
 }
 
 .md-sub-body {
@@ -1272,9 +1274,8 @@ a {
   gap: 0.08rem;
 }
 
-.md-ico-own-goals .md-ball-own svg {
-  width: 0.78rem;
-  height: 0.78rem;
+.md-ico-own-goals .md-ball-own-glyph {
+  font-size: 0.78rem;
 }
 
 .md-ico-in {

@@ -81,10 +81,9 @@ function logoImg(src: string, alt: string, size = 28): string {
   return `<img class="crest" src="${escapeHtml(src)}" alt="${escapeHtml(alt)}" width="${size}" height="${size}" loading="lazy" />`;
 }
 
-/** Classic football with white panels; black parts → red (GE own-goal look). */
+/** Same ⚽ as a normal goal; SVG filter remaps black → red, keeps white. */
 function ownGoalBallMarkup(label: string, attrs = ""): string {
-  // Inline SVG (no clipPath ids — safe to repeat). White fill + red pentagon/seams.
-  return `<span class="md-ball-own" title="${escapeHtml(label)}" aria-label="${escapeHtml(label)}"${attrs ? ` ${attrs}` : ""}><svg viewBox="0 0 16 16" width="13" height="13" aria-hidden="true"><circle cx="8" cy="8" r="7" fill="#fff" stroke="#ef4444" stroke-width="1"/><path fill="#ef4444" d="M8 3.85 10.25 5.5l-.85 2.55H6.6L5.75 5.5 8 3.85z"/><g fill="none" stroke="#ef4444" stroke-width="0.9" stroke-linejoin="round" stroke-linecap="round"><path d="M8 3.85V1.1M10.25 5.5l3.25-1.6M9.4 8.05l3.05 2.8M6.6 8.05l-3.05 2.8M5.75 5.5 2.5 3.9"/><path d="M3.55 10.85 5.35 13.7 8 12.4l2.65 1.3 1.8-2.85"/></g><path fill="#ef4444" d="M4.45 11.95 5.35 13.7 6.9 12.75z"/><path fill="#ef4444" d="M11.55 11.95 10.65 13.7 9.1 12.75z"/><path fill="#ef4444" d="M6.55 12.55h2.9L8 14.55z"/></svg></span>`;
+  return `<span class="md-ball-own" title="${escapeHtml(label)}" aria-label="${escapeHtml(label)}"${attrs ? ` ${attrs}` : ""}><span class="md-ball-own-glyph" aria-hidden="true">⚽</span></span>`;
 }
 
 function statLabel(key: string, lang: Lang): string {

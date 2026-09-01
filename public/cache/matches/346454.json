@@ -7,12 +7,12 @@
       "city": ""
     },
     "status": {
-      "long": "2H",
-      "short": "2H",
-      "elapsed": 98
+      "long": "FT",
+      "short": "FT",
+      "elapsed": 90
     },
     "timerStart": "2026-09-01T00:06:50.078Z",
-    "timerStatus": "INICIADO"
+    "timerStatus": "PAUSADO"
   },
   "league": {
     "round": "Regular Season - 25"
@@ -39,8 +39,8 @@
       "away": null
     },
     "fulltime": {
-      "home": null,
-      "away": null
+      "home": 2,
+      "away": 3
     }
   },
   "odds": {
@@ -591,6 +591,58 @@
         "name": "Pedro Rocha"
       },
       "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 95,
+        "extra": null
+      },
+      "team": {
+        "id": 364,
+        "name": "Remo"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Gabriel Poveda"
+      },
+      "assist": {
+        "name": "Galeano"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 96,
+        "extra": null
+      },
+      "team": {
+        "id": 364,
+        "name": "Remo"
+      },
+      "type": "Important",
+      "detail": "Alef Manga finaliza da entrada da área do Coritiba. A bola sai à direita da meta de Pedro Morisco.",
+      "player": {
+        "name": "Alef Manga"
+      },
+      "assist": {
+        "name": "uhhhhh"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 97,
+        "extra": null
+      },
+      "team": {
+        "id": 364,
+        "name": "Remo"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Marllon"
+      },
+      "assist": null
     }
   ],
   "lineups": [
@@ -1052,7 +1104,7 @@
         },
         {
           "type": "Total Passes",
-          "value": 517
+          "value": 528
         },
         {
           "type": "Pass Accuracy",
@@ -1060,11 +1112,11 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 82
+          "value": 85
         },
         {
           "type": "Total Shots",
-          "value": 29
+          "value": 30
         },
         {
           "type": "Shots on Goal",
@@ -1072,7 +1124,7 @@
         },
         {
           "type": "Shots off Goal",
-          "value": 16
+          "value": 17
         },
         {
           "type": "Blocked Shots",
@@ -1104,11 +1156,11 @@
         },
         {
           "type": "Fouls",
-          "value": 9
+          "value": 10
         },
         {
           "type": "Yellow Cards",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Red Cards",
@@ -1128,15 +1180,15 @@
         },
         {
           "type": "Total Passes",
-          "value": 306
+          "value": 312
         },
         {
           "type": "Pass Accuracy",
-          "value": "83%"
+          "value": "82%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 52
+          "value": 55
         },
         {
           "type": "Total Shots",
@@ -1180,7 +1232,7 @@
         },
         {
           "type": "Fouls",
-          "value": 8
+          "value": 9
         },
         {
           "type": "Yellow Cards",

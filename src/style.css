@@ -1035,6 +1035,20 @@ a {
   line-height: 1;
 }
 
+.md-ball-own {
+  display: inline-block;
+  width: 0.78rem;
+  height: 0.78rem;
+  border-radius: 50%;
+  flex-shrink: 0;
+  vertical-align: middle;
+  background:
+    radial-gradient(circle at 32% 28%, #fecaca 0 28%, transparent 30%),
+    radial-gradient(circle at 70% 65%, #991b1b 0 22%, transparent 24%),
+    linear-gradient(145deg, #f87171, #b91c1c 55%, #7f1d1d);
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.35), 0 0 0 1px rgba(0, 0, 0, 0.25);
+}
+
 .md-sub-body {
   gap: 0.2rem;
 }
@@ -1166,17 +1180,58 @@ a {
   padding: 0;
   display: flex;
   flex-direction: column;
-  gap: 0.2rem;
+  gap: 0.15rem;
 }
 
-.md-xi li {
+.md-xi-slot {
+  display: flex;
+  flex-direction: column;
+  gap: 0.05rem;
+  padding: 0.15rem 0;
+  min-width: 0;
+}
+
+.md-xi-player {
   display: grid;
-  grid-template-columns: 1.5rem 1fr 1.75rem;
-  gap: 0.3rem;
+  grid-template-columns: 0.85rem 1.5rem 1fr 1.75rem;
+  gap: 0.25rem;
   align-items: center;
   font-size: 0.8rem;
-  padding: 0.2rem 0;
   min-width: 0;
+}
+
+.md-xi-player-out {
+  color: var(--text-muted);
+}
+
+.md-xi-player-out .md-player-label {
+  color: var(--text-muted);
+}
+
+.md-xi-arrow {
+  font-size: 0.78rem;
+  font-weight: 800;
+  line-height: 1;
+  text-align: center;
+  width: 0.85rem;
+}
+
+.md-xi-arrow-out {
+  color: #ef4444;
+}
+
+.md-xi-arrow-in {
+  color: #22c55e;
+}
+
+.md-xi-arrow-spacer {
+  visibility: hidden;
+}
+
+.md-bench-empty {
+  padding: 0.2rem 0;
+  font-size: 0.8rem;
+  list-style: none;
 }
 
 .md-player-name {
@@ -1209,6 +1264,17 @@ a {
 .md-ico-goals {
   letter-spacing: -0.08em;
   font-size: 0.7rem;
+}
+
+.md-ico-own-goals {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.08rem;
+}
+
+.md-ico-own-goals .md-ball-own {
+  width: 0.7rem;
+  height: 0.7rem;
 }
 
 .md-ico-in {

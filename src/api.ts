@@ -282,6 +282,7 @@ export function mapMatchDetail(raw: RawDetail): MatchDetail {
         name: e.player?.name ?? "?",
         minute: minuteStr(e),
         assist: e.assist?.name ?? undefined,
+        own: own || undefined,
       };
       (team === 1 ? goals1 : goals2).push(g);
     } else if (e.type === "Card") {

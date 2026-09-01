@@ -68,6 +68,8 @@ export interface MatchGoal {
   name: string;
   minute: string;
   assist?: string;
+  /** True when GE marks the finish as an own goal. */
+  own?: boolean;
 }
 
 export interface MatchCard {

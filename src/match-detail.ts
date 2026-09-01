@@ -1,9 +1,9 @@
-import type { MatchDetail, MatchDetailTab, TeamLineup } from "./types";
+import type { LineupPlayer, MatchDetail, MatchDetailTab, TeamLineup } from "./types";
 import { t, type Lang } from "./i18n";
 import { escapeHtml, formatKickoff, formatScore, liveBadgeText, statusLabel, teamInitials } from "./utils";
 
 interface TimelineEvent {
-  kind: "goal" | "yellow" | "red" | "sub" | "moment";
+  kind: "goal" | "own" | "yellow" | "red" | "sub" | "moment";
   team: 1 | 2;
   minute: string;
   sortKey: number;
@@ -23,22 +23,22 @@ function buildTimeline(detail: MatchDetail, lang: Lang): TimelineEvent[] {
   const events: TimelineEvent[] = [];
   for (const g of detail.goals1) {
     events.push({
-      kind: "goal",
+      kind: g.own ? "own" : "goal",
       team: 1,
       minute: g.minute,
       sortKey: minuteSortKey(g.minute),
       title: g.name,
-      detail: g.assist ? g.assist : undefined,
+      detail: g.own ? t(lang, "mdOwnGoal") : g.assist ? g.assist : undefined,
     });
   }
   for (const g of detail.goals2) {
     events.push({
-      kind: "goal",
+      kind: g.own ? "own" : "goal",
       team: 2,
       minute: g.minute,
       sortKey: minuteSortKey(g.minute),
       title: g.name,
-      detail: g.assist ? g.assist : undefined,
+      detail: g.own ? t(lang, "mdOwnGoal") : g.assist ? g.assist : undefined,
     });
   }
   for (const c of detail.cards) {
@@ -131,14 +131,21 @@ function renderEventBody(e: TimelineEvent, lang: Lang): string {
         </span>
       </span>`;
   }
-  if (e.kind === "goal") {
+  if (e.kind === "goal" || e.kind === "own") {
+    const label = e.kind === "own" ? t(lang, "mdOwnGoal") : t(lang, "mdGoal");
+    const ball =
+      e.kind === "own"
+        ? `<span class="md-ball-own" title="${escapeHtml(label)}" aria-label="${escapeHtml(label)}"></span>`
+        : `<span class="md-ball-ico" aria-hidden="true">⚽</span>`;
+    const sub =
+      e.kind === "own" ? label : e.detail ? `${label} · ${e.detail}` : label;
     return `
       <span class="md-event-body">
         <span class="md-event-title-row">
-          <span class="md-card-ico md-ball-ico" aria-hidden="true">⚽</span>
+          ${ball}
           <strong>${escapeHtml(e.title)}</strong>
         </span>
-        <span class="muted">${escapeHtml(e.detail ? `${t(lang, "mdGoal")} · ${e.detail}` : t(lang, "mdGoal"))}</span>
+        <span class="muted">${escapeHtml(sub)}</span>
       </span>`;
   }
   if (e.kind === "yellow" || e.kind === "red") {
@@ -377,14 +384,23 @@ function teamSquadNames(detail: MatchDetail, team: 1 | 2): string[] {
   return [...lineup.startXI, ...lineup.substitutes].map((p) => p.name).filter(Boolean);
 }
 
-function playerGoalCount(detail: MatchDetail, team: 1 | 2, playerName: string): number {
+function playerGoalCounts(
+  detail: MatchDetail,
+  team: 1 | 2,
+  playerName: string
+): { normal: number; own: number } {
   const goals = team === 1 ? detail.goals1 : detail.goals2;
   const squad = teamSquadNames(detail, team);
   const target = normPlayerName(playerName);
-  return goals.filter((g) => {
+  let normal = 0;
+  let own = 0;
+  for (const g of goals) {
     const resolved = resolveSquadPlayer(g.name, squad);
-    return resolved != null && normPlayerName(resolved) === target;
-  }).length;
+    if (!resolved || normPlayerName(resolved) !== target) continue;
+    if (g.own) own++;
+    else normal++;
+  }
+  return { normal, own };
 }
 
 function playerSubbedOut(detail: MatchDetail, team: 1 | 2, playerName: string): boolean {
@@ -397,13 +413,43 @@ function playerSubbedOut(detail: MatchDetail, team: 1 | 2, playerName: string): 
   });
 }
 
-function playerSubbedIn(detail: MatchDetail, team: 1 | 2, playerName: string): boolean {
+/** Bench player (or stub) who replaced this starter, if any. */
+function replacementFor(
+  detail: MatchDetail,
+  team: 1 | 2,
+  playerOutName: string
+): LineupPlayer | null {
+  const lineup = detail.lineups[team - 1];
+  if (!lineup) return null;
   const squad = teamSquadNames(detail, team);
-  const target = normPlayerName(playerName);
-  return detail.subs.some((s) => {
+  const target = normPlayerName(playerOutName);
+  const sub = detail.subs.find((s) => {
     if (s.team !== team) return false;
-    const resolved = resolveSquadPlayer(s.playerIn, squad);
+    const resolved = resolveSquadPlayer(s.playerOut, squad);
     return resolved != null && normPlayerName(resolved) === target;
+  });
+  if (!sub) return null;
+  const inName = resolveSquadPlayer(sub.playerIn, squad) ?? sub.playerIn;
+  const fromBench = lineup.substitutes.find(
+    (p) => normPlayerName(p.name) === normPlayerName(inName)
+  );
+  if (fromBench) return fromBench;
+  return { name: inName, number: null, pos: "", grid: null };
+}
+
+function remainingBench(
+  lineup: TeamLineup,
+  detail: MatchDetail,
+  team: 1 | 2
+): LineupPlayer[] {
+  const squad = teamSquadNames(detail, team);
+  return lineup.substitutes.filter((p) => {
+    const target = normPlayerName(p.name);
+    return !detail.subs.some((s) => {
+      if (s.team !== team) return false;
+      const resolved = resolveSquadPlayer(s.playerIn, squad);
+      return resolved != null && normPlayerName(resolved) === target;
+    });
   });
 }
 
@@ -426,22 +472,25 @@ function playerCardKinds(
   return { yellow, red };
 }
 
-function renderPlayerIcons(
+function renderPlayerEventIcons(
   detail: MatchDetail,
   team: 1 | 2,
   playerName: string,
-  role: "xi" | "bench",
   lang: Lang
 ): string {
-  const goals = playerGoalCount(detail, team, playerName);
-  const out = role === "xi" && playerSubbedOut(detail, team, playerName);
-  const cameIn = role === "bench" && playerSubbedIn(detail, team, playerName);
+  const { normal, own } = playerGoalCounts(detail, team, playerName);
   const cards = playerCardKinds(detail, team, playerName);
-  if (!goals && !out && !cameIn && !cards.yellow && !cards.red) return "";
+  if (!normal && !own && !cards.yellow && !cards.red) return "";
   const parts: string[] = [];
-  if (goals > 0) {
+  if (normal > 0) {
     parts.push(
-      `<span class="md-ico md-ico-goals" title="${escapeHtml(t(lang, "mdGoal"))}">${"⚽".repeat(goals)}</span>`
+      `<span class="md-ico md-ico-goals" title="${escapeHtml(t(lang, "mdGoal"))}">${"⚽".repeat(normal)}</span>`
+    );
+  }
+  if (own > 0) {
+    const label = t(lang, "mdOwnGoal");
+    parts.push(
+      `<span class="md-ico md-ico-own-goals" title="${escapeHtml(label)}" aria-label="${escapeHtml(label)}">${`<span class="md-ball-own"></span>`.repeat(own)}</span>`
     );
   }
   if (cards.yellow) {
@@ -454,36 +503,76 @@ function renderPlayerIcons(
       `<span class="md-card-ico md-card-ico-red md-card-ico-sm" title="${escapeHtml(t(lang, "mdRed"))}" aria-label="${escapeHtml(t(lang, "mdRed"))}"></span>`
     );
   }
-  if (cameIn) {
-    parts.push(
-      `<span class="md-ico md-ico-in" title="${escapeHtml(t(lang, "mdSubIn"))}" aria-label="${escapeHtml(t(lang, "mdSubIn"))}">↑</span>`
-    );
-  }
-  if (out) {
-    parts.push(
-      `<span class="md-ico md-ico-out" title="${escapeHtml(t(lang, "mdSubOut"))}" aria-label="${escapeHtml(t(lang, "mdSubOut"))}">↓</span>`
-    );
-  }
   return `<span class="md-player-icons">${parts.join("")}</span>`;
 }
 
-function renderPlayers(
+function renderLineupPlayerRow(
+  p: LineupPlayer,
+  detail: MatchDetail,
+  team: 1 | 2,
+  lang: Lang,
+  opts: { arrow?: "in" | "out"; faded?: boolean }
+): string {
+  const arrow =
+    opts.arrow === "out"
+      ? `<span class="md-xi-arrow md-xi-arrow-out" title="${escapeHtml(t(lang, "mdSubOut"))}" aria-label="${escapeHtml(t(lang, "mdSubOut"))}">↓</span>`
+      : opts.arrow === "in"
+        ? `<span class="md-xi-arrow md-xi-arrow-in" title="${escapeHtml(t(lang, "mdSubIn"))}" aria-label="${escapeHtml(t(lang, "mdSubIn"))}">↑</span>`
+        : `<span class="md-xi-arrow md-xi-arrow-spacer" aria-hidden="true"></span>`;
+  return `
+    <div class="md-xi-player ${opts.faded ? "md-xi-player-out" : ""}">
+      ${arrow}
+      <span class="md-num">${p.number ?? "–"}</span>
+      <span class="md-player-name">
+        <span class="md-player-label">${escapeHtml(p.name)}</span>
+        ${renderPlayerEventIcons(detail, team, p.name, lang)}
+      </span>
+      <span class="muted md-pos">${escapeHtml(formatPos(p.pos))}</span>
+    </div>`;
+}
+
+function renderStartingXi(
   players: TeamLineup["startXI"],
   detail: MatchDetail,
   team: 1 | 2,
-  role: "xi" | "bench",
+  lang: Lang
+): string {
+  return players
+    .map((p) => {
+      const out = playerSubbedOut(detail, team, p.name);
+      const incoming = out ? replacementFor(detail, team, p.name) : null;
+      if (out && incoming) {
+        return `
+        <li class="md-xi-slot">
+          ${renderLineupPlayerRow(p, detail, team, lang, { arrow: "out", faded: true })}
+          ${renderLineupPlayerRow(incoming, detail, team, lang, { arrow: "in" })}
+        </li>`;
+      }
+      if (out) {
+        return `
+        <li class="md-xi-slot">
+          ${renderLineupPlayerRow(p, detail, team, lang, { arrow: "out", faded: true })}
+        </li>`;
+      }
+      return `
+        <li class="md-xi-slot">
+          ${renderLineupPlayerRow(p, detail, team, lang, {})}
+        </li>`;
+    })
+    .join("");
+}
+
+function renderBenchPlayers(
+  players: LineupPlayer[],
+  detail: MatchDetail,
+  team: 1 | 2,
   lang: Lang
 ): string {
   return players
     .map(
       (p) => `
-      <li>
-        <span class="md-num">${p.number ?? "–"}</span>
-        <span class="md-player-name">
-          <span class="md-player-label">${escapeHtml(p.name)}</span>
-          ${renderPlayerIcons(detail, team, p.name, role, lang)}
-        </span>
-        <span class="muted md-pos">${escapeHtml(formatPos(p.pos))}</span>
+      <li class="md-xi-slot">
+        ${renderLineupPlayerRow(p, detail, team, lang, {})}
       </li>`
     )
     .join("");
@@ -491,6 +580,7 @@ function renderPlayers(
 
 function renderLineupColumn(l: TeamLineup, detail: MatchDetail, lang: Lang): string {
   const team: 1 | 2 = l.team === detail.team2 ? 2 : 1;
+  const bench = remainingBench(l, detail, team);
   return `
     <section class="md-lineup-card">
       <header>
@@ -500,9 +590,13 @@ function renderLineupColumn(l: TeamLineup, detail: MatchDetail, lang: Lang): str
           <span class="muted">${escapeHtml(l.formation)} · ${escapeHtml(l.coach)}</span>
         </div>
       </header>
-      <ul class="md-xi">${renderPlayers(l.startXI, detail, team, "xi", lang)}</ul>
+      <ul class="md-xi">${renderStartingXi(l.startXI, detail, team, lang)}</ul>
       <h4>${escapeHtml(t(lang, "mdBench"))}</h4>
-      <ul class="md-xi md-bench">${renderPlayers(l.substitutes, detail, team, "bench", lang)}</ul>
+      <ul class="md-xi md-bench">${
+        bench.length
+          ? renderBenchPlayers(bench, detail, team, lang)
+          : `<li class="muted md-bench-empty">—</li>`
+      }</ul>
     </section>`;
 }
 

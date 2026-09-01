@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 89
+      "elapsed": 92
     },
     "timerStart": "2026-09-01T00:06:50.078Z",
     "timerStatus": "INICIADO"
@@ -539,6 +539,24 @@
       "assist": {
         "name": "Picco"
       }
+    },
+    {
+      "time": {
+        "elapsed": 89,
+        "extra": null
+      },
+      "team": {
+        "id": 364,
+        "name": "Remo"
+      },
+      "type": "Important",
+      "detail": "Vitor Bueno finaliza de primeira de dentro da área. Pedro Morisco faz a defesa em dois tempos para o Coritiba.",
+      "player": {
+        "name": "Vitor Bueno"
+      },
+      "assist": {
+        "name": "BOA CHANCE"
+      }
     }
   ],
   "lineups": [
@@ -996,11 +1014,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "58%"
+          "value": "59%"
         },
         {
           "type": "Total Passes",
-          "value": 460
+          "value": 497
         },
         {
           "type": "Pass Accuracy",
@@ -1008,15 +1026,15 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 72
+          "value": 78
         },
         {
           "type": "Total Shots",
-          "value": 26
+          "value": 28
         },
         {
           "type": "Shots on Goal",
-          "value": 5
+          "value": 6
         },
         {
           "type": "Shots off Goal",
@@ -1024,7 +1042,7 @@
         },
         {
           "type": "Blocked Shots",
-          "value": 5
+          "value": 6
         },
         {
           "type": "Hit Woodwork",
@@ -1032,7 +1050,7 @@
         },
         {
           "type": "Corner Kicks",
-          "value": 8
+          "value": 9
         },
         {
           "type": "Offsides",
@@ -1048,11 +1066,11 @@
         },
         {
           "type": "Tackles",
-          "value": 19
+          "value": 20
         },
         {
           "type": "Fouls",
-          "value": 8
+          "value": 9
         },
         {
           "type": "Yellow Cards",
@@ -1072,19 +1090,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "42%"
+          "value": "41%"
         },
         {
           "type": "Total Passes",
-          "value": 291
+          "value": 297
         },
         {
           "type": "Pass Accuracy",
-          "value": "83%"
+          "value": "82%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 50
+          "value": 52
         },
         {
           "type": "Total Shots",
@@ -1120,7 +1138,7 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 11
+          "value": 13
         },
         {
           "type": "Tackles",

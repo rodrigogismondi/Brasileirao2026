@@ -12391,7 +12391,7 @@
         "status": {
           "long": "2H",
           "short": "2H",
-          "elapsed": 65
+          "elapsed": 68
         },
         "timerStart": "2026-09-01T00:06:50.078Z",
         "timerStatus": "INICIADO"
@@ -12412,7 +12412,7 @@
         }
       },
       "goals": {
-        "home": 1,
+        "home": 2,
         "away": 1
       },
       "score": {
@@ -18648,28 +18648,6 @@
             {
               "rank": 7,
               "team": {
-                "id": 294,
-                "name": "Coritiba",
-                "logo": "https://s.sde.globo.com/media/organizations/2018/03/11/coritiba.svg"
-              },
-              "points": 37,
-              "goalsDiff": 0,
-              "form": "LWDWW",
-              "description": "Copa Sudamericana",
-              "all": {
-                "played": 25,
-                "win": 10,
-                "draw": 7,
-                "lose": 8,
-                "goals": {
-                  "for": 31,
-                  "against": 31
-                }
-              }
-            },
-            {
-              "rank": 8,
-              "team": {
                 "id": 282,
                 "name": "Atlético-MG",
                 "logo": "https://s.sde.globo.com/media/organizations/2018/03/10/atletico-mg.svg"
@@ -18690,7 +18668,7 @@
               }
             },
             {
-              "rank": 9,
+              "rank": 8,
               "team": {
                 "id": 280,
                 "name": "Bragantino",
@@ -18708,6 +18686,28 @@
                 "goals": {
                   "for": 29,
                   "against": 25
+                }
+              }
+            },
+            {
+              "rank": 9,
+              "team": {
+                "id": 294,
+                "name": "Coritiba",
+                "logo": "https://s.sde.globo.com/media/organizations/2018/03/11/coritiba.svg"
+              },
+              "points": 35,
+              "goalsDiff": -1,
+              "form": "LWDWD",
+              "description": "Copa Sudamericana",
+              "all": {
+                "played": 25,
+                "win": 9,
+                "draw": 8,
+                "lose": 8,
+                "goals": {
+                  "for": 31,
+                  "against": 32
                 }
               }
             },
@@ -18916,17 +18916,17 @@
                 "name": "Remo",
                 "logo": "https://s.sde.globo.com/media/organizations/2021/02/25/Remo-PA.svg"
               },
-              "points": 23,
-              "goalsDiff": -12,
-              "form": "LDDLL",
+              "points": 24,
+              "goalsDiff": -11,
+              "form": "LDDLD",
               "description": "Relegation",
               "all": {
                 "played": 25,
                 "win": 5,
-                "draw": 8,
-                "lose": 12,
+                "draw": 9,
+                "lose": 11,
                 "goals": {
-                  "for": 28,
+                  "for": 29,
                   "against": 40
                 }
               }
@@ -20067,7 +20067,7 @@
     "mode": "live",
     "liveIntervalMs": 20000
   },
-  "fetchedAt": "2026-09-01T00:27:14.853Z",
+  "fetchedAt": "2026-09-01T00:30:13.950Z",
   "source": "ge-globo",
   "meta": {
     "rodada": 25,

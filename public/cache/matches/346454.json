@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 65
+      "elapsed": 68
     },
     "timerStart": "2026-09-01T00:06:50.078Z",
     "timerStatus": "INICIADO"
@@ -30,7 +30,7 @@
     }
   },
   "goals": {
-    "home": 1,
+    "home": 2,
     "away": 1
   },
   "score": {
@@ -367,6 +367,38 @@
       "assist": {
         "name": "PÊNALTI PARA O REMO"
       }
+    },
+    {
+      "time": {
+        "elapsed": 64,
+        "extra": null
+      },
+      "team": {
+        "id": 364,
+        "name": "Remo"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "player": {
+        "name": "Yago Pikachu"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 65,
+        "extra": null
+      },
+      "team": {
+        "id": 364,
+        "name": "Remo"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Gabriel Taliari"
+      },
+      "assist": null
     }
   ],
   "lineups": [
@@ -840,11 +872,11 @@
         },
         {
           "type": "Total Shots",
-          "value": 19
+          "value": 21
         },
         {
           "type": "Shots on Goal",
-          "value": 3
+          "value": 5
         },
         {
           "type": "Shots off Goal",
@@ -868,7 +900,7 @@
         },
         {
           "type": "Penalties",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Goalkeeper Saves",
@@ -880,11 +912,11 @@
         },
         {
           "type": "Fouls",
-          "value": 6
+          "value": 7
         },
         {
           "type": "Yellow Cards",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Red Cards",
@@ -904,7 +936,7 @@
         },
         {
           "type": "Total Passes",
-          "value": 231
+          "value": 246
         },
         {
           "type": "Pass Accuracy",
@@ -912,7 +944,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 38
+          "value": 40
         },
         {
           "type": "Total Shots",
@@ -936,7 +968,7 @@
         },
         {
           "type": "Corner Kicks",
-          "value": 3
+          "value": 4
         },
         {
           "type": "Offsides",

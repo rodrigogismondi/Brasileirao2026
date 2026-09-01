@@ -120,6 +120,42 @@
     },
     {
       "time": {
+        "elapsed": 16,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Important",
+      "detail": "Iago puxa contra-ataque e lança Artur no ataque. O atacante corta para o meio e chuta de fora da área. A bola explode na defesa e fica pelo alto. Gustavo Santana se antecipa e cabeceia para defesa de Volpi.",
+      "player": {
+        "name": "Gustavo Santana"
+      },
+      "assist": {
+        "name": "De cabeça"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 23,
+        "extra": null
+      },
+      "team": {
+        "id": 280,
+        "name": "Bragantino"
+      },
+      "type": "Important",
+      "detail": "Lucas Barbosa recebe passe na entrada da área, tem a camisa puxada por Marcos Antônio, mas, mesmo assim, gira sobre o marcador, abre espaço e chuta forte. A bola passa com perigo por cima do travessão.",
+      "player": {
+        "name": "Lucas Barbosa"
+      },
+      "assist": {
+        "name": "Pancada!"
+      }
+    },
+    {
+      "time": {
         "elapsed": 44,
         "extra": null
       },
@@ -184,6 +220,24 @@
       },
       "assist": {
         "name": "Artur"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 64,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Important",
+      "detail": "Marcos Antônio recupera a bola no campo de defesa e aciona André Silva. O atacante faz papel de garçom e encontra Artur, sozinho, na área. O atacante chuta cruzado para defesa de Volpi.",
+      "player": {
+        "name": "Artur"
+      },
+      "assist": {
+        "name": "Uhhh!"
       }
     },
     {
@@ -862,11 +916,11 @@
         },
         {
           "type": "Total Shots",
-          "value": 16
+          "value": 15
         },
         {
           "type": "Shots on Goal",
-          "value": 8
+          "value": 7
         },
         {
           "type": "Shots off Goal",

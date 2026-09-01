@@ -10,7 +10,9 @@
       "long": "FT",
       "short": "FT",
       "elapsed": 90
-    }
+    },
+    "timerStart": "2026-02-26T00:05:10.769Z",
+    "timerStatus": "PAUSADO"
   },
   "league": {
     "round": "Regular Season - 4"
@@ -47,8 +49,1169 @@
     "away": 3.83,
     "source": "betexplorer"
   },
-  "events": [],
-  "lineups": [],
-  "statistics": [],
+  "events": [
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 293,
+        "name": "Athletico-PR"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Felipe Chiqueti"
+      },
+      "assist": {
+        "name": "Aguirre"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 293,
+        "name": "Athletico-PR"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Julimar"
+      },
+      "assist": {
+        "name": "Mendoza"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 2,
+        "extra": null
+      },
+      "team": {
+        "id": 293,
+        "name": "Athletico-PR"
+      },
+      "type": "Important",
+      "detail": "Mendoza arrisca da entrada da área e Cleiton defende no meio do gol.",
+      "player": {
+        "name": "Mendoza"
+      },
+      "assist": {
+        "name": "PRIMEIRO CHUTE"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 6,
+        "extra": null
+      },
+      "team": {
+        "id": 293,
+        "name": "Athletico-PR"
+      },
+      "type": "Important",
+      "detail": "Após bola cruzada da esquerda, Aguirre desvia fraco com o pé direito e Cleiton defende.",
+      "player": {
+        "name": "Aguirre"
+      },
+      "assist": {
+        "name": "DESVIO"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 8,
+        "extra": null
+      },
+      "team": {
+        "id": 280,
+        "name": "Bragantino"
+      },
+      "type": "Important",
+      "detail": "Em cobrança de falta ensaiada, Juninho Capixaba rola para Mosquera, que arrisca da entrada da área. A bola sai à direita de Santos.",
+      "player": {
+        "name": "Henry Mosquera"
+      },
+      "assist": {
+        "name": "NADA FEITO"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 23,
+        "extra": null
+      },
+      "team": {
+        "id": 293,
+        "name": "Athletico-PR"
+      },
+      "type": "Important",
+      "detail": "Esquivel descola ótimo lançamento para Viveros, que invade a área e finaliza para a boa defesa de Cleiton. Escanteio para o Furacão.",
+      "player": {
+        "name": "Viveros"
+      },
+      "assist": {
+        "name": "PEEEGA O GOLEIRO!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 24,
+        "extra": null
+      },
+      "team": {
+        "id": 280,
+        "name": "Bragantino"
+      },
+      "type": "Important",
+      "detail": "Em rápido contra-ataque, Mosquera tabela com Capixaba e fica de frente com Santos. Ele bate e o goleiro defende! Escanteio.",
+      "player": {
+        "name": "Henry Mosquera"
+      },
+      "assist": {
+        "name": "SANTOS!!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 25,
+        "extra": null
+      },
+      "team": {
+        "id": 280,
+        "name": "Bragantino"
+      },
+      "type": "Important",
+      "detail": "Gustavinho cobra escanteio e Sasha cabeceia no meio do gol. Santos encaixa.",
+      "player": {
+        "name": "Eduardo Sasha"
+      },
+      "assist": {
+        "name": "NO MEIO"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 28,
+        "extra": null
+      },
+      "team": {
+        "id": 293,
+        "name": "Athletico-PR"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Zapelli"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 36,
+        "extra": null
+      },
+      "team": {
+        "id": 280,
+        "name": "Bragantino"
+      },
+      "type": "Important",
+      "detail": "Hurtado chuta de longe em bola sobrada e manda sobre o gol.",
+      "player": {
+        "name": "Andrés Hurtado"
+      },
+      "assist": {
+        "name": "LONGE"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 41,
+        "extra": null
+      },
+      "team": {
+        "id": 293,
+        "name": "Athletico-PR"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Arthur Dias"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 42,
+        "extra": null
+      },
+      "team": {
+        "id": 280,
+        "name": "Bragantino"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "player": {
+        "name": "Juninho Capixaba"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 46,
+        "extra": null
+      },
+      "team": {
+        "id": 293,
+        "name": "Athletico-PR"
+      },
+      "type": "Important",
+      "detail": "Viveros domina na área, gira e finaliza de esquerda. A bola desvia e sai raspando a trave. Escanteio.",
+      "player": {
+        "name": "Julimar"
+      },
+      "assist": {
+        "name": "UUUUUH"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 48,
+        "extra": null
+      },
+      "team": {
+        "id": 280,
+        "name": "Bragantino"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Pedro Henrique"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 50,
+        "extra": null
+      },
+      "team": {
+        "id": 280,
+        "name": "Bragantino"
+      },
+      "type": "Card",
+      "detail": "Red Card",
+      "player": {
+        "name": "Fabinho"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 52,
+        "extra": null
+      },
+      "team": {
+        "id": 293,
+        "name": "Athletico-PR"
+      },
+      "type": "Important",
+      "detail": "Esquivel cobra falta e manda longe.",
+      "player": {
+        "name": "Esquivel"
+      },
+      "assist": {
+        "name": "SUBIU DEMAIS"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 53,
+        "extra": null
+      },
+      "team": {
+        "id": 280,
+        "name": "Bragantino"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Matheus Fernandes"
+      },
+      "assist": {
+        "name": "Isidro Pitta"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 59,
+        "extra": null
+      },
+      "team": {
+        "id": 293,
+        "name": "Athletico-PR"
+      },
+      "type": "Important",
+      "detail": "Esquivel avança pela esquerda e cruza na área. Chiqueti erra o cabeceio.",
+      "player": {
+        "name": "Felipe Chiqueti"
+      },
+      "assist": {
+        "name": "FORA"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 62,
+        "extra": null
+      },
+      "team": {
+        "id": 280,
+        "name": "Bragantino"
+      },
+      "type": "Important",
+      "detail": "Mosquera recebe na ponta esquerda, balança na frente do marcador e bate colocado. A bola sai com muito perigo.",
+      "player": {
+        "name": "Henry Mosquera"
+      },
+      "assist": {
+        "name": "QUE PERIGO!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 64,
+        "extra": null
+      },
+      "team": {
+        "id": 293,
+        "name": "Athletico-PR"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "João Cruz"
+      },
+      "assist": {
+        "name": "Zapelli"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 64,
+        "extra": null
+      },
+      "team": {
+        "id": 293,
+        "name": "Athletico-PR"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Dudu"
+      },
+      "assist": {
+        "name": "Portilla"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 65,
+        "extra": null
+      },
+      "team": {
+        "id": 280,
+        "name": "Bragantino"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Eric Ramires"
+      },
+      "assist": {
+        "name": "Gustavinho"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 71,
+        "extra": null
+      },
+      "team": {
+        "id": 293,
+        "name": "Athletico-PR"
+      },
+      "type": "Important",
+      "detail": "Esquivel cobra falta e Cleiton tira de soco. Na sobra, Julimar recebe cruzamento e bate por cima.",
+      "player": {
+        "name": "Terán"
+      },
+      "assist": {
+        "name": "ERROU"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 74,
+        "extra": null
+      },
+      "team": {
+        "id": 293,
+        "name": "Athletico-PR"
+      },
+      "type": "Important",
+      "detail": "Esquivel cobra falta sobre o gol. Sem perigo.",
+      "player": {
+        "name": "Esquivel"
+      },
+      "assist": {
+        "name": "POR CIMA"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 78,
+        "extra": null
+      },
+      "team": {
+        "id": 293,
+        "name": "Athletico-PR"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "player": {
+        "name": "Julimar"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 79,
+        "extra": null
+      },
+      "team": {
+        "id": 280,
+        "name": "Bragantino"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Eduardo Santos"
+      },
+      "assist": {
+        "name": "Andrés Hurtado"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 79,
+        "extra": null
+      },
+      "team": {
+        "id": 280,
+        "name": "Bragantino"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Fernando"
+      },
+      "assist": {
+        "name": "Eduardo Sasha"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 80,
+        "extra": null
+      },
+      "team": {
+        "id": 280,
+        "name": "Bragantino"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Herrera"
+      },
+      "assist": {
+        "name": "Henry Mosquera"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 84,
+        "extra": null
+      },
+      "team": {
+        "id": 293,
+        "name": "Athletico-PR"
+      },
+      "type": "Important",
+      "detail": "João Cruz arrisca de longe e manda por cima da meta.",
+      "player": {
+        "name": "João Cruz"
+      },
+      "assist": {
+        "name": "FORA"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 86,
+        "extra": null
+      },
+      "team": {
+        "id": 280,
+        "name": "Bragantino"
+      },
+      "type": "Card",
+      "detail": "Red Card",
+      "player": {
+        "name": "Alix Vinicius"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 93,
+        "extra": null
+      },
+      "team": {
+        "id": 293,
+        "name": "Athletico-PR"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Leozinho"
+      },
+      "assist": {
+        "name": "Luiz Gustavo"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 97,
+        "extra": null
+      },
+      "team": {
+        "id": 293,
+        "name": "Athletico-PR"
+      },
+      "type": "Important",
+      "detail": "João Cruz solta a pancada de canhota de fora da área e a bola sobe demais.",
+      "player": {
+        "name": "João Cruz"
+      },
+      "assist": {
+        "name": "FORA"
+      }
+    }
+  ],
+  "lineups": [
+    {
+      "team": {
+        "id": 280,
+        "name": "Bragantino",
+        "logo": "https://s.sde.globo.com/media/organizations/2021/06/28/bragantino.svg"
+      },
+      "formation": "4-3-3",
+      "coach": {
+        "name": "Vagner Mancini"
+      },
+      "startXI": [
+        {
+          "player": {
+            "id": "cleiton-schwengber",
+            "name": "Cleiton",
+            "number": 1,
+            "pos": "Gol",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "andreshurtado",
+            "name": "Andrés Hurtado",
+            "number": 34,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "alix-vinicius",
+            "name": "Alix Vinicius",
+            "number": 4,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "pedrohenrique-corinthians",
+            "name": "Pedro Henrique",
+            "number": 14,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "juninhocapixaba",
+            "name": "Juninho Capixaba",
+            "number": 29,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "fabinho-freitas",
+            "name": "Fabinho",
+            "number": 5,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "Gustavinho3",
+            "name": "Gustavinho",
+            "number": 22,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "lucas-barbosa",
+            "name": "Lucas Barbosa",
+            "number": 21,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "HenryDavidMosqueraSanchez",
+            "name": "Henry Mosquera",
+            "number": 30,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "eduardosasha",
+            "name": "Eduardo Sasha",
+            "number": 8,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "pittais",
+            "name": "Isidro Pitta",
+            "number": 9,
+            "pos": "Ata",
+            "grid": null
+          }
+        }
+      ],
+      "substitutes": [
+        {
+          "player": {
+            "id": "tiagovolpi",
+            "name": "Tiago Volpi",
+            "number": 18,
+            "pos": "Gol",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "gustareisalca",
+            "name": "Gustavo Reis",
+            "number": 56,
+            "pos": "Gol",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "eduardomendes",
+            "name": "Eduardo Santos",
+            "number": 3,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "caue",
+            "name": "Cauê",
+            "number": 51,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "ericramires",
+            "name": "Eric Ramires",
+            "number": 7,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "IgnacioSosa",
+            "name": "Ignacio Sosa",
+            "number": 15,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "matheusfernandes",
+            "name": "Matheus Fernandes",
+            "number": 35,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "marcelinho-braz",
+            "name": "Marcelinho",
+            "number": 57,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "fernando11111",
+            "name": "Fernando",
+            "number": 11,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "vinicius-calvas",
+            "name": "Vinicinho",
+            "number": 17,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "davi-gomes",
+            "name": "Davi Gomes",
+            "number": 27,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "joseherrerama",
+            "name": "Herrera",
+            "number": 32,
+            "pos": "Ata",
+            "grid": null
+          }
+        }
+      ]
+    },
+    {
+      "team": {
+        "id": 293,
+        "name": "Athletico-PR",
+        "logo": "https://s.sde.globo.com/media/organizations/2026/01/07/Athletico-PR.svg"
+      },
+      "formation": "3-5-2",
+      "coach": {
+        "name": "Odair Hellmann"
+      },
+      "startXI": [
+        {
+          "player": {
+            "id": "santos6",
+            "name": "Santos",
+            "number": 23,
+            "pos": "Gol",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "terancar",
+            "name": "Terán",
+            "number": 13,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "jfaguirre",
+            "name": "Aguirre",
+            "number": 33,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "arthur-dias",
+            "name": "Arthur Dias",
+            "number": 4,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "benavidezgas",
+            "name": "Benavídez",
+            "number": 29,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "luizgustavo",
+            "name": "Luiz Gustavo",
+            "number": 14,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "juan-portilla",
+            "name": "Portilla",
+            "number": 27,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "zapelli",
+            "name": "Zapelli",
+            "number": 10,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "esquivelal",
+            "name": "Esquivel",
+            "number": 37,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "s-mendoza",
+            "name": "Mendoza",
+            "number": 7,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "ksviveros",
+            "name": "Viveros",
+            "number": 9,
+            "pos": "Ata",
+            "grid": null
+          }
+        }
+      ],
+      "substitutes": [
+        {
+          "player": {
+            "id": "mycael",
+            "name": "Mycael",
+            "number": 1,
+            "pos": "Gol",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "gilberto-junior",
+            "name": "Gilberto Junior",
+            "number": 2,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "leopele",
+            "name": "Léo",
+            "number": 3,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "leonardoderik",
+            "name": "Léo Derik",
+            "number": 6,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "filipinhocs",
+            "name": "Felipinho",
+            "number": 5,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "joaovictormachadocruz",
+            "name": "João Cruz",
+            "number": 8,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "jadson16",
+            "name": "Jadson",
+            "number": 16,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "chiqueti-felipe",
+            "name": "Felipe Chiqueti",
+            "number": 47,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "dudu",
+            "name": "Dudu",
+            "number": 53,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "julimarsilva",
+            "name": "Julimar",
+            "number": 20,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "leozinho",
+            "name": "Leozinho",
+            "number": 21,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "bruninho",
+            "name": "Bruninho",
+            "number": 48,
+            "pos": "Ata",
+            "grid": null
+          }
+        }
+      ]
+    }
+  ],
+  "statistics": [
+    {
+      "team": {
+        "id": 280,
+        "name": "Bragantino"
+      },
+      "statistics": [
+        {
+          "type": "Ball Possession",
+          "value": "46%"
+        },
+        {
+          "type": "Total Passes",
+          "value": 255
+        },
+        {
+          "type": "Pass Accuracy",
+          "value": "76%"
+        },
+        {
+          "type": "Incomplete Passes",
+          "value": 60
+        },
+        {
+          "type": "Total Shots",
+          "value": 7
+        },
+        {
+          "type": "Shots on Goal",
+          "value": 3
+        },
+        {
+          "type": "Shots off Goal",
+          "value": 3
+        },
+        {
+          "type": "Blocked Shots",
+          "value": 1
+        },
+        {
+          "type": "Hit Woodwork",
+          "value": 0
+        },
+        {
+          "type": "Corner Kicks",
+          "value": 2
+        },
+        {
+          "type": "Offsides",
+          "value": 2
+        },
+        {
+          "type": "Penalties",
+          "value": 0
+        },
+        {
+          "type": "Goalkeeper Saves",
+          "value": 4
+        },
+        {
+          "type": "Tackles",
+          "value": 16
+        },
+        {
+          "type": "Fouls",
+          "value": 18
+        },
+        {
+          "type": "Yellow Cards",
+          "value": 1
+        },
+        {
+          "type": "Red Cards",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "team": {
+        "id": 293,
+        "name": "Athletico-PR"
+      },
+      "statistics": [
+        {
+          "type": "Ball Possession",
+          "value": "54%"
+        },
+        {
+          "type": "Total Passes",
+          "value": 380
+        },
+        {
+          "type": "Pass Accuracy",
+          "value": "81%"
+        },
+        {
+          "type": "Incomplete Passes",
+          "value": 71
+        },
+        {
+          "type": "Total Shots",
+          "value": 15
+        },
+        {
+          "type": "Shots on Goal",
+          "value": 4
+        },
+        {
+          "type": "Shots off Goal",
+          "value": 8
+        },
+        {
+          "type": "Blocked Shots",
+          "value": 3
+        },
+        {
+          "type": "Hit Woodwork",
+          "value": 0
+        },
+        {
+          "type": "Corner Kicks",
+          "value": 7
+        },
+        {
+          "type": "Offsides",
+          "value": 2
+        },
+        {
+          "type": "Penalties",
+          "value": 0
+        },
+        {
+          "type": "Goalkeeper Saves",
+          "value": 1
+        },
+        {
+          "type": "Tackles",
+          "value": 5
+        },
+        {
+          "type": "Fouls",
+          "value": 16
+        },
+        {
+          "type": "Yellow Cards",
+          "value": 2
+        },
+        {
+          "type": "Red Cards",
+          "value": 0
+        }
+      ]
+    }
+  ],
   "sportsFieldUrl": null
 }

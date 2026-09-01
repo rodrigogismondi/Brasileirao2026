@@ -10,7 +10,9 @@
       "long": "FT",
       "short": "FT",
       "elapsed": 90
-    }
+    },
+    "timerStart": "2026-02-26T02:40:50.007Z",
+    "timerStatus": "PAUSADO"
   },
   "league": {
     "round": "Regular Season - 4"
@@ -47,8 +49,1285 @@
     "away": 5.07,
     "source": "betexplorer"
   },
-  "events": [],
-  "lineups": [],
-  "statistics": [],
+  "events": [
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 275,
+        "name": "Palmeiras"
+      },
+      "type": "Card",
+      "detail": "Red Card",
+      "player": {
+        "name": "?"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Soteldo"
+      },
+      "assist": {
+        "name": "Lucho Acosta"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 1,
+        "extra": null
+      },
+      "team": {
+        "id": 275,
+        "name": "Palmeiras"
+      },
+      "type": "Important",
+      "detail": "Flaco López recebe na linha de fundo e cruza rasteiro. A bola desvia em Freytes e quase complica Fábio, que defende e manda para escanteio!",
+      "player": {
+        "name": "Flaco López"
+      },
+      "assist": {
+        "name": "Quase!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 3,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "Important",
+      "detail": "O Fluminense responde! Savarino recebe na entrada da área e chuta forte. Carlos Miguel espalma!",
+      "player": {
+        "name": "Savarino"
+      },
+      "assist": {
+        "name": "Carlos Miguel!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 6,
+        "extra": null
+      },
+      "team": {
+        "id": 275,
+        "name": "Palmeiras"
+      },
+      "type": "Important",
+      "detail": "O Palmeiras pressiona a saída de bola do Fluminense, ganha já no campo de ataque, e Mauricio toca para Vitor Roque dentro da área. O camisa 9 dribla Fábio e é derrubado. O árbitro marca pênalti para o Verdão.",
+      "player": {
+        "name": "Vitor Roque"
+      },
+      "assist": {
+        "name": "Pênalti!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 7,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Fábio"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 8,
+        "extra": null
+      },
+      "team": {
+        "id": 275,
+        "name": "Palmeiras"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "player": {
+        "name": "Vitor Roque"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 9,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "?"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 12,
+        "extra": null
+      },
+      "team": {
+        "id": 275,
+        "name": "Palmeiras"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "player": {
+        "name": "Allan"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 14,
+        "extra": null
+      },
+      "team": {
+        "id": 275,
+        "name": "Palmeiras"
+      },
+      "type": "Important",
+      "detail": "Flaco López recebe na área sem muito ângulo e bate para o gol. Fábio bate-roupa, mas a defesa do Fluminense afasta.",
+      "player": {
+        "name": "Flaco López"
+      },
+      "assist": {
+        "name": "Fábio!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 18,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "Important",
+      "detail": "Andreas Pereira erra na entrada da área, é desarmado, e Savarino entra livre na área, mas é travado por Piquerez antes de finalizar.",
+      "player": {
+        "name": "Savarino"
+      },
+      "assist": {
+        "name": "Travado!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 24,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Otávio"
+      },
+      "assist": {
+        "name": "Bernal"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 29,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Freytes"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 34,
+        "extra": null
+      },
+      "team": {
+        "id": 275,
+        "name": "Palmeiras"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Khellven"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 34,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Martinelli"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 39,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "player": {
+        "name": "Lucho Acosta"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 41,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "Important",
+      "detail": "Serna bate cruzado, Khellven desvia e acaba tirando a bola de Otávio, que estava pronto para cabecear sem marcação. Escanteio para o Fluminense.",
+      "player": {
+        "name": "Otávio"
+      },
+      "assist": {
+        "name": "Quase o empate!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 43,
+        "extra": null
+      },
+      "team": {
+        "id": 275,
+        "name": "Palmeiras"
+      },
+      "type": "Important",
+      "detail": "Piquerez aproveita a sobra na entrada da área e solta a bomba, de primeira. Fábio defende em dois tempos.",
+      "player": {
+        "name": "Piquerez"
+      },
+      "assist": {
+        "name": "Que perigo!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 47,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "Important",
+      "detail": "O Fluminense pressiona o Palmeiras no campo de ataque, Savarino recebe na meia-lua e bate colocado. A bola explode no travessão!",
+      "player": {
+        "name": "Savarino"
+      },
+      "assist": {
+        "name": "No travessão!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 50,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "Important",
+      "detail": "Otávio bateu com veneno de fora da área, e Carlos Miguel faz mais uma boa defesa!",
+      "player": {
+        "name": "Otávio"
+      },
+      "assist": {
+        "name": "Carlos Miguel!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 52,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "Important",
+      "detail": "Lucho Acosta invade a área e chuta forte, cruzado. Carlos Miguel faz uma bela defesa para evitar o empate do Fluminense.",
+      "player": {
+        "name": "Lucho Acosta"
+      },
+      "assist": {
+        "name": "Carlos Miguel!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 53,
+        "extra": null
+      },
+      "team": {
+        "id": 275,
+        "name": "Palmeiras"
+      },
+      "type": "Important",
+      "detail": "Andreas Pereira levanta na área, Murilo cabeceia no canto, e Fábio faz grande defesa.",
+      "player": {
+        "name": "Murilo"
+      },
+      "assist": {
+        "name": "Fábio!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 53,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "Important",
+      "detail": "Martinelli finaliza mais uma na entrada da área. A bola quica na frente de Carlos Miguel, que faz mais uma defesa.",
+      "player": {
+        "name": "Martinelli"
+      },
+      "assist": {
+        "name": "Defendeu!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 57,
+        "extra": null
+      },
+      "team": {
+        "id": 275,
+        "name": "Palmeiras"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Arias"
+      },
+      "assist": {
+        "name": "Flaco López"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 57,
+        "extra": null
+      },
+      "team": {
+        "id": 275,
+        "name": "Palmeiras"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Giay"
+      },
+      "assist": {
+        "name": "Khellven"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 60,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Hércules"
+      },
+      "assist": {
+        "name": "Martinelli"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 60,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "John Kennedy"
+      },
+      "assist": {
+        "name": "Serna"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 61,
+        "extra": null
+      },
+      "team": {
+        "id": 275,
+        "name": "Palmeiras"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Arias"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 63,
+        "extra": null
+      },
+      "team": {
+        "id": 275,
+        "name": "Palmeiras"
+      },
+      "type": "Important",
+      "detail": "O Palmeiras rouba a bola no campo de ataque, Mauricio entra livre e tenta passar para Vitor Roque, mas fica em cima da marcação. Se passa, o camisa 9 estava livre para fazer o terceiro!",
+      "player": {
+        "name": "Maurício"
+      },
+      "assist": {
+        "name": "Quase o terceiro!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 67,
+        "extra": null
+      },
+      "team": {
+        "id": 275,
+        "name": "Palmeiras"
+      },
+      "type": "Important",
+      "detail": "Que chance! Vitor Roque recebe de Arias no mano a mano, quase se complica, mas consegue invadir a área e solta a bomba. A bola explode no travessão, bate perto da linha e sai.",
+      "player": {
+        "name": "Vitor Roque"
+      },
+      "assist": {
+        "name": "No travessão!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 68,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Ignácio"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 69,
+        "extra": null
+      },
+      "team": {
+        "id": 275,
+        "name": "Palmeiras"
+      },
+      "type": "Important",
+      "detail": "Arias cobra falta fechada, direto no gol, e Fábio manda para escanteio.",
+      "player": {
+        "name": "Arias"
+      },
+      "assist": {
+        "name": "Fábio!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 69,
+        "extra": null
+      },
+      "team": {
+        "id": 275,
+        "name": "Palmeiras"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Lucas Evangelista"
+      },
+      "assist": {
+        "name": "Andreas Pereira"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 69,
+        "extra": null
+      },
+      "team": {
+        "id": 275,
+        "name": "Palmeiras"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Ramón Sosa"
+      },
+      "assist": {
+        "name": "Vitor Roque"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 71,
+        "extra": null
+      },
+      "team": {
+        "id": 275,
+        "name": "Palmeiras"
+      },
+      "type": "Important",
+      "detail": "Gómez subiu até o campo de ataque, desarmou Ganso e deu belíssimo passe para Sosa. O camisa 19 chutou forte, na trave esquerda de Fábio!",
+      "player": {
+        "name": "Ramón Sosa"
+      },
+      "assist": {
+        "name": "na trave!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 85,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "Important",
+      "detail": "Soteldo recebe cruzamento de Guga e finaliza de primeira, quase num voleio, e Carlos Miguel faz mais uma grande defesa para evitar o empate!",
+      "player": {
+        "name": "Soteldo"
+      },
+      "assist": {
+        "name": "Carlos Miguel!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 86,
+        "extra": null
+      },
+      "team": {
+        "id": 275,
+        "name": "Palmeiras"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Felipe Anderson"
+      },
+      "assist": {
+        "name": "Allan"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 86,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Santi Moreno"
+      },
+      "assist": {
+        "name": "Ganso"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 87,
+        "extra": null
+      },
+      "team": {
+        "id": 275,
+        "name": "Palmeiras"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Marlon Freitas"
+      },
+      "assist": null
+    }
+  ],
+  "lineups": [
+    {
+      "team": {
+        "id": 275,
+        "name": "Palmeiras",
+        "logo": "https://s.sde.globo.com/media/organizations/2019/07/06/Palmeiras.svg"
+      },
+      "formation": "4-1-3-2",
+      "coach": {
+        "name": "Abel Ferreira"
+      },
+      "startXI": [
+        {
+          "player": {
+            "id": "carlos-miguel-pereira",
+            "name": "Carlos Miguel",
+            "number": 1,
+            "pos": "Gol",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "khellven",
+            "name": "Khellven",
+            "number": 12,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "gustavo-gomez",
+            "name": "Gustavo Gómez",
+            "number": 15,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "murilocerqueira",
+            "name": "Murilo",
+            "number": 26,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "piquerez",
+            "name": "Piquerez",
+            "number": 22,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "marlon-freitas",
+            "name": "Marlon Freitas",
+            "number": 17,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "andreaspereira",
+            "name": "Andreas Pereira",
+            "number": 8,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "allan-elias",
+            "name": "Allan",
+            "number": 40,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "mauriciomp",
+            "name": "Maurício",
+            "number": 18,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "joselopez",
+            "name": "Flaco López",
+            "number": 42,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "vitorroque",
+            "name": "Vitor Roque",
+            "number": 9,
+            "pos": "Ata",
+            "grid": null
+          }
+        }
+      ],
+      "substitutes": [
+        {
+          "player": {
+            "id": "marcelolomba",
+            "name": "Marcelo Lomba",
+            "number": 14,
+            "pos": "Gol",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "agugiay",
+            "name": "Giay",
+            "number": 4,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "bruno-fuchs",
+            "name": "Bruno Fuchs",
+            "number": 3,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "jefte",
+            "name": "Jefté",
+            "number": 6,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "arthurgabr",
+            "name": "Arthur",
+            "number": 56,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "lucasevangelista",
+            "name": "Lucas Evangelista",
+            "number": 30,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "Larson-Torna",
+            "name": "Larson",
+            "number": 48,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "luis-pacheco",
+            "name": "Luis Pacheco",
+            "number": 50,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "felipeanderson",
+            "name": "Felipe Anderson",
+            "number": 7,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "ariasjhon",
+            "name": "Arias",
+            "number": 11,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "ramonsosa",
+            "name": "Ramón Sosa",
+            "number": 19,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "Luighi",
+            "name": "Luighi",
+            "number": 31,
+            "pos": "Ata",
+            "grid": null
+          }
+        }
+      ]
+    },
+    {
+      "team": {
+        "id": 266,
+        "name": "Fluminense",
+        "logo": "https://s.sde.globo.com/media/organizations/2018/03/11/fluminense.svg"
+      },
+      "formation": "4-4-2",
+      "coach": {
+        "name": "Luis Zubeldía"
+      },
+      "startXI": [
+        {
+          "player": {
+            "id": "fabio",
+            "name": "Fábio",
+            "number": 1,
+            "pos": "Gol",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "guga74567",
+            "name": "Guga",
+            "number": 23,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "ignacio",
+            "name": "Ignácio",
+            "number": 4,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "freytes",
+            "name": "Freytes",
+            "number": 22,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "guilhermearana",
+            "name": "Guilherme Arana",
+            "number": 13,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "matheusmartinelli",
+            "name": "Martinelli",
+            "number": 8,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "facbernal",
+            "name": "Bernal",
+            "number": 5,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "lucianoacosta",
+            "name": "Lucho Acosta",
+            "number": 32,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "savarino",
+            "name": "Savarino",
+            "number": 11,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "Serna",
+            "name": "Serna",
+            "number": 90,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "phganso",
+            "name": "Ganso",
+            "number": 10,
+            "pos": "Ata",
+            "grid": null
+          }
+        }
+      ],
+      "substitutes": [
+        {
+          "player": {
+            "id": "vitoreudes",
+            "name": "Vitor Eudes",
+            "number": 98,
+            "pos": "Gol",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "samuelxavier",
+            "name": "Samuel Xavier",
+            "number": 2,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "Jemmes",
+            "name": "Jemmes",
+            "number": 3,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "igor-rabello",
+            "name": "Igor Rabello",
+            "number": 21,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "rene12",
+            "name": "Renê",
+            "number": 6,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "hercules-nascimento",
+            "name": "Hércules",
+            "number": 35,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "otavio-atletico-pr",
+            "name": "Otávio",
+            "number": 94,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "soteldo",
+            "name": "Soteldo",
+            "number": 7,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "johnkennedy",
+            "name": "John Kennedy",
+            "number": 9,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "matheus-reis",
+            "name": "Matheus Reis",
+            "number": 15,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "morenosanti",
+            "name": "Santi Moreno",
+            "number": 30,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "keven-samuel",
+            "name": "Keven Samuel",
+            "number": 39,
+            "pos": "Ata",
+            "grid": null
+          }
+        }
+      ]
+    }
+  ],
+  "statistics": [
+    {
+      "team": {
+        "id": 275,
+        "name": "Palmeiras"
+      },
+      "statistics": [
+        {
+          "type": "Ball Possession",
+          "value": "41%"
+        },
+        {
+          "type": "Total Passes",
+          "value": 318
+        },
+        {
+          "type": "Pass Accuracy",
+          "value": "85%"
+        },
+        {
+          "type": "Incomplete Passes",
+          "value": 47
+        },
+        {
+          "type": "Total Shots",
+          "value": 14
+        },
+        {
+          "type": "Shots on Goal",
+          "value": 6
+        },
+        {
+          "type": "Shots off Goal",
+          "value": 2
+        },
+        {
+          "type": "Blocked Shots",
+          "value": 4
+        },
+        {
+          "type": "Hit Woodwork",
+          "value": 2
+        },
+        {
+          "type": "Corner Kicks",
+          "value": 5
+        },
+        {
+          "type": "Offsides",
+          "value": 3
+        },
+        {
+          "type": "Penalties",
+          "value": 1
+        },
+        {
+          "type": "Goalkeeper Saves",
+          "value": 8
+        },
+        {
+          "type": "Tackles",
+          "value": 20
+        },
+        {
+          "type": "Fouls",
+          "value": 16
+        },
+        {
+          "type": "Yellow Cards",
+          "value": 3
+        },
+        {
+          "type": "Red Cards",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "statistics": [
+        {
+          "type": "Ball Possession",
+          "value": "59%"
+        },
+        {
+          "type": "Total Passes",
+          "value": 594
+        },
+        {
+          "type": "Pass Accuracy",
+          "value": "89%"
+        },
+        {
+          "type": "Incomplete Passes",
+          "value": 65
+        },
+        {
+          "type": "Total Shots",
+          "value": 18
+        },
+        {
+          "type": "Shots on Goal",
+          "value": 7
+        },
+        {
+          "type": "Shots off Goal",
+          "value": 6
+        },
+        {
+          "type": "Blocked Shots",
+          "value": 4
+        },
+        {
+          "type": "Hit Woodwork",
+          "value": 1
+        },
+        {
+          "type": "Corner Kicks",
+          "value": 11
+        },
+        {
+          "type": "Offsides",
+          "value": 2
+        },
+        {
+          "type": "Penalties",
+          "value": 0
+        },
+        {
+          "type": "Goalkeeper Saves",
+          "value": 10
+        },
+        {
+          "type": "Tackles",
+          "value": 9
+        },
+        {
+          "type": "Fouls",
+          "value": 15
+        },
+        {
+          "type": "Yellow Cards",
+          "value": 4
+        },
+        {
+          "type": "Red Cards",
+          "value": 0
+        }
+      ]
+    }
+  ],
   "sportsFieldUrl": null
 }

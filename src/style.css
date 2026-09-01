@@ -1041,12 +1041,12 @@ a {
   justify-content: center;
   flex-shrink: 0;
   vertical-align: middle;
-  color: #ef4444;
   line-height: 0;
 }
 
 .md-ball-own svg {
   display: block;
+  overflow: visible;
 }
 
 .md-sub-body {

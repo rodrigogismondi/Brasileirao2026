@@ -7,9 +7,9 @@
       "city": ""
     },
     "status": {
-      "long": "FT",
-      "short": "FT",
-      "elapsed": 90
+      "long": "NS",
+      "short": "NS",
+      "elapsed": null
     }
   },
   "league": {
@@ -28,8 +28,8 @@
     }
   },
   "goals": {
-    "home": 2,
-    "away": 1
+    "home": null,
+    "away": null
   },
   "score": {
     "halftime": {
@@ -37,14 +37,14 @@
       "away": null
     },
     "fulltime": {
-      "home": 2,
-      "away": 1
+      "home": null,
+      "away": null
     }
   },
   "odds": {
-    "home": 2.23,
-    "draw": 3.4,
-    "away": 3.23,
+    "home": 2.2,
+    "draw": 3.34,
+    "away": 3.25,
     "source": "betexplorer"
   },
   "events": [],

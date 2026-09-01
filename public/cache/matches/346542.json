@@ -1,15 +1,15 @@
 {
   "fixture": {
     "id": 346542,
-    "timestamp": 1784759400,
+    "timestamp": 1784853000,
     "venue": {
       "name": "Couto Pereira",
       "city": ""
     },
     "status": {
-      "long": "FT",
-      "short": "FT",
-      "elapsed": 90
+      "long": "NS",
+      "short": "NS",
+      "elapsed": null
     }
   },
   "league": {
@@ -28,8 +28,8 @@
     }
   },
   "goals": {
-    "home": 1,
-    "away": 3
+    "home": null,
+    "away": null
   },
   "score": {
     "halftime": {
@@ -37,14 +37,14 @@
       "away": null
     },
     "fulltime": {
-      "home": 1,
-      "away": 3
+      "home": null,
+      "away": null
     }
   },
   "odds": {
-    "home": 4.07,
-    "draw": 3.22,
-    "away": 2,
+    "home": 4.19,
+    "draw": 3.16,
+    "away": 1.99,
     "source": "betexplorer"
   },
   "events": [],

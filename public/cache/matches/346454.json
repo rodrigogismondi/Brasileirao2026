@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 47
+      "elapsed": 50
     },
     "timerStart": "2026-09-01T00:06:50.078Z",
     "timerStatus": "INICIADO"
@@ -31,7 +31,7 @@
   },
   "goals": {
     "home": 0,
-    "away": 0
+    "away": 1
   },
   "score": {
     "halftime": {
@@ -175,6 +175,22 @@
       "assist": {
         "name": "SEM PERIGO"
       }
+    },
+    {
+      "time": {
+        "elapsed": 47,
+        "extra": null
+      },
+      "team": {
+        "id": 364,
+        "name": "Remo"
+      },
+      "type": "Goal",
+      "detail": "Own Goal",
+      "player": {
+        "name": "José Welison"
+      },
+      "assist": null
     },
     {
       "time": {

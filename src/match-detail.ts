@@ -81,6 +81,11 @@ function logoImg(src: string, alt: string, size = 28): string {
   return `<img class="crest" src="${escapeHtml(src)}" alt="${escapeHtml(alt)}" width="${size}" height="${size}" loading="lazy" />`;
 }
 
+/** Line-art football (GE-style): all seams use currentColor — red for own goals. */
+function ownGoalBallMarkup(label: string, attrs = ""): string {
+  return `<span class="md-ball-own" title="${escapeHtml(label)}" aria-label="${escapeHtml(label)}"${attrs ? ` ${attrs}` : ""}><svg viewBox="0 0 16 16" width="12" height="12" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-width="1.2" stroke-linejoin="round" stroke-linecap="round"><circle cx="8" cy="8" r="6.35"/><path d="M8 4.35 10.15 5.9l-.8 2.45H6.65L5.85 5.9 8 4.35z"/><path d="M8 4.35V1.75M10.15 5.9l2.95-1.45M9.35 8.35l2.85 2.55M6.65 8.35 3.8 10.9M5.85 5.9 2.9 4.45"/><path d="M3.8 10.9 5.55 13.7 8 12.55l2.45 1.15 1.75-2.8"/></g></svg></span>`;
+}
+
 function statLabel(key: string, lang: Lang): string {
   const pt: Record<string, string> = {
     "Ball Possession": "Posse de bola",
@@ -135,7 +140,7 @@ function renderEventBody(e: TimelineEvent, lang: Lang): string {
     const label = e.kind === "own" ? t(lang, "mdOwnGoal") : t(lang, "mdGoal");
     const ball =
       e.kind === "own"
-        ? `<span class="md-ball-own" title="${escapeHtml(label)}" aria-label="${escapeHtml(label)}">⚽</span>`
+        ? ownGoalBallMarkup(label)
         : `<span class="md-ball-ico" aria-hidden="true">⚽</span>`;
     const sub =
       e.kind === "own" ? label : e.detail ? `${label} · ${e.detail}` : label;
@@ -490,7 +495,7 @@ function renderPlayerEventIcons(
   if (own > 0) {
     const label = t(lang, "mdOwnGoal");
     parts.push(
-      `<span class="md-ico md-ico-own-goals" title="${escapeHtml(label)}" aria-label="${escapeHtml(label)}">${`<span class="md-ball-own">⚽</span>`.repeat(own)}</span>`
+      `<span class="md-ico md-ico-own-goals" title="${escapeHtml(label)}" aria-label="${escapeHtml(label)}">${ownGoalBallMarkup(label).repeat(own)}</span>`
     );
   }
   if (cards.yellow) {

@@ -1036,21 +1036,17 @@ a {
 }
 
 .md-ball-own {
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   flex-shrink: 0;
   vertical-align: middle;
-  font-size: 0.78rem;
-  line-height: 1;
-  /* Same football glyph as a normal goal, with a red contour. */
-  text-shadow:
-    -0.65px 0 0 #ef4444,
-    0.65px 0 0 #ef4444,
-    0 -0.65px 0 #ef4444,
-    0 0.65px 0 #ef4444,
-    -0.45px -0.45px 0 #ef4444,
-    0.45px -0.45px 0 #ef4444,
-    -0.45px 0.45px 0 #ef4444,
-    0.45px 0.45px 0 #ef4444;
+  color: #ef4444;
+  line-height: 0;
+}
+
+.md-ball-own svg {
+  display: block;
 }
 
 .md-sub-body {
@@ -1274,12 +1270,11 @@ a {
   display: inline-flex;
   align-items: center;
   gap: 0.08rem;
-  letter-spacing: -0.08em;
-  font-size: 0.7rem;
 }
 
-.md-ico-own-goals .md-ball-own {
-  font-size: 0.7rem;
+.md-ico-own-goals .md-ball-own svg {
+  width: 0.78rem;
+  height: 0.78rem;
 }
 
 .md-ico-in {

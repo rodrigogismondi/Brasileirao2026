@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 80
+      "elapsed": 83
     },
     "timerStart": "2026-09-01T00:06:50.078Z",
     "timerStatus": "INICIADO"
@@ -495,12 +495,14 @@
         "id": 364,
         "name": "Remo"
       },
-      "type": "Card",
-      "detail": "Yellow Card",
+      "type": "subst",
+      "detail": "Substitution 1",
       "player": {
-        "name": "Yago Pikachu"
+        "name": "Alef Manga"
       },
-      "assist": null
+      "assist": {
+        "name": "Yago Pikachu"
+      }
     }
   ],
   "lineups": [
@@ -958,11 +960,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "56%"
+          "value": "57%"
         },
         {
           "type": "Total Passes",
-          "value": 378
+          "value": 417
         },
         {
           "type": "Pass Accuracy",
@@ -970,7 +972,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 62
+          "value": 67
         },
         {
           "type": "Total Shots",
@@ -1010,7 +1012,7 @@
         },
         {
           "type": "Tackles",
-          "value": 16
+          "value": 17
         },
         {
           "type": "Fouls",
@@ -1018,7 +1020,7 @@
         },
         {
           "type": "Yellow Cards",
-          "value": 1
+          "value": 3
         },
         {
           "type": "Red Cards",
@@ -1034,11 +1036,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "44%"
+          "value": "43%"
         },
         {
           "type": "Total Passes",
-          "value": 268
+          "value": 271
         },
         {
           "type": "Pass Accuracy",
@@ -1050,7 +1052,7 @@
         },
         {
           "type": "Total Shots",
-          "value": 7
+          "value": 9
         },
         {
           "type": "Shots on Goal",
@@ -1062,7 +1064,7 @@
         },
         {
           "type": "Blocked Shots",
-          "value": 0
+          "value": 2
         },
         {
           "type": "Hit Woodwork",
@@ -1086,7 +1088,7 @@
         },
         {
           "type": "Tackles",
-          "value": 8
+          "value": 9
         },
         {
           "type": "Fouls",

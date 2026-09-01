@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 56
+      "elapsed": 59
     },
     "timerStart": "2026-09-01T00:06:50.078Z",
     "timerStatus": "INICIADO"
@@ -263,6 +263,22 @@
       "assist": {
         "name": "boa chance"
       }
+    },
+    {
+      "time": {
+        "elapsed": 56,
+        "extra": null
+      },
+      "team": {
+        "id": 294,
+        "name": "Coritiba"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Tiago Cóser"
+      },
+      "assist": null
     }
   ],
   "lineups": [
@@ -720,11 +736,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "55%"
+          "value": "56%"
         },
         {
           "type": "Total Passes",
-          "value": 285
+          "value": 301
         },
         {
           "type": "Pass Accuracy",
@@ -732,19 +748,19 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 51
+          "value": 54
         },
         {
           "type": "Total Shots",
-          "value": 16
+          "value": 18
         },
         {
           "type": "Shots on Goal",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Shots off Goal",
-          "value": 10
+          "value": 11
         },
         {
           "type": "Blocked Shots",
@@ -756,7 +772,7 @@
         },
         {
           "type": "Corner Kicks",
-          "value": 5
+          "value": 6
         },
         {
           "type": "Offsides",
@@ -772,11 +788,11 @@
         },
         {
           "type": "Tackles",
-          "value": 13
+          "value": 14
         },
         {
           "type": "Fouls",
-          "value": 5
+          "value": 6
         },
         {
           "type": "Yellow Cards",
@@ -796,11 +812,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "45%"
+          "value": "44%"
         },
         {
           "type": "Total Passes",
-          "value": 205
+          "value": 208
         },
         {
           "type": "Pass Accuracy",
@@ -808,7 +824,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 35
+          "value": 36
         },
         {
           "type": "Total Shots",
@@ -844,19 +860,19 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 7
+          "value": 9
         },
         {
           "type": "Tackles",
-          "value": 6
+          "value": 7
         },
         {
           "type": "Fouls",
-          "value": 6
+          "value": 7
         },
         {
           "type": "Yellow Cards",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Red Cards",

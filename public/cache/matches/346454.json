@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 59
+      "elapsed": 62
     },
     "timerStart": "2026-09-01T00:06:50.078Z",
     "timerStatus": "INICIADO"
@@ -30,7 +30,7 @@
     }
   },
   "goals": {
-    "home": 0,
+    "home": 1,
     "away": 1
   },
   "score": {
@@ -277,6 +277,76 @@
       "detail": "Yellow Card",
       "player": {
         "name": "Tiago Cóser"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 58,
+        "extra": null
+      },
+      "team": {
+        "id": 294,
+        "name": "Coritiba"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Felipe Jonatan"
+      },
+      "assist": {
+        "name": "Fernando Sobral"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 58,
+        "extra": null
+      },
+      "team": {
+        "id": 294,
+        "name": "Coritiba"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Vini Paulista"
+      },
+      "assist": {
+        "name": "Vitor Tissi"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 59,
+        "extra": null
+      },
+      "team": {
+        "id": 294,
+        "name": "Coritiba"
+      },
+      "type": "Important",
+      "detail": "JP Chermont finaliza da entrada da área após rebote da zaga do Remo, mas a bola vai no meio do gol e fica com o goleiro Marcelo Rangel.",
+      "player": {
+        "name": "JP Chermont"
+      },
+      "assist": {
+        "name": "FALTOU FORÇA"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 60,
+        "extra": null
+      },
+      "team": {
+        "id": 364,
+        "name": "Remo"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "player": {
+        "name": "Zé Ricardo"
       },
       "assist": null
     }
@@ -736,11 +806,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "56%"
+          "value": "55%"
         },
         {
           "type": "Total Passes",
-          "value": 301
+          "value": 306
         },
         {
           "type": "Pass Accuracy",
@@ -752,11 +822,11 @@
         },
         {
           "type": "Total Shots",
-          "value": 18
+          "value": 19
         },
         {
           "type": "Shots on Goal",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Shots off Goal",
@@ -788,7 +858,7 @@
         },
         {
           "type": "Tackles",
-          "value": 14
+          "value": 16
         },
         {
           "type": "Fouls",
@@ -812,11 +882,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "44%"
+          "value": "45%"
         },
         {
           "type": "Total Passes",
-          "value": 208
+          "value": 226
         },
         {
           "type": "Pass Accuracy",
@@ -824,15 +894,15 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 36
+          "value": 39
         },
         {
           "type": "Total Shots",
-          "value": 4
+          "value": 5
         },
         {
           "type": "Shots on Goal",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Shots off Goal",
@@ -848,7 +918,7 @@
         },
         {
           "type": "Corner Kicks",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Offsides",
@@ -864,7 +934,7 @@
         },
         {
           "type": "Tackles",
-          "value": 7
+          "value": 8
         },
         {
           "type": "Fouls",

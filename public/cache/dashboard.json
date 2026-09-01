@@ -12391,7 +12391,7 @@
         "status": {
           "long": "2H",
           "short": "2H",
-          "elapsed": 92
+          "elapsed": 95
         },
         "timerStart": "2026-09-01T00:06:50.078Z",
         "timerStatus": "INICIADO"
@@ -12413,7 +12413,7 @@
       },
       "goals": {
         "home": 2,
-        "away": 2
+        "away": 3
       },
       "score": {
         "halftime": {
@@ -19248,6 +19248,28 @@
     {
       "player": {
         "id": 14,
+        "name": "Pedro Rocha",
+        "photo": "https://s.sde.globo.com/media/person_role/2025/02/26/photo_140x140_OEA2Hhd.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "name": "Coritiba",
+            "logo": "https://s.sde.globo.com/media/organizations/2017/03/29/coritiba65.png"
+          },
+          "goals": {
+            "total": 7,
+            "assists": null
+          },
+          "games": {
+            "appearences": 0
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 15,
         "name": "Luciano Juba",
         "photo": "https://s.sde.globo.com/media/person_role/2026/07/06/photo_140x140_JKUCf8p.png"
       },
@@ -19269,7 +19291,7 @@
     },
     {
       "player": {
-        "id": 15,
+        "id": 16,
         "name": "Jajá",
         "photo": "https://s.sde.globo.com/media/person_role/2026/03/31/photo_140x140_HhBEQDC.png"
       },
@@ -19291,7 +19313,7 @@
     },
     {
       "player": {
-        "id": 16,
+        "id": 17,
         "name": "Matheus Pereira",
         "photo": "https://s.sde.globo.com/media/person_role/2025/04/01/photo_140x140_paqfi1w.png"
       },
@@ -19300,28 +19322,6 @@
           "team": {
             "name": "Cruzeiro",
             "logo": "https://s.sde.globo.com/media/organizations/2021/02/13/65_cruzeiro-2021.png"
-          },
-          "goals": {
-            "total": 6,
-            "assists": null
-          },
-          "games": {
-            "appearences": 0
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 17,
-        "name": "Pedro Rocha",
-        "photo": "https://s.sde.globo.com/media/person_role/2025/02/26/photo_140x140_OEA2Hhd.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "name": "Coritiba",
-            "logo": "https://s.sde.globo.com/media/organizations/2017/03/29/coritiba65.png"
           },
           "goals": {
             "total": 6,
@@ -20067,7 +20067,7 @@
     "mode": "live",
     "liveIntervalMs": 20000
   },
-  "fetchedAt": "2026-09-01T00:54:14.330Z",
+  "fetchedAt": "2026-09-01T00:57:23.572Z",
   "source": "ge-globo",
   "meta": {
     "rodada": 25,

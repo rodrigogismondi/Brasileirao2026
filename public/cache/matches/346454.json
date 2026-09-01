@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 92
+      "elapsed": 95
     },
     "timerStart": "2026-09-01T00:06:50.078Z",
     "timerStatus": "INICIADO"
@@ -31,7 +31,7 @@
   },
   "goals": {
     "home": 2,
-    "away": 2
+    "away": 3
   },
   "score": {
     "halftime": {
@@ -557,6 +557,40 @@
       "assist": {
         "name": "BOA CHANCE"
       }
+    },
+    {
+      "time": {
+        "elapsed": 92,
+        "extra": null
+      },
+      "team": {
+        "id": 364,
+        "name": "Remo"
+      },
+      "type": "Important",
+      "detail": "David Braga recebe de Marcelinho, leva para a canhota e bate colocado no canto direito do gol. Pedro Morisco espalma e evita o gol do Remo.",
+      "player": {
+        "name": "David Braga"
+      },
+      "assist": {
+        "name": "TINHA ENDEREÇO"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 93,
+        "extra": null
+      },
+      "team": {
+        "id": 294,
+        "name": "Coritiba"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "player": {
+        "name": "Pedro Rocha"
+      },
+      "assist": null
     }
   ],
   "lineups": [

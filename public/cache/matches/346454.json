@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 77
+      "elapsed": 80
     },
     "timerStart": "2026-09-01T00:06:50.078Z",
     "timerStatus": "INICIADO"
@@ -449,6 +449,56 @@
       "detail": "Normal Goal",
       "player": {
         "name": "Fabinho"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 77,
+        "extra": null
+      },
+      "team": {
+        "id": 364,
+        "name": "Remo"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "José Welison"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 78,
+        "extra": null
+      },
+      "team": {
+        "id": 364,
+        "name": "Remo"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Vitor Bueno"
+      },
+      "assist": {
+        "name": "José Welison"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 78,
+        "extra": null
+      },
+      "team": {
+        "id": 364,
+        "name": "Remo"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Yago Pikachu"
       },
       "assist": null
     }
@@ -908,7 +958,7 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "57%"
+          "value": "56%"
         },
         {
           "type": "Total Passes",
@@ -956,7 +1006,7 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Tackles",
@@ -964,7 +1014,7 @@
         },
         {
           "type": "Fouls",
-          "value": 7
+          "value": 8
         },
         {
           "type": "Yellow Cards",
@@ -984,27 +1034,27 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "43%"
+          "value": "44%"
         },
         {
           "type": "Total Passes",
-          "value": 259
+          "value": 268
         },
         {
           "type": "Pass Accuracy",
-          "value": "83%"
+          "value": "84%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 43
+          "value": 44
         },
         {
           "type": "Total Shots",
-          "value": 6
+          "value": 7
         },
         {
           "type": "Shots on Goal",
-          "value": 3
+          "value": 4
         },
         {
           "type": "Shots off Goal",

@@ -12391,7 +12391,7 @@
         "status": {
           "long": "2H",
           "short": "2H",
-          "elapsed": 68
+          "elapsed": 71
         },
         "timerStart": "2026-09-01T00:06:50.078Z",
         "timerStatus": "INICIADO"
@@ -18696,18 +18696,18 @@
                 "name": "Coritiba",
                 "logo": "https://s.sde.globo.com/media/organizations/2018/03/11/coritiba.svg"
               },
-              "points": 35,
-              "goalsDiff": -1,
-              "form": "LWDWD",
+              "points": 34,
+              "goalsDiff": -2,
+              "form": "LWDWL",
               "description": "Copa Sudamericana",
               "all": {
                 "played": 25,
                 "win": 9,
-                "draw": 8,
-                "lose": 8,
+                "draw": 7,
+                "lose": 9,
                 "goals": {
                   "for": 31,
-                  "against": 32
+                  "against": 33
                 }
               }
             },
@@ -18846,6 +18846,28 @@
             {
               "rank": 16,
               "team": {
+                "id": 364,
+                "name": "Remo",
+                "logo": "https://s.sde.globo.com/media/organizations/2021/02/25/Remo-PA.svg"
+              },
+              "points": 26,
+              "goalsDiff": -10,
+              "form": "LDDLW",
+              "description": null,
+              "all": {
+                "played": 25,
+                "win": 6,
+                "draw": 8,
+                "lose": 11,
+                "goals": {
+                  "for": 30,
+                  "against": 40
+                }
+              }
+            },
+            {
+              "rank": 17,
+              "team": {
                 "id": 2305,
                 "name": "Mirassol",
                 "logo": "https://s.sde.globo.com/media/organizations/2026/07/17/MIrassol.svg"
@@ -18853,7 +18875,7 @@
               "points": 25,
               "goalsDiff": -10,
               "form": "WLLDD",
-              "description": null,
+              "description": "Relegation",
               "all": {
                 "played": 24,
                 "win": 6,
@@ -18866,7 +18888,7 @@
               }
             },
             {
-              "rank": 17,
+              "rank": 18,
               "team": {
                 "id": 267,
                 "name": "Vasco",
@@ -18888,7 +18910,7 @@
               }
             },
             {
-              "rank": 18,
+              "rank": 19,
               "team": {
                 "id": 285,
                 "name": "Internacional",
@@ -18906,28 +18928,6 @@
                 "goals": {
                   "for": 26,
                   "against": 31
-                }
-              }
-            },
-            {
-              "rank": 19,
-              "team": {
-                "id": 364,
-                "name": "Remo",
-                "logo": "https://s.sde.globo.com/media/organizations/2021/02/25/Remo-PA.svg"
-              },
-              "points": 24,
-              "goalsDiff": -11,
-              "form": "LDDLD",
-              "description": "Relegation",
-              "all": {
-                "played": 25,
-                "win": 5,
-                "draw": 9,
-                "lose": 11,
-                "goals": {
-                  "for": 29,
-                  "against": 40
                 }
               }
             },
@@ -20067,7 +20067,7 @@
     "mode": "live",
     "liveIntervalMs": 20000
   },
-  "fetchedAt": "2026-09-01T00:30:13.950Z",
+  "fetchedAt": "2026-09-01T00:33:30.245Z",
   "source": "ge-globo",
   "meta": {
     "rodada": 25,

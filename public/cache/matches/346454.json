@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 68
+      "elapsed": 71
     },
     "timerStart": "2026-09-01T00:06:50.078Z",
     "timerStatus": "INICIADO"
@@ -399,6 +399,42 @@
         "name": "Gabriel Taliari"
       },
       "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 69,
+        "extra": null
+      },
+      "team": {
+        "id": 294,
+        "name": "Coritiba"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Paulo Roberto"
+      },
+      "assist": {
+        "name": "Lavega"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 69,
+        "extra": null
+      },
+      "team": {
+        "id": 294,
+        "name": "Coritiba"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Fabinho"
+      },
+      "assist": {
+        "name": "Breno Lopes"
+      }
     }
   ],
   "lineups": [
@@ -860,15 +896,15 @@
         },
         {
           "type": "Total Passes",
-          "value": 323
+          "value": 363
         },
         {
           "type": "Pass Accuracy",
-          "value": "82%"
+          "value": "83%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 57
+          "value": 62
         },
         {
           "type": "Total Shots",
@@ -892,7 +928,7 @@
         },
         {
           "type": "Corner Kicks",
-          "value": 6
+          "value": 7
         },
         {
           "type": "Offsides",
@@ -936,15 +972,15 @@
         },
         {
           "type": "Total Passes",
-          "value": 246
+          "value": 254
         },
         {
           "type": "Pass Accuracy",
-          "value": "84%"
+          "value": "83%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 40
+          "value": 42
         },
         {
           "type": "Total Shots",
@@ -980,7 +1016,7 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 9
+          "value": 10
         },
         {
           "type": "Tackles",

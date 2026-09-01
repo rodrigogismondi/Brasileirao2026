@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 74
+      "elapsed": 77
     },
     "timerStart": "2026-09-01T00:06:50.078Z",
     "timerStatus": "INICIADO"
@@ -31,7 +31,7 @@
   },
   "goals": {
     "home": 2,
-    "away": 1
+    "away": 2
   },
   "score": {
     "halftime": {
@@ -435,6 +435,22 @@
       "assist": {
         "name": "Breno Lopes"
       }
+    },
+    {
+      "time": {
+        "elapsed": 76,
+        "extra": null
+      },
+      "team": {
+        "id": 294,
+        "name": "Coritiba"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "player": {
+        "name": "Fabinho"
+      },
+      "assist": null
     }
   ],
   "lineups": [
@@ -892,15 +908,15 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "56%"
+          "value": "57%"
         },
         {
           "type": "Total Passes",
-          "value": 363
+          "value": 378
         },
         {
           "type": "Pass Accuracy",
-          "value": "83%"
+          "value": "84%"
         },
         {
           "type": "Incomplete Passes",
@@ -908,7 +924,7 @@
         },
         {
           "type": "Total Shots",
-          "value": 21
+          "value": 22
         },
         {
           "type": "Shots on Goal",
@@ -916,7 +932,7 @@
         },
         {
           "type": "Shots off Goal",
-          "value": 11
+          "value": 12
         },
         {
           "type": "Blocked Shots",
@@ -968,11 +984,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "44%"
+          "value": "43%"
         },
         {
           "type": "Total Passes",
-          "value": 254
+          "value": 259
         },
         {
           "type": "Pass Accuracy",
@@ -980,7 +996,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 42
+          "value": 43
         },
         {
           "type": "Total Shots",

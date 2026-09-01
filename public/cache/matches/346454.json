@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 53
+      "elapsed": 56
     },
     "timerStart": "2026-09-01T00:06:50.078Z",
     "timerStatus": "INICIADO"
@@ -208,6 +208,60 @@
       },
       "assist": {
         "name": "LOOOONGE"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 52,
+        "extra": null
+      },
+      "team": {
+        "id": 364,
+        "name": "Remo"
+      },
+      "type": "Important",
+      "detail": "Galeno ganha pelo alto após cobrança de escanteio de Yago Pikachu, mas a bola vai por cima do gol do Coritiba. Quase o empate em Belém.",
+      "player": {
+        "name": "Galeano"
+      },
+      "assist": {
+        "name": "PASSA PERTO"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 53,
+        "extra": null
+      },
+      "team": {
+        "id": 294,
+        "name": "Coritiba"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Rodrigo Moledo"
+      },
+      "assist": {
+        "name": "Jacy"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 55,
+        "extra": null
+      },
+      "team": {
+        "id": 364,
+        "name": "Remo"
+      },
+      "type": "Important",
+      "detail": "Marlon corta para a direita e finaliza. Pedro Morisco espalma e impede o empate. Na sobra, Galeano erra o chute, e Bruno Melo afasta de dentro da pequena área do Coritiba.",
+      "player": {
+        "name": "Marlon"
+      },
+      "assist": {
+        "name": "boa chance"
       }
     }
   ],
@@ -670,7 +724,7 @@
         },
         {
           "type": "Total Passes",
-          "value": 255
+          "value": 285
         },
         {
           "type": "Pass Accuracy",
@@ -678,11 +732,11 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 47
+          "value": 51
         },
         {
           "type": "Total Shots",
-          "value": 15
+          "value": 16
         },
         {
           "type": "Shots on Goal",
@@ -690,7 +744,7 @@
         },
         {
           "type": "Shots off Goal",
-          "value": 9
+          "value": 10
         },
         {
           "type": "Blocked Shots",
@@ -702,7 +756,7 @@
         },
         {
           "type": "Corner Kicks",
-          "value": 4
+          "value": 5
         },
         {
           "type": "Offsides",
@@ -746,15 +800,15 @@
         },
         {
           "type": "Total Passes",
-          "value": 201
+          "value": 205
         },
         {
           "type": "Pass Accuracy",
-          "value": "84%"
+          "value": "83%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 33
+          "value": 35
         },
         {
           "type": "Total Shots",
@@ -782,7 +836,7 @@
         },
         {
           "type": "Offsides",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Penalties",

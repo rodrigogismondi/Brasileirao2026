@@ -135,7 +135,7 @@ function renderEventBody(e: TimelineEvent, lang: Lang): string {
     const label = e.kind === "own" ? t(lang, "mdOwnGoal") : t(lang, "mdGoal");
     const ball =
       e.kind === "own"
-        ? `<span class="md-ball-own" title="${escapeHtml(label)}" aria-label="${escapeHtml(label)}"></span>`
+        ? `<span class="md-ball-own" title="${escapeHtml(label)}" aria-label="${escapeHtml(label)}">⚽</span>`
         : `<span class="md-ball-ico" aria-hidden="true">⚽</span>`;
     const sub =
       e.kind === "own" ? label : e.detail ? `${label} · ${e.detail}` : label;
@@ -490,7 +490,7 @@ function renderPlayerEventIcons(
   if (own > 0) {
     const label = t(lang, "mdOwnGoal");
     parts.push(
-      `<span class="md-ico md-ico-own-goals" title="${escapeHtml(label)}" aria-label="${escapeHtml(label)}">${`<span class="md-ball-own"></span>`.repeat(own)}</span>`
+      `<span class="md-ico md-ico-own-goals" title="${escapeHtml(label)}" aria-label="${escapeHtml(label)}">${`<span class="md-ball-own">⚽</span>`.repeat(own)}</span>`
     );
   }
   if (cards.yellow) {

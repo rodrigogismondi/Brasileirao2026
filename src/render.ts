@@ -357,9 +357,9 @@ export function renderApp(state: AppState): string {
           </div>
         </div>
         <nav class="nav">
+          ${navItem("table", lang, view)}
           ${navItem("schedule", lang, view)}
           ${navItem("live", lang, view, liveCount)}
-          ${navItem("table", lang, view)}
           ${navItem("scorers", lang, view)}
         </nav>
       </header>

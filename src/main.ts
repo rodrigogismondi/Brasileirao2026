@@ -22,7 +22,7 @@ registerSW({
 const IDLE_REFRESH_MS = 15 * 60_000;
 
 let state: AppState = {
-  view: "schedule",
+  view: "table",
   scheduleFilter: "today",
   selectedRound: null,
   lang: detectLang(),

@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 29
+      "elapsed": 33
     },
     "timerStart": "2026-09-02T22:30:19.974Z",
     "timerStatus": "INICIADO"
@@ -466,6 +466,22 @@
         "name": "Flamengo"
       },
       "type": "Important",
+      "detail": "Pulgar dá mais um bom passe entre linhas para Paquetá, que recebe na intermediária e entrega rápido para Pedro. O atacante, porém, se atrapalha e é desarmado",
+      "player": {
+        "name": "Pulgar dá mais um bom passe entre linhas para Pa"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 26,
+        "extra": null
+      },
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "Important",
       "detail": "Após um início equilibrado, o Flamengo tomou o controle da partida. Aos 13 minutos, em contra-ataque rápido, Pedro serviu Carrascal, que soltou uma bomba para fazer 1 a 0. Desde então, o time rubro-negro domina e já criou outras boas chances com Paquetá e Jorginho. O Mirassol se fecha na defesa. Passados 25 minutos, a única preocupação do Fla é o meia Pulgar, que sente dores e pode ser substituído.",
       "player": {
         "name": "Fla domina e abre o placar com Carrascal"
@@ -487,6 +503,74 @@
         "name": "Preocupação"
       },
       "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 28,
+        "extra": null
+      },
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "Important",
+      "detail": "Evertton Araújo tirou o colete no banco de reservas. Se prepara para entrar no jogo",
+      "player": {
+        "name": "Evertton Araújo tirou o colete no banco de reser"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 30,
+        "extra": null
+      },
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "Important",
+      "detail": "Após um início com boas tramas ofensivas, o Flamengo abriu o placar aos 13 minutos. Em contra-ataque veloz, Pedro encontrou Carrascal, que soltou uma bomba para fazer 1 a 0. Desde o gol, o time rubro-negro domina a partida e segue pressionando em busca de mais. A má notícia para a equipe foi a lesão de Erick Pulgar, que precisou ser substituído por Evertton Araújo perto dos 30 minutos.",
+      "player": {
+        "name": "Carrascal marca e Fla comanda o jogo!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 30,
+        "extra": null
+      },
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Evertton Araújo"
+      },
+      "assist": {
+        "name": "Erick Pulgar"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 31,
+        "extra": null
+      },
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "Important",
+      "detail": "Samuel Lino recebe fora da área e lança na direção do gol, com veneno. Ortiz ataca o espaço e desvia de pé direito e quase marca.",
+      "player": {
+        "name": "Léo Ortiz"
+      },
+      "assist": {
+        "name": "Que perigo!"
+      }
     }
   ],
   "lineups": [
@@ -948,19 +1032,19 @@
         },
         {
           "type": "Total Passes",
-          "value": 203
+          "value": 228
         },
         {
           "type": "Pass Accuracy",
-          "value": "91%"
+          "value": "90%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 19
+          "value": 23
         },
         {
           "type": "Total Shots",
-          "value": 6
+          "value": 7
         },
         {
           "type": "Shots on Goal",
@@ -972,7 +1056,7 @@
         },
         {
           "type": "Blocked Shots",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Hit Woodwork",
@@ -1024,15 +1108,15 @@
         },
         {
           "type": "Total Passes",
-          "value": 101
+          "value": 124
         },
         {
           "type": "Pass Accuracy",
-          "value": "86%"
+          "value": "85%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 14
+          "value": 18
         },
         {
           "type": "Total Shots",
@@ -1072,7 +1156,7 @@
         },
         {
           "type": "Tackles",
-          "value": 3
+          "value": 5
         },
         {
           "type": "Fouls",

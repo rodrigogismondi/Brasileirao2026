@@ -56,6 +56,60 @@
         "extra": null
       },
       "team": {
+        "id": 2305,
+        "name": "Mirassol"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Shaylon"
+      },
+      "assist": {
+        "name": "Carlos Eduardo"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 2305,
+        "name": "Mirassol"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Alex Muralha"
+      },
+      "assist": {
+        "name": "Walter"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Arrascaeta"
+      },
+      "assist": {
+        "name": "Evertton Araújo"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
         "id": 262,
         "name": "Flamengo"
       },
@@ -786,6 +840,40 @@
         "name": "Mirassol"
       },
       "type": "Important",
+      "detail": "O goleiro Muralha reencontra o Flamengo, clube a que chegou há 10 anos. Ele defendeu o Rubro-Negro em 2016 e 2017, antes de se transferir para o Japão. Ele recebe oportunidade nesta partida devido à lesão de Walter.",
+      "player": {
+        "name": "Alex Muralha"
+      },
+      "assist": {
+        "name": "Reencontro"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 45,
+        "extra": null
+      },
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "Important",
+      "detail": "Bola rolando",
+      "player": {
+        "name": "Recomeça"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 45,
+        "extra": null
+      },
+      "team": {
+        "id": 2305,
+        "name": "Mirassol"
+      },
+      "type": "Important",
       "detail": "O segundo gol do Flamengo ocorreu logo após atendimento médico ao goleiro Walter. Devido às novas regras adotadas no Brasileirão, o atacante André Luis teve que esperar por um minuto do lado de fora, justamente no momento em que o Flamengo construiu a jogada",
       "player": {
         "name": "André Luis"
@@ -1352,7 +1440,7 @@
         },
         {
           "type": "Total Passes",
-          "value": 303
+          "value": 314
         },
         {
           "type": "Pass Accuracy",
@@ -1360,7 +1448,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 35
+          "value": 37
         },
         {
           "type": "Total Shots",
@@ -1428,15 +1516,15 @@
         },
         {
           "type": "Total Passes",
-          "value": 218
+          "value": 220
         },
         {
           "type": "Pass Accuracy",
-          "value": "86%"
+          "value": "85%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 31
+          "value": 32
         },
         {
           "type": "Total Shots",
@@ -1476,7 +1564,7 @@
         },
         {
           "type": "Tackles",
-          "value": 8
+          "value": 9
         },
         {
           "type": "Fouls",

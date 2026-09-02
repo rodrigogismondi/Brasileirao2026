@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 47
+      "elapsed": 51
     },
     "timerStart": "2026-09-02T22:30:19.974Z",
     "timerStatus": "INICIADO"
@@ -44,9 +44,9 @@
     }
   },
   "odds": {
-    "home": 1.17,
-    "draw": 7.03,
-    "away": 14.8,
+    "home": 1.21,
+    "draw": 6.5,
+    "away": 11.75,
     "source": "betexplorer"
   },
   "events": [
@@ -770,7 +770,7 @@
         "name": "Mirassol"
       },
       "type": "Important",
-      "detail": "O segundo gol do Flamengo ocorreu logo após atendimento médico do goleiro Walter. Devido às novas regras adotadas no Brasileirão, o atacante André Luis teve esperar por um minuto do lado de fora, justamente no momento em que o Flamengo construiu a jogada",
+      "detail": "O segundo gol do Flamengo ocorreu logo após atendimento médico ao goleiro Walter. Devido às novas regras adotadas no Brasileirão, o atacante André Luis teve que esperar por um minuto do lado de fora, justamente no momento em que o Flamengo construiu a jogada",
       "player": {
         "name": "André Luis"
       },
@@ -807,6 +807,72 @@
       "detail": "Reinaldo lança na área do Flamengo, João Victor tenta cabecear, mas é atrapalhado",
       "player": {
         "name": "Reinaldo lança na área do Flamengo, João Victor "
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 47,
+        "extra": null
+      },
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "Important",
+      "detail": "Flamengo gira a bola no campo de defesa",
+      "player": {
+        "name": "Flamengo gira a bola no campo de defesa"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 48,
+        "extra": null
+      },
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "Important",
+      "detail": "O Flamengo domina o jogo e constrói um placar de 2 a 0 antes do apito final do primeiro tempo. Aos 13 minutos, Carrascal abriu o placar com uma bomba em jogada de contra-ataque. O time da casa seguiu criando e ampliou com Paquetá, de cabeça, já na reta final. O Fla ainda perdeu Erick Pulgar por lesão e desperdiçou uma chance incrível com Varela, que chutou fraco na cara do gol.",
+      "player": {
+        "name": "Fla abre boa vantagem antes do intervalo"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 48,
+        "extra": null
+      },
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "Important",
+      "detail": "Lino avança em velocidade pela esquerda, invade a área e recua para Paquetá. O meia solta uma bomba, que explode na marcação e vai para fora",
+      "player": {
+        "name": "Lucas Paquetá"
+      },
+      "assist": {
+        "name": "Tinha endereço"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 49,
+        "extra": null
+      },
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "Important",
+      "detail": "Flamengo na frente",
+      "player": {
+        "name": "Fim do primeiro tempo"
       },
       "assist": null
     }
@@ -1266,23 +1332,23 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "55%"
+          "value": "54%"
         },
         {
           "type": "Total Passes",
-          "value": 281
+          "value": 295
         },
         {
           "type": "Pass Accuracy",
-          "value": "89%"
+          "value": "88%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 32
+          "value": 34
         },
         {
           "type": "Total Shots",
-          "value": 11
+          "value": 12
         },
         {
           "type": "Shots on Goal",
@@ -1290,7 +1356,7 @@
         },
         {
           "type": "Shots off Goal",
-          "value": 6
+          "value": 7
         },
         {
           "type": "Blocked Shots",
@@ -1302,11 +1368,11 @@
         },
         {
           "type": "Corner Kicks",
-          "value": 4
+          "value": 5
         },
         {
           "type": "Offsides",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Penalties",
@@ -1342,19 +1408,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "45%"
+          "value": "46%"
         },
         {
           "type": "Total Passes",
-          "value": 212
+          "value": 214
         },
         {
           "type": "Pass Accuracy",
-          "value": "87%"
+          "value": "86%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 28
+          "value": 29
         },
         {
           "type": "Total Shots",
@@ -1390,15 +1456,15 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 4
+          "value": 5
         },
         {
           "type": "Tackles",
-          "value": 7
+          "value": 8
         },
         {
           "type": "Fouls",
-          "value": 4
+          "value": 5
         },
         {
           "type": "Yellow Cards",

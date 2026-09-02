@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 62
+      "elapsed": 65
     },
     "timerStart": "2026-09-02T23:36:24.534Z",
     "timerStatus": "INICIADO"
@@ -1209,6 +1209,70 @@
       "assist": {
         "name": "Para fora!"
       }
+    },
+    {
+      "time": {
+        "elapsed": 60,
+        "extra": null
+      },
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "Important",
+      "detail": "Com 15 minutos do segundo tempo, o Flamengo vai vencendo por 2 a 0, mas o cenário mudou. Após um primeiro tempo de domínio e gols de Carrascal e Paquetá, o Mirassol voltou melhor, ocupa mais o ataque e já criou boas chances, obrigando Rossi a trabalhar. O Fla respondeu com Arrascaeta, mas o goleiro Muralha, que entrou no intervalo, fez ótima defesa. Jogo mais aberto e equilibrado na etapa final.",
+      "player": {
+        "name": "Fla na frente, Mirassol reage na etapa final"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 60,
+        "extra": null
+      },
+      "team": {
+        "id": 2305,
+        "name": "Mirassol"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "?"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 62,
+        "extra": null
+      },
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "Important",
+      "detail": "Falta de Paquetá em André Luís no meio",
+      "player": {
+        "name": "Falta de Paquetá em André Luís no meio"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 63,
+        "extra": null
+      },
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "Important",
+      "detail": "Agora é o Flamengo que cadencia o jogo, com passes na defesa e pouca presença à frente",
+      "player": {
+        "name": "Agora é o Flamengo que cadencia o jogo, com pass"
+      },
+      "assist": null
     }
   ],
   "lineups": [
@@ -1670,15 +1734,15 @@
         },
         {
           "type": "Total Passes",
-          "value": 394
+          "value": 407
         },
         {
           "type": "Pass Accuracy",
-          "value": "89%"
+          "value": "88%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 44
+          "value": 47
         },
         {
           "type": "Total Shots",
@@ -1722,7 +1786,7 @@
         },
         {
           "type": "Fouls",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Yellow Cards",
@@ -1746,7 +1810,7 @@
         },
         {
           "type": "Total Passes",
-          "value": 292
+          "value": 305
         },
         {
           "type": "Pass Accuracy",
@@ -1754,11 +1818,11 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 38
+          "value": 41
         },
         {
           "type": "Total Shots",
-          "value": 3
+          "value": 4
         },
         {
           "type": "Shots on Goal",
@@ -1766,7 +1830,7 @@
         },
         {
           "type": "Shots off Goal",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Blocked Shots",
@@ -1778,7 +1842,7 @@
         },
         {
           "type": "Corner Kicks",
-          "value": 3
+          "value": 4
         },
         {
           "type": "Offsides",
@@ -1802,7 +1866,7 @@
         },
         {
           "type": "Yellow Cards",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Red Cards",

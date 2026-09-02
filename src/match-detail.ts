@@ -511,22 +511,42 @@ function renderPlayerEventIcons(
   return `<span class="md-player-icons">${parts.join("")}</span>`;
 }
 
+function renderSubArrows(
+  lang: Lang,
+  opts: { cameIn?: boolean; wentOut?: boolean }
+): string {
+  const cameIn = !!opts.cameIn;
+  const wentOut = !!opts.wentOut;
+  if (!cameIn && !wentOut) {
+    return `<span class="md-xi-arrow md-xi-arrow-spacer" aria-hidden="true"></span>`;
+  }
+  const parts: string[] = [];
+  if (cameIn) {
+    parts.push(
+      `<span class="md-xi-arrow md-xi-arrow-in" title="${escapeHtml(t(lang, "mdSubIn"))}" aria-label="${escapeHtml(t(lang, "mdSubIn"))}">↑</span>`
+    );
+  }
+  if (wentOut) {
+    parts.push(
+      `<span class="md-xi-arrow md-xi-arrow-out" title="${escapeHtml(t(lang, "mdSubOut"))}" aria-label="${escapeHtml(t(lang, "mdSubOut"))}">↓</span>`
+    );
+  }
+  if (cameIn && wentOut) {
+    return `<span class="md-xi-arrows" aria-label="${escapeHtml(`${t(lang, "mdSubIn")} · ${t(lang, "mdSubOut")}`)}">${parts.join("")}</span>`;
+  }
+  return parts.join("");
+}
+
 function renderLineupPlayerRow(
   p: LineupPlayer,
   detail: MatchDetail,
   team: 1 | 2,
   lang: Lang,
-  opts: { arrow?: "in" | "out"; faded?: boolean }
+  opts: { cameIn?: boolean; wentOut?: boolean; faded?: boolean }
 ): string {
-  const arrow =
-    opts.arrow === "out"
-      ? `<span class="md-xi-arrow md-xi-arrow-out" title="${escapeHtml(t(lang, "mdSubOut"))}" aria-label="${escapeHtml(t(lang, "mdSubOut"))}">↓</span>`
-      : opts.arrow === "in"
-        ? `<span class="md-xi-arrow md-xi-arrow-in" title="${escapeHtml(t(lang, "mdSubIn"))}" aria-label="${escapeHtml(t(lang, "mdSubIn"))}">↑</span>`
-        : `<span class="md-xi-arrow md-xi-arrow-spacer" aria-hidden="true"></span>`;
   return `
     <div class="md-xi-player ${opts.faded ? "md-xi-player-out" : ""}">
-      ${arrow}
+      ${renderSubArrows(lang, opts)}
       <span class="md-num">${p.number ?? "–"}</span>
       <span class="md-player-name">
         <span class="md-player-label">${escapeHtml(p.name)}</span>
@@ -536,6 +556,27 @@ function renderLineupPlayerRow(
     </div>`;
 }
 
+/** Nested sub chain: starter → in/out → further replacements (e.g. Pulgar → Evertton → Arrascaeta). */
+function renderSubChainRows(
+  player: LineupPlayer,
+  detail: MatchDetail,
+  team: 1 | 2,
+  lang: Lang,
+  opts: { cameIn?: boolean },
+  depth = 0
+): string {
+  if (depth > 8) return "";
+  const wentOut = playerSubbedOut(detail, team, player.name);
+  const incoming = wentOut ? replacementFor(detail, team, player.name) : null;
+  const row = renderLineupPlayerRow(player, detail, team, lang, {
+    cameIn: opts.cameIn,
+    wentOut,
+    faded: wentOut,
+  });
+  if (!incoming) return row;
+  return `${row}${renderSubChainRows(incoming, detail, team, lang, { cameIn: true }, depth + 1)}`;
+}
+
 function renderStartingXi(
   players: TeamLineup["startXI"],
   detail: MatchDetail,
@@ -543,27 +584,12 @@ function renderStartingXi(
   lang: Lang
 ): string {
   return players
-    .map((p) => {
-      const out = playerSubbedOut(detail, team, p.name);
-      const incoming = out ? replacementFor(detail, team, p.name) : null;
-      if (out && incoming) {
-        return `
+    .map(
+      (p) => `
         <li class="md-xi-slot">
-          ${renderLineupPlayerRow(p, detail, team, lang, { arrow: "out", faded: true })}
-          ${renderLineupPlayerRow(incoming, detail, team, lang, { arrow: "in" })}
-        </li>`;
-      }
-      if (out) {
-        return `
-        <li class="md-xi-slot">
-          ${renderLineupPlayerRow(p, detail, team, lang, { arrow: "out", faded: true })}
-        </li>`;
-      }
-      return `
-        <li class="md-xi-slot">
-          ${renderLineupPlayerRow(p, detail, team, lang, {})}
-        </li>`;
-    })
+          ${renderSubChainRows(p, detail, team, lang, {})}
+        </li>`
+    )
     .join("");
 }
 

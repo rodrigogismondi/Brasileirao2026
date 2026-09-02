@@ -7,12 +7,12 @@
       "city": ""
     },
     "status": {
-      "long": "HT",
-      "short": "HT",
-      "elapsed": 45
+      "long": "2H",
+      "short": "2H",
+      "elapsed": 54
     },
-    "timerStart": "2026-09-02T23:19:41.666Z",
-    "timerStatus": "PAUSADO"
+    "timerStart": "2026-09-02T23:36:24.534Z",
+    "timerStatus": "INICIADO"
   },
   "league": {
     "round": "Regular Season - 4"
@@ -940,6 +940,22 @@
         "name": "Flamengo"
       },
       "type": "Important",
+      "detail": "Outro que deixou o jogo no intervalo foi o volante Evertton Araújo. Ele entrou em campo no lugar de Pulgar, que sentiu dores, aos 30 minutos. Segundo o repórter Fábio Juppa, o volante substituto também acusou dores musculares, que o tiraram da partida.",
+      "player": {
+        "name": "Saída repentina"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 47,
+        "extra": null
+      },
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "Important",
       "detail": "Flamengo gira a bola no campo de defesa",
       "player": {
         "name": "Flamengo gira a bola no campo de defesa"
@@ -1006,9 +1022,41 @@
         "name": "Flamengo"
       },
       "type": "Important",
+      "detail": "Mirassol trabalha a bola no campo de ataque, enquanto o Flamengo recua",
+      "player": {
+        "name": "Mirassol trabalha a bola no campo de ataque, enq"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 49,
+        "extra": null
+      },
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "Important",
       "detail": "Flamengo na frente",
       "player": {
         "name": "Fim do primeiro tempo"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 50,
+        "extra": null
+      },
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "Important",
+      "detail": "\"ERICK Jogador sofreu uma pancada na coxa direita e, com dores, precisou ser substituído ainda no primeiro tempo. EVERTTON ARAUJO Meia sentiu um desconforto na coxa esquerda e, por isso, foi substituído no intervalo\"",
+      "player": {
+        "name": "Flamengo divulga nota sobre a condição física dos volantes"
       },
       "assist": null
     }
@@ -1468,11 +1516,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "56%"
+          "value": "55%"
         },
         {
           "type": "Total Passes",
-          "value": 338
+          "value": 359
         },
         {
           "type": "Pass Accuracy",
@@ -1480,15 +1528,15 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 40
+          "value": 42
         },
         {
           "type": "Total Shots",
-          "value": 13
+          "value": 14
         },
         {
           "type": "Shots on Goal",
-          "value": 3
+          "value": 4
         },
         {
           "type": "Shots off Goal",
@@ -1504,7 +1552,7 @@
         },
         {
           "type": "Corner Kicks",
-          "value": 6
+          "value": 7
         },
         {
           "type": "Offsides",
@@ -1520,7 +1568,7 @@
         },
         {
           "type": "Tackles",
-          "value": 6
+          "value": 7
         },
         {
           "type": "Fouls",
@@ -1544,11 +1592,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "44%"
+          "value": "45%"
         },
         {
           "type": "Total Passes",
-          "value": 229
+          "value": 252
         },
         {
           "type": "Pass Accuracy",
@@ -1556,7 +1604,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 32
+          "value": 35
         },
         {
           "type": "Total Shots",
@@ -1596,11 +1644,11 @@
         },
         {
           "type": "Tackles",
-          "value": 8
+          "value": 9
         },
         {
           "type": "Fouls",
-          "value": 5
+          "value": 6
         },
         {
           "type": "Yellow Cards",

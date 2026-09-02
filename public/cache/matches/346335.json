@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 33
+      "elapsed": 35
     },
     "timerStart": "2026-09-02T22:30:19.974Z",
     "timerStatus": "INICIADO"
@@ -434,7 +434,7 @@
         "name": "Flamengo"
       },
       "type": "Important",
-      "detail": "Ayrton passa para Lino no canto da grande área. O atacante levanta a bola para o centro e Pedro ensaia uma bicicleta, mas não consegue acertar a finalização. O desvio fica com William Machado, que entrega de cabeça para Walter",
+      "detail": "Ayrton Lucas passa para Lino no canto da grande área. O atacante levanta a bola para o centro e Pedro ensaia uma bicicleta, mas não consegue acertar a finalização. O desvio fica com William Machado, que entrega de cabeça para Walter",
       "player": {
         "name": "Fla chega de novo!"
       },
@@ -514,7 +514,7 @@
         "name": "Flamengo"
       },
       "type": "Important",
-      "detail": "Evertton Araújo tirou o colete no banco de reservas. Se prepara para entrar no jogo",
+      "detail": "Evertton Araújo tirou o colete no banco de reservas. Ele se prepara para entrar no jogo",
       "player": {
         "name": "Evertton Araújo tirou o colete no banco de reser"
       },
@@ -570,6 +570,42 @@
       },
       "assist": {
         "name": "Que perigo!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 32,
+        "extra": null
+      },
+      "team": {
+        "id": 2305,
+        "name": "Mirassol"
+      },
+      "type": "Important",
+      "detail": "A bola é lançada na área do Flamengo, João Victor desvia de cabeça mas a bola sobe e não vai na direção do gol. Na sequência, a defesa corta",
+      "player": {
+        "name": "João Victor"
+      },
+      "assist": {
+        "name": "Mirassol no ataque"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 34,
+        "extra": null
+      },
+      "team": {
+        "id": 2305,
+        "name": "Mirassol"
+      },
+      "type": "Important",
+      "detail": "Reinaldo cobra escanteio na primeira trave, André Luís avança livre e cabeceia para fora!",
+      "player": {
+        "name": "André Luis"
+      },
+      "assist": {
+        "name": "Boa chegada"
       }
     }
   ],
@@ -1028,23 +1064,23 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "61%"
+          "value": "59%"
         },
         {
           "type": "Total Passes",
-          "value": 228
+          "value": 239
         },
         {
           "type": "Pass Accuracy",
-          "value": "90%"
+          "value": "89%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 23
+          "value": 27
         },
         {
           "type": "Total Shots",
-          "value": 7
+          "value": 8
         },
         {
           "type": "Shots on Goal",
@@ -1052,7 +1088,7 @@
         },
         {
           "type": "Shots off Goal",
-          "value": 5
+          "value": 6
         },
         {
           "type": "Blocked Shots",
@@ -1064,7 +1100,7 @@
         },
         {
           "type": "Corner Kicks",
-          "value": 3
+          "value": 4
         },
         {
           "type": "Offsides",
@@ -1080,7 +1116,7 @@
         },
         {
           "type": "Tackles",
-          "value": 4
+          "value": 5
         },
         {
           "type": "Fouls",
@@ -1104,11 +1140,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "39%"
+          "value": "41%"
         },
         {
           "type": "Total Passes",
-          "value": 124
+          "value": 147
         },
         {
           "type": "Pass Accuracy",
@@ -1116,7 +1152,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 18
+          "value": 22
         },
         {
           "type": "Total Shots",

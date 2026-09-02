@@ -383,67 +383,113 @@ function playBodyText(play) {
     .trim();
 }
 
+/** Guess side from narration text when GE omits details.team. */
+function inferTeamId(text, homeId, awayId, homeName, awayName) {
+  const t = String(text || "").toLowerCase();
+  if (!t) return null;
+  const h = String(homeName || "").toLowerCase();
+  const a = String(awayName || "").toLowerCase();
+  const hasH = h.length >= 3 && t.includes(h);
+  const hasA = a.length >= 3 && t.includes(a);
+  if (hasH && !hasA) return homeId;
+  if (hasA && !hasH) return awayId;
+  return null;
+}
+
 function mapEvents(plays, homeId, awayId, homeName, awayName) {
   const events = [];
   for (const play of plays ?? []) {
     const typeId = play?.playType?.id;
-    if (!typeId || !["GOAL", "CARD", "SUBSTITUTION", "IMPORTANT"].includes(typeId)) continue;
+    if (
+      !typeId ||
+      !["GOAL", "CARD", "SUBSTITUTION", "IMPORTANT", "NORMAL", "SUMMARY_AUTOMATIC"].includes(
+        typeId
+      )
+    ) {
+      continue;
+    }
+    const periodAbbr = play.period?.abbreviation || play.period?.id || "";
+    // Pre-match standout / fluff
+    if (/PR[ÉE]-?JOGO|PRE.?GAME|PREJOGO/i.test(String(periodAbbr))) continue;
+
     const details = play.details ?? {};
-    const teamId = details.team?.id ?? play.team?.id;
-    if (teamId == null) continue;
+    const elapsed = momentToElapsed(play.moment, periodAbbr);
+
+    if (typeId === "GOAL" || typeId === "CARD" || typeId === "SUBSTITUTION") {
+      const teamId = details.team?.id ?? play.team?.id;
+      if (teamId == null) continue;
+      const teamName =
+        teamId === homeId
+          ? homeName
+          : teamId === awayId
+            ? awayName
+            : details.team?.abbreviation || "";
+      const base = {
+        time: { elapsed, extra: null },
+        team: { id: teamId, name: teamName },
+      };
+      if (typeId === "GOAL") {
+        events.push({
+          ...base,
+          type: "Goal",
+          detail: goalDetail(details.kind),
+          player: { name: details.athlete?.popularName || details.athlete?.name || "?" },
+          assist: details.assist
+            ? { name: details.assist.popularName || details.assist.name }
+            : null,
+        });
+      } else if (typeId === "CARD") {
+        events.push({
+          ...base,
+          type: "Card",
+          detail: cardDetail(details.kind),
+          player: { name: details.athlete?.popularName || details.athlete?.name || "?" },
+          assist: null,
+        });
+      } else {
+        events.push({
+          ...base,
+          type: "subst",
+          detail: "Substitution 1",
+          player: {
+            name: details.comingIn?.popularName || details.comingIn?.name || "?",
+          },
+          assist: {
+            name: details.leaving?.popularName || details.leaving?.name || "?",
+          },
+        });
+      }
+      continue;
+    }
+
+    // IMPORTANT / NORMAL / SUMMARY_AUTOMATIC → timeline narration
+    const title = String(play.title || "").trim();
+    const body = playBodyText(play);
+    if (typeId === "IMPORTANT" && /^Aos\s+\d+\s*min/i.test(title)) continue;
+    if (!title && body.length < 25) continue;
+
+    let teamId = details.team?.id ?? play.team?.id ?? null;
+    if (teamId == null) {
+      teamId = inferTeamId(`${title} ${body}`, homeId, awayId, homeName, awayName);
+    }
+    // Keep narration even without a side — crest falls back to home.
+    if (teamId == null) teamId = homeId;
     const teamName =
-      teamId === homeId ? homeName : teamId === awayId ? awayName : details.team?.abbreviation || "";
-    const elapsed = momentToElapsed(play.moment, play.period?.abbreviation || play.period?.id);
-    const base = {
+      teamId === homeId
+        ? homeName
+        : teamId === awayId
+          ? awayName
+          : details.team?.abbreviation || homeName;
+    const athlete = details.athlete?.popularName || details.athlete?.name || "";
+    const label = athlete || title || body.slice(0, 48);
+    events.push({
       time: { elapsed, extra: null },
       team: { id: teamId, name: teamName },
-    };
-
-    if (typeId === "GOAL") {
-      events.push({
-        ...base,
-        type: "Goal",
-        detail: goalDetail(details.kind),
-        player: { name: details.athlete?.popularName || details.athlete?.name || "?" },
-        assist: details.assist
-          ? { name: details.assist.popularName || details.assist.name }
-          : null,
-      });
-    } else if (typeId === "CARD") {
-      events.push({
-        ...base,
-        type: "Card",
-        detail: cardDetail(details.kind),
-        player: { name: details.athlete?.popularName || details.athlete?.name || "?" },
-        assist: null,
-      });
-    } else if (typeId === "SUBSTITUTION") {
-      events.push({
-        ...base,
-        type: "subst",
-        detail: "Substitution 1",
-        player: {
-          name: details.comingIn?.popularName || details.comingIn?.name || "?",
-        },
-        assist: {
-          name: details.leaving?.popularName || details.leaving?.name || "?",
-        },
-      });
-    } else if (typeId === "IMPORTANT") {
-      const title = String(play.title || "").trim();
-      if (!title) continue;
-      // Skip GE auto stubs ("Aos 11 min do 1º tempo - chute…"); keep editorial moments.
-      if (/^Aos\s+\d+\s*min/i.test(title)) continue;
-      const athlete = details.athlete?.popularName || details.athlete?.name || "";
-      const body = playBodyText(play);
-      events.push({
-        ...base,
-        type: "Important",
-        detail: body || title,
-        player: { name: athlete || title },
-        assist: athlete ? { name: title } : null,
-      });
-    }
+      type: "Important",
+      detail: body || title,
+      player: { name: label },
+      assist: athlete && title ? { name: title } : null,
+    });
   }
   return events.sort((a, b) => (a.time.elapsed ?? 0) - (b.time.elapsed ?? 0));
 }

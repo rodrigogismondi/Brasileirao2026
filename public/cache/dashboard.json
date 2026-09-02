@@ -12396,7 +12396,7 @@
         "status": {
           "long": "1H",
           "short": "1H",
-          "elapsed": 41
+          "elapsed": 45
         },
         "timerStart": "2026-09-02T22:30:19.974Z",
         "timerStatus": "INICIADO"
@@ -12417,7 +12417,7 @@
         }
       },
       "goals": {
-        "home": 1,
+        "home": 2,
         "away": 0
       },
       "score": {
@@ -18548,7 +18548,7 @@
                 "logo": "https://s.sde.globo.com/media/organizations/2018/04/10/Flamengo-2018.svg"
               },
               "points": 51,
-              "goalsDiff": 28,
+              "goalsDiff": 29,
               "form": "DWWLW",
               "description": "Copa Libertadores",
               "all": {
@@ -18557,7 +18557,7 @@
                 "draw": 6,
                 "lose": 4,
                 "goals": {
-                  "for": 49,
+                  "for": 50,
                   "against": 21
                 }
               }
@@ -18856,7 +18856,7 @@
                 "logo": "https://s.sde.globo.com/media/organizations/2026/07/17/MIrassol.svg"
               },
               "points": 25,
-              "goalsDiff": -11,
+              "goalsDiff": -12,
               "form": "WLLDD",
               "description": null,
               "all": {
@@ -18866,7 +18866,7 @@
                 "lose": 12,
                 "goals": {
                   "for": 27,
-                  "against": 38
+                  "against": 39
                 }
               }
             },
@@ -19979,6 +19979,28 @@
     {
       "player": {
         "id": 47,
+        "name": "Lucas Paquetá",
+        "photo": "https://s.sde.globo.com/media/person_role/2026/08/19/photo_140x140_ewujbw1.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "name": "Flamengo",
+            "logo": "https://s.sde.globo.com/media/organizations/2018/04/09/Flamengo-65.png"
+          },
+          "goals": {
+            "total": 4,
+            "assists": null
+          },
+          "games": {
+            "appearences": 0
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 48,
         "name": "Cuello",
         "photo": "https://s.sde.globo.com/media/person_role/2025/04/04/photo_140x140_aWdBvuS.png"
       },
@@ -20000,7 +20022,7 @@
     },
     {
       "player": {
-        "id": 48,
+        "id": 49,
         "name": "Ferreira",
         "photo": "https://s.sde.globo.com/media/person_role/2026/05/06/photo_140x140_JwJlZtU.png"
       },
@@ -20022,7 +20044,7 @@
     },
     {
       "player": {
-        "id": 49,
+        "id": 50,
         "name": "Bernabei",
         "photo": "https://s.sde.globo.com/media/person_role/2026/08/19/photo_140x140_VnWnBxr.png"
       },
@@ -20031,28 +20053,6 @@
           "team": {
             "name": "Internacional",
             "logo": "https://s.sde.globo.com/media/organizations/2016/05/03/inter65.png"
-          },
-          "goals": {
-            "total": 4,
-            "assists": null
-          },
-          "games": {
-            "appearences": 0
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 50,
-        "name": "Andrés Gómez",
-        "photo": "https://s.sde.globo.com/media/person_role/2026/08/19/photo_140x140_zVa1Rch.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "name": "Vasco",
-            "logo": "https://s.sde.globo.com/media/organizations/2021/09/04/ESCUDO-VASCO-RGB_65px.png"
           },
           "goals": {
             "total": 4,
@@ -20072,7 +20072,7 @@
     "mode": "live",
     "liveIntervalMs": 20000
   },
-  "fetchedAt": "2026-09-02T23:12:11.274Z",
+  "fetchedAt": "2026-09-02T23:15:20.661Z",
   "source": "ge-globo",
   "meta": {
     "rodada": 4,

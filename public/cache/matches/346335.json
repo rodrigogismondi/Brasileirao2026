@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 41
+      "elapsed": 45
     },
     "timerStart": "2026-09-02T22:30:19.974Z",
     "timerStatus": "INICIADO"
@@ -30,7 +30,7 @@
     }
   },
   "goals": {
-    "home": 1,
+    "home": 2,
     "away": 0
   },
   "score": {
@@ -693,6 +693,56 @@
       "assist": {
         "name": "Inacreditável!"
       }
+    },
+    {
+      "time": {
+        "elapsed": 40,
+        "extra": null
+      },
+      "team": {
+        "id": 2305,
+        "name": "Mirassol"
+      },
+      "type": "Important",
+      "detail": "Após defesaça, Walter sente dores e recebe atendimento médico. Muralha faz o aquecimento do lado de fora",
+      "player": {
+        "name": "Walter"
+      },
+      "assist": {
+        "name": "Preocupação"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 42,
+        "extra": null
+      },
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "Important",
+      "detail": "O Flamengo transformou a pressão em gols. Aos 13 minutos, Carrascal abriu o placar após um rápido contra-ataque. O time seguiu criando e Varela perdeu uma chance incrível cara a cara com o goleiro Walter. O jogo teve a lesão de Pulgar, substituído por Evertton Araújo, e uma tímida resposta do Mirassol. Mas aos 42, Lucas Paquetá apareceu para ampliar o placar para 2 a 0 e consolidar o domínio rubro-negro.",
+      "player": {
+        "name": "Fla marca mais um e controla o jogo"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 42,
+        "extra": null
+      },
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "player": {
+        "name": "Lucas Paquetá"
+      },
+      "assist": null
     }
   ],
   "lineups": [
@@ -1150,11 +1200,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "54%"
+          "value": "55%"
         },
         {
           "type": "Total Passes",
-          "value": 266
+          "value": 275
         },
         {
           "type": "Pass Accuracy",
@@ -1166,11 +1216,11 @@
         },
         {
           "type": "Total Shots",
-          "value": 8
+          "value": 11
         },
         {
           "type": "Shots on Goal",
-          "value": 1
+          "value": 3
         },
         {
           "type": "Shots off Goal",
@@ -1178,7 +1228,7 @@
         },
         {
           "type": "Blocked Shots",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Hit Woodwork",
@@ -1226,7 +1276,7 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "46%"
+          "value": "45%"
         },
         {
           "type": "Total Passes",

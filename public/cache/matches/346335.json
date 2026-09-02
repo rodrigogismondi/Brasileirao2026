@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 39
+      "elapsed": 41
     },
     "timerStart": "2026-09-02T22:30:19.974Z",
     "timerStatus": "INICIADO"
@@ -596,6 +596,22 @@
         "extra": null
       },
       "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "Important",
+      "detail": "Após um início de estudo, o Flamengo abriu o placar aos 13 minutos com um golaço de Carrascal, que soltou uma bomba após assistência de Pedro em contra-ataque. Desde então, o time rubro-negro domina a partida e quase ampliou com Ortiz. A nota triste foi a lesão de Pulgar, que precisou ser substituído. Já com mais de 30 minutos, o Mirassol tenta reagir e assustou em cabeçada de André Luís.",
+      "player": {
+        "name": "Fla na frente, mas com baixa importante"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 34,
+        "extra": null
+      },
+      "team": {
         "id": 2305,
         "name": "Mirassol"
       },
@@ -606,6 +622,76 @@
       },
       "assist": {
         "name": "Boa chegada"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 35,
+        "extra": null
+      },
+      "team": {
+        "id": 2305,
+        "name": "Mirassol"
+      },
+      "type": "Important",
+      "detail": "Walter recebe um recuo na área. Pedro acelera para pressionar o goleiro e acaba levando um corte seco de letra. Na sequência, o goleiro sai jogando com tranquilidade",
+      "player": {
+        "name": "Walter"
+      },
+      "assist": {
+        "name": "Vai para onde, Pedro?"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 38,
+        "extra": null
+      },
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "Important",
+      "detail": "Após um início estudado, o Flamengo assumiu o controle e abriu o placar aos 13 minutos. Em contra-ataque rápido, Pedro serviu Carrascal, que fuzilou para fazer 1 a 0. O time da casa seguiu pressionando e criando chances, mas a má notícia foi a lesão de Pulgar, que precisou ser substituído. O Mirassol tenta responder, principalmente em jogadas de bola parada, mas sem assustar o goleiro Rossi.",
+      "player": {
+        "name": "Flamengo na frente, mas com baixa importante"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 38,
+        "extra": null
+      },
+      "team": {
+        "id": 2305,
+        "name": "Mirassol"
+      },
+      "type": "Important",
+      "detail": "Fernandinho avança na intermediária do Flamengo, dribla três marcadores, mas é desarmado por Evertton Araújo",
+      "player": {
+        "name": "Fernandinho"
+      },
+      "assist": {
+        "name": "Fez fila"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 39,
+        "extra": null
+      },
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "Important",
+      "detail": "Samuel Lino recebe passe de Pedro na entrada da área, tenta limpar marcador e tem chute bloqueado. A bola resvala em Denilson e sobra para Varela sozinho diante do gol, mas o lateral chuta fraco e facilita a defesa de Walter",
+      "player": {
+        "name": "Varela"
+      },
+      "assist": {
+        "name": "Inacreditável!"
       }
     }
   ],
@@ -1064,19 +1150,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "56%"
+          "value": "54%"
         },
         {
           "type": "Total Passes",
-          "value": 250
+          "value": 266
         },
         {
           "type": "Pass Accuracy",
-          "value": "88%"
+          "value": "89%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 29
+          "value": 30
         },
         {
           "type": "Total Shots",
@@ -1140,19 +1226,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "44%"
+          "value": "46%"
         },
         {
           "type": "Total Passes",
-          "value": 174
+          "value": 188
         },
         {
           "type": "Pass Accuracy",
-          "value": "86%"
+          "value": "87%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 24
+          "value": 25
         },
         {
           "type": "Total Shots",
@@ -1180,7 +1266,7 @@
         },
         {
           "type": "Offsides",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Penalties",
@@ -1188,15 +1274,15 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 3
+          "value": 4
         },
         {
           "type": "Tackles",
-          "value": 5
+          "value": 7
         },
         {
           "type": "Fouls",
-          "value": 3
+          "value": 4
         },
         {
           "type": "Yellow Cards",

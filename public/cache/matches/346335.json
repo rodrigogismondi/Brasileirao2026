@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 57
+      "elapsed": 60
     },
     "timerStart": "2026-09-02T23:36:24.534Z",
     "timerStatus": "INICIADO"
@@ -1116,15 +1116,33 @@
         "extra": null
       },
       "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "Important",
+      "detail": "O Flamengo foi para o intervalo com 2 a 0 no placar, construído com gols de Carrascal e Paquetá. A equipe dominou o primeiro tempo, mas também viu Pulgar sair machucado. O Mirassol, que trocou o goleiro Walter, também lesionado, por Muralha, voltou para o segundo tempo tentando reagir. Nos primeiros minutos, Igor Formiga já exigiu boa defesa de Rossi, enquanto Muralha também trabalhou em chute de Arrascaeta.",
+      "player": {
+        "name": "Flamengo na frente e Mirassol reage no 2º tempo"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 54,
+        "extra": null
+      },
+      "team": {
         "id": 2305,
         "name": "Mirassol"
       },
       "type": "Important",
       "detail": "William Machado vai ao ataque e encontra Igor Formiga bem posicionado na quina da área. O lateral domina e bate cruzado, mas Rossi salta para defender",
       "player": {
-        "name": "Mirassol reage!"
+        "name": "Igor Formiga"
       },
-      "assist": null
+      "assist": {
+        "name": "Mirassol reage!"
+      }
     }
   ],
   "lineups": [

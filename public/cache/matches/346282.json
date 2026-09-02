@@ -1,7 +1,7 @@
 {
   "fixture": {
     "id": 346282,
-    "timestamp": 1769040282,
+    "timestamp": 1789597800,
     "venue": {
       "name": "Nilton Santos (Engenhão)",
       "city": ""
@@ -41,7 +41,12 @@
       "away": null
     }
   },
-  "odds": null,
+  "odds": {
+    "home": 1.99,
+    "draw": 3.45,
+    "away": 3.64,
+    "source": "betexplorer"
+  },
   "events": [],
   "lineups": [],
   "statistics": [],

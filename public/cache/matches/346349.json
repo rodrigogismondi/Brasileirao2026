@@ -10,7 +10,9 @@
       "long": "FT",
       "short": "FT",
       "elapsed": 90
-    }
+    },
+    "timerStart": "2026-07-18T00:35:17.142Z",
+    "timerStatus": "PAUSADO"
   },
   "league": {
     "round": "Regular Season - 4"
@@ -42,13 +44,890 @@
     }
   },
   "odds": {
-    "home": 1.39,
-    "draw": 4.83,
-    "away": 7.19,
+    "home": 1.41,
+    "draw": 4.93,
+    "away": 6.97,
     "source": "betexplorer"
   },
-  "events": [],
-  "lineups": [],
-  "statistics": [],
+  "events": [
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 315,
+        "name": "Chapecoense"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Neto Pessoa"
+      },
+      "assist": {
+        "name": "Ênio"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 315,
+        "name": "Chapecoense"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Vinícius Balieiro"
+      },
+      "assist": {
+        "name": "Bruno Matias"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 9,
+        "extra": null
+      },
+      "team": {
+        "id": 265,
+        "name": "Bahia"
+      },
+      "type": "Important",
+      "detail": "Arbitragem assinala pênalti de Thyere em Erick Pulga.",
+      "player": {
+        "name": "pênalti para o bahia!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 11,
+        "extra": null
+      },
+      "team": {
+        "id": 265,
+        "name": "Bahia"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "player": {
+        "name": "Rodrigo Nestor"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 33,
+        "extra": null
+      },
+      "team": {
+        "id": 265,
+        "name": "Bahia"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "player": {
+        "name": "Román Gómez"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 62,
+        "extra": null
+      },
+      "team": {
+        "id": 315,
+        "name": "Chapecoense"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Everton"
+      },
+      "assist": {
+        "name": "Marcos Vinícius"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 63,
+        "extra": null
+      },
+      "team": {
+        "id": 265,
+        "name": "Bahia"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Zé Guilherme"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 63,
+        "extra": null
+      },
+      "team": {
+        "id": 315,
+        "name": "Chapecoense"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Rubens"
+      },
+      "assist": {
+        "name": "Marcinho"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 66,
+        "extra": null
+      },
+      "team": {
+        "id": 265,
+        "name": "Bahia"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Everton Ribeiro"
+      },
+      "assist": {
+        "name": "Willian José"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 66,
+        "extra": null
+      },
+      "team": {
+        "id": 265,
+        "name": "Bahia"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Kauê Furquim"
+      },
+      "assist": {
+        "name": "Ademir"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 67,
+        "extra": null
+      },
+      "team": {
+        "id": 315,
+        "name": "Chapecoense"
+      },
+      "type": "Important",
+      "detail": "Bruno Pacheco cruza da esquerda, Doma ajeita para o segundo pau, e Bolasie cabeceia para fora na cara do gol. Grande chance perdida pela Chape.",
+      "player": {
+        "name": "Bolasie"
+      },
+      "assist": {
+        "name": "perdeu!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 78,
+        "extra": null
+      },
+      "team": {
+        "id": 265,
+        "name": "Bahia"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Everaldo"
+      },
+      "assist": {
+        "name": "Erick Pulga"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 79,
+        "extra": null
+      },
+      "team": {
+        "id": 265,
+        "name": "Bahia"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Jean Lucas"
+      },
+      "assist": {
+        "name": "Rodrigo Nestor"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 80,
+        "extra": null
+      },
+      "team": {
+        "id": 315,
+        "name": "Chapecoense"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "David"
+      },
+      "assist": {
+        "name": "Camilo"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 82,
+        "extra": null
+      },
+      "team": {
+        "id": 265,
+        "name": "Bahia"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Luciano Juba"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 85,
+        "extra": null
+      },
+      "team": {
+        "id": 265,
+        "name": "Bahia"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Marcos Victor"
+      },
+      "assist": {
+        "name": "David Duarte"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 88,
+        "extra": null
+      },
+      "team": {
+        "id": 315,
+        "name": "Chapecoense"
+      },
+      "type": "Important",
+      "detail": "Thyere desvia escanteio no primeiro pau, e bola passa raspando a trave de Ronaldo.",
+      "player": {
+        "name": "Rafael Thyere"
+      },
+      "assist": {
+        "name": "passou muito perto"
+      }
+    }
+  ],
+  "lineups": [
+    {
+      "team": {
+        "id": 265,
+        "name": "Bahia",
+        "logo": "https://s.sde.globo.com/media/organizations/2018/03/11/bahia.svg"
+      },
+      "formation": "4-3-3",
+      "coach": {
+        "name": "Rogério Ceni"
+      },
+      "startXI": [
+        {
+          "player": {
+            "id": "ronaldostrada",
+            "name": "Ronaldo",
+            "number": 1,
+            "pos": "Gol",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "roman-gomez",
+            "name": "Román Gómez",
+            "number": 31,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "davidduarte",
+            "name": "David Duarte",
+            "number": 33,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "santiramos",
+            "name": "Santiago Mingo",
+            "number": 21,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "zeguilc",
+            "name": "Zé Guilherme",
+            "number": 66,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "acevedoni",
+            "name": "Acevedo",
+            "number": 5,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "erick-carvalho",
+            "name": "Erick",
+            "number": 14,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "rodrigonestor",
+            "name": "Rodrigo Nestor",
+            "number": 11,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "ademirsant",
+            "name": "Ademir",
+            "number": 7,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "willianjose",
+            "name": "Willian José",
+            "number": 12,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "erickpulga",
+            "name": "Erick Pulga",
+            "number": 16,
+            "pos": "Ata",
+            "grid": null
+          }
+        }
+      ],
+      "substitutes": [
+        {
+          "player": {
+            "id": "Iuri-Jean",
+            "name": "Iuri",
+            "number": 91,
+            "pos": "Gol",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "kanu-victor-hugo",
+            "name": "Kanu",
+            "number": 4,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "marcos-victor",
+            "name": "Marcos Victor",
+            "number": 44,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "iago-amaral",
+            "name": "Iago",
+            "number": 25,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "lucianojuba",
+            "name": "Luciano Juba",
+            "number": 46,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "jeanlucassouza",
+            "name": "Jean Lucas",
+            "number": 6,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "caioalexandre",
+            "name": "Caio Alexandre",
+            "number": 8,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "evertonribeiro",
+            "name": "Everton Ribeiro",
+            "number": 10,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "michelaraujovillar",
+            "name": "Michel Araújo",
+            "number": 15,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "matsanabria",
+            "name": "Sanabria",
+            "number": 23,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "everaldo211",
+            "name": "Everaldo",
+            "number": 27,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "kauefurquim",
+            "name": "Kauê Furquim",
+            "number": 57,
+            "pos": "Ata",
+            "grid": null
+          }
+        }
+      ]
+    },
+    {
+      "team": {
+        "id": 315,
+        "name": "Chapecoense",
+        "logo": "https://s.sde.globo.com/media/organizations/2021/06/21/CHAPECOENSE-2018.svg"
+      },
+      "formation": "4-3-3",
+      "coach": {
+        "name": "Rafael Lacerda"
+      },
+      "startXI": [
+        {
+          "player": {
+            "id": "matheusaurelio",
+            "name": "Matheus Aurélio",
+            "number": 30,
+            "pos": "Gol",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "marcosviniciusdasilva",
+            "name": "Marcos Vinícius",
+            "number": 2,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "eduardodoma",
+            "name": "Eduardo Doma",
+            "number": 3,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "rafaelthyere",
+            "name": "Rafael Thyere",
+            "number": 15,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "brunopacheco",
+            "name": "Bruno Pacheco",
+            "number": 91,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "camilo-reijers",
+            "name": "Camilo",
+            "number": 27,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "brunomatias",
+            "name": "Bruno Matias",
+            "number": 16,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "giovanni-augusto",
+            "name": "Giovanni Augusto",
+            "number": 10,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "enioseba",
+            "name": "Ênio",
+            "number": 97,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "bolasie",
+            "name": "Bolasie",
+            "number": 11,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "marcinhoantonio",
+            "name": "Marcinho",
+            "number": 7,
+            "pos": "Ata",
+            "grid": null
+          }
+        }
+      ],
+      "substitutes": [
+        {
+          "player": {
+            "id": "rafaelsantos",
+            "name": "Rafael Santos",
+            "number": 1,
+            "pos": "Gol",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "everton-cruz",
+            "name": "Everton",
+            "number": 26,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "kauanfg",
+            "name": "Kauan",
+            "number": 21,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "brunoleonardo",
+            "name": "Bruno Leonardo",
+            "number": 33,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "manchagp",
+            "name": "Mancha",
+            "number": 6,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "viniciusbalieiro",
+            "name": "Vinícius Balieiro",
+            "number": 17,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "david",
+            "name": "David",
+            "number": 19,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "netopessoa",
+            "name": "Neto Pessoa",
+            "number": 18,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "kassio-de-jesus",
+            "name": "Kássio",
+            "number": 50,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "rubensth",
+            "name": "Rubens",
+            "number": 70,
+            "pos": "Ata",
+            "grid": null
+          }
+        }
+      ]
+    }
+  ],
+  "statistics": [
+    {
+      "team": {
+        "id": 265,
+        "name": "Bahia"
+      },
+      "statistics": [
+        {
+          "type": "Ball Possession",
+          "value": "60%"
+        },
+        {
+          "type": "Total Passes",
+          "value": 523
+        },
+        {
+          "type": "Pass Accuracy",
+          "value": "88%"
+        },
+        {
+          "type": "Incomplete Passes",
+          "value": 61
+        },
+        {
+          "type": "Total Shots",
+          "value": 14
+        },
+        {
+          "type": "Shots on Goal",
+          "value": 6
+        },
+        {
+          "type": "Shots off Goal",
+          "value": 7
+        },
+        {
+          "type": "Blocked Shots",
+          "value": 1
+        },
+        {
+          "type": "Hit Woodwork",
+          "value": 0
+        },
+        {
+          "type": "Corner Kicks",
+          "value": 10
+        },
+        {
+          "type": "Offsides",
+          "value": 0
+        },
+        {
+          "type": "Penalties",
+          "value": 1
+        },
+        {
+          "type": "Goalkeeper Saves",
+          "value": 5
+        },
+        {
+          "type": "Tackles",
+          "value": 10
+        },
+        {
+          "type": "Fouls",
+          "value": 16
+        },
+        {
+          "type": "Yellow Cards",
+          "value": 2
+        },
+        {
+          "type": "Red Cards",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "team": {
+        "id": 315,
+        "name": "Chapecoense"
+      },
+      "statistics": [
+        {
+          "type": "Ball Possession",
+          "value": "40%"
+        },
+        {
+          "type": "Total Passes",
+          "value": 294
+        },
+        {
+          "type": "Pass Accuracy",
+          "value": "82%"
+        },
+        {
+          "type": "Incomplete Passes",
+          "value": 54
+        },
+        {
+          "type": "Total Shots",
+          "value": 9
+        },
+        {
+          "type": "Shots on Goal",
+          "value": 2
+        },
+        {
+          "type": "Shots off Goal",
+          "value": 4
+        },
+        {
+          "type": "Blocked Shots",
+          "value": 3
+        },
+        {
+          "type": "Hit Woodwork",
+          "value": 0
+        },
+        {
+          "type": "Corner Kicks",
+          "value": 6
+        },
+        {
+          "type": "Offsides",
+          "value": 2
+        },
+        {
+          "type": "Penalties",
+          "value": 0
+        },
+        {
+          "type": "Goalkeeper Saves",
+          "value": 7
+        },
+        {
+          "type": "Tackles",
+          "value": 11
+        },
+        {
+          "type": "Fouls",
+          "value": 16
+        },
+        {
+          "type": "Yellow Cards",
+          "value": 0
+        },
+        {
+          "type": "Red Cards",
+          "value": 0
+        }
+      ]
+    }
+  ],
   "sportsFieldUrl": null
 }

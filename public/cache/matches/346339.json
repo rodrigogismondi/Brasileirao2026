@@ -10,7 +10,9 @@
       "long": "FT",
       "short": "FT",
       "elapsed": 90
-    }
+    },
+    "timerStart": "2026-02-27T00:06:53.490Z",
+    "timerStatus": "PAUSADO"
   },
   "league": {
     "round": "Regular Season - 4"
@@ -42,13 +44,1014 @@
     }
   },
   "odds": {
-    "home": 2.04,
-    "draw": 3.41,
+    "home": 2.05,
+    "draw": 3.47,
     "away": 3.63,
     "source": "betexplorer"
   },
-  "events": [],
-  "lineups": [],
-  "statistics": [],
+  "events": [
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 277,
+        "name": "Santos"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Barreal"
+      },
+      "assist": {
+        "name": "Miguelito"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 9,
+        "extra": null
+      },
+      "team": {
+        "id": 267,
+        "name": "Vasco"
+      },
+      "type": "Important",
+      "detail": "Nuno Moreira é alçado por Thiago Mendes na área e fica cara a cara com Brazão. Ele chuta, mas o goleiro defende. Grande chance do Vasco!",
+      "player": {
+        "name": "Nuno Moreira"
+      },
+      "assist": {
+        "name": "brazão defende"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 25,
+        "extra": null
+      },
+      "team": {
+        "id": 277,
+        "name": "Santos"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "player": {
+        "name": "Neymar"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 28,
+        "extra": null
+      },
+      "team": {
+        "id": 267,
+        "name": "Vasco"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Thiago Mendes"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 28,
+        "extra": null
+      },
+      "team": {
+        "id": 277,
+        "name": "Santos"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Neymar"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 39,
+        "extra": null
+      },
+      "team": {
+        "id": 267,
+        "name": "Vasco"
+      },
+      "type": "Important",
+      "detail": "Gómez chega bem no ataque pela esquerda, dribla a marcação e fica com chance para chutar, mas cruza para trás e ninguém aparece para finalizar.",
+      "player": {
+        "name": "Andrés Gómez"
+      },
+      "assist": {
+        "name": "Errou o cruzamento..."
+      }
+    },
+    {
+      "time": {
+        "elapsed": 42,
+        "extra": null
+      },
+      "team": {
+        "id": 267,
+        "name": "Vasco"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "player": {
+        "name": "Barros"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 46,
+        "extra": null
+      },
+      "team": {
+        "id": 277,
+        "name": "Santos"
+      },
+      "type": "Important",
+      "detail": "Barreal recebe na entrada da grande área, amortece e manda para o gol. Bola sai raspando a trave de Léo Jardim.",
+      "player": {
+        "name": "Barreal"
+      },
+      "assist": {
+        "name": "pra fora!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 47,
+        "extra": null
+      },
+      "team": {
+        "id": 277,
+        "name": "Santos"
+      },
+      "type": "Important",
+      "detail": "Neymar dá bom passe pelo alto para Vini Lira, que cruza na área e Thaciano completa para o gol. A bola vai para fora, com perigo.",
+      "player": {
+        "name": "Thaciano"
+      },
+      "assist": {
+        "name": "pra fora!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 53,
+        "extra": null
+      },
+      "team": {
+        "id": 267,
+        "name": "Vasco"
+      },
+      "type": "Important",
+      "detail": "Rojas bate para o gol, bola toca no zagueiro e quase confunde Brazão, que fica com ela em mãos.",
+      "player": {
+        "name": "Johan Rojas"
+      },
+      "assist": {
+        "name": "desvio!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 58,
+        "extra": null
+      },
+      "team": {
+        "id": 277,
+        "name": "Santos"
+      },
+      "type": "Important",
+      "detail": "Bola sobra com Thaciano fora da área, mas lance anterior já havia sido paralisado por impedimento. Camisa 16 bateu para fora.",
+      "player": {
+        "name": "Thaciano"
+      },
+      "assist": {
+        "name": "pra fora!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 59,
+        "extra": null
+      },
+      "team": {
+        "id": 277,
+        "name": "Santos"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Rony"
+      },
+      "assist": {
+        "name": "Moisés"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 60,
+        "extra": null
+      },
+      "team": {
+        "id": 277,
+        "name": "Santos"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "player": {
+        "name": "Neymar"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 69,
+        "extra": null
+      },
+      "team": {
+        "id": 267,
+        "name": "Vasco"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Cuiabano"
+      },
+      "assist": {
+        "name": "Lucas Piton"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 69,
+        "extra": null
+      },
+      "team": {
+        "id": 267,
+        "name": "Vasco"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Brenner"
+      },
+      "assist": {
+        "name": "Nuno Moreira"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 69,
+        "extra": null
+      },
+      "team": {
+        "id": 267,
+        "name": "Vasco"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Marino Hinestroza"
+      },
+      "assist": {
+        "name": "Johan Rojas"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 74,
+        "extra": null
+      },
+      "team": {
+        "id": 267,
+        "name": "Vasco"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "David"
+      },
+      "assist": {
+        "name": "Spinelli"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 75,
+        "extra": null
+      },
+      "team": {
+        "id": 277,
+        "name": "Santos"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Gabriel Brazão"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 76,
+        "extra": null
+      },
+      "team": {
+        "id": 277,
+        "name": "Santos"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "João Schmidt"
+      },
+      "assist": {
+        "name": "Willian Arão"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 76,
+        "extra": null
+      },
+      "team": {
+        "id": 277,
+        "name": "Santos"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Zé Rafael"
+      },
+      "assist": {
+        "name": "Gabriel Bontempo"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 83,
+        "extra": null
+      },
+      "team": {
+        "id": 267,
+        "name": "Vasco"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Tchê Tchê"
+      },
+      "assist": {
+        "name": "Thiago Mendes"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 83,
+        "extra": null
+      },
+      "team": {
+        "id": 277,
+        "name": "Santos"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Gabriel Menino"
+      },
+      "assist": {
+        "name": "Thaciano"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 94,
+        "extra": null
+      },
+      "team": {
+        "id": 277,
+        "name": "Santos"
+      },
+      "type": "Important",
+      "detail": "Neymar faz bela jogada pela esquerda e cruza para Menino, que domina e chuta nas mãos do goleiro Léo Jardim.",
+      "player": {
+        "name": "Gabriel Menino"
+      },
+      "assist": {
+        "name": "nas mãos de jardim!"
+      }
+    }
+  ],
+  "lineups": [
+    {
+      "team": {
+        "id": 277,
+        "name": "Santos",
+        "logo": "https://s.sde.globo.com/media/organizations/2018/03/12/santos.svg"
+      },
+      "formation": "4-3-3",
+      "coach": {
+        "name": "Juan Vojvoda"
+      },
+      "startXI": [
+        {
+          "player": {
+            "id": "gabrielbrazao",
+            "name": "Gabriel Brazão",
+            "number": 77,
+            "pos": "Gol",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "igor-vinicius",
+            "name": "Igor Vinícius",
+            "number": 18,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "friasadno",
+            "name": "Adonis Frías",
+            "number": 98,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "luanperes",
+            "name": "Luan Peres",
+            "number": 14,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "vinicius-lira",
+            "name": "Vini Lira",
+            "number": 3,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "willianarao",
+            "name": "Willian Arão",
+            "number": 15,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "gabriel-bontempo",
+            "name": "Gabriel Bontempo",
+            "number": 49,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "neymar",
+            "name": "Neymar",
+            "number": 10,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "terceros",
+            "name": "Miguelito",
+            "number": 30,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "thaciano",
+            "name": "Thaciano",
+            "number": 16,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "moisesv",
+            "name": "Moisés",
+            "number": 21,
+            "pos": "Ata",
+            "grid": null
+          }
+        }
+      ],
+      "substitutes": [
+        {
+          "player": {
+            "id": "diogenesvini",
+            "name": "Diógenes",
+            "number": 1,
+            "pos": "Gol",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "mayke",
+            "name": "Mayke",
+            "number": 12,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "zeivaldo",
+            "name": "Zé Ivaldo",
+            "number": 2,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "escobardani",
+            "name": "Escobar",
+            "number": 31,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "joaoschmidt",
+            "name": "João Schmidt",
+            "number": 5,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "zerafael",
+            "name": "Zé Rafael",
+            "number": 6,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "gabrielmenino",
+            "name": "Gabriel Menino",
+            "number": 25,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "abarreal",
+            "name": "Barreal",
+            "number": 22,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "rollheiser",
+            "name": "Rollheiser",
+            "number": 32,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "gabriel-gabigol",
+            "name": "Gabriel",
+            "number": 9,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "rony-botafogo",
+            "name": "Rony",
+            "number": 11,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "lautarodiaz",
+            "name": "Lautaro Díaz",
+            "number": 19,
+            "pos": "Ata",
+            "grid": null
+          }
+        }
+      ]
+    },
+    {
+      "team": {
+        "id": 267,
+        "name": "Vasco",
+        "logo": "https://s.sde.globo.com/media/organizations/2021/09/04/vasco_SVG.svg"
+      },
+      "formation": "4-3-3",
+      "coach": {
+        "name": "Bruno Lazaroni"
+      },
+      "startXI": [
+        {
+          "player": {
+            "id": "leojardim",
+            "name": "Léo Jardim",
+            "number": 1,
+            "pos": "Gol",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "paulohenrique-parana",
+            "name": "Paulo Henrique",
+            "number": 96,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "saldivia",
+            "name": "Saldivia",
+            "number": 4,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "robertrenan",
+            "name": "Robert Renan",
+            "number": 30,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "lucas-piton",
+            "name": "Lucas Piton",
+            "number": 6,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "thiagomendes",
+            "name": "Thiago Mendes",
+            "number": 23,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "cauan-barros",
+            "name": "Barros",
+            "number": 88,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "JohanRojas",
+            "name": "Johan Rojas",
+            "number": 29,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "carlosgomez",
+            "name": "Andrés Gómez",
+            "number": 11,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "spinelli",
+            "name": "Spinelli",
+            "number": 77,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "nuno-moreira",
+            "name": "Nuno Moreira",
+            "number": 17,
+            "pos": "Ata",
+            "grid": null
+          }
+        }
+      ],
+      "substitutes": [
+        {
+          "player": {
+            "id": "danielfuzato",
+            "name": "Daniel Fuzato",
+            "number": 13,
+            "pos": "Gol",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "joserodriguezlu",
+            "name": "Puma Rodríguez",
+            "number": 2,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "joao-vitor-fonseca",
+            "name": "João Vitor",
+            "number": 60,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "lucasfreitas",
+            "name": "Lucas Freitas",
+            "number": 43,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "cuiabano",
+            "name": "Cuiabano",
+            "number": 66,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "tche-tche",
+            "name": "Tchê Tchê",
+            "number": 3,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "hugomoura",
+            "name": "Hugo Moura",
+            "number": 25,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "matheusfranca",
+            "name": "Matheus França",
+            "number": 9,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "adsonsoares",
+            "name": "Adson",
+            "number": 28,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "david1234",
+            "name": "David",
+            "number": 7,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "marinohin",
+            "name": "Marino Hinestroza",
+            "number": 18,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "brenner111111",
+            "name": "Brenner",
+            "number": 20,
+            "pos": "Ata",
+            "grid": null
+          }
+        }
+      ]
+    }
+  ],
+  "statistics": [
+    {
+      "team": {
+        "id": 277,
+        "name": "Santos"
+      },
+      "statistics": [
+        {
+          "type": "Ball Possession",
+          "value": "43%"
+        },
+        {
+          "type": "Total Passes",
+          "value": 327
+        },
+        {
+          "type": "Pass Accuracy",
+          "value": "81%"
+        },
+        {
+          "type": "Incomplete Passes",
+          "value": 62
+        },
+        {
+          "type": "Total Shots",
+          "value": 8
+        },
+        {
+          "type": "Shots on Goal",
+          "value": 4
+        },
+        {
+          "type": "Shots off Goal",
+          "value": 3
+        },
+        {
+          "type": "Blocked Shots",
+          "value": 1
+        },
+        {
+          "type": "Hit Woodwork",
+          "value": 0
+        },
+        {
+          "type": "Corner Kicks",
+          "value": 5
+        },
+        {
+          "type": "Offsides",
+          "value": 2
+        },
+        {
+          "type": "Penalties",
+          "value": 0
+        },
+        {
+          "type": "Goalkeeper Saves",
+          "value": 7
+        },
+        {
+          "type": "Tackles",
+          "value": 22
+        },
+        {
+          "type": "Fouls",
+          "value": 19
+        },
+        {
+          "type": "Yellow Cards",
+          "value": 2
+        },
+        {
+          "type": "Red Cards",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "team": {
+        "id": 267,
+        "name": "Vasco"
+      },
+      "statistics": [
+        {
+          "type": "Ball Possession",
+          "value": "57%"
+        },
+        {
+          "type": "Total Passes",
+          "value": 478
+        },
+        {
+          "type": "Pass Accuracy",
+          "value": "88%"
+        },
+        {
+          "type": "Incomplete Passes",
+          "value": 56
+        },
+        {
+          "type": "Total Shots",
+          "value": 16
+        },
+        {
+          "type": "Shots on Goal",
+          "value": 2
+        },
+        {
+          "type": "Shots off Goal",
+          "value": 6
+        },
+        {
+          "type": "Blocked Shots",
+          "value": 8
+        },
+        {
+          "type": "Hit Woodwork",
+          "value": 0
+        },
+        {
+          "type": "Corner Kicks",
+          "value": 2
+        },
+        {
+          "type": "Offsides",
+          "value": 2
+        },
+        {
+          "type": "Penalties",
+          "value": 0
+        },
+        {
+          "type": "Goalkeeper Saves",
+          "value": 3
+        },
+        {
+          "type": "Tackles",
+          "value": 18
+        },
+        {
+          "type": "Fouls",
+          "value": 17
+        },
+        {
+          "type": "Yellow Cards",
+          "value": 1
+        },
+        {
+          "type": "Red Cards",
+          "value": 0
+        }
+      ]
+    }
+  ],
   "sportsFieldUrl": null
 }

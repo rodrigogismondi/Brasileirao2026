@@ -10,7 +10,9 @@
       "long": "FT",
       "short": "FT",
       "elapsed": 90
-    }
+    },
+    "timerStart": "2026-02-26T00:42:02.095Z",
+    "timerStatus": "PAUSADO"
   },
   "league": {
     "round": "Regular Season - 4"
@@ -42,13 +44,1042 @@
     }
   },
   "odds": {
-    "home": 2.53,
-    "draw": 3.1,
-    "away": 2.95,
+    "home": 2.5,
+    "draw": 3.17,
+    "away": 2.98,
     "source": "betexplorer"
   },
-  "events": [],
-  "lineups": [],
-  "statistics": [],
+  "events": [
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Marcos Antônio"
+      },
+      "assist": {
+        "name": "Djhordney"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 32,
+        "extra": null
+      },
+      "team": {
+        "id": 294,
+        "name": "Coritiba"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "JP Chermont"
+      },
+      "assist": {
+        "name": "Tinga"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 35,
+        "extra": null
+      },
+      "team": {
+        "id": 294,
+        "name": "Coritiba"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Wallisson"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 37,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Important",
+      "detail": "Defesa do Coxa vacila e o São Paulo rouba a bola no campo de ataque. Ferreira invade a área e finaliza para boa defesa de Morisco.",
+      "player": {
+        "name": "Ferreira"
+      },
+      "assist": {
+        "name": "Uhhh!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 40,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Djhordney"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 45,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Calleri"
+      },
+      "assist": {
+        "name": "Ferreira"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 47,
+        "extra": null
+      },
+      "team": {
+        "id": 294,
+        "name": "Coritiba"
+      },
+      "type": "Important",
+      "detail": "Ronier é lançado pela direita, corta Tolói, finaliza colocado e a bola bate na trave. No rebote, Pedro Rocha chuta para fora.",
+      "player": {
+        "name": "Lucas Ronier"
+      },
+      "assist": {
+        "name": "NA TRAVE!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 49,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Important",
+      "detail": "Cauly cobra escanteio na pequena área, Tolói sobe sozinho e cabeceia para boa defesa de Morisco.",
+      "player": {
+        "name": "Rafael Tolói"
+      },
+      "assist": {
+        "name": "Quase!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 50,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Important",
+      "detail": "Wilton foi chamado para analisar o lance.",
+      "player": {
+        "name": "VAR!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 51,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Important",
+      "detail": "Após revisão, o árbitro assinala pênalti de Morisco em Tapia. São Paulo tem chance de abrir o placar.",
+      "player": {
+        "name": "Penalidade máxima"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 53,
+        "extra": null
+      },
+      "team": {
+        "id": 294,
+        "name": "Coritiba"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Pedro Morisco"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 54,
+        "extra": null
+      },
+      "team": {
+        "id": 294,
+        "name": "Coritiba"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Pedro Rangel"
+      },
+      "assist": {
+        "name": "Pedro Morisco"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 55,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "player": {
+        "name": "Cauly"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 63,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Lucas Moura"
+      },
+      "assist": {
+        "name": "Tapia"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 63,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Alan Franco"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 68,
+        "extra": null
+      },
+      "team": {
+        "id": 294,
+        "name": "Coritiba"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Lavega"
+      },
+      "assist": {
+        "name": "Vini Paulista"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 69,
+        "extra": null
+      },
+      "team": {
+        "id": 294,
+        "name": "Coritiba"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Willian Oliveira"
+      },
+      "assist": {
+        "name": "Wallisson"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 69,
+        "extra": null
+      },
+      "team": {
+        "id": 294,
+        "name": "Coritiba"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Fabinho"
+      },
+      "assist": {
+        "name": "Josué"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 74,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Luan"
+      },
+      "assist": {
+        "name": "Pablo Maia"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 78,
+        "extra": null
+      },
+      "team": {
+        "id": 294,
+        "name": "Coritiba"
+      },
+      "type": "Important",
+      "detail": "Após bate e rebate na área, Lucas Ronier fica com a posse na meia-lua, finta a marcação e chuta colocado. A bola passou raspando a trave.",
+      "player": {
+        "name": "Lucas Ronier"
+      },
+      "assist": {
+        "name": "Coxa no ataque"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 83,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Bobadilla"
+      },
+      "assist": {
+        "name": "Cauly"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 88,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Important",
+      "detail": "Willian Oliveira aproveita vacilo de Marcos Antônio e rouba a bola. O volante soltou a bomba e Rafael defendeu.",
+      "player": {
+        "name": "Rafael"
+      },
+      "assist": {
+        "name": "Defende, Rafael!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 91,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Rafael Tolói"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 95,
+        "extra": null
+      },
+      "team": {
+        "id": 294,
+        "name": "Coritiba"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Breno Lopes"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 98,
+        "extra": null
+      },
+      "team": {
+        "id": 294,
+        "name": "Coritiba"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Lavega"
+      },
+      "assist": null
+    }
+  ],
+  "lineups": [
+    {
+      "team": {
+        "id": 294,
+        "name": "Coritiba",
+        "logo": "https://s.sde.globo.com/media/organizations/2018/03/11/coritiba.svg"
+      },
+      "formation": "4-3-3",
+      "coach": {
+        "name": "Fernando Seabra"
+      },
+      "startXI": [
+        {
+          "player": {
+            "id": "pedro-morisco",
+            "name": "Pedro Morisco",
+            "number": 1,
+            "pos": "Gol",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "tinga03",
+            "name": "Tinga",
+            "number": 2,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "maicon7",
+            "name": "Maicon",
+            "number": 3,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "jacy-maranhao",
+            "name": "Jacy",
+            "number": 55,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "felipejonatan",
+            "name": "Felipe Jonatan",
+            "number": 6,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "wallisson425",
+            "name": "Wallisson",
+            "number": 8,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "vinipaulista",
+            "name": "Vini Paulista",
+            "number": 36,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "josuefilipe",
+            "name": "Josué",
+            "number": 10,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "pedrorocha",
+            "name": "Pedro Rocha",
+            "number": 32,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "lucas-ronier",
+            "name": "Lucas Ronier",
+            "number": 11,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "brenolopes",
+            "name": "Breno Lopes",
+            "number": 77,
+            "pos": "Ata",
+            "grid": null
+          }
+        }
+      ],
+      "substitutes": [
+        {
+          "player": {
+            "id": "pedrorangel",
+            "name": "Pedro Rangel",
+            "number": 12,
+            "pos": "Gol",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "jp-chermont",
+            "name": "JP Chermont",
+            "number": 44,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "rodrigo-moledo",
+            "name": "Rodrigo Moledo",
+            "number": 4,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "thiago_santos",
+            "name": "Thiago Santos",
+            "number": 21,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "joaovitor3",
+            "name": "João Almeida",
+            "number": 16,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "willianoliveira",
+            "name": "Willian Oliveira",
+            "number": 29,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "fernandosobral",
+            "name": "Fernando Sobral",
+            "number": 88,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "JeanGabrielSilveira",
+            "name": "Jean Gabriel",
+            "number": 17,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "gustavooliveira",
+            "name": "Gustavo",
+            "number": 39,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "lavega",
+            "name": "Lavega",
+            "number": 7,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "enzo-vagner",
+            "name": "Enzo Vagner",
+            "number": 14,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "fabinholuciano",
+            "name": "Fabinho",
+            "number": 28,
+            "pos": "Ata",
+            "grid": null
+          }
+        }
+      ]
+    },
+    {
+      "team": {
+        "id": 276,
+        "name": "São Paulo",
+        "logo": "https://s.sde.globo.com/media/organizations/2018/03/11/sao-paulo.svg"
+      },
+      "formation": "3-5-2",
+      "coach": {
+        "name": "Hernán Crespo"
+      },
+      "startXI": [
+        {
+          "player": {
+            "id": "rafaelpires",
+            "name": "Rafael",
+            "number": 23,
+            "pos": "Gol",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "alanfranco",
+            "name": "Alan Franco",
+            "number": 28,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "arboleda",
+            "name": "Arboleda",
+            "number": 5,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "rafaeltoloi",
+            "name": "Rafael Tolói",
+            "number": 2,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "maik",
+            "name": "Maik",
+            "number": 42,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "pablomaia",
+            "name": "Pablo Maia",
+            "number": 29,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "djhordney-ferreira",
+            "name": "Djhordney",
+            "number": 48,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "cauly-oliveira-souza",
+            "name": "Cauly",
+            "number": 80,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "wendell2",
+            "name": "Wendell",
+            "number": 18,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "ferreira01",
+            "name": "Ferreira",
+            "number": 11,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "tapiadub",
+            "name": "Tapia",
+            "number": 14,
+            "pos": "Ata",
+            "grid": null
+          }
+        }
+      ],
+      "substitutes": [
+        {
+          "player": {
+            "id": "coronelcm",
+            "name": "Coronel",
+            "number": 31,
+            "pos": "Gol",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "cedricsoares",
+            "name": "Cédric Soares",
+            "number": 21,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "ferraresi",
+            "name": "Ferraresi",
+            "number": 32,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "doria",
+            "name": "Dória",
+            "number": 4,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "enzo-diaz",
+            "name": "Enzo Díaz",
+            "number": 13,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "marcosantonioss",
+            "name": "Marcos Antônio",
+            "number": 8,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "bobadillad",
+            "name": "Bobadilla",
+            "number": 16,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "negrucci",
+            "name": "Felipe Negrucci",
+            "number": 30,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "luanvinicius",
+            "name": "Luan",
+            "number": 33,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "lucasmoura",
+            "name": "Lucas Moura",
+            "number": 7,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "calleri",
+            "name": "Calleri",
+            "number": 9,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "luciano02",
+            "name": "Luciano",
+            "number": 10,
+            "pos": "Ata",
+            "grid": null
+          }
+        }
+      ]
+    }
+  ],
+  "statistics": [
+    {
+      "team": {
+        "id": 294,
+        "name": "Coritiba"
+      },
+      "statistics": [
+        {
+          "type": "Ball Possession",
+          "value": "44%"
+        },
+        {
+          "type": "Total Passes",
+          "value": 361
+        },
+        {
+          "type": "Pass Accuracy",
+          "value": "81%"
+        },
+        {
+          "type": "Incomplete Passes",
+          "value": 67
+        },
+        {
+          "type": "Total Shots",
+          "value": 17
+        },
+        {
+          "type": "Shots on Goal",
+          "value": 2
+        },
+        {
+          "type": "Shots off Goal",
+          "value": 11
+        },
+        {
+          "type": "Blocked Shots",
+          "value": 3
+        },
+        {
+          "type": "Hit Woodwork",
+          "value": 1
+        },
+        {
+          "type": "Corner Kicks",
+          "value": 3
+        },
+        {
+          "type": "Offsides",
+          "value": 0
+        },
+        {
+          "type": "Penalties",
+          "value": 0
+        },
+        {
+          "type": "Goalkeeper Saves",
+          "value": 4
+        },
+        {
+          "type": "Tackles",
+          "value": 16
+        },
+        {
+          "type": "Fouls",
+          "value": 4
+        },
+        {
+          "type": "Yellow Cards",
+          "value": 4
+        },
+        {
+          "type": "Red Cards",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "statistics": [
+        {
+          "type": "Ball Possession",
+          "value": "56%"
+        },
+        {
+          "type": "Total Passes",
+          "value": 516
+        },
+        {
+          "type": "Pass Accuracy",
+          "value": "88%"
+        },
+        {
+          "type": "Incomplete Passes",
+          "value": 60
+        },
+        {
+          "type": "Total Shots",
+          "value": 7
+        },
+        {
+          "type": "Shots on Goal",
+          "value": 4
+        },
+        {
+          "type": "Shots off Goal",
+          "value": 3
+        },
+        {
+          "type": "Blocked Shots",
+          "value": 0
+        },
+        {
+          "type": "Hit Woodwork",
+          "value": 0
+        },
+        {
+          "type": "Corner Kicks",
+          "value": 7
+        },
+        {
+          "type": "Offsides",
+          "value": 0
+        },
+        {
+          "type": "Penalties",
+          "value": 1
+        },
+        {
+          "type": "Goalkeeper Saves",
+          "value": 5
+        },
+        {
+          "type": "Tackles",
+          "value": 16
+        },
+        {
+          "type": "Fouls",
+          "value": 19
+        },
+        {
+          "type": "Yellow Cards",
+          "value": 3
+        },
+        {
+          "type": "Red Cards",
+          "value": 0
+        }
+      ]
+    }
+  ],
   "sportsFieldUrl": null
 }

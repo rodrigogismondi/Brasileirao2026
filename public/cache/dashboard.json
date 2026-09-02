@@ -12396,7 +12396,7 @@
         "status": {
           "long": "1H",
           "short": "1H",
-          "elapsed": 15
+          "elapsed": 17
         },
         "timerStart": "2026-09-02T22:30:19.974Z",
         "timerStatus": "INICIADO"
@@ -12417,7 +12417,7 @@
         }
       },
       "goals": {
-        "home": 0,
+        "home": 1,
         "away": 0
       },
       "score": {
@@ -18547,17 +18547,17 @@
                 "name": "Flamengo",
                 "logo": "https://s.sde.globo.com/media/organizations/2018/04/10/Flamengo-2018.svg"
               },
-              "points": 49,
-              "goalsDiff": 27,
+              "points": 51,
+              "goalsDiff": 28,
               "form": "DWWLW",
               "description": "Copa Libertadores",
               "all": {
                 "played": 25,
-                "win": 14,
-                "draw": 7,
+                "win": 15,
+                "draw": 6,
                 "lose": 4,
                 "goals": {
-                  "for": 48,
+                  "for": 49,
                   "against": 21
                 }
               }
@@ -18855,18 +18855,18 @@
                 "name": "Mirassol",
                 "logo": "https://s.sde.globo.com/media/organizations/2026/07/17/MIrassol.svg"
               },
-              "points": 26,
-              "goalsDiff": -10,
+              "points": 25,
+              "goalsDiff": -11,
               "form": "WLLDD",
               "description": null,
               "all": {
                 "played": 25,
                 "win": 6,
-                "draw": 8,
-                "lose": 11,
+                "draw": 7,
+                "lose": 12,
                 "goals": {
                   "for": 27,
-                  "against": 37
+                  "against": 38
                 }
               }
             },
@@ -20072,7 +20072,7 @@
     "mode": "live",
     "liveIntervalMs": 20000
   },
-  "fetchedAt": "2026-09-02T22:45:47.534Z",
+  "fetchedAt": "2026-09-02T22:48:16.623Z",
   "source": "ge-globo",
   "meta": {
     "rodada": 4,

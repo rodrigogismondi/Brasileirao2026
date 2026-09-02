@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 15
+      "elapsed": 17
     },
     "timerStart": "2026-09-02T22:30:19.974Z",
     "timerStatus": "INICIADO"
@@ -30,7 +30,7 @@
     }
   },
   "goals": {
-    "home": 0,
+    "home": 1,
     "away": 0
   },
   "score": {
@@ -49,7 +49,24 @@
     "away": 14.8,
     "source": "betexplorer"
   },
-  "events": [],
+  "events": [
+    {
+      "time": {
+        "elapsed": 13,
+        "extra": null
+      },
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "player": {
+        "name": "Carrascal"
+      },
+      "assist": null
+    }
+  ],
   "lineups": [
     {
       "team": {
@@ -505,31 +522,31 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "51%"
+          "value": "59%"
         },
         {
           "type": "Total Passes",
-          "value": 81
+          "value": 108
         },
         {
           "type": "Pass Accuracy",
-          "value": "85%"
+          "value": "87%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 12
+          "value": 14
         },
         {
           "type": "Total Shots",
-          "value": 4
+          "value": 6
         },
         {
           "type": "Shots on Goal",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Shots off Goal",
-          "value": 4
+          "value": 5
         },
         {
           "type": "Blocked Shots",
@@ -541,7 +558,7 @@
         },
         {
           "type": "Corner Kicks",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Offsides",
@@ -581,19 +598,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "49%"
+          "value": "41%"
         },
         {
           "type": "Total Passes",
-          "value": 47
+          "value": 56
         },
         {
           "type": "Pass Accuracy",
-          "value": "83%"
+          "value": "80%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 8
+          "value": 11
         },
         {
           "type": "Total Shots",
@@ -629,7 +646,7 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Tackles",

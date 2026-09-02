@@ -11,7 +11,7 @@
       "short": "NS",
       "elapsed": null
     },
-    "timerStart": null,
+    "timerStart": "2026-09-02T21:32:32.619Z",
     "timerStatus": "PAUSADO"
   },
   "league": {
@@ -66,7 +66,7 @@
           "player": {
             "id": "agustin-rossi",
             "name": "Rossi",
-            "number": null,
+            "number": 1,
             "pos": "Gol",
             "grid": null
           }
@@ -75,7 +75,7 @@
           "player": {
             "id": "guivarela",
             "name": "Varela",
-            "number": null,
+            "number": 2,
             "pos": "Def",
             "grid": null
           }
@@ -84,7 +84,7 @@
           "player": {
             "id": "leo-ortiz",
             "name": "Léo Ortiz",
-            "number": null,
+            "number": 3,
             "pos": "Def",
             "grid": null
           }
@@ -93,7 +93,7 @@
           "player": {
             "id": "leopereira",
             "name": "Léo Pereira",
-            "number": null,
+            "number": 4,
             "pos": "Def",
             "grid": null
           }
@@ -102,7 +102,7 @@
           "player": {
             "id": "ayrtonlucas",
             "name": "Ayrton Lucas",
-            "number": null,
+            "number": 6,
             "pos": "Def",
             "grid": null
           }
@@ -111,7 +111,7 @@
           "player": {
             "id": "pulgar",
             "name": "Erick Pulgar",
-            "number": null,
+            "number": 5,
             "pos": "Mei",
             "grid": null
           }
@@ -120,16 +120,16 @@
           "player": {
             "id": "jorginho-verona",
             "name": "Jorginho",
-            "number": null,
+            "number": 21,
             "pos": "Mei",
             "grid": null
           }
         },
         {
           "player": {
-            "id": "arrascaeta",
-            "name": "Arrascaeta",
-            "number": null,
+            "id": "lucaspaqueta",
+            "name": "Lucas Paquetá",
+            "number": 20,
             "pos": "Mei",
             "grid": null
           }
@@ -138,7 +138,7 @@
           "player": {
             "id": "carrascalj",
             "name": "Carrascal",
-            "number": null,
+            "number": 15,
             "pos": "Ata",
             "grid": null
           }
@@ -147,7 +147,7 @@
           "player": {
             "id": "pedro-guilhermea",
             "name": "Pedro",
-            "number": null,
+            "number": 9,
             "pos": "Ata",
             "grid": null
           }
@@ -156,13 +156,122 @@
           "player": {
             "id": "samuel-saobernardo",
             "name": "Samuel Lino",
-            "number": null,
+            "number": 16,
             "pos": "Ata",
             "grid": null
           }
         }
       ],
-      "substitutes": []
+      "substitutes": [
+        {
+          "player": {
+            "id": "andrewventura",
+            "name": "Andrew",
+            "number": 42,
+            "pos": "Gol",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "Dyogo-Alves",
+            "name": "Dyogo Alves",
+            "number": 49,
+            "pos": "Gol",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "emerson-aparecido",
+            "name": "Emerson Royal",
+            "number": 22,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "daniloluiz",
+            "name": "Danilo",
+            "number": 13,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "johnny-goes",
+            "name": "Johnny",
+            "number": 77,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "saulniguez",
+            "name": "Saúl",
+            "number": 8,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "evertton",
+            "name": "Evertton Araújo",
+            "number": 52,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "arrascaeta",
+            "name": "Arrascaeta",
+            "number": 10,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "Lorran",
+            "name": "Lorran",
+            "number": 99,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "luizaraujo-mirassol",
+            "name": "Luiz Araújo",
+            "number": 7,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "everton0396",
+            "name": "Everton",
+            "number": 11,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "bruno-henrique-pinto",
+            "name": "Bruno Henrique",
+            "number": 27,
+            "pos": "Ata",
+            "grid": null
+          }
+        }
+      ]
     },
     {
       "team": {
@@ -170,7 +279,7 @@
         "name": "Mirassol",
         "logo": "https://s.sde.globo.com/media/organizations/2026/07/17/MIrassol.svg"
       },
-      "formation": "4-4-2",
+      "formation": "5-3-2",
       "coach": {
         "name": "Rafael Guanaes"
       },
@@ -179,7 +288,7 @@
           "player": {
             "id": "walter-barbarense",
             "name": "Walter",
-            "number": null,
+            "number": 22,
             "pos": "Gol",
             "grid": null
           }
@@ -188,7 +297,16 @@
           "player": {
             "id": "igor-formiga",
             "name": "Igor Formiga",
-            "number": null,
+            "number": 32,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "gabriel-knesowitsch",
+            "name": "Gabriel Knesowitsch",
+            "number": 44,
             "pos": "Def",
             "grid": null
           }
@@ -197,7 +315,7 @@
           "player": {
             "id": "joao-victor-santana",
             "name": "João Victor",
-            "number": null,
+            "number": 34,
             "pos": "Def",
             "grid": null
           }
@@ -206,7 +324,7 @@
           "player": {
             "id": "willian-machado",
             "name": "Willian Machado",
-            "number": null,
+            "number": 3,
             "pos": "Def",
             "grid": null
           }
@@ -215,7 +333,7 @@
           "player": {
             "id": "reinaldomanoel",
             "name": "Reinaldo",
-            "number": null,
+            "number": 6,
             "pos": "Def",
             "grid": null
           }
@@ -224,7 +342,7 @@
           "player": {
             "id": "gustavocazonatti",
             "name": "Gustavo Cazonatti",
-            "number": null,
+            "number": 55,
             "pos": "Mei",
             "grid": null
           }
@@ -233,8 +351,82 @@
           "player": {
             "id": "denilsonab",
             "name": "Denilson",
-            "number": null,
+            "number": 27,
             "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "carloseduardoferreira",
+            "name": "Carlos Eduardo",
+            "number": 96,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "fernandinho-jose",
+            "name": "Fernandinho",
+            "number": 17,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "andreluissa",
+            "name": "André Luis",
+            "number": 9,
+            "pos": "Ata",
+            "grid": null
+          }
+        }
+      ],
+      "substitutes": [
+        {
+          "player": {
+            "id": "alex-muralha",
+            "name": "Alex Muralha",
+            "number": 23,
+            "pos": "Gol",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "eliaslira",
+            "name": "Elias",
+            "number": 18,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "danielborges",
+            "name": "Daniel Borges",
+            "number": 20,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "l-oliveira",
+            "name": "Lucas Oliveira",
+            "number": 2,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "victor-luis",
+            "name": "Victor Luis",
+            "number": 12,
+            "pos": "Def",
             "grid": null
           }
         },
@@ -242,25 +434,43 @@
           "player": {
             "id": "japa-joao",
             "name": "Japa",
-            "number": null,
+            "number": 5,
             "pos": "Mei",
             "grid": null
           }
         },
         {
           "player": {
-            "id": "eduardoca",
-            "name": "Eduardo",
-            "number": null,
+            "id": "wallisson425",
+            "name": "Wallisson",
+            "number": 80,
             "pos": "Mei",
             "grid": null
           }
         },
         {
           "player": {
-            "id": "alesson",
-            "name": "Alesson",
-            "number": null,
+            "id": "shaylon",
+            "name": "Shaylon",
+            "number": 7,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "chico-sorocaba",
+            "name": "Chico Kim",
+            "number": 10,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "gustavo-mosquito",
+            "name": "Gustavo Mosquito",
+            "number": 19,
             "pos": "Ata",
             "grid": null
           }
@@ -269,13 +479,21 @@
           "player": {
             "id": "brunosantos-americarj",
             "name": "Bruno Santos",
-            "number": null,
+            "number": 30,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "alesson",
+            "name": "Alesson",
+            "number": 77,
             "pos": "Ata",
             "grid": null
           }
         }
-      ],
-      "substitutes": []
+      ]
     }
   ],
   "statistics": [],

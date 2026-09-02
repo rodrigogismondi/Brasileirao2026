@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 45
+      "elapsed": 47
     },
     "timerStart": "2026-09-02T22:30:19.974Z",
     "timerStatus": "INICIADO"
@@ -722,9 +722,9 @@
         "name": "Flamengo"
       },
       "type": "Important",
-      "detail": "O Flamengo transformou a pressão em gols. Aos 13 minutos, Carrascal abriu o placar após um rápido contra-ataque. O time seguiu criando e Varela perdeu uma chance incrível cara a cara com o goleiro Walter. O jogo teve a lesão de Pulgar, substituído por Evertton Araújo, e uma tímida resposta do Mirassol. Mas aos 42, Lucas Paquetá apareceu para ampliar o placar para 2 a 0 e consolidar o domínio rubro-negro.",
+      "detail": "Com domínio total no primeiro tempo, o Flamengo vai construindo o placar. Carrascal abriu a contagem aos 13 minutos com um chute forte. O time da casa seguiu no ataque e, já aos 42 minutos, o colombiano serviu Paquetá, que de cabeça fez o segundo. O Mirassol sofreu para sair jogando e viu Varela perder uma chance incrível, em lance que terminou com grande defesa do goleiro Walter.",
       "player": {
-        "name": "Fla marca mais um e controla o jogo"
+        "name": "Fla domina e abre 2 a 0 no Maracanã"
       },
       "assist": null
     },
@@ -741,6 +741,72 @@
       "detail": "Normal Goal",
       "player": {
         "name": "Lucas Paquetá"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 44,
+        "extra": null
+      },
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "Important",
+      "detail": "+4",
+      "player": {
+        "name": "Acréscimos"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 45,
+        "extra": null
+      },
+      "team": {
+        "id": 2305,
+        "name": "Mirassol"
+      },
+      "type": "Important",
+      "detail": "O segundo gol do Flamengo ocorreu logo após atendimento médico do goleiro Walter. Devido às novas regras adotadas no Brasileirão, o atacante André Luis teve esperar por um minuto do lado de fora, justamente no momento em que o Flamengo construiu a jogada",
+      "player": {
+        "name": "André Luis"
+      },
+      "assist": {
+        "name": "Curiosidade"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 45,
+        "extra": null
+      },
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "Important",
+      "detail": "O Flamengo demorou a engrenar, mas depois assumiu o controle. Aos 13 minutos, Carrascal abriu o placar com uma bomba após passe de Pedro. A equipe seguiu no ataque e, perto do fim da etapa, Carrascal virou garçom e cruzou para Paquetá ampliar de cabeça. O Mirassol se defendeu, mas levou pouco perigo. O Fla, que ainda teve a lesão de Pulgar, vai para o intervalo com 2 a 0 no placar.",
+      "player": {
+        "name": "Fla constrói 2 a 0 no primeiro tempo"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 45,
+        "extra": null
+      },
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "Important",
+      "detail": "Reinaldo lança na área do Flamengo, João Victor tenta cabecear, mas é atrapalhado",
+      "player": {
+        "name": "Reinaldo lança na área do Flamengo, João Victor "
       },
       "assist": null
     }
@@ -1204,7 +1270,7 @@
         },
         {
           "type": "Total Passes",
-          "value": 275
+          "value": 281
         },
         {
           "type": "Pass Accuracy",
@@ -1212,7 +1278,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 30
+          "value": 32
         },
         {
           "type": "Total Shots",
@@ -1256,7 +1322,7 @@
         },
         {
           "type": "Fouls",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Yellow Cards",
@@ -1280,7 +1346,7 @@
         },
         {
           "type": "Total Passes",
-          "value": 188
+          "value": 212
         },
         {
           "type": "Pass Accuracy",
@@ -1288,7 +1354,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 25
+          "value": 28
         },
         {
           "type": "Total Shots",
@@ -1312,7 +1378,7 @@
         },
         {
           "type": "Corner Kicks",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Offsides",

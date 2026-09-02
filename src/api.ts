@@ -130,6 +130,12 @@ function mapMatch(f: RawFixture): Match {
         }
       : null;
   const isLive = status === "live";
+  const kickMs = f.fixture.timestamp * 1000;
+  const rawTimerStart = f.fixture.timerStart ?? null;
+  const timerStartMs = rawTimerStart ? Date.parse(rawTimerStart) : NaN;
+  // Drop pre-match PAUSADO stamps — they predate kickoff and fake Intervalo / clock.
+  const timerStartValid =
+    Number.isFinite(timerStartMs) && timerStartMs >= kickMs - 90_000;
   return {
     id: f.fixture.id,
     round: roundLabel(f.league?.round),
@@ -141,8 +147,8 @@ function mapMatch(f: RawFixture): Match {
     score: score ?? (isLive ? ([0, 0] as [number, number]) : null),
     liveMinute: isLive ? f.fixture.status.elapsed : null,
     period: isLive ? (period === "NS" ? "1H" : period) : status === "finished" ? "FT" : null,
-    timerStart: isLive ? f.fixture.timerStart ?? null : null,
-    timerStatus: isLive ? f.fixture.timerStatus ?? null : null,
+    timerStart: isLive && timerStartValid ? rawTimerStart : null,
+    timerStatus: isLive && timerStartValid ? f.fixture.timerStatus ?? null : null,
     date: dt.toISOString().slice(0, 10),
     time: dt.toTimeString().slice(0, 5),
     datetime: f.fixture.timestamp,

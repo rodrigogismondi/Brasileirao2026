@@ -82,26 +82,45 @@ export function resolveLiveMinute(m: Match, now = Date.now()): number | null {
   if (isHalftime(m, now)) return null;
 
   const running = String(m.timerStatus || "").toUpperCase() === "INICIADO";
-  if (running && m.timerStart) {
-    const startMs = Date.parse(m.timerStart);
-    if (Number.isFinite(startMs)) {
-      let mins = Math.floor((now - startMs) / 60000);
-      if (mins < 0) mins = 0;
-      if (mins > 130) mins = 130;
-      if (m.period === "2H") mins = 45 + mins;
-      else if (m.period === "ET") mins = 90 + mins;
-      return mins;
+  const startMs = validPeriodTimerStartMs(m);
+  if (running && startMs != null) {
+    let mins = Math.floor((now - startMs) / 60000);
+    if (mins < 0) mins = 0;
+    if (mins > 130) mins = 130;
+    if (m.period === "2H") mins = 45 + mins;
+    else if (m.period === "ET") mins = 90 + mins;
+    return mins;
+  }
+
+  // Cache still has pre-game timer / NS lag — rough clock from kickoff.
+  if (m.period === "1H" || m.period === "LIVE") {
+    const kickMs = m.datetime * 1000;
+    if (Number.isFinite(kickMs)) {
+      const age = Math.floor((now - kickMs) / 60000);
+      if (age >= 0 && age <= 55) return age;
     }
   }
 
   return m.liveMinute;
 }
 
-/** Wall-clock minutes since period timerStart, if available. */
-function minutesSinceTimerStart(m: Match, now: number): number | null {
+/**
+ * GE often stamps `timerStart` during pre-match PAUSADO (before kickoff).
+ * Those stamps must not drive HT detection or the live clock.
+ */
+function validPeriodTimerStartMs(m: Match): number | null {
   if (!m.timerStart) return null;
   const startMs = Date.parse(m.timerStart);
   if (!Number.isFinite(startMs)) return null;
+  const kickMs = m.datetime * 1000;
+  if (Number.isFinite(kickMs) && startMs < kickMs - 90_000) return null;
+  return startMs;
+}
+
+/** Wall-clock minutes since period timerStart, if available. */
+function minutesSinceTimerStart(m: Match, now: number): number | null {
+  const startMs = validPeriodTimerStartMs(m);
+  if (startMs == null) return null;
   return Math.floor((now - startMs) / 60000);
 }
 
@@ -114,10 +133,15 @@ export function isHalftime(m: Match, now = Date.now()): boolean {
 
   const wallMins = minutesSinceTimerStart(m, now);
   const syncedMins = m.liveMinute ?? 0;
+  // Age since scheduled kickoff — blocks false HT from pre-game PAUSADO stamps.
+  const kickAgeMins = Number.isFinite(m.datetime)
+    ? Math.floor((now - m.datetime * 1000) / 60000)
+    : null;
 
   // PAUSADO during 1H is often hydration/VAR — only call it Intervalo near/after 45'.
   const paused = String(m.timerStatus || "").toUpperCase() === "PAUSADO";
   if (paused && m.period === "1H") {
+    if (kickAgeMins != null && kickAgeMins < 40) return false;
     if (syncedMins >= 45 || (wallMins != null && wallMins >= 45)) return true;
   }
 

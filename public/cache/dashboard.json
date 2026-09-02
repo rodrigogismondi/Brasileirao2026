@@ -1657,9 +1657,7 @@
           "long": "FT",
           "short": "FT",
           "elapsed": 90
-        },
-        "timerStart": "2026-02-26T00:05:10.769Z",
-        "timerStatus": "PAUSADO"
+        }
       },
       "league": {
         "round": "Regular Season - 4"
@@ -1709,9 +1707,7 @@
           "long": "FT",
           "short": "FT",
           "elapsed": 90
-        },
-        "timerStart": "2026-02-26T00:11:39.178Z",
-        "timerStatus": "PAUSADO"
+        }
       },
       "league": {
         "round": "Regular Season - 4"
@@ -1761,9 +1757,7 @@
           "long": "FT",
           "short": "FT",
           "elapsed": 90
-        },
-        "timerStart": "2026-02-26T00:42:02.095Z",
-        "timerStatus": "PAUSADO"
+        }
       },
       "league": {
         "round": "Regular Season - 4"
@@ -1813,9 +1807,7 @@
           "long": "FT",
           "short": "FT",
           "elapsed": 90
-        },
-        "timerStart": "2026-02-26T01:00:40.041Z",
-        "timerStatus": "PAUSADO"
+        }
       },
       "league": {
         "round": "Regular Season - 4"
@@ -1865,9 +1857,7 @@
           "long": "FT",
           "short": "FT",
           "elapsed": 90
-        },
-        "timerStart": "2026-02-26T02:40:50.007Z",
-        "timerStatus": "PAUSADO"
+        }
       },
       "league": {
         "round": "Regular Season - 4"
@@ -1917,9 +1907,7 @@
           "long": "FT",
           "short": "FT",
           "elapsed": 90
-        },
-        "timerStart": "2026-02-26T02:37:56.402Z",
-        "timerStatus": "PAUSADO"
+        }
       },
       "league": {
         "round": "Regular Season - 4"
@@ -1969,9 +1957,7 @@
           "long": "FT",
           "short": "FT",
           "elapsed": 90
-        },
-        "timerStart": "2026-02-27T00:06:53.490Z",
-        "timerStatus": "PAUSADO"
+        }
       },
       "league": {
         "round": "Regular Season - 4"
@@ -9121,9 +9107,7 @@
           "long": "FT",
           "short": "FT",
           "elapsed": 90
-        },
-        "timerStart": "2026-07-18T00:35:17.142Z",
-        "timerStatus": "PAUSADO"
+        }
       },
       "league": {
         "round": "Regular Season - 4"
@@ -9523,9 +9507,7 @@
           "long": "FT",
           "short": "FT",
           "elapsed": 90
-        },
-        "timerStart": "2026-07-24T00:37:39.143Z",
-        "timerStatus": "PAUSADO"
+        }
       },
       "league": {
         "round": "Regular Season - 4"
@@ -12412,12 +12394,12 @@
           "city": ""
         },
         "status": {
-          "long": "NS",
-          "short": "NS",
-          "elapsed": null
+          "long": "1H",
+          "short": "1H",
+          "elapsed": 12
         },
-        "timerStart": "2026-09-02T21:32:32.619Z",
-        "timerStatus": "PAUSADO"
+        "timerStart": "2026-09-02T22:30:19.974Z",
+        "timerStatus": "INICIADO"
       },
       "league": {
         "round": "Regular Season - 4"
@@ -12435,8 +12417,8 @@
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
       "score": {
         "halftime": {
@@ -18565,14 +18547,14 @@
                 "name": "Flamengo",
                 "logo": "https://s.sde.globo.com/media/organizations/2018/04/10/Flamengo-2018.svg"
               },
-              "points": 48,
+              "points": 49,
               "goalsDiff": 27,
               "form": "DWWLW",
               "description": "Copa Libertadores",
               "all": {
-                "played": 24,
+                "played": 25,
                 "win": 14,
-                "draw": 6,
+                "draw": 7,
                 "lose": 4,
                 "goals": {
                   "for": 48,
@@ -18873,14 +18855,14 @@
                 "name": "Mirassol",
                 "logo": "https://s.sde.globo.com/media/organizations/2026/07/17/MIrassol.svg"
               },
-              "points": 25,
+              "points": 26,
               "goalsDiff": -10,
               "form": "WLLDD",
               "description": null,
               "all": {
-                "played": 24,
+                "played": 25,
                 "win": 6,
-                "draw": 7,
+                "draw": 8,
                 "lose": 11,
                 "goals": {
                   "for": 27,
@@ -20087,10 +20069,10 @@
   "budget": {
     "used": 0,
     "remaining": 100,
-    "mode": "prematch",
-    "liveIntervalMs": 120000
+    "mode": "live",
+    "liveIntervalMs": 20000
   },
-  "fetchedAt": "2026-09-02T22:28:09.921Z",
+  "fetchedAt": "2026-09-02T22:42:23.581Z",
   "source": "ge-globo",
   "meta": {
     "rodada": 4,

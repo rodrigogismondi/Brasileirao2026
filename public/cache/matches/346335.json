@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 60
+      "elapsed": 62
     },
     "timerStart": "2026-09-02T23:36:24.534Z",
     "timerStatus": "INICIADO"
@@ -1143,6 +1143,72 @@
       "assist": {
         "name": "Mirassol reage!"
       }
+    },
+    {
+      "time": {
+        "elapsed": 57,
+        "extra": null
+      },
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "Important",
+      "detail": "O Flamengo construiu boa vantagem no primeiro tempo, abrindo 2 a 0 com gols de Carrascal, em contra-ataque, e Paquetá, de cabeça. Após o intervalo, o Mirassol voltou buscando o jogo. Com 6 minutos da etapa final, Arrascaeta parou em boa defesa do goleiro Muralha. A resposta veio aos 9, quando Igor Formiga finalizou para defesa de Rossi. O jogo segue com o Fla em vantagem, mas com o Mirassol tentando reagir.",
+      "player": {
+        "name": "Fla na frente, Mirassol busca reação"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 57,
+        "extra": null
+      },
+      "team": {
+        "id": 2305,
+        "name": "Mirassol"
+      },
+      "type": "Important",
+      "detail": "Mirassol vai trocando passes de pé em pé, e Igor Formiga dá bom passe em profundidade para Fernandinho, mas Varela consegue se recupera e tirar para escanteio",
+      "player": {
+        "name": "Boa trama"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 58,
+        "extra": null
+      },
+      "team": {
+        "id": 2305,
+        "name": "Mirassol"
+      },
+      "type": "Important",
+      "detail": "Mirassol consegue respirar, tem mais a bola e passa a ocupar o campo de ataque por mais tempo",
+      "player": {
+        "name": "Mirassol para cima"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 58,
+        "extra": null
+      },
+      "team": {
+        "id": 2305,
+        "name": "Mirassol"
+      },
+      "type": "Important",
+      "detail": "Reinaldo bate o escanteio do lado esquerdo, Igor Formiga avança na primeira trave e cabeceia com muito perigo para fora",
+      "player": {
+        "name": "Igor Formiga"
+      },
+      "assist": {
+        "name": "Para fora!"
+      }
     }
   ],
   "lineups": [
@@ -1600,15 +1666,15 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "55%"
+          "value": "54%"
         },
         {
           "type": "Total Passes",
-          "value": 378
+          "value": 394
         },
         {
           "type": "Pass Accuracy",
-          "value": "88%"
+          "value": "89%"
         },
         {
           "type": "Incomplete Passes",
@@ -1652,7 +1718,7 @@
         },
         {
           "type": "Tackles",
-          "value": 7
+          "value": 8
         },
         {
           "type": "Fouls",
@@ -1676,11 +1742,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "45%"
+          "value": "46%"
         },
         {
           "type": "Total Passes",
-          "value": 275
+          "value": 292
         },
         {
           "type": "Pass Accuracy",
@@ -1688,11 +1754,11 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 35
+          "value": 38
         },
         {
           "type": "Total Shots",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Shots on Goal",
@@ -1700,7 +1766,7 @@
         },
         {
           "type": "Shots off Goal",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Blocked Shots",
@@ -1712,7 +1778,7 @@
         },
         {
           "type": "Corner Kicks",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Offsides",
@@ -1732,7 +1798,7 @@
         },
         {
           "type": "Fouls",
-          "value": 6
+          "value": 7
         },
         {
           "type": "Yellow Cards",

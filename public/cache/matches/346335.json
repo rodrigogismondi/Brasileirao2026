@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 92
+      "elapsed": 95
     },
     "timerStart": "2026-09-02T23:36:24.534Z",
     "timerStatus": "INICIADO"
@@ -1805,6 +1805,22 @@
         "name": "Acréscimos"
       },
       "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 91,
+        "extra": null
+      },
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "Important",
+      "detail": "Com este resultado, o Flamengo chega a 51 pontos e encurta para apenas 1 a distância para o líder Palmeiras. O Mirassol, embora esteja perdendo, não entra na zona de rebaixamento com este placar. O Rubro-Negro precisaria fazer mais um para mandar a equipe paulista ao Z-4.",
+      "player": {
+        "name": "Cenário na tabela"
+      },
+      "assist": null
     }
   ],
   "lineups": [
@@ -2262,11 +2278,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "50%"
+          "value": "49%"
         },
         {
           "type": "Total Passes",
-          "value": 529
+          "value": 541
         },
         {
           "type": "Pass Accuracy",
@@ -2274,7 +2290,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 63
+          "value": 64
         },
         {
           "type": "Total Shots",
@@ -2310,7 +2326,7 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 3
+          "value": 4
         },
         {
           "type": "Tackles",
@@ -2318,7 +2334,7 @@
         },
         {
           "type": "Fouls",
-          "value": 7
+          "value": 8
         },
         {
           "type": "Yellow Cards",
@@ -2338,23 +2354,23 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "50%"
+          "value": "51%"
         },
         {
           "type": "Total Passes",
-          "value": 465
+          "value": 487
         },
         {
           "type": "Pass Accuracy",
-          "value": "86%"
+          "value": "87%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 66
+          "value": 65
         },
         {
           "type": "Total Shots",
-          "value": 7
+          "value": 8
         },
         {
           "type": "Shots on Goal",
@@ -2370,7 +2386,7 @@
         },
         {
           "type": "Hit Woodwork",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Corner Kicks",
@@ -2390,7 +2406,7 @@
         },
         {
           "type": "Tackles",
-          "value": 16
+          "value": 17
         },
         {
           "type": "Fouls",

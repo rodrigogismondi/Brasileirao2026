@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 69
+      "elapsed": 71
     },
     "timerStart": "2026-09-02T23:36:24.534Z",
     "timerStatus": "INICIADO"
@@ -1335,6 +1335,74 @@
       "detail": "A bola é lançada na área do Flamengo, mas a defesa corta",
       "player": {
         "name": "A bola é lançada na área do Flamengo, mas a defe"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 66,
+        "extra": null
+      },
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "Important",
+      "detail": "O Flamengo construiu uma boa vantagem no primeiro tempo, abrindo 2 a 0 com gols de Carrascal, em um contra-ataque fulminante, e Paquetá, de cabeça. Após o intervalo, porém, o cenário mudou. Com mais de 20 minutos da segunda etapa, o Mirassol equilibrou as ações, criou chances e obrigou o goleiro Rossi a trabalhar. O goleiro Muralha, que entrou no jogo, também já fez boa defesa para os visitantes.",
+      "player": {
+        "name": "Fla abre 2 a 0, mas Mirassol reage na etapa final"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 66,
+        "extra": null
+      },
+      "team": {
+        "id": 2305,
+        "name": "Mirassol"
+      },
+      "type": "Important",
+      "detail": "Flamengo engata bom ataque, trocando passes de pé em pé. Arrascaeta recebe na entrada da área e encontra Carrascal livre. O meia arma o chute, mas Reinaldo chega por trás e rouba a bola de forma limpa e evita o gol",
+      "player": {
+        "name": "Reinaldo"
+      },
+      "assist": {
+        "name": "Reinaldo e o desarme perfeito"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 66,
+        "extra": null
+      },
+      "team": {
+        "id": 2305,
+        "name": "Mirassol"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Elias"
+      },
+      "assist": {
+        "name": "Igor Formiga"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 69,
+        "extra": null
+      },
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "Important",
+      "detail": "Flamengo gira a bola no meio e tenta escapar da pressão do Mirassol",
+      "player": {
+        "name": "Flamengo gira a bola no meio e tenta escapar da "
       },
       "assist": null
     }

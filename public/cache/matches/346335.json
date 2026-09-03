@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 65
+      "elapsed": 69
     },
     "timerStart": "2026-09-02T23:36:24.534Z",
     "timerStatus": "INICIADO"
@@ -1268,9 +1268,73 @@
         "name": "Flamengo"
       },
       "type": "Important",
+      "detail": "Com 19 minutos da segunda etapa, o Flamengo administra a vantagem de 2 a 0 construída no primeiro tempo. Carrascal abriu o placar com uma bomba e Paquetá ampliou de cabeça. Após o intervalo, o Mirassol voltou melhor e já criou chances com Igor Formiga, parando em Rossi e em um desvio para fora. O Fla, por sua vez, quase fez o terceiro, mas o goleiro Muralha fez grande defesa em chute de Arrascaeta.",
+      "player": {
+        "name": "Fla na frente; Mirassol cresce no segundo tempo"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 63,
+        "extra": null
+      },
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "Important",
       "detail": "Agora é o Flamengo que cadencia o jogo, com passes na defesa e pouca presença à frente",
       "player": {
         "name": "Agora é o Flamengo que cadencia o jogo, com pass"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 64,
+        "extra": null
+      },
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "Important",
+      "detail": "Fernandinho cai em campo após dividida com Pedro, na intermediária de ataque e reclama de cotovelada de Pedro. Daronco marca falta",
+      "player": {
+        "name": "Fernandinho cai em campo após dividida com Pedro"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 65,
+        "extra": null
+      },
+      "team": {
+        "id": 2305,
+        "name": "Mirassol"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "João Victor"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 65,
+        "extra": null
+      },
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "Important",
+      "detail": "A bola é lançada na área do Flamengo, mas a defesa corta",
+      "player": {
+        "name": "A bola é lançada na área do Flamengo, mas a defe"
       },
       "assist": null
     }
@@ -1730,15 +1794,15 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "54%"
+          "value": "53%"
         },
         {
           "type": "Total Passes",
-          "value": 407
+          "value": 424
         },
         {
           "type": "Pass Accuracy",
-          "value": "88%"
+          "value": "89%"
         },
         {
           "type": "Incomplete Passes",
@@ -1782,11 +1846,11 @@
         },
         {
           "type": "Tackles",
-          "value": 8
+          "value": 9
         },
         {
           "type": "Fouls",
-          "value": 3
+          "value": 4
         },
         {
           "type": "Yellow Cards",
@@ -1806,11 +1870,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "46%"
+          "value": "47%"
         },
         {
           "type": "Total Passes",
-          "value": 305
+          "value": 319
         },
         {
           "type": "Pass Accuracy",
@@ -1818,11 +1882,11 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 41
+          "value": 42
         },
         {
           "type": "Total Shots",
-          "value": 4
+          "value": 3
         },
         {
           "type": "Shots on Goal",
@@ -1830,7 +1894,7 @@
         },
         {
           "type": "Shots off Goal",
-          "value": 3
+          "value": 2
         },
         {
           "type": "Blocked Shots",
@@ -1858,15 +1922,15 @@
         },
         {
           "type": "Tackles",
-          "value": 10
+          "value": 11
         },
         {
           "type": "Fouls",
-          "value": 7
+          "value": 8
         },
         {
           "type": "Yellow Cards",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Red Cards",

@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 80
+      "elapsed": 83
     },
     "timerStart": "2026-09-02T23:36:24.534Z",
     "timerStatus": "INICIADO"
@@ -1571,6 +1571,90 @@
       "assist": {
         "name": "Gustavo Cazonatti"
       }
+    },
+    {
+      "time": {
+        "elapsed": 78,
+        "extra": null
+      },
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "Important",
+      "detail": "Reinaldo lança na área do Flamengo, mas Ayrton corta",
+      "player": {
+        "name": "Reinaldo lança na área do Flamengo, mas Ayrton c"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 78,
+        "extra": null
+      },
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "Important",
+      "detail": "Com 2 a 0 no placar, o Flamengo administra a vantagem construída no primeiro tempo com gols de Carrascal e Paquetá. A segunda etapa, porém, mostra um Mirassol mais ousado, que já obrigou Rossi a trabalhar em boa finalização. O time paulista equilibrou as ações e busca diminuir o prejuízo, enquanto o Fla, já na casa dos 30 minutos, aposta nas trocas para controlar o ritmo do jogo.",
+      "player": {
+        "name": "Fla na frente, mas Mirassol cresce no jogo"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 78,
+        "extra": null
+      },
+      "team": {
+        "id": 2305,
+        "name": "Mirassol"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Bruno Santos"
+      },
+      "assist": {
+        "name": "André Luis"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 79,
+        "extra": null
+      },
+      "team": {
+        "id": 2305,
+        "name": "Mirassol"
+      },
+      "type": "Important",
+      "detail": "Fernandinho recebe a bola na grande área com liberdade e gira chutando forte. A bola sai raspando a trave!",
+      "player": {
+        "name": "Fernandinho"
+      },
+      "assist": {
+        "name": "Pressão do Mirassol"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 80,
+        "extra": null
+      },
+      "team": {
+        "id": 2305,
+        "name": "Mirassol"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Denilson"
+      },
+      "assist": null
     }
   ],
   "lineups": [
@@ -2032,7 +2116,7 @@
         },
         {
           "type": "Total Passes",
-          "value": 489
+          "value": 498
         },
         {
           "type": "Pass Accuracy",
@@ -2040,7 +2124,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 55
+          "value": 57
         },
         {
           "type": "Total Shots",
@@ -2084,7 +2168,7 @@
         },
         {
           "type": "Fouls",
-          "value": 6
+          "value": 7
         },
         {
           "type": "Yellow Cards",
@@ -2108,19 +2192,19 @@
         },
         {
           "type": "Total Passes",
-          "value": 377
+          "value": 391
         },
         {
           "type": "Pass Accuracy",
-          "value": "88%"
+          "value": "87%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 47
+          "value": 51
         },
         {
           "type": "Total Shots",
-          "value": 4
+          "value": 6
         },
         {
           "type": "Shots on Goal",
@@ -2128,11 +2212,11 @@
         },
         {
           "type": "Shots off Goal",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Blocked Shots",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Hit Woodwork",
@@ -2156,7 +2240,7 @@
         },
         {
           "type": "Tackles",
-          "value": 11
+          "value": 13
         },
         {
           "type": "Fouls",

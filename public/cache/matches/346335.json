@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 90
+      "elapsed": 92
     },
     "timerStart": "2026-09-02T23:36:24.534Z",
     "timerStatus": "INICIADO"
@@ -1757,6 +1757,54 @@
       "assist": {
         "name": "Chutaço de Denílson"
       }
+    },
+    {
+      "time": {
+        "elapsed": 87,
+        "extra": null
+      },
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "Important",
+      "detail": "Equipe paulista consegue ter mais posse de bola nesta reta final e empurra o Flamengo na defesa. Neste momento, o Mirassol movimentação em alta intensidade e dificulta a vida da marcação",
+      "player": {
+        "name": "Mirassol no controle"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 90,
+        "extra": null
+      },
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "Important",
+      "detail": "O Flamengo construiu um placar de 2 a 0 no primeiro tempo, com um golaço de Carrascal e outro de cabeça de Paquetá. Porém, o cenário mudou na etapa final. O Mirassol cresceu no jogo, passou a pressionar e empurrou o time carioca para a defesa. Já aos 40 minutos, Denílson soltou uma bomba e obrigou Rossi a fazer grande defesa. Perto do fim, a equipe paulista segue no controle e busca o gol.",
+      "player": {
+        "name": "Fla faz 2, mas Mirassol busca reação tardia"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 90,
+        "extra": null
+      },
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "Important",
+      "detail": "+6",
+      "player": {
+        "name": "Acréscimos"
+      },
+      "assist": null
     }
   ],
   "lineups": [
@@ -2214,11 +2262,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "51%"
+          "value": "50%"
         },
         {
           "type": "Total Passes",
-          "value": 520
+          "value": 529
         },
         {
           "type": "Pass Accuracy",
@@ -2226,7 +2274,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 61
+          "value": 63
         },
         {
           "type": "Total Shots",
@@ -2290,11 +2338,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "49%"
+          "value": "50%"
         },
         {
           "type": "Total Passes",
-          "value": 426
+          "value": 465
         },
         {
           "type": "Pass Accuracy",
@@ -2302,7 +2350,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 59
+          "value": 66
         },
         {
           "type": "Total Shots",
@@ -2326,7 +2374,7 @@
         },
         {
           "type": "Corner Kicks",
-          "value": 5
+          "value": 7
         },
         {
           "type": "Offsides",
@@ -2342,11 +2390,11 @@
         },
         {
           "type": "Tackles",
-          "value": 15
+          "value": 16
         },
         {
           "type": "Fouls",
-          "value": 9
+          "value": 10
         },
         {
           "type": "Yellow Cards",

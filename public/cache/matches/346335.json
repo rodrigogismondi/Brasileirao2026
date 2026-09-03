@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 86
+      "elapsed": 90
     },
     "timerStart": "2026-09-02T23:36:24.534Z",
     "timerStatus": "INICIADO"
@@ -1723,6 +1723,40 @@
       "assist": {
         "name": "Na bronca!"
       }
+    },
+    {
+      "time": {
+        "elapsed": 85,
+        "extra": null
+      },
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "Important",
+      "detail": "Com o jogo na reta final, o Flamengo administra a vantagem de 2 a 0 construída no primeiro tempo com gols de Carrascal e Paquetá. A segunda etapa, porém, tem um Mirassol mais ousado, que cresceu na partida e pressiona em busca do seu gol. Fernandinho e Igor Formiga levaram perigo, e aos 40 minutos, Denilson soltou uma bomba para uma grande defesa de Rossi, que garantiu o placar.",
+      "player": {
+        "name": "Mirassol aperta, mas Fla segura o resultado"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 85,
+        "extra": null
+      },
+      "team": {
+        "id": 2305,
+        "name": "Mirassol"
+      },
+      "type": "Important",
+      "detail": "Denílson recebe na intermediária, espera o quique e solta uma pancada, que Rossi vai buscar no cantinho, com a ponta dos dedos!",
+      "player": {
+        "name": "Denilson"
+      },
+      "assist": {
+        "name": "Chutaço de Denílson"
+      }
     }
   ],
   "lineups": [
@@ -2180,11 +2214,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "52%"
+          "value": "51%"
         },
         {
           "type": "Total Passes",
-          "value": 512
+          "value": 520
         },
         {
           "type": "Pass Accuracy",
@@ -2192,7 +2226,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 59
+          "value": 61
         },
         {
           "type": "Total Shots",
@@ -2228,7 +2262,7 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Tackles",
@@ -2256,27 +2290,27 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "48%"
+          "value": "49%"
         },
         {
           "type": "Total Passes",
-          "value": 400
+          "value": 426
         },
         {
           "type": "Pass Accuracy",
-          "value": "87%"
+          "value": "86%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 52
+          "value": 59
         },
         {
           "type": "Total Shots",
-          "value": 6
+          "value": 7
         },
         {
           "type": "Shots on Goal",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Shots off Goal",
@@ -2292,11 +2326,11 @@
         },
         {
           "type": "Corner Kicks",
-          "value": 4
+          "value": 5
         },
         {
           "type": "Offsides",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Penalties",
@@ -2308,7 +2342,7 @@
         },
         {
           "type": "Tackles",
-          "value": 14
+          "value": 15
         },
         {
           "type": "Fouls",

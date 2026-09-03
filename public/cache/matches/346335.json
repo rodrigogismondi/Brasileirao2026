@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 83
+      "elapsed": 86
     },
     "timerStart": "2026-09-02T23:36:24.534Z",
     "timerStatus": "INICIADO"
@@ -1655,6 +1655,74 @@
         "name": "Denilson"
       },
       "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 81,
+        "extra": null
+      },
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "Important",
+      "detail": "Com o jogo passando dos 35 minutos da etapa final, o Flamengo vai vencendo por 2 a 0, com gols de Carrascal e Paquetá marcados no primeiro tempo. O segundo tempo viu o Mirassol melhorar na partida. Muralha, que entrou no lugar do lesionado Walter, fez boa defesa. O time paulista equilibrou as ações e criou chances de perigo, a melhor delas em um chute de Fernandinho que passou raspando a trave.",
+      "player": {
+        "name": "Fla na frente, Mirassol cresce no 2º tempo"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 81,
+        "extra": null
+      },
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Everton"
+      },
+      "assist": {
+        "name": "Samuel Lino"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 82,
+        "extra": null
+      },
+      "team": {
+        "id": 2305,
+        "name": "Mirassol"
+      },
+      "type": "Important",
+      "detail": "Mudanças feitas pelo técnico Rafael Guanaes dão mais intensidade ao Mirassol, que pressiona bastante",
+      "player": {
+        "name": "Mudanças feitas pelo técnico Rafael Guanaes dão "
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 83,
+        "extra": null
+      },
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "Important",
+      "detail": "Samuel Lino não gostou da substituição e deixou o campo reclamando bastante",
+      "player": {
+        "name": "Samuel Lino"
+      },
+      "assist": {
+        "name": "Na bronca!"
+      }
     }
   ],
   "lineups": [
@@ -2116,15 +2184,15 @@
         },
         {
           "type": "Total Passes",
-          "value": 498
+          "value": 512
         },
         {
           "type": "Pass Accuracy",
-          "value": "89%"
+          "value": "88%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 57
+          "value": 59
         },
         {
           "type": "Total Shots",
@@ -2192,7 +2260,7 @@
         },
         {
           "type": "Total Passes",
-          "value": 391
+          "value": 400
         },
         {
           "type": "Pass Accuracy",
@@ -2200,7 +2268,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 51
+          "value": 52
         },
         {
           "type": "Total Shots",
@@ -2240,15 +2308,15 @@
         },
         {
           "type": "Tackles",
-          "value": 13
+          "value": 14
         },
         {
           "type": "Fouls",
-          "value": 8
+          "value": 9
         },
         {
           "type": "Yellow Cards",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Red Cards",

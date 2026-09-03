@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 71
+      "elapsed": 74
     },
     "timerStart": "2026-09-02T23:36:24.534Z",
     "timerStatus": "INICIADO"
@@ -1400,11 +1400,79 @@
         "name": "Flamengo"
       },
       "type": "Important",
+      "detail": "O Flamengo construiu uma vantagem de 2 a 0 no primeiro tempo, com um golaço de Carrascal e outro de cabeça de Paquetá. Após um domínio inicial, o cenário mudou na segunda etapa. Perto dos 24 minutos, o Mirassol, que trocou de goleiro por lesão, cresceu no jogo e já criou chances perigosas, exigindo defesa de Rossi. O Fla agora cadencia o ritmo e administra o resultado.",
+      "player": {
+        "name": "Fla abre 2 a 0 e administra na etapa final"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 69,
+        "extra": null
+      },
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "Important",
       "detail": "Flamengo gira a bola no meio e tenta escapar da pressão do Mirassol",
       "player": {
         "name": "Flamengo gira a bola no meio e tenta escapar da "
       },
       "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 70,
+        "extra": null
+      },
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "Important",
+      "detail": "Jorginho lança com fatiada para Samuel Lino nas costas da defesa, em lance semelhante a um dos gols marcados pelo atacante contra o Botafogo no fim de semana. Desta vez, porém, o cruzamento sai forte demais e Muralha fica com a bola",
+      "player": {
+        "name": "Déjà vu"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 71,
+        "extra": null
+      },
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Bruno Henrique"
+      },
+      "assist": {
+        "name": "Pedro"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 72,
+        "extra": null
+      },
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Saúl"
+      },
+      "assist": {
+        "name": "Carrascal"
+      }
     }
   ],
   "lineups": [
@@ -1862,11 +1930,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "53%"
+          "value": "52%"
         },
         {
           "type": "Total Passes",
-          "value": 424
+          "value": 459
         },
         {
           "type": "Pass Accuracy",
@@ -1874,7 +1942,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 47
+          "value": 50
         },
         {
           "type": "Total Shots",
@@ -1902,7 +1970,7 @@
         },
         {
           "type": "Offsides",
-          "value": 1
+          "value": 0
         },
         {
           "type": "Penalties",
@@ -1918,7 +1986,7 @@
         },
         {
           "type": "Fouls",
-          "value": 4
+          "value": 5
         },
         {
           "type": "Yellow Cards",
@@ -1938,11 +2006,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "47%"
+          "value": "48%"
         },
         {
           "type": "Total Passes",
-          "value": 319
+          "value": 366
         },
         {
           "type": "Pass Accuracy",
@@ -1950,7 +2018,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 42
+          "value": 46
         },
         {
           "type": "Total Shots",

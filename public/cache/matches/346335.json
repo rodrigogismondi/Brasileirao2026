@@ -7,12 +7,12 @@
       "city": ""
     },
     "status": {
-      "long": "2H",
-      "short": "2H",
-      "elapsed": 95
+      "long": "FT",
+      "short": "FT",
+      "elapsed": 90
     },
     "timerStart": "2026-09-02T23:36:24.534Z",
-    "timerStatus": "INICIADO"
+    "timerStatus": "PAUSADO"
   },
   "league": {
     "round": "Regular Season - 4"
@@ -39,8 +39,8 @@
       "away": null
     },
     "fulltime": {
-      "home": null,
-      "away": null
+      "home": 2,
+      "away": 0
     }
   },
   "odds": {
@@ -1716,7 +1716,7 @@
         "name": "Flamengo"
       },
       "type": "Important",
-      "detail": "Samuel Lino não gostou da substituição e deixou o campo reclamando bastante",
+      "detail": "Samuel Lino deixou o campo reclamando bastante depois da substituição",
       "player": {
         "name": "Samuel Lino"
       },
@@ -1819,6 +1819,86 @@
       "detail": "Com este resultado, o Flamengo chega a 51 pontos e encurta para apenas 1 a distância para o líder Palmeiras. O Mirassol, embora esteja perdendo, não entra na zona de rebaixamento com este placar. O Rubro-Negro precisaria fazer mais um para mandar a equipe paulista ao Z-4.",
       "player": {
         "name": "Cenário na tabela"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 92,
+        "extra": null
+      },
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "Important",
+      "detail": "Bruno Santos recebe na área, gira e solta uma pancada, que Rossi encaixa",
+      "player": {
+        "name": "Pegou firme!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 94,
+        "extra": null
+      },
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "Important",
+      "detail": "O Flamengo construiu o placar de 2 a 0 no primeiro tempo com gols de Carrascal e Paquetá, mas o cenário mudou completamente na etapa final. O Mirassol cresceu no jogo, assumiu o controle das ações e empurrou o time da casa para a defesa. Nos minutos finais, Fernandinho e Denilson forçaram grandes intervenções do goleiro Rossi, que se tornou peça fundamental para garantir a vantagem no placar.",
+      "player": {
+        "name": "Fla abre 2 a 0 e segura pressão do Mirassol"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 94,
+        "extra": null
+      },
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "Important",
+      "detail": "Flamengo cadencia o jogo no campo de defesa, enquanto o Mirassol acompanha",
+      "player": {
+        "name": "Flamengo cadencia o jogo no campo de defesa, enq"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 95,
+        "extra": null
+      },
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "Important",
+      "detail": "Vitória do Flamengo",
+      "player": {
+        "name": "Fim de jogo"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 95,
+        "extra": null
+      },
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "Important",
+      "detail": "Fernandinho tenta acelerar pela intermediária do Flamengo, mas é desarmado",
+      "player": {
+        "name": "Fernandinho tenta acelerar pela intermediária do"
       },
       "assist": null
     }

@@ -10,7 +10,9 @@
       "long": "NS",
       "short": "NS",
       "elapsed": null
-    }
+    },
+    "timerStart": null,
+    "timerStatus": "PAUSADO"
   },
   "league": {
     "round": "Regular Season - 26"
@@ -42,13 +44,240 @@
     }
   },
   "odds": {
-    "home": 1.95,
-    "draw": 3.46,
-    "away": 3.81,
+    "home": 1.93,
+    "draw": 3.48,
+    "away": 3.85,
     "source": "betexplorer"
   },
   "events": [],
-  "lineups": [],
+  "lineups": [
+    {
+      "team": {
+        "id": 285,
+        "name": "Internacional",
+        "logo": "https://s.sde.globo.com/media/organizations/2018/03/11/internacional.svg"
+      },
+      "formation": "4-3-3",
+      "coach": {
+        "name": "Paulo Pezzolano"
+      },
+      "startXI": [
+        {
+          "player": {
+            "id": "matheus-cunhaq",
+            "name": "Matheus Cunha",
+            "number": 23,
+            "pos": "Gol",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "brunogomes",
+            "name": "Bruno Gomes",
+            "number": 15,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "mercado11",
+            "name": "Mercado",
+            "number": 25,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "maripan",
+            "name": "Maripán",
+            "number": 3,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "matheusbahia",
+            "name": "Matheus Bahia",
+            "number": 6,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "rodrigovillagra",
+            "name": "Villagra",
+            "number": 5,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "thiagomaia",
+            "name": "Thiago Maia",
+            "number": null,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "alanpatrick",
+            "name": "Alan Patrick",
+            "number": 10,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "vitornaum",
+            "name": "Vitinho",
+            "number": 28,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "carbonerojo",
+            "name": "Carbonero",
+            "number": 7,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "sanabriatonny",
+            "name": "Sanabria",
+            "number": null,
+            "pos": "Ata",
+            "grid": null
+          }
+        }
+      ],
+      "substitutes": []
+    },
+    {
+      "team": {
+        "id": 277,
+        "name": "Santos",
+        "logo": "https://s.sde.globo.com/media/organizations/2018/03/12/santos.svg"
+      },
+      "formation": "4-3-3",
+      "coach": {
+        "name": "Cuca"
+      },
+      "startXI": [
+        {
+          "player": {
+            "id": "gabrielbrazao",
+            "name": "Gabriel Brazão",
+            "number": 77,
+            "pos": "Gol",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "igor-vinicius",
+            "name": "Igor Vinícius",
+            "number": 18,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "joao-ananias",
+            "name": "João Ananias",
+            "number": 26,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "luanperes",
+            "name": "Luan Peres",
+            "number": 14,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "escobardani",
+            "name": "Escobar",
+            "number": 31,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "willianarao",
+            "name": "Willian Arão",
+            "number": 15,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "olivachris",
+            "name": "Oliva",
+            "number": 28,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "rollheiser",
+            "name": "Rollheiser",
+            "number": 32,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "gabriel-bontempo",
+            "name": "Gabriel Bontempo",
+            "number": 8,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "gabriel-gabigol",
+            "name": "Gabriel",
+            "number": 9,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "rony-botafogo",
+            "name": "Rony",
+            "number": 11,
+            "pos": "Ata",
+            "grid": null
+          }
+        }
+      ],
+      "substitutes": []
+    }
+  ],
   "statistics": [],
   "sportsFieldUrl": null
 }

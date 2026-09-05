@@ -7,12 +7,12 @@
       "city": ""
     },
     "status": {
-      "long": "HT",
-      "short": "HT",
-      "elapsed": 45
+      "long": "2H",
+      "short": "2H",
+      "elapsed": 50
     },
-    "timerStart": "2026-09-05T22:18:02.499Z",
-    "timerStatus": "PAUSADO"
+    "timerStart": "2026-09-05T22:37:14.914Z",
+    "timerStatus": "INICIADO"
   },
   "league": {
     "round": "Regular Season - 26"
@@ -1230,9 +1230,41 @@
         "name": "São Paulo"
       },
       "type": "Important",
+      "detail": "Wendell recupera a bola no campo de ataque e avança, desequilibrado. Ele tenta finalização de longe e pega mal na bola, mandando pela linha de fundo.",
+      "player": {
+        "name": "Wendell recupera a bola no campo de ataque e ava"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 46,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Important",
       "detail": "São Paulo pressiona nos minutos finais, mas não consegue finalizar.",
       "player": {
         "name": "São Paulo pressiona nos minutos finais, mas não "
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 47,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Important",
+      "detail": "Sabino avança e tenta ligar o ataque, mas a defesa do Galo intercepta.",
+      "player": {
+        "name": "Sabino avança e tenta ligar o ataque, mas a defe"
       },
       "assist": null
     },
@@ -1708,23 +1740,23 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "56%"
+          "value": "55%"
         },
         {
           "type": "Total Passes",
-          "value": 310
+          "value": 337
         },
         {
           "type": "Pass Accuracy",
-          "value": "85%"
+          "value": "84%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 47
+          "value": 55
         },
         {
           "type": "Total Shots",
-          "value": 6
+          "value": 7
         },
         {
           "type": "Shots on Goal",
@@ -1732,7 +1764,7 @@
         },
         {
           "type": "Shots off Goal",
-          "value": 4
+          "value": 5
         },
         {
           "type": "Blocked Shots",
@@ -1760,11 +1792,11 @@
         },
         {
           "type": "Tackles",
-          "value": 8
+          "value": 11
         },
         {
           "type": "Fouls",
-          "value": 5
+          "value": 6
         },
         {
           "type": "Yellow Cards",
@@ -1784,11 +1816,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "44%"
+          "value": "45%"
         },
         {
           "type": "Total Passes",
-          "value": 241
+          "value": 259
         },
         {
           "type": "Pass Accuracy",
@@ -1796,7 +1828,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 40
+          "value": 44
         },
         {
           "type": "Total Shots",

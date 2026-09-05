@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 29
+      "elapsed": 32
     },
     "timerStart": "2026-09-05T21:30:45.840Z",
     "timerStatus": "INICIADO"
@@ -643,6 +643,102 @@
         "name": "Chove neste momento no Morumbis."
       },
       "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 29,
+        "extra": null
+      },
+      "team": {
+        "id": 282,
+        "name": "Atlético-MG"
+      },
+      "type": "Important",
+      "detail": "Luciano recebe dentro da área, marcado de perto por Alan Franco. Ele cruza em cima do jogador do Atlético-MG e ganha escanteio.",
+      "player": {
+        "name": "Luciano recebe dentro da área, marcado de perto "
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 30,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Important",
+      "detail": "Danielzinho cobra novo escanteio, e o árbitro marca toque de mão de Lucas Ramon.",
+      "player": {
+        "name": "Danielzinho cobra novo escanteio, e o árbitro ma"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 30,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Important",
+      "detail": "Danielzinho cobra escanteio no primeiro poste, e a defesa do Galo manda para fora.",
+      "player": {
+        "name": "Danielzinho cobra escanteio no primeiro poste, e"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 31,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Important",
+      "detail": "São Paulo v0olta a rondar a área do Galo. Artur cruza, e Vitão tira de cabeça.",
+      "player": {
+        "name": "São Paulo v0olta a rondar a área do Galo. Artur "
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 31,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Important",
+      "detail": "Com 30 minutos de jogo, o São Paulo assumiu o controle da partida. Luciano levou perigo logo no início com uma cabeçada para fora, e o time da casa segue empilhando chances e escanteios. A pressão tricolor é constante, com Artur levando perigo na bola parada. O Atlético-MG encontra muitas dificuldades para sair jogando e se concentra na defesa, tendo sua melhor chegada em um cruzamento de Reinier.",
+      "player": {
+        "name": "São Paulo dita o ritmo e cria chances"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 31,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Important",
+      "detail": "São Paulo 6 x 1 Atlético-MG",
+      "player": {
+        "name": "Escanteios"
+      },
+      "assist": null
     }
   ],
   "lineups": [
@@ -1100,19 +1196,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "57%"
+          "value": "54%"
         },
         {
           "type": "Total Passes",
-          "value": 191
+          "value": 212
         },
         {
           "type": "Pass Accuracy",
-          "value": "87%"
+          "value": "88%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 24
+          "value": 26
         },
         {
           "type": "Total Shots",
@@ -1136,7 +1232,7 @@
         },
         {
           "type": "Corner Kicks",
-          "value": 4
+          "value": 5
         },
         {
           "type": "Offsides",
@@ -1152,11 +1248,11 @@
         },
         {
           "type": "Tackles",
-          "value": 4
+          "value": 5
         },
         {
           "type": "Fouls",
-          "value": 1
+          "value": 3
         },
         {
           "type": "Yellow Cards",
@@ -1176,11 +1272,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "43%"
+          "value": "46%"
         },
         {
           "type": "Total Passes",
-          "value": 141
+          "value": 166
         },
         {
           "type": "Pass Accuracy",
@@ -1188,7 +1284,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 23
+          "value": 26
         },
         {
           "type": "Total Shots",
@@ -1232,7 +1328,7 @@
         },
         {
           "type": "Fouls",
-          "value": 3
+          "value": 4
         },
         {
           "type": "Yellow Cards",

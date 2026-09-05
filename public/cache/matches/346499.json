@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 78
+      "elapsed": 81
     },
     "timerStart": "2026-09-05T20:09:04.771Z",
     "timerStatus": "INICIADO"
@@ -1574,11 +1574,97 @@
         "name": "Bragantino"
       },
       "type": "Important",
+      "detail": "A segunda etapa segue o ritmo eletrizante da primeira! Logo aos 4 minutos, Erick subiu mais que a zaga em cobrança de escanteio de Nestor e testou firme para colocar o Bahia na frente: 3 a 2. O Bragantino reagiu e quase empatou em seguida, quando Lucas Barbosa acertou a trave. O jogo continua lá e cá, com os times buscando o ataque a todo instante, já passando dos 30 minutos.",
+      "player": {
+        "name": "Jogaço de cinco gols e Bahia na frente!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 76,
+        "extra": null
+      },
+      "team": {
+        "id": 280,
+        "name": "Bragantino"
+      },
+      "type": "Important",
       "detail": "Acevedo, incoformado com agressividade da dividida, gera bate-boca na lateral do campo.",
       "player": {
         "name": "Acevedo, incoformado com agressividade da dividi"
       },
       "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 77,
+        "extra": null
+      },
+      "team": {
+        "id": 265,
+        "name": "Bahia"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Michel Araújo"
+      },
+      "assist": {
+        "name": "Rodrigo Nestor"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 78,
+        "extra": null
+      },
+      "team": {
+        "id": 265,
+        "name": "Bahia"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Caio Alexandre"
+      },
+      "assist": {
+        "name": "Acevedo"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 79,
+        "extra": null
+      },
+      "team": {
+        "id": 280,
+        "name": "Bragantino"
+      },
+      "type": "Important",
+      "detail": "Que partida movimentada! Depois de um primeiro tempo eletrizante com quatro gols, o Bahia voltou a liderar o placar logo no início da segunda etapa com Erick, de cabeça, fazendo 3 a 2. A partir daí, o Bragantino foi para cima com tudo, pressionou, acertou a trave com Lucas Barbosa e obrigou o goleiro Ronaldo a fazer grandes defesas. O jogo segue intenso com mais de 30 minutos no segundo tempo.",
+      "player": {
+        "name": "Bahia na frente em jogo de cinco gols!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 79,
+        "extra": null
+      },
+      "team": {
+        "id": 280,
+        "name": "Bragantino"
+      },
+      "type": "Important",
+      "detail": "Mosquera é acionado por Lucas Barbosa na área e chuta firme para mais uma boa defesa de Ronaldo.",
+      "player": {
+        "name": "Henry Mosquera"
+      },
+      "assist": {
+        "name": "Defende Ronaldo!"
+      }
     }
   ],
   "lineups": [
@@ -2040,15 +2126,15 @@
         },
         {
           "type": "Total Passes",
-          "value": 262
+          "value": 290
         },
         {
           "type": "Pass Accuracy",
-          "value": "77%"
+          "value": "79%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 59
+          "value": 60
         },
         {
           "type": "Total Shots",
@@ -2072,7 +2158,7 @@
         },
         {
           "type": "Corner Kicks",
-          "value": 9
+          "value": 10
         },
         {
           "type": "Offsides",
@@ -2088,7 +2174,7 @@
         },
         {
           "type": "Tackles",
-          "value": 10
+          "value": 12
         },
         {
           "type": "Fouls",
@@ -2116,7 +2202,7 @@
         },
         {
           "type": "Total Passes",
-          "value": 324
+          "value": 325
         },
         {
           "type": "Pass Accuracy",
@@ -2160,7 +2246,7 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 11
+          "value": 12
         },
         {
           "type": "Tackles",

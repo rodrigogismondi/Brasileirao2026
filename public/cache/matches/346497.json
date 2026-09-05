@@ -9,10 +9,10 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": null
+      "elapsed": 5
     },
-    "timerStart": "2026-09-05T20:15:46.181Z",
-    "timerStatus": "PAUSADO"
+    "timerStart": "2026-09-05T21:30:45.840Z",
+    "timerStatus": "INICIADO"
   },
   "league": {
     "round": "Regular Season - 26"
@@ -30,8 +30,8 @@
     }
   },
   "goals": {
-    "home": null,
-    "away": null
+    "home": 0,
+    "away": 0
   },
   "score": {
     "halftime": {
@@ -49,7 +49,106 @@
     "away": 3.77,
     "source": "betexplorer"
   },
-  "events": [],
+  "events": [
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 282,
+        "name": "Atlético-MG"
+      },
+      "type": "Important",
+      "detail": "Atlético-MG troca passes no campo de defesa.",
+      "player": {
+        "name": "Atlético-MG troca passes no campo de defesa."
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Important",
+      "detail": "Começa São Paulo x Atlético-MG.",
+      "player": {
+        "name": "Apita o árbitro!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 2,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Important",
+      "detail": "São Paulo adianta a marcação e recupera. Artur desarma e faz a bola chegar até o lado esquerdo do ataque. Wendell cruza para dentro da área, e Luciano testa firme. A bola passa ao lado do gol do Galo.",
+      "player": {
+        "name": "Luciano"
+      },
+      "assist": {
+        "name": "Boa chance!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 3,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Important",
+      "detail": "O São Paulo começou a partida em ritmo forte, adiantando a marcação e sufocando a saída de bola do Atlético-MG. Aos 2 minutos, Artur roubou a bola no ataque e a jogada terminou com um cruzamento de Wendell para Luciano, que cabeceou com muito perigo, perto do gol. O time da casa seguiu no controle, com Marcos Antônio e Wendell forçando um escanteio em nova investida pela esquerda.",
+      "player": {
+        "name": "São Paulo pressiona e quase abre o placar"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 3,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Important",
+      "detail": "Marcos Antônio acelera pela esquerda e aciona Wendell, próximo da linha de fundo. Ele cruza em cima da marcação e arranca escanteio.",
+      "player": {
+        "name": "Marcos Antônio acelera pela esquerda e aciona We"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 4,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Important",
+      "detail": "Após escanteio curto, Danielzinho levanta a bola na área, e a defesa atleticana afasta.",
+      "player": {
+        "name": "Após escanteio curto, Danielzinho levanta a bola"
+      },
+      "assist": null
+    }
+  ],
   "lineups": [
     {
       "team": {
@@ -496,6 +595,159 @@
       ]
     }
   ],
-  "statistics": [],
+  "statistics": [
+    {
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "statistics": [
+        {
+          "type": "Ball Possession",
+          "value": "50%"
+        },
+        {
+          "type": "Total Passes",
+          "value": 8
+        },
+        {
+          "type": "Pass Accuracy",
+          "value": "50%"
+        },
+        {
+          "type": "Incomplete Passes",
+          "value": 4
+        },
+        {
+          "type": "Total Shots",
+          "value": 0
+        },
+        {
+          "type": "Shots on Goal",
+          "value": 0
+        },
+        {
+          "type": "Shots off Goal",
+          "value": 0
+        },
+        {
+          "type": "Blocked Shots",
+          "value": 0
+        },
+        {
+          "type": "Hit Woodwork",
+          "value": 0
+        },
+        {
+          "type": "Corner Kicks",
+          "value": 0
+        },
+        {
+          "type": "Offsides",
+          "value": 0
+        },
+        {
+          "type": "Penalties",
+          "value": 0
+        },
+        {
+          "type": "Goalkeeper Saves",
+          "value": 0
+        },
+        {
+          "type": "Tackles",
+          "value": 0
+        },
+        {
+          "type": "Fouls",
+          "value": 0
+        },
+        {
+          "type": "Yellow Cards",
+          "value": 0
+        },
+        {
+          "type": "Red Cards",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "team": {
+        "id": 282,
+        "name": "Atlético-MG"
+      },
+      "statistics": [
+        {
+          "type": "Ball Possession",
+          "value": "50%"
+        },
+        {
+          "type": "Total Passes",
+          "value": 27
+        },
+        {
+          "type": "Pass Accuracy",
+          "value": "93%"
+        },
+        {
+          "type": "Incomplete Passes",
+          "value": 2
+        },
+        {
+          "type": "Total Shots",
+          "value": 0
+        },
+        {
+          "type": "Shots on Goal",
+          "value": 0
+        },
+        {
+          "type": "Shots off Goal",
+          "value": 0
+        },
+        {
+          "type": "Blocked Shots",
+          "value": 0
+        },
+        {
+          "type": "Hit Woodwork",
+          "value": 0
+        },
+        {
+          "type": "Corner Kicks",
+          "value": 0
+        },
+        {
+          "type": "Offsides",
+          "value": 0
+        },
+        {
+          "type": "Penalties",
+          "value": 0
+        },
+        {
+          "type": "Goalkeeper Saves",
+          "value": 0
+        },
+        {
+          "type": "Tackles",
+          "value": 1
+        },
+        {
+          "type": "Fouls",
+          "value": 0
+        },
+        {
+          "type": "Yellow Cards",
+          "value": 0
+        },
+        {
+          "type": "Red Cards",
+          "value": 0
+        }
+      ]
+    }
+  ],
   "sportsFieldUrl": null
 }

@@ -12511,10 +12511,10 @@
         "status": {
           "long": "1H",
           "short": "1H",
-          "elapsed": null
+          "elapsed": 5
         },
-        "timerStart": "2026-09-05T20:15:46.181Z",
-        "timerStatus": "PAUSADO"
+        "timerStart": "2026-09-05T21:30:45.840Z",
+        "timerStatus": "INICIADO"
       },
       "league": {
         "round": "Regular Season - 26"
@@ -12532,8 +12532,8 @@
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
       "score": {
         "halftime": {
@@ -18668,6 +18668,28 @@
             {
               "rank": 7,
               "team": {
+                "id": 282,
+                "name": "Atlético-MG",
+                "logo": "https://s.sde.globo.com/media/organizations/2018/03/10/atletico-mg.svg"
+              },
+              "points": 37,
+              "goalsDiff": 4,
+              "form": "DWDWD",
+              "description": "Copa Sudamericana",
+              "all": {
+                "played": 25,
+                "win": 10,
+                "draw": 7,
+                "lose": 8,
+                "goals": {
+                  "for": 32,
+                  "against": 28
+                }
+              }
+            },
+            {
+              "rank": 8,
+              "team": {
                 "id": 294,
                 "name": "Coritiba",
                 "logo": "https://s.sde.globo.com/media/organizations/2018/03/11/coritiba.svg"
@@ -18684,28 +18706,6 @@
                 "goals": {
                   "for": 33,
                   "against": 33
-                }
-              }
-            },
-            {
-              "rank": 8,
-              "team": {
-                "id": 282,
-                "name": "Atlético-MG",
-                "logo": "https://s.sde.globo.com/media/organizations/2018/03/10/atletico-mg.svg"
-              },
-              "points": 36,
-              "goalsDiff": 4,
-              "form": "WDWDW",
-              "description": "Copa Sudamericana",
-              "all": {
-                "played": 24,
-                "win": 10,
-                "draw": 6,
-                "lose": 8,
-                "goals": {
-                  "for": 32,
-                  "against": 28
                 }
               }
             },
@@ -18760,14 +18760,14 @@
                 "name": "São Paulo",
                 "logo": "https://s.sde.globo.com/media/organizations/2018/03/11/sao-paulo.svg"
               },
-              "points": 30,
+              "points": 31,
               "goalsDiff": 1,
-              "form": "DLDLW",
+              "form": "LDLWD",
               "description": "Copa Sudamericana",
               "all": {
-                "played": 24,
+                "played": 25,
                 "win": 8,
-                "draw": 6,
+                "draw": 7,
                 "lose": 10,
                 "goals": {
                   "for": 29,
@@ -20087,7 +20087,7 @@
     "mode": "live",
     "liveIntervalMs": 20000
   },
-  "fetchedAt": "2026-09-05T21:33:15.742Z",
+  "fetchedAt": "2026-09-05T21:36:25.630Z",
   "source": "ge-globo",
   "meta": {
     "rodada": 26,

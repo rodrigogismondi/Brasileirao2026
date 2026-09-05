@@ -7,12 +7,12 @@
       "city": ""
     },
     "status": {
-      "long": "2H",
-      "short": "2H",
-      "elapsed": 99
+      "long": "FT",
+      "short": "FT",
+      "elapsed": 90
     },
     "timerStart": "2026-09-05T20:09:04.771Z",
-    "timerStatus": "INICIADO"
+    "timerStatus": "PAUSADO"
   },
   "league": {
     "round": "Regular Season - 26"
@@ -39,8 +39,8 @@
       "away": null
     },
     "fulltime": {
-      "home": null,
-      "away": null
+      "home": 2,
+      "away": 3
     }
   },
   "odds": {
@@ -1960,9 +1960,41 @@
         "name": "Bragantino"
       },
       "type": "Important",
+      "detail": "Que partida! O Bahia vai vencendo por 3 a 2 nos acréscimos. O segundo tempo começou com Erick marcando de cabeça logo aos 4 minutos, recolocando o Tricolor em vantagem. O Bragantino não se entregou, pressionou e chegou a carimbar a trave com Lucas Barbosa. O goleiro Ronaldo foi crucial, com defesas importantes para segurar o resultado. Com muitas substituições, o jogo segue aberto até o fim.",
+      "player": {
+        "name": "Jogaço de cinco gols em Bragança!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 98,
+        "extra": null
+      },
+      "team": {
+        "id": 280,
+        "name": "Bragantino"
+      },
+      "type": "Important",
       "detail": "Jogo parado para atendimento do meia Michel Araújo.",
       "player": {
         "name": "Jogo parado para atendimento do meia Michel Araú"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 100,
+        "extra": null
+      },
+      "team": {
+        "id": 280,
+        "name": "Bragantino"
+      },
+      "type": "Important",
+      "detail": "No último lance do jogo, Bragantino tem uma falta para cobrar de longa distância. Tiago Volpi na área.",
+      "player": {
+        "name": "No último lance do jogo, Bragantino tem uma falt"
       },
       "assist": null
     }
@@ -2426,7 +2458,7 @@
         },
         {
           "type": "Total Passes",
-          "value": 350
+          "value": 365
         },
         {
           "type": "Pass Accuracy",
@@ -2434,11 +2466,11 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 70
+          "value": 74
         },
         {
           "type": "Total Shots",
-          "value": 21
+          "value": 22
         },
         {
           "type": "Shots on Goal",
@@ -2450,7 +2482,7 @@
         },
         {
           "type": "Blocked Shots",
-          "value": 5
+          "value": 6
         },
         {
           "type": "Hit Woodwork",
@@ -2474,7 +2506,7 @@
         },
         {
           "type": "Tackles",
-          "value": 14
+          "value": 16
         },
         {
           "type": "Fouls",
@@ -2502,7 +2534,7 @@
         },
         {
           "type": "Total Passes",
-          "value": 387
+          "value": 396
         },
         {
           "type": "Pass Accuracy",
@@ -2510,7 +2542,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 73
+          "value": 76
         },
         {
           "type": "Total Shots",
@@ -2546,7 +2578,7 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 13
+          "value": 15
         },
         {
           "type": "Tackles",
@@ -2554,7 +2586,7 @@
         },
         {
           "type": "Fouls",
-          "value": 15
+          "value": 16
         },
         {
           "type": "Yellow Cards",

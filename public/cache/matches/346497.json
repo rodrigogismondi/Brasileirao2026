@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 14
+      "elapsed": 17
     },
     "timerStart": "2026-09-05T21:30:45.840Z",
     "timerStatus": "INICIADO"
@@ -318,9 +318,73 @@
         "name": "São Paulo"
       },
       "type": "Important",
-      "detail": "Artur cobra escanteio fechado, Arboleda desvia e manda para fora. O jogador do São Paulo queria novo escanteio, mas a bola bateu por último em Sabino.",
+      "detail": "Com pouco mais de 12 minutos, o São Paulo dita o ritmo da partida e pressiona no campo de ataque. O time da casa já criou boas chances, principalmente em uma cabeçada de Luciano que passou perto do gol. Explorando os cruzamentos e escanteios, o Tricolor mantém a posse e busca o primeiro gol, enquanto o Atlético-MG se defende e ainda não conseguiu responder com perigo.",
+      "player": {
+        "name": "Pressão paulista marca o começo do jogo"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 12,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Important",
+      "detail": "Artur cobra escanteio fechado, Arboleda desvia e manda para fora. O jogador do São Paulo queria novo escanteio, mas a bola bateu por último em Sabino. É tiro de meta.",
       "player": {
         "name": "Artur cobra escanteio fechado, Arboleda desvia e"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 14,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Important",
+      "detail": "São Paulo 48% x 52% Atlético-MG",
+      "player": {
+        "name": "Posse de bola"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 15,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Important",
+      "detail": "O São Paulo dita o ritmo nestes primeiros 15 minutos. Com a marcação adiantada, o time da casa já criou as melhores chances, a principal delas em uma cabeçada perigosa de Luciano. O Tricolor acumula três finalizações contra nenhuma do Atlético-MG, que até equilibra a posse de bola, mas ainda não conseguiu encontrar espaços para ameaçar o gol adversário.",
+      "player": {
+        "name": "Início intenso com domínio do São Paulo"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 15,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Important",
+      "detail": "São Paulo 3 x 0 Atlético-MG",
+      "player": {
+        "name": "Finalizações"
       },
       "assist": null
     }
@@ -784,15 +848,15 @@
         },
         {
           "type": "Total Passes",
-          "value": 55
+          "value": 83
         },
         {
           "type": "Pass Accuracy",
-          "value": "84%"
+          "value": "86%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 9
+          "value": 12
         },
         {
           "type": "Total Shots",
@@ -832,7 +896,7 @@
         },
         {
           "type": "Tackles",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Fouls",
@@ -860,15 +924,15 @@
         },
         {
           "type": "Total Passes",
-          "value": 68
+          "value": 80
         },
         {
           "type": "Pass Accuracy",
-          "value": "79%"
+          "value": "80%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 14
+          "value": 16
         },
         {
           "type": "Total Shots",
@@ -908,11 +972,11 @@
         },
         {
           "type": "Tackles",
-          "value": 1
+          "value": 3
         },
         {
           "type": "Fouls",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Yellow Cards",

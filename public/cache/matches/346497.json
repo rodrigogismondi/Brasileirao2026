@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 11
+      "elapsed": 14
     },
     "timerStart": "2026-09-05T21:30:45.840Z",
     "timerStatus": "INICIADO"
@@ -209,6 +209,118 @@
       "detail": "Falta de Reinier em Marcos Antônio no meio de campo.",
       "player": {
         "name": "Falta de Reinier em Marcos Antônio no meio de ca"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 8,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Important",
+      "detail": "Após cobrança de escanteio, Gustavo Santana cabeceia para fora.",
+      "player": {
+        "name": "Após cobrança de escanteio, Gustavo Santana cabe"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 8,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Important",
+      "detail": "Sabino cruza, Lucas Ramon escora para trás e Luciano \"arredonda\". O camisa 10 rola para Marcos Antônio, que chega batendo de primeira. A bola explode na marcação e sai para escanteio.",
+      "player": {
+        "name": "Sabino cruza, Lucas Ramon escora para trás e Luc"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 9,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Important",
+      "detail": "Que começo de jogo do São Paulo! O time da casa assume a iniciativa e pressiona o Atlético-MG desde o apito inicial. Logo aos 2 minutos, Luciano já levou perigo em uma cabeçada que passou ao lado do gol. A equipe paulista segue adiantando a marcação, forçando escanteios e criando chances, como no chute de Marcos Antônio que explodiu na zaga. O Galo se defende e ainda não conseguiu responder.",
+      "player": {
+        "name": "São Paulo começa com tudo!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 9,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Important",
+      "detail": "São Paulo troca passes, mas o Galo não dá espaço e marca firme.",
+      "player": {
+        "name": "São Paulo troca passes, mas o Galo não dá espaço"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 10,
+        "extra": null
+      },
+      "team": {
+        "id": 282,
+        "name": "Atlético-MG"
+      },
+      "type": "Important",
+      "detail": "Bernard é acionado na ponta esquerda, mas o passe sai muito forte. Ele ainda consegue evitar a saída de bola, mas cruza sem força.",
+      "player": {
+        "name": "Bernard é acionado na ponta esquerda, mas o pass"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 11,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Important",
+      "detail": "Renan Lodi demora para cobrar lateral, e o árbitro dá posse de bola para o São Paulo.",
+      "player": {
+        "name": "Reversão"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 12,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Important",
+      "detail": "Artur cobra escanteio fechado, Arboleda desvia e manda para fora. O jogador do São Paulo queria novo escanteio, mas a bola bateu por último em Sabino.",
+      "player": {
+        "name": "Artur cobra escanteio fechado, Arboleda desvia e"
       },
       "assist": null
     }
@@ -668,15 +780,15 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "50%"
+          "value": "48%"
         },
         {
           "type": "Total Passes",
-          "value": 27
+          "value": 55
         },
         {
           "type": "Pass Accuracy",
-          "value": "67%"
+          "value": "84%"
         },
         {
           "type": "Incomplete Passes",
@@ -684,7 +796,7 @@
         },
         {
           "type": "Total Shots",
-          "value": 1
+          "value": 3
         },
         {
           "type": "Shots on Goal",
@@ -692,7 +804,7 @@
         },
         {
           "type": "Shots off Goal",
-          "value": 1
+          "value": 3
         },
         {
           "type": "Blocked Shots",
@@ -704,7 +816,7 @@
         },
         {
           "type": "Corner Kicks",
-          "value": 1
+          "value": 3
         },
         {
           "type": "Offsides",
@@ -720,7 +832,7 @@
         },
         {
           "type": "Tackles",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Fouls",
@@ -744,19 +856,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "50%"
+          "value": "52%"
         },
         {
           "type": "Total Passes",
-          "value": 58
+          "value": 68
         },
         {
           "type": "Pass Accuracy",
-          "value": "84%"
+          "value": "79%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 9
+          "value": 14
         },
         {
           "type": "Total Shots",
@@ -792,7 +904,7 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Tackles",

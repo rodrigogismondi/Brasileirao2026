@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 35
+      "elapsed": 38
     },
     "timerStart": "2026-09-05T21:30:45.840Z",
     "timerStatus": "INICIADO"
@@ -30,7 +30,7 @@
     }
   },
   "goals": {
-    "home": 1,
+    "home": 0,
     "away": 0
   },
   "score": {
@@ -750,9 +750,9 @@
         "name": "São Paulo"
       },
       "type": "Important",
-      "detail": "O jogo começou com o São Paulo dominando as ações e pressionando no campo de ataque. O time acumulou chances e escanteios, testando a defesa do Galo com Luciano e em um chute perigoso de Marcos Antônio, que exigiu grande defesa de Delfim. A insistência foi recompensada aos 32 minutos: Lucas Ramon cruzou da direita e Gustavo Santana, de cabeça, abriu o placar, fazendo 1 a 0 para o Tricolor.",
+      "detail": "O São Paulo assumiu o controle desde o início, pressionando e criando chances com Luciano e Marcos Antônio, que exigiu boa defesa de Delfim. O Atlético-MG se fechava bem, mas tinha dificuldades para sair jogando. Após muita insistência e vários escanteios, a rede balançou aos 32 minutos: Lucas Ramon cruzou da direita e Gustavo Santana se antecipou para cabecear e fazer 1 a 0 no Morumbis.",
       "player": {
-        "name": "Tricolor sai na frente no Morumbis!"
+        "name": "Pressão dá certo e São Paulo abre o placar!"
       },
       "assist": null
     },
@@ -765,12 +765,14 @@
         "id": 276,
         "name": "São Paulo"
       },
-      "type": "Goal",
-      "detail": "Normal Goal",
+      "type": "Important",
+      "detail": "Pelo lado direito do ataque, Lucas Ramon descola ótimo cruzamento para Gustavo Santana. O jovem atacante se antecipa à marcação e cabeceia no cantinho, sem chance de defesa.",
       "player": {
         "name": "Gustavo Santana"
       },
-      "assist": null
+      "assist": {
+        "name": "Gol do São Paulo"
+      }
     },
     {
       "time": {
@@ -789,6 +791,86 @@
       "assist": {
         "name": "UUUUHHH"
       }
+    },
+    {
+      "time": {
+        "elapsed": 34,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Important",
+      "detail": "Lucas Ramon estava impedido no começo da jogada.",
+      "player": {
+        "name": "Gol anulado!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 35,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Important",
+      "detail": "O São Paulo comanda as ações no Morumbis e pressiona em busca do gol. Marcos Antônio exigiu boa defesa de Delfim e Luciano levou perigo de cabeça. O Atlético-MG se fecha, mas sofre com a intensidade do rival. A rede até balançou aos 32 minutos, com Gustavo Santana, mas o lance foi anulado pelo VAR por impedimento de Lucas Ramon na origem da jogada. Tudo igual após 35 minutos de domínio tricolor.",
+      "player": {
+        "name": "VAR anula gol e frustra o São Paulo"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 35,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Important",
+      "detail": "Apesar da frustração pelo gol anulado, a torcida do São Paulo canta alto no Morumbis.",
+      "player": {
+        "name": "Apesar da frustração pelo gol anulado, a torcida"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 36,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Important",
+      "detail": "Pela direita, Danielzinho cobra falta na área. A defesa do Galo afasta.",
+      "player": {
+        "name": "Pela direita, Danielzinho cobra falta na área. A"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 37,
+        "extra": null
+      },
+      "team": {
+        "id": 282,
+        "name": "Atlético-MG"
+      },
+      "type": "Important",
+      "detail": "Atlético-MG ainda não finalizou no jogo.",
+      "player": {
+        "name": "Atlético-MG ainda não finalizou no jogo."
+      },
+      "assist": null
     }
   ],
   "lineups": [
@@ -1246,27 +1328,27 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "56%"
+          "value": "57%"
         },
         {
           "type": "Total Passes",
-          "value": 223
+          "value": 233
         },
         {
           "type": "Pass Accuracy",
-          "value": "86%"
+          "value": "85%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 32
+          "value": 35
         },
         {
           "type": "Total Shots",
-          "value": 4
+          "value": 3
         },
         {
           "type": "Shots on Goal",
-          "value": 1
+          "value": 0
         },
         {
           "type": "Shots off Goal",
@@ -1286,7 +1368,7 @@
         },
         {
           "type": "Offsides",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Penalties",
@@ -1322,11 +1404,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "44%"
+          "value": "43%"
         },
         {
           "type": "Total Passes",
-          "value": 169
+          "value": 179
         },
         {
           "type": "Pass Accuracy",
@@ -1334,7 +1416,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 28
+          "value": 30
         },
         {
           "type": "Total Shots",
@@ -1370,7 +1452,7 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Tackles",

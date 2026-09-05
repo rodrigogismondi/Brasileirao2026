@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 59
+      "elapsed": 62
     },
     "timerStart": "2026-09-05T22:37:14.914Z",
     "timerStatus": "INICIADO"
@@ -1511,6 +1511,72 @@
         "name": "Lucas Ramon é acionado perto da área, mas cruza "
       },
       "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 56,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Important",
+      "detail": "A segunda etapa começa com o São Paulo no ataque. Marcos Antônio quase marca em chute que tirou tinta do travessão, e logo depois Domingos Duarte cabeceou com perigo. Apesar da pressão tricolor, o Atlético-MG teve a chance mais clara do jogo aos 11 minutos: após cruzamento de Fred, Cassierra não conseguiu completar para o gol na pequena área. O placar segue zerado",
+      "player": {
+        "name": "São Paulo pressiona, Galo perde chance incrível!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 56,
+        "extra": null
+      },
+      "team": {
+        "id": 282,
+        "name": "Atlético-MG"
+      },
+      "type": "Important",
+      "detail": "Renan Lodi acha passe para Fred dentro da área, pela esquerda. O camisa 7 cruza muito bem, fechadinho. Arboleda desvia, e Cassierra não consegue pegar em cheio na bola, já dentro da pequena área. Era uma oportunidade clara de gol!",
+      "player": {
+        "name": "Cassierra"
+      },
+      "assist": {
+        "name": "Que chance incrível!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 58,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Important",
+      "detail": "São Paulo 9 x 2 Atlético-MG",
+      "player": {
+        "name": "Finalizações"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 59,
+        "extra": null
+      },
+      "team": {
+        "id": 282,
+        "name": "Atlético-MG"
+      },
+      "type": "Important",
+      "detail": "Cuello cruza fechado, rasteiro. Arboleda chega bem e faz o corte. É escanteio para o Galo!",
+      "player": {
+        "name": "Cuello cruza fechado, rasteiro. Arboleda chega b"
+      },
+      "assist": null
     }
   ],
   "lineups": [
@@ -1968,11 +2034,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "57%"
+          "value": "56%"
         },
         {
           "type": "Total Passes",
-          "value": 387
+          "value": 402
         },
         {
           "type": "Pass Accuracy",
@@ -1980,7 +2046,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 64
+          "value": 67
         },
         {
           "type": "Total Shots",
@@ -2044,11 +2110,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "43%"
+          "value": "44%"
         },
         {
           "type": "Total Passes",
-          "value": 296
+          "value": 306
         },
         {
           "type": "Pass Accuracy",
@@ -2056,11 +2122,11 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 47
+          "value": 49
         },
         {
           "type": "Total Shots",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Shots on Goal",
@@ -2068,7 +2134,7 @@
         },
         {
           "type": "Shots off Goal",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Blocked Shots",
@@ -2096,7 +2162,7 @@
         },
         {
           "type": "Tackles",
-          "value": 7
+          "value": 8
         },
         {
           "type": "Fouls",

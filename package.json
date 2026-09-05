@@ -9,6 +9,7 @@
     "build": "tsc && vite build",
     "preview": "vite preview",
     "sync-live": "node scripts/sync-live-cache.mjs",
+    "live-health": "node scripts/live-health-check.mjs",
     "demo-cache": "node scripts/generate-demo-cache.mjs"
   },
   "devDependencies": {

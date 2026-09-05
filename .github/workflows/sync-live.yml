@@ -3,12 +3,14 @@ name: Sync live cache
 # Fast live tick: updates current-round scores and commits cache to main.
 # A push to main then triggers Deploy (which skips re-sync for these commits).
 #
-# Note: GitHub may delay or skip cron on some repos; workflow_dispatch is the
-# reliable manual path. Prefer keeping this file on main so schedules can fire.
+# IMPORTANT: GitHub Actions `schedule` is unreliable (often delayed hours).
+# Do not rely on this cron alone during live matchdays — keep the Cloud Agent
+# `live-cache-sync` timer (~3 min) running for prematch/live windows.
+# workflow_dispatch / repository_dispatch remain the reliable manual paths.
 
 on:
   schedule:
-    # Every 2 minutes — GitHub may coalesce/delay; still better than 5+.
+    # Requested every 2 minutes — GitHub may coalesce/delay heavily.
     - cron: "*/2 * * * *"
   workflow_dispatch:
   repository_dispatch:

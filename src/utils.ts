@@ -75,7 +75,8 @@ export function statusLabel(status: Match["status"], lang: Lang): string {
 
 /**
  * Live display minute from GE timerStart when the clock is running.
- * Falls back to the last synced `liveMinute` (e.g. while PAUSADO).
+ * Falls back to the last synced `liveMinute`, then kickoff wall-clock
+ * (covers soft-live when cache still says NS / AO VIVO without elapsed).
  */
 export function resolveLiveMinute(m: Match, now = Date.now()): number | null {
   if (m.status !== "live") return null;
@@ -92,16 +93,28 @@ export function resolveLiveMinute(m: Match, now = Date.now()): number | null {
     return mins;
   }
 
-  // Cache still has pre-game timer / NS lag — rough clock from kickoff.
-  if (m.period === "1H" || m.period === "LIVE") {
-    const kickMs = m.datetime * 1000;
-    if (Number.isFinite(kickMs)) {
-      const age = Math.floor((now - kickMs) / 60000);
-      if (age >= 0 && age <= 55) return age;
-    }
+  if (m.liveMinute != null && Number.isFinite(m.liveMinute)) {
+    return m.liveMinute;
   }
 
-  return m.liveMinute;
+  // Soft-live / stale cache: derive a usable clock from scheduled kickoff.
+  const kickMs = m.datetime * 1000;
+  if (!Number.isFinite(kickMs)) return null;
+  const age = Math.floor((now - kickMs) / 60000);
+  if (age < 0 || age > 130) return null;
+
+  if (m.period === "2H") {
+    // Assume ~15' intervalo when we only know wall age.
+    return Math.min(Math.max(46, age - 15), 120);
+  }
+  if (m.period === "ET") {
+    return Math.min(Math.max(91, age - 15), 130);
+  }
+  // 1H / LIVE / unknown soft period
+  if (age <= 55) return age;
+  // Past typical 1H length while cache still says 1H — show stoppage, then 2H estimate.
+  if (age <= 62) return 45 + (age - 45);
+  return Math.min(45 + (age - 60), 120);
 }
 
 /**

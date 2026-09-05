@@ -196,8 +196,8 @@ function mapFixtures(listaJogos, rodadaAtual) {
     if (
       resolved.short === "NS" &&
       parsedTs &&
-      nowSec - parsedTs >= 90 &&
-      nowSec - parsedTs < 3 * 3600
+      nowSec - parsedTs >= 60 &&
+      nowSec - parsedTs < 4 * 3600
     ) {
       resolved = { short: "1H", elapsed: null };
     }
@@ -516,13 +516,28 @@ function mapStatistics(stats, home, away) {
   ];
 }
 
+/** Seconds since scheduled kickoff (negative = not started yet). */
+function ageSinceKickoffSec(fixtureRow, nowSec = Math.floor(Date.now() / 1000)) {
+  const ts = Number(fixtureRow?.fixture?.timestamp || 0);
+  if (!Number.isFinite(ts) || ts <= 0) return null;
+  return nowSec - ts;
+}
+
+/** Wall clock says this fixture should be treated as in-play (lista may still say NS). */
+function isPastKickoffWindow(fixtureRow, nowSec = Math.floor(Date.now() / 1000)) {
+  const age = ageSinceKickoffSec(fixtureRow, nowSec);
+  return age != null && age >= 60 && age < 4 * 3600;
+}
+
 function shouldEnrich(fixtureRow, rodadaAtual, { liveOnly = false } = {}) {
   if (!fixtureRow._geUrl) return false;
   const st = fixtureRow.fixture.status.short;
   if (["1H", "HT", "2H", "LIVE", "ET", "BT", "P"].includes(st)) return true;
   // GE lista often stays NS for a few minutes after kickoff — still enrich.
-  const ageSec = Math.floor(Date.now() / 1000) - Number(fixtureRow.fixture.timestamp || 0);
-  if (st === "NS" && ageSec >= 60 && ageSec < 3 * 3600) return true;
+  if (st === "NS" && isPastKickoffWindow(fixtureRow)) return true;
+  // Prematch warm-up: pull lineups in the last 30 min before kickoff.
+  const age = ageSinceKickoffSec(fixtureRow);
+  if (st === "NS" && age != null && age >= -30 * 60 && age < 60) return true;
   if (liveOnly) return false;
   const round = Number(String(fixtureRow.league?.round || "").match(/(\d+)\s*$/)?.[1] || 0);
   // Full transmission enrich only for the current round (~10 pages).
@@ -825,11 +840,14 @@ async function enrichFromTransmission(fixtureRow) {
   const listaStatus = fixtureRow.fixture.status;
   const nowSec = Math.floor(Date.now() / 1000);
   const beforeKickoff = nowSec < fixtureRow.fixture.timestamp - 60;
+  const pastKickoff = isPastKickoffWindow(fixtureRow, nowSec);
   const hasPreGame = Boolean(trv2.transmission?.hasPreGame);
   const scoreboard = match.scoreboard;
   const boardHasGoals =
     scoreboard &&
     ((Number(scoreboard.home) || 0) > 0 || (Number(scoreboard.away) || 0) > 0);
+  const boardReady =
+    scoreboard && scoreboard.home != null && scoreboard.away != null;
 
   // GE marks many pre-match pages as status "LIVE" — that is NOT kickoff.
   let status = statusFromPeriod(periodAbbr, listaStatus);
@@ -840,20 +858,24 @@ async function enrichFromTransmission(fixtureRow) {
     !beforeKickoff &&
     (periodIndicatesInPlay(periodAbbr) ||
       ["1H", "HT", "2H", "ET", "BT", "P", "LIVE"].includes(listaStatus.short) ||
-      boardHasGoals)
+      boardHasGoals ||
+      events.length > 0 ||
+      pastKickoff)
   ) {
-    status = { long: "1H", short: "1H", elapsed: null };
+    // Prefer transmission period when available; otherwise soft 1H until clock/plays refine it.
+    status = statusFromPeriod(periodAbbr, { long: "1H", short: "1H", elapsed: null });
+    if (status.short === "NS") status = { long: "1H", short: "1H", elapsed: null };
   } else if (
     status.short === "NS" &&
     hasPreGame &&
     !periodIndicatesInPlay(periodAbbr) &&
-    listaStatus.short === "NS"
+    listaStatus.short === "NS" &&
+    !pastKickoff
   ) {
+    // hasPreGame stays true deep into matches on GE — only trust it before kickoff.
     status = { long: "NS", short: "NS", elapsed: null };
   }
 
-  const boardReady =
-    scoreboard && scoreboard.home != null && scoreboard.away != null;
   const listaHome = fixtureRow.goals.home;
   const listaAway = fixtureRow.goals.away;
   // Pick the freshest placar: whichever source has more total goals wins.
@@ -924,6 +946,9 @@ async function enrichFromTransmission(fixtureRow) {
   const rawFieldUrl = trv2.theSportsField?.url || null;
   const sportsFieldUrl =
     rawFieldUrl && !/thesports/i.test(String(rawFieldUrl)) ? rawFieldUrl : null;
+  // Never strip lances/stats after kickoff — stale NS used to wipe them while
+  // lineups remained, which is exactly the recurring "AO VIVO vazio" bug.
+  const hideLiveFeed = status.short === "NS" && !pastKickoff;
   return {
     ...base,
     fixture: {
@@ -944,9 +969,9 @@ async function enrichFromTransmission(fixtureRow) {
         away: status.short === "FT" ? goalsAway : null,
       },
     },
-    events: status.short === "NS" ? [] : events,
+    events: hideLiveFeed ? [] : events,
     lineups,
-    statistics: status.short === "NS" ? [] : statistics,
+    statistics: hideLiveFeed ? [] : statistics,
     odds: base.odds ?? null,
     sportsFieldUrl,
   };
@@ -1305,6 +1330,31 @@ async function main() {
       finalMode === "live" ? 20_000 : finalMode === "prematch" ? 2 * 60_000 : 15 * 60_000;
 
     writeFileSync(join(CACHE_DIR, "dashboard.json"), JSON.stringify(payload, null, 2));
+
+    // Self-heal report: past-kickoff fixtures must not stay NS / empty feed.
+    const broken = [];
+    for (const f of payload.fixtures) {
+      if (!isPastKickoffWindow(f, nowSec)) continue;
+      const st = f.fixture.status.short;
+      const detailPath = join(MATCHES_DIR, `${f.fixture.id}.json`);
+      let eventsLen = 0;
+      let statsLen = 0;
+      try {
+        if (existsSync(detailPath)) {
+          const detail = JSON.parse(readFileSync(detailPath, "utf8"));
+          eventsLen = detail.events?.length ?? 0;
+          statsLen = detail.statistics?.length ?? 0;
+        }
+      } catch {
+        /* ignore */
+      }
+      if (st === "NS" || (["1H", "HT", "2H", "LIVE"].includes(st) && eventsLen === 0 && statsLen === 0)) {
+        broken.push(`${f.fixture.id}:${st}:ev${eventsLen}:st${statsLen}`);
+      }
+    }
+    if (broken.length) {
+      console.warn(`Live health WARN — stale/empty feed after kickoff: ${broken.join(", ")}`);
+    }
 
     console.log(
       `Synced GE cache: rodada ${rodada}/${ultimaRodada}, ${fixtures.length} jogos, fullSeason=${fullSeason}, enriched=${enriched}, failed=${failed}, scorers=${scorers.length}, odds=${oddsMatched}/${oddsMap.size} (kept ${oddsPreserved}), mode=${finalMode}, source=${payload.source}`

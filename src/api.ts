@@ -94,7 +94,7 @@ function mapMatch(f: RawFixture): Match {
   // after kickoff. Promote so the UI leaves "em breve" / upcoming.
   if (status === "upcoming" || status === "scheduled") {
     const ageSec = Math.floor(Date.now() / 1000) - f.fixture.timestamp;
-    if (ageSec >= 90 && ageSec < 3 * 3600) {
+    if (ageSec >= 60 && ageSec < 4 * 3600) {
       status = "live";
     }
   }

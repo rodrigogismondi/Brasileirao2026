@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 80
+      "elapsed": 83
     },
     "timerStart": "2026-09-05T22:36:27.813Z",
     "timerStatus": "INICIADO"
@@ -2078,6 +2078,24 @@
         "extra": null
       },
       "team": {
+        "id": 282,
+        "name": "Atlético-MG"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Gustavo Scarpa"
+      },
+      "assist": {
+        "name": "Victor Hugo"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 79,
+        "extra": null
+      },
+      "team": {
         "id": 276,
         "name": "São Paulo"
       },
@@ -2088,6 +2106,72 @@
       },
       "assist": {
         "name": "Artur"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 80,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Important",
+      "detail": "Depois de muito pressionar e ter um gol anulado no primeiro tempo, o São Paulo abriu a porteira na etapa final! Aos 20 minutos, Luciano mostrou oportunismo e desviou para fazer 1 a 0. A blitz continuou e, dois minutos depois, o lateral Iago, que entrou no segundo tempo, ampliou com um belo peixinho. Com 2 a 0 no placar, o Tricolor domina completamente a partida no Morumbis.",
+      "player": {
+        "name": "São Paulo resolve em dois minutos e faz 2 a 0"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 80,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Important",
+      "detail": "Iago cobra escanteio aberto. Lucas Ramon desvia de cabeça e a bola fica viva na entrada da área. Na sequência, Iago chuta em cima da marcação e arranca novo escanteio.",
+      "player": {
+        "name": "Iago cobra escanteio aberto. Lucas Ramon desvia "
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 81,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Important",
+      "detail": "Após um primeiro tempo de domínio sem gols, o São Paulo transformou a pressão em vantagem na etapa final. Aos 20 minutos, Luciano abriu o placar. Logo depois, aos 22, foi a vez de Iago, que entrou no segundo tempo, marcar de peixinho e ampliar para 2 a 0. Já na marca dos 36 minutos, o Tricolor controla a partida e quase fez o terceiro em cabeceio de Arboleda, bem defendido por Gabriel Delfim.",
+      "player": {
+        "name": "São Paulo deslancha e abre 2 a 0 no Morumbis!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 81,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Important",
+      "detail": "Iago cobra escanteio na cabeça de Arboleda, que testa firme, no meio do gol. Gabriel Delfim se estica e evita o terceiro gol.",
+      "player": {
+        "name": "Arboleda"
+      },
+      "assist": {
+        "name": "UUUUUUHHHH"
       }
     }
   ],
@@ -2546,11 +2630,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "55%"
+          "value": "56%"
         },
         {
           "type": "Total Passes",
-          "value": 477
+          "value": 509
         },
         {
           "type": "Pass Accuracy",
@@ -2558,11 +2642,11 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 77
+          "value": 80
         },
         {
           "type": "Total Shots",
-          "value": 14
+          "value": 15
         },
         {
           "type": "Shots on Goal",
@@ -2570,7 +2654,7 @@
         },
         {
           "type": "Shots off Goal",
-          "value": 9
+          "value": 10
         },
         {
           "type": "Blocked Shots",
@@ -2582,7 +2666,7 @@
         },
         {
           "type": "Corner Kicks",
-          "value": 9
+          "value": 11
         },
         {
           "type": "Offsides",
@@ -2598,11 +2682,11 @@
         },
         {
           "type": "Tackles",
-          "value": 14
+          "value": 15
         },
         {
           "type": "Fouls",
-          "value": 11
+          "value": 12
         },
         {
           "type": "Yellow Cards",
@@ -2622,11 +2706,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "45%"
+          "value": "44%"
         },
         {
           "type": "Total Passes",
-          "value": 385
+          "value": 396
         },
         {
           "type": "Pass Accuracy",
@@ -2634,7 +2718,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 62
+          "value": 65
         },
         {
           "type": "Total Shots",
@@ -2670,7 +2754,7 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 4
+          "value": 6
         },
         {
           "type": "Tackles",
@@ -2678,7 +2762,7 @@
         },
         {
           "type": "Fouls",
-          "value": 9
+          "value": 10
         },
         {
           "type": "Yellow Cards",

@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 67
+      "elapsed": 71
     },
     "timerStart": "2026-09-05T22:37:14.914Z",
     "timerStatus": "INICIADO"
@@ -30,7 +30,7 @@
     }
   },
   "goals": {
-    "home": 1,
+    "home": 2,
     "away": 0
   },
   "score": {
@@ -1827,6 +1827,88 @@
         "name": "Luciano"
       },
       "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 66,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Important",
+      "detail": "O placar saiu do zero aos 20 minutos do segundo tempo! Após o Atlético-MG desperdiçar uma chance claríssima com Cassierra na pequena área, o São Paulo foi fatal. Iago, que acabou de entrar, iniciou a jogada que terminou com Artur batendo cruzado e Luciano, oportunista, desviando para o fundo da rede. 1 a 0 para o Tricolor, que quase ampliou na sequência e segue pressionando em busca do segundo gol.",
+      "player": {
+        "name": "Luciano quebra o zero no Morumbis!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 66,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Important",
+      "detail": "Calleri chega pela esquerda e cruza para Artur, que cabeceia por cima do gol.",
+      "player": {
+        "name": "Quase o segundo"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 67,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Important",
+      "detail": "Após um primeiro tempo de pressão e até um gol anulado, o São Paulo enfim abriu o placar no segundo tempo. Aos 20 minutos, Luciano aproveitou cruzamento de Iago e desviou para o fundo da rede. Mal deu tempo para comemorar e, aos 22, foi a vez do próprio Iago marcar de peixinho, após assistência de Lucas Ramon, ampliando a vantagem para 2 a 0 no Morumbis.",
+      "player": {
+        "name": "São Paulo letal: 2 gols em 2 minutos!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 67,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "player": {
+        "name": "Iago"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 69,
+        "extra": null
+      },
+      "team": {
+        "id": 282,
+        "name": "Atlético-MG"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Minda"
+      },
+      "assist": {
+        "name": "Alexsander"
+      }
     }
   ],
   "lineups": [
@@ -2288,11 +2370,11 @@
         },
         {
           "type": "Total Passes",
-          "value": 433
+          "value": 439
         },
         {
           "type": "Pass Accuracy",
-          "value": "83%"
+          "value": "84%"
         },
         {
           "type": "Incomplete Passes",
@@ -2300,11 +2382,11 @@
         },
         {
           "type": "Total Shots",
-          "value": 11
+          "value": 13
         },
         {
           "type": "Shots on Goal",
-          "value": 1
+          "value": 3
         },
         {
           "type": "Shots off Goal",
@@ -2336,7 +2418,7 @@
         },
         {
           "type": "Tackles",
-          "value": 12
+          "value": 13
         },
         {
           "type": "Fouls",
@@ -2364,15 +2446,15 @@
         },
         {
           "type": "Total Passes",
-          "value": 336
+          "value": 342
         },
         {
           "type": "Pass Accuracy",
-          "value": "84%"
+          "value": "83%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 55
+          "value": 57
         },
         {
           "type": "Total Shots",
@@ -2412,7 +2494,7 @@
         },
         {
           "type": "Tackles",
-          "value": 8
+          "value": 7
         },
         {
           "type": "Fouls",

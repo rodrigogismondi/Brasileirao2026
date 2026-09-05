@@ -12511,7 +12511,7 @@
         "status": {
           "long": "2H",
           "short": "2H",
-          "elapsed": 67
+          "elapsed": 71
         },
         "timerStart": "2026-09-05T22:37:14.914Z",
         "timerStatus": "INICIADO"
@@ -12532,7 +12532,7 @@
         }
       },
       "goals": {
-        "home": 1,
+        "home": 2,
         "away": 0
       },
       "score": {
@@ -18668,28 +18668,6 @@
             {
               "rank": 7,
               "team": {
-                "id": 282,
-                "name": "Atlético-MG",
-                "logo": "https://s.sde.globo.com/media/organizations/2018/03/10/atletico-mg.svg"
-              },
-              "points": 37,
-              "goalsDiff": 4,
-              "form": "DWDWD",
-              "description": "Copa Sudamericana",
-              "all": {
-                "played": 25,
-                "win": 10,
-                "draw": 7,
-                "lose": 8,
-                "goals": {
-                  "for": 32,
-                  "against": 28
-                }
-              }
-            },
-            {
-              "rank": 8,
-              "team": {
                 "id": 294,
                 "name": "Coritiba",
                 "logo": "https://s.sde.globo.com/media/organizations/2018/03/11/coritiba.svg"
@@ -18706,6 +18684,28 @@
                 "goals": {
                   "for": 33,
                   "against": 33
+                }
+              }
+            },
+            {
+              "rank": 8,
+              "team": {
+                "id": 282,
+                "name": "Atlético-MG",
+                "logo": "https://s.sde.globo.com/media/organizations/2018/03/10/atletico-mg.svg"
+              },
+              "points": 36,
+              "goalsDiff": 2,
+              "form": "DWDWL",
+              "description": "Copa Sudamericana",
+              "all": {
+                "played": 25,
+                "win": 10,
+                "draw": 6,
+                "lose": 9,
+                "goals": {
+                  "for": 32,
+                  "against": 30
                 }
               }
             },
@@ -18734,6 +18734,28 @@
             {
               "rank": 10,
               "team": {
+                "id": 276,
+                "name": "São Paulo",
+                "logo": "https://s.sde.globo.com/media/organizations/2018/03/11/sao-paulo.svg"
+              },
+              "points": 33,
+              "goalsDiff": 3,
+              "form": "LDLWW",
+              "description": "Copa Sudamericana",
+              "all": {
+                "played": 25,
+                "win": 9,
+                "draw": 6,
+                "lose": 10,
+                "goals": {
+                  "for": 31,
+                  "against": 28
+                }
+              }
+            },
+            {
+              "rank": 11,
+              "team": {
                 "id": 264,
                 "name": "Corinthians",
                 "logo": "https://s.sde.globo.com/media/organizations/2024/10/09/Corinthians_2024_Q4ahot4.svg"
@@ -18750,28 +18772,6 @@
                 "goals": {
                   "for": 26,
                   "against": 25
-                }
-              }
-            },
-            {
-              "rank": 11,
-              "team": {
-                "id": 276,
-                "name": "São Paulo",
-                "logo": "https://s.sde.globo.com/media/organizations/2018/03/11/sao-paulo.svg"
-              },
-              "points": 31,
-              "goalsDiff": 1,
-              "form": "LDLWD",
-              "description": "Copa Sudamericana",
-              "all": {
-                "played": 25,
-                "win": 8,
-                "draw": 7,
-                "lose": 10,
-                "goals": {
-                  "for": 29,
-                  "against": 28
                 }
               }
             },
@@ -20087,7 +20087,7 @@
     "mode": "live",
     "liveIntervalMs": 20000
   },
-  "fetchedAt": "2026-09-05T23:00:11.657Z",
+  "fetchedAt": "2026-09-05T23:03:22.965Z",
   "source": "ge-globo",
   "meta": {
     "rodada": 26,

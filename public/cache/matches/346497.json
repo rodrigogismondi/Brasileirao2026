@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 50
+      "elapsed": 53
     },
     "timerStart": "2026-09-05T21:30:45.840Z",
     "timerStatus": "INICIADO"
@@ -50,6 +50,42 @@
     "source": "betexplorer"
   },
   "events": [
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Important",
+      "detail": "\"Foi uma infelicidade (o gol anulado), pelo pé do Lucas do Ramon. A gente fica triste, poderia estar na frente, mas é valorizar o primeiro tempo. A gente conseguiu ficar com a bola, pressionou eles lá em cima. Agora é ir para o vestiário, escutar o que o professor tem pra falar e voltar com uma postura até melhor para o segundo tempo.\"",
+      "player": {
+        "name": "Gustavo Santana"
+      },
+      "assist": {
+        "name": "Fala o autor do gol anulado"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 282,
+        "name": "Atlético-MG"
+      },
+      "type": "Important",
+      "detail": "\"Acho que a gente tem que melhorar um pouquinho na pressão. Eles fizeram um grande primeiro tempo, vamos ver com o professor para ajustar algumas coisas que estamos precisando para o segundo tempo.\"",
+      "player": {
+        "name": "Reinier"
+      },
+      "assist": {
+        "name": "O que melhorar?"
+      }
+    },
     {
       "time": {
         "elapsed": 0,
@@ -1554,11 +1590,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "57%"
+          "value": "56%"
         },
         {
           "type": "Total Passes",
-          "value": 299
+          "value": 310
         },
         {
           "type": "Pass Accuracy",
@@ -1566,15 +1602,15 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 46
+          "value": 47
         },
         {
           "type": "Total Shots",
-          "value": 5
+          "value": 6
         },
         {
           "type": "Shots on Goal",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Shots off Goal",
@@ -1630,7 +1666,7 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "43%"
+          "value": "44%"
         },
         {
           "type": "Total Passes",

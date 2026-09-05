@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 32
+      "elapsed": 35
     },
     "timerStart": "2026-09-05T21:30:45.840Z",
     "timerStatus": "INICIADO"
@@ -30,7 +30,7 @@
     }
   },
   "goals": {
-    "home": 0,
+    "home": 1,
     "away": 0
   },
   "score": {
@@ -702,9 +702,9 @@
         "name": "São Paulo"
       },
       "type": "Important",
-      "detail": "São Paulo v0olta a rondar a área do Galo. Artur cruza, e Vitão tira de cabeça.",
+      "detail": "São Paulo volta a rondar a área do Galo. Artur cruza, e Vitão tira de cabeça.",
       "player": {
-        "name": "São Paulo v0olta a rondar a área do Galo. Artur "
+        "name": "São Paulo volta a rondar a área do Galo. Artur c"
       },
       "assist": null
     },
@@ -739,6 +739,56 @@
         "name": "Escanteios"
       },
       "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 32,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Important",
+      "detail": "O jogo começou com o São Paulo dominando as ações e pressionando no campo de ataque. O time acumulou chances e escanteios, testando a defesa do Galo com Luciano e em um chute perigoso de Marcos Antônio, que exigiu grande defesa de Delfim. A insistência foi recompensada aos 32 minutos: Lucas Ramon cruzou da direita e Gustavo Santana, de cabeça, abriu o placar, fazendo 1 a 0 para o Tricolor.",
+      "player": {
+        "name": "Tricolor sai na frente no Morumbis!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 32,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "player": {
+        "name": "Gustavo Santana"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 32,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Important",
+      "detail": "Da entrada da área, Marcos Antônio arrisca chute e exige boa defesa de Delfim.",
+      "player": {
+        "name": "Marcos Antônio"
+      },
+      "assist": {
+        "name": "UUUUHHH"
+      }
     }
   ],
   "lineups": [
@@ -1196,27 +1246,27 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "54%"
+          "value": "56%"
         },
         {
           "type": "Total Passes",
-          "value": 212
+          "value": 223
         },
         {
           "type": "Pass Accuracy",
-          "value": "88%"
+          "value": "86%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 26
+          "value": 32
         },
         {
           "type": "Total Shots",
-          "value": 3
+          "value": 4
         },
         {
           "type": "Shots on Goal",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Shots off Goal",
@@ -1232,7 +1282,7 @@
         },
         {
           "type": "Corner Kicks",
-          "value": 5
+          "value": 7
         },
         {
           "type": "Offsides",
@@ -1252,7 +1302,7 @@
         },
         {
           "type": "Fouls",
-          "value": 3
+          "value": 4
         },
         {
           "type": "Yellow Cards",
@@ -1272,19 +1322,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "46%"
+          "value": "44%"
         },
         {
           "type": "Total Passes",
-          "value": 166
+          "value": 169
         },
         {
           "type": "Pass Accuracy",
-          "value": "84%"
+          "value": "83%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 26
+          "value": 28
         },
         {
           "type": "Total Shots",
@@ -1324,7 +1374,7 @@
         },
         {
           "type": "Tackles",
-          "value": 5
+          "value": 6
         },
         {
           "type": "Fouls",

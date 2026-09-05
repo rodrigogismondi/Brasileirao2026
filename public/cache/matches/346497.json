@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 83
+      "elapsed": 86
     },
     "timerStart": "2026-09-05T22:36:27.813Z",
     "timerStatus": "INICIADO"
@@ -2074,6 +2074,22 @@
     },
     {
       "time": {
+        "elapsed": 78,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Important",
+      "detail": "São Paulo cobra escanteio fechado, Gabriel Denfil espalma.",
+      "player": {
+        "name": "São Paulo cobra escanteio fechado, Gabriel Denfi"
+      },
+      "assist": null
+    },
+    {
+      "time": {
         "elapsed": 79,
         "extra": null
       },
@@ -2173,6 +2189,90 @@
       "assist": {
         "name": "UUUUUUHHHH"
       }
+    },
+    {
+      "time": {
+        "elapsed": 82,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Important",
+      "detail": "A pressão do São Paulo surtiu efeito no segundo tempo! Após ter um gol anulado na primeira etapa, o Tricolor foi para cima e resolveu o jogo em um piscar de olhos. Aos 20 minutos, Luciano abriu o placar. Logo depois, aos 22, o lateral Iago, que tinha acabado de entrar, ampliou de peixinho. Com 2 a 0, o time da casa segue no ataque e quase fez o terceiro com Arboleda e Luciano.",
+      "player": {
+        "name": "São Paulo abre 2 a 0 em dois minutos!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 82,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Important",
+      "detail": "Marcos Antônio chuta, e a bola bate na marcação. No rebote, da entrada da área, Luciano pega de primeira e quase encobre o goleiro Gabriel Delfim, que manda para escanteio.",
+      "player": {
+        "name": "Luciano"
+      },
+      "assist": {
+        "name": "Mais uma chance"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 84,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Important",
+      "detail": "Luciano é ovacionado. Parte do estádio vaiou a decisão de Dorival de substituí-lo, mas a maioria do público preferiu aplaudir o atacante.",
+      "player": {
+        "name": "Luciano"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 84,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Ferreira"
+      },
+      "assist": {
+        "name": "Luciano"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 84,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Important",
+      "detail": "Após nova cobrança de escanteio, a arbitragem marca falta de Luciano. Foi o último lance dele no jogo. Camisa 10 será substituído.",
+      "player": {
+        "name": "Após nova cobrança de escanteio, a arbitragem ma"
+      },
+      "assist": null
     }
   ],
   "lineups": [
@@ -2630,11 +2730,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "56%"
+          "value": "55%"
         },
         {
           "type": "Total Passes",
-          "value": 509
+          "value": 513
         },
         {
           "type": "Pass Accuracy",
@@ -2642,11 +2742,11 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 80
+          "value": 82
         },
         {
           "type": "Total Shots",
-          "value": 15
+          "value": 16
         },
         {
           "type": "Shots on Goal",
@@ -2662,11 +2762,11 @@
         },
         {
           "type": "Hit Woodwork",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Corner Kicks",
-          "value": 11
+          "value": 14
         },
         {
           "type": "Offsides",
@@ -2706,11 +2806,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "44%"
+          "value": "45%"
         },
         {
           "type": "Total Passes",
-          "value": 396
+          "value": 402
         },
         {
           "type": "Pass Accuracy",
@@ -2754,7 +2854,7 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 6
+          "value": 8
         },
         {
           "type": "Tackles",

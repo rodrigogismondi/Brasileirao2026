@@ -12511,7 +12511,7 @@
         "status": {
           "long": "1H",
           "short": "1H",
-          "elapsed": 38
+          "elapsed": 41
         },
         "timerStart": "2026-09-05T21:30:45.840Z",
         "timerStatus": "INICIADO"
@@ -18668,6 +18668,28 @@
             {
               "rank": 7,
               "team": {
+                "id": 282,
+                "name": "Atlético-MG",
+                "logo": "https://s.sde.globo.com/media/organizations/2018/03/10/atletico-mg.svg"
+              },
+              "points": 37,
+              "goalsDiff": 4,
+              "form": "DWDWD",
+              "description": "Copa Sudamericana",
+              "all": {
+                "played": 25,
+                "win": 10,
+                "draw": 7,
+                "lose": 8,
+                "goals": {
+                  "for": 32,
+                  "against": 28
+                }
+              }
+            },
+            {
+              "rank": 8,
+              "team": {
                 "id": 294,
                 "name": "Coritiba",
                 "logo": "https://s.sde.globo.com/media/organizations/2018/03/11/coritiba.svg"
@@ -18684,28 +18706,6 @@
                 "goals": {
                   "for": 33,
                   "against": 33
-                }
-              }
-            },
-            {
-              "rank": 8,
-              "team": {
-                "id": 282,
-                "name": "Atlético-MG",
-                "logo": "https://s.sde.globo.com/media/organizations/2018/03/10/atletico-mg.svg"
-              },
-              "points": 36,
-              "goalsDiff": 3,
-              "form": "DWDWD",
-              "description": "Copa Sudamericana",
-              "all": {
-                "played": 25,
-                "win": 10,
-                "draw": 6,
-                "lose": 9,
-                "goals": {
-                  "for": 32,
-                  "against": 29
                 }
               }
             },
@@ -18734,28 +18734,6 @@
             {
               "rank": 10,
               "team": {
-                "id": 276,
-                "name": "São Paulo",
-                "logo": "https://s.sde.globo.com/media/organizations/2018/03/11/sao-paulo.svg"
-              },
-              "points": 33,
-              "goalsDiff": 2,
-              "form": "LDLWD",
-              "description": "Copa Sudamericana",
-              "all": {
-                "played": 25,
-                "win": 9,
-                "draw": 6,
-                "lose": 10,
-                "goals": {
-                  "for": 30,
-                  "against": 28
-                }
-              }
-            },
-            {
-              "rank": 11,
-              "team": {
                 "id": 264,
                 "name": "Corinthians",
                 "logo": "https://s.sde.globo.com/media/organizations/2024/10/09/Corinthians_2024_Q4ahot4.svg"
@@ -18772,6 +18750,28 @@
                 "goals": {
                   "for": 26,
                   "against": 25
+                }
+              }
+            },
+            {
+              "rank": 11,
+              "team": {
+                "id": 276,
+                "name": "São Paulo",
+                "logo": "https://s.sde.globo.com/media/organizations/2018/03/11/sao-paulo.svg"
+              },
+              "points": 31,
+              "goalsDiff": 1,
+              "form": "LDLWD",
+              "description": "Copa Sudamericana",
+              "all": {
+                "played": 25,
+                "win": 8,
+                "draw": 7,
+                "lose": 10,
+                "goals": {
+                  "for": 29,
+                  "against": 28
                 }
               }
             },
@@ -20087,7 +20087,7 @@
     "mode": "live",
     "liveIntervalMs": 20000
   },
-  "fetchedAt": "2026-09-05T22:09:15.235Z",
+  "fetchedAt": "2026-09-05T22:12:19.809Z",
   "source": "ge-globo",
   "meta": {
     "rodada": 26,

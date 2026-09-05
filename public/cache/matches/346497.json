@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 90
+      "elapsed": 92
     },
     "timerStart": "2026-09-05T22:36:27.813Z",
     "timerStatus": "INICIADO"
@@ -2284,7 +2284,7 @@
         "name": "Atlético-MG"
       },
       "type": "Important",
-      "detail": "Torcida atleticana acendeu sinalizadores, e uma enorme nuvem se formou, dificultando a visualização do campo. A Polícia Militar interveio no setor visitante do Morumbis.",
+      "detail": "Torcida atleticana acendeu sinalizadores, e uma enorme nuvem se formou, dificultando a visualização do campo. A Polícia Militar interveio no setor visitante do Morumbis e houve correria.",
       "player": {
         "name": "Jogo parado"
       },
@@ -2319,6 +2319,22 @@
       "detail": "Público: 39.068 Renda: R$ 1.711.850,00",
       "player": {
         "name": "Público: 39.068 Renda: R$ 1.711.850,00"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 90,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Important",
+      "detail": "Vamos até 51 minutos neste segundo tempo.",
+      "player": {
+        "name": "Mais seis"
       },
       "assist": null
     }
@@ -2778,11 +2794,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "55%"
+          "value": "54%"
         },
         {
           "type": "Total Passes",
-          "value": 513
+          "value": 520
         },
         {
           "type": "Pass Accuracy",
@@ -2790,15 +2806,15 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 82
+          "value": 84
         },
         {
           "type": "Total Shots",
-          "value": 16
+          "value": 18
         },
         {
           "type": "Shots on Goal",
-          "value": 3
+          "value": 4
         },
         {
           "type": "Shots off Goal",
@@ -2806,7 +2822,7 @@
         },
         {
           "type": "Blocked Shots",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Hit Woodwork",
@@ -2830,7 +2846,7 @@
         },
         {
           "type": "Tackles",
-          "value": 15
+          "value": 17
         },
         {
           "type": "Fouls",
@@ -2854,11 +2870,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "45%"
+          "value": "46%"
         },
         {
           "type": "Total Passes",
-          "value": 402
+          "value": 421
         },
         {
           "type": "Pass Accuracy",
@@ -2866,7 +2882,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 65
+          "value": 66
         },
         {
           "type": "Total Shots",

@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 23
+      "elapsed": 26
     },
     "timerStart": "2026-09-05T21:30:45.840Z",
     "timerStatus": "INICIADO"
@@ -433,6 +433,70 @@
       "detail": "Zagueiros do São Paulo vão para o ataque.",
       "player": {
         "name": "Zagueiros do São Paulo vão para o ataque."
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 20,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Important",
+      "detail": "O jogo começou com o São Paulo ditando o ritmo. Com 20 minutos de bola rolando, o Tricolor já criou as melhores chances, principalmente com Luciano, que testou firme para fora logo no início. A equipe da casa adianta a marcação, força escanteios e leva perigo em jogadas construídas, como no chute de Marcos Antônio, travado pela zaga. O Atlético-MG tem a posse, mas sofre para avançar.",
+      "player": {
+        "name": "Pressão tricolor e Galo com dificuldade"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 20,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Important",
+      "detail": "Galo troca passes no campo de defesa. Reinier recua para dar opção de passe e ajudar a \"desafogar\" o time, que tem dificuldades para se aproximar da área tricolor.",
+      "player": {
+        "name": "Galo troca passes no campo de defesa. Reinier re"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 21,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Important",
+      "detail": "O São Paulo dita o ritmo nos primeiros 20 minutos e pressiona o Atlético-MG. O time da casa já levou perigo em um cabeceio de Luciano e em finalizações de fora da área, acumulando escanteios. O Galo encontra dificuldades na criação e aposta em se defender, tendo chegado com mais intenção apenas em um cruzamento de Reinier que Cuello por pouco não completou para o gol. O placar segue zerado.",
+      "player": {
+        "name": "São Paulo pressiona, Galo se segura"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 21,
+        "extra": null
+      },
+      "team": {
+        "id": 282,
+        "name": "Atlético-MG"
+      },
+      "type": "Important",
+      "detail": "Reinier avança pela esquerda e cruza na área. Victor Hugo desvia para trás, mas Cuello não consegue chegar na bola para finalizar.",
+      "player": {
+        "name": "Galo no ataque"
       },
       "assist": null
     }
@@ -892,11 +956,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "58%"
+          "value": "55%"
         },
         {
           "type": "Total Passes",
-          "value": 152
+          "value": 157
         },
         {
           "type": "Pass Accuracy",
@@ -904,7 +968,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 17
+          "value": 18
         },
         {
           "type": "Total Shots",
@@ -968,19 +1032,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "42%"
+          "value": "45%"
         },
         {
           "type": "Total Passes",
-          "value": 95
+          "value": 123
         },
         {
           "type": "Pass Accuracy",
-          "value": "82%"
+          "value": "85%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 17
+          "value": 18
         },
         {
           "type": "Total Shots",

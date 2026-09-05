@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 8
+      "elapsed": 11
     },
     "timerStart": "2026-09-05T21:30:45.840Z",
     "timerStatus": "INICIADO"
@@ -145,6 +145,70 @@
       "detail": "Após escanteio curto, Danielzinho levanta a bola na área, e a defesa atleticana afasta.",
       "player": {
         "name": "Após escanteio curto, Danielzinho levanta a bola"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 5,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Important",
+      "detail": "Galo cobra escanteio curto, e Bernard acaba desarmado por Luciano.",
+      "player": {
+        "name": "Galo cobra escanteio curto, e Bernard acaba desa"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 5,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Important",
+      "detail": "Rena Lodi chega pela esquerda do ataque e cruza. Sabino espana! A bola vai para trás, e é escanteio para o Galo.",
+      "player": {
+        "name": "Rena Lodi chega pela esquerda do ataque e cruza."
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 6,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Important",
+      "detail": "O jogo mal começou e o São Paulo já mostra suas garras. Com menos de três minutos, o time da casa adiantou a marcação, Artur recuperou a bola e, após cruzamento de Wendell, Luciano cabeceou com perigo ao lado do gol. O Tricolor seguiu em cima e conseguiu um escanteio, enquanto o Atlético-MG respondeu com uma chegada de Renan Lodi, mas sem finalizar. Início de jogo com o São Paulo mais intenso.",
+      "player": {
+        "name": "São Paulo pressiona e assusta no começo"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 6,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Important",
+      "detail": "Falta de Reinier em Marcos Antônio no meio de campo.",
+      "player": {
+        "name": "Falta de Reinier em Marcos Antônio no meio de ca"
       },
       "assist": null
     }
@@ -608,7 +672,7 @@
         },
         {
           "type": "Total Passes",
-          "value": 24
+          "value": 27
         },
         {
           "type": "Pass Accuracy",
@@ -616,7 +680,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 8
+          "value": 9
         },
         {
           "type": "Total Shots",
@@ -684,15 +748,15 @@
         },
         {
           "type": "Total Passes",
-          "value": 42
+          "value": 58
         },
         {
           "type": "Pass Accuracy",
-          "value": "86%"
+          "value": "84%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 6
+          "value": 9
         },
         {
           "type": "Total Shots",
@@ -736,7 +800,7 @@
         },
         {
           "type": "Fouls",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Yellow Cards",

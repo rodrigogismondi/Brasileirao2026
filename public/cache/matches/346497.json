@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 50
+      "elapsed": 53
     },
     "timerStart": "2026-09-05T22:37:14.914Z",
     "timerStatus": "INICIADO"
@@ -1283,6 +1283,90 @@
         "name": "Apita o árbitro"
       },
       "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 48,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Important",
+      "detail": "O primeiro tempo foi um monólogo do São Paulo, que encurralou o Atlético-MG e teve um gol anulado pelo VAR. Gustavo Santana chegou a balançar as redes de cabeça, mas Lucas Ramon estava impedido no início da jogada. O Galo, sem conseguir atacar, só deu seu primeiro chute aos 42 minutos. O placar segue 0 a 0 no início da segunda etapa, que começou com o Tricolor mantendo a pressão.",
+      "player": {
+        "name": "Gol anulado e domínio paulista no Morumbi"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 48,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Important",
+      "detail": "Falta de Danielzinho em Alexander. Jogador do Galo fica caído no gramado.",
+      "player": {
+        "name": "Falta de Danielzinho em Alexander. Jogador do Ga"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 49,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Important",
+      "detail": "Lucas Ramon cruza na área, e Gustavo Santana cabeceia mal.",
+      "player": {
+        "name": "Gustavo Santana"
+      },
+      "assist": {
+        "name": "Fora"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 49,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Important",
+      "detail": "O São Paulo controlou o primeiro tempo, criando chances com Luciano e Marcos Antônio. A pressão culminou em um gol de cabeça de Gustavo Santana aos 32 minutos, mas o lance foi anulado por impedimento de Lucas Ramon após revisão do VAR. O Atlético-MG, com dificuldade para atacar, só assustou no fim com chute de Natanael. O segundo tempo já começou com o Tricolor no ataque e Marcos Antônio quase marcando.",
+      "player": {
+        "name": "Pressão Tricolor e gol anulado no Morumbis"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 49,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Important",
+      "detail": "Na entrada da área, Marcos Antônio recebe com liberdade, olha para o gol e chuta colocado. A bola passa tirando tinta do travessão atleticano.",
+      "player": {
+        "name": "Marcos Antônio"
+      },
+      "assist": {
+        "name": "UUUUUHHHH"
+      }
     }
   ],
   "lineups": [
@@ -1740,11 +1824,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "55%"
+          "value": "56%"
         },
         {
           "type": "Total Passes",
-          "value": 337
+          "value": 355
         },
         {
           "type": "Pass Accuracy",
@@ -1752,11 +1836,11 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 55
+          "value": 56
         },
         {
           "type": "Total Shots",
-          "value": 7
+          "value": 8
         },
         {
           "type": "Shots on Goal",
@@ -1764,7 +1848,7 @@
         },
         {
           "type": "Shots off Goal",
-          "value": 5
+          "value": 6
         },
         {
           "type": "Blocked Shots",
@@ -1780,7 +1864,7 @@
         },
         {
           "type": "Offsides",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Penalties",
@@ -1796,7 +1880,7 @@
         },
         {
           "type": "Fouls",
-          "value": 6
+          "value": 7
         },
         {
           "type": "Yellow Cards",
@@ -1816,11 +1900,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "45%"
+          "value": "44%"
         },
         {
           "type": "Total Passes",
-          "value": 259
+          "value": 271
         },
         {
           "type": "Pass Accuracy",
@@ -1828,7 +1912,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 44
+          "value": 46
         },
         {
           "type": "Total Shots",
@@ -1872,7 +1956,7 @@
         },
         {
           "type": "Fouls",
-          "value": 5
+          "value": 6
         },
         {
           "type": "Yellow Cards",

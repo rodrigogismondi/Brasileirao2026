@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 20
+      "elapsed": 23
     },
     "timerStart": "2026-09-05T21:30:45.840Z",
     "timerStatus": "INICIADO"
@@ -385,6 +385,54 @@
       "detail": "São Paulo 3 x 0 Atlético-MG",
       "player": {
         "name": "Finalizações"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 16,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Important",
+      "detail": "São Paulo troca passes. Sabino acha espaço pela esquerda e vai avançando até sofrer falta. Tricolor tem chance de cruzar a bola na área.",
+      "player": {
+        "name": "São Paulo troca passes. Sabino acha espaço pela "
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 17,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Important",
+      "detail": "Artur cruza a bola na área, e a defesa atleticana afasta o perigo.",
+      "player": {
+        "name": "Artur cruza a bola na área, e a defesa atletican"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 17,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Important",
+      "detail": "Zagueiros do São Paulo vão para o ataque.",
+      "player": {
+        "name": "Zagueiros do São Paulo vão para o ataque."
       },
       "assist": null
     }
@@ -844,19 +892,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "48%"
+          "value": "58%"
         },
         {
           "type": "Total Passes",
-          "value": 83
+          "value": 152
         },
         {
           "type": "Pass Accuracy",
-          "value": "86%"
+          "value": "89%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 12
+          "value": 17
         },
         {
           "type": "Total Shots",
@@ -896,7 +944,7 @@
         },
         {
           "type": "Tackles",
-          "value": 3
+          "value": 4
         },
         {
           "type": "Fouls",
@@ -920,19 +968,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "52%"
+          "value": "42%"
         },
         {
           "type": "Total Passes",
-          "value": 80
+          "value": 95
         },
         {
           "type": "Pass Accuracy",
-          "value": "80%"
+          "value": "82%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 16
+          "value": 17
         },
         {
           "type": "Total Shots",
@@ -972,11 +1020,11 @@
         },
         {
           "type": "Tackles",
-          "value": 3
+          "value": 4
         },
         {
           "type": "Fouls",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Yellow Cards",

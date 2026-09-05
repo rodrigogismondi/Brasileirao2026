@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 69
+      "elapsed": 72
     },
     "timerStart": "2026-09-05T20:09:04.771Z",
     "timerStatus": "INICIADO"
@@ -1379,6 +1379,126 @@
         "name": "Herrera cruza forte para a área e, por pouco, Fe"
       },
       "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 66,
+        "extra": null
+      },
+      "team": {
+        "id": 280,
+        "name": "Bragantino"
+      },
+      "type": "Important",
+      "detail": "O segundo tempo começou com tudo e o Bahia voltou à frente no placar! Logo aos 4 minutos, Erick aproveitou cobrança de escanteio de Nestor e cabeceou para fazer 3 a 2. O Bragantino reagiu rápido e quase empatou com Lucas Barbosa, que carimbou a trave. A partida segue lá e cá, com o Massa Bruta pressionando e o Tricolor ameaçando nos contra-ataques passados os 20 minutos.",
+      "player": {
+        "name": "Jogaço de cinco gols e muita emoção!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 66,
+        "extra": null
+      },
+      "team": {
+        "id": 280,
+        "name": "Bragantino"
+      },
+      "type": "Important",
+      "detail": "Wallace Yan tem chute bloqueado pela defesa em jogada confusa do Bragantino e exige boa defesa de Ronaldo.",
+      "player": {
+        "name": "Wallace Yan"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 67,
+        "extra": null
+      },
+      "team": {
+        "id": 265,
+        "name": "Bahia"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Ademir"
+      },
+      "assist": {
+        "name": "Erick Pulga"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 67,
+        "extra": null
+      },
+      "team": {
+        "id": 265,
+        "name": "Bahia"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Jean Lucas"
+      },
+      "assist": {
+        "name": "Erick"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 68,
+        "extra": null
+      },
+      "team": {
+        "id": 280,
+        "name": "Bragantino"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Henry Mosquera"
+      },
+      "assist": {
+        "name": "Herrera"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 69,
+        "extra": null
+      },
+      "team": {
+        "id": 280,
+        "name": "Bragantino"
+      },
+      "type": "Important",
+      "detail": "Que partida! O Bragantino abriu o placar com Lucas Barbosa, mas o Bahia virou ainda no primeiro tempo com Juba, de pênalti, e Alejo Véliz. Antes do intervalo, um gol contra de Mingo deixou tudo igual. Já na segunda etapa, aos 4 minutos, Erick aproveitou cobrança de escanteio para colocar o Tricolor em vantagem novamente: 3 a 2. O Massa Bruta pressiona e já acertou a trave com Lucas Barbosa.",
+      "player": {
+        "name": "Bahia passa à frente em jogo de cinco gols!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 69,
+        "extra": null
+      },
+      "team": {
+        "id": 280,
+        "name": "Bragantino"
+      },
+      "type": "Important",
+      "detail": "Gustavo Marques avança com liberdade na parte central do campo e arrisca chute de longa distância para boa defesa de Ronaldo no canto direito.",
+      "player": {
+        "name": "Gustavo Marques"
+      },
+      "assist": {
+        "name": "Perigo!"
+      }
     }
   ],
   "lineups": [
@@ -1836,11 +1956,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "42%"
+          "value": "45%"
         },
         {
           "type": "Total Passes",
-          "value": 222
+          "value": 245
         },
         {
           "type": "Pass Accuracy",
@@ -1848,15 +1968,15 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 46
+          "value": 52
         },
         {
           "type": "Total Shots",
-          "value": 13
+          "value": 15
         },
         {
           "type": "Shots on Goal",
-          "value": 4
+          "value": 5
         },
         {
           "type": "Shots off Goal",
@@ -1864,7 +1984,7 @@
         },
         {
           "type": "Blocked Shots",
-          "value": 3
+          "value": 4
         },
         {
           "type": "Hit Woodwork",
@@ -1872,7 +1992,7 @@
         },
         {
           "type": "Corner Kicks",
-          "value": 6
+          "value": 7
         },
         {
           "type": "Offsides",
@@ -1888,7 +2008,7 @@
         },
         {
           "type": "Tackles",
-          "value": 9
+          "value": 10
         },
         {
           "type": "Fouls",
@@ -1912,11 +2032,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "58%"
+          "value": "55%"
         },
         {
           "type": "Total Passes",
-          "value": 294
+          "value": 296
         },
         {
           "type": "Pass Accuracy",
@@ -1924,11 +2044,11 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 58
+          "value": 60
         },
         {
           "type": "Total Shots",
-          "value": 9
+          "value": 10
         },
         {
           "type": "Shots on Goal",
@@ -1936,7 +2056,7 @@
         },
         {
           "type": "Shots off Goal",
-          "value": 3
+          "value": 4
         },
         {
           "type": "Blocked Shots",
@@ -1960,11 +2080,11 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 5
+          "value": 8
         },
         {
           "type": "Tackles",
-          "value": 8
+          "value": 9
         },
         {
           "type": "Fouls",

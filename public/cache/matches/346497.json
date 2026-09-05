@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 56
+      "elapsed": 59
     },
     "timerStart": "2026-09-05T22:37:14.914Z",
     "timerStatus": "INICIADO"
@@ -1426,9 +1426,89 @@
         "name": "São Paulo"
       },
       "type": "Important",
+      "detail": "O São Paulo domina a partida, controla as ações ofensivas e acumula chances perdidas desde o apito inicial. Aos 32 minutos, Gustavo Santana marcou de cabeça, mas o VAR anulou o gol por impedimento no começo da jogada. Marcos Antônio também levou perigo, obrigando Delfim a boa defesa e, já no segundo tempo, carimbando o travessão. O Atlético-MG se fecha e só assustou aos 42, em seu único chute.",
+      "player": {
+        "name": "VAR anula gol e São Paulo pressiona"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 53,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Important",
       "detail": "Luciano chega pelo lado direito do ataque e cruza na área. Vitor Hugo desvia de cabeça e manda para escanteio.",
       "player": {
         "name": "Luciano chega pelo lado direito do ataque e cruz"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 54,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Important",
+      "detail": "O segundo tempo começou com o São Paulo mantendo a pressão. Já nos primeiros minutos, Marcos Antônio finalizou com muito perigo, por cima do travessão. Aos 9, após escanteio, foi a vez de Domingos Duarte cabecear rente à trave do Galo. O Tricolor segue dominante, repetindo o roteiro da etapa inicial, quando teve um gol de Gustavo Santana anulado, mas ainda não conseguiu tirar o zero do placar.",
+      "player": {
+        "name": "São Paulo domina, mas o zero insiste em ficar"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 54,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Important",
+      "detail": "Danielzinho cobra escanteio aberto, na marca do pênalti. Domingos Duarte cabeceia pra baixo, e a bola passa tirando tinta da meta defendida por Gabriel Bonfim.",
+      "player": {
+        "name": "Quase o primeiro!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 54,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Important",
+      "detail": "São Paulo segue na pressão. É novo escanteio.",
+      "player": {
+        "name": "São Paulo segue na pressão. É novo escanteio."
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 55,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Important",
+      "detail": "Lucas Ramon é acionado perto da área, mas cruza mal.",
+      "player": {
+        "name": "Lucas Ramon é acionado perto da área, mas cruza "
       },
       "assist": null
     }
@@ -1888,23 +1968,23 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "56%"
+          "value": "57%"
         },
         {
           "type": "Total Passes",
-          "value": 355
+          "value": 387
         },
         {
           "type": "Pass Accuracy",
-          "value": "84%"
+          "value": "83%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 56
+          "value": 64
         },
         {
           "type": "Total Shots",
-          "value": 8
+          "value": 9
         },
         {
           "type": "Shots on Goal",
@@ -1912,7 +1992,7 @@
         },
         {
           "type": "Shots off Goal",
-          "value": 6
+          "value": 7
         },
         {
           "type": "Blocked Shots",
@@ -1924,7 +2004,7 @@
         },
         {
           "type": "Corner Kicks",
-          "value": 8
+          "value": 9
         },
         {
           "type": "Offsides",
@@ -1940,11 +2020,11 @@
         },
         {
           "type": "Tackles",
-          "value": 11
+          "value": 12
         },
         {
           "type": "Fouls",
-          "value": 7
+          "value": 8
         },
         {
           "type": "Yellow Cards",
@@ -1964,19 +2044,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "44%"
+          "value": "43%"
         },
         {
           "type": "Total Passes",
-          "value": 271
+          "value": 296
         },
         {
           "type": "Pass Accuracy",
-          "value": "83%"
+          "value": "84%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 46
+          "value": 47
         },
         {
           "type": "Total Shots",
@@ -2016,11 +2096,11 @@
         },
         {
           "type": "Tackles",
-          "value": 8
+          "value": 7
         },
         {
           "type": "Fouls",
-          "value": 6
+          "value": 7
         },
         {
           "type": "Yellow Cards",

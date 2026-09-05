@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 96
+      "elapsed": 99
     },
     "timerStart": "2026-09-05T20:09:04.771Z",
     "timerStatus": "INICIADO"
@@ -1849,6 +1849,122 @@
         "name": "+ 9"
       },
       "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 92,
+        "extra": null
+      },
+      "team": {
+        "id": 280,
+        "name": "Bragantino"
+      },
+      "type": "Important",
+      "detail": "Que jogaço! Já nos acréscimos, o Bahia sustenta a vitória por 3 a 2. O Bragantino saiu na frente com Lucas Barbosa, mas viu o Bahia virar com Juba, de pênalti, e Alejo Véliz. Um gol contra de Mingo deixou tudo igual antes do intervalo, mas Erick, de cabeça no início do segundo tempo, recolocou o Tricolor em vantagem. A partida é frenética, com bola na trave e grandes defesas para os dois lados",
+      "player": {
+        "name": "Bahia segura virada em jogo de cinco gols"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 92,
+        "extra": null
+      },
+      "team": {
+        "id": 280,
+        "name": "Bragantino"
+      },
+      "type": "Important",
+      "detail": "Hurtado cobra falta muito forte, e bola passa por todo mundo dentro da área.",
+      "player": {
+        "name": "Hurtado cobra falta muito forte, e bola passa po"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 93,
+        "extra": null
+      },
+      "team": {
+        "id": 280,
+        "name": "Bragantino"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Gustavinho"
+      },
+      "assist": {
+        "name": "Rodriguinho"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 95,
+        "extra": null
+      },
+      "team": {
+        "id": 280,
+        "name": "Bragantino"
+      },
+      "type": "Important",
+      "detail": "Que partida! O Bahia virou para 3 a 2 no início do segundo tempo com gol de Erick, de cabeça, após cobrança de escanteio de Nestor. Desde então, o Bragantino se lançou ao ataque em busca do empate. Lucas Barbosa já acertou a trave e o time da casa pressiona com intensidade, parando em grandes defesas do goleiro Ronaldo, que vai segurando o resultado para os visitantes nesta reta final.",
+      "player": {
+        "name": "Bahia na frente em jogo de cinco gols!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 95,
+        "extra": null
+      },
+      "team": {
+        "id": 265,
+        "name": "Bahia"
+      },
+      "type": "Important",
+      "detail": "Kike Olivera faz grande jogada pela esquerda, tabela com Jean Lucas, mas cruza muito forte e não encontra ninguém dentro da área.",
+      "player": {
+        "name": "Kike Olivera faz grande jogada pela esquerda, ta"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 96,
+        "extra": null
+      },
+      "team": {
+        "id": 265,
+        "name": "Bahia"
+      },
+      "type": "Important",
+      "detail": "Kike Olivera ganha da marcação na ponta direita e entra sozinho na área. Mais uma vez, porém, o camisa 99 esbarra em tomadas de decisões erradas e vê defesa cortar passe rasteiro.",
+      "player": {
+        "name": "Cristian Olivera"
+      },
+      "assist": {
+        "name": "Perde mais uma"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 98,
+        "extra": null
+      },
+      "team": {
+        "id": 280,
+        "name": "Bragantino"
+      },
+      "type": "Important",
+      "detail": "Jogo parado para atendimento do meia Michel Araújo.",
+      "player": {
+        "name": "Jogo parado para atendimento do meia Michel Araú"
+      },
+      "assist": null
     }
   ],
   "lineups": [
@@ -2310,7 +2426,7 @@
         },
         {
           "type": "Total Passes",
-          "value": 338
+          "value": 350
         },
         {
           "type": "Pass Accuracy",
@@ -2318,7 +2434,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 68
+          "value": 70
         },
         {
           "type": "Total Shots",
@@ -2386,7 +2502,7 @@
         },
         {
           "type": "Total Passes",
-          "value": 368
+          "value": 387
         },
         {
           "type": "Pass Accuracy",
@@ -2394,7 +2510,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 69
+          "value": 73
         },
         {
           "type": "Total Shots",
@@ -2434,11 +2550,11 @@
         },
         {
           "type": "Tackles",
-          "value": 12
+          "value": 14
         },
         {
           "type": "Fouls",
-          "value": 14
+          "value": 15
         },
         {
           "type": "Yellow Cards",

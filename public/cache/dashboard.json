@@ -12511,7 +12511,7 @@
         "status": {
           "long": "2H",
           "short": "2H",
-          "elapsed": 65
+          "elapsed": 67
         },
         "timerStart": "2026-09-05T22:37:14.914Z",
         "timerStatus": "INICIADO"
@@ -12532,7 +12532,7 @@
         }
       },
       "goals": {
-        "home": 0,
+        "home": 1,
         "away": 0
       },
       "score": {
@@ -19092,6 +19092,28 @@
     {
       "player": {
         "id": 6,
+        "name": "Luciano",
+        "photo": "https://s.sde.globo.com/media/person_role/2026/03/27/photo_140x140_Gvi1KDn.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "name": "São Paulo",
+            "logo": "https://s.sde.globo.com/media/organizations/2014/04/14/sao_paulo_60x60.png"
+          },
+          "goals": {
+            "total": 8,
+            "assists": null
+          },
+          "games": {
+            "appearences": 0
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 7,
         "name": "Breno Lopes",
         "photo": "https://s.sde.globo.com/media/person_role/2026/02/09/photo_140x140_q6kEOrG.png"
       },
@@ -19113,7 +19135,7 @@
     },
     {
       "player": {
-        "id": 7,
+        "id": 8,
         "name": "Luciano Juba",
         "photo": "https://s.sde.globo.com/media/person_role/2026/07/06/photo_140x140_JKUCf8p.png"
       },
@@ -19135,7 +19157,7 @@
     },
     {
       "player": {
-        "id": 8,
+        "id": 9,
         "name": "Samuel Lino",
         "photo": "https://s.sde.globo.com/media/person_role/2025/07/30/photo_140x140.png"
       },
@@ -19157,7 +19179,7 @@
     },
     {
       "player": {
-        "id": 9,
+        "id": 10,
         "name": "Gabriel",
         "photo": "https://s.sde.globo.com/media/person_role/2026/03/27/photo_140x140_z4GBWzj.png"
       },
@@ -19169,28 +19191,6 @@
           },
           "goals": {
             "total": 8,
-            "assists": null
-          },
-          "games": {
-            "appearences": 0
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 10,
-        "name": "Luciano",
-        "photo": "https://s.sde.globo.com/media/person_role/2026/03/27/photo_140x140_Gvi1KDn.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "name": "São Paulo",
-            "logo": "https://s.sde.globo.com/media/organizations/2014/04/14/sao_paulo_60x60.png"
-          },
-          "goals": {
-            "total": 7,
             "assists": null
           },
           "games": {
@@ -20087,7 +20087,7 @@
     "mode": "live",
     "liveIntervalMs": 20000
   },
-  "fetchedAt": "2026-09-05T22:57:23.760Z",
+  "fetchedAt": "2026-09-05T23:00:11.657Z",
   "source": "ge-globo",
   "meta": {
     "rodada": 26,

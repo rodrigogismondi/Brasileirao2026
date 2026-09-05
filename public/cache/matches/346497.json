@@ -7,12 +7,12 @@
       "city": ""
     },
     "status": {
-      "long": "2H",
-      "short": "2H",
-      "elapsed": 95
+      "long": "FT",
+      "short": "FT",
+      "elapsed": 90
     },
     "timerStart": "2026-09-05T22:36:27.813Z",
-    "timerStatus": "INICIADO"
+    "timerStatus": "PAUSADO"
   },
   "league": {
     "round": "Regular Season - 26"
@@ -39,8 +39,8 @@
       "away": null
     },
     "fulltime": {
-      "home": null,
-      "away": null
+      "home": 2,
+      "away": 0
     }
   },
   "odds": {
@@ -2408,6 +2408,22 @@
         "extra": null
       },
       "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Important",
+      "detail": "Após um primeiro tempo de domínio sem gols, com direito a um gol anulado pelo VAR, o São Paulo deslanchou na segunda etapa. Aos 20 minutos, Luciano abriu o placar ao desviar chute de Artur. Logo depois, aos 22, Iago ampliou com um belo peixinho após cruzamento de Lucas Ramon. O Tricolor seguiu pressionando e, com o jogo já nos acréscimos, administra a vantagem de 2 a 0 no placar.",
+      "player": {
+        "name": "São Paulo abre vantagem no 2º tempo"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 93,
+        "extra": null
+      },
+      "team": {
         "id": 282,
         "name": "Atlético-MG"
       },
@@ -2415,6 +2431,54 @@
       "detail": "Yellow Card",
       "player": {
         "name": "Cuello"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 94,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Important",
+      "detail": "Falta para o São Paulo pelo lado esquerdo do ataque. Ferreira na bola.",
+      "player": {
+        "name": "Falta para o São Paulo pelo lado esquerdo do ata"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 95,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Important",
+      "detail": "Após cobrança de falta em cima da marcação, a bola sobra para Marcos Antônio, que dispara da entrada da área. A bola desvia e passa tirando tinta da trave.",
+      "player": {
+        "name": "Após cobrança de falta em cima da marcação, a bo"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 96,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Important",
+      "detail": "Apita o árbitro. É fim de jogo! O São Paulo vence o Galo!",
+      "player": {
+        "name": "Acabou"
       },
       "assist": null
     }
@@ -2878,19 +2942,19 @@
         },
         {
           "type": "Total Passes",
-          "value": 522
+          "value": 532
         },
         {
           "type": "Pass Accuracy",
-          "value": "84%"
+          "value": "83%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 85
+          "value": 88
         },
         {
           "type": "Total Shots",
-          "value": 18
+          "value": 20
         },
         {
           "type": "Shots on Goal",
@@ -2902,7 +2966,7 @@
         },
         {
           "type": "Blocked Shots",
-          "value": 3
+          "value": 5
         },
         {
           "type": "Hit Woodwork",
@@ -2910,7 +2974,7 @@
         },
         {
           "type": "Corner Kicks",
-          "value": 14
+          "value": 15
         },
         {
           "type": "Offsides",
@@ -2926,7 +2990,7 @@
         },
         {
           "type": "Tackles",
-          "value": 16
+          "value": 17
         },
         {
           "type": "Fouls",
@@ -2954,7 +3018,7 @@
         },
         {
           "type": "Total Passes",
-          "value": 443
+          "value": 450
         },
         {
           "type": "Pass Accuracy",
@@ -2962,7 +3026,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 69
+          "value": 70
         },
         {
           "type": "Total Shots",
@@ -2998,7 +3062,7 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 9
+          "value": 11
         },
         {
           "type": "Tackles",
@@ -3006,11 +3070,11 @@
         },
         {
           "type": "Fouls",
-          "value": 10
+          "value": 12
         },
         {
           "type": "Yellow Cards",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Red Cards",

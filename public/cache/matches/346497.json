@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 71
+      "elapsed": 74
     },
     "timerStart": "2026-09-05T22:37:14.914Z",
     "timerStatus": "INICIADO"
@@ -1702,8 +1702,8 @@
         "extra": null
       },
       "team": {
-        "id": 276,
-        "name": "São Paulo"
+        "id": 282,
+        "name": "Atlético-MG"
       },
       "type": "Important",
       "detail": "Artur acelera pela direita, invade a área e chuta em cima da marcação.",
@@ -1909,6 +1909,38 @@
       "assist": {
         "name": "Alexsander"
       }
+    },
+    {
+      "time": {
+        "elapsed": 71,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Important",
+      "detail": "Após um primeiro tempo de domínio e com um gol de Gustavo Santana anulado pelo VAR, o São Paulo transformou a superioridade em vantagem na segunda etapa. Aos 20 minutos, Luciano desviou para abrir o placar. A blitz tricolor continuou e, aos 22, o lateral Iago cabeceou de peixinho para ampliar a vantagem para 2 a 0, incendiando de vez a partida no Morumbis.",
+      "player": {
+        "name": "São Paulo avassalador abre 2 a 0 no Morumbis!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 71,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Important",
+      "detail": "Artur tenta passe para Luciano, mas Renan Lodi intercepta.",
+      "player": {
+        "name": "Artur tenta passe para Luciano, mas Renan Lodi i"
+      },
+      "assist": null
     }
   ],
   "lineups": [
@@ -2370,7 +2402,7 @@
         },
         {
           "type": "Total Passes",
-          "value": 439
+          "value": 461
         },
         {
           "type": "Pass Accuracy",
@@ -2378,11 +2410,11 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 72
+          "value": 73
         },
         {
           "type": "Total Shots",
-          "value": 13
+          "value": 14
         },
         {
           "type": "Shots on Goal",
@@ -2390,7 +2422,7 @@
         },
         {
           "type": "Shots off Goal",
-          "value": 8
+          "value": 9
         },
         {
           "type": "Blocked Shots",
@@ -2422,7 +2454,7 @@
         },
         {
           "type": "Fouls",
-          "value": 8
+          "value": 10
         },
         {
           "type": "Yellow Cards",
@@ -2446,15 +2478,15 @@
         },
         {
           "type": "Total Passes",
-          "value": 342
+          "value": 365
         },
         {
           "type": "Pass Accuracy",
-          "value": "83%"
+          "value": "84%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 57
+          "value": 60
         },
         {
           "type": "Total Shots",

@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 42
+      "elapsed": 47
     },
     "timerStart": "2026-09-05T21:30:45.840Z",
     "timerStatus": "INICIADO"
@@ -218,8 +218,8 @@
         "extra": null
       },
       "team": {
-        "id": 276,
-        "name": "São Paulo"
+        "id": 282,
+        "name": "Atlético-MG"
       },
       "type": "Important",
       "detail": "Após cobrança de escanteio, Gustavo Santana cabeceia para fora.",
@@ -910,8 +910,8 @@
         "extra": null
       },
       "team": {
-        "id": 276,
-        "name": "São Paulo"
+        "id": 282,
+        "name": "Atlético-MG"
       },
       "type": "Important",
       "detail": "Danielzinho cruza buscando Sabino, mas Castaño chega bem para cortar.",
@@ -933,6 +933,104 @@
       "detail": "São Paulo 57% x 43% Atlético-MG",
       "player": {
         "name": "Posse de bola"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 40,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Important",
+      "detail": "Zagueiro chuta de longe e manda para fora.",
+      "player": {
+        "name": "Sabino"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 41,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Important",
+      "detail": "O São Paulo comanda as ações na primeira etapa. O Tricolor pressiona, acumula escanteios e forçou boa defesa de Delfim em chute de Marcos Antônio. A rede até balançou aos 32 minutos, quando Gustavo Santana marcou de cabeça, mas o lance foi invalidado pelo VAR por impedimento na origem da jogada. O Atlético-MG se defende como pode, mas ainda não conseguiu finalizar ao gol.",
+      "player": {
+        "name": "Pressão Tricolor e gol anulado no Morumbis"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 41,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Important",
+      "detail": "Bernard aciona Renan Lodi na ponta esquerda, mas Arboleda toma a frente e afasta o perigo.",
+      "player": {
+        "name": "Bernard aciona Renan Lodi na ponta esquerda, mas"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 42,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Important",
+      "detail": "O São Paulo domina a partida desde o início, impondo seu ritmo com várias finalizações e escanteios. A pressão deu resultado aos 32 minutos, quando Gustavo Santana marcou de cabeça, mas o VAR anulou o gol por impedimento na origem do lance. O grito de gol ficou preso na garganta do torcedor. O Atlético-MG, recuado, só conseguiu sua primeira finalização aos 42 minutos em um chute perigoso de Natanael.",
+      "player": {
+        "name": "Pressão, gol anulado e susto no fim!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 42,
+        "extra": null
+      },
+      "team": {
+        "id": 282,
+        "name": "Atlético-MG"
+      },
+      "type": "Important",
+      "detail": "Primeiro chute do Galo! De longe, Natanael arrasca chute cruzado e a bola passa perto do gol de Rafael.",
+      "player": {
+        "name": "Natanael"
+      },
+      "assist": {
+        "name": "UUUUHHH"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 43,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Important",
+      "detail": "São Paulo 5 x 1 Atlético-MG",
+      "player": {
+        "name": "Finalizações"
       },
       "assist": null
     }
@@ -1392,11 +1490,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "57%"
+          "value": "58%"
         },
         {
           "type": "Total Passes",
-          "value": 258
+          "value": 280
         },
         {
           "type": "Pass Accuracy",
@@ -1404,11 +1502,11 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 38
+          "value": 43
         },
         {
           "type": "Total Shots",
-          "value": 3
+          "value": 5
         },
         {
           "type": "Shots on Goal",
@@ -1416,11 +1514,11 @@
         },
         {
           "type": "Shots off Goal",
-          "value": 3
+          "value": 4
         },
         {
           "type": "Blocked Shots",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Hit Woodwork",
@@ -1444,7 +1542,7 @@
         },
         {
           "type": "Tackles",
-          "value": 5
+          "value": 6
         },
         {
           "type": "Fouls",
@@ -1468,19 +1566,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "43%"
+          "value": "42%"
         },
         {
           "type": "Total Passes",
-          "value": 179
+          "value": 210
         },
         {
           "type": "Pass Accuracy",
-          "value": "83%"
+          "value": "85%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 30
+          "value": 32
         },
         {
           "type": "Total Shots",
@@ -1516,7 +1614,7 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Tackles",

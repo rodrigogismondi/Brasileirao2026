@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 92
+      "elapsed": 95
     },
     "timerStart": "2026-09-05T22:36:27.813Z",
     "timerStatus": "INICIADO"
@@ -2331,10 +2331,90 @@
         "id": 276,
         "name": "São Paulo"
       },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Djhordney"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 90,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Important",
+      "detail": "Ferreira recupera a bola pelo lado esquerdo do ataque, avança, invade a área e chuta em cima da marcação.",
+      "player": {
+        "name": "Ferreira"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 90,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Important",
+      "detail": "Depois de pressionar e ter um gol anulado no primeiro tempo, o São Paulo voltou avassalador para a segunda etapa. Aos 20 minutos, Luciano abriu o placar ao desviar para o fundo da rede. A torcida ainda comemorava quando, aos 22, Iago ampliou com um belo peixinho, fazendo 2 a 0. Com o resultado construído, o Tricolor domina completamente as ações na reta final da partida.",
+      "player": {
+        "name": "São Paulo mata o jogo em dois minutos!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 90,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
       "type": "Important",
       "detail": "Vamos até 51 minutos neste segundo tempo.",
       "player": {
         "name": "Mais seis"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 91,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Important",
+      "detail": "Sabino dá um carrinho em Cuello, que acaba pisando na perna do zagueiro. Os dois ficam caídos com dores.",
+      "player": {
+        "name": "Sabino dá um carrinho em Cuello, que acaba pisan"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 93,
+        "extra": null
+      },
+      "team": {
+        "id": 282,
+        "name": "Atlético-MG"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Cuello"
       },
       "assist": null
     }
@@ -2798,7 +2878,7 @@
         },
         {
           "type": "Total Passes",
-          "value": 520
+          "value": 522
         },
         {
           "type": "Pass Accuracy",
@@ -2806,7 +2886,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 84
+          "value": 85
         },
         {
           "type": "Total Shots",
@@ -2846,15 +2926,15 @@
         },
         {
           "type": "Tackles",
-          "value": 17
+          "value": 16
         },
         {
           "type": "Fouls",
-          "value": 12
+          "value": 13
         },
         {
           "type": "Yellow Cards",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Red Cards",
@@ -2874,7 +2954,7 @@
         },
         {
           "type": "Total Passes",
-          "value": 421
+          "value": 443
         },
         {
           "type": "Pass Accuracy",
@@ -2882,7 +2962,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 66
+          "value": 69
         },
         {
           "type": "Total Shots",
@@ -2918,7 +2998,7 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 8
+          "value": 9
         },
         {
           "type": "Tackles",

@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 84
+      "elapsed": 87
     },
     "timerStart": "2026-09-05T20:09:04.771Z",
     "timerStatus": "INICIADO"
@@ -1665,6 +1665,126 @@
       "assist": {
         "name": "Defende Ronaldo!"
       }
+    },
+    {
+      "time": {
+        "elapsed": 81,
+        "extra": null
+      },
+      "team": {
+        "id": 280,
+        "name": "Bragantino"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Jhuan Nunes"
+      },
+      "assist": {
+        "name": "Lucas Barbosa"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 81,
+        "extra": null
+      },
+      "team": {
+        "id": 265,
+        "name": "Bahia"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Willian José"
+      },
+      "assist": {
+        "name": "Alejo Véliz"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 82,
+        "extra": null
+      },
+      "team": {
+        "id": 280,
+        "name": "Bragantino"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Ryan Augusto"
+      },
+      "assist": {
+        "name": "Andrés Hurtado"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 82,
+        "extra": null
+      },
+      "team": {
+        "id": 280,
+        "name": "Bragantino"
+      },
+      "type": "Important",
+      "detail": "O segundo tempo começou com o Bahia marcando o terceiro gol logo aos 4 minutos, com Erick, de cabeça, após cobrança de escanteio. Desde então, o que se vê é um ataque contra defesa. O Bragantino foi para cima com tudo, acertou a trave com Lucas Barbosa e parou em uma série de defesas espetaculares do goleiro Ronaldo, que segura a vantagem de 3 a 2 para o time baiano na reta final da partida.",
+      "player": {
+        "name": "Jogaço de 5 gols em Bragança!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 82,
+        "extra": null
+      },
+      "team": {
+        "id": 280,
+        "name": "Bragantino"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Vinicinho"
+      },
+      "assist": {
+        "name": "Wallace Yan"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 85,
+        "extra": null
+      },
+      "team": {
+        "id": 280,
+        "name": "Bragantino"
+      },
+      "type": "Important",
+      "detail": "Que partida movimentada! Já na reta final do segundo tempo, o Bahia vai vencendo por 3 a 2. O Bragantino abriu o placar com Lucas Barbosa, mas sofreu a virada com gols de Juba, de pênalti, e Alejo Véliz. Um gol contra de Mingo deixou tudo igual antes do intervalo, mas Erick, de cabeça, colocou o Tricolor na frente novamente. Agora, o Braga pressiona, já carimbou a trave e para nas defesas de Ronaldo.",
+      "player": {
+        "name": "Bahia na frente em jogo de cinco gols!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 85,
+        "extra": null
+      },
+      "team": {
+        "id": 280,
+        "name": "Bragantino"
+      },
+      "type": "Important",
+      "detail": "Bragantino parece não conseguir criar com tanta intensidade, enquanto o Bahia só espera a oportunidade de partir em contra-ataque para matar o jogo.",
+      "player": {
+        "name": "Bragantino parece não conseguir criar com tanta "
+      },
+      "assist": null
     }
   ],
   "lineups": [
@@ -2122,11 +2242,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "44%"
+          "value": "45%"
         },
         {
           "type": "Total Passes",
-          "value": 290
+          "value": 302
         },
         {
           "type": "Pass Accuracy",
@@ -2134,15 +2254,15 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 60
+          "value": 63
         },
         {
           "type": "Total Shots",
-          "value": 19
+          "value": 21
         },
         {
           "type": "Shots on Goal",
-          "value": 9
+          "value": 10
         },
         {
           "type": "Shots off Goal",
@@ -2150,7 +2270,7 @@
         },
         {
           "type": "Blocked Shots",
-          "value": 4
+          "value": 5
         },
         {
           "type": "Hit Woodwork",
@@ -2174,7 +2294,7 @@
         },
         {
           "type": "Tackles",
-          "value": 12
+          "value": 13
         },
         {
           "type": "Fouls",
@@ -2198,19 +2318,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "56%"
+          "value": "55%"
         },
         {
           "type": "Total Passes",
-          "value": 325
+          "value": 336
         },
         {
           "type": "Pass Accuracy",
-          "value": "81%"
+          "value": "82%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 61
+          "value": 62
         },
         {
           "type": "Total Shots",
@@ -2246,11 +2366,11 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 12
+          "value": 13
         },
         {
           "type": "Tackles",
-          "value": 11
+          "value": 12
         },
         {
           "type": "Fouls",

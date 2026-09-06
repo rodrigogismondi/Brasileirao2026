@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 50
+      "elapsed": 56
     },
     "timerStart": "2026-09-06T19:00:29.774Z",
     "timerStatus": "INICIADO"
@@ -1096,9 +1096,123 @@
         "name": ""
       },
       "type": "Important",
+      "detail": "O Cruzeiro pressionou desde o início, mas só abriu o placar aos 29 minutos, com Matheus Pereira se jogando na bola para fazer 1 a 0. A equipe da casa ainda teve um gol de Matheus Henrique anulado por impedimento. No entanto, quando o primeiro tempo se encaminhava para o fim, o Athletico-PR reagiu em grande estilo: João Cruz acertou um chutaço de fora da área e deixou tudo igual no Mineirão",
+      "player": {
+        "name": "Gols no fim e empate no primeiro tempo!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 49,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
       "detail": "Matheus Pereira tenta jogada individual e caí em falta de Luiz Gustavo",
       "player": {
         "name": "Matheus Pereira tenta jogada individual e caí em"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 50,
+        "extra": null
+      },
+      "team": {
+        "id": 283,
+        "name": "Cruzeiro"
+      },
+      "type": "Important",
+      "detail": "Jogo paralisado! VAR revisa possível pênalti para o Cruzeiro.",
+      "player": {
+        "name": "Jogo paralisado! VAR revisa possível pênalti par"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 51,
+        "extra": null
+      },
+      "team": {
+        "id": 283,
+        "name": "Cruzeiro"
+      },
+      "type": "Important",
+      "detail": "No lance de Matheus Pereira com Luiz Gustavo, o pé do jogador cruzeirense estava ainda dentro da área. O camisa 10 se prepara para a cobrança.",
+      "player": {
+        "name": "PÊNALTI PARA O CRUZEIRO!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 52,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Cruzeiro começou pressionando e abriu o placar com Matheus Pereira, de peixinho, aos 29 minutos. A equipe ainda teve um gol de Matheus Henrique anulado pelo VAR. Mas aos 45, João Cruz acertou um belo chute de fora da área e empatou para o Athletico-PR. Nos acréscimos, Matheus Pereira teve a chance da virada em um pênalti, mas o goleiro Mycael fez uma defesa espetacular! Tudo igual, 1 a 1.",
+      "player": {
+        "name": "Final de 1º tempo maluco no Mineirão!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 52,
+        "extra": null
+      },
+      "team": {
+        "id": 293,
+        "name": "Athletico-PR"
+      },
+      "type": "Important",
+      "detail": "Matheus Pereira bate no canto direito, mas Mycael pula para fazer a defesa!",
+      "player": {
+        "name": "Mycael"
+      },
+      "assist": {
+        "name": "DEFENDEU!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 53,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "João Cruz bate escanteio com endereço, mas Otávio defende.",
+      "player": {
+        "name": "João Cruz bate escanteio com endereço, mas Otávi"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 54,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Árbitra apita o fim do primeiro tempo. 1 a 1 no Mineirão!",
+      "player": {
+        "name": "FIM DE PRIMEIRO TEMPO!"
       },
       "assist": null
     }
@@ -1562,7 +1676,7 @@
         },
         {
           "type": "Total Passes",
-          "value": 279
+          "value": 289
         },
         {
           "type": "Pass Accuracy",
@@ -1570,15 +1684,15 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 35
+          "value": 37
         },
         {
           "type": "Total Shots",
-          "value": 9
+          "value": 10
         },
         {
           "type": "Shots on Goal",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Shots off Goal",
@@ -1602,15 +1716,15 @@
         },
         {
           "type": "Penalties",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Tackles",
-          "value": 6
+          "value": 7
         },
         {
           "type": "Fouls",
@@ -1638,23 +1752,23 @@
         },
         {
           "type": "Total Passes",
-          "value": 177
+          "value": 185
         },
         {
           "type": "Pass Accuracy",
-          "value": "82%"
+          "value": "81%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 32
+          "value": 35
         },
         {
           "type": "Total Shots",
-          "value": 6
+          "value": 7
         },
         {
           "type": "Shots on Goal",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Shots off Goal",
@@ -1670,7 +1784,7 @@
         },
         {
           "type": "Corner Kicks",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Offsides",
@@ -1682,7 +1796,7 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Tackles",

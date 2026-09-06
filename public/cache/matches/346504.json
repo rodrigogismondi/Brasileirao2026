@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 46
+      "elapsed": 51
     },
     "timerStart": "2026-09-06T19:05:23.218Z",
     "timerStatus": "INICIADO"
@@ -884,6 +884,22 @@
         "extra": null
       },
       "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O jogo se aproxima do fim do primeiro tempo com chances para os dois lados no Mangueirão. O Flamengo teve mais volume e levou perigo com Arrascaeta e Lino, mas foi o Remo que teve a oportunidade mais clara, quando Taliari saiu cara a cara com Rossi e desperdiçou. Os goleiros são os nomes da partida até aqui, com Marcelo Rangel e Rossi fazendo defesas decisivas para manter o placar zerado.",
+      "player": {
+        "name": "Chances claras e goleiros em destaque!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 44,
+        "extra": null
+      },
+      "team": {
         "id": 364,
         "name": "Remo"
       },
@@ -895,6 +911,118 @@
       "assist": {
         "name": "ROSSI DEFENDE!"
       }
+    },
+    {
+      "time": {
+        "elapsed": 45,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Patrick cobra escanteio venenoso, e Rossi manda de novo para escanteio. Quase gol olímpico!",
+      "player": {
+        "name": "QUE PERIGO!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 46,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Pedro afasta de cabeça o perigo.",
+      "player": {
+        "name": "Pedro afasta de cabeça o perigo."
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 46,
+        "extra": null
+      },
+      "team": {
+        "id": 364,
+        "name": "Remo"
+      },
+      "type": "Important",
+      "detail": "Patrick cobra mais um escanteio venenoso, mas a bola vai para escanteio novamente. Mais uma chance para o Remo.",
+      "player": {
+        "name": "DE NOVO!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 47,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Patrick cruza com perigo, e Rossi sai nela para ficar com a posse.",
+      "player": {
+        "name": "Patrick cruza com perigo, e Rossi sai nela para "
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 47,
+        "extra": null
+      },
+      "team": {
+        "id": 364,
+        "name": "Remo"
+      },
+      "type": "Important",
+      "detail": "Falta de Samuel Lino. O Remo pressiona.",
+      "player": {
+        "name": "Falta de Samuel Lino. O Remo pressiona."
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 47,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O jogo termina o primeiro tempo sem gols, mas com muita agitação. O Flamengo dominou e empilhou chances, parando em grande defesa de Marcelo Rangel em chute de Samuel Lino. O Remo, por sua vez, teve a oportunidade mais clara da partida, mas Taliari desperdiçou um lance cara a cara com o goleiro. No fim, o time paraense cresceu e obrigou Rossi a trabalhar em cabeçada e em quase gol olímpico.",
+      "player": {
+        "name": "Chances perdidas e defesas marcam a etapa inicial"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 47,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Vamos até os 48 minutos.",
+      "player": {
+        "name": "+3"
+      },
+      "assist": null
     }
   ],
   "lineups": [
@@ -1352,27 +1480,27 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "31%"
+          "value": "34%"
         },
         {
           "type": "Total Passes",
-          "value": 154
+          "value": 169
         },
         {
           "type": "Pass Accuracy",
-          "value": "77%"
+          "value": "76%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 36
+          "value": 40
         },
         {
           "type": "Total Shots",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Shots on Goal",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Shots off Goal",
@@ -1388,7 +1516,7 @@
         },
         {
           "type": "Corner Kicks",
-          "value": 0
+          "value": 3
         },
         {
           "type": "Offsides",
@@ -1408,7 +1536,7 @@
         },
         {
           "type": "Fouls",
-          "value": 3
+          "value": 4
         },
         {
           "type": "Yellow Cards",
@@ -1428,11 +1556,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "69%"
+          "value": "66%"
         },
         {
           "type": "Total Passes",
-          "value": 368
+          "value": 378
         },
         {
           "type": "Pass Accuracy",
@@ -1440,7 +1568,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 44
+          "value": 45
         },
         {
           "type": "Total Shots",
@@ -1476,7 +1604,7 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Tackles",

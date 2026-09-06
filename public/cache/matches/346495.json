@@ -7,12 +7,12 @@
       "city": ""
     },
     "status": {
-      "long": "1H",
-      "short": "1H",
-      "elapsed": 54
+      "long": "HT",
+      "short": "HT",
+      "elapsed": 45
     },
-    "timerStart": "2026-09-06T00:00:10.080Z",
-    "timerStatus": "INICIADO"
+    "timerStart": "2026-09-06T00:51:20.269Z",
+    "timerStatus": "PAUSADO"
   },
   "league": {
     "round": "Regular Season - 26"
@@ -50,6 +50,38 @@
     "source": "betexplorer"
   },
   "events": [
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "Important",
+      "detail": "Um jogo de faltas e reclamações, mas de poucas chances claras. Fluminense e Vasco foram ao intervalo com o 0 a 0 no placar. O Vasco começou melhor e com forte pressão. O time cruzmaltino criou as melhores chances, mas não ameaçou a ponto de chegar tão perto de abrir o placar. O Fluminense demorou para responder e não teve oportunidades claras. A primeira etapa foi marcada por muitas faltas e muitas reclamações contra a arbitragem. Ao todo, foram dado sete amarelos.",
+      "player": {
+        "name": "PRIMEIRO TEMPO"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Soteldo"
+      },
+      "assist": null
+    },
     {
       "time": {
         "elapsed": 0,
@@ -933,6 +965,38 @@
         "name": "Ignácio"
       },
       "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 50,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Hulk"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 51,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "Important",
+      "detail": "O Vasco dominou a primeira etapa, pressionando no campo de ataque e criando as melhores chances. Piton parou em grande defesa de Fábio, e Thiago Mendes quase marcou após erro da zaga. O jogo esquentou, com confusão nos bancos e vários cartões distribuídos. O Fluminense sofreu para jogar, mas nos acréscimos teve a bola do jogo: Hulk saiu na cara de Léo Jardim, mas desperdiçou uma chance incrível.",
+      "player": {
+        "name": "Clima quente e chances perdidas no 1º tempo"
+      },
+      "assist": null
     }
   ],
   "lineups": [
@@ -1450,7 +1514,7 @@
         },
         {
           "type": "Yellow Cards",
-          "value": 3
+          "value": 4
         },
         {
           "type": "Red Cards",
@@ -1470,7 +1534,7 @@
         },
         {
           "type": "Total Passes",
-          "value": 289
+          "value": 291
         },
         {
           "type": "Pass Accuracy",

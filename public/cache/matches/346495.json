@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 42
+      "elapsed": 45
     },
     "timerStart": "2026-09-06T00:00:10.080Z",
     "timerStatus": "INICIADO"
@@ -773,6 +773,38 @@
         "name": "Paulo Henrique"
       },
       "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 41,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "Important",
+      "detail": "O Vasco comanda as ações na primeira etapa, com muito volume de jogo no campo de ataque. O time visitante criou as melhores chances até aqui, com Thiago Mendes parando em um bloqueio crucial de Renê e Lucas Piton exigindo grande defesa de Fábio em um chute forte. O Fluminense tem dificuldades para responder. O clima esquentou com uma confusão nos bancos e vários cartões amarelos distribuídos.",
+      "player": {
+        "name": "Vasco pressiona e o clima esquenta!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 41,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "Important",
+      "detail": "Paulo Henrique faz falta em Renê e jogadores do Fluminense pedem a expulsão do lateral, que acabou de receber o amarelo. Nada de cartão.",
+      "player": {
+        "name": "Paulo Henrique faz falta em Renê e jogadores do "
+      },
+      "assist": null
     }
   ],
   "lineups": [
@@ -1230,19 +1262,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "43%"
+          "value": "45%"
         },
         {
           "type": "Total Passes",
-          "value": 160
+          "value": 179
         },
         {
           "type": "Pass Accuracy",
-          "value": "82%"
+          "value": "83%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 29
+          "value": 31
         },
         {
           "type": "Total Shots",
@@ -1306,11 +1338,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "57%"
+          "value": "55%"
         },
         {
           "type": "Total Passes",
-          "value": 229
+          "value": 243
         },
         {
           "type": "Pass Accuracy",
@@ -1318,7 +1350,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 35
+          "value": 36
         },
         {
           "type": "Total Shots",
@@ -1358,15 +1390,15 @@
         },
         {
           "type": "Tackles",
-          "value": 9
+          "value": 10
         },
         {
           "type": "Fouls",
-          "value": 6
+          "value": 8
         },
         {
           "type": "Yellow Cards",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Red Cards",

@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 30
+      "elapsed": 33
     },
     "timerStart": "2026-09-06T00:00:10.080Z",
     "timerStatus": "INICIADO"
@@ -613,6 +613,54 @@
         "name": "Ganso busca passe para Canobbio na grande área. "
       },
       "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 29,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "Important",
+      "detail": "O Vasco comanda as ações na primeira metade da etapa inicial, impondo uma forte pressão no campo de ataque. As melhores chances saíram dos pés de Thiago Mendes, que parou em bloqueio de Renê, e de Lucas Piton, em chute que exigiu boa defesa de Fábio. O jogo também ficou tenso, com cartões e uma confusão entre os bancos de reservas, enquanto o Fluminense encontra dificuldades para criar.",
+      "player": {
+        "name": "Vasco domina e o clima esquenta no clássico"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 29,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "Important",
+      "detail": "Cuesta arrisca de fora da área, chuta muito mal e manda para fora.",
+      "player": {
+        "name": "Cuesta arrisca de fora da área, chuta muito mal "
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 31,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "Important",
+      "detail": "Vasco pressiona o Fluminense com cruzamentos, mas sem conseguir chutar ao gol. Sequência termina com lançamento para fora de Thiago Mendes.",
+      "player": {
+        "name": "Vasco pressiona o Fluminense com cruzamentos, ma"
+      },
+      "assist": null
     }
   ],
   "lineups": [
@@ -1070,11 +1118,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "40%"
+          "value": "39%"
         },
         {
           "type": "Total Passes",
-          "value": 111
+          "value": 126
         },
         {
           "type": "Pass Accuracy",
@@ -1082,7 +1130,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 21
+          "value": 24
         },
         {
           "type": "Total Shots",
@@ -1122,7 +1170,7 @@
         },
         {
           "type": "Tackles",
-          "value": 5
+          "value": 6
         },
         {
           "type": "Fouls",
@@ -1146,23 +1194,23 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "60%"
+          "value": "61%"
         },
         {
           "type": "Total Passes",
-          "value": 177
+          "value": 196
         },
         {
           "type": "Pass Accuracy",
-          "value": "84%"
+          "value": "85%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 28
+          "value": 29
         },
         {
           "type": "Total Shots",
-          "value": 5
+          "value": 6
         },
         {
           "type": "Shots on Goal",
@@ -1170,7 +1218,7 @@
         },
         {
           "type": "Shots off Goal",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Blocked Shots",
@@ -1202,7 +1250,7 @@
         },
         {
           "type": "Fouls",
-          "value": 4
+          "value": 5
         },
         {
           "type": "Yellow Cards",

@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 6
+      "elapsed": 9
     },
     "timerStart": "2026-09-06T19:05:23.218Z",
     "timerStatus": "INICIADO"
@@ -120,6 +120,22 @@
         "extra": null
       },
       "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O jogo mal começou e o Flamengo já mostra a que veio. Com menos de 5 minutos, o time visitante criou duas boas oportunidades: primeiro com Arrascaeta, que finalizou para fora, e depois em uma jogada bem trabalhada por Pedro e Samuel Lino que terminou com Carrascal chutando por cima do gol. O Remo tenta se organizar e respondeu em uma chegada de Patrick, mas a pressão inicial é do Flamengo.",
+      "player": {
+        "name": "Flamengo pressiona no começo da partida"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 4,
+        "extra": null
+      },
+      "team": {
         "id": 262,
         "name": "Flamengo"
       },
@@ -161,6 +177,38 @@
       "detail": "Flamengo troca passes na defesa",
       "player": {
         "name": "Flamengo troca passes na defesa"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 6,
+        "extra": null
+      },
+      "team": {
+        "id": 364,
+        "name": "Remo"
+      },
+      "type": "Important",
+      "detail": "Ayrton Lucas chega pela esquerda e cruza rasteiro para a área, mas erra o passe. Samuel Lino faz falta de ataque, e a posse fica com o Remo.",
+      "player": {
+        "name": "Ayrton Lucas chega pela esquerda e cruza rasteir"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 6,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O jogo é lá e cá no Mangueirão.",
+      "player": {
+        "name": "O jogo é lá e cá no Mangueirão."
       },
       "assist": null
     }
@@ -624,15 +672,15 @@
         },
         {
           "type": "Total Passes",
-          "value": 9
+          "value": 20
         },
         {
           "type": "Pass Accuracy",
-          "value": "33%"
+          "value": "50%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 6
+          "value": 10
         },
         {
           "type": "Total Shots",
@@ -700,19 +748,19 @@
         },
         {
           "type": "Total Passes",
-          "value": 45
+          "value": 72
         },
         {
           "type": "Pass Accuracy",
-          "value": "98%"
+          "value": "94%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 1
+          "value": 4
         },
         {
           "type": "Total Shots",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Shots on Goal",
@@ -720,7 +768,7 @@
         },
         {
           "type": "Shots off Goal",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Blocked Shots",
@@ -748,11 +796,11 @@
         },
         {
           "type": "Tackles",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Fouls",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Yellow Cards",

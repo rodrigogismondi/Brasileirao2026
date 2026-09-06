@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 11
+      "elapsed": 14
     },
     "timerStart": "2026-09-06T19:00:29.774Z",
     "timerStatus": "INICIADO"
@@ -293,6 +293,90 @@
         "name": "Matheus Pereira tenta passe para Kaio Jorge, mas"
       },
       "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 10,
+        "extra": null
+      },
+      "team": {
+        "id": 293,
+        "name": "Athletico-PR"
+      },
+      "type": "Important",
+      "detail": "Leozinho recebe boa bola do lado direito e cruza rasteiro para a área. Gilberto arrisca, mas Otávio faz boa defesa!",
+      "player": {
+        "name": "Leozinho"
+      },
+      "assist": {
+        "name": "PRIMEIRA CHEGADA DO FURACÃO"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 11,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Cruzeiro começou a partida impondo um forte ritmo nos primeiros minutos. A equipe celeste criou boas oportunidades com Matheus Henrique e Gerson, mas a melhor chance foi de Gabriel Rojas, que chutou por cima. O Athletico-PR encontrou dificuldades, mas respondeu aos 10 minutos em finalização de Gilberto, bem defendida por Otávio. O placar segue zerado apesar da pressão inicial.",
+      "player": {
+        "name": "Cruzeiro pressiona, mas peca na finalização"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 11,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "João Cruz arrisca de muito longe e vê a bola passar por cima do gol.",
+      "player": {
+        "name": "CALMA, JOGADOR!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 12,
+        "extra": null
+      },
+      "team": {
+        "id": 293,
+        "name": "Athletico-PR"
+      },
+      "type": "Important",
+      "detail": "Matheus Henrique tenta tabela com Matheus Pereira, mas o Athletico-PR marca bem. Bola travada no meio de campo.",
+      "player": {
+        "name": "Matheus Henrique tenta tabela com Matheus Pereir"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 13,
+        "extra": null
+      },
+      "team": {
+        "id": 293,
+        "name": "Athletico-PR"
+      },
+      "type": "Important",
+      "detail": "Leozinho chega com liberdade da área, dribla, e chuta colocado. A bola não desvia conforme o meia planejou. Para fora! Resposta do Furacão!",
+      "player": {
+        "name": "Leozinho"
+      },
+      "assist": {
+        "name": "UHHHHH!"
+      }
     }
   ],
   "lineups": [
@@ -750,19 +834,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "62%"
+          "value": "60%"
         },
         {
           "type": "Total Passes",
-          "value": 67
+          "value": 89
         },
         {
           "type": "Pass Accuracy",
-          "value": "90%"
+          "value": "87%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 7
+          "value": 12
         },
         {
           "type": "Total Shots",
@@ -798,11 +882,11 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Tackles",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Fouls",
@@ -826,27 +910,27 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "38%"
+          "value": "40%"
         },
         {
           "type": "Total Passes",
-          "value": 29
+          "value": 56
         },
         {
           "type": "Pass Accuracy",
-          "value": "83%"
+          "value": "86%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 5
+          "value": 8
         },
         {
           "type": "Total Shots",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Shots on Goal",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Shots off Goal",
@@ -878,11 +962,11 @@
         },
         {
           "type": "Tackles",
-          "value": 0
+          "value": 2
         },
         {
           "type": "Fouls",
-          "value": 1
+          "value": 3
         },
         {
           "type": "Yellow Cards",

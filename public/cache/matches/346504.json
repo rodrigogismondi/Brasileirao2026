@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 34
+      "elapsed": 36
     },
     "timerStart": "2026-09-06T19:05:23.218Z",
     "timerStatus": "INICIADO"
@@ -674,6 +674,22 @@
         "extra": null
       },
       "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Após 30 minutos de um jogo aberto no Mangueirão, as duas equipes já criaram chances claríssimas. Com o gramado pesado pela chuva, o Remo desperdiçou uma oportunidade incrível com Taliari, que saiu cara a cara com o goleiro e hesitou. O Flamengo respondeu logo depois, mas Samuel Lino parou em uma defesa espetacular de Marcelo Rangel. Um recuo perigoso de Léo Pereira ainda assustou a torcida do Fla.",
+      "player": {
+        "name": "Chances incríveis e gramado pesado em Belém!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 31,
+        "extra": null
+      },
+      "team": {
         "id": 262,
         "name": "Flamengo"
       },
@@ -685,6 +701,22 @@
       "assist": {
         "name": "QUE SUSTO!"
       }
+    },
+    {
+      "time": {
+        "elapsed": 34,
+        "extra": null
+      },
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "Important",
+      "detail": "Pedro recebe a bola após corta-luz de Arrascaeta, mas arrisca de longe e finaliza por cima sem perigo. Flamengo domina a partida.",
+      "player": {
+        "name": "Pedro recebe a bola após corta-luz de Arrascaeta"
+      },
+      "assist": null
     }
   ],
   "lineups": [
@@ -1142,19 +1174,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "32%"
+          "value": "31%"
         },
         {
           "type": "Total Passes",
-          "value": 106
+          "value": 110
         },
         {
           "type": "Pass Accuracy",
-          "value": "74%"
+          "value": "73%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 28
+          "value": 30
         },
         {
           "type": "Total Shots",
@@ -1194,7 +1226,7 @@
         },
         {
           "type": "Tackles",
-          "value": 7
+          "value": 8
         },
         {
           "type": "Fouls",
@@ -1218,19 +1250,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "68%"
+          "value": "69%"
         },
         {
           "type": "Total Passes",
-          "value": 272
+          "value": 316
         },
         {
           "type": "Pass Accuracy",
-          "value": "88%"
+          "value": "89%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 32
+          "value": 34
         },
         {
           "type": "Total Shots",

@@ -12661,7 +12661,7 @@
         "status": {
           "long": "1H",
           "short": "1H",
-          "elapsed": 38
+          "elapsed": 41
         },
         "timerStart": "2026-09-06T19:00:29.774Z",
         "timerStatus": "INICIADO"
@@ -12713,7 +12713,7 @@
         "status": {
           "long": "1H",
           "short": "1H",
-          "elapsed": 38
+          "elapsed": 41
         },
         "timerStart": "2026-09-06T19:00:38.573Z",
         "timerStatus": "INICIADO"
@@ -12735,7 +12735,7 @@
       },
       "goals": {
         "home": 0,
-        "away": 2
+        "away": 3
       },
       "score": {
         "halftime": {
@@ -12765,7 +12765,7 @@
         "status": {
           "long": "1H",
           "short": "1H",
-          "elapsed": 34
+          "elapsed": 36
         },
         "timerStart": "2026-09-06T19:05:23.218Z",
         "timerStatus": "INICIADO"
@@ -18588,18 +18588,18 @@
                 "name": "Athletico-PR",
                 "logo": "https://s.sde.globo.com/media/organizations/2026/01/07/Athletico-PR.svg"
               },
-              "points": 46,
-              "goalsDiff": 12,
-              "form": "WDWDD",
+              "points": 45,
+              "goalsDiff": 11,
+              "form": "WDWDL",
               "description": "Copa Libertadores",
               "all": {
                 "played": 26,
                 "win": 13,
-                "draw": 7,
-                "lose": 6,
+                "draw": 6,
+                "lose": 7,
                 "goals": {
                   "for": 37,
-                  "against": 25
+                  "against": 26
                 }
               }
             },
@@ -18654,17 +18654,17 @@
                 "name": "Cruzeiro",
                 "logo": "https://s.sde.globo.com/media/organizations/2021/02/13/cruzeiro_2021.svg"
               },
-              "points": 40,
-              "goalsDiff": -1,
-              "form": "WWWLD",
+              "points": 42,
+              "goalsDiff": 0,
+              "form": "WWWLW",
               "description": "Copa Sudamericana",
               "all": {
                 "played": 26,
-                "win": 11,
-                "draw": 7,
+                "win": 12,
+                "draw": 6,
                 "lose": 8,
                 "goals": {
-                  "for": 35,
+                  "for": 36,
                   "against": 36
                 }
               }
@@ -18760,6 +18760,28 @@
             {
               "rank": 11,
               "team": {
+                "id": 277,
+                "name": "Santos",
+                "logo": "https://s.sde.globo.com/media/organizations/2018/03/12/santos.svg"
+              },
+              "points": 32,
+              "goalsDiff": 1,
+              "form": "LWDWW",
+              "description": "Copa Sudamericana",
+              "all": {
+                "played": 25,
+                "win": 8,
+                "draw": 8,
+                "lose": 9,
+                "goals": {
+                  "for": 37,
+                  "against": 36
+                }
+              }
+            },
+            {
+              "rank": 12,
+              "team": {
                 "id": 264,
                 "name": "Corinthians",
                 "logo": "https://s.sde.globo.com/media/organizations/2024/10/09/Corinthians_2024_Q4ahot4.svg"
@@ -18767,7 +18789,7 @@
               "points": 32,
               "goalsDiff": 1,
               "form": "DWLLL",
-              "description": "Copa Sudamericana",
+              "description": null,
               "all": {
                 "played": 25,
                 "win": 8,
@@ -18776,28 +18798,6 @@
                 "goals": {
                   "for": 26,
                   "against": 25
-                }
-              }
-            },
-            {
-              "rank": 12,
-              "team": {
-                "id": 277,
-                "name": "Santos",
-                "logo": "https://s.sde.globo.com/media/organizations/2018/03/12/santos.svg"
-              },
-              "points": 32,
-              "goalsDiff": 0,
-              "form": "LWDWW",
-              "description": null,
-              "all": {
-                "played": 25,
-                "win": 8,
-                "draw": 8,
-                "lose": 9,
-                "goals": {
-                  "for": 36,
-                  "against": 36
                 }
               }
             },
@@ -18919,7 +18919,7 @@
                 "logo": "https://s.sde.globo.com/media/organizations/2018/03/11/internacional.svg"
               },
               "points": 25,
-              "goalsDiff": -7,
+              "goalsDiff": -8,
               "form": "DDDLL",
               "description": "Relegation",
               "all": {
@@ -18929,7 +18929,7 @@
                 "lose": 11,
                 "goals": {
                   "for": 26,
-                  "against": 33
+                  "against": 34
                 }
               }
             },
@@ -20091,7 +20091,7 @@
     "mode": "live",
     "liveIntervalMs": 20000
   },
-  "fetchedAt": "2026-09-06T19:39:25.413Z",
+  "fetchedAt": "2026-09-06T19:42:11.706Z",
   "source": "ge-globo",
   "meta": {
     "rodada": 26,

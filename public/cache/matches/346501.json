@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 38
+      "elapsed": 41
     },
     "timerStart": "2026-09-06T19:00:38.573Z",
     "timerStatus": "INICIADO"
@@ -31,7 +31,7 @@
   },
   "goals": {
     "home": 0,
-    "away": 2
+    "away": 3
   },
   "score": {
     "halftime": {
@@ -703,6 +703,54 @@
         "name": "Caballero tenta o avanço pela esquerda, mas é de"
       },
       "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 38,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Inter começou com a posse de bola, mas um erro individual de Félix Torres aos 7 minutos mudou tudo, permitindo que Gabriel abrisse o placar para o Santos. O cenário piorou para os donos da casa quando Matheus Bahia cometeu pênalti e foi expulso. Gabriel converteu e fez o segundo. Para completar o pesadelo colorado, Oliva marcou o terceiro gol aos 38, deixando o placar em 3 a 0 para o Peixe.",
+      "player": {
+        "name": "Desastre colorado: Santos passeia em 38 minutos"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 38,
+        "extra": null
+      },
+      "team": {
+        "id": 277,
+        "name": "Santos"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "player": {
+        "name": "Oliva"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 38,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Rollheiser tenta o passe, a bola divide com Ronaldo, e Matheus Cunha não evita o escanteio",
+      "player": {
+        "name": "Rollheiser tenta o passe, a bola divide com Rona"
+      },
+      "assist": null
     }
   ],
   "lineups": [
@@ -1164,7 +1212,7 @@
         },
         {
           "type": "Total Passes",
-          "value": 184
+          "value": 195
         },
         {
           "type": "Pass Accuracy",
@@ -1172,7 +1220,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 32
+          "value": 33
         },
         {
           "type": "Total Shots",
@@ -1212,7 +1260,7 @@
         },
         {
           "type": "Tackles",
-          "value": 5
+          "value": 6
         },
         {
           "type": "Fouls",
@@ -1240,23 +1288,23 @@
         },
         {
           "type": "Total Passes",
-          "value": 136
+          "value": 154
         },
         {
           "type": "Pass Accuracy",
-          "value": "82%"
+          "value": "84%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 24
+          "value": 25
         },
         {
           "type": "Total Shots",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Shots on Goal",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Shots off Goal",
@@ -1288,11 +1336,11 @@
         },
         {
           "type": "Tackles",
-          "value": 9
+          "value": 10
         },
         {
           "type": "Fouls",
-          "value": 6
+          "value": 8
         },
         {
           "type": "Yellow Cards",

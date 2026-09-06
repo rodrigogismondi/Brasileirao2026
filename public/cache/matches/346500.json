@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 38
+      "elapsed": 41
     },
     "timerStart": "2026-09-06T19:00:29.774Z",
     "timerStatus": "INICIADO"
@@ -884,6 +884,22 @@
         "extra": null
       },
       "team": {
+        "id": 283,
+        "name": "Cruzeiro"
+      },
+      "type": "Important",
+      "detail": "Cruzeiro fica com a posse de bola no meio de campo e troca passes.",
+      "player": {
+        "name": "Cruzeiro fica com a posse de bola no meio de cam"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 37,
+        "extra": null
+      },
+      "team": {
         "id": 0,
         "name": ""
       },
@@ -891,6 +907,54 @@
       "detail": "Defesa do Cruzeiro tenta lançar bola para o ataque, mas ela corre demais. Tiro de meta para o Athletico-PR!",
       "player": {
         "name": "Defesa do Cruzeiro tenta lançar bola para o ataq"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 38,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Cruzeiro iniciou a partida com uma pressão intensa, criando e desperdiçando várias oportunidades. O Athletico-PR conseguiu equilibrar o jogo e respondeu com perigo, principalmente em jogadas de Leozinho. Aos 29 minutos, porém, a insistência do time da casa valeu a pena: Gerson fez ótima jogada pela esquerda e cruzou para Matheus Pereira, de peixinho, abrir o placar de 1 a 0. O clima esquentou com um cartão amarelo para Rojas.",
+      "player": {
+        "name": "Gol de peixinho abre o placar no Mineirão!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 38,
+        "extra": null
+      },
+      "team": {
+        "id": 283,
+        "name": "Cruzeiro"
+      },
+      "type": "Important",
+      "detail": "Gerson ganha dividida, e Romero aparece atrás, com qualidade para finalizar, sozinho. Ele chuta forte, mas a bola vai para fora!",
+      "player": {
+        "name": "Lucas Romero"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 40,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Matheus Henrique toca para Gerson, que liga a bola ao ataque. Matheus Pereira tenta corta-luz, mas sozinho não dá sequência ao lance.",
+      "player": {
+        "name": "Matheus Henrique toca para Gerson, que liga a bo"
       },
       "assist": null
     }
@@ -1350,23 +1414,23 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "60%"
+          "value": "58%"
         },
         {
           "type": "Total Passes",
-          "value": 218
+          "value": 245
         },
         {
           "type": "Pass Accuracy",
-          "value": "87%"
+          "value": "88%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 28
+          "value": 30
         },
         {
           "type": "Total Shots",
-          "value": 7
+          "value": 8
         },
         {
           "type": "Shots on Goal",
@@ -1374,7 +1438,7 @@
         },
         {
           "type": "Shots off Goal",
-          "value": 4
+          "value": 5
         },
         {
           "type": "Blocked Shots",
@@ -1402,11 +1466,11 @@
         },
         {
           "type": "Tackles",
-          "value": 5
+          "value": 6
         },
         {
           "type": "Fouls",
-          "value": 4
+          "value": 5
         },
         {
           "type": "Yellow Cards",
@@ -1426,19 +1490,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "40%"
+          "value": "42%"
         },
         {
           "type": "Total Passes",
-          "value": 127
+          "value": 148
         },
         {
           "type": "Pass Accuracy",
-          "value": "84%"
+          "value": "82%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 20
+          "value": 26
         },
         {
           "type": "Total Shots",
@@ -1466,7 +1530,7 @@
         },
         {
           "type": "Offsides",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Penalties",

@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 21
+      "elapsed": 24
     },
     "timerStart": "2026-09-06T00:00:10.080Z",
     "timerStatus": "INICIADO"
@@ -444,6 +444,38 @@
         "extra": null
       },
       "team": {
+        "id": 267,
+        "name": "Vasco"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Daniel Fuzato"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 20,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "Important",
+      "detail": "O Vasco domina os primeiros 20 minutos e dita o ritmo do jogo. O time visitante pressiona e já criou as melhores chances: Thiago Mendes finalizou com perigo após erro da zaga do Fluminense, e Lucas Piton obrigou o goleiro Fábio a fazer grande defesa em chute forte. O clima esquentou com uma briga nos bancos que resultou em cartão amarelo para Freytes. Jogo tenso e de um time só até agora.",
+      "player": {
+        "name": "Início quente com pressão vascaína"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 20,
+        "extra": null
+      },
+      "team": {
         "id": 266,
         "name": "Fluminense"
       },
@@ -451,6 +483,38 @@
       "detail": "Yellow Card",
       "player": {
         "name": "Freytes"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 21,
+        "extra": null
+      },
+      "team": {
+        "id": 267,
+        "name": "Vasco"
+      },
+      "type": "Important",
+      "detail": "Martinelli derruba Tchê Tchê. Vasco tem boa chance no ataque.",
+      "player": {
+        "name": "Martinelli derruba Tchê Tchê. Vasco tem boa chan"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 23,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "Important",
+      "detail": "Tchê Tchê recebe atendimento depois de entrada de Martinelli.",
+      "player": {
+        "name": "Tchê Tchê recebe atendimento depois de entrada d"
       },
       "assist": null
     }
@@ -914,15 +978,15 @@
         },
         {
           "type": "Total Passes",
-          "value": 77
+          "value": 80
         },
         {
           "type": "Pass Accuracy",
-          "value": "82%"
+          "value": "81%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 14
+          "value": 15
         },
         {
           "type": "Total Shots",
@@ -958,11 +1022,11 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 2
+          "value": 4
         },
         {
           "type": "Tackles",
-          "value": 2
+          "value": 5
         },
         {
           "type": "Fouls",
@@ -970,7 +1034,7 @@
         },
         {
           "type": "Yellow Cards",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Red Cards",
@@ -990,23 +1054,23 @@
         },
         {
           "type": "Total Passes",
-          "value": 112
+          "value": 136
         },
         {
           "type": "Pass Accuracy",
-          "value": "83%"
+          "value": "85%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 19
+          "value": 20
         },
         {
           "type": "Total Shots",
-          "value": 3
+          "value": 5
         },
         {
           "type": "Shots on Goal",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Shots off Goal",
@@ -1014,7 +1078,7 @@
         },
         {
           "type": "Blocked Shots",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Hit Woodwork",
@@ -1038,7 +1102,7 @@
         },
         {
           "type": "Tackles",
-          "value": 6
+          "value": 7
         },
         {
           "type": "Fouls",
@@ -1046,7 +1110,7 @@
         },
         {
           "type": "Yellow Cards",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Red Cards",

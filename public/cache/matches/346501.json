@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 8
+      "elapsed": 11
     },
     "timerStart": "2026-09-06T19:00:38.573Z",
     "timerStatus": "INICIADO"
@@ -31,7 +31,7 @@
   },
   "goals": {
     "home": 0,
-    "away": 0
+    "away": 1
   },
   "score": {
     "halftime": {
@@ -181,6 +181,38 @@
       "detail": "Yellow Card",
       "player": {
         "name": "Rollheiser"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 7,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Internacional ditava o ritmo nos minutos iniciais, com mais posse e chegadas perigosas de Carbonero. Porém, aos 7 minutos, um erro individual custou caro. Félix Torres se atrapalhou com a bola na defesa, Gabriel não perdoou, roubou a posse, avançou sozinho e finalizou com a bola beijando a trave antes de entrar, abrindo o placar para o Santos em 1 a 0.",
+      "player": {
+        "name": "Erro fatal dá vantagem ao Santos"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 7,
+        "extra": null
+      },
+      "team": {
+        "id": 277,
+        "name": "Santos"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "player": {
+        "name": "Gabriel"
       },
       "assist": null
     }
@@ -640,11 +672,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "63%"
+          "value": "61%"
         },
         {
           "type": "Total Passes",
-          "value": 40
+          "value": 53
         },
         {
           "type": "Pass Accuracy",
@@ -652,11 +684,11 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 7
+          "value": 9
         },
         {
           "type": "Total Shots",
-          "value": 3
+          "value": 4
         },
         {
           "type": "Shots on Goal",
@@ -668,7 +700,7 @@
         },
         {
           "type": "Blocked Shots",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Hit Woodwork",
@@ -696,7 +728,7 @@
         },
         {
           "type": "Fouls",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Yellow Cards",
@@ -716,27 +748,27 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "37%"
+          "value": "39%"
         },
         {
           "type": "Total Passes",
-          "value": 16
+          "value": 19
         },
         {
           "type": "Pass Accuracy",
-          "value": "81%"
+          "value": "79%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 3
+          "value": 4
         },
         {
           "type": "Total Shots",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Shots on Goal",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Shots off Goal",
@@ -768,11 +800,11 @@
         },
         {
           "type": "Tackles",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Fouls",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Yellow Cards",

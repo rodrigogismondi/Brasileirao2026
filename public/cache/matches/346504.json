@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 3
+      "elapsed": 6
     },
     "timerStart": "2026-09-06T19:05:23.218Z",
     "timerStatus": "INICIADO"
@@ -72,6 +72,22 @@
         "extra": null
       },
       "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "A bola rola em um ambiente de pura festa da torcida do Remo, que empurra o time da casa desde o apito inicial. Mas foi o Flamengo quem criou a primeira oportunidade de perigo da partida. Com menos de dois minutos, em uma jogada pelo meio, Samuel Lino serviu Arrascaeta, que cortou para a direita e finalizou para fora, assustando a defesa adversária. Início com o time visitante tentando tomar a iniciativa.",
+      "player": {
+        "name": "Flamengo já leva perigo no início"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 1,
+        "extra": null
+      },
+      "team": {
         "id": 262,
         "name": "Flamengo"
       },
@@ -79,6 +95,72 @@
       "detail": "Arrascaeta recebe passe de Samuel Lino pelo meio de campo, corta para a direita e finaliza para fora.",
       "player": {
         "name": "Arrascaeta"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 3,
+        "extra": null
+      },
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "Important",
+      "detail": "Patrick avança pela esquerda e tenta chegar ao ataque, mas a defesa do Flamengo afasta o perigo",
+      "player": {
+        "name": "Patrick avança pela esquerda e tenta chegar ao a"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 4,
+        "extra": null
+      },
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "Important",
+      "detail": "Pedro dá lindo passe para Samuel Lino pela esquerda, que cruza rasteiro para área, mas Carrascal finaliza por cima do gol. Flamengo chega com perigo pela primeira vez.",
+      "player": {
+        "name": "Carrascal"
+      },
+      "assist": {
+        "name": "OLHA O FLAMENGO!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 4,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "A partida começa sob a festa da torcida do Remo, mas foi o Flamengo quem criou a primeira chance de perigo. Com menos de dois minutos, Arrascaeta recebeu de Samuel Lino e finalizou para fora. O time da casa tentou responder em uma investida de Patrick pela esquerda, mas a defesa rubro-negra afastou. O Flamengo valoriza a posse de bola nestes primeiros momentos de um jogo que começa estudado.",
+      "player": {
+        "name": "Fla assusta no início com Arrascaeta"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 4,
+        "extra": null
+      },
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "Important",
+      "detail": "Flamengo troca passes na defesa",
+      "player": {
+        "name": "Flamengo troca passes na defesa"
       },
       "assist": null
     }
@@ -538,19 +620,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "50%"
+          "value": "23%"
         },
         {
           "type": "Total Passes",
-          "value": 1
+          "value": 9
         },
         {
           "type": "Pass Accuracy",
-          "value": "0%"
+          "value": "33%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 1
+          "value": 6
         },
         {
           "type": "Total Shots",
@@ -614,15 +696,15 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "50%"
+          "value": "77%"
         },
         {
           "type": "Total Passes",
-          "value": 24
+          "value": 45
         },
         {
           "type": "Pass Accuracy",
-          "value": "96%"
+          "value": "98%"
         },
         {
           "type": "Incomplete Passes",
@@ -630,7 +712,7 @@
         },
         {
           "type": "Total Shots",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Shots on Goal",
@@ -638,7 +720,7 @@
         },
         {
           "type": "Shots off Goal",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Blocked Shots",
@@ -666,11 +748,11 @@
         },
         {
           "type": "Tackles",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Fouls",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Yellow Cards",

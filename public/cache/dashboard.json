@@ -12661,7 +12661,7 @@
         "status": {
           "long": "1H",
           "short": "1H",
-          "elapsed": 8
+          "elapsed": 11
         },
         "timerStart": "2026-09-06T19:00:29.774Z",
         "timerStatus": "INICIADO"
@@ -12713,7 +12713,7 @@
         "status": {
           "long": "1H",
           "short": "1H",
-          "elapsed": 8
+          "elapsed": 11
         },
         "timerStart": "2026-09-06T19:00:38.573Z",
         "timerStatus": "INICIADO"
@@ -12735,7 +12735,7 @@
       },
       "goals": {
         "home": 0,
-        "away": 0
+        "away": 1
       },
       "score": {
         "halftime": {
@@ -12765,7 +12765,7 @@
         "status": {
           "long": "1H",
           "short": "1H",
-          "elapsed": 3
+          "elapsed": 6
         },
         "timerStart": "2026-09-06T19:05:23.218Z",
         "timerStatus": "INICIADO"
@@ -18782,6 +18782,28 @@
             {
               "rank": 12,
               "team": {
+                "id": 277,
+                "name": "Santos",
+                "logo": "https://s.sde.globo.com/media/organizations/2018/03/12/santos.svg"
+              },
+              "points": 32,
+              "goalsDiff": -1,
+              "form": "LWDWW",
+              "description": null,
+              "all": {
+                "played": 25,
+                "win": 8,
+                "draw": 8,
+                "lose": 9,
+                "goals": {
+                  "for": 35,
+                  "against": 36
+                }
+              }
+            },
+            {
+              "rank": 13,
+              "team": {
                 "id": 263,
                 "name": "Botafogo",
                 "logo": "https://s.sde.globo.com/media/organizations/2019/02/04/botafogo-svg.svg"
@@ -18798,28 +18820,6 @@
                 "goals": {
                   "for": 37,
                   "against": 40
-                }
-              }
-            },
-            {
-              "rank": 13,
-              "team": {
-                "id": 277,
-                "name": "Santos",
-                "logo": "https://s.sde.globo.com/media/organizations/2018/03/12/santos.svg"
-              },
-              "points": 30,
-              "goalsDiff": -2,
-              "form": "LWDWD",
-              "description": null,
-              "all": {
-                "played": 25,
-                "win": 7,
-                "draw": 9,
-                "lose": 9,
-                "goals": {
-                  "for": 34,
-                  "against": 36
                 }
               }
             },
@@ -18892,28 +18892,6 @@
             {
               "rank": 17,
               "team": {
-                "id": 285,
-                "name": "Internacional",
-                "logo": "https://s.sde.globo.com/media/organizations/2018/03/11/internacional.svg"
-              },
-              "points": 26,
-              "goalsDiff": -5,
-              "form": "DDDLD",
-              "description": "Relegation",
-              "all": {
-                "played": 26,
-                "win": 5,
-                "draw": 11,
-                "lose": 10,
-                "goals": {
-                  "for": 26,
-                  "against": 31
-                }
-              }
-            },
-            {
-              "rank": 18,
-              "team": {
                 "id": 267,
                 "name": "Vasco",
                 "logo": "https://s.sde.globo.com/media/organizations/2021/09/04/vasco_SVG.svg"
@@ -18930,6 +18908,28 @@
                 "goals": {
                   "for": 27,
                   "against": 40
+                }
+              }
+            },
+            {
+              "rank": 18,
+              "team": {
+                "id": 285,
+                "name": "Internacional",
+                "logo": "https://s.sde.globo.com/media/organizations/2018/03/11/internacional.svg"
+              },
+              "points": 25,
+              "goalsDiff": -6,
+              "form": "DDDLL",
+              "description": "Relegation",
+              "all": {
+                "played": 26,
+                "win": 5,
+                "draw": 10,
+                "lose": 11,
+                "goals": {
+                  "for": 26,
+                  "against": 32
                 }
               }
             },
@@ -20091,7 +20091,7 @@
     "mode": "live",
     "liveIntervalMs": 20000
   },
-  "fetchedAt": "2026-09-06T19:09:16.610Z",
+  "fetchedAt": "2026-09-06T19:12:14.910Z",
   "source": "ge-globo",
   "meta": {
     "rodada": 26,

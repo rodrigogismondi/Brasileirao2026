@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 8
+      "elapsed": 11
     },
     "timerStart": "2026-09-06T19:00:29.774Z",
     "timerStatus": "INICIADO"
@@ -179,6 +179,120 @@
       "assist": {
         "name": "GRANDE CHANCE"
       }
+    },
+    {
+      "time": {
+        "elapsed": 5,
+        "extra": null
+      },
+      "team": {
+        "id": 283,
+        "name": "Cruzeiro"
+      },
+      "type": "Important",
+      "detail": "Leozinho tenta jogada pelo lado direito, mas o Cruzeiro intercepta bem o lance. Nada feito.",
+      "player": {
+        "name": "Leozinho tenta jogada pelo lado direito, mas o C"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 6,
+        "extra": null
+      },
+      "team": {
+        "id": 283,
+        "name": "Cruzeiro"
+      },
+      "type": "Important",
+      "detail": "Dessa vez, Matheus Pereira avança pela direita e infiltrou Lucas Romero. Ele toca para Gerson, que bate de primeira na entrada da área. Mais uma pra fora! O Cruzeiro chega bem ao ataque.",
+      "player": {
+        "name": "Gerson"
+      },
+      "assist": {
+        "name": "MAIS UM CHUTAÇO"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 6,
+        "extra": null
+      },
+      "team": {
+        "id": 283,
+        "name": "Cruzeiro"
+      },
+      "type": "Important",
+      "detail": "João Marcelo recua para Otávio. O goleiro lança de primeira. O Cruzeiro sai jogando.",
+      "player": {
+        "name": "João Marcelo recua para Otávio. O goleiro lança "
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 8,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Jadson faz falta em Gerson",
+      "player": {
+        "name": "Jadson faz falta em Gerson"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 8,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Cruzeiro começou o jogo no Mineirão com tudo! Com menos de 10 minutos, a equipe da casa já empilha chances de gol. Matheus Henrique e Gerson arriscaram chutes de fora da área que passaram perto. A melhor oportunidade foi com Gabriel Rojas, que recebeu na área e isolou. O Athletico-PR se defende como pode e encontra dificuldades para sair jogando, assistindo à pressão celeste.",
+      "player": {
+        "name": "Cruzeiro pressiona, mas erra o alvo"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 8,
+        "extra": null
+      },
+      "team": {
+        "id": 293,
+        "name": "Athletico-PR"
+      },
+      "type": "Important",
+      "detail": "Furacão com dificuldade de contruir. Time está bem recuado e tem pressa na troca de passes.",
+      "player": {
+        "name": "Furacão com dificuldade de contruir. Time está b"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 9,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Matheus Pereira tenta passe para Kaio Jorge, mas o atacante está em minoria e fica sem a bola",
+      "player": {
+        "name": "Matheus Pereira tenta passe para Kaio Jorge, mas"
+      },
+      "assist": null
     }
   ],
   "lineups": [
@@ -636,23 +750,23 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "71%"
+          "value": "62%"
         },
         {
           "type": "Total Passes",
-          "value": 46
+          "value": 67
         },
         {
           "type": "Pass Accuracy",
-          "value": "91%"
+          "value": "90%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 4
+          "value": 7
         },
         {
           "type": "Total Shots",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Shots on Goal",
@@ -660,7 +774,83 @@
         },
         {
           "type": "Shots off Goal",
+          "value": 3
+        },
+        {
+          "type": "Blocked Shots",
+          "value": 0
+        },
+        {
+          "type": "Hit Woodwork",
+          "value": 0
+        },
+        {
+          "type": "Corner Kicks",
+          "value": 0
+        },
+        {
+          "type": "Offsides",
+          "value": 0
+        },
+        {
+          "type": "Penalties",
+          "value": 0
+        },
+        {
+          "type": "Goalkeeper Saves",
+          "value": 0
+        },
+        {
+          "type": "Tackles",
+          "value": 0
+        },
+        {
+          "type": "Fouls",
           "value": 2
+        },
+        {
+          "type": "Yellow Cards",
+          "value": 0
+        },
+        {
+          "type": "Red Cards",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "team": {
+        "id": 293,
+        "name": "Athletico-PR"
+      },
+      "statistics": [
+        {
+          "type": "Ball Possession",
+          "value": "38%"
+        },
+        {
+          "type": "Total Passes",
+          "value": 29
+        },
+        {
+          "type": "Pass Accuracy",
+          "value": "83%"
+        },
+        {
+          "type": "Incomplete Passes",
+          "value": 5
+        },
+        {
+          "type": "Total Shots",
+          "value": 0
+        },
+        {
+          "type": "Shots on Goal",
+          "value": 0
+        },
+        {
+          "type": "Shots off Goal",
+          "value": 0
         },
         {
           "type": "Blocked Shots",
@@ -693,82 +883,6 @@
         {
           "type": "Fouls",
           "value": 1
-        },
-        {
-          "type": "Yellow Cards",
-          "value": 0
-        },
-        {
-          "type": "Red Cards",
-          "value": 0
-        }
-      ]
-    },
-    {
-      "team": {
-        "id": 293,
-        "name": "Athletico-PR"
-      },
-      "statistics": [
-        {
-          "type": "Ball Possession",
-          "value": "29%"
-        },
-        {
-          "type": "Total Passes",
-          "value": 16
-        },
-        {
-          "type": "Pass Accuracy",
-          "value": "75%"
-        },
-        {
-          "type": "Incomplete Passes",
-          "value": 4
-        },
-        {
-          "type": "Total Shots",
-          "value": 0
-        },
-        {
-          "type": "Shots on Goal",
-          "value": 0
-        },
-        {
-          "type": "Shots off Goal",
-          "value": 0
-        },
-        {
-          "type": "Blocked Shots",
-          "value": 0
-        },
-        {
-          "type": "Hit Woodwork",
-          "value": 0
-        },
-        {
-          "type": "Corner Kicks",
-          "value": 0
-        },
-        {
-          "type": "Offsides",
-          "value": 0
-        },
-        {
-          "type": "Penalties",
-          "value": 0
-        },
-        {
-          "type": "Goalkeeper Saves",
-          "value": 0
-        },
-        {
-          "type": "Tackles",
-          "value": 0
-        },
-        {
-          "type": "Fouls",
-          "value": 0
         },
         {
           "type": "Yellow Cards",

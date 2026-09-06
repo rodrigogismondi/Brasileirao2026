@@ -7,12 +7,12 @@
       "city": ""
     },
     "status": {
-      "long": "1H",
-      "short": "1H",
-      "elapsed": 52
+      "long": "HT",
+      "short": "HT",
+      "elapsed": 45
     },
-    "timerStart": "2026-09-06T19:05:23.218Z",
-    "timerStatus": "INICIADO"
+    "timerStart": "2026-09-06T19:53:50.000Z",
+    "timerStatus": "PAUSADO"
   },
   "league": {
     "round": "Regular Season - 26"
@@ -1023,6 +1023,22 @@
         "name": "+3"
       },
       "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 48,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Fim de um bom primeiro tempo no Mangueirão!",
+      "player": {
+        "name": "Fim de um bom primeiro tempo no Mangueirão!"
+      },
+      "assist": null
     }
   ],
   "lineups": [
@@ -1480,11 +1496,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "34%"
+          "value": "35%"
         },
         {
           "type": "Total Passes",
-          "value": 169
+          "value": 170
         },
         {
           "type": "Pass Accuracy",
@@ -1492,7 +1508,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 40
+          "value": 41
         },
         {
           "type": "Total Shots",
@@ -1556,7 +1572,7 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "66%"
+          "value": "65%"
         },
         {
           "type": "Total Passes",
@@ -1612,7 +1628,7 @@
         },
         {
           "type": "Fouls",
-          "value": 7
+          "value": 8
         },
         {
           "type": "Yellow Cards",

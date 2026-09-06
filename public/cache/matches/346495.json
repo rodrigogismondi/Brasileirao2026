@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 18
+      "elapsed": 21
     },
     "timerStart": "2026-09-06T00:00:10.080Z",
     "timerStatus": "INICIADO"
@@ -248,8 +248,8 @@
         "extra": null
       },
       "team": {
-        "id": 266,
-        "name": "Fluminense"
+        "id": 267,
+        "name": "Vasco"
       },
       "type": "Important",
       "detail": "Gómez ganha de Renê e arranca na direção da área. Ele tenta o chute, mas Millán consegue atrapalhar o colombiano.",
@@ -335,6 +335,122 @@
       "detail": "Canobbio recebe na direita e cruza muito mal. Léo Jardim sai bem e fica com a bola.",
       "player": {
         "name": "Canobbio recebe na direita e cruza muito mal. Lé"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 15,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "Important",
+      "detail": "O Vasco começou a partida tomando a iniciativa e instalando uma forte pressão no campo do Fluminense. Aos 5 minutos, Lucas Piton já levou perigo em chute de longe. O ritmo intenso resultou em um cartão amarelo para Andrés Gómez, que logo depois criou outra boa jogada individual. Com 15 minutos de jogo, o Flu se segura na defesa e tenta encontrar espaço para reagir.",
+      "player": {
+        "name": "Vasco pressiona nos primeiros minutos"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 15,
+        "extra": null
+      },
+      "team": {
+        "id": 267,
+        "name": "Vasco"
+      },
+      "type": "Important",
+      "detail": "PH cai em disputa com Renê e pede pênalti. Auxiliar levanta a bandeira pelo impedimento do lateral do Vasco.",
+      "player": {
+        "name": "PH cai em disputa com Renê e pede pênalti. Auxil"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 17,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "Important",
+      "detail": "O Vasco começou a partida com uma postura agressiva, encurralando o Fluminense em seu campo de defesa. Nos primeiros 17 minutos, o time visitante criou as melhores chances, principalmente com Andrés Gómez, que já recebeu cartão amarelo, e Paulo Henrique. A grande oportunidade veio em erro de Ignácio, mas o chute de Thiago Mendes foi bloqueado de forma providencial por Renê, salvando o time da casa.",
+      "player": {
+        "name": "Vasco domina e pressiona o Flu no início"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 17,
+        "extra": null
+      },
+      "team": {
+        "id": 267,
+        "name": "Vasco"
+      },
+      "type": "Important",
+      "detail": "Ignacio sai jogando errado e deixa a bola com o Vasco. Thiago Mendes chega na área e finaliza, mas Renê consegue bloquear e mandar para escanteio.",
+      "player": {
+        "name": "Thiago Mendes"
+      },
+      "assist": {
+        "name": "UHHHHH"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 19,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "Important",
+      "detail": "Briga entre os jogadores nos bancos de Fluminense e Vasco. Thiago Mendes também está na confusão.",
+      "player": {
+        "name": "Briga entre os jogadores nos bancos de Fluminens"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 19,
+        "extra": null
+      },
+      "team": {
+        "id": 267,
+        "name": "Vasco"
+      },
+      "type": "Important",
+      "detail": "Pressão total do Vasco. Piton chega bem pela lateral-esquerda e chuta forte na direção do gol. Fábio consegue espalmar.",
+      "player": {
+        "name": "Lucas Piton"
+      },
+      "assist": {
+        "name": "MAIS UMA CHEGADA"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 20,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Freytes"
       },
       "assist": null
     }
@@ -794,19 +910,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "36%"
+          "value": "38%"
         },
         {
           "type": "Total Passes",
-          "value": 56
+          "value": 77
         },
         {
           "type": "Pass Accuracy",
-          "value": "80%"
+          "value": "82%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 11
+          "value": 14
         },
         {
           "type": "Total Shots",
@@ -842,7 +958,7 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Tackles",
@@ -870,23 +986,23 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "64%"
+          "value": "62%"
         },
         {
           "type": "Total Passes",
-          "value": 95
+          "value": 112
         },
         {
           "type": "Pass Accuracy",
-          "value": "85%"
+          "value": "83%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 14
+          "value": 19
         },
         {
           "type": "Total Shots",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Shots on Goal",
@@ -894,7 +1010,7 @@
         },
         {
           "type": "Shots off Goal",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Blocked Shots",
@@ -906,11 +1022,11 @@
         },
         {
           "type": "Corner Kicks",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Offsides",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Penalties",
@@ -922,11 +1038,11 @@
         },
         {
           "type": "Tackles",
-          "value": 5
+          "value": 6
         },
         {
           "type": "Fouls",
-          "value": 3
+          "value": 4
         },
         {
           "type": "Yellow Cards",

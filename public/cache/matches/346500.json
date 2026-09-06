@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 72
+      "elapsed": 75
     },
     "timerStart": "2026-09-06T20:12:00.437Z",
     "timerStatus": "INICIADO"
@@ -30,7 +30,7 @@
     }
   },
   "goals": {
-    "home": 1,
+    "home": 2,
     "away": 1
   },
   "score": {
@@ -1901,6 +1901,120 @@
         "name": "Matheus Pereira cruza para Villalba, que chega p"
       },
       "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 69,
+        "extra": null
+      },
+      "team": {
+        "id": 293,
+        "name": "Athletico-PR"
+      },
+      "type": "Important",
+      "detail": "O Athletico-PR ganha chance com Vargas, mas Fabrício Bruno vai bem na marcação. Lance normal!",
+      "player": {
+        "name": "O Athletico-PR ganha chance com Vargas, mas Fabr"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 69,
+        "extra": null
+      },
+      "team": {
+        "id": 283,
+        "name": "Cruzeiro"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Wesley"
+      },
+      "assist": {
+        "name": "Arroyo"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 70,
+        "extra": null
+      },
+      "team": {
+        "id": 283,
+        "name": "Cruzeiro"
+      },
+      "type": "Important",
+      "detail": "Aos 25 minutos do segundo tempo, Lucas Romero recolocou o Cruzeiro em vantagem! O volante recebeu de Matheus Pereira e bateu rasteiro para fazer 2 a 1. O gol coroa a pressão na etapa, que viu o goleiro Otávio fazer milagre em chance de Viveros. A partida segue intensa após um primeiro tempo maluco, com gol anulado, pênalti defendido por Mycael e um gol para cada lado.",
+      "player": {
+        "name": "Cruzeiro na frente em jogo eletrizante!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 70,
+        "extra": null
+      },
+      "team": {
+        "id": 283,
+        "name": "Cruzeiro"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "player": {
+        "name": "Lucas Romero"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 73,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Que partida! Após um primeiro tempo com gol de Matheus Pereira, resposta de João Cruz e um pênalti defendido por Mycael, o segundo tempo segue intenso. O Athletico-PR quase virou, mas Otávio salvou o Cruzeiro em chance clara de Viveros. Aos 25 minutos, a rede balançou de novo: Lucas Romero recebeu passe de Matheus Pereira e bateu forte, rasteiro, para colocar o time mineiro na frente: 2 a 1",
+      "player": {
+        "name": "Cruzeiro faz o segundo e lidera no Mineirão!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 73,
+        "extra": null
+      },
+      "team": {
+        "id": 283,
+        "name": "Cruzeiro"
+      },
+      "type": "Important",
+      "detail": "Torcida do Cruzeiro canta alto no Mineirão!",
+      "player": {
+        "name": "Torcida do Cruzeiro canta alto no Mineirão!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 74,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Gilberto aciona Viveros na área. O atacante fica muito perto de Otávio. O goleiro então leva a melhor e faz a defesa com tranquilidade.",
+      "player": {
+        "name": "Gilberto aciona Viveros na área. O atacante fica"
+      },
+      "assist": null
     }
   ],
   "lineups": [
@@ -2358,11 +2472,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "59%"
+          "value": "60%"
         },
         {
           "type": "Total Passes",
-          "value": 456
+          "value": 473
         },
         {
           "type": "Pass Accuracy",
@@ -2370,15 +2484,15 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 52
+          "value": 53
         },
         {
           "type": "Total Shots",
-          "value": 13
+          "value": 15
         },
         {
           "type": "Shots on Goal",
-          "value": 4
+          "value": 5
         },
         {
           "type": "Shots off Goal",
@@ -2386,7 +2500,7 @@
         },
         {
           "type": "Blocked Shots",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Hit Woodwork",
@@ -2394,7 +2508,7 @@
         },
         {
           "type": "Corner Kicks",
-          "value": 6
+          "value": 7
         },
         {
           "type": "Offsides",
@@ -2410,7 +2524,7 @@
         },
         {
           "type": "Tackles",
-          "value": 12
+          "value": 13
         },
         {
           "type": "Fouls",
@@ -2434,11 +2548,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "41%"
+          "value": "40%"
         },
         {
           "type": "Total Passes",
-          "value": 264
+          "value": 267
         },
         {
           "type": "Pass Accuracy",
@@ -2482,7 +2596,7 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 3
+          "value": 4
         },
         {
           "type": "Tackles",

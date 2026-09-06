@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 76
+      "elapsed": 79
     },
     "timerStart": "2026-09-06T20:07:37.066Z",
     "timerStatus": "INICIADO"
@@ -1536,6 +1536,24 @@
       "type": "subst",
       "detail": "Substitution 1",
       "player": {
+        "name": "Villagra"
+      },
+      "assist": {
+        "name": "Ronaldo"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 74,
+        "extra": null
+      },
+      "team": {
+        "id": 285,
+        "name": "Internacional"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
         "name": "Bruno Henrique"
       },
       "assist": {
@@ -2002,7 +2020,7 @@
         },
         {
           "type": "Total Passes",
-          "value": 358
+          "value": 362
         },
         {
           "type": "Pass Accuracy",
@@ -2010,7 +2028,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 61
+          "value": 63
         },
         {
           "type": "Total Shots",
@@ -2054,7 +2072,7 @@
         },
         {
           "type": "Fouls",
-          "value": 12
+          "value": 13
         },
         {
           "type": "Yellow Cards",
@@ -2078,7 +2096,7 @@
         },
         {
           "type": "Total Passes",
-          "value": 495
+          "value": 521
         },
         {
           "type": "Pass Accuracy",
@@ -2086,7 +2104,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 46
+          "value": 49
         },
         {
           "type": "Total Shots",
@@ -2126,7 +2144,7 @@
         },
         {
           "type": "Tackles",
-          "value": 20
+          "value": 21
         },
         {
           "type": "Fouls",

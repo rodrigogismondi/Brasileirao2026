@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 73
+      "elapsed": 76
     },
     "timerStart": "2026-09-06T20:10:53.980Z",
     "timerStatus": "INICIADO"
@@ -1483,6 +1483,92 @@
         "name": "Remo tenta chegar ao ataque."
       },
       "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 73,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O segundo tempo seguiu com o Flamengo pressionando, mas o goleiro Marcelo Rangel operou verdadeiros milagres para o Remo, com defesas espetaculares em finalizações de Pedro. A insistência rubro-negra deu resultado aos 19 minutos, quando Samuel Lino, o melhor em campo, recebeu passe de Arrascaeta e marcou de biquinho para finalmente vencer o goleiro e abrir o placar em 1 a 0.",
+      "player": {
+        "name": "Lino supera muralha e Fla sai na frente"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 73,
+        "extra": null
+      },
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "Important",
+      "detail": "Samuel Lino faz linda jogada pela direita, deixa Patrick no chão e finaliza, mas é bloqueado",
+      "player": {
+        "name": "Samuel Lino"
+      },
+      "assist": {
+        "name": "ELE ESTÁ DEMAIS"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 74,
+        "extra": null
+      },
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Erick Pulgar"
+      },
+      "assist": {
+        "name": "Arrascaeta"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 74,
+        "extra": null
+      },
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Joaquín Freitas"
+      },
+      "assist": {
+        "name": "Pedro"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 75,
+        "extra": null
+      },
+      "team": {
+        "id": 364,
+        "name": "Remo"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Marcelinho"
+      },
+      "assist": null
     }
   ],
   "lineups": [
@@ -1944,15 +2030,15 @@
         },
         {
           "type": "Total Passes",
-          "value": 240
+          "value": 260
         },
         {
           "type": "Pass Accuracy",
-          "value": "76%"
+          "value": "77%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 58
+          "value": 60
         },
         {
           "type": "Total Shots",
@@ -1992,11 +2078,11 @@
         },
         {
           "type": "Tackles",
-          "value": 14
+          "value": 17
         },
         {
           "type": "Fouls",
-          "value": 6
+          "value": 7
         },
         {
           "type": "Yellow Cards",
@@ -2020,7 +2106,7 @@
         },
         {
           "type": "Total Passes",
-          "value": 603
+          "value": 622
         },
         {
           "type": "Pass Accuracy",
@@ -2028,7 +2114,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 67
+          "value": 69
         },
         {
           "type": "Total Shots",
@@ -2068,7 +2154,7 @@
         },
         {
           "type": "Tackles",
-          "value": 14
+          "value": 15
         },
         {
           "type": "Fouls",

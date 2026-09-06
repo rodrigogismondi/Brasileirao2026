@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 58
+      "elapsed": 61
     },
     "timerStart": "2026-09-06T23:40:18.425Z",
     "timerStatus": "INICIADO"
@@ -1144,6 +1144,22 @@
         "extra": null
       },
       "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Corinthians saiu na frente com Matheus Bidu logo no início, mas desperdiçou chances de ampliar, parando em grande defesa de Anderson em chute de Garro. A Chapecoense não perdoou e empatou com Marcinho, de cabeça, antes do intervalo. O segundo tempo já começou com Bidu salvando a virada catarinense em cima da linha. A partida segue totalmente aberta e com o placar em 1 a 1.",
+      "player": {
+        "name": "Jogo eletrizante com chances para os dois lados!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 55,
+        "extra": null
+      },
+      "team": {
         "id": 315,
         "name": "Chapecoense"
       },
@@ -1154,6 +1170,72 @@
       },
       "assist": {
         "name": "UUUUUUUUUUUUUUUUH"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 56,
+        "extra": null
+      },
+      "team": {
+        "id": 315,
+        "name": "Chapecoense"
+      },
+      "type": "Important",
+      "detail": "Bola cruzada na área, e Kauê afasta de soco.",
+      "player": {
+        "name": "Bola cruzada na área, e Kauê afasta de soco."
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 57,
+        "extra": null
+      },
+      "team": {
+        "id": 315,
+        "name": "Chapecoense"
+      },
+      "type": "Important",
+      "detail": "Falta para a Chapecoense no campo de ataque.",
+      "player": {
+        "name": "Giovanni Augusto"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 57,
+        "extra": null
+      },
+      "team": {
+        "id": 315,
+        "name": "Chapecoense"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Giovanni Augusto"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 58,
+        "extra": null
+      },
+      "team": {
+        "id": 264,
+        "name": "Corinthians"
+      },
+      "type": "Important",
+      "detail": "Memphis passa para Allan, que toca em profundidade para Rodrigo Garro. O argentino ganha na corrida, entra na área e cruza para André Carrillo, livre dentro da grande área, finalizar completamente errado e mandar nas arquibancadas da Neo Química Arena.",
+      "player": {
+        "name": "Carrillo"
+      },
+      "assist": {
+        "name": "Errou"
       }
     }
   ],
@@ -1603,11 +1685,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "55%"
+          "value": "56%"
         },
         {
           "type": "Total Passes",
-          "value": 428
+          "value": 443
         },
         {
           "type": "Pass Accuracy",
@@ -1615,7 +1697,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 48
+          "value": 49
         },
         {
           "type": "Total Shots",
@@ -1651,15 +1733,15 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 2
+          "value": 4
         },
         {
           "type": "Tackles",
-          "value": 7
+          "value": 8
         },
         {
           "type": "Fouls",
-          "value": 5
+          "value": 6
         },
         {
           "type": "Yellow Cards",
@@ -1679,11 +1761,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "45%"
+          "value": "44%"
         },
         {
           "type": "Total Passes",
-          "value": 310
+          "value": 319
         },
         {
           "type": "Pass Accuracy",
@@ -1691,19 +1773,19 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 40
+          "value": 42
         },
         {
           "type": "Total Shots",
-          "value": 3
+          "value": 5
         },
         {
           "type": "Shots on Goal",
-          "value": 3
+          "value": 4
         },
         {
           "type": "Shots off Goal",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Blocked Shots",
@@ -1731,15 +1813,15 @@
         },
         {
           "type": "Tackles",
-          "value": 9
+          "value": 10
         },
         {
           "type": "Fouls",
-          "value": 14
+          "value": 15
         },
         {
           "type": "Yellow Cards",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Red Cards",

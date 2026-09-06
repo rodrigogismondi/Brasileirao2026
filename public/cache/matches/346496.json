@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 18
+      "elapsed": 21
     },
     "timerStart": "2026-09-06T21:30:15.429Z",
     "timerStatus": "INICIADO"
@@ -297,6 +297,40 @@
         "name": "Maurício vai à linha de fundo e cruza rasteiro p"
       },
       "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 15,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O jogo começou elétrico! Em 15 minutos, o Botafogo já testou o goleiro Carlos Miguel duas vezes, em finalizações de Montoro e Danilo Pereira. A resposta do Palmeiras veio com Lucas Evangelista, que obrigou Gabriel Batista a fazer boa defesa. Com o gramado molhado acelerando o ritmo e vaias da torcida para ex-jogadores, o clima é de total pressão no estádio.",
+      "player": {
+        "name": "Início quente e com chances no Nilton Santos"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 15,
+        "extra": null
+      },
+      "team": {
+        "id": 275,
+        "name": "Palmeiras"
+      },
+      "type": "Important",
+      "detail": "Montoro tenta lançar para Arthur Cabral na área do Palmeiras, mas Piquerez faz o corte de cabeça. A sobra fica com Huguinho fora da área. O volante ajeita e arrisca da intermediária, mas pega mal na bola e manda longe do gol",
+      "player": {
+        "name": "Huguinho"
+      },
+      "assist": {
+        "name": "Daí?"
+      }
     }
   ],
   "lineups": [
@@ -758,7 +792,7 @@
         },
         {
           "type": "Total Passes",
-          "value": 74
+          "value": 76
         },
         {
           "type": "Pass Accuracy",
@@ -766,7 +800,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 13
+          "value": 14
         },
         {
           "type": "Total Shots",
@@ -834,15 +868,15 @@
         },
         {
           "type": "Total Passes",
-          "value": 138
+          "value": 158
         },
         {
           "type": "Pass Accuracy",
-          "value": "88%"
+          "value": "89%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 16
+          "value": 17
         },
         {
           "type": "Total Shots",
@@ -886,11 +920,11 @@
         },
         {
           "type": "Fouls",
-          "value": 3
+          "value": 4
         },
         {
           "type": "Yellow Cards",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Red Cards",

@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 12
+      "elapsed": 15
     },
     "timerStart": "2026-09-06T21:30:15.429Z",
     "timerStatus": "INICIADO"
@@ -212,6 +212,40 @@
       },
       "assist": {
         "name": "Palmeiras no ataque!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 9,
+        "extra": null
+      },
+      "team": {
+        "id": 263,
+        "name": "Botafogo"
+      },
+      "type": "Important",
+      "detail": "Botafogo cadencia o jogo na defesa",
+      "player": {
+        "name": "Botafogo cadencia o jogo na defesa"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 11,
+        "extra": null
+      },
+      "team": {
+        "id": 263,
+        "name": "Botafogo"
+      },
+      "type": "Important",
+      "detail": "Botafogo troca passes ao redor da área. Vitinho ajeita para Danilo Pereira, que bate no canto, mas Carlos Miguel salta para defender",
+      "player": {
+        "name": "Danilo Pereira"
+      },
+      "assist": {
+        "name": "Boa chegada"
       }
     }
   ],
@@ -661,6 +695,159 @@
       ]
     }
   ],
-  "statistics": [],
+  "statistics": [
+    {
+      "team": {
+        "id": 263,
+        "name": "Botafogo"
+      },
+      "statistics": [
+        {
+          "type": "Ball Possession",
+          "value": "39%"
+        },
+        {
+          "type": "Total Passes",
+          "value": 59
+        },
+        {
+          "type": "Pass Accuracy",
+          "value": "83%"
+        },
+        {
+          "type": "Incomplete Passes",
+          "value": 10
+        },
+        {
+          "type": "Total Shots",
+          "value": 3
+        },
+        {
+          "type": "Shots on Goal",
+          "value": 2
+        },
+        {
+          "type": "Shots off Goal",
+          "value": 1
+        },
+        {
+          "type": "Blocked Shots",
+          "value": 0
+        },
+        {
+          "type": "Hit Woodwork",
+          "value": 0
+        },
+        {
+          "type": "Corner Kicks",
+          "value": 1
+        },
+        {
+          "type": "Offsides",
+          "value": 0
+        },
+        {
+          "type": "Penalties",
+          "value": 0
+        },
+        {
+          "type": "Goalkeeper Saves",
+          "value": 1
+        },
+        {
+          "type": "Tackles",
+          "value": 2
+        },
+        {
+          "type": "Fouls",
+          "value": 1
+        },
+        {
+          "type": "Yellow Cards",
+          "value": 0
+        },
+        {
+          "type": "Red Cards",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "team": {
+        "id": 275,
+        "name": "Palmeiras"
+      },
+      "statistics": [
+        {
+          "type": "Ball Possession",
+          "value": "61%"
+        },
+        {
+          "type": "Total Passes",
+          "value": 112
+        },
+        {
+          "type": "Pass Accuracy",
+          "value": "89%"
+        },
+        {
+          "type": "Incomplete Passes",
+          "value": 12
+        },
+        {
+          "type": "Total Shots",
+          "value": 1
+        },
+        {
+          "type": "Shots on Goal",
+          "value": 1
+        },
+        {
+          "type": "Shots off Goal",
+          "value": 0
+        },
+        {
+          "type": "Blocked Shots",
+          "value": 0
+        },
+        {
+          "type": "Hit Woodwork",
+          "value": 0
+        },
+        {
+          "type": "Corner Kicks",
+          "value": 0
+        },
+        {
+          "type": "Offsides",
+          "value": 0
+        },
+        {
+          "type": "Penalties",
+          "value": 0
+        },
+        {
+          "type": "Goalkeeper Saves",
+          "value": 3
+        },
+        {
+          "type": "Tackles",
+          "value": 1
+        },
+        {
+          "type": "Fouls",
+          "value": 3
+        },
+        {
+          "type": "Yellow Cards",
+          "value": 0
+        },
+        {
+          "type": "Red Cards",
+          "value": 0
+        }
+      ]
+    }
+  ],
   "sportsFieldUrl": null
 }

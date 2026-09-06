@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 46
+      "elapsed": 49
     },
     "timerStart": "2026-09-06T22:31:40.919Z",
     "timerStatus": "INICIADO"
@@ -832,9 +832,9 @@
         "name": ""
       },
       "type": "Important",
-      "detail": "Um início de jogo intenso! O Corinthians abriu o placar com Matheus Bidu logo aos 2 minutos e dominou a posse, criando chances claras com Memphis Depay e parando em uma defesaça de Anderson em chute de Garro. A Chapecoense se defendeu e, em um contra-ataque fatal aos 40, empatou com Marcinho. Mas, já nos minutos finais, Breno Bidon aproveitou para fazer 2 a 1 para o Timão.",
+      "detail": "Que primeiro tempo! O Corinthians começou com tudo e abriu o placar com Matheus Bidu antes dos dois minutos. A partir daí, o que se viu foi um bombardeio alvinegro, com muitas chances criadas e uma defesa espetacular do goleiro Anderson em chute de Garro. No entanto, quem não faz, leva: aos 40, Marcinho aproveitou um contra-ataque para empatar em 1 a 1. Bidon ainda teve um gol anulado no fim.",
       "player": {
-        "name": "Timão na frente em primeiro tempo com 3 gols!"
+        "name": "Corinthians pressiona, mas Chape busca o empate"
       },
       "assist": null
     },
@@ -847,10 +847,62 @@
         "id": 264,
         "name": "Corinthians"
       },
-      "type": "Goal",
-      "detail": "Normal Goal",
+      "type": "Important",
+      "detail": "Allan passa Bidu na ponta esquerda, o lateral domina e cruza rasteiro para dentro da área. O meia Bidon, de letra, finaliza e manda no canto esquerdo, sem chances de defesa. Instantes depois, o semiautomático detecta o impedimento na jogada.",
       "player": {
         "name": "Breno Bidon"
+      },
+      "assist": {
+        "name": "Não valeu"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 45,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "+ 3 minutos de jogo.",
+      "player": {
+        "name": "Acréscimos"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 46,
+        "extra": null
+      },
+      "team": {
+        "id": 315,
+        "name": "Chapecoense"
+      },
+      "type": "Important",
+      "detail": "Chape escapa pela esquerda e aciona Marcinho no pivô. O camisa 7 dá um passe de letra para Giovanni Augusto ficar completamente livre na entrada da área e bater rasteiro, com força. O goleiro Kauê se estica todo e faz a defesa.",
+      "player": {
+        "name": "Giovanni Augusto"
+      },
+      "assist": {
+        "name": "UUUUUUUUUUUH"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 48,
+        "extra": null
+      },
+      "team": {
+        "id": 315,
+        "name": "Chapecoense"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Túlio Eduardo"
       },
       "assist": null
     }
@@ -1305,23 +1357,23 @@
         },
         {
           "type": "Total Passes",
-          "value": 331
+          "value": 341
         },
         {
           "type": "Pass Accuracy",
-          "value": "90%"
+          "value": "89%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 34
+          "value": 37
         },
         {
           "type": "Total Shots",
-          "value": 7
+          "value": 6
         },
         {
           "type": "Shots on Goal",
-          "value": 4
+          "value": 3
         },
         {
           "type": "Shots off Goal",
@@ -1341,7 +1393,7 @@
         },
         {
           "type": "Offsides",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Penalties",
@@ -1349,7 +1401,7 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Tackles",
@@ -1381,7 +1433,7 @@
         },
         {
           "type": "Total Passes",
-          "value": 252
+          "value": 260
         },
         {
           "type": "Pass Accuracy",
@@ -1389,15 +1441,15 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 29
+          "value": 31
         },
         {
           "type": "Total Shots",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Shots on Goal",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Shots off Goal",
@@ -1413,7 +1465,7 @@
         },
         {
           "type": "Corner Kicks",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Offsides",

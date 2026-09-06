@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 85
+      "elapsed": 88
     },
     "timerStart": "2026-09-06T22:38:11.421Z",
     "timerStatus": "INICIADO"
@@ -1866,6 +1866,22 @@
         "extra": null
       },
       "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Palmeiras pressiona na segunda etapa, mas para em grande atuação de Gabriel Batista. O goleiro do Botafogo fez uma defesa espetacular em cabeçada de Maurício, a melhor chance do jogo. Aos 38 minutos, o placar segue 0 a 0. Após um primeiro tempo aberto, o confronto ficou mais truncado, com muitas faltas e pouca criação de ambos os lados, diminuindo a intensidade no Nilton Santos.",
+      "player": {
+        "name": "Gabriel Batista segura o zero no placar"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 83,
+        "extra": null
+      },
+      "team": {
         "id": 275,
         "name": "Palmeiras"
       },
@@ -1873,6 +1889,38 @@
       "detail": "Edenílson levanta a bola na área do Palmeiras. Gómez tira de cabeça",
       "player": {
         "name": "Edenílson levanta a bola na área do Palmeiras. G"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 84,
+        "extra": null
+      },
+      "team": {
+        "id": 275,
+        "name": "Palmeiras"
+      },
+      "type": "Important",
+      "detail": "Palmeiras cadencia na defesa",
+      "player": {
+        "name": "Palmeiras cadencia na defesa"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 85,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "As duas equipes mantêm o jogo, na maior parte do tempo, no meio-campo e têm dificuldades de se infiltrar no ataque, de modo que os atacantes acabam bem isolados. No momento, um gol para qualquer um dos lados parece distante de ocorrer",
+      "player": {
+        "name": "Atacantes solitários"
       },
       "assist": null
     }
@@ -2336,7 +2384,7 @@
         },
         {
           "type": "Total Passes",
-          "value": 270
+          "value": 287
         },
         {
           "type": "Pass Accuracy",
@@ -2344,7 +2392,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 68
+          "value": 72
         },
         {
           "type": "Total Shots",
@@ -2384,11 +2432,11 @@
         },
         {
           "type": "Tackles",
-          "value": 14
+          "value": 15
         },
         {
           "type": "Fouls",
-          "value": 11
+          "value": 15
         },
         {
           "type": "Yellow Cards",
@@ -2412,7 +2460,7 @@
         },
         {
           "type": "Total Passes",
-          "value": 556
+          "value": 591
         },
         {
           "type": "Pass Accuracy",
@@ -2420,7 +2468,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 77
+          "value": 83
         },
         {
           "type": "Total Shots",
@@ -2460,7 +2508,7 @@
         },
         {
           "type": "Tackles",
-          "value": 13
+          "value": 14
         },
         {
           "type": "Fouls",

@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 49
+      "elapsed": 52
     },
     "timerStart": "2026-09-06T22:31:40.919Z",
     "timerStatus": "INICIADO"
@@ -30,7 +30,7 @@
     }
   },
   "goals": {
-    "home": 2,
+    "home": 1,
     "away": 1
   },
   "score": {
@@ -50,6 +50,58 @@
     "source": "betexplorer"
   },
   "events": [
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 315,
+        "name": "Chapecoense"
+      },
+      "type": "Important",
+      "detail": "\"Infelizmente, tomamos o gol cedo. É sempre difícil jogar aqui, ainda mais contra um time do Diniz que sempre fica com a bola. Tivemos paciência, estou feliz em marcar novamente, agora é voltar para o segundo tempo e buscar a melhora\".",
+      "player": {
+        "name": "Marcinho"
+      },
+      "assist": {
+        "name": "Fala, Marcinho!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 264,
+        "name": "Corinthians"
+      },
+      "type": "Important",
+      "detail": "\"Estávamos fazendo uma grande partida, faltou um pouco de efetividade na última bola. Em um descuido, tomamos o gol, agora é buscar consertar os erros para o segundo tempo\".",
+      "player": {
+        "name": "Matheus Bidu"
+      },
+      "assist": {
+        "name": "Fala, Bidu!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Corinthians 1x1 Chapecoense.",
+      "player": {
+        "name": "Fim do primeiro tempo"
+      },
+      "assist": null
+    },
     {
       "time": {
         "elapsed": 0,
@@ -889,6 +941,22 @@
       "assist": {
         "name": "UUUUUUUUUUUH"
       }
+    },
+    {
+      "time": {
+        "elapsed": 48,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O primeiro tempo foi elétrico! O Corinthians saiu na frente com Matheus Bidu logo no início, aproveitando falha da defesa. O Timão dominou, criou várias chances, mas parou em uma defesa espetacular de Anderson em chute de Garro. A Chapecoense resistiu e, aos 40 minutos, achou o empate com Marcinho. Perto do fim, Breno Bidon teve um gol anulado pelo VAR, mantendo o 1 a 1 no placar.",
+      "player": {
+        "name": "Timão abre, Chape empata e VAR anula!"
+      },
+      "assist": null
     },
     {
       "time": {

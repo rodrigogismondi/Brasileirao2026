@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 88
+      "elapsed": 90
     },
     "timerStart": "2026-09-06T22:38:11.421Z",
     "timerStatus": "INICIADO"
@@ -1923,6 +1923,56 @@
         "name": "Atacantes solitários"
       },
       "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 86,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "A partida se aproxima do fim e o placar segue 0 a 0, muito por conta dos goleiros! O Botafogo teve a melhor chance no primeiro tempo, mas Villalba desperdiçou na cara do gol. Na segunda etapa, o Palmeiras cresceu, e Gabriel Batista precisou fazer uma defesa espetacular em cabeçada de Maurício. Com muitas faltas e substituições, o ritmo caiu, e as equipes lutam para criar uma última jogada.",
+      "player": {
+        "name": "Jogo intenso, mas placar segue zerado"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 86,
+        "extra": null
+      },
+      "team": {
+        "id": 275,
+        "name": "Palmeiras"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Larson"
+      },
+      "assist": {
+        "name": "Andreas Pereira"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 88,
+        "extra": null
+      },
+      "team": {
+        "id": 263,
+        "name": "Botafogo"
+      },
+      "type": "Important",
+      "detail": "Khelven lança na área do Botafogo, mas a defesa corta",
+      "player": {
+        "name": "Khelven lança na área do Botafogo, mas a defesa "
+      },
+      "assist": null
     }
   ],
   "lineups": [
@@ -2384,7 +2434,7 @@
         },
         {
           "type": "Total Passes",
-          "value": 287
+          "value": 306
         },
         {
           "type": "Pass Accuracy",
@@ -2392,15 +2442,15 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 72
+          "value": 77
         },
         {
           "type": "Total Shots",
-          "value": 11
+          "value": 12
         },
         {
           "type": "Shots on Goal",
-          "value": 3
+          "value": 4
         },
         {
           "type": "Shots off Goal",
@@ -2416,7 +2466,7 @@
         },
         {
           "type": "Corner Kicks",
-          "value": 4
+          "value": 5
         },
         {
           "type": "Offsides",
@@ -2460,7 +2510,7 @@
         },
         {
           "type": "Total Passes",
-          "value": 591
+          "value": 600
         },
         {
           "type": "Pass Accuracy",
@@ -2468,7 +2518,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 83
+          "value": 85
         },
         {
           "type": "Total Shots",
@@ -2504,7 +2554,7 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 5
+          "value": 6
         },
         {
           "type": "Tackles",
@@ -2512,7 +2562,7 @@
         },
         {
           "type": "Fouls",
-          "value": 9
+          "value": 10
         },
         {
           "type": "Yellow Cards",

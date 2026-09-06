@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 52
+      "elapsed": 55
     },
     "timerStart": "2026-09-06T20:10:53.980Z",
     "timerStatus": "INICIADO"
@@ -1082,11 +1082,77 @@
         "name": ""
       },
       "type": "Important",
+      "detail": "O primeiro tempo foi movimentado, com chances para os dois lados. Pelo Remo, Taliari desperdiçou oportunidade cara a cara e depois parou em boa defesa de Rossi. O Flamengo respondeu com Samuel Lino, que exigiu defesaça de Marcelo Rangel. Mal começou a segunda etapa e o time carioca já carimbou a trave em chute de Lino, mantendo a pressão no Mangueirão.",
+      "player": {
+        "name": "Flamengo acerta a trave em jogo intenso!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 48,
+        "extra": null
+      },
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "Important",
+      "detail": "Samuel Lino finaliza de fora da área e carimba a trave. Flamengo volta com a mesma intensidade para o segundo tempo.",
+      "player": {
+        "name": "NA TRAVE"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 48,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
       "detail": "Fim de um bom primeiro tempo no Mangueirão!",
       "player": {
         "name": "Fim de um bom primeiro tempo no Mangueirão!"
       },
       "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 49,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "A segunda etapa mal começou e o Flamengo já acertou a trave com Samuel Lino, mantendo a pressão da etapa inicial. O time carioca domina as ações, mas esbarra numa atuação espetacular do goleiro Marcelo Rangel, que já fez milagres em chutes de Lino e Pedro. O Remo se segura e lamenta a chance de ouro perdida por Taliari, que hesitou cara a cara com o goleiro Rossi.",
+      "player": {
+        "name": "Flamengo acerta a trave e para em Rangel!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 49,
+        "extra": null
+      },
+      "team": {
+        "id": 364,
+        "name": "Remo"
+      },
+      "type": "Important",
+      "detail": "Ayrton Lucas cruza na medida pela esquerda para Pedro, e o goleiro do Remo faz grande defesa! É a segunda defesaça de Marcelo Rangel na partida. Na sobra, Lino pede pênalti. Árbitro manda seguir.",
+      "player": {
+        "name": "Pedro"
+      },
+      "assist": {
+        "name": "QUE DEFESA!"
+      }
     }
   ],
   "lineups": [
@@ -1544,19 +1610,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "35%"
+          "value": "34%"
         },
         {
           "type": "Total Passes",
-          "value": 180
+          "value": 195
         },
         {
           "type": "Pass Accuracy",
-          "value": "75%"
+          "value": "76%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 45
+          "value": 47
         },
         {
           "type": "Total Shots",
@@ -1596,7 +1662,7 @@
         },
         {
           "type": "Tackles",
-          "value": 10
+          "value": 12
         },
         {
           "type": "Fouls",
@@ -1620,11 +1686,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "65%"
+          "value": "66%"
         },
         {
           "type": "Total Passes",
-          "value": 435
+          "value": 454
         },
         {
           "type": "Pass Accuracy",
@@ -1632,15 +1698,15 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 50
+          "value": 52
         },
         {
           "type": "Total Shots",
-          "value": 9
+          "value": 11
         },
         {
           "type": "Shots on Goal",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Shots off Goal",
@@ -1652,7 +1718,7 @@
         },
         {
           "type": "Hit Woodwork",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Corner Kicks",
@@ -1660,7 +1726,7 @@
         },
         {
           "type": "Offsides",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Penalties",
@@ -1672,7 +1738,7 @@
         },
         {
           "type": "Tackles",
-          "value": 11
+          "value": 12
         },
         {
           "type": "Fouls",

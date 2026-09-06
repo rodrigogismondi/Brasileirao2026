@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 51
+      "elapsed": 54
     },
     "timerStart": "2026-09-06T20:12:00.437Z",
     "timerStatus": "INICIADO"
@@ -1222,6 +1222,54 @@
     },
     {
       "time": {
+        "elapsed": 47,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "João Cruz cobra escanteio. Gerson tira. A bola ainda ronda a área. Aguirre faz falta em Gerson, e o jogo é paralisado.",
+      "player": {
+        "name": "João Cruz cobra escanteio. Gerson tira. A bola a"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 49,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Que primeira etapa! O Cruzeiro saiu na frente com Matheus Pereira, mas viu o Athletico-PR empatar em um golaço de João Cruz. A arbitragem de vídeo anulou um gol cruzeirense e, nos acréscimos, marcou um pênalti para o time da casa. Na cobrança, porém, Matheus Pereira parou em grande defesa de Mycael. O segundo tempo já começou com tudo igual no placar e a promessa de mais emoções.",
+      "player": {
+        "name": "Gols, VAR e pênalti: 1 a 1 no Mineirão!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 49,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Fabrício Bruno faz falta em Viveros na lateral",
+      "player": {
+        "name": "Fabrício Bruno faz falta em Viveros na lateral"
+      },
+      "assist": null
+    },
+    {
+      "time": {
         "elapsed": 49,
         "extra": null
       },
@@ -1262,9 +1310,41 @@
         "name": "Cruzeiro"
       },
       "type": "Important",
+      "detail": "Cruzeiro troca passes com paciência no meio de campo.",
+      "player": {
+        "name": "Cruzeiro troca passes com paciência no meio de c"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 50,
+        "extra": null
+      },
+      "team": {
+        "id": 283,
+        "name": "Cruzeiro"
+      },
+      "type": "Important",
       "detail": "Jogo paralisado! VAR revisa possível pênalti para o Cruzeiro.",
       "player": {
         "name": "Jogo paralisado! VAR revisa possível pênalti par"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 51,
+        "extra": null
+      },
+      "team": {
+        "id": 293,
+        "name": "Athletico-PR"
+      },
+      "type": "Important",
+      "detail": "Fabrício Bruno tenta lançamento para Villalba. A defesa do Furacão ganha e manda para escanteio.",
+      "player": {
+        "name": "Fabrício Bruno tenta lançamento para Villalba. A"
       },
       "assist": null
     },
@@ -1806,19 +1886,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "57%"
+          "value": "58%"
         },
         {
           "type": "Total Passes",
-          "value": 305
+          "value": 342
         },
         {
           "type": "Pass Accuracy",
-          "value": "88%"
+          "value": "89%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 37
+          "value": 39
         },
         {
           "type": "Total Shots",
@@ -1858,7 +1938,7 @@
         },
         {
           "type": "Tackles",
-          "value": 8
+          "value": 9
         },
         {
           "type": "Fouls",
@@ -1882,19 +1962,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "43%"
+          "value": "42%"
         },
         {
           "type": "Total Passes",
-          "value": 191
+          "value": 205
         },
         {
           "type": "Pass Accuracy",
-          "value": "82%"
+          "value": "80%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 35
+          "value": 41
         },
         {
           "type": "Total Shots",
@@ -1934,11 +2014,11 @@
         },
         {
           "type": "Tackles",
-          "value": 5
+          "value": 7
         },
         {
           "type": "Fouls",
-          "value": 5
+          "value": 7
         },
         {
           "type": "Yellow Cards",

@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 96
+      "elapsed": 98
     },
     "timerStart": "2026-09-06T15:09:42.755Z",
     "timerStatus": "INICIADO"
@@ -2373,6 +2373,72 @@
         "name": "O Coritiba vai para o abafa e tenta o gol de emp"
       },
       "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 93,
+        "extra": null
+      },
+      "team": {
+        "id": 2305,
+        "name": "Mirassol"
+      },
+      "type": "Important",
+      "detail": "Vitor Tissi faz o lançamento longo. A bola vai nas mãos do goleiro do Mirassol.",
+      "player": {
+        "name": "Vitor Tissi faz o lançamento longo. A bola vai n"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 94,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Coritiba fica exposto e permite os contra-ataques para o Mirassol.",
+      "player": {
+        "name": "O Coritiba fica exposto e permite os contra-ataq"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 95,
+        "extra": null
+      },
+      "team": {
+        "id": 2305,
+        "name": "Mirassol"
+      },
+      "type": "Important",
+      "detail": "Reinaldo recebe pelo lado esquerdo, dentro da área do Coritiba, e bate com força. Pedro Morisco espalma e evita o terceiro gol do Mirassol.",
+      "player": {
+        "name": "Reinaldo"
+      },
+      "assist": {
+        "name": "QUASE MAIS UM"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 95,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Que segundo tempo eletrizante! O Coritiba abriu o placar aos 15 minutos com Pedro Rocha, mas a reação do Mirassol foi imediata e Gustavo Mosquito empatou três minutos depois. O time da casa ainda teve um gol de Felipe Jonatan anulado pelo VAR. Já na reta final, aos 38, Bruno Santos fez bela jogada individual, driblou o zagueiro e virou o jogo para 2 a 1, colocando o Mirassol em vantagem.",
+      "player": {
+        "name": "Virada do Mirassol no Couto Pereira!"
+      },
+      "assist": null
     }
   ],
   "lineups": [
@@ -2834,19 +2900,19 @@
         },
         {
           "type": "Total Passes",
-          "value": 419
+          "value": 434
         },
         {
           "type": "Pass Accuracy",
-          "value": "83%"
+          "value": "82%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 73
+          "value": 77
         },
         {
           "type": "Total Shots",
-          "value": 14
+          "value": 15
         },
         {
           "type": "Shots on Goal",
@@ -2858,7 +2924,7 @@
         },
         {
           "type": "Blocked Shots",
-          "value": 3
+          "value": 4
         },
         {
           "type": "Hit Woodwork",
@@ -2878,11 +2944,11 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 7
+          "value": 8
         },
         {
           "type": "Tackles",
-          "value": 13
+          "value": 14
         },
         {
           "type": "Fouls",
@@ -2910,7 +2976,7 @@
         },
         {
           "type": "Total Passes",
-          "value": 482
+          "value": 497
         },
         {
           "type": "Pass Accuracy",
@@ -2918,15 +2984,15 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 71
+          "value": 74
         },
         {
           "type": "Total Shots",
-          "value": 17
+          "value": 18
         },
         {
           "type": "Shots on Goal",
-          "value": 5
+          "value": 6
         },
         {
           "type": "Shots off Goal",
@@ -2942,7 +3008,7 @@
         },
         {
           "type": "Corner Kicks",
-          "value": 6
+          "value": 7
         },
         {
           "type": "Offsides",
@@ -2954,15 +3020,15 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 8
+          "value": 9
         },
         {
           "type": "Tackles",
-          "value": 17
+          "value": 18
         },
         {
           "type": "Fouls",
-          "value": 8
+          "value": 9
         },
         {
           "type": "Yellow Cards",

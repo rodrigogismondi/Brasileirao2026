@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 36
+      "elapsed": 39
     },
     "timerStart": "2026-09-06T00:00:10.080Z",
     "timerStatus": "INICIADO"
@@ -672,9 +672,57 @@
         "name": "Fluminense"
       },
       "type": "Important",
+      "detail": "O Vasco domina completamente o jogo nestes mais de 30 minutos, impondo um ritmo forte e todo no campo de ataque. As melhores chances foram do time visitante, primeiro com Thiago Mendes, que parou em bloqueio crucial de Renê, e depois em um chute forte de Piton que exigiu grande defesa de Fábio. O Fluminense tem dificuldades para criar. O clima esquentou até com confusão nos bancos de reservas.",
+      "player": {
+        "name": "Pressão vascaína e clima quente"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 34,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "Important",
       "detail": "Tchê Tchê e Rnê discutem depois de entrada do volante do Vasco no lateral do Fluminense.",
       "player": {
         "name": "Tchê Tchê e Rnê discutem depois de entrada do vo"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 35,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "Important",
+      "detail": "Guga tenta lançamento mas erra totalmente e joga a bola para fora.",
+      "player": {
+        "name": "Guga tenta lançamento mas erra totalmente e joga"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 35,
+        "extra": null
+      },
+      "team": {
+        "id": 267,
+        "name": "Vasco"
+      },
+      "type": "Important",
+      "detail": "Canobbio chega bem na direita e deixa com Guga, que cruza na direção de Soteldo. O ponta domina errado, mas conta com desvio da zaga do Vasco e consegue escanteio.",
+      "player": {
+        "name": "Canobbio chega bem na direita e deixa com Guga, "
       },
       "assist": null
     }
@@ -1134,11 +1182,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "42%"
+          "value": "43%"
         },
         {
           "type": "Total Passes",
-          "value": 151
+          "value": 160
         },
         {
           "type": "Pass Accuracy",
@@ -1146,7 +1194,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 27
+          "value": 29
         },
         {
           "type": "Total Shots",
@@ -1170,7 +1218,7 @@
         },
         {
           "type": "Corner Kicks",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Offsides",
@@ -1186,7 +1234,7 @@
         },
         {
           "type": "Tackles",
-          "value": 6
+          "value": 8
         },
         {
           "type": "Fouls",
@@ -1210,11 +1258,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "58%"
+          "value": "57%"
         },
         {
           "type": "Total Passes",
-          "value": 219
+          "value": 229
         },
         {
           "type": "Pass Accuracy",
@@ -1222,7 +1270,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 32
+          "value": 35
         },
         {
           "type": "Total Shots",

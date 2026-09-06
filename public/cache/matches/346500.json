@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 87
+      "elapsed": 90
     },
     "timerStart": "2026-09-06T20:12:00.437Z",
     "timerStatus": "INICIADO"
@@ -2293,6 +2293,56 @@
         "name": "Athletico-PR erra muitos passes no meio de campo"
       },
       "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 86,
+        "extra": null
+      },
+      "team": {
+        "id": 283,
+        "name": "Cruzeiro"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "João Costa"
+      },
+      "assist": {
+        "name": "Gerson"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 87,
+        "extra": null
+      },
+      "team": {
+        "id": 283,
+        "name": "Cruzeiro"
+      },
+      "type": "Important",
+      "detail": "Após um primeiro tempo eletrizante que terminou 1 a 1, com gols de Matheus Pereira e João Cruz, e pênalti perdido pelos donos da casa, o Cruzeiro voltou melhor. Lucas Romero desempatou aos 25 minutos do segundo tempo. Perto do fim, aos 36, Kaio Jorge sofreu e converteu outro pênalti, ampliando a vantagem para 3 a 1 e deixando o time mineiro em situação confortável na partida.",
+      "player": {
+        "name": "Cruzeiro abre vantagem no segundo tempo!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 87,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Romero e Fagner tentam jogada pela lateral direita, mas a bola é travada.",
+      "player": {
+        "name": "Romero e Fagner tentam jogada pela lateral direi"
+      },
+      "assist": null
     }
   ],
   "lineups": [
@@ -2754,7 +2804,7 @@
         },
         {
           "type": "Total Passes",
-          "value": 536
+          "value": 553
         },
         {
           "type": "Pass Accuracy",
@@ -2762,7 +2812,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 58
+          "value": 60
         },
         {
           "type": "Total Shots",
@@ -2830,15 +2880,15 @@
         },
         {
           "type": "Total Passes",
-          "value": 319
+          "value": 340
         },
         {
           "type": "Pass Accuracy",
-          "value": "82%"
+          "value": "83%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 56
+          "value": 58
         },
         {
           "type": "Total Shots",
@@ -2882,7 +2932,7 @@
         },
         {
           "type": "Fouls",
-          "value": 10
+          "value": 12
         },
         {
           "type": "Yellow Cards",

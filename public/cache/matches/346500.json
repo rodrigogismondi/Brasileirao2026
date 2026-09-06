@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 75
+      "elapsed": 78
     },
     "timerStart": "2026-09-06T20:12:00.437Z",
     "timerStatus": "INICIADO"
@@ -2006,6 +2006,22 @@
         "extra": null
       },
       "team": {
+        "id": 283,
+        "name": "Cruzeiro"
+      },
+      "type": "Important",
+      "detail": "Kaio Jorge e Matheus Pereira avançam ao ataque. O camisa 10 pede o passe, mas o lance é travado pelo goleiro Mycael.",
+      "player": {
+        "name": "Kaio Jorge e Matheus Pereira avançam ao ataque. "
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 74,
+        "extra": null
+      },
+      "team": {
         "id": 0,
         "name": ""
       },
@@ -2013,6 +2029,56 @@
       "detail": "Gilberto aciona Viveros na área. O atacante fica muito perto de Otávio. O goleiro então leva a melhor e faz a defesa com tranquilidade.",
       "player": {
         "name": "Gilberto aciona Viveros na área. O atacante fica"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 75,
+        "extra": null
+      },
+      "team": {
+        "id": 293,
+        "name": "Athletico-PR"
+      },
+      "type": "Important",
+      "detail": "Portilha arrisca de fora da área, mas a bola passa muito longe do gol.",
+      "player": {
+        "name": "Portilla"
+      },
+      "assist": {
+        "name": "LONGE DEMAIS!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 76,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Que jogaço no Mineirão! Passados 30 minutos da segunda etapa, o Cruzeiro vence por 2 a 1. Lucas Romero marcou o gol que recoloca o time da casa na frente, após assistência de Matheus Pereira. A partida é intensa, com um primeiro tempo que teve gol de Matheus Pereira, um golaço de João Cruz empatando para o Athletico-PR e um pênalti defendido por Mycael. Otávio também foi decisivo ao parar Viveros.",
+      "player": {
+        "name": "Cruzeiro na frente em duelo eletrizante!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 76,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Wesley ameaça cruzamento pelo lado esquerdo, mas não encontra espaço. A opção é tocar para trás.",
+      "player": {
+        "name": "Wesley ameaça cruzamento pelo lado esquerdo, mas"
       },
       "assist": null
     }
@@ -2472,11 +2538,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "60%"
+          "value": "59%"
         },
         {
           "type": "Total Passes",
-          "value": 473
+          "value": 488
         },
         {
           "type": "Pass Accuracy",
@@ -2484,7 +2550,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 53
+          "value": 54
         },
         {
           "type": "Total Shots",
@@ -2520,7 +2586,7 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 5
+          "value": 6
         },
         {
           "type": "Tackles",
@@ -2528,7 +2594,7 @@
         },
         {
           "type": "Fouls",
-          "value": 7
+          "value": 8
         },
         {
           "type": "Yellow Cards",
@@ -2548,19 +2614,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "40%"
+          "value": "41%"
         },
         {
           "type": "Total Passes",
-          "value": 267
+          "value": 293
         },
         {
           "type": "Pass Accuracy",
-          "value": "81%"
+          "value": "82%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 51
+          "value": 52
         },
         {
           "type": "Total Shots",

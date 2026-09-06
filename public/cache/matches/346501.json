@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 79
+      "elapsed": 82
     },
     "timerStart": "2026-09-06T20:07:37.066Z",
     "timerStatus": "INICIADO"
@@ -1559,6 +1559,108 @@
       "assist": {
         "name": "Alan Patrick"
       }
+    },
+    {
+      "time": {
+        "elapsed": 77,
+        "extra": null
+      },
+      "team": {
+        "id": 277,
+        "name": "Santos"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Thaciano"
+      },
+      "assist": {
+        "name": "Gabriel"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 77,
+        "extra": null
+      },
+      "team": {
+        "id": 277,
+        "name": "Santos"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Lima"
+      },
+      "assist": {
+        "name": "Gabriel Bontempo"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 77,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Santos foi letal no primeiro tempo, abrindo 3 a 0 com gols de Gabriel (2), que aproveitou falha da zaga e converteu pênalti, e Oliva. O Inter, com um a menos desde a expulsão de Matheus Bahia aos 27 minutos, voltou diferente para a etapa final e diminuiu com um golaço de Aguirre. Passados 32 minutos do segundo tempo, o clima esquentou, com muitos cartões e a partida segue tensa.",
+      "player": {
+        "name": "Peixe abre 3, mas Inter diminui e esquenta!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 77,
+        "extra": null
+      },
+      "team": {
+        "id": 285,
+        "name": "Internacional"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Aguirre"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 78,
+        "extra": null
+      },
+      "team": {
+        "id": 285,
+        "name": "Internacional"
+      },
+      "type": "Important",
+      "detail": "Vitinho avança pela direita e cruza com desvio em escanteio",
+      "player": {
+        "name": "Vitinho avança pela direita e cruza com desvio e"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 82,
+        "extra": null
+      },
+      "team": {
+        "id": 277,
+        "name": "Santos"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "João Schmidt"
+      },
+      "assist": {
+        "name": "Gustavo Henrique"
+      }
     }
   ],
   "lineups": [
@@ -2020,15 +2122,15 @@
         },
         {
           "type": "Total Passes",
-          "value": 362
+          "value": 381
         },
         {
           "type": "Pass Accuracy",
-          "value": "83%"
+          "value": "82%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 63
+          "value": 69
         },
         {
           "type": "Total Shots",
@@ -2052,7 +2154,7 @@
         },
         {
           "type": "Corner Kicks",
-          "value": 5
+          "value": 6
         },
         {
           "type": "Offsides",
@@ -2068,15 +2170,15 @@
         },
         {
           "type": "Tackles",
-          "value": 11
+          "value": 12
         },
         {
           "type": "Fouls",
-          "value": 13
+          "value": 14
         },
         {
           "type": "Yellow Cards",
-          "value": 3
+          "value": 4
         },
         {
           "type": "Red Cards",
@@ -2096,15 +2198,15 @@
         },
         {
           "type": "Total Passes",
-          "value": 521
+          "value": 539
         },
         {
           "type": "Pass Accuracy",
-          "value": "91%"
+          "value": "90%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 49
+          "value": 52
         },
         {
           "type": "Total Shots",
@@ -2144,7 +2246,7 @@
         },
         {
           "type": "Tackles",
-          "value": 21
+          "value": 22
         },
         {
           "type": "Fouls",

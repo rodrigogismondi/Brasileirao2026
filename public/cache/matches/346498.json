@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 41
+      "elapsed": 43
     },
     "timerStart": "2026-09-06T22:31:40.919Z",
     "timerStatus": "INICIADO"
@@ -31,7 +31,7 @@
   },
   "goals": {
     "home": 1,
-    "away": 0
+    "away": 1
   },
   "score": {
     "halftime": {
@@ -757,6 +757,38 @@
       "assist": {
         "name": "Escorregou"
       }
+    },
+    {
+      "time": {
+        "elapsed": 40,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Corinthians abriu o placar logo no primeiro minuto com Matheus Bidu, aproveitando uma confusão na área. A partir daí, o time da casa pressionou intensamente, criando uma série de chances claras. Memphis Depay e Garro pararam em finalizações erradas e em uma defesa espetacular do goleiro Anderson. O castigo veio aos 40 minutos: em contra-ataque, Marcinho marcou para a Chapecoense, deixando tudo igual.",
+      "player": {
+        "name": "Chapecoense busca empate no fim da etapa inicial!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 40,
+        "extra": null
+      },
+      "team": {
+        "id": 315,
+        "name": "Chapecoense"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "player": {
+        "name": "Marcinho"
+      },
+      "assist": null
     }
   ],
   "lineups": [
@@ -1209,11 +1241,11 @@
         },
         {
           "type": "Total Passes",
-          "value": 277
+          "value": 303
         },
         {
           "type": "Pass Accuracy",
-          "value": "88%"
+          "value": "89%"
         },
         {
           "type": "Incomplete Passes",
@@ -1221,11 +1253,11 @@
         },
         {
           "type": "Total Shots",
-          "value": 5
+          "value": 6
         },
         {
           "type": "Shots on Goal",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Shots off Goal",
@@ -1285,7 +1317,7 @@
         },
         {
           "type": "Total Passes",
-          "value": 212
+          "value": 237
         },
         {
           "type": "Pass Accuracy",
@@ -1293,15 +1325,15 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 26
+          "value": 28
         },
         {
           "type": "Total Shots",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Shots on Goal",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Shots off Goal",
@@ -1329,7 +1361,7 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Tackles",

@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 70
+      "elapsed": 73
     },
     "timerStart": "2026-09-06T20:10:53.980Z",
     "timerStatus": "INICIADO"
@@ -1367,6 +1367,122 @@
         "name": "Samuel Lino"
       },
       "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 67,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Flamengo pressionou o jogo todo, mas parou em uma atuação espetacular do goleiro Marcelo Rangel, que fez verdadeiros milagres, principalmente em finalizações de Pedro. O Remo também assustou em alguns lances. Mas aos 19 do segundo tempo, a muralha caiu: Arrascaeta serviu Samuel Lino, que com um toque de biquinho fez 1 a 0 para o Flamengo, finalmente abrindo o placar.",
+      "player": {
+        "name": "Gol de Lino fura o paredão Rangel!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 67,
+        "extra": null
+      },
+      "team": {
+        "id": 364,
+        "name": "Remo"
+      },
+      "type": "Important",
+      "detail": "Marlon tenta levar o Remo ao ataque com cruzamento, mas leva a bola para fora.",
+      "player": {
+        "name": "Marlon tenta levar o Remo ao ataque com cruzamen"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 68,
+        "extra": null
+      },
+      "team": {
+        "id": 364,
+        "name": "Remo"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Alef Manga"
+      },
+      "assist": {
+        "name": "Gabriel Taliari"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 68,
+        "extra": null
+      },
+      "team": {
+        "id": 364,
+        "name": "Remo"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Vitor Bueno"
+      },
+      "assist": {
+        "name": "Zé Ricardo"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 70,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O segundo tempo é um duelo particular! O Flamengo voltou com tudo, e Samuel Lino carimbou a trave logo no início. Depois, começou o show do goleiro Marcelo Rangel, que operou um verdadeiro milagre em finalização de Pedro. A muralha do Remo parecia intransponível, mas aos 19 minutos, Arrascaeta serviu Samuel Lino, que de biquinho venceu o goleirão e fez 1 a 0 para o Flamengo.",
+      "player": {
+        "name": "Lino vence Rangel e bota o Fla na frente!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 70,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Chuva aperta bem em Belém.",
+      "player": {
+        "name": "Chuva aperta bem em Belém."
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 71,
+        "extra": null
+      },
+      "team": {
+        "id": 364,
+        "name": "Remo"
+      },
+      "type": "Important",
+      "detail": "Remo tenta chegar ao ataque.",
+      "player": {
+        "name": "Remo tenta chegar ao ataque."
+      },
+      "assist": null
     }
   ],
   "lineups": [
@@ -1828,19 +1944,19 @@
         },
         {
           "type": "Total Passes",
-          "value": 231
+          "value": 240
         },
         {
           "type": "Pass Accuracy",
-          "value": "75%"
+          "value": "76%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 57
+          "value": 58
         },
         {
           "type": "Total Shots",
-          "value": 4
+          "value": 5
         },
         {
           "type": "Shots on Goal",
@@ -1852,7 +1968,7 @@
         },
         {
           "type": "Blocked Shots",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Hit Woodwork",
@@ -1904,7 +2020,7 @@
         },
         {
           "type": "Total Passes",
-          "value": 580
+          "value": 603
         },
         {
           "type": "Pass Accuracy",
@@ -1912,7 +2028,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 66
+          "value": 67
         },
         {
           "type": "Total Shots",
@@ -1948,11 +2064,11 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Tackles",
-          "value": 13
+          "value": 14
         },
         {
           "type": "Fouls",

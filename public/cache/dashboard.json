@@ -12667,8 +12667,8 @@
           "city": ""
         },
         "status": {
-          "long": "NS",
-          "short": "NS",
+          "long": "1H",
+          "short": "1H",
           "elapsed": null
         },
         "timerStart": "2026-09-06T18:00:25.718Z",
@@ -12719,8 +12719,8 @@
           "city": ""
         },
         "status": {
-          "long": "NS",
-          "short": "NS",
+          "long": "1H",
+          "short": "1H",
           "elapsed": null
         },
         "timerStart": "2026-09-06T17:51:53.613Z",
@@ -12771,8 +12771,8 @@
           "city": ""
         },
         "status": {
-          "long": "NS",
-          "short": "NS",
+          "long": "1H",
+          "short": "1H",
           "elapsed": null
         },
         "timerStart": "2026-09-06T18:10:03.437Z",
@@ -20102,10 +20102,10 @@
   "budget": {
     "used": 0,
     "remaining": 100,
-    "mode": "prematch",
-    "liveIntervalMs": 120000
+    "mode": "live",
+    "liveIntervalMs": 20000
   },
-  "fetchedAt": "2026-09-06T18:57:20.019Z",
+  "fetchedAt": "2026-09-06T19:00:20.470Z",
   "source": "ge-globo",
   "meta": {
     "rodada": 26,

@@ -966,12 +966,46 @@
         "name": "Chapecoense"
       },
       "type": "Important",
+      "detail": "Bidon erra passe no meio de campo, gera contra-ataque para a Chapecoense e mata a jogada rapidamente.",
+      "player": {
+        "name": "Bidon erra passe no meio de campo, gera contra-a"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 46,
+        "extra": null
+      },
+      "team": {
+        "id": 315,
+        "name": "Chapecoense"
+      },
+      "type": "Important",
       "detail": "Chape escapa pela esquerda e aciona Marcinho no pivô. O camisa 7 dá um passe de letra para Giovanni Augusto ficar completamente livre na entrada da área e bater rasteiro, com força. O goleiro Kauê se estica todo e faz a defesa.",
       "player": {
         "name": "Giovanni Augusto"
       },
       "assist": {
         "name": "UUUUUUUUUUUH"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 47,
+        "extra": null
+      },
+      "team": {
+        "id": 264,
+        "name": "Corinthians"
+      },
+      "type": "Important",
+      "detail": "Doma faz lançamento longo para Túlio Eduardo, a zaga do Corinthians não corta, e o goleiro Kauê sai da área para fazer o corte. Se o goleiro do Timão tivesse errado, a Chape teria uma excelente oportunidade de virar a partida em Itaquera.",
+      "player": {
+        "name": "Kauê"
+      },
+      "assist": {
+        "name": "Corajoso"
       }
     },
     {
@@ -1457,7 +1491,7 @@
         },
         {
           "type": "Total Passes",
-          "value": 341
+          "value": 364
         },
         {
           "type": "Pass Accuracy",
@@ -1465,7 +1499,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 37
+          "value": 40
         },
         {
           "type": "Total Shots",
@@ -1501,7 +1535,7 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Tackles",
@@ -1509,7 +1543,7 @@
         },
         {
           "type": "Fouls",
-          "value": 4
+          "value": 5
         },
         {
           "type": "Yellow Cards",
@@ -1533,7 +1567,7 @@
         },
         {
           "type": "Total Passes",
-          "value": 261
+          "value": 289
         },
         {
           "type": "Pass Accuracy",
@@ -1541,7 +1575,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 33
+          "value": 38
         },
         {
           "type": "Total Shots",
@@ -1581,11 +1615,11 @@
         },
         {
           "type": "Tackles",
-          "value": 6
+          "value": 7
         },
         {
           "type": "Fouls",
-          "value": 12
+          "value": 13
         },
         {
           "type": "Yellow Cards",

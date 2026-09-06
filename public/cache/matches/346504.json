@@ -7,12 +7,12 @@
       "city": ""
     },
     "status": {
-      "long": "2H",
-      "short": "2H",
-      "elapsed": 97
+      "long": "FT",
+      "short": "FT",
+      "elapsed": 90
     },
     "timerStart": "2026-09-06T20:10:53.980Z",
-    "timerStatus": "INICIADO"
+    "timerStatus": "PAUSADO"
   },
   "league": {
     "round": "Regular Season - 26"
@@ -39,8 +39,8 @@
       "away": null
     },
     "fulltime": {
-      "home": null,
-      "away": null
+      "home": 0,
+      "away": 1
     }
   },
   "odds": {
@@ -50,6 +50,70 @@
     "source": "betexplorer"
   },
   "events": [
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "Important",
+      "detail": "Jogadores do Flamengo fazem a festa no gramado.",
+      "player": {
+        "name": "Jogadores do Flamengo fazem a festa no gramado."
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "Important",
+      "detail": "Jogadores do Flamengo fazem a festa no gramado.",
+      "player": {
+        "name": "Jogadores do Flamengo fazem a festa no gramado."
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 364,
+        "name": "Remo"
+      },
+      "type": "Card",
+      "detail": "Red Card",
+      "player": {
+        "name": "Edson Fernando"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 364,
+        "name": "Remo"
+      },
+      "type": "Important",
+      "detail": "Fim de jogo no Mangueirão! Jogadores do Remo protestam contra a arbitragem.",
+      "player": {
+        "name": "Fim de jogo no Mangueirão! Jogadores do Remo pro"
+      },
+      "assist": null
+    },
     {
       "time": {
         "elapsed": 0,
@@ -1913,6 +1977,38 @@
         "name": "Escanteio para o Remo. Rangel na área!"
       },
       "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 94,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "A partida foi um espetáculo de defesas e persistência! O goleiro do Remo, Marcelo Rangel, operou verdadeiros milagres, parando Pedro à queima-roupa. Mas o Flamengo insistiu, principalmente com Samuel Lino, que chegou a carimbar a trave. Aos 19 do segundo tempo, a rede balançou: Arrascaeta serviu, e Lino marcou de biquinho para decretar o 1 a 0 final e a vitória do Flamengo.",
+      "player": {
+        "name": "Lino supera Rangel e Flamengo vence"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 94,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Vitor Bueno cobra escanteio na segunda trave, Alef Manga se enrola e cruza para fora. A bola sai pela linha de fundo. Tiro de meta e fim de jogo!",
+      "player": {
+        "name": "Vitor Bueno cobra escanteio na segunda trave, Al"
+      },
+      "assist": null
     }
   ],
   "lineups": [
@@ -2382,7 +2478,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 91
+          "value": 89
         },
         {
           "type": "Total Shots",
@@ -2434,7 +2530,7 @@
         },
         {
           "type": "Red Cards",
-          "value": 0
+          "value": 1
         }
       ]
     },

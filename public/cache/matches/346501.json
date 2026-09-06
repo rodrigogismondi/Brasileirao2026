@@ -7,12 +7,12 @@
       "city": ""
     },
     "status": {
-      "long": "2H",
-      "short": "2H",
-      "elapsed": 100
+      "long": "FT",
+      "short": "FT",
+      "elapsed": 90
     },
-    "timerStart": "2026-09-06T20:07:37.066Z",
-    "timerStatus": "INICIADO"
+    "timerStart": "2026-09-06T21:01:07.747Z",
+    "timerStatus": "PAUSADO"
   },
   "league": {
     "round": "Regular Season - 26"
@@ -39,8 +39,8 @@
       "away": null
     },
     "fulltime": {
-      "home": null,
-      "away": null
+      "home": 2,
+      "away": 3
     }
   },
   "odds": {
@@ -1925,6 +1925,54 @@
         "name": "Cruzamento da direita, a bola sobra com Félix To"
       },
       "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 96,
+        "extra": null
+      },
+      "team": {
+        "id": 277,
+        "name": "Santos"
+      },
+      "type": "Important",
+      "detail": "Thaciano avança, prende a bola e deixa com Miguelito, e esse serve Arthur, mas ele não bate para o gol",
+      "player": {
+        "name": "Thaciano avança, prende a bola e deixa com Migue"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 98,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Que jogaço! O Santos foi letal no primeiro tempo e construiu um 3 a 0 com dois gols de Gabriel, um aproveitando erro de Félix Torres e outro de pênalti que gerou a expulsão de Matheus Bahia, e um de Oliva. O Inter, com um a menos, foi valente na etapa final, diminuiu com um golaço de Aguirre e um gol de pênalti de Bruno Henrique, mas a vitória por 3 a 2 ficou mesmo com o Peixe ao apito final.",
+      "player": {
+        "name": "Santos segura vitória eletrizante no Beira-Rio!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 98,
+        "extra": null
+      },
+      "team": {
+        "id": 277,
+        "name": "Santos"
+      },
+      "type": "Important",
+      "detail": "Apita o árbitro, vitória do Santos por 3 a 2 no Beira-Rio!",
+      "player": {
+        "name": "FIM DE JOGO"
+      },
+      "assist": null
     }
   ],
   "lineups": [
@@ -2386,15 +2434,15 @@
         },
         {
           "type": "Total Passes",
-          "value": 437
+          "value": 440
         },
         {
           "type": "Pass Accuracy",
-          "value": "81%"
+          "value": "80%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 85
+          "value": 86
         },
         {
           "type": "Total Shots",
@@ -2434,7 +2482,7 @@
         },
         {
           "type": "Tackles",
-          "value": 15
+          "value": 16
         },
         {
           "type": "Fouls",
@@ -2462,7 +2510,7 @@
         },
         {
           "type": "Total Passes",
-          "value": 603
+          "value": 613
         },
         {
           "type": "Pass Accuracy",
@@ -2470,7 +2518,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 60
+          "value": 61
         },
         {
           "type": "Total Shots",

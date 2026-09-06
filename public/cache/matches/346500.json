@@ -56,6 +56,42 @@
         "extra": null
       },
       "team": {
+        "id": 293,
+        "name": "Athletico-PR"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Portilla"
+      },
+      "assist": {
+        "name": "Jadson"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 293,
+        "name": "Athletico-PR"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Esquivel"
+      },
+      "assist": {
+        "name": "Arthur Dias"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
         "id": 283,
         "name": "Cruzeiro"
       },
@@ -1834,7 +1870,7 @@
         },
         {
           "type": "Tackles",
-          "value": 6
+          "value": 5
         },
         {
           "type": "Fouls",

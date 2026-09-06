@@ -7,12 +7,12 @@
       "city": ""
     },
     "status": {
-      "long": "HT",
-      "short": "HT",
-      "elapsed": 45
+      "long": "2H",
+      "short": "2H",
+      "elapsed": 49
     },
-    "timerStart": "2026-09-06T19:53:50.000Z",
-    "timerStatus": "PAUSADO"
+    "timerStart": "2026-09-06T20:10:53.980Z",
+    "timerStatus": "INICIADO"
   },
   "league": {
     "round": "Regular Season - 26"
@@ -938,6 +938,22 @@
         "name": ""
       },
       "type": "Important",
+      "detail": "Começa o segundo tempo!",
+      "player": {
+        "name": "Bola rolando"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 45,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
       "detail": "Patrick cobra escanteio venenoso, e Rossi manda de novo para escanteio. Quase gol olímpico!",
       "player": {
         "name": "QUE PERIGO!"
@@ -973,6 +989,22 @@
       "detail": "Patrick cobra mais um escanteio venenoso, mas a bola vai para escanteio novamente. Mais uma chance para o Remo.",
       "player": {
         "name": "DE NOVO!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 47,
+        "extra": null
+      },
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Carrascal"
       },
       "assist": null
     },
@@ -1516,7 +1548,7 @@
         },
         {
           "type": "Total Passes",
-          "value": 170
+          "value": 177
         },
         {
           "type": "Pass Accuracy",
@@ -1524,7 +1556,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 41
+          "value": 42
         },
         {
           "type": "Total Shots",
@@ -1568,7 +1600,7 @@
         },
         {
           "type": "Fouls",
-          "value": 4
+          "value": 5
         },
         {
           "type": "Yellow Cards",
@@ -1592,7 +1624,7 @@
         },
         {
           "type": "Total Passes",
-          "value": 378
+          "value": 397
         },
         {
           "type": "Pass Accuracy",
@@ -1600,7 +1632,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 45
+          "value": 46
         },
         {
           "type": "Total Shots",
@@ -1640,11 +1672,11 @@
         },
         {
           "type": "Tackles",
-          "value": 10
+          "value": 11
         },
         {
           "type": "Fouls",
-          "value": 8
+          "value": 9
         },
         {
           "type": "Yellow Cards",

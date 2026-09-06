@@ -12763,12 +12763,12 @@
           "city": ""
         },
         "status": {
-          "long": "HT",
-          "short": "HT",
-          "elapsed": 45
+          "long": "2H",
+          "short": "2H",
+          "elapsed": 49
         },
-        "timerStart": "2026-09-06T19:53:50.000Z",
-        "timerStatus": "PAUSADO"
+        "timerStart": "2026-09-06T20:10:53.980Z",
+        "timerStatus": "INICIADO"
       },
       "league": {
         "round": "Regular Season - 26"
@@ -18760,28 +18760,6 @@
             {
               "rank": 11,
               "team": {
-                "id": 277,
-                "name": "Santos",
-                "logo": "https://s.sde.globo.com/media/organizations/2018/03/12/santos.svg"
-              },
-              "points": 32,
-              "goalsDiff": 1,
-              "form": "LWDWW",
-              "description": "Copa Sudamericana",
-              "all": {
-                "played": 25,
-                "win": 8,
-                "draw": 8,
-                "lose": 9,
-                "goals": {
-                  "for": 37,
-                  "against": 36
-                }
-              }
-            },
-            {
-              "rank": 12,
-              "team": {
                 "id": 264,
                 "name": "Corinthians",
                 "logo": "https://s.sde.globo.com/media/organizations/2024/10/09/Corinthians_2024_Q4ahot4.svg"
@@ -18789,7 +18767,7 @@
               "points": 32,
               "goalsDiff": 1,
               "form": "DWLLL",
-              "description": null,
+              "description": "Copa Sudamericana",
               "all": {
                 "played": 25,
                 "win": 8,
@@ -18798,6 +18776,28 @@
                 "goals": {
                   "for": 26,
                   "against": 25
+                }
+              }
+            },
+            {
+              "rank": 12,
+              "team": {
+                "id": 277,
+                "name": "Santos",
+                "logo": "https://s.sde.globo.com/media/organizations/2018/03/12/santos.svg"
+              },
+              "points": 32,
+              "goalsDiff": 0,
+              "form": "LWDWW",
+              "description": null,
+              "all": {
+                "played": 25,
+                "win": 8,
+                "draw": 8,
+                "lose": 9,
+                "goals": {
+                  "for": 37,
+                  "against": 37
                 }
               }
             },
@@ -18919,7 +18919,7 @@
                 "logo": "https://s.sde.globo.com/media/organizations/2018/03/11/internacional.svg"
               },
               "points": 25,
-              "goalsDiff": -8,
+              "goalsDiff": -7,
               "form": "DDDLL",
               "description": "Relegation",
               "all": {
@@ -18928,7 +18928,7 @@
                 "draw": 10,
                 "lose": 11,
                 "goals": {
-                  "for": 26,
+                  "for": 27,
                   "against": 34
                 }
               }
@@ -20091,7 +20091,7 @@
     "mode": "live",
     "liveIntervalMs": 20000
   },
-  "fetchedAt": "2026-09-06T20:12:20.087Z",
+  "fetchedAt": "2026-09-06T20:15:16.948Z",
   "source": "ge-globo",
   "meta": {
     "rodada": 26,

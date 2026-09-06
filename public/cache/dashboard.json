@@ -12661,7 +12661,7 @@
         "status": {
           "long": "1H",
           "short": "1H",
-          "elapsed": 2
+          "elapsed": 5
         },
         "timerStart": "2026-09-06T19:00:29.774Z",
         "timerStatus": "INICIADO"
@@ -12713,10 +12713,10 @@
         "status": {
           "long": "1H",
           "short": "1H",
-          "elapsed": null
+          "elapsed": 5
         },
-        "timerStart": "2026-09-06T17:51:53.613Z",
-        "timerStatus": "PAUSADO"
+        "timerStart": "2026-09-06T19:00:38.573Z",
+        "timerStatus": "INICIADO"
       },
       "league": {
         "round": "Regular Season - 26"
@@ -20091,7 +20091,7 @@
     "mode": "live",
     "liveIntervalMs": 20000
   },
-  "fetchedAt": "2026-09-06T19:03:25.384Z",
+  "fetchedAt": "2026-09-06T19:06:16.661Z",
   "source": "ge-globo",
   "meta": {
     "rodada": 26,

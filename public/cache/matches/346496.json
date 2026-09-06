@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 30
+      "elapsed": 33
     },
     "timerStart": "2026-09-06T21:30:15.429Z",
     "timerStatus": "INICIADO"
@@ -541,6 +541,74 @@
       "assist": {
         "name": "Que perigo!"
       }
+    },
+    {
+      "time": {
+        "elapsed": 27,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "A partida é quente e equilibrada até os 27 minutos. O Botafogo criou mais, testando o goleiro Carlos Miguel em chutes de Montoro e Danilo Pereira. O Palmeiras respondeu com Evangelista e em falta perigosa de Andreas. O clima esquentou com cartões para os dois lados e um lance polêmico de Marçal. No lance mais claro do jogo, Villalba ficou cara a cara com o gol e desperdiçou uma chance incrível para o time da casa.",
+      "player": {
+        "name": "Jogo quente e chance incrível perdida!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 27,
+        "extra": null
+      },
+      "team": {
+        "id": 263,
+        "name": "Botafogo"
+      },
+      "type": "Important",
+      "detail": "Botafogo arma contra-ataque, e Montoro acerta ótimo passe que deixa Villalba de frente para Carlos Miguel, mas o atacante tira demais do goleiro e finaliza para fora na melhor chance do jogo!",
+      "player": {
+        "name": "Villalba"
+      },
+      "assist": {
+        "name": "Inacreditável!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 28,
+        "extra": null
+      },
+      "team": {
+        "id": 263,
+        "name": "Botafogo"
+      },
+      "type": "Important",
+      "detail": "Giay é lançado nas costas da defesa do Botafogo, invade a área, mas é desarmado por Monzón",
+      "player": {
+        "name": "Giay é lançado nas costas da defesa do Botafogo,"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 29,
+        "extra": null
+      },
+      "team": {
+        "id": 275,
+        "name": "Palmeiras"
+      },
+      "type": "Important",
+      "detail": "Mais uma vez a dobradinha na esquerda. Piquerez recebe na linha de fundo e ajeita para Evangelista. Desta vez, ele pega muito mal e chuta para fora",
+      "player": {
+        "name": "Lucas Evangelista"
+      },
+      "assist": {
+        "name": "Longe!"
+      }
     }
   ],
   "lineups": [
@@ -1002,11 +1070,11 @@
         },
         {
           "type": "Total Passes",
-          "value": 86
+          "value": 90
         },
         {
           "type": "Pass Accuracy",
-          "value": "79%"
+          "value": "80%"
         },
         {
           "type": "Incomplete Passes",
@@ -1014,7 +1082,7 @@
         },
         {
           "type": "Total Shots",
-          "value": 5
+          "value": 6
         },
         {
           "type": "Shots on Goal",
@@ -1022,7 +1090,7 @@
         },
         {
           "type": "Shots off Goal",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Blocked Shots",
@@ -1078,7 +1146,7 @@
         },
         {
           "type": "Total Passes",
-          "value": 192
+          "value": 229
         },
         {
           "type": "Pass Accuracy",
@@ -1086,11 +1154,11 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 22
+          "value": 25
         },
         {
           "type": "Total Shots",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Shots on Goal",
@@ -1098,7 +1166,7 @@
         },
         {
           "type": "Shots off Goal",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Blocked Shots",
@@ -1110,7 +1178,7 @@
         },
         {
           "type": "Corner Kicks",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Offsides",

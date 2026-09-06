@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 42
+      "elapsed": 45
     },
     "timerStart": "2026-09-06T21:30:15.429Z",
     "timerStatus": "INICIADO"
@@ -732,11 +732,95 @@
         "name": ""
       },
       "type": "Important",
+      "detail": "A partida segue intensa e equilibrada nestes primeiros 38 minutos. O Botafogo criou a melhor oportunidade até aqui, mas Villalba desperdiçou uma chance incrível, cara a cara com o goleiro Carlos Miguel. O Palmeiras respondeu com chutes perigosos de Andreas e Evangelista, parando em boas defesas de Gabriel Batista. O clima esquentou com cartões, vaias e uma falta polêmica de Marçal em Andreas na entrada da área.",
+      "player": {
+        "name": "Tensão, chances claras e placar zerado!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 37,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
       "detail": "Piquerez levanta a bola na área do Botafogo, mas a defesa corta. A sobra fica com Giay, que solta uma pancada. A bola bate no pé de Monzón e depois resvala no braço. Jogadores do Palmeiras pedem pênalti, mas o árbitro não vê irregularidade no lance.",
       "player": {
         "name": "Na bronca"
       },
       "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 39,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Evangelista sofre falta na linha de fundo. Vitinho chega atrasado e acaba derrubando o volante",
+      "player": {
+        "name": "Evangelista sofre falta na linha de fundo. Vitin"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 40,
+        "extra": null
+      },
+      "team": {
+        "id": 275,
+        "name": "Palmeiras"
+      },
+      "type": "Important",
+      "detail": "Felipe Anderson encontra Maurício livre entre marcadores, na entrada da área. O meia domina e bate rasteiro, mas a bola passa à esquerda do gol de Gabriel Batista",
+      "player": {
+        "name": "Maurício"
+      },
+      "assist": {
+        "name": "Para fora!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 40,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Com 40 minutos de jogo, a partida é intensa e cheia de alternativas! O Botafogo lamenta a chance de ouro perdida por Villalba, que saiu na cara do gol e chutou para fora. Do outro lado, o Palmeiras cresceu e assustou com Andreas Pereira, forçando Gabriel Batista a operar duas defesas espetaculares. O clima esquentou com três amarelos distribuídos e reclamações em campo.",
+      "player": {
+        "name": "Chances claras, defesas e tensão no Niltão"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 40,
+        "extra": null
+      },
+      "team": {
+        "id": 275,
+        "name": "Palmeiras"
+      },
+      "type": "Important",
+      "detail": "Andreas cobra a falta fechada, direto no gol, e obriga Gabriel Batista a fazer uma grande defesa com as pontas dos dedos!",
+      "player": {
+        "name": "Andreas Pereira"
+      },
+      "assist": {
+        "name": "Que batida!"
+      }
     }
   ],
   "lineups": [
@@ -1194,19 +1278,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "36%"
+          "value": "35%"
         },
         {
           "type": "Total Passes",
-          "value": 134
+          "value": 140
         },
         {
           "type": "Pass Accuracy",
-          "value": "77%"
+          "value": "76%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 31
+          "value": 33
         },
         {
           "type": "Total Shots",
@@ -1242,7 +1326,7 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 3
+          "value": 5
         },
         {
           "type": "Tackles",
@@ -1270,31 +1354,31 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "64%"
+          "value": "65%"
         },
         {
           "type": "Total Passes",
-          "value": 279
+          "value": 325
         },
         {
           "type": "Pass Accuracy",
-          "value": "87%"
+          "value": "88%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 35
+          "value": 40
         },
         {
           "type": "Total Shots",
-          "value": 6
+          "value": 8
         },
         {
           "type": "Shots on Goal",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Shots off Goal",
-          "value": 3
+          "value": 4
         },
         {
           "type": "Blocked Shots",

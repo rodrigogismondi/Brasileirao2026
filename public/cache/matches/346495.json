@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 48
+      "elapsed": 51
     },
     "timerStart": "2026-09-06T00:00:10.080Z",
     "timerStatus": "INICIADO"
@@ -885,6 +885,54 @@
         "name": "Time do Fluminense sai errado e dá chance para o"
       },
       "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 48,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "Important",
+      "detail": "O Vasco tomou a iniciativa desde o início, impondo uma forte pressão no campo do Fluminense. O time visitante criou as melhores oportunidades, como em um chute de Thiago Mendes bloqueado e uma finalização de Piton que exigiu grande defesa de Fábio. O clima esquentou com discussões e cartões para os dois lados. Nos acréscimos, Hulk teve a grande chance do Flu, mas errou a cavadinha na cara do gol.",
+      "player": {
+        "name": "Vasco pressiona, mas o zero não sai do placar"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 48,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "Important",
+      "detail": "Cobrança de lateral rápida do Fluminense! Hulk recebe na entrada da área e tenta cavar contra Léo Jardim, mas erra o chute e manda nas mãos do goleiro.",
+      "player": {
+        "name": "Hulk"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 49,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Ignácio"
+      },
+      "assist": null
     }
   ],
   "lineups": [
@@ -1342,19 +1390,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "45%"
+          "value": "47%"
         },
         {
           "type": "Total Passes",
-          "value": 194
+          "value": 217
         },
         {
           "type": "Pass Accuracy",
-          "value": "84%"
+          "value": "85%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 31
+          "value": 33
         },
         {
           "type": "Total Shots",
@@ -1394,7 +1442,7 @@
         },
         {
           "type": "Tackles",
-          "value": 10
+          "value": 12
         },
         {
           "type": "Fouls",
@@ -1418,11 +1466,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "55%"
+          "value": "53%"
         },
         {
           "type": "Total Passes",
-          "value": 263
+          "value": 273
         },
         {
           "type": "Pass Accuracy",
@@ -1430,7 +1478,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 40
+          "value": 41
         },
         {
           "type": "Total Shots",
@@ -1474,7 +1522,7 @@
         },
         {
           "type": "Fouls",
-          "value": 9
+          "value": 10
         },
         {
           "type": "Yellow Cards",

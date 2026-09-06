@@ -88,7 +88,8 @@ export interface MatchSub {
 
 /** Editorial / important GE play (shot, chance, woodwork, …). */
 export interface MatchMoment {
-  team: 1 | 2;
+  /** null when GE narration has no reliable side (avoid fake home crest). */
+  team: 1 | 2 | null;
   minute: number;
   name: string;
   title: string;

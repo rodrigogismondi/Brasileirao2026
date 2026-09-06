@@ -4,7 +4,8 @@ import { escapeHtml, formatKickoff, formatScore, liveBadgeText, statusLabel, tea
 
 interface TimelineEvent {
   kind: "goal" | "own" | "yellow" | "red" | "sub" | "moment";
-  team: 1 | 2;
+  /** null = no reliable side (omit crest). */
+  team: 1 | 2 | null;
   minute: string;
   sortKey: number;
   title: string;
@@ -116,7 +117,10 @@ function parseStatNumber(v: string | number): number {
   return Number.isFinite(n) ? n : 0;
 }
 
-function eventCrest(detail: MatchDetail, team: 1 | 2): string {
+function eventCrest(detail: MatchDetail, team: 1 | 2 | null): string {
+  if (team !== 1 && team !== 2) {
+    return `<span class="md-event-crest md-event-crest-empty" aria-hidden="true"></span>`;
+  }
   const logo = team === 1 ? detail.logo1 : detail.logo2;
   const name = team === 1 ? detail.team1 : detail.team2;
   return `<span class="md-event-crest">${logoImg(logo, name, 22)}</span>`;
@@ -191,7 +195,7 @@ function renderEvents(detail: MatchDetail, lang: Lang): string {
       ${events
         .map(
           (e) => `
-        <li class="md-event md-event-${e.kind} md-event-team${e.team}">
+        <li class="md-event md-event-${e.kind}${e.team ? ` md-event-team${e.team}` : " md-event-team0"}">
           <span class="md-min">${escapeHtml(e.minute)}'</span>
           ${eventCrest(detail, e.team)}
           ${renderEventBody(e, lang)}

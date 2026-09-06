@@ -273,10 +273,15 @@ export function mapMatchDetail(raw: RawDetail): MatchDetail {
   let scoredHome = 0;
   let scoredAway = 0;
 
+  const awayId = raw.teams.away.id;
   for (const e of raw.events ?? []) {
-    const team: 1 | 2 = e.team.id === homeId ? 1 : 2;
+    const side: 1 | 2 | null =
+      e.team?.id === homeId ? 1 : e.team?.id === awayId ? 2 : null;
     const minute = e.time.elapsed ?? 0;
     if (e.type === "Goal") {
+      // Goals without a side cannot update the placar — skip.
+      if (side == null) continue;
+      const team = side;
       const own = /own/i.test(String(e.detail || ""));
       // Lineup icons follow the player/event team; placar credits the beneficiary.
       if (own) {
@@ -292,22 +297,24 @@ export function mapMatchDetail(raw: RawDetail): MatchDetail {
       };
       (team === 1 ? goals1 : goals2).push(g);
     } else if (e.type === "Card") {
+      if (side == null) continue;
       cards.push({
-        team,
+        team: side,
         minute,
         name: e.player?.name ?? "?",
         type: /red/i.test(e.detail) ? "red" : "yellow",
       });
     } else if (e.type === "subst") {
+      if (side == null) continue;
       subs.push({
-        team,
+        team: side,
         minute,
         playerIn: e.player?.name ?? "?",
         playerOut: e.assist?.name ?? "?",
       });
     } else if (e.type === "Important") {
       moments.push({
-        team,
+        team: side,
         minute,
         name: e.player?.name ?? "?",
         title: e.assist?.name || e.detail || e.player?.name || "Lance",

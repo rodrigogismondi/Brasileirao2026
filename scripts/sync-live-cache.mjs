@@ -383,16 +383,51 @@ function playBodyText(play) {
     .trim();
 }
 
+/** Common GE narration nicknames / siglas → official nome_popular. */
+const TEAM_ALIASES = {
+  coritiba: ["coxa", "cfc"],
+  mirassol: ["mir"],
+  flamengo: ["fla", "mengão", "mengao"],
+  fluminense: ["flu", "nense"],
+  palmeiras: ["verdão", "verdao", "sep"],
+  corinthians: ["timão", "timao", "coringa"],
+  "são paulo": ["tricolor paulista", "sfc", "sao paulo"],
+  santos: ["peixe"],
+  botafogo: ["fogão", "fogao", "glo"],
+  vasco: ["gigante da colina", "cruzmaltino"],
+  cruzeiro: ["raposa"],
+  "atlético-mg": ["galo", "atletico-mg", "atletico mg"],
+  "athletico-pr": ["furacão", "furacao", "cap"],
+  internacional: ["inter", "colorado"],
+  grêmio: ["gremio", "imortal"],
+  bahia: ["tricolor de aço", "tricolor de aco"],
+  vitória: ["vitoria", "leão", "leao"],
+  bragantino: ["rb bragantino", "masssa bruta"],
+  chapecoense: ["chape"],
+  remo: ["leão azul", "leao azul"],
+};
+
+function teamAliasList(name) {
+  const key = String(name || "")
+    .toLowerCase()
+    .normalize("NFD")
+    .replace(/\p{M}/gu, "");
+  const raw = String(name || "").toLowerCase();
+  const extra = TEAM_ALIASES[raw] || TEAM_ALIASES[key] || [];
+  return [raw, key, ...extra].filter((s) => s && s.length >= 2);
+}
+
 /** Guess side from narration text when GE omits details.team. */
 function inferTeamId(text, homeId, awayId, homeName, awayName) {
-  const t = String(text || "").toLowerCase();
+  const t = String(text || "")
+    .toLowerCase()
+    .normalize("NFD")
+    .replace(/\p{M}/gu, "");
   if (!t) return null;
-  const h = String(homeName || "").toLowerCase();
-  const a = String(awayName || "").toLowerCase();
-  const hasH = h.length >= 3 && t.includes(h);
-  const hasA = a.length >= 3 && t.includes(a);
-  if (hasH && !hasA) return homeId;
-  if (hasA && !hasH) return awayId;
+  const homeHits = teamAliasList(homeName).some((a) => t.includes(a));
+  const awayHits = teamAliasList(awayName).some((a) => t.includes(a));
+  if (homeHits && !awayHits) return homeId;
+  if (awayHits && !homeHits) return awayId;
   return null;
 }
 
@@ -469,17 +504,27 @@ function mapEvents(plays, homeId, awayId, homeName, awayName) {
     if (!title && body.length < 25) continue;
 
     let teamId = details.team?.id ?? play.team?.id ?? null;
+    // GE often stamps the home side on generic commentary — prefer text when
+    // the declared team disagrees with a clear single-side mention.
+    const inferred = inferTeamId(`${title} ${body}`, homeId, awayId, homeName, awayName);
     if (teamId == null) {
-      teamId = inferTeamId(`${title} ${body}`, homeId, awayId, homeName, awayName);
+      teamId = inferred;
+    } else if (
+      inferred != null &&
+      inferred !== teamId &&
+      (teamId === homeId || teamId === awayId)
+    ) {
+      const other = teamId === homeId ? awayId : homeId;
+      if (inferred === other) teamId = inferred;
     }
-    // Keep narration even without a side — crest falls back to home.
-    if (teamId == null) teamId = homeId;
+    // No side → id 0 so the UI omits a misleading home crest.
+    if (teamId == null) teamId = 0;
     const teamName =
       teamId === homeId
         ? homeName
         : teamId === awayId
           ? awayName
-          : details.team?.abbreviation || homeName;
+          : details.team?.abbreviation || "";
     const athlete = details.athlete?.popularName || details.athlete?.name || "";
     const label = athlete || title || body.slice(0, 48);
     events.push({
@@ -1201,10 +1246,13 @@ async function main() {
     const hasLive = fixtures.some((f) =>
       ["1H", "HT", "2H", "LIVE", "ET", "BT", "P"].includes(f.fixture.status.short)
     );
+    // Wide prematch window (~14h) so afternoon/evening kickoffs after a
+    // morning match still keep mode=prematch — GH cron + agent timer must
+    // not drop to idle between matchday fixtures.
     const hasPrematch = fixtures.some((f) => {
       if (f.fixture.status.short !== "NS") return false;
       const eta = f.fixture.timestamp - nowSec;
-      return eta <= 3 * 3600 && eta >= -30 * 60;
+      return eta <= 14 * 3600 && eta >= -30 * 60;
     });
     const mode = hasLive ? "live" : hasPrematch ? "prematch" : "idle";
     const liveIntervalMs =

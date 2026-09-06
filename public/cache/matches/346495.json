@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 72
+      "elapsed": 75
     },
     "timerStart": "2026-09-06T01:08:34.765Z",
     "timerStatus": "INICIADO"
@@ -1387,6 +1387,40 @@
         "name": "Vasco chega ao ataque em lance perigoso. Colidio"
       },
       "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 71,
+        "extra": null
+      },
+      "team": {
+        "id": 267,
+        "name": "Vasco"
+      },
+      "type": "Important",
+      "detail": "Canobbio lança para Hulk, que cai em disputa com os zagueiros do Vasco. Árbitro manda seguir.",
+      "player": {
+        "name": "Canobbio lança para Hulk, que cai em disputa com"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 73,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Serna"
+      },
+      "assist": {
+        "name": "Soteldo"
+      }
     }
   ],
   "lineups": [
@@ -1844,11 +1878,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "52%"
+          "value": "51%"
         },
         {
           "type": "Total Passes",
-          "value": 398
+          "value": 403
         },
         {
           "type": "Pass Accuracy",
@@ -1856,7 +1890,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 54
+          "value": 55
         },
         {
           "type": "Total Shots",
@@ -1892,7 +1926,7 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 5
+          "value": 6
         },
         {
           "type": "Tackles",
@@ -1920,11 +1954,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "48%"
+          "value": "49%"
         },
         {
           "type": "Total Passes",
-          "value": 421
+          "value": 444
         },
         {
           "type": "Pass Accuracy",
@@ -1932,11 +1966,11 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 65
+          "value": 67
         },
         {
           "type": "Total Shots",
-          "value": 9
+          "value": 10
         },
         {
           "type": "Shots on Goal",
@@ -1948,7 +1982,7 @@
         },
         {
           "type": "Blocked Shots",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Hit Woodwork",

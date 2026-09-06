@@ -7,12 +7,12 @@
       "city": ""
     },
     "status": {
-      "long": "HT",
-      "short": "HT",
-      "elapsed": 45
+      "long": "2H",
+      "short": "2H",
+      "elapsed": 49
     },
-    "timerStart": "2026-09-06T22:20:50.611Z",
-    "timerStatus": "PAUSADO"
+    "timerStart": "2026-09-06T22:38:15.857Z",
+    "timerStatus": "INICIADO"
   },
   "league": {
     "round": "Regular Season - 26"
@@ -910,6 +910,22 @@
         "extra": null
       },
       "team": {
+        "id": 275,
+        "name": "Palmeiras"
+      },
+      "type": "Important",
+      "detail": "Palmeiras trabalha a bola na defesa sem pressa",
+      "player": {
+        "name": "Palmeiras trabalha a bola na defesa sem pressa"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 45,
+        "extra": null
+      },
+      "team": {
         "id": 0,
         "name": ""
       },
@@ -933,6 +949,22 @@
       "detail": "+4",
       "player": {
         "name": "Acréscimos"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 46,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Marçal erra domínio na defesa e quase se complica. Felipe Anderson liga para Fláco, mas erra o passe na área alvinegra",
+      "player": {
+        "name": "Marçal erra domínio na defesa e quase se complic"
       },
       "assist": null
     },
@@ -1556,7 +1588,7 @@
         },
         {
           "type": "Tackles",
-          "value": 6
+          "value": 7
         },
         {
           "type": "Fouls",
@@ -1584,15 +1616,15 @@
         },
         {
           "type": "Total Passes",
-          "value": 369
+          "value": 372
         },
         {
           "type": "Pass Accuracy",
-          "value": "88%"
+          "value": "87%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 46
+          "value": 47
         },
         {
           "type": "Total Shots",

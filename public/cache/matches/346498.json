@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 7
+      "elapsed": 10
     },
     "timerStart": "2026-09-06T22:31:40.919Z",
     "timerStatus": "INICIADO"
@@ -175,6 +175,88 @@
       "detail": "Bidu receba na lateral e passa de primeira para Garro dentro da área. O argentino corre, mas não chega na bola.",
       "player": {
         "name": "Matheus Bidu"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 7,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "A partida começou a todo vapor! Com menos de 20 segundos, Yago Felipe já recebeu cartão amarelo por uma falta dura. Logo em seguida, aos 2 minutos, o Corinthians aproveitou uma confusão na área da Chapecoense e abriu o placar com Matheus Bidu, que fuzilou para fazer 1 a 0. Passados 7 minutos, o time da casa domina a posse de bola e segue no ataque, enquanto a Chape apenas se defende.",
+      "player": {
+        "name": "Gol relâmpago e início quente na Arena"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 7,
+        "extra": null
+      },
+      "team": {
+        "id": 264,
+        "name": "Corinthians"
+      },
+      "type": "Important",
+      "detail": "Túlio Eduardo é lançado pela direita, corre para a linha de campo e acaba desarmado por Carrillo, que disputou a bola com um carrinho. A torcida do Corinthians gostou da raça do peruano e o aplaudiu.",
+      "player": {
+        "name": "Carrillo"
+      },
+      "assist": {
+        "name": "Aplaudido"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 8,
+        "extra": null
+      },
+      "team": {
+        "id": 264,
+        "name": "Corinthians"
+      },
+      "type": "Important",
+      "detail": "Garro cobra fechado, mas ninguém do Corinthians chega para finalizar.",
+      "player": {
+        "name": "Garro cobra fechado, mas ninguém do Corinthians "
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 8,
+        "extra": null
+      },
+      "team": {
+        "id": 264,
+        "name": "Corinthians"
+      },
+      "type": "Important",
+      "detail": "Escanteio para o Corinthians.",
+      "player": {
+        "name": "Escanteio para o Corinthians."
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 9,
+        "extra": null
+      },
+      "team": {
+        "id": 315,
+        "name": "Chapecoense"
+      },
+      "type": "Important",
+      "detail": "Chape controla a posse de bola pela primeira vez na partida.",
+      "player": {
+        "name": "Chape controla a posse de bola pela primeira vez"
       },
       "assist": null
     }
@@ -625,19 +707,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "87%"
+          "value": "74%"
         },
         {
           "type": "Total Passes",
-          "value": 7
+          "value": 47
         },
         {
           "type": "Pass Accuracy",
-          "value": "86%"
+          "value": "89%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 1
+          "value": 5
         },
         {
           "type": "Total Shots",
@@ -677,11 +759,11 @@
         },
         {
           "type": "Tackles",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Fouls",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Yellow Cards",
@@ -701,19 +783,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "13%"
+          "value": "26%"
         },
         {
           "type": "Total Passes",
-          "value": 5
+          "value": 14
         },
         {
           "type": "Pass Accuracy",
-          "value": "80%"
+          "value": "71%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 1
+          "value": 4
         },
         {
           "type": "Total Shots",
@@ -753,11 +835,11 @@
         },
         {
           "type": "Tackles",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Fouls",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Yellow Cards",

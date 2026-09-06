@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 9
+      "elapsed": 12
     },
     "timerStart": "2026-09-06T00:00:10.080Z",
     "timerStatus": "INICIADO"
@@ -207,6 +207,54 @@
       "detail": "Canobbio ganha na direita, mas exagera na velocidade e sai com bola e tudo para fora do campo.",
       "player": {
         "name": "Canobbio ganha na direita, mas exagera na veloci"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 8,
+        "extra": null
+      },
+      "team": {
+        "id": 267,
+        "name": "Vasco"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Andrés Gómez"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 9,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "Important",
+      "detail": "O Vasco assume a iniciativa nestes 10 minutos iniciais, jogando no campo do Fluminense. O time visitante criou as melhores chegadas até agora, com um chute de longe de Piton e uma boa arrancada de Andrés Gómez, que foi travado por Millán na hora da finalização. O próprio Gómez já recebeu cartão amarelo por falta dura em Renê. O Fluminense por enquanto se concentra na marcação para segurar o ímpeto rival.",
+      "player": {
+        "name": "Início com pressão e primeiro amarelo"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 9,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "Important",
+      "detail": "Gómez ganha de Renê e arranca na direção da área. Ele tenta o chute, mas Millán consegue atrapalhar o colombiano.",
+      "player": {
+        "name": "Gómez ganha de Renê e arranca na direção da área"
       },
       "assist": null
     }
@@ -666,19 +714,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "24%"
+          "value": "42%"
         },
         {
           "type": "Total Passes",
-          "value": 23
+          "value": 50
         },
         {
           "type": "Pass Accuracy",
-          "value": "83%"
+          "value": "82%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 4
+          "value": 9
         },
         {
           "type": "Total Shots",
@@ -714,15 +762,15 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 0
-        },
-        {
-          "type": "Tackles",
           "value": 1
         },
         {
+          "type": "Tackles",
+          "value": 2
+        },
+        {
           "type": "Fouls",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Yellow Cards",
@@ -742,15 +790,15 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "76%"
+          "value": "58%"
         },
         {
           "type": "Total Passes",
-          "value": 63
+          "value": 78
         },
         {
           "type": "Pass Accuracy",
-          "value": "83%"
+          "value": "86%"
         },
         {
           "type": "Incomplete Passes",
@@ -758,7 +806,7 @@
         },
         {
           "type": "Total Shots",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Shots on Goal",
@@ -770,7 +818,7 @@
         },
         {
           "type": "Blocked Shots",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Hit Woodwork",
@@ -794,15 +842,15 @@
         },
         {
           "type": "Tackles",
-          "value": 4
+          "value": 5
         },
         {
           "type": "Fouls",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Yellow Cards",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Red Cards",

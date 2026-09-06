@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 54
+      "elapsed": 55
     },
     "timerStart": "2026-09-06T20:12:00.437Z",
     "timerStatus": "INICIADO"
@@ -1370,6 +1370,54 @@
         "extra": null
       },
       "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Viveros tenta dividida com Fagner, mas o lateral cruzeirense leva a melhor.",
+      "player": {
+        "name": "Viveros tenta dividida com Fagner, mas o lateral"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 52,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Que primeiro tempo! O Cruzeiro saiu na frente com gol de peixinho de Matheus Pereira e ainda teve outro, anulado pelo VAR. Mas o Athletico-PR não se abateu e buscou o empate em um golaço de João Cruz. A emoção não parou: nos acréscimos, Mycael defendeu um pênalti de Matheus Pereira! O segundo tempo começa com tudo igual, 1 a 1, e a partida completamente aberta no Mineirão.",
+      "player": {
+        "name": "Gols, VAR e pênalti perdido: jogaço!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 52,
+        "extra": null
+      },
+      "team": {
+        "id": 283,
+        "name": "Cruzeiro"
+      },
+      "type": "Important",
+      "detail": "Matheus Pereira cobra escanteio, mas Aguirre sobe mais alto e afasta o perigo.",
+      "player": {
+        "name": "Matheus Pereira"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 52,
+        "extra": null
+      },
+      "team": {
         "id": 283,
         "name": "Cruzeiro"
       },
@@ -1397,6 +1445,22 @@
       "assist": {
         "name": "DEFENDEU!"
       }
+    },
+    {
+      "time": {
+        "elapsed": 53,
+        "extra": null
+      },
+      "team": {
+        "id": 293,
+        "name": "Athletico-PR"
+      },
+      "type": "Important",
+      "detail": "Viveros ganha de João Marcelo, mas a bola corre mais e sai pela linha de fundo. Tiro de meta para Otávio.",
+      "player": {
+        "name": "Viveros"
+      },
+      "assist": null
     },
     {
       "time": {
@@ -1886,19 +1950,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "58%"
+          "value": "59%"
         },
         {
           "type": "Total Passes",
-          "value": 342
+          "value": 354
         },
         {
           "type": "Pass Accuracy",
-          "value": "89%"
+          "value": "88%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 39
+          "value": 42
         },
         {
           "type": "Total Shots",
@@ -1922,7 +1986,7 @@
         },
         {
           "type": "Corner Kicks",
-          "value": 5
+          "value": 6
         },
         {
           "type": "Offsides",
@@ -1938,7 +2002,7 @@
         },
         {
           "type": "Tackles",
-          "value": 9
+          "value": 11
         },
         {
           "type": "Fouls",
@@ -1962,19 +2026,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "42%"
+          "value": "41%"
         },
         {
           "type": "Total Passes",
-          "value": 205
+          "value": 218
         },
         {
           "type": "Pass Accuracy",
-          "value": "80%"
+          "value": "81%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 41
+          "value": 42
         },
         {
           "type": "Total Shots",
@@ -1986,11 +2050,11 @@
         },
         {
           "type": "Shots off Goal",
-          "value": 4
+          "value": 5
         },
         {
           "type": "Blocked Shots",
-          "value": 2
+          "value": 1
         },
         {
           "type": "Hit Woodwork",
@@ -2002,7 +2066,7 @@
         },
         {
           "type": "Offsides",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Penalties",

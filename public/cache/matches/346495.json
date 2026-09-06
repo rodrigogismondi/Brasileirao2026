@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 60
+      "elapsed": 63
     },
     "timerStart": "2026-09-06T01:08:34.765Z",
     "timerStatus": "INICIADO"
@@ -30,7 +30,7 @@
     }
   },
   "goals": {
-    "home": 0,
+    "home": 1,
     "away": 0
   },
   "score": {
@@ -1227,6 +1227,54 @@
       "assist": {
         "name": "Bruno Duarte"
       }
+    },
+    {
+      "time": {
+        "elapsed": 60,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "Important",
+      "detail": "Após um primeiro tempo de pressão do Vasco, que exigiu defesas de Fábio, o Fluminense voltou melhor na segunda etapa. Aos 15 minutos, a mudança de Marcão surtiu efeito: Lucho Acosta, que havia acabado de entrar no lugar de Ganso, recebeu um belo cruzamento de Soteldo após jogada iniciada por Hulk e estufou a rede, colocando o time da casa na frente com o placar de 1 a 0.",
+      "player": {
+        "name": "Lucho Acosta sai do banco e abre o placar!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 60,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "player": {
+        "name": "Lucho Acosta"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 62,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "Important",
+      "detail": "Piton cruza na área, mas a bola passa por Colidio. Flu tira da área.",
+      "player": {
+        "name": "Piton cruza na área, mas a bola passa por Colidi"
+      },
+      "assist": null
     }
   ],
   "lineups": [
@@ -1684,27 +1732,27 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "52%"
+          "value": "53%"
         },
         {
           "type": "Total Passes",
-          "value": 341
+          "value": 355
         },
         {
           "type": "Pass Accuracy",
-          "value": "87%"
+          "value": "86%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 46
+          "value": 48
         },
         {
           "type": "Total Shots",
-          "value": 3
+          "value": 4
         },
         {
           "type": "Shots on Goal",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Shots off Goal",
@@ -1724,7 +1772,7 @@
         },
         {
           "type": "Offsides",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Penalties",
@@ -1760,19 +1808,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "48%"
+          "value": "47%"
         },
         {
           "type": "Total Passes",
-          "value": 318
+          "value": 324
         },
         {
           "type": "Pass Accuracy",
-          "value": "85%"
+          "value": "84%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 49
+          "value": 51
         },
         {
           "type": "Total Shots",
@@ -1812,7 +1860,7 @@
         },
         {
           "type": "Tackles",
-          "value": 14
+          "value": 15
         },
         {
           "type": "Fouls",

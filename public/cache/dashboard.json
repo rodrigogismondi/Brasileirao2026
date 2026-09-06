@@ -12561,7 +12561,7 @@
         "status": {
           "long": "2H",
           "short": "2H",
-          "elapsed": 60
+          "elapsed": 63
         },
         "timerStart": "2026-09-06T01:08:34.765Z",
         "timerStatus": "INICIADO"
@@ -12582,7 +12582,7 @@
         }
       },
       "goals": {
-        "home": 0,
+        "home": 1,
         "away": 0
       },
       "score": {
@@ -18602,18 +18602,18 @@
             {
               "rank": 4,
               "team": {
-                "id": 265,
-                "name": "Bahia",
-                "logo": "https://s.sde.globo.com/media/organizations/2018/03/11/bahia.svg"
+                "id": 266,
+                "name": "Fluminense",
+                "logo": "https://s.sde.globo.com/media/organizations/2018/03/11/fluminense.svg"
               },
-              "points": 43,
+              "points": 45,
               "goalsDiff": 8,
-              "form": "DDWWW",
+              "form": "DWWDW",
               "description": "Copa Libertadores",
               "all": {
                 "played": 26,
-                "win": 11,
-                "draw": 10,
+                "win": 12,
+                "draw": 9,
                 "lose": 5,
                 "goals": {
                   "for": 40,
@@ -18624,13 +18624,13 @@
             {
               "rank": 5,
               "team": {
-                "id": 266,
-                "name": "Fluminense",
-                "logo": "https://s.sde.globo.com/media/organizations/2018/03/11/fluminense.svg"
+                "id": 265,
+                "name": "Bahia",
+                "logo": "https://s.sde.globo.com/media/organizations/2018/03/11/bahia.svg"
               },
               "points": 43,
-              "goalsDiff": 7,
-              "form": "DWWDD",
+              "goalsDiff": 8,
+              "form": "DDWWW",
               "description": "Copa Libertadores Qualifiers",
               "all": {
                 "played": 26,
@@ -18638,7 +18638,7 @@
                 "draw": 10,
                 "lose": 5,
                 "goals": {
-                  "for": 39,
+                  "for": 40,
                   "against": 32
                 }
               }
@@ -18866,19 +18866,19 @@
             {
               "rank": 16,
               "team": {
-                "id": 267,
-                "name": "Vasco",
-                "logo": "https://s.sde.globo.com/media/organizations/2021/09/04/vasco_SVG.svg"
+                "id": 2305,
+                "name": "Mirassol",
+                "logo": "https://s.sde.globo.com/media/organizations/2026/07/17/MIrassol.svg"
               },
-              "points": 26,
+              "points": 25,
               "goalsDiff": -12,
-              "form": "DLLWD",
+              "form": "WLLDD",
               "description": null,
               "all": {
                 "played": 25,
                 "win": 6,
-                "draw": 8,
-                "lose": 11,
+                "draw": 7,
+                "lose": 12,
                 "goals": {
                   "for": 27,
                   "against": 39
@@ -18888,13 +18888,13 @@
             {
               "rank": 17,
               "team": {
-                "id": 2305,
-                "name": "Mirassol",
-                "logo": "https://s.sde.globo.com/media/organizations/2026/07/17/MIrassol.svg"
+                "id": 267,
+                "name": "Vasco",
+                "logo": "https://s.sde.globo.com/media/organizations/2021/09/04/vasco_SVG.svg"
               },
               "points": 25,
-              "goalsDiff": -12,
-              "form": "WLLDD",
+              "goalsDiff": -13,
+              "form": "DLLWL",
               "description": "Relegation",
               "all": {
                 "played": 25,
@@ -18903,7 +18903,7 @@
                 "lose": 12,
                 "goals": {
                   "for": 27,
-                  "against": 39
+                  "against": 40
                 }
               }
             },
@@ -19730,6 +19730,28 @@
     {
       "player": {
         "id": 35,
+        "name": "Lucho Acosta",
+        "photo": "https://s.sde.globo.com/media/person_role/2026/07/06/photo_140x140_DdPgkDh.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "name": "Fluminense",
+            "logo": "https://s.sde.globo.com/media/organizations/2014/04/14/fluminense_60x60.png"
+          },
+          "goals": {
+            "total": 4,
+            "assists": null
+          },
+          "games": {
+            "appearences": 0
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 36,
         "name": "Eduardo",
         "photo": "https://s.sde.globo.com/media/person_role/2026/02/09/photo_140x140_DV6aQbI.png"
       },
@@ -19751,7 +19773,7 @@
     },
     {
       "player": {
-        "id": 36,
+        "id": 37,
         "name": "Matheus Martins",
         "photo": "https://s.sde.globo.com/media/person_role/2026/07/06/photo_140x140_FUctM0X.png"
       },
@@ -19773,7 +19795,7 @@
     },
     {
       "player": {
-        "id": 37,
+        "id": 38,
         "name": "Igor Formiga",
         "photo": "https://s.sde.globo.com/media/person_role/2026/02/09/photo_140x140_0jSFM8a.png"
       },
@@ -19795,7 +19817,7 @@
     },
     {
       "player": {
-        "id": 38,
+        "id": 39,
         "name": "Ramón Sosa",
         "photo": "https://s.sde.globo.com/media/person_role/2026/08/19/photo_140x140_ZCpsfVa.png"
       },
@@ -19817,7 +19839,7 @@
     },
     {
       "player": {
-        "id": 39,
+        "id": 40,
         "name": "Allan",
         "photo": "https://s.sde.globo.com/media/person_role/2025/04/01/photo_140x140_rAnxDU2.png"
       },
@@ -19839,7 +19861,7 @@
     },
     {
       "player": {
-        "id": 40,
+        "id": 41,
         "name": "Gustavo Gómez",
         "photo": "https://s.sde.globo.com/media/person_role/2025/04/01/photo_140x140_jyEJbYJ.png"
       },
@@ -19861,7 +19883,7 @@
     },
     {
       "player": {
-        "id": 41,
+        "id": 42,
         "name": "Edenílson",
         "photo": "https://s.sde.globo.com/media/person_role/2026/07/08/photo_140x140_Cnped9h.png"
       },
@@ -19883,7 +19905,7 @@
     },
     {
       "player": {
-        "id": 42,
+        "id": 43,
         "name": "Alan Patrick",
         "photo": "https://s.sde.globo.com/media/person_role/2025/04/03/photo_140x140_sDx9vFU.png"
       },
@@ -19905,7 +19927,7 @@
     },
     {
       "player": {
-        "id": 43,
+        "id": 44,
         "name": "Thiago Mendes",
         "photo": "https://s.sde.globo.com/media/person_role/2026/03/02/photo_140x140.png"
       },
@@ -19927,7 +19949,7 @@
     },
     {
       "player": {
-        "id": 44,
+        "id": 45,
         "name": "Erick",
         "photo": "https://s.sde.globo.com/media/person_role/2026/07/06/photo_140x140_fOGg2fL.png"
       },
@@ -19949,7 +19971,7 @@
     },
     {
       "player": {
-        "id": 45,
+        "id": 46,
         "name": "Arias",
         "photo": "https://s.sde.globo.com/media/person_role/2026/08/19/photo_140x140_mdm3UM1.png"
       },
@@ -19971,7 +19993,7 @@
     },
     {
       "player": {
-        "id": 46,
+        "id": 47,
         "name": "Gabriel Taliari",
         "photo": "https://s.sde.globo.com/media/person_role/2026/03/27/photo_140x140_o40VlL4.png"
       },
@@ -19993,7 +20015,7 @@
     },
     {
       "player": {
-        "id": 47,
+        "id": 48,
         "name": "Everaldo",
         "photo": "https://s.sde.globo.com/media/person_role/2026/07/08/photo_140x140_uYMzKgg.png"
       },
@@ -20015,7 +20037,7 @@
     },
     {
       "player": {
-        "id": 48,
+        "id": 49,
         "name": "Lucas Paquetá",
         "photo": "https://s.sde.globo.com/media/person_role/2026/08/19/photo_140x140_ewujbw1.png"
       },
@@ -20037,7 +20059,7 @@
     },
     {
       "player": {
-        "id": 49,
+        "id": 50,
         "name": "Cuello",
         "photo": "https://s.sde.globo.com/media/person_role/2025/04/04/photo_140x140_aWdBvuS.png"
       },
@@ -20046,28 +20068,6 @@
           "team": {
             "name": "Atlético-MG",
             "logo": "https://s.sde.globo.com/media/organizations/2017/11/23/Atletico-Mineiro-escudo65px.png"
-          },
-          "goals": {
-            "total": 4,
-            "assists": null
-          },
-          "games": {
-            "appearences": 0
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 50,
-        "name": "Ferreira",
-        "photo": "https://s.sde.globo.com/media/person_role/2026/05/06/photo_140x140_JwJlZtU.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "name": "São Paulo",
-            "logo": "https://s.sde.globo.com/media/organizations/2014/04/14/sao_paulo_60x60.png"
           },
           "goals": {
             "total": 4,
@@ -20087,7 +20087,7 @@
     "mode": "live",
     "liveIntervalMs": 20000
   },
-  "fetchedAt": "2026-09-06T01:24:32.809Z",
+  "fetchedAt": "2026-09-06T01:27:16.430Z",
   "source": "ge-globo",
   "meta": {
     "rodada": 26,

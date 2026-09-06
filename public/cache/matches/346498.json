@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 22
+      "elapsed": 26
     },
     "timerStart": "2026-09-06T22:31:40.919Z",
     "timerStatus": "INICIADO"
@@ -471,6 +471,38 @@
         "name": "Falta para o Corinthians no meio de campo."
       },
       "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 21,
+        "extra": null
+      },
+      "team": {
+        "id": 264,
+        "name": "Corinthians"
+      },
+      "type": "Important",
+      "detail": "O técnico Fernando Diniz está bastante incomodado com os erros de passe do Corinthians na defesa e no meio de campo.",
+      "player": {
+        "name": "Irritado"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 23,
+        "extra": null
+      },
+      "team": {
+        "id": 315,
+        "name": "Chapecoense"
+      },
+      "type": "Important",
+      "detail": "Chape troca passes entre seus zagueiros e laterais. O Corinthians apenas observa a movimentação adversária.",
+      "player": {
+        "name": "Chape troca passes entre seus zagueiros e latera"
+      },
+      "assist": null
     }
   ],
   "lineups": [
@@ -919,19 +951,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "62%"
+          "value": "55%"
         },
         {
           "type": "Total Passes",
-          "value": 154
+          "value": 173
         },
         {
           "type": "Pass Accuracy",
-          "value": "88%"
+          "value": "87%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 19
+          "value": 22
         },
         {
           "type": "Total Shots",
@@ -975,7 +1007,7 @@
         },
         {
           "type": "Fouls",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Yellow Cards",
@@ -995,19 +1027,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "38%"
+          "value": "45%"
         },
         {
           "type": "Total Passes",
-          "value": 91
+          "value": 124
         },
         {
           "type": "Pass Accuracy",
-          "value": "88%"
+          "value": "89%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 11
+          "value": 14
         },
         {
           "type": "Total Shots",
@@ -1047,7 +1079,7 @@
         },
         {
           "type": "Tackles",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Fouls",

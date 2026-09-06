@@ -9,9 +9,9 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 61
+      "elapsed": 64
     },
-    "timerStart": "2026-09-06T22:38:15.857Z",
+    "timerStart": "2026-09-06T22:38:11.421Z",
     "timerStatus": "INICIADO"
   },
   "league": {
@@ -1252,15 +1252,151 @@
         "extra": null
       },
       "team": {
-        "id": 0,
-        "name": ""
+        "id": 275,
+        "name": "Palmeiras"
       },
       "type": "Important",
       "detail": "Piquerez levanta a bola na pequena área, Maurício se apresenta sozinho e cabeceia firme, mas Gabriel Bastista faz uma grande defesa para evitar o gol!",
       "player": {
+        "name": "Maurício"
+      },
+      "assist": {
         "name": "Uuuuh! Quase o gol!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 58,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O placar segue zerado após 14 minutos do segundo tempo, mas o Palmeiras pressiona em busca do gol. A equipe visitante voltou melhor para a etapa final e criou a melhor chance até agora em cabeçada à queima-roupa de Maurício, que parou em defesa espetacular de Gabriel Batista. O Botafogo, que desperdiçou uma oportunidade incrível com Villalba no primeiro tempo, agora se segura na defesa.",
+      "player": {
+        "name": "Batista segura o Palmeiras no segundo tempo"
       },
       "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 58,
+        "extra": null
+      },
+      "team": {
+        "id": 275,
+        "name": "Palmeiras"
+      },
+      "type": "Important",
+      "detail": "Palmeiras trabalha a bola no meio campo",
+      "player": {
+        "name": "Palmeiras trabalha a bola no meio campo"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 60,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Piquerez busca tabela com Evangelista no canto, mas é desarmado por Vitinho e ainda resvala na bola antes de deixá-la sair pela linha de fundo.",
+      "player": {
+        "name": "Piquerez busca tabela com Evangelista no canto, "
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 61,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Palmeiras voltou melhor para o segundo tempo e pressiona em busca do gol, mas esbarra em Gabriel Batista. O goleiro do Botafogo já fez uma defesa espetacular em cabeçada à queima-roupa de Maurício, garantindo o 0 a 0. A partida segue intensa e aberta, com a primeira etapa marcada por chances claras para os dois lados, incluindo uma oportunidade incrível desperdiçada por Villalba.",
+      "player": {
+        "name": "Gabriel Batista segura o zero no placar"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 61,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Andreas vai à linha de fundo e busca Flaco na área. Vitinho se antecipa e corta",
+      "player": {
+        "name": "Chuva de lançamentos"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 62,
+        "extra": null
+      },
+      "team": {
+        "id": 263,
+        "name": "Botafogo"
+      },
+      "type": "Important",
+      "detail": "Em sua primeira jogada, Arias faz um bom lançamento para a área do Botafogo. Marlon chega inteiro e cabeceia para fora",
+      "player": {
+        "name": "Marlon Freitas"
+      },
+      "assist": {
+        "name": "Longe do gol"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 62,
+        "extra": null
+      },
+      "team": {
+        "id": 275,
+        "name": "Palmeiras"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Vitor Roque"
+      },
+      "assist": {
+        "name": "Lucas Evangelista"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 62,
+        "extra": null
+      },
+      "team": {
+        "id": 275,
+        "name": "Palmeiras"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Arias"
+      },
+      "assist": {
+        "name": "Maurício"
+      }
     }
   ],
   "lineups": [
@@ -1722,7 +1858,7 @@
         },
         {
           "type": "Total Passes",
-          "value": 211
+          "value": 214
         },
         {
           "type": "Pass Accuracy",
@@ -1730,7 +1866,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 54
+          "value": 56
         },
         {
           "type": "Total Shots",
@@ -1766,7 +1902,7 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 6
+          "value": 7
         },
         {
           "type": "Tackles",
@@ -1798,15 +1934,15 @@
         },
         {
           "type": "Total Passes",
-          "value": 436
+          "value": 462
         },
         {
           "type": "Pass Accuracy",
-          "value": "86%"
+          "value": "87%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 59
+          "value": 62
         },
         {
           "type": "Total Shots",

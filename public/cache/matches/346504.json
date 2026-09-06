@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 24
+      "elapsed": 27
     },
     "timerStart": "2026-09-06T19:05:23.218Z",
     "timerStatus": "INICIADO"
@@ -466,9 +466,41 @@
         "name": ""
       },
       "type": "Important",
-      "detail": "O jogo começa movimentado no Mangueirão, com o Flamengo mais incisivo nos primeiros 22 minutos. Arrascaeta arriscou o primeiro chute, mas a grande chance veio com Carrascal, que finalizou por cima após ótima jogada de Pedro e Samuel Lino. O Remo respondeu com Galeano, sem sucesso. Com a chegada de uma forte chuva, o time visitante seguiu criando, incluindo um chute de Pedro e uma falta perigosa.",
+      "detail": "O Flamengo dita o ritmo nos primeiros 20 minutos e empilha chances de gol. Carrascal, após jogada de Samuel Lino, e Pedro, em finalizações de dentro da área, desperdiçaram as melhores oportunidades. O Remo tenta responder, mas sem assustar. Com o início de uma forte chuva em Belém, o gramado fica rápido e o duelo se torna mais brigado no meio-campo, mas ainda com o time visitante mais perto de abrir o placar.",
       "player": {
-        "name": "Fla pressiona em início chuvoso"
+        "name": "Chuva e chances perdidas marcam o início"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 21,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "A chuva forte que cai em Belém deixa o gramado escorregadio. Jogo fica mais instável, muito perde e ganha.",
+      "player": {
+        "name": "A chuva forte que cai em Belém deixa o gramado e"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 23,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Flamengo pressiona o Remo.",
+      "player": {
+        "name": "Flamengo pressiona o Remo."
       },
       "assist": null
     }
@@ -928,19 +960,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "32%"
+          "value": "33%"
         },
         {
           "type": "Total Passes",
-          "value": 69
+          "value": 85
         },
         {
           "type": "Pass Accuracy",
-          "value": "72%"
+          "value": "73%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 19
+          "value": 23
         },
         {
           "type": "Total Shots",
@@ -980,7 +1012,7 @@
         },
         {
           "type": "Tackles",
-          "value": 3
+          "value": 4
         },
         {
           "type": "Fouls",
@@ -1004,11 +1036,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "68%"
+          "value": "67%"
         },
         {
           "type": "Total Passes",
-          "value": 161
+          "value": 221
         },
         {
           "type": "Pass Accuracy",
@@ -1016,11 +1048,11 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 16
+          "value": 22
         },
         {
           "type": "Total Shots",
-          "value": 3
+          "value": 4
         },
         {
           "type": "Shots on Goal",
@@ -1028,7 +1060,7 @@
         },
         {
           "type": "Shots off Goal",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Blocked Shots",
@@ -1056,7 +1088,7 @@
         },
         {
           "type": "Tackles",
-          "value": 6
+          "value": 8
         },
         {
           "type": "Fouls",

@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 29
+      "elapsed": 32
     },
     "timerStart": "2026-09-06T19:00:38.573Z",
     "timerStatus": "INICIADO"
@@ -554,9 +554,9 @@
         "name": ""
       },
       "type": "Important",
-      "detail": "O Internacional até começou com a posse de bola, mas o jogo virou aos 7 minutos com uma falha grave de Félix Torres, que perdeu a bola para Gabriel abrir o placar para o Santos. A situação do time da casa piorou aos 27, quando Matheus Bahia cometeu pênalti e foi expulso após revisão do VAR. O mesmo Gabriel converteu e ampliou para 2 a 0, complicando de vez a vida do Colorado na partida.",
+      "detail": "Um pesadelo para o Inter em menos de 30 minutos! Apesar de começar melhor, o time colorado viu tudo desmoronar com uma falha de Félix Torres, que entregou o gol para Gabriel abrir o placar para o Santos aos 7 minutos. A situação piorou quando Matheus Bahia cometeu pênalti, foi expulso pelo VAR, e o mesmo Gabriel converteu, ampliando a vantagem para 2 a 0.",
       "player": {
-        "name": "Falhas e expulsão: Inter se complica"
+        "name": "Peixe é letal e abre 2 a 0 no Sul!"
       },
       "assist": null
     },
@@ -573,6 +573,22 @@
       "detail": "Normal Goal",
       "player": {
         "name": "Gabriel"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 30,
+        "extra": null
+      },
+      "team": {
+        "id": 285,
+        "name": "Internacional"
+      },
+      "type": "Important",
+      "detail": "Goleiro também é vaiado pela torcida quando toca na bola",
+      "player": {
+        "name": "Matheus Cunha"
       },
       "assist": null
     }
@@ -1092,11 +1108,11 @@
         },
         {
           "type": "Yellow Cards",
-          "value": 1
+          "value": 0
         },
         {
           "type": "Red Cards",
-          "value": 0
+          "value": 1
         }
       ]
     },
@@ -1124,11 +1140,11 @@
         },
         {
           "type": "Total Shots",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Shots on Goal",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Shots off Goal",

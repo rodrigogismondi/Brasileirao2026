@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 29
+      "elapsed": 32
     },
     "timerStart": "2026-09-06T19:00:29.774Z",
     "timerStatus": "INICIADO"
@@ -30,7 +30,7 @@
     }
   },
   "goals": {
-    "home": 0,
+    "home": 1,
     "away": 0
   },
   "score": {
@@ -685,6 +685,118 @@
         "name": "Matheus Pereira cobra escanteio, mas o Athletico"
       },
       "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 27,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Cruzeiro começou a partida em ritmo forte, empilhando chances com Matheus Henrique, Gerson e uma grande oportunidade perdida por Gabriel Rojas. O Athletico-PR resistiu à pressão inicial e, após os 10 minutos, equilibrou as ações. Leozinho se destacou, criando as melhores jogadas do Furacão, que também levou perigo e exigiu defesa do goleiro Otávio. O jogo está aberto e movimentado no Mineirão",
+      "player": {
+        "name": "Pressão azul e resposta do Furacão"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 27,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "João Cruz tenta cruzamento, mas exagera na força e a bola sai.",
+      "player": {
+        "name": "MAIS CARINHO!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 28,
+        "extra": null
+      },
+      "team": {
+        "id": 293,
+        "name": "Athletico-PR"
+      },
+      "type": "Important",
+      "detail": "Gilberto arranca pelo meio e aciona Leozinho. Ele manda para a área, mas Viveros já estava caindo. Mendoza fica com a sobra, mas manda para fora!",
+      "player": {
+        "name": "Mendoza"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 29,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Cruzeiro iniciou a partida com um volume ofensivo intenso, criando chances com Rojas e Gerson, mas sem acertar o alvo. O Athletico-PR conseguiu equilibrar as ações e respondeu com perigo, principalmente em jogadas de Leozinho. Aos 29 minutos, porém, a rede balançou: Gerson avançou pela esquerda e cruzou na medida para Matheus Pereira, de peixinho, abrir o placar e fazer 1 a 0",
+      "player": {
+        "name": "Matheus Pereira abre o placar no Mineirão!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 29,
+        "extra": null
+      },
+      "team": {
+        "id": 283,
+        "name": "Cruzeiro"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "player": {
+        "name": "Matheus Pereira"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 31,
+        "extra": null
+      },
+      "team": {
+        "id": 293,
+        "name": "Athletico-PR"
+      },
+      "type": "Important",
+      "detail": "Arroyo arrisca finalização cruzada, mas Mycael salva o Furacão!",
+      "player": {
+        "name": "Arroyo"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 32,
+        "extra": null
+      },
+      "team": {
+        "id": 283,
+        "name": "Cruzeiro"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Gabriel Rojas"
+      },
+      "assist": null
     }
   ],
   "lineups": [
@@ -1142,31 +1254,31 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "61%"
+          "value": "60%"
         },
         {
           "type": "Total Passes",
-          "value": 197
+          "value": 210
         },
         {
           "type": "Pass Accuracy",
-          "value": "89%"
+          "value": "88%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 22
+          "value": 25
         },
         {
           "type": "Total Shots",
-          "value": 4
+          "value": 6
         },
         {
           "type": "Shots on Goal",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Shots off Goal",
-          "value": 3
+          "value": 4
         },
         {
           "type": "Blocked Shots",
@@ -1190,7 +1302,7 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Tackles",
@@ -1218,11 +1330,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "39%"
+          "value": "40%"
         },
         {
           "type": "Total Passes",
-          "value": 101
+          "value": 118
         },
         {
           "type": "Pass Accuracy",
@@ -1230,11 +1342,11 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 15
+          "value": 18
         },
         {
           "type": "Total Shots",
-          "value": 3
+          "value": 5
         },
         {
           "type": "Shots on Goal",
@@ -1242,11 +1354,11 @@
         },
         {
           "type": "Shots off Goal",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Blocked Shots",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Hit Woodwork",

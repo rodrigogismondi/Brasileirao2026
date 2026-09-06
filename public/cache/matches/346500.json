@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 93
+      "elapsed": 96
     },
     "timerStart": "2026-09-06T20:12:00.437Z",
     "timerStatus": "INICIADO"
@@ -2439,6 +2439,76 @@
         "name": "ACRÉSCIMOS"
       },
       "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 91,
+        "extra": null
+      },
+      "team": {
+        "id": 283,
+        "name": "Cruzeiro"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Lucho Rodríguez"
+      },
+      "assist": {
+        "name": "Kaio Jorge"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 91,
+        "extra": null
+      },
+      "team": {
+        "id": 283,
+        "name": "Cruzeiro"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Zé Lucas"
+      },
+      "assist": {
+        "name": "Matheus Henrique"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 92,
+        "extra": null
+      },
+      "team": {
+        "id": 283,
+        "name": "Cruzeiro"
+      },
+      "type": "Important",
+      "detail": "Zé Lucas infiltra bem para Lucho Rodriguez, mas a bola corre demais!",
+      "player": {
+        "name": "Zé Lucas"
+      },
+      "assist": {
+        "name": "BOA BOLA!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 92,
+        "extra": null
+      },
+      "team": {
+        "id": 293,
+        "name": "Athletico-PR"
+      },
+      "type": "Important",
+      "detail": "João Costa tenta finalização, mas é travado. A defesa do Furacão manda a bola para escanteio.",
+      "player": {
+        "name": "João Costa tenta finalização, mas é travado. A d"
+      },
+      "assist": null
     }
   ],
   "lineups": [
@@ -2896,19 +2966,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "59%"
+          "value": "58%"
         },
         {
           "type": "Total Passes",
-          "value": 571
+          "value": 583
         },
         {
           "type": "Pass Accuracy",
-          "value": "89%"
+          "value": "88%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 64
+          "value": 68
         },
         {
           "type": "Total Shots",
@@ -2944,11 +3014,11 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 6
+          "value": 8
         },
         {
           "type": "Tackles",
-          "value": 14
+          "value": 15
         },
         {
           "type": "Fouls",
@@ -2972,11 +3042,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "41%"
+          "value": "42%"
         },
         {
           "type": "Total Passes",
-          "value": 355
+          "value": 368
         },
         {
           "type": "Pass Accuracy",
@@ -2984,15 +3054,15 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 60
+          "value": 62
         },
         {
           "type": "Total Shots",
-          "value": 13
+          "value": 15
         },
         {
           "type": "Shots on Goal",
-          "value": 5
+          "value": 6
         },
         {
           "type": "Shots off Goal",
@@ -3000,7 +3070,7 @@
         },
         {
           "type": "Blocked Shots",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Hit Woodwork",
@@ -3024,7 +3094,7 @@
         },
         {
           "type": "Tackles",
-          "value": 8
+          "value": 9
         },
         {
           "type": "Fouls",

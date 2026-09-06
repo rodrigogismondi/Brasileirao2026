@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 17
+      "elapsed": 21
     },
     "timerStart": "2026-09-06T19:00:29.774Z",
     "timerStatus": "INICIADO"
@@ -420,9 +420,89 @@
         "name": "Athletico-PR"
       },
       "type": "Important",
+      "detail": "Leozinho avança com qualidade e aciona Viveros. A bola corre demais e sai pela linha de fundo. Athletico-PR equilibra o jogo e também pressiona!",
+      "player": {
+        "name": "ELE ESTÁ EM TODAS"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 16,
+        "extra": null
+      },
+      "team": {
+        "id": 293,
+        "name": "Athletico-PR"
+      },
+      "type": "Important",
       "detail": "Mycael sai jogando com a defesa do Furacão.",
       "player": {
         "name": "Mycael sai jogando com a defesa do Furacão."
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 17,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Cruzeiro começou o jogo de forma avassaladora, criando chances seguidas com Matheus Henrique, Gabriel Rojas e Gerson nos primeiros minutos. Aos 10, o Athletico-PR respondeu com Gilberto, que parou em boa defesa de Otávio. Depois disso, o Furacão equilibrou as ações, principalmente com Leozinho, e o jogo ficou aberto e movimentado após mais de 15 minutos de bola rolando.",
+      "player": {
+        "name": "Cruzeiro pressiona, mas Athletico-PR equilibra"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 17,
+        "extra": null
+      },
+      "team": {
+        "id": 283,
+        "name": "Cruzeiro"
+      },
+      "type": "Important",
+      "detail": "Fagner corre pela lateral e tenta o cruzamento. Mas nada feito. Mycael fica com a bola.",
+      "player": {
+        "name": "Fagner"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 18,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Viveros rouba a bola. Fabrício Bruno via bem no lance e recebe falta! Posse cruzeirense.",
+      "player": {
+        "name": "Viveros rouba a bola. Fabrício Bruno via bem no "
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 18,
+        "extra": null
+      },
+      "team": {
+        "id": 283,
+        "name": "Cruzeiro"
+      },
+      "type": "Important",
+      "detail": "Cruzeiro troca passes no campo de defesa",
+      "player": {
+        "name": "Cruzeiro troca passes no campo de defesa"
       },
       "assist": null
     }
@@ -882,19 +962,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "59%"
+          "value": "60%"
         },
         {
           "type": "Total Passes",
-          "value": 127
+          "value": 137
         },
         {
           "type": "Pass Accuracy",
-          "value": "89%"
+          "value": "88%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 14
+          "value": 16
         },
         {
           "type": "Total Shots",
@@ -934,11 +1014,11 @@
         },
         {
           "type": "Tackles",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Fouls",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Yellow Cards",
@@ -958,19 +1038,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "41%"
+          "value": "40%"
         },
         {
           "type": "Total Passes",
-          "value": 63
+          "value": 79
         },
         {
           "type": "Pass Accuracy",
-          "value": "86%"
+          "value": "85%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 9
+          "value": 12
         },
         {
           "type": "Total Shots",

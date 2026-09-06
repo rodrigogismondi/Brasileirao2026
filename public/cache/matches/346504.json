@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 12
+      "elapsed": 16
     },
     "timerStart": "2026-09-06T19:05:23.218Z",
     "timerStatus": "INICIADO"
@@ -277,6 +277,56 @@
       "assist": {
         "name": "POR CIMA!"
       }
+    },
+    {
+      "time": {
+        "elapsed": 11,
+        "extra": null
+      },
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "Important",
+      "detail": "Paquetá dá lindo psase para Carrascal, que cruza na segunda trave para Pedro, mas a bola desvia no meio do caminho, e o camisa 9 não chega para empurrar a bola para o gol. Escanteio!",
+      "player": {
+        "name": "Pedro"
+      },
+      "assist": {
+        "name": "Não chegou!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 12,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O jogo começou aberto no Mangueirão, com o Flamengo criando as melhores oportunidades nestes 12 minutos iniciais. Arrascaeta já assustou em chute de fora. A chance mais clara veio com Samuel Lino, que cruzou para Carrascal finalizar por cima do gol. Pouco depois, Pedro quase marcou. O Remo tenta equilibrar as ações e respondeu com Galeano, mas o time carioca dita o ritmo e pressiona.",
+      "player": {
+        "name": "Flamengo pressiona no início do jogo"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 12,
+        "extra": null
+      },
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "Important",
+      "detail": "Arrascaeta cobra na segunda trave, mas Marcelo Rangel segura a bola. O goleiro tenta reposição rápida com chutão, mas devolve a posse para o Flamengo.",
+      "player": {
+        "name": "Arrascaeta cobra na segunda trave, mas Marcelo R"
+      },
+      "assist": null
     }
   ],
   "lineups": [
@@ -734,19 +784,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "24%"
+          "value": "26%"
         },
         {
           "type": "Total Passes",
-          "value": 29
+          "value": 49
         },
         {
           "type": "Pass Accuracy",
-          "value": "59%"
+          "value": "69%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 12
+          "value": 15
         },
         {
           "type": "Total Shots",
@@ -810,19 +860,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "76%"
+          "value": "74%"
         },
         {
           "type": "Total Passes",
-          "value": 111
+          "value": 123
         },
         {
           "type": "Pass Accuracy",
-          "value": "94%"
+          "value": "93%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 7
+          "value": 9
         },
         {
           "type": "Total Shots",
@@ -862,7 +912,7 @@
         },
         {
           "type": "Tackles",
-          "value": 2
+          "value": 4
         },
         {
           "type": "Fouls",

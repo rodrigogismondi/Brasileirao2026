@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 14
+      "elapsed": 17
     },
     "timerStart": "2026-09-06T19:00:29.774Z",
     "timerStatus": "INICIADO"
@@ -370,13 +370,61 @@
         "name": "Athletico-PR"
       },
       "type": "Important",
-      "detail": "Leozinho chega com liberdade da área, dribla, e chuta colocado. A bola não desvia conforme o meia planejou. Para fora! Resposta do Furacão!",
+      "detail": "Leozinho chega com liberdade da área, dribla, e chuta colocado. A bola não faz curva conforme o meia planejou. Para fora! Resposta do Furacão!",
       "player": {
         "name": "Leozinho"
       },
       "assist": {
         "name": "UHHHHH!"
       }
+    },
+    {
+      "time": {
+        "elapsed": 14,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Cruzeiro começou a partida em ritmo forte, impondo seu jogo nos primeiros 15 minutos. A equipe celeste criou várias chances, com chutes de Matheus Henrique e Gerson, além de um lance claro desperdiçado por Gabriel Rojas dentro da área. O Athletico-PR, que iniciou recuado, reagiu a partir dos 10 minutos. Leozinho comandou a resposta do Furacão, criando uma jogada para Gilberto que exigiu boa defesa de Otávio.",
+      "player": {
+        "name": "Pressão celeste e reação do Furacão no Mineirão"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 14,
+        "extra": null
+      },
+      "team": {
+        "id": 283,
+        "name": "Cruzeiro"
+      },
+      "type": "Important",
+      "detail": "Rojas bate escanteio e Arroyo chega para dar chutão. A jogada ensaiada não dá certo e a bola fica na área. Matheus Henrique tenta a finalização, mas é travado",
+      "player": {
+        "name": "Rojas bate escanteio e Arroyo chega para dar chu"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 16,
+        "extra": null
+      },
+      "team": {
+        "id": 293,
+        "name": "Athletico-PR"
+      },
+      "type": "Important",
+      "detail": "Mycael sai jogando com a defesa do Furacão.",
+      "player": {
+        "name": "Mycael sai jogando com a defesa do Furacão."
+      },
+      "assist": null
     }
   ],
   "lineups": [
@@ -834,19 +882,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "60%"
+          "value": "59%"
         },
         {
           "type": "Total Passes",
-          "value": 89
+          "value": 127
         },
         {
           "type": "Pass Accuracy",
-          "value": "87%"
+          "value": "89%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 12
+          "value": 14
         },
         {
           "type": "Total Shots",
@@ -870,7 +918,7 @@
         },
         {
           "type": "Corner Kicks",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Offsides",
@@ -886,7 +934,7 @@
         },
         {
           "type": "Tackles",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Fouls",
@@ -910,11 +958,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "40%"
+          "value": "41%"
         },
         {
           "type": "Total Passes",
-          "value": 56
+          "value": 63
         },
         {
           "type": "Pass Accuracy",
@@ -922,11 +970,11 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 8
+          "value": 9
         },
         {
           "type": "Total Shots",
-          "value": 1
+          "value": 3
         },
         {
           "type": "Shots on Goal",
@@ -934,7 +982,7 @@
         },
         {
           "type": "Shots off Goal",
-          "value": 0
+          "value": 2
         },
         {
           "type": "Blocked Shots",
@@ -962,7 +1010,7 @@
         },
         {
           "type": "Tackles",
-          "value": 2
+          "value": 5
         },
         {
           "type": "Fouls",

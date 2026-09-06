@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 14
+      "elapsed": 17
     },
     "timerStart": "2026-09-06T19:00:38.573Z",
     "timerStatus": "INICIADO"
@@ -238,6 +238,22 @@
         "extra": null
       },
       "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Internacional dominava o início do jogo, com Carbonero criando as principais jogadas ofensivas. No entanto, aos 7 minutos, uma falha individual de Félix Torres mudou o cenário. O zagueiro errou na saída, Gabriel aproveitou o presente, avançou sozinho e marcou para o Santos, fazendo 1 a 0. O clima virou, e o zagueiro colorado agora é vaiado pela torcida a cada toque na bola.",
+      "player": {
+        "name": "Erro fatal e gol do Peixe!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 10,
+        "extra": null
+      },
+      "team": {
         "id": 277,
         "name": "Santos"
       },
@@ -249,6 +265,38 @@
       "assist": {
         "name": "VAIAS"
       }
+    },
+    {
+      "time": {
+        "elapsed": 11,
+        "extra": null
+      },
+      "team": {
+        "id": 277,
+        "name": "Santos"
+      },
+      "type": "Important",
+      "detail": "Troca de passes do Santos no ataque, mas é marcado impedimento de Caballero",
+      "player": {
+        "name": "Troca de passes do Santos no ataque, mas é marca"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 12,
+        "extra": null
+      },
+      "team": {
+        "id": 285,
+        "name": "Internacional"
+      },
+      "type": "Important",
+      "detail": "Matheus Bahia recebe na esquerda e tenta o cruzamento, mas manda direto para fora",
+      "player": {
+        "name": "Matheus Bahia recebe na esquerda e tenta o cruza"
+      },
+      "assist": null
     }
   ],
   "lineups": [
@@ -706,19 +754,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "61%"
+          "value": "49%"
         },
         {
           "type": "Total Passes",
-          "value": 53
+          "value": 69
         },
         {
           "type": "Pass Accuracy",
-          "value": "83%"
+          "value": "80%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 9
+          "value": 14
         },
         {
           "type": "Total Shots",
@@ -762,7 +810,7 @@
         },
         {
           "type": "Fouls",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Yellow Cards",
@@ -782,19 +830,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "39%"
+          "value": "51%"
         },
         {
           "type": "Total Passes",
-          "value": 19
+          "value": 67
         },
         {
           "type": "Pass Accuracy",
-          "value": "79%"
+          "value": "88%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 4
+          "value": 8
         },
         {
           "type": "Total Shots",
@@ -822,7 +870,7 @@
         },
         {
           "type": "Offsides",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Penalties",
@@ -834,7 +882,7 @@
         },
         {
           "type": "Tackles",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Fouls",

@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 9
+      "elapsed": 12
     },
     "timerStart": "2026-09-06T19:05:23.218Z",
     "timerStatus": "INICIADO"
@@ -211,6 +211,72 @@
         "name": "O jogo é lá e cá no Mangueirão."
       },
       "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 9,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Falta de Picco em Jorginho.",
+      "player": {
+        "name": "Falta de Picco em Jorginho."
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 9,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O jogo começa movimentado no Mangueirão, com o Flamengo tomando a iniciativa nos primeiros 10 minutos. O time carioca já desperdiçou duas boas chances: primeiro com Arrascaeta, que chutou para fora, e depois com Carrascal, que finalizou por cima do gol após cruzamento de Samuel Lino. O Remo, empurrado por sua torcida, tenta responder em velocidade, mas ainda não conseguiu levar perigo.",
+      "player": {
+        "name": "Flamengo pressiona no Mangueirão"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 9,
+        "extra": null
+      },
+      "team": {
+        "id": 364,
+        "name": "Remo"
+      },
+      "type": "Important",
+      "detail": "Taliari tenta escapar pela direita, mas erra o cruzamento",
+      "player": {
+        "name": "Gabriel Taliari"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 10,
+        "extra": null
+      },
+      "team": {
+        "id": 364,
+        "name": "Remo"
+      },
+      "type": "Important",
+      "detail": "Patrick avança pela esquerda, cruza na área, e Léo Pereira afasta. Galeano tenta chute de primeira, mas manda por cima do gol.",
+      "player": {
+        "name": "Galeano"
+      },
+      "assist": {
+        "name": "POR CIMA!"
+      }
     }
   ],
   "lineups": [
@@ -668,23 +734,23 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "23%"
+          "value": "24%"
         },
         {
           "type": "Total Passes",
-          "value": 20
+          "value": 29
         },
         {
           "type": "Pass Accuracy",
-          "value": "50%"
+          "value": "59%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 10
+          "value": 12
         },
         {
           "type": "Total Shots",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Shots on Goal",
@@ -692,7 +758,7 @@
         },
         {
           "type": "Shots off Goal",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Blocked Shots",
@@ -720,11 +786,11 @@
         },
         {
           "type": "Tackles",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Fouls",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Yellow Cards",
@@ -744,11 +810,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "77%"
+          "value": "76%"
         },
         {
           "type": "Total Passes",
-          "value": 72
+          "value": 111
         },
         {
           "type": "Pass Accuracy",
@@ -756,7 +822,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 4
+          "value": 7
         },
         {
           "type": "Total Shots",
@@ -780,7 +846,7 @@
         },
         {
           "type": "Corner Kicks",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Offsides",

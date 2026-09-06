@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 33
+      "elapsed": 35
     },
     "timerStart": "2026-09-06T19:00:38.573Z",
     "timerStatus": "INICIADO"
@@ -488,13 +488,45 @@
         "name": "Santos"
       },
       "type": "Important",
-      "detail": "Rollheiser dá lindo passe em profundidade para Gabigol. Ele invade a área e é tocado por trás por Matheus Bahia",
+      "detail": "Rollheiser dá lindo passe em profundidade para Gabigol. Ele invade a área e é puxado por Matheus Bahia.",
       "player": {
         "name": "Gabriel"
       },
       "assist": {
         "name": "É PÊNALTI!"
       }
+    },
+    {
+      "time": {
+        "elapsed": 24,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Red Card by Matheus Bahia",
+      "player": {
+        "name": "Red Card by Matheus Bahia"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 24,
+        "extra": null
+      },
+      "team": {
+        "id": 277,
+        "name": "Santos"
+      },
+      "type": "Important",
+      "detail": "Red Card by Matheus Bahia",
+      "player": {
+        "name": "Red Card by Matheus Bahia"
+      },
+      "assist": null
     },
     {
       "time": {
@@ -554,9 +586,9 @@
         "name": ""
       },
       "type": "Important",
-      "detail": "Um pesadelo para o Inter em menos de 30 minutos! Apesar de começar melhor, o time colorado viu tudo desmoronar com uma falha de Félix Torres, que entregou o gol para Gabriel abrir o placar para o Santos aos 7 minutos. A situação piorou quando Matheus Bahia cometeu pênalti, foi expulso pelo VAR, e o mesmo Gabriel converteu, ampliando a vantagem para 2 a 0.",
+      "detail": "O Inter até começou com a posse de bola, mas uma falha grave de Félix Torres aos 7 minutos permitiu que Gabriel roubasse a bola e abrisse o placar para o Santos. A situação colorada piorou aos 27, quando Matheus Bahia cometeu pênalti e foi expulso após revisão do VAR. Na cobrança, o próprio Gabriel marcou de novo, ampliando para 2 a 0 e deixando o time da casa em apuros na partida.",
       "player": {
-        "name": "Peixe é letal e abre 2 a 0 no Sul!"
+        "name": "Santos aproveita falhas e abre 2 a 0"
       },
       "assist": null
     },
@@ -589,6 +621,70 @@
       "detail": "Goleiro também é vaiado pela torcida quando toca na bola",
       "player": {
         "name": "Matheus Cunha"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 33,
+        "extra": null
+      },
+      "team": {
+        "id": 285,
+        "name": "Internacional"
+      },
+      "type": "Important",
+      "detail": "Alan Patrick cobra escanteio, Vitinho cabeceia por cima, sem perigo",
+      "player": {
+        "name": "Vitinho"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 33,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O jogo começou com o Inter pressionando, mas um erro fatal de Félix Torres aos 7 minutos permitiu que Gabriel abrisse o placar para o Santos. A situação do time da casa piorou drasticamente aos 27, quando Matheus Bahia cometeu pênalti em Gabriel e foi expulso após revisão do VAR. O próprio Gabriel converteu a cobrança, marcou seu segundo gol e ampliou para 2 a 0, deixando o clima tenso no estádio.",
+      "player": {
+        "name": "Inter se complica e Santos dispara na frente"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 33,
+        "extra": null
+      },
+      "team": {
+        "id": 285,
+        "name": "Internacional"
+      },
+      "type": "Important",
+      "detail": "Bruno Gomes recebe na direita, já na área, e tenta o chute, mas é travado",
+      "player": {
+        "name": "Bruno Gomes recebe na direita, já na área, e ten"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 34,
+        "extra": null
+      },
+      "team": {
+        "id": 285,
+        "name": "Internacional"
+      },
+      "type": "Important",
+      "detail": "Sanabria recebe na área, mas não consegue a finalização",
+      "player": {
+        "name": "Sanabria"
       },
       "assist": null
     }
@@ -1048,19 +1144,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "52%"
+          "value": "54%"
         },
         {
           "type": "Total Passes",
-          "value": 141
+          "value": 163
         },
         {
           "type": "Pass Accuracy",
-          "value": "84%"
+          "value": "83%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 23
+          "value": 27
         },
         {
           "type": "Total Shots",
@@ -1100,7 +1196,7 @@
         },
         {
           "type": "Tackles",
-          "value": 2
+          "value": 4
         },
         {
           "type": "Fouls",
@@ -1124,19 +1220,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "48%"
+          "value": "46%"
         },
         {
           "type": "Total Passes",
-          "value": 123
+          "value": 129
         },
         {
           "type": "Pass Accuracy",
-          "value": "85%"
+          "value": "82%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 19
+          "value": 23
         },
         {
           "type": "Total Shots",

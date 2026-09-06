@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 33
+      "elapsed": 35
     },
     "timerStart": "2026-09-06T19:00:29.774Z",
     "timerStatus": "INICIADO"
@@ -788,6 +788,22 @@
         "extra": null
       },
       "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Cruzeiro começou impondo um forte volume e desperdiçou boas chances. O Athletico-PR reagiu e equilibrou a partida, principalmente com as investidas de Leozinho. Mas a eficiência falou mais alto aos 29 minutos: em um contra-ataque letal, Gerson cruzou da esquerda e Matheus Pereira mergulhou na bola para fazer 1 a 0. O jogo segue pegado, com um cartão amarelo para Gabriel Rojas logo após o gol.",
+      "player": {
+        "name": "Cruzeiro na frente com gol de Matheus Pereira!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 32,
+        "extra": null
+      },
+      "team": {
         "id": 283,
         "name": "Cruzeiro"
       },
@@ -795,6 +811,22 @@
       "detail": "Yellow Card",
       "player": {
         "name": "Gabriel Rojas"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 33,
+        "extra": null
+      },
+      "team": {
+        "id": 293,
+        "name": "Athletico-PR"
+      },
+      "type": "Important",
+      "detail": "Viveros segue caído no gramado para receber atendimento. Ele reclama de dores após carrinho de Rojas. Na sequência do lance, Romero também o atinge.",
+      "player": {
+        "name": "Viveros"
       },
       "assist": null
     }
@@ -1258,23 +1290,23 @@
         },
         {
           "type": "Total Passes",
-          "value": 210
+          "value": 218
         },
         {
           "type": "Pass Accuracy",
-          "value": "88%"
+          "value": "87%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 25
+          "value": 28
         },
         {
           "type": "Total Shots",
-          "value": 6
+          "value": 7
         },
         {
           "type": "Shots on Goal",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Shots off Goal",
@@ -1290,7 +1322,7 @@
         },
         {
           "type": "Corner Kicks",
-          "value": 3
+          "value": 4
         },
         {
           "type": "Offsides",
@@ -1306,15 +1338,15 @@
         },
         {
           "type": "Tackles",
-          "value": 4
+          "value": 5
         },
         {
           "type": "Fouls",
-          "value": 3
+          "value": 4
         },
         {
           "type": "Yellow Cards",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Red Cards",
@@ -1334,15 +1366,15 @@
         },
         {
           "type": "Total Passes",
-          "value": 118
+          "value": 127
         },
         {
           "type": "Pass Accuracy",
-          "value": "85%"
+          "value": "84%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 18
+          "value": 20
         },
         {
           "type": "Total Shots",
@@ -1378,7 +1410,7 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Tackles",

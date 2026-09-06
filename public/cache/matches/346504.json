@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 28
+      "elapsed": 31
     },
     "timerStart": "2026-09-06T19:05:23.218Z",
     "timerStatus": "INICIADO"
@@ -503,6 +503,122 @@
         "name": "Flamengo pressiona o Remo."
       },
       "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 25,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Flamengo assumiu o controle da partida e criou as melhores oportunidades nos primeiros 20 minutos, mas pecou na finalização. Carrascal, de frente para o gol, e Pedro, dentro da área, desperdiçaram chances claras. O Remo respondeu com chute de Galeano. Com a forte chuva em Belém, o gramado ficou pesado, dificultando as ações e causando escorregões, como o de Samuel Lino na hora de finalizar.",
+      "player": {
+        "name": "Fla pressiona e chuva complica em Belém"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 25,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Lino recebe cruzamento na área, mas escorrega na hora da finalização. Gramado sentiu a chuva, e jogadores ainda não se readaptaram.",
+      "player": {
+        "name": "Lino recebe cruzamento na área, mas escorrega na"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 26,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Com o gramado pesado pela forte chuva em Belém, o Flamengo domina a posse e cria as principais jogadas de ataque, com chegadas perigosas de Carrascal e Pedro. Apesar da pressão, foi o Remo quem teve a chance mais clara da partida até aqui: aos 26 minutos, Taliari saiu cara a cara com o goleiro Rossi, mas hesitou na finalização e acabou desarmado, desperdiçando uma oportunidade incrível.",
+      "player": {
+        "name": "Fla pressiona, mas Remo perde chance de ouro"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 26,
+        "extra": null
+      },
+      "team": {
+        "id": 364,
+        "name": "Remo"
+      },
+      "type": "Important",
+      "detail": "Taliari recebe passe em profundidade e sai cara a cara com Rossi. O atacante hesita, hesita, não finaliza, nem passa. O jogador perde a bola e é desarmado. A maior chance do jogo até aqui.",
+      "player": {
+        "name": "Gabriel Taliari"
+      },
+      "assist": {
+        "name": "QUE ISSO, TALIARI?"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 27,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Com quase 30 minutos de jogo, a partida é movimentada e com oportunidades para os dois lados sob a forte chuva em Belém. O Flamengo pressiona e chega com perigo, mas para em uma grande defesa de Marcelo Rangel em chute de Samuel Lino. O Remo respondeu com a chance mais clara até aqui: Taliari saiu cara a cara com Rossi, mas hesitou na hora de finalizar e desperdiçou um gol incrível.",
+      "player": {
+        "name": "Chances claras e muita emoção em Belém"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 27,
+        "extra": null
+      },
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "Important",
+      "detail": "Samuel Lino domina a bola na área e finaliza forte no canto esquerdo inferior, mas Marcelo Rangel voa para fazer grande defesa em chute rasteiro. Que defesa!",
+      "player": {
+        "name": "Samuel Lino"
+      },
+      "assist": {
+        "name": "MARCELO RANGEL SALVA!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 28,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "A chuva dá uma trégua em Belém, o céu está bem azul, mas o gramado ainda está bem molhado pela chuva que caiu há alguns minutos. Jogadores pediram troca de chuteiras.",
+      "player": {
+        "name": "A chuva dá uma trégua em Belém, o céu está bem a"
+      },
+      "assist": null
     }
   ],
   "lineups": [
@@ -964,19 +1080,19 @@
         },
         {
           "type": "Total Passes",
-          "value": 85
+          "value": 95
         },
         {
           "type": "Pass Accuracy",
-          "value": "73%"
+          "value": "74%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 23
+          "value": 25
         },
         {
           "type": "Total Shots",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Shots on Goal",
@@ -988,7 +1104,7 @@
         },
         {
           "type": "Blocked Shots",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Hit Woodwork",
@@ -1008,11 +1124,11 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Tackles",
-          "value": 4
+          "value": 6
         },
         {
           "type": "Fouls",
@@ -1040,23 +1156,23 @@
         },
         {
           "type": "Total Passes",
-          "value": 221
+          "value": 241
         },
         {
           "type": "Pass Accuracy",
-          "value": "90%"
+          "value": "88%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 22
+          "value": 28
         },
         {
           "type": "Total Shots",
-          "value": 4
+          "value": 6
         },
         {
           "type": "Shots on Goal",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Shots off Goal",
@@ -1064,7 +1180,7 @@
         },
         {
           "type": "Blocked Shots",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Hit Woodwork",
@@ -1084,7 +1200,7 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Tackles",
@@ -1092,7 +1208,7 @@
         },
         {
           "type": "Fouls",
-          "value": 5
+          "value": 6
         },
         {
           "type": "Yellow Cards",

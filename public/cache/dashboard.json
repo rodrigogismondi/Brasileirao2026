@@ -12462,9 +12462,7 @@
           "long": "FT",
           "short": "FT",
           "elapsed": 90
-        },
-        "timerStart": "2026-09-05T21:13:21.569Z",
-        "timerStatus": "PAUSADO"
+        }
       },
       "league": {
         "round": "Regular Season - 26"
@@ -12514,9 +12512,7 @@
           "long": "FT",
           "short": "FT",
           "elapsed": 90
-        },
-        "timerStart": "2026-09-05T23:34:30.410Z",
-        "timerStatus": "PAUSADO"
+        }
       },
       "league": {
         "round": "Regular Season - 26"
@@ -12566,9 +12562,7 @@
           "long": "FT",
           "short": "FT",
           "elapsed": 90
-        },
-        "timerStart": "2026-09-06T02:00:06.523Z",
-        "timerStatus": "PAUSADO"
+        }
       },
       "league": {
         "round": "Regular Season - 26"
@@ -12618,9 +12612,7 @@
           "long": "FT",
           "short": "FT",
           "elapsed": 90
-        },
-        "timerStart": "2026-09-06T16:10:02.854Z",
-        "timerStatus": "PAUSADO"
+        }
       },
       "league": {
         "round": "Regular Season - 26"
@@ -12669,10 +12661,10 @@
         "status": {
           "long": "1H",
           "short": "1H",
-          "elapsed": null
+          "elapsed": 2
         },
-        "timerStart": "2026-09-06T18:00:25.718Z",
-        "timerStatus": "PAUSADO"
+        "timerStart": "2026-09-06T19:00:29.774Z",
+        "timerStatus": "INICIADO"
       },
       "league": {
         "round": "Regular Season - 26"
@@ -12690,8 +12682,8 @@
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
       "score": {
         "halftime": {
@@ -12742,8 +12734,8 @@
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
       "score": {
         "halftime": {
@@ -12826,9 +12818,7 @@
           "long": "NS",
           "short": "NS",
           "elapsed": null
-        },
-        "timerStart": null,
-        "timerStatus": "PAUSADO"
+        }
       },
       "league": {
         "round": "Regular Season - 26"
@@ -12878,9 +12868,7 @@
           "long": "NS",
           "short": "NS",
           "elapsed": null
-        },
-        "timerStart": null,
-        "timerStatus": "PAUSADO"
+        }
       },
       "league": {
         "round": "Regular Season - 26"
@@ -12930,9 +12918,7 @@
           "long": "NS",
           "short": "NS",
           "elapsed": null
-        },
-        "timerStart": null,
-        "timerStatus": "PAUSADO"
+        }
       },
       "league": {
         "round": "Regular Season - 26"
@@ -18602,14 +18588,14 @@
                 "name": "Athletico-PR",
                 "logo": "https://s.sde.globo.com/media/organizations/2026/01/07/Athletico-PR.svg"
               },
-              "points": 45,
+              "points": 46,
               "goalsDiff": 12,
-              "form": "DWDWD",
+              "form": "WDWDD",
               "description": "Copa Libertadores",
               "all": {
-                "played": 25,
+                "played": 26,
                 "win": 13,
-                "draw": 6,
+                "draw": 7,
                 "lose": 6,
                 "goals": {
                   "for": 37,
@@ -18668,14 +18654,14 @@
                 "name": "Cruzeiro",
                 "logo": "https://s.sde.globo.com/media/organizations/2021/02/13/cruzeiro_2021.svg"
               },
-              "points": 39,
+              "points": 40,
               "goalsDiff": -1,
-              "form": "WWWWL",
+              "form": "WWWLD",
               "description": "Copa Sudamericana",
               "all": {
-                "played": 25,
+                "played": 26,
                 "win": 11,
-                "draw": 6,
+                "draw": 7,
                 "lose": 8,
                 "goals": {
                   "for": 35,
@@ -18818,6 +18804,28 @@
             {
               "rank": 13,
               "team": {
+                "id": 277,
+                "name": "Santos",
+                "logo": "https://s.sde.globo.com/media/organizations/2018/03/12/santos.svg"
+              },
+              "points": 30,
+              "goalsDiff": -2,
+              "form": "LWDWD",
+              "description": null,
+              "all": {
+                "played": 25,
+                "win": 7,
+                "draw": 9,
+                "lose": 9,
+                "goals": {
+                  "for": 34,
+                  "against": 36
+                }
+              }
+            },
+            {
+              "rank": 14,
+              "team": {
                 "id": 287,
                 "name": "Vitória",
                 "logo": "https://s.sde.globo.com/media/organizations/2025/12/18/Vitoria_2025.svg"
@@ -18834,28 +18842,6 @@
                 "goals": {
                   "for": 24,
                   "against": 37
-                }
-              }
-            },
-            {
-              "rank": 14,
-              "team": {
-                "id": 277,
-                "name": "Santos",
-                "logo": "https://s.sde.globo.com/media/organizations/2018/03/12/santos.svg"
-              },
-              "points": 29,
-              "goalsDiff": -2,
-              "form": "DLWDW",
-              "description": null,
-              "all": {
-                "played": 24,
-                "win": 7,
-                "draw": 8,
-                "lose": 9,
-                "goals": {
-                  "for": 34,
-                  "against": 36
                 }
               }
             },
@@ -18906,6 +18892,28 @@
             {
               "rank": 17,
               "team": {
+                "id": 285,
+                "name": "Internacional",
+                "logo": "https://s.sde.globo.com/media/organizations/2018/03/11/internacional.svg"
+              },
+              "points": 26,
+              "goalsDiff": -5,
+              "form": "DDDLD",
+              "description": "Relegation",
+              "all": {
+                "played": 26,
+                "win": 5,
+                "draw": 11,
+                "lose": 10,
+                "goals": {
+                  "for": 26,
+                  "against": 31
+                }
+              }
+            },
+            {
+              "rank": 18,
+              "team": {
                 "id": 267,
                 "name": "Vasco",
                 "logo": "https://s.sde.globo.com/media/organizations/2021/09/04/vasco_SVG.svg"
@@ -18922,28 +18930,6 @@
                 "goals": {
                   "for": 27,
                   "against": 40
-                }
-              }
-            },
-            {
-              "rank": 18,
-              "team": {
-                "id": 285,
-                "name": "Internacional",
-                "logo": "https://s.sde.globo.com/media/organizations/2018/03/11/internacional.svg"
-              },
-              "points": 25,
-              "goalsDiff": -5,
-              "form": "DDDDL",
-              "description": "Relegation",
-              "all": {
-                "played": 25,
-                "win": 5,
-                "draw": 10,
-                "lose": 10,
-                "goals": {
-                  "for": 26,
-                  "against": 31
                 }
               }
             },
@@ -20105,7 +20091,7 @@
     "mode": "live",
     "liveIntervalMs": 20000
   },
-  "fetchedAt": "2026-09-06T19:00:20.470Z",
+  "fetchedAt": "2026-09-06T19:03:25.384Z",
   "source": "ge-globo",
   "meta": {
     "rodada": 26,

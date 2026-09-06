@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 27
+      "elapsed": 30
     },
     "timerStart": "2026-09-06T21:30:15.429Z",
     "timerStatus": "INICIADO"
@@ -475,6 +475,72 @@
         "name": "Falta muito perigosa"
       },
       "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 24,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O jogo começou pegado no Nilton Santos, com a torcida do Botafogo vaiando os ex-jogadores Barboza e Marlon Freitas. Em campo, o equilíbrio prevalece após 25 minutos. O Botafogo ameaçou com Montoro e Danilo Pereira, parando em defesas de Carlos Miguel. O Palmeiras respondeu com Evangelista. O clima esquentou com cartões para Barboza e Arthur Cabral, e uma falta polêmica de Marçal em Andreas Pereira.",
+      "player": {
+        "name": "Clima quente e chances para os dois lados"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 24,
+        "extra": null
+      },
+      "team": {
+        "id": 263,
+        "name": "Botafogo"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Marçal"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 25,
+        "extra": null
+      },
+      "team": {
+        "id": 263,
+        "name": "Botafogo"
+      },
+      "type": "Important",
+      "detail": "Para o comentarista de arbitragem da Globo, PC Oliveira, a falta de Marçal era passível de vermelho",
+      "player": {
+        "name": "Opinião do especialista"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 26,
+        "extra": null
+      },
+      "team": {
+        "id": 275,
+        "name": "Palmeiras"
+      },
+      "type": "Important",
+      "detail": "Andreas cobra a falta colocado. Cabral desvia de cabeça e a bola sai muito perto do gol",
+      "player": {
+        "name": "Andreas Pereira"
+      },
+      "assist": {
+        "name": "Que perigo!"
+      }
     }
   ],
   "lineups": [

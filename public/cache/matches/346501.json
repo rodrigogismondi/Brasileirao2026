@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 85
+      "elapsed": 88
     },
     "timerStart": "2026-09-06T20:07:37.066Z",
     "timerStatus": "INICIADO"
@@ -1656,10 +1656,128 @@
       "type": "subst",
       "detail": "Substitution 1",
       "player": {
+        "name": "Miguelito"
+      },
+      "assist": {
+        "name": "Rollheiser"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 82,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Santos aproveitou um primeiro tempo caótico para abrir 3 a 0. Gabriel marcou duas vezes: primeiro, após falha bizarra de Félix Torres, e depois de pênalti, em lance que resultou na expulsão de Matheus Bahia. Oliva ampliou de cabeça. Na segunda etapa, mesmo com um a menos, o Inter voltou com tudo e diminuiu com um golaço de Aguirre, que acertou uma bomba de longe, esquentando o jogo.",
+      "player": {
+        "name": "Santos domina, mas Inter reage com golaço!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 82,
+        "extra": null
+      },
+      "team": {
+        "id": 277,
+        "name": "Santos"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
         "name": "João Schmidt"
       },
       "assist": {
         "name": "Gustavo Henrique"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 83,
+        "extra": null
+      },
+      "team": {
+        "id": 285,
+        "name": "Internacional"
+      },
+      "type": "Important",
+      "detail": "Cabeceio fraco do zagueiro, nas mãos de Brazão",
+      "player": {
+        "name": "Félix Torres"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 83,
+        "extra": null
+      },
+      "team": {
+        "id": 285,
+        "name": "Internacional"
+      },
+      "type": "Important",
+      "detail": "Bruno Gomes tabela com Bruno Henrique e cruza. A zaga tira para escanteio",
+      "player": {
+        "name": "Bruno Gomes tabela com Bruno Henrique e cruza. A"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 84,
+        "extra": null
+      },
+      "team": {
+        "id": 285,
+        "name": "Internacional"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Eliasson"
+      },
+      "assist": {
+        "name": "Carbonero"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 85,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Santos parecia ter o jogo nas mãos após um primeiro tempo avassalador, abrindo 3 a 0 com gols de Gabriel (2) e Oliva, e com o Inter tendo Matheus Bahia expulso. Mas a etapa final trouxe nova emoção: Aguirre acertou um golaço de longe para diminuir para 3 a 1. Aos 40 minutos, Vitinho sofreu pênalti e o Inter tem a chance de colocar fogo de vez na partida. Que final nos espera",
+      "player": {
+        "name": "Inter reage e tem pênalti para incendiar o jogo!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 85,
+        "extra": null
+      },
+      "team": {
+        "id": 285,
+        "name": "Internacional"
+      },
+      "type": "Important",
+      "detail": "Vitinho recebe na área e é tocado por trás por Miguelito. Pênalti marcado",
+      "player": {
+        "name": "Vitinho"
+      },
+      "assist": {
+        "name": "É PÊNALTI!"
       }
     }
   ],
@@ -2122,19 +2240,19 @@
         },
         {
           "type": "Total Passes",
-          "value": 391
+          "value": 412
         },
         {
           "type": "Pass Accuracy",
-          "value": "82%"
+          "value": "83%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 69
+          "value": 71
         },
         {
           "type": "Total Shots",
-          "value": 13
+          "value": 14
         },
         {
           "type": "Shots on Goal",
@@ -2146,7 +2264,7 @@
         },
         {
           "type": "Blocked Shots",
-          "value": 5
+          "value": 6
         },
         {
           "type": "Hit Woodwork",
@@ -2154,7 +2272,7 @@
         },
         {
           "type": "Corner Kicks",
-          "value": 6
+          "value": 7
         },
         {
           "type": "Offsides",
@@ -2162,7 +2280,7 @@
         },
         {
           "type": "Penalties",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Goalkeeper Saves",
@@ -2174,7 +2292,7 @@
         },
         {
           "type": "Fouls",
-          "value": 14
+          "value": 16
         },
         {
           "type": "Yellow Cards",
@@ -2198,7 +2316,7 @@
         },
         {
           "type": "Total Passes",
-          "value": 567
+          "value": 576
         },
         {
           "type": "Pass Accuracy",
@@ -2206,7 +2324,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 55
+          "value": 57
         },
         {
           "type": "Total Shots",
@@ -2246,7 +2364,7 @@
         },
         {
           "type": "Tackles",
-          "value": 23
+          "value": 24
         },
         {
           "type": "Fouls",

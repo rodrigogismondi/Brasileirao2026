@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 82
+      "elapsed": 85
     },
     "timerStart": "2026-09-06T20:10:53.980Z",
     "timerStatus": "INICIADO"
@@ -1580,9 +1580,73 @@
         "name": ""
       },
       "type": "Important",
+      "detail": "Que jogaço no Mangueirão! O segundo tempo começou com um bombardeio do Flamengo, mas o goleiro Marcelo Rangel virou herói com defesas milagrosas, principalmente em lances de Pedro. A muralha do Remo só caiu aos 19 minutos, quando Samuel Lino, o melhor em campo, recebeu passe de Arrascaeta e marcou de biquinho. Agora, com 1 a 0 no placar, o Fla administra o resultado na reta final da partida.",
+      "player": {
+        "name": "Lino fura a muralha e Fla abre o placar!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 78,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
       "detail": "Paquetá recebe passe em profundidade pela esquerda e finaliza cruzado, mas manda para fora.",
       "player": {
         "name": "Paquetá recebe passe em profundidade pela esquer"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 79,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Após um primeiro tempo de chances claras para os dois lados, o segundo tempo virou um duelo particular entre o ataque do Flamengo e o goleiro Marcelo Rangel. O goleiro do Remo fez defesas espetaculares, incluindo um milagre em finalização de Pedro. Mas, aos 19 minutos, a insistência deu resultado: Arrascaeta serviu Samuel Lino, que marcou de biquinho para finalmente abrir o placar e fazer 1 a 0.",
+      "player": {
+        "name": "Muralha Rangel cai e Flamengo faz 1 a 0"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 79,
+        "extra": null
+      },
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "Important",
+      "detail": "Léo Ortiz e Léo Pereira batem cabeça na defesa, mas Ayrton Lucas aparece providencialmente para salvar o Flamengo",
+      "player": {
+        "name": "Léo Ortiz e Léo Pereira batem cabeça na defesa, "
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 80,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Escanteio para o Remo, a defesa do Flamengo corta.",
+      "player": {
+        "name": "Escanteio para o Remo, a defesa do Flamengo cort"
       },
       "assist": null
     }
@@ -2042,23 +2106,23 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "34%"
+          "value": "35%"
         },
         {
           "type": "Total Passes",
-          "value": 277
+          "value": 308
         },
         {
           "type": "Pass Accuracy",
-          "value": "78%"
+          "value": "77%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 61
+          "value": 71
         },
         {
           "type": "Total Shots",
-          "value": 5
+          "value": 6
         },
         {
           "type": "Shots on Goal",
@@ -2070,7 +2134,7 @@
         },
         {
           "type": "Blocked Shots",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Hit Woodwork",
@@ -2078,7 +2142,7 @@
         },
         {
           "type": "Corner Kicks",
-          "value": 3
+          "value": 4
         },
         {
           "type": "Offsides",
@@ -2094,7 +2158,7 @@
         },
         {
           "type": "Tackles",
-          "value": 17
+          "value": 18
         },
         {
           "type": "Fouls",
@@ -2118,11 +2182,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "66%"
+          "value": "65%"
         },
         {
           "type": "Total Passes",
-          "value": 642
+          "value": 656
         },
         {
           "type": "Pass Accuracy",
@@ -2130,11 +2194,11 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 72
+          "value": 73
         },
         {
           "type": "Total Shots",
-          "value": 16
+          "value": 17
         },
         {
           "type": "Shots on Goal",
@@ -2142,7 +2206,7 @@
         },
         {
           "type": "Shots off Goal",
-          "value": 6
+          "value": 7
         },
         {
           "type": "Blocked Shots",
@@ -2166,15 +2230,15 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 3
+          "value": 4
         },
         {
           "type": "Tackles",
-          "value": 15
+          "value": 16
         },
         {
           "type": "Fouls",
-          "value": 10
+          "value": 11
         },
         {
           "type": "Yellow Cards",

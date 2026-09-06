@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 81
+      "elapsed": 84
     },
     "timerStart": "2026-09-06T20:12:00.437Z",
     "timerStatus": "INICIADO"
@@ -30,7 +30,7 @@
     }
   },
   "goals": {
-    "home": 2,
+    "home": 3,
     "away": 1
   },
   "score": {
@@ -2138,6 +2138,22 @@
         "extra": null
       },
       "team": {
+        "id": 283,
+        "name": "Cruzeiro"
+      },
+      "type": "Important",
+      "detail": "Que segundo tempo no Mineirão! Após um empate eletrizante na primeira etapa, o Cruzeiro desempatou aos 25 minutos com um chute forte de Lucas Romero, fazendo 2 a 1. Antes, o goleiro Otávio já tinha feito um milagre em finalização de Viveros. Aos 33 minutos, Kaio Jorge foi derrubado na área pelo goleiro Mycael e o time da casa tem um novo pênalti para tentar definir o placar.",
+      "player": {
+        "name": "Cruzeiro na frente e com pênalti para ampliar!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 79,
+        "extra": null
+      },
+      "team": {
         "id": 293,
         "name": "Athletico-PR"
       },
@@ -2149,6 +2165,70 @@
       "assist": {
         "name": "Viveros"
       }
+    },
+    {
+      "time": {
+        "elapsed": 80,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Kaio Jorge fica com a bola na mão esperando a autorização da cobrança. Jogo paralisado.",
+      "player": {
+        "name": "Kaio Jorge fica com a bola na mão esperando a au"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 80,
+        "extra": null
+      },
+      "team": {
+        "id": 293,
+        "name": "Athletico-PR"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Mycael"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 81,
+        "extra": null
+      },
+      "team": {
+        "id": 283,
+        "name": "Cruzeiro"
+      },
+      "type": "Important",
+      "detail": "Após um primeiro tempo de 1 a 1 com pênalti perdido, a etapa final é de tirar o fôlego! O goleiro Otávio fez defesa crucial em chance de Viveros, e o Cruzeiro foi letal na resposta. Aos 25 minutos, Lucas Romero recolocou a Raposa em vantagem. Perto dos 36, Kaio Jorge sofreu e converteu um pênalti, ampliando o placar para 3 a 1 e deixando o time da casa com boa folga no placar.",
+      "player": {
+        "name": "Cruzeiro marca duas vezes e abre vantagem!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 81,
+        "extra": null
+      },
+      "team": {
+        "id": 283,
+        "name": "Cruzeiro"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "player": {
+        "name": "Kaio Jorge"
+      },
+      "assist": null
     }
   ],
   "lineups": [
@@ -2606,11 +2686,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "59%"
+          "value": "60%"
         },
         {
           "type": "Total Passes",
-          "value": 528
+          "value": 531
         },
         {
           "type": "Pass Accuracy",
@@ -2650,7 +2730,7 @@
         },
         {
           "type": "Penalties",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Goalkeeper Saves",
@@ -2682,7 +2762,7 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "41%"
+          "value": "40%"
         },
         {
           "type": "Total Passes",
@@ -2738,11 +2818,11 @@
         },
         {
           "type": "Fouls",
-          "value": 9
+          "value": 10
         },
         {
           "type": "Yellow Cards",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Red Cards",

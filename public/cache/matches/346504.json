@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 39
+      "elapsed": 42
     },
     "timerStart": "2026-09-06T19:05:23.218Z",
     "timerStatus": "INICIADO"
@@ -740,6 +740,22 @@
         "extra": null
       },
       "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Lino dá ótimo passe para Arrascaeta, que tenta achar Carrascal pelo meio e não finaliza. O uruguaio é bloqueado pela defesa, que corta para escanteio.",
+      "player": {
+        "name": "QUE BOLA"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 36,
+        "extra": null
+      },
+      "team": {
         "id": 364,
         "name": "Remo"
       },
@@ -747,6 +763,70 @@
       "detail": "Arrascaeta cruza na área, mas defesa do Remo afasta. Torcida paraense começa a perder a paciência com o time e pede mais ímpeto.",
       "player": {
         "name": "Arrascaeta cruza na área, mas defesa do Remo afa"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 37,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Com mais de 30 minutos de jogo, o placar segue zerado, mas não por falta de emoção. Após um início com chegadas perigosas do Flamengo, foi o Remo que teve a chance de ouro: Taliari saiu cara a cara com o goleiro e desperdiçou de forma incrível. Na sequência, Marcelo Rangel salvou o time da casa com uma defesaça em chute de Samuel Lino. Agora, o Fla domina e pressiona em busca do gol.",
+      "player": {
+        "name": "Chance perdida e defesaça agitam o jogo!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 37,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Flamengo martela, martela, mas não consegue abrir o placar. Remo bem nos bloqueios de passes e finalizações.",
+      "player": {
+        "name": "Flamengo martela, martela, mas não consegue abri"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 38,
+        "extra": null
+      },
+      "team": {
+        "id": 364,
+        "name": "Remo"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Galeano"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 39,
+        "extra": null
+      },
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "Important",
+      "detail": "Escanteio para o Flamengo.",
+      "player": {
+        "name": "Escanteio para o Flamengo."
       },
       "assist": null
     }
@@ -1206,15 +1286,15 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "31%"
+          "value": "30%"
         },
         {
           "type": "Total Passes",
-          "value": 119
+          "value": 122
         },
         {
           "type": "Pass Accuracy",
-          "value": "72%"
+          "value": "73%"
         },
         {
           "type": "Incomplete Passes",
@@ -1254,19 +1334,19 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Tackles",
-          "value": 9
+          "value": 10
         },
         {
           "type": "Fouls",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Yellow Cards",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Red Cards",
@@ -1282,23 +1362,23 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "69%"
+          "value": "70%"
         },
         {
           "type": "Total Passes",
-          "value": 349
+          "value": 362
         },
         {
           "type": "Pass Accuracy",
-          "value": "89%"
+          "value": "88%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 38
+          "value": 42
         },
         {
           "type": "Total Shots",
-          "value": 8
+          "value": 9
         },
         {
           "type": "Shots on Goal",
@@ -1310,7 +1390,7 @@
         },
         {
           "type": "Blocked Shots",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Hit Woodwork",
@@ -1318,7 +1398,7 @@
         },
         {
           "type": "Corner Kicks",
-          "value": 4
+          "value": 5
         },
         {
           "type": "Offsides",
@@ -1342,7 +1422,7 @@
         },
         {
           "type": "Yellow Cards",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Red Cards",

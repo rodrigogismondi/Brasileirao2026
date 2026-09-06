@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 44
+      "elapsed": 47
     },
     "timerStart": "2026-09-06T19:00:29.774Z",
     "timerStatus": "INICIADO"
@@ -31,7 +31,7 @@
   },
   "goals": {
     "home": 2,
-    "away": 0
+    "away": 1
   },
   "score": {
     "halftime": {
@@ -1000,25 +1000,41 @@
         "name": ""
       },
       "type": "Important",
-      "detail": "O Cruzeiro impôs seu ritmo desde o início e transformou a pressão em gols. Aos 29 minutos, Matheus Pereira abriu o placar de peixinho após cruzamento de Gerson. O time da casa seguiu melhor e, aos 42, ampliou com Matheus Henrique, deixando o placar em 2 a 0. O Athletico-PR tentou equilibrar o jogo, mas sofre com o volume ofensivo do adversário. A partida teve um cartão amarelo para Gabriel Rojas.",
+      "detail": "O jogo começou com um volume impressionante do Cruzeiro, que desperdiçou várias chances claras no ataque. O Athletico-PR conseguiu equilibrar as ações e respondeu com perigo, principalmente em jogadas de Leozinho. Aos 29 minutos, a insistência deu resultado: Gerson avançou e cruzou para Matheus Pereira, que de peixinho abriu o placar. O jogo segue intenso, com o time da casa em vantagem por 1 a 0.",
       "player": {
-        "name": "Cruzeiro dominante abre vantagem no Mineirão"
+        "name": "Cruzeiro na frente após pressão inicial!"
       },
       "assist": null
     },
     {
       "time": {
-        "elapsed": 42,
+        "elapsed": 44,
         "extra": null
       },
       "team": {
         "id": 283,
         "name": "Cruzeiro"
       },
+      "type": "Important",
+      "detail": "Nada feito. A posição de Gerson é pega em impedimento. Segue 1 a 0 para o Cruzeiro!",
+      "player": {
+        "name": "GOL ANULADO!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 45,
+        "extra": null
+      },
+      "team": {
+        "id": 293,
+        "name": "Athletico-PR"
+      },
       "type": "Goal",
       "detail": "Normal Goal",
       "player": {
-        "name": "Matheus Henrique"
+        "name": "João Cruz"
       },
       "assist": null
     }
@@ -1478,11 +1494,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "58%"
+          "value": "59%"
         },
         {
           "type": "Total Passes",
-          "value": 266
+          "value": 268
         },
         {
           "type": "Pass Accuracy",
@@ -1494,11 +1510,11 @@
         },
         {
           "type": "Total Shots",
-          "value": 9
+          "value": 10
         },
         {
           "type": "Shots on Goal",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Shots off Goal",
@@ -1518,7 +1534,7 @@
         },
         {
           "type": "Offsides",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Penalties",
@@ -1554,11 +1570,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "42%"
+          "value": "41%"
         },
         {
           "type": "Total Passes",
-          "value": 165
+          "value": 169
         },
         {
           "type": "Pass Accuracy",
@@ -1566,7 +1582,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 30
+          "value": 31
         },
         {
           "type": "Total Shots",

@@ -11,7 +11,7 @@
       "short": "1H",
       "elapsed": null
     },
-    "timerStart": "2026-09-06T21:29:47.903Z",
+    "timerStart": "2026-09-06T22:30:25.613Z",
     "timerStatus": "PAUSADO"
   },
   "league": {
@@ -30,8 +30,8 @@
     }
   },
   "goals": {
-    "home": null,
-    "away": null
+    "home": 0,
+    "away": 0
   },
   "score": {
     "halftime": {
@@ -49,7 +49,56 @@
     "away": 6.75,
     "source": "betexplorer"
   },
-  "events": [],
+  "events": [
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 315,
+        "name": "Chapecoense"
+      },
+      "type": "Important",
+      "detail": "Meio-campista da Chapecoense conseguiu a façanha de receber cartão amarelo com apenas 15 segundos de jogo por acertar o tornozelo de Memphis Depay em disputa de bola.",
+      "player": {
+        "name": "Yago Felipe"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 315,
+        "name": "Chapecoense"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Yago Felipe"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Apita o árbitro.",
+      "player": {
+        "name": "Começa o jogo"
+      },
+      "assist": null
+    }
+  ],
   "lineups": [
     {
       "team": {

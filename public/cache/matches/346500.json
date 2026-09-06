@@ -57,7 +57,7 @@
         "name": "Cruzeiro",
         "logo": "https://s.sde.globo.com/media/organizations/2021/02/13/cruzeiro_2021.svg"
       },
-      "formation": "4-3-3",
+      "formation": "4-3-1-2",
       "coach": {
         "name": "Artur Jorge"
       },
@@ -100,9 +100,9 @@
         },
         {
           "player": {
-            "id": "lvillalba",
-            "name": "Villalba",
-            "number": 25,
+            "id": "rojasgabr",
+            "name": "Gabriel Rojas",
+            "number": 27,
             "pos": "Def",
             "grid": null
           }
@@ -121,6 +121,15 @@
             "id": "gersonss",
             "name": "Gerson",
             "number": 8,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "matheushenrique1297",
+            "name": "Matheus Henrique",
+            "number": 7,
             "pos": "Mei",
             "grid": null
           }
@@ -151,6 +160,80 @@
             "pos": "Ata",
             "grid": null
           }
+        }
+      ],
+      "substitutes": [
+        {
+          "player": {
+            "id": "cassio-ramos",
+            "name": "Cássio",
+            "number": 1,
+            "pos": "Gol",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "Kaua-Moraes",
+            "name": "Kauã Moraes",
+            "number": 2,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "williamasevedo",
+            "name": "William",
+            "number": 12,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "lvillalba",
+            "name": "Villalba",
+            "number": 25,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "ze-lucas",
+            "name": "Zé Lucas",
+            "number": 5,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "lucassilva",
+            "name": "Lucas Silva",
+            "number": 16,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "felipe-morais",
+            "name": "Felipe Morais",
+            "number": 38,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "brunorodrigues-atleticopr",
+            "name": "Bruno Rodrigues",
+            "number": 9,
+            "pos": "Ata",
+            "grid": null
+          }
         },
         {
           "player": {
@@ -160,9 +243,35 @@
             "pos": "Ata",
             "grid": null
           }
+        },
+        {
+          "player": {
+            "id": "joao-gabriel-costa",
+            "name": "João Costa",
+            "number": 67,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "KaiqueKenji",
+            "name": "Kaique Kenji",
+            "number": 70,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "lucirodri",
+            "name": "Lucho Rodríguez",
+            "number": 97,
+            "pos": "Ata",
+            "grid": null
+          }
         }
-      ],
-      "substitutes": []
+      ]
     },
     {
       "team": {
@@ -240,18 +349,18 @@
         },
         {
           "player": {
-            "id": "leozinho",
-            "name": "Leozinho",
-            "number": 21,
+            "id": "joaovictormachadocruz",
+            "name": "João Cruz",
+            "number": 8,
             "pos": "Mei",
             "grid": null
           }
         },
         {
           "player": {
-            "id": "joaovictormachadocruz",
-            "name": "João Cruz",
-            "number": 8,
+            "id": "leozinho",
+            "name": "Leozinho",
+            "number": 21,
             "pos": "Mei",
             "grid": null
           }

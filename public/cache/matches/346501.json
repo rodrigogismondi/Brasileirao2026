@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 35
+      "elapsed": 38
     },
     "timerStart": "2026-09-06T19:00:38.573Z",
     "timerStatus": "INICIADO"
@@ -498,38 +498,6 @@
     },
     {
       "time": {
-        "elapsed": 24,
-        "extra": null
-      },
-      "team": {
-        "id": 0,
-        "name": ""
-      },
-      "type": "Important",
-      "detail": "Red Card by Matheus Bahia",
-      "player": {
-        "name": "Red Card by Matheus Bahia"
-      },
-      "assist": null
-    },
-    {
-      "time": {
-        "elapsed": 24,
-        "extra": null
-      },
-      "team": {
-        "id": 277,
-        "name": "Santos"
-      },
-      "type": "Important",
-      "detail": "Red Card by Matheus Bahia",
-      "player": {
-        "name": "Red Card by Matheus Bahia"
-      },
-      "assist": null
-    },
-    {
-      "time": {
         "elapsed": 26,
         "extra": null
       },
@@ -538,7 +506,7 @@
         "name": ""
       },
       "type": "Important",
-      "detail": "Arbitragem vai rever o lance para checar o pênalti marcado",
+      "detail": "Arbitragem vai rever o lance para decidir se a jogada é para cartão amarelo ou expulsão de Matheus Bahia.",
       "player": {
         "name": "VAI PRO VÍDEO"
       },
@@ -685,6 +653,54 @@
       "detail": "Sanabria recebe na área, mas não consegue a finalização",
       "player": {
         "name": "Sanabria"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 35,
+        "extra": null
+      },
+      "team": {
+        "id": 285,
+        "name": "Internacional"
+      },
+      "type": "Important",
+      "detail": "Cruzamento da direita, Brazão tira do jeito que dá. Na sobra, Vitinho cruza da esquerda forte demais, direto para fora",
+      "player": {
+        "name": "Cruzamento da direita, Brazão tira do jeito que "
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 36,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Inter começou com a posse e criando chances, mas um erro individual de Félix Torres aos 7 minutos permitiu que Gabriel abrisse o placar para o Santos. O cenário piorou para o time da casa aos 24, quando Matheus Bahia cometeu pênalti em Gabriel e foi expulso após revisão do VAR. O próprio Gabriel cobrou e marcou o segundo, deixando o placar em 2 a 0 para o Peixe antes dos 30 minutos de jogo.",
+      "player": {
+        "name": "Gabriel brilha e complica a vida do Inter"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 36,
+        "extra": null
+      },
+      "team": {
+        "id": 277,
+        "name": "Santos"
+      },
+      "type": "Important",
+      "detail": "Caballero tenta o avanço pela esquerda, mas é desarmado por Bruno Gomes e comete falta de ataque",
+      "player": {
+        "name": "Caballero tenta o avanço pela esquerda, mas é de"
       },
       "assist": null
     }
@@ -1144,11 +1160,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "54%"
+          "value": "55%"
         },
         {
           "type": "Total Passes",
-          "value": 163
+          "value": 184
         },
         {
           "type": "Pass Accuracy",
@@ -1156,11 +1172,11 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 27
+          "value": 32
         },
         {
           "type": "Total Shots",
-          "value": 6
+          "value": 8
         },
         {
           "type": "Shots on Goal",
@@ -1168,11 +1184,11 @@
         },
         {
           "type": "Shots off Goal",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Blocked Shots",
-          "value": 4
+          "value": 5
         },
         {
           "type": "Hit Woodwork",
@@ -1180,7 +1196,7 @@
         },
         {
           "type": "Corner Kicks",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Offsides",
@@ -1196,7 +1212,7 @@
         },
         {
           "type": "Tackles",
-          "value": 4
+          "value": 5
         },
         {
           "type": "Fouls",
@@ -1220,11 +1236,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "46%"
+          "value": "45%"
         },
         {
           "type": "Total Passes",
-          "value": 129
+          "value": 136
         },
         {
           "type": "Pass Accuracy",
@@ -1232,7 +1248,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 23
+          "value": 24
         },
         {
           "type": "Total Shots",
@@ -1268,7 +1284,7 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 5
+          "value": 6
         },
         {
           "type": "Tackles",

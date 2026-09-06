@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 31
+      "elapsed": 34
     },
     "timerStart": "2026-09-06T19:05:23.218Z",
     "timerStatus": "INICIADO"
@@ -614,11 +614,77 @@
         "name": ""
       },
       "type": "Important",
-      "detail": "A chuva dá uma trégua em Belém, o céu está bem azul, mas o gramado ainda está bem molhado pela chuva que caiu há alguns minutos. Jogadores pediram troca de chuteiras.",
+      "detail": "A chuva dá uma trégua em Belém, o céu clareia, mas o gramado ainda está bem molhado pela água que caiu. Jogadores pediram troca de chuteiras.",
       "player": {
-        "name": "A chuva dá uma trégua em Belém, o céu está bem a"
+        "name": "A chuva dá uma trégua em Belém, o céu clareia, m"
       },
       "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 29,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Flamengo pressiona. O Remo se segura na defesa.",
+      "player": {
+        "name": "Flamengo pressiona. O Remo se segura na defesa."
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 30,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "A partida é movimentada no Mangueirão. Com 30 minutos de jogo, o Flamengo pressiona e cria chances com Carrascal e Pedro, mas a oportunidade mais clara foi do Remo. Taliari saiu cara a cara com o goleiro Rossi e desperdiçou de forma incrível ao hesitar na finalização. Pouco depois, Marcelo Rangel salvou o time da casa com uma defesa espetacular em chute forte de Samuel Lino.",
+      "player": {
+        "name": "Jogo de chances perdidas no Mangueirão!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 30,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Paquetá arrisca de longe, mas manda por cima do gol sem perigo.",
+      "player": {
+        "name": "Paquetá arrisca de longe, mas manda por cima do "
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 31,
+        "extra": null
+      },
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "Important",
+      "detail": "Marlon cruza pela esquerda, e Léo Pereira recua de peito para Rossi, mas quase encobre o goleiro do Flamengo. O jogador assustou a torcida do Flamengo.",
+      "player": {
+        "name": "Léo Pereira"
+      },
+      "assist": {
+        "name": "QUE SUSTO!"
+      }
     }
   ],
   "lineups": [
@@ -1076,11 +1142,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "33%"
+          "value": "32%"
         },
         {
           "type": "Total Passes",
-          "value": 95
+          "value": 106
         },
         {
           "type": "Pass Accuracy",
@@ -1088,7 +1154,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 25
+          "value": 28
         },
         {
           "type": "Total Shots",
@@ -1128,7 +1194,7 @@
         },
         {
           "type": "Tackles",
-          "value": 6
+          "value": 7
         },
         {
           "type": "Fouls",
@@ -1152,11 +1218,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "67%"
+          "value": "68%"
         },
         {
           "type": "Total Passes",
-          "value": 241
+          "value": 272
         },
         {
           "type": "Pass Accuracy",
@@ -1164,11 +1230,11 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 28
+          "value": 32
         },
         {
           "type": "Total Shots",
-          "value": 6
+          "value": 7
         },
         {
           "type": "Shots on Goal",
@@ -1176,7 +1242,7 @@
         },
         {
           "type": "Shots off Goal",
-          "value": 3
+          "value": 4
         },
         {
           "type": "Blocked Shots",
@@ -1204,7 +1270,7 @@
         },
         {
           "type": "Tackles",
-          "value": 8
+          "value": 9
         },
         {
           "type": "Fouls",

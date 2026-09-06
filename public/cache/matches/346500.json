@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 55
+      "elapsed": 57
     },
     "timerStart": "2026-09-06T20:12:00.437Z",
     "timerStatus": "INICIADO"
@@ -1488,9 +1488,75 @@
         "name": ""
       },
       "type": "Important",
+      "detail": "Que primeiro tempo maluco! O Cruzeiro marcou com Matheus Pereira aos 29 minutos, teve um gol anulado pelo VAR e ainda viu o Athletico-PR empatar em um golaço de João Cruz de fora da área. Para completar, nos acréscimos, Matheus Pereira teve a chance de desempatar em cobrança de pênalti, mas o goleiro Mycael fez uma defesaça. Com o jogo agora no início do segundo tempo, o placar segue 1 a 1.",
+      "player": {
+        "name": "Tudo igual e pênalti perdido no Mineirão!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 54,
+        "extra": null
+      },
+      "team": {
+        "id": 283,
+        "name": "Cruzeiro"
+      },
+      "type": "Important",
+      "detail": "Gerson faz bom cruzamento para a área, do lado esquerdo, mas... para ninguém! João Cruz afasta.",
+      "player": {
+        "name": "Gerson"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 54,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
       "detail": "Árbitra apita o fim do primeiro tempo. 1 a 1 no Mineirão!",
       "player": {
         "name": "FIM DE PRIMEIRO TEMPO!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 55,
+        "extra": null
+      },
+      "team": {
+        "id": 283,
+        "name": "Cruzeiro"
+      },
+      "type": "Important",
+      "detail": "Arroyo recebe de Gerson e vê Matheus Pereira na área. O camisa 99 cruza, mas MP não ganha pelo alto e cai. O jogo segue.",
+      "player": {
+        "name": "Arroyo"
+      },
+      "assist": {
+        "name": "VISÃO DE JOGO"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 56,
+        "extra": null
+      },
+      "team": {
+        "id": 283,
+        "name": "Cruzeiro"
+      },
+      "type": "Important",
+      "detail": "Cruzeiro mantém a posse de bola, ainda que de forma tímida, sem muitos ataques.",
+      "player": {
+        "name": "Cruzeiro mantém a posse de bola, ainda que de fo"
       },
       "assist": null
     }

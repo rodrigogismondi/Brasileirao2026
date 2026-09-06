@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 60
+      "elapsed": 61
     },
     "timerStart": "2026-09-06T20:07:37.066Z",
     "timerStatus": "INICIADO"
@@ -1090,7 +1090,7 @@
         "name": "Internacional"
       },
       "type": "Important",
-      "detail": "Sobra de bola com o argentino, que arrisca de novo de longe. Brazão joga para escanteio",
+      "detail": "Sobra de bola com o argentino, que arrisca de novo de longe. Brazão joga para escanteio.",
       "player": {
         "name": "Aguirre"
       },
@@ -1211,6 +1211,70 @@
       "detail": "Vitinho cruza da direita, a bola desvia na defesa e Luan Peres fica com a bola dominada",
       "player": {
         "name": "Vitinho cruza da direita, a bola desvia na defes"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 58,
+        "extra": null
+      },
+      "team": {
+        "id": 277,
+        "name": "Santos"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Gabriel"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 58,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Rollheiser lança Gabigol, mas é marcado impedimento. O atacante chuta a bola para longe e é advertido",
+      "player": {
+        "name": "Rollheiser lança Gabigol, mas é marcado impedime"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 60,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Que primeiro tempo do Santos! Aproveitando uma falha de Félix Torres, Gabriel abriu o placar. Depois, Matheus Bahia cometeu pênalti, foi expulso, e Gabriel fez o segundo. Oliva, de cabeça, ampliou para 3 a 0. Mas logo no início do segundo tempo, com 10 em campo, o Inter diminuiu com um golaço de muito longe de Aguirre, botando fogo no jogo aos 15 minutos da etapa final.",
+      "player": {
+        "name": "Santos abre 3 a 0, mas Inter reage!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 60,
+        "extra": null
+      },
+      "team": {
+        "id": 285,
+        "name": "Internacional"
+      },
+      "type": "Important",
+      "detail": "Arthur, ao seu estilo, \"esconde\" a bola até sofrer a falta na intermediária, de Thiago Maia",
+      "player": {
+        "name": "Arthur, ao seu estilo, \"esconde\" a bola até sofr"
       },
       "assist": null
     }
@@ -1670,19 +1734,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "47%"
+          "value": "48%"
         },
         {
           "type": "Total Passes",
-          "value": 289
+          "value": 304
         },
         {
           "type": "Pass Accuracy",
-          "value": "83%"
+          "value": "82%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 50
+          "value": 54
         },
         {
           "type": "Total Shots",
@@ -1722,11 +1786,11 @@
         },
         {
           "type": "Tackles",
-          "value": 8
+          "value": 10
         },
         {
           "type": "Fouls",
-          "value": 6
+          "value": 7
         },
         {
           "type": "Yellow Cards",
@@ -1746,11 +1810,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "53%"
+          "value": "52%"
         },
         {
           "type": "Total Passes",
-          "value": 343
+          "value": 368
         },
         {
           "type": "Pass Accuracy",
@@ -1758,7 +1822,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 38
+          "value": 39
         },
         {
           "type": "Total Shots",
@@ -1786,7 +1850,7 @@
         },
         {
           "type": "Offsides",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Penalties",
@@ -1798,7 +1862,7 @@
         },
         {
           "type": "Tackles",
-          "value": 15
+          "value": 17
         },
         {
           "type": "Fouls",
@@ -1806,7 +1870,7 @@
         },
         {
           "type": "Yellow Cards",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Red Cards",

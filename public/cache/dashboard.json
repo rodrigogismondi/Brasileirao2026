@@ -12811,10 +12811,10 @@
         "status": {
           "long": "1H",
           "short": "1H",
-          "elapsed": null
+          "elapsed": 6
         },
-        "timerStart": "2026-09-06T20:38:19.884Z",
-        "timerStatus": "PAUSADO"
+        "timerStart": "2026-09-06T21:30:15.429Z",
+        "timerStatus": "INICIADO"
       },
       "league": {
         "round": "Regular Season - 26"
@@ -18562,14 +18562,14 @@
                 "name": "Palmeiras",
                 "logo": "https://s.sde.globo.com/media/organizations/2019/07/06/Palmeiras.svg"
               },
-              "points": 52,
+              "points": 53,
               "goalsDiff": 24,
-              "form": "WDLWD",
+              "form": "DLWDD",
               "description": "Copa Libertadores",
               "all": {
-                "played": 25,
+                "played": 26,
                 "win": 15,
-                "draw": 7,
+                "draw": 8,
                 "lose": 3,
                 "goals": {
                   "for": 45,
@@ -18804,14 +18804,14 @@
                 "name": "Botafogo",
                 "logo": "https://s.sde.globo.com/media/organizations/2019/02/04/botafogo-svg.svg"
               },
-              "points": 30,
+              "points": 31,
               "goalsDiff": -3,
-              "form": "WDLLL",
+              "form": "DLLLD",
               "description": null,
               "all": {
-                "played": 24,
+                "played": 25,
                 "win": 8,
-                "draw": 6,
+                "draw": 7,
                 "lose": 10,
                 "goals": {
                   "for": 37,
@@ -20087,7 +20087,7 @@
     "mode": "live",
     "liveIntervalMs": 20000
   },
-  "fetchedAt": "2026-09-06T21:33:17.561Z",
+  "fetchedAt": "2026-09-06T21:36:22.651Z",
   "source": "ge-globo",
   "meta": {
     "rodada": 26,

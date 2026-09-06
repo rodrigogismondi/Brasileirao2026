@@ -9,10 +9,10 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": null
+      "elapsed": 6
     },
-    "timerStart": "2026-09-06T20:38:19.884Z",
-    "timerStatus": "PAUSADO"
+    "timerStart": "2026-09-06T21:30:15.429Z",
+    "timerStatus": "INICIADO"
   },
   "league": {
     "round": "Regular Season - 26"
@@ -63,6 +63,38 @@
       "detail": "Bola rolando",
       "player": {
         "name": "Começa o jogo"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 1,
+        "extra": null
+      },
+      "team": {
+        "id": 263,
+        "name": "Botafogo"
+      },
+      "type": "Important",
+      "detail": "Vaias da torcida do Botafogo ecoam alto quando Marlon Freitas e Alexander Barboza, ex-alvinegros, enconstam na bola. Jogadores reencontram a torcida no Nilton Santos após saída amarga",
+      "player": {
+        "name": "Pressão"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 1,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Palmeiras trabalha a bola no campo de defesa, enquanto o Botafogo cerca",
+      "player": {
+        "name": "Palmeiras trabalha a bola no campo de defesa, en"
       },
       "assist": null
     }

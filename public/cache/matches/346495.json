@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 54
+      "elapsed": 57
     },
     "timerStart": "2026-09-06T01:08:34.765Z",
     "timerStatus": "INICIADO"
@@ -1095,6 +1095,70 @@
         "name": "Clima quente e chances perdidas no 1º tempo"
       },
       "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 53,
+        "extra": null
+      },
+      "team": {
+        "id": 267,
+        "name": "Vasco"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Colidio"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 54,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "Important",
+      "detail": "O Vasco impôs seu ritmo no primeiro tempo, pressionando e criando boas chances com Thiago Mendes e Piton, que exigiram um bloqueio de Renê e uma defesa de Fábio. A partida, marcada por muita tensão e vários cartões, mudou de figura no início da segunda etapa. Logo aos 3 minutos, Ganso achou Hulk, que finalizou para uma defesa espetacular de Léo Jardim, na melhor chegada do Fluminense no jogo.",
+      "player": {
+        "name": "Vasco pressiona, mas Flu reage na etapa final"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 54,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "Important",
+      "detail": "Soteldo avança na esquerda e não consegue cruzar direito. Léo Jardim sai para defender.",
+      "player": {
+        "name": "Soteldo avança na esquerda e não consegue cruzar"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 56,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "Important",
+      "detail": "Soteldo dribla bem na esquerda e cruza com desvio. Escanteio para o Fluminense.",
+      "player": {
+        "name": "Soteldo dribla bem na esquerda e cruza com desvi"
+      },
+      "assist": null
     }
   ],
   "lineups": [
@@ -1556,7 +1620,7 @@
         },
         {
           "type": "Total Passes",
-          "value": 288
+          "value": 304
         },
         {
           "type": "Pass Accuracy",
@@ -1564,11 +1628,11 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 39
+          "value": 42
         },
         {
           "type": "Total Shots",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Shots on Goal",
@@ -1576,7 +1640,7 @@
         },
         {
           "type": "Shots off Goal",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Blocked Shots",
@@ -1588,7 +1652,7 @@
         },
         {
           "type": "Corner Kicks",
-          "value": 3
+          "value": 5
         },
         {
           "type": "Offsides",
@@ -1608,7 +1672,7 @@
         },
         {
           "type": "Fouls",
-          "value": 5
+          "value": 7
         },
         {
           "type": "Yellow Cards",
@@ -1632,7 +1696,7 @@
         },
         {
           "type": "Total Passes",
-          "value": 304
+          "value": 309
         },
         {
           "type": "Pass Accuracy",
@@ -1640,7 +1704,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 46
+          "value": 47
         },
         {
           "type": "Total Shots",
@@ -1688,7 +1752,7 @@
         },
         {
           "type": "Yellow Cards",
-          "value": 3
+          "value": 4
         },
         {
           "type": "Red Cards",

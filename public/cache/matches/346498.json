@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 16
+      "elapsed": 19
     },
     "timerStart": "2026-09-06T22:31:40.919Z",
     "timerStatus": "INICIADO"
@@ -356,6 +356,56 @@
       },
       "assist": {
         "name": "Por cima"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 15,
+        "extra": null
+      },
+      "team": {
+        "id": 315,
+        "name": "Chapecoense"
+      },
+      "type": "Important",
+      "detail": "Chape troca passes na defesa.",
+      "player": {
+        "name": "Chape troca passes na defesa."
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 16,
+        "extra": null
+      },
+      "team": {
+        "id": 264,
+        "name": "Corinthians"
+      },
+      "type": "Important",
+      "detail": "Livre na defesa, Doma faz a ligação direta na direção de Marcinho. O atacante disputa a bola com dois defensores do Corinthians e perdeo duelo pelo alto.",
+      "player": {
+        "name": "Não funcionou!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 17,
+        "extra": null
+      },
+      "team": {
+        "id": 315,
+        "name": "Chapecoense"
+      },
+      "type": "Important",
+      "detail": "Memphis Depay erra passe no meio de campo, e a Chapecoense parte em velocidade no contra-ataque. A bola é cruzada na direção de Marcinho, que se joga no lance, mas não consegue a finalização.",
+      "player": {
+        "name": "Marcinho"
+      },
+      "assist": {
+        "name": "UUUH"
       }
     }
   ],
@@ -805,23 +855,23 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "69%"
+          "value": "62%"
         },
         {
           "type": "Total Passes",
-          "value": 109
+          "value": 132
         },
         {
           "type": "Pass Accuracy",
-          "value": "90%"
+          "value": "89%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 11
+          "value": 14
         },
         {
           "type": "Total Shots",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Shots on Goal",
@@ -829,7 +879,7 @@
         },
         {
           "type": "Shots off Goal",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Blocked Shots",
@@ -861,7 +911,7 @@
         },
         {
           "type": "Fouls",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Yellow Cards",
@@ -881,19 +931,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "31%"
+          "value": "38%"
         },
         {
           "type": "Total Passes",
-          "value": 44
+          "value": 62
         },
         {
           "type": "Pass Accuracy",
-          "value": "86%"
+          "value": "85%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 6
+          "value": 9
         },
         {
           "type": "Total Shots",
@@ -937,7 +987,7 @@
         },
         {
           "type": "Fouls",
-          "value": 5
+          "value": 7
         },
         {
           "type": "Yellow Cards",

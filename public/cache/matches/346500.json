@@ -7,12 +7,12 @@
       "city": ""
     },
     "status": {
-      "long": "2H",
-      "short": "2H",
-      "elapsed": 99
+      "long": "FT",
+      "short": "FT",
+      "elapsed": 90
     },
-    "timerStart": "2026-09-06T20:12:00.437Z",
-    "timerStatus": "INICIADO"
+    "timerStart": "2026-09-06T21:04:09.068Z",
+    "timerStatus": "PAUSADO"
   },
   "league": {
     "round": "Regular Season - 26"
@@ -39,8 +39,8 @@
       "away": null
     },
     "fulltime": {
-      "home": null,
-      "away": null
+      "home": 3,
+      "away": 1
     }
   },
   "odds": {
@@ -1626,22 +1626,6 @@
     },
     {
       "time": {
-        "elapsed": 59,
-        "extra": null
-      },
-      "team": {
-        "id": 283,
-        "name": "Cruzeiro"
-      },
-      "type": "Important",
-      "detail": "Kaio Jorge recebe na entrada da área, finaliza, mas a bola vai para fora. O camisa 9 está apagado na partida.",
-      "player": {
-        "name": "Kaio Jorge"
-      },
-      "assist": null
-    },
-    {
-      "time": {
         "elapsed": 60,
         "extra": null
       },
@@ -2584,6 +2568,22 @@
         "name": ""
       },
       "type": "Important",
+      "detail": "Fim de jogo no Mineirão! O Cruzeiro venceu o Athletico-PR por 3 a 1 em uma partida cheia de alternativas. Matheus Pereira abriu o placar, mas João Cruz empatou com um golaço. Mycael ainda defendeu um pênalti de Pereira no fim do primeiro tempo. Na etapa final, Lucas Romero recolocou a Raposa na frente e Kaio Jorge, também de pênalti, fechou a conta e garantiu a vitória cruzeirense.",
+      "player": {
+        "name": "Cruzeiro vence o Furacão em jogo eletrizante!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 96,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
       "detail": "Fim de jogo no Mineirão! Árbitra apita pela última vez. Vitória do Cruzeiro por 3 a 1 sobre o Furacão!",
       "player": {
         "name": "FIM DE JOGO"
@@ -3046,7 +3046,7 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "58%"
+          "value": "57%"
         },
         {
           "type": "Total Passes",
@@ -3122,7 +3122,7 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "42%"
+          "value": "43%"
         },
         {
           "type": "Total Passes",
@@ -3138,7 +3138,7 @@
         },
         {
           "type": "Total Shots",
-          "value": 16
+          "value": 17
         },
         {
           "type": "Shots on Goal",
@@ -3150,7 +3150,7 @@
         },
         {
           "type": "Blocked Shots",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Hit Woodwork",

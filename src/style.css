@@ -977,6 +977,12 @@ a {
   margin-top: 0.1rem;
 }
 
+.md-event-crest-empty {
+  width: 22px;
+  height: 22px;
+  opacity: 0;
+}
+
 .md-event-crest .crest,
 .md-event-crest .crest-placeholder {
   width: 22px;

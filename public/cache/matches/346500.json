@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 63
+      "elapsed": 66
     },
     "timerStart": "2026-09-06T20:12:00.437Z",
     "timerStatus": "INICIADO"
@@ -1639,6 +1639,86 @@
         "name": "Kaio Jorge"
       },
       "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 60,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O primeiro tempo foi frenético! O Cruzeiro abriu o placar aos 29 minutos com um gol de cabeça de Matheus Pereira. A equipe teve um gol anulado pelo VAR e, nos acréscimos, João Cruz empatou para o Athletico-PR com um golaço de fora da área. Matheus Pereira ainda teve a chance de virar em um pênalti, mas parou em grande defesa de Mycael. O segundo tempo recomeça com o placar de 1 a 1.",
+      "player": {
+        "name": "Jogo eletrizante com pênalti perdido no Mineirão"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 60,
+        "extra": null
+      },
+      "team": {
+        "id": 293,
+        "name": "Athletico-PR"
+      },
+      "type": "Important",
+      "detail": "Gilberto avança no meio de campo e faz a inverção. O Athletico-PR luta pela bola, mas a finalização não acontece.",
+      "player": {
+        "name": "Gilberto avança no meio de campo e faz a inverçã"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 61,
+        "extra": null
+      },
+      "team": {
+        "id": 293,
+        "name": "Athletico-PR"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Aguirre"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 62,
+        "extra": null
+      },
+      "team": {
+        "id": 283,
+        "name": "Cruzeiro"
+      },
+      "type": "Important",
+      "detail": "Matheus Henrique arrisca chutaço de fora da área. Mycael espalma, e a bola sobra com Arroyo. Ele tenta o cruzamento. O goleiro do Furacão tira de novo. O camisa 99 então tenta a finalização, mas não vai bem no chute.",
+      "player": {
+        "name": "PRESSÃO DO CRUZEIRO"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 62,
+        "extra": null
+      },
+      "team": {
+        "id": 283,
+        "name": "Cruzeiro"
+      },
+      "type": "Important",
+      "detail": "Villaba tenta cruzamento para Kaio Jorge, mas Aguirre afasta.",
+      "player": {
+        "name": "Villalba"
+      },
+      "assist": null
     }
   ],
   "lineups": [
@@ -2096,11 +2176,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "59%"
+          "value": "58%"
         },
         {
           "type": "Total Passes",
-          "value": 408
+          "value": 426
         },
         {
           "type": "Pass Accuracy",
@@ -2108,7 +2188,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 47
+          "value": 49
         },
         {
           "type": "Total Shots",
@@ -2156,7 +2236,7 @@
         },
         {
           "type": "Yellow Cards",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Red Cards",
@@ -2172,19 +2252,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "41%"
+          "value": "42%"
         },
         {
           "type": "Total Passes",
-          "value": 238
+          "value": 254
         },
         {
           "type": "Pass Accuracy",
-          "value": "80%"
+          "value": "81%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 47
+          "value": 48
         },
         {
           "type": "Total Shots",
@@ -2220,7 +2300,7 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Tackles",
@@ -2228,11 +2308,11 @@
         },
         {
           "type": "Fouls",
-          "value": 8
+          "value": 9
         },
         {
           "type": "Yellow Cards",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Red Cards",

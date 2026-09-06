@@ -12661,7 +12661,7 @@
         "status": {
           "long": "2H",
           "short": "2H",
-          "elapsed": 63
+          "elapsed": 66
         },
         "timerStart": "2026-09-06T20:12:00.437Z",
         "timerStatus": "INICIADO"
@@ -12713,7 +12713,7 @@
         "status": {
           "long": "2H",
           "short": "2H",
-          "elapsed": 67
+          "elapsed": 70
         },
         "timerStart": "2026-09-06T20:07:37.066Z",
         "timerStatus": "INICIADO"
@@ -12765,7 +12765,7 @@
         "status": {
           "long": "2H",
           "short": "2H",
-          "elapsed": 64
+          "elapsed": 67
         },
         "timerStart": "2026-09-06T20:10:53.980Z",
         "timerStatus": "INICIADO"
@@ -12787,7 +12787,7 @@
       },
       "goals": {
         "home": 0,
-        "away": 0
+        "away": 1
       },
       "score": {
         "halftime": {
@@ -18546,7 +18546,7 @@
               },
               "points": 52,
               "goalsDiff": 29,
-              "form": "WWLWD",
+              "form": "WWLWW",
               "description": "Copa Libertadores",
               "all": {
                 "played": 26,
@@ -18942,7 +18942,7 @@
               },
               "points": 24,
               "goalsDiff": -12,
-              "form": "DDLLD",
+              "form": "DDLLL",
               "description": "Relegation",
               "all": {
                 "played": 26,
@@ -19096,6 +19096,28 @@
     {
       "player": {
         "id": 6,
+        "name": "Samuel Lino",
+        "photo": "https://s.sde.globo.com/media/person_role/2025/07/30/photo_140x140.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "name": "Flamengo",
+            "logo": "https://s.sde.globo.com/media/organizations/2018/04/09/Flamengo-65.png"
+          },
+          "goals": {
+            "total": 9,
+            "assists": null
+          },
+          "games": {
+            "appearences": 0
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 7,
         "name": "Flaco López",
         "photo": "https://s.sde.globo.com/media/person_role/2026/08/19/photo_140x140_nrOfcKo.png"
       },
@@ -19117,7 +19139,7 @@
     },
     {
       "player": {
-        "id": 7,
+        "id": 8,
         "name": "Luciano",
         "photo": "https://s.sde.globo.com/media/person_role/2026/03/27/photo_140x140_Gvi1KDn.png"
       },
@@ -19139,7 +19161,7 @@
     },
     {
       "player": {
-        "id": 8,
+        "id": 9,
         "name": "Breno Lopes",
         "photo": "https://s.sde.globo.com/media/person_role/2026/02/09/photo_140x140_q6kEOrG.png"
       },
@@ -19161,7 +19183,7 @@
     },
     {
       "player": {
-        "id": 9,
+        "id": 10,
         "name": "Pedro Rocha",
         "photo": "https://s.sde.globo.com/media/person_role/2025/02/26/photo_140x140_OEA2Hhd.png"
       },
@@ -19183,7 +19205,7 @@
     },
     {
       "player": {
-        "id": 10,
+        "id": 11,
         "name": "Luciano Juba",
         "photo": "https://s.sde.globo.com/media/person_role/2026/07/06/photo_140x140_JKUCf8p.png"
       },
@@ -19192,28 +19214,6 @@
           "team": {
             "name": "Bahia",
             "logo": "https://s.sde.globo.com/media/organizations/2014/04/14/bahia_60x60.png"
-          },
-          "goals": {
-            "total": 8,
-            "assists": null
-          },
-          "games": {
-            "appearences": 0
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 11,
-        "name": "Samuel Lino",
-        "photo": "https://s.sde.globo.com/media/person_role/2025/07/30/photo_140x140.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "name": "Flamengo",
-            "logo": "https://s.sde.globo.com/media/organizations/2018/04/09/Flamengo-65.png"
           },
           "goals": {
             "total": 8,
@@ -20091,7 +20091,7 @@
     "mode": "live",
     "liveIntervalMs": 20000
   },
-  "fetchedAt": "2026-09-06T20:30:22.891Z",
+  "fetchedAt": "2026-09-06T20:33:18.145Z",
   "source": "ge-globo",
   "meta": {
     "rodada": 26,

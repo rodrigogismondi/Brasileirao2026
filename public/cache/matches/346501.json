@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 67
+      "elapsed": 70
     },
     "timerStart": "2026-09-06T20:07:37.066Z",
     "timerStatus": "INICIADO"
@@ -1311,6 +1311,106 @@
         "name": "Troca de passes do Santos até Gustavinho receber"
       },
       "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 62,
+        "extra": null
+      },
+      "team": {
+        "id": 285,
+        "name": "Internacional"
+      },
+      "type": "Important",
+      "detail": "Colorado voltou melhor para o segundo tempo, conseguiu o primeiro gol logo cedo e tem mais a bola no ataque na tentativa de diminuir mais o prejuízo",
+      "player": {
+        "name": "Colorado voltou melhor para o segundo tempo, con"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 63,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Um primeiro tempo de pesadelo para o Inter e eficiência total do Santos. Gabriel abriu o placar após falha de Félix Torres. Depois, o mesmo Gabriel sofreu pênalti de Matheus Bahia, que foi expulso, e converteu. Oliva ampliou para 3 a 0. No segundo tempo, Aguirre descontou com um golaço logo no início e, com 18 minutos de jogo, o time da casa tenta uma reação improvável com um a menos.",
+      "player": {
+        "name": "Peixe abre 3, mas Inter reage com golaço!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 64,
+        "extra": null
+      },
+      "team": {
+        "id": 277,
+        "name": "Santos"
+      },
+      "type": "Important",
+      "detail": "Contra-ataque do Peixe até chegar no camisa 9, que bate com desvio para fora",
+      "player": {
+        "name": "Gabriel"
+      },
+      "assist": {
+        "name": "PRA FORA"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 65,
+        "extra": null
+      },
+      "team": {
+        "id": 285,
+        "name": "Internacional"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Ronaldo"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 68,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Santos foi letal no primeiro tempo! Gabriel aproveitou uma falha bizarra da zaga colorada e abriu o placar. Pouco depois, ele mesmo sofreu e converteu o pênalti que resultou na expulsão de Matheus Bahia. Oliva, de cabeça, fez o terceiro. Mas na volta do intervalo, Aguirre acertou um chutaço e marcou um golaço para diminuir o placar para 3 a 1, dando esperança ao Inter até os 23 minutos.",
+      "player": {
+        "name": "Peixe abre 3, mas Inter diminui com golaço"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 68,
+        "extra": null
+      },
+      "team": {
+        "id": 277,
+        "name": "Santos"
+      },
+      "type": "Important",
+      "detail": "Arthur sofre falta de Paulinho e deixou o volante até descalço. Lance curioso no Beira-Rio",
+      "player": {
+        "name": "Arthur Melo"
+      },
+      "assist": {
+        "name": "ATÉ CAIU A CHUTEIRA"
+      }
     }
   ],
   "lineups": [
@@ -1772,7 +1872,7 @@
         },
         {
           "type": "Total Passes",
-          "value": 306
+          "value": 330
         },
         {
           "type": "Pass Accuracy",
@@ -1780,7 +1880,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 55
+          "value": 58
         },
         {
           "type": "Total Shots",
@@ -1816,7 +1916,7 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Tackles",
@@ -1824,11 +1924,11 @@
         },
         {
           "type": "Fouls",
-          "value": 10
+          "value": 11
         },
         {
           "type": "Yellow Cards",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Red Cards",
@@ -1848,19 +1948,19 @@
         },
         {
           "type": "Total Passes",
-          "value": 403
+          "value": 440
         },
         {
           "type": "Pass Accuracy",
-          "value": "90%"
+          "value": "91%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 40
+          "value": 41
         },
         {
           "type": "Total Shots",
-          "value": 3
+          "value": 4
         },
         {
           "type": "Shots on Goal",
@@ -1868,7 +1968,7 @@
         },
         {
           "type": "Shots off Goal",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Blocked Shots",
@@ -1880,7 +1980,7 @@
         },
         {
           "type": "Corner Kicks",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Offsides",
@@ -1896,7 +1996,7 @@
         },
         {
           "type": "Tackles",
-          "value": 17
+          "value": 20
         },
         {
           "type": "Fouls",

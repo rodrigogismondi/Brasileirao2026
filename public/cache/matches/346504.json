@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 64
+      "elapsed": 67
     },
     "timerStart": "2026-09-06T20:10:53.980Z",
     "timerStatus": "INICIADO"
@@ -31,7 +31,7 @@
   },
   "goals": {
     "home": 0,
-    "away": 0
+    "away": 1
   },
   "score": {
     "halftime": {
@@ -1301,6 +1301,72 @@
       "assist": {
         "name": "Yago Pikachu"
       }
+    },
+    {
+      "time": {
+        "elapsed": 62,
+        "extra": null
+      },
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Bruno Henrique"
+      },
+      "assist": {
+        "name": "Carrascal"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 62,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "A segunda etapa segue em ritmo forte! Já aos 17 minutos, o Flamengo mantém a pressão total, com Samuel Lino carimbando a trave e o time empilhando chances. Mas a noite tem um nome: Marcelo Rangel. O goleiro do Remo se agigantou e operou um verdadeiro milagre em finalização de Pedro à queima-roupa, evitando o gol. O Remo resiste bravamente e o jogo fica mais estudado.",
+      "player": {
+        "name": "Show de Marcelo Rangel no Mangueirão"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 64,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Após um segundo tempo de pura pressão, o Flamengo finalmente furou o bloqueio do Remo. O goleiro Marcelo Rangel vinha sendo o herói da partida com defesas espetaculares, incluindo um milagre em finalização de Pedro. Mas aos 19 minutos, não teve jeito: Samuel Lino aproveitou a chance e mandou para o fundo da rede, abrindo o placar em 1 a 0 para o time carioca.",
+      "player": {
+        "name": "Flamengo sai na frente no Mangueirão!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 64,
+        "extra": null
+      },
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "player": {
+        "name": "Samuel Lino"
+      },
+      "assist": null
     }
   ],
   "lineups": [

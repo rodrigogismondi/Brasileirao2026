@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 39
+      "elapsed": 42
     },
     "timerStart": "2026-09-06T21:30:15.429Z",
     "timerStatus": "INICIADO"
@@ -705,6 +705,38 @@
         "name": "Que pancada!"
       },
       "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 36,
+        "extra": null
+      },
+      "team": {
+        "id": 263,
+        "name": "Botafogo"
+      },
+      "type": "Important",
+      "detail": "Andreas Pereira cobra escanteio na área do Botafogo, mas Gabriel tira de soco",
+      "player": {
+        "name": "Andreas Pereira cobra escanteio na área do Botaf"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 37,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Piquerez levanta a bola na área do Botafogo, mas a defesa corta. A sobra fica com Giay, que solta uma pancada. A bola bate no pé de Monzón e depois resvala no braço. Jogadores do Palmeiras pedem pênalti, mas o árbitro não vê irregularidade no lance.",
+      "player": {
+        "name": "Na bronca"
+      },
+      "assist": null
     }
   ],
   "lineups": [
@@ -1162,19 +1194,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "37%"
+          "value": "36%"
         },
         {
           "type": "Total Passes",
-          "value": 131
+          "value": 134
         },
         {
           "type": "Pass Accuracy",
-          "value": "78%"
+          "value": "77%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 29
+          "value": 31
         },
         {
           "type": "Total Shots",
@@ -1210,15 +1242,15 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Tackles",
-          "value": 4
+          "value": 5
         },
         {
           "type": "Fouls",
-          "value": 4
+          "value": 5
         },
         {
           "type": "Yellow Cards",
@@ -1238,27 +1270,27 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "63%"
+          "value": "64%"
         },
         {
           "type": "Total Passes",
-          "value": 253
+          "value": 279
         },
         {
           "type": "Pass Accuracy",
-          "value": "89%"
+          "value": "87%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 29
+          "value": 35
         },
         {
           "type": "Total Shots",
-          "value": 4
+          "value": 6
         },
         {
           "type": "Shots on Goal",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Shots off Goal",
@@ -1266,7 +1298,7 @@
         },
         {
           "type": "Blocked Shots",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Hit Woodwork",
@@ -1274,11 +1306,11 @@
         },
         {
           "type": "Corner Kicks",
-          "value": 2
+          "value": 4
         },
         {
           "type": "Offsides",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Penalties",

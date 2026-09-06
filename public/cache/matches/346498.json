@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 43
+      "elapsed": 46
     },
     "timerStart": "2026-09-06T22:31:40.919Z",
     "timerStatus": "INICIADO"
@@ -30,7 +30,7 @@
     }
   },
   "goals": {
-    "home": 1,
+    "home": 2,
     "away": 1
   },
   "score": {
@@ -789,6 +789,70 @@
         "name": "Marcinho"
       },
       "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 43,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Corinthians começou avassalador e abriu o placar logo no início com Matheus Bidu, aproveitando confusão na área. A equipe da casa seguiu pressionando e acumulou chances perdidas, parando em uma defesa espetacular do goleiro Anderson e vendo Memphis Depay desperdiçar lances claros. A punição veio aos 40 minutos: Marcinho, de cabeça, empatou para a Chapecoense em um contra-ataque letal.",
+      "player": {
+        "name": "Tudo igual na Arena no fim da primeira etapa"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 43,
+        "extra": null
+      },
+      "team": {
+        "id": 264,
+        "name": "Corinthians"
+      },
+      "type": "Important",
+      "detail": "Garro é acionado na ponta direita, cruza para dentro da área, mas ninguém do Corinthians chega para fazer o gol. É tiro de meta para a Chape.",
+      "player": {
+        "name": "Garro"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 44,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Um início de jogo intenso! O Corinthians abriu o placar com Matheus Bidu logo aos 2 minutos e dominou a posse, criando chances claras com Memphis Depay e parando em uma defesaça de Anderson em chute de Garro. A Chapecoense se defendeu e, em um contra-ataque fatal aos 40, empatou com Marcinho. Mas, já nos minutos finais, Breno Bidon aproveitou para fazer 2 a 1 para o Timão.",
+      "player": {
+        "name": "Timão na frente em primeiro tempo com 3 gols!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 44,
+        "extra": null
+      },
+      "team": {
+        "id": 264,
+        "name": "Corinthians"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "player": {
+        "name": "Breno Bidon"
+      },
+      "assist": null
     }
   ],
   "lineups": [
@@ -1237,27 +1301,27 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "53%"
+          "value": "54%"
         },
         {
           "type": "Total Passes",
-          "value": 303
+          "value": 331
         },
         {
           "type": "Pass Accuracy",
-          "value": "89%"
+          "value": "90%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 32
+          "value": 34
         },
         {
           "type": "Total Shots",
-          "value": 6
+          "value": 7
         },
         {
           "type": "Shots on Goal",
-          "value": 3
+          "value": 4
         },
         {
           "type": "Shots off Goal",
@@ -1289,7 +1353,7 @@
         },
         {
           "type": "Tackles",
-          "value": 4
+          "value": 5
         },
         {
           "type": "Fouls",
@@ -1313,11 +1377,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "47%"
+          "value": "46%"
         },
         {
           "type": "Total Passes",
-          "value": 237
+          "value": 252
         },
         {
           "type": "Pass Accuracy",
@@ -1325,7 +1389,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 28
+          "value": 29
         },
         {
           "type": "Total Shots",
@@ -1365,11 +1429,11 @@
         },
         {
           "type": "Tackles",
-          "value": 3
+          "value": 4
         },
         {
           "type": "Fouls",
-          "value": 10
+          "value": 11
         },
         {
           "type": "Yellow Cards",

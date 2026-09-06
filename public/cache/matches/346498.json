@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 31
+      "elapsed": 34
     },
     "timerStart": "2026-09-06T22:31:40.919Z",
     "timerStatus": "INICIADO"
@@ -605,6 +605,56 @@
       "assist": {
         "name": "eRROU"
       }
+    },
+    {
+      "time": {
+        "elapsed": 29,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Um começo de jogo frenético! Com menos de um minuto, Yago Felipe já recebeu cartão amarelo. Na sequência, aos 2 minutos, Matheus Bidu aproveitou uma falha da defesa da Chape para abrir o placar: 1 a 0 Corinthians. O time da casa domina as ações e busca o segundo, com Memphis Depay quase marcando duas vezes. A Chapecoense aposta nos contra-ataques, mas encontra uma defesa atenta.",
+      "player": {
+        "name": "Gol relâmpago e pressão do Corinthians"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 29,
+        "extra": null
+      },
+      "team": {
+        "id": 264,
+        "name": "Corinthians"
+      },
+      "type": "Important",
+      "detail": "Corinthians sai jogando rápido e aciona Memphis no meio. O holandês domina e, ao tentar driblar o adversário, erra o controle e, sozinho, sai com bola e tudo pela linha lateral.",
+      "player": {
+        "name": "Memphis Depay"
+      },
+      "assist": {
+        "name": "Escapou"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 31,
+        "extra": null
+      },
+      "team": {
+        "id": 264,
+        "name": "Corinthians"
+      },
+      "type": "Important",
+      "detail": "Corinthians no ataque, mas com dificuldades para pisar na área da Chapecoense. O Timão tem o controle da posse, porém não oferece perigo ao adversário.",
+      "player": {
+        "name": "Corinthians no ataque, mas com dificuldades para"
+      },
+      "assist": null
     }
   ],
   "lineups": [
@@ -1057,7 +1107,7 @@
         },
         {
           "type": "Total Passes",
-          "value": 224
+          "value": 233
         },
         {
           "type": "Pass Accuracy",
@@ -1065,7 +1115,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 25
+          "value": 26
         },
         {
           "type": "Total Shots",
@@ -1105,7 +1155,7 @@
         },
         {
           "type": "Tackles",
-          "value": 2
+          "value": 4
         },
         {
           "type": "Fouls",
@@ -1133,7 +1183,7 @@
         },
         {
           "type": "Total Passes",
-          "value": 133
+          "value": 172
         },
         {
           "type": "Pass Accuracy",
@@ -1141,7 +1191,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 16
+          "value": 21
         },
         {
           "type": "Total Shots",

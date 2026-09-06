@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 23
+      "elapsed": 27
     },
     "timerStart": "2026-09-06T21:30:15.429Z",
     "timerStatus": "INICIADO"
@@ -441,6 +441,38 @@
       "detail": "Felipe Anderson acelera pelo lado direito, vai à linha de fundo e procura Flaco na área, mas Ferraresi corta",
       "player": {
         "name": "Felipe Anderson acelera pelo lado direito, vai à"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 22,
+        "extra": null
+      },
+      "team": {
+        "id": 263,
+        "name": "Botafogo"
+      },
+      "type": "Important",
+      "detail": "Flaco López é lançado em profundidade pelo lado. O passe sai forte demais, Gabriel Batista chega antes e protege a bola para que saia pela linha de fundo e recebe uma trombada proposital do argentino. Imediatamente, jogadores do Botafogo vão para cima do atacante e começam uma discussão, e o árbitro precisa intervir",
+      "player": {
+        "name": "Clima quente"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 23,
+        "extra": null
+      },
+      "team": {
+        "id": 275,
+        "name": "Palmeiras"
+      },
+      "type": "Important",
+      "detail": "Andreas recebe na entrada da área, dribla Marçal, o último homem, e sofre falta. Os jogadores do Palmeiras reclamam bastante, pedindo cartão vermelho, que o árbitro não dá",
+      "player": {
+        "name": "Falta muito perigosa"
       },
       "assist": null
     }
@@ -900,23 +932,23 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "36%"
+          "value": "34%"
         },
         {
           "type": "Total Passes",
-          "value": 76
+          "value": 86
         },
         {
           "type": "Pass Accuracy",
-          "value": "82%"
+          "value": "79%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 14
+          "value": 18
         },
         {
           "type": "Total Shots",
-          "value": 4
+          "value": 5
         },
         {
           "type": "Shots on Goal",
@@ -928,7 +960,7 @@
         },
         {
           "type": "Blocked Shots",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Hit Woodwork",
@@ -952,15 +984,15 @@
         },
         {
           "type": "Tackles",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Fouls",
-          "value": 1
+          "value": 4
         },
         {
           "type": "Yellow Cards",
-          "value": 0
+          "value": 2
         },
         {
           "type": "Red Cards",
@@ -976,11 +1008,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "64%"
+          "value": "66%"
         },
         {
           "type": "Total Passes",
-          "value": 158
+          "value": 192
         },
         {
           "type": "Pass Accuracy",
@@ -988,7 +1020,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 17
+          "value": 22
         },
         {
           "type": "Total Shots",
@@ -1028,7 +1060,7 @@
         },
         {
           "type": "Tackles",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Fouls",

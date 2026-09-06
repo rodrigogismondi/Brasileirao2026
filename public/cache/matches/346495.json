@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 39
+      "elapsed": 42
     },
     "timerStart": "2026-09-06T00:00:10.080Z",
     "timerStatus": "INICIADO"
@@ -410,8 +410,8 @@
         "extra": null
       },
       "team": {
-        "id": 266,
-        "name": "Fluminense"
+        "id": 267,
+        "name": "Vasco"
       },
       "type": "Important",
       "detail": "Briga entre os jogadores nos bancos de Fluminense e Vasco. Thiago Mendes também está na confusão.",
@@ -723,6 +723,54 @@
       "detail": "Canobbio chega bem na direita e deixa com Guga, que cruza na direção de Soteldo. O ponta domina errado, mas conta com desvio da zaga do Vasco e consegue escanteio.",
       "player": {
         "name": "Canobbio chega bem na direita e deixa com Guga, "
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 38,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "Important",
+      "detail": "O Vasco dita o ritmo do clássico nestes primeiros 35 minutos, com pressão constante no campo de ataque. As melhores chances foram do time visitante: primeiro, Thiago Mendes parou em bloqueio de Renê após erro de Ignacio; depois, Fábio fez grande defesa em chute de Piton. O clima ficou tenso com uma confusão nos bancos que gerou cartões. O Fluminense tem dificuldades para criar.",
+      "player": {
+        "name": "Vasco pressiona e esquenta o clássico"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 38,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "Important",
+      "detail": "Gómez lança para Bruno Duarte na área, mas atacante não consegue dominar.",
+      "player": {
+        "name": "Gómez lança para Bruno Duarte na área, mas ataca"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 39,
+        "extra": null
+      },
+      "team": {
+        "id": 267,
+        "name": "Vasco"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Paulo Henrique"
       },
       "assist": null
     }

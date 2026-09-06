@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 27
+      "elapsed": 30
     },
     "timerStart": "2026-09-06T00:00:10.080Z",
     "timerStatus": "INICIADO"
@@ -560,9 +560,57 @@
         "name": "Fluminense"
       },
       "type": "Important",
+      "detail": "Cruzamento sai errado. Millán tenta de cabeça na sobra, mas Léo Jardim faz defesa tranquila.",
+      "player": {
+        "name": "Cruzamento sai errado. Millán tenta de cabeça na"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 26,
+        "extra": null
+      },
+      "team": {
+        "id": 267,
+        "name": "Vasco"
+      },
+      "type": "Important",
+      "detail": "O Vasco começou a partida com uma forte pressão no campo de ataque, controlando as ações nos primeiros 25 minutos. O time criou as melhores oportunidades, primeiro em um erro de Ignacio que Renê salvou na finalização de Thiago Mendes, e depois em um chute forte de Piton que exigiu grande defesa de Fábio. O clima esquentou com uma confusão nos bancos, resultando em cartões para os reservas.",
+      "player": {
+        "name": "Pressão do Vasco e clima quente no clássico"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 26,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "Important",
       "detail": "Fluminense finalmente chega ao ataque. Time troca passes até conseguir escanteio depois de corte de Sosa.",
       "player": {
         "name": "Fluminense finalmente chega ao ataque. Time troc"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 27,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "Important",
+      "detail": "Ganso busca passe para Canobbio na grande área. Léo Jardim sai bem e faz a defesa.",
+      "player": {
+        "name": "Ganso busca passe para Canobbio na grande área. "
       },
       "assist": null
     }
@@ -1022,11 +1070,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "37%"
+          "value": "40%"
         },
         {
           "type": "Total Passes",
-          "value": 80
+          "value": 111
         },
         {
           "type": "Pass Accuracy",
@@ -1034,7 +1082,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 15
+          "value": 21
         },
         {
           "type": "Total Shots",
@@ -1058,7 +1106,7 @@
         },
         {
           "type": "Corner Kicks",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Offsides",
@@ -1078,7 +1126,7 @@
         },
         {
           "type": "Fouls",
-          "value": 2
+          "value": 4
         },
         {
           "type": "Yellow Cards",
@@ -1098,19 +1146,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "63%"
+          "value": "60%"
         },
         {
           "type": "Total Passes",
-          "value": 144
+          "value": 177
         },
         {
           "type": "Pass Accuracy",
-          "value": "85%"
+          "value": "84%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 22
+          "value": 28
         },
         {
           "type": "Total Shots",
@@ -1150,7 +1198,7 @@
         },
         {
           "type": "Tackles",
-          "value": 7
+          "value": 8
         },
         {
           "type": "Fouls",

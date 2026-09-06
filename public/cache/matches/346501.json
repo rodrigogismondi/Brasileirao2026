@@ -11,7 +11,7 @@
       "short": "FT",
       "elapsed": 90
     },
-    "timerStart": "2026-09-06T19:51:55.793Z",
+    "timerStart": "2026-09-06T20:07:37.066Z",
     "timerStatus": "PAUSADO"
   },
   "league": {
@@ -30,7 +30,7 @@
     }
   },
   "goals": {
-    "home": 0,
+    "home": 1,
     "away": 3
   },
   "score": {
@@ -39,7 +39,7 @@
       "away": null
     },
     "fulltime": {
-      "home": 0,
+      "home": 1,
       "away": 3
     }
   },
@@ -50,6 +50,24 @@
     "source": "betexplorer"
   },
   "events": [
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 285,
+        "name": "Internacional"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Aguirre"
+      },
+      "assist": {
+        "name": "Sanabria"
+      }
+    },
     {
       "time": {
         "elapsed": 0,
@@ -840,6 +858,40 @@
         "extra": null
       },
       "team": {
+        "id": 285,
+        "name": "Internacional"
+      },
+      "type": "Important",
+      "detail": "Chegada com perigo logo no começo. Carbonero rouba a bola e tenta o chute de longe para boa defesa de Brazão",
+      "player": {
+        "name": "Carbonero"
+      },
+      "assist": {
+        "name": "QUE CHANCE"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 45,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Recomeça a partida no Beira-Rio",
+      "player": {
+        "name": "Recomeça a partida no Beira-Rio"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 45,
+        "extra": null
+      },
+      "team": {
         "id": 0,
         "name": ""
       },
@@ -1408,7 +1460,7 @@
         },
         {
           "type": "Total Passes",
-          "value": 250
+          "value": 251
         },
         {
           "type": "Pass Accuracy",
@@ -1416,15 +1468,15 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 39
+          "value": 40
         },
         {
           "type": "Total Shots",
-          "value": 9
+          "value": 10
         },
         {
           "type": "Shots on Goal",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Shots off Goal",
@@ -1484,7 +1536,7 @@
         },
         {
           "type": "Total Passes",
-          "value": 267
+          "value": 281
         },
         {
           "type": "Pass Accuracy",

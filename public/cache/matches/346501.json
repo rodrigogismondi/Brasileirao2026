@@ -7,9 +7,9 @@
       "city": ""
     },
     "status": {
-      "long": "HT",
-      "short": "HT",
-      "elapsed": 45
+      "long": "FT",
+      "short": "FT",
+      "elapsed": 90
     },
     "timerStart": "2026-09-06T19:51:55.793Z",
     "timerStatus": "PAUSADO"
@@ -39,8 +39,8 @@
       "away": null
     },
     "fulltime": {
-      "home": null,
-      "away": null
+      "home": 0,
+      "away": 3
     }
   },
   "odds": {
@@ -50,6 +50,22 @@
     "source": "betexplorer"
   },
   "events": [
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Antes mesmo no fim do primeiro tempo, com placar de 3 a 0 para o Santos, alguns torcedores do Inter foram embora do Beira-Rio. Clima muito ruim no estádio.",
+      "player": {
+        "name": "FIM DE JOGO PARA ALGUNS"
+      },
+      "assist": null
+    },
     {
       "time": {
         "elapsed": 0,

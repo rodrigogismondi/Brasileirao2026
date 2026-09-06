@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 42
+      "elapsed": 46
     },
     "timerStart": "2026-09-06T19:05:23.218Z",
     "timerStatus": "INICIADO"
@@ -829,6 +829,72 @@
         "name": "Escanteio para o Flamengo."
       },
       "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 40,
+        "extra": null
+      },
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Arrascaeta"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 40,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O jogo é aberto e emocionante no Mangueirão! Passados 35 minutos, o Flamengo controla a posse e pressiona, mas para em Marcelo Rangel, que fez defesaça em chute de Samuel Lino. O Remo, por sua vez, teve a chance de ouro da partida: Taliari saiu cara a cara com Rossi e desperdiçou de forma incrível. O duelo segue 0 a 0 e já teve um amarelo para Galeano por reclamação.",
+      "player": {
+        "name": "Pressão do Fla e chance de ouro perdida pelo Remo"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 40,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Marlon afasta de cabeça. A bola fica com Marcelo Rangel.",
+      "player": {
+        "name": "Marlon afasta de cabeça. A bola fica com Marcelo"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 44,
+        "extra": null
+      },
+      "team": {
+        "id": 364,
+        "name": "Remo"
+      },
+      "type": "Important",
+      "detail": "Marcelinho chega pela direita e cruza na área. Taliari, livre, cabeceia com força e obriga Rossi a fazer boa defesa. Escanteio para o Remo!",
+      "player": {
+        "name": "Gabriel Taliari"
+      },
+      "assist": {
+        "name": "ROSSI DEFENDE!"
+      }
     }
   ],
   "lineups": [
@@ -1286,19 +1352,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "30%"
+          "value": "31%"
         },
         {
           "type": "Total Passes",
-          "value": 122
+          "value": 154
         },
         {
           "type": "Pass Accuracy",
-          "value": "73%"
+          "value": "77%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 33
+          "value": 36
         },
         {
           "type": "Total Shots",
@@ -1362,11 +1428,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "70%"
+          "value": "69%"
         },
         {
           "type": "Total Passes",
-          "value": 362
+          "value": 368
         },
         {
           "type": "Pass Accuracy",
@@ -1374,7 +1440,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 42
+          "value": 44
         },
         {
           "type": "Total Shots",
@@ -1418,7 +1484,7 @@
         },
         {
           "type": "Fouls",
-          "value": 6
+          "value": 7
         },
         {
           "type": "Yellow Cards",

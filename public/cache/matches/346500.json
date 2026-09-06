@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 47
+      "elapsed": 50
     },
     "timerStart": "2026-09-06T19:00:29.774Z",
     "timerStatus": "INICIADO"
@@ -30,7 +30,7 @@
     }
   },
   "goals": {
-    "home": 2,
+    "home": 1,
     "away": 1
   },
   "score": {
@@ -1008,6 +1008,22 @@
     },
     {
       "time": {
+        "elapsed": 43,
+        "extra": null
+      },
+      "team": {
+        "id": 283,
+        "name": "Cruzeiro"
+      },
+      "type": "Important",
+      "detail": "Cruzeiro marca após escanteio. Kaio Jorge sobe alto para cabecear. A bola sobra com Gerson, no canto direito. Ele tenta a finalização. A bola sobra para Matheus Henrique, que empurra de cabeça. Lance em revisão.",
+      "player": {
+        "name": "Cruzeiro marca após escanteio. Kaio Jorge sobe a"
+      },
+      "assist": null
+    },
+    {
+      "time": {
         "elapsed": 44,
         "extra": null
       },
@@ -1016,9 +1032,25 @@
         "name": "Cruzeiro"
       },
       "type": "Important",
-      "detail": "Nada feito. A posição de Gerson é pega em impedimento. Segue 1 a 0 para o Cruzeiro!",
+      "detail": "Nada feito. Matheus Henrique marca de cabeça, após cobrança de escanteio e passe de Gerson dentro da área. A posição de Gerson é pega em impedimento. Segue 1 a 0 para o Cruzeiro!",
       "player": {
         "name": "GOL ANULADO!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 45,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Cruzeiro começou com um volume ofensivo intenso, criando várias oportunidades, até que aos 29 minutos Matheus Pereira abriu o placar de peixinho. O Athletico-PR, que aos poucos equilibrou o duelo, respondeu no apagar das luzes: aos 45, João Cruz acertou um chutaço de fora da área e empatou o jogo em 1 a 1 com um golaço, deixando tudo aberto para a segunda etapa.",
+      "player": {
+        "name": "Golaço no fim e empate no Mineirão!"
       },
       "assist": null
     },
@@ -1035,6 +1067,38 @@
       "detail": "Normal Goal",
       "player": {
         "name": "João Cruz"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 46,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Mais seis minutos",
+      "player": {
+        "name": "ACRÉSCIMOS!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 49,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Matheus Pereira tenta jogada individual e caí em falta de Luiz Gustavo",
+      "player": {
+        "name": "Matheus Pereira tenta jogada individual e caí em"
       },
       "assist": null
     }
@@ -1494,11 +1558,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "59%"
+          "value": "57%"
         },
         {
           "type": "Total Passes",
-          "value": 268
+          "value": 279
         },
         {
           "type": "Pass Accuracy",
@@ -1506,15 +1570,15 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 34
+          "value": 35
         },
         {
           "type": "Total Shots",
-          "value": 10
+          "value": 9
         },
         {
           "type": "Shots on Goal",
-          "value": 3
+          "value": 2
         },
         {
           "type": "Shots off Goal",
@@ -1570,11 +1634,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "41%"
+          "value": "43%"
         },
         {
           "type": "Total Passes",
-          "value": 169
+          "value": 177
         },
         {
           "type": "Pass Accuracy",
@@ -1582,15 +1646,15 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 31
+          "value": 32
         },
         {
           "type": "Total Shots",
-          "value": 5
+          "value": 6
         },
         {
           "type": "Shots on Goal",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Shots off Goal",

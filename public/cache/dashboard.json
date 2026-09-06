@@ -12661,7 +12661,7 @@
         "status": {
           "long": "1H",
           "short": "1H",
-          "elapsed": 47
+          "elapsed": 50
         },
         "timerStart": "2026-09-06T19:00:29.774Z",
         "timerStatus": "INICIADO"
@@ -12682,7 +12682,7 @@
         }
       },
       "goals": {
-        "home": 2,
+        "home": 1,
         "away": 1
       },
       "score": {
@@ -12713,7 +12713,7 @@
         "status": {
           "long": "1H",
           "short": "1H",
-          "elapsed": 47
+          "elapsed": 50
         },
         "timerStart": "2026-09-06T19:00:38.573Z",
         "timerStatus": "INICIADO"
@@ -12765,7 +12765,7 @@
         "status": {
           "long": "1H",
           "short": "1H",
-          "elapsed": 42
+          "elapsed": 46
         },
         "timerStart": "2026-09-06T19:05:23.218Z",
         "timerStatus": "INICIADO"
@@ -18588,18 +18588,18 @@
                 "name": "Athletico-PR",
                 "logo": "https://s.sde.globo.com/media/organizations/2026/01/07/Athletico-PR.svg"
               },
-              "points": 45,
-              "goalsDiff": 10,
-              "form": "WDWDL",
+              "points": 46,
+              "goalsDiff": 12,
+              "form": "WDWDD",
               "description": "Copa Libertadores",
               "all": {
                 "played": 26,
                 "win": 13,
-                "draw": 6,
-                "lose": 7,
+                "draw": 7,
+                "lose": 6,
                 "goals": {
-                  "for": 37,
-                  "against": 27
+                  "for": 38,
+                  "against": 26
                 }
               }
             },
@@ -18654,18 +18654,18 @@
                 "name": "Cruzeiro",
                 "logo": "https://s.sde.globo.com/media/organizations/2021/02/13/cruzeiro_2021.svg"
               },
-              "points": 42,
-              "goalsDiff": 1,
-              "form": "WWWLW",
+              "points": 40,
+              "goalsDiff": -1,
+              "form": "WWWLD",
               "description": "Copa Sudamericana",
               "all": {
                 "played": 26,
-                "win": 12,
-                "draw": 6,
+                "win": 11,
+                "draw": 7,
                 "lose": 8,
                 "goals": {
-                  "for": 37,
-                  "against": 36
+                  "for": 36,
+                  "against": 37
                 }
               }
             },
@@ -20091,7 +20091,7 @@
     "mode": "live",
     "liveIntervalMs": 20000
   },
-  "fetchedAt": "2026-09-06T19:48:16.460Z",
+  "fetchedAt": "2026-09-06T19:51:27.631Z",
   "source": "ge-globo",
   "meta": {
     "rodada": 26,

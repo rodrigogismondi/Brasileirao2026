@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 47
+      "elapsed": 50
     },
     "timerStart": "2026-09-06T19:00:38.573Z",
     "timerStatus": "INICIADO"
@@ -785,6 +785,88 @@
         "name": "Mais um cruzamento na área, desta vez a defesa c"
       },
       "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 45,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Que primeiro tempo no Beira-Rio! O Internacional até começou com mais iniciativa, mas uma falha clamorosa de Félix Torres aos 7 minutos entregou o gol de presente para Gabriel, que abriu o placar para o Santos. A situação colorada desmoronou de vez quando Matheus Bahia cometeu pênalti e foi expulso. Gabriel cobrou e fez 2 a 0. Aos 38, Oliva, de cabeça, fez o terceiro para o Peixe.",
+      "player": {
+        "name": "Peixe passeia e abre 3 a 0 no Beira-Rio"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 45,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Tempo de acréscimo neste primeiro tempo",
+      "player": {
+        "name": "+6"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 47,
+        "extra": null
+      },
+      "team": {
+        "id": 285,
+        "name": "Internacional"
+      },
+      "type": "Important",
+      "detail": "Chute de muito longe do volante passa à direita da meta, para fora",
+      "player": {
+        "name": "Ronaldo"
+      },
+      "assist": {
+        "name": "COM PERIGO"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 48,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Inter começou com mais posse, mas uma falha de Félix Torres aos 7 minutos permitiu que Gabriel abrisse o placar para o Santos. A situação piorou para o time da casa quando Matheus Bahia cometeu pênalti em Gabriel e foi expulso após revisão do VAR. O próprio Gabriel cobrou e fez 2 a 0. Próximo ao fim do primeiro tempo, Oliva marcou de cabeça, decretando o 3 a 0 para o Peixe.",
+      "player": {
+        "name": "Peixe passeia e abre 3 a 0 no Beira-Rio"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 48,
+        "extra": null
+      },
+      "team": {
+        "id": 277,
+        "name": "Santos"
+      },
+      "type": "Important",
+      "detail": "Rollheiser aciona Gabigol na área, mas Vitinho chega para fazer o corte",
+      "player": {
+        "name": "Rollheiser aciona Gabigol na área, mas Vitinho c"
+      },
+      "assist": null
     }
   ],
   "lineups": [
@@ -1242,23 +1324,23 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "55%"
+          "value": "49%"
         },
         {
           "type": "Total Passes",
-          "value": 213
+          "value": 240
         },
         {
           "type": "Pass Accuracy",
-          "value": "84%"
+          "value": "85%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 35
+          "value": 37
         },
         {
           "type": "Total Shots",
-          "value": 8
+          "value": 9
         },
         {
           "type": "Shots on Goal",
@@ -1266,7 +1348,7 @@
         },
         {
           "type": "Shots off Goal",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Blocked Shots",
@@ -1294,11 +1376,11 @@
         },
         {
           "type": "Tackles",
-          "value": 6
+          "value": 7
         },
         {
           "type": "Fouls",
-          "value": 3
+          "value": 4
         },
         {
           "type": "Yellow Cards",
@@ -1318,19 +1400,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "45%"
+          "value": "51%"
         },
         {
           "type": "Total Passes",
-          "value": 176
+          "value": 246
         },
         {
           "type": "Pass Accuracy",
-          "value": "85%"
+          "value": "86%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 27
+          "value": 34
         },
         {
           "type": "Total Shots",
@@ -1370,11 +1452,11 @@
         },
         {
           "type": "Tackles",
-          "value": 11
+          "value": 13
         },
         {
           "type": "Fouls",
-          "value": 8
+          "value": 9
         },
         {
           "type": "Yellow Cards",

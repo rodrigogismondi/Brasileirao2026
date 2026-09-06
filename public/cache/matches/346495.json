@@ -7,12 +7,12 @@
       "city": ""
     },
     "status": {
-      "long": "2H",
-      "short": "2H",
-      "elapsed": 96
+      "long": "FT",
+      "short": "FT",
+      "elapsed": 90
     },
-    "timerStart": "2026-09-06T01:08:34.765Z",
-    "timerStatus": "INICIADO"
+    "timerStart": "2026-09-06T02:00:06.523Z",
+    "timerStatus": "PAUSADO"
   },
   "league": {
     "round": "Regular Season - 26"
@@ -39,8 +39,8 @@
       "away": null
     },
     "fulltime": {
-      "home": null,
-      "away": null
+      "home": 1,
+      "away": 0
     }
   },
   "odds": {
@@ -1935,6 +1935,40 @@
         "name": "Cruzamento do Vasco vai para Colidio, que ajeita"
       },
       "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 95,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "Important",
+      "detail": "O segundo tempo mudou o jogo! O Fluminense abriu o placar aos 15 minutos com Lucho Acosta, que aproveitou cruzamento de Soteldo e fez 1 a 0. Com a vantagem, o Vasco se lançou ao ataque e pressionou em busca do empate. No lance final, Sosa ficou cara a cara com Fábio, mas recuou para o goleiro e desperdiçou uma chance inacreditável de igualar o clássico nos acréscimos.",
+      "player": {
+        "name": "Acosta decide e Sosa perde gol incrível!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 95,
+        "extra": null
+      },
+      "team": {
+        "id": 267,
+        "name": "Vasco"
+      },
+      "type": "Important",
+      "detail": "Puma lança da defesa na direção de Sosa. O volante fica cara a cara com Fábio, mas recua para o goleiro do Fluminense. Era a chance do empate no último lance do jogo!",
+      "player": {
+        "name": "Santiago Sosa"
+      },
+      "assist": {
+        "name": "INACREDITÁVEL!"
+      }
     }
   ],
   "lineups": [
@@ -2392,11 +2426,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "49%"
+          "value": "48%"
         },
         {
           "type": "Total Passes",
-          "value": 438
+          "value": 444
         },
         {
           "type": "Pass Accuracy",
@@ -2404,7 +2438,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 68
+          "value": 73
         },
         {
           "type": "Total Shots",
@@ -2440,7 +2474,7 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 6
+          "value": 7
         },
         {
           "type": "Tackles",
@@ -2468,11 +2502,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "51%"
+          "value": "52%"
         },
         {
           "type": "Total Passes",
-          "value": 535
+          "value": 558
         },
         {
           "type": "Pass Accuracy",
@@ -2480,19 +2514,19 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 84
+          "value": 87
         },
         {
           "type": "Total Shots",
-          "value": 10
+          "value": 12
         },
         {
           "type": "Shots on Goal",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Shots off Goal",
-          "value": 5
+          "value": 6
         },
         {
           "type": "Blocked Shots",
@@ -2520,11 +2554,11 @@
         },
         {
           "type": "Tackles",
-          "value": 20
+          "value": 21
         },
         {
           "type": "Fouls",
-          "value": 19
+          "value": 20
         },
         {
           "type": "Yellow Cards",

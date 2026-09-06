@@ -12561,10 +12561,10 @@
         "status": {
           "long": "1H",
           "short": "1H",
-          "elapsed": null
+          "elapsed": 6
         },
-        "timerStart": "2026-09-05T23:57:55.561Z",
-        "timerStatus": "PAUSADO"
+        "timerStart": "2026-09-06T00:00:10.080Z",
+        "timerStatus": "INICIADO"
       },
       "league": {
         "round": "Regular Season - 26"
@@ -12582,8 +12582,8 @@
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
       "score": {
         "halftime": {
@@ -18628,14 +18628,14 @@
                 "name": "Fluminense",
                 "logo": "https://s.sde.globo.com/media/organizations/2018/03/11/fluminense.svg"
               },
-              "points": 42,
+              "points": 43,
               "goalsDiff": 7,
-              "form": "DDWWD",
+              "form": "DWWDD",
               "description": "Copa Libertadores Qualifiers",
               "all": {
-                "played": 25,
+                "played": 26,
                 "win": 11,
-                "draw": 9,
+                "draw": 10,
                 "lose": 5,
                 "goals": {
                   "for": 39,
@@ -18866,19 +18866,19 @@
             {
               "rank": 16,
               "team": {
-                "id": 2305,
-                "name": "Mirassol",
-                "logo": "https://s.sde.globo.com/media/organizations/2026/07/17/MIrassol.svg"
+                "id": 267,
+                "name": "Vasco",
+                "logo": "https://s.sde.globo.com/media/organizations/2021/09/04/vasco_SVG.svg"
               },
-              "points": 25,
+              "points": 26,
               "goalsDiff": -12,
-              "form": "WLLDD",
+              "form": "DLLWD",
               "description": null,
               "all": {
                 "played": 25,
                 "win": 6,
-                "draw": 7,
-                "lose": 12,
+                "draw": 8,
+                "lose": 11,
                 "goals": {
                   "for": 27,
                   "against": 39
@@ -18888,19 +18888,19 @@
             {
               "rank": 17,
               "team": {
-                "id": 267,
-                "name": "Vasco",
-                "logo": "https://s.sde.globo.com/media/organizations/2021/09/04/vasco_SVG.svg"
+                "id": 2305,
+                "name": "Mirassol",
+                "logo": "https://s.sde.globo.com/media/organizations/2026/07/17/MIrassol.svg"
               },
               "points": 25,
               "goalsDiff": -12,
-              "form": "DDLLW",
+              "form": "WLLDD",
               "description": "Relegation",
               "all": {
-                "played": 24,
+                "played": 25,
                 "win": 6,
                 "draw": 7,
-                "lose": 11,
+                "lose": 12,
                 "goals": {
                   "for": 27,
                   "against": 39
@@ -20087,7 +20087,7 @@
     "mode": "live",
     "liveIntervalMs": 20000
   },
-  "fetchedAt": "2026-09-06T00:03:14.361Z",
+  "fetchedAt": "2026-09-06T00:06:28.202Z",
   "source": "ge-globo",
   "meta": {
     "rodada": 26,

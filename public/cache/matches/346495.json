@@ -9,10 +9,10 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": null
+      "elapsed": 6
     },
-    "timerStart": "2026-09-05T23:57:55.561Z",
-    "timerStatus": "PAUSADO"
+    "timerStart": "2026-09-06T00:00:10.080Z",
+    "timerStatus": "INICIADO"
   },
   "league": {
     "round": "Regular Season - 26"
@@ -30,8 +30,8 @@
     }
   },
   "goals": {
-    "home": null,
-    "away": null
+    "home": 0,
+    "away": 0
   },
   "score": {
     "halftime": {
@@ -49,7 +49,120 @@
     "away": 3.22,
     "source": "betexplorer"
   },
-  "events": [],
+  "events": [
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "Important",
+      "detail": "Andrés Gómez fica no gramado após choque com Renê.",
+      "player": {
+        "name": "Andrés Gómez fica no gramado após choque com Ren"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "Important",
+      "detail": "Thiago Mendes chega ao ataque e tenta toque para Tchê Tchê, mas Martinelli consegue tirar.",
+      "player": {
+        "name": "Thiago Mendes chega ao ataque e tenta toque para"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "Important",
+      "detail": "Começa o jogo!",
+      "player": {
+        "name": "BOLA ROLANDO!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 3,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "Important",
+      "detail": "A bola já está rolando e os primeiros minutos são de muito estudo. O Vasco mostra um pouco mais de iniciativa no ataque, com chegadas de Thiago Mendes e Tchê Tchê, mas a defesa do Fluminense, com Martinelli atento, vai cortando o perigo. O jogo já teve uma parada para atendimento a Andrés Gómez após choque com Renê, mostrando um início de disputa física. Por enquanto, tudo igual e sem chances claras.",
+      "player": {
+        "name": "Clássico começa com estudo e disputa"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 3,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "Important",
+      "detail": "Tchê Tchê tenta cruzamento na área, mas manda para linha de fundo.",
+      "player": {
+        "name": "Tchê Tchê tenta cruzamento na área, mas manda pa"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 4,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "Important",
+      "detail": "Pressão do Vasco, que está todo no campo do Fluminense. Paulo Henrique avança na direita e ganha escanteio depois de corte de Renê.",
+      "player": {
+        "name": "Pressão do Vasco, que está todo no campo do Flum"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 5,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "Important",
+      "detail": "Hulk corta de cabeça em cobrança de escanteio.",
+      "player": {
+        "name": "Hulk corta de cabeça em cobrança de escanteio."
+      },
+      "assist": null
+    }
+  ],
   "lineups": [
     {
       "team": {
@@ -496,6 +609,159 @@
       ]
     }
   ],
-  "statistics": [],
+  "statistics": [
+    {
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "statistics": [
+        {
+          "type": "Ball Possession",
+          "value": "50%"
+        },
+        {
+          "type": "Total Passes",
+          "value": 14
+        },
+        {
+          "type": "Pass Accuracy",
+          "value": "71%"
+        },
+        {
+          "type": "Incomplete Passes",
+          "value": 4
+        },
+        {
+          "type": "Total Shots",
+          "value": 0
+        },
+        {
+          "type": "Shots on Goal",
+          "value": 0
+        },
+        {
+          "type": "Shots off Goal",
+          "value": 0
+        },
+        {
+          "type": "Blocked Shots",
+          "value": 0
+        },
+        {
+          "type": "Hit Woodwork",
+          "value": 0
+        },
+        {
+          "type": "Corner Kicks",
+          "value": 0
+        },
+        {
+          "type": "Offsides",
+          "value": 0
+        },
+        {
+          "type": "Penalties",
+          "value": 0
+        },
+        {
+          "type": "Goalkeeper Saves",
+          "value": 0
+        },
+        {
+          "type": "Tackles",
+          "value": 0
+        },
+        {
+          "type": "Fouls",
+          "value": 0
+        },
+        {
+          "type": "Yellow Cards",
+          "value": 0
+        },
+        {
+          "type": "Red Cards",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "team": {
+        "id": 267,
+        "name": "Vasco"
+      },
+      "statistics": [
+        {
+          "type": "Ball Possession",
+          "value": "50%"
+        },
+        {
+          "type": "Total Passes",
+          "value": 47
+        },
+        {
+          "type": "Pass Accuracy",
+          "value": "85%"
+        },
+        {
+          "type": "Incomplete Passes",
+          "value": 7
+        },
+        {
+          "type": "Total Shots",
+          "value": 0
+        },
+        {
+          "type": "Shots on Goal",
+          "value": 0
+        },
+        {
+          "type": "Shots off Goal",
+          "value": 0
+        },
+        {
+          "type": "Blocked Shots",
+          "value": 0
+        },
+        {
+          "type": "Hit Woodwork",
+          "value": 0
+        },
+        {
+          "type": "Corner Kicks",
+          "value": 0
+        },
+        {
+          "type": "Offsides",
+          "value": 0
+        },
+        {
+          "type": "Penalties",
+          "value": 0
+        },
+        {
+          "type": "Goalkeeper Saves",
+          "value": 0
+        },
+        {
+          "type": "Tackles",
+          "value": 3
+        },
+        {
+          "type": "Fouls",
+          "value": 0
+        },
+        {
+          "type": "Yellow Cards",
+          "value": 0
+        },
+        {
+          "type": "Red Cards",
+          "value": 0
+        }
+      ]
+    }
+  ],
   "sportsFieldUrl": null
 }

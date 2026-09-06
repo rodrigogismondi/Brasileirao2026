@@ -9,10 +9,10 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 48
+      "elapsed": 53
     },
-    "timerStart": "2026-09-06T23:40:15.445Z",
-    "timerStatus": "PAUSADO"
+    "timerStart": "2026-09-06T23:40:18.425Z",
+    "timerStatus": "INICIADO"
   },
   "league": {
     "round": "Regular Season - 26"
@@ -1039,6 +1039,38 @@
         "name": "Túlio Eduardo"
       },
       "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 49,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O jogo começou com o Corinthians abrindo o placar logo aos 2 minutos com Matheus Bidu e criando uma série de oportunidades para ampliar. No entanto, o time pecou nas finalizações, incluindo chances claras desperdiçadas por Memphis Depay e uma grande defesa de Anderson em chute de Garro. A Chapecoense soube suportar a pressão e, em um contra-ataque, empatou com Marcinho aos 40 minutos.",
+      "player": {
+        "name": "Emoção, gols e tudo igual no início da etapa final"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 50,
+        "extra": null
+      },
+      "team": {
+        "id": 315,
+        "name": "Chapecoense"
+      },
+      "type": "Important",
+      "detail": "Tchoca toca na fogueira para Matheuzinho, que é desarmado. A Chape sai em velocidade no contra-ataque.",
+      "player": {
+        "name": "Tchoca toca na fogueira para Matheuzinho, que é "
+      },
+      "assist": null
     }
   ],
   "lineups": [
@@ -1491,7 +1523,7 @@
         },
         {
           "type": "Total Passes",
-          "value": 364
+          "value": 403
         },
         {
           "type": "Pass Accuracy",
@@ -1499,7 +1531,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 40
+          "value": 44
         },
         {
           "type": "Total Shots",
@@ -1567,7 +1599,7 @@
         },
         {
           "type": "Total Passes",
-          "value": 289
+          "value": 290
         },
         {
           "type": "Pass Accuracy",
@@ -1575,15 +1607,15 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 38
+          "value": 39
         },
         {
           "type": "Total Shots",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Shots on Goal",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Shots off Goal",
@@ -1615,11 +1647,11 @@
         },
         {
           "type": "Tackles",
-          "value": 7
+          "value": 8
         },
         {
           "type": "Fouls",
-          "value": 13
+          "value": 14
         },
         {
           "type": "Yellow Cards",

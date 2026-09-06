@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 45
+      "elapsed": 48
     },
     "timerStart": "2026-09-06T21:30:15.429Z",
     "timerStatus": "INICIADO"
@@ -821,6 +821,72 @@
       "assist": {
         "name": "Que batida!"
       }
+    },
+    {
+      "time": {
+        "elapsed": 42,
+        "extra": null
+      },
+      "team": {
+        "id": 275,
+        "name": "Palmeiras"
+      },
+      "type": "Important",
+      "detail": "Palmeiras trabalha a bola de pé em pé no campo de ataque",
+      "player": {
+        "name": "Palmeiras trabalha a bola de pé em pé no campo d"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 44,
+        "extra": null
+      },
+      "team": {
+        "id": 263,
+        "name": "Botafogo"
+      },
+      "type": "Important",
+      "detail": "Danilo passa para Marçal na intermediária. O lateral domina e enche o pé, mas não calibra e manda a bola bem longe do gol",
+      "player": {
+        "name": "Marçal"
+      },
+      "assist": {
+        "name": "Sem direção!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 44,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O jogo se aproxima do intervalo com muita intensidade e chances para os dois lados. O Botafogo começou melhor, mas foi Villalba quem teve a chance de ouro, finalizando para fora cara a cara com Carlos Miguel. O Palmeiras equilibrou as ações e respondeu com Andreas Pereira, que obrigou Gabriel Batista a fazer duas grandes defesas. O clima é tenso, com três cartões amarelos e muita reclamação.",
+      "player": {
+        "name": "Chances perdidas e clima quente no Niltão"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 44,
+        "extra": null
+      },
+      "team": {
+        "id": 263,
+        "name": "Botafogo"
+      },
+      "type": "Important",
+      "detail": "Giay vai à linha de fundo e cruza rasteiro para a área do Botafogo, mas a defesa corta",
+      "player": {
+        "name": "Giay vai à linha de fundo e cruza rasteiro para "
+      },
+      "assist": null
     }
   ],
   "lineups": [
@@ -1278,23 +1344,23 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "35%"
+          "value": "34%"
         },
         {
           "type": "Total Passes",
-          "value": 140
+          "value": 149
         },
         {
           "type": "Pass Accuracy",
-          "value": "76%"
+          "value": "77%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 33
+          "value": 35
         },
         {
           "type": "Total Shots",
-          "value": 6
+          "value": 7
         },
         {
           "type": "Shots on Goal",
@@ -1302,7 +1368,7 @@
         },
         {
           "type": "Shots off Goal",
-          "value": 3
+          "value": 4
         },
         {
           "type": "Blocked Shots",
@@ -1354,11 +1420,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "65%"
+          "value": "66%"
         },
         {
           "type": "Total Passes",
-          "value": 325
+          "value": 345
         },
         {
           "type": "Pass Accuracy",
@@ -1366,11 +1432,11 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 40
+          "value": 43
         },
         {
           "type": "Total Shots",
-          "value": 8
+          "value": 9
         },
         {
           "type": "Shots on Goal",
@@ -1382,7 +1448,7 @@
         },
         {
           "type": "Blocked Shots",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Hit Woodwork",
@@ -1394,7 +1460,7 @@
         },
         {
           "type": "Offsides",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Penalties",

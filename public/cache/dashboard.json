@@ -12863,10 +12863,10 @@
         "status": {
           "long": "1H",
           "short": "1H",
-          "elapsed": null
+          "elapsed": 4
         },
-        "timerStart": "2026-09-06T22:30:25.613Z",
-        "timerStatus": "PAUSADO"
+        "timerStart": "2026-09-06T22:31:40.919Z",
+        "timerStatus": "INICIADO"
       },
       "league": {
         "round": "Regular Season - 26"
@@ -12884,7 +12884,7 @@
         }
       },
       "goals": {
-        "home": 0,
+        "home": 1,
         "away": 0
       },
       "score": {
@@ -18762,14 +18762,14 @@
                 "name": "Corinthians",
                 "logo": "https://s.sde.globo.com/media/organizations/2024/10/09/Corinthians_2024_Q4ahot4.svg"
               },
-              "points": 32,
+              "points": 33,
               "goalsDiff": 1,
-              "form": "DWLLL",
+              "form": "WLLLD",
               "description": "Copa Sudamericana",
               "all": {
-                "played": 25,
+                "played": 26,
                 "win": 8,
-                "draw": 8,
+                "draw": 9,
                 "lose": 9,
                 "goals": {
                   "for": 26,
@@ -18960,14 +18960,14 @@
                 "name": "Chapecoense",
                 "logo": "https://s.sde.globo.com/media/organizations/2021/06/21/CHAPECOENSE-2018.svg"
               },
-              "points": 14,
+              "points": 15,
               "goalsDiff": -24,
-              "form": "DLDWL",
+              "form": "LDWLD",
               "description": "Relegation",
               "all": {
-                "played": 24,
+                "played": 25,
                 "win": 2,
-                "draw": 8,
+                "draw": 9,
                 "lose": 14,
                 "goals": {
                   "for": 25,
@@ -20089,7 +20089,7 @@
     "mode": "live",
     "liveIntervalMs": 20000
   },
-  "fetchedAt": "2026-09-06T22:33:16.783Z",
+  "fetchedAt": "2026-09-06T22:36:20.453Z",
   "source": "ge-globo",
   "meta": {
     "rodada": 26,

@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 56
+      "elapsed": 58
     },
     "timerStart": "2026-09-06T23:40:18.425Z",
     "timerStatus": "INICIADO"
@@ -1137,6 +1137,24 @@
         "name": "Escanteio para o Corinthians."
       },
       "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 55,
+        "extra": null
+      },
+      "team": {
+        "id": 315,
+        "name": "Chapecoense"
+      },
+      "type": "Important",
+      "detail": "Túlio Eduardo aciona Marcinho pela esquerda, o atacante entra na área e passa na medida para Garcez, sozinho, chegar de frente para finalizar na direção do gol - praticamente na marca do pênalti. O atacante bate de chapa e é travado por Matheus Bidu, que evita a virada da Chape.",
+      "player": {
+        "name": "Garcez"
+      },
+      "assist": {
+        "name": "UUUUUUUUUUUUUUUUH"
+      }
     }
   ],
   "lineups": [
@@ -1589,7 +1607,7 @@
         },
         {
           "type": "Total Passes",
-          "value": 403
+          "value": 428
         },
         {
           "type": "Pass Accuracy",
@@ -1597,15 +1615,15 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 44
+          "value": 48
         },
         {
           "type": "Total Shots",
-          "value": 6
+          "value": 7
         },
         {
           "type": "Shots on Goal",
-          "value": 3
+          "value": 4
         },
         {
           "type": "Shots off Goal",
@@ -1621,7 +1639,7 @@
         },
         {
           "type": "Corner Kicks",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Offsides",
@@ -1637,7 +1655,7 @@
         },
         {
           "type": "Tackles",
-          "value": 6
+          "value": 7
         },
         {
           "type": "Fouls",
@@ -1665,7 +1683,7 @@
         },
         {
           "type": "Total Passes",
-          "value": 290
+          "value": 310
         },
         {
           "type": "Pass Accuracy",
@@ -1673,7 +1691,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 39
+          "value": 40
         },
         {
           "type": "Total Shots",
@@ -1697,7 +1715,7 @@
         },
         {
           "type": "Corner Kicks",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Offsides",
@@ -1709,11 +1727,11 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Tackles",
-          "value": 8
+          "value": 9
         },
         {
           "type": "Fouls",

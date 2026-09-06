@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 23
+      "elapsed": 26
     },
     "timerStart": "2026-09-06T19:00:38.573Z",
     "timerStatus": "INICIADO"
@@ -392,9 +392,41 @@
         "name": ""
       },
       "type": "Important",
+      "detail": "O Internacional começou a partida com mais iniciativa, criando chances principalmente com Carbonero. Contudo, aos 7 minutos, um erro crucial de Félix Torres na saída de bola mudou o jogo: Gabriel roubou, avançou sozinho e marcou para o Santos, fazendo 1 a 0. O clima ficou tenso e o zagueiro colorado passou a ser vaiado. O time da casa tenta reagir, mas encontra dificuldades na defesa santista.",
+      "player": {
+        "name": "Peixe aproveita falha e abre o placar"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 20,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
       "detail": "Lançamento buscando Gabigol, Félix Torres corta de cabeça",
       "player": {
         "name": "Lançamento buscando Gabigol, Félix Torres corta "
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 21,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Tentativa de contra-ataque do Santos, Mercado chega junto e ainda ganha lateral para o Inter",
+      "player": {
+        "name": "Tentativa de contra-ataque do Santos, Mercado ch"
       },
       "assist": null
     }
@@ -854,19 +886,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "48%"
+          "value": "51%"
         },
         {
           "type": "Total Passes",
-          "value": 100
+          "value": 127
         },
         {
           "type": "Pass Accuracy",
-          "value": "78%"
+          "value": "82%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 22
+          "value": 23
         },
         {
           "type": "Total Shots",
@@ -906,7 +938,7 @@
         },
         {
           "type": "Tackles",
-          "value": 0
+          "value": 2
         },
         {
           "type": "Fouls",
@@ -930,19 +962,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "52%"
+          "value": "49%"
         },
         {
           "type": "Total Passes",
-          "value": 107
+          "value": 121
         },
         {
           "type": "Pass Accuracy",
-          "value": "86%"
+          "value": "84%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 15
+          "value": 19
         },
         {
           "type": "Total Shots",
@@ -982,7 +1014,7 @@
         },
         {
           "type": "Tackles",
-          "value": 5
+          "value": 7
         },
         {
           "type": "Fouls",

@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 18
+      "elapsed": 21
     },
     "timerStart": "2026-09-06T19:05:23.218Z",
     "timerStatus": "INICIADO"
@@ -341,6 +341,102 @@
       "detail": "Jogo fica truncado no meio de campo. Erros de passes das duas equipes.",
       "player": {
         "name": "Jogo fica truncado no meio de campo. Erros de pa"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 16,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "A partida começou em ritmo intenso! O Flamengo teve as melhores oportunidades nos primeiros 15 minutos, com destaque para uma finalização de Carrascal por cima do gol após ótima jogada de Samuel Lino e Pedro. O Remo tenta responder e também chega ao ataque com Galeano, mas sem levar o mesmo perigo. O duelo é lá e cá, com o time carioca mais incisivo nas conclusões até aqui.",
+      "player": {
+        "name": "Jogo aberto e com chances no Mangueirão"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 16,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Pikachu cobra falta na área, mas manda a bola diretamente para tiro de meta.",
+      "player": {
+        "name": "Pikachu cobra falta na área, mas manda a bola di"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 17,
+        "extra": null
+      },
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "Important",
+      "detail": "Falta no bico da grande área em Carrascal. Chance perigosa para o Flamengo.",
+      "player": {
+        "name": "Falta no bico da grande área em Carrascal. Chanc"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 17,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Pedro faz bela jogada pelo meio de campo e chuta da intermediária, mas manda em cima do goleiro.",
+      "player": {
+        "name": "Pedro faz bela jogada pelo meio de campo e chuta"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 17,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Começa a chover em Belém.",
+      "player": {
+        "name": "Começa a chover em Belém."
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 18,
+        "extra": null
+      },
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "Important",
+      "detail": "Arrascaeta cobra falta na segunda trave, mas Marcelinho corta para escanteio antes de Pedro. Chance para o Flamengo.",
+      "player": {
+        "name": "Arrascaeta cobra falta na segunda trave, mas Mar"
       },
       "assist": null
     }
@@ -800,19 +896,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "26%"
+          "value": "32%"
         },
         {
           "type": "Total Passes",
-          "value": 49
+          "value": 63
         },
         {
           "type": "Pass Accuracy",
-          "value": "69%"
+          "value": "70%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 15
+          "value": 19
         },
         {
           "type": "Total Shots",
@@ -848,7 +944,7 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Tackles",
@@ -856,7 +952,7 @@
         },
         {
           "type": "Fouls",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Yellow Cards",
@@ -876,27 +972,27 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "74%"
+          "value": "68%"
         },
         {
           "type": "Total Passes",
-          "value": 123
+          "value": 144
         },
         {
           "type": "Pass Accuracy",
-          "value": "93%"
+          "value": "92%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 9
+          "value": 11
         },
         {
           "type": "Total Shots",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Shots on Goal",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Shots off Goal",
@@ -928,11 +1024,11 @@
         },
         {
           "type": "Tackles",
-          "value": 4
+          "value": 5
         },
         {
           "type": "Fouls",
-          "value": 3
+          "value": 4
         },
         {
           "type": "Yellow Cards",

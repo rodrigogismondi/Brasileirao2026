@@ -756,12 +756,18 @@ function playsIndicateFullTime(plays) {
   for (const p of plays || []) {
     const period = String(p.period?.abbreviation || p.period?.id || "");
     if (/ENCERR|POS_JOGO|FIM_DE_JOGO|FIM DE JOGO|^FT$/i.test(period)) return true;
+    // Commentary during 1T/2T/HT can say "fim de jogo para alguns" as a joke —
+    // never treat in-play period text as the final whistle.
+    if (/1T|2T|INTERVALO|PRIMEIRO|SEGUNDO|PRORROGA|PENALT|^HT$/i.test(period)) {
+      continue;
+    }
     const blocks = p.body?.blocks;
     const bodyText = Array.isArray(blocks)
       ? blocks.map((b) => b?.text || "").join(" ")
       : "";
     const text = `${p.title || ""} ${bodyText}`.replace(/\s+/g, " ").trim();
-    if (/^fim de jogo\b/i.test(text) || /\bfim de jogo!/i.test(text)) return true;
+    // Exact whistle line only (not "Fim de jogo para alguns", etc.)
+    if (/^fim de jogo[!?.]?\s*$/i.test(text)) return true;
   }
   return false;
 }

@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 75
+      "elapsed": 78
     },
     "timerStart": "2026-09-06T01:08:34.765Z",
     "timerStatus": "INICIADO"
@@ -1410,6 +1410,58 @@
         "extra": null
       },
       "team": {
+        "id": 267,
+        "name": "Vasco"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Spinelli"
+      },
+      "assist": {
+        "name": "Tchê Tchê"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 73,
+        "extra": null
+      },
+      "team": {
+        "id": 267,
+        "name": "Vasco"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Puma Rodríguez"
+      },
+      "assist": {
+        "name": "Paulo Henrique"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 73,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "Important",
+      "detail": "O Fluminense voltou diferente para a segunda etapa e conseguiu abrir o placar aos 15 minutos. Lucho Acosta, que entrou no lugar de Ganso, aproveitou um ótimo cruzamento de Soteldo para marcar o primeiro do clássico: 1 a 0. O gol mudou o cenário da partida, que até então era dominada pelo Vasco. Agora, o time cruzmaltino se lança ao ataque em busca do empate, enquanto o Flu tenta segurar a vantagem.",
+      "player": {
+        "name": "Lucho Acosta muda o jogo para o Fluminense!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 73,
+        "extra": null
+      },
+      "team": {
         "id": 266,
         "name": "Fluminense"
       },
@@ -1421,6 +1473,38 @@
       "assist": {
         "name": "Soteldo"
       }
+    },
+    {
+      "time": {
+        "elapsed": 75,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "Important",
+      "detail": "Serna cruza rasteiro da direita na direção de Lucho. Meia pega de primeira e isola.",
+      "player": {
+        "name": "Serna cruza rasteiro da direita na direção de Lu"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 76,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "Important",
+      "detail": "Vasco pressiona o Fluminense, mas encontra dificuldades para criar uma chance clara de gol. São muitos cruzamentos que não vingam.",
+      "player": {
+        "name": "Vasco pressiona o Fluminense, mas encontra dific"
+      },
+      "assist": null
     }
   ],
   "lineups": [
@@ -1878,11 +1962,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "51%"
+          "value": "50%"
         },
         {
           "type": "Total Passes",
-          "value": 403
+          "value": 416
         },
         {
           "type": "Pass Accuracy",
@@ -1890,11 +1974,11 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 55
+          "value": 60
         },
         {
           "type": "Total Shots",
-          "value": 4
+          "value": 5
         },
         {
           "type": "Shots on Goal",
@@ -1902,7 +1986,7 @@
         },
         {
           "type": "Shots off Goal",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Blocked Shots",
@@ -1930,7 +2014,7 @@
         },
         {
           "type": "Tackles",
-          "value": 18
+          "value": 19
         },
         {
           "type": "Fouls",
@@ -1954,11 +2038,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "49%"
+          "value": "50%"
         },
         {
           "type": "Total Passes",
-          "value": 444
+          "value": 474
         },
         {
           "type": "Pass Accuracy",
@@ -1966,7 +2050,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 67
+          "value": 70
         },
         {
           "type": "Total Shots",
@@ -2010,7 +2094,7 @@
         },
         {
           "type": "Fouls",
-          "value": 15
+          "value": 16
         },
         {
           "type": "Yellow Cards",

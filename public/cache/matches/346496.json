@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 9
+      "elapsed": 11
     },
     "timerStart": "2026-09-06T21:30:15.429Z",
     "timerStatus": "INICIADO"
@@ -154,6 +154,22 @@
         "extra": null
       },
       "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Gramado do Nilton Santos está bem molhado neste início de jogo em razão da garoa que cai consistentemente ao longo do dia, no Rio. Bola tem ganhado mais velocidade e exigido precisão dos jogadores",
+      "player": {
+        "name": "Efeito da chuva"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 5,
+        "extra": null
+      },
+      "team": {
         "id": 275,
         "name": "Palmeiras"
       },
@@ -163,6 +179,40 @@
         "name": "Danilo cobra a falta com lançamento para a área "
       },
       "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 7,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O jogo começa em ritmo acelerado e com clima quente no Nilton Santos. A torcida do Botafogo não perdoa e vaia os ex-jogadores Marlon Freitas e Barboza a cada toque na bola. Em campo, Montoro criou a primeira chance para o time da casa, mas Carlos Miguel defendeu. O Palmeiras respondeu com um chute de Evangelista, parado por Gabriel Batista. Com o gramado molhado, os dois times já mostraram que vieram para o ataque.",
+      "player": {
+        "name": "Início tenso com vaias e defesas"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 7,
+        "extra": null
+      },
+      "team": {
+        "id": 275,
+        "name": "Palmeiras"
+      },
+      "type": "Important",
+      "detail": "Piquerez recebe na ponta e recua para Evangelista na entrada da área. O volante bate de primeira buscando o canto, mas Gabriel Batista defende",
+      "player": {
+        "name": "Gabriel Batista"
+      },
+      "assist": {
+        "name": "Palmeiras no ataque!"
+      }
     }
   ],
   "lineups": [

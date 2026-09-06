@@ -11,8 +11,8 @@
       "short": "2H",
       "elapsed": 51
     },
-    "timerStart": "2026-09-06T01:08:06.398Z",
-    "timerStatus": "PAUSADO"
+    "timerStart": "2026-09-06T01:08:34.765Z",
+    "timerStatus": "INICIADO"
   },
   "league": {
     "round": "Regular Season - 26"
@@ -944,6 +944,40 @@
         "name": "Fluminense"
       },
       "type": "Important",
+      "detail": "O primeiro tempo foi de domínio do Vasco, que pressionou e teve as melhores chances com Thiago Mendes e Piton, parando em defesas de Fábio. O clima esquentou com muitos cartões e uma confusão nos bancos. O Fluminense voltou diferente para o segundo tempo e, logo aos 3 minutos, Ganso achou Hulk, que obrigou Léo Jardim a fazer grande defesa na melhor chegada do time no jogo.",
+      "player": {
+        "name": "Flu reage e esquenta o jogo no 2º tempo!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 48,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "Important",
+      "detail": "Ganso lança para Hulk, que chuta na entrada da área. Léo Jardim toca nela e manda para escanteio! Melhor chance do Flu no jogo.",
+      "player": {
+        "name": "Hulk"
+      },
+      "assist": {
+        "name": "UHHHHHH"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 48,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "Important",
       "detail": "O Vasco tomou a iniciativa desde o início, impondo uma forte pressão no campo do Fluminense. O time visitante criou as melhores oportunidades, como em um chute de Thiago Mendes bloqueado e uma finalização de Piton que exigiu grande defesa de Fábio. O clima esquentou com discussões e cartões para os dois lados. Nos acréscimos, Hulk teve a grande chance do Flu, mas errou a cavadinha na cara do gol.",
       "player": {
         "name": "Vasco pressiona, mas o zero não sai do placar"
@@ -1474,7 +1508,7 @@
         },
         {
           "type": "Total Passes",
-          "value": 248
+          "value": 270
         },
         {
           "type": "Pass Accuracy",
@@ -1482,7 +1516,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 34
+          "value": 37
         },
         {
           "type": "Total Shots",
@@ -1522,7 +1556,7 @@
         },
         {
           "type": "Tackles",
-          "value": 11
+          "value": 12
         },
         {
           "type": "Fouls",
@@ -1550,7 +1584,7 @@
         },
         {
           "type": "Total Passes",
-          "value": 290
+          "value": 296
         },
         {
           "type": "Pass Accuracy",
@@ -1558,11 +1592,11 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 43
+          "value": 45
         },
         {
           "type": "Total Shots",
-          "value": 6
+          "value": 7
         },
         {
           "type": "Shots on Goal",
@@ -1570,7 +1604,7 @@
         },
         {
           "type": "Shots off Goal",
-          "value": 3
+          "value": 4
         },
         {
           "type": "Blocked Shots",
@@ -1598,11 +1632,11 @@
         },
         {
           "type": "Tackles",
-          "value": 11
+          "value": 12
         },
         {
           "type": "Fouls",
-          "value": 10
+          "value": 12
         },
         {
           "type": "Yellow Cards",

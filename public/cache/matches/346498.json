@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 37
+      "elapsed": 40
     },
     "timerStart": "2026-09-06T22:31:40.919Z",
     "timerStatus": "INICIADO"
@@ -662,6 +662,22 @@
         "extra": null
       },
       "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O jogo começou com tudo! Logo aos 2 minutos, Matheus Bidu aproveitou uma sobra na área após bate-cabeça da defesa e abriu o placar para o Corinthians, 1 a 0. Desde então, o Timão domina a partida e segue pressionando, mas peca na finalização. Memphis Depay e Kaio César desperdiçaram chances claras para ampliar. A Chapecoense, que levou um amarelo com segundos de jogo, se defende e pouco ameaçou até aqui.",
+      "player": {
+        "name": "Gol cedo e chances perdidas em Itaquera"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 33,
+        "extra": null
+      },
+      "team": {
         "id": 264,
         "name": "Corinthians"
       },
@@ -672,6 +688,74 @@
       },
       "assist": {
         "name": "PARA FORA"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 34,
+        "extra": null
+      },
+      "team": {
+        "id": 315,
+        "name": "Chapecoense"
+      },
+      "type": "Important",
+      "detail": "Falta a favor da Chape no campo de defesa.",
+      "player": {
+        "name": "Falta a favor da Chape no campo de defesa."
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 36,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Corinthians começou com tudo e abriu o placar com Matheus Bidu antes dos 2 minutos, após falha da defesa da Chape. A partir daí, o Timão impôs um ritmo forte e empilhou chances de gol, mas pecou na finalização, principalmente com Memphis Depay e Kaio César. Aos 36, Garro soltou uma bomba e o goleiro Anderson fez uma defesa espetacular, mantendo a Chapecoense viva no jogo com o placar de 1 a 0.",
+      "player": {
+        "name": "Timão amassa, mas Anderson salva a Chape!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 36,
+        "extra": null
+      },
+      "team": {
+        "id": 315,
+        "name": "Chapecoense"
+      },
+      "type": "Important",
+      "detail": "Carrillo inverte a bola para Matheus Bidu, o lateral domina no peito e cruza rasteiro para dentro da área. Heitor afasta parcialmente, mas a bola sobra para Rodrigo Garro completamente livre encher o pé. O argentino manda uma bomba, e o goleiro Anderson mostra que o reflexo está em dia com uma defesa espetacular com a mão esquerda.",
+      "player": {
+        "name": "Anderson"
+      },
+      "assist": {
+        "name": "SAAAAAAAAAAAAAAAAAALVA, ANDERSON"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 38,
+        "extra": null
+      },
+      "team": {
+        "id": 264,
+        "name": "Corinthians"
+      },
+      "type": "Important",
+      "detail": "Corinthians chega em velocidade pelo meio, Bidon passa Kaio César pela esquerda, que invade a área e cruza rasteiro, para trás, na direção de Memphis Depay. Sozinho, o holandês escorrega no momento da finalização e manda fraco nas mãos do goleiro Anderson.",
+      "player": {
+        "name": "Memphis Depay"
+      },
+      "assist": {
+        "name": "Escorregou"
       }
     }
   ],
@@ -1121,27 +1205,27 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "56%"
+          "value": "53%"
         },
         {
           "type": "Total Passes",
-          "value": 259
+          "value": 277
         },
         {
           "type": "Pass Accuracy",
-          "value": "89%"
+          "value": "88%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 29
+          "value": 32
         },
         {
           "type": "Total Shots",
-          "value": 4
+          "value": 5
         },
         {
           "type": "Shots on Goal",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Shots off Goal",
@@ -1157,7 +1241,7 @@
         },
         {
           "type": "Corner Kicks",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Offsides",
@@ -1177,7 +1261,7 @@
         },
         {
           "type": "Fouls",
-          "value": 3
+          "value": 4
         },
         {
           "type": "Yellow Cards",
@@ -1197,19 +1281,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "44%"
+          "value": "47%"
         },
         {
           "type": "Total Passes",
-          "value": 197
+          "value": 212
         },
         {
           "type": "Pass Accuracy",
-          "value": "87%"
+          "value": "88%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 25
+          "value": 26
         },
         {
           "type": "Total Shots",

@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 76
+      "elapsed": 79
     },
     "timerStart": "2026-09-06T22:38:11.421Z",
     "timerStatus": "INICIADO"
@@ -1602,6 +1602,22 @@
         "extra": null
       },
       "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O placar segue zerado aos 29 do segundo tempo em um jogo muito disputado. O Palmeiras aumentou a pressão e quase abriu o placar em cabeçada de Maurício, mas Gabriel Batista fez uma defesa espetacular. O Botafogo, que também perdeu chance clara no primeiro tempo, tenta responder com as entradas de Júnior Santos e Kadir. O duelo é pegado, com os técnicos mexendo nas equipes em busca do gol.",
+      "player": {
+        "name": "Jogo pegado e goleiros em destaque!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 74,
+        "extra": null
+      },
+      "team": {
         "id": 263,
         "name": "Botafogo"
       },
@@ -1611,6 +1627,106 @@
         "name": "Huguinho desarma Arias na ponta e consegue later"
       },
       "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 75,
+        "extra": null
+      },
+      "team": {
+        "id": 263,
+        "name": "Botafogo"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Montoro"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 75,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Kadir é lançado em profundidade, mas Barboza se antecipa e consegue evitar o perigo",
+      "player": {
+        "name": "Kadir é lançado em profundidade, mas Barboza se "
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 76,
+        "extra": null
+      },
+      "team": {
+        "id": 275,
+        "name": "Palmeiras"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Marlon Freitas"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 77,
+        "extra": null
+      },
+      "team": {
+        "id": 263,
+        "name": "Botafogo"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Edenílson"
+      },
+      "assist": {
+        "name": "Danilo"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 77,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Na altura dos 32 minutos do segundo tempo, o placar segue zerado, mas não por falta de emoção. O Palmeiras cresceu na etapa final e pressiona, obrigando Gabriel Batista a operar um milagre em cabeçada de Maurício. O Botafogo, que perdeu chance incrível com Villalba no primeiro tempo, tenta responder nos contra-ataques. O jogo é tenso, com cartões e lances polêmicos para os dois lados.",
+      "player": {
+        "name": "Jogo intenso e sem gols no Nilton Santos"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 77,
+        "extra": null
+      },
+      "team": {
+        "id": 263,
+        "name": "Botafogo"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Medina"
+      },
+      "assist": {
+        "name": "Montoro"
+      }
     }
   ],
   "lineups": [

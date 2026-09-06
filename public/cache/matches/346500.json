@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 21
+      "elapsed": 23
     },
     "timerStart": "2026-09-06T19:00:29.774Z",
     "timerStatus": "INICIADO"
@@ -505,6 +505,56 @@
         "name": "Cruzeiro troca passes no campo de defesa"
       },
       "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 19,
+        "extra": null
+      },
+      "team": {
+        "id": 283,
+        "name": "Cruzeiro"
+      },
+      "type": "Important",
+      "detail": "Arroyo tenta jogada individual com drible, mas não cruza, e perde a bola.",
+      "player": {
+        "name": "Arroyo"
+      },
+      "assist": {
+        "name": "SE EMBOLOU"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 21,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Cruzeiro começou com tudo, pressionando e criando chances em sequência com Matheus Henrique, Gabriel Rojas e Gerson, mas sem acertar o alvo. O Athletico-PR demorou a entrar no jogo, mas respondeu com perigo. Leozinho comandou a reação do Furacão, criando uma chance defendida por Otávio e finalizando outra para fora. Após 20 minutos, a partida fica mais equilibrada no Mineirão.",
+      "player": {
+        "name": "Cruzeiro domina, mas Furacão equilibra"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 21,
+        "extra": null
+      },
+      "team": {
+        "id": 283,
+        "name": "Cruzeiro"
+      },
+      "type": "Important",
+      "detail": "Cruzeiro sai jogando e ganha arremeço lateral após disputa no campo defensivo",
+      "player": {
+        "name": "Cruzeiro sai jogando e ganha arremeço lateral ap"
+      },
+      "assist": null
     }
   ],
   "lineups": [
@@ -962,19 +1012,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "60%"
+          "value": "62%"
         },
         {
           "type": "Total Passes",
-          "value": 137
+          "value": 163
         },
         {
           "type": "Pass Accuracy",
-          "value": "88%"
+          "value": "90%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 16
+          "value": 17
         },
         {
           "type": "Total Shots",
@@ -1038,19 +1088,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "40%"
+          "value": "38%"
         },
         {
           "type": "Total Passes",
-          "value": 79
+          "value": 82
         },
         {
           "type": "Pass Accuracy",
-          "value": "85%"
+          "value": "84%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 12
+          "value": 13
         },
         {
           "type": "Total Shots",
@@ -1090,11 +1140,11 @@
         },
         {
           "type": "Tackles",
-          "value": 5
+          "value": 6
         },
         {
           "type": "Fouls",
-          "value": 3
+          "value": 4
         },
         {
           "type": "Yellow Cards",

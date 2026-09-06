@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 20
+      "elapsed": 23
     },
     "timerStart": "2026-09-06T19:00:38.573Z",
     "timerStatus": "INICIADO"
@@ -347,6 +347,56 @@
       "assist": {
         "name": "OUSADO"
       }
+    },
+    {
+      "time": {
+        "elapsed": 17,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Internacional começou a partida impondo um forte ritmo e criou várias chances, principalmente com Carbonero. No entanto, aos 7 minutos, um erro fatal de Félix Torres na defesa mudou o cenário. Gabriel, do Santos, roubou a bola, avançou sem marcação e tocou na saída do goleiro para fazer 1 a 0. O Inter sentiu o gol e agora busca a reação, mas a defesa santista segue atenta e já evitou o empate.",
+      "player": {
+        "name": "Peixe aproveita erro e sai na frente"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 17,
+        "extra": null
+      },
+      "team": {
+        "id": 285,
+        "name": "Internacional"
+      },
+      "type": "Important",
+      "detail": "Cruzamento da direita, Carbonero recebe com espaço na área, mas na hora do chute Gustavo Henrique chega para impedir",
+      "player": {
+        "name": "Carbonero"
+      },
+      "assist": {
+        "name": "TRAVADO"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 20,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Lançamento buscando Gabigol, Félix Torres corta de cabeça",
+      "player": {
+        "name": "Lançamento buscando Gabigol, Félix Torres corta "
+      },
+      "assist": null
     }
   ],
   "lineups": [
@@ -804,23 +854,23 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "46%"
+          "value": "48%"
         },
         {
           "type": "Total Passes",
-          "value": 79
+          "value": 100
         },
         {
           "type": "Pass Accuracy",
-          "value": "75%"
+          "value": "78%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 20
+          "value": 22
         },
         {
           "type": "Total Shots",
-          "value": 4
+          "value": 6
         },
         {
           "type": "Shots on Goal",
@@ -832,7 +882,7 @@
         },
         {
           "type": "Blocked Shots",
-          "value": 2
+          "value": 4
         },
         {
           "type": "Hit Woodwork",
@@ -880,11 +930,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "54%"
+          "value": "52%"
         },
         {
           "type": "Total Passes",
-          "value": 98
+          "value": 107
         },
         {
           "type": "Pass Accuracy",
@@ -892,7 +942,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 14
+          "value": 15
         },
         {
           "type": "Total Shots",
@@ -928,15 +978,15 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 3
+          "value": 5
         },
         {
           "type": "Tackles",
-          "value": 3
+          "value": 5
         },
         {
           "type": "Fouls",
-          "value": 4
+          "value": 6
         },
         {
           "type": "Yellow Cards",

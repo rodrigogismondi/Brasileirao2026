@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 67
+      "elapsed": 70
     },
     "timerStart": "2026-09-06T22:38:11.421Z",
     "timerStatus": "INICIADO"
@@ -1424,9 +1424,77 @@
         "name": ""
       },
       "type": "Important",
+      "detail": "Após um primeiro tempo de chances claras para ambos, incluindo uma incrível perdida por Villalba para o Botafogo, o Palmeiras domina a etapa final. Já na marca dos 20 minutos, a pressão visitante é intensa. Maurício teve a melhor chance em cabeçada à queima-roupa, mas parou em uma defesa espetacular de Gabriel Batista, que mantém o 0 a 0 no placar com grandes intervenções.",
+      "player": {
+        "name": "Pressão do Palmeiras e milagre no Nilton Santos"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 65,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
       "detail": "Andreas cobra escanteio fechado, na direção do gol, e para em defesa de Gabriel Batista",
       "player": {
         "name": "Andreas cobra escanteio fechado, na direção do g"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 66,
+        "extra": null
+      },
+      "team": {
+        "id": 263,
+        "name": "Botafogo"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Júnior Santos"
+      },
+      "assist": {
+        "name": "Villalba"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 67,
+        "extra": null
+      },
+      "team": {
+        "id": 263,
+        "name": "Botafogo"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Mateo Ponte"
+      },
+      "assist": {
+        "name": "Vitinho"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 68,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Arias carrega pela ponta, recebe \"mordidas\" na panturrilha, mas não perde o controle e não cai. O árbitro tampouco marca falta.",
+      "player": {
+        "name": "Jogo pegado"
       },
       "assist": null
     }
@@ -1886,11 +1954,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "36%"
+          "value": "37%"
         },
         {
           "type": "Total Passes",
-          "value": 226
+          "value": 240
         },
         {
           "type": "Pass Accuracy",
@@ -1898,7 +1966,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 57
+          "value": 59
         },
         {
           "type": "Total Shots",
@@ -1938,7 +2006,7 @@
         },
         {
           "type": "Tackles",
-          "value": 7
+          "value": 8
         },
         {
           "type": "Fouls",
@@ -1962,19 +2030,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "64%"
+          "value": "63%"
         },
         {
           "type": "Total Passes",
-          "value": 477
+          "value": 492
         },
         {
           "type": "Pass Accuracy",
-          "value": "87%"
+          "value": "86%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 64
+          "value": 68
         },
         {
           "type": "Total Shots",
@@ -1998,7 +2066,7 @@
         },
         {
           "type": "Corner Kicks",
-          "value": 7
+          "value": 8
         },
         {
           "type": "Offsides",

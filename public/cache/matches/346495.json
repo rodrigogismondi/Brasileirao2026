@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 90
+      "elapsed": 93
     },
     "timerStart": "2026-09-06T01:08:34.765Z",
     "timerStatus": "INICIADO"
@@ -1787,6 +1787,88 @@
         "name": "Canobbio faz falta perigosa em Marino na entrada"
       },
       "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 90,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "Important",
+      "detail": "Gómez avança na esquerda e sai com bola e tudo.",
+      "player": {
+        "name": "Gómez avança na esquerda e sai com bola e tudo."
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 90,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "Important",
+      "detail": "O Fluminense mudou o jogo no segundo tempo e abriu o placar aos 15 minutos! Lucho Acosta, que entrou no lugar de Ganso, aproveitou cruzamento preciso de Soteldo e fez 1 a 0. O Vasco, que dominou a primeira etapa, agora se lança com tudo ao ataque em busca do empate. Nos minutos finais, Serna quase ampliou para o Flu em um contra-ataque, e Colidio respondeu com perigo em cobrança de falta.",
+      "player": {
+        "name": "Flu na frente e Vasco pressiona no fim!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 90,
+        "extra": null
+      },
+      "team": {
+        "id": 267,
+        "name": "Vasco"
+      },
+      "type": "Important",
+      "detail": "Colidio manda para fora na cobrança de falta em lance de perigo!",
+      "player": {
+        "name": "Colidio"
+      },
+      "assist": {
+        "name": "UHHHHH"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 90,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "Important",
+      "detail": "O segundo tempo mudou o jogo! Aos 15 minutos, Lucho Acosta aproveitou um cruzamento de Soteldo e colocou o Fluminense na frente, fazendo 1 a 0. O Vasco foi para o tudo ou nada, pressionando com cruzamentos, mas sem sucesso. O Flu quase ampliou com Serna, que parou em grande defesa de Léo Jardim. Com o jogo nos acréscimos, o clima é de tensão total com o Vasco buscando o empate a todo custo.",
+      "player": {
+        "name": "Fluminense na frente em clássico tenso!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 90,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "Important",
+      "detail": "Primeiro tempo vai até 51 minutos.",
+      "player": {
+        "name": "+6"
+      },
+      "assist": null
     }
   ],
   "lineups": [
@@ -2244,19 +2326,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "50%"
+          "value": "49%"
         },
         {
           "type": "Total Passes",
-          "value": 437
+          "value": 438
         },
         {
           "type": "Pass Accuracy",
-          "value": "85%"
+          "value": "84%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 67
+          "value": 68
         },
         {
           "type": "Total Shots",
@@ -2300,7 +2382,7 @@
         },
         {
           "type": "Fouls",
-          "value": 10
+          "value": 11
         },
         {
           "type": "Yellow Cards",
@@ -2320,11 +2402,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "50%"
+          "value": "51%"
         },
         {
           "type": "Total Passes",
-          "value": 525
+          "value": 535
         },
         {
           "type": "Pass Accuracy",
@@ -2332,7 +2414,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 82
+          "value": 84
         },
         {
           "type": "Total Shots",
@@ -2356,7 +2438,7 @@
         },
         {
           "type": "Corner Kicks",
-          "value": 5
+          "value": 6
         },
         {
           "type": "Offsides",

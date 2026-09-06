@@ -7,12 +7,12 @@
       "city": ""
     },
     "status": {
-      "long": "2H",
-      "short": "2H",
-      "elapsed": 98
+      "long": "FT",
+      "short": "FT",
+      "elapsed": 90
     },
     "timerStart": "2026-09-06T15:09:42.755Z",
-    "timerStatus": "INICIADO"
+    "timerStatus": "PAUSADO"
   },
   "league": {
     "round": "Regular Season - 26"
@@ -39,8 +39,8 @@
       "away": null
     },
     "fulltime": {
-      "home": null,
-      "away": null
+      "home": 1,
+      "away": 2
     }
   },
   "odds": {
@@ -2412,6 +2412,22 @@
         "extra": null
       },
       "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Um segundo tempo eletrizante! O Coritiba saiu na frente com Pedro Rocha aos 15 minutos, mas o Mirassol respondeu rápido e empatou com Gustavo Mosquito. O jogo pegou fogo, com o Coxa tendo um gol anulado pelo VAR e perdendo chance clara. A virada veio aos 38: Bruno Santos driblou Rodrigo Moledo e bateu colocado para fazer 2 a 1 para o Mirassol, que segura a vantagem nos minutos finais.",
+      "player": {
+        "name": "Virada do Mirassol no Couto Pereira!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 95,
+        "extra": null
+      },
+      "team": {
         "id": 2305,
         "name": "Mirassol"
       },
@@ -2437,6 +2453,72 @@
       "detail": "Que segundo tempo eletrizante! O Coritiba abriu o placar aos 15 minutos com Pedro Rocha, mas a reação do Mirassol foi imediata e Gustavo Mosquito empatou três minutos depois. O time da casa ainda teve um gol de Felipe Jonatan anulado pelo VAR. Já na reta final, aos 38, Bruno Santos fez bela jogada individual, driblou o zagueiro e virou o jogo para 2 a 1, colocando o Mirassol em vantagem.",
       "player": {
         "name": "Virada do Mirassol no Couto Pereira!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 96,
+        "extra": null
+      },
+      "team": {
+        "id": 2305,
+        "name": "Mirassol"
+      },
+      "type": "Important",
+      "detail": "Os jogadores do Mirassol não têm pressa para repor a bola em jogo.",
+      "player": {
+        "name": "Os jogadores do Mirassol não têm pressa para rep"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 97,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O segundo tempo foi uma loucura! O Coritiba saiu na frente com gol de Pedro Rocha, mas viu o Mirassol reagir rápido e empatar com Gustavo Mosquito. O Coxa ainda teve um gol anulado pelo VAR. Nos minutos finais, Bruno Santos marcou o gol da virada para o Mirassol, mas já nos acréscimos, aos 52 minutos, o árbitro marcou um pênalti para o Coritiba, dando uma última chance de empate.",
+      "player": {
+        "name": "Final eletrizante com virada e pênalti!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 97,
+        "extra": null
+      },
+      "team": {
+        "id": 294,
+        "name": "Coritiba"
+      },
+      "type": "Important",
+      "detail": "Rodrigo Moledo cai dentro da área, e o árbitro marca a penalidade para o Coritiba.",
+      "player": {
+        "name": "Rodrigo Moledo"
+      },
+      "assist": {
+        "name": "PÊNALTI PARA O CORITIBA"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 99,
+        "extra": null
+      },
+      "team": {
+        "id": 2305,
+        "name": "Mirassol"
+      },
+      "type": "Important",
+      "detail": "O árbitro entende que não tem o toque de alguém do Mirassol em cima de Rodrigo Moledo e anula a penalidade.",
+      "player": {
+        "name": "PÊNALTI ANULADO"
       },
       "assist": null
     }
@@ -2900,7 +2982,7 @@
         },
         {
           "type": "Total Passes",
-          "value": 434
+          "value": 441
         },
         {
           "type": "Pass Accuracy",
@@ -2908,7 +2990,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 77
+          "value": 81
         },
         {
           "type": "Total Shots",
@@ -2976,7 +3058,7 @@
         },
         {
           "type": "Total Passes",
-          "value": 497
+          "value": 499
         },
         {
           "type": "Pass Accuracy",
@@ -2984,7 +3066,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 74
+          "value": 75
         },
         {
           "type": "Total Shots",
@@ -3028,7 +3110,7 @@
         },
         {
           "type": "Fouls",
-          "value": 9
+          "value": 10
         },
         {
           "type": "Yellow Cards",

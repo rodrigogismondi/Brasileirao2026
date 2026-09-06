@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 21
+      "elapsed": 24
     },
     "timerStart": "2026-09-06T19:05:23.218Z",
     "timerStatus": "INICIADO"
@@ -437,6 +437,38 @@
       "detail": "Arrascaeta cobra falta na segunda trave, mas Marcelinho corta para escanteio antes de Pedro. Chance para o Flamengo.",
       "player": {
         "name": "Arrascaeta cobra falta na segunda trave, mas Mar"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 20,
+        "extra": null
+      },
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "Important",
+      "detail": "Outro escanteio para o Flamengo. Pedro recebe na área, consegue dominar de esquerda, mas finaliza por cima",
+      "player": {
+        "name": "Outro escanteio para o Flamengo. Pedro recebe na"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 21,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O jogo começa movimentado no Mangueirão, com o Flamengo mais incisivo nos primeiros 22 minutos. Arrascaeta arriscou o primeiro chute, mas a grande chance veio com Carrascal, que finalizou por cima após ótima jogada de Pedro e Samuel Lino. O Remo respondeu com Galeano, sem sucesso. Com a chegada de uma forte chuva, o time visitante seguiu criando, incluindo um chute de Pedro e uma falta perigosa.",
+      "player": {
+        "name": "Fla pressiona em início chuvoso"
       },
       "assist": null
     }
@@ -900,11 +932,11 @@
         },
         {
           "type": "Total Passes",
-          "value": 63
+          "value": 69
         },
         {
           "type": "Pass Accuracy",
-          "value": "70%"
+          "value": "72%"
         },
         {
           "type": "Incomplete Passes",
@@ -948,7 +980,7 @@
         },
         {
           "type": "Tackles",
-          "value": 1
+          "value": 3
         },
         {
           "type": "Fouls",
@@ -976,15 +1008,15 @@
         },
         {
           "type": "Total Passes",
-          "value": 144
+          "value": 161
         },
         {
           "type": "Pass Accuracy",
-          "value": "92%"
+          "value": "90%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 11
+          "value": 16
         },
         {
           "type": "Total Shots",
@@ -1008,7 +1040,7 @@
         },
         {
           "type": "Corner Kicks",
-          "value": 1
+          "value": 3
         },
         {
           "type": "Offsides",
@@ -1024,11 +1056,11 @@
         },
         {
           "type": "Tackles",
-          "value": 5
+          "value": 6
         },
         {
           "type": "Fouls",
-          "value": 4
+          "value": 5
         },
         {
           "type": "Yellow Cards",

@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 26
+      "elapsed": 29
     },
     "timerStart": "2026-09-06T19:00:38.573Z",
     "timerStatus": "INICIADO"
@@ -31,7 +31,7 @@
   },
   "goals": {
     "home": 0,
-    "away": 1
+    "away": 2
   },
   "score": {
     "halftime": {
@@ -427,6 +427,152 @@
       "detail": "Tentativa de contra-ataque do Santos, Mercado chega junto e ainda ganha lateral para o Inter",
       "player": {
         "name": "Tentativa de contra-ataque do Santos, Mercado ch"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 23,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Internacional começou a partida com mais posse e pressionando, principalmente com as investidas de Carbonero. Contudo, aos 7 minutos, uma falha crucial da defesa mudou o cenário: Félix Torres errou sozinho, Gabriel roubou a bola, avançou livre e marcou para o Santos, fazendo 1 a 0. O Inter tenta reagir, mas o time visitante se defende bem e segura a vantagem até agora.",
+      "player": {
+        "name": "Peixe na frente após falha colorada"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 23,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Matheus Bahia tenta o avanço em velocidade pela esquerda, foge do primeiro, mas o segundo tira a bola para lateral",
+      "player": {
+        "name": "Matheus Bahia tenta o avanço em velocidade pela "
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 24,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Internacional começou com a posse e pressionando, principalmente com Carbonero pela esquerda. Mas aos 7 minutos, um erro crucial mudou tudo: Félix Torres falhou, Gabriel roubou a bola e abriu o placar para o Santos, fazendo 1 a 0. O Inter sentiu o golpe e, aos 24 minutos, viu o Peixe ter a chance de ampliar. Após lindo passe de Rollheiser, Gabriel foi derrubado na área por Matheus Bahia. Pênalti para o Santos",
+      "player": {
+        "name": "Santos aproveita falha, marca e tem pênalti!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 24,
+        "extra": null
+      },
+      "team": {
+        "id": 277,
+        "name": "Santos"
+      },
+      "type": "Important",
+      "detail": "Rollheiser dá lindo passe em profundidade para Gabigol. Ele invade a área e é tocado por trás por Matheus Bahia",
+      "player": {
+        "name": "Gabriel"
+      },
+      "assist": {
+        "name": "É PÊNALTI!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 26,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Arbitragem vai rever o lance para checar o pênalti marcado",
+      "player": {
+        "name": "VAI PRO VÍDEO"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 27,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Internacional começou pressionando e criou chances com Carbonero, mas uma falha individual mudou tudo. Aos 7 minutos, Félix Torres errou na defesa e Gabriel não perdoou, abrindo o placar para o Santos em 1 a 0. Para complicar a situação do time da casa, aos 27, Matheus Bahia cometeu pênalti e, após revisão do VAR, foi expulso, deixando o Inter com um a menos e em apuros na partida.",
+      "player": {
+        "name": "Falha, gol e vermelho: Santos domina"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 27,
+        "extra": null
+      },
+      "team": {
+        "id": 285,
+        "name": "Internacional"
+      },
+      "type": "Card",
+      "detail": "Red Card",
+      "player": {
+        "name": "Matheus Bahia"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 28,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Internacional até começou com a posse de bola, mas o jogo virou aos 7 minutos com uma falha grave de Félix Torres, que perdeu a bola para Gabriel abrir o placar para o Santos. A situação do time da casa piorou aos 27, quando Matheus Bahia cometeu pênalti e foi expulso após revisão do VAR. O mesmo Gabriel converteu e ampliou para 2 a 0, complicando de vez a vida do Colorado na partida.",
+      "player": {
+        "name": "Falhas e expulsão: Inter se complica"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 28,
+        "extra": null
+      },
+      "team": {
+        "id": 277,
+        "name": "Santos"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "player": {
+        "name": "Gabriel"
       },
       "assist": null
     }
@@ -886,15 +1032,15 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "51%"
+          "value": "52%"
         },
         {
           "type": "Total Passes",
-          "value": 127
+          "value": 141
         },
         {
           "type": "Pass Accuracy",
-          "value": "82%"
+          "value": "84%"
         },
         {
           "type": "Incomplete Passes",
@@ -946,7 +1092,7 @@
         },
         {
           "type": "Yellow Cards",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Red Cards",
@@ -962,15 +1108,15 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "49%"
+          "value": "48%"
         },
         {
           "type": "Total Passes",
-          "value": 121
+          "value": 123
         },
         {
           "type": "Pass Accuracy",
-          "value": "84%"
+          "value": "85%"
         },
         {
           "type": "Incomplete Passes",
@@ -1006,7 +1152,7 @@
         },
         {
           "type": "Penalties",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Goalkeeper Saves",
@@ -1014,7 +1160,7 @@
         },
         {
           "type": "Tackles",
-          "value": 7
+          "value": 9
         },
         {
           "type": "Fouls",

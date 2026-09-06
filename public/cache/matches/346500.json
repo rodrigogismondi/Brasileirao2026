@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 84
+      "elapsed": 87
     },
     "timerStart": "2026-09-06T20:12:00.437Z",
     "timerStatus": "INICIADO"
@@ -2208,9 +2208,9 @@
         "name": "Cruzeiro"
       },
       "type": "Important",
-      "detail": "Após um primeiro tempo de 1 a 1 com pênalti perdido, a etapa final é de tirar o fôlego! O goleiro Otávio fez defesa crucial em chance de Viveros, e o Cruzeiro foi letal na resposta. Aos 25 minutos, Lucas Romero recolocou a Raposa em vantagem. Perto dos 36, Kaio Jorge sofreu e converteu um pênalti, ampliando o placar para 3 a 1 e deixando o time da casa com boa folga no placar.",
+      "detail": "Que segundo tempo no Mineirão! Depois de um empate eletrizante na primeira etapa, que incluiu pênalti perdido, o Cruzeiro retomou a vantagem. Aos 25 minutos, Lucas Romero finalizou com força para fazer 2 a 1. A pressão continuou e, aos 36, Kaio Jorge foi derrubado por Mycael na área. O próprio atacante cobrou o pênalti com categoria e ampliou o placar para 3 a 1, incendiando a partida.",
       "player": {
-        "name": "Cruzeiro marca duas vezes e abre vantagem!"
+        "name": "Cruzeiro reage e abre vantagem no 2º tempo"
       },
       "assist": null
     },
@@ -2227,6 +2227,70 @@
       "detail": "Normal Goal",
       "player": {
         "name": "Kaio Jorge"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 83,
+        "extra": null
+      },
+      "team": {
+        "id": 283,
+        "name": "Cruzeiro"
+      },
+      "type": "Important",
+      "detail": "Cruzeiro recupera posse de bola no campo de defesa. Fabrício Bruno lança para o ataque, mas não consegue conexão.",
+      "player": {
+        "name": "Cruzeiro recupera posse de bola no campo de defe"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 84,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Partida intensa no Mineirão! Depois de um primeiro tempo eletrizante com empate por 1 a 1 e pênalti defendido por Mycael, a etapa final segue pegada. O Athletico-PR quase virou, mas parou em grande defesa de Otávio. O Cruzeiro foi letal: Lucas Romero marcou aos 25 e, aos 36, Kaio Jorge converteu pênalti para fazer 3 a 1, encaminhando a vitória celeste.",
+      "player": {
+        "name": "Cruzeiro domina e abre vantagem no Mineirão"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 84,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Zapelli manda para Luiz Gustavo, que erra o tempo de bola logo na entrada da área. Nada feito.",
+      "player": {
+        "name": "Zapelli manda para Luiz Gustavo, que erra o temp"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 85,
+        "extra": null
+      },
+      "team": {
+        "id": 293,
+        "name": "Athletico-PR"
+      },
+      "type": "Important",
+      "detail": "Athletico-PR erra muitos passes no meio de campo.",
+      "player": {
+        "name": "Athletico-PR erra muitos passes no meio de campo"
       },
       "assist": null
     }
@@ -2686,11 +2750,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "60%"
+          "value": "59%"
         },
         {
           "type": "Total Passes",
-          "value": 531
+          "value": 536
         },
         {
           "type": "Pass Accuracy",
@@ -2698,15 +2762,15 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 57
+          "value": 58
         },
         {
           "type": "Total Shots",
-          "value": 15
+          "value": 16
         },
         {
           "type": "Shots on Goal",
-          "value": 5
+          "value": 6
         },
         {
           "type": "Shots off Goal",
@@ -2762,11 +2826,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "40%"
+          "value": "41%"
         },
         {
           "type": "Total Passes",
-          "value": 309
+          "value": 319
         },
         {
           "type": "Pass Accuracy",
@@ -2774,11 +2838,11 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 55
+          "value": 56
         },
         {
           "type": "Total Shots",
-          "value": 12
+          "value": 13
         },
         {
           "type": "Shots on Goal",
@@ -2786,7 +2850,7 @@
         },
         {
           "type": "Shots off Goal",
-          "value": 6
+          "value": 7
         },
         {
           "type": "Blocked Shots",

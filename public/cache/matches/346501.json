@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 88
+      "elapsed": 91
     },
     "timerStart": "2026-09-06T20:07:37.066Z",
     "timerStatus": "INICIADO"
@@ -30,7 +30,7 @@
     }
   },
   "goals": {
-    "home": 1,
+    "home": 2,
     "away": 3
   },
   "score": {
@@ -1779,6 +1779,54 @@
       "assist": {
         "name": "É PÊNALTI!"
       }
+    },
+    {
+      "time": {
+        "elapsed": 89,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Após um primeiro tempo de pesadelo, com falha defensiva, expulsão de Matheus Bahia e três gols do Santos marcados por Gabriel (duas vezes) e Oliva, o Inter voltou com outra postura. Aos 2 minutos da etapa final, Aguirre diminuiu com um golaço de longe. A partida esquentou, com muitos cartões, e agora, aos 44, o Inter tem um pênalti confirmado pelo VAR para buscar um final eletrizante.",
+      "player": {
+        "name": "Pênalti para o Inter! Jogo pega fogo no fim!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 90,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Santos abriu 3 a 0 no primeiro tempo com gols de Gabriel (duas vezes, um de pênalti) e Oliva, aproveitando falha defensiva e a expulsão de Matheus Bahia. Na etapa final, o Inter reagiu e diminuiu com um golaço de Aguirre. O jogo ficou tenso, com vários cartões amarelos, e aos 45 minutos, Bruno Henrique converteu um pênalti, incendiando a partida e deixando o placar em 3 a 2 para o Peixe.",
+      "player": {
+        "name": "Final eletrizante! Inter marca de pênalti"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 90,
+        "extra": null
+      },
+      "team": {
+        "id": 285,
+        "name": "Internacional"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "player": {
+        "name": "Bruno Henrique"
+      },
+      "assist": null
     }
   ],
   "lineups": [

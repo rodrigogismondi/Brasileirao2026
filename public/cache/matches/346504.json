@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 85
+      "elapsed": 88
     },
     "timerStart": "2026-09-06T20:10:53.980Z",
     "timerStatus": "INICIADO"
@@ -1649,6 +1649,142 @@
         "name": "Escanteio para o Remo, a defesa do Flamengo cort"
       },
       "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 82,
+        "extra": null
+      },
+      "team": {
+        "id": 364,
+        "name": "Remo"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Gabriel Poveda"
+      },
+      "assist": {
+        "name": "Patrick"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 82,
+        "extra": null
+      },
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Saúl"
+      },
+      "assist": {
+        "name": "Lucas Paquetá"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 82,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Após um primeiro tempo de chances claras para os dois lados, a etapa final seguiu com o goleiro Marcelo Rangel fazendo milagres, incluindo uma defesa espetacular em finalização de Pedro. Mas, aos 19 minutos, a insistência do Flamengo deu resultado: Arrascaeta serviu Samuel Lino, que marcou de biquinho para abrir o placar em 1 a 0, superando o herói da partida até então.",
+      "player": {
+        "name": "Flamengo fura o bloqueio do Remo!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 82,
+        "extra": null
+      },
+      "team": {
+        "id": 364,
+        "name": "Remo"
+      },
+      "type": "Important",
+      "detail": "Samuel Lino escapa pela direita e cruza na área, mas a defesa do Remo afasta para lateral.",
+      "player": {
+        "name": "Samuel Lino escapa pela direita e cruza na área,"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 83,
+        "extra": null
+      },
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Valencia"
+      },
+      "assist": {
+        "name": "Samuel Lino"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 84,
+        "extra": null
+      },
+      "team": {
+        "id": 364,
+        "name": "Remo"
+      },
+      "type": "Important",
+      "detail": "Escanteio para o Remo. O jogo não para!",
+      "player": {
+        "name": "Escanteio para o Remo. O jogo não para!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 84,
+        "extra": null
+      },
+      "team": {
+        "id": 364,
+        "name": "Remo"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Edson Fernando"
+      },
+      "assist": {
+        "name": "Galeano"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 84,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Alef Manga arrisca pela direita, e Rossi faz boa defesa. O jogo não para!",
+      "player": {
+        "name": "Alef Manga arrisca pela direita, e Rossi faz boa"
+      },
+      "assist": null
     }
   ],
   "lineups": [
@@ -2110,7 +2246,7 @@
         },
         {
           "type": "Total Passes",
-          "value": 308
+          "value": 319
         },
         {
           "type": "Pass Accuracy",
@@ -2118,7 +2254,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 71
+          "value": 72
         },
         {
           "type": "Total Shots",
@@ -2186,7 +2322,7 @@
         },
         {
           "type": "Total Passes",
-          "value": 656
+          "value": 675
         },
         {
           "type": "Pass Accuracy",
@@ -2194,7 +2330,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 73
+          "value": 76
         },
         {
           "type": "Total Shots",
@@ -2218,7 +2354,7 @@
         },
         {
           "type": "Corner Kicks",
-          "value": 8
+          "value": 9
         },
         {
           "type": "Offsides",
@@ -2230,15 +2366,15 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 4
+          "value": 5
         },
         {
           "type": "Tackles",
-          "value": 16
+          "value": 17
         },
         {
           "type": "Fouls",
-          "value": 11
+          "value": 12
         },
         {
           "type": "Yellow Cards",

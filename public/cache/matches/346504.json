@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 36
+      "elapsed": 39
     },
     "timerStart": "2026-09-06T19:05:23.218Z",
     "timerStatus": "INICIADO"
@@ -708,6 +708,22 @@
         "extra": null
       },
       "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Passados 30 minutos, o Flamengo domina a posse e pressiona, mas foi o Remo quem teve a chance mais clara: Taliari saiu cara a cara com Rossi e desperdiçou um gol incrível. Na sequência, o goleiro Marcelo Rangel brilhou ao fazer uma defesaça em chute de Samuel Lino. Com a forte chuva como ingrediente extra, a partida segue aberta, movimentada e com emoção para os dois lados no Mangueirão.",
+      "player": {
+        "name": "Chances perdidas e defesaça em Belém!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 34,
+        "extra": null
+      },
+      "team": {
         "id": 262,
         "name": "Flamengo"
       },
@@ -715,6 +731,22 @@
       "detail": "Pedro recebe a bola após corta-luz de Arrascaeta, mas arrisca de longe e finaliza por cima sem perigo. Flamengo domina a partida.",
       "player": {
         "name": "Pedro recebe a bola após corta-luz de Arrascaeta"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 36,
+        "extra": null
+      },
+      "team": {
+        "id": 364,
+        "name": "Remo"
+      },
+      "type": "Important",
+      "detail": "Arrascaeta cruza na área, mas defesa do Remo afasta. Torcida paraense começa a perder a paciência com o time e pede mais ímpeto.",
+      "player": {
+        "name": "Arrascaeta cruza na área, mas defesa do Remo afa"
       },
       "assist": null
     }
@@ -1178,15 +1210,15 @@
         },
         {
           "type": "Total Passes",
-          "value": 110
+          "value": 119
         },
         {
           "type": "Pass Accuracy",
-          "value": "73%"
+          "value": "72%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 30
+          "value": 33
         },
         {
           "type": "Total Shots",
@@ -1226,7 +1258,7 @@
         },
         {
           "type": "Tackles",
-          "value": 8
+          "value": 9
         },
         {
           "type": "Fouls",
@@ -1254,7 +1286,7 @@
         },
         {
           "type": "Total Passes",
-          "value": 316
+          "value": 349
         },
         {
           "type": "Pass Accuracy",
@@ -1262,11 +1294,11 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 34
+          "value": 38
         },
         {
           "type": "Total Shots",
-          "value": 7
+          "value": 8
         },
         {
           "type": "Shots on Goal",
@@ -1274,7 +1306,7 @@
         },
         {
           "type": "Shots off Goal",
-          "value": 4
+          "value": 5
         },
         {
           "type": "Blocked Shots",
@@ -1286,7 +1318,7 @@
         },
         {
           "type": "Corner Kicks",
-          "value": 3
+          "value": 4
         },
         {
           "type": "Offsides",

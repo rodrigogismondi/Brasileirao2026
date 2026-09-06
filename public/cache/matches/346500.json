@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 41
+      "elapsed": 44
     },
     "timerStart": "2026-09-06T19:00:29.774Z",
     "timerStatus": "INICIADO"
@@ -30,7 +30,7 @@
     }
   },
   "goals": {
-    "home": 1,
+    "home": 2,
     "away": 0
   },
   "score": {
@@ -957,6 +957,70 @@
         "name": "Matheus Henrique toca para Gerson, que liga a bo"
       },
       "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 41,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Cruzeiro começou impondo um ritmo forte e acumulando finalizações. O Athletico-PR equilibrou a partida e respondeu com boas chegadas, mas a pressão mandante deu resultado. Aos 29 minutos, após cruzamento preciso de Gerson, Matheus Pereira mergulhou de cabeça para fazer 1 a 0. O duelo segue intenso após o gol, com direito a um quase-gol de Arroyo e um cartão amarelo para Gabriel Rojas.",
+      "player": {
+        "name": "Cruzeiro na frente com gol de peixinho!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 41,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Rojas recebe na direita e corre pela lateral. Ele cruza para a área, mas Dantas aparece e afasta o perigo.",
+      "player": {
+        "name": "Rojas recebe na direita e corre pela lateral. El"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 42,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Cruzeiro impôs seu ritmo desde o início e transformou a pressão em gols. Aos 29 minutos, Matheus Pereira abriu o placar de peixinho após cruzamento de Gerson. O time da casa seguiu melhor e, aos 42, ampliou com Matheus Henrique, deixando o placar em 2 a 0. O Athletico-PR tentou equilibrar o jogo, mas sofre com o volume ofensivo do adversário. A partida teve um cartão amarelo para Gabriel Rojas.",
+      "player": {
+        "name": "Cruzeiro dominante abre vantagem no Mineirão"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 42,
+        "extra": null
+      },
+      "team": {
+        "id": 283,
+        "name": "Cruzeiro"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "player": {
+        "name": "Matheus Henrique"
+      },
+      "assist": null
     }
   ],
   "lineups": [
@@ -1418,19 +1482,19 @@
         },
         {
           "type": "Total Passes",
-          "value": 245
+          "value": 266
         },
         {
           "type": "Pass Accuracy",
-          "value": "88%"
+          "value": "87%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 30
+          "value": 34
         },
         {
           "type": "Total Shots",
-          "value": 8
+          "value": 9
         },
         {
           "type": "Shots on Goal",
@@ -1438,7 +1502,7 @@
         },
         {
           "type": "Shots off Goal",
-          "value": 5
+          "value": 6
         },
         {
           "type": "Blocked Shots",
@@ -1450,7 +1514,7 @@
         },
         {
           "type": "Corner Kicks",
-          "value": 4
+          "value": 5
         },
         {
           "type": "Offsides",
@@ -1494,7 +1558,7 @@
         },
         {
           "type": "Total Passes",
-          "value": 148
+          "value": 165
         },
         {
           "type": "Pass Accuracy",
@@ -1502,7 +1566,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 26
+          "value": 30
         },
         {
           "type": "Total Shots",

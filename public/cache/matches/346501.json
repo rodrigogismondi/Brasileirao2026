@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 41
+      "elapsed": 44
     },
     "timerStart": "2026-09-06T19:00:38.573Z",
     "timerStatus": "INICIADO"
@@ -598,22 +598,6 @@
         "extra": null
       },
       "team": {
-        "id": 285,
-        "name": "Internacional"
-      },
-      "type": "Important",
-      "detail": "Alan Patrick cobra escanteio, Vitinho cabeceia por cima, sem perigo",
-      "player": {
-        "name": "Vitinho"
-      },
-      "assist": null
-    },
-    {
-      "time": {
-        "elapsed": 33,
-        "extra": null
-      },
-      "team": {
         "id": 0,
         "name": ""
       },
@@ -714,9 +698,9 @@
         "name": ""
       },
       "type": "Important",
-      "detail": "O Inter começou com a posse de bola, mas um erro individual de Félix Torres aos 7 minutos mudou tudo, permitindo que Gabriel abrisse o placar para o Santos. O cenário piorou para os donos da casa quando Matheus Bahia cometeu pênalti e foi expulso. Gabriel converteu e fez o segundo. Para completar o pesadelo colorado, Oliva marcou o terceiro gol aos 38, deixando o placar em 3 a 0 para o Peixe.",
+      "detail": "O Inter até começou pressionando, mas uma falha individual de Félix Torres aos 7 minutos entregou o primeiro gol para Gabriel. O que se viu depois foi um atropelo do Santos. Com um jogador a mais após a expulsão de Matheus Bahia em lance de pênalti, o Peixe ampliou com Gabriel, de novo, e viu Oliva, de cabeça, marcar o terceiro aos 38 minutos, selando um domínio absoluto no Beira-Rio.",
       "player": {
-        "name": "Desastre colorado: Santos passeia em 38 minutos"
+        "name": "Pesadelo colorado: Santos faz 3 a 0!"
       },
       "assist": null
     },
@@ -749,6 +733,56 @@
       "detail": "Rollheiser tenta o passe, a bola divide com Ronaldo, e Matheus Cunha não evita o escanteio",
       "player": {
         "name": "Rollheiser tenta o passe, a bola divide com Rona"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 41,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Um início de jogo avassalador para o Santos! Apesar da pressão inicial do Inter, uma falha de Félix Torres aos 7 minutos entregou o primeiro gol para Gabriel. O cenário piorou para o time da casa com a expulsão de Matheus Bahia após cometer pênalti, convertido pelo próprio Gabriel. Para completar o domínio, Oliva marcou o terceiro de cabeça aos 38 minutos. Passeio do Peixe, que vence por 3 a 0.",
+      "player": {
+        "name": "Santos atropela no Beira-Rio!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 41,
+        "extra": null
+      },
+      "team": {
+        "id": 277,
+        "name": "Santos"
+      },
+      "type": "Important",
+      "detail": "O Santos chega de novo, o cruzamento da esquerda cai no pé do artilheiro, mas ele erra o chute",
+      "player": {
+        "name": "Gabriel"
+      },
+      "assist": {
+        "name": "FUROU"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 42,
+        "extra": null
+      },
+      "team": {
+        "id": 277,
+        "name": "Santos"
+      },
+      "type": "Important",
+      "detail": "Mais um cruzamento na área, desta vez a defesa colorada consegue afastar",
+      "player": {
+        "name": "Mais um cruzamento na área, desta vez a defesa c"
       },
       "assist": null
     }
@@ -1212,15 +1246,15 @@
         },
         {
           "type": "Total Passes",
-          "value": 195
+          "value": 213
         },
         {
           "type": "Pass Accuracy",
-          "value": "83%"
+          "value": "84%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 33
+          "value": 35
         },
         {
           "type": "Total Shots",
@@ -1264,7 +1298,7 @@
         },
         {
           "type": "Fouls",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Yellow Cards",
@@ -1288,15 +1322,15 @@
         },
         {
           "type": "Total Passes",
-          "value": 154
+          "value": 176
         },
         {
           "type": "Pass Accuracy",
-          "value": "84%"
+          "value": "85%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 25
+          "value": 27
         },
         {
           "type": "Total Shots",
@@ -1320,7 +1354,7 @@
         },
         {
           "type": "Corner Kicks",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Offsides",
@@ -1336,7 +1370,7 @@
         },
         {
           "type": "Tackles",
-          "value": 10
+          "value": 11
         },
         {
           "type": "Fouls",

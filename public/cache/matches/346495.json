@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 6
+      "elapsed": 9
     },
     "timerStart": "2026-09-06T00:00:10.080Z",
     "timerStatus": "INICIADO"
@@ -156,9 +156,57 @@
         "name": "Fluminense"
       },
       "type": "Important",
+      "detail": "Piton arrisca de longe e manda para o alto do gol.",
+      "player": {
+        "name": "Piton arrisca de longe e manda para o alto do go"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 5,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "Important",
       "detail": "Hulk corta de cabeça em cobrança de escanteio.",
       "player": {
         "name": "Hulk corta de cabeça em cobrança de escanteio."
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 6,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "Important",
+      "detail": "O jogo começa com o Vasco tomando a iniciativa e jogando no campo do Fluminense. Com menos de 7 minutos, a pressão visitante já rendeu um escanteio com Paulo Henrique pela direita e um chute de longe de Piton, que passou por cima. O Fluminense se concentra na marcação, com Hulk aparecendo para cortar o perigo na área, e busca espaços para responder ao volume inicial do adversário.",
+      "player": {
+        "name": "Vasco pressiona no começo do clássico"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 6,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "Important",
+      "detail": "Canobbio ganha na direita, mas exagera na velocidade e sai com bola e tudo para fora do campo.",
+      "player": {
+        "name": "Canobbio ganha na direita, mas exagera na veloci"
       },
       "assist": null
     }
@@ -618,15 +666,15 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "50%"
+          "value": "24%"
         },
         {
           "type": "Total Passes",
-          "value": 14
+          "value": 23
         },
         {
           "type": "Pass Accuracy",
-          "value": "71%"
+          "value": "83%"
         },
         {
           "type": "Incomplete Passes",
@@ -670,7 +718,7 @@
         },
         {
           "type": "Tackles",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Fouls",
@@ -694,23 +742,23 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "50%"
+          "value": "76%"
         },
         {
           "type": "Total Passes",
-          "value": 47
+          "value": 63
         },
         {
           "type": "Pass Accuracy",
-          "value": "85%"
+          "value": "83%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 7
+          "value": 11
         },
         {
           "type": "Total Shots",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Shots on Goal",
@@ -718,7 +766,7 @@
         },
         {
           "type": "Shots off Goal",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Blocked Shots",
@@ -730,7 +778,7 @@
         },
         {
           "type": "Corner Kicks",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Offsides",
@@ -746,11 +794,11 @@
         },
         {
           "type": "Tackles",
-          "value": 3
+          "value": 4
         },
         {
           "type": "Fouls",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Yellow Cards",

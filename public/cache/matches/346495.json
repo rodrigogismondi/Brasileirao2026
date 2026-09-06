@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 69
+      "elapsed": 72
     },
     "timerStart": "2026-09-06T01:08:34.765Z",
     "timerStatus": "INICIADO"
@@ -668,8 +668,8 @@
         "extra": null
       },
       "team": {
-        "id": 266,
-        "name": "Fluminense"
+        "id": 267,
+        "name": "Vasco"
       },
       "type": "Important",
       "detail": "Cuesta arrisca de fora da área, chuta muito mal e manda para fora.",
@@ -1355,6 +1355,38 @@
         "name": "Sosa cruza para Thiago Mendes, que cabeceia para"
       },
       "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 69,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "Important",
+      "detail": "O cenário do jogo mudou completamente no segundo tempo! Depois de uma etapa inicial dominada pelo Vasco, que criou as melhores chances, o Fluminense cresceu e abriu o placar aos 15 minutos. Lucho Acosta, que havia acabado de entrar, recebeu um belo cruzamento de Soteldo e estufou a rede, fazendo 1 a 0. Agora o Vasco se lança ao ataque tentando reagir ao golpe sofrido no clássico.",
+      "player": {
+        "name": "Acosta sai do banco e coloca o Flu na frente!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 69,
+        "extra": null
+      },
+      "team": {
+        "id": 267,
+        "name": "Vasco"
+      },
+      "type": "Important",
+      "detail": "Vasco chega ao ataque em lance perigoso. Colidio faz o pivô e deixa com Thiago Mendes, que tem a finalização travada.",
+      "player": {
+        "name": "Vasco chega ao ataque em lance perigoso. Colidio"
+      },
+      "assist": null
     }
   ],
   "lineups": [
@@ -1812,19 +1844,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "53%"
+          "value": "52%"
         },
         {
           "type": "Total Passes",
-          "value": 376
+          "value": 398
         },
         {
           "type": "Pass Accuracy",
-          "value": "87%"
+          "value": "86%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 49
+          "value": 54
         },
         {
           "type": "Total Shots",
@@ -1864,7 +1896,7 @@
         },
         {
           "type": "Tackles",
-          "value": 17
+          "value": 18
         },
         {
           "type": "Fouls",
@@ -1888,23 +1920,23 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "47%"
+          "value": "48%"
         },
         {
           "type": "Total Passes",
-          "value": 372
+          "value": 421
         },
         {
           "type": "Pass Accuracy",
-          "value": "84%"
+          "value": "85%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 59
+          "value": 65
         },
         {
           "type": "Total Shots",
-          "value": 8
+          "value": 9
         },
         {
           "type": "Shots on Goal",
@@ -1912,7 +1944,7 @@
         },
         {
           "type": "Shots off Goal",
-          "value": 4
+          "value": 5
         },
         {
           "type": "Blocked Shots",
@@ -1940,7 +1972,7 @@
         },
         {
           "type": "Tackles",
-          "value": 17
+          "value": 18
         },
         {
           "type": "Fouls",

@@ -7,12 +7,12 @@
       "city": ""
     },
     "status": {
-      "long": "2H",
-      "short": "2H",
-      "elapsed": 94
+      "long": "FT",
+      "short": "FT",
+      "elapsed": 90
     },
-    "timerStart": "2026-09-06T22:38:11.421Z",
-    "timerStatus": "INICIADO"
+    "timerStart": "2026-09-06T23:28:08.516Z",
+    "timerStatus": "PAUSADO"
   },
   "league": {
     "round": "Regular Season - 26"
@@ -39,8 +39,8 @@
       "away": null
     },
     "fulltime": {
-      "home": null,
-      "away": null
+      "home": 0,
+      "away": 0
     }
   },
   "odds": {
@@ -389,8 +389,8 @@
         "id": 275,
         "name": "Palmeiras"
       },
-      "type": "Card",
-      "detail": "Yellow Card",
+      "type": "Important",
+      "detail": "Cartão amarelo para Alexander Barboza",
       "player": {
         "name": "Alexander Barboza"
       },
@@ -2041,6 +2041,86 @@
       "assist": {
         "name": "Faltou dominar"
       }
+    },
+    {
+      "time": {
+        "elapsed": 92,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O placar segue zerado nos minutos finais, mas a partida foi cheia de alternativas. O primeiro tempo teve chances claras, com Villalba perdendo um gol incrível para o Botafogo e o goleiro Gabriel Batista brilhando em defesas difíceis para segurar o Palmeiras. A etapa final perdeu ritmo, ficou mais pegada e com muitas faltas, mas ainda teve tempo para Gabriel Batista operar outro milagre em cabeçada de Maurício.",
+      "player": {
+        "name": "Tensão e defesas seguram o zero a zero"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 92,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Ferraresi faz desarme perfeito em tentativa de drible de Vitor Roque. Na sequência aplica drible de futsal no atacante palmeirense e recebe a falta. Muito aplaudido pela torcida.",
+      "player": {
+        "name": "Corta e joga"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 93,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "A partida foi marcada por chances claras e muita tensão. O Botafogo desperdiçou a melhor oportunidade do jogo com Villalba, que finalizou para fora cara a cara com o gol. Do outro lado, o Palmeiras pressionou, mas parou em grandes defesas do goleiro Gabriel Batista. O segundo tempo ficou mais truncado com muitas faltas, até que nos acréscimos, o zagueiro Barboza recebeu o segundo amarelo e foi expulso.",
+      "player": {
+        "name": "Barboza é expulso no apagar das luzes!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 93,
+        "extra": null
+      },
+      "team": {
+        "id": 275,
+        "name": "Palmeiras"
+      },
+      "type": "Card",
+      "detail": "Red Card",
+      "player": {
+        "name": "Alexander Barboza"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 94,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Empate no Nilton Santos",
+      "player": {
+        "name": "Fim de jogo"
+      },
+      "assist": null
     }
   ],
   "lineups": [
@@ -2502,7 +2582,7 @@
         },
         {
           "type": "Total Passes",
-          "value": 308
+          "value": 312
         },
         {
           "type": "Pass Accuracy",
@@ -2510,7 +2590,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 77
+          "value": 79
         },
         {
           "type": "Total Shots",
@@ -2550,7 +2630,7 @@
         },
         {
           "type": "Tackles",
-          "value": 15
+          "value": 16
         },
         {
           "type": "Fouls",
@@ -2578,7 +2658,7 @@
         },
         {
           "type": "Total Passes",
-          "value": 619
+          "value": 640
         },
         {
           "type": "Pass Accuracy",
@@ -2586,7 +2666,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 88
+          "value": 91
         },
         {
           "type": "Total Shots",
@@ -2626,11 +2706,11 @@
         },
         {
           "type": "Tackles",
-          "value": 14
+          "value": 15
         },
         {
           "type": "Fouls",
-          "value": 10
+          "value": 12
         },
         {
           "type": "Yellow Cards",
@@ -2638,7 +2718,7 @@
         },
         {
           "type": "Red Cards",
-          "value": 0
+          "value": 1
         }
       ]
     }

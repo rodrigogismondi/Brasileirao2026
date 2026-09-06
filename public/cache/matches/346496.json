@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 49
+      "elapsed": 52
     },
     "timerStart": "2026-09-06T22:38:15.857Z",
     "timerStatus": "INICIADO"
@@ -1018,6 +1018,74 @@
     },
     {
       "time": {
+        "elapsed": 48,
+        "extra": null
+      },
+      "team": {
+        "id": 263,
+        "name": "Botafogo"
+      },
+      "type": "Important",
+      "detail": "Danilo manda um balão para a área e Marçal desvia de cabeça, mas Carlos Miguel consegue encaixar",
+      "player": {
+        "name": "Marçal"
+      },
+      "assist": {
+        "name": "Carlos Miguel defende"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 48,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O primeiro tempo foi de muita intensidade e chances claras. O Botafogo desperdiçou a melhor oportunidade do jogo até agora, com Villalba finalizando para fora cara a cara com Carlos Miguel. O Palmeiras cresceu e respondeu com Andreas Pereira, que obrigou Gabriel Batista a fazer grandes defesas. O clima esquentou com cartões e uma falta polêmica de Marçal em Andreas, com o segundo tempo já em andamento.",
+      "player": {
+        "name": "Chance perdida e polêmica marcam 1º tempo"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 48,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Huguinho sofre pisão de Evangelista na intermediária de ataque. O árbitro marca falta",
+      "player": {
+        "name": "Huguinho sofre pisão de Evangelista na intermedi"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 49,
+        "extra": null
+      },
+      "team": {
+        "id": 275,
+        "name": "Palmeiras"
+      },
+      "type": "Important",
+      "detail": "Palmeiras trama em velocidade e chega com espaço ao ataque. Maurício recebe na entrada da área, limpa marcador e bate no canto. A bola não ganha força e Gabriel Batista defende",
+      "player": {
+        "name": "Maurício"
+      },
+      "assist": {
+        "name": "Bom contra-ataque!"
+      }
+    },
+    {
+      "time": {
         "elapsed": 49,
         "extra": null
       },
@@ -1063,6 +1131,24 @@
         "name": "Palmeiras pressiona no ataque, enquanto o Botafo"
       },
       "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 50,
+        "extra": null
+      },
+      "team": {
+        "id": 275,
+        "name": "Palmeiras"
+      },
+      "type": "Important",
+      "detail": "Flaco recebe em velocidade no lado direito do ataque, carrega para dentro, limpa marcador e bate colocado buscando o canto. A bola passa raspando antes de sair.",
+      "player": {
+        "name": "Flaco López"
+      },
+      "assist": {
+        "name": "Do jeito que ele gosta"
+      }
     },
     {
       "time": {
@@ -1536,11 +1622,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "35%"
+          "value": "36%"
         },
         {
           "type": "Total Passes",
-          "value": 161
+          "value": 178
         },
         {
           "type": "Pass Accuracy",
@@ -1548,7 +1634,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 38
+          "value": 43
         },
         {
           "type": "Total Shots",
@@ -1572,7 +1658,7 @@
         },
         {
           "type": "Corner Kicks",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Offsides",
@@ -1592,7 +1678,7 @@
         },
         {
           "type": "Fouls",
-          "value": 5
+          "value": 6
         },
         {
           "type": "Yellow Cards",
@@ -1612,11 +1698,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "65%"
+          "value": "64%"
         },
         {
           "type": "Total Passes",
-          "value": 372
+          "value": 383
         },
         {
           "type": "Pass Accuracy",
@@ -1624,7 +1710,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 47
+          "value": 50
         },
         {
           "type": "Total Shots",
@@ -1660,15 +1746,15 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 3
-        },
-        {
-          "type": "Tackles",
           "value": 4
         },
         {
-          "type": "Fouls",
+          "type": "Tackles",
           "value": 5
+        },
+        {
+          "type": "Fouls",
+          "value": 6
         },
         {
           "type": "Yellow Cards",

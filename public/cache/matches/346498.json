@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 10
+      "elapsed": 13
     },
     "timerStart": "2026-09-06T22:31:40.919Z",
     "timerStatus": "INICIADO"
@@ -257,6 +257,38 @@
       "detail": "Chape controla a posse de bola pela primeira vez na partida.",
       "player": {
         "name": "Chape controla a posse de bola pela primeira vez"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 11,
+        "extra": null
+      },
+      "team": {
+        "id": 264,
+        "name": "Corinthians"
+      },
+      "type": "Important",
+      "detail": "Falta a favor do Corinthians no meio de campo.",
+      "player": {
+        "name": "Falta a favor do Corinthians no meio de campo."
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 11,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Que início alucinante na Neo Química Arena! Com segundos de jogo, Yago Felipe já recebeu amarelo. Pouco depois, antes dos 2 minutos, Matheus Bidu aproveitou uma confusão na área da Chapecoense e abriu o placar para o Corinthians. Com 11 minutos, o time da casa comanda a partida, troca passes com autoridade e não deixa o adversário respirar, mantendo a pressão total em busca de mais gols.",
+      "player": {
+        "name": "Gol relâmpago e domínio do Timão"
       },
       "assist": null
     }
@@ -707,11 +739,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "74%"
+          "value": "73%"
         },
         {
           "type": "Total Passes",
-          "value": 47
+          "value": 71
         },
         {
           "type": "Pass Accuracy",
@@ -719,7 +751,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 5
+          "value": 8
         },
         {
           "type": "Total Shots",
@@ -743,7 +775,7 @@
         },
         {
           "type": "Corner Kicks",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Offsides",
@@ -783,19 +815,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "26%"
+          "value": "27%"
         },
         {
           "type": "Total Passes",
-          "value": 14
+          "value": 26
         },
         {
           "type": "Pass Accuracy",
-          "value": "71%"
+          "value": "81%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 4
+          "value": 5
         },
         {
           "type": "Total Shots",
@@ -839,7 +871,7 @@
         },
         {
           "type": "Fouls",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Yellow Cards",

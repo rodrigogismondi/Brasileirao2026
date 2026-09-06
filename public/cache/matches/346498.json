@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 19
+      "elapsed": 22
     },
     "timerStart": "2026-09-06T22:31:40.919Z",
     "timerStatus": "INICIADO"
@@ -396,6 +396,22 @@
         "extra": null
       },
       "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O jogo começou elétrico! Com segundos, Yago Felipe recebeu amarelo por falta em Memphis Depay. Logo aos 2 minutos, Matheus Bidu aproveitou uma confusão na área da Chapecoense e abriu o placar para o Corinthians: 1 a 0. Desde então, o time da casa controla a partida, pressionando e dificultando a saída de bola da Chape, que se defende como pode nestes primeiros 17 minutos de pressão intensa.",
+      "player": {
+        "name": "Gol relâmpago e domínio corintiano"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 17,
+        "extra": null
+      },
+      "team": {
         "id": 315,
         "name": "Chapecoense"
       },
@@ -407,6 +423,54 @@
       "assist": {
         "name": "UUUH"
       }
+    },
+    {
+      "time": {
+        "elapsed": 18,
+        "extra": null
+      },
+      "team": {
+        "id": 315,
+        "name": "Chapecoense"
+      },
+      "type": "Important",
+      "detail": "Chape controla a posse e avança ao ataque.",
+      "player": {
+        "name": "Chape controla a posse e avança ao ataque."
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 20,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O jogo começou a todo vapor! Com menos de 20 segundos, Yago Felipe já recebeu cartão amarelo por uma entrada dura. Pouco depois, aos 2 minutos, Matheus Bidu aproveitou uma falha da defesa da Chapecoense e abriu o placar para o Corinthians: 1 a 0. O time da casa seguiu dominante, pressionando e criando chances, como em um chute de Memphis Depay. A Chape só respondeu em um contra-ataque aos 17 minutos.",
+      "player": {
+        "name": "Início elétrico e gol do Corinthians!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 20,
+        "extra": null
+      },
+      "team": {
+        "id": 264,
+        "name": "Corinthians"
+      },
+      "type": "Important",
+      "detail": "Falta para o Corinthians no meio de campo.",
+      "player": {
+        "name": "Falta para o Corinthians no meio de campo."
+      },
+      "assist": null
     }
   ],
   "lineups": [
@@ -859,15 +923,15 @@
         },
         {
           "type": "Total Passes",
-          "value": 132
+          "value": 154
         },
         {
           "type": "Pass Accuracy",
-          "value": "89%"
+          "value": "88%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 14
+          "value": 19
         },
         {
           "type": "Total Shots",
@@ -935,15 +999,15 @@
         },
         {
           "type": "Total Passes",
-          "value": 62
+          "value": 91
         },
         {
           "type": "Pass Accuracy",
-          "value": "85%"
+          "value": "88%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 9
+          "value": 11
         },
         {
           "type": "Total Shots",
@@ -987,7 +1051,7 @@
         },
         {
           "type": "Fouls",
-          "value": 7
+          "value": 8
         },
         {
           "type": "Yellow Cards",

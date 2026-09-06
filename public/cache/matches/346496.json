@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 15
+      "elapsed": 18
     },
     "timerStart": "2026-09-06T21:30:15.429Z",
     "timerStatus": "INICIADO"
@@ -236,6 +236,22 @@
         "extra": null
       },
       "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O jogo começou movimentado no Nilton Santos, com a torcida vaiando os ex-jogadores Marlon Freitas e Barboza. Nos primeiros 11 minutos, o Botafogo criou as melhores chances, parando em duas boas defesas de Carlos Miguel em chutes de Montoro e Danilo Pereira. O Palmeiras respondeu em finalização de Evangelista, exigindo intervenção de Gabriel Batista. O gramado molhado deixa a bola rápida.",
+      "player": {
+        "name": "Clima quente e goleiros trabalhando no Niltão"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 11,
+        "extra": null
+      },
+      "team": {
         "id": 263,
         "name": "Botafogo"
       },
@@ -247,6 +263,40 @@
       "assist": {
         "name": "Boa chegada"
       }
+    },
+    {
+      "time": {
+        "elapsed": 12,
+        "extra": null
+      },
+      "team": {
+        "id": 263,
+        "name": "Botafogo"
+      },
+      "type": "Important",
+      "detail": "Em tentativa de saída de bola, Andreas Pereira recua errado e Danilo Pereira consegue interceptar. O jogador do Botafogo carrega e tenta finalizar, mas está bem marcado e acaba bloqueado",
+      "player": {
+        "name": "Andreas Pereira"
+      },
+      "assist": {
+        "name": "O que foi isso, Andreas?"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 13,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Maurício vai à linha de fundo e cruza rasteiro para dentro da área. Antes de Giay chegar, Marçal faz o corte",
+      "player": {
+        "name": "Maurício vai à linha de fundo e cruza rasteiro p"
+      },
+      "assist": null
     }
   ],
   "lineups": [
@@ -704,23 +754,23 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "39%"
+          "value": "36%"
         },
         {
           "type": "Total Passes",
-          "value": 59
+          "value": 74
         },
         {
           "type": "Pass Accuracy",
-          "value": "83%"
+          "value": "82%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 10
+          "value": 13
         },
         {
           "type": "Total Shots",
-          "value": 3
+          "value": 4
         },
         {
           "type": "Shots on Goal",
@@ -728,7 +778,7 @@
         },
         {
           "type": "Shots off Goal",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Blocked Shots",
@@ -780,19 +830,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "61%"
+          "value": "64%"
         },
         {
           "type": "Total Passes",
-          "value": 112
+          "value": 138
         },
         {
           "type": "Pass Accuracy",
-          "value": "89%"
+          "value": "88%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 12
+          "value": 16
         },
         {
           "type": "Total Shots",
@@ -816,7 +866,7 @@
         },
         {
           "type": "Corner Kicks",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Offsides",
@@ -832,7 +882,7 @@
         },
         {
           "type": "Tackles",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Fouls",

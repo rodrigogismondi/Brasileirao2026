@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 78
+      "elapsed": 81
     },
     "timerStart": "2026-09-06T20:12:00.437Z",
     "timerStatus": "INICIADO"
@@ -2081,6 +2081,74 @@
         "name": "Wesley ameaça cruzamento pelo lado esquerdo, mas"
       },
       "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 77,
+        "extra": null
+      },
+      "team": {
+        "id": 283,
+        "name": "Cruzeiro"
+      },
+      "type": "Important",
+      "detail": "Fabrício Bruno faz trapalhada com a bola. Viveros tenta o domínio, mas Otávio estava colado no lance para salvar o zagueiro!",
+      "player": {
+        "name": "Fabrício Bruno"
+      },
+      "assist": {
+        "name": "TRAPALHADA"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 77,
+        "extra": null
+      },
+      "team": {
+        "id": 283,
+        "name": "Cruzeiro"
+      },
+      "type": "Important",
+      "detail": "Cruzeiro troca passes com tranquilidade, a fim de administrar o placar.",
+      "player": {
+        "name": "Cruzeiro troca passes com tranquilidade, a fim d"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 78,
+        "extra": null
+      },
+      "team": {
+        "id": 283,
+        "name": "Cruzeiro"
+      },
+      "type": "Important",
+      "detail": "Kaio Jorge avança sozinho na área, fica cara a cara com Mycael. O goleiro faz falta no atacante, que cai. A árbitra aponta a marca da cal!",
+      "player": {
+        "name": "PÊNALTI"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 79,
+        "extra": null
+      },
+      "team": {
+        "id": 293,
+        "name": "Athletico-PR"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Renan Peixoto"
+      },
+      "assist": {
+        "name": "Viveros"
+      }
     }
   ],
   "lineups": [
@@ -2542,7 +2610,7 @@
         },
         {
           "type": "Total Passes",
-          "value": 488
+          "value": 528
         },
         {
           "type": "Pass Accuracy",
@@ -2550,7 +2618,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 54
+          "value": 57
         },
         {
           "type": "Total Shots",
@@ -2618,7 +2686,7 @@
         },
         {
           "type": "Total Passes",
-          "value": 293
+          "value": 309
         },
         {
           "type": "Pass Accuracy",
@@ -2626,19 +2694,19 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 52
+          "value": 55
         },
         {
           "type": "Total Shots",
-          "value": 10
+          "value": 12
         },
         {
           "type": "Shots on Goal",
-          "value": 4
+          "value": 5
         },
         {
           "type": "Shots off Goal",
-          "value": 5
+          "value": 6
         },
         {
           "type": "Blocked Shots",

@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 13
+      "elapsed": 16
     },
     "timerStart": "2026-09-06T22:31:40.919Z",
     "timerStatus": "INICIADO"
@@ -291,6 +291,72 @@
         "name": "Gol relâmpago e domínio do Timão"
       },
       "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 12,
+        "extra": null
+      },
+      "team": {
+        "id": 264,
+        "name": "Corinthians"
+      },
+      "type": "Important",
+      "detail": "Corinthians pressiona a Chape em busca do segundo gol.",
+      "player": {
+        "name": "Corinthians pressiona a Chape em busca do segund"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 13,
+        "extra": null
+      },
+      "team": {
+        "id": 315,
+        "name": "Chapecoense"
+      },
+      "type": "Important",
+      "detail": "Chape troca passes no campo de defesa, mas tem dificuldade para chegar ao meio de campo. O Corinthians deixa os zagueiros adversários livres.",
+      "player": {
+        "name": "Chape troca passes no campo de defesa, mas tem d"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 14,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "A partida mal começou e já pegou fogo! Com apenas 15 segundos, Yago Felipe, da Chapecoense, recebeu cartão amarelo por uma falta em Memphis Depay. Aos 2 minutos, o Corinthians abriu o placar com Matheus Bidu, que aproveitou uma falha da defesa para fazer 1 a 0. Desde então, o time da casa domina, pressiona em busca do segundo gol e cria chances, como em um chute de Memphis por cima do gol.",
+      "player": {
+        "name": "Timão na frente em início intenso!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 14,
+        "extra": null
+      },
+      "team": {
+        "id": 264,
+        "name": "Corinthians"
+      },
+      "type": "Important",
+      "detail": "Bidon e Bidu tabelam pela esquerda, o lateral avança e passa para Memphis dentro da área. O camisa 10 domina com uma perna e chuta com a outra, mas erra o alvo e manda por cima.",
+      "player": {
+        "name": "Memphis Depay"
+      },
+      "assist": {
+        "name": "Por cima"
+      }
     }
   ],
   "lineups": [
@@ -739,19 +805,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "73%"
+          "value": "69%"
         },
         {
           "type": "Total Passes",
-          "value": 71
+          "value": 109
         },
         {
           "type": "Pass Accuracy",
-          "value": "89%"
+          "value": "90%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 8
+          "value": 11
         },
         {
           "type": "Total Shots",
@@ -815,19 +881,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "27%"
+          "value": "31%"
         },
         {
           "type": "Total Passes",
-          "value": 26
+          "value": 44
         },
         {
           "type": "Pass Accuracy",
-          "value": "81%"
+          "value": "86%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 5
+          "value": 6
         },
         {
           "type": "Total Shots",
@@ -871,7 +937,7 @@
         },
         {
           "type": "Fouls",
-          "value": 3
+          "value": 5
         },
         {
           "type": "Yellow Cards",

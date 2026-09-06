@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 26
+      "elapsed": 28
     },
     "timerStart": "2026-09-06T22:31:40.919Z",
     "timerStatus": "INICIADO"
@@ -494,6 +494,22 @@
         "extra": null
       },
       "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Que começo de jogo na Neo Química Arena! A partida mal começou e Yago Felipe já recebeu um amarelo. Aos 2 minutos, Matheus Bidu aproveitou uma falha da zaga da Chapecoense e fuzilou para abrir o placar: 1 a 0 Corinthians. O time da casa domina as ações, já teve chance de ampliar com Memphis Depay e dita o ritmo, enquanto a Chapecoense aposta nos contra-ataques para tentar reagir.",
+      "player": {
+        "name": "Corinthians na frente em início quente!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 23,
+        "extra": null
+      },
+      "team": {
         "id": 315,
         "name": "Chapecoense"
       },
@@ -503,6 +519,24 @@
         "name": "Chape troca passes entre seus zagueiros e latera"
       },
       "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 24,
+        "extra": null
+      },
+      "team": {
+        "id": 264,
+        "name": "Corinthians"
+      },
+      "type": "Important",
+      "detail": "Memphis Depay recebe passe de Matheus Bidu no pivô, erra a devolução e reclama com seu companheiro de equipe. O holandês não está gostando da construção das jogadas do Corinthians.",
+      "player": {
+        "name": "Memphis Depay"
+      },
+      "assist": {
+        "name": "Incomodado"
+      }
     }
   ],
   "lineups": [
@@ -951,23 +985,23 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "55%"
+          "value": "58%"
         },
         {
           "type": "Total Passes",
-          "value": 173
+          "value": 224
         },
         {
           "type": "Pass Accuracy",
-          "value": "87%"
+          "value": "89%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 22
+          "value": 25
         },
         {
           "type": "Total Shots",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Shots on Goal",
@@ -975,7 +1009,7 @@
         },
         {
           "type": "Shots off Goal",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Blocked Shots",
@@ -1003,7 +1037,7 @@
         },
         {
           "type": "Tackles",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Fouls",
@@ -1027,19 +1061,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "45%"
+          "value": "42%"
         },
         {
           "type": "Total Passes",
-          "value": 124
+          "value": 133
         },
         {
           "type": "Pass Accuracy",
-          "value": "89%"
+          "value": "88%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 14
+          "value": 16
         },
         {
           "type": "Total Shots",
@@ -1079,11 +1113,11 @@
         },
         {
           "type": "Tackles",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Fouls",
-          "value": 8
+          "value": 9
         },
         {
           "type": "Yellow Cards",

@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 61
+      "elapsed": 64
     },
     "timerStart": "2026-09-06T20:10:53.980Z",
     "timerStatus": "INICIADO"
@@ -1251,6 +1251,56 @@
         "name": "Outro escanteio para o Flamengo."
       },
       "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 58,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O segundo tempo começou com o Flamengo ainda mais ofensivo, e logo aos 3 minutos Samuel Lino carimbou a trave. Mas o grande nome da partida é o goleiro Marcelo Rangel. Com cerca de 10 minutos, ele operou um verdadeiro milagre ao defender um chute à queima-roupa de Pedro. O Remo responde com perigo, mas o Fla martela em busca do gol, mantendo o jogo intenso e o placar em 0 a 0.",
+      "player": {
+        "name": "Show de Rangel e trave salvam o Remo"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 58,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Léo Ortiz, ainda na área de ataque, tenta finalização após dominar a bola na área, mas manda por cima do gol.",
+      "player": {
+        "name": "Léo Ortiz, ainda na área de ataque, tenta finali"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 59,
+        "extra": null
+      },
+      "team": {
+        "id": 364,
+        "name": "Remo"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Jajá"
+      },
+      "assist": {
+        "name": "Yago Pikachu"
+      }
     }
   ],
   "lineups": [
@@ -1708,19 +1758,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "35%"
+          "value": "33%"
         },
         {
           "type": "Total Passes",
-          "value": 203
+          "value": 209
         },
         {
           "type": "Pass Accuracy",
-          "value": "76%"
+          "value": "75%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 48
+          "value": 53
         },
         {
           "type": "Total Shots",
@@ -1764,7 +1814,7 @@
         },
         {
           "type": "Fouls",
-          "value": 5
+          "value": 6
         },
         {
           "type": "Yellow Cards",
@@ -1784,27 +1834,27 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "65%"
+          "value": "67%"
         },
         {
           "type": "Total Passes",
-          "value": 480
+          "value": 548
         },
         {
           "type": "Pass Accuracy",
-          "value": "89%"
+          "value": "88%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 53
+          "value": 64
         },
         {
           "type": "Total Shots",
-          "value": 11
+          "value": 13
         },
         {
           "type": "Shots on Goal",
-          "value": 3
+          "value": 4
         },
         {
           "type": "Shots off Goal",
@@ -1812,7 +1862,7 @@
         },
         {
           "type": "Blocked Shots",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Hit Woodwork",
@@ -1820,7 +1870,7 @@
         },
         {
           "type": "Corner Kicks",
-          "value": 7
+          "value": 8
         },
         {
           "type": "Offsides",

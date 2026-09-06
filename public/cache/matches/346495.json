@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 84
+      "elapsed": 87
     },
     "timerStart": "2026-09-06T01:08:34.765Z",
     "timerStatus": "INICIADO"
@@ -1603,6 +1603,110 @@
       "assist": {
         "name": "INCRÍVEL!"
       }
+    },
+    {
+      "time": {
+        "elapsed": 83,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Guilherme Arana"
+      },
+      "assist": {
+        "name": "Hulk"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 83,
+        "extra": null
+      },
+      "team": {
+        "id": 267,
+        "name": "Vasco"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Marino Hinestroza"
+      },
+      "assist": {
+        "name": "Adson"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 83,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "Important",
+      "detail": "Após um primeiro tempo de muita pressão do Vasco, o Fluminense voltou melhor para a etapa final e foi recompensado. Aos 15 minutos, a estrela do técnico Marcão brilhou: Lucho Acosta, que havia acabado de entrar, aproveitou um cruzamento de Soteldo para fazer 1 a 0. O Vasco busca o empate, mas foi o Flu que, já aos 35, quase ampliou com Serna, que parou em grande defesa de Léo Jardim.",
+      "player": {
+        "name": "Lucho Acosta sai do banco e abre o placar!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 83,
+        "extra": null
+      },
+      "team": {
+        "id": 267,
+        "name": "Vasco"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Ramon Rique"
+      },
+      "assist": {
+        "name": "Carlos Cuesta"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 84,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "Important",
+      "detail": "Marino avança pelo meio de campo e não consegue concluir. Bola com Fábio.",
+      "player": {
+        "name": "Marino avança pelo meio de campo e não consegue "
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 84,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Júlio Fidelis"
+      },
+      "assist": {
+        "name": "Guga"
+      }
     }
   ],
   "lineups": [
@@ -2060,11 +2164,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "50%"
+          "value": "49%"
         },
         {
           "type": "Total Passes",
-          "value": 422
+          "value": 423
         },
         {
           "type": "Pass Accuracy",
@@ -2072,15 +2176,15 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 62
+          "value": 63
         },
         {
           "type": "Total Shots",
-          "value": 6
+          "value": 7
         },
         {
           "type": "Shots on Goal",
-          "value": 3
+          "value": 4
         },
         {
           "type": "Shots off Goal",
@@ -2116,7 +2220,7 @@
         },
         {
           "type": "Fouls",
-          "value": 8
+          "value": 10
         },
         {
           "type": "Yellow Cards",
@@ -2136,11 +2240,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "50%"
+          "value": "51%"
         },
         {
           "type": "Total Passes",
-          "value": 490
+          "value": 497
         },
         {
           "type": "Pass Accuracy",
@@ -2148,7 +2252,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 72
+          "value": 74
         },
         {
           "type": "Total Shots",
@@ -2188,11 +2292,11 @@
         },
         {
           "type": "Tackles",
-          "value": 18
+          "value": 19
         },
         {
           "type": "Fouls",
-          "value": 18
+          "value": 19
         },
         {
           "type": "Yellow Cards",

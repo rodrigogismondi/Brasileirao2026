@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 5
+      "elapsed": 8
     },
     "timerStart": "2026-09-06T19:00:38.573Z",
     "timerStatus": "INICIADO"
@@ -97,6 +97,90 @@
       "detail": "Carbonero cobra falta na barreira",
       "player": {
         "name": "Carbonero cobra falta na barreira"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 3,
+        "extra": null
+      },
+      "team": {
+        "id": 285,
+        "name": "Internacional"
+      },
+      "type": "Important",
+      "detail": "Agora sim, Carbonero recebe na esquerda, consegue o drible e bate para o gol, com desvio, para fora",
+      "player": {
+        "name": "Carbonero"
+      },
+      "assist": {
+        "name": "PRIMEIRA CHEGADA"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 3,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "A partida começa com o Internacional tendo mais a bola e tentando ditar o ritmo nos primeiros minutos. A principal movimentação ofensiva foi com Carbonero, que sofreu falta pela esquerda, mas sua cobrança parou na barreira do Santos. Até agora, o cenário é de um jogo estudado, com o time da casa trocando passes sem conseguir furar o bloqueio defensivo adversário.",
+      "player": {
+        "name": "Inter controla a bola em início estudado"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 3,
+        "extra": null
+      },
+      "team": {
+        "id": 285,
+        "name": "Internacional"
+      },
+      "type": "Important",
+      "detail": "Inter com mais posse neste começo de jogo, ainda sem conseguir avançar no ataque",
+      "player": {
+        "name": "Inter com mais posse neste começo de jogo, ainda"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 4,
+        "extra": null
+      },
+      "team": {
+        "id": 285,
+        "name": "Internacional"
+      },
+      "type": "Important",
+      "detail": "Alan Patrick cobra escanteio, Brazão espalma estranho a bola, e Mercado não consegue finalizar",
+      "player": {
+        "name": "Mercado"
+      },
+      "assist": {
+        "name": "BRAZÃO DEFENDE"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 5,
+        "extra": null
+      },
+      "team": {
+        "id": 277,
+        "name": "Santos"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Rollheiser"
       },
       "assist": null
     }
@@ -556,35 +640,35 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "59%"
+          "value": "63%"
         },
         {
           "type": "Total Passes",
-          "value": 12
+          "value": 40
         },
         {
           "type": "Pass Accuracy",
-          "value": "75%"
+          "value": "83%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 3
+          "value": 7
         },
         {
           "type": "Total Shots",
-          "value": 0
+          "value": 3
         },
         {
           "type": "Shots on Goal",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Shots off Goal",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Blocked Shots",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Hit Woodwork",
@@ -592,7 +676,7 @@
         },
         {
           "type": "Corner Kicks",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Offsides",
@@ -632,19 +716,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "41%"
+          "value": "37%"
         },
         {
           "type": "Total Passes",
-          "value": 8
+          "value": 16
         },
         {
           "type": "Pass Accuracy",
-          "value": "88%"
+          "value": "81%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 1
+          "value": 3
         },
         {
           "type": "Total Shots",
@@ -680,19 +764,19 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 0
+          "value": 3
         },
         {
           "type": "Tackles",
-          "value": 0
-        },
-        {
-          "type": "Fouls",
           "value": 1
         },
         {
+          "type": "Fouls",
+          "value": 2
+        },
+        {
           "type": "Yellow Cards",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Red Cards",

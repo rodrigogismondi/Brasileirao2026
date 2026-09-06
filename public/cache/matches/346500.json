@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 5
+      "elapsed": 8
     },
     "timerStart": "2026-09-06T19:00:29.774Z",
     "timerStatus": "INICIADO"
@@ -120,6 +120,22 @@
         "extra": null
       },
       "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Arroyo corre pelo corredor e toca para Kaio Jorge, que devolve. O camisa 99 fica sem opção e decide voltar a bola para trás.",
+      "player": {
+        "name": "Arroyo corre pelo corredor e toca para Kaio Jorg"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 2,
+        "extra": null
+      },
+      "team": {
         "id": 283,
         "name": "Cruzeiro"
       },
@@ -129,6 +145,40 @@
         "name": "Matheus Henrique"
       },
       "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 4,
+        "extra": null
+      },
+      "team": {
+        "id": 283,
+        "name": "Cruzeiro"
+      },
+      "type": "Important",
+      "detail": "O Cruzeiro comanda as ações nestes minutos iniciais. Com mais posse de bola, o time da casa já testou a finalização com Matheus Henrique. A melhor chance veio aos 4 minutos, quando Kaio Jorge fez ótima jogada e a bola chegou para Gabriel Rojas. Sozinho na área, o lateral bateu de primeira e mandou por cima do gol, desperdiçando uma oportunidade de ouro para abrir o placar no Mineirão.",
+      "player": {
+        "name": "Cruzeiro domina e perde chance incrível"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 4,
+        "extra": null
+      },
+      "team": {
+        "id": 283,
+        "name": "Cruzeiro"
+      },
+      "type": "Important",
+      "detail": "Kaio Jorge faz boa jogada pelo lado direito. Ele dá passe para Romero, que vê Gabriel Rojas chegando sozinho no meio da área. O lateral não domina e bate de primeira. A bola sobe demais!",
+      "player": {
+        "name": "Gabriel Rojas"
+      },
+      "assist": {
+        "name": "GRANDE CHANCE"
+      }
     }
   ],
   "lineups": [
@@ -586,23 +636,23 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "50%"
+          "value": "71%"
         },
         {
           "type": "Total Passes",
-          "value": 25
+          "value": 46
         },
         {
           "type": "Pass Accuracy",
-          "value": "88%"
+          "value": "91%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 3
+          "value": 4
         },
         {
           "type": "Total Shots",
-          "value": 0
+          "value": 2
         },
         {
           "type": "Shots on Goal",
@@ -610,7 +660,7 @@
         },
         {
           "type": "Shots off Goal",
-          "value": 0
+          "value": 2
         },
         {
           "type": "Blocked Shots",
@@ -642,7 +692,7 @@
         },
         {
           "type": "Fouls",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Yellow Cards",
@@ -662,19 +712,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "50%"
+          "value": "29%"
         },
         {
           "type": "Total Passes",
-          "value": 1
+          "value": 16
         },
         {
           "type": "Pass Accuracy",
-          "value": "100%"
+          "value": "75%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 0
+          "value": 4
         },
         {
           "type": "Total Shots",

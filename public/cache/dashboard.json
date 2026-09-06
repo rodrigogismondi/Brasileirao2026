@@ -12661,7 +12661,7 @@
         "status": {
           "long": "1H",
           "short": "1H",
-          "elapsed": 5
+          "elapsed": 8
         },
         "timerStart": "2026-09-06T19:00:29.774Z",
         "timerStatus": "INICIADO"
@@ -12713,7 +12713,7 @@
         "status": {
           "long": "1H",
           "short": "1H",
-          "elapsed": 5
+          "elapsed": 8
         },
         "timerStart": "2026-09-06T19:00:38.573Z",
         "timerStatus": "INICIADO"
@@ -12765,10 +12765,10 @@
         "status": {
           "long": "1H",
           "short": "1H",
-          "elapsed": null
+          "elapsed": 3
         },
-        "timerStart": "2026-09-06T18:10:03.437Z",
-        "timerStatus": "PAUSADO"
+        "timerStart": "2026-09-06T19:05:23.218Z",
+        "timerStatus": "INICIADO"
       },
       "league": {
         "round": "Regular Season - 26"
@@ -12786,8 +12786,8 @@
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
       "score": {
         "halftime": {
@@ -18540,6 +18540,28 @@
             {
               "rank": 1,
               "team": {
+                "id": 262,
+                "name": "Flamengo",
+                "logo": "https://s.sde.globo.com/media/organizations/2018/04/10/Flamengo-2018.svg"
+              },
+              "points": 52,
+              "goalsDiff": 29,
+              "form": "WWLWD",
+              "description": "Copa Libertadores",
+              "all": {
+                "played": 26,
+                "win": 15,
+                "draw": 7,
+                "lose": 4,
+                "goals": {
+                  "for": 50,
+                  "against": 21
+                }
+              }
+            },
+            {
+              "rank": 2,
+              "team": {
                 "id": 275,
                 "name": "Palmeiras",
                 "logo": "https://s.sde.globo.com/media/organizations/2019/07/06/Palmeiras.svg"
@@ -18555,28 +18577,6 @@
                 "lose": 3,
                 "goals": {
                   "for": 45,
-                  "against": 21
-                }
-              }
-            },
-            {
-              "rank": 2,
-              "team": {
-                "id": 262,
-                "name": "Flamengo",
-                "logo": "https://s.sde.globo.com/media/organizations/2018/04/10/Flamengo-2018.svg"
-              },
-              "points": 51,
-              "goalsDiff": 29,
-              "form": "DWWLW",
-              "description": "Copa Libertadores",
-              "all": {
-                "played": 25,
-                "win": 15,
-                "draw": 6,
-                "lose": 4,
-                "goals": {
-                  "for": 50,
                   "against": 21
                 }
               }
@@ -18940,14 +18940,14 @@
                 "name": "Remo",
                 "logo": "https://s.sde.globo.com/media/organizations/2021/02/25/Remo-PA.svg"
               },
-              "points": 23,
+              "points": 24,
               "goalsDiff": -12,
-              "form": "LDDLL",
+              "form": "DDLLD",
               "description": "Relegation",
               "all": {
-                "played": 25,
+                "played": 26,
                 "win": 5,
-                "draw": 8,
+                "draw": 9,
                 "lose": 12,
                 "goals": {
                   "for": 30,
@@ -19074,6 +19074,28 @@
     {
       "player": {
         "id": 5,
+        "name": "Gabriel",
+        "photo": "https://s.sde.globo.com/media/person_role/2026/03/27/photo_140x140_z4GBWzj.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "name": "Santos",
+            "logo": "https://s.sde.globo.com/media/organizations/2014/04/14/santos_60x60.png"
+          },
+          "goals": {
+            "total": 9,
+            "assists": null
+          },
+          "games": {
+            "appearences": 0
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 6,
         "name": "Flaco López",
         "photo": "https://s.sde.globo.com/media/person_role/2026/08/19/photo_140x140_nrOfcKo.png"
       },
@@ -19095,7 +19117,7 @@
     },
     {
       "player": {
-        "id": 6,
+        "id": 7,
         "name": "Luciano",
         "photo": "https://s.sde.globo.com/media/person_role/2026/03/27/photo_140x140_Gvi1KDn.png"
       },
@@ -19117,7 +19139,7 @@
     },
     {
       "player": {
-        "id": 7,
+        "id": 8,
         "name": "Breno Lopes",
         "photo": "https://s.sde.globo.com/media/person_role/2026/02/09/photo_140x140_q6kEOrG.png"
       },
@@ -19139,7 +19161,7 @@
     },
     {
       "player": {
-        "id": 8,
+        "id": 9,
         "name": "Pedro Rocha",
         "photo": "https://s.sde.globo.com/media/person_role/2025/02/26/photo_140x140_OEA2Hhd.png"
       },
@@ -19161,7 +19183,7 @@
     },
     {
       "player": {
-        "id": 9,
+        "id": 10,
         "name": "Luciano Juba",
         "photo": "https://s.sde.globo.com/media/person_role/2026/07/06/photo_140x140_JKUCf8p.png"
       },
@@ -19183,7 +19205,7 @@
     },
     {
       "player": {
-        "id": 10,
+        "id": 11,
         "name": "Samuel Lino",
         "photo": "https://s.sde.globo.com/media/person_role/2025/07/30/photo_140x140.png"
       },
@@ -19192,28 +19214,6 @@
           "team": {
             "name": "Flamengo",
             "logo": "https://s.sde.globo.com/media/organizations/2018/04/09/Flamengo-65.png"
-          },
-          "goals": {
-            "total": 8,
-            "assists": null
-          },
-          "games": {
-            "appearences": 0
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 11,
-        "name": "Gabriel",
-        "photo": "https://s.sde.globo.com/media/person_role/2026/03/27/photo_140x140_z4GBWzj.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "name": "Santos",
-            "logo": "https://s.sde.globo.com/media/organizations/2014/04/14/santos_60x60.png"
           },
           "goals": {
             "total": 8,
@@ -20091,7 +20091,7 @@
     "mode": "live",
     "liveIntervalMs": 20000
   },
-  "fetchedAt": "2026-09-06T19:06:16.661Z",
+  "fetchedAt": "2026-09-06T19:09:16.610Z",
   "source": "ge-globo",
   "meta": {
     "rodada": 26,

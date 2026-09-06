@@ -11,7 +11,7 @@
       "short": "NS",
       "elapsed": null
     },
-    "timerStart": null,
+    "timerStart": "2026-09-06T21:29:47.903Z",
     "timerStatus": "PAUSADO"
   },
   "league": {
@@ -44,9 +44,9 @@
     }
   },
   "odds": {
-    "home": 1.44,
-    "draw": 4.38,
-    "away": 6.77,
+    "home": 1.45,
+    "draw": 4.41,
+    "away": 6.75,
     "source": "betexplorer"
   },
   "events": [],
@@ -118,9 +118,18 @@
         },
         {
           "player": {
-            "id": "matheuspereira1",
-            "name": "Matheus Pereira",
-            "number": 23,
+            "id": "carrillo",
+            "name": "Carrillo",
+            "number": 19,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "brenobidon",
+            "name": "Breno Bidon",
+            "number": 7,
             "pos": "Mei",
             "grid": null
           }
@@ -145,15 +154,6 @@
         },
         {
           "player": {
-            "id": "brenobidon",
-            "name": "Breno Bidon",
-            "number": 7,
-            "pos": "Mei",
-            "grid": null
-          }
-        },
-        {
-          "player": {
             "id": "depay",
             "name": "Memphis Depay",
             "number": 10,
@@ -162,7 +162,116 @@
           }
         }
       ],
-      "substitutes": []
+      "substitutes": [
+        {
+          "player": {
+            "id": "felipe-longo",
+            "name": "Felipe Longo",
+            "number": 40,
+            "pos": "Gol",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "pedro-milans",
+            "name": "Milans",
+            "number": 20,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "iago-machado",
+            "name": "Iago Machado",
+            "number": 55,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "angileri",
+            "name": "Angileri",
+            "number": 26,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "hugofarias",
+            "name": "Hugo",
+            "number": 46,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "matheuspereira1",
+            "name": "Matheus Pereira",
+            "number": 23,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "charlesrm",
+            "name": "Charles",
+            "number": 35,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "alexpaulosantana",
+            "name": "Alex Santana",
+            "number": 80,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "lingard",
+            "name": "Lingard",
+            "number": 77,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "pedroraul",
+            "name": "Pedro Raul",
+            "number": 18,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "gui-negao",
+            "name": "Gui Negão",
+            "number": 56,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "dieguinho-lopes",
+            "name": "Dieguinho",
+            "number": 61,
+            "pos": "Ata",
+            "grid": null
+          }
+        }
+      ]
     },
     {
       "team": {

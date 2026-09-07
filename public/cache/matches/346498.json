@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 77
+      "elapsed": 79
     },
     "timerStart": "2026-09-06T23:40:18.425Z",
     "timerStatus": "INICIADO"
@@ -31,7 +31,7 @@
   },
   "goals": {
     "home": 1,
-    "away": 1
+    "away": 2
   },
   "score": {
     "halftime": {
@@ -1605,6 +1605,38 @@
       "detail": "Falta a favor do Corinthians no círculo central do campo.",
       "player": {
         "name": "Falta a favor do Corinthians no círculo central "
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 76,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Corinthians abriu o placar logo no início com Matheus Bidu e dominou o primeiro tempo, mas desperdiçou chances claras com Memphis Depay e Garro, parando em grande defesa do goleiro Anderson. A Chapecoense se segurou e empatou com Marcinho. Aos 31 do segundo tempo, a virada: Bolasie serviu Marcinho, que marcou seu segundo gol na partida e colocou a Chape na frente por 2 a 1.",
+      "player": {
+        "name": "Virada da Chape na Neo Química Arena!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 76,
+        "extra": null
+      },
+      "team": {
+        "id": 315,
+        "name": "Chapecoense"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "player": {
+        "name": "Marcinho"
       },
       "assist": null
     },

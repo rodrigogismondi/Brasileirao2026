@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 73
+      "elapsed": 77
     },
     "timerStart": "2026-09-06T23:40:18.425Z",
     "timerStatus": "INICIADO"
@@ -1296,6 +1296,24 @@
         "extra": null
       },
       "team": {
+        "id": 315,
+        "name": "Chapecoense"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Miguel Carvalho"
+      },
+      "assist": {
+        "name": "Giovanni Augusto"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 61,
+        "extra": null
+      },
+      "team": {
         "id": 0,
         "name": ""
       },
@@ -1518,11 +1536,93 @@
       "type": "subst",
       "detail": "Substitution 1",
       "player": {
+        "name": "Bruno Matias"
+      },
+      "assist": {
+        "name": "Heitor"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 73,
+        "extra": null
+      },
+      "team": {
+        "id": 315,
+        "name": "Chapecoense"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
         "name": "Everton"
       },
       "assist": {
         "name": "Yago Felipe"
       }
+    },
+    {
+      "time": {
+        "elapsed": 74,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O empate em 1 a 1 segue no placar, mas a emoção é total na etapa final! Depois de Matheus Bidu abrir para o Corinthians e Marcinho igualar para a Chape, o segundo tempo é de tirar o fôlego. A Chapecoense cresceu e quase virou com Garcez, travado por Bidu, e em uma chance incrível de Marcinho aos 23 minutos, que parou em defesa espetacular do goleiro Kauê. O Timão busca o ataque, mas o jogo está aberto.",
+      "player": {
+        "name": "Goleiros brilham no empate em Itaquera"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 74,
+        "extra": null
+      },
+      "team": {
+        "id": 264,
+        "name": "Corinthians"
+      },
+      "type": "Important",
+      "detail": "Corinthians troca passes no meio de campo.",
+      "player": {
+        "name": "Corinthians troca passes no meio de campo."
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 75,
+        "extra": null
+      },
+      "team": {
+        "id": 264,
+        "name": "Corinthians"
+      },
+      "type": "Important",
+      "detail": "Falta a favor do Corinthians no círculo central do campo.",
+      "player": {
+        "name": "Falta a favor do Corinthians no círculo central "
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 76,
+        "extra": null
+      },
+      "team": {
+        "id": 264,
+        "name": "Corinthians"
+      },
+      "type": "Important",
+      "detail": "Garro é acionado pela esquerda, corre livre para dentro da área, demora para tomar uma decisão e é interceptado por Kauan.",
+      "player": {
+        "name": "Garro"
+      },
+      "assist": null
     }
   ],
   "lineups": [
@@ -1958,15 +2058,6 @@
             "pos": "Mei",
             "grid": null
           }
-        },
-        {
-          "player": {
-            "id": "miguel-miranda-stoco",
-            "name": "Miguel",
-            "number": null,
-            "pos": "Mei",
-            "grid": null
-          }
         }
       ]
     }
@@ -1980,11 +2071,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "57%"
+          "value": "59%"
         },
         {
           "type": "Total Passes",
-          "value": 541
+          "value": 576
         },
         {
           "type": "Pass Accuracy",
@@ -1992,7 +2083,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 60
+          "value": 61
         },
         {
           "type": "Total Shots",
@@ -2056,19 +2147,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "43%"
+          "value": "41%"
         },
         {
           "type": "Total Passes",
-          "value": 356
+          "value": 357
         },
         {
           "type": "Pass Accuracy",
-          "value": "86%"
+          "value": "85%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 51
+          "value": 52
         },
         {
           "type": "Total Shots",
@@ -2112,7 +2203,7 @@
         },
         {
           "type": "Fouls",
-          "value": 17
+          "value": 18
         },
         {
           "type": "Yellow Cards",

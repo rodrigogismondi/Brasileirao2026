@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 82
+      "elapsed": 86
     },
     "timerStart": "2026-09-06T23:40:18.425Z",
     "timerStatus": "INICIADO"
@@ -1712,6 +1712,38 @@
         "extra": null
       },
       "team": {
+        "id": 264,
+        "name": "Corinthians"
+      },
+      "type": "Important",
+      "detail": "Falta a favor do Corinthians na entrada da área.",
+      "player": {
+        "name": "Falta a favor do Corinthians na entrada da área."
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 82,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Que reviravolta em Itaquera! O Corinthians saiu na frente com Matheus Bidu logo no começo e pressionou muito, mas viu a Chapecoense buscar o empate com Marcinho, ainda na primeira etapa. No segundo tempo, o jogo ficou mais aberto e, aos 31 minutos, a virada veio: Bolasie serviu Marcinho, que não perdoou e marcou seu segundo gol no jogo, deixando a Chape na frente por 2 a 1.",
+      "player": {
+        "name": "Virada da Chape na Neo Química Arena!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 82,
+        "extra": null
+      },
+      "team": {
         "id": 315,
         "name": "Chapecoense"
       },
@@ -1719,6 +1751,74 @@
       "detail": "Chape troca passes no campo de defesa.",
       "player": {
         "name": "Chape troca passes no campo de defesa."
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 83,
+        "extra": null
+      },
+      "team": {
+        "id": 264,
+        "name": "Corinthians"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Matheus Pereira"
+      },
+      "assist": {
+        "name": "Carrillo"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 83,
+        "extra": null
+      },
+      "team": {
+        "id": 264,
+        "name": "Corinthians"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Pedro Raul"
+      },
+      "assist": {
+        "name": "Garro"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 84,
+        "extra": null
+      },
+      "team": {
+        "id": 315,
+        "name": "Chapecoense"
+      },
+      "type": "Important",
+      "detail": "Matheus Pereira, em seu primeiro toque na bola, erra passe no meio de campo e cria contra-ataque para a Chape.",
+      "player": {
+        "name": "Matheus Pereira"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 84,
+        "extra": null
+      },
+      "team": {
+        "id": 264,
+        "name": "Corinthians"
+      },
+      "type": "Important",
+      "detail": "Matheuzinho cobra para dentro da área, a zaga da Chapecoense afasta. No rebote, o Corinthians aciona Pedro Raul pelo alto, mas o centroavante não chega na bola.",
+      "player": {
+        "name": "Matheuzinho cobra para dentro da área, a zaga da"
       },
       "assist": null
     }
@@ -2169,11 +2269,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "59%"
+          "value": "58%"
         },
         {
           "type": "Total Passes",
-          "value": 585
+          "value": 613
         },
         {
           "type": "Pass Accuracy",
@@ -2181,7 +2281,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 61
+          "value": 62
         },
         {
           "type": "Total Shots",
@@ -2245,11 +2345,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "41%"
+          "value": "42%"
         },
         {
           "type": "Total Passes",
-          "value": 381
+          "value": 393
         },
         {
           "type": "Pass Accuracy",
@@ -2297,11 +2397,11 @@
         },
         {
           "type": "Tackles",
-          "value": 14
+          "value": 15
         },
         {
           "type": "Fouls",
-          "value": 18
+          "value": 19
         },
         {
           "type": "Yellow Cards",

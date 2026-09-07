@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 92
+      "elapsed": 95
     },
     "timerStart": "2026-09-06T23:40:18.425Z",
     "timerStatus": "INICIADO"
@@ -1973,6 +1973,40 @@
         "name": "Acréscimos"
       },
       "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 92,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Que jogaço em Itaquera! Após abrir o placar com Bidu, o Corinthians desperdiçou chances e viu a Chapecoense crescer. A virada veio aos 31 do segundo tempo, com o segundo gol de Marcinho na partida, fazendo 2 a 1. Nos acréscimos, o Timão pressiona com tudo: Gui Negão quase marcou um golaço e Pedro Raul parou em defesa espetacular de Anderson, que vai garantindo o resultado para os visitantes.",
+      "player": {
+        "name": "Chape vira e segura pressão no fim!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 92,
+        "extra": null
+      },
+      "team": {
+        "id": 315,
+        "name": "Chapecoense"
+      },
+      "type": "Important",
+      "detail": "Dieguinho recebe na ponta direita, coloca o marcador para dançar e cruza na medida para Pedro Raul. Dentro da pequena área, o centroavante cabeceia em cima do goleiro Anderson, que salva a Chape.",
+      "player": {
+        "name": "Pedro Raul"
+      },
+      "assist": {
+        "name": "EM CIMA DO GOLEIRO"
+      }
     }
   ],
   "lineups": [
@@ -2421,11 +2455,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "58%"
+          "value": "59%"
         },
         {
           "type": "Total Passes",
-          "value": 651
+          "value": 683
         },
         {
           "type": "Pass Accuracy",
@@ -2433,7 +2467,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 72
+          "value": 78
         },
         {
           "type": "Total Shots",
@@ -2457,7 +2491,7 @@
         },
         {
           "type": "Corner Kicks",
-          "value": 4
+          "value": 5
         },
         {
           "type": "Offsides",
@@ -2497,11 +2531,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "42%"
+          "value": "41%"
         },
         {
           "type": "Total Passes",
-          "value": 406
+          "value": 413
         },
         {
           "type": "Pass Accuracy",
@@ -2509,7 +2543,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 58
+          "value": 59
         },
         {
           "type": "Total Shots",
@@ -2549,7 +2583,7 @@
         },
         {
           "type": "Tackles",
-          "value": 16
+          "value": 18
         },
         {
           "type": "Fouls",

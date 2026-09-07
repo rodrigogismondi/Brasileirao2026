@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 71
+      "elapsed": 73
     },
     "timerStart": "2026-09-06T23:40:18.425Z",
     "timerStatus": "INICIADO"
@@ -1473,6 +1473,56 @@
       "assist": {
         "name": "Saaaaaaaaaaaaaalva, Kauê!"
       }
+    },
+    {
+      "time": {
+        "elapsed": 71,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Com o placar em 1 a 1, o segundo tempo pega fogo! Após Matheus Bidu abrir o placar para o Corinthians e Marcinho empatar para a Chapecoense na primeira etapa, a equipe visitante cresceu e quase virou o jogo. A virada só não veio graças a um bloqueio salvador de Bidu e, principalmente, a uma defesa espetacular do goleiro Kauê em um mano a mano cara a cara com Marcinho.",
+      "player": {
+        "name": "Chape reage e goleiros são os heróis"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 72,
+        "extra": null
+      },
+      "team": {
+        "id": 315,
+        "name": "Chapecoense"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Kauan"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 73,
+        "extra": null
+      },
+      "team": {
+        "id": 315,
+        "name": "Chapecoense"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Everton"
+      },
+      "assist": {
+        "name": "Yago Felipe"
+      }
     }
   ],
   "lineups": [
@@ -1866,15 +1916,6 @@
         },
         {
           "player": {
-            "id": "miguel-miranda-stoco",
-            "name": "Miguel",
-            "number": 80,
-            "pos": "Mei",
-            "grid": null
-          }
-        },
-        {
-          "player": {
             "id": "borrerody",
             "name": "Borrero",
             "number": 77,
@@ -1917,6 +1958,15 @@
             "pos": "Mei",
             "grid": null
           }
+        },
+        {
+          "player": {
+            "id": "miguel-miranda-stoco",
+            "name": "Miguel",
+            "number": null,
+            "pos": "Mei",
+            "grid": null
+          }
         }
       ]
     }
@@ -1930,11 +1980,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "56%"
+          "value": "57%"
         },
         {
           "type": "Total Passes",
-          "value": 504
+          "value": 541
         },
         {
           "type": "Pass Accuracy",
@@ -1942,7 +1992,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 55
+          "value": 60
         },
         {
           "type": "Total Shots",
@@ -1970,7 +2020,7 @@
         },
         {
           "type": "Offsides",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Penalties",
@@ -1978,7 +2028,7 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 4
+          "value": 5
         },
         {
           "type": "Tackles",
@@ -2006,11 +2056,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "44%"
+          "value": "43%"
         },
         {
           "type": "Total Passes",
-          "value": 351
+          "value": 356
         },
         {
           "type": "Pass Accuracy",
@@ -2018,15 +2068,15 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 48
+          "value": 51
         },
         {
           "type": "Total Shots",
-          "value": 5
+          "value": 6
         },
         {
           "type": "Shots on Goal",
-          "value": 4
+          "value": 5
         },
         {
           "type": "Shots off Goal",
@@ -2066,7 +2116,7 @@
         },
         {
           "type": "Yellow Cards",
-          "value": 3
+          "value": 4
         },
         {
           "type": "Red Cards",

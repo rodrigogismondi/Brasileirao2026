@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 79
+      "elapsed": 82
     },
     "timerStart": "2026-09-06T23:40:18.425Z",
     "timerStatus": "INICIADO"
@@ -1655,6 +1655,72 @@
         "name": "Garro"
       },
       "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 79,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Corinthians abriu o placar com Matheus Bidu logo no início e dominou, mas desperdiçou muitas chances. A Chapecoense foi letal e, aos 40 minutos, Marcinho empatou de cabeça. No segundo tempo, aos 31, ele de novo: após tiro de meta e casquinha de Garcez, Marcinho recebeu de Bolasie e virou o jogo para 2 a 1, calando a arena e coroando sua grande atuação.",
+      "player": {
+        "name": "Virada da Chape com show de Marcinho!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 79,
+        "extra": null
+      },
+      "team": {
+        "id": 264,
+        "name": "Corinthians"
+      },
+      "type": "Important",
+      "detail": "Corinthians troca passes no campo de defesa.",
+      "player": {
+        "name": "Corinthians troca passes no campo de defesa."
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 80,
+        "extra": null
+      },
+      "team": {
+        "id": 315,
+        "name": "Chapecoense"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "David"
+      },
+      "assist": {
+        "name": "Marcinho"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 82,
+        "extra": null
+      },
+      "team": {
+        "id": 315,
+        "name": "Chapecoense"
+      },
+      "type": "Important",
+      "detail": "Chape troca passes no campo de defesa.",
+      "player": {
+        "name": "Chape troca passes no campo de defesa."
+      },
+      "assist": null
     }
   ],
   "lineups": [
@@ -2107,11 +2173,11 @@
         },
         {
           "type": "Total Passes",
-          "value": 576
+          "value": 585
         },
         {
           "type": "Pass Accuracy",
-          "value": "89%"
+          "value": "90%"
         },
         {
           "type": "Incomplete Passes",
@@ -2119,7 +2185,7 @@
         },
         {
           "type": "Total Shots",
-          "value": 9
+          "value": 10
         },
         {
           "type": "Shots on Goal",
@@ -2127,7 +2193,7 @@
         },
         {
           "type": "Shots off Goal",
-          "value": 4
+          "value": 5
         },
         {
           "type": "Blocked Shots",
@@ -2183,23 +2249,23 @@
         },
         {
           "type": "Total Passes",
-          "value": 357
+          "value": 381
         },
         {
           "type": "Pass Accuracy",
-          "value": "85%"
+          "value": "86%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 52
+          "value": 54
         },
         {
           "type": "Total Shots",
-          "value": 6
+          "value": 7
         },
         {
           "type": "Shots on Goal",
-          "value": 5
+          "value": 6
         },
         {
           "type": "Shots off Goal",

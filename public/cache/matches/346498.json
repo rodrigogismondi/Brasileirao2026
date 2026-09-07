@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 61
+      "elapsed": 64
     },
     "timerStart": "2026-09-06T23:40:18.425Z",
     "timerStatus": "INICIADO"
@@ -1226,6 +1226,22 @@
         "extra": null
       },
       "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O segundo tempo começa com o placar em 1 a 1 em um jogo movimentado. O Corinthians abriu o placar cedo com Matheus Bidu e pressionou muito, mas parou em grande defesa de Anderson em chute de Garro e desperdiçou chances claras. A Chapecoense aproveitou um contra-ataque e empatou com Marcinho. O Timão ainda teve um gol anulado. Já na segunda etapa, Bidu salvou o que seria a virada da Chape.",
+      "player": {
+        "name": "Tudo igual, mas com chances de sobra!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 58,
+        "extra": null
+      },
+      "team": {
         "id": 264,
         "name": "Corinthians"
       },
@@ -1236,6 +1252,76 @@
       },
       "assist": {
         "name": "Errou"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 61,
+        "extra": null
+      },
+      "team": {
+        "id": 264,
+        "name": "Corinthians"
+      },
+      "type": "Important",
+      "detail": "Kaio César é acionado pela direita, passa por dois marcadores, puxa para o meio e finaliza de chapa em direção ao gol. Bem posicionado, o goleiro Anderson faz a defesa com facilidade.",
+      "player": {
+        "name": "Kaio César"
+      },
+      "assist": {
+        "name": "No meio do gol"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 61,
+        "extra": null
+      },
+      "team": {
+        "id": 315,
+        "name": "Chapecoense"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Bolasie"
+      },
+      "assist": {
+        "name": "Túlio Eduardo"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 61,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Já no segundo tempo, o placar de 1 a 1 não reflete o domínio do Corinthians. O time abriu o placar com Matheus Bidu logo no início, mas depois empilhou chances claras, incluindo um gol anulado. A Chapecoense foi letal no contra-ataque e empatou com Marcinho. Na etapa final, a Chape quase virou em finalização de Garcez, mas Bidu salvou em cima da linha. O jogo segue aberto e imprevisível.",
+      "player": {
+        "name": "Empate com lamentos e chances perdidas"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 61,
+        "extra": null
+      },
+      "team": {
+        "id": 315,
+        "name": "Chapecoense"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Miguel"
+      },
+      "assist": {
+        "name": "Giovanni Augusto"
       }
     }
   ],
@@ -1689,7 +1775,7 @@
         },
         {
           "type": "Total Passes",
-          "value": 443
+          "value": 463
         },
         {
           "type": "Pass Accuracy",
@@ -1697,19 +1783,19 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 49
+          "value": 50
         },
         {
           "type": "Total Shots",
-          "value": 7
+          "value": 9
         },
         {
           "type": "Shots on Goal",
-          "value": 4
+          "value": 5
         },
         {
           "type": "Shots off Goal",
-          "value": 3
+          "value": 4
         },
         {
           "type": "Blocked Shots",
@@ -1741,7 +1827,7 @@
         },
         {
           "type": "Fouls",
-          "value": 6
+          "value": 7
         },
         {
           "type": "Yellow Cards",
@@ -1765,15 +1851,15 @@
         },
         {
           "type": "Total Passes",
-          "value": 319
+          "value": 325
         },
         {
           "type": "Pass Accuracy",
-          "value": "87%"
+          "value": "86%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 42
+          "value": 44
         },
         {
           "type": "Total Shots",
@@ -1809,15 +1895,15 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Tackles",
-          "value": 10
+          "value": 11
         },
         {
           "type": "Fouls",
-          "value": 15
+          "value": 16
         },
         {
           "type": "Yellow Cards",

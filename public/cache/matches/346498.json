@@ -7,12 +7,12 @@
       "city": ""
     },
     "status": {
-      "long": "2H",
-      "short": "2H",
-      "elapsed": 95
+      "long": "FT",
+      "short": "FT",
+      "elapsed": 90
     },
     "timerStart": "2026-09-06T23:40:18.425Z",
-    "timerStatus": "INICIADO"
+    "timerStatus": "PAUSADO"
   },
   "league": {
     "round": "Regular Season - 26"
@@ -39,8 +39,8 @@
       "away": null
     },
     "fulltime": {
-      "home": null,
-      "away": null
+      "home": 1,
+      "away": 2
     }
   },
   "odds": {
@@ -50,6 +50,22 @@
     "source": "betexplorer"
   },
   "events": [
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Corinthians 1x2 Chapecoense.",
+      "player": {
+        "name": "Fim de jogo"
+      },
+      "assist": null
+    },
     {
       "time": {
         "elapsed": 0,
@@ -2007,6 +2023,58 @@
       "assist": {
         "name": "EM CIMA DO GOLEIRO"
       }
+    },
+    {
+      "time": {
+        "elapsed": 93,
+        "extra": null
+      },
+      "team": {
+        "id": 264,
+        "name": "Corinthians"
+      },
+      "type": "Important",
+      "detail": "De novo, Dieguinho coloca para dentro da área. Desta vez, Pedro Raul cabeceia para fora, longe do gol.",
+      "player": {
+        "name": "Pedro Raul"
+      },
+      "assist": {
+        "name": "Longe do gol"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 95,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Corinthians abriu o placar logo no início com Matheus Bidu, mas a Chapecoense buscou o empate com Marcinho antes do intervalo. O Timão ainda teve um gol anulado. No segundo tempo, em um jogo mais aberto, a Chape aproveitou um contra-ataque aos 31 minutos e virou a partida para 2 a 1, novamente com o inspirado Marcinho. Na reta final, o Corinthians pressionou com tudo, acertando o travessão e perdendo chances claras.",
+      "player": {
+        "name": "Chape vira e Corinthians pressiona até o fim"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 95,
+        "extra": null
+      },
+      "team": {
+        "id": 264,
+        "name": "Corinthians"
+      },
+      "type": "Important",
+      "detail": "Matheus Pereira, sozinho no meio, cruza para dentro da área. Bidon domina no peito, levanta a bola e vira uma bicicleta plástica, mas erra o alvo e manda por cima.",
+      "player": {
+        "name": "Breno Bidon"
+      },
+      "assist": {
+        "name": "De bicicleta"
+      }
     }
   ],
   "lineups": [
@@ -2459,7 +2527,7 @@
         },
         {
           "type": "Total Passes",
-          "value": 683
+          "value": 709
         },
         {
           "type": "Pass Accuracy",
@@ -2467,19 +2535,19 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 78
+          "value": 81
         },
         {
           "type": "Total Shots",
-          "value": 12
+          "value": 15
         },
         {
           "type": "Shots on Goal",
-          "value": 5
+          "value": 6
         },
         {
           "type": "Shots off Goal",
-          "value": 6
+          "value": 8
         },
         {
           "type": "Blocked Shots",
@@ -2511,7 +2579,7 @@
         },
         {
           "type": "Fouls",
-          "value": 8
+          "value": 9
         },
         {
           "type": "Yellow Cards",
@@ -2535,15 +2603,15 @@
         },
         {
           "type": "Total Passes",
-          "value": 413
+          "value": 416
         },
         {
           "type": "Pass Accuracy",
-          "value": "86%"
+          "value": "85%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 59
+          "value": 62
         },
         {
           "type": "Total Shots",
@@ -2579,7 +2647,7 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 4
+          "value": 5
         },
         {
           "type": "Tackles",

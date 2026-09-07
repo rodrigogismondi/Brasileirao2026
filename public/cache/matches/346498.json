@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 86
+      "elapsed": 89
     },
     "timerStart": "2026-09-06T23:40:18.425Z",
     "timerStatus": "INICIADO"
@@ -1821,6 +1821,58 @@
         "name": "Matheuzinho cobra para dentro da área, a zaga da"
       },
       "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 85,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Que reviravolta na Neo Química Arena! O Corinthians abriu o placar logo no início com Matheus Bidu e dominou o primeiro tempo, mas desperdiçou chances claras de ampliar. A Chapecoense foi letal e empatou com Marcinho antes do intervalo. No segundo tempo, aos 31 minutos, Marcinho apareceu de novo em um contra-ataque fulminante e virou o jogo para 2 a 1 para o time catarinense.",
+      "player": {
+        "name": "Virada da Chapecoense em Itaquera!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 85,
+        "extra": null
+      },
+      "team": {
+        "id": 315,
+        "name": "Chapecoense"
+      },
+      "type": "Important",
+      "detail": "Bolasie dá uma casquinha pelo alto e deixa Garcez sozinho para finalizar. O atacante entra na área e bate para fora. O bandeira assinala impedimento.",
+      "player": {
+        "name": "Garcez"
+      },
+      "assist": {
+        "name": "IMPEDIDO"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 86,
+        "extra": null
+      },
+      "team": {
+        "id": 315,
+        "name": "Chapecoense"
+      },
+      "type": "Important",
+      "detail": "Na raça, Gui Negão desarma o volante da Chape na entrada da área, arma para o pé direito e solta uma bomba. A bola tira tinta do travessão, mas não entra.",
+      "player": {
+        "name": "Gui Negão"
+      },
+      "assist": {
+        "name": "Que bomba!"
+      }
     }
   ],
   "lineups": [
@@ -2273,7 +2325,7 @@
         },
         {
           "type": "Total Passes",
-          "value": 613
+          "value": 633
         },
         {
           "type": "Pass Accuracy",
@@ -2281,11 +2333,11 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 62
+          "value": 65
         },
         {
           "type": "Total Shots",
-          "value": 10
+          "value": 11
         },
         {
           "type": "Shots on Goal",
@@ -2297,7 +2349,7 @@
         },
         {
           "type": "Blocked Shots",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Hit Woodwork",
@@ -2349,7 +2401,7 @@
         },
         {
           "type": "Total Passes",
-          "value": 393
+          "value": 405
         },
         {
           "type": "Pass Accuracy",
@@ -2357,7 +2409,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 54
+          "value": 57
         },
         {
           "type": "Total Shots",
@@ -2385,7 +2437,7 @@
         },
         {
           "type": "Offsides",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Penalties",
@@ -2393,15 +2445,15 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 3
+          "value": 4
         },
         {
           "type": "Tackles",
-          "value": 15
+          "value": 16
         },
         {
           "type": "Fouls",
-          "value": 19
+          "value": 20
         },
         {
           "type": "Yellow Cards",

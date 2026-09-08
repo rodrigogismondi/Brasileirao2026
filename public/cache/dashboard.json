@@ -12909,12 +12909,12 @@
           "city": ""
         },
         "status": {
-          "long": "1H",
-          "short": "1H",
-          "elapsed": 4
+          "long": "FT",
+          "short": "FT",
+          "elapsed": 90
         },
-        "timerStart": "2026-09-07T23:02:25.392Z",
-        "timerStatus": "INICIADO"
+        "timerStart": "2026-09-08T01:00:53.131Z",
+        "timerStatus": "PAUSADO"
       },
       "league": {
         "round": "Regular Season - 26"
@@ -12932,7 +12932,7 @@
         }
       },
       "goals": {
-        "home": 0,
+        "home": 1,
         "away": 0
       },
       "score": {
@@ -12941,8 +12941,8 @@
           "away": null
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         }
       },
       "odds": {
@@ -18796,6 +18796,28 @@
             {
               "rank": 11,
               "team": {
+                "id": 287,
+                "name": "Vitória",
+                "logo": "https://s.sde.globo.com/media/organizations/2025/12/18/Vitoria_2025.svg"
+              },
+              "points": 32,
+              "goalsDiff": -12,
+              "form": "LWLLW",
+              "description": "Copa Sudamericana",
+              "all": {
+                "played": 26,
+                "win": 9,
+                "draw": 5,
+                "lose": 12,
+                "goals": {
+                  "for": 25,
+                  "against": 37
+                }
+              }
+            },
+            {
+              "rank": 12,
+              "team": {
                 "id": 264,
                 "name": "Corinthians",
                 "logo": "https://s.sde.globo.com/media/organizations/2024/10/09/Corinthians_2024_Q4ahot4.svg"
@@ -18803,7 +18825,7 @@
               "points": 32,
               "goalsDiff": 0,
               "form": "WLLLL",
-              "description": "Copa Sudamericana",
+              "description": null,
               "all": {
                 "played": 26,
                 "win": 8,
@@ -18816,7 +18838,7 @@
               }
             },
             {
-              "rank": 12,
+              "rank": 13,
               "team": {
                 "id": 277,
                 "name": "Santos",
@@ -18838,7 +18860,7 @@
               }
             },
             {
-              "rank": 13,
+              "rank": 14,
               "team": {
                 "id": 263,
                 "name": "Botafogo",
@@ -18860,46 +18882,24 @@
               }
             },
             {
-              "rank": 14,
-              "team": {
-                "id": 287,
-                "name": "Vitória",
-                "logo": "https://s.sde.globo.com/media/organizations/2025/12/18/Vitoria_2025.svg"
-              },
-              "points": 30,
-              "goalsDiff": -13,
-              "form": "LWLLD",
-              "description": null,
-              "all": {
-                "played": 26,
-                "win": 8,
-                "draw": 6,
-                "lose": 12,
-                "goals": {
-                  "for": 24,
-                  "against": 37
-                }
-              }
-            },
-            {
               "rank": 15,
               "team": {
                 "id": 284,
                 "name": "Grêmio",
                 "logo": "https://s.sde.globo.com/media/organizations/2018/03/12/gremio.svg"
               },
-              "points": 29,
-              "goalsDiff": -5,
-              "form": "WLLWD",
+              "points": 28,
+              "goalsDiff": -6,
+              "form": "WLLWL",
               "description": null,
               "all": {
                 "played": 25,
                 "win": 7,
-                "draw": 8,
-                "lose": 10,
+                "draw": 7,
+                "lose": 11,
                 "goals": {
                   "for": 27,
-                  "against": 32
+                  "against": 33
                 }
               }
             },
@@ -19462,6 +19462,28 @@
     {
       "player": {
         "id": 21,
+        "name": "Renê",
+        "photo": "https://s.sde.globo.com/media/person_role/2026/03/31/photo_140x140_3LaEnb6.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "name": "Vitória",
+            "logo": "https://s.sde.globo.com/media/organizations/2025/12/18/Vitoria-2025-65.png"
+          },
+          "goals": {
+            "total": 6,
+            "assists": null
+          },
+          "games": {
+            "appearences": 0
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 22,
         "name": "Mendoza",
         "photo": "https://s.sde.globo.com/media/person_role/2026/02/02/photo_140x140_HdPEhEa.png"
       },
@@ -19483,7 +19505,7 @@
     },
     {
       "player": {
-        "id": 22,
+        "id": 23,
         "name": "Alef Manga",
         "photo": "https://s.sde.globo.com/media/person_role/2026/02/09/photo_140x140_vvMsJPI.png"
       },
@@ -19505,7 +19527,7 @@
     },
     {
       "player": {
-        "id": 23,
+        "id": 24,
         "name": "Lavega",
         "photo": "https://s.sde.globo.com/media/person_role/2026/02/09/photo_140x140_LeapY03.png"
       },
@@ -19527,7 +19549,7 @@
     },
     {
       "player": {
-        "id": 24,
+        "id": 25,
         "name": "Hulk",
         "photo": "https://s.sde.globo.com/media/person_role/2026/07/06/photo_140x140_KvAp9Mg.png"
       },
@@ -19549,7 +19571,7 @@
     },
     {
       "player": {
-        "id": 25,
+        "id": 26,
         "name": "Canobbio",
         "photo": "https://s.sde.globo.com/media/person_role/2026/07/06/photo_140x140_AyXW0hS.png"
       },
@@ -19571,7 +19593,7 @@
     },
     {
       "player": {
-        "id": 26,
+        "id": 27,
         "name": "Christian",
         "photo": "https://s.sde.globo.com/media/person_role/2025/04/01/photo_140x140_1FOgaNC.png"
       },
@@ -19593,7 +19615,7 @@
     },
     {
       "player": {
-        "id": 27,
+        "id": 28,
         "name": "Lucas Barbosa",
         "photo": "https://s.sde.globo.com/media/person_role/2025/04/02/photo_140x140_BoyWElY.png"
       },
@@ -19615,7 +19637,7 @@
     },
     {
       "player": {
-        "id": 28,
+        "id": 29,
         "name": "Isidro Pitta",
         "photo": "https://s.sde.globo.com/media/person_role/2025/04/02/photo_140x140_2kh4pC4.png"
       },
@@ -19637,7 +19659,7 @@
     },
     {
       "player": {
-        "id": 29,
+        "id": 30,
         "name": "Marcinho",
         "photo": "https://s.sde.globo.com/media/person_role/2023/03/07/photo_140x140_qGyi5zN.png"
       },
@@ -19659,7 +19681,7 @@
     },
     {
       "player": {
-        "id": 30,
+        "id": 31,
         "name": "Barreal",
         "photo": "https://s.sde.globo.com/media/person_role/2025/04/03/photo_140x140_wzd9jAt.png"
       },
@@ -19668,28 +19690,6 @@
           "team": {
             "name": "Santos",
             "logo": "https://s.sde.globo.com/media/organizations/2014/04/14/santos_60x60.png"
-          },
-          "goals": {
-            "total": 5,
-            "assists": null
-          },
-          "games": {
-            "appearences": 0
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 31,
-        "name": "Renê",
-        "photo": "https://s.sde.globo.com/media/person_role/2026/03/31/photo_140x140_3LaEnb6.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "name": "Vitória",
-            "logo": "https://s.sde.globo.com/media/organizations/2025/12/18/Vitoria-2025-65.png"
           },
           "goals": {
             "total": 5,
@@ -20124,10 +20124,10 @@
   "budget": {
     "used": 0,
     "remaining": 100,
-    "mode": "live",
-    "liveIntervalMs": 20000
+    "mode": "idle",
+    "liveIntervalMs": 900000
   },
-  "fetchedAt": "2026-09-07T23:06:44.115Z",
+  "fetchedAt": "2026-09-08T01:11:16.712Z",
   "source": "ge-globo",
   "meta": {
     "rodada": 26,

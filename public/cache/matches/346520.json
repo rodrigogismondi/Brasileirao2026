@@ -10,7 +10,9 @@
       "long": "NS",
       "short": "NS",
       "elapsed": null
-    }
+    },
+    "timerStart": null,
+    "timerStatus": "PAUSADO"
   },
   "league": {
     "round": "Regular Season - 27"
@@ -42,13 +44,240 @@
     }
   },
   "odds": {
-    "home": 2.2,
-    "draw": 3.22,
-    "away": 3.28,
+    "home": 2.22,
+    "draw": 3.18,
+    "away": 3.27,
     "source": "betexplorer"
   },
   "events": [],
-  "lineups": [],
+  "lineups": [
+    {
+      "team": {
+        "id": 282,
+        "name": "Atlético-MG",
+        "logo": "https://s.sde.globo.com/media/organizations/2018/03/10/atletico-mg.svg"
+      },
+      "formation": "4-3-3",
+      "coach": {
+        "name": "Eduardo Domínguez"
+      },
+      "startXI": [
+        {
+          "player": {
+            "id": "gabriel-delfim",
+            "name": "Gabriel Delfim",
+            "number": null,
+            "pos": "Gol",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "natanaelmoreira",
+            "name": "Natanael",
+            "number": 2,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "vitorhugo02",
+            "name": "Vitor Hugo",
+            "number": 14,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "vitao",
+            "name": "Vitão",
+            "number": null,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "renanlodi",
+            "name": "Renan Lodi",
+            "number": 6,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "alanfranco121",
+            "name": "Alan Franco",
+            "number": 21,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "kevcastano",
+            "name": "Castaño",
+            "number": 15,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "fred45",
+            "name": "Fred",
+            "number": 7,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "cuello",
+            "name": "Cuello",
+            "number": 28,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "bernard3",
+            "name": "Bernard",
+            "number": 11,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "cassierramat",
+            "name": "Cassierra",
+            "number": 9,
+            "pos": "Ata",
+            "grid": null
+          }
+        }
+      ],
+      "substitutes": []
+    },
+    {
+      "team": {
+        "id": 266,
+        "name": "Fluminense",
+        "logo": "https://s.sde.globo.com/media/organizations/2018/03/11/fluminense.svg"
+      },
+      "formation": "4-3-3",
+      "coach": {
+        "name": "Marcão"
+      },
+      "startXI": [
+        {
+          "player": {
+            "id": "fabio",
+            "name": "Fábio",
+            "number": 1,
+            "pos": "Gol",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "guga74567",
+            "name": "Guga",
+            "number": 23,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "igor-rabello",
+            "name": "Igor Rabello",
+            "number": null,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "julian-millan",
+            "name": "Millán",
+            "number": null,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "rene12",
+            "name": "Renê",
+            "number": 6,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "matheusmartinelli",
+            "name": "Martinelli",
+            "number": 8,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "hercules-nascimento",
+            "name": "Hércules",
+            "number": null,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "phganso",
+            "name": "Ganso",
+            "number": 10,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "canobbio",
+            "name": "Canobbio",
+            "number": 17,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "hulk",
+            "name": "Hulk",
+            "number": 7,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "soteldo",
+            "name": "Soteldo",
+            "number": 30,
+            "pos": "Ata",
+            "grid": null
+          }
+        }
+      ],
+      "substitutes": []
+    }
+  ],
   "statistics": [],
   "sportsFieldUrl": null
 }

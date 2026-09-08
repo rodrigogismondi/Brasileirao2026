@@ -11,7 +11,7 @@
       "short": "FT",
       "elapsed": 90
     },
-    "timerStart": "2026-09-08T01:00:53.131Z",
+    "timerStart": "2026-09-08T01:09:41.272Z",
     "timerStatus": "PAUSADO"
   },
   "league": {
@@ -44,9 +44,9 @@
     }
   },
   "odds": {
-    "home": 2.11,
+    "home": 2.14,
     "draw": 3.25,
-    "away": 3.53,
+    "away": 3.45,
     "source": "betexplorer"
   },
   "events": [
@@ -982,24 +982,6 @@
         "extra": null
       },
       "team": {
-        "id": 284,
-        "name": "Grêmio"
-      },
-      "type": "subst",
-      "detail": "Substitution 1",
-      "player": {
-        "name": "Danilo Barbosa"
-      },
-      "assist": {
-        "name": "Noriega"
-      }
-    },
-    {
-      "time": {
-        "elapsed": 45,
-        "extra": null
-      },
-      "team": {
         "id": 0,
         "name": ""
       },
@@ -1476,6 +1458,24 @@
       },
       "assist": {
         "name": "Pavón"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 68,
+        "extra": null
+      },
+      "team": {
+        "id": 284,
+        "name": "Grêmio"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Danilo Barbosa"
+      },
+      "assist": {
+        "name": "Noriega"
       }
     },
     {
@@ -2492,7 +2492,7 @@
         },
         {
           "type": "Total Shots",
-          "value": 19
+          "value": 18
         },
         {
           "type": "Shots on Goal",
@@ -2500,7 +2500,7 @@
         },
         {
           "type": "Shots off Goal",
-          "value": 9
+          "value": 8
         },
         {
           "type": "Blocked Shots",
@@ -2604,7 +2604,7 @@
         },
         {
           "type": "Tackles",
-          "value": 14
+          "value": 13
         },
         {
           "type": "Fouls",

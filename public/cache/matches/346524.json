@@ -10,7 +10,9 @@
       "long": "NS",
       "short": "NS",
       "elapsed": null
-    }
+    },
+    "timerStart": null,
+    "timerStatus": "PAUSADO"
   },
   "league": {
     "round": "Regular Season - 27"
@@ -42,13 +44,240 @@
     }
   },
   "odds": {
-    "home": 3.22,
-    "draw": 3.3,
-    "away": 2.2,
+    "home": 3.23,
+    "draw": 3.32,
+    "away": 2.22,
     "source": "betexplorer"
   },
   "events": [],
-  "lineups": [],
+  "lineups": [
+    {
+      "team": {
+        "id": 315,
+        "name": "Chapecoense",
+        "logo": "https://s.sde.globo.com/media/organizations/2021/06/21/CHAPECOENSE-2018.svg"
+      },
+      "formation": "4-3-3",
+      "coach": {
+        "name": "Rafael Lacerda"
+      },
+      "startXI": [
+        {
+          "player": {
+            "id": "andersonsp",
+            "name": "Anderson",
+            "number": 98,
+            "pos": "Gol",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "everton-cruz",
+            "name": "Everton",
+            "number": null,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "kauanfg",
+            "name": "Kauan",
+            "number": 21,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "eduardodoma",
+            "name": "Eduardo Doma",
+            "number": 3,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "brunopacheco",
+            "name": "Bruno Pacheco",
+            "number": 91,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "yagofelipe",
+            "name": "Yago Felipe",
+            "number": null,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "camilo-reijers",
+            "name": "Camilo",
+            "number": null,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "giovanni-augusto",
+            "name": "Giovanni Augusto",
+            "number": 10,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "marcinhoantonio",
+            "name": "Marcinho",
+            "number": 7,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "tulio-eduardo",
+            "name": "Túlio Eduardo",
+            "number": 9,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "bolasie",
+            "name": "Bolasie",
+            "number": null,
+            "pos": "Ata",
+            "grid": null
+          }
+        }
+      ],
+      "substitutes": []
+    },
+    {
+      "team": {
+        "id": 285,
+        "name": "Internacional",
+        "logo": "https://s.sde.globo.com/media/organizations/2018/03/11/internacional.svg"
+      },
+      "formation": "4-4-2",
+      "coach": {
+        "name": "Paulo Pezzolano"
+      },
+      "startXI": [
+        {
+          "player": {
+            "id": "matheus-cunhaq",
+            "name": "Matheus Cunha",
+            "number": 23,
+            "pos": "Gol",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "brunogomes",
+            "name": "Bruno Gomes",
+            "number": 15,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "mercado11",
+            "name": "Mercado",
+            "number": 25,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "maripan",
+            "name": "Maripán",
+            "number": 3,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "bernabei",
+            "name": "Bernabei",
+            "number": 26,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "brunohenrique",
+            "name": "Bruno Henrique",
+            "number": 8,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "rodrigovillagra",
+            "name": "Villagra",
+            "number": 5,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "thiagomaia",
+            "name": "Thiago Maia",
+            "number": 29,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "alanpatrick",
+            "name": "Alan Patrick",
+            "number": 10,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "sanabriatonny",
+            "name": "Sanabria",
+            "number": 19,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "carbonerojo",
+            "name": "Carbonero",
+            "number": null,
+            "pos": "Ata",
+            "grid": null
+          }
+        }
+      ],
+      "substitutes": []
+    }
+  ],
   "statistics": [],
   "sportsFieldUrl": null
 }

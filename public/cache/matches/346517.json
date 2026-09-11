@@ -57,7 +57,7 @@
         "name": "Santos",
         "logo": "https://s.sde.globo.com/media/organizations/2018/03/12/santos.svg"
       },
-      "formation": "4-3-3",
+      "formation": "4-5-1",
       "coach": {
         "name": "Cuca"
       },
@@ -73,9 +73,18 @@
         },
         {
           "player": {
-            "id": "igor-vinicius",
-            "name": "Igor Vinícius",
-            "number": 18,
+            "id": "rodinei-m",
+            "name": "Rodinei",
+            "number": null,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "lucasverissimo",
+            "name": "Lucas Veríssimo",
+            "number": null,
             "pos": "Def",
             "grid": null
           }
@@ -85,15 +94,6 @@
             "id": "willianarao",
             "name": "Willian Arão",
             "number": 15,
-            "pos": "Def",
-            "grid": null
-          }
-        },
-        {
-          "player": {
-            "id": "joao-ananias",
-            "name": "João Ananias",
-            "number": 26,
             "pos": "Def",
             "grid": null
           }
@@ -136,10 +136,19 @@
         },
         {
           "player": {
-            "id": "guscaballero",
-            "name": "Caballero",
-            "number": 17,
-            "pos": "Ata",
+            "id": "rollheiser",
+            "name": "Rollheiser",
+            "number": null,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "thaciano",
+            "name": "Thaciano",
+            "number": null,
+            "pos": "Mei",
             "grid": null
           }
         },
@@ -148,15 +157,6 @@
             "id": "rony-botafogo",
             "name": "Rony",
             "number": 11,
-            "pos": "Ata",
-            "grid": null
-          }
-        },
-        {
-          "player": {
-            "id": "davizinho",
-            "name": "Davizinho",
-            "number": 27,
             "pos": "Ata",
             "grid": null
           }
@@ -213,9 +213,9 @@
         },
         {
           "player": {
-            "id": "lvillalba",
-            "name": "Villalba",
-            "number": 25,
+            "id": "rojasgabr",
+            "name": "Gabriel Rojas",
+            "number": null,
             "pos": "Def",
             "grid": null
           }
@@ -234,6 +234,15 @@
             "id": "gersonss",
             "name": "Gerson",
             "number": 8,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "matheushenrique1297",
+            "name": "Matheus Henrique",
+            "number": null,
             "pos": "Mei",
             "grid": null
           }
@@ -261,15 +270,6 @@
             "id": "kaio-jorge",
             "name": "Kaio Jorge",
             "number": 19,
-            "pos": "Ata",
-            "grid": null
-          }
-        },
-        {
-          "player": {
-            "id": "wesley-corinthians",
-            "name": "Wesley",
-            "number": 20,
             "pos": "Ata",
             "grid": null
           }

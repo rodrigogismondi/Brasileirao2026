@@ -57,7 +57,7 @@
         "name": "Atlético-MG",
         "logo": "https://s.sde.globo.com/media/organizations/2018/03/10/atletico-mg.svg"
       },
-      "formation": "4-3-3",
+      "formation": "4-5-1",
       "coach": {
         "name": "Eduardo Domínguez"
       },
@@ -66,7 +66,7 @@
           "player": {
             "id": "gabriel-delfim",
             "name": "Gabriel Delfim",
-            "number": null,
+            "number": 1,
             "pos": "Gol",
             "grid": null
           }
@@ -84,7 +84,7 @@
           "player": {
             "id": "vitao",
             "name": "Vitão",
-            "number": null,
+            "number": 40,
             "pos": "Def",
             "grid": null
           }
@@ -127,6 +127,15 @@
         },
         {
           "player": {
+            "id": "cuello",
+            "name": "Cuello",
+            "number": 28,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
             "id": "fred45",
             "name": "Fred",
             "number": 7,
@@ -136,10 +145,10 @@
         },
         {
           "player": {
-            "id": "cuello",
-            "name": "Cuello",
-            "number": 28,
-            "pos": "Ata",
+            "id": "bernard3",
+            "name": "Bernard",
+            "number": 11,
+            "pos": "Mei",
             "grid": null
           }
         },
@@ -148,15 +157,6 @@
             "id": "cassierramat",
             "name": "Cassierra",
             "number": 9,
-            "pos": "Ata",
-            "grid": null
-          }
-        },
-        {
-          "player": {
-            "id": "bernard3",
-            "name": "Bernard",
-            "number": 11,
             "pos": "Ata",
             "grid": null
           }
@@ -197,7 +197,7 @@
           "player": {
             "id": "igor-rabello",
             "name": "Igor Rabello",
-            "number": null,
+            "number": 21,
             "pos": "Def",
             "grid": null
           }
@@ -206,7 +206,7 @@
           "player": {
             "id": "julian-millan",
             "name": "Millán",
-            "number": null,
+            "number": 29,
             "pos": "Def",
             "grid": null
           }
@@ -233,7 +233,7 @@
           "player": {
             "id": "hercules-nascimento",
             "name": "Hércules",
-            "number": null,
+            "number": 35,
             "pos": "Mei",
             "grid": null
           }
@@ -258,18 +258,18 @@
         },
         {
           "player": {
-            "id": "soteldo",
-            "name": "Soteldo",
-            "number": 30,
+            "id": "rodricastillo",
+            "name": "Rodrigo Castillo",
+            "number": 19,
             "pos": "Ata",
             "grid": null
           }
         },
         {
           "player": {
-            "id": "rodricastillo",
-            "name": "Rodrigo Castillo",
-            "number": null,
+            "id": "soteldo",
+            "name": "Soteldo",
+            "number": 30,
             "pos": "Ata",
             "grid": null
           }

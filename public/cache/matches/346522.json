@@ -66,7 +66,7 @@
           "player": {
             "id": "pedro-morisco",
             "name": "Pedro Morisco",
-            "number": null,
+            "number": 1,
             "pos": "Gol",
             "grid": null
           }
@@ -75,7 +75,7 @@
           "player": {
             "id": "jp-chermont",
             "name": "JP Chermont",
-            "number": null,
+            "number": 44,
             "pos": "Def",
             "grid": null
           }
@@ -84,7 +84,7 @@
           "player": {
             "id": "tiagocoser",
             "name": "Tiago Cóser",
-            "number": null,
+            "number": 23,
             "pos": "Def",
             "grid": null
           }
@@ -93,7 +93,7 @@
           "player": {
             "id": "jacy-maranhao",
             "name": "Jacy",
-            "number": null,
+            "number": 55,
             "pos": "Def",
             "grid": null
           }
@@ -102,7 +102,7 @@
           "player": {
             "id": "brunomelo",
             "name": "Bruno Melo",
-            "number": null,
+            "number": 26,
             "pos": "Def",
             "grid": null
           }
@@ -111,7 +111,7 @@
           "player": {
             "id": "thiago_santos",
             "name": "Thiago Santos",
-            "number": null,
+            "number": 21,
             "pos": "Mei",
             "grid": null
           }
@@ -120,7 +120,7 @@
           "player": {
             "id": "sebastiangomezlon",
             "name": "Sebastián Gómez",
-            "number": null,
+            "number": 19,
             "pos": "Mei",
             "grid": null
           }
@@ -129,7 +129,7 @@
           "player": {
             "id": "josuefilipe",
             "name": "Josué",
-            "number": null,
+            "number": 10,
             "pos": "Mei",
             "grid": null
           }
@@ -138,7 +138,7 @@
           "player": {
             "id": "lavega",
             "name": "Lavega",
-            "number": null,
+            "number": 7,
             "pos": "Ata",
             "grid": null
           }
@@ -147,7 +147,7 @@
           "player": {
             "id": "pedrorocha",
             "name": "Pedro Rocha",
-            "number": null,
+            "number": 32,
             "pos": "Ata",
             "grid": null
           }
@@ -156,7 +156,7 @@
           "player": {
             "id": "brenolopes",
             "name": "Breno Lopes",
-            "number": null,
+            "number": 77,
             "pos": "Ata",
             "grid": null
           }
@@ -170,7 +170,7 @@
         "name": "Athletico-PR",
         "logo": "https://s.sde.globo.com/media/organizations/2026/01/07/Athletico-PR.svg"
       },
-      "formation": "3-4-3",
+      "formation": "3-6-1",
       "coach": {
         "name": "Odair Hellmann"
       },
@@ -179,7 +179,7 @@
           "player": {
             "id": "mycael",
             "name": "Mycael",
-            "number": null,
+            "number": 1,
             "pos": "Gol",
             "grid": null
           }
@@ -188,7 +188,7 @@
           "player": {
             "id": "dantas-jvitor",
             "name": "Dantas",
-            "number": null,
+            "number": 25,
             "pos": "Def",
             "grid": null
           }
@@ -197,7 +197,7 @@
           "player": {
             "id": "jfaguirre",
             "name": "Aguirre",
-            "number": null,
+            "number": 33,
             "pos": "Def",
             "grid": null
           }
@@ -206,7 +206,7 @@
           "player": {
             "id": "arthur-dias",
             "name": "Arthur Dias",
-            "number": null,
+            "number": 4,
             "pos": "Def",
             "grid": null
           }
@@ -215,17 +215,8 @@
           "player": {
             "id": "benavidezgas",
             "name": "Benavídez",
-            "number": null,
+            "number": 29,
             "pos": "Def",
-            "grid": null
-          }
-        },
-        {
-          "player": {
-            "id": "luizgustavo",
-            "name": "Luiz Gustavo",
-            "number": null,
-            "pos": "Mei",
             "grid": null
           }
         },
@@ -233,7 +224,34 @@
           "player": {
             "id": "jadson16",
             "name": "Jadson",
-            "number": null,
+            "number": 16,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "luizgustavo",
+            "name": "Luiz Gustavo",
+            "number": 14,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "leozinho",
+            "name": "Leozinho",
+            "number": 21,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "joaovictormachadocruz",
+            "name": "João Cruz",
+            "number": 8,
             "pos": "Mei",
             "grid": null
           }
@@ -242,17 +260,8 @@
           "player": {
             "id": "s-mendoza",
             "name": "Mendoza",
-            "number": null,
+            "number": 7,
             "pos": "Def",
-            "grid": null
-          }
-        },
-        {
-          "player": {
-            "id": "leozinho",
-            "name": "Leozinho",
-            "number": null,
-            "pos": "Ata",
             "grid": null
           }
         },
@@ -260,16 +269,7 @@
           "player": {
             "id": "ksviveros",
             "name": "Viveros",
-            "number": null,
-            "pos": "Ata",
-            "grid": null
-          }
-        },
-        {
-          "player": {
-            "id": "joaovictormachadocruz",
-            "name": "João Cruz",
-            "number": null,
+            "number": 9,
             "pos": "Ata",
             "grid": null
           }

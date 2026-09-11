@@ -13066,7 +13066,9 @@
           "long": "NS",
           "short": "NS",
           "elapsed": null
-        }
+        },
+        "timerStart": null,
+        "timerStatus": "PAUSADO"
       },
       "league": {
         "round": "Regular Season - 27"
@@ -13168,7 +13170,9 @@
           "long": "NS",
           "short": "NS",
           "elapsed": null
-        }
+        },
+        "timerStart": null,
+        "timerStatus": "PAUSADO"
       },
       "league": {
         "round": "Regular Season - 27"
@@ -13218,7 +13222,9 @@
           "long": "NS",
           "short": "NS",
           "elapsed": null
-        }
+        },
+        "timerStart": null,
+        "timerStatus": "PAUSADO"
       },
       "league": {
         "round": "Regular Season - 27"
@@ -13268,7 +13274,9 @@
           "long": "NS",
           "short": "NS",
           "elapsed": null
-        }
+        },
+        "timerStart": null,
+        "timerStatus": "PAUSADO"
       },
       "league": {
         "round": "Regular Season - 27"
@@ -13370,7 +13378,9 @@
           "long": "NS",
           "short": "NS",
           "elapsed": null
-        }
+        },
+        "timerStart": null,
+        "timerStatus": "PAUSADO"
       },
       "league": {
         "round": "Regular Season - 27"
@@ -20135,7 +20145,7 @@
     "mode": "idle",
     "liveIntervalMs": 900000
   },
-  "fetchedAt": "2026-09-11T14:59:49.011Z",
+  "fetchedAt": "2026-09-11T18:23:36.409Z",
   "source": "ge-globo",
   "meta": {
     "rodada": 27,
@@ -20181,13 +20191,13 @@
       38
     ],
     "seasonSyncedAt": "2026-09-11T14:59:45.778Z",
-    "fullSeasonSync": true,
+    "fullSeasonSync": false,
     "edicao": "Campeonato Brasileiro 2026",
     "provider": "ge.globo.com",
     "scorersCount": 50,
-    "oddsMatched": 290,
-    "oddsPreserved": 3,
-    "oddsAvailable": 256,
+    "oddsMatched": 0,
+    "oddsPreserved": 293,
+    "oddsAvailable": 0,
     "fixturesCount": 380
   }
 }

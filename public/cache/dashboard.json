@@ -13098,9 +13098,9 @@
         }
       },
       "odds": {
-        "home": 2.5,
+        "home": 2.52,
         "draw": 3.23,
-        "away": 2.82,
+        "away": 2.79,
         "source": "betexplorer"
       }
     },
@@ -13201,7 +13201,7 @@
       },
       "odds": {
         "home": 1.65,
-        "draw": 3.77,
+        "draw": 3.75,
         "away": 5.08,
         "source": "betexplorer"
       }
@@ -13250,9 +13250,9 @@
         }
       },
       "odds": {
-        "home": 2.31,
+        "home": 2.3,
         "draw": 3.35,
-        "away": 3,
+        "away": 2.97,
         "source": "betexplorer"
       }
     },
@@ -13300,9 +13300,9 @@
         }
       },
       "odds": {
-        "home": 2.96,
-        "draw": 3.32,
-        "away": 2.36,
+        "home": 2.93,
+        "draw": 3.35,
+        "away": 2.37,
         "source": "betexplorer"
       }
     },
@@ -13318,7 +13318,9 @@
           "long": "NS",
           "short": "NS",
           "elapsed": null
-        }
+        },
+        "timerStart": null,
+        "timerStatus": "PAUSADO"
       },
       "league": {
         "round": "Regular Season - 27"
@@ -13400,9 +13402,9 @@
         }
       },
       "odds": {
-        "home": 1.38,
-        "draw": 4.55,
-        "away": 8.88,
+        "home": 1.41,
+        "draw": 4.4,
+        "away": 8.13,
         "source": "betexplorer"
       }
     },
@@ -13502,9 +13504,9 @@
         }
       },
       "odds": {
-        "home": 3.17,
-        "draw": 3.18,
-        "away": 2.29,
+        "home": 3.1,
+        "draw": 3.2,
+        "away": 2.33,
         "source": "betexplorer"
       }
     },
@@ -20133,7 +20135,7 @@
     "mode": "idle",
     "liveIntervalMs": 900000
   },
-  "fetchedAt": "2026-09-11T11:07:19.272Z",
+  "fetchedAt": "2026-09-11T14:59:49.011Z",
   "source": "ge-globo",
   "meta": {
     "rodada": 27,
@@ -20178,14 +20180,14 @@
       37,
       38
     ],
-    "seasonSyncedAt": "2026-09-11T05:58:00.864Z",
-    "fullSeasonSync": false,
+    "seasonSyncedAt": "2026-09-11T14:59:45.778Z",
+    "fullSeasonSync": true,
     "edicao": "Campeonato Brasileiro 2026",
     "provider": "ge.globo.com",
     "scorersCount": 50,
-    "oddsMatched": 0,
-    "oddsPreserved": 293,
-    "oddsAvailable": 0,
+    "oddsMatched": 290,
+    "oddsPreserved": 3,
+    "oddsAvailable": 256,
     "fixturesCount": 380
   }
 }

@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 52
+      "elapsed": 55
     },
     "timerStart": "2026-09-12T22:37:02.880Z",
     "timerStatus": "INICIADO"
@@ -1630,9 +1630,9 @@
         "name": ""
       },
       "type": "Important",
-      "detail": "O primeiro tempo teve seu rumo alterado aos 38 minutos com a expulsão de Osorio, do São Paulo, após dura falta em Piquerez. Com um jogador a mais, o Palmeiras pressionou e abriu o placar com Murilo nos acréscimos. Mal começou a segunda etapa e o time da casa ampliou: aos 4 minutos, Vitor Roque marcou e deixou o placar em 2 a 0, complicando a situação do Tricolor no Choque-Rei.",
+      "detail": "O Choque-Rei teve um primeiro tempo tenso, com chances para os dois lados, até a expulsão de Osorio, do São Paulo, aos 38 minutos, mudar o jogo. Com um a mais, o Palmeiras aproveitou e abriu o placar com Murilo antes do intervalo. Logo no início da segunda etapa, Vitor Roque ampliou a vantagem, deixando o placar em 2 a 0 e complicando a situação do Tricolor na partida.",
       "player": {
-        "name": "Palmeiras aproveita e abre 2 a 0 no clássico"
+        "name": "Expulsão e gols: Palmeiras abre 2 a 0"
       },
       "assist": null
     },
@@ -1740,6 +1740,38 @@
         "extra": null
       },
       "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Important",
+      "detail": "Jogadores do São Paulo reclamam de falta no início da jogada.",
+      "player": {
+        "name": "Jogadores do São Paulo reclamam de falta no iníc"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 51,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Important",
+      "detail": "Jogadores do São Paulo reclamam de falta no início da jogada.",
+      "player": {
+        "name": "Jogadores do São Paulo reclamam de falta no iníc"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 51,
+        "extra": null
+      },
+      "team": {
         "id": 0,
         "name": ""
       },
@@ -1763,6 +1795,22 @@
       "detail": "Encerra a primeira etapa, com vitória parcial do Palmeiras por 1 a 0 sobre o São Paulo.",
       "player": {
         "name": "Fim do primeiro tempo!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 52,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Important",
+      "detail": "São Paulo ganha falta na intermediária do campo. Cobra rápido recuando a bola no goleiro Coronel.",
+      "player": {
+        "name": "São Paulo ganha falta na intermediária do campo."
       },
       "assist": null
     }

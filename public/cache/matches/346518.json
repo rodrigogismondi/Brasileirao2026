@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 40
+      "elapsed": 43
     },
     "timerStart": "2026-09-12T21:30:40.826Z",
     "timerStatus": "INICIADO"
@@ -1106,13 +1106,31 @@
         "extra": null
       },
       "team": {
-        "id": 276,
-        "name": "São Paulo"
+        "id": 275,
+        "name": "Palmeiras"
       },
-      "type": "Card",
-      "detail": "Yellow Card",
+      "type": "Important",
+      "detail": "Zagueiro faz falta em Piquerez, entrando de carrinho no tornozelo esquerdo do lateral do Palmeiras.",
       "player": {
         "name": "Osorio"
+      },
+      "assist": {
+        "name": "Osorio faz falta!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 38,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O clássico é tenso, com muitas faltas e um cartão amarelo para Pablo Maia. O Palmeiras assustou em cabeçada perigosa de Flaco López, mas a melhor chance foi do São Paulo: Cauly chutou, Carlos Miguel defendeu e Pablo Maia perdeu o rebote. Aos 38 minutos, o cenário mudou: Osorio deu um carrinho em Piquerez, o VAR revisou o lance e o zagueiro foi expulso, deixando o Tricolor com um a menos.",
+      "player": {
+        "name": "VAR age e expulsa Osorio no Choque-Rei"
       },
       "assist": null
     },
@@ -1129,6 +1147,56 @@
       "detail": "Red Card",
       "player": {
         "name": "Osorio"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 39,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O jogo é tenso e cheio de alternativas até os 39 minutos. As duas equipes criaram chances claras: Flaco López cabeceou com perigo para o Palmeiras, enquanto o São Paulo desperdiçou uma oportunidade incrível com Pablo Maia após grande defesa de Carlos Miguel. O cenário mudou aos 38, quando Osorio fez falta dura em Piquerez, foi expulso após revisão do VAR e deixou o Tricolor com um a menos.",
+      "player": {
+        "name": "Clássico quente: chances claras e cartão vermelho"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 39,
+        "extra": null
+      },
+      "team": {
+        "id": 275,
+        "name": "Palmeiras"
+      },
+      "type": "Important",
+      "detail": "Lateral-esquerdo do Palmeiras recebe atendimento médico no gramado. Ele levanta, já com o carrinho da maca ao lado, conversa com os médicos do clube e sai para a beira do campo andando.",
+      "player": {
+        "name": "Piquerez"
+      },
+      "assist": {
+        "name": "Piquerez recebe atendimento"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 40,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Piquerez parece testar a situação do tornozelo. Coloca um pouco mais de spray, dá uma leve trotada na beira do campo e deve voltar para o campo.",
+      "player": {
+        "name": "Piquerez parece testar a situação do tornozelo. "
       },
       "assist": null
     }
@@ -1668,19 +1736,19 @@
         },
         {
           "type": "Total Passes",
-          "value": 164
+          "value": 165
         },
         {
           "type": "Pass Accuracy",
-          "value": "83%"
+          "value": "82%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 28
+          "value": 29
         },
         {
           "type": "Total Shots",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Shots on Goal",
@@ -1688,7 +1756,7 @@
         },
         {
           "type": "Shots off Goal",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Blocked Shots",
@@ -1700,7 +1768,7 @@
         },
         {
           "type": "Corner Kicks",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Offsides",
@@ -1720,15 +1788,15 @@
         },
         {
           "type": "Fouls",
-          "value": 10
+          "value": 11
         },
         {
           "type": "Yellow Cards",
-          "value": 2
+          "value": 1
         },
         {
           "type": "Red Cards",
-          "value": 0
+          "value": 1
         }
       ]
     }

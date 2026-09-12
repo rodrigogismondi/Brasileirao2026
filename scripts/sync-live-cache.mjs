@@ -299,6 +299,20 @@ function minimalMatchDetail(fixtureRow) {
   };
 }
 
+/** Keep last-known lineups when GE temporarily omits squads on re-enrich. */
+function loadPreviousLineups(fixtureId) {
+  const path = join(MATCHES_DIR, `${fixtureId}.json`);
+  if (!existsSync(path)) return null;
+  try {
+    const detail = JSON.parse(readFileSync(path, "utf8"));
+    const lineups = detail?.lineups;
+    if (Array.isArray(lineups) && lineups.length > 0) return lineups;
+  } catch {
+    /* ignore corrupt cache */
+  }
+  return null;
+}
+
 function momentToElapsed(moment, periodAbbr) {
   const [mmRaw] = String(moment || "0:0").split(":");
   const mm = Number(mmRaw) || 0;
@@ -1342,6 +1356,12 @@ async function main() {
         try {
           detail = await enrichFromTransmission(f);
           enriched++;
+          // GE often drops squads on early-day transmission pages; don't wipe
+          // lineups we already warmed for tonight's fixtures.
+          if (!detail.lineups?.length) {
+            const kept = loadPreviousLineups(f.fixture.id);
+            if (kept) detail.lineups = kept;
+          }
           const idx = payload.fixtures.findIndex((x) => x.fixture.id === f.fixture.id);
           if (idx >= 0) {
             payload.fixtures[idx] = {
@@ -1373,10 +1393,12 @@ async function main() {
     const finalHasLive = payload.fixtures.some((f) =>
       ["1H", "HT", "2H", "LIVE", "ET", "BT", "P"].includes(f.fixture.status.short)
     );
+    // Must match the 14h prematch window above — a tighter window here used to
+    // flip budget.mode back to idle between morning and evening kickoffs.
     const finalHasPrematch = payload.fixtures.some((f) => {
       if (f.fixture.status.short !== "NS") return false;
       const eta = f.fixture.timestamp - nowSec;
-      return eta <= 3 * 3600 && eta >= -30 * 60;
+      return eta <= 14 * 3600 && eta >= -30 * 60;
     });
     const finalMode = finalHasLive ? "live" : finalHasPrematch ? "prematch" : "idle";
     payload.budget.mode = finalMode;

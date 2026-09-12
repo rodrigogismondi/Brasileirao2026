@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 35
+      "elapsed": 37
     },
     "timerStart": "2026-09-12T18:59:33.349Z",
     "timerStatus": "INICIADO"
@@ -729,6 +729,70 @@
         "name": "Wallace"
       },
       "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 31,
+        "extra": null
+      },
+      "team": {
+        "id": 267,
+        "name": "Vasco"
+      },
+      "type": "Important",
+      "detail": "Wallace vacila e é obrigado a derrubar o atacante do Vasco",
+      "player": {
+        "name": "Wallace vacila e é obrigado a derrubar o atacant"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 32,
+        "extra": null
+      },
+      "team": {
+        "id": 284,
+        "name": "Grêmio"
+      },
+      "type": "Important",
+      "detail": "A falta é frontal ao gol do Grêmio. Robert Renan e Colídio são os candidatos para a cobrança",
+      "player": {
+        "name": "A falta é frontal ao gol do Grêmio. Robert Renan"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 33,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Colídio cobra falta na barreira e na sobra Robert Renan manda de direita para muito longe do gol",
+      "player": {
+        "name": "ESPIRROU O TACO"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 34,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Adson tenta chapéu para cima do Diego Caito, mas é desarmado pelo lateral gremista",
+      "player": {
+        "name": "NADA FEITO"
+      },
+      "assist": null
     }
   ],
   "lineups": [
@@ -1190,15 +1254,15 @@
         },
         {
           "type": "Total Passes",
-          "value": 196
+          "value": 206
         },
         {
           "type": "Pass Accuracy",
-          "value": "84%"
+          "value": "83%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 32
+          "value": 36
         },
         {
           "type": "Total Shots",
@@ -1238,7 +1302,7 @@
         },
         {
           "type": "Tackles",
-          "value": 9
+          "value": 10
         },
         {
           "type": "Fouls",
@@ -1266,19 +1330,19 @@
         },
         {
           "type": "Total Passes",
-          "value": 155
+          "value": 164
         },
         {
           "type": "Pass Accuracy",
-          "value": "81%"
+          "value": "82%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 29
+          "value": 30
         },
         {
           "type": "Total Shots",
-          "value": 5
+          "value": 7
         },
         {
           "type": "Shots on Goal",
@@ -1286,11 +1350,11 @@
         },
         {
           "type": "Shots off Goal",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Blocked Shots",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Hit Woodwork",
@@ -1314,7 +1378,7 @@
         },
         {
           "type": "Tackles",
-          "value": 8
+          "value": 9
         },
         {
           "type": "Fouls",

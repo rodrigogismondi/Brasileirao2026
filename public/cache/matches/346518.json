@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 64
+      "elapsed": 65
     },
     "timerStart": "2026-09-12T22:37:02.880Z",
     "timerStatus": "INICIADO"
@@ -1986,6 +1986,22 @@
         "extra": null
       },
       "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O clássico teve uma virada decisiva com a expulsão de Osorio, do São Paulo, ainda no primeiro tempo. Com um jogador a mais, o Palmeiras aproveitou a vantagem e abriu o placar com Murilo, de pé direito, antes do intervalo. Logo no início da segunda etapa, Vitor Roque marcou o segundo após um erro na saída de bola adversária, ampliando para 2 a 0 e dando tranquilidade ao time da casa.",
+      "player": {
+        "name": "Palmeiras domina e abre 2 a 0 no Choque-Rei"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 61,
+        "extra": null
+      },
+      "team": {
         "id": 275,
         "name": "Palmeiras"
       },
@@ -1995,6 +2011,110 @@
         "name": "Palmeiras trabalha a bola no meio de campo."
       },
       "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 62,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Artur"
+      },
+      "assist": {
+        "name": "André Silva"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 62,
+        "extra": null
+      },
+      "team": {
+        "id": 275,
+        "name": "Palmeiras"
+      },
+      "type": "Important",
+      "detail": "Palmeiras chega ao ataque mais uma vez. Khellven manda na área, Vitor Roque disputa com a defesa, mas o São Paulo se sai melhor.",
+      "player": {
+        "name": "Vitor Roque"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 62,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Important",
+      "detail": "Vem mudanças no São Paulo.",
+      "player": {
+        "name": "Vem mudanças no São Paulo."
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 63,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Iago"
+      },
+      "assist": {
+        "name": "Wendell"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 63,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Danielzinho"
+      },
+      "assist": {
+        "name": "Djhordney"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 64,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Important",
+      "detail": "Artur, que acabou de entrar, carrega a bola até a área pela direita, disputa com a marcação e descola um escanteio.",
+      "player": {
+        "name": "Artur"
+      },
+      "assist": {
+        "name": "Escanteio para o São Paulo"
+      }
     }
   ],
   "lineups": [
@@ -2452,11 +2572,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "54%"
+          "value": "55%"
         },
         {
           "type": "Total Passes",
-          "value": 332
+          "value": 362
         },
         {
           "type": "Pass Accuracy",
@@ -2464,7 +2584,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 50
+          "value": 53
         },
         {
           "type": "Total Shots",
@@ -2492,7 +2612,7 @@
         },
         {
           "type": "Offsides",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Penalties",
@@ -2528,11 +2648,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "46%"
+          "value": "45%"
         },
         {
           "type": "Total Passes",
-          "value": 256
+          "value": 263
         },
         {
           "type": "Pass Accuracy",
@@ -2540,7 +2660,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 46
+          "value": 48
         },
         {
           "type": "Total Shots",
@@ -2580,7 +2700,7 @@
         },
         {
           "type": "Tackles",
-          "value": 19
+          "value": 21
         },
         {
           "type": "Fouls",

@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 83
+      "elapsed": 86
     },
     "timerStart": "2026-09-12T21:08:14.273Z",
     "timerStatus": "INICIADO"
@@ -1714,7 +1714,7 @@
     },
     {
       "time": {
-        "elapsed": 81,
+        "elapsed": 80,
         "extra": null
       },
       "team": {
@@ -1728,6 +1728,40 @@
       },
       "assist": {
         "name": "Everton"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 81,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O segundo tempo começou com a Chapecoense pressionando em busca da virada. Túlio Eduardo exigiu uma defesaça de Matheus Cunha, e o time da casa parecia mais perto do gol. No entanto, aos 21 minutos, uma falha defensiva foi fatal. Doma errou o domínio, Carbonero recuperou a bola, driblou o zagueiro e finalizou por baixo do goleiro Anderson para fazer 2 a 1 para o Internacional.",
+      "player": {
+        "name": "Carbonero aproveita erro e recoloca o Inter na frente"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 81,
+        "extra": null
+      },
+      "team": {
+        "id": 315,
+        "name": "Chapecoense"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Rubens"
+      },
+      "assist": {
+        "name": "Yago Felipe"
       }
     }
   ],
@@ -2186,19 +2220,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "63%"
+          "value": "64%"
         },
         {
           "type": "Total Passes",
-          "value": 437
+          "value": 476
         },
         {
           "type": "Pass Accuracy",
-          "value": "86%"
+          "value": "85%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 63
+          "value": 71
         },
         {
           "type": "Total Shots",
@@ -2262,11 +2296,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "37%"
+          "value": "36%"
         },
         {
           "type": "Total Passes",
-          "value": 264
+          "value": 266
         },
         {
           "type": "Pass Accuracy",
@@ -2274,7 +2308,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 66
+          "value": 67
         },
         {
           "type": "Total Shots",

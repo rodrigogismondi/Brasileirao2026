@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 16
+      "elapsed": 18
     },
     "timerStart": "2026-09-12T21:30:40.826Z",
     "timerStatus": "INICIADO"
@@ -493,6 +493,106 @@
         "name": "André Silva chega ao ataque outra vez pelo lado "
       },
       "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 14,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Important",
+      "detail": "São Paulo tem a posse no próprio campo. Pablo Maia, Djhordney e Ferreira trocam passes tentando organizar o ataque.",
+      "player": {
+        "name": "São Paulo tem a posse no próprio campo. Pablo Ma"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 15,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O clássico começou quente e com muitas paralisações. Nos primeiros 15 minutos, o São Paulo cometeu uma série de faltas, resultando em cartão amarelo para Pablo Maia. Apesar do jogo truncado, a melhor chance foi do Tricolor: Ferreira fez boa jogada e tocou para André Silva, que chutou para fora. O Palmeiras tenta responder e busca espaços, mas o duelo segue muito físico e com poucas finalizações.",
+      "player": {
+        "name": "Choque-Rei tenso e muito faltoso"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 15,
+        "extra": null
+      },
+      "team": {
+        "id": 275,
+        "name": "Palmeiras"
+      },
+      "type": "Important",
+      "detail": "André Silva devolve mal em tentativa de ataque já entrando na área, e a bola sai pela linha de fundo.",
+      "player": {
+        "name": "André Silva"
+      },
+      "assist": {
+        "name": "Tiro de meta para o Palmeiras"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 16,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Important",
+      "detail": "São Paulo volta tudo até os pés do goleiro Coronel. Vitor Roque pressiona e força o passe à esquerda do campo adversário. Giay disputa, manda a bola para lateral e chama a torcida no Nubank Parque.",
+      "player": {
+        "name": "São Paulo volta tudo até os pés do goleiro Coron"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 17,
+        "extra": null
+      },
+      "team": {
+        "id": 275,
+        "name": "Palmeiras"
+      },
+      "type": "Important",
+      "detail": "Osório arrisca o lançamento longo buscando Wendell, que disputa a bola com Giay e termina acertando o lateral-direito do Palmeiras. Árbitro dá falta.",
+      "player": {
+        "name": "Wendell"
+      },
+      "assist": {
+        "name": "Falta de Wendell"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 17,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Cauly avança pelo meio de campo e é desarmado por Murilo. Dorival reclama da beira do campo, mas o árbitro não vê falta, deixa seguir.",
+      "player": {
+        "name": "Cauly avança pelo meio de campo e é desarmado po"
+      },
+      "assist": null
     }
   ],
   "lineups": [
@@ -954,11 +1054,11 @@
         },
         {
           "type": "Total Passes",
-          "value": 93
+          "value": 98
         },
         {
           "type": "Pass Accuracy",
-          "value": "87%"
+          "value": "88%"
         },
         {
           "type": "Incomplete Passes",
@@ -1006,7 +1106,7 @@
         },
         {
           "type": "Fouls",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Yellow Cards",
@@ -1030,15 +1130,15 @@
         },
         {
           "type": "Total Passes",
-          "value": 17
+          "value": 36
         },
         {
           "type": "Pass Accuracy",
-          "value": "71%"
+          "value": "83%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 5
+          "value": 6
         },
         {
           "type": "Total Shots",
@@ -1078,7 +1178,7 @@
         },
         {
           "type": "Tackles",
-          "value": 5
+          "value": 7
         },
         {
           "type": "Fouls",

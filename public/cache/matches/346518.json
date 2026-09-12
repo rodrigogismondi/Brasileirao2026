@@ -7,12 +7,12 @@
       "city": ""
     },
     "status": {
-      "long": "HT",
-      "short": "HT",
-      "elapsed": 45
+      "long": "2H",
+      "short": "2H",
+      "elapsed": 52
     },
-    "timerStart": "2026-09-12T22:22:12.720Z",
-    "timerStatus": "PAUSADO"
+    "timerStart": "2026-09-12T22:37:02.880Z",
+    "timerStatus": "INICIADO"
   },
   "league": {
     "round": "Regular Season - 27"
@@ -30,7 +30,7 @@
     }
   },
   "goals": {
-    "home": 1,
+    "home": 2,
     "away": 0
   },
   "score": {
@@ -1502,6 +1502,22 @@
         "name": ""
       },
       "type": "Important",
+      "detail": "All Assists de Palmeiras x São Paulo no 1º tempo",
+      "player": {
+        "name": "All Assists de Palmeiras x São Paulo no 1º tempo"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 46,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
       "detail": "Primeiro tempo vai até os 50 minutos no Nubank Parque.",
       "player": {
         "name": "Mais 5 minutos!"
@@ -1521,6 +1537,38 @@
       "detail": "São Paulo cobra falta buscando ligação direta no ataque, mas não dá em nada.",
       "player": {
         "name": "São Paulo cobra falta buscando ligação direta no"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 48,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Um primeiro tempo agitado com uma reviravolta na reta final. O São Paulo equilibrava o jogo e quase marcou com Pablo Maia, mas tudo mudou com a expulsão de Osorio aos 38 minutos. Com um a mais, o Palmeiras pressionou e abriu o placar nos acréscimos com Murilo, fazendo 1 a 0. O segundo tempo já começou com Flaco López exigindo boa defesa do goleiro Coronel.",
+      "player": {
+        "name": "Expulsão e gol: Verdão sai na frente!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 48,
+        "extra": null
+      },
+      "team": {
+        "id": 275,
+        "name": "Palmeiras"
+      },
+      "type": "Important",
+      "detail": "Palmeiras segura a posse no campo defensivo, mas ainda sem avançar. Flaco abre com passe à esquerda em Arthur.",
+      "player": {
+        "name": "Palmeiras segura a posse no campo defensivo, mas"
       },
       "assist": null
     },
@@ -1569,6 +1617,54 @@
       "detail": "Yellow Card",
       "player": {
         "name": "Gustavo Gómez"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 49,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O primeiro tempo teve seu rumo alterado aos 38 minutos com a expulsão de Osorio, do São Paulo, após dura falta em Piquerez. Com um jogador a mais, o Palmeiras pressionou e abriu o placar com Murilo nos acréscimos. Mal começou a segunda etapa e o time da casa ampliou: aos 4 minutos, Vitor Roque marcou e deixou o placar em 2 a 0, complicando a situação do Tricolor no Choque-Rei.",
+      "player": {
+        "name": "Palmeiras aproveita e abre 2 a 0 no clássico"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 49,
+        "extra": null
+      },
+      "team": {
+        "id": 275,
+        "name": "Palmeiras"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "player": {
+        "name": "Vitor Roque"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 49,
+        "extra": null
+      },
+      "team": {
+        "id": 275,
+        "name": "Palmeiras"
+      },
+      "type": "Important",
+      "detail": "Andreas dá passe para frente em Flaco López, que entra na área pela direita e levanta a bola para o meio buscando alguém melhor posicionado, mas ninguém chega para chutar.",
+      "player": {
+        "name": "Flaco López"
       },
       "assist": null
     },
@@ -2126,27 +2222,27 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "53%"
+          "value": "54%"
         },
         {
           "type": "Total Passes",
-          "value": 246
+          "value": 278
         },
         {
           "type": "Pass Accuracy",
-          "value": "83%"
+          "value": "84%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 41
+          "value": 45
         },
         {
           "type": "Total Shots",
-          "value": 8
+          "value": 10
         },
         {
           "type": "Shots on Goal",
-          "value": 2
+          "value": 4
         },
         {
           "type": "Shots off Goal",
@@ -2178,11 +2274,11 @@
         },
         {
           "type": "Tackles",
-          "value": 6
+          "value": 8
         },
         {
           "type": "Fouls",
-          "value": 7
+          "value": 8
         },
         {
           "type": "Yellow Cards",
@@ -2202,19 +2298,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "47%"
+          "value": "46%"
         },
         {
           "type": "Total Passes",
-          "value": 200
+          "value": 217
         },
         {
           "type": "Pass Accuracy",
-          "value": "84%"
+          "value": "83%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 33
+          "value": 37
         },
         {
           "type": "Total Shots",
@@ -2254,7 +2350,7 @@
         },
         {
           "type": "Tackles",
-          "value": 16
+          "value": 18
         },
         {
           "type": "Fouls",

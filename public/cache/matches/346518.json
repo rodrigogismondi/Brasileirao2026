@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 94
+      "elapsed": 97
     },
     "timerStart": "2026-09-12T22:37:02.880Z",
     "timerStatus": "INICIADO"
@@ -2850,6 +2850,22 @@
         "extra": null
       },
       "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Segundo tempo seguirá até os 50 minutos também.",
+      "player": {
+        "name": "Mais 5 minutos!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 90,
+        "extra": null
+      },
+      "team": {
         "id": 275,
         "name": "Palmeiras"
       },
@@ -2861,6 +2877,40 @@
       "assist": {
         "name": "Coronel afasta!"
       }
+    },
+    {
+      "time": {
+        "elapsed": 91,
+        "extra": null
+      },
+      "team": {
+        "id": 275,
+        "name": "Palmeiras"
+      },
+      "type": "Important",
+      "detail": "Fuchs faz o lançamento ao ataque buscando Felipe Anderson infiltrado, ela sobra de lado para Vitor Roque, que arrisca o chute rápido e manda para fora.",
+      "player": {
+        "name": "Vitor Roque"
+      },
+      "assist": {
+        "name": "Roque de novo"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 91,
+        "extra": null
+      },
+      "team": {
+        "id": 275,
+        "name": "Palmeiras"
+      },
+      "type": "Important",
+      "detail": "Torcida do Palmeiras começa a cantar \"Olé\" na troca de passes do time.",
+      "player": {
+        "name": "Torcida do Palmeiras começa a cantar \"Olé\" na tr"
+      },
+      "assist": null
     }
   ],
   "lineups": [
@@ -3322,15 +3372,15 @@
         },
         {
           "type": "Total Passes",
-          "value": 508
+          "value": 537
         },
         {
           "type": "Pass Accuracy",
-          "value": "86%"
+          "value": "87%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 69
+          "value": 71
         },
         {
           "type": "Total Shots",

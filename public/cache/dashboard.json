@@ -12959,11 +12959,11 @@
           "city": ""
         },
         "status": {
-          "long": "HT",
-          "short": "HT",
-          "elapsed": 45
+          "long": "FT",
+          "short": "FT",
+          "elapsed": 90
         },
-        "timerStart": "2026-09-12T01:09:06.158Z",
+        "timerStart": "2026-09-12T02:32:15.049Z",
         "timerStatus": "PAUSADO"
       },
       "league": {
@@ -12982,8 +12982,8 @@
         }
       },
       "goals": {
-        "home": 1,
-        "away": 2
+        "home": 3,
+        "away": 3
       },
       "score": {
         "halftime": {
@@ -12991,8 +12991,8 @@
           "away": null
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 3,
+          "away": 3
         }
       },
       "odds": {
@@ -18624,18 +18624,18 @@
                 "name": "Athletico-PR",
                 "logo": "https://s.sde.globo.com/media/organizations/2026/01/07/Athletico-PR.svg"
               },
-              "points": 48,
-              "goalsDiff": 11,
-              "form": "DWDLW",
+              "points": 46,
+              "goalsDiff": 10,
+              "form": "DWDLD",
               "description": "Copa Libertadores",
               "all": {
                 "played": 27,
-                "win": 14,
-                "draw": 6,
+                "win": 13,
+                "draw": 7,
                 "lose": 7,
                 "goals": {
-                  "for": 40,
-                  "against": 29
+                  "for": 41,
+                  "against": 31
                 }
               }
             },
@@ -18712,18 +18712,18 @@
                 "name": "Coritiba",
                 "logo": "https://s.sde.globo.com/media/organizations/2018/03/11/coritiba.svg"
               },
-              "points": 37,
-              "goalsDiff": -2,
-              "form": "DWWLL",
+              "points": 38,
+              "goalsDiff": -1,
+              "form": "DWWLD",
               "description": "Copa Sudamericana",
               "all": {
                 "played": 27,
                 "win": 10,
-                "draw": 7,
-                "lose": 10,
+                "draw": 8,
+                "lose": 9,
                 "goals": {
-                  "for": 35,
-                  "against": 37
+                  "for": 37,
+                  "against": 38
                 }
               }
             },
@@ -19032,7 +19032,7 @@
             "logo": "https://s.sde.globo.com/media/organizations/2019/09/09/Athletico-PR-65x65.png"
           },
           "goals": {
-            "total": 17,
+            "total": 18,
             "assists": null
           },
           "games": {
@@ -20124,10 +20124,10 @@
   "budget": {
     "used": 0,
     "remaining": 100,
-    "mode": "live",
-    "liveIntervalMs": 20000
+    "mode": "idle",
+    "liveIntervalMs": 900000
   },
-  "fetchedAt": "2026-09-12T01:14:01.444Z",
+  "fetchedAt": "2026-09-12T02:46:40.511Z",
   "source": "ge-globo",
   "meta": {
     "rodada": 27,

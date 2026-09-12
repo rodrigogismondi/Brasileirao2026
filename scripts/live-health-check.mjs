@@ -54,7 +54,16 @@ function main() {
     const ageMin = Math.floor((nowSec - Number(ts)) / 60);
     // NS after kickoff is always wrong. Empty lances+stats after ~10' usually means
     // enrich stripped the feed (recurring bug) — GE normally has narration by then.
-    if (detailStatus === "NS" || (["1H", "HT", "2H", "LIVE"].includes(detailStatus) && emptyFeed && ageMin >= 10)) {
+    // Also catch stale periods with a non-empty feed (e.g. stuck HT while GE already FT).
+    const stuckPeriod =
+      (detailStatus === "1H" && ageMin >= 55) ||
+      (detailStatus === "HT" && ageMin >= 70) ||
+      (["2H", "LIVE", "ET"].includes(detailStatus) && ageMin >= 150);
+    if (
+      detailStatus === "NS" ||
+      (["1H", "HT", "2H", "LIVE"].includes(detailStatus) && emptyFeed && ageMin >= 10) ||
+      stuckPeriod
+    ) {
       const home = f.teams?.home?.name || "?";
       const away = f.teams?.away?.name || "?";
       broken.push(`${id} ${home}x${away} status=${detailStatus} events=${eventsLen} stats=${statsLen} age=${ageMin}m`);

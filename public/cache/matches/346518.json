@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 6
+      "elapsed": 9
     },
     "timerStart": "2026-09-12T21:30:40.826Z",
     "timerStatus": "INICIADO"
@@ -156,6 +156,22 @@
         "extra": null
       },
       "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Choque-Rei começa com o Palmeiras tentando tomar a iniciativa nos primeiros minutos e o São Paulo respondendo com uma marcação forte, parando as jogadas com faltas. Aos 2 minutos, Vitor Roque sofreu uma infração de Osorio que resultou em uma cobrança de perigo para o Palmeiras, mas Andreas Pereira não aproveitou. Com pouco mais de três minutos, o jogo é mais de disputa física do que de chances claras.",
+      "player": {
+        "name": "Início faltoso e de estudo no clássico"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 3,
+        "extra": null
+      },
+      "team": {
         "id": 276,
         "name": "São Paulo"
       },
@@ -166,6 +182,74 @@
       },
       "assist": {
         "name": "Ligação direta"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 4,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Murilo dá o passe em Flaco López mais a frente. Ele é travado por Pablo Maia e ganha falta, que é cobrada rapidamente.",
+      "player": {
+        "name": "Murilo dá o passe em Flaco López mais a frente. "
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 5,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Important",
+      "detail": "Ferreira consegue emendar uma sequência de dribles em bom lance individual, abre com passe a direita em André Silva, que chuta logo depois e manda rasteiro para fora.",
+      "player": {
+        "name": "André Silva"
+      },
+      "assist": {
+        "name": "Olha o perigo!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 5,
+        "extra": null
+      },
+      "team": {
+        "id": 275,
+        "name": "Palmeiras"
+      },
+      "type": "Important",
+      "detail": "Wendell desarma Giay pelo lado do campo, e o Palmeiras cobrança de lateral.",
+      "player": {
+        "name": "Wendell desarma Giay pelo lado do campo, e o Pal"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 6,
+        "extra": null
+      },
+      "team": {
+        "id": 275,
+        "name": "Palmeiras"
+      },
+      "type": "Important",
+      "detail": "Lucas Evangelista arrisca o levantamento na área pelo lado esquerdo do campo, mas manda mal, e a bola fica com o goleiro Coronel.",
+      "player": {
+        "name": "Lucas Evangelista"
+      },
+      "assist": {
+        "name": "Bola na área"
       }
     }
   ],

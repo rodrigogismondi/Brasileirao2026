@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 74
+      "elapsed": 77
     },
     "timerStart": "2026-09-12T21:08:14.273Z",
     "timerStatus": "INICIADO"
@@ -1615,6 +1615,54 @@
         "name": "Carbonero chuta sem ângulo e Anderson defende co"
       },
       "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 73,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Após o empate em 1 a 1 no primeiro tempo, a Chapecoense voltou melhor e pressionou em busca da virada, parando em grande defesa de Matheus Cunha. Mas aos 21 minutos da etapa final, um erro defensivo mudou tudo: Doma falhou ao dominar um passe, Carbonero aproveitou, driblou o zagueiro e marcou, colocando o Internacional na frente com o placar de 2 a 1 no placar.",
+      "player": {
+        "name": "Erro fatal e Inter na frente de novo!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 73,
+        "extra": null
+      },
+      "team": {
+        "id": 285,
+        "name": "Internacional"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "João Victor"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 74,
+        "extra": null
+      },
+      "team": {
+        "id": 315,
+        "name": "Chapecoense"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Bolasie"
+      },
+      "assist": null
     }
   ],
   "lineups": [
@@ -2072,19 +2120,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "62%"
+          "value": "63%"
         },
         {
           "type": "Total Passes",
-          "value": 387
+          "value": 407
         },
         {
           "type": "Pass Accuracy",
-          "value": "86%"
+          "value": "85%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 56
+          "value": 60
         },
         {
           "type": "Total Shots",
@@ -2124,11 +2172,11 @@
         },
         {
           "type": "Tackles",
-          "value": 15
+          "value": 16
         },
         {
           "type": "Fouls",
-          "value": 13
+          "value": 14
         },
         {
           "type": "Yellow Cards",
@@ -2148,11 +2196,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "38%"
+          "value": "37%"
         },
         {
           "type": "Total Passes",
-          "value": 242
+          "value": 248
         },
         {
           "type": "Pass Accuracy",
@@ -2160,15 +2208,15 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 57
+          "value": 60
         },
         {
           "type": "Total Shots",
-          "value": 5
+          "value": 6
         },
         {
           "type": "Shots on Goal",
-          "value": 3
+          "value": 4
         },
         {
           "type": "Shots off Goal",
@@ -2184,7 +2232,7 @@
         },
         {
           "type": "Corner Kicks",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Offsides",
@@ -2208,7 +2256,7 @@
         },
         {
           "type": "Yellow Cards",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Red Cards",

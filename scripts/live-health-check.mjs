@@ -36,12 +36,14 @@ function main() {
     let eventsLen = 0;
     let statsLen = 0;
     let detailStatus = st;
+    let timerStart = null;
     if (existsSync(detailPath)) {
       try {
         const detail = JSON.parse(readFileSync(detailPath, "utf8"));
         eventsLen = detail.events?.length ?? 0;
         statsLen = detail.statistics?.length ?? 0;
         detailStatus = detail.fixture?.status?.short || st;
+        timerStart = detail.fixture?.timerStart || null;
       } catch {
         broken.push(`${id}:unreadable`);
         continue;
@@ -55,9 +57,17 @@ function main() {
     // NS after kickoff is always wrong. Empty lances+stats after ~10' usually means
     // enrich stripped the feed (recurring bug) — GE normally has narration by then.
     // Also catch stale periods with a non-empty feed (e.g. stuck HT while GE already FT).
+    // HT: kickoff-age alone false-positives on delayed breaks (injury/VAR). Prefer
+    // wall time since GE timerStart (pause at interval); else allow ~90' from kickoff.
+    let htStuck = false;
+    if (detailStatus === "HT") {
+      const pauseMs = Date.parse(timerStart || "");
+      const pauseMin = Number.isFinite(pauseMs) ? (Date.now() - pauseMs) / 60000 : null;
+      htStuck = pauseMin != null ? pauseMin >= 30 : ageMin >= 90;
+    }
     const stuckPeriod =
       (detailStatus === "1H" && ageMin >= 55) ||
-      (detailStatus === "HT" && ageMin >= 70) ||
+      htStuck ||
       (["2H", "LIVE", "ET"].includes(detailStatus) && ageMin >= 150);
     if (
       detailStatus === "NS" ||

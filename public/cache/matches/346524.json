@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 18
+      "elapsed": 21
     },
     "timerStart": "2026-09-12T20:01:19.202Z",
     "timerStatus": "INICIADO"
@@ -298,6 +298,22 @@
         "extra": null
       },
       "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O jogo começou movimentado com chances para os dois lados. O Internacional arriscou com Carbonero em chutes de fora da área, enquanto a Chapecoense respondeu com Garcez. A grande oportunidade da partida até agora surgiu aos 5 minutos, quando Everton e Túlio Eduardo se atrapalharam na finalização e desperdiçaram uma chance incrível para o time da casa dentro da pequena área.",
+      "player": {
+        "name": "Chape perde chance clara em início agitado"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 17,
+        "extra": null
+      },
+      "team": {
         "id": 315,
         "name": "Chapecoense"
       },
@@ -305,6 +321,86 @@
       "detail": "Chapecoense tem escanteio no lado direito de ataque.",
       "player": {
         "name": "Chapecoense tem escanteio no lado direito de ata"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 18,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O jogo começou com os dois times buscando o ataque. O Internacional arriscou primeiro com Carbonero, mas a Chapecoense respondeu e teve a oportunidade mais clara até os 18 minutos. Aos 5, após bola na área, Everton e Túlio Eduardo dividiram a finalização e perderam um gol incrível. O time da casa segue com mais presença ofensiva e voltou a assustar em chute de Marcinho bloqueado por Mercado.",
+      "player": {
+        "name": "Chape pressiona e perde chance clara"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 18,
+        "extra": null
+      },
+      "team": {
+        "id": 315,
+        "name": "Chapecoense"
+      },
+      "type": "Important",
+      "detail": "Marcinho domina lançamento longo com muita categoria e emenda o chute com a perna esquerda, mas é bloqueado por Mercado. Escanteio.",
+      "player": {
+        "name": "Marcinho"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 18,
+        "extra": null
+      },
+      "team": {
+        "id": 315,
+        "name": "Chapecoense"
+      },
+      "type": "Important",
+      "detail": "Bruno Pacheco escora de cabeça, a bola fica viva na área e a zaga afasta.",
+      "player": {
+        "name": "Bruno Pacheco"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 19,
+        "extra": null
+      },
+      "team": {
+        "id": 315,
+        "name": "Chapecoense"
+      },
+      "type": "Important",
+      "detail": "Chapecoense pede pênalti após Bruno Pacheco cair em disputa na área, sem sucesso.",
+      "player": {
+        "name": "Chapecoense pede pênalti após Bruno Pacheco cair"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 20,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Falta de Yago Felipe sobre Bruno Henrique.",
+      "player": {
+        "name": "Falta de Yago Felipe sobre Bruno Henrique."
       },
       "assist": null
     }
@@ -718,15 +814,6 @@
         },
         {
           "player": {
-            "id": "joao-victor",
-            "name": "João Victor",
-            "number": 44,
-            "pos": "Ata",
-            "grid": null
-          }
-        },
-        {
-          "player": {
             "id": "alerrandro",
             "name": "Alerrandro",
             "number": 9,
@@ -751,6 +838,15 @@
             "pos": "Ata",
             "grid": null
           }
+        },
+        {
+          "player": {
+            "id": "joao-victor",
+            "name": "João Victor",
+            "number": 44,
+            "pos": "Ata",
+            "grid": null
+          }
         }
       ]
     }
@@ -764,23 +860,23 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "67%"
+          "value": "64%"
         },
         {
           "type": "Total Passes",
-          "value": 117
+          "value": 144
         },
         {
           "type": "Pass Accuracy",
-          "value": "87%"
+          "value": "85%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 15
+          "value": 21
         },
         {
           "type": "Total Shots",
-          "value": 2
+          "value": 4
         },
         {
           "type": "Shots on Goal",
@@ -788,11 +884,11 @@
         },
         {
           "type": "Shots off Goal",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Blocked Shots",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Hit Woodwork",
@@ -800,7 +896,7 @@
         },
         {
           "type": "Corner Kicks",
-          "value": 1
+          "value": 3
         },
         {
           "type": "Offsides",
@@ -816,7 +912,7 @@
         },
         {
           "type": "Tackles",
-          "value": 3
+          "value": 4
         },
         {
           "type": "Fouls",
@@ -840,19 +936,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "33%"
+          "value": "36%"
         },
         {
           "type": "Total Passes",
-          "value": 43
+          "value": 58
         },
         {
           "type": "Pass Accuracy",
-          "value": "67%"
+          "value": "72%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 14
+          "value": 16
         },
         {
           "type": "Total Shots",
@@ -888,11 +984,11 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 0
+          "value": 2
         },
         {
           "type": "Tackles",
-          "value": 1
+          "value": 3
         },
         {
           "type": "Fouls",

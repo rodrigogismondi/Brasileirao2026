@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 59
+      "elapsed": 62
     },
     "timerStart": "2026-09-12T20:05:19.619Z",
     "timerStatus": "INICIADO"
@@ -1434,6 +1434,56 @@
     },
     {
       "time": {
+        "elapsed": 57,
+        "extra": null
+      },
+      "team": {
+        "id": 284,
+        "name": "Grêmio"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Diego Caito"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 57,
+        "extra": null
+      },
+      "team": {
+        "id": 284,
+        "name": "Grêmio"
+      },
+      "type": "Important",
+      "detail": "Andrés Gómez recebe com liberdade pelo lado direito e finaliza, Caito faz corte providencial para salvar o Grêmio",
+      "player": {
+        "name": "Andrés Gómez"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 60,
+        "extra": null
+      },
+      "team": {
+        "id": 284,
+        "name": "Grêmio"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Nardoni"
+      },
+      "assist": {
+        "name": "Jovane Cabral"
+      }
+    },
+    {
+      "time": {
         "elapsed": 93,
         "extra": null
       },
@@ -1904,27 +1954,27 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "51%"
+          "value": "52%"
         },
         {
           "type": "Total Passes",
-          "value": 308
+          "value": 327
         },
         {
           "type": "Pass Accuracy",
-          "value": "81%"
+          "value": "80%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 60
+          "value": 65
         },
         {
           "type": "Total Shots",
-          "value": 7
+          "value": 8
         },
         {
           "type": "Shots on Goal",
-          "value": 4
+          "value": 5
         },
         {
           "type": "Shots off Goal",
@@ -1952,19 +2002,19 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 4
-        },
-        {
-          "type": "Tackles",
-          "value": 15
-        },
-        {
-          "type": "Fouls",
           "value": 5
         },
         {
+          "type": "Tackles",
+          "value": 16
+        },
+        {
+          "type": "Fouls",
+          "value": 6
+        },
+        {
           "type": "Yellow Cards",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Red Cards",
@@ -1980,11 +2030,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "49%"
+          "value": "48%"
         },
         {
           "type": "Total Passes",
-          "value": 301
+          "value": 325
         },
         {
           "type": "Pass Accuracy",
@@ -1992,11 +2042,11 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 55
+          "value": 58
         },
         {
           "type": "Total Shots",
-          "value": 9
+          "value": 10
         },
         {
           "type": "Shots on Goal",
@@ -2008,7 +2058,7 @@
         },
         {
           "type": "Blocked Shots",
-          "value": 4
+          "value": 5
         },
         {
           "type": "Hit Woodwork",
@@ -2036,7 +2086,7 @@
         },
         {
           "type": "Fouls",
-          "value": 7
+          "value": 8
         },
         {
           "type": "Yellow Cards",

@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 50
+      "elapsed": 53
     },
     "timerStart": "2026-09-12T20:05:19.619Z",
     "timerStatus": "INICIADO"
@@ -1128,6 +1128,22 @@
         "extra": null
       },
       "team": {
+        "id": 267,
+        "name": "Vasco"
+      },
+      "type": "Important",
+      "detail": "Vasco começa o segundo tempo se impondo na Arena",
+      "player": {
+        "name": "Vasco começa o segundo tempo se impondo na Arena"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 46,
+        "extra": null
+      },
+      "team": {
         "id": 284,
         "name": "Grêmio"
       },
@@ -1196,11 +1212,141 @@
         "name": ""
       },
       "type": "Important",
+      "detail": "Falta do Carlos Vinícius no Thiago Mendes",
+      "player": {
+        "name": "Falta do Carlos Vinícius no Thiago Mendes"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 48,
+        "extra": null
+      },
+      "team": {
+        "id": 267,
+        "name": "Vasco"
+      },
+      "type": "Important",
+      "detail": "Muita pessão do Vasco nesse começo de segundo tempo",
+      "player": {
+        "name": "Muita pessão do Vasco nesse começo de segundo te"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 48,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Adson recebe na área, mas a defesa afasta",
+      "player": {
+        "name": "Adson recebe na área, mas a defesa afasta"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 48,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Cuiabano tenta o cruzamento e carimba o Tetê",
+      "player": {
+        "name": "Cuiabano tenta o cruzamento e carimba o Tetê"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 48,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
       "detail": "Até aqui: Grêmio 1 x 0 Vasco.",
       "player": {
         "name": "FIM DO PRIMEIRO TEMPO"
       },
       "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 49,
+        "extra": null
+      },
+      "team": {
+        "id": 267,
+        "name": "Vasco"
+      },
+      "type": "Important",
+      "detail": "Colídio recebe dentro da área pelo lado direito, na hora de cruzar é interceptado por Wallace. Escanteio para o Vasco",
+      "player": {
+        "name": "Colídio recebe dentro da área pelo lado direito,"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 49,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Colídio gira pra cima de Noriega, mas na sequência é desarmado por Wallace",
+      "player": {
+        "name": "Colídio gira pra cima de Noriega, mas na sequênc"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 50,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Diego Caito sai jogando muito bem pelo lado direito, mas é derrubado por Cuiabano. Falta marcada e já cobrada",
+      "player": {
+        "name": "Diego Caito sai jogando muito bem pelo lado dire"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 52,
+        "extra": null
+      },
+      "team": {
+        "id": 284,
+        "name": "Grêmio"
+      },
+      "type": "Important",
+      "detail": "O volante do Grêmio tenta bater para frente e erra em bola",
+      "player": {
+        "name": "Noriega"
+      },
+      "assist": {
+        "name": "FUROU"
+      }
     },
     {
       "time": {
@@ -1678,7 +1824,7 @@
         },
         {
           "type": "Total Passes",
-          "value": 270
+          "value": 278
         },
         {
           "type": "Pass Accuracy",
@@ -1686,7 +1832,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 49
+          "value": 51
         },
         {
           "type": "Total Shots",
@@ -1726,11 +1872,11 @@
         },
         {
           "type": "Tackles",
-          "value": 15
+          "value": 16
         },
         {
           "type": "Fouls",
-          "value": 4
+          "value": 5
         },
         {
           "type": "Yellow Cards",
@@ -1754,19 +1900,19 @@
         },
         {
           "type": "Total Passes",
-          "value": 268
+          "value": 290
         },
         {
           "type": "Pass Accuracy",
-          "value": "83%"
+          "value": "82%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 46
+          "value": 52
         },
         {
           "type": "Total Shots",
-          "value": 8
+          "value": 9
         },
         {
           "type": "Shots on Goal",
@@ -1778,7 +1924,7 @@
         },
         {
           "type": "Blocked Shots",
-          "value": 3
+          "value": 4
         },
         {
           "type": "Hit Woodwork",
@@ -1786,7 +1932,7 @@
         },
         {
           "type": "Corner Kicks",
-          "value": 3
+          "value": 4
         },
         {
           "type": "Offsides",

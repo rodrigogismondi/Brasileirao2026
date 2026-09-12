@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 50
+      "elapsed": 52
     },
     "timerStart": "2026-09-12T18:59:33.349Z",
     "timerStatus": "INICIADO"
@@ -50,6 +50,22 @@
     "source": "betexplorer"
   },
   "events": [
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Os dois times tiveram boas chegadas no ataque, o Vasco levou perigo mais vezes, mas foi o Grêmio que mexeu no placar. Adson teve duas chances, uma em chute no cantinho e outra em cabeçada dentro da área, ambas para fora. A resposta do time da casa foi na perna canhota do lateral-direito Diego Caito, para defesa de Léo Jardim. Tchê Tchê também teve duas oportunidades. Uma em chute sem muita força e outra de frente para Weverton, para duas defesas do goleiro gremista. Aos 39 minutos, o gol tricolor. Jovane Cabral apertou a marcação na saída de Paulo Henrique, roubou a bola e chutou para o meio da área. Léo Jardim espalmou, e Villasanti apareceu para tocar para o fundo das redes: 1 a 0 Grêmio.",
+      "player": {
+        "name": "RESUMO DO PRIMEIRO TEMPO"
+      },
+      "assist": null
+    },
     {
       "time": {
         "elapsed": 0,
@@ -1028,6 +1044,22 @@
         "extra": null
       },
       "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O primeiro tempo foi agitado, com chances para os dois lados e goleiros trabalhando. O Vasco levou perigo principalmente com Adson, mas parou em boas defesas de Weverton. O Grêmio, após criar com Tetê e Caito, abriu o placar aos 39 minutos. Jovane Cabral pressionou a defesa, Léo Jardim espalmou o chute e Villasanti, no rebote, fez 1 a 0 para o Tricolor antes do intervalo.",
+      "player": {
+        "name": "Villasanti marca e Grêmio sai na frente!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 46,
+        "extra": null
+      },
+      "team": {
         "id": 267,
         "name": "Vasco"
       },
@@ -1035,6 +1067,54 @@
       "detail": "Yellow Card",
       "player": {
         "name": "Cuiabano"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 47,
+        "extra": null
+      },
+      "team": {
+        "id": 267,
+        "name": "Vasco"
+      },
+      "type": "Important",
+      "detail": "Jovane Cabral cobra falta para área, Pedro Gabriel põe para o meio, mas a defesa do Vasco afasta",
+      "player": {
+        "name": "Jovane Cabral cobra falta para área, Pedro Gabri"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 93,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Primeiro tempo de muita disputa e chances claras. O Vasco assustou com Adson e obrigou Weverton a trabalhar em finalização de Tchê Tchê. O Grêmio, que também criou, foi fatal aos 39 minutos: Jovane Cabral pressionou a saída de bola, Léo Jardim defendeu o chute, mas Villasanti apareceu no rebote para empurrar para o gol e decretar a vantagem de 1 a 0 para o Tricolor no intervalo.",
+      "player": {
+        "name": "Gol no fim e Grêmio em vantagem na Arena"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 93,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Até aqui: Grêmio 1 x 0 Vasco,",
+      "player": {
+        "name": "FIM DO PRIMEIRO TEMPO"
       },
       "assist": null
     }
@@ -1494,19 +1574,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "54%"
+          "value": "53%"
         },
         {
           "type": "Total Passes",
-          "value": 253
+          "value": 263
         },
         {
           "type": "Pass Accuracy",
-          "value": "83%"
+          "value": "82%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 43
+          "value": 47
         },
         {
           "type": "Total Shots",
@@ -1546,7 +1626,7 @@
         },
         {
           "type": "Tackles",
-          "value": 12
+          "value": 14
         },
         {
           "type": "Fouls",
@@ -1570,11 +1650,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "46%"
+          "value": "47%"
         },
         {
           "type": "Total Passes",
-          "value": 228
+          "value": 239
         },
         {
           "type": "Pass Accuracy",
@@ -1582,7 +1662,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 39
+          "value": 41
         },
         {
           "type": "Total Shots",
@@ -1626,11 +1706,11 @@
         },
         {
           "type": "Fouls",
-          "value": 3
+          "value": 4
         },
         {
           "type": "Yellow Cards",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Red Cards",

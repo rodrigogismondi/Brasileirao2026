@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 31
+      "elapsed": 35
     },
     "timerStart": "2026-09-12T18:59:33.349Z",
     "timerStatus": "INICIADO"
@@ -624,6 +624,22 @@
         "extra": null
       },
       "team": {
+        "id": 284,
+        "name": "Grêmio"
+      },
+      "type": "Important",
+      "detail": "Diego Caito arranca pelo lado direito e tenta o chute de fora da área, a bola sai desviada para a linha de fundo. Escanteio para o Grêmio",
+      "player": {
+        "name": "Diego Caito arranca pelo lado direito e tenta o "
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 28,
+        "extra": null
+      },
+      "team": {
         "id": 0,
         "name": ""
       },
@@ -647,6 +663,70 @@
       "detail": "Cuiabano avança pelo lado esquedo, faz o cruzamento, a bola chega no Tchê Tchê que domina e finaliza fraco nas mãos do Weverton",
       "player": {
         "name": "Cuiabano avança pelo lado esquedo, faz o cruzame"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 29,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Cruzamento da esquerda buscando o Carlos Vinícius na área, a bola passou por toda a extensão da área chegando nos pés de Jovane Cabral, que invadiu a área, mas foi desarmado",
+      "player": {
+        "name": "Cruzamento da esquerda buscando o Carlos Viníciu"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 29,
+        "extra": null
+      },
+      "team": {
+        "id": 267,
+        "name": "Vasco"
+      },
+      "type": "Important",
+      "detail": "Jovane Cabral cobra e a zaga do Vasco afasta da área",
+      "player": {
+        "name": "Jovane Cabral cobra e a zaga do Vasco afasta da "
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 31,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Passados 30 minutos, o placar não reflete a intensidade na Arena! O Vasco leva mais perigo e já desperdiçou duas chances claras com Adson, além de ter um gol de Colidio anulado por impedimento. O Grêmio respondeu em uma bela jogada que terminou com Diego Caito exigindo grande defesa de Léo Jardim. O jogo é pegado, com três cartões amarelos, e aberto para os dois lados.",
+      "player": {
+        "name": "Jogo aberto e chances perdidas na Arena"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 31,
+        "extra": null
+      },
+      "team": {
+        "id": 284,
+        "name": "Grêmio"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Wallace"
       },
       "assist": null
     }
@@ -1106,11 +1186,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "55%"
+          "value": "56%"
         },
         {
           "type": "Total Passes",
-          "value": 188
+          "value": 196
         },
         {
           "type": "Pass Accuracy",
@@ -1118,7 +1198,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 30
+          "value": 32
         },
         {
           "type": "Total Shots",
@@ -1158,15 +1238,15 @@
         },
         {
           "type": "Tackles",
-          "value": 8
+          "value": 9
         },
         {
           "type": "Fouls",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Yellow Cards",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Red Cards",
@@ -1182,19 +1262,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "45%"
+          "value": "44%"
         },
         {
           "type": "Total Passes",
-          "value": 148
+          "value": 155
         },
         {
           "type": "Pass Accuracy",
-          "value": "84%"
+          "value": "81%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 24
+          "value": 29
         },
         {
           "type": "Total Shots",
@@ -1238,7 +1318,7 @@
         },
         {
           "type": "Fouls",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Yellow Cards",

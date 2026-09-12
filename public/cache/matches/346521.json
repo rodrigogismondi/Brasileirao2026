@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 28
+      "elapsed": 31
     },
     "timerStart": "2026-09-12T18:59:33.349Z",
     "timerStatus": "INICIADO"
@@ -580,9 +580,9 @@
         "name": ""
       },
       "type": "Important",
-      "detail": "O jogo começou movimentado na Arena! Nos primeiros 25 minutos, o Vasco criou as melhores oportunidades, principalmente com Adson, que desperdiçou duas chances claras. O Grêmio, que já teve Pedro Gabriel amarelado, respondeu com perigo em finalização de Diego Caito, que parou em boa defesa de Léo Jardim. O goleiro vascaíno quase comprometeu em uma saída errada, mas o placar segue zerado.",
+      "detail": "O Grêmio iniciou com intensidade, mas foi o Vasco quem criou as melhores oportunidades até agora. Adson, em duas ocasiões, quase abriu o placar, primeiro em um chute que passou raspando a trave e depois em uma cabeçada livre. O Grêmio respondeu com Diego Caito, que parou em grande defesa de Léo Jardim. O jogo já tem dois cartões amarelos e segue equilibrado e movimentado aos 25 minutos.",
       "player": {
-        "name": "Duelo franco com chances para os dois lados"
+        "name": "Duelo aberto e com chances claras na Arena"
       },
       "assist": null
     },
@@ -599,6 +599,54 @@
       "detail": "Yellow Card",
       "player": {
         "name": "Tchê Tchê"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 26,
+        "extra": null
+      },
+      "team": {
+        "id": 267,
+        "name": "Vasco"
+      },
+      "type": "Important",
+      "detail": "Jovane Cabral cobra falta na área, mas Léo Jardim afasta de soco. Na volta o Noriega tenta o passe na área e o goleiro do Vasco faz nova intervenção",
+      "player": {
+        "name": "Jovane Cabral cobra falta na área, mas Léo Jardi"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 28,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O jogo se aproxima dos 30 minutos com ritmo intenso e oportunidades para os dois lados. O Vasco ameaçou principalmente com Adson, em duas finalizações que passaram perto. A resposta do Grêmio veio em chute de Diego Caito, que parou em boa defesa de Léo Jardim. O goleiro vascaíno, aliás, quase se complicou ao errar um passe para Tetê. A partida já teve cartões para Pedro Gabriel e Tchê Tchê.",
+      "player": {
+        "name": "Equilíbrio e chances claras na Arena"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 28,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Cuiabano avança pelo lado esquedo, faz o cruzamento, a bola chega no Tchê Tchê que domina e finaliza fraco nas mãos do Weverton",
+      "player": {
+        "name": "Cuiabano avança pelo lado esquedo, faz o cruzame"
       },
       "assist": null
     }
@@ -1062,15 +1110,15 @@
         },
         {
           "type": "Total Passes",
-          "value": 176
+          "value": 188
         },
         {
           "type": "Pass Accuracy",
-          "value": "86%"
+          "value": "84%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 25
+          "value": 30
         },
         {
           "type": "Total Shots",
@@ -1094,7 +1142,7 @@
         },
         {
           "type": "Corner Kicks",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Offsides",
@@ -1106,7 +1154,7 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Tackles",
@@ -1138,23 +1186,23 @@
         },
         {
           "type": "Total Passes",
-          "value": 137
+          "value": 148
         },
         {
           "type": "Pass Accuracy",
-          "value": "83%"
+          "value": "84%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 23
+          "value": 24
         },
         {
           "type": "Total Shots",
-          "value": 4
+          "value": 5
         },
         {
           "type": "Shots on Goal",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Shots off Goal",

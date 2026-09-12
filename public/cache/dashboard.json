@@ -13161,7 +13161,7 @@
         "status": {
           "long": "1H",
           "short": "1H",
-          "elapsed": 46
+          "elapsed": 49
         },
         "timerStart": "2026-09-12T21:30:40.826Z",
         "timerStatus": "INICIADO"
@@ -13182,7 +13182,7 @@
         }
       },
       "goals": {
-        "home": 0,
+        "home": 1,
         "away": 0
       },
       "score": {
@@ -18576,6 +18576,28 @@
             {
               "rank": 1,
               "team": {
+                "id": 275,
+                "name": "Palmeiras",
+                "logo": "https://s.sde.globo.com/media/organizations/2019/07/06/Palmeiras.svg"
+              },
+              "points": 56,
+              "goalsDiff": 25,
+              "form": "LWDDW",
+              "description": "Copa Libertadores",
+              "all": {
+                "played": 27,
+                "win": 16,
+                "draw": 8,
+                "lose": 3,
+                "goals": {
+                  "for": 46,
+                  "against": 21
+                }
+              }
+            },
+            {
+              "rank": 2,
+              "team": {
                 "id": 262,
                 "name": "Flamengo",
                 "logo": "https://s.sde.globo.com/media/organizations/2018/04/10/Flamengo-2018.svg"
@@ -18591,28 +18613,6 @@
                 "lose": 4,
                 "goals": {
                   "for": 51,
-                  "against": 21
-                }
-              }
-            },
-            {
-              "rank": 2,
-              "team": {
-                "id": 275,
-                "name": "Palmeiras",
-                "logo": "https://s.sde.globo.com/media/organizations/2019/07/06/Palmeiras.svg"
-              },
-              "points": 54,
-              "goalsDiff": 24,
-              "form": "LWDDD",
-              "description": "Copa Libertadores",
-              "all": {
-                "played": 27,
-                "win": 15,
-                "draw": 9,
-                "lose": 3,
-                "goals": {
-                  "for": 45,
                   "against": 21
                 }
               }
@@ -18778,18 +18778,18 @@
                 "name": "São Paulo",
                 "logo": "https://s.sde.globo.com/media/organizations/2018/03/11/sao-paulo.svg"
               },
-              "points": 34,
-              "goalsDiff": 3,
-              "form": "DLWWD",
+              "points": 33,
+              "goalsDiff": 2,
+              "form": "DLWWL",
               "description": "Copa Sudamericana",
               "all": {
                 "played": 26,
                 "win": 9,
-                "draw": 7,
-                "lose": 10,
+                "draw": 6,
+                "lose": 11,
                 "goals": {
                   "for": 31,
-                  "against": 28
+                  "against": 29
                 }
               }
             },
@@ -20127,7 +20127,7 @@
     "mode": "live",
     "liveIntervalMs": 20000
   },
-  "fetchedAt": "2026-09-12T22:17:10.990Z",
+  "fetchedAt": "2026-09-12T22:20:05.839Z",
   "source": "ge-globo",
   "meta": {
     "rodada": 27,

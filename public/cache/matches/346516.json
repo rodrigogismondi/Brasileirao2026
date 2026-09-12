@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 10
+      "elapsed": 13
     },
     "timerStart": "2026-09-12T23:31:28.942Z",
     "timerStatus": "INICIADO"
@@ -202,6 +202,22 @@
         "extra": null
       },
       "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Botafogo impôs um ritmo forte desde o apito inicial. Com menos de três minutos, Montoro já havia finalizado duas vezes: na primeira, parou em boa defesa de Volpi, e na segunda, chutou para fora. O Bragantino respondeu em um lance de Pitta, que tentou encobrir o goleiro, mas a jogada foi invalidada por impedimento. Jogo começa movimentado, com o time da casa criando as melhores chances.",
+      "player": {
+        "name": "Botafogo pressiona no início de jogo"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 7,
+        "extra": null
+      },
+      "team": {
         "id": 263,
         "name": "Botafogo"
       },
@@ -209,6 +225,38 @@
       "detail": "Huguinho lança Júnior Santos, que sairia em boas condições, mas é interceptado por Tiago Volpi",
       "player": {
         "name": "Huguinho lança Júnior Santos, que sairia em boas"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 9,
+        "extra": null
+      },
+      "team": {
+        "id": 263,
+        "name": "Botafogo"
+      },
+      "type": "Important",
+      "detail": "Agora é a vez do Botafogo rodar a bola no campo de defesa",
+      "player": {
+        "name": "Agora é a vez do Botafogo rodar a bola no campo "
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 10,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Bragantino sai em contra-ataque com Wallace Yan, que acha Lucas Barbosa pela direita. Na hora de devolver para o companheiro, o jogador acaba errando o passe e devolve a bola para a defesa do Botafogo",
+      "player": {
+        "name": "Bragantino sai em contra-ataque com Wallace Yan,"
       },
       "assist": null
     }
@@ -668,11 +716,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "39%"
+          "value": "40%"
         },
         {
           "type": "Total Passes",
-          "value": 21
+          "value": 49
         },
         {
           "type": "Pass Accuracy",
@@ -680,7 +728,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 5
+          "value": 12
         },
         {
           "type": "Total Shots",
@@ -720,7 +768,7 @@
         },
         {
           "type": "Tackles",
-          "value": 1
+          "value": 3
         },
         {
           "type": "Fouls",
@@ -744,19 +792,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "61%"
+          "value": "60%"
         },
         {
           "type": "Total Passes",
-          "value": 49
+          "value": 59
         },
         {
           "type": "Pass Accuracy",
-          "value": "82%"
+          "value": "81%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 9
+          "value": 11
         },
         {
           "type": "Total Shots",
@@ -796,7 +844,7 @@
         },
         {
           "type": "Tackles",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Fouls",

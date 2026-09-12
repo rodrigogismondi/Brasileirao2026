@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 53
+      "elapsed": 55
     },
     "timerStart": "2026-09-12T21:08:14.273Z",
     "timerStatus": "INICIADO"
@@ -810,22 +810,6 @@
         "extra": null
       },
       "team": {
-        "id": 315,
-        "name": "Chapecoense"
-      },
-      "type": "Card",
-      "detail": "Yellow Card",
-      "player": {
-        "name": "Eduardo Doma"
-      },
-      "assist": null
-    },
-    {
-      "time": {
-        "elapsed": 45,
-        "extra": null
-      },
-      "team": {
         "id": 0,
         "name": ""
       },
@@ -984,6 +968,22 @@
     },
     {
       "time": {
+        "elapsed": 48,
+        "extra": null
+      },
+      "team": {
+        "id": 315,
+        "name": "Chapecoense"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Eduardo Doma"
+      },
+      "assist": null
+    },
+    {
+      "time": {
         "elapsed": 49,
         "extra": null
       },
@@ -1075,6 +1075,54 @@
       "detail": "Bruno Henrique tenta o passe para Carbonero, mas a defesa faz a cobertura.",
       "player": {
         "name": "Bruno Henrique tenta o passe para Carbonero, mas"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 52,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Falta de Carbonero sobre Everton.",
+      "player": {
+        "name": "Falta de Carbonero sobre Everton."
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 52,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O jogo recomeçou para o segundo tempo com o placar de 1 a 1. O Internacional saiu na frente aos 24 minutos com um golaço de Bruno Henrique, mas a Chapecoense, que já havia perdido uma chance incrível, buscou o empate no fim da etapa com Garcez, de cabeça, após lindo passe de Marcinho. O clima esquentou com cartões e empurra-empurra, e a Chape voltou a atacar no início da etapa final.",
+      "player": {
+        "name": "Tudo igual após um primeiro tempo agitado"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 52,
+        "extra": null
+      },
+      "team": {
+        "id": 315,
+        "name": "Chapecoense"
+      },
+      "type": "Important",
+      "detail": "Chapecoense ataca com perigo, Garcez pede escanteio, mas já era marcado o impedimento de Túlio Eduardo.",
+      "player": {
+        "name": "Chapecoense ataca com perigo, Garcez pede escant"
       },
       "assist": null
     }
@@ -1534,11 +1582,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "62%"
+          "value": "63%"
         },
         {
           "type": "Total Passes",
-          "value": 298
+          "value": 322
         },
         {
           "type": "Pass Accuracy",
@@ -1546,7 +1594,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 43
+          "value": 45
         },
         {
           "type": "Total Shots",
@@ -1574,7 +1622,7 @@
         },
         {
           "type": "Offsides",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Penalties",
@@ -1586,7 +1634,7 @@
         },
         {
           "type": "Tackles",
-          "value": 10
+          "value": 13
         },
         {
           "type": "Fouls",
@@ -1610,11 +1658,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "38%"
+          "value": "37%"
         },
         {
           "type": "Total Passes",
-          "value": 204
+          "value": 205
         },
         {
           "type": "Pass Accuracy",
@@ -1622,7 +1670,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 48
+          "value": 49
         },
         {
           "type": "Total Shots",
@@ -1662,11 +1710,11 @@
         },
         {
           "type": "Tackles",
-          "value": 5
+          "value": 7
         },
         {
           "type": "Fouls",
-          "value": 6
+          "value": 7
         },
         {
           "type": "Yellow Cards",

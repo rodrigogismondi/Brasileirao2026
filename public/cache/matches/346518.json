@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 55
+      "elapsed": 58
     },
     "timerStart": "2026-09-12T22:37:02.880Z",
     "timerStatus": "INICIADO"
@@ -1804,6 +1804,22 @@
         "extra": null
       },
       "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Palmeiras volta com tudo para o segundo tempo e já amplia! Logo aos 4 minutos, Vitor Roque marcou, fazendo 2 a 0. A partida mudou completamente no fim da primeira etapa, quando Osorio, do São Paulo, foi expulso após entrada dura. Com um jogador a mais, o time da casa abriu o placar aos 45 minutos com Murilo, em lance de bola na área. O cenário é de domínio alviverde no clássico.",
+      "player": {
+        "name": "Palmeiras aproveita e abre 2 a 0 no clássico"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 52,
+        "extra": null
+      },
+      "team": {
         "id": 276,
         "name": "São Paulo"
       },
@@ -1813,6 +1829,24 @@
         "name": "São Paulo ganha falta na intermediária do campo."
       },
       "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 53,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Important",
+      "detail": "Andreas tenta uma arrancada pelo meio contra a marcação do São Paulo, mas não dá em nada.",
+      "player": {
+        "name": "Andreas Pereira"
+      },
+      "assist": {
+        "name": "Tentou e não deu"
+      }
     }
   ],
   "lineups": [
@@ -2274,7 +2308,7 @@
         },
         {
           "type": "Total Passes",
-          "value": 278
+          "value": 318
         },
         {
           "type": "Pass Accuracy",
@@ -2282,7 +2316,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 45
+          "value": 50
         },
         {
           "type": "Total Shots",
@@ -2326,7 +2360,7 @@
         },
         {
           "type": "Fouls",
-          "value": 8
+          "value": 12
         },
         {
           "type": "Yellow Cards",
@@ -2350,23 +2384,23 @@
         },
         {
           "type": "Total Passes",
-          "value": 217
+          "value": 250
         },
         {
           "type": "Pass Accuracy",
-          "value": "83%"
+          "value": "82%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 37
+          "value": 44
         },
         {
           "type": "Total Shots",
-          "value": 5
+          "value": 6
         },
         {
           "type": "Shots on Goal",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Shots off Goal",
@@ -2402,7 +2436,7 @@
         },
         {
           "type": "Fouls",
-          "value": 11
+          "value": 12
         },
         {
           "type": "Yellow Cards",

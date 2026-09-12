@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 49
+      "elapsed": 53
     },
     "timerStart": "2026-09-12T21:08:14.273Z",
     "timerStatus": "INICIADO"
@@ -810,6 +810,22 @@
         "extra": null
       },
       "team": {
+        "id": 315,
+        "name": "Chapecoense"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Eduardo Doma"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 45,
+        "extra": null
+      },
+      "team": {
         "id": 0,
         "name": ""
       },
@@ -938,6 +954,22 @@
         "extra": null
       },
       "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O jogo teve um primeiro tempo movimentado. O Internacional abriu o placar aos 24 minutos com Bruno Henrique, que aproveitou um belo cruzamento de Carbonero para fuzilar. A partida esquentou com cartões e um princípio de confusão, mas a Chapecoense buscou a reação nos acréscimos. Garcez subiu de cabeça após lançamento preciso de Marcinho para empatar em 1 a 1 antes do intervalo.",
+      "player": {
+        "name": "Empate no placar após primeiro tempo quente!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 48,
+        "extra": null
+      },
+      "team": {
         "id": 315,
         "name": "Chapecoense"
       },
@@ -949,6 +981,22 @@
       "assist": {
         "name": "Chegada da Chape!"
       }
+    },
+    {
+      "time": {
+        "elapsed": 49,
+        "extra": null
+      },
+      "team": {
+        "id": 315,
+        "name": "Chapecoense"
+      },
+      "type": "Important",
+      "detail": "Pezzolano pedia a expulsão do zagueiro da Chape, denunciando uma cotovelada.",
+      "player": {
+        "name": "Pezzolano pedia a expulsão do zagueiro da Chape,"
+      },
+      "assist": null
     },
     {
       "time": {
@@ -1486,11 +1534,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "63%"
+          "value": "62%"
         },
         {
           "type": "Total Passes",
-          "value": 281
+          "value": 298
         },
         {
           "type": "Pass Accuracy",
@@ -1498,7 +1546,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 38
+          "value": 43
         },
         {
           "type": "Total Shots",
@@ -1538,15 +1586,15 @@
         },
         {
           "type": "Tackles",
-          "value": 7
+          "value": 10
         },
         {
           "type": "Fouls",
-          "value": 8
+          "value": 9
         },
         {
           "type": "Yellow Cards",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Red Cards",
@@ -1562,19 +1610,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "37%"
+          "value": "38%"
         },
         {
           "type": "Total Passes",
-          "value": 177
+          "value": 204
         },
         {
           "type": "Pass Accuracy",
-          "value": "74%"
+          "value": "76%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 46
+          "value": 48
         },
         {
           "type": "Total Shots",
@@ -1614,7 +1662,7 @@
         },
         {
           "type": "Tackles",
-          "value": 4
+          "value": 5
         },
         {
           "type": "Fouls",

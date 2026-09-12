@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 15
+      "elapsed": 18
     },
     "timerStart": "2026-09-12T20:01:19.202Z",
     "timerStatus": "INICIADO"
@@ -241,6 +241,70 @@
       "detail": "Doma tenta o lançamento a Everton, mas a bola sai em lateral.",
       "player": {
         "name": "Doma tenta o lançamento a Everton, mas a bola sa"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 13,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O jogo começa com a Chapecoense tomando a iniciativa. Em pouco mais de 10 minutos, o time da casa já criou as melhores oportunidades, com Garcez arriscando chutes e, principalmente, em uma grande chance desperdiçada na pequena área por Everton e Túlio Eduardo. O Internacional respondeu com finalizações de longe de Carbonero, que chegou a pedir um pênalti em um lance, mas sem sucesso.",
+      "player": {
+        "name": "Chape pressiona, mas perde chance clara"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 13,
+        "extra": null
+      },
+      "team": {
+        "id": 285,
+        "name": "Internacional"
+      },
+      "type": "Important",
+      "detail": "Ligação direta de Doma fica com o goleiro colorado, Matheus Cunha.",
+      "player": {
+        "name": "Ligação direta de Doma fica com o goleiro colora"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 14,
+        "extra": null
+      },
+      "team": {
+        "id": 285,
+        "name": "Internacional"
+      },
+      "type": "Important",
+      "detail": "Bruno Gomes tenta o cruzamento, mas a bola sai direto pela linha de fundo.",
+      "player": {
+        "name": "Bruno Gomes"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 17,
+        "extra": null
+      },
+      "team": {
+        "id": 315,
+        "name": "Chapecoense"
+      },
+      "type": "Important",
+      "detail": "Chapecoense tem escanteio no lado direito de ataque.",
+      "player": {
+        "name": "Chapecoense tem escanteio no lado direito de ata"
       },
       "assist": null
     }
@@ -700,19 +764,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "66%"
+          "value": "67%"
         },
         {
           "type": "Total Passes",
-          "value": 83
+          "value": 117
         },
         {
           "type": "Pass Accuracy",
-          "value": "86%"
+          "value": "87%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 12
+          "value": 15
         },
         {
           "type": "Total Shots",
@@ -752,7 +816,7 @@
         },
         {
           "type": "Tackles",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Fouls",
@@ -776,19 +840,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "34%"
+          "value": "33%"
         },
         {
           "type": "Total Passes",
-          "value": 28
+          "value": 43
         },
         {
           "type": "Pass Accuracy",
-          "value": "68%"
+          "value": "67%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 9
+          "value": 14
         },
         {
           "type": "Total Shots",
@@ -832,7 +896,7 @@
         },
         {
           "type": "Fouls",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Yellow Cards",

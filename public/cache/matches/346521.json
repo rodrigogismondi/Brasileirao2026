@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 56
+      "elapsed": 59
     },
     "timerStart": "2026-09-12T20:05:19.619Z",
     "timerStatus": "INICIADO"
@@ -1418,6 +1418,22 @@
     },
     {
       "time": {
+        "elapsed": 55,
+        "extra": null
+      },
+      "team": {
+        "id": 284,
+        "name": "Grêmio"
+      },
+      "type": "Important",
+      "detail": "Pedro Gabriel cruza na área, Léo Jardim não acha nada. No rebote, a bola sobra com Caito que finaliza com muita força, o goleiro do Vasco espalma para o meio, mas Carlos Vinicius não consegue aproveitar a chance. Perde boa oportunidade o Grêmio",
+      "player": {
+        "name": "Carlos Vinícius"
+      },
+      "assist": null
+    },
+    {
+      "time": {
         "elapsed": 93,
         "extra": null
       },
@@ -1892,23 +1908,23 @@
         },
         {
           "type": "Total Passes",
-          "value": 287
+          "value": 308
         },
         {
           "type": "Pass Accuracy",
-          "value": "80%"
+          "value": "81%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 56
+          "value": 60
         },
         {
           "type": "Total Shots",
-          "value": 6
+          "value": 7
         },
         {
           "type": "Shots on Goal",
-          "value": 3
+          "value": 4
         },
         {
           "type": "Shots off Goal",
@@ -1940,7 +1956,7 @@
         },
         {
           "type": "Tackles",
-          "value": 16
+          "value": 15
         },
         {
           "type": "Fouls",
@@ -1968,7 +1984,7 @@
         },
         {
           "type": "Total Passes",
-          "value": 294
+          "value": 301
         },
         {
           "type": "Pass Accuracy",
@@ -1976,7 +1992,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 54
+          "value": 55
         },
         {
           "type": "Total Shots",
@@ -2012,11 +2028,11 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 4
+          "value": 5
         },
         {
           "type": "Tackles",
-          "value": 14
+          "value": 16
         },
         {
           "type": "Fouls",

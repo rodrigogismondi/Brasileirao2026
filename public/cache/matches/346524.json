@@ -7,12 +7,12 @@
       "city": ""
     },
     "status": {
-      "long": "HT",
-      "short": "HT",
-      "elapsed": 45
+      "long": "2H",
+      "short": "2H",
+      "elapsed": 49
     },
-    "timerStart": "2026-09-12T20:53:09.466Z",
-    "timerStatus": "PAUSADO"
+    "timerStart": "2026-09-12T21:08:14.273Z",
+    "timerStatus": "INICIADO"
   },
   "league": {
     "round": "Regular Season - 27"
@@ -894,6 +894,22 @@
         "name": ""
       },
       "type": "Important",
+      "detail": "Lançamento a Garcez é forte demais, e a bola fica com Matheus Cunha.",
+      "player": {
+        "name": "Lançamento a Garcez é forte demais, e a bola fic"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 46,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
       "detail": "Cinco de acréscimo, vamos aos 50.",
       "player": {
         "name": "Cinco de acréscimo, vamos aos 50."
@@ -915,6 +931,24 @@
         "name": "Marcinho"
       },
       "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 48,
+        "extra": null
+      },
+      "team": {
+        "id": 315,
+        "name": "Chapecoense"
+      },
+      "type": "Important",
+      "detail": "Cruzamento pela esquerda, Túlio Eduardo escora, mas ninguém consegue chegar para completar.",
+      "player": {
+        "name": "Túlio Eduardo"
+      },
+      "assist": {
+        "name": "Chegada da Chape!"
+      }
     },
     {
       "time": {
@@ -1456,15 +1490,15 @@
         },
         {
           "type": "Total Passes",
-          "value": 267
+          "value": 281
         },
         {
           "type": "Pass Accuracy",
-          "value": "88%"
+          "value": "86%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 33
+          "value": 38
         },
         {
           "type": "Total Shots",
@@ -1504,7 +1538,7 @@
         },
         {
           "type": "Tackles",
-          "value": 5
+          "value": 7
         },
         {
           "type": "Fouls",
@@ -1532,7 +1566,7 @@
         },
         {
           "type": "Total Passes",
-          "value": 155
+          "value": 177
         },
         {
           "type": "Pass Accuracy",
@@ -1540,7 +1574,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 41
+          "value": 46
         },
         {
           "type": "Total Shots",

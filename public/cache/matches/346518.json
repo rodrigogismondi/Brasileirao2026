@@ -56,6 +56,60 @@
         "extra": null
       },
       "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Arboleda"
+      },
+      "assist": {
+        "name": "Cauly"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 275,
+        "name": "Palmeiras"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Khellven"
+      },
+      "assist": {
+        "name": "Giay"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 275,
+        "name": "Palmeiras"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Arthur"
+      },
+      "assist": {
+        "name": "Piquerez"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
         "id": 0,
         "name": ""
       },
@@ -1382,6 +1436,22 @@
         "name": ""
       },
       "type": "Important",
+      "detail": "Bola rolando novamente para o Choque-Rei.",
+      "player": {
+        "name": "Começa o segundo tempo!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 45,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
       "detail": "O Choque-Rei teve um primeiro tempo de muita intensidade e reviravoltas. O São Paulo criou boas chances, principalmente com Ferreira, mas a partida mudou aos 38 minutos, quando Osorio foi expulso após revisão do VAR. Com um a mais, o Palmeiras foi pra cima. O goleiro Coronel ainda salvou o Tricolor com duas defesas espetaculares, mas não evitou o gol de Murilo aos 45, que abriu o placar em 1 a 0.",
       "player": {
         "name": "Clássico pega fogo com gol e expulsão!"
@@ -1410,6 +1480,24 @@
         "extra": null
       },
       "team": {
+        "id": 275,
+        "name": "Palmeiras"
+      },
+      "type": "Important",
+      "detail": "Flaco López arrisca finalização de longe em chutão na primeira chegada do segundo tempo, e o goleiro Coronel espalmada.",
+      "player": {
+        "name": "Flaco López"
+      },
+      "assist": {
+        "name": "Arriscou na primeira"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 46,
+        "extra": null
+      },
+      "team": {
         "id": 0,
         "name": ""
       },
@@ -1417,6 +1505,22 @@
       "detail": "Primeiro tempo vai até os 50 minutos no Nubank Parque.",
       "player": {
         "name": "Mais 5 minutos!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 47,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Important",
+      "detail": "São Paulo cobra falta buscando ligação direta no ataque, mas não dá em nada.",
+      "player": {
+        "name": "São Paulo cobra falta buscando ligação direta no"
       },
       "assist": null
     },
@@ -2022,11 +2126,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "55%"
+          "value": "53%"
         },
         {
           "type": "Total Passes",
-          "value": 241
+          "value": 246
         },
         {
           "type": "Pass Accuracy",
@@ -2034,7 +2138,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 40
+          "value": 41
         },
         {
           "type": "Total Shots",
@@ -2074,7 +2178,7 @@
         },
         {
           "type": "Tackles",
-          "value": 5
+          "value": 6
         },
         {
           "type": "Fouls",
@@ -2098,19 +2202,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "45%"
+          "value": "47%"
         },
         {
           "type": "Total Passes",
-          "value": 189
+          "value": 200
         },
         {
           "type": "Pass Accuracy",
-          "value": "83%"
+          "value": "84%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 32
+          "value": 33
         },
         {
           "type": "Total Shots",
@@ -2146,7 +2250,7 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 3
+          "value": 4
         },
         {
           "type": "Tackles",

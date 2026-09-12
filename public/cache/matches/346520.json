@@ -7,12 +7,12 @@
       "city": ""
     },
     "status": {
-      "long": "HT",
-      "short": "HT",
-      "elapsed": 45
+      "long": "2H",
+      "short": "2H",
+      "elapsed": 49
     },
-    "timerStart": "2026-09-12T19:48:14.402Z",
-    "timerStatus": "PAUSADO"
+    "timerStart": "2026-09-12T20:04:26.257Z",
+    "timerStatus": "INICIADO"
   },
   "league": {
     "round": "Regular Season - 27"
@@ -1050,6 +1050,22 @@
         "name": ""
       },
       "type": "Important",
+      "detail": "Bola rolando. Começa o segundo tempo!",
+      "player": {
+        "name": "INÍCIO DO SEGUNDO TEMPO!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 45,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
       "detail": "Vamos até os 48 minutos.",
       "player": {
         "name": "+3"
@@ -1069,6 +1085,22 @@
       "detail": "Castillo comete falta em Alan Franco.",
       "player": {
         "name": "Castillo comete falta em Alan Franco."
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 46,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Nonato comete falta em Alan Franco.",
+      "player": {
+        "name": "Nonato comete falta em Alan Franco."
       },
       "assist": null
     },
@@ -1149,6 +1181,22 @@
       "detail": "O Fluminense começou melhor e quase marcou aos 6 minutos, em um chutaço de Savarino que explodiu no travessão. O clima esquentou com um amarelo para Alan Franco. Na reta final do primeiro tempo, o Atlético-MG reagiu e criou ótimas chances, incluindo uma finalização de Fred que passou perto e um lance cara a cara de Reinier, que parou em defesaça do goleiro Fábio. Tudo igual na saída para o intervalo.",
       "player": {
         "name": "Fluminense acerta a trave, Galo reage forte!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 47,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "Important",
+      "detail": "Fluminense troca passes e procura espaços para avançar.",
+      "player": {
+        "name": "Fluminense troca passes e procura espaços para a"
       },
       "assist": null
     },
@@ -1651,7 +1699,7 @@
         },
         {
           "type": "Total Passes",
-          "value": 296
+          "value": 297
         },
         {
           "type": "Pass Accuracy",
@@ -1703,7 +1751,7 @@
         },
         {
           "type": "Fouls",
-          "value": 3
+          "value": 4
         },
         {
           "type": "Yellow Cards",
@@ -1727,15 +1775,15 @@
         },
         {
           "type": "Total Passes",
-          "value": 249
+          "value": 270
         },
         {
           "type": "Pass Accuracy",
-          "value": "87%"
+          "value": "88%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 32
+          "value": 33
         },
         {
           "type": "Total Shots",

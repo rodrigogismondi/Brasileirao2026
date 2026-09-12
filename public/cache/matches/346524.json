@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 33
+      "elapsed": 35
     },
     "timerStart": "2026-09-12T20:01:19.202Z",
     "timerStatus": "INICIADO"
@@ -72,22 +72,6 @@
         "extra": null
       },
       "team": {
-        "id": 285,
-        "name": "Internacional"
-      },
-      "type": "Important",
-      "detail": "Carbonero chuta de fora da área, tem desvio e a torcida do Inter pede pênalti, sem sucesso.",
-      "player": {
-        "name": "Carbonero chuta de fora da área, tem desvio e a "
-      },
-      "assist": null
-    },
-    {
-      "time": {
-        "elapsed": 0,
-        "extra": null
-      },
-      "team": {
         "id": 315,
         "name": "Chapecoense"
       },
@@ -115,6 +99,22 @@
       "assist": {
         "name": "POR CIMA!"
       }
+    },
+    {
+      "time": {
+        "elapsed": 2,
+        "extra": null
+      },
+      "team": {
+        "id": 285,
+        "name": "Internacional"
+      },
+      "type": "Important",
+      "detail": "Carbonero chuta de fora da área, tem desvio e a torcida do Inter pede pênalti, sem sucesso",
+      "player": {
+        "name": "Carbonero chuta de fora da área, tem desvio e a "
+      },
+      "assist": null
     },
     {
       "time": {
@@ -529,6 +529,70 @@
       "detail": "Carbonero tem chute travado e a bola fica com Anderson.",
       "player": {
         "name": "Carbonero tem chute travado e a bola fica com An"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 31,
+        "extra": null
+      },
+      "team": {
+        "id": 285,
+        "name": "Internacional"
+      },
+      "type": "Important",
+      "detail": "Everton se enrola na meia direita e cede lateral ao Inter.",
+      "player": {
+        "name": "Everton se enrola na meia direita e cede lateral"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 33,
+        "extra": null
+      },
+      "team": {
+        "id": 285,
+        "name": "Internacional"
+      },
+      "type": "Important",
+      "detail": "Mercado sofre falta na defesa do Internacional.",
+      "player": {
+        "name": "Mercado sofre falta na defesa do Internacional."
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 33,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O jogo começou com a Chapecoense criando as melhores oportunidades, incluindo uma chance clara desperdiçada na pequena área após os 5 minutos. O time da casa chegou a pedir pênalti, mas foi o Internacional quem abriu o placar. Aos 24, Carbonero fez grande jogada pela ponta e cruzou para Bruno Henrique, que chegou batendo forte da entrada da área para fazer 1 a 0 e colocar o Colorado em vantagem.",
+      "player": {
+        "name": "Bruno Henrique abre o placar para o Inter!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 33,
+        "extra": null
+      },
+      "team": {
+        "id": 315,
+        "name": "Chapecoense"
+      },
+      "type": "Important",
+      "detail": "Bernabei tenta evitar a saída da bola, mas, segundo a arbitragem, não consegue: Tiro de meta para a Chapecoense.",
+      "player": {
+        "name": "Bernabei tenta evitar a saída da bola, mas, segu"
       },
       "assist": null
     }
@@ -988,15 +1052,15 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "64%"
+          "value": "63%"
         },
         {
           "type": "Total Passes",
-          "value": 166
+          "value": 184
         },
         {
           "type": "Pass Accuracy",
-          "value": "86%"
+          "value": "88%"
         },
         {
           "type": "Incomplete Passes",
@@ -1040,7 +1104,7 @@
         },
         {
           "type": "Tackles",
-          "value": 4
+          "value": 5
         },
         {
           "type": "Fouls",
@@ -1064,19 +1128,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "36%"
+          "value": "37%"
         },
         {
           "type": "Total Passes",
-          "value": 93
+          "value": 116
         },
         {
           "type": "Pass Accuracy",
-          "value": "76%"
+          "value": "78%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 22
+          "value": 26
         },
         {
           "type": "Total Shots",
@@ -1120,7 +1184,7 @@
         },
         {
           "type": "Fouls",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Yellow Cards",

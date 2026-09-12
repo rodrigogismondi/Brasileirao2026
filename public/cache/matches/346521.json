@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 74
+      "elapsed": 76
     },
     "timerStart": "2026-09-12T20:05:19.619Z",
     "timerStatus": "INICIADO"
@@ -1734,6 +1734,90 @@
     },
     {
       "time": {
+        "elapsed": 72,
+        "extra": null
+      },
+      "team": {
+        "id": 267,
+        "name": "Vasco"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Jair"
+      },
+      "assist": {
+        "name": "Carlos Cuesta"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 72,
+        "extra": null
+      },
+      "team": {
+        "id": 267,
+        "name": "Vasco"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Lescano"
+      },
+      "assist": {
+        "name": "Tchê Tchê"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 72,
+        "extra": null
+      },
+      "team": {
+        "id": 267,
+        "name": "Vasco"
+      },
+      "type": "Important",
+      "detail": "Enamorado cai pedindo falta, mas o árbitro dá apenas lateral para o Vasco",
+      "player": {
+        "name": "Enamorado cai pedindo falta, mas o árbitro dá ap"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 73,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Colídio lançou para a área, a bola sobra para Bruno Duarte no meio da área, mas Wallace desarma e sai jogando com categoria",
+      "player": {
+        "name": "Colídio lançou para a área, a bola sobra para Br"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 74,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Cuiabano cruza e a bola carimba o Caito",
+      "player": {
+        "name": "Cuiabano cruza e a bola carimba o Caito"
+      },
+      "assist": null
+    },
+    {
+      "time": {
         "elapsed": 93,
         "extra": null
       },
@@ -2208,7 +2292,7 @@
         },
         {
           "type": "Total Passes",
-          "value": 356
+          "value": 372
         },
         {
           "type": "Pass Accuracy",
@@ -2216,7 +2300,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 69
+          "value": 70
         },
         {
           "type": "Total Shots",
@@ -2284,7 +2368,7 @@
         },
         {
           "type": "Total Passes",
-          "value": 393
+          "value": 417
         },
         {
           "type": "Pass Accuracy",
@@ -2292,7 +2376,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 68
+          "value": 72
         },
         {
           "type": "Total Shots",

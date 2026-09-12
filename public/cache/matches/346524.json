@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 65
+      "elapsed": 68
     },
     "timerStart": "2026-09-12T21:08:14.273Z",
     "timerStatus": "INICIADO"
@@ -810,6 +810,22 @@
         "extra": null
       },
       "team": {
+        "id": 315,
+        "name": "Chapecoense"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Camilo"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 45,
+        "extra": null
+      },
+      "team": {
         "id": 0,
         "name": ""
       },
@@ -1378,6 +1394,24 @@
         "extra": null
       },
       "team": {
+        "id": 285,
+        "name": "Internacional"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "João Victor"
+      },
+      "assist": {
+        "name": "Bruno Henrique"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 63,
+        "extra": null
+      },
+      "team": {
         "id": 0,
         "name": ""
       },
@@ -1403,6 +1437,40 @@
         "name": "Clique da partida"
       },
       "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 65,
+        "extra": null
+      },
+      "team": {
+        "id": 315,
+        "name": "Chapecoense"
+      },
+      "type": "Important",
+      "detail": "Chapecoense tem escanteio. Marcinho na bola.",
+      "player": {
+        "name": "Chapecoense tem escanteio. Marcinho na bola."
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 65,
+        "extra": null
+      },
+      "team": {
+        "id": 315,
+        "name": "Chapecoense"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Bolasie"
+      },
+      "assist": {
+        "name": "Miguel Carvalho"
+      }
     }
   ],
   "lineups": [
@@ -1864,7 +1932,7 @@
         },
         {
           "type": "Total Passes",
-          "value": 340
+          "value": 353
         },
         {
           "type": "Pass Accuracy",
@@ -1872,7 +1940,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 48
+          "value": 51
         },
         {
           "type": "Total Shots",
@@ -1920,7 +1988,7 @@
         },
         {
           "type": "Yellow Cards",
-          "value": 3
+          "value": 4
         },
         {
           "type": "Red Cards",
@@ -1940,7 +2008,7 @@
         },
         {
           "type": "Total Passes",
-          "value": 221
+          "value": 232
         },
         {
           "type": "Pass Accuracy",
@@ -1948,7 +2016,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 54
+          "value": 55
         },
         {
           "type": "Total Shots",
@@ -1992,7 +2060,7 @@
         },
         {
           "type": "Fouls",
-          "value": 7
+          "value": 8
         },
         {
           "type": "Yellow Cards",

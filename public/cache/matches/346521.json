@@ -9,9 +9,9 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 4
+      "elapsed": 7
     },
-    "timerStart": "2026-09-12T18:59:36.813Z",
+    "timerStart": "2026-09-12T18:59:33.349Z",
     "timerStatus": "INICIADO"
   },
   "league": {
@@ -120,6 +120,38 @@
         "extra": null
       },
       "team": {
+        "id": 267,
+        "name": "Vasco"
+      },
+      "type": "Important",
+      "detail": "Andrés Gomez ganha da marcação, cai, mas o juiz mandou levantar",
+      "player": {
+        "name": "Andrés Gómez"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 3,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "A partida começa com o Grêmio impondo um ritmo forte na Arena. Com menos de um minuto, Kannemann se aventurou no ataque e caiu na área, mas o árbitro mandou seguir, para reclamação da torcida. O time da casa segue pressionando, como na jogada individual de Jovane Cabral, bem interceptada por Paulo Henrique. O Vasco tenta responder em erros do adversário, mas o início é de domínio gremista.",
+      "player": {
+        "name": "Grêmio começa em cima e pede pênalti"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 3,
+        "extra": null
+      },
+      "team": {
         "id": 0,
         "name": ""
       },
@@ -127,6 +159,38 @@
       "detail": "Jovane Cabral faz boa jogada individual e tenta acionar Krovinovic, mas Paulo Henrique joga a bola para a linha lateral",
       "player": {
         "name": "Jovane Cabral faz boa jogada individual e tenta "
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 4,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Tetê aciona Caito pelo lado direito que cruza para a área buscando Carlos Vinícius, mas é forte demais e a acaba passando por toda a extensão da área",
+      "player": {
+        "name": "Tetê aciona Caito pelo lado direito que cruza pa"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 6,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Tchê Tchê aparece na área e finaliza em cima do Kannemann",
+      "player": {
+        "name": "Tchê Tchê aparece na área e finaliza em cima do "
       },
       "assist": null
     }
@@ -586,15 +650,91 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "50%"
+          "value": "73%"
         },
         {
           "type": "Total Passes",
-          "value": 19
+          "value": 60
         },
         {
           "type": "Pass Accuracy",
-          "value": "79%"
+          "value": "90%"
+        },
+        {
+          "type": "Incomplete Passes",
+          "value": 6
+        },
+        {
+          "type": "Total Shots",
+          "value": 2
+        },
+        {
+          "type": "Shots on Goal",
+          "value": 0
+        },
+        {
+          "type": "Shots off Goal",
+          "value": 0
+        },
+        {
+          "type": "Blocked Shots",
+          "value": 2
+        },
+        {
+          "type": "Hit Woodwork",
+          "value": 0
+        },
+        {
+          "type": "Corner Kicks",
+          "value": 0
+        },
+        {
+          "type": "Offsides",
+          "value": 0
+        },
+        {
+          "type": "Penalties",
+          "value": 0
+        },
+        {
+          "type": "Goalkeeper Saves",
+          "value": 1
+        },
+        {
+          "type": "Tackles",
+          "value": 2
+        },
+        {
+          "type": "Fouls",
+          "value": 0
+        },
+        {
+          "type": "Yellow Cards",
+          "value": 0
+        },
+        {
+          "type": "Red Cards",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "team": {
+        "id": 267,
+        "name": "Vasco"
+      },
+      "statistics": [
+        {
+          "type": "Ball Possession",
+          "value": "27%"
+        },
+        {
+          "type": "Total Passes",
+          "value": 28
+        },
+        {
+          "type": "Pass Accuracy",
+          "value": "86%"
         },
         {
           "type": "Incomplete Passes",
@@ -634,91 +774,15 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 0
+          "value": 2
         },
         {
           "type": "Tackles",
-          "value": 0
+          "value": 3
         },
         {
           "type": "Fouls",
-          "value": 0
-        },
-        {
-          "type": "Yellow Cards",
-          "value": 0
-        },
-        {
-          "type": "Red Cards",
-          "value": 0
-        }
-      ]
-    },
-    {
-      "team": {
-        "id": 267,
-        "name": "Vasco"
-      },
-      "statistics": [
-        {
-          "type": "Ball Possession",
-          "value": "50%"
-        },
-        {
-          "type": "Total Passes",
-          "value": 7
-        },
-        {
-          "type": "Pass Accuracy",
-          "value": "86%"
-        },
-        {
-          "type": "Incomplete Passes",
           "value": 1
-        },
-        {
-          "type": "Total Shots",
-          "value": 0
-        },
-        {
-          "type": "Shots on Goal",
-          "value": 0
-        },
-        {
-          "type": "Shots off Goal",
-          "value": 0
-        },
-        {
-          "type": "Blocked Shots",
-          "value": 0
-        },
-        {
-          "type": "Hit Woodwork",
-          "value": 0
-        },
-        {
-          "type": "Corner Kicks",
-          "value": 0
-        },
-        {
-          "type": "Offsides",
-          "value": 0
-        },
-        {
-          "type": "Penalties",
-          "value": 0
-        },
-        {
-          "type": "Goalkeeper Saves",
-          "value": 1
-        },
-        {
-          "type": "Tackles",
-          "value": 1
-        },
-        {
-          "type": "Fouls",
-          "value": 0
         },
         {
           "type": "Yellow Cards",

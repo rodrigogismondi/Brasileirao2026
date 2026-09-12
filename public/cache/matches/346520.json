@@ -9,10 +9,10 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 2
+      "elapsed": 8
     },
-    "timerStart": "2026-09-12T18:57:08.364Z",
-    "timerStatus": "PAUSADO"
+    "timerStart": "2026-09-12T18:59:19.239Z",
+    "timerStatus": "INICIADO"
   },
   "league": {
     "round": "Regular Season - 27"
@@ -127,6 +127,54 @@
       "detail": "Cuello desce pela direita, tenta driblar a marcação, mas Arana corta. A bola sai em lateral para o Atlético.",
       "player": {
         "name": "Cuello desce pela direita, tenta driblar a marca"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 3,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O jogo começa com o Atlético-MG tentando ditar o ritmo com a posse de bola, mas encontrando uma defesa bem postada. Cuello buscou a jogada pela direita para o time da casa, mas a zaga do Fluminense cortou. A melhor oportunidade até agora, aos 3 minutos, foi dos visitantes: Lucho Acosta recebeu na entrada da área, girou e bateu por cima do gol, levando o primeiro perigo da partida.",
+      "player": {
+        "name": "Fluminense cria a primeira chance no início"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 3,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "Important",
+      "detail": "Lucho recebe a bola na entrada da área, domina no peito, vira e chuta. A bola passa por cima do gol.",
+      "player": {
+        "name": "Lucho Acosta"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 4,
+        "extra": null
+      },
+      "team": {
+        "id": 282,
+        "name": "Atlético-MG"
+      },
+      "type": "Important",
+      "detail": "Cuello avança pela direita e cruza à meia altura na área. Bernard não chega na bola e sai em tiro de meta.",
+      "player": {
+        "name": "boa chegada!"
       },
       "assist": null
     }
@@ -581,15 +629,15 @@
         },
         {
           "type": "Total Passes",
-          "value": 31
+          "value": 55
         },
         {
           "type": "Pass Accuracy",
-          "value": "100%"
+          "value": "95%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 0
+          "value": 3
         },
         {
           "type": "Total Shots",
@@ -657,19 +705,19 @@
         },
         {
           "type": "Total Passes",
-          "value": 12
+          "value": 24
         },
         {
           "type": "Pass Accuracy",
-          "value": "83%"
+          "value": "88%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Total Shots",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Shots on Goal",
@@ -677,7 +725,7 @@
         },
         {
           "type": "Shots off Goal",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Blocked Shots",
@@ -705,11 +753,11 @@
         },
         {
           "type": "Tackles",
-          "value": 1
+          "value": 3
         },
         {
           "type": "Fouls",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Yellow Cards",

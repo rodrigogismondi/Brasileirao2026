@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 9
+      "elapsed": 12
     },
     "timerStart": "2026-09-12T21:30:40.826Z",
     "timerStatus": "INICIADO"
@@ -240,6 +240,22 @@
         "extra": null
       },
       "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O jogo começa quente, com muitas faltas do São Paulo nos minutos iniciais para frear as tentativas do Palmeiras. A equipe alviverde teve uma cobrança de falta com Andreas, mas sem sucesso. A resposta tricolor veio aos 5 minutos e foi perigosa: Ferreira fez bela jogada individual, passou para André Silva, que chutou rasteiro e mandou para fora, criando a melhor chance da partida até aqui.",
+      "player": {
+        "name": "Choque-Rei começa com faltas e susto"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 6,
+        "extra": null
+      },
+      "team": {
         "id": 275,
         "name": "Palmeiras"
       },
@@ -251,6 +267,168 @@
       "assist": {
         "name": "Bola na área"
       }
+    },
+    {
+      "time": {
+        "elapsed": 7,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Important",
+      "detail": "Evangelista devolve o passe em Arias quase na linha de fundo, ele encontra o cruzamento na área, e a defesa do São Paulo afasta.",
+      "player": {
+        "name": "Arias"
+      },
+      "assist": {
+        "name": "Defesa desvia!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 7,
+        "extra": null
+      },
+      "team": {
+        "id": 275,
+        "name": "Palmeiras"
+      },
+      "type": "Important",
+      "detail": "Palmeiras tenta subir ao ataque com Jhon Arias.",
+      "player": {
+        "name": "Palmeiras tenta subir ao ataque com Jhon Arias."
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 8,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Important",
+      "detail": "Andreas cobra escanteio no meio da área, Flaco López sobe, mas a defesa do São Paulo afasta.",
+      "player": {
+        "name": "Andreas cobra escanteio no meio da área, Flaco L"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 9,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O clássico começa com o Palmeiras tentando impor seu ritmo, mas sendo interrompido por faltas do São Paulo. Aos 5 minutos, veio a melhor chance da partida até agora: Ferreira fez grande jogada individual e tocou para André Silva, que finalizou rasteiro para fora. O time da casa respondeu com cruzamentos e um escanteio, mas a defesa tricolor conseguiu afastar o perigo nos primeiros 10 minutos.",
+      "player": {
+        "name": "São Paulo assusta no início do Choque-Rei"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 9,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Evangelista carrega a bola pelo meio, Newton desarma sem falta e avança até a intermediária, mas pouco depois perde a bola também.",
+      "player": {
+        "name": "Evangelista carrega a bola pelo meio, Newton des"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 10,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O São Paulo fez sete faltas nesses 10 minutos. O Palmeiras fez zero.",
+      "player": {
+        "name": "Número de faltas"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 10,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Wendell faz falta agora em Jhon Arias no meio de campo.",
+      "player": {
+        "name": "Wendell faz falta agora em Jhon Arias no meio de"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 11,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Pablo Maia"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 11,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Sobra uma tentativa de lançamento em Evangelista aberto na ponta esquerda, mas sobe a bandeira de impedimento.",
+      "player": {
+        "name": "Não vale nada"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 12,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Important",
+      "detail": "Agora falta de Jhon Arias em cima de Ferreira, do São Paulo.",
+      "player": {
+        "name": "Agora falta de Jhon Arias em cima de Ferreira, d"
+      },
+      "assist": null
     }
   ],
   "lineups": [
@@ -708,19 +886,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "50%"
+          "value": "76%"
         },
         {
           "type": "Total Passes",
-          "value": 23
+          "value": 62
         },
         {
           "type": "Pass Accuracy",
-          "value": "96%"
+          "value": "85%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 1
+          "value": 9
         },
         {
           "type": "Total Shots",
@@ -744,7 +922,7 @@
         },
         {
           "type": "Corner Kicks",
-          "value": 0
+          "value": 2
         },
         {
           "type": "Offsides",
@@ -784,23 +962,23 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "50%"
+          "value": "24%"
         },
         {
           "type": "Total Passes",
-          "value": 7
+          "value": 11
         },
         {
           "type": "Pass Accuracy",
-          "value": "57%"
+          "value": "64%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 3
+          "value": 4
         },
         {
           "type": "Total Shots",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Shots on Goal",
@@ -808,7 +986,7 @@
         },
         {
           "type": "Shots off Goal",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Blocked Shots",
@@ -836,11 +1014,11 @@
         },
         {
           "type": "Tackles",
-          "value": 0
+          "value": 2
         },
         {
           "type": "Fouls",
-          "value": 3
+          "value": 6
         },
         {
           "type": "Yellow Cards",

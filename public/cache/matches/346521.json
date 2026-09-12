@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 46
+      "elapsed": 50
     },
     "timerStart": "2026-09-12T18:59:33.349Z",
     "timerStatus": "INICIADO"
@@ -973,6 +973,70 @@
         "name": "Pedro Gabriel"
       },
       "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 43,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Paulo Henrique cruza com perigo e Wallace afasta da área. Na volta, a bola sobra com Adson dentro da área, mas o atacante foi desarmado por Kannemann",
+      "player": {
+        "name": "Paulo Henrique cruza com perigo e Wallace afasta"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 44,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Vamos aos 48 no primeiro tempo",
+      "player": {
+        "name": "+3 de acréscimos"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 44,
+        "extra": null
+      },
+      "team": {
+        "id": 284,
+        "name": "Grêmio"
+      },
+      "type": "Important",
+      "detail": "Falta do Noriega no Adson. Pode ter bola na área do Grêmio",
+      "player": {
+        "name": "Falta do Noriega no Adson. Pode ter bola na área"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 46,
+        "extra": null
+      },
+      "team": {
+        "id": 267,
+        "name": "Vasco"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Cuiabano"
+      },
+      "assist": null
     }
   ],
   "lineups": [
@@ -1430,11 +1494,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "56%"
+          "value": "54%"
         },
         {
           "type": "Total Passes",
-          "value": 245
+          "value": 253
         },
         {
           "type": "Pass Accuracy",
@@ -1442,7 +1506,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 41
+          "value": 43
         },
         {
           "type": "Total Shots",
@@ -1486,7 +1550,7 @@
         },
         {
           "type": "Fouls",
-          "value": 3
+          "value": 4
         },
         {
           "type": "Yellow Cards",
@@ -1506,19 +1570,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "44%"
+          "value": "46%"
         },
         {
           "type": "Total Passes",
-          "value": 205
+          "value": 228
         },
         {
           "type": "Pass Accuracy",
-          "value": "82%"
+          "value": "83%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 37
+          "value": 39
         },
         {
           "type": "Total Shots",
@@ -1558,7 +1622,7 @@
         },
         {
           "type": "Tackles",
-          "value": 11
+          "value": 12
         },
         {
           "type": "Fouls",

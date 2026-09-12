@@ -13213,10 +13213,10 @@
         "status": {
           "long": "1H",
           "short": "1H",
-          "elapsed": null
+          "elapsed": 4
         },
-        "timerStart": "2026-09-12T22:30:41.552Z",
-        "timerStatus": "PAUSADO"
+        "timerStart": "2026-09-12T23:31:28.942Z",
+        "timerStatus": "INICIADO"
       },
       "league": {
         "round": "Regular Season - 27"
@@ -13234,8 +13234,8 @@
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
       "score": {
         "halftime": {
@@ -18760,14 +18760,14 @@
                 "name": "Bragantino",
                 "logo": "https://s.sde.globo.com/media/organizations/2021/06/28/bragantino.svg"
               },
-              "points": 35,
+              "points": 36,
               "goalsDiff": 3,
-              "form": "LDWLL",
+              "form": "DWLLD",
               "description": "Copa Sudamericana",
               "all": {
-                "played": 25,
+                "played": 26,
                 "win": 10,
-                "draw": 5,
+                "draw": 6,
                 "lose": 10,
                 "goals": {
                   "for": 31,
@@ -18870,14 +18870,14 @@
                 "name": "Botafogo",
                 "logo": "https://s.sde.globo.com/media/organizations/2019/02/04/botafogo-svg.svg"
               },
-              "points": 31,
+              "points": 32,
               "goalsDiff": -3,
-              "form": "DLLLD",
+              "form": "LLLDD",
               "description": null,
               "all": {
-                "played": 25,
+                "played": 26,
                 "win": 8,
-                "draw": 7,
+                "draw": 8,
                 "lose": 10,
                 "goals": {
                   "for": 37,
@@ -20131,7 +20131,7 @@
     "mode": "live",
     "liveIntervalMs": 20000
   },
-  "fetchedAt": "2026-09-12T23:32:32.135Z",
+  "fetchedAt": "2026-09-12T23:35:37.512Z",
   "source": "ge-globo",
   "meta": {
     "rodada": 27,

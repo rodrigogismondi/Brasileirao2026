@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 61
+      "elapsed": 64
     },
     "timerStart": "2026-09-12T22:37:02.880Z",
     "timerStatus": "INICIADO"
@@ -1936,6 +1936,22 @@
         "extra": null
       },
       "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O jogo mudou de rumo após a expulsão de Osorio, do São Paulo, ainda no primeiro tempo. Com um a mais, o Palmeiras aproveitou e abriu o placar com Murilo nos acréscimos. Logo no início da segunda etapa, Vitor Roque ampliou para 2 a 0. O time da casa segue com o controle e quase fez o terceiro com Roque aos 13 minutos, em lance que parou em grande defesa do goleiro Coronel.",
+      "player": {
+        "name": "Palmeiras domina e abre 2 a 0 no clássico"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 58,
+        "extra": null
+      },
+      "team": {
         "id": 275,
         "name": "Palmeiras"
       },
@@ -1961,6 +1977,22 @@
       "detail": "Andreas cobra com passe em Murilo à esquerda. Palmeiras trabalha de pé em pé.",
       "player": {
         "name": "Andreas cobra com passe em Murilo à esquerda. Pa"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 61,
+        "extra": null
+      },
+      "team": {
+        "id": 275,
+        "name": "Palmeiras"
+      },
+      "type": "Important",
+      "detail": "Palmeiras trabalha a bola no meio de campo.",
+      "player": {
+        "name": "Palmeiras trabalha a bola no meio de campo."
       },
       "assist": null
     }
@@ -2424,11 +2456,11 @@
         },
         {
           "type": "Total Passes",
-          "value": 318
+          "value": 332
         },
         {
           "type": "Pass Accuracy",
-          "value": "84%"
+          "value": "85%"
         },
         {
           "type": "Incomplete Passes",
@@ -2436,11 +2468,11 @@
         },
         {
           "type": "Total Shots",
-          "value": 10
+          "value": 11
         },
         {
           "type": "Shots on Goal",
-          "value": 4
+          "value": 5
         },
         {
           "type": "Shots off Goal",
@@ -2476,7 +2508,7 @@
         },
         {
           "type": "Fouls",
-          "value": 12
+          "value": 13
         },
         {
           "type": "Yellow Cards",
@@ -2500,7 +2532,7 @@
         },
         {
           "type": "Total Passes",
-          "value": 250
+          "value": 256
         },
         {
           "type": "Pass Accuracy",
@@ -2508,7 +2540,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 44
+          "value": 46
         },
         {
           "type": "Total Shots",
@@ -2548,7 +2580,7 @@
         },
         {
           "type": "Tackles",
-          "value": 18
+          "value": 19
         },
         {
           "type": "Fouls",

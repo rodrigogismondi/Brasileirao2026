@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 94
+      "elapsed": 97
     },
     "timerStart": "2026-09-12T20:05:19.619Z",
     "timerStatus": "INICIADO"
@@ -2061,6 +2061,38 @@
         "name": "Grêmio sai na frente com gol no fim da etapa"
       },
       "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 94,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "A bola foi cruzada para Carlos Vinícius que briga com a defesa, mas Sosa limpa a área",
+      "player": {
+        "name": "AFASTA A ZAGA"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 95,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Vasco vira o jogo e vence o Grêmio por 2 a 1! Os cariocas vencem os tricolores como visitante após 20 anos de jejum.",
+      "player": {
+        "name": "FIM DE JOGO"
+      },
+      "assist": null
     }
   ],
   "lineups": [
@@ -2522,7 +2554,7 @@
         },
         {
           "type": "Total Passes",
-          "value": 478
+          "value": 506
         },
         {
           "type": "Pass Accuracy",
@@ -2530,15 +2562,15 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 91
+          "value": 94
         },
         {
           "type": "Total Shots",
-          "value": 10
+          "value": 12
         },
         {
           "type": "Shots on Goal",
-          "value": 5
+          "value": 6
         },
         {
           "type": "Shots off Goal",
@@ -2546,7 +2578,7 @@
         },
         {
           "type": "Blocked Shots",
-          "value": 3
+          "value": 4
         },
         {
           "type": "Hit Woodwork",
@@ -2598,15 +2630,15 @@
         },
         {
           "type": "Total Passes",
-          "value": 475
+          "value": 482
         },
         {
           "type": "Pass Accuracy",
-          "value": "83%"
+          "value": "82%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 83
+          "value": 86
         },
         {
           "type": "Total Shots",
@@ -2642,7 +2674,7 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 7
+          "value": 8
         },
         {
           "type": "Tackles",

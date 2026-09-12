@@ -11,7 +11,7 @@
       "short": "NS",
       "elapsed": null
     },
-    "timerStart": null,
+    "timerStart": "2026-09-12T22:30:41.552Z",
     "timerStatus": "PAUSADO"
   },
   "league": {
@@ -57,7 +57,7 @@
         "name": "Botafogo",
         "logo": "https://s.sde.globo.com/media/organizations/2019/02/04/botafogo-svg.svg"
       },
-      "formation": "4-5-1",
+      "formation": "4-3-3",
       "coach": {
         "name": "Rodrigo Bellão"
       },
@@ -93,7 +93,7 @@
           "player": {
             "id": "lucasmonzon",
             "name": "Lucas Monzón",
-            "number": null,
+            "number": 33,
             "pos": "Def",
             "grid": null
           }
@@ -102,7 +102,7 @@
           "player": {
             "id": "alextelles",
             "name": "Alex Telles",
-            "number": null,
+            "number": 13,
             "pos": "Def",
             "grid": null
           }
@@ -127,15 +127,6 @@
         },
         {
           "player": {
-            "id": "medinacris",
-            "name": "Medina",
-            "number": 6,
-            "pos": "Mei",
-            "grid": null
-          }
-        },
-        {
-          "player": {
             "id": "alvamontoro",
             "name": "Montoro",
             "number": 10,
@@ -145,9 +136,9 @@
         },
         {
           "player": {
-            "id": "tiquinhosoares",
-            "name": "Tiquinho Soares",
-            "number": null,
+            "id": "lmvillalba",
+            "name": "Villalba",
+            "number": 77,
             "pos": "Ata",
             "grid": null
           }
@@ -160,9 +151,127 @@
             "pos": "Ata",
             "grid": null
           }
+        },
+        {
+          "player": {
+            "id": "junior-santos",
+            "name": "Júnior Santos",
+            "number": 7,
+            "pos": "Ata",
+            "grid": null
+          }
         }
       ],
-      "substitutes": []
+      "substitutes": [
+        {
+          "player": {
+            "id": "warleson",
+            "name": "Warleson",
+            "number": 17,
+            "pos": "Gol",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "mateoponte",
+            "name": "Mateo Ponte",
+            "number": 4,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "kadu-santos-eduardo",
+            "name": "Kadu",
+            "number": 42,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "arthurchaves",
+            "name": "Arthur Chaves",
+            "number": 3,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "paulinho-santoandre",
+            "name": "Paulinho",
+            "number": 29,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "allan2",
+            "name": "Allan",
+            "number": 25,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "domingosandra",
+            "name": "Domingos Andrade",
+            "number": 91,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "tiquinhosoares",
+            "name": "Tiquinho Soares",
+            "number": 9,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "kadir-panama",
+            "name": "Kadir",
+            "number": 37,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "kauan-toledo-0406",
+            "name": "Kauan Toledo",
+            "number": 59,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "lucas-emanuel-jales",
+            "name": "Lucas Emanuel",
+            "number": 79,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "edenilson2",
+            "name": "Edenílson",
+            "number": 88,
+            "pos": "Mei",
+            "grid": null
+          }
+        }
+      ]
     },
     {
       "team": {
@@ -275,7 +384,116 @@
           }
         }
       ],
-      "substitutes": []
+      "substitutes": [
+        {
+          "player": {
+            "id": "cleiton-schwengber",
+            "name": "Cleiton",
+            "number": 1,
+            "pos": "Gol",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "andreshurtado",
+            "name": "Andrés Hurtado",
+            "number": 34,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "eduardomendes",
+            "name": "Eduardo Santos",
+            "number": 3,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "caue",
+            "name": "Cauê",
+            "number": 51,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "gabriel41",
+            "name": "Gabriel",
+            "number": 6,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "IgnacioSosa",
+            "name": "Ignacio Sosa",
+            "number": 15,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "matheusfernandes",
+            "name": "Matheus Fernandes",
+            "number": 35,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "bruninho-bragantino",
+            "name": "Bruninho",
+            "number": 19,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "marcelinho-braz",
+            "name": "Marcelinho",
+            "number": 57,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "vinicius-calvas",
+            "name": "Vinicinho",
+            "number": 17,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "HenryDavidMosqueraSanchez",
+            "name": "Henry Mosquera",
+            "number": 30,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "joseherrerama",
+            "name": "Herrera",
+            "number": 32,
+            "pos": "Ata",
+            "grid": null
+          }
+        }
+      ]
     }
   ],
   "statistics": [],

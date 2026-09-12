@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 67
+      "elapsed": 70
     },
     "timerStart": "2026-09-12T22:37:02.880Z",
     "timerStatus": "INICIADO"
@@ -2108,12 +2108,150 @@
         "name": "São Paulo"
       },
       "type": "Important",
+      "detail": "Artur cobra escanteio fechado na segunda trave, e Murilo afasta de cabeça.",
+      "player": {
+        "name": "Artur"
+      },
+      "assist": {
+        "name": "Sem perigo"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 64,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Árbitro vê empurrão dentro da área no momento da batida e manda voltar a cobrança de escanteio.",
+      "player": {
+        "name": "Árbitro vê empurrão dentro da área no momento da"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 64,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O segundo tempo avança e o Palmeiras constrói uma bela vantagem de 2 a 0. O jogo mudou de figura aos 38 da primeira etapa, com a expulsão de Osorio, do São Paulo. Com um a mais, o time da casa abriu o placar com Murilo antes do intervalo. Na volta, Vitor Roque aproveitou um erro da defesa tricolor e ampliou. O São Paulo tenta reagir, mas o Palmeiras segue no controle da partida.",
+      "player": {
+        "name": "Vantagem verde: Palmeiras faz 2 a 0 no Choque-Rei"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 64,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Important",
       "detail": "Artur, que acabou de entrar, carrega a bola até a área pela direita, disputa com a marcação e descola um escanteio.",
       "player": {
         "name": "Artur"
       },
       "assist": {
         "name": "Escanteio para o São Paulo"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 65,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Important",
+      "detail": "Ferreira cobra com lançamento na entrada da área, e Khellven afasta a bola.",
+      "player": {
+        "name": "Ferreira"
+      },
+      "assist": {
+        "name": "Levantamento travado"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 65,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Important",
+      "detail": "Ferreira cai em dividida com Evangelista e ganha falta para o São Paulo.",
+      "player": {
+        "name": "Ferreira cai em dividida com Evangelista e ganha"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 66,
+        "extra": null
+      },
+      "team": {
+        "id": 275,
+        "name": "Palmeiras"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Luis Pacheco"
+      },
+      "assist": {
+        "name": "Lucas Evangelista"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 66,
+        "extra": null
+      },
+      "team": {
+        "id": 275,
+        "name": "Palmeiras"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Felipe Anderson"
+      },
+      "assist": {
+        "name": "Arias"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 67,
+        "extra": null
+      },
+      "team": {
+        "id": 275,
+        "name": "Palmeiras"
+      },
+      "type": "Important",
+      "detail": "Flaco López limpa a marcação e arrisca o chute de longe, mas manda para mais longe ainda.",
+      "player": {
+        "name": "Flaco López"
+      },
+      "assist": {
+        "name": "Para fora"
       }
     }
   ],
@@ -2576,15 +2714,15 @@
         },
         {
           "type": "Total Passes",
-          "value": 362
+          "value": 363
         },
         {
           "type": "Pass Accuracy",
-          "value": "85%"
+          "value": "86%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 53
+          "value": 52
         },
         {
           "type": "Total Shots",
@@ -2628,7 +2766,7 @@
         },
         {
           "type": "Fouls",
-          "value": 13
+          "value": 14
         },
         {
           "type": "Yellow Cards",
@@ -2652,15 +2790,15 @@
         },
         {
           "type": "Total Passes",
-          "value": 263
+          "value": 269
         },
         {
           "type": "Pass Accuracy",
-          "value": "82%"
+          "value": "81%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 48
+          "value": 52
         },
         {
           "type": "Total Shots",
@@ -2684,7 +2822,7 @@
         },
         {
           "type": "Corner Kicks",
-          "value": 3
+          "value": 4
         },
         {
           "type": "Offsides",
@@ -2700,7 +2838,7 @@
         },
         {
           "type": "Tackles",
-          "value": 21
+          "value": 22
         },
         {
           "type": "Fouls",

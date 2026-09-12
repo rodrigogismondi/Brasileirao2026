@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 37
+      "elapsed": 40
     },
     "timerStart": "2026-09-12T21:30:40.826Z",
     "timerStatus": "INICIADO"
@@ -1054,6 +1054,40 @@
         "extra": null
       },
       "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Após um início truncado e com muitas faltas, que resultou em amarelo para Pablo Maia, o clássico esquentou depois dos 30 minutos. O Palmeiras chegou perto com uma cabeçada perigosa de Flaco López que passou rente à trave. A resposta do São Paulo foi ainda mais clara: Cauly chutou, Carlos Miguel defendeu e, no rebote, Pablo Maia desperdiçou uma chance incrível. A partida está aberta e intensa.",
+      "player": {
+        "name": "Jogo esquenta com chances claras para os dois lados!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 36,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Important",
+      "detail": "São Paulo chega pelo lado esquerdo com perigo com Cauly, que chuta e Carlos Miguel afasta com uma mão. A bola sobra na área e Pablo Maia dá um chutão em grande chance, mas manda para fora.",
+      "player": {
+        "name": "Pablo Maia"
+      },
+      "assist": {
+        "name": "Para foooooora! Que chance"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 36,
+        "extra": null
+      },
+      "team": {
         "id": 276,
         "name": "São Paulo"
       },
@@ -1065,6 +1099,38 @@
       "assist": {
         "name": "Escanteio"
       }
+    },
+    {
+      "time": {
+        "elapsed": 37,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Osorio"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 38,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Card",
+      "detail": "Red Card",
+      "player": {
+        "name": "Osorio"
+      },
+      "assist": null
     }
   ],
   "lineups": [
@@ -1522,23 +1588,23 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "55%"
+          "value": "54%"
         },
         {
           "type": "Total Passes",
-          "value": 193
+          "value": 200
         },
         {
           "type": "Pass Accuracy",
-          "value": "85%"
+          "value": "84%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 29
+          "value": 32
         },
         {
           "type": "Total Shots",
-          "value": 4
+          "value": 5
         },
         {
           "type": "Shots on Goal",
@@ -1550,7 +1616,7 @@
         },
         {
           "type": "Blocked Shots",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Hit Woodwork",
@@ -1570,7 +1636,7 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Tackles",
@@ -1598,19 +1664,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "45%"
+          "value": "46%"
         },
         {
           "type": "Total Passes",
-          "value": 137
+          "value": 164
         },
         {
           "type": "Pass Accuracy",
-          "value": "85%"
+          "value": "83%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 21
+          "value": 28
         },
         {
           "type": "Total Shots",
@@ -1634,7 +1700,7 @@
         },
         {
           "type": "Corner Kicks",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Offsides",
@@ -1658,7 +1724,7 @@
         },
         {
           "type": "Yellow Cards",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Red Cards",

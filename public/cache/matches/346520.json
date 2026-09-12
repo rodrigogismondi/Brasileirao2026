@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 66
+      "elapsed": 69
     },
     "timerStart": "2026-09-12T20:04:26.257Z",
     "timerStatus": "INICIADO"
@@ -1660,6 +1660,22 @@
         "extra": null
       },
       "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Após um primeiro tempo equilibrado, com direito a bola na trave de Savarino para o Fluminense, o Atlético-MG voltou com tudo na segunda etapa. Aos 15 minutos, Reinier acertou um belo chute de primeira para abrir o placar. Logo depois, aos 17, Cuello aproveitou uma falha de Freytes, roubou a bola e ampliou a vantagem para 2 a 0. Dois golpes rápidos que colocam o Galo em ótima posição.",
+      "player": {
+        "name": "Atlético-MG resolve em dois minutos!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 62,
+        "extra": null
+      },
+      "team": {
         "id": 282,
         "name": "Atlético-MG"
       },
@@ -1669,6 +1685,42 @@
         "name": "Cuello"
       },
       "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 64,
+        "extra": null
+      },
+      "team": {
+        "id": 282,
+        "name": "Atlético-MG"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Cissé"
+      },
+      "assist": {
+        "name": "Castaño"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 64,
+        "extra": null
+      },
+      "team": {
+        "id": 282,
+        "name": "Atlético-MG"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Maycon"
+      },
+      "assist": {
+        "name": "Alan Franco"
+      }
     }
   ],
   "lineups": [
@@ -2121,23 +2173,23 @@
         },
         {
           "type": "Total Passes",
-          "value": 357
+          "value": 364
         },
         {
           "type": "Pass Accuracy",
-          "value": "85%"
+          "value": "84%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 55
+          "value": 57
         },
         {
           "type": "Total Shots",
-          "value": 10
+          "value": 11
         },
         {
           "type": "Shots on Goal",
-          "value": 3
+          "value": 4
         },
         {
           "type": "Shots off Goal",
@@ -2169,7 +2221,7 @@
         },
         {
           "type": "Tackles",
-          "value": 13
+          "value": 14
         },
         {
           "type": "Fouls",
@@ -2197,15 +2249,15 @@
         },
         {
           "type": "Total Passes",
-          "value": 341
+          "value": 351
         },
         {
           "type": "Pass Accuracy",
-          "value": "87%"
+          "value": "86%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 46
+          "value": 48
         },
         {
           "type": "Total Shots",

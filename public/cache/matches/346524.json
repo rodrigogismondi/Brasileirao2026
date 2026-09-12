@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 24
+      "elapsed": 27
     },
     "timerStart": "2026-09-12T20:01:19.202Z",
     "timerStatus": "INICIADO"
@@ -31,7 +31,7 @@
   },
   "goals": {
     "home": 0,
-    "away": 0
+    "away": 1
   },
   "score": {
     "halftime": {
@@ -449,6 +449,54 @@
       "detail": "Jogo parado para atendimento após choque de cabeça.",
       "player": {
         "name": "Jogo parado para atendimento após choque de cabe"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 23,
+        "extra": null
+      },
+      "team": {
+        "id": 285,
+        "name": "Internacional"
+      },
+      "type": "Important",
+      "detail": "Jogo retomado com posse para o Internacional.",
+      "player": {
+        "name": "Jogo retomado com posse para o Internacional."
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 24,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "A Chapecoense começou com tudo, pressionando e criando as melhores oportunidades nos primeiros 20 minutos. A equipe da casa chegou a desperdiçar uma chance incrível e também pediu um pênalti não marcado. O Internacional se segurou como pôde e, após uma breve paralisação no jogo, foi letal: aos 24 minutos, o time visitante abriu o placar, fazendo 1 a 0 e esfriando o ímpeto da Chape.",
+      "player": {
+        "name": "Gol do Inter abre o placar em Chapecó!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 24,
+        "extra": null
+      },
+      "team": {
+        "id": 285,
+        "name": "Internacional"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "player": {
+        "name": "?"
       },
       "assist": null
     }
@@ -908,7 +956,7 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "64%"
+          "value": "66%"
         },
         {
           "type": "Total Passes",
@@ -964,7 +1012,7 @@
         },
         {
           "type": "Fouls",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Yellow Cards",
@@ -984,19 +1032,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "36%"
+          "value": "34%"
         },
         {
           "type": "Total Passes",
-          "value": 58
+          "value": 59
         },
         {
           "type": "Pass Accuracy",
-          "value": "72%"
+          "value": "71%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 16
+          "value": 17
         },
         {
           "type": "Total Shots",

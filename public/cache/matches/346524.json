@@ -7,12 +7,12 @@
       "city": ""
     },
     "status": {
-      "long": "2H",
-      "short": "2H",
-      "elapsed": 98
+      "long": "FT",
+      "short": "FT",
+      "elapsed": 90
     },
-    "timerStart": "2026-09-12T21:08:14.273Z",
-    "timerStatus": "INICIADO"
+    "timerStart": "2026-09-12T22:00:44.205Z",
+    "timerStatus": "PAUSADO"
   },
   "league": {
     "round": "Regular Season - 27"
@@ -39,8 +39,8 @@
       "away": null
     },
     "fulltime": {
-      "home": null,
-      "away": null
+      "home": 1,
+      "away": 2
     }
   },
   "odds": {
@@ -2031,6 +2031,38 @@
         "name": "Árbitro marca falta de ataque. Inter tem a posse"
       },
       "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 97,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O jogo na Arena Condá foi decidido em detalhes e terminou com vitória do Internacional por 2 a 1. O Inter abriu o placar com Bruno Henrique, mas a Chapecoense buscou o empate com Garcez, de cabeça, no fim do primeiro tempo. Na segunda etapa, a Chape pressionou e quase virou o placar, parando em grande defesa de Matheus Cunha. Porém, uma falha fatal na saída de bola permitiu que Carbonero marcasse o gol da vitória colorada.",
+      "player": {
+        "name": "Falha custa caro e Inter vence a Chapecoense"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 97,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "FINAL DE JOGO NA ARENA CONDÁ!",
+      "player": {
+        "name": "FINAL DE JOGO NA ARENA CONDÁ!"
+      },
+      "assist": null
     }
   ],
   "lineups": [
@@ -2488,11 +2520,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "66%"
+          "value": "65%"
         },
         {
           "type": "Total Passes",
-          "value": 536
+          "value": 546
         },
         {
           "type": "Pass Accuracy",
@@ -2500,7 +2532,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 80
+          "value": 82
         },
         {
           "type": "Total Shots",
@@ -2540,11 +2572,11 @@
         },
         {
           "type": "Tackles",
-          "value": 16
+          "value": 17
         },
         {
           "type": "Fouls",
-          "value": 17
+          "value": 19
         },
         {
           "type": "Yellow Cards",
@@ -2564,11 +2596,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "34%"
+          "value": "35%"
         },
         {
           "type": "Total Passes",
-          "value": 277
+          "value": 279
         },
         {
           "type": "Pass Accuracy",
@@ -2576,7 +2608,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 72
+          "value": 73
         },
         {
           "type": "Total Shots",
@@ -2604,7 +2636,7 @@
         },
         {
           "type": "Offsides",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Penalties",

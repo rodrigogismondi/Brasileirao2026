@@ -13109,12 +13109,12 @@
           "city": ""
         },
         "status": {
-          "long": "2H",
-          "short": "2H",
-          "elapsed": 98
+          "long": "FT",
+          "short": "FT",
+          "elapsed": 90
         },
-        "timerStart": "2026-09-12T21:08:14.273Z",
-        "timerStatus": "INICIADO"
+        "timerStart": "2026-09-12T22:00:44.205Z",
+        "timerStatus": "PAUSADO"
       },
       "league": {
         "round": "Regular Season - 27"
@@ -13141,8 +13141,8 @@
           "away": null
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 2
         }
       },
       "odds": {
@@ -13163,7 +13163,7 @@
         "status": {
           "long": "1H",
           "short": "1H",
-          "elapsed": 31
+          "elapsed": 34
         },
         "timerStart": "2026-09-12T21:30:40.826Z",
         "timerStatus": "INICIADO"
@@ -20129,7 +20129,7 @@
     "mode": "live",
     "liveIntervalMs": 20000
   },
-  "fetchedAt": "2026-09-12T22:01:46.717Z",
+  "fetchedAt": "2026-09-12T22:05:25.165Z",
   "source": "ge-globo",
   "meta": {
     "rodada": 27,

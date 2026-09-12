@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 31
+      "elapsed": 34
     },
     "timerStart": "2026-09-12T21:30:40.826Z",
     "timerStatus": "INICIADO"
@@ -843,6 +843,128 @@
         "name": "Palmeiras chega pelo lado esquerdo do campo, mas"
       },
       "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 30,
+        "extra": null
+      },
+      "team": {
+        "id": 275,
+        "name": "Palmeiras"
+      },
+      "type": "Important",
+      "detail": "Jhon Arias cai no gramado reclamando de dores. Felipe Anderson vai para o aquecimento.",
+      "player": {
+        "name": "Arias"
+      },
+      "assist": {
+        "name": "Sentiu"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 30,
+        "extra": null
+      },
+      "team": {
+        "id": 275,
+        "name": "Palmeiras"
+      },
+      "type": "Important",
+      "detail": "Jhon Arias cai no gramado reclamando de dores. Felipe Anderson vai para o aquecimento.",
+      "player": {
+        "name": "Arias"
+      },
+      "assist": {
+        "name": "Sentiu"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 31,
+        "extra": null
+      },
+      "team": {
+        "id": 275,
+        "name": "Palmeiras"
+      },
+      "type": "Important",
+      "detail": "Giay recebe pelo lado direito e encontra um passe entre os marcadores para Vitor Roque. O camisa 9 tenta mandar na área e consegue a cobrança de escanteio.",
+      "player": {
+        "name": "Vitor Roque"
+      },
+      "assist": {
+        "name": "Escanteio para o Palmeiras"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 31,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O clássico começou com muita intensidade e um número elevado de faltas, principalmente do lado do São Paulo. Com 30 minutos de jogo, o placar segue zerado, mas a partida já tem cartão amarelo para Pablo Maia por uma falta em Jhon Arias. O Tricolor levou perigo com Ferreira, que serviu André Silva para um chute para fora. O Palmeiras respondeu com Giay arriscando de longe, mas sem acertar o alvo.",
+      "player": {
+        "name": "Jogo pegado e com cartão no Choque-Rei"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 31,
+        "extra": null
+      },
+      "team": {
+        "id": 275,
+        "name": "Palmeiras"
+      },
+      "type": "Important",
+      "detail": "Arias, apesar da reclamação, segue em campo e sem mudanças no Palmeiras por enquanto.",
+      "player": {
+        "name": "Arias, apesar da reclamação, segue em campo e se"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 32,
+        "extra": null
+      },
+      "team": {
+        "id": 275,
+        "name": "Palmeiras"
+      },
+      "type": "Important",
+      "detail": "Piquerez sobe pela ponta esquerda do campo, manda um cruzamento forte na área, e Flaco López sobe bem para cabecear. A bola sai passando perto da trave. Melhor chance do Palmeiras na partida.",
+      "player": {
+        "name": "Flaco López"
+      },
+      "assist": {
+        "name": "Olha o perigo!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 32,
+        "extra": null
+      },
+      "team": {
+        "id": 275,
+        "name": "Palmeiras"
+      },
+      "type": "Important",
+      "detail": "Evangelista cobra o escanteio rasteiro buscando Giay mais atrás. O lateral se atrapalha para dominar a bola, mas arruma para Piquerez, que chega chutando e a bola bate no bloqueio da defesa.",
+      "player": {
+        "name": "Piquerez"
+      },
+      "assist": {
+        "name": "Arriscou"
+      }
     }
   ],
   "lineups": [
@@ -1304,15 +1426,15 @@
         },
         {
           "type": "Total Passes",
-          "value": 157
+          "value": 177
         },
         {
           "type": "Pass Accuracy",
-          "value": "85%"
+          "value": "84%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 24
+          "value": 28
         },
         {
           "type": "Total Shots",
@@ -1380,15 +1502,15 @@
         },
         {
           "type": "Total Passes",
-          "value": 127
+          "value": 134
         },
         {
           "type": "Pass Accuracy",
-          "value": "87%"
+          "value": "86%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 17
+          "value": 19
         },
         {
           "type": "Total Shots",

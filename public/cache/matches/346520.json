@@ -7,12 +7,12 @@
       "city": ""
     },
     "status": {
-      "long": "1H",
-      "short": "1H",
-      "elapsed": 53
+      "long": "HT",
+      "short": "HT",
+      "elapsed": 45
     },
-    "timerStart": "2026-09-12T18:59:11.408Z",
-    "timerStatus": "INICIADO"
+    "timerStart": "2026-09-12T19:48:14.402Z",
+    "timerStatus": "PAUSADO"
   },
   "league": {
     "round": "Regular Season - 27"
@@ -50,6 +50,24 @@
     "source": "betexplorer"
   },
   "events": [
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 282,
+        "name": "Atlético-MG"
+      },
+      "type": "Important",
+      "detail": "- A gente está tentando entrar, o time dele está bem fechado, a gente está tentando, trabalhando a bola, fazendo uns cruzamentos importantes ali, tivemos possibilidades também nas bolas paradas, mas não conseguimos fazer o gol. É ter atenção, porque o time tem que ser muito perigoso, tem um contra-ataque muito rápido. O Castillo é muito forte, principalmente na bola aérea, e os pontas são bem rápidos. A gente tem que ter muita atenção com eles, e é continuar trabalhando a bola, tentar trabalhar mais a bola no campo de ataque, na zona de perigo deles ali, e se Deus quiser a bola vai entrar, a gente vai conseguir fazer o gol e sair com essa vitória, que é uma coisa que a torcida está merecendo.",
+      "player": {
+        "name": "Vitor Hugo"
+      },
+      "assist": {
+        "name": "Fala, Vitor Hugo!"
+      }
+    },
     {
       "time": {
         "elapsed": 0,
@@ -1097,6 +1115,22 @@
       "detail": "Pascini toca para Fred perto da área, carrega e chuta de fora. A bola desvia e sai em escanteio!",
       "player": {
         "name": "Pascini toca para Fred perto da área, carrega e "
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 46,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Fluminense começou melhor e quase marcou aos 6 minutos, em um chutaço de Savarino que explodiu no travessão. O clima esquentou com um amarelo para Alan Franco. Na reta final do primeiro tempo, o Atlético-MG reagiu e criou ótimas chances, incluindo uma finalização de Fred que passou perto e um lance cara a cara de Reinier, que parou em defesaça do goleiro Fábio. Tudo igual na saída para o intervalo.",
+      "player": {
+        "name": "Fluminense acerta a trave, Galo reage forte!"
       },
       "assist": null
     },

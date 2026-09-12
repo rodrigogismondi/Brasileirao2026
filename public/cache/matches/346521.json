@@ -7,12 +7,12 @@
       "city": ""
     },
     "status": {
-      "long": "1H",
-      "short": "1H",
-      "elapsed": 52
+      "long": "HT",
+      "short": "HT",
+      "elapsed": 45
     },
-    "timerStart": "2026-09-12T18:59:33.349Z",
-    "timerStatus": "INICIADO"
+    "timerStart": "2026-09-12T19:47:48.995Z",
+    "timerStatus": "PAUSADO"
   },
   "league": {
     "round": "Regular Season - 27"
@@ -50,6 +50,42 @@
     "source": "betexplorer"
   },
   "events": [
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 267,
+        "name": "Vasco"
+      },
+      "type": "Important",
+      "detail": "– Primero tempo bom, soubemos ter bom ritmo de jogo, esses pequenos detalhes fazem a diferença. Agora acertar para o segundo tempo e conseguir o resultado.",
+      "player": {
+        "name": "Adson"
+      },
+      "assist": {
+        "name": "FALA, ADSON"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 284,
+        "name": "Grêmio"
+      },
+      "type": "Important",
+      "detail": "– Feliz pelo gol, mas ainda mais pela vitória parcial, sabíamos de um jogo pegado, difícil pela situação dos dois times, agora ajustar e trazer a vitória.",
+      "player": {
+        "name": "Villasanti"
+      },
+      "assist": {
+        "name": "FALA, VILLA"
+      }
+    },
     {
       "time": {
         "elapsed": 0,
@@ -1706,7 +1742,7 @@
         },
         {
           "type": "Fouls",
-          "value": 4
+          "value": 5
         },
         {
           "type": "Yellow Cards",

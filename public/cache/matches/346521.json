@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 43
+      "elapsed": 46
     },
     "timerStart": "2026-09-12T18:59:33.349Z",
     "timerStatus": "INICIADO"
@@ -888,9 +888,9 @@
         "name": ""
       },
       "type": "Important",
-      "detail": "Partida movimentada e com muitas chances para os dois lados! O Vasco ameaçou bastante, principalmente com Adson, que desperdiçou duas boas oportunidades. Os goleiros Weverton e Léo Jardim fizeram grandes defesas para manter o zero no placar. Mas aos 39 minutos, após um jogo de lá e cá, Villasanti aproveitou sua chance e marcou para o Grêmio, deixando o time da casa na frente por 1 a 0.",
+      "detail": "O jogo vinha aberto e com os dois goleiros trabalhando muito. O Vasco criou as chances mais claras, especialmente com Adson, mas parou em grandes defesas de Weverton. O Grêmio respondeu com perigo, exigindo boas intervenções de Léo Jardim. Aos 39 minutos, a insistência tricolor deu resultado: Jovane Cabral forçou o erro da zaga, e Villasanti aproveitou o rebote para fazer 1 a 0.",
       "player": {
-        "name": "Villasanti marca e Grêmio sai na frente!"
+        "name": "Pressão e gol: Grêmio sai na frente na Arena!"
       },
       "assist": null
     },
@@ -907,6 +907,70 @@
       "detail": "Normal Goal",
       "player": {
         "name": "Villasanti"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 41,
+        "extra": null
+      },
+      "team": {
+        "id": 284,
+        "name": "Grêmio"
+      },
+      "type": "Important",
+      "detail": "Colídio cobra escanteio e Weverton sobe para fazer a defesa no cruzamento. O goleiro do Grêmio sentiu um pouco as costas, mas já levantou",
+      "player": {
+        "name": "Weverton"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 41,
+        "extra": null
+      },
+      "team": {
+        "id": 267,
+        "name": "Vasco"
+      },
+      "type": "Important",
+      "detail": "Paulo Henrique recebe pelo lado direito e cruza em cima da marcação. Escanteio para o Vasco",
+      "player": {
+        "name": "Paulo Henrique"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 42,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "A partida na Arena é movimentada, com chances para os dois lados e goleiros trabalhando. O Vasco criou boas oportunidades com Adson, mas parou em grandes defesas de Weverton. O Grêmio também ameaçou, principalmente com Tetê, exigindo intervenções de Léo Jardim. Aos 39 minutos, a rede balançou: Jovane Cabral roubou a bola na área e, no rebote do goleiro, Villasanti marcou, deixando o placar em 1 a 0.",
+      "player": {
+        "name": "Jogo aberto e gol de oportunismo do Grêmio!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 42,
+        "extra": null
+      },
+      "team": {
+        "id": 267,
+        "name": "Vasco"
+      },
+      "type": "Important",
+      "detail": "Pedro Gabriel tenta arrancada pelo lado esquerdo, mas cruza errado. Tiro de meta para o Vasco",
+      "player": {
+        "name": "Pedro Gabriel"
       },
       "assist": null
     }

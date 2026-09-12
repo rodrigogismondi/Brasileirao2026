@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 72
+      "elapsed": 74
     },
     "timerStart": "2026-09-12T20:04:26.257Z",
     "timerStatus": "INICIADO"
@@ -1816,10 +1816,128 @@
       "type": "subst",
       "detail": "Substitution 1",
       "player": {
+        "name": "Gustavo Scarpa"
+      },
+      "assist": {
+        "name": "Bernard"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 69,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Após um primeiro tempo equilibrado, o Atlético-MG voltou com tudo e definiu a partida em um intervalo de dois minutos! Aos 15 da segunda etapa, Reinier marcou um golaço de primeira após passe de Cuello. Logo aos 17, foi a vez do próprio Cuello aproveitar uma falha da defesa do Fluminense para ampliar e fazer 2 a 0. O autor do segundo gol, porém, sentiu uma lesão e precisou ser substituído.",
+      "player": {
+        "name": "Atlético é fatal e abre 2 a 0"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 69,
+        "extra": null
+      },
+      "team": {
+        "id": 282,
+        "name": "Atlético-MG"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
         "name": "Igor Gomes"
       },
       "assist": {
         "name": "Cuello"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 70,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Igor Gomes cobra a falta com cruzamento na área. A defesa afasta.",
+      "player": {
+        "name": "Igor Gomes cobra a falta com cruzamento na área."
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 71,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Ganso"
+      },
+      "assist": {
+        "name": "Otávio"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 71,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Savarino avança pela esquerda e chuta colocado. A bola passa sem perigo. Tiro de meta para o Atlético.",
+      "player": {
+        "name": "Savarino avança pela esquerda e chuta colocado. "
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 72,
+        "extra": null
+      },
+      "team": {
+        "id": 282,
+        "name": "Atlético-MG"
+      },
+      "type": "Important",
+      "detail": "Depois de um primeiro tempo zerado, o Atlético-MG voltou avassalador. Aos 15 minutos, Reinier abriu o placar com um golaço no ângulo, após assistência de Cuello. Apenas dois minutos depois, o próprio Cuello aproveitou uma falha de Freytes, roubou a bola e tocou na saída do goleiro para fazer 2 a 0. O atacante, grande nome do jogo, sentiu lesão e teve que ser substituído.",
+      "player": {
+        "name": "Galo abre 2 a 0 em início de 2º tempo!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 72,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Riquelme Felipe"
+      },
+      "assist": {
+        "name": "Savarino"
       }
     }
   ],
@@ -2273,7 +2391,7 @@
         },
         {
           "type": "Total Passes",
-          "value": 376
+          "value": 380
         },
         {
           "type": "Pass Accuracy",
@@ -2309,7 +2427,7 @@
         },
         {
           "type": "Offsides",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Penalties",
@@ -2349,7 +2467,7 @@
         },
         {
           "type": "Total Passes",
-          "value": 362
+          "value": 369
         },
         {
           "type": "Pass Accuracy",

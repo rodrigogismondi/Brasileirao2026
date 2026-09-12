@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 30
+      "elapsed": 33
     },
     "timerStart": "2026-09-12T20:01:19.202Z",
     "timerStatus": "INICIADO"
@@ -499,6 +499,38 @@
         "name": "Bruno Henrique"
       },
       "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 29,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "A Chapecoense começou a partida com mais volume, pressionando e criando a chance mais clara dos minutos iniciais, em finalização desperdiçada perto do gol. Apesar do bom começo do time da casa, foi o Internacional quem abriu o placar. Aos 24 minutos, Carbonero fez bela jogada pela linha de fundo e cruzou para Bruno Henrique chegar batendo forte da entrada da área para fazer 1 a 0.",
+      "player": {
+        "name": "Bruno Henrique abre o placar para o Inter!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 29,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Carbonero tem chute travado e a bola fica com Anderson.",
+      "player": {
+        "name": "Carbonero tem chute travado e a bola fica com An"
+      },
+      "assist": null
     }
   ],
   "lineups": [
@@ -956,11 +988,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "62%"
+          "value": "64%"
         },
         {
           "type": "Total Passes",
-          "value": 153
+          "value": 166
         },
         {
           "type": "Pass Accuracy",
@@ -968,7 +1000,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 21
+          "value": 23
         },
         {
           "type": "Total Shots",
@@ -996,7 +1028,7 @@
         },
         {
           "type": "Offsides",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Penalties",
@@ -1004,7 +1036,7 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Tackles",
@@ -1032,11 +1064,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "38%"
+          "value": "36%"
         },
         {
           "type": "Total Passes",
-          "value": 74
+          "value": 93
         },
         {
           "type": "Pass Accuracy",
@@ -1044,11 +1076,11 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 18
+          "value": 22
         },
         {
           "type": "Total Shots",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Shots on Goal",
@@ -1060,7 +1092,7 @@
         },
         {
           "type": "Blocked Shots",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Hit Woodwork",
@@ -1088,7 +1120,7 @@
         },
         {
           "type": "Fouls",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Yellow Cards",

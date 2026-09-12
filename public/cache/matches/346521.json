@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 71
+      "elapsed": 74
     },
     "timerStart": "2026-09-12T20:05:19.619Z",
     "timerStatus": "INICIADO"
@@ -1630,6 +1630,110 @@
     },
     {
       "time": {
+        "elapsed": 68,
+        "extra": null
+      },
+      "team": {
+        "id": 284,
+        "name": "Grêmio"
+      },
+      "type": "Important",
+      "detail": "Wallace faz belo desarme e aciona o Tetê, que tabela com Krovinovic e tenta achar o Nardoni dentro da área e erra. Após o erro, o camisa 11 foi vaiado pela torcida",
+      "player": {
+        "name": "Tetê"
+      },
+      "assist": {
+        "name": "VAIAS PARA TETÊ"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 69,
+        "extra": null
+      },
+      "team": {
+        "id": 267,
+        "name": "Vasco"
+      },
+      "type": "Important",
+      "detail": "Bola cruzada na área e o atacante Bruno Duarte tenta a cabeçada, mas erra",
+      "player": {
+        "name": "Bruno Duarte"
+      },
+      "assist": {
+        "name": "ERROU EM BOLA"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 70,
+        "extra": null
+      },
+      "team": {
+        "id": 284,
+        "name": "Grêmio"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Enamorado"
+      },
+      "assist": {
+        "name": "Tetê"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 70,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Andrés Goméz faz a jogada pelo lado esquerdo e cruza. Wallace afasta",
+      "player": {
+        "name": "Andrés Goméz faz a jogada pelo lado esquerdo e c"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 71,
+        "extra": null
+      },
+      "team": {
+        "id": 267,
+        "name": "Vasco"
+      },
+      "type": "Important",
+      "detail": "Krovinovic acha bom passe para Villasanti, mas o paraguaio não domina. Posse de bola é do Vasco",
+      "player": {
+        "name": "Krovinovic acha bom passe para Villasanti, mas o"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 71,
+        "extra": null
+      },
+      "team": {
+        "id": 284,
+        "name": "Grêmio"
+      },
+      "type": "Important",
+      "detail": "Tetê sai muito vaiado pelo torcedor na substituição",
+      "player": {
+        "name": "Tetê"
+      },
+      "assist": {
+        "name": "MUITAS VAIAS"
+      }
+    },
+    {
+      "time": {
         "elapsed": 93,
         "extra": null
       },
@@ -2100,11 +2204,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "51%"
+          "value": "50%"
         },
         {
           "type": "Total Passes",
-          "value": 341
+          "value": 356
         },
         {
           "type": "Pass Accuracy",
@@ -2112,11 +2216,11 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 66
+          "value": 69
         },
         {
           "type": "Total Shots",
-          "value": 9
+          "value": 10
         },
         {
           "type": "Shots on Goal",
@@ -2128,7 +2232,7 @@
         },
         {
           "type": "Blocked Shots",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Hit Woodwork",
@@ -2152,11 +2256,11 @@
         },
         {
           "type": "Tackles",
-          "value": 19
+          "value": 21
         },
         {
           "type": "Fouls",
-          "value": 7
+          "value": 8
         },
         {
           "type": "Yellow Cards",
@@ -2176,19 +2280,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "49%"
+          "value": "50%"
         },
         {
           "type": "Total Passes",
-          "value": 359
+          "value": 393
         },
         {
           "type": "Pass Accuracy",
-          "value": "82%"
+          "value": "83%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 63
+          "value": 68
         },
         {
           "type": "Total Shots",
@@ -2224,11 +2328,11 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 5
+          "value": 6
         },
         {
           "type": "Tackles",
-          "value": 18
+          "value": 19
         },
         {
           "type": "Fouls",

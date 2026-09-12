@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 79
+      "elapsed": 83
     },
     "timerStart": "2026-09-12T20:05:19.619Z",
     "timerStatus": "INICIADO"
@@ -31,7 +31,7 @@
   },
   "goals": {
     "home": 1,
-    "away": 1
+    "away": 2
   },
   "score": {
     "halftime": {
@@ -1850,6 +1850,40 @@
     },
     {
       "time": {
+        "elapsed": 78,
+        "extra": null
+      },
+      "team": {
+        "id": 267,
+        "name": "Vasco"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Lucas Piton"
+      },
+      "assist": {
+        "name": "Cuiabano"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 79,
+        "extra": null
+      },
+      "team": {
+        "id": 267,
+        "name": "Vasco"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "player": {
+        "name": "Colidio"
+      },
+      "assist": null
+    },
+    {
+      "time": {
         "elapsed": 93,
         "extra": null
       },
@@ -2320,11 +2354,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "49%"
+          "value": "48%"
         },
         {
           "type": "Total Passes",
-          "value": 377
+          "value": 382
         },
         {
           "type": "Pass Accuracy",
@@ -2332,7 +2366,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 71
+          "value": 74
         },
         {
           "type": "Total Shots",
@@ -2396,11 +2430,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "51%"
+          "value": "52%"
         },
         {
           "type": "Total Passes",
-          "value": 432
+          "value": 442
         },
         {
           "type": "Pass Accuracy",
@@ -2408,19 +2442,19 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 74
+          "value": 75
         },
         {
           "type": "Total Shots",
-          "value": 13
+          "value": 15
         },
         {
           "type": "Shots on Goal",
-          "value": 3
+          "value": 4
         },
         {
           "type": "Shots off Goal",
-          "value": 4
+          "value": 5
         },
         {
           "type": "Blocked Shots",

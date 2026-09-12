@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 80
+      "elapsed": 83
     },
     "timerStart": "2026-09-12T20:04:26.257Z",
     "timerStatus": "INICIADO"
@@ -30,7 +30,7 @@
     }
   },
   "goals": {
-    "home": 2,
+    "home": 3,
     "away": 0
   },
   "score": {
@@ -2019,6 +2019,104 @@
       "detail": "Scarpa avança pela direita, corta e chuta rasteiro. Fábio defende.",
       "player": {
         "name": "Scarpa avança pela direita, corta e chuta rastei"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 78,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O segundo tempo mudou tudo! Após uma etapa inicial zerada, o Atlético-MG resolveu o jogo em dois minutos. Aos 15, Reinier acertou um golaço no ângulo para abrir o placar. Logo depois, aos 17, Cuello, que deu a assistência para o primeiro gol, aproveitou uma falha da zaga e ampliou para 2 a 0. O Fluminense sentiu o golpe e, já na reta final, viu o goleiro Fábio fazer grande defesa em chute de Igor Gomes.",
+      "player": {
+        "name": "Galo abre vantagem com dois gols relâmpago!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 78,
+        "extra": null
+      },
+      "team": {
+        "id": 282,
+        "name": "Atlético-MG"
+      },
+      "type": "Important",
+      "detail": "Igor Gomes recebe perto da área, gira e chuta de fora. Fábio se estica todo e espalma para escanteio.",
+      "player": {
+        "name": "Igor Gomes"
+      },
+      "assist": {
+        "name": "UHHHH!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 79,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Scarpa cobra o escanteio na área, mas a defesa tira.",
+      "player": {
+        "name": "Scarpa cobra o escanteio na área, mas a defesa t"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 79,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Vitão e Serna se estranham na área. O árbitro chama a atenção dos jogadores.",
+      "player": {
+        "name": "Vitão e Serna se estranham na área. O árbitro ch"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 80,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Após um primeiro tempo equilibrado, com direito a bola na trave de Savarino para o Fluminense, o Atlético-MG voltou com tudo para a etapa final. Aos 15 minutos, Reinier abriu o placar com um golaço no ângulo. Pouco depois, Cuello aproveitou uma falha da zaga para ampliar. Já aos 35 minutos, Vitão marcou o terceiro, transformando a partida em um domínio atleticano com o placar de 3 a 0.",
+      "player": {
+        "name": "Galo avassalador abre 3 a 0 na segunda etapa"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 80,
+        "extra": null
+      },
+      "team": {
+        "id": 282,
+        "name": "Atlético-MG"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "player": {
+        "name": "Vitão"
       },
       "assist": null
     }

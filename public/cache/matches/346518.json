@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 70
+      "elapsed": 73
     },
     "timerStart": "2026-09-12T22:37:02.880Z",
     "timerStatus": "INICIADO"
@@ -2242,6 +2242,22 @@
         "extra": null
       },
       "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O jogo mudou de cara após a expulsão de Osorio ainda no primeiro tempo. Com um a mais, o Palmeiras pressionou e abriu o placar com Murilo antes do intervalo. No início da segunda etapa, Vitor Roque aproveitou erro da zaga e ampliou para 2 a 0. Com mais de 20 minutos jogados, o time da casa segue no controle, enquanto o goleiro Coronel evita um prejuízo ainda maior para o São Paulo.",
+      "player": {
+        "name": "Palmeiras amplia e controla o Choque-Rei"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 67,
+        "extra": null
+      },
+      "team": {
         "id": 275,
         "name": "Palmeiras"
       },
@@ -2252,6 +2268,74 @@
       },
       "assist": {
         "name": "Para fora"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 68,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Important",
+      "detail": "Artur cobra o escanteio fechado no meio da pequena área, Rafael Tolói sobe sozinho e perde um gol inacreditável. Não consegue direcionar o cabeceio e manda para fora.",
+      "player": {
+        "name": "Rafael Tolói"
+      },
+      "assist": {
+        "name": "Que chance!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 68,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Important",
+      "detail": "São Paulo ganha escanteio na sequência. Artur vai para a cobrança.",
+      "player": {
+        "name": "São Paulo ganha escanteio na sequência. Artur va"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 69,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Palmeiras puxa o contra-ataque no erro de passe do São Paulo, avança em peso, até que Arthur tenta um passe buscando Vitor Roque do lado oposto. A ideia era boa, mas passe termina travado pela defesa tricolor.",
+      "player": {
+        "name": "Palmeiras puxa o contra-ataque no erro de passe "
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 70,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Important",
+      "detail": "São Paulo arrisca um passe infiltrado buscando Danielzinho entrando na área, mas Fuchs aparece bem para fazer a proteção e evita o domínio do volante.",
+      "player": {
+        "name": "Danielzinho"
+      },
+      "assist": {
+        "name": "Quase!"
       }
     }
   ],
@@ -2714,7 +2798,7 @@
         },
         {
           "type": "Total Passes",
-          "value": 363
+          "value": 384
         },
         {
           "type": "Pass Accuracy",
@@ -2722,11 +2806,11 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 52
+          "value": 53
         },
         {
           "type": "Total Shots",
-          "value": 11
+          "value": 12
         },
         {
           "type": "Shots on Goal",
@@ -2734,7 +2818,7 @@
         },
         {
           "type": "Shots off Goal",
-          "value": 3
+          "value": 4
         },
         {
           "type": "Blocked Shots",
@@ -2762,7 +2846,7 @@
         },
         {
           "type": "Tackles",
-          "value": 8
+          "value": 9
         },
         {
           "type": "Fouls",
@@ -2790,7 +2874,7 @@
         },
         {
           "type": "Total Passes",
-          "value": 269
+          "value": 287
         },
         {
           "type": "Pass Accuracy",
@@ -2798,11 +2882,11 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 52
+          "value": 55
         },
         {
           "type": "Total Shots",
-          "value": 6
+          "value": 7
         },
         {
           "type": "Shots on Goal",
@@ -2810,7 +2894,7 @@
         },
         {
           "type": "Shots off Goal",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Blocked Shots",
@@ -2822,7 +2906,7 @@
         },
         {
           "type": "Corner Kicks",
-          "value": 4
+          "value": 5
         },
         {
           "type": "Offsides",
@@ -2838,7 +2922,7 @@
         },
         {
           "type": "Tackles",
-          "value": 22
+          "value": 24
         },
         {
           "type": "Fouls",

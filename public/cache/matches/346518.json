@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 73
+      "elapsed": 76
     },
     "timerStart": "2026-09-12T22:37:02.880Z",
     "timerStatus": "INICIADO"
@@ -2326,6 +2326,22 @@
         "extra": null
       },
       "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Palmeiras domina o clássico e vence por 2 a 0 na metade do segundo tempo. O jogo mudou de rumo após a expulsão de Osorio, do São Paulo, ainda na primeira etapa. Com um jogador a mais, o time da casa abriu o placar com Murilo antes do intervalo e ampliou com Vitor Roque logo no início da segunda etapa, após erro da defesa tricolor. O São Paulo até perdeu uma chance clara com Tolói de cabeça.",
+      "player": {
+        "name": "Palmeiras aproveita e abre 2 a 0 no Choque-Rei"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 70,
+        "extra": null
+      },
+      "team": {
         "id": 276,
         "name": "São Paulo"
       },
@@ -2337,6 +2353,140 @@
       "assist": {
         "name": "Quase!"
       }
+    },
+    {
+      "time": {
+        "elapsed": 72,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Palmeiras vai construindo uma vitória sólida no Choque-Rei! O cenário do jogo mudou com a expulsão de Osorio, do São Paulo, ainda no primeiro tempo. Com um a mais, o Verdão abriu o placar com Murilo aos 45 minutos. Na volta do intervalo, Vitor Roque aproveitou um erro da defesa tricolor e fez 2 a 0. O São Paulo tenta responder, mas peca nas finalizações, como em um gol incrível perdido por Tolói.",
+      "player": {
+        "name": "Palmeiras domina e amplia vantagem no clássico"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 72,
+        "extra": null
+      },
+      "team": {
+        "id": 275,
+        "name": "Palmeiras"
+      },
+      "type": "Important",
+      "detail": "Felipe Anderson desarma Artur na intermediária, escapa de Pablo Maia e cai na dividida, mas a bola ainda sobra de lado para o chute de Vitor Roque, que arrisca e a bola passa muito perto da trave.",
+      "player": {
+        "name": "Vitor Roque"
+      },
+      "assist": {
+        "name": "Muito perto!!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 73,
+        "extra": null
+      },
+      "team": {
+        "id": 275,
+        "name": "Palmeiras"
+      },
+      "type": "Important",
+      "detail": "Flaco López chega ao ataque mais uma vez, entra na área e tenta o chute mesmo de mal jeito, mas o goleiro Coronel fica com a bola.",
+      "player": {
+        "name": "Flaco López"
+      },
+      "assist": {
+        "name": "Que isso! Quase o terceiro"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 74,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Vitor Roque recebe o passe de Andreas, cai na dividida na entrada da área e pede falta, mas o árbitro manda seguir.",
+      "player": {
+        "name": "Vitor Roque recebe o passe de Andreas, cai na di"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 75,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Tetê"
+      },
+      "assist": {
+        "name": "Ferreira"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 75,
+        "extra": null
+      },
+      "team": {
+        "id": 275,
+        "name": "Palmeiras"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Murilo"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 75,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O jogo mudou de cara após a expulsão de Osorio, do São Paulo, aos 38 minutos. Com um a mais, o Palmeiras abriu o placar com Murilo antes do intervalo. Na volta, Vitor Roque aproveitou um erro na saída de bola adversária e fez 2 a 0. O time da casa domina e cria chances, enquanto o Tricolor, mesmo com dez, perdeu uma oportunidade incrível com Rafael Tolói de cabeça aos 23 da etapa final.",
+      "player": {
+        "name": "Verdão amplia e controla o Choque-Rei"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 75,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Murilo chega de carrinho em cima de Iago. Dorival fica reclamando pedindo expulsão na beira do campo.",
+      "player": {
+        "name": "Murilo chega de carrinho em cima de Iago. Doriva"
+      },
+      "assist": null
     }
   ],
   "lineups": [
@@ -2794,11 +2944,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "55%"
+          "value": "54%"
         },
         {
           "type": "Total Passes",
-          "value": 384
+          "value": 405
         },
         {
           "type": "Pass Accuracy",
@@ -2806,11 +2956,11 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 53
+          "value": 55
         },
         {
           "type": "Total Shots",
-          "value": 12
+          "value": 13
         },
         {
           "type": "Shots on Goal",
@@ -2826,7 +2976,7 @@
         },
         {
           "type": "Hit Woodwork",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Corner Kicks",
@@ -2846,11 +2996,11 @@
         },
         {
           "type": "Tackles",
-          "value": 9
+          "value": 11
         },
         {
           "type": "Fouls",
-          "value": 14
+          "value": 17
         },
         {
           "type": "Yellow Cards",
@@ -2870,11 +3020,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "45%"
+          "value": "46%"
         },
         {
           "type": "Total Passes",
-          "value": 287
+          "value": 307
         },
         {
           "type": "Pass Accuracy",
@@ -2882,7 +3032,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 55
+          "value": 58
         },
         {
           "type": "Total Shots",

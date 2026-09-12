@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 86
+      "elapsed": 89
     },
     "timerStart": "2026-09-12T21:08:14.273Z",
     "timerStatus": "INICIADO"
@@ -1763,6 +1763,74 @@
       "assist": {
         "name": "Yago Felipe"
       }
+    },
+    {
+      "time": {
+        "elapsed": 84,
+        "extra": null
+      },
+      "team": {
+        "id": 285,
+        "name": "Internacional"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Juninho"
+      },
+      "assist": {
+        "name": "Bruno Gomes"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 84,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "A Chapecoense voltou melhor para o segundo tempo, pressionando e criando chances claras de virar o jogo. Matheus Cunha fez uma defesaça em chute de Túlio Eduardo, segurando o empate. Mas aos 21 minutos, uma falha fatal na saída de bola da Chape mudou o roteiro: Carbonero aproveitou o erro de Doma, driblou o zagueiro e marcou, colocando o Internacional na frente por 2 a 1 na reta final da partida.",
+      "player": {
+        "name": "Inter aproveita erro e lidera!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 84,
+        "extra": null
+      },
+      "team": {
+        "id": 285,
+        "name": "Internacional"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Eliasson"
+      },
+      "assist": {
+        "name": "Carbonero"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 86,
+        "extra": null
+      },
+      "team": {
+        "id": 285,
+        "name": "Internacional"
+      },
+      "type": "Important",
+      "detail": "Matheus Cunha intercepta bola alçada na área.",
+      "player": {
+        "name": "Matheus Cunha intercepta bola alçada na área."
+      },
+      "assist": null
     }
   ],
   "lineups": [
@@ -2220,11 +2288,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "64%"
+          "value": "65%"
         },
         {
           "type": "Total Passes",
-          "value": 476
+          "value": 516
         },
         {
           "type": "Pass Accuracy",
@@ -2232,7 +2300,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 71
+          "value": 76
         },
         {
           "type": "Total Shots",
@@ -2296,19 +2364,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "36%"
+          "value": "35%"
         },
         {
           "type": "Total Passes",
-          "value": 266
+          "value": 270
         },
         {
           "type": "Pass Accuracy",
-          "value": "75%"
+          "value": "74%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 67
+          "value": 71
         },
         {
           "type": "Total Shots",

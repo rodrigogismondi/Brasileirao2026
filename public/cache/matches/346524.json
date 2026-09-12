@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 59
+      "elapsed": 61
     },
     "timerStart": "2026-09-12T21:08:14.273Z",
     "timerStatus": "INICIADO"
@@ -1198,6 +1198,54 @@
         "extra": null
       },
       "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O primeiro tempo foi de tirar o fôlego! O Internacional abriu o placar aos 24 minutos com um belo chute de Bruno Henrique, mas a Chapecoense não desistiu e buscou o empate nos acréscimos, com Garcez marcando de cabeça. A etapa final começou com a Chape mais perigosa, e Garcez quase virou o jogo em finalização que passou ao lado. Com 12 minutos, o duelo segue 1 a 1 e totalmente indefinido.",
+      "player": {
+        "name": "Empate com emoção e segundo tempo aberto"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 57,
+        "extra": null
+      },
+      "team": {
+        "id": 315,
+        "name": "Chapecoense"
+      },
+      "type": "Important",
+      "detail": "Chapecoense ataca, Garcez chega chutando, mas a arbitragem marca uma falta de ataque.",
+      "player": {
+        "name": "Chapecoense ataca, Garcez chega chutando, mas a "
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 57,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Depois de um primeiro tempo eletrizante que terminou 1 a 1, a etapa final começa intensa. A Chapecoense já levou um amarelo com Doma, mas foi quem chegou mais perto de marcar: aos 9 minutos, Garcez chutou com perigo e a bola passou rente à trave. O Inter respondeu em cobrança de falta direta, mas o goleiro Anderson fez a defesa segura. Jogo aberto e indefinido com 12 minutos corridos.",
+      "player": {
+        "name": "Tudo igual e jogo aberto na Arena Condá!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 57,
+        "extra": null
+      },
+      "team": {
         "id": 315,
         "name": "Chapecoense"
       },
@@ -1209,6 +1257,54 @@
       "assist": {
         "name": "Sem rebote!"
       }
+    },
+    {
+      "time": {
+        "elapsed": 58,
+        "extra": null
+      },
+      "team": {
+        "id": 285,
+        "name": "Internacional"
+      },
+      "type": "Important",
+      "detail": "Bruno Pacheco desarma Paulinho e o Internacional tem escanteio.",
+      "player": {
+        "name": "Bruno Pacheco desarma Paulinho e o Internacional"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 59,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Anderson sai do gol para ficar com a bola alçada na área.",
+      "player": {
+        "name": "Anderson sai do gol para ficar com a bola alçada"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 59,
+        "extra": null
+      },
+      "team": {
+        "id": 285,
+        "name": "Internacional"
+      },
+      "type": "Important",
+      "detail": "Inter tenta fazer o escanteio curto ensaiado, mas não dá certo.",
+      "player": {
+        "name": "Inter tenta fazer o escanteio curto ensaiado, ma"
+      },
+      "assist": null
     }
   ],
   "lineups": [
@@ -1666,11 +1762,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "63%"
+          "value": "62%"
         },
         {
           "type": "Total Passes",
-          "value": 323
+          "value": 340
         },
         {
           "type": "Pass Accuracy",
@@ -1678,15 +1774,15 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 46
+          "value": 48
         },
         {
           "type": "Total Shots",
-          "value": 7
+          "value": 8
         },
         {
           "type": "Shots on Goal",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Shots off Goal",
@@ -1714,15 +1810,15 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Tackles",
-          "value": 13
+          "value": 15
         },
         {
           "type": "Fouls",
-          "value": 11
+          "value": 12
         },
         {
           "type": "Yellow Cards",
@@ -1742,11 +1838,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "37%"
+          "value": "38%"
         },
         {
           "type": "Total Passes",
-          "value": 210
+          "value": 221
         },
         {
           "type": "Pass Accuracy",
@@ -1754,15 +1850,15 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 50
+          "value": 54
         },
         {
           "type": "Total Shots",
-          "value": 3
+          "value": 4
         },
         {
           "type": "Shots on Goal",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Shots off Goal",
@@ -1778,7 +1874,7 @@
         },
         {
           "type": "Corner Kicks",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Offsides",
@@ -1794,7 +1890,7 @@
         },
         {
           "type": "Tackles",
-          "value": 7
+          "value": 8
         },
         {
           "type": "Fouls",

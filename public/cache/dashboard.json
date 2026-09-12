@@ -12962,9 +12962,7 @@
           "long": "FT",
           "short": "FT",
           "elapsed": 90
-        },
-        "timerStart": "2026-09-12T02:32:15.049Z",
-        "timerStatus": "PAUSADO"
+        }
       },
       "league": {
         "round": "Regular Season - 27"
@@ -13014,9 +13012,7 @@
           "long": "FT",
           "short": "FT",
           "elapsed": 90
-        },
-        "timerStart": "2026-09-12T21:03:09.649Z",
-        "timerStatus": "PAUSADO"
+        }
       },
       "league": {
         "round": "Regular Season - 27"
@@ -13066,9 +13062,7 @@
           "long": "FT",
           "short": "FT",
           "elapsed": 90
-        },
-        "timerStart": "2026-09-12T21:04:59.860Z",
-        "timerStatus": "PAUSADO"
+        }
       },
       "league": {
         "round": "Regular Season - 27"
@@ -13117,7 +13111,7 @@
         "status": {
           "long": "2H",
           "short": "2H",
-          "elapsed": 59
+          "elapsed": 61
         },
         "timerStart": "2026-09-12T21:08:14.273Z",
         "timerStatus": "INICIADO"
@@ -13222,9 +13216,7 @@
           "long": "NS",
           "short": "NS",
           "elapsed": null
-        },
-        "timerStart": null,
-        "timerStatus": "PAUSADO"
+        }
       },
       "league": {
         "round": "Regular Season - 27"
@@ -13274,9 +13266,7 @@
           "long": "NS",
           "short": "NS",
           "elapsed": null
-        },
-        "timerStart": null,
-        "timerStatus": "PAUSADO"
+        }
       },
       "league": {
         "round": "Regular Season - 27"
@@ -13326,9 +13316,7 @@
           "long": "NS",
           "short": "NS",
           "elapsed": null
-        },
-        "timerStart": null,
-        "timerStatus": "PAUSADO"
+        }
       },
       "league": {
         "round": "Regular Season - 27"
@@ -13378,9 +13366,7 @@
           "long": "NS",
           "short": "NS",
           "elapsed": null
-        },
-        "timerStart": null,
-        "timerStatus": "PAUSADO"
+        }
       },
       "league": {
         "round": "Regular Season - 27"
@@ -13430,9 +13416,7 @@
           "long": "NS",
           "short": "NS",
           "elapsed": null
-        },
-        "timerStart": null,
-        "timerStatus": "PAUSADO"
+        }
       },
       "league": {
         "round": "Regular Season - 27"
@@ -20145,7 +20129,7 @@
     "mode": "live",
     "liveIntervalMs": 20000
   },
-  "fetchedAt": "2026-09-12T21:22:48.312Z",
+  "fetchedAt": "2026-09-12T21:25:09.950Z",
   "source": "ge-globo",
   "meta": {
     "rodada": 27,
@@ -20191,13 +20175,13 @@
       38
     ],
     "seasonSyncedAt": "2026-09-12T21:22:29.527Z",
-    "fullSeasonSync": true,
+    "fullSeasonSync": false,
     "edicao": "Campeonato Brasileiro 2026",
     "provider": "ge.globo.com",
     "scorersCount": 50,
-    "oddsMatched": 274,
-    "oddsPreserved": 19,
-    "oddsAvailable": 240,
+    "oddsMatched": 0,
+    "oddsPreserved": 293,
+    "oddsAvailable": 0,
     "fixturesCount": 380
   }
 }

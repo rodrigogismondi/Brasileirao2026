@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 22
+      "elapsed": 25
     },
     "timerStart": "2026-09-12T18:59:33.349Z",
     "timerStatus": "INICIADO"
@@ -485,6 +485,74 @@
         "name": "Cuiabano se atrapalha dentro da área, Tetê quase"
       },
       "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 20,
+        "extra": null
+      },
+      "team": {
+        "id": 284,
+        "name": "Grêmio"
+      },
+      "type": "Important",
+      "detail": "Kannemann acerta lindo lançamento para Tetê no lado esquerdo, o camisa 11 acha o Diego Caito, que limpa a marcação e finaliza com muito perigo para boa defesa de Léo Jardim. Escanteio para o Grêmio",
+      "player": {
+        "name": "Diego Caito"
+      },
+      "assist": {
+        "name": "UUUUHHH"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 22,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Vasco se mostra mais perigoso nestes primeiros 20 minutos e cria as melhores chances, ambas com Adson, que finalizou rente à trave e depois cabeceou para fora. O Grêmio, que teve Pedro Gabriel amarelado logo aos 7 minutos, equilibrou as ações e respondeu em boa trama que terminou com Diego Caito obrigando Léo Jardim a fazer ótima defesa. A partida segue movimentada e com os dois times buscando o ataque.",
+      "player": {
+        "name": "Vasco pressiona e quase marca na Arena!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 22,
+        "extra": null
+      },
+      "team": {
+        "id": 284,
+        "name": "Grêmio"
+      },
+      "type": "Important",
+      "detail": "Colídio recebe com liberdade e de cara pro gol finaliza para uma grande defesa do paredão tricolor. Mas já valia mais nada. Impedimento do atacante vascaíno",
+      "player": {
+        "name": "Weverton"
+      },
+      "assist": {
+        "name": "DEFESAÇA DO WEVERTON"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 23,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Falta de Noriega em Colídio no meio de campo",
+      "player": {
+        "name": "Falta de Noriega em Colídio no meio de campo"
+      },
+      "assist": null
     }
   ],
   "lineups": [
@@ -942,11 +1010,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "60%"
+          "value": "59%"
         },
         {
           "type": "Total Passes",
-          "value": 137
+          "value": 160
         },
         {
           "type": "Pass Accuracy",
@@ -954,15 +1022,15 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 19
+          "value": 23
         },
         {
           "type": "Total Shots",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Shots on Goal",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Shots off Goal",
@@ -978,7 +1046,7 @@
         },
         {
           "type": "Corner Kicks",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Offsides",
@@ -1018,19 +1086,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "40%"
+          "value": "41%"
         },
         {
           "type": "Total Passes",
-          "value": 88
+          "value": 109
         },
         {
           "type": "Pass Accuracy",
-          "value": "81%"
+          "value": "83%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 17
+          "value": 19
         },
         {
           "type": "Total Shots",
@@ -1058,7 +1126,7 @@
         },
         {
           "type": "Offsides",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Penalties",
@@ -1066,7 +1134,7 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Tackles",

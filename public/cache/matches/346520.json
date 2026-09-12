@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 23
+      "elapsed": 26
     },
     "timerStart": "2026-09-12T18:59:11.408Z",
     "timerStatus": "INICIADO"
@@ -451,6 +451,70 @@
       "detail": "Yellow Card",
       "player": {
         "name": "Alan Franco"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 20,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Bernard desce bem pelo meio e tenta o passe na área para Natanael. Antes do lateral chegar, Fábio sai do gol e defende.",
+      "player": {
+        "name": "Bernard desce bem pelo meio e tenta o passe na á"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 21,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Fluminense começou o jogo em ritmo alucinante e já acumula as melhores chances nos primeiros 20 minutos. Aos 6, Savarino soltou uma bomba de fora da área que explodiu no travessão. O goleiro Gabriel Delfim já foi obrigado a trabalhar, fazendo uma defesa dupla em finalizações de Castillo e parando um chute de Arana. O Atlético-MG, amarelado com Alan Franco, ainda não conseguiu responder.",
+      "player": {
+        "name": "Flu comanda e acerta a trave"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 21,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "Important",
+      "detail": "Fluminense troca passes e procura espaços para atacar.",
+      "player": {
+        "name": "Fluminense troca passes e procura espaços para a"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 22,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Bernard e Fidelis duelam a bola na lateral pela esquerda. A bola toca por último no jogador atleticano, que fica reclamando pedindo a posse.",
+      "player": {
+        "name": "Bernard e Fidelis duelam a bola na lateral pela "
       },
       "assist": null
     }
@@ -901,19 +965,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "53%"
+          "value": "52%"
         },
         {
           "type": "Total Passes",
-          "value": 125
+          "value": 143
         },
         {
           "type": "Pass Accuracy",
-          "value": "89%"
+          "value": "88%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 14
+          "value": 17
         },
         {
           "type": "Total Shots",
@@ -953,7 +1017,7 @@
         },
         {
           "type": "Tackles",
-          "value": 4
+          "value": 6
         },
         {
           "type": "Fouls",
@@ -961,7 +1025,7 @@
         },
         {
           "type": "Yellow Cards",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Red Cards",
@@ -977,27 +1041,27 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "47%"
+          "value": "48%"
         },
         {
           "type": "Total Passes",
-          "value": 112
+          "value": 140
         },
         {
           "type": "Pass Accuracy",
-          "value": "90%"
+          "value": "91%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 11
+          "value": 13
         },
         {
           "type": "Total Shots",
-          "value": 3
+          "value": 4
         },
         {
           "type": "Shots on Goal",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Shots off Goal",

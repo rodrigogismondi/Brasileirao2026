@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 45
+      "elapsed": 48
     },
     "timerStart": "2026-09-12T20:01:19.202Z",
     "timerStatus": "INICIADO"
@@ -30,7 +30,7 @@
     }
   },
   "goals": {
-    "home": 0,
+    "home": 1,
     "away": 1
   },
   "score": {
@@ -723,6 +723,86 @@
         "name": "Fechou o tempo. Jogadores do Inter reclamam com "
       },
       "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 44,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "A Chapecoense começou melhor e desperdiçou uma chance claríssima nos primeiros minutos. Mas quem não perdoa, marca. Aos 24, Carbonero fez ótima jogada de fundo e rolou para Bruno Henrique chegar batendo de primeira para abrir o placar: 1 a 0 para o Internacional. Com a partida perto do intervalo, o clima esquentou com discussões e até cartão amarelo para o técnico Rafael Lacerda.",
+      "player": {
+        "name": "Inter sai na frente em primeiro tempo pegado"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 44,
+        "extra": null
+      },
+      "team": {
+        "id": 315,
+        "name": "Chapecoense"
+      },
+      "type": "Important",
+      "detail": "É falta para a Chapecoense, para alçar a bola na área.",
+      "player": {
+        "name": "É falta para a Chapecoense, para alçar a bola na"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 45,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "A primeira etapa foi intensa! A Chapecoense começou melhor e desperdiçou uma chance clara logo aos 5 minutos, mas foi o Internacional que abriu o placar. Aos 24, Bruno Henrique aproveitou bela jogada de Carbonero para fazer 1 a 0. O clima esquentou, com confusão e cartão para o técnico da Chape. No apagar das luzes, aos 45, a equipe da casa conseguiu o gol de empate, deixando tudo igual.",
+      "player": {
+        "name": "Chape busca empate em 1º tempo quente!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 45,
+        "extra": null
+      },
+      "team": {
+        "id": 315,
+        "name": "Chapecoense"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "player": {
+        "name": "Garcez"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 45,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Kauan Faria é mandado para fora do campo. precisa estancar o sangramento do choque de cabeça minutos antes. Ele ainda sangra muito e sua camisa está bastante manchada.",
+      "player": {
+        "name": "Kauan Faria é mandado para fora do campo. precis"
+      },
+      "assist": null
     }
   ],
   "lineups": [
@@ -1184,23 +1264,23 @@
         },
         {
           "type": "Total Passes",
-          "value": 262
+          "value": 265
         },
         {
           "type": "Pass Accuracy",
-          "value": "89%"
+          "value": "88%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 30
+          "value": 31
         },
         {
           "type": "Total Shots",
-          "value": 5
+          "value": 6
         },
         {
           "type": "Shots on Goal",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Shots off Goal",
@@ -1260,7 +1340,7 @@
         },
         {
           "type": "Total Passes",
-          "value": 131
+          "value": 135
         },
         {
           "type": "Pass Accuracy",
@@ -1268,7 +1348,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 33
+          "value": 34
         },
         {
           "type": "Total Shots",

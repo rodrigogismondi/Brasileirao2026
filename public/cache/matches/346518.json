@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 34
+      "elapsed": 37
     },
     "timerStart": "2026-09-12T21:30:40.826Z",
     "timerStatus": "INICIADO"
@@ -936,6 +936,22 @@
         "extra": null
       },
       "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O clássico passa dos 30 minutos com equilíbrio, mas também com muita tensão e faltas, principalmente do lado do São Paulo, que já teve Pablo Maia amarelado. O Tricolor chegou com perigo em chute de André Silva, enquanto o Palmeiras, com mais posse, respondeu. A melhor chance veio no final, em cruzamento de Piquerez que Flaco López cabeceou com perigo, passando muito perto da trave.",
+      "player": {
+        "name": "Pressão e um quase gol agitam o Choque-Rei"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 32,
+        "extra": null
+      },
+      "team": {
         "id": 275,
         "name": "Palmeiras"
       },
@@ -964,6 +980,90 @@
       },
       "assist": {
         "name": "Arriscou"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 33,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Important",
+      "detail": "Ferreira sobe pelo meio, encontra passe aberto em Wendell à esquerda, que vê espaço na área e manda resteiro buscando André Silva, mas a bola passa por todo mundo sem ninguém chutar.",
+      "player": {
+        "name": "Wendell"
+      },
+      "assist": {
+        "name": "Olha o passe!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 35,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Important",
+      "detail": "Ferreira divide a bola com Murilo já quase na área. Árbitro dá escanteio para o São Paulo.",
+      "player": {
+        "name": "Ferreira divide a bola com Murilo já quase na ár"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 35,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Passados 35 minutos, o Choque-Rei é marcado pela intensidade e por muitas faltas, que resultaram em cartão amarelo para Pablo Maia, do São Paulo. As duas equipes já criaram boas oportunidades. O Tricolor levou perigo com Ferreira e André Silva, enquanto o Palmeiras teve sua melhor chance em uma cabeçada de Flaco López que passou raspando a trave. Segue tudo igual no placar.",
+      "player": {
+        "name": "Jogo pegado e chances para os dois lados"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 35,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Important",
+      "detail": "São Paulo trabalha a bola no meio de campo com Victor Sá e Pablo Maia.",
+      "player": {
+        "name": "São Paulo trabalha a bola no meio de campo com V"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 36,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Important",
+      "detail": "Cauly cobra o escanteio com uma bola curvada depois da segunda trave, ninguém chega para cabecear ou chutar. Carlos Miguel só olha.",
+      "player": {
+        "name": "Cauly"
+      },
+      "assist": {
+        "name": "Escanteio"
       }
     }
   ],
@@ -1422,23 +1522,23 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "54%"
+          "value": "55%"
         },
         {
           "type": "Total Passes",
-          "value": 177
+          "value": 193
         },
         {
           "type": "Pass Accuracy",
-          "value": "84%"
+          "value": "85%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 28
+          "value": 29
         },
         {
           "type": "Total Shots",
-          "value": 3
+          "value": 4
         },
         {
           "type": "Shots on Goal",
@@ -1446,7 +1546,7 @@
         },
         {
           "type": "Shots off Goal",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Blocked Shots",
@@ -1458,7 +1558,7 @@
         },
         {
           "type": "Corner Kicks",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Offsides",
@@ -1498,19 +1598,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "46%"
+          "value": "45%"
         },
         {
           "type": "Total Passes",
-          "value": 134
+          "value": 137
         },
         {
           "type": "Pass Accuracy",
-          "value": "86%"
+          "value": "85%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 19
+          "value": 21
         },
         {
           "type": "Total Shots",
@@ -1546,7 +1646,7 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Tackles",

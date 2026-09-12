@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 22
+      "elapsed": 24
     },
     "timerStart": "2026-09-12T21:30:40.826Z",
     "timerStatus": "INICIADO"
@@ -520,9 +520,9 @@
         "name": ""
       },
       "type": "Important",
-      "detail": "O clássico começou quente e com muitas paralisações. Nos primeiros 15 minutos, o São Paulo cometeu uma série de faltas, resultando em cartão amarelo para Pablo Maia. Apesar do jogo truncado, a melhor chance foi do Tricolor: Ferreira fez boa jogada e tocou para André Silva, que chutou para fora. O Palmeiras tenta responder e busca espaços, mas o duelo segue muito físico e com poucas finalizações.",
+      "detail": "O Choque-Rei começa com muita disputa física e poucas chances claras. Nos primeiros 15 minutos, o São Paulo aposta nas faltas para quebrar o ritmo do Palmeiras, o que já rendeu um cartão amarelo para Pablo Maia. Apesar da maior posse alviverde, a melhor oportunidade foi tricolor, em grande jogada de Ferreira que terminou com chute para fora de André Silva. Jogo travado e de nervos à flor da pele.",
       "player": {
-        "name": "Choque-Rei tenso e muito faltoso"
+        "name": "Clima quente e muitas faltas no início"
       },
       "assist": null
     },
@@ -536,12 +536,12 @@
         "name": "Palmeiras"
       },
       "type": "Important",
-      "detail": "André Silva devolve mal em tentativa de ataque já entrando na área, e a bola sai pela linha de fundo.",
+      "detail": "André Silva devolve mal em tentativa de ataque já entrando na área, e a bola sai pela linha de fundo. Tiro de meta para o Palmeiras.",
       "player": {
         "name": "André Silva"
       },
       "assist": {
-        "name": "Tiro de meta para o Palmeiras"
+        "name": "Para fora!"
       }
     },
     {
@@ -593,6 +593,72 @@
         "name": "Cauly avança pelo meio de campo e é desarmado po"
       },
       "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 18,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Choque-Rei começou tenso e com o jogo muito travado por faltas, especialmente do São Paulo, que já cometeu nove infrações em 18 minutos. A insistência resultou em cartão amarelo para Pablo Maia após falta em Jhon Arias. A melhor chance até agora foi do Tricolor, quando Ferreira fez boa jogada individual e serviu André Silva, que chutou para fora. O Palmeiras tenta se impor, mas esbarra na marcação.",
+      "player": {
+        "name": "Muitas faltas e um cartão marcam o início"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 18,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Agora são três faltas do Palmeiras, contra nove do São Paulo.",
+      "player": {
+        "name": "Faltas seguem aumentando"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 19,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Ferreira tenta avançar carregando a bola pelo meio e é desarmado por Andreas.",
+      "player": {
+        "name": "Ferreira tenta avançar carregando a bola pelo me"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 20,
+        "extra": null
+      },
+      "team": {
+        "id": 275,
+        "name": "Palmeiras"
+      },
+      "type": "Important",
+      "detail": "Giay recebe o passe de Andreas logo depois do desarme, avança pelo lado do campo até a entrada da área e arrisca ele mesmo, mas manda para fora.",
+      "player": {
+        "name": "Giay"
+      },
+      "assist": {
+        "name": "Chute para fora!"
+      }
     }
   ],
   "lineups": [
@@ -1050,15 +1116,15 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "62%"
+          "value": "60%"
         },
         {
           "type": "Total Passes",
-          "value": 122
+          "value": 127
         },
         {
           "type": "Pass Accuracy",
-          "value": "86%"
+          "value": "87%"
         },
         {
           "type": "Incomplete Passes",
@@ -1066,7 +1132,7 @@
         },
         {
           "type": "Total Shots",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Shots on Goal",
@@ -1074,7 +1140,7 @@
         },
         {
           "type": "Shots off Goal",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Blocked Shots",
@@ -1102,11 +1168,11 @@
         },
         {
           "type": "Tackles",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Fouls",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Yellow Cards",
@@ -1126,19 +1192,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "38%"
+          "value": "40%"
         },
         {
           "type": "Total Passes",
-          "value": 72
+          "value": 93
         },
         {
           "type": "Pass Accuracy",
-          "value": "85%"
+          "value": "87%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 11
+          "value": 12
         },
         {
           "type": "Total Shots",
@@ -1178,7 +1244,7 @@
         },
         {
           "type": "Tackles",
-          "value": 9
+          "value": 10
         },
         {
           "type": "Fouls",

@@ -9,10 +9,10 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 1
+      "elapsed": 6
     },
-    "timerStart": "2026-09-12T20:26:28.526Z",
-    "timerStatus": "PAUSADO"
+    "timerStart": "2026-09-12T21:30:40.826Z",
+    "timerStatus": "INICIADO"
   },
   "league": {
     "round": "Regular Season - 27"
@@ -97,6 +97,76 @@
         "name": "Arias recebe passe de Flaco na altura do meio de"
       },
       "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 2,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Important",
+      "detail": "Andreas cobra a falta com levantamento na área, a bola desvia pelo alto, e o árbitro dá tiro de meta para o São Paulo",
+      "player": {
+        "name": "Andreas Pereira"
+      },
+      "assist": {
+        "name": "Deu em nada"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 2,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Coronel arruma um atleta na barreira. Andreas na cobrança da intermediária do campo.",
+      "player": {
+        "name": "Coronel arruma um atleta na barreira. Andreas na"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 2,
+        "extra": null
+      },
+      "team": {
+        "id": 275,
+        "name": "Palmeiras"
+      },
+      "type": "Important",
+      "detail": "Vitor Roque recebe o passe no campo de ataque, é desarmado por Osorio, mas que faz falta.",
+      "player": {
+        "name": "Vitor Roque"
+      },
+      "assist": {
+        "name": "Falta para o Palmeiras"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 3,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Important",
+      "detail": "São Paulo arrisca uma ligação direta no tiro de meta e encontra André Silva no ataque. Ele corre tentando chegar ao ataque, mas não consegue finalizar.",
+      "player": {
+        "name": "André Silva"
+      },
+      "assist": {
+        "name": "Ligação direta"
+      }
     }
   ],
   "lineups": [
@@ -558,19 +628,19 @@
         },
         {
           "type": "Total Passes",
-          "value": 21
+          "value": 23
         },
         {
           "type": "Pass Accuracy",
-          "value": "90%"
+          "value": "96%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 2
+          "value": 1
         },
         {
           "type": "Total Shots",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Shots on Goal",
@@ -578,7 +648,7 @@
         },
         {
           "type": "Shots off Goal",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Blocked Shots",
@@ -606,7 +676,7 @@
         },
         {
           "type": "Tackles",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Fouls",
@@ -634,15 +704,15 @@
         },
         {
           "type": "Total Passes",
-          "value": 2
+          "value": 7
         },
         {
           "type": "Pass Accuracy",
-          "value": "0%"
+          "value": "57%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Total Shots",
@@ -666,7 +736,7 @@
         },
         {
           "type": "Corner Kicks",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Offsides",
@@ -686,7 +756,7 @@
         },
         {
           "type": "Fouls",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Yellow Cards",

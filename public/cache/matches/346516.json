@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 13
+      "elapsed": 16
     },
     "timerStart": "2026-09-12T23:31:28.942Z",
     "timerStatus": "INICIADO"
@@ -254,9 +254,57 @@
         "name": ""
       },
       "type": "Important",
+      "detail": "O Botafogo começou com tudo! Logo aos 2 minutos, Montoro testou o goleiro Volpi e, pouco depois, finalizou de novo, desta vez para fora. O time da casa pressiona e busca o gol. O Bragantino responde com posse de bola e escapadas em velocidade, como em contra-ataque de Wallace Yan com Lucas Barbosa, mas sem conseguir finalizar. Com 10 minutos, o jogo é aberto e com ritmo acelerado.",
+      "player": {
+        "name": "Botafogo pressiona no início de jogo"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 10,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
       "detail": "Bragantino sai em contra-ataque com Wallace Yan, que acha Lucas Barbosa pela direita. Na hora de devolver para o companheiro, o jogador acaba errando o passe e devolve a bola para a defesa do Botafogo",
       "player": {
         "name": "Bragantino sai em contra-ataque com Wallace Yan,"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 11,
+        "extra": null
+      },
+      "team": {
+        "id": 280,
+        "name": "Bragantino"
+      },
+      "type": "Important",
+      "detail": "Atacante do Bragantino corta Vitinho, puxa para a perna direita e tenta finalização, que passa longe do gol",
+      "player": {
+        "name": "Fernando"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 12,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Pitta arranca em direção ao gol, mas Monzón consegue boa recuperação e desarma o atacante do Bragantino. Botafogo volta a ter a posse de bola",
+      "player": {
+        "name": "Pitta arranca em direção ao gol, mas Monzón cons"
       },
       "assist": null
     }
@@ -716,23 +764,23 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "40%"
+          "value": "44%"
         },
         {
           "type": "Total Passes",
-          "value": 49
+          "value": 73
         },
         {
           "type": "Pass Accuracy",
-          "value": "76%"
+          "value": "81%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 12
+          "value": 14
         },
         {
           "type": "Total Shots",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Shots on Goal",
@@ -744,7 +792,7 @@
         },
         {
           "type": "Blocked Shots",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Hit Woodwork",
@@ -792,23 +840,23 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "60%"
+          "value": "56%"
         },
         {
           "type": "Total Passes",
-          "value": 59
+          "value": 82
         },
         {
           "type": "Pass Accuracy",
-          "value": "81%"
+          "value": "83%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 11
+          "value": 14
         },
         {
           "type": "Total Shots",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Shots on Goal",
@@ -816,7 +864,7 @@
         },
         {
           "type": "Shots off Goal",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Blocked Shots",
@@ -840,7 +888,7 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Tackles",

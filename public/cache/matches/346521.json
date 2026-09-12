@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 7
+      "elapsed": 10
     },
     "timerStart": "2026-09-12T18:59:33.349Z",
     "timerStatus": "INICIADO"
@@ -188,9 +188,89 @@
         "name": ""
       },
       "type": "Important",
+      "detail": "Adson tabela com Pedro Henrique, e o atacante é derrubado por Pedro Gabriel",
+      "player": {
+        "name": "Adson tabela com Pedro Henrique, e o atacante é "
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 6,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Grêmio começou o jogo em alta rotação, pressionando a saída de bola do Vasco. Nos primeiros minutos, Kannemann invadiu a área e caiu, gerando muitos protestos da torcida por um pênalti não marcado pelo árbitro. O time da casa seguiu no ataque com um cruzamento perigoso de Caito, enquanto o Vasco respondeu com uma finalização de Tchê Tchê, que parou em um bloqueio preciso do próprio Kannemann.",
+      "player": {
+        "name": "Início agitado e com polêmica na Arena"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 6,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
       "detail": "Tchê Tchê aparece na área e finaliza em cima do Kannemann",
       "player": {
         "name": "Tchê Tchê aparece na área e finaliza em cima do "
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 7,
+        "extra": null
+      },
+      "team": {
+        "id": 284,
+        "name": "Grêmio"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Pedro Gabriel"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 8,
+        "extra": null
+      },
+      "team": {
+        "id": 267,
+        "name": "Vasco"
+      },
+      "type": "Important",
+      "detail": "Wallace erra na saída de bola, mas na sequência desarma Andrés Gomez. Escanteio para o Vasco",
+      "player": {
+        "name": "Wallace erra na saída de bola, mas na sequência "
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 8,
+        "extra": null
+      },
+      "team": {
+        "id": 284,
+        "name": "Grêmio"
+      },
+      "type": "Important",
+      "detail": "Falta cobrada na área do Grêmio e Weverton sobe e encaixa a bola",
+      "player": {
+        "name": "Falta cobrada na área do Grêmio e Weverton sobe "
       },
       "assist": null
     }
@@ -650,19 +730,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "73%"
+          "value": "62%"
         },
         {
           "type": "Total Passes",
-          "value": 60
+          "value": 64
         },
         {
           "type": "Pass Accuracy",
-          "value": "90%"
+          "value": "89%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 6
+          "value": 7
         },
         {
           "type": "Total Shots",
@@ -698,7 +778,7 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Tackles",
@@ -706,11 +786,11 @@
         },
         {
           "type": "Fouls",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Yellow Cards",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Red Cards",
@@ -726,23 +806,23 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "27%"
+          "value": "38%"
         },
         {
           "type": "Total Passes",
-          "value": 28
+          "value": 41
         },
         {
           "type": "Pass Accuracy",
-          "value": "86%"
+          "value": "80%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 4
+          "value": 8
         },
         {
           "type": "Total Shots",
-          "value": 0
+          "value": 2
         },
         {
           "type": "Shots on Goal",
@@ -754,7 +834,7 @@
         },
         {
           "type": "Blocked Shots",
-          "value": 0
+          "value": 2
         },
         {
           "type": "Hit Woodwork",
@@ -762,7 +842,7 @@
         },
         {
           "type": "Corner Kicks",
-          "value": 0
+          "value": 2
         },
         {
           "type": "Offsides",
@@ -778,7 +858,7 @@
         },
         {
           "type": "Tackles",
-          "value": 3
+          "value": 4
         },
         {
           "type": "Fouls",

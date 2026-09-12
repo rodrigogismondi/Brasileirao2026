@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 8
+      "elapsed": 10
     },
     "timerStart": "2026-09-12T18:59:19.239Z",
     "timerStatus": "INICIADO"
@@ -175,6 +175,72 @@
       "detail": "Cuello avança pela direita e cruza à meia altura na área. Bernard não chega na bola e sai em tiro de meta.",
       "player": {
         "name": "boa chegada!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 5,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Fidelis avança pela direita e cruza na área. Castillo cabeceia no meio do gol. Delfim espalma, e o atacante finaliza novamente. O goleiro espalma.",
+      "player": {
+        "name": "Fidelis avança pela direita e cruza na área. Cas"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 6,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "Important",
+      "detail": "O jogo mal começou e já pegou fogo! Após os primeiros minutos de estudo, o Fluminense criou as melhores chances. Primeiro, o goleiro Delfim operou um milagre com uma defesa dupla em finalizações de Castillo. Na sequência, aos 6 minutos, Savarino acertou um chutaço de longe que explodiu no travessão! Início de muita pressão do time visitante, que já carimbou o poste.",
+      "player": {
+        "name": "Travessão e milagre em início agitado!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 6,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "Important",
+      "detail": "Savarino fica com a bola na esquerda e arrisca de fora com um chutão. A bola explode no travessão!",
+      "player": {
+        "name": "Savarino"
+      },
+      "assist": {
+        "name": "UHHh!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 8,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Bernard sai jogando no meio com Fred, mas Otávio se antecipa e intercepta.",
+      "player": {
+        "name": "Bernard sai jogando no meio com Fred, mas Otávio"
       },
       "assist": null
     }
@@ -625,19 +691,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "50%"
+          "value": "65%"
         },
         {
           "type": "Total Passes",
-          "value": 55
+          "value": 71
         },
         {
           "type": "Pass Accuracy",
-          "value": "95%"
+          "value": "92%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 3
+          "value": 6
         },
         {
           "type": "Total Shots",
@@ -673,11 +739,11 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Tackles",
-          "value": 1
+          "value": 3
         },
         {
           "type": "Fouls",
@@ -701,23 +767,23 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "50%"
+          "value": "35%"
         },
         {
           "type": "Total Passes",
-          "value": 24
+          "value": 52
         },
         {
           "type": "Pass Accuracy",
-          "value": "88%"
+          "value": "92%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 3
+          "value": 4
         },
         {
           "type": "Total Shots",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Shots on Goal",
@@ -733,7 +799,7 @@
         },
         {
           "type": "Hit Woodwork",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Corner Kicks",
@@ -753,11 +819,11 @@
         },
         {
           "type": "Tackles",
-          "value": 3
+          "value": 5
         },
         {
           "type": "Fouls",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Yellow Cards",

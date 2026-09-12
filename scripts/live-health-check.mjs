@@ -65,8 +65,9 @@ function main() {
       const pauseMin = Number.isFinite(pauseMs) ? (Date.now() - pauseMs) / 60000 : null;
       htStuck = pauseMin != null ? pauseMin >= 30 : ageMin >= 90;
     }
+    // 1H: allow long stoppage/VAR (GE can stay on 1T past 55' wall-clock).
     const stuckPeriod =
-      (detailStatus === "1H" && ageMin >= 55) ||
+      (detailStatus === "1H" && ageMin >= 70) ||
       htStuck ||
       (["2H", "LIVE", "ET"].includes(detailStatus) && ageMin >= 150);
     if (

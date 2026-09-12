@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 52
+      "elapsed": 55
     },
     "timerStart": "2026-09-12T21:30:40.826Z",
     "timerStatus": "INICIADO"
@@ -1054,22 +1054,6 @@
         "extra": null
       },
       "team": {
-        "id": 0,
-        "name": ""
-      },
-      "type": "Important",
-      "detail": "Após um início truncado e com muitas faltas, que resultou em amarelo para Pablo Maia, o clássico esquentou depois dos 30 minutos. O Palmeiras chegou perto com uma cabeçada perigosa de Flaco López que passou rente à trave. A resposta do São Paulo foi ainda mais clara: Cauly chutou, Carlos Miguel defendeu e, no rebote, Pablo Maia desperdiçou uma chance incrível. A partida está aberta e intensa.",
-      "player": {
-        "name": "Jogo esquenta com chances claras para os dois lados!"
-      },
-      "assist": null
-    },
-    {
-      "time": {
-        "elapsed": 36,
-        "extra": null
-      },
-      "team": {
         "id": 276,
         "name": "São Paulo"
       },
@@ -1081,6 +1065,22 @@
       "assist": {
         "name": "Para foooooora! Que chance"
       }
+    },
+    {
+      "time": {
+        "elapsed": 36,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Após um início truncado e com muitas faltas, que resultou em amarelo para Pablo Maia, o clássico esquentou depois dos 30 minutos. O Palmeiras chegou perto com uma cabeçada perigosa de Flaco López que passou rente à trave. A resposta do São Paulo foi ainda mais clara: Cauly chutou, Carlos Miguel defendeu e, no rebote, Pablo Maia desperdiçou uma chance incrível. A partida está aberta e intensa.",
+      "player": {
+        "name": "Jogo esquenta com chances claras para os dois lados!"
+      },
+      "assist": null
     },
     {
       "time": {
@@ -1117,38 +1117,6 @@
       "assist": {
         "name": "Osorio faz falta!"
       }
-    },
-    {
-      "time": {
-        "elapsed": 37,
-        "extra": null
-      },
-      "team": {
-        "id": 276,
-        "name": "São Paulo"
-      },
-      "type": "Important",
-      "detail": "Red Card by Osorio",
-      "player": {
-        "name": "Red Card by Osorio"
-      },
-      "assist": null
-    },
-    {
-      "time": {
-        "elapsed": 37,
-        "extra": null
-      },
-      "team": {
-        "id": 276,
-        "name": "São Paulo"
-      },
-      "type": "Important",
-      "detail": "Red Card by Osorio",
-      "player": {
-        "name": "Red Card by Osorio"
-      },
-      "assist": null
     },
     {
       "time": {
@@ -1458,9 +1426,75 @@
         "name": "São Paulo"
       },
       "type": "Important",
+      "detail": "Cauly recebe a bola pela direita depois da cobrança de falta rasteira, puxa contra a marcação e arrisca o chute tentando um desvio. A bola fica nas mãos do goleiro Carlos Miguel.",
+      "player": {
+        "name": "Cauly"
+      },
+      "assist": {
+        "name": "Chutou bem"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 50,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Vai até os 51 minutos.",
+      "player": {
+        "name": "Mais 1 minuto de acréscimo!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 50,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Important",
       "detail": "São Paulo tem cobrança de falta no provável último lance do primeiro tempo.",
       "player": {
         "name": "São Paulo tem cobrança de falta no provável últi"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 51,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Choque-Rei teve um primeiro tempo de muita disputa e nervosismo. O roteiro do jogo mudou aos 38 minutos com a expulsão de Osorio, do São Paulo, após revisão do VAR por uma entrada dura. Com um jogador a mais, o Palmeiras pressionou, parou em boas defesas de Coronel, mas marcou nos acréscimos: Murilo aproveitou a sobra na área e fez 1 a 0 para o time da casa antes do intervalo.",
+      "player": {
+        "name": "Expulsão muda o jogo e Verdão marca no fim!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 51,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Encerra a primeira etapa, com vitória parcial do Palmeiras por 1 a 0 sobre o São Paulo.",
+      "player": {
+        "name": "Fim do primeiro tempo!"
       },
       "assist": null
     }
@@ -1920,11 +1954,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "57%"
+          "value": "56%"
         },
         {
           "type": "Total Passes",
-          "value": 241
+          "value": 242
         },
         {
           "type": "Pass Accuracy",
@@ -1932,7 +1966,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 40
+          "value": 41
         },
         {
           "type": "Total Shots",
@@ -1968,7 +2002,7 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Tackles",
@@ -1976,11 +2010,11 @@
         },
         {
           "type": "Fouls",
-          "value": 5
+          "value": 7
         },
         {
           "type": "Yellow Cards",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Red Cards",
@@ -1996,23 +2030,23 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "43%"
+          "value": "44%"
         },
         {
           "type": "Total Passes",
-          "value": 172
+          "value": 185
         },
         {
           "type": "Pass Accuracy",
-          "value": "82%"
+          "value": "83%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 31
+          "value": 32
         },
         {
           "type": "Total Shots",
-          "value": 3
+          "value": 4
         },
         {
           "type": "Shots on Goal",
@@ -2024,7 +2058,7 @@
         },
         {
           "type": "Blocked Shots",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Hit Woodwork",

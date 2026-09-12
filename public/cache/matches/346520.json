@@ -7,8 +7,8 @@
       "city": ""
     },
     "status": {
-      "long": "NS",
-      "short": "NS",
+      "long": "1H",
+      "short": "1H",
       "elapsed": null
     },
     "timerStart": "2026-09-12T17:59:12.743Z",
@@ -30,8 +30,8 @@
     }
   },
   "goals": {
-    "home": null,
-    "away": null
+    "home": 0,
+    "away": 0
   },
   "score": {
     "halftime": {
@@ -49,7 +49,24 @@
     "away": 3.22,
     "source": "betexplorer"
   },
-  "events": [],
+  "events": [
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O árbitro apita, e a bola rola. A saída é do Atlético.",
+      "player": {
+        "name": "COMEÇA O JOGO!"
+      },
+      "assist": null
+    }
+  ],
   "lineups": [
     {
       "team": {

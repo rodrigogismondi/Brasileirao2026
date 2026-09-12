@@ -9,9 +9,9 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": null
+      "elapsed": 2
     },
-    "timerStart": "2026-09-12T17:59:12.743Z",
+    "timerStart": "2026-09-12T18:57:08.364Z",
     "timerStatus": "PAUSADO"
   },
   "league": {
@@ -60,9 +60,73 @@
         "name": ""
       },
       "type": "Important",
+      "detail": "Atlético começa o jogo trocando passes na defesa.",
+      "player": {
+        "name": "Atlético começa o jogo trocando passes na defesa"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
       "detail": "O árbitro apita, e a bola rola. A saída é do Atlético.",
       "player": {
         "name": "COMEÇA O JOGO!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 1,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Fred avança pelo meio, mas é interceptado. Em seguida, o volante fica sentindo, mas logo se levanta.",
+      "player": {
+        "name": "Fred avança pelo meio, mas é interceptado. Em se"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 2,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Pascini toca na linha de fundo pela esquerda para Bernard, mas Rabello chega antes e protege a bola até sair em tiro de meta.",
+      "player": {
+        "name": "Pascini toca na linha de fundo pela esquerda par"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 2,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Cuello desce pela direita, tenta driblar a marcação, mas Arana corta. A bola sai em lateral para o Atlético.",
+      "player": {
+        "name": "Cuello desce pela direita, tenta driblar a marca"
       },
       "assist": null
     }
@@ -504,6 +568,159 @@
       ]
     }
   ],
-  "statistics": [],
+  "statistics": [
+    {
+      "team": {
+        "id": 282,
+        "name": "Atlético-MG"
+      },
+      "statistics": [
+        {
+          "type": "Ball Possession",
+          "value": "50%"
+        },
+        {
+          "type": "Total Passes",
+          "value": 31
+        },
+        {
+          "type": "Pass Accuracy",
+          "value": "100%"
+        },
+        {
+          "type": "Incomplete Passes",
+          "value": 0
+        },
+        {
+          "type": "Total Shots",
+          "value": 0
+        },
+        {
+          "type": "Shots on Goal",
+          "value": 0
+        },
+        {
+          "type": "Shots off Goal",
+          "value": 0
+        },
+        {
+          "type": "Blocked Shots",
+          "value": 0
+        },
+        {
+          "type": "Hit Woodwork",
+          "value": 0
+        },
+        {
+          "type": "Corner Kicks",
+          "value": 0
+        },
+        {
+          "type": "Offsides",
+          "value": 0
+        },
+        {
+          "type": "Penalties",
+          "value": 0
+        },
+        {
+          "type": "Goalkeeper Saves",
+          "value": 0
+        },
+        {
+          "type": "Tackles",
+          "value": 1
+        },
+        {
+          "type": "Fouls",
+          "value": 0
+        },
+        {
+          "type": "Yellow Cards",
+          "value": 0
+        },
+        {
+          "type": "Red Cards",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "statistics": [
+        {
+          "type": "Ball Possession",
+          "value": "50%"
+        },
+        {
+          "type": "Total Passes",
+          "value": 12
+        },
+        {
+          "type": "Pass Accuracy",
+          "value": "83%"
+        },
+        {
+          "type": "Incomplete Passes",
+          "value": 2
+        },
+        {
+          "type": "Total Shots",
+          "value": 0
+        },
+        {
+          "type": "Shots on Goal",
+          "value": 0
+        },
+        {
+          "type": "Shots off Goal",
+          "value": 0
+        },
+        {
+          "type": "Blocked Shots",
+          "value": 0
+        },
+        {
+          "type": "Hit Woodwork",
+          "value": 0
+        },
+        {
+          "type": "Corner Kicks",
+          "value": 0
+        },
+        {
+          "type": "Offsides",
+          "value": 0
+        },
+        {
+          "type": "Penalties",
+          "value": 0
+        },
+        {
+          "type": "Goalkeeper Saves",
+          "value": 0
+        },
+        {
+          "type": "Tackles",
+          "value": 1
+        },
+        {
+          "type": "Fouls",
+          "value": 0
+        },
+        {
+          "type": "Yellow Cards",
+          "value": 0
+        },
+        {
+          "type": "Red Cards",
+          "value": 0
+        }
+      ]
+    }
+  ],
   "sportsFieldUrl": null
 }

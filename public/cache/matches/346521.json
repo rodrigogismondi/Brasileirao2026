@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 10
+      "elapsed": 13
     },
     "timerStart": "2026-09-12T18:59:33.349Z",
     "timerStatus": "INICIADO"
@@ -252,7 +252,7 @@
         "name": "Vasco"
       },
       "type": "Important",
-      "detail": "Wallace erra na saída de bola, mas na sequência desarma Andrés Gomez. Escanteio para o Vasco",
+      "detail": "Wallace erra na saída de bola, mas na sequência desarma Andrés Gómez. Escanteio para o Vasco",
       "player": {
         "name": "Wallace erra na saída de bola, mas na sequência "
       },
@@ -271,6 +271,72 @@
       "detail": "Falta cobrada na área do Grêmio e Weverton sobe e encaixa a bola",
       "player": {
         "name": "Falta cobrada na área do Grêmio e Weverton sobe "
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 9,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Começo de jogo intenso na Arena! O Grêmio partiu para cima e logo aos 2 minutos levou perigo com Carlos Vinícius, que chutou de dentro da área e foi bloqueado. O Vasco equilibrou as ações e também chegou em finalização de Tchê Tchê. O clima esquentou aos 7 minutos, quando Pedro Gabriel fez falta dura em Adson e recebeu o primeiro cartão amarelo da partida, marcando o início pegado do duelo.",
+      "player": {
+        "name": "Início quente e com cartão na Arena"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 9,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Colídio cobra mal dois escanteios em sequências, na volta, recoloca a bola na área que ficou fácil para o Weverton",
+      "player": {
+        "name": "Colídio cobra mal dois escanteios em sequências,"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 10,
+        "extra": null
+      },
+      "team": {
+        "id": 267,
+        "name": "Vasco"
+      },
+      "type": "Important",
+      "detail": "Adson recebe pelo lado direito do ataque, o camisa 28 carrega, puxa para o meio e finaliza com muito perigo. A bola passou raspando a trave direita do gol do Weverton",
+      "player": {
+        "name": "Adson"
+      },
+      "assist": {
+        "name": "UUUUH"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 10,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Diego Caito tenta arrancada pelo lado direito, mas adianta demais. Robert Renan joga para a lateral",
+      "player": {
+        "name": "Diego Caito tenta arrancada pelo lado direito, m"
       },
       "assist": null
     }
@@ -730,19 +796,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "62%"
+          "value": "61%"
         },
         {
           "type": "Total Passes",
-          "value": 64
+          "value": 81
         },
         {
           "type": "Pass Accuracy",
-          "value": "89%"
+          "value": "85%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 7
+          "value": 12
         },
         {
           "type": "Total Shots",
@@ -782,7 +848,7 @@
         },
         {
           "type": "Tackles",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Fouls",
@@ -806,23 +872,23 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "38%"
+          "value": "39%"
         },
         {
           "type": "Total Passes",
-          "value": 41
+          "value": 65
         },
         {
           "type": "Pass Accuracy",
-          "value": "80%"
+          "value": "82%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 8
+          "value": 12
         },
         {
           "type": "Total Shots",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Shots on Goal",
@@ -830,7 +896,7 @@
         },
         {
           "type": "Shots off Goal",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Blocked Shots",

@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 10
+      "elapsed": 14
     },
     "timerStart": "2026-09-12T18:59:19.239Z",
     "timerStatus": "INICIADO"
@@ -241,6 +241,54 @@
       "detail": "Bernard sai jogando no meio com Fred, mas Otávio se antecipa e intercepta.",
       "player": {
         "name": "Bernard sai jogando no meio com Fred, mas Otávio"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 9,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Que início de jogo! O Fluminense já criou as duas chances mais claras da partida nestes primeiros minutos. Rodrigo Castillo testou o goleiro Gabriel Delfim, que fez duas defesas em sequência para salvar o Atlético-MG. Logo depois, Savarino acertou um chutaço de longe que explodiu no travessão. O time visitante chegou muito perto de abrir o placar e comanda as ações ofensivas até aqui.",
+      "player": {
+        "name": "Travessão e milagre: Flu pressiona!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 9,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "Important",
+      "detail": "Fluminense troca passes e procura espaços para avançar.",
+      "player": {
+        "name": "Fluminense troca passes e procura espaços para a"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 10,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Cuello inverte a posse para Pascini. O lateral domina e cruza na área. A defesa recua para Fábio, que sai jogando.",
+      "player": {
+        "name": "Cuello inverte a posse para Pascini. O lateral d"
       },
       "assist": null
     }
@@ -691,11 +739,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "65%"
+          "value": "61%"
         },
         {
           "type": "Total Passes",
-          "value": 71
+          "value": 108
         },
         {
           "type": "Pass Accuracy",
@@ -703,7 +751,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 6
+          "value": 9
         },
         {
           "type": "Total Shots",
@@ -767,23 +815,23 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "35%"
+          "value": "39%"
         },
         {
           "type": "Total Passes",
-          "value": 52
+          "value": 72
         },
         {
           "type": "Pass Accuracy",
-          "value": "92%"
+          "value": "90%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 4
+          "value": 7
         },
         {
           "type": "Total Shots",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Shots on Goal",
@@ -795,7 +843,7 @@
         },
         {
           "type": "Blocked Shots",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Hit Woodwork",

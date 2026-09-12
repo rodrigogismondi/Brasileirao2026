@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 68
+      "elapsed": 71
     },
     "timerStart": "2026-09-12T20:05:19.619Z",
     "timerStatus": "INICIADO"
@@ -1580,6 +1580,56 @@
     },
     {
       "time": {
+        "elapsed": 65,
+        "extra": null
+      },
+      "team": {
+        "id": 267,
+        "name": "Vasco"
+      },
+      "type": "Important",
+      "detail": "Na trama do Vasco pelo lado esquerdo, o lateral fez a jogada individual, mas chuta de perna direita para muito longe do gol defendido pelo Weverton. Tiro de meta já cobrado pelo Grêmio",
+      "player": {
+        "name": "Cuiabano"
+      },
+      "assist": {
+        "name": "ISOLOU!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 67,
+        "extra": null
+      },
+      "team": {
+        "id": 284,
+        "name": "Grêmio"
+      },
+      "type": "Important",
+      "detail": "Sosa cruza para ninguém. Tiro de meta para o Grêmio",
+      "player": {
+        "name": "Sosa cruza para ninguém. Tiro de meta para o Grê"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 67,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Cuiabano cruza rasteiro e Noriega afasta",
+      "player": {
+        "name": "Cuiabano cruza rasteiro e Noriega afasta"
+      },
+      "assist": null
+    },
+    {
+      "time": {
         "elapsed": 93,
         "extra": null
       },
@@ -2050,15 +2100,15 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "52%"
+          "value": "51%"
         },
         {
           "type": "Total Passes",
-          "value": 334
+          "value": 341
         },
         {
           "type": "Pass Accuracy",
-          "value": "80%"
+          "value": "81%"
         },
         {
           "type": "Incomplete Passes",
@@ -2066,7 +2116,7 @@
         },
         {
           "type": "Total Shots",
-          "value": 8
+          "value": 9
         },
         {
           "type": "Shots on Goal",
@@ -2074,7 +2124,7 @@
         },
         {
           "type": "Shots off Goal",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Blocked Shots",
@@ -2102,11 +2152,11 @@
         },
         {
           "type": "Tackles",
-          "value": 17
+          "value": 19
         },
         {
           "type": "Fouls",
-          "value": 6
+          "value": 7
         },
         {
           "type": "Yellow Cards",
@@ -2126,11 +2176,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "48%"
+          "value": "49%"
         },
         {
           "type": "Total Passes",
-          "value": 339
+          "value": 359
         },
         {
           "type": "Pass Accuracy",
@@ -2138,11 +2188,11 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 62
+          "value": 63
         },
         {
           "type": "Total Shots",
-          "value": 10
+          "value": 11
         },
         {
           "type": "Shots on Goal",
@@ -2150,7 +2200,7 @@
         },
         {
           "type": "Shots off Goal",
-          "value": 3
+          "value": 4
         },
         {
           "type": "Blocked Shots",

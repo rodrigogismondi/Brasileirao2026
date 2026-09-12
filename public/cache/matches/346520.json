@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 54
+      "elapsed": 56
     },
     "timerStart": "2026-09-12T20:04:26.257Z",
     "timerStatus": "INICIADO"
@@ -1334,22 +1334,6 @@
         "extra": null
       },
       "team": {
-        "id": 282,
-        "name": "Atlético-MG"
-      },
-      "type": "Important",
-      "detail": "Cuello avança pela direita, corta para o meio e chuta de fora da área. A bola passa ao lado do gol.",
-      "player": {
-        "name": "Cuello"
-      },
-      "assist": null
-    },
-    {
-      "time": {
-        "elapsed": 50,
-        "extra": null
-      },
-      "team": {
         "id": 0,
         "name": ""
       },
@@ -1359,6 +1343,74 @@
         "name": "Vitão toca na ponta direita para Natanel. Arana "
       },
       "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 51,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O jogo segue 0 a 0 no início do segundo tempo, mas não por falta de chances. O Fluminense assustou na etapa inicial, com Savarino acertando um chutaço no travessão. O Atlético-MG equilibrou e respondeu com intensidade, obrigando Fábio a trabalhar, inclusive em grande defesa cara a cara com Reinier. A partida é pegada, com cartões para Alan Franco e Otávio, e recomeça com o Galo em cima.",
+      "player": {
+        "name": "Travessão, cartões e tudo igual!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 51,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Otávio"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 52,
+        "extra": null
+      },
+      "team": {
+        "id": 282,
+        "name": "Atlético-MG"
+      },
+      "type": "Important",
+      "detail": "Bernard cobra a falta com chute direto. A bola explode na barreira. O rebote fica com o meia novamente, que chuta em cima da marcação.",
+      "player": {
+        "name": "Bernard"
+      },
+      "assist": {
+        "name": "UHHH!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 54,
+        "extra": null
+      },
+      "team": {
+        "id": 282,
+        "name": "Atlético-MG"
+      },
+      "type": "Important",
+      "detail": "Bernard toca na área para Pascini. O lateral chuta cruzado. A bola passa muito perto do gol de Fábio.",
+      "player": {
+        "name": "Kauã Pascini"
+      },
+      "assist": {
+        "name": "PASSA MUITO PERTO!"
+      }
     }
   ],
   "lineups": [
@@ -1807,23 +1859,23 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "49%"
+          "value": "50%"
         },
         {
           "type": "Total Passes",
-          "value": 319
+          "value": 335
         },
         {
           "type": "Pass Accuracy",
-          "value": "85%"
+          "value": "84%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 48
+          "value": 52
         },
         {
           "type": "Total Shots",
-          "value": 6
+          "value": 9
         },
         {
           "type": "Shots on Goal",
@@ -1831,11 +1883,11 @@
         },
         {
           "type": "Shots off Goal",
-          "value": 3
+          "value": 4
         },
         {
           "type": "Blocked Shots",
-          "value": 1
+          "value": 3
         },
         {
           "type": "Hit Woodwork",
@@ -1843,7 +1895,7 @@
         },
         {
           "type": "Corner Kicks",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Offsides",
@@ -1883,11 +1935,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "51%"
+          "value": "50%"
         },
         {
           "type": "Total Passes",
-          "value": 310
+          "value": 326
         },
         {
           "type": "Pass Accuracy",
@@ -1895,7 +1947,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 39
+          "value": 42
         },
         {
           "type": "Total Shots",
@@ -1931,11 +1983,11 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 3
+          "value": 5
         },
         {
           "type": "Tackles",
-          "value": 14
+          "value": 17
         },
         {
           "type": "Fouls",

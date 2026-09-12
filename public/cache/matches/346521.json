@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 53
+      "elapsed": 56
     },
     "timerStart": "2026-09-12T20:05:19.619Z",
     "timerStatus": "INICIADO"
@@ -1336,6 +1336,22 @@
         "extra": null
       },
       "team": {
+        "id": 267,
+        "name": "Vasco"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Robert Renan"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 52,
+        "extra": null
+      },
+      "team": {
         "id": 284,
         "name": "Grêmio"
       },
@@ -1346,6 +1362,58 @@
       },
       "assist": {
         "name": "FUROU"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 53,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Jovane Cabral cobra falta na área e a defesa afasta. Na sobra, Andrés Goméz sai com bola e tudo",
+      "player": {
+        "name": "Jovane Cabral cobra falta na área e a defesa afa"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 54,
+        "extra": null
+      },
+      "team": {
+        "id": 267,
+        "name": "Vasco"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Puma Rodríguez"
+      },
+      "assist": {
+        "name": "Paulo Henrique"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 54,
+        "extra": null
+      },
+      "team": {
+        "id": 267,
+        "name": "Vasco"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Bruno Duarte"
+      },
+      "assist": {
+        "name": "Adson"
       }
     },
     {
@@ -1820,19 +1888,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "52%"
+          "value": "51%"
         },
         {
           "type": "Total Passes",
-          "value": 278
+          "value": 287
         },
         {
           "type": "Pass Accuracy",
-          "value": "82%"
+          "value": "80%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 51
+          "value": 56
         },
         {
           "type": "Total Shots",
@@ -1896,11 +1964,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "48%"
+          "value": "49%"
         },
         {
           "type": "Total Passes",
-          "value": 290
+          "value": 294
         },
         {
           "type": "Pass Accuracy",
@@ -1908,7 +1976,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 52
+          "value": 54
         },
         {
           "type": "Total Shots",
@@ -1948,15 +2016,15 @@
         },
         {
           "type": "Tackles",
-          "value": 12
+          "value": 14
         },
         {
           "type": "Fouls",
-          "value": 5
+          "value": 7
         },
         {
           "type": "Yellow Cards",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Red Cards",

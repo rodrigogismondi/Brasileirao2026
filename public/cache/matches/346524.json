@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 12
+      "elapsed": 15
     },
     "timerStart": "2026-09-12T20:01:19.202Z",
     "timerStatus": "INICIADO"
@@ -202,6 +202,22 @@
         "extra": null
       },
       "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O jogo começou movimentado. O Internacional chegou primeiro em chute de Carbonero que gerou um pedido de pênalti, não marcado. A Chapecoense respondeu e criou a chance mais clara da partida até aqui: aos 5 minutos, após passe de cabeça de Bruno Pacheco, Everton e Túlio Eduardo se atrapalharam na pequena área e mandaram para fora uma oportunidade incrível de abrir o placar.",
+      "player": {
+        "name": "Começo intenso e chance clara da Chape!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 8,
+        "extra": null
+      },
+      "team": {
         "id": 285,
         "name": "Internacional"
       },
@@ -209,6 +225,22 @@
       "detail": "Jogada ensaiada do Internacional termina com levantamento que sai direto pela linha de fundo. Tiro de meta.",
       "player": {
         "name": "Jogada ensaiada do Internacional termina com lev"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 10,
+        "extra": null
+      },
+      "team": {
+        "id": 315,
+        "name": "Chapecoense"
+      },
+      "type": "Important",
+      "detail": "Doma tenta o lançamento a Everton, mas a bola sai em lateral.",
+      "player": {
+        "name": "Doma tenta o lançamento a Everton, mas a bola sa"
       },
       "assist": null
     }
@@ -668,19 +700,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "68%"
+          "value": "66%"
         },
         {
           "type": "Total Passes",
-          "value": 66
+          "value": 83
         },
         {
           "type": "Pass Accuracy",
-          "value": "85%"
+          "value": "86%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 10
+          "value": 12
         },
         {
           "type": "Total Shots",
@@ -744,19 +776,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "32%"
+          "value": "34%"
         },
         {
           "type": "Total Passes",
-          "value": 25
+          "value": 28
         },
         {
           "type": "Pass Accuracy",
-          "value": "76%"
+          "value": "68%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 6
+          "value": 9
         },
         {
           "type": "Total Shots",

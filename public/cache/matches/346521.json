@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 40
+      "elapsed": 43
     },
     "timerStart": "2026-09-12T18:59:33.349Z",
     "timerStatus": "INICIADO"
@@ -30,7 +30,7 @@
     }
   },
   "goals": {
-    "home": 0,
+    "home": 1,
     "away": 0
   },
   "score": {
@@ -822,9 +822,11 @@
       "type": "Important",
       "detail": "Andrés Goméz arranca pelo lado esquerdo, encara a marcação e aciona Tchê Tchê dentro da área, o volante vascaíno finaliza firme e Weverton faz mais uma grande defesa para salvar o Grêmio",
       "player": {
-        "name": "QUE DEFESA DO WEVERTON"
+        "name": "Tchê Tchê"
       },
-      "assist": null
+      "assist": {
+        "name": "QUE DEFESA DO WEVERTON"
+      }
     },
     {
       "time": {
@@ -848,13 +850,63 @@
         "extra": null
       },
       "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Partida de muitas chances e equilíbrio na Arena. O Vasco criou as oportunidades mais claras na primeira metade da etapa, principalmente com Adson, que finalizou com perigo por duas vezes. O Grêmio respondeu com Tetê, parando em grande defesa de Léo Jardim. Passados 35 minutos, o placar segue zerado muito por conta dos goleiros, com Weverton também fazendo uma intervenção decisiva em chute de Tchê Tchê.",
+      "player": {
+        "name": "Jogo movimentado com grandes defesas!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 37,
+        "extra": null
+      },
+      "team": {
         "id": 284,
         "name": "Grêmio"
       },
       "type": "Important",
-      "detail": "Boa trama do Grêmio pelo lado esquerdo de ataque. Krovinovi aciona Tetê que finaliza no cantinho e Léo Jardim foi lá buscar e fez a defesa",
+      "detail": "Boa trama do Grêmio pelo lado esquerdo de ataque. Krovinovic aciona Tetê que finaliza da entrada da área no cantinho e Léo Jardim foi lá buscar e fez a defesa",
       "player": {
+        "name": "Tetê"
+      },
+      "assist": {
         "name": "ESPALMA LÉO JARDIM"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 39,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Partida movimentada e com muitas chances para os dois lados! O Vasco ameaçou bastante, principalmente com Adson, que desperdiçou duas boas oportunidades. Os goleiros Weverton e Léo Jardim fizeram grandes defesas para manter o zero no placar. Mas aos 39 minutos, após um jogo de lá e cá, Villasanti aproveitou sua chance e marcou para o Grêmio, deixando o time da casa na frente por 1 a 0.",
+      "player": {
+        "name": "Villasanti marca e Grêmio sai na frente!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 39,
+        "extra": null
+      },
+      "team": {
+        "id": 284,
+        "name": "Grêmio"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "player": {
+        "name": "Villasanti"
       },
       "assist": null
     }
@@ -1314,7 +1366,7 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "55%"
+          "value": "56%"
         },
         {
           "type": "Total Passes",
@@ -1366,7 +1418,7 @@
         },
         {
           "type": "Tackles",
-          "value": 13
+          "value": 12
         },
         {
           "type": "Fouls",
@@ -1390,19 +1442,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "45%"
+          "value": "44%"
         },
         {
           "type": "Total Passes",
-          "value": 186
+          "value": 205
         },
         {
           "type": "Pass Accuracy",
-          "value": "81%"
+          "value": "82%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 36
+          "value": 37
         },
         {
           "type": "Total Shots",
@@ -1426,7 +1478,7 @@
         },
         {
           "type": "Corner Kicks",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Offsides",

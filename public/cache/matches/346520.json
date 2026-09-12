@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 92
+      "elapsed": 95
     },
     "timerStart": "2026-09-12T20:04:26.257Z",
     "timerStatus": "INICIADO"
@@ -2276,9 +2276,9 @@
         "name": ""
       },
       "type": "Important",
-      "detail": "Depois de um primeiro tempo equilibrado e sem gols, a segunda etapa foi uma avalanche do Atlético-MG. Reinier abriu o placar aos 15 com um golaço, e logo depois Cuello ampliou. Aos 35, Vitão fez o terceiro para o Galo. Já na reta final, aos 44 minutos, Rodrigo Castillo diminuiu para o Fluminense, mas o time da casa segue com a vantagem de 3 a 1 no placar.",
+      "detail": "Após um primeiro tempo sem gols, a etapa final começou eletrizante. O Atlético-MG abriu o placar aos 15 minutos com um golaço de Reinier. Logo em seguida, Cuello aproveitou um erro da zaga e ampliou. Aos 35, Vitão fez o terceiro e encaminhou a vitória. Já perto do fim, aos 44 minutos, Rodrigo Castillo diminuiu para o Fluminense, fechando o placar momentâneo em 3 a 1.",
       "player": {
-        "name": "Galo abre 3 a 1 no fim do segundo tempo"
+        "name": "Atlético abre vantagem no segundo tempo"
       },
       "assist": null
     },
@@ -2327,6 +2327,38 @@
       "detail": "Vamos até os 50 minutos na etapa final.",
       "player": {
         "name": "+5"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 93,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Depois de um 0 a 0 morno na primeira etapa, o jogo pegou fogo no segundo tempo! O Atlético-MG voltou com tudo e abriu o placar aos 15 minutos com um golaço de Reinier. Sem dar tempo para o Fluminense respirar, Cuello aproveitou uma falha da zaga e fez 2 a 0 logo em seguida. Vitão ampliou para o Galo aos 35, mas Rodrigo Castillo descontou para o Tricolor aos 44, deixando o placar em 3 a 1 na reta final.",
+      "player": {
+        "name": "Segundo tempo frenético com chuva de gols!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 93,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "Important",
+      "detail": "Fluminense troca passes no ataque.",
+      "player": {
+        "name": "Fluminense troca passes no ataque."
       },
       "assist": null
     }
@@ -2777,11 +2809,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "47%"
+          "value": "46%"
         },
         {
           "type": "Total Passes",
-          "value": 450
+          "value": 457
         },
         {
           "type": "Pass Accuracy",
@@ -2789,7 +2821,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 69
+          "value": 70
         },
         {
           "type": "Total Shots",
@@ -2853,15 +2885,15 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "53%"
+          "value": "54%"
         },
         {
           "type": "Total Passes",
-          "value": 509
+          "value": 522
         },
         {
           "type": "Pass Accuracy",
-          "value": "88%"
+          "value": "89%"
         },
         {
           "type": "Incomplete Passes",
@@ -2905,7 +2937,7 @@
         },
         {
           "type": "Tackles",
-          "value": 24
+          "value": 25
         },
         {
           "type": "Fouls",

@@ -7,12 +7,12 @@
       "city": ""
     },
     "status": {
-      "long": "1H",
-      "short": "1H",
-      "elapsed": 50
+      "long": "HT",
+      "short": "HT",
+      "elapsed": 45
     },
-    "timerStart": "2026-09-12T20:01:19.202Z",
-    "timerStatus": "INICIADO"
+    "timerStart": "2026-09-12T20:53:09.466Z",
+    "timerStatus": "PAUSADO"
   },
   "league": {
     "round": "Regular Season - 27"
@@ -835,6 +835,86 @@
         "name": "Marcinho"
       },
       "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 49,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Internacional abriu o placar aos 24 minutos com um golaço de Bruno Henrique, que aproveitou cruzamento de Carbonero e fuzilou da entrada da área. A Chapecoense, que já havia perdido uma chance clara no início, não desistiu. Em um final de primeiro tempo tenso, com bate-boca e cartões, a equipe da casa buscou o empate nos acréscimos com Garcez, que desviou de cabeça após belo lançamento de Marcinho.",
+      "player": {
+        "name": "Final agitado e tudo igual: 1 a 1!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 49,
+        "extra": null
+      },
+      "team": {
+        "id": 315,
+        "name": "Chapecoense"
+      },
+      "type": "Important",
+      "detail": "Paulinho parte para cima da marcação, mas adianta demais e a defesa da Chape corta.",
+      "player": {
+        "name": "Paulinho parte para cima da marcação, mas adiant"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 50,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Internacional saiu na frente aos 24 minutos com um belo gol de Bruno Henrique, que aproveitou ótimo cruzamento de Carbonero para fuzilar e fazer 1 a 0. A Chapecoense, que já havia perdido uma grande chance no início, não se abateu. Nos acréscimos, a reação veio em grande estilo: Marcinho acertou um lançamento preciso e Garcez, de cabeça, deixou tudo igual, fechando o primeiro tempo em 1 a 1.",
+      "player": {
+        "name": "Inter abre, Chape empata: 1 a 1 no intervalo"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 50,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Chapecoense 1x1 Internacional",
+      "player": {
+        "name": "FINAL DE PRIMEIRO TEMPO!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 50,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Bruno Henrique tenta o passe para Carbonero, mas a defesa faz a cobertura.",
+      "player": {
+        "name": "Bruno Henrique tenta o passe para Carbonero, mas"
+      },
+      "assist": null
     }
   ],
   "lineups": [
@@ -1292,7 +1372,7 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "64%"
+          "value": "63%"
         },
         {
           "type": "Total Passes",
@@ -1368,11 +1448,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "36%"
+          "value": "37%"
         },
         {
           "type": "Total Passes",
-          "value": 152
+          "value": 155
         },
         {
           "type": "Pass Accuracy",
@@ -1380,7 +1460,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 40
+          "value": 41
         },
         {
           "type": "Total Shots",

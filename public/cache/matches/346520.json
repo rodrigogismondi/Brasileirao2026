@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 63
+      "elapsed": 66
     },
     "timerStart": "2026-09-12T20:04:26.257Z",
     "timerStatus": "INICIADO"
@@ -30,7 +30,7 @@
     }
   },
   "goals": {
-    "home": 0,
+    "home": 2,
     "away": 0
   },
   "score": {
@@ -1569,6 +1569,106 @@
         "name": "Marcão prepara duas substituições no Fluminense."
       },
       "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 60,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "Important",
+      "detail": "Após um primeiro tempo de chances claras para os dois lados, com Savarino acertando o travessão para o Fluminense e Fábio parando o ataque mineiro, a rede finalmente balançou na segunda etapa. Aos 15 minutos, a pressão do Atlético surtiu efeito: Cuello fez a jogada e serviu Reinier, que da entrada da área acertou um chutaço no ângulo para fazer 1 a 0 para o time da casa",
+      "player": {
+        "name": "Golaço de Reinier abre o placar!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 60,
+        "extra": null
+      },
+      "team": {
+        "id": 282,
+        "name": "Atlético-MG"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "player": {
+        "name": "Reinier"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 60,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Serna"
+      },
+      "assist": {
+        "name": "Canobbio"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 60,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O jogo segue 0 a 0, mas não por falta de tentativa! O segundo tempo começou com o Atlético-MG em cima e, aos 9 minutos, Pascini quase marcou em chute cruzado. A pressão atleticana aumenta após uma etapa inicial que teve bola na trave de Savarino para o Fluminense. O duelo é intenso, já com amarelos para Alan Franco e Otávio. Aos 15, Marcão mexeu no Flu, trocando Lucho Acosta por Hércules.",
+      "player": {
+        "name": "Atlético pressiona, mas o zero não sai do placar"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 60,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Hércules"
+      },
+      "assist": {
+        "name": "Lucho Acosta"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 62,
+        "extra": null
+      },
+      "team": {
+        "id": 282,
+        "name": "Atlético-MG"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "player": {
+        "name": "Cuello"
+      },
+      "assist": null
     }
   ],
   "lineups": [
@@ -2017,27 +2117,27 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "49%"
+          "value": "50%"
         },
         {
           "type": "Total Passes",
-          "value": 347
+          "value": 357
         },
         {
           "type": "Pass Accuracy",
-          "value": "84%"
+          "value": "85%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 54
+          "value": 55
         },
         {
           "type": "Total Shots",
-          "value": 9
+          "value": 10
         },
         {
           "type": "Shots on Goal",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Shots off Goal",
@@ -2093,11 +2193,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "51%"
+          "value": "50%"
         },
         {
           "type": "Total Passes",
-          "value": 334
+          "value": 341
         },
         {
           "type": "Pass Accuracy",
@@ -2105,7 +2205,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 43
+          "value": 46
         },
         {
           "type": "Total Shots",
@@ -2145,11 +2245,11 @@
         },
         {
           "type": "Tackles",
-          "value": 18
+          "value": 19
         },
         {
           "type": "Fouls",
-          "value": 7
+          "value": 8
         },
         {
           "type": "Yellow Cards",

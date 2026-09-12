@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 43
+      "elapsed": 46
     },
     "timerStart": "2026-09-12T21:30:40.826Z",
     "timerStatus": "INICIADO"
@@ -1199,6 +1199,74 @@
         "name": "Piquerez parece testar a situação do tornozelo. "
       },
       "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 41,
+        "extra": null
+      },
+      "team": {
+        "id": 275,
+        "name": "Palmeiras"
+      },
+      "type": "Important",
+      "detail": "Piquerez segue em campo. Palmeiras tem cobrança de escanteio, com Arias na bola.",
+      "player": {
+        "name": "Piquerez segue em campo. Palmeiras tem cobrança "
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 42,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O jogo é equilibrado e muito físico, com chances para os dois lados. O Palmeiras chegou perto em cabeçada de Flaco López, enquanto o São Paulo desperdiçou grande oportunidade com Cauly e Pablo Maia, em lance que teve defesa de Carlos Miguel. O alto número de faltas esquentou o clima e, aos 38 minutos, Osorio foi expulso após entrada dura em Piquerez, deixando o Tricolor com um jogador a menos.",
+      "player": {
+        "name": "Clássico tenso com expulsão e chances perdidas"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 42,
+        "extra": null
+      },
+      "team": {
+        "id": 275,
+        "name": "Palmeiras"
+      },
+      "type": "Important",
+      "detail": "Arias cobra o escanteio no meio da área, e Rafael Tolói desvia de cabeça para afastar.",
+      "player": {
+        "name": "Arias"
+      },
+      "assist": {
+        "name": "Escanteio na área"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 43,
+        "extra": null
+      },
+      "team": {
+        "id": 275,
+        "name": "Palmeiras"
+      },
+      "type": "Important",
+      "detail": "Palmeiras rescua a bola pelo alto, Fuchs dá um toque de cabeça para devolver em Carlos Miguel e dá um susto na trocida.",
+      "player": {
+        "name": "Bruno Fuchs"
+      },
+      "assist": {
+        "name": "Que susto"
+      }
     }
   ],
   "lineups": [
@@ -1656,11 +1724,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "54%"
+          "value": "56%"
         },
         {
           "type": "Total Passes",
-          "value": 200
+          "value": 229
         },
         {
           "type": "Pass Accuracy",
@@ -1668,7 +1736,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 32
+          "value": 36
         },
         {
           "type": "Total Shots",
@@ -1692,7 +1760,7 @@
         },
         {
           "type": "Corner Kicks",
-          "value": 3
+          "value": 5
         },
         {
           "type": "Offsides",
@@ -1712,7 +1780,7 @@
         },
         {
           "type": "Fouls",
-          "value": 4
+          "value": 5
         },
         {
           "type": "Yellow Cards",
@@ -1732,11 +1800,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "46%"
+          "value": "44%"
         },
         {
           "type": "Total Passes",
-          "value": 165
+          "value": 166
         },
         {
           "type": "Pass Accuracy",
@@ -1744,7 +1812,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 29
+          "value": 30
         },
         {
           "type": "Total Shots",
@@ -1784,7 +1852,7 @@
         },
         {
           "type": "Tackles",
-          "value": 12
+          "value": 14
         },
         {
           "type": "Fouls",

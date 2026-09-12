@@ -7,12 +7,12 @@
       "city": ""
     },
     "status": {
-      "long": "1H",
-      "short": "1H",
-      "elapsed": 55
+      "long": "HT",
+      "short": "HT",
+      "elapsed": 45
     },
-    "timerStart": "2026-09-12T21:30:40.826Z",
-    "timerStatus": "INICIADO"
+    "timerStart": "2026-09-12T22:22:12.720Z",
+    "timerStatus": "PAUSADO"
   },
   "league": {
     "round": "Regular Season - 27"
@@ -50,6 +50,42 @@
     "source": "betexplorer"
   },
   "events": [
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 275,
+        "name": "Palmeiras"
+      },
+      "type": "Important",
+      "detail": "\"Eles vieram para tentar matar o jogo o máximo possivel no começo, tanto que na expulsão continuavam fazendo isso. No gol, o Gómez ganhou o duelo, eu sabia que Gómez ia ganhar o duelo, é muito forte ali, esperei e pude ser muito feliz.\"",
+      "player": {
+        "name": "Murilo"
+      },
+      "assist": {
+        "name": "Murilo, autor do gol do Palmeiras"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Important",
+      "detail": "\"Até a expulsão a gente vinha fazendo um belo primeiro tempo, não estávamos sofrendo pressão nennuma. A proposta de marcar em cima estava dando certo. Infelizmente em uma infelicidade do Osorio tivemos a expulsão. Teve um lance aqui que tomei pisão por trás, não deu cartão e nem falta. Vocês têm a imagem, vão saber melhor. Agora é conversar, voltar para o segundo tempo melhor.\"",
+      "player": {
+        "name": "Ferreira"
+      },
+      "assist": {
+        "name": "Ferreira, do São Paulo"
+      }
+    },
     {
       "time": {
         "elapsed": 0,
@@ -1954,7 +1990,7 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "56%"
+          "value": "55%"
         },
         {
           "type": "Total Passes",
@@ -1970,7 +2006,7 @@
         },
         {
           "type": "Total Shots",
-          "value": 7
+          "value": 8
         },
         {
           "type": "Shots on Goal",
@@ -1982,7 +2018,7 @@
         },
         {
           "type": "Blocked Shots",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Hit Woodwork",
@@ -2002,7 +2038,7 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 3
+          "value": 4
         },
         {
           "type": "Tackles",
@@ -2030,11 +2066,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "44%"
+          "value": "45%"
         },
         {
           "type": "Total Passes",
-          "value": 185
+          "value": 189
         },
         {
           "type": "Pass Accuracy",
@@ -2046,11 +2082,11 @@
         },
         {
           "type": "Total Shots",
-          "value": 4
+          "value": 5
         },
         {
           "type": "Shots on Goal",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Shots off Goal",

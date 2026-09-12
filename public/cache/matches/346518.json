@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": null
+      "elapsed": 1
     },
     "timerStart": "2026-09-12T20:26:28.526Z",
     "timerStatus": "PAUSADO"
@@ -30,8 +30,8 @@
     }
   },
   "goals": {
-    "home": null,
-    "away": null
+    "home": 0,
+    "away": 0
   },
   "score": {
     "halftime": {
@@ -49,7 +49,56 @@
     "away": 5.32,
     "source": "betexplorer"
   },
-  "events": [],
+  "events": [
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 275,
+        "name": "Palmeiras"
+      },
+      "type": "Important",
+      "detail": "Palmeiras tem a posse de bola no campo defensivo. Wendell disputa com Giay e faz falta.",
+      "player": {
+        "name": "Palmeiras tem a posse de bola no campo defensivo"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Bola rolando no Choque-Rei.",
+      "player": {
+        "name": "Começa o jogo!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 1,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Arias recebe passe de Flaco na altura do meio de campo, mas é travado por Rafael Tolói.",
+      "player": {
+        "name": "Arias recebe passe de Flaco na altura do meio de"
+      },
+      "assist": null
+    }
+  ],
   "lineups": [
     {
       "team": {
@@ -496,6 +545,159 @@
       ]
     }
   ],
-  "statistics": [],
+  "statistics": [
+    {
+      "team": {
+        "id": 275,
+        "name": "Palmeiras"
+      },
+      "statistics": [
+        {
+          "type": "Ball Possession",
+          "value": "50%"
+        },
+        {
+          "type": "Total Passes",
+          "value": 21
+        },
+        {
+          "type": "Pass Accuracy",
+          "value": "90%"
+        },
+        {
+          "type": "Incomplete Passes",
+          "value": 2
+        },
+        {
+          "type": "Total Shots",
+          "value": 1
+        },
+        {
+          "type": "Shots on Goal",
+          "value": 0
+        },
+        {
+          "type": "Shots off Goal",
+          "value": 0
+        },
+        {
+          "type": "Blocked Shots",
+          "value": 1
+        },
+        {
+          "type": "Hit Woodwork",
+          "value": 0
+        },
+        {
+          "type": "Corner Kicks",
+          "value": 0
+        },
+        {
+          "type": "Offsides",
+          "value": 0
+        },
+        {
+          "type": "Penalties",
+          "value": 0
+        },
+        {
+          "type": "Goalkeeper Saves",
+          "value": 0
+        },
+        {
+          "type": "Tackles",
+          "value": 0
+        },
+        {
+          "type": "Fouls",
+          "value": 0
+        },
+        {
+          "type": "Yellow Cards",
+          "value": 0
+        },
+        {
+          "type": "Red Cards",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "statistics": [
+        {
+          "type": "Ball Possession",
+          "value": "50%"
+        },
+        {
+          "type": "Total Passes",
+          "value": 2
+        },
+        {
+          "type": "Pass Accuracy",
+          "value": "0%"
+        },
+        {
+          "type": "Incomplete Passes",
+          "value": 2
+        },
+        {
+          "type": "Total Shots",
+          "value": 0
+        },
+        {
+          "type": "Shots on Goal",
+          "value": 0
+        },
+        {
+          "type": "Shots off Goal",
+          "value": 0
+        },
+        {
+          "type": "Blocked Shots",
+          "value": 0
+        },
+        {
+          "type": "Hit Woodwork",
+          "value": 0
+        },
+        {
+          "type": "Corner Kicks",
+          "value": 0
+        },
+        {
+          "type": "Offsides",
+          "value": 0
+        },
+        {
+          "type": "Penalties",
+          "value": 0
+        },
+        {
+          "type": "Goalkeeper Saves",
+          "value": 1
+        },
+        {
+          "type": "Tackles",
+          "value": 0
+        },
+        {
+          "type": "Fouls",
+          "value": 2
+        },
+        {
+          "type": "Yellow Cards",
+          "value": 0
+        },
+        {
+          "type": "Red Cards",
+          "value": 0
+        }
+      ]
+    }
+  ],
   "sportsFieldUrl": null
 }

@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 68
+      "elapsed": 71
     },
     "timerStart": "2026-09-12T21:08:14.273Z",
     "timerStatus": "INICIADO"
@@ -31,7 +31,7 @@
   },
   "goals": {
     "home": 1,
-    "away": 1
+    "away": 2
   },
   "score": {
     "halftime": {
@@ -810,22 +810,6 @@
         "extra": null
       },
       "team": {
-        "id": 315,
-        "name": "Chapecoense"
-      },
-      "type": "Card",
-      "detail": "Yellow Card",
-      "player": {
-        "name": "Camilo"
-      },
-      "assist": null
-    },
-    {
-      "time": {
-        "elapsed": 45,
-        "extra": null
-      },
-      "team": {
         "id": 0,
         "name": ""
       },
@@ -1440,6 +1424,22 @@
     },
     {
       "time": {
+        "elapsed": 63,
+        "extra": null
+      },
+      "team": {
+        "id": 315,
+        "name": "Chapecoense"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Camilo"
+      },
+      "assist": null
+    },
+    {
+      "time": {
         "elapsed": 65,
         "extra": null
       },
@@ -1471,6 +1471,86 @@
       "assist": {
         "name": "Miguel Carvalho"
       }
+    },
+    {
+      "time": {
+        "elapsed": 66,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "A Chapecoense voltou melhor para a segunda etapa e pressionou em busca da virada, criando ótimas chances. A principal delas foi com Túlio Eduardo, que parou em uma defesaça de Matheus Cunha. Porém, aos 21 minutos, uma falha grotesca na saída de bola mudou o roteiro: Doma errou, Carbonero recuperou, driblou o zagueiro e tocou para fazer 2 a 1 para o Internacional.",
+      "player": {
+        "name": "Erro fatal recoloca o Inter em vantagem!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 66,
+        "extra": null
+      },
+      "team": {
+        "id": 285,
+        "name": "Internacional"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "player": {
+        "name": "Carbonero"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 66,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "A Chapecoense voltou para o segundo tempo pressionando e quase virou o jogo. A equipe da casa criou as melhores oportunidades, com Garcez chutando perto da trave e Túlio Eduardo parando em uma defesa espetacular de Matheus Cunha aos 15 minutos. Quando a virada parecia questão de tempo, o Internacional foi letal e, aos 21 minutos, marcou o segundo gol, deixando o placar em 2 a 1.",
+      "player": {
+        "name": "Inter faz o segundo e volta à frente!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 66,
+        "extra": null
+      },
+      "team": {
+        "id": 285,
+        "name": "Internacional"
+      },
+      "type": "Important",
+      "detail": "Internacional contra-ataque, mas cruzamento de Carbonero para Bernabei é forte demais e a bola sai em lateral.",
+      "player": {
+        "name": "Internacional contra-ataque, mas cruzamento de C"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 66,
+        "extra": null
+      },
+      "team": {
+        "id": 285,
+        "name": "Internacional"
+      },
+      "type": "Important",
+      "detail": "Internacional contra-ataque, mas cruzamento de Carbonero para Bernabei é forte demais e a bola sai em lateral.",
+      "player": {
+        "name": "Internacional contra-ataque, mas cruzamento de C"
+      },
+      "assist": null
     }
   ],
   "lineups": [
@@ -1932,15 +2012,15 @@
         },
         {
           "type": "Total Passes",
-          "value": 353
+          "value": 362
         },
         {
           "type": "Pass Accuracy",
-          "value": "86%"
+          "value": "85%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 51
+          "value": 53
         },
         {
           "type": "Total Shots",
@@ -1984,7 +2064,7 @@
         },
         {
           "type": "Fouls",
-          "value": 12
+          "value": 13
         },
         {
           "type": "Yellow Cards",
@@ -2008,23 +2088,23 @@
         },
         {
           "type": "Total Passes",
-          "value": 232
+          "value": 239
         },
         {
           "type": "Pass Accuracy",
-          "value": "76%"
+          "value": "77%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 55
+          "value": 56
         },
         {
           "type": "Total Shots",
-          "value": 4
+          "value": 5
         },
         {
           "type": "Shots on Goal",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Shots off Goal",

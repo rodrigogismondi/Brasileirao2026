@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 42
+      "elapsed": 45
     },
     "timerStart": "2026-09-12T20:01:19.202Z",
     "timerStatus": "INICIADO"
@@ -659,6 +659,70 @@
         "name": "Everton pede falta, mas a arbitragem não concord"
       },
       "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 40,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Chapecoense tem a chance de mandar a bola na área do Inter.",
+      "player": {
+        "name": "Chapecoense tem a chance de mandar a bola na áre"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 40,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "A Chapecoense começou com tudo, pressionando e perdendo uma chance incrível dentro da pequena área antes dos dez minutos. No entanto, quem não faz, leva. O Internacional equilibrou as ações e abriu o placar aos 24 minutos. Após grande jogada de Carbonero pela ponta, Bruno Henrique chegou de trás e fuzilou para fazer 1 a 0. O Colorado agora busca ampliar a vantagem e se mostra perigoso nos ataques.",
+      "player": {
+        "name": "Chape pressiona, mas Inter marca primeiro"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 41,
+        "extra": null
+      },
+      "team": {
+        "id": 315,
+        "name": "Chapecoense"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "?"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 42,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Fechou o tempo. Jogadores do Inter reclamam com um assistente, atletas da Chape vão intervir, tem empurrão e bate-boca.",
+      "player": {
+        "name": "Fechou o tempo. Jogadores do Inter reclamam com "
+      },
+      "assist": null
     }
   ],
   "lineups": [
@@ -1116,23 +1180,23 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "64%"
+          "value": "65%"
         },
         {
           "type": "Total Passes",
-          "value": 236
+          "value": 262
         },
         {
           "type": "Pass Accuracy",
-          "value": "88%"
+          "value": "89%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 28
+          "value": 30
         },
         {
           "type": "Total Shots",
-          "value": 4
+          "value": 5
         },
         {
           "type": "Shots on Goal",
@@ -1144,7 +1208,7 @@
         },
         {
           "type": "Blocked Shots",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Hit Woodwork",
@@ -1176,7 +1240,7 @@
         },
         {
           "type": "Yellow Cards",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Red Cards",
@@ -1192,7 +1256,7 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "36%"
+          "value": "35%"
         },
         {
           "type": "Total Passes",
@@ -1240,15 +1304,15 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Tackles",
-          "value": 3
+          "value": 4
         },
         {
           "type": "Fouls",
-          "value": 3
+          "value": 6
         },
         {
           "type": "Yellow Cards",

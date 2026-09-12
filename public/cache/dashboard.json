@@ -13011,7 +13011,7 @@
         "status": {
           "long": "2H",
           "short": "2H",
-          "elapsed": 83
+          "elapsed": 86
         },
         "timerStart": "2026-09-12T20:04:26.257Z",
         "timerStatus": "INICIADO"
@@ -13063,7 +13063,7 @@
         "status": {
           "long": "2H",
           "short": "2H",
-          "elapsed": 83
+          "elapsed": 86
         },
         "timerStart": "2026-09-12T20:05:19.619Z",
         "timerStatus": "INICIADO"
@@ -13115,7 +13115,7 @@
         "status": {
           "long": "1H",
           "short": "1H",
-          "elapsed": 42
+          "elapsed": 45
         },
         "timerStart": "2026-09-12T20:01:19.202Z",
         "timerStatus": "INICIADO"
@@ -18651,7 +18651,7 @@
                 "logo": "https://s.sde.globo.com/media/organizations/2018/03/11/fluminense.svg"
               },
               "points": 45,
-              "goalsDiff": 6,
+              "goalsDiff": 5,
               "form": "WWDWL",
               "description": "Copa Libertadores",
               "all": {
@@ -18661,7 +18661,7 @@
                 "lose": 6,
                 "goals": {
                   "for": 40,
-                  "against": 34
+                  "against": 35
                 }
               }
             },
@@ -18717,7 +18717,7 @@
                 "logo": "https://s.sde.globo.com/media/organizations/2018/03/10/atletico-mg.svg"
               },
               "points": 39,
-              "goalsDiff": 4,
+              "goalsDiff": 5,
               "form": "WDWLW",
               "description": "Copa Sudamericana",
               "all": {
@@ -18726,7 +18726,7 @@
                 "draw": 6,
                 "lose": 9,
                 "goals": {
-                  "for": 34,
+                  "for": 35,
                   "against": 30
                 }
               }
@@ -18892,18 +18892,18 @@
                 "name": "Grêmio",
                 "logo": "https://s.sde.globo.com/media/organizations/2018/03/12/gremio.svg"
               },
-              "points": 29,
-              "goalsDiff": -6,
-              "form": "LLWLD",
+              "points": 28,
+              "goalsDiff": -7,
+              "form": "LLWLL",
               "description": null,
               "all": {
                 "played": 26,
                 "win": 7,
-                "draw": 8,
-                "lose": 11,
+                "draw": 7,
+                "lose": 12,
                 "goals": {
                   "for": 28,
-                  "against": 34
+                  "against": 35
                 }
               }
             },
@@ -18932,6 +18932,28 @@
             {
               "rank": 17,
               "team": {
+                "id": 267,
+                "name": "Vasco",
+                "logo": "https://s.sde.globo.com/media/organizations/2021/09/04/vasco_SVG.svg"
+              },
+              "points": 28,
+              "goalsDiff": -12,
+              "form": "LLWLW",
+              "description": "Relegation",
+              "all": {
+                "played": 26,
+                "win": 7,
+                "draw": 7,
+                "lose": 12,
+                "goals": {
+                  "for": 29,
+                  "against": 41
+                }
+              }
+            },
+            {
+              "rank": 18,
+              "team": {
                 "id": 285,
                 "name": "Internacional",
                 "logo": "https://s.sde.globo.com/media/organizations/2018/03/11/internacional.svg"
@@ -18948,28 +18970,6 @@
                 "goals": {
                   "for": 29,
                   "against": 34
-                }
-              }
-            },
-            {
-              "rank": 18,
-              "team": {
-                "id": 267,
-                "name": "Vasco",
-                "logo": "https://s.sde.globo.com/media/organizations/2021/09/04/vasco_SVG.svg"
-              },
-              "points": 26,
-              "goalsDiff": -13,
-              "form": "LLWLD",
-              "description": "Relegation",
-              "all": {
-                "played": 26,
-                "win": 6,
-                "draw": 8,
-                "lose": 12,
-                "goals": {
-                  "for": 28,
-                  "against": 41
                 }
               }
             },
@@ -20131,7 +20131,7 @@
     "mode": "live",
     "liveIntervalMs": 20000
   },
-  "fetchedAt": "2026-09-12T20:43:22.559Z",
+  "fetchedAt": "2026-09-12T20:46:19.824Z",
   "source": "ge-globo",
   "meta": {
     "rodada": 27,

@@ -7,12 +7,12 @@
       "city": ""
     },
     "status": {
-      "long": "2H",
-      "short": "2H",
-      "elapsed": 97
+      "long": "FT",
+      "short": "FT",
+      "elapsed": 90
     },
-    "timerStart": "2026-09-12T22:37:02.880Z",
-    "timerStatus": "INICIADO"
+    "timerStart": "2026-09-12T23:27:45.469Z",
+    "timerStatus": "PAUSADO"
   },
   "league": {
     "round": "Regular Season - 27"
@@ -39,8 +39,8 @@
       "away": null
     },
     "fulltime": {
-      "home": null,
-      "away": null
+      "home": 2,
+      "away": 0
     }
   },
   "odds": {
@@ -337,6 +337,22 @@
       "detail": "Wendell desarma Giay pelo lado do campo, e o Palmeiras cobrança de lateral.",
       "player": {
         "name": "Wendell desarma Giay pelo lado do campo, e o Pal"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 5,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Palmeiras 2 x 0 São Paulo | Melhores momentos | 27ª rodada | Brasileirão 2026",
+      "player": {
+        "name": "Palmeiras 2 x 0 São Paulo | Melhores momentos | 27ª rodada | Brasileirão 2026"
       },
       "assist": null
     },
@@ -2911,6 +2927,86 @@
         "name": "Torcida do Palmeiras começa a cantar \"Olé\" na tr"
       },
       "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 93,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Com o jogo nos acréscimos, o Palmeiras vai confirmando a vitória por 2 a 0. O clássico mudou de rumo após a expulsão de Osorio no primeiro tempo. Logo depois, Murilo abriu o placar. Na segunda etapa, Vitor Roque aproveitou erro de Pablo Maia e ampliou. O São Paulo, com um a menos, até teve chances claras, como um gol incrível perdido por Tolói, mas não conseguiu reagir ao domínio alviverde.",
+      "player": {
+        "name": "Palmeiras domina e encaminha a vitória no clássico"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 93,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Fuchs tenta colocar o passe para Larson quase na área, e Newton faz a interceptação.",
+      "player": {
+        "name": "Fuchs tenta colocar o passe para Larson quase na"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 94,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Important",
+      "detail": "São Paulo troca passes no campo defensivo. Felipe Anderson pressiona, e a partida termina.",
+      "player": {
+        "name": "São Paulo troca passes no campo defensivo. Felip"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 94,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Newton tenta puxar o ataque pelo lado direito do campo, Arthur faz o desarme, mas tem falta marcada.",
+      "player": {
+        "name": "Newton tenta puxar o ataque pelo lado direito do"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 95,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Palmeiras vence o São Paulo por 2 a 0, no Nubank Parque, e sobe para 56 pontos.",
+      "player": {
+        "name": "Fim de clássico!"
+      },
+      "assist": null
     }
   ],
   "lineups": [
@@ -3368,11 +3464,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "54%"
+          "value": "55%"
         },
         {
           "type": "Total Passes",
-          "value": 537
+          "value": 557
         },
         {
           "type": "Pass Accuracy",
@@ -3380,11 +3476,11 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 71
+          "value": 72
         },
         {
           "type": "Total Shots",
-          "value": 14
+          "value": 15
         },
         {
           "type": "Shots on Goal",
@@ -3392,7 +3488,7 @@
         },
         {
           "type": "Shots off Goal",
-          "value": 4
+          "value": 5
         },
         {
           "type": "Blocked Shots",
@@ -3424,7 +3520,7 @@
         },
         {
           "type": "Fouls",
-          "value": 20
+          "value": 21
         },
         {
           "type": "Yellow Cards",
@@ -3444,11 +3540,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "46%"
+          "value": "45%"
         },
         {
           "type": "Total Passes",
-          "value": 387
+          "value": 411
         },
         {
           "type": "Pass Accuracy",
@@ -3456,7 +3552,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 68
+          "value": 72
         },
         {
           "type": "Total Shots",
@@ -3496,7 +3592,7 @@
         },
         {
           "type": "Tackles",
-          "value": 32
+          "value": 33
         },
         {
           "type": "Fouls",

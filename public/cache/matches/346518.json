@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 24
+      "elapsed": 28
     },
     "timerStart": "2026-09-12T21:30:40.826Z",
     "timerStatus": "INICIADO"
@@ -659,6 +659,74 @@
       "assist": {
         "name": "Chute para fora!"
       }
+    },
+    {
+      "time": {
+        "elapsed": 21,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O clássico começou quente e muito disputado, com o São Paulo cometendo muitas faltas nos primeiros 22 minutos. Aos 11, Pablo Maia recebeu cartão amarelo por uma entrada em Jhon Arias. O Tricolor teve a melhor chance até agora em jogada de Ferreira que terminou com chute de André Silva para fora. O Palmeiras responde com investidas pelas pontas e um chute perigoso de Giay, mas já teve duas jogadas anuladas por impedimento.",
+      "player": {
+        "name": "Choque-Rei pegado e com cartão amarelo"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 21,
+        "extra": null
+      },
+      "team": {
+        "id": 275,
+        "name": "Palmeiras"
+      },
+      "type": "Important",
+      "detail": "Piquerez arrisca levantamento buscando Vitor Roque no ataque entre os marcadores, mas sobe a bandeira de impedimento do centroavante no lance.",
+      "player": {
+        "name": "Vitor Roque"
+      },
+      "assist": {
+        "name": "Impedimento"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 22,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Djhordney e Lucas Evangelista se desentendem no meio de campo, mas o árbitro logo chega para colocar ordem.",
+      "player": {
+        "name": "Djhordney e Lucas Evangelista se desentendem no "
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 23,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Important",
+      "detail": "Ferreira recupera a bola no campo de ataque no erro da defesa alviverde, que perdeu o tempo de dar o bote, arruma para o lado e arrisca o chute, mas acerta em cima da marcação.",
+      "player": {
+        "name": "Ferreira"
+      },
+      "assist": {
+        "name": "Chute bloqueado"
+      }
     }
   ],
   "lineups": [
@@ -1116,19 +1184,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "60%"
+          "value": "56%"
         },
         {
           "type": "Total Passes",
-          "value": 127
+          "value": 147
         },
         {
           "type": "Pass Accuracy",
-          "value": "87%"
+          "value": "85%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 17
+          "value": 22
         },
         {
           "type": "Total Shots",
@@ -1156,7 +1224,7 @@
         },
         {
           "type": "Offsides",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Penalties",
@@ -1164,15 +1232,15 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Tackles",
-          "value": 3
+          "value": 4
         },
         {
           "type": "Fouls",
-          "value": 3
+          "value": 4
         },
         {
           "type": "Yellow Cards",
@@ -1192,11 +1260,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "40%"
+          "value": "44%"
         },
         {
           "type": "Total Passes",
-          "value": 93
+          "value": 113
         },
         {
           "type": "Pass Accuracy",
@@ -1204,11 +1272,11 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 12
+          "value": 15
         },
         {
           "type": "Total Shots",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Shots on Goal",
@@ -1220,7 +1288,7 @@
         },
         {
           "type": "Blocked Shots",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Hit Woodwork",
@@ -1248,7 +1316,7 @@
         },
         {
           "type": "Fouls",
-          "value": 9
+          "value": 10
         },
         {
           "type": "Yellow Cards",

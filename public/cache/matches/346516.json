@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 4
+      "elapsed": 7
     },
     "timerStart": "2026-09-12T23:31:28.942Z",
     "timerStatus": "INICIADO"
@@ -92,9 +92,91 @@
         "name": "Botafogo"
       },
       "type": "Important",
+      "detail": "Botafogo pressiona, bola fica viva na área e sobra no pé de Montoro, que finaliza mais uma, dessa vez pra fora",
+      "player": {
+        "name": "Montoro"
+      },
+      "assist": {
+        "name": "Mais uma dele!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 2,
+        "extra": null
+      },
+      "team": {
+        "id": 263,
+        "name": "Botafogo"
+      },
+      "type": "Important",
       "detail": "Villalba rouba pela direita, arranca, toca para Montoro, que bate nas mãos de Volpi",
       "player": {
         "name": "Montoro"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 4,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Escanteio é cobrado fechado e Gabriel Batista afasta",
+      "player": {
+        "name": "Escanteio é cobrado fechado e Gabriel Batista af"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 4,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O jogo mal começou e o Botafogo já impõe um ritmo forte. Com menos de três minutos, Montoro virou protagonista ao finalizar duas vezes: a primeira exigiu boa defesa de Volpi após jogada de Villalba, e a segunda foi para fora. O Bragantino, que tentava trocar passes na defesa, respondeu aos quatro minutos com Fernando, que aproveitou um erro de Danilo e conseguiu um escanteio.",
+      "player": {
+        "name": "Botafogo começa com pressão total"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 4,
+        "extra": null
+      },
+      "team": {
+        "id": 280,
+        "name": "Bragantino"
+      },
+      "type": "Important",
+      "detail": "Danilo erra passe, Fernando recupera no meio para o Bragantino e avança. O atacante tenta cruzar, mas a bola é desviada",
+      "player": {
+        "name": "Escanteio para o Bragantino"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 5,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Bragantino roda bola na frente da defesa do Botafogo, mas não consegue finalizar",
+      "player": {
+        "name": "Bragantino roda bola na frente da defesa do Bota"
       },
       "assist": null
     }
@@ -554,31 +636,31 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "50%"
+          "value": "46%"
         },
         {
           "type": "Total Passes",
-          "value": 3
+          "value": 18
         },
         {
           "type": "Pass Accuracy",
-          "value": "67%"
+          "value": "78%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 1
+          "value": 4
         },
         {
           "type": "Total Shots",
-          "value": 0
+          "value": 2
         },
         {
           "type": "Shots on Goal",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Shots off Goal",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Blocked Shots",
@@ -606,7 +688,7 @@
         },
         {
           "type": "Tackles",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Fouls",
@@ -630,27 +712,27 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "50%"
+          "value": "54%"
         },
         {
           "type": "Total Passes",
-          "value": 3
+          "value": 31
         },
         {
           "type": "Pass Accuracy",
-          "value": "67%"
+          "value": "81%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 1
+          "value": 6
         },
         {
           "type": "Total Shots",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Shots on Goal",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Shots off Goal",
@@ -666,7 +748,7 @@
         },
         {
           "type": "Corner Kicks",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Offsides",
@@ -678,7 +760,7 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Tackles",

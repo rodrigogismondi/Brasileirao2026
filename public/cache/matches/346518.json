@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 28
+      "elapsed": 31
     },
     "timerStart": "2026-09-12T21:30:40.826Z",
     "timerStatus": "INICIADO"
@@ -727,6 +727,122 @@
       "assist": {
         "name": "Chute bloqueado"
       }
+    },
+    {
+      "time": {
+        "elapsed": 25,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O clássico começou quente e muito truncado, com o São Paulo cometendo seguidas faltas para frear os ataques do Palmeiras. Com 25 minutos, Pablo Maia já foi amarelado. Apesar da rispidez, o jogo teve chances para os dois lados. Ferreira fez grande jogada para o Tricolor, mas André Silva finalizou para fora. O Palmeiras respondeu em chute de Giay que também passou sem direção. Placar zerado e clima tenso.",
+      "player": {
+        "name": "Muitas faltas marcam o início do Choque-Rei"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 25,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Important",
+      "detail": "Cauly cobra falta de longe pelo São Paulo e manda a bola para mais longe ainda.",
+      "player": {
+        "name": "Cauly"
+      },
+      "assist": {
+        "name": "Cobrança de falta... dá em nada"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 26,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Important",
+      "detail": "Ferreira cai em dividida com Arias e Murilo quase no escanteio do campo e reclama de dores. Ele faz um sinal pedindo checagem no VAR, porque ficou sem a chuteira no pé.",
+      "player": {
+        "name": "Ferreira"
+      },
+      "assist": {
+        "name": "Caiu e pediu VAR"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 26,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Palmeiras tem 56% de posse de bola contra 44% do São Paulo, mas os times têm número semelhante de chances criadas. São três finalizações do mandante, duas do visitante, e nenhuma delas no alvo.",
+      "player": {
+        "name": "Estatísticas do Choque-Rei"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 28,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O clássico se desenrola de forma intensa e muito física até os 28 minutos. O São Paulo abusa das faltas, resultando em um cartão amarelo para Pablo Maia após lance em Jhon Arias. Pelo lado tricolor, Ferreira criou boa jogada para André Silva chutar para fora. O Palmeiras, com mais posse, respondeu em finalização de Giay. O duelo é equilibrado, mas ainda sem chutes na direção do gol.",
+      "player": {
+        "name": "Duelo travado e com cartão no Choque-Rei"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 28,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Important",
+      "detail": "Ferreira fica em campo. Giay reclama com a arbitragem pelo atacante não ter ficado fora do campo por um minuto. O árbitro chegou a pedir atendimento, mas os médicos do São Paulo não entraram no campo.",
+      "player": {
+        "name": "Ferreira fica em campo. Giay reclama com a arbit"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 29,
+        "extra": null
+      },
+      "team": {
+        "id": 275,
+        "name": "Palmeiras"
+      },
+      "type": "Important",
+      "detail": "Palmeiras chega pelo lado esquerdo do campo, mas pressiona pouco. Consegue ao menos a cobrança de lateral.",
+      "player": {
+        "name": "Palmeiras chega pelo lado esquerdo do campo, mas"
+      },
+      "assist": null
     }
   ],
   "lineups": [
@@ -1184,11 +1300,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "56%"
+          "value": "54%"
         },
         {
           "type": "Total Passes",
-          "value": 147
+          "value": 157
         },
         {
           "type": "Pass Accuracy",
@@ -1196,7 +1312,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 22
+          "value": 24
         },
         {
           "type": "Total Shots",
@@ -1260,11 +1376,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "44%"
+          "value": "46%"
         },
         {
           "type": "Total Passes",
-          "value": 113
+          "value": 127
         },
         {
           "type": "Pass Accuracy",
@@ -1272,7 +1388,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 15
+          "value": 17
         },
         {
           "type": "Total Shots",
@@ -1312,7 +1428,7 @@
         },
         {
           "type": "Tackles",
-          "value": 10
+          "value": 12
         },
         {
           "type": "Fouls",

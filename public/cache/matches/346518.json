@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 79
+      "elapsed": 82
     },
     "timerStart": "2026-09-12T22:37:02.880Z",
     "timerStatus": "INICIADO"
@@ -2487,6 +2487,56 @@
         "name": "Murilo chega de carrinho em cima de Iago. Doriva"
       },
       "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 76,
+        "extra": null
+      },
+      "team": {
+        "id": 275,
+        "name": "Palmeiras"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Larson"
+      },
+      "assist": {
+        "name": "Flaco López"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 77,
+        "extra": null
+      },
+      "team": {
+        "id": 275,
+        "name": "Palmeiras"
+      },
+      "type": "Important",
+      "detail": "Flaco López, que foi há pouco substituído, entregou a camisa do jogo para uma torcedora na arquibancada.",
+      "player": {
+        "name": "Flaco López"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 77,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Important",
+      "detail": "Artur é quem mais tenta pelo São Paulo neste segundo tempo. Com um a menos, time tem 46% de posse de bola agora.",
+      "player": {
+        "name": "Artur é quem mais tenta pelo São Paulo neste seg"
+      },
+      "assist": null
     }
   ],
   "lineups": [
@@ -2948,7 +2998,7 @@
         },
         {
           "type": "Total Passes",
-          "value": 424
+          "value": 461
         },
         {
           "type": "Pass Accuracy",
@@ -2956,7 +3006,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 57
+          "value": 62
         },
         {
           "type": "Total Shots",
@@ -2996,7 +3046,7 @@
         },
         {
           "type": "Tackles",
-          "value": 11
+          "value": 12
         },
         {
           "type": "Fouls",
@@ -3024,7 +3074,7 @@
         },
         {
           "type": "Total Passes",
-          "value": 323
+          "value": 334
         },
         {
           "type": "Pass Accuracy",
@@ -3032,7 +3082,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 59
+          "value": 61
         },
         {
           "type": "Total Shots",
@@ -3072,7 +3122,7 @@
         },
         {
           "type": "Tackles",
-          "value": 25
+          "value": 27
         },
         {
           "type": "Fouls",

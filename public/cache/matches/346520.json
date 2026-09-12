@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 38
+      "elapsed": 41
     },
     "timerStart": "2026-09-12T18:59:11.408Z",
     "timerStatus": "INICIADO"
@@ -806,9 +806,73 @@
         "name": ""
       },
       "type": "Important",
+      "detail": "O Fluminense começou melhor e quase abriu o placar aos 6 minutos, quando Savarino acertou um chutaço no travessão. O time visitante seguiu pressionando e parou em boas defesas de Delfim. A partir dos 25 minutos, o Atlético-MG acordou, equilibrou as ações e empilhou chances, obrigando o goleiro Fábio a trabalhar, com destaque para uma grande defesa em finalização cara a cara com Reinier.",
+      "player": {
+        "name": "Fluminense na trave, Galo reage com perigo!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 36,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
       "detail": "Cuello cruza à meia altura na área. A bola passa por todo mundo, e Fidelis manda para escanteio.",
       "player": {
         "name": "Cuello cruza à meia altura na área. A bola passa"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 37,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Fred cobra o escanteio na primeira trave, mas Otávio afasta.",
+      "player": {
+        "name": "Fred cobra o escanteio na primeira trave, mas Ot"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 37,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Jogadores do Atlético pedem um pênalti em Reinier, mas o árbitro não marca e manda seguir.",
+      "player": {
+        "name": "Jogadores do Atlético pedem um pênalti em Reinie"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 38,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Cuello levanta a bola na área, mas passa por todo mundo e sai pela lateral.",
+      "player": {
+        "name": "Cuello levanta a bola na área, mas passa por tod"
       },
       "assist": null
     }
@@ -1263,19 +1327,19 @@
         },
         {
           "type": "Total Passes",
-          "value": 231
+          "value": 261
         },
         {
           "type": "Pass Accuracy",
-          "value": "87%"
+          "value": "86%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 29
+          "value": 37
         },
         {
           "type": "Total Shots",
-          "value": 3
+          "value": 4
         },
         {
           "type": "Shots on Goal",
@@ -1287,7 +1351,7 @@
         },
         {
           "type": "Blocked Shots",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Hit Woodwork",
@@ -1295,7 +1359,7 @@
         },
         {
           "type": "Corner Kicks",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Offsides",
@@ -1311,7 +1375,7 @@
         },
         {
           "type": "Tackles",
-          "value": 9
+          "value": 10
         },
         {
           "type": "Fouls",
@@ -1339,15 +1403,15 @@
         },
         {
           "type": "Total Passes",
-          "value": 201
+          "value": 210
         },
         {
           "type": "Pass Accuracy",
-          "value": "88%"
+          "value": "87%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 24
+          "value": 27
         },
         {
           "type": "Total Shots",
@@ -1383,11 +1447,11 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Tackles",
-          "value": 11
+          "value": 13
         },
         {
           "type": "Fouls",

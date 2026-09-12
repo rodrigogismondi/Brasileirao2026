@@ -13011,7 +13011,7 @@
         "status": {
           "long": "2H",
           "short": "2H",
-          "elapsed": 90
+          "elapsed": 92
         },
         "timerStart": "2026-09-12T20:04:26.257Z",
         "timerStatus": "INICIADO"
@@ -13033,7 +13033,7 @@
       },
       "goals": {
         "home": 3,
-        "away": 0
+        "away": 1
       },
       "score": {
         "halftime": {
@@ -13063,7 +13063,7 @@
         "status": {
           "long": "2H",
           "short": "2H",
-          "elapsed": 89
+          "elapsed": 91
         },
         "timerStart": "2026-09-12T20:05:19.619Z",
         "timerStatus": "INICIADO"
@@ -13115,7 +13115,7 @@
         "status": {
           "long": "1H",
           "short": "1H",
-          "elapsed": 48
+          "elapsed": 50
         },
         "timerStart": "2026-09-12T20:01:19.202Z",
         "timerStatus": "INICIADO"
@@ -18958,18 +18958,18 @@
                 "name": "Internacional",
                 "logo": "https://s.sde.globo.com/media/organizations/2018/03/11/internacional.svg"
               },
-              "points": 28,
-              "goalsDiff": -5,
-              "form": "DDLLW",
+              "points": 26,
+              "goalsDiff": -6,
+              "form": "DDLLD",
               "description": "Relegation",
               "all": {
                 "played": 27,
-                "win": 6,
-                "draw": 10,
+                "win": 5,
+                "draw": 11,
                 "lose": 11,
                 "goals": {
                   "for": 29,
-                  "against": 34
+                  "against": 35
                 }
               }
             },
@@ -19002,17 +19002,17 @@
                 "name": "Chapecoense",
                 "logo": "https://s.sde.globo.com/media/organizations/2021/06/21/CHAPECOENSE-2018.svg"
               },
-              "points": 17,
-              "goalsDiff": -24,
-              "form": "DWLWL",
+              "points": 18,
+              "goalsDiff": -23,
+              "form": "DWLWD",
               "description": "Relegation",
               "all": {
                 "played": 26,
                 "win": 3,
-                "draw": 8,
-                "lose": 15,
+                "draw": 9,
+                "lose": 14,
                 "goals": {
-                  "for": 27,
+                  "for": 28,
                   "against": 51
                 }
               }
@@ -20082,14 +20082,14 @@
     {
       "player": {
         "id": 49,
-        "name": "Gabriel Taliari",
-        "photo": "https://s.sde.globo.com/media/person_role/2026/03/27/photo_140x140_o40VlL4.png"
+        "name": "Rodrigo Castillo",
+        "photo": "https://s.sde.globo.com/media/person_role/2026/07/06/photo_140x140_FuaIXQB.png"
       },
       "statistics": [
         {
           "team": {
-            "name": "Remo",
-            "logo": "https://s.sde.globo.com/media/organizations/2013/10/11/REmo-65.png"
+            "name": "Fluminense",
+            "logo": "https://s.sde.globo.com/media/organizations/2014/04/14/fluminense_60x60.png"
           },
           "goals": {
             "total": 4,
@@ -20104,14 +20104,14 @@
     {
       "player": {
         "id": 50,
-        "name": "Everaldo",
-        "photo": "https://s.sde.globo.com/media/person_role/2026/07/08/photo_140x140_uYMzKgg.png"
+        "name": "Gabriel Taliari",
+        "photo": "https://s.sde.globo.com/media/person_role/2026/03/27/photo_140x140_o40VlL4.png"
       },
       "statistics": [
         {
           "team": {
-            "name": "Bahia",
-            "logo": "https://s.sde.globo.com/media/organizations/2014/04/14/bahia_60x60.png"
+            "name": "Remo",
+            "logo": "https://s.sde.globo.com/media/organizations/2013/10/11/REmo-65.png"
           },
           "goals": {
             "total": 4,
@@ -20131,7 +20131,7 @@
     "mode": "live",
     "liveIntervalMs": 20000
   },
-  "fetchedAt": "2026-09-12T20:49:26.722Z",
+  "fetchedAt": "2026-09-12T20:52:16.056Z",
   "source": "ge-globo",
   "meta": {
     "rodada": 27,

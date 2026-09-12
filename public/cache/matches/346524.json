@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 48
+      "elapsed": 50
     },
     "timerStart": "2026-09-12T20:01:19.202Z",
     "timerStatus": "INICIADO"
@@ -766,9 +766,9 @@
         "name": ""
       },
       "type": "Important",
-      "detail": "A primeira etapa foi intensa! A Chapecoense começou melhor e desperdiçou uma chance clara logo aos 5 minutos, mas foi o Internacional que abriu o placar. Aos 24, Bruno Henrique aproveitou bela jogada de Carbonero para fazer 1 a 0. O clima esquentou, com confusão e cartão para o técnico da Chape. No apagar das luzes, aos 45, a equipe da casa conseguiu o gol de empate, deixando tudo igual.",
+      "detail": "O jogo esquentou e o Internacional abriu o placar aos 24 minutos, quando Carbonero fez a jogada e Bruno Henrique fuzilou para marcar. A Chapecoense, que já havia perdido uma chance clara no início, não se abateu e foi para cima. A recompensa veio aos 45 minutos: Marcinho acertou um belo lançamento para Garcez, que subiu entre a zaga e desviou de cabeça para deixar tudo igual em 1 a 1.",
       "player": {
-        "name": "Chape busca empate em 1º tempo quente!"
+        "name": "Chape busca o empate no fim da primeira etapa!"
       },
       "assist": null
     },
@@ -801,6 +801,38 @@
       "detail": "Kauan Faria é mandado para fora do campo. precisa estancar o sangramento do choque de cabeça minutos antes. Ele ainda sangra muito e sua camisa está bastante manchada.",
       "player": {
         "name": "Kauan Faria é mandado para fora do campo. precis"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 46,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Cinco de acréscimo, vamos aos 50.",
+      "player": {
+        "name": "Cinco de acréscimo, vamos aos 50."
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 47,
+        "extra": null
+      },
+      "team": {
+        "id": 315,
+        "name": "Chapecoense"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Marcinho"
       },
       "assist": null
     }
@@ -1260,11 +1292,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "65%"
+          "value": "64%"
         },
         {
           "type": "Total Passes",
-          "value": 265
+          "value": 267
         },
         {
           "type": "Pass Accuracy",
@@ -1272,7 +1304,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 31
+          "value": 33
         },
         {
           "type": "Total Shots",
@@ -1316,11 +1348,11 @@
         },
         {
           "type": "Fouls",
-          "value": 5
+          "value": 8
         },
         {
           "type": "Yellow Cards",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Red Cards",
@@ -1336,19 +1368,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "35%"
+          "value": "36%"
         },
         {
           "type": "Total Passes",
-          "value": 135
+          "value": 152
         },
         {
           "type": "Pass Accuracy",
-          "value": "75%"
+          "value": "74%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 34
+          "value": 40
         },
         {
           "type": "Total Shots",

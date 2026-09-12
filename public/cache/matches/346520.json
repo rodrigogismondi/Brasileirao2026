@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 90
+      "elapsed": 92
     },
     "timerStart": "2026-09-12T20:04:26.257Z",
     "timerStatus": "INICIADO"
@@ -31,7 +31,7 @@
   },
   "goals": {
     "home": 3,
-    "away": 0
+    "away": 1
   },
   "score": {
     "halftime": {
@@ -2199,6 +2199,136 @@
         "name": "Fidelis levanta a bola na área. Serna não conseg"
       },
       "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 87,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Serna toca na esquerda para Arana, que cruza em cima da marcação.",
+      "player": {
+        "name": "Serna toca na esquerda para Arana, que cruza em "
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 87,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Jemmes"
+      },
+      "assist": {
+        "name": "Júlio Fidelis"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 87,
+        "extra": null
+      },
+      "team": {
+        "id": 282,
+        "name": "Atlético-MG"
+      },
+      "type": "Important",
+      "detail": "Após um primeiro tempo equilibrado, o Atlético-MG voltou avassalador na etapa final para construir a vitória. Reinier abriu o placar aos 15 minutos com um golaço. Pouco depois, Cuello aproveitou uma falha da zaga e ampliou para 2 a 0. Já aos 35, Vitão aproveitou o rebote no escanteio e fez o terceiro. O Galo domina e vai vencendo por 3 a 0.",
+      "player": {
+        "name": "Atlético-MG atropela no segundo tempo!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 87,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Cissé comete falta em Riquelme.",
+      "player": {
+        "name": "Cissé comete falta em Riquelme."
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 89,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Depois de um primeiro tempo equilibrado e sem gols, a segunda etapa foi uma avalanche do Atlético-MG. Reinier abriu o placar aos 15 com um golaço, e logo depois Cuello ampliou. Aos 35, Vitão fez o terceiro para o Galo. Já na reta final, aos 44 minutos, Rodrigo Castillo diminuiu para o Fluminense, mas o time da casa segue com a vantagem de 3 a 1 no placar.",
+      "player": {
+        "name": "Galo abre 3 a 1 no fim do segundo tempo"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 89,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "player": {
+        "name": "Rodrigo Castillo"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 91,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Castillo toca em profundidade na área para Arana, mas a bola sai direto em linha de fundo.",
+      "player": {
+        "name": "Castillo toca em profundidade na área para Arana"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 91,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Vamos até os 50 minutos na etapa final.",
+      "player": {
+        "name": "+5"
+      },
+      "assist": null
     }
   ],
   "lineups": [
@@ -2647,11 +2777,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "48%"
+          "value": "47%"
         },
         {
           "type": "Total Passes",
-          "value": 447
+          "value": 450
         },
         {
           "type": "Pass Accuracy",
@@ -2659,7 +2789,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 67
+          "value": 69
         },
         {
           "type": "Total Shots",
@@ -2699,11 +2829,11 @@
         },
         {
           "type": "Tackles",
-          "value": 17
+          "value": 18
         },
         {
           "type": "Fouls",
-          "value": 6
+          "value": 7
         },
         {
           "type": "Yellow Cards",
@@ -2723,11 +2853,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "52%"
+          "value": "53%"
         },
         {
           "type": "Total Passes",
-          "value": 476
+          "value": 509
         },
         {
           "type": "Pass Accuracy",
@@ -2735,15 +2865,15 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 59
+          "value": 60
         },
         {
           "type": "Total Shots",
-          "value": 7
+          "value": 8
         },
         {
           "type": "Shots on Goal",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Shots off Goal",
@@ -2775,7 +2905,7 @@
         },
         {
           "type": "Tackles",
-          "value": 21
+          "value": 24
         },
         {
           "type": "Fouls",

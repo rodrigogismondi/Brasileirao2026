@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 7
+      "elapsed": 10
     },
     "timerStart": "2026-09-12T23:31:28.942Z",
     "timerStatus": "INICIADO"
@@ -177,6 +177,38 @@
       "detail": "Bragantino roda bola na frente da defesa do Botafogo, mas não consegue finalizar",
       "player": {
         "name": "Bragantino roda bola na frente da defesa do Bota"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 6,
+        "extra": null
+      },
+      "team": {
+        "id": 263,
+        "name": "Botafogo"
+      },
+      "type": "Important",
+      "detail": "Pitta recebe lançamento na entrada da área, tenta encobrir o goleiro do Botafogo, mas a bola vai por cima do gol. Lance já estava parado por impedimento",
+      "player": {
+        "name": "Pitta recebe lançamento na entrada da área, tent"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 7,
+        "extra": null
+      },
+      "team": {
+        "id": 263,
+        "name": "Botafogo"
+      },
+      "type": "Important",
+      "detail": "Huguinho lança Júnior Santos, que sairia em boas condições, mas é interceptado por Tiago Volpi",
+      "player": {
+        "name": "Huguinho lança Júnior Santos, que sairia em boas"
       },
       "assist": null
     }
@@ -636,19 +668,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "46%"
+          "value": "39%"
         },
         {
           "type": "Total Passes",
-          "value": 18
+          "value": 21
         },
         {
           "type": "Pass Accuracy",
-          "value": "78%"
+          "value": "76%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 4
+          "value": 5
         },
         {
           "type": "Total Shots",
@@ -676,7 +708,7 @@
         },
         {
           "type": "Offsides",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Penalties",
@@ -712,19 +744,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "54%"
+          "value": "61%"
         },
         {
           "type": "Total Passes",
-          "value": 31
+          "value": 49
         },
         {
           "type": "Pass Accuracy",
-          "value": "81%"
+          "value": "82%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 6
+          "value": 9
         },
         {
           "type": "Total Shots",
@@ -752,7 +784,7 @@
         },
         {
           "type": "Offsides",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Penalties",
@@ -768,7 +800,7 @@
         },
         {
           "type": "Fouls",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Yellow Cards",

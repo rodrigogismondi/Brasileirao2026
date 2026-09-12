@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 19
+      "elapsed": 22
     },
     "timerStart": "2026-09-12T18:59:33.349Z",
     "timerStatus": "INICIADO"
@@ -433,6 +433,56 @@
       "detail": "Tetê tenta cruzamento, mas a defesa do Vasco afasta com Carlos Cuesta",
       "player": {
         "name": "Tetê tenta cruzamento, mas a defesa do Vasco afa"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 17,
+        "extra": null
+      },
+      "team": {
+        "id": 267,
+        "name": "Vasco"
+      },
+      "type": "Important",
+      "detail": "Adson chega com perigo de novo! Robert Renan recebe com libertade na entrada da área e faz lindo cruzamento para o atacante do Vasco. O camisa 28 ataca as costas de Pedro Gabriel, cabecea livre, mas manda para fora",
+      "player": {
+        "name": "Adson"
+      },
+      "assist": {
+        "name": "UUUUH"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 18,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O jogo começou com o Grêmio tentando impor seu ritmo, mas o Vasco equilibrou as ações e criou as melhores chances nos primeiros 20 minutos. Adson, em duas ocasiões, levou muito perigo à meta de Weverton: primeiro em um chute que passou raspando a trave e depois em uma cabeçada livre que foi para fora. O duelo, que já tem cartão amarelo para Pedro Gabriel, segue tenso na Arena.",
+      "player": {
+        "name": "Vasco cresce e assusta na Arena"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 18,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Cuiabano se atrapalha dentro da área, Tetê quase rouba, mas o lateral se recupera e Cuesta afasta",
+      "player": {
+        "name": "Cuiabano se atrapalha dentro da área, Tetê quase"
       },
       "assist": null
     }
@@ -896,7 +946,7 @@
         },
         {
           "type": "Total Passes",
-          "value": 109
+          "value": 137
         },
         {
           "type": "Pass Accuracy",
@@ -904,7 +954,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 15
+          "value": 19
         },
         {
           "type": "Total Shots",
@@ -944,7 +994,7 @@
         },
         {
           "type": "Tackles",
-          "value": 5
+          "value": 7
         },
         {
           "type": "Fouls",
@@ -972,19 +1022,19 @@
         },
         {
           "type": "Total Passes",
-          "value": 73
+          "value": 88
         },
         {
           "type": "Pass Accuracy",
-          "value": "78%"
+          "value": "81%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 16
+          "value": 17
         },
         {
           "type": "Total Shots",
-          "value": 3
+          "value": 4
         },
         {
           "type": "Shots on Goal",
@@ -992,7 +1042,7 @@
         },
         {
           "type": "Shots off Goal",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Blocked Shots",
@@ -1020,7 +1070,7 @@
         },
         {
           "type": "Tackles",
-          "value": 5
+          "value": 6
         },
         {
           "type": "Fouls",

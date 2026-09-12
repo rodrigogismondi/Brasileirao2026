@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 20
+      "elapsed": 23
     },
     "timerStart": "2026-09-12T18:59:11.408Z",
     "timerStatus": "INICIADO"
@@ -401,6 +401,56 @@
       "detail": "Canobbio comete falta em Fred no meio de campo.",
       "player": {
         "name": "Canobbio comete falta em Fred no meio de campo."
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 18,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Fluminense começou com tudo e já acumula chances claras de gol nos primeiros 19 minutos. Savarino carimbou o travessão em um chutaço de fora da área, e o goleiro Gabriel Delfim já se tornou o nome do Atlético-MG com pelo menos três defesas decisivas, incluindo uma em finalização de Arana. O time da casa tenta responder com Cuello pela direita, mas encontra um adversário muito perigoso.",
+      "player": {
+        "name": "Travessão e milagres de Delfim agitam o início"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 18,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "Important",
+      "detail": "Lucho levanta a bola na área para Arana. O lateral chega chutando rasteiro. Delfim defende.",
+      "player": {
+        "name": "Guilherme Arana"
+      },
+      "assist": {
+        "name": "UHHH!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 19,
+        "extra": null
+      },
+      "team": {
+        "id": 282,
+        "name": "Atlético-MG"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Alan Franco"
       },
       "assist": null
     }

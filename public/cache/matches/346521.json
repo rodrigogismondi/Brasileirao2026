@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 25
+      "elapsed": 28
     },
     "timerStart": "2026-09-12T18:59:33.349Z",
     "timerStatus": "INICIADO"
@@ -553,6 +553,54 @@
         "name": "Falta de Noriega em Colídio no meio de campo"
       },
       "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 24,
+        "extra": null
+      },
+      "team": {
+        "id": 267,
+        "name": "Vasco"
+      },
+      "type": "Important",
+      "detail": "O goleiro sai com a bola dominada na intermediária de defesa do Vasco, o goleiro dá o passe nos pés do Tetê que tentou do meio campo, mas o atacante manda direto para fora",
+      "player": {
+        "name": "QUE ISSO, LÉO JARDIM?"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 25,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O jogo começou movimentado na Arena! Nos primeiros 25 minutos, o Vasco criou as melhores oportunidades, principalmente com Adson, que desperdiçou duas chances claras. O Grêmio, que já teve Pedro Gabriel amarelado, respondeu com perigo em finalização de Diego Caito, que parou em boa defesa de Léo Jardim. O goleiro vascaíno quase comprometeu em uma saída errada, mas o placar segue zerado.",
+      "player": {
+        "name": "Duelo franco com chances para os dois lados"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 25,
+        "extra": null
+      },
+      "team": {
+        "id": 267,
+        "name": "Vasco"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Tchê Tchê"
+      },
+      "assist": null
     }
   ],
   "lineups": [
@@ -1010,11 +1058,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "59%"
+          "value": "55%"
         },
         {
           "type": "Total Passes",
-          "value": 160
+          "value": 176
         },
         {
           "type": "Pass Accuracy",
@@ -1022,11 +1070,11 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 23
+          "value": 25
         },
         {
           "type": "Total Shots",
-          "value": 3
+          "value": 4
         },
         {
           "type": "Shots on Goal",
@@ -1034,7 +1082,7 @@
         },
         {
           "type": "Shots off Goal",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Blocked Shots",
@@ -1062,11 +1110,11 @@
         },
         {
           "type": "Tackles",
-          "value": 7
+          "value": 8
         },
         {
           "type": "Fouls",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Yellow Cards",
@@ -1086,11 +1134,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "41%"
+          "value": "45%"
         },
         {
           "type": "Total Passes",
-          "value": 109
+          "value": 137
         },
         {
           "type": "Pass Accuracy",
@@ -1098,7 +1146,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 19
+          "value": 23
         },
         {
           "type": "Total Shots",
@@ -1138,15 +1186,15 @@
         },
         {
           "type": "Tackles",
-          "value": 6
+          "value": 8
         },
         {
           "type": "Fouls",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Yellow Cards",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Red Cards",

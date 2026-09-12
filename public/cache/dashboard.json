@@ -13136,8 +13136,8 @@
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
       "score": {
         "halftime": {
@@ -18932,6 +18932,28 @@
             {
               "rank": 17,
               "team": {
+                "id": 285,
+                "name": "Internacional",
+                "logo": "https://s.sde.globo.com/media/organizations/2018/03/11/internacional.svg"
+              },
+              "points": 26,
+              "goalsDiff": -6,
+              "form": "DDLLD",
+              "description": "Relegation",
+              "all": {
+                "played": 27,
+                "win": 5,
+                "draw": 11,
+                "lose": 11,
+                "goals": {
+                  "for": 28,
+                  "against": 34
+                }
+              }
+            },
+            {
+              "rank": 18,
+              "team": {
                 "id": 267,
                 "name": "Vasco",
                 "logo": "https://s.sde.globo.com/media/organizations/2021/09/04/vasco_SVG.svg"
@@ -18948,28 +18970,6 @@
                 "goals": {
                   "for": 27,
                   "against": 41
-                }
-              }
-            },
-            {
-              "rank": 18,
-              "team": {
-                "id": 285,
-                "name": "Internacional",
-                "logo": "https://s.sde.globo.com/media/organizations/2018/03/11/internacional.svg"
-              },
-              "points": 25,
-              "goalsDiff": -6,
-              "form": "DDDLL",
-              "description": "Relegation",
-              "all": {
-                "played": 26,
-                "win": 5,
-                "draw": 10,
-                "lose": 11,
-                "goals": {
-                  "for": 28,
-                  "against": 34
                 }
               }
             },
@@ -19002,14 +19002,14 @@
                 "name": "Chapecoense",
                 "logo": "https://s.sde.globo.com/media/organizations/2021/06/21/CHAPECOENSE-2018.svg"
               },
-              "points": 17,
+              "points": 18,
               "goalsDiff": -23,
-              "form": "LDWLW",
+              "form": "DWLWD",
               "description": "Relegation",
               "all": {
-                "played": 25,
+                "played": 26,
                 "win": 3,
-                "draw": 8,
+                "draw": 9,
                 "lose": 14,
                 "goals": {
                   "for": 27,
@@ -20131,7 +20131,7 @@
     "mode": "live",
     "liveIntervalMs": 20000
   },
-  "fetchedAt": "2026-09-12T20:01:23.352Z",
+  "fetchedAt": "2026-09-12T20:04:30.668Z",
   "source": "ge-globo",
   "meta": {
     "rodada": 27,

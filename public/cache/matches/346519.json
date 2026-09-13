@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 88
+      "elapsed": 91
     },
     "timerStart": "2026-09-13T20:10:33.658Z",
     "timerStatus": "INICIADO"
@@ -30,7 +30,7 @@
     }
   },
   "goals": {
-    "home": 1,
+    "home": 2,
     "away": 2
   },
   "score": {
@@ -1884,6 +1884,22 @@
     },
     {
       "time": {
+        "elapsed": 86,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Pressão muito forte do Mirassol, que encurrala o Vitória.",
+      "player": {
+        "name": "Pressão muito forte do Mirassol, que encurrala o"
+      },
+      "assist": null
+    },
+    {
+      "time": {
         "elapsed": 87,
         "extra": null
       },
@@ -1915,6 +1931,54 @@
       "assist": {
         "name": "Pra fora!"
       }
+    },
+    {
+      "time": {
+        "elapsed": 88,
+        "extra": null
+      },
+      "team": {
+        "id": 287,
+        "name": "Vitória"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Marinho"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 90,
+        "extra": null
+      },
+      "team": {
+        "id": 2305,
+        "name": "Mirassol"
+      },
+      "type": "Important",
+      "detail": "Que reação do Mirassol! Depois de diminuir com Bruno Santos, o time da casa partiu para uma pressão alucinante no fim do jogo. A equipe acertou a trave duas vezes em sequência, com Bruno Santos e Edson Carioca, em lances incríveis. A insistência valeu a pena e, aos 45 do segundo tempo, Edson Carioca marcou o gol que deixou o placar em 2 a 2. Um final de partida espetacular",
+      "player": {
+        "name": "Mirassol empata em final de tirar o fôlego!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 90,
+        "extra": null
+      },
+      "team": {
+        "id": 2305,
+        "name": "Mirassol"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "player": {
+        "name": "Edson Carioca"
+      },
+      "assist": null
     }
   ],
   "lineups": [
@@ -2372,11 +2436,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "66%"
+          "value": "67%"
         },
         {
           "type": "Total Passes",
-          "value": 578
+          "value": 600
         },
         {
           "type": "Pass Accuracy",
@@ -2384,11 +2448,11 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 77
+          "value": 78
         },
         {
           "type": "Total Shots",
-          "value": 18
+          "value": 21
         },
         {
           "type": "Shots on Goal",
@@ -2396,7 +2460,7 @@
         },
         {
           "type": "Shots off Goal",
-          "value": 7
+          "value": 8
         },
         {
           "type": "Blocked Shots",
@@ -2404,7 +2468,7 @@
         },
         {
           "type": "Hit Woodwork",
-          "value": 0
+          "value": 2
         },
         {
           "type": "Corner Kicks",
@@ -2428,7 +2492,7 @@
         },
         {
           "type": "Fouls",
-          "value": 11
+          "value": 12
         },
         {
           "type": "Yellow Cards",
@@ -2448,11 +2512,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "34%"
+          "value": "33%"
         },
         {
           "type": "Total Passes",
-          "value": 204
+          "value": 209
         },
         {
           "type": "Pass Accuracy",
@@ -2460,7 +2524,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 65
+          "value": 67
         },
         {
           "type": "Total Shots",

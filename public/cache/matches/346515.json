@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 24
+      "elapsed": 27
     },
     "timerStart": "2026-09-13T20:30:09.941Z",
     "timerStatus": "INICIADO"
@@ -720,6 +720,38 @@
         "name": ""
       },
       "type": "Important",
+      "detail": "O Flamengo domina completamente as ações nos primeiros 20 minutos, empilhando escanteios e encurralando o Corinthians em seu campo de defesa. A pressão quase virou gol aos 21: após cruzamento de Plata, Pedro finalizou de peito para uma defesa espetacular de Hugo Souza. No rebote, Ayrton Lucas chutou para o gol, mas João Pedro Tchoca, em cima da linha, salvou de cabeça em um lance inacreditável.",
+      "player": {
+        "name": "Pressão rubro-negra e salvação dupla!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 21,
+        "extra": null
+      },
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "Important",
+      "detail": "Plata cruza para a área e Pedro, na disputa de bola, toca de peito para defesa incrível de Hugo Souza. Ayrton Lucas aproveita o rebote e toca para o gol, mas João Pedro Tchoca, caído no gramado, tira de cabeça em cima da linha e evita o gol do Flamengo.",
+      "player": {
+        "name": "Incrível"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 21,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
       "detail": "O Flamengo assumiu o controle do clássico nestes primeiros 20 minutos, empurrando o Corinthians para o seu campo de defesa. A equipe da casa já criou as melhores oportunidades, principalmente em um chute de Plata que exigiu boa defesa de Hugo Souza. Com a posse da bola, o time rubro-negro também levou perigo em finalização de Lucas Paquetá e acumulou escanteios, enquanto o Corinthians se segura como pode.",
       "player": {
         "name": "Fla domina, mas placar segue zerado"
@@ -741,6 +773,24 @@
         "name": "Samuel Lino recebe na ponta esquerda e tenta par"
       },
       "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 23,
+        "extra": null
+      },
+      "team": {
+        "id": 264,
+        "name": "Corinthians"
+      },
+      "type": "Important",
+      "detail": "Corinthians consegue chegar ao ataque. Angileri cruza da esquerda para a área e Gui Negão se joga de peixinho e até toca na bola, mas não consegue finalizar no gol.",
+      "player": {
+        "name": "Gui Negão"
+      },
+      "assist": {
+        "name": "Desperdiçou chance"
+      }
     }
   ],
   "lineups": [
@@ -1198,11 +1248,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "71%"
+          "value": "68%"
         },
         {
           "type": "Total Passes",
-          "value": 200
+          "value": 219
         },
         {
           "type": "Pass Accuracy",
@@ -1210,15 +1260,15 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 21
+          "value": 22
         },
         {
           "type": "Total Shots",
-          "value": 4
+          "value": 6
         },
         {
           "type": "Shots on Goal",
-          "value": 1
+          "value": 3
         },
         {
           "type": "Shots off Goal",
@@ -1250,11 +1300,11 @@
         },
         {
           "type": "Tackles",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Fouls",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Yellow Cards",
@@ -1274,19 +1324,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "29%"
+          "value": "32%"
         },
         {
           "type": "Total Passes",
-          "value": 49
+          "value": 91
         },
         {
           "type": "Pass Accuracy",
-          "value": "73%"
+          "value": "84%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 13
+          "value": 15
         },
         {
           "type": "Total Shots",
@@ -1322,15 +1372,15 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 4
-        },
-        {
-          "type": "Tackles",
           "value": 5
         },
         {
+          "type": "Tackles",
+          "value": 6
+        },
+        {
           "type": "Fouls",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Yellow Cards",

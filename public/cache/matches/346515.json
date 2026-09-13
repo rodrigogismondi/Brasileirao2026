@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 36
+      "elapsed": 39
     },
     "timerStart": "2026-09-13T20:30:09.941Z",
     "timerStatus": "INICIADO"
@@ -1052,11 +1052,95 @@
         "name": ""
       },
       "type": "Important",
+      "detail": "Charles pega a bola no campo defensivo, parte em velocidade pelo meio e é derrubado por trás por Paquetá.",
+      "player": {
+        "name": "Charles pega a bola no campo defensivo, parte em"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 33,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
       "detail": "Pressionado, Angileri recua para Hugo Souza, que chuta para a frente, mandando a bola para a lateral.",
       "player": {
         "name": "Pressionado, Angileri recua para Hugo Souza, que"
       },
       "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 34,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Flamengo impõe um domínio absoluto na partida. Após 30 minutos, o time da casa empilha chances e escanteios, mas para em uma atuação espetacular de Hugo Souza. O goleiro do Corinthians fez defesas incríveis em chutes de Pedro e Plata. Aos 21, João Pedro Tchoca ainda salvou um gol em cima da linha. O Corinthians se segura e só respondeu em um peixinho para fora de Gui Negão.",
+      "player": {
+        "name": "Pressão total do Fla e show de Hugo Souza"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 34,
+        "extra": null
+      },
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "Important",
+      "detail": "Pulgar serve Samuel Lino na esquerda. Ele carrega e bate colocado. A bola sai pela linha de fundo.",
+      "player": {
+        "name": "Samuel Lino"
+      },
+      "assist": {
+        "name": "Uuuuh"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 35,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Léo Ortiz cruza da direita para a área, e João Pedro Tchoca tira de cabeça.",
+      "player": {
+        "name": "Léo Ortiz cruza da direita para a área, e João P"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 36,
+        "extra": null
+      },
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "Important",
+      "detail": "Samuel Lino pega a bola na frente da área e arrisca de longe. Hugo Souza rebate de longe.",
+      "player": {
+        "name": "Samuel Lino"
+      },
+      "assist": {
+        "name": "De longe"
+      }
     }
   ],
   "lineups": [
@@ -1514,11 +1598,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "65%"
+          "value": "64%"
         },
         {
           "type": "Total Passes",
-          "value": 264
+          "value": 318
         },
         {
           "type": "Pass Accuracy",
@@ -1526,23 +1610,23 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 28
+          "value": 35
         },
         {
           "type": "Total Shots",
-          "value": 9
+          "value": 15
         },
         {
           "type": "Shots on Goal",
-          "value": 4
+          "value": 6
         },
         {
           "type": "Shots off Goal",
-          "value": 3
+          "value": 5
         },
         {
           "type": "Blocked Shots",
-          "value": 2
+          "value": 4
         },
         {
           "type": "Hit Woodwork",
@@ -1550,7 +1634,7 @@
         },
         {
           "type": "Corner Kicks",
-          "value": 9
+          "value": 10
         },
         {
           "type": "Offsides",
@@ -1570,7 +1654,7 @@
         },
         {
           "type": "Fouls",
-          "value": 4
+          "value": 5
         },
         {
           "type": "Yellow Cards",
@@ -1590,19 +1674,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "35%"
+          "value": "36%"
         },
         {
           "type": "Total Passes",
-          "value": 107
+          "value": 124
         },
         {
           "type": "Pass Accuracy",
-          "value": "83%"
+          "value": "81%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 18
+          "value": 23
         },
         {
           "type": "Total Shots",
@@ -1638,19 +1722,19 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 10
+          "value": 11
         },
         {
           "type": "Tackles",
-          "value": 7
+          "value": 8
         },
         {
           "type": "Fouls",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Yellow Cards",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Red Cards",

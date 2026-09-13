@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 73
+      "elapsed": 76
     },
     "timerStart": "2026-09-13T20:10:33.658Z",
     "timerStatus": "INICIADO"
@@ -1516,24 +1516,6 @@
     },
     {
       "time": {
-        "elapsed": 68,
-        "extra": null
-      },
-      "team": {
-        "id": 2305,
-        "name": "Mirassol"
-      },
-      "type": "subst",
-      "detail": "Substitution 1",
-      "player": {
-        "name": "André Luis"
-      },
-      "assist": {
-        "name": "Eduardo"
-      }
-    },
-    {
-      "time": {
         "elapsed": 69,
         "extra": null
       },
@@ -1577,10 +1559,60 @@
         "id": 2305,
         "name": "Mirassol"
       },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "André Luis"
+      },
+      "assist": {
+        "name": "Eduardo"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 69,
+        "extra": null
+      },
+      "team": {
+        "id": 2305,
+        "name": "Mirassol"
+      },
       "type": "Important",
       "detail": "VAR confirma que não houve toque no braço de Bruno Santos. Gol do Mirassol é confirmado.",
       "player": {
         "name": "VAR confirma que não houve toque no braço de Bru"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 71,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Que partida! Após Renê marcar duas vezes para o Vitória no primeiro tempo, aproveitando falhas do goleiro Muralha, o jogo parecia controlado. O segundo tempo começou com o Vitória tendo um gol anulado pelo VAR. Mas aos 22 minutos, Bruno Santos girou e soltou uma bomba para diminuir para o Mirassol, colocando 2 a 1 no placar e botando fogo no jogo, que agora tem pressão total do time da casa.",
+      "player": {
+        "name": "Gol recoloca Mirassol na partida!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 71,
+        "extra": null
+      },
+      "team": {
+        "id": 2305,
+        "name": "Mirassol"
+      },
+      "type": "Important",
+      "detail": "Mirassol tenta se lançar em busca do empate.",
+      "player": {
+        "name": "Mirassol tenta se lançar em busca do empate."
       },
       "assist": null
     }
@@ -2040,23 +2072,23 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "64%"
+          "value": "65%"
         },
         {
           "type": "Total Passes",
-          "value": 444
+          "value": 490
         },
         {
           "type": "Pass Accuracy",
-          "value": "86%"
+          "value": "87%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 63
+          "value": 64
         },
         {
           "type": "Total Shots",
-          "value": 13
+          "value": 15
         },
         {
           "type": "Shots on Goal",
@@ -2064,11 +2096,11 @@
         },
         {
           "type": "Shots off Goal",
-          "value": 5
+          "value": 6
         },
         {
           "type": "Blocked Shots",
-          "value": 3
+          "value": 4
         },
         {
           "type": "Hit Woodwork",
@@ -2076,7 +2108,7 @@
         },
         {
           "type": "Corner Kicks",
-          "value": 7
+          "value": 8
         },
         {
           "type": "Offsides",
@@ -2116,11 +2148,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "36%"
+          "value": "35%"
         },
         {
           "type": "Total Passes",
-          "value": 190
+          "value": 192
         },
         {
           "type": "Pass Accuracy",
@@ -2128,7 +2160,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 57
+          "value": 58
         },
         {
           "type": "Total Shots",
@@ -2156,7 +2188,7 @@
         },
         {
           "type": "Offsides",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Penalties",
@@ -2164,11 +2196,11 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 8
+          "value": 9
         },
         {
           "type": "Tackles",
-          "value": 15
+          "value": 17
         },
         {
           "type": "Fouls",

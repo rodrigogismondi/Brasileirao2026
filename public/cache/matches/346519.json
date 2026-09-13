@@ -7,12 +7,12 @@
       "city": ""
     },
     "status": {
-      "long": "HT",
-      "short": "HT",
-      "elapsed": 45
+      "long": "2H",
+      "short": "2H",
+      "elapsed": 49
     },
-    "timerStart": "2026-09-13T19:54:10.610Z",
-    "timerStatus": "PAUSADO"
+    "timerStart": "2026-09-13T20:10:33.658Z",
+    "timerStatus": "INICIADO"
   },
   "league": {
     "round": "Regular Season - 27"
@@ -836,11 +836,45 @@
         "name": ""
       },
       "type": "Important",
+      "detail": "Bola rolando para o segundo tempo.",
+      "player": {
+        "name": "valendo!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 45,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
       "detail": "Vamos até os 51 minutos.",
       "player": {
         "name": "mais seis!"
       },
       "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 46,
+        "extra": null
+      },
+      "team": {
+        "id": 2305,
+        "name": "Mirassol"
+      },
+      "type": "Important",
+      "detail": "Alesson finaliza de canhota, e o goleiro Lucas Arcanjo defende com facilidade.",
+      "player": {
+        "name": "Alesson"
+      },
+      "assist": {
+        "name": "Sem susto!"
+      }
     },
     {
       "time": {
@@ -1480,23 +1514,23 @@
         },
         {
           "type": "Total Passes",
-          "value": 316
+          "value": 332
         },
         {
           "type": "Pass Accuracy",
-          "value": "85%"
+          "value": "86%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 46
+          "value": 47
         },
         {
           "type": "Total Shots",
-          "value": 6
+          "value": 7
         },
         {
           "type": "Shots on Goal",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Shots off Goal",
@@ -1556,15 +1590,15 @@
         },
         {
           "type": "Total Passes",
-          "value": 142
+          "value": 156
         },
         {
           "type": "Pass Accuracy",
-          "value": "74%"
+          "value": "72%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 37
+          "value": 43
         },
         {
           "type": "Total Shots",
@@ -1600,7 +1634,7 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 4
+          "value": 5
         },
         {
           "type": "Tackles",

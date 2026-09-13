@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 14
+      "elapsed": 17
     },
     "timerStart": "2026-09-13T19:01:17.978Z",
     "timerStatus": "INICIADO"
@@ -291,6 +291,22 @@
       "detail": "Normal Goal",
       "player": {
         "name": "Renê"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 14,
+        "extra": null
+      },
+      "team": {
+        "id": 2305,
+        "name": "Mirassol"
+      },
+      "type": "Important",
+      "detail": "Mirassol trabalha a bola no campo de ataque.",
+      "player": {
+        "name": "Mirassol trabalha a bola no campo de ataque."
       },
       "assist": null
     }
@@ -750,19 +766,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "57%"
+          "value": "54%"
         },
         {
           "type": "Total Passes",
-          "value": 37
+          "value": 70
         },
         {
           "type": "Pass Accuracy",
-          "value": "76%"
+          "value": "83%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 9
+          "value": 12
         },
         {
           "type": "Total Shots",
@@ -806,7 +822,7 @@
         },
         {
           "type": "Fouls",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Yellow Cards",
@@ -826,27 +842,27 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "43%"
+          "value": "46%"
         },
         {
           "type": "Total Passes",
-          "value": 42
+          "value": 50
         },
         {
           "type": "Pass Accuracy",
-          "value": "81%"
+          "value": "80%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 8
+          "value": 10
         },
         {
           "type": "Total Shots",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Shots on Goal",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Shots off Goal",
@@ -882,7 +898,7 @@
         },
         {
           "type": "Fouls",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Yellow Cards",

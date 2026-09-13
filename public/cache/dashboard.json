@@ -13311,7 +13311,7 @@
         "status": {
           "long": "1H",
           "short": "1H",
-          "elapsed": 14
+          "elapsed": 17
         },
         "timerStart": "2026-09-13T19:01:17.978Z",
         "timerStatus": "INICIADO"
@@ -18779,7 +18779,7 @@
                 "logo": "https://s.sde.globo.com/media/organizations/2025/12/18/Vitoria_2025.svg"
               },
               "points": 35,
-              "goalsDiff": -11,
+              "goalsDiff": -10,
               "form": "WLLWW",
               "description": "Copa Sudamericana",
               "all": {
@@ -18788,7 +18788,7 @@
                 "draw": 5,
                 "lose": 12,
                 "goals": {
-                  "for": 26,
+                  "for": 27,
                   "against": 37
                 }
               }
@@ -18906,19 +18906,19 @@
             {
               "rank": 16,
               "team": {
-                "id": 2305,
-                "name": "Mirassol",
-                "logo": "https://s.sde.globo.com/media/organizations/2026/07/17/MIrassol.svg"
+                "id": 267,
+                "name": "Vasco",
+                "logo": "https://s.sde.globo.com/media/organizations/2021/09/04/vasco_SVG.svg"
               },
               "points": 28,
               "goalsDiff": -12,
-              "form": "LDDWL",
+              "form": "LLWLW",
               "description": null,
               "all": {
-                "played": 27,
+                "played": 26,
                 "win": 7,
                 "draw": 7,
-                "lose": 13,
+                "lose": 12,
                 "goals": {
                   "for": 29,
                   "against": 41
@@ -18928,22 +18928,22 @@
             {
               "rank": 17,
               "team": {
-                "id": 267,
-                "name": "Vasco",
-                "logo": "https://s.sde.globo.com/media/organizations/2021/09/04/vasco_SVG.svg"
+                "id": 2305,
+                "name": "Mirassol",
+                "logo": "https://s.sde.globo.com/media/organizations/2026/07/17/MIrassol.svg"
               },
               "points": 28,
-              "goalsDiff": -12,
-              "form": "LLWLW",
+              "goalsDiff": -13,
+              "form": "LDDWL",
               "description": "Relegation",
               "all": {
-                "played": 26,
+                "played": 27,
                 "win": 7,
                 "draw": 7,
-                "lose": 12,
+                "lose": 13,
                 "goals": {
                   "for": 29,
-                  "against": 41
+                  "against": 42
                 }
               }
             },
@@ -19286,6 +19286,28 @@
     {
       "player": {
         "id": 13,
+        "name": "Renê",
+        "photo": "https://s.sde.globo.com/media/person_role/2026/03/31/photo_140x140_3LaEnb6.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "name": "Vitória",
+            "logo": "https://s.sde.globo.com/media/organizations/2025/12/18/Vitoria-2025-65.png"
+          },
+          "goals": {
+            "total": 8,
+            "assists": null
+          },
+          "games": {
+            "appearences": 0
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 14,
         "name": "Danilo",
         "photo": "https://s.sde.globo.com/media/person_role/2026/07/06/photo_140x140_z4bUUy7.png"
       },
@@ -19307,7 +19329,7 @@
     },
     {
       "player": {
-        "id": 14,
+        "id": 15,
         "name": "Calleri",
         "photo": "https://s.sde.globo.com/media/person_role/2026/02/20/photo_140x140_2u6NnKV.png"
       },
@@ -19329,7 +19351,7 @@
     },
     {
       "player": {
-        "id": 15,
+        "id": 16,
         "name": "Maurício",
         "photo": "https://s.sde.globo.com/media/person_role/2026/08/19/photo_140x140_6MjlXVn.png"
       },
@@ -19351,7 +19373,7 @@
     },
     {
       "player": {
-        "id": 16,
+        "id": 17,
         "name": "Arthur Cabral",
         "photo": "https://s.sde.globo.com/media/person_role/2026/07/06/photo_140x140_LWtebKu.png"
       },
@@ -19373,7 +19395,7 @@
     },
     {
       "player": {
-        "id": 17,
+        "id": 18,
         "name": "Kaio Jorge",
         "photo": "https://s.sde.globo.com/media/person_role/2025/04/01/photo_140x140_1G1qpE6.png"
       },
@@ -19395,7 +19417,7 @@
     },
     {
       "player": {
-        "id": 18,
+        "id": 19,
         "name": "Carbonero",
         "photo": "https://s.sde.globo.com/media/person_role/2026/08/19/photo_140x140_tohWfor.png"
       },
@@ -19417,7 +19439,7 @@
     },
     {
       "player": {
-        "id": 19,
+        "id": 20,
         "name": "Jajá",
         "photo": "https://s.sde.globo.com/media/person_role/2026/03/31/photo_140x140_HhBEQDC.png"
       },
@@ -19426,28 +19448,6 @@
           "team": {
             "name": "Remo",
             "logo": "https://s.sde.globo.com/media/organizations/2013/10/11/REmo-65.png"
-          },
-          "goals": {
-            "total": 7,
-            "assists": null
-          },
-          "games": {
-            "appearences": 0
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 20,
-        "name": "Renê",
-        "photo": "https://s.sde.globo.com/media/person_role/2026/03/31/photo_140x140_3LaEnb6.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "name": "Vitória",
-            "logo": "https://s.sde.globo.com/media/organizations/2025/12/18/Vitoria-2025-65.png"
           },
           "goals": {
             "total": 7,
@@ -20127,7 +20127,7 @@
     "mode": "live",
     "liveIntervalMs": 20000
   },
-  "fetchedAt": "2026-09-13T19:15:26.044Z",
+  "fetchedAt": "2026-09-13T19:18:24.214Z",
   "source": "ge-globo",
   "meta": {
     "rodada": 27,

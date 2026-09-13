@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 50
+      "elapsed": 53
     },
     "timerStart": "2026-09-13T19:01:17.978Z",
     "timerStatus": "INICIADO"
@@ -837,6 +837,72 @@
         "name": "Mirassol tem escanteio pela esquerda."
       },
       "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 49,
+        "extra": null
+      },
+      "team": {
+        "id": 2305,
+        "name": "Mirassol"
+      },
+      "type": "Important",
+      "detail": "Mirassol tem agora escanteio pela direita.",
+      "player": {
+        "name": "Mirassol tem agora escanteio pela direita."
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 50,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Um primeiro tempo fulminante do Vitória, que soube explorar os erros do adversário para construir o placar. Renê foi o nome do jogo até aqui: aos 2 minutos, aproveitou uma saída terrível do goleiro Alex Muralha para marcar. Aos 12, a cena se repetiu, com Renê encobrindo o goleiro para fazer 2 a 0. O Mirassol tentou reagir, mas parou nas defesas de Arcanjo e ainda perdeu Gustavo Mosquito por lesão.",
+      "player": {
+        "name": "Vitória aproveita falhas e abre 2 a 0"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 50,
+        "extra": null
+      },
+      "team": {
+        "id": 2305,
+        "name": "Mirassol"
+      },
+      "type": "Important",
+      "detail": "Chico Kim finaliza de fora da área, mas isola.",
+      "player": {
+        "name": "Chico Kim"
+      },
+      "assist": {
+        "name": "Isolou!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 51,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Vamos até os 52, agora.",
+      "player": {
+        "name": "mais um!"
+      },
+      "assist": null
     }
   ],
   "lineups": [
@@ -1294,23 +1360,23 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "62%"
+          "value": "64%"
         },
         {
           "type": "Total Passes",
-          "value": 277
+          "value": 311
         },
         {
           "type": "Pass Accuracy",
-          "value": "87%"
+          "value": "86%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 36
+          "value": 45
         },
         {
           "type": "Total Shots",
-          "value": 5
+          "value": 6
         },
         {
           "type": "Shots on Goal",
@@ -1318,7 +1384,7 @@
         },
         {
           "type": "Shots off Goal",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Blocked Shots",
@@ -1330,7 +1396,7 @@
         },
         {
           "type": "Corner Kicks",
-          "value": 2
+          "value": 4
         },
         {
           "type": "Offsides",
@@ -1346,7 +1412,7 @@
         },
         {
           "type": "Tackles",
-          "value": 11
+          "value": 13
         },
         {
           "type": "Fouls",
@@ -1370,19 +1436,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "38%"
+          "value": "36%"
         },
         {
           "type": "Total Passes",
-          "value": 127
+          "value": 138
         },
         {
           "type": "Pass Accuracy",
-          "value": "75%"
+          "value": "74%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 32
+          "value": 36
         },
         {
           "type": "Total Shots",

@@ -13211,7 +13211,7 @@
         "status": {
           "long": "1H",
           "short": "1H",
-          "elapsed": 29
+          "elapsed": 36
         },
         "timerStart": "2026-09-12T23:31:28.942Z",
         "timerStatus": "INICIADO"
@@ -13233,7 +13233,7 @@
       },
       "goals": {
         "home": 0,
-        "away": 0
+        "away": 1
       },
       "score": {
         "halftime": {
@@ -13263,10 +13263,10 @@
         "status": {
           "long": "1H",
           "short": "1H",
-          "elapsed": null
+          "elapsed": 6
         },
-        "timerStart": "2026-09-12T22:50:37.214Z",
-        "timerStatus": "PAUSADO"
+        "timerStart": "2026-09-13T00:01:16.550Z",
+        "timerStatus": "INICIADO"
       },
       "league": {
         "round": "Regular Season - 27"
@@ -13284,8 +13284,8 @@
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
       "score": {
         "halftime": {
@@ -18666,6 +18666,28 @@
             {
               "rank": 5,
               "team": {
+                "id": 283,
+                "name": "Cruzeiro",
+                "logo": "https://s.sde.globo.com/media/organizations/2021/02/13/cruzeiro_2021.svg"
+              },
+              "points": 43,
+              "goalsDiff": 1,
+              "form": "WWLWD",
+              "description": "Copa Libertadores Qualifiers",
+              "all": {
+                "played": 27,
+                "win": 12,
+                "draw": 7,
+                "lose": 8,
+                "goals": {
+                  "for": 38,
+                  "against": 37
+                }
+              }
+            },
+            {
+              "rank": 6,
+              "team": {
                 "id": 265,
                 "name": "Bahia",
                 "logo": "https://s.sde.globo.com/media/organizations/2018/03/11/bahia.svg"
@@ -18673,7 +18695,7 @@
               "points": 43,
               "goalsDiff": 8,
               "form": "DDWWW",
-              "description": "Copa Libertadores Qualifiers",
+              "description": "Copa Sudamericana",
               "all": {
                 "played": 26,
                 "win": 11,
@@ -18682,28 +18704,6 @@
                 "goals": {
                   "for": 40,
                   "against": 32
-                }
-              }
-            },
-            {
-              "rank": 6,
-              "team": {
-                "id": 283,
-                "name": "Cruzeiro",
-                "logo": "https://s.sde.globo.com/media/organizations/2021/02/13/cruzeiro_2021.svg"
-              },
-              "points": 42,
-              "goalsDiff": 1,
-              "form": "WWWLW",
-              "description": "Copa Sudamericana",
-              "all": {
-                "played": 26,
-                "win": 12,
-                "draw": 6,
-                "lose": 8,
-                "goals": {
-                  "for": 38,
-                  "against": 37
                 }
               }
             },
@@ -18732,6 +18732,28 @@
             {
               "rank": 8,
               "team": {
+                "id": 280,
+                "name": "Bragantino",
+                "logo": "https://s.sde.globo.com/media/organizations/2021/06/28/bragantino.svg"
+              },
+              "points": 38,
+              "goalsDiff": 4,
+              "form": "DWLLW",
+              "description": "Copa Sudamericana",
+              "all": {
+                "played": 26,
+                "win": 11,
+                "draw": 5,
+                "lose": 10,
+                "goals": {
+                  "for": 32,
+                  "against": 28
+                }
+              }
+            },
+            {
+              "rank": 9,
+              "team": {
                 "id": 294,
                 "name": "Coritiba",
                 "logo": "https://s.sde.globo.com/media/organizations/2018/03/11/coritiba.svg"
@@ -18748,28 +18770,6 @@
                 "goals": {
                   "for": 37,
                   "against": 38
-                }
-              }
-            },
-            {
-              "rank": 9,
-              "team": {
-                "id": 280,
-                "name": "Bragantino",
-                "logo": "https://s.sde.globo.com/media/organizations/2021/06/28/bragantino.svg"
-              },
-              "points": 36,
-              "goalsDiff": 3,
-              "form": "DWLLD",
-              "description": "Copa Sudamericana",
-              "all": {
-                "played": 26,
-                "win": 10,
-                "draw": 6,
-                "lose": 10,
-                "goals": {
-                  "for": 31,
-                  "against": 28
                 }
               }
             },
@@ -18798,6 +18798,28 @@
             {
               "rank": 11,
               "team": {
+                "id": 277,
+                "name": "Santos",
+                "logo": "https://s.sde.globo.com/media/organizations/2018/03/12/santos.svg"
+              },
+              "points": 33,
+              "goalsDiff": -1,
+              "form": "WDWWD",
+              "description": "Copa Sudamericana",
+              "all": {
+                "played": 26,
+                "win": 8,
+                "draw": 9,
+                "lose": 9,
+                "goals": {
+                  "for": 37,
+                  "against": 38
+                }
+              }
+            },
+            {
+              "rank": 12,
+              "team": {
                 "id": 287,
                 "name": "Vitória",
                 "logo": "https://s.sde.globo.com/media/organizations/2025/12/18/Vitoria_2025.svg"
@@ -18805,7 +18827,7 @@
               "points": 32,
               "goalsDiff": -12,
               "form": "LWLLW",
-              "description": "Copa Sudamericana",
+              "description": null,
               "all": {
                 "played": 26,
                 "win": 9,
@@ -18818,7 +18840,7 @@
               }
             },
             {
-              "rank": 12,
+              "rank": 13,
               "team": {
                 "id": 264,
                 "name": "Corinthians",
@@ -18840,46 +18862,24 @@
               }
             },
             {
-              "rank": 13,
-              "team": {
-                "id": 277,
-                "name": "Santos",
-                "logo": "https://s.sde.globo.com/media/organizations/2018/03/12/santos.svg"
-              },
-              "points": 32,
-              "goalsDiff": -1,
-              "form": "LWDWW",
-              "description": null,
-              "all": {
-                "played": 25,
-                "win": 8,
-                "draw": 8,
-                "lose": 9,
-                "goals": {
-                  "for": 37,
-                  "against": 38
-                }
-              }
-            },
-            {
               "rank": 14,
               "team": {
                 "id": 263,
                 "name": "Botafogo",
                 "logo": "https://s.sde.globo.com/media/organizations/2019/02/04/botafogo-svg.svg"
               },
-              "points": 32,
-              "goalsDiff": -3,
-              "form": "LLLDD",
+              "points": 31,
+              "goalsDiff": -4,
+              "form": "LLLDL",
               "description": null,
               "all": {
                 "played": 26,
                 "win": 8,
-                "draw": 8,
-                "lose": 10,
+                "draw": 7,
+                "lose": 11,
                 "goals": {
                   "for": 37,
-                  "against": 40
+                  "against": 41
                 }
               }
             },
@@ -20129,7 +20129,7 @@
     "mode": "live",
     "liveIntervalMs": 20000
   },
-  "fetchedAt": "2026-09-13T00:00:50.442Z",
+  "fetchedAt": "2026-09-13T00:07:43.901Z",
   "source": "ge-globo",
   "meta": {
     "rodada": 27,

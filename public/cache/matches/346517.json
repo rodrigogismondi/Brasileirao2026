@@ -9,10 +9,10 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": null
+      "elapsed": 6
     },
-    "timerStart": "2026-09-12T22:50:37.214Z",
-    "timerStatus": "PAUSADO"
+    "timerStart": "2026-09-13T00:01:16.550Z",
+    "timerStatus": "INICIADO"
   },
   "league": {
     "round": "Regular Season - 27"
@@ -30,8 +30,8 @@
     }
   },
   "goals": {
-    "home": null,
-    "away": null
+    "home": 0,
+    "away": 0
   },
   "score": {
     "halftime": {
@@ -49,7 +49,174 @@
     "away": 2.45,
     "source": "betexplorer"
   },
-  "events": [],
+  "events": [
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Igor Vinicius faz falta em Gabriel Rojas.",
+      "player": {
+        "name": "Igor Vinicius faz falta em Gabriel Rojas."
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Está valendo Santos x Cruzeiro!",
+      "player": {
+        "name": "Começou"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 1,
+        "extra": null
+      },
+      "team": {
+        "id": 283,
+        "name": "Cruzeiro"
+      },
+      "type": "Important",
+      "detail": "Willian Arão tenta acionar Rony na frente, mas a zaga do Cruzeiro faz o corte.",
+      "player": {
+        "name": "Willian Arão tenta acionar Rony na frente, mas a"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 2,
+        "extra": null
+      },
+      "team": {
+        "id": 283,
+        "name": "Cruzeiro"
+      },
+      "type": "Important",
+      "detail": "Gerson ganha a disputa no meio-campo e toca para Gabriel Rojas. Ele cruza para a área, e Kaio Jorge sobe sozinho de cabeça e manda por cima do gol de Gabriel Brazão, na primeira grande chance do jogo.",
+      "player": {
+        "name": "Kaio Jorge"
+      },
+      "assist": {
+        "name": "Uuuuh"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 2,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Willian Arão erra o passe pelo meio-campo, e Matheus Henrique se antecipa bem para ficar com a bola e recomeçar o jogo no campo defensivo.",
+      "player": {
+        "name": "Willian Arão erra o passe pelo meio-campo, e Mat"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 3,
+        "extra": null
+      },
+      "team": {
+        "id": 277,
+        "name": "Santos"
+      },
+      "type": "Important",
+      "detail": "Everton Cebolinha recebe a bola por dentro e chuta de perna direita, para uma defesa tranquila de Otávio.",
+      "player": {
+        "name": "Everton"
+      },
+      "assist": {
+        "name": "Finalização"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 3,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Os primeiros três minutos são de reconhecimento mútuo. O Santos tentou a primeira iniciativa com Willian Arão, que procurou Rony no ataque, mas a zaga do Cruzeiro cortou a jogada. A partida se concentra na disputa no meio-campo, onde Matheus Henrique se antecipou a um erro de passe santista para retomar a posse. Jogo ainda sem finalizações e com muita marcação até aqui.",
+      "player": {
+        "name": "Início de estudo entre Santos e Cruzeiro"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 4,
+        "extra": null
+      },
+      "team": {
+        "id": 277,
+        "name": "Santos"
+      },
+      "type": "Important",
+      "detail": "Gabriel Bontempo recebe a bola na entrada da área, se livra da marcação de Matheus Henrique e chuta para o gol. A bola desvia e sai para escanteio para o Santos.",
+      "player": {
+        "name": "Gabriel Bontempo"
+      },
+      "assist": {
+        "name": "Linda jogada"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 4,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Rodinei domina de cabeça e tenta escapar pela lateral na direita, mas é parado com falta por Gabriel Rojas.",
+      "player": {
+        "name": "Rodinei domina de cabeça e tenta escapar pela la"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 5,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Rollheiser cobra escanteio com veneno do lado esquerdo, e Otávio sai de soco para afastar o perigo da área.",
+      "player": {
+        "name": "Rollheiser cobra escanteio com veneno do lado es"
+      },
+      "assist": null
+    }
+  ],
   "lineups": [
     {
       "team": {
@@ -496,6 +663,159 @@
       ]
     }
   ],
-  "statistics": [],
+  "statistics": [
+    {
+      "team": {
+        "id": 277,
+        "name": "Santos"
+      },
+      "statistics": [
+        {
+          "type": "Ball Possession",
+          "value": "27%"
+        },
+        {
+          "type": "Total Passes",
+          "value": 8
+        },
+        {
+          "type": "Pass Accuracy",
+          "value": "38%"
+        },
+        {
+          "type": "Incomplete Passes",
+          "value": 5
+        },
+        {
+          "type": "Total Shots",
+          "value": 0
+        },
+        {
+          "type": "Shots on Goal",
+          "value": 0
+        },
+        {
+          "type": "Shots off Goal",
+          "value": 0
+        },
+        {
+          "type": "Blocked Shots",
+          "value": 0
+        },
+        {
+          "type": "Hit Woodwork",
+          "value": 0
+        },
+        {
+          "type": "Corner Kicks",
+          "value": 0
+        },
+        {
+          "type": "Offsides",
+          "value": 0
+        },
+        {
+          "type": "Penalties",
+          "value": 0
+        },
+        {
+          "type": "Goalkeeper Saves",
+          "value": 0
+        },
+        {
+          "type": "Tackles",
+          "value": 2
+        },
+        {
+          "type": "Fouls",
+          "value": 1
+        },
+        {
+          "type": "Yellow Cards",
+          "value": 0
+        },
+        {
+          "type": "Red Cards",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "team": {
+        "id": 283,
+        "name": "Cruzeiro"
+      },
+      "statistics": [
+        {
+          "type": "Ball Possession",
+          "value": "73%"
+        },
+        {
+          "type": "Total Passes",
+          "value": 32
+        },
+        {
+          "type": "Pass Accuracy",
+          "value": "84%"
+        },
+        {
+          "type": "Incomplete Passes",
+          "value": 5
+        },
+        {
+          "type": "Total Shots",
+          "value": 1
+        },
+        {
+          "type": "Shots on Goal",
+          "value": 0
+        },
+        {
+          "type": "Shots off Goal",
+          "value": 1
+        },
+        {
+          "type": "Blocked Shots",
+          "value": 0
+        },
+        {
+          "type": "Hit Woodwork",
+          "value": 0
+        },
+        {
+          "type": "Corner Kicks",
+          "value": 0
+        },
+        {
+          "type": "Offsides",
+          "value": 0
+        },
+        {
+          "type": "Penalties",
+          "value": 0
+        },
+        {
+          "type": "Goalkeeper Saves",
+          "value": 1
+        },
+        {
+          "type": "Tackles",
+          "value": 2
+        },
+        {
+          "type": "Fouls",
+          "value": 0
+        },
+        {
+          "type": "Yellow Cards",
+          "value": 0
+        },
+        {
+          "type": "Red Cards",
+          "value": 0
+        }
+      ]
+    }
+  ],
   "sportsFieldUrl": null
 }

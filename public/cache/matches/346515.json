@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 12
+      "elapsed": 15
     },
     "timerStart": "2026-09-13T20:30:09.941Z",
     "timerStatus": "INICIADO"
@@ -416,9 +416,73 @@
         "name": "Flamengo"
       },
       "type": "Important",
+      "detail": "Danilo faz passe vertical em direção ao ataque, Pedro escora a bola para passagem de Arrascaeta. Ele chega à linha de fundo e bate para o meio da área. João Pedro Tchoca faz o corte, mas a arbitragem marca impedimento do camisa 10 do Flamengo.",
+      "player": {
+        "name": "No ataque"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 11,
+        "extra": null
+      },
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "Important",
       "detail": "Lingard recupera a bola na defesa e tenta despachar para a frente, mas o Flamengo retoma a posse de bola e segue no campo ofensivo.",
       "player": {
         "name": "Lingard recupera a bola na defesa e tenta despac"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 12,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O jogo começa com o Flamengo dominando a posse de bola e buscando o ataque nos primeiros 13 minutos. O time carioca já criou as melhores chances, com Plata obrigando o goleiro Hugo Souza a fazer uma boa defesa em chute de esquerda. A pressão rubro-negra continuou com finalização de longe de Lucas Paquetá e uma sequência de escanteios. O Corinthians se segura na defesa e tenta sair em velocidade.",
+      "player": {
+        "name": "Fla pressiona e para em Hugo Souza no início"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 12,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Charles se livra de três marcadores no meio-campo, mas toca errado para Angileri e manda para a lateral.",
+      "player": {
+        "name": "Charles se livra de três marcadores no meio-camp"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 13,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Paquetá passa para Ayrton Lucas no lado esquerdo, e Pedro Milans faz o corte para a lateral.",
+      "player": {
+        "name": "Paquetá passa para Ayrton Lucas no lado esquerdo"
       },
       "assist": null
     }
@@ -878,23 +942,23 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "76%"
+          "value": "73%"
         },
         {
           "type": "Total Passes",
-          "value": 89
+          "value": 125
         },
         {
           "type": "Pass Accuracy",
-          "value": "93%"
+          "value": "90%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 6
+          "value": 12
         },
         {
           "type": "Total Shots",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Shots on Goal",
@@ -902,7 +966,7 @@
         },
         {
           "type": "Shots off Goal",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Blocked Shots",
@@ -914,11 +978,11 @@
         },
         {
           "type": "Corner Kicks",
-          "value": 1
+          "value": 3
         },
         {
           "type": "Offsides",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Penalties",
@@ -934,7 +998,7 @@
         },
         {
           "type": "Fouls",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Yellow Cards",
@@ -954,19 +1018,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "24%"
+          "value": "27%"
         },
         {
           "type": "Total Passes",
-          "value": 26
+          "value": 31
         },
         {
           "type": "Pass Accuracy",
-          "value": "69%"
+          "value": "71%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 8
+          "value": 9
         },
         {
           "type": "Total Shots",
@@ -1002,7 +1066,7 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Tackles",

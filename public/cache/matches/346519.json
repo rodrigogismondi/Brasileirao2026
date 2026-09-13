@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 76
+      "elapsed": 80
     },
     "timerStart": "2026-09-13T20:10:33.658Z",
     "timerStatus": "INICIADO"
@@ -1615,6 +1615,136 @@
         "name": "Mirassol tenta se lançar em busca do empate."
       },
       "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 73,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Mirassol troca passes no campo de ataque, enquanto o Vitória se fecha.",
+      "player": {
+        "name": "Mirassol troca passes no campo de ataque, enquan"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 74,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Depois de um primeiro tempo dominado pelo Vitória, que abriu 2 a 0 com dois gols de Renê aproveitando falhas do sistema defensivo do Mirassol, a partida mudou de tom. Os visitantes chegaram a ter um terceiro gol anulado pelo VAR. Aos 22 da segunda etapa, Bruno Santos diminuiu para o time da casa. Com quase 30 minutos, o Mirassol pressiona em busca do empate e o jogo fica totalmente aberto.",
+      "player": {
+        "name": "Mirassol reage e coloca fogo no jogo!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 74,
+        "extra": null
+      },
+      "team": {
+        "id": 2305,
+        "name": "Mirassol"
+      },
+      "type": "Important",
+      "detail": "Reinaldo arrisca de muito longe, mas isola.",
+      "player": {
+        "name": "Reinaldo"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 75,
+        "extra": null
+      },
+      "team": {
+        "id": 287,
+        "name": "Vitória"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Edenílson"
+      },
+      "assist": {
+        "name": "Caíque"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 77,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Vitória abriu 2 a 0 no primeiro tempo com dois gols de Renê, aproveitando falhas do goleiro Muralha e da zaga do Mirassol. Na etapa final, o time visitante ainda teve um gol de Zé Vitor anulado pelo VAR. A reação veio aos 22 minutos, quando Bruno Santos girou e finalizou forte para diminuir. Com mais de 30 minutos jogados, o Mirassol agora pressiona em busca do empate.",
+      "player": {
+        "name": "Mirassol reage e bota fogo no jogo!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 77,
+        "extra": null
+      },
+      "team": {
+        "id": 2305,
+        "name": "Mirassol"
+      },
+      "type": "Important",
+      "detail": "Mirassol domina as ações ofensivas nos últimos minutos.",
+      "player": {
+        "name": "Mirassol domina as ações ofensivas nos últimos m"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 78,
+        "extra": null
+      },
+      "team": {
+        "id": 2305,
+        "name": "Mirassol"
+      },
+      "type": "Important",
+      "detail": "Reinaldo finaliza de fora da área, mas a bola bate em André Luís, no próprio companheiro de Mirassol.",
+      "player": {
+        "name": "Fogo amigo"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 78,
+        "extra": null
+      },
+      "team": {
+        "id": 2305,
+        "name": "Mirassol"
+      },
+      "type": "Important",
+      "detail": "Mirassol ganha escanteio pela direita do ataque.",
+      "player": {
+        "name": "Mirassol ganha escanteio pela direita do ataque."
+      },
+      "assist": null
     }
   ],
   "lineups": [
@@ -2072,11 +2202,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "65%"
+          "value": "66%"
         },
         {
           "type": "Total Passes",
-          "value": 490
+          "value": 529
         },
         {
           "type": "Pass Accuracy",
@@ -2084,11 +2214,11 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 64
+          "value": 69
         },
         {
           "type": "Total Shots",
-          "value": 15
+          "value": 16
         },
         {
           "type": "Shots on Goal",
@@ -2096,7 +2226,7 @@
         },
         {
           "type": "Shots off Goal",
-          "value": 6
+          "value": 7
         },
         {
           "type": "Blocked Shots",
@@ -2108,7 +2238,7 @@
         },
         {
           "type": "Corner Kicks",
-          "value": 8
+          "value": 9
         },
         {
           "type": "Offsides",
@@ -2148,19 +2278,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "35%"
+          "value": "34%"
         },
         {
           "type": "Total Passes",
-          "value": 192
+          "value": 194
         },
         {
           "type": "Pass Accuracy",
-          "value": "70%"
+          "value": "69%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 58
+          "value": 60
         },
         {
           "type": "Total Shots",
@@ -2200,7 +2330,7 @@
         },
         {
           "type": "Tackles",
-          "value": 17
+          "value": 19
         },
         {
           "type": "Fouls",

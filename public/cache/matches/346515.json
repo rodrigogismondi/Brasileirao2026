@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 58
+      "elapsed": 61
     },
     "timerStart": "2026-09-13T21:35:10.931Z",
     "timerStatus": "INICIADO"
@@ -1874,6 +1874,38 @@
         "extra": null
       },
       "team": {
+        "id": 264,
+        "name": "Corinthians"
+      },
+      "type": "Important",
+      "detail": "Corinthians troca passes no meio-campo.",
+      "player": {
+        "name": "Corinthians troca passes no meio-campo."
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 57,
+        "extra": null
+      },
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "Important",
+      "detail": "Após um primeiro tempo de enorme pressão do Flamengo, com direito a bola salva em cima da linha por João Pedro Tchoca e defesas milagrosas de Hugo Souza, a rede finalmente balançou. Logo no início da segunda etapa, após cobrança de escanteio de Arrascaeta e uma falha na saída do goleiro, Lucas Paquetá aproveitou a sobra e fuzilou para abrir o placar em 1 a 0 para o time da casa.",
+      "player": {
+        "name": "Paquetá abre o placar no início do 2º tempo"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 57,
+        "extra": null
+      },
+      "team": {
         "id": 262,
         "name": "Flamengo"
       },
@@ -1884,6 +1916,40 @@
       },
       "assist": {
         "name": "Uuuh"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 58,
+        "extra": null
+      },
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "Important",
+      "detail": "Matheus Pereira toca errado no meio-campo e entrega a bola para o Flamengo, que parte novamente para o ataque.",
+      "player": {
+        "name": "Matheus Pereira toca errado no meio-campo e entr"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 59,
+        "extra": null
+      },
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "Important",
+      "detail": "Arrascaeta faz linda jogada com toque de calcanhar e recebe de volta de Plata invadindo a área, mas Angileri e João Pedro Tchoca apertam na marcação e atrapalham a finalização. Flamengo ganha escanteio.",
+      "player": {
+        "name": "Arrascaeta"
+      },
+      "assist": {
+        "name": "Que lance!"
       }
     }
   ],
@@ -2342,11 +2408,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "65%"
+          "value": "64%"
         },
         {
           "type": "Total Passes",
-          "value": 477
+          "value": 511
         },
         {
           "type": "Pass Accuracy",
@@ -2354,11 +2420,11 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 54
+          "value": 55
         },
         {
           "type": "Total Shots",
-          "value": 19
+          "value": 20
         },
         {
           "type": "Shots on Goal",
@@ -2366,7 +2432,7 @@
         },
         {
           "type": "Shots off Goal",
-          "value": 7
+          "value": 8
         },
         {
           "type": "Blocked Shots",
@@ -2394,7 +2460,7 @@
         },
         {
           "type": "Tackles",
-          "value": 12
+          "value": 14
         },
         {
           "type": "Fouls",
@@ -2418,19 +2484,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "35%"
+          "value": "36%"
         },
         {
           "type": "Total Passes",
-          "value": 197
+          "value": 232
         },
         {
           "type": "Pass Accuracy",
-          "value": "82%"
+          "value": "83%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 35
+          "value": 39
         },
         {
           "type": "Total Shots",

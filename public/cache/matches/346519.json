@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 58
+      "elapsed": 61
     },
     "timerStart": "2026-09-13T20:10:33.658Z",
     "timerStatus": "INICIADO"
@@ -31,7 +31,7 @@
   },
   "goals": {
     "home": 0,
-    "away": 2
+    "away": 3
   },
   "score": {
     "halftime": {
@@ -1249,6 +1249,86 @@
         "name": "Bruno Santos"
       },
       "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 56,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Vitória foi cirúrgico no começo e abriu 2 a 0 em apenas 12 minutos de jogo. Renê foi o grande nome, aproveitando duas falhas do goleiro Alex Muralha para balançar as redes duas vezes e colocar o time visitante em ótima vantagem. O Mirassol busca reagir no segundo tempo e já parou em uma defesaça de Lucas Arcanjo em cobrança de falta de Chico Kim aos 8 minutos. Jogo quente e pegado.",
+      "player": {
+        "name": "Vitória letal e Mirassol em apuros"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 56,
+        "extra": null
+      },
+      "team": {
+        "id": 2305,
+        "name": "Mirassol"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Wallisson"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 57,
+        "extra": null
+      },
+      "team": {
+        "id": 287,
+        "name": "Vitória"
+      },
+      "type": "Important",
+      "detail": "Vitória tem escanteio pela esquerda.",
+      "player": {
+        "name": "Vitória tem escanteio pela esquerda."
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 58,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Mirassol retornou para a segunda etapa buscando diminuir o prejuízo e pressionou o adversário. A melhor chance veio em cobrança de falta de Chico Kim, que parou em uma defesa espetacular de Lucas Arcanjo. Apesar da tentativa de reação, foi o Vitória quem balançou a rede novamente. Aos 13 minutos, o time visitante fez o terceiro gol, ampliando a vantagem para 3 a 0.",
+      "player": {
+        "name": "Vitória marca o terceiro e dispara no placar!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 58,
+        "extra": null
+      },
+      "team": {
+        "id": 287,
+        "name": "Vitória"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "player": {
+        "name": "?"
+      },
+      "assist": null
     }
   ],
   "lineups": [
@@ -1706,11 +1786,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "65%"
+          "value": "63%"
         },
         {
           "type": "Total Passes",
-          "value": 389
+          "value": 391
         },
         {
           "type": "Pass Accuracy",
@@ -1762,11 +1842,11 @@
         },
         {
           "type": "Fouls",
-          "value": 8
+          "value": 9
         },
         {
           "type": "Yellow Cards",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Red Cards",
@@ -1782,11 +1862,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "35%"
+          "value": "37%"
         },
         {
           "type": "Total Passes",
-          "value": 171
+          "value": 178
         },
         {
           "type": "Pass Accuracy",
@@ -1794,7 +1874,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 49
+          "value": 51
         },
         {
           "type": "Total Shots",
@@ -1818,7 +1898,7 @@
         },
         {
           "type": "Corner Kicks",
-          "value": 4
+          "value": 5
         },
         {
           "type": "Offsides",
@@ -1834,7 +1914,7 @@
         },
         {
           "type": "Tackles",
-          "value": 13
+          "value": 14
         },
         {
           "type": "Fouls",

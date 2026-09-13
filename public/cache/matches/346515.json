@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 52
+      "elapsed": 55
     },
     "timerStart": "2026-09-13T21:35:10.931Z",
     "timerStatus": "INICIADO"
@@ -1739,6 +1739,70 @@
         "name": "Corinthians troca passes no campo defensivo, pre"
       },
       "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 52,
+        "extra": null
+      },
+      "team": {
+        "id": 264,
+        "name": "Corinthians"
+      },
+      "type": "Important",
+      "detail": "Corinthians chega ao ataque. Pedro Milans cruza da direita para a área, Angileri toca de cabeça pelo lado esquerdo em direção a Gui Negão e Danilo faz o corte.",
+      "player": {
+        "name": "No ataque"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 54,
+        "extra": null
+      },
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "Important",
+      "detail": "Após um primeiro tempo de domínio total, com o goleiro Hugo Souza operando milagres e uma bola salva em cima da linha, o Flamengo finalmente abriu o placar. Logo aos 2 minutos da segunda etapa, após escanteio de Arrascaeta e uma saída ruim do goleiro, Lucas Paquetá aproveitou a sobra e encheu o pé para fazer 1 a 0. O gol coroa a intensa pressão rubro-negra na partida.",
+      "player": {
+        "name": "Paquetá quebra o ferrolho corintiano!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 54,
+        "extra": null
+      },
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "Important",
+      "detail": "Flamengo se lança novamente ao ataque, trocando passes no campo ofensivo.",
+      "player": {
+        "name": "Flamengo se lança novamente ao ataque, trocando "
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 54,
+        "extra": null
+      },
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "Important",
+      "detail": "Flamengo se lança novamente ao ataque, trocando passes no campo ofensivo.",
+      "player": {
+        "name": "Flamengo se lança novamente ao ataque, trocando "
+      },
+      "assist": null
     }
   ],
   "lineups": [
@@ -2196,11 +2260,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "67%"
+          "value": "68%"
         },
         {
           "type": "Total Passes",
-          "value": 447
+          "value": 451
         },
         {
           "type": "Pass Accuracy",
@@ -2208,7 +2272,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 49
+          "value": 50
         },
         {
           "type": "Total Shots",
@@ -2248,15 +2312,15 @@
         },
         {
           "type": "Tackles",
-          "value": 4
+          "value": 7
         },
         {
           "type": "Fouls",
-          "value": 5
+          "value": 7
         },
         {
           "type": "Yellow Cards",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Red Cards",
@@ -2272,19 +2336,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "33%"
+          "value": "32%"
         },
         {
           "type": "Total Passes",
-          "value": 139
+          "value": 169
         },
         {
           "type": "Pass Accuracy",
-          "value": "79%"
+          "value": "82%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 29
+          "value": 31
         },
         {
           "type": "Total Shots",

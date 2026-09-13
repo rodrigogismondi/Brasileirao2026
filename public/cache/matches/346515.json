@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 93
+      "elapsed": 97
     },
     "timerStart": "2026-09-13T21:35:10.931Z",
     "timerStatus": "INICIADO"
@@ -2930,6 +2930,22 @@
     },
     {
       "time": {
+        "elapsed": 90,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "+7 minutos.",
+      "player": {
+        "name": "Acréscimos"
+      },
+      "assist": null
+    },
+    {
+      "time": {
         "elapsed": 91,
         "extra": null
       },
@@ -2973,6 +2989,102 @@
       "detail": "Rodrigo Garro lança Gui Negão no ataque, mas o atacante do Corinthians não consegue dominar, e a bola sai pela linha de fundo.",
       "player": {
         "name": "Rodrigo Garro lança Gui Negão no ataque, mas o a"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 93,
+        "extra": null
+      },
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "Important",
+      "detail": "Lingard cruza da esquerda para a área, e zaga do Flamengo afasta o perigo.",
+      "player": {
+        "name": "Lingard cruza da esquerda para a área, e zaga do"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 94,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Lingard joga para a área por cima, e Danilo sobe para fazer o corte de cabeça.",
+      "player": {
+        "name": "Lingard joga para a área por cima, e Danilo sobe"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 94,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O segundo tempo pegou fogo! O Flamengo abriu o placar logo no início com Lucas Paquetá, aproveitando uma sobra na área. O Corinthians não se abateu e, após as mudanças de Diniz, buscou o empate com Gui Negão em bela jogada coletiva. Mas, já nos minutos finais, Bruno Henrique subiu de cabeça após cruzamento de Freitas para fazer 2 a 1 para o Flamengo, que agora se segura nos acréscimos.",
+      "player": {
+        "name": "Fla na frente no apagar das luzes!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 94,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Corinthians se lança ao ataque nos últimos minutos, tentando o empate, e Flamengo recua para garantir a vitória.",
+      "player": {
+        "name": "Corinthians se lança ao ataque nos últimos minut"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 95,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Matheuzinho na marcação de Bruno Henrique faz o corte para a linha de fundo.",
+      "player": {
+        "name": "Matheuzinho na marcação de Bruno Henrique faz o "
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 95,
+        "extra": null
+      },
+      "team": {
+        "id": 264,
+        "name": "Corinthians"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Garro"
       },
       "assist": null
     }
@@ -3432,11 +3544,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "61%"
+          "value": "60%"
         },
         {
           "type": "Total Passes",
-          "value": 673
+          "value": 682
         },
         {
           "type": "Pass Accuracy",
@@ -3444,11 +3556,11 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 79
+          "value": 80
         },
         {
           "type": "Total Shots",
-          "value": 29
+          "value": 31
         },
         {
           "type": "Shots on Goal",
@@ -3456,7 +3568,7 @@
         },
         {
           "type": "Shots off Goal",
-          "value": 13
+          "value": 15
         },
         {
           "type": "Blocked Shots",
@@ -3484,7 +3596,7 @@
         },
         {
           "type": "Tackles",
-          "value": 17
+          "value": 18
         },
         {
           "type": "Fouls",
@@ -3492,7 +3604,7 @@
         },
         {
           "type": "Yellow Cards",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Red Cards",
@@ -3508,11 +3620,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "39%"
+          "value": "40%"
         },
         {
           "type": "Total Passes",
-          "value": 355
+          "value": 377
         },
         {
           "type": "Pass Accuracy",
@@ -3520,7 +3632,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 50
+          "value": 51
         },
         {
           "type": "Total Shots",

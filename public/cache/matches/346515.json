@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 70
+      "elapsed": 73
     },
     "timerStart": "2026-09-13T21:35:10.931Z",
     "timerStatus": "INICIADO"
@@ -2226,6 +2226,22 @@
         "extra": null
       },
       "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Pedro é acionado na frente, mas João Pedro Tchoca faz corte de cabeça.",
+      "player": {
+        "name": "Pedro é acionado na frente, mas João Pedro Tchoc"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 68,
+        "extra": null
+      },
+      "team": {
         "id": 262,
         "name": "Flamengo"
       },
@@ -2235,6 +2251,88 @@
         "name": "Lingard é desarmado por Samuel Lino e depois com"
       },
       "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 69,
+        "extra": null
+      },
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "Important",
+      "detail": "Matheus Pereira arrisca de longe, e a bola desvia na zaga do Flamengo. Rossi tenta evitar a saída pela lateral, mas não consegue.",
+      "player": {
+        "name": "Matheus Pereira arrisca de longe, e a bola desvi"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 69,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Ayrton Lucas arranca pelo meio-campo e passa pelos adversários, mas é prensado por Raniele.",
+      "player": {
+        "name": "Ayrton Lucas arranca pelo meio-campo e passa pel"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 69,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Após um primeiro tempo de intenso bombardeio do Flamengo e defesas milagrosas de Hugo Souza, a rede finalmente balançou no início da segunda etapa! Aos 2 minutos, em cobrança de escanteio de Arrascaeta, o goleiro do Corinthians saiu mal e Lucas Paquetá aproveitou a sobra para fuzilar e fazer 1 a 0. O time paulista já fez quatro substituições para tentar reagir ao gol sofrido.",
+      "player": {
+        "name": "Paquetá abre o placar no Maracanã!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 69,
+        "extra": null
+      },
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "Important",
+      "detail": "Flamengo se põe novamente no campo ofensivo, trocando passes no meio-campo.",
+      "player": {
+        "name": "Flamengo se põe novamente no campo ofensivo, tro"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 70,
+        "extra": null
+      },
+      "team": {
+        "id": 264,
+        "name": "Corinthians"
+      },
+      "type": "Important",
+      "detail": "Lingard chuta de muito longe e manda por cima do gol de Rossi, na primeira finalização do Corinthians na partida.",
+      "player": {
+        "name": "Lingard"
+      },
+      "assist": {
+        "name": "Tentativa"
+      }
     }
   ],
   "lineups": [
@@ -2692,11 +2790,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "63%"
+          "value": "62%"
         },
         {
           "type": "Total Passes",
-          "value": 549
+          "value": 581
         },
         {
           "type": "Pass Accuracy",
@@ -2704,7 +2802,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 60
+          "value": 63
         },
         {
           "type": "Total Shots",
@@ -2740,11 +2838,11 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Tackles",
-          "value": 15
+          "value": 16
         },
         {
           "type": "Fouls",
@@ -2768,23 +2866,23 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "37%"
+          "value": "38%"
         },
         {
           "type": "Total Passes",
-          "value": 273
+          "value": 288
         },
         {
           "type": "Pass Accuracy",
-          "value": "84%"
+          "value": "85%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 43
+          "value": 44
         },
         {
           "type": "Total Shots",
-          "value": 0
+          "value": 2
         },
         {
           "type": "Shots on Goal",
@@ -2792,11 +2890,11 @@
         },
         {
           "type": "Shots off Goal",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Blocked Shots",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Hit Woodwork",
@@ -2820,11 +2918,11 @@
         },
         {
           "type": "Tackles",
-          "value": 12
+          "value": 13
         },
         {
           "type": "Fouls",
-          "value": 4
+          "value": 6
         },
         {
           "type": "Yellow Cards",

@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 85
+      "elapsed": 88
     },
     "timerStart": "2026-09-13T20:10:33.658Z",
     "timerStatus": "INICIADO"
@@ -1854,6 +1854,22 @@
         "extra": null
       },
       "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O jogo virou de ponta-cabeça! Depois de o Vitória abrir 2 a 0 com dois gols de Renê, o Mirassol reagiu no segundo tempo. Bruno Santos descontou aos 22 minutos, e agora a pressão é total. Perto dos 40, o time da casa acertou a trave duas vezes seguidas com Bruno Santos e Edson Carioca, em lances incríveis. O placar segue 2 a 1 para os visitantes e o final é eletrizante.",
+      "player": {
+        "name": "Pressão e duas bolas na trave: jogo pega fogo!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 84,
+        "extra": null
+      },
+      "team": {
         "id": 2305,
         "name": "Mirassol"
       },
@@ -1864,6 +1880,40 @@
       },
       "assist": {
         "name": "Na trave de novo!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 87,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O jogo entra na reta final com o placar em 2 a 1 para o Vitória, que abriu vantagem com dois gols de Renê no primeiro tempo. O Mirassol voltou com tudo na segunda etapa, diminuiu com Bruno Santos aos 22 minutos e agora pressiona em busca do empate. A equipe da casa já carimbou a trave duas vezes seguidas, com Bruno Santos e Edson Carioca, esquentando os minutos finais da partida.",
+      "player": {
+        "name": "Mirassol na pressão e na trave!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 87,
+        "extra": null
+      },
+      "team": {
+        "id": 2305,
+        "name": "Mirassol"
+      },
+      "type": "Important",
+      "detail": "André Luís ajeita de cabeça para Bruno Santos, que cabeceia firme, mas manda por cima do travessão de Lucas Arcanjo.",
+      "player": {
+        "name": "Bruno Santos"
+      },
+      "assist": {
+        "name": "Pra fora!"
       }
     }
   ],
@@ -2326,7 +2376,7 @@
         },
         {
           "type": "Total Passes",
-          "value": 550
+          "value": 578
         },
         {
           "type": "Pass Accuracy",
@@ -2334,11 +2384,11 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 73
+          "value": 77
         },
         {
           "type": "Total Shots",
-          "value": 17
+          "value": 18
         },
         {
           "type": "Shots on Goal",
@@ -2350,7 +2400,7 @@
         },
         {
           "type": "Blocked Shots",
-          "value": 5
+          "value": 6
         },
         {
           "type": "Hit Woodwork",
@@ -2374,11 +2424,11 @@
         },
         {
           "type": "Tackles",
-          "value": 15
+          "value": 16
         },
         {
           "type": "Fouls",
-          "value": 10
+          "value": 11
         },
         {
           "type": "Yellow Cards",
@@ -2402,15 +2452,15 @@
         },
         {
           "type": "Total Passes",
-          "value": 196
+          "value": 204
         },
         {
           "type": "Pass Accuracy",
-          "value": "69%"
+          "value": "68%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 60
+          "value": 65
         },
         {
           "type": "Total Shots",
@@ -2446,15 +2496,15 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 10
+          "value": 11
         },
         {
           "type": "Tackles",
-          "value": 21
+          "value": 22
         },
         {
           "type": "Fouls",
-          "value": 14
+          "value": 15
         },
         {
           "type": "Yellow Cards",

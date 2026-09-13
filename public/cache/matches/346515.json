@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 21
+      "elapsed": 24
     },
     "timerStart": "2026-09-13T20:30:09.941Z",
     "timerStatus": "INICIADO"
@@ -645,6 +645,102 @@
         "name": "Hugo Souza cobra mais uma vez o tiro de meta par"
       },
       "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 19,
+        "extra": null
+      },
+      "team": {
+        "id": 264,
+        "name": "Corinthians"
+      },
+      "type": "Important",
+      "detail": "Pulgar faz falta em Raniele em tentativa de saída de bola do Corinthians.",
+      "player": {
+        "name": "Pulgar faz falta em Raniele em tentativa de saíd"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 19,
+        "extra": null
+      },
+      "team": {
+        "id": 264,
+        "name": "Corinthians"
+      },
+      "type": "Important",
+      "detail": "Lucas Paquetá faz levantamento forte demais para o ataque em direção a Pedro, e a bola sai pela linha de fundo. É tiro de meta para o Corinthians.",
+      "player": {
+        "name": "Lucas Paquetá faz levantamento forte demais para"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 20,
+        "extra": null
+      },
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "Important",
+      "detail": "Iago Machado tenta fazer uma ligação direta em direção a Gui Negão no ataque, mas o Flamengo faz o corte e retoma a posse de bola.",
+      "player": {
+        "name": "Iago Machado tenta fazer uma ligação direta em d"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 20,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Corinthians troca passes no campo defensivo, sob pressão dos jogadores do Flamengo.",
+      "player": {
+        "name": "Corinthians troca passes no campo defensivo, sob"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 21,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Flamengo assumiu o controle do clássico nestes primeiros 20 minutos, empurrando o Corinthians para o seu campo de defesa. A equipe da casa já criou as melhores oportunidades, principalmente em um chute de Plata que exigiu boa defesa de Hugo Souza. Com a posse da bola, o time rubro-negro também levou perigo em finalização de Lucas Paquetá e acumulou escanteios, enquanto o Corinthians se segura como pode.",
+      "player": {
+        "name": "Fla domina, mas placar segue zerado"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 21,
+        "extra": null
+      },
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "Important",
+      "detail": "Samuel Lino recebe na ponta esquerda e tenta partir para dentro da área. Charles faz a marcação e Pedro Milans consegue fazer o corte para impedir a progressão do Flamengo.",
+      "player": {
+        "name": "Samuel Lino recebe na ponta esquerda e tenta par"
+      },
+      "assist": null
     }
   ],
   "lineups": [
@@ -1102,19 +1198,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "73%"
+          "value": "71%"
         },
         {
           "type": "Total Passes",
-          "value": 176
+          "value": 200
         },
         {
           "type": "Pass Accuracy",
-          "value": "89%"
+          "value": "90%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 19
+          "value": 21
         },
         {
           "type": "Total Shots",
@@ -1154,11 +1250,11 @@
         },
         {
           "type": "Tackles",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Fouls",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Yellow Cards",
@@ -1178,19 +1274,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "27%"
+          "value": "29%"
         },
         {
           "type": "Total Passes",
-          "value": 38
+          "value": 49
         },
         {
           "type": "Pass Accuracy",
-          "value": "68%"
+          "value": "73%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 12
+          "value": 13
         },
         {
           "type": "Total Shots",
@@ -1230,7 +1326,7 @@
         },
         {
           "type": "Tackles",
-          "value": 4
+          "value": 5
         },
         {
           "type": "Fouls",

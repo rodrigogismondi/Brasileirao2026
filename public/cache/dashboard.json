@@ -13263,7 +13263,7 @@
         "status": {
           "long": "1H",
           "short": "1H",
-          "elapsed": 26
+          "elapsed": 37
         },
         "timerStart": "2026-09-13T00:01:16.550Z",
         "timerStatus": "INICIADO"
@@ -13284,7 +13284,7 @@
         }
       },
       "goals": {
-        "home": 0,
+        "home": 2,
         "away": 0
       },
       "score": {
@@ -18666,28 +18666,6 @@
             {
               "rank": 5,
               "team": {
-                "id": 283,
-                "name": "Cruzeiro",
-                "logo": "https://s.sde.globo.com/media/organizations/2021/02/13/cruzeiro_2021.svg"
-              },
-              "points": 43,
-              "goalsDiff": 1,
-              "form": "WWLWD",
-              "description": "Copa Libertadores Qualifiers",
-              "all": {
-                "played": 27,
-                "win": 12,
-                "draw": 7,
-                "lose": 8,
-                "goals": {
-                  "for": 38,
-                  "against": 37
-                }
-              }
-            },
-            {
-              "rank": 6,
-              "team": {
                 "id": 265,
                 "name": "Bahia",
                 "logo": "https://s.sde.globo.com/media/organizations/2018/03/11/bahia.svg"
@@ -18695,7 +18673,7 @@
               "points": 43,
               "goalsDiff": 8,
               "form": "DDWWW",
-              "description": "Copa Sudamericana",
+              "description": "Copa Libertadores Qualifiers",
               "all": {
                 "played": 26,
                 "win": 11,
@@ -18704,6 +18682,28 @@
                 "goals": {
                   "for": 40,
                   "against": 32
+                }
+              }
+            },
+            {
+              "rank": 6,
+              "team": {
+                "id": 283,
+                "name": "Cruzeiro",
+                "logo": "https://s.sde.globo.com/media/organizations/2021/02/13/cruzeiro_2021.svg"
+              },
+              "points": 42,
+              "goalsDiff": 0,
+              "form": "WWLWL",
+              "description": "Copa Sudamericana",
+              "all": {
+                "played": 27,
+                "win": 12,
+                "draw": 6,
+                "lose": 9,
+                "goals": {
+                  "for": 38,
+                  "against": 38
                 }
               }
             },
@@ -18776,6 +18776,28 @@
             {
               "rank": 10,
               "team": {
+                "id": 277,
+                "name": "Santos",
+                "logo": "https://s.sde.globo.com/media/organizations/2018/03/12/santos.svg"
+              },
+              "points": 35,
+              "goalsDiff": 0,
+              "form": "WDWWW",
+              "description": "Copa Sudamericana",
+              "all": {
+                "played": 26,
+                "win": 9,
+                "draw": 8,
+                "lose": 9,
+                "goals": {
+                  "for": 38,
+                  "against": 38
+                }
+              }
+            },
+            {
+              "rank": 11,
+              "team": {
                 "id": 276,
                 "name": "São Paulo",
                 "logo": "https://s.sde.globo.com/media/organizations/2018/03/11/sao-paulo.svg"
@@ -18792,28 +18814,6 @@
                 "goals": {
                   "for": 31,
                   "against": 30
-                }
-              }
-            },
-            {
-              "rank": 11,
-              "team": {
-                "id": 277,
-                "name": "Santos",
-                "logo": "https://s.sde.globo.com/media/organizations/2018/03/12/santos.svg"
-              },
-              "points": 33,
-              "goalsDiff": -1,
-              "form": "WDWWD",
-              "description": "Copa Sudamericana",
-              "all": {
-                "played": 26,
-                "win": 8,
-                "draw": 9,
-                "lose": 9,
-                "goals": {
-                  "for": 37,
-                  "against": 38
                 }
               }
             },
@@ -20129,7 +20129,7 @@
     "mode": "live",
     "liveIntervalMs": 20000
   },
-  "fetchedAt": "2026-09-13T00:27:54.254Z",
+  "fetchedAt": "2026-09-13T00:38:38.338Z",
   "source": "ge-globo",
   "meta": {
     "rodada": 27,

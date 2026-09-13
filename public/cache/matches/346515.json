@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 15
+      "elapsed": 18
     },
     "timerStart": "2026-09-13T20:30:09.941Z",
     "timerStatus": "INICIADO"
@@ -485,6 +485,86 @@
         "name": "Paquetá passa para Ayrton Lucas no lado esquerdo"
       },
       "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 14,
+        "extra": null
+      },
+      "team": {
+        "id": 264,
+        "name": "Corinthians"
+      },
+      "type": "Important",
+      "detail": "Varela trabalha a bola com Pedro pelo lado direito, escapa pela ala e cruza para a área, mas a zaga do Corinthians afasta o perigo.",
+      "player": {
+        "name": "Varela trabalha a bola com Pedro pelo lado direi"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 15,
+        "extra": null
+      },
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "Important",
+      "detail": "Pressionado, Matheus Pereira tenta despachar para a frente, mas Flamengo fica com a bola e Charles precisa checar forte na marcação, mandando para a linha de fundo. É o quinto escanteio para o Flamengo.",
+      "player": {
+        "name": "Pressionado, Matheus Pereira tenta despachar par"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 15,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Flamengo assumiu o controle do clássico nos primeiros 15 minutos, dominando a posse de bola e pressionando no campo de ataque. O time carioca criou as melhores oportunidades até aqui, com Plata obrigando o goleiro Hugo Souza a fazer boa defesa em chute de esquerda. O Corinthians se defende como pode e tem dificuldades para sair jogando, enquanto o Fla acumula escanteios e impõe um forte ritmo.",
+      "player": {
+        "name": "Flamengo impõe ritmo no início de clássico"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 15,
+        "extra": null
+      },
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "Important",
+      "detail": "Samuel Lino invade a área, mas é desarmado por Dieguinho, que sai driblando pelo meio-campo e, depois no bate e rebate, o Flamengo retoma a posse de bola.",
+      "player": {
+        "name": "Pressão"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 16,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Plata cobra escanteio pelo lado direito, e Charles tira de cabeça na primeira trave.",
+      "player": {
+        "name": "Plata cobra escanteio pelo lado direito, e Charl"
+      },
+      "assist": null
     }
   ],
   "lineups": [
@@ -942,11 +1022,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "73%"
+          "value": "72%"
         },
         {
           "type": "Total Passes",
-          "value": 125
+          "value": 152
         },
         {
           "type": "Pass Accuracy",
@@ -954,7 +1034,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 12
+          "value": 15
         },
         {
           "type": "Total Shots",
@@ -978,7 +1058,7 @@
         },
         {
           "type": "Corner Kicks",
-          "value": 3
+          "value": 4
         },
         {
           "type": "Offsides",
@@ -1018,19 +1098,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "27%"
+          "value": "28%"
         },
         {
           "type": "Total Passes",
-          "value": 31
+          "value": 36
         },
         {
           "type": "Pass Accuracy",
-          "value": "71%"
+          "value": "69%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 9
+          "value": 11
         },
         {
           "type": "Total Shots",
@@ -1066,11 +1146,11 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 2
+          "value": 4
         },
         {
           "type": "Tackles",
-          "value": 1
+          "value": 3
         },
         {
           "type": "Fouls",

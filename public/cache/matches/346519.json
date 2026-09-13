@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 49
+      "elapsed": 53
     },
     "timerStart": "2026-09-13T20:10:33.658Z",
     "timerStatus": "INICIADO"
@@ -898,6 +898,22 @@
         "extra": null
       },
       "team": {
+        "id": 2305,
+        "name": "Mirassol"
+      },
+      "type": "Important",
+      "detail": "Mirassol ganha escanteio pela direita do ataque.",
+      "player": {
+        "name": "Mirassol ganha escanteio pela direita do ataque."
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 47,
+        "extra": null
+      },
+      "team": {
         "id": 0,
         "name": ""
       },
@@ -905,6 +921,38 @@
       "detail": "Que primeiro tempo intenso! O Vitória foi letal e aproveitou duas falhas da defesa do Mirassol para abrir 2 a 0. Renê não perdoou, marcando aos 2 e aos 12 minutos, explorando saídas ruins do goleiro Alex Muralha. O time da casa tenta responder, mas sem sucesso. O jogo é pegado, com cartões para os dois lados e até uma substituição forçada de Gustavo Mosquito após um choque de cabeça.",
       "player": {
         "name": "Vitória é fatal e abre 2 a 0 no início"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 48,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Início de jogo fulminante do Vitória, que construiu 2 a 0 em apenas 12 minutos. Renê foi letal e aproveitou duas falhas do goleiro Alex Muralha para marcar os gols. O Mirassol tentou responder e criou chances, mas sem conseguir furar a defesa adversária. A partida foi marcada por cartões e lesões, com a segunda etapa começando agora com os donos da casa precisando de uma grande reação.",
+      "player": {
+        "name": "Renê castiga e Vitória abre 2 a 0"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 48,
+        "extra": null
+      },
+      "team": {
+        "id": 2305,
+        "name": "Mirassol"
+      },
+      "type": "Important",
+      "detail": "Mais um choque de cabeça. Eduardo, do Mirassol, leva a pior e fica caído no gramado.",
+      "player": {
+        "name": "Mais um choque de cabeça. Eduardo, do Mirassol, "
       },
       "assist": null
     },
@@ -962,6 +1010,22 @@
         "extra": null
       },
       "team": {
+        "id": 287,
+        "name": "Vitória"
+      },
+      "type": "Important",
+      "detail": "Alesson finaliza da entrada da área, mas pega mal na bola. A defesa do Vitória desvia e cede escanteio.",
+      "player": {
+        "name": "Alesson"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 50,
+        "extra": null
+      },
+      "team": {
         "id": 0,
         "name": ""
       },
@@ -1000,6 +1064,40 @@
         "name": ""
       },
       "type": "Important",
+      "detail": "Início arrasador do Vitória! Com menos de 15 minutos, Renê marcou duas vezes e abriu 2 a 0 no placar, aproveitando duas saídas de gol desastrosas do goleiro Alex Muralha. No primeiro gol, ele só empurrou para a rede vazia. O Mirassol sentiu o golpe e, apesar de tentar reagir com Alesson, não consegue furar a defesa baiana no começo do segundo tempo. Jogo tenso e com muitas faltas.",
+      "player": {
+        "name": "Vitória fulminante e Muralha em tarde ruim"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 51,
+        "extra": null
+      },
+      "team": {
+        "id": 2305,
+        "name": "Mirassol"
+      },
+      "type": "Important",
+      "detail": "Gabriel arrisca de fora da área, mas a bola sobe e vai para fora.",
+      "player": {
+        "name": "Gabriel Knesowitsch"
+      },
+      "assist": {
+        "name": "Subiu!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 51,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
       "detail": "Mirassol tem oportunidade na bola parada. Vem bola na área do Vitória.",
       "player": {
         "name": "Mirassol tem oportunidade na bola parada. Vem bo"
@@ -1019,6 +1117,38 @@
       "detail": "Vamos até os 52, agora.",
       "player": {
         "name": "mais um!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 52,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Reinaldo é derrubado a três passos da grande área.",
+      "player": {
+        "name": "Reinaldo é derrubado a três passos da grande áre"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 52,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Bruno Santos recebe bom lançamento, mas não consegue dominar a bola na área.",
+      "player": {
+        "name": "Bruno Santos recebe bom lançamento, mas não cons"
       },
       "assist": null
     },
@@ -1514,7 +1644,7 @@
         },
         {
           "type": "Total Passes",
-          "value": 332
+          "value": 353
         },
         {
           "type": "Pass Accuracy",
@@ -1522,7 +1652,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 47
+          "value": 49
         },
         {
           "type": "Total Shots",
@@ -1546,7 +1676,7 @@
         },
         {
           "type": "Corner Kicks",
-          "value": 4
+          "value": 5
         },
         {
           "type": "Offsides",
@@ -1638,7 +1768,7 @@
         },
         {
           "type": "Tackles",
-          "value": 12
+          "value": 13
         },
         {
           "type": "Fouls",

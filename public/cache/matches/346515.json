@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 91
+      "elapsed": 93
     },
     "timerStart": "2026-09-13T21:35:10.931Z",
     "timerStatus": "INICIADO"
@@ -2858,9 +2858,9 @@
         "name": ""
       },
       "type": "Important",
-      "detail": "O jogo, que parecia caminhar para o empate, ganhou contornos dramáticos no fim! O Flamengo abriu o placar com Lucas Paquetá logo no início da segunda etapa, mas viu o Corinthians reagir e buscar o 1 a 1 com Gui Negão. A partida seguiu intensa até que, aos 43 minutos, Bruno Henrique, vindo do banco, marcou o gol que coloca o Rubro-Negro na frente por 2 a 1. Que final de jogo",
+      "detail": "Que segundo tempo! O Flamengo abriu o placar logo aos 2 minutos com Lucas Paquetá, que aproveitou a sobra após cobrança de escanteio. O Corinthians buscou a reação e, aos 32, Gui Negão completou uma boa tabela para empatar. Mas já perto do fim, aos 43 minutos, Bruno Henrique subiu de cabeça após cruzamento de Freitas e colocou o Flamengo na frente de novo, fazendo 2 a 1.",
       "player": {
-        "name": "Gol no fim! Bruno Henrique decide para o Fla!"
+        "name": "Bruno Henrique põe o Fla na frente no fim!"
       },
       "assist": null
     },
@@ -2909,6 +2909,70 @@
       "detail": "Em cobrança de escanteio, João Pedro Tchoca tira de cabeça.",
       "player": {
         "name": "Em cobrança de escanteio, João Pedro Tchoca tira"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 90,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Bruno Henrique ganha disputa de Bidu, e João Pedro Tchoca, na cobertura, toca para a lateral.",
+      "player": {
+        "name": "Bruno Henrique ganha disputa de Bidu, e João Ped"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 91,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Que segundo tempo! O Flamengo abriu o placar logo no início com Lucas Paquetá, aproveitando sobra na área. O Corinthians não se abateu e, após várias mudanças, buscou o empate com Gui Negão em tabela com Garro. A partida seguiu intensa, mas aos 43 minutos, a rede balançou de novo: Bruno Henrique subiu alto após cruzamento de Freitas e marcou de cabeça, deixando o Flamengo na frente por 2 a 1.",
+      "player": {
+        "name": "Fla na frente no fim: gol de Bruno Henrique!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 91,
+        "extra": null
+      },
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Erick Pulgar"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 92,
+        "extra": null
+      },
+      "team": {
+        "id": 264,
+        "name": "Corinthians"
+      },
+      "type": "Important",
+      "detail": "Rodrigo Garro lança Gui Negão no ataque, mas o atacante do Corinthians não consegue dominar, e a bola sai pela linha de fundo.",
+      "player": {
+        "name": "Rodrigo Garro lança Gui Negão no ataque, mas o a"
       },
       "assist": null
     }
@@ -3368,11 +3432,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "60%"
+          "value": "61%"
         },
         {
           "type": "Total Passes",
-          "value": 659
+          "value": 673
         },
         {
           "type": "Pass Accuracy",
@@ -3380,15 +3444,15 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 76
+          "value": 79
         },
         {
           "type": "Total Shots",
-          "value": 28
+          "value": 29
         },
         {
           "type": "Shots on Goal",
-          "value": 9
+          "value": 10
         },
         {
           "type": "Shots off Goal",
@@ -3404,7 +3468,7 @@
         },
         {
           "type": "Corner Kicks",
-          "value": 16
+          "value": 19
         },
         {
           "type": "Offsides",
@@ -3444,11 +3508,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "40%"
+          "value": "39%"
         },
         {
           "type": "Total Passes",
-          "value": 352
+          "value": 355
         },
         {
           "type": "Pass Accuracy",
@@ -3492,11 +3556,11 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 17
+          "value": 18
         },
         {
           "type": "Tackles",
-          "value": 13
+          "value": 14
         },
         {
           "type": "Fouls",

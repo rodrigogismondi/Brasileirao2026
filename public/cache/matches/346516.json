@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 36
+      "elapsed": 42
     },
     "timerStart": "2026-09-12T23:31:28.942Z",
     "timerStatus": "INICIADO"
@@ -776,6 +776,22 @@
         "name": "Bragantino"
       },
       "type": "Important",
+      "detail": "Após um início equilibrado, o Bragantino assumiu o controle do jogo e empilhou chances claras, parando em grande defesa de Gabriel Batista e em um chute de Ramires que passou raspando a trave. A pressão foi recompensada aos 29 minutos, quando Wallace Yan cruzou e Lucas Monzón desviou contra o próprio patrimônio, marcando contra e deixando o placar em 1 a 0 para a equipe visitante.",
+      "player": {
+        "name": "Bragantino insiste e abre o placar no Rio"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 34,
+        "extra": null
+      },
+      "team": {
+        "id": 280,
+        "name": "Bragantino"
+      },
+      "type": "Important",
       "detail": "Defesa do Bragantino esperava por bola cruzada na área e Telles tentou bater direto. A bola passou à direita do gol do Tiago Volpi, direto para fora",
       "player": {
         "name": "Alex Telles"
@@ -783,6 +799,72 @@
       "assist": {
         "name": "Assustou!"
       }
+    },
+    {
+      "time": {
+        "elapsed": 35,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Montoro toca para Vitinho, que acha Villalba livre pela direita. O atacante do Botafogo cruza rasteiro, mas a zaga do Bragantino afasta",
+      "player": {
+        "name": "Montoro toca para Vitinho, que acha Villalba liv"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 36,
+        "extra": null
+      },
+      "team": {
+        "id": 280,
+        "name": "Bragantino"
+      },
+      "type": "Important",
+      "detail": "O jogo começou com chances para os dois lados, mas o Bragantino assumiu o controle. Após criar várias oportunidades, com direito a bola na trave de Ramires e grande defesa de Gabriel Batista em cabeçada de Fernando, o time visitante abriu o placar. Aos 29 minutos, após cruzamento de Wallace Yan, Lucas Monzón marcou contra, fazendo 1 a 0 para o Bragantino, que segue pressionando.",
+      "player": {
+        "name": "Gol contra e pressão do Bragantino!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 36,
+        "extra": null
+      },
+      "team": {
+        "id": 280,
+        "name": "Bragantino"
+      },
+      "type": "Important",
+      "detail": "Fernando ganha duelo no corpo contra Ferraresi, arranca em direção ao gol do Botafogo e chuta de longe com muito perigo. Quase o segundo do Bragantino",
+      "player": {
+        "name": "Fernando"
+      },
+      "assist": {
+        "name": "PASSOU COM PERIGO!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 38,
+        "extra": null
+      },
+      "team": {
+        "id": 263,
+        "name": "Botafogo"
+      },
+      "type": "Important",
+      "detail": "Momento do Botafogo na partida é muito ruim. Equipe não consegue sair do campo de defesa e sofre com a pressão do adversário. Bragantino leva muito mais perigo nas chegadas e está mais perto do segundo gol",
+      "player": {
+        "name": "Momento do Botafogo na partida é muito ruim. Equ"
+      },
+      "assist": null
     }
   ],
   "lineups": [
@@ -1240,19 +1322,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "45%"
+          "value": "46%"
         },
         {
           "type": "Total Passes",
-          "value": 157
+          "value": 180
         },
         {
           "type": "Pass Accuracy",
-          "value": "80%"
+          "value": "81%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 31
+          "value": 34
         },
         {
           "type": "Total Shots",
@@ -1316,11 +1398,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "55%"
+          "value": "54%"
         },
         {
           "type": "Total Passes",
-          "value": 177
+          "value": 191
         },
         {
           "type": "Pass Accuracy",
@@ -1328,11 +1410,11 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 31
+          "value": 34
         },
         {
           "type": "Total Shots",
-          "value": 5
+          "value": 6
         },
         {
           "type": "Shots on Goal",
@@ -1340,7 +1422,7 @@
         },
         {
           "type": "Shots off Goal",
-          "value": 3
+          "value": 4
         },
         {
           "type": "Blocked Shots",

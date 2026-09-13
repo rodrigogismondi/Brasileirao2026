@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 6
+      "elapsed": 12
     },
     "timerStart": "2026-09-13T00:01:16.550Z",
     "timerStatus": "INICIADO"
@@ -206,6 +206,22 @@
         "extra": null
       },
       "team": {
+        "id": 283,
+        "name": "Cruzeiro"
+      },
+      "type": "Important",
+      "detail": "Luan Peres fica caído na área do Cruzeiro e precisa de atendimento médico.",
+      "player": {
+        "name": "Luan Peres fica caído na área do Cruzeiro e prec"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 5,
+        "extra": null
+      },
+      "team": {
         "id": 0,
         "name": ""
       },
@@ -213,6 +229,136 @@
       "detail": "Rollheiser cobra escanteio com veneno do lado esquerdo, e Otávio sai de soco para afastar o perigo da área.",
       "player": {
         "name": "Rollheiser cobra escanteio com veneno do lado es"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 6,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O jogo começou movimentado e com a primeira grande chance para o Cruzeiro. Aos 3 minutos, Kaio Jorge subiu livre e cabeceou por cima do gol. O Santos respondeu rápido com um chute de Everton, defendido por Otávio, e uma boa jogada de Gabriel Bontempo que resultou em escanteio. Na cobrança, o zagueiro Luan Peres se chocou na área e teve que deixar o campo com um sangramento no rosto.",
+      "player": {
+        "name": "Início quente com chance clara e lesão"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 6,
+        "extra": null
+      },
+      "team": {
+        "id": 283,
+        "name": "Cruzeiro"
+      },
+      "type": "Important",
+      "detail": "Luan Peres se machucou ao bater o rosto no meio da zaga do Cruzeiro na cobrança de escanteio. Ele se levanta e, com sangramento no rosto, precisa deixar o campo.",
+      "player": {
+        "name": "Luan Peres se machucou ao bater o rosto no meio "
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 7,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Fabricio Bruno lança para Arroyo na direita e ganha a disputa com João Schmidt, mas o volante do Santos toca para a linha de fundo. É escanteio para o Cruzeiro.",
+      "player": {
+        "name": "Fabricio Bruno lança para Arroyo na direita e ga"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 8,
+        "extra": null
+      },
+      "team": {
+        "id": 283,
+        "name": "Cruzeiro"
+      },
+      "type": "Important",
+      "detail": "Fagner cobra escanteio, Fabricio Bruno toca de cabeça de leve e a bola sobra para Gerson, que chuta para fora. Na sequência, árbitro assistente levanta a bandeira e marca posição de impedimento do volante do Cruzeiro.",
+      "player": {
+        "name": "Gerson"
+      },
+      "assist": {
+        "name": "Chance em impedimento"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 9,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O jogo começou em ritmo forte nestes 10 minutos iniciais. O Cruzeiro teve a melhor oportunidade até agora, quando Kaio Jorge subiu livre na área e cabeceou por cima do gol. O Santos respondeu com um chute de Everton defendido por Otávio e uma boa jogada de Gabriel Bontempo que resultou em escanteio. O lance preocupante foi a lesão de Luan Peres, que sofreu um corte no rosto e deixou o campo.",
+      "player": {
+        "name": "Início agitado com chance clara e lesão!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 9,
+        "extra": null
+      },
+      "team": {
+        "id": 277,
+        "name": "Santos"
+      },
+      "type": "Important",
+      "detail": "Santos troca passes no meio-campo e parte para o campo ofensivo.",
+      "player": {
+        "name": "Santos troca passes no meio-campo e parte para o"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 10,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Everton Cebolinha tenta toque de calcanhar em direção a João Schmidt, mas a bola rebate e sobra na frente. Fabrício Bruno chuta para a lateral.",
+      "player": {
+        "name": "Everton Cebolinha tenta toque de calcanhar em di"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 10,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Rollheiser trabalha a bola pela esquerda e toca para Everton Cebolinha. Ele pega a bola e cruza para a área, e Gabriel Rojas tira de cabeça.",
+      "player": {
+        "name": "Rollheiser trabalha a bola pela esquerda e toca "
       },
       "assist": null
     }
@@ -672,31 +818,31 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "27%"
+          "value": "37%"
         },
         {
           "type": "Total Passes",
-          "value": 8
+          "value": 44
         },
         {
           "type": "Pass Accuracy",
-          "value": "38%"
+          "value": "75%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 5
+          "value": 11
         },
         {
           "type": "Total Shots",
-          "value": 0
+          "value": 2
         },
         {
           "type": "Shots on Goal",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Shots off Goal",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Blocked Shots",
@@ -708,7 +854,7 @@
         },
         {
           "type": "Corner Kicks",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Offsides",
@@ -724,7 +870,7 @@
         },
         {
           "type": "Tackles",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Fouls",
@@ -748,15 +894,15 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "73%"
+          "value": "63%"
         },
         {
           "type": "Total Passes",
-          "value": 32
+          "value": 35
         },
         {
           "type": "Pass Accuracy",
-          "value": "84%"
+          "value": "86%"
         },
         {
           "type": "Incomplete Passes",
@@ -784,11 +930,11 @@
         },
         {
           "type": "Corner Kicks",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Offsides",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Penalties",
@@ -796,15 +942,15 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 1
-        },
-        {
-          "type": "Tackles",
           "value": 2
         },
         {
+          "type": "Tackles",
+          "value": 3
+        },
+        {
           "type": "Fouls",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Yellow Cards",

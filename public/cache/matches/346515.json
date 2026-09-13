@@ -9,10 +9,10 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 2
+      "elapsed": 6
     },
-    "timerStart": "2026-09-13T18:56:17.134Z",
-    "timerStatus": "PAUSADO"
+    "timerStart": "2026-09-13T20:30:09.941Z",
+    "timerStatus": "INICIADO"
   },
   "league": {
     "round": "Regular Season - 27"
@@ -140,9 +140,89 @@
         "name": ""
       },
       "type": "Important",
+      "detail": "Corinthians cobra o lateral e entrega a bola para o Flamengo, que recomeça o jogo no campo defensivo, sob pressão avançada do time paulista.",
+      "player": {
+        "name": "Corinthians cobra o lateral e entrega a bola par"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 2,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
       "detail": "Ayrton Lucas é acionado no lado esquerdo, mas não domina, e a bola sai pela lateral.",
       "player": {
         "name": "Ayrton Lucas é acionado no lado esquerdo, mas nã"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 3,
+        "extra": null
+      },
+      "team": {
+        "id": 264,
+        "name": "Corinthians"
+      },
+      "type": "Important",
+      "detail": "Arrascaeta domina no meio-campo e toca forte demais para Ayrton Lucas na passagem pelo lado esquerdo. Bola sai pela linha de fundo. É tiro de meta para o Corinthians.",
+      "player": {
+        "name": "Arrascaeta domina no meio-campo e toca forte dem"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 3,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O clássico começou com as equipes se medindo no Maracanã. Com 3 minutos de bola rolando, o Corinthians teve a primeira chegada com Gui Negão e agora aposta na marcação alta para dificultar a saída de bola adversária. O Flamengo busca espaços trocando passes, mas a melhor tentativa, uma tabela entre Ayrton Lucas e Pedro, foi bem interceptada pela defesa. Início de muito equilíbrio.",
+      "player": {
+        "name": "Início de estudo no Maracanã"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 3,
+        "extra": null
+      },
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "Important",
+      "detail": "Ayrton Lucas tabela com Pedro na escapada pelo meio do campo, e Pedro Milans dá um toque e impede a progressão do Flamengo.",
+      "player": {
+        "name": "Ayrton Lucas tabela com Pedro na escapada pelo m"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 4,
+        "extra": null
+      },
+      "team": {
+        "id": 264,
+        "name": "Corinthians"
+      },
+      "type": "Important",
+      "detail": "Corinthians troca passes no campo defensivo, acionando o goleiro Rossi.",
+      "player": {
+        "name": "Corinthians troca passes no campo defensivo, aci"
       },
       "assist": null
     }
@@ -593,6 +673,159 @@
       ]
     }
   ],
-  "statistics": [],
+  "statistics": [
+    {
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "statistics": [
+        {
+          "type": "Ball Possession",
+          "value": "50%"
+        },
+        {
+          "type": "Total Passes",
+          "value": 19
+        },
+        {
+          "type": "Pass Accuracy",
+          "value": "95%"
+        },
+        {
+          "type": "Incomplete Passes",
+          "value": 1
+        },
+        {
+          "type": "Total Shots",
+          "value": 0
+        },
+        {
+          "type": "Shots on Goal",
+          "value": 0
+        },
+        {
+          "type": "Shots off Goal",
+          "value": 0
+        },
+        {
+          "type": "Blocked Shots",
+          "value": 0
+        },
+        {
+          "type": "Hit Woodwork",
+          "value": 0
+        },
+        {
+          "type": "Corner Kicks",
+          "value": 0
+        },
+        {
+          "type": "Offsides",
+          "value": 0
+        },
+        {
+          "type": "Penalties",
+          "value": 0
+        },
+        {
+          "type": "Goalkeeper Saves",
+          "value": 0
+        },
+        {
+          "type": "Tackles",
+          "value": 0
+        },
+        {
+          "type": "Fouls",
+          "value": 0
+        },
+        {
+          "type": "Yellow Cards",
+          "value": 0
+        },
+        {
+          "type": "Red Cards",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "team": {
+        "id": 264,
+        "name": "Corinthians"
+      },
+      "statistics": [
+        {
+          "type": "Ball Possession",
+          "value": "50%"
+        },
+        {
+          "type": "Total Passes",
+          "value": 12
+        },
+        {
+          "type": "Pass Accuracy",
+          "value": "67%"
+        },
+        {
+          "type": "Incomplete Passes",
+          "value": 4
+        },
+        {
+          "type": "Total Shots",
+          "value": 0
+        },
+        {
+          "type": "Shots on Goal",
+          "value": 0
+        },
+        {
+          "type": "Shots off Goal",
+          "value": 0
+        },
+        {
+          "type": "Blocked Shots",
+          "value": 0
+        },
+        {
+          "type": "Hit Woodwork",
+          "value": 0
+        },
+        {
+          "type": "Corner Kicks",
+          "value": 0
+        },
+        {
+          "type": "Offsides",
+          "value": 0
+        },
+        {
+          "type": "Penalties",
+          "value": 0
+        },
+        {
+          "type": "Goalkeeper Saves",
+          "value": 0
+        },
+        {
+          "type": "Tackles",
+          "value": 0
+        },
+        {
+          "type": "Fouls",
+          "value": 0
+        },
+        {
+          "type": "Yellow Cards",
+          "value": 0
+        },
+        {
+          "type": "Red Cards",
+          "value": 0
+        }
+      ]
+    }
+  ],
   "sportsFieldUrl": null
 }

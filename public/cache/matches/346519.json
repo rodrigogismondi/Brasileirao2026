@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 67
+      "elapsed": 70
     },
     "timerStart": "2026-09-13T20:10:33.658Z",
     "timerStatus": "INICIADO"
@@ -30,8 +30,8 @@
     }
   },
   "goals": {
-    "home": 0,
-    "away": 3
+    "home": 1,
+    "away": 2
   },
   "score": {
     "halftime": {
@@ -1350,7 +1350,23 @@
     },
     {
       "time": {
-        "elapsed": 62,
+        "elapsed": 63,
+        "extra": null
+      },
+      "team": {
+        "id": 2305,
+        "name": "Mirassol"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Willian Machado"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 63,
         "extra": null
       },
       "team": {
@@ -1368,7 +1384,7 @@
     },
     {
       "time": {
-        "elapsed": 62,
+        "elapsed": 63,
         "extra": null
       },
       "team": {
@@ -1386,17 +1402,185 @@
     },
     {
       "time": {
-        "elapsed": 63,
+        "elapsed": 65,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Vitória começou com tudo e abriu 2 a 0 em menos de 15 minutos, com dois gols de Renê, que aproveitou falhas do goleiro Alex Muralha. O Mirassol tenta reagir e pressiona, mas para em boas defesas de Lucas Arcanjo. Já no segundo tempo, com 20 minutos jogados, o time visitante teve um gol de Zé Vitor anulado pelo VAR por impedimento, mantendo o placar em 2 a 0 e a partida viva.",
+      "player": {
+        "name": "Vitória na frente e gol anulado pelo VAR!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 65,
         "extra": null
       },
       "team": {
         "id": 2305,
         "name": "Mirassol"
       },
-      "type": "Card",
-      "detail": "Yellow Card",
+      "type": "Important",
+      "detail": "Mirassol ensaia uma pressão.",
       "player": {
+        "name": "Mirassol ensaia uma pressão."
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 66,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Shaylon finaliza de fora da área, mas é bloqueado.",
+      "player": {
+        "name": "Shaylon finaliza de fora da área, mas é bloquead"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 67,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Vitória construiu 2 a 0 no primeiro tempo com dois gols de Renê, que aproveitou falhas do goleiro Muralha. Na segunda etapa, o time visitante chegou a ampliar com Zé Vitor, mas o gol foi anulado pelo VAR. Aos 22 minutos, a reação veio: Bruno Santos girou na área e fuzilou para as redes, diminuindo o placar para 2 a 1 e incendiando a partida para a reta final.",
+      "player": {
+        "name": "Mirassol reage e bota fogo no jogo!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 67,
+        "extra": null
+      },
+      "team": {
+        "id": 2305,
+        "name": "Mirassol"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "player": {
+        "name": "Bruno Santos"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 68,
+        "extra": null
+      },
+      "team": {
+        "id": 2305,
+        "name": "Mirassol"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Lucas Oliveira"
+      },
+      "assist": {
         "name": "Willian Machado"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 68,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Jogadores do Vitória pedem a anulação do gol do Mirassol por um possível toque na mão de Bruno Santos, antes da finalização.",
+      "player": {
+        "name": "Jogadores do Vitória pedem a anulação do gol do "
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 68,
+        "extra": null
+      },
+      "team": {
+        "id": 2305,
+        "name": "Mirassol"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "André Luis"
+      },
+      "assist": {
+        "name": "Eduardo"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 69,
+        "extra": null
+      },
+      "team": {
+        "id": 287,
+        "name": "Vitória"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Pochettino"
+      },
+      "assist": {
+        "name": "Tarzia"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 69,
+        "extra": null
+      },
+      "team": {
+        "id": 287,
+        "name": "Vitória"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Marinho"
+      },
+      "assist": {
+        "name": "Erick"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 69,
+        "extra": null
+      },
+      "team": {
+        "id": 2305,
+        "name": "Mirassol"
+      },
+      "type": "Important",
+      "detail": "VAR confirma que não houve toque no braço de Bruno Santos. Gol do Mirassol é confirmado.",
+      "player": {
+        "name": "VAR confirma que não houve toque no braço de Bru"
       },
       "assist": null
     }
@@ -1856,11 +2040,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "63%"
+          "value": "64%"
         },
         {
           "type": "Total Passes",
-          "value": 411
+          "value": 433
         },
         {
           "type": "Pass Accuracy",
@@ -1868,15 +2052,15 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 59
+          "value": 61
         },
         {
           "type": "Total Shots",
-          "value": 11
+          "value": 13
         },
         {
           "type": "Shots on Goal",
-          "value": 4
+          "value": 5
         },
         {
           "type": "Shots off Goal",
@@ -1884,7 +2068,7 @@
         },
         {
           "type": "Blocked Shots",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Hit Woodwork",
@@ -1932,7 +2116,7 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "37%"
+          "value": "36%"
         },
         {
           "type": "Total Passes",
@@ -1980,11 +2164,11 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 7
+          "value": 8
         },
         {
           "type": "Tackles",
-          "value": 13
+          "value": 14
         },
         {
           "type": "Fouls",

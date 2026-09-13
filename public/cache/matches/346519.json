@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 4
+      "elapsed": 8
     },
     "timerStart": "2026-09-13T19:01:17.978Z",
     "timerStatus": "INICIADO"
@@ -99,6 +99,22 @@
       "assist": {
         "name": "Com desvio!"
       }
+    },
+    {
+      "time": {
+        "elapsed": 2,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O jogo mal começou e já temos gol! O Mirassol até tentou pressionar com um chute de Bruno Santos, mas a resposta do Vitória foi fatal. Aos 2 minutos, o goleiro Lucas Arcanjo fez um lançamento longo, Alex Muralha saiu muito mal da meta e a bola o encobriu. Renê aproveitou o gol livre e só empurrou para fazer 1 a 0 para o time visitante. Começo com falha decisiva e placar inaugurado.",
+      "player": {
+        "name": "Vitória na frente após falha de Muralha"
+      },
+      "assist": null
     },
     {
       "time": {
@@ -572,19 +588,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "68%"
+          "value": "72%"
         },
         {
           "type": "Total Passes",
-          "value": 19
+          "value": 33
         },
         {
           "type": "Pass Accuracy",
-          "value": "79%"
+          "value": "82%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 4
+          "value": 6
         },
         {
           "type": "Total Shots",
@@ -612,7 +628,7 @@
         },
         {
           "type": "Offsides",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Penalties",
@@ -624,7 +640,7 @@
         },
         {
           "type": "Tackles",
-          "value": 1
+          "value": 3
         },
         {
           "type": "Fouls",
@@ -648,19 +664,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "32%"
+          "value": "28%"
         },
         {
           "type": "Total Passes",
-          "value": 6
+          "value": 19
         },
         {
           "type": "Pass Accuracy",
-          "value": "67%"
+          "value": "74%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 2
+          "value": 5
         },
         {
           "type": "Total Shots",
@@ -684,7 +700,7 @@
         },
         {
           "type": "Corner Kicks",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Offsides",
@@ -700,11 +716,11 @@
         },
         {
           "type": "Tackles",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Fouls",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Yellow Cards",

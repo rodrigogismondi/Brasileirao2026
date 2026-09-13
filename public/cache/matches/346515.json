@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": null
+      "elapsed": 2
     },
     "timerStart": "2026-09-13T18:56:17.134Z",
     "timerStatus": "PAUSADO"
@@ -30,8 +30,8 @@
     }
   },
   "goals": {
-    "home": null,
-    "away": null
+    "home": 0,
+    "away": 0
   },
   "score": {
     "halftime": {
@@ -49,7 +49,104 @@
     "away": 11.9,
     "source": "betexplorer"
   },
-  "events": [],
+  "events": [
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 264,
+        "name": "Corinthians"
+      },
+      "type": "Important",
+      "detail": "Corinthians recomeça o jogo no campo defensivo. Hugo Souza é acionado e, ao tentar acionar Angileri no lado esquerdo, manda para fora pela lateral.",
+      "player": {
+        "name": "Corinthians recomeça o jogo no campo defensivo. "
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 264,
+        "name": "Corinthians"
+      },
+      "type": "Important",
+      "detail": "Corinthians ocupa o campo ofensivo, e Gui Negão tem a primeira oportunidade de dominar no lado direito. Ele cai no campo, mas o árbitro Wilton Pereira Sampaio manda o jogo seguir.",
+      "player": {
+        "name": "Corinthians ocupa o campo ofensivo, e Gui Negão "
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Começa o clássico entre Flamengo e Corinthians no Maracanã.",
+      "player": {
+        "name": "Está valendo"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 1,
+        "extra": null
+      },
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "Important",
+      "detail": "Pulgar lança para Varela no lado direito. Ele toca de cabeça, mas não consegue dar sequência no domínio. Mesmo assim, Flamengo mantém a posse de bola.",
+      "player": {
+        "name": "Pulgar lança para Varela no lado direito. Ele to"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 1,
+        "extra": null
+      },
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "Important",
+      "detail": "Flamengo troca passes no meio-campo tentando encontrar espaço para avançar.",
+      "player": {
+        "name": "Flamengo troca passes no meio-campo tentando enc"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 2,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Ayrton Lucas é acionado no lado esquerdo, mas não domina, e a bola sai pela lateral.",
+      "player": {
+        "name": "Ayrton Lucas é acionado no lado esquerdo, mas nã"
+      },
+      "assist": null
+    }
+  ],
   "lineups": [
     {
       "team": {

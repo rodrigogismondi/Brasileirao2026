@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 64
+      "elapsed": 67
     },
     "timerStart": "2026-09-13T20:10:33.658Z",
     "timerStatus": "INICIADO"
@@ -1308,9 +1308,9 @@
         "name": ""
       },
       "type": "Important",
-      "detail": "O Vitória constrói uma vantagem dominante com um início de jogo fulminante. Renê marcou duas vezes, aos 2 e aos 12 minutos, aproveitando falhas do goleiro Alex Muralha. O Mirassol até tentou reagir, principalmente com Chico Kim, mas parou em grande defesa de Lucas Arcanjo. Aos 13 do segundo tempo, Zé Vitor subiu de cabeça após escanteio e ampliou o placar para 3 a 0.",
+      "detail": "O Vitória aproveitou duas falhas do goleiro Alex Muralha para construir uma vantagem de 2 a 0 no primeiro tempo, com dois gols de Renê. O Mirassol tenta responder na segunda etapa e até chegou a exigir uma grande defesa de Lucas Arcanjo em falta de Chico Kim. Aos 13 minutos, o time visitante balançou as redes novamente com Zé Vitor, mas o gol foi anulado por impedimento.",
       "player": {
-        "name": "Vitória implacável: 3 a 0!"
+        "name": "Vitória abre vantagem e tem gol anulado"
       },
       "assist": null
     },
@@ -1324,7 +1324,7 @@
         "name": "Vitória"
       },
       "type": "Important",
-      "detail": "Gol de Zé Vitor. Após o desvio no primeiro pau, a bola chega a Zé Vitor que cabeceia firme. O goleiro Alex Muralha tenta espalmar, mas a bola já tinha cruzado a linha. Luan Cândido, que estava em posição de impedimento, aparece e completa para as redes.",
+      "detail": "Gol de Zé Vitor. Após o desvio no primeiro pau, a bola chega a Zé Vitor que cabeceia firme. O goleiro Alex Muralha tenta espalmar, mas a bola já tinha cruzado a linha. Luan Cândido, que estava em posição de impedimento, aparece e completa para as redes. Depois da checagem no monitor, árbito anula o gol.",
       "player": {
         "name": "Zé Vitor"
       },
@@ -1334,7 +1334,7 @@
     },
     {
       "time": {
-        "elapsed": 60,
+        "elapsed": 62,
         "extra": null
       },
       "team": {
@@ -1342,9 +1342,61 @@
         "name": ""
       },
       "type": "Important",
-      "detail": "VAR aciona o árbitro para analisar impedimento de Luan Cândido, que pode ter atrapalhado a visão de Alex Muralha no momento do gol.",
+      "detail": "O segundo tempo segue agitado! Aos 13 minutos, Zé Vitor marcou o que seria o terceiro gol do Vitória, mas o lance foi anulado pelo VAR por interferência na jogada. Antes, o Mirassol quase diminuiu em cobrança de falta de Chico Kim, defendida por Lucas Arcanjo. O placar de 2 a 0 foi construído na etapa inicial com dois gols de Renê, que aproveitou falhas do goleiro Alex Muralha para marcar.",
       "player": {
-        "name": "VAR chamou!"
+        "name": "VAR anula gol e mantém o Vitória na frente"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 62,
+        "extra": null
+      },
+      "team": {
+        "id": 2305,
+        "name": "Mirassol"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Fernandinho"
+      },
+      "assist": {
+        "name": "Alesson"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 62,
+        "extra": null
+      },
+      "team": {
+        "id": 2305,
+        "name": "Mirassol"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Shaylon"
+      },
+      "assist": {
+        "name": "Wallisson"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 63,
+        "extra": null
+      },
+      "team": {
+        "id": 2305,
+        "name": "Mirassol"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Willian Machado"
       },
       "assist": null
     }
@@ -1808,7 +1860,7 @@
         },
         {
           "type": "Total Passes",
-          "value": 391
+          "value": 411
         },
         {
           "type": "Pass Accuracy",
@@ -1816,7 +1868,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 56
+          "value": 59
         },
         {
           "type": "Total Shots",
@@ -1864,7 +1916,7 @@
         },
         {
           "type": "Yellow Cards",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Red Cards",
@@ -1884,15 +1936,15 @@
         },
         {
           "type": "Total Passes",
-          "value": 178
+          "value": 183
         },
         {
           "type": "Pass Accuracy",
-          "value": "71%"
+          "value": "72%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 51
+          "value": 52
         },
         {
           "type": "Total Shots",
@@ -1920,7 +1972,7 @@
         },
         {
           "type": "Offsides",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Penalties",
@@ -1932,11 +1984,11 @@
         },
         {
           "type": "Tackles",
-          "value": 14
+          "value": 13
         },
         {
           "type": "Fouls",
-          "value": 11
+          "value": 12
         },
         {
           "type": "Yellow Cards",

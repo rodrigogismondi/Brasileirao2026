@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 22
+      "elapsed": 26
     },
     "timerStart": "2026-09-13T19:01:17.978Z",
     "timerStatus": "INICIADO"
@@ -344,6 +344,22 @@
     },
     {
       "time": {
+        "elapsed": 17,
+        "extra": null
+      },
+      "team": {
+        "id": 287,
+        "name": "Vitória"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Brítez"
+      },
+      "assist": null
+    },
+    {
+      "time": {
         "elapsed": 18,
         "extra": null
       },
@@ -360,17 +376,49 @@
     },
     {
       "time": {
-        "elapsed": 18,
+        "elapsed": 20,
         "extra": null
       },
       "team": {
-        "id": 287,
-        "name": "Vitória"
+        "id": 0,
+        "name": ""
       },
-      "type": "Card",
-      "detail": "Yellow Card",
+      "type": "Important",
+      "detail": "Que início de jogo avassalador do Vitória! Em menos de 15 minutos, o time visitante abriu 2 a 0 com dois gols de Renê. Ambos os lances nasceram de falhas defensivas do Mirassol, com destaque negativo para o goleiro Alex Muralha, que saiu mal nas duas jogadas. O time da casa até tenta pressionar, mas parece nervoso. O clima esquentou com um cartão amarelo para Brítez após falta dura.",
       "player": {
-        "name": "Brítez"
+        "name": "Show de Renê e pesadelo de Muralha"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 20,
+        "extra": null
+      },
+      "team": {
+        "id": 2305,
+        "name": "Mirassol"
+      },
+      "type": "Important",
+      "detail": "Mirassol roda a bola em seu campo de ataque.",
+      "player": {
+        "name": "Mirassol roda a bola em seu campo de ataque."
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 22,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Alesson finaliza cruzado, mas a bola bate nas costas de Gustavo Mosquito.",
+      "player": {
+        "name": "Alesson finaliza cruzado, mas a bola bate nas co"
       },
       "assist": null
     }
@@ -830,23 +878,23 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "58%"
+          "value": "60%"
         },
         {
           "type": "Total Passes",
-          "value": 106
+          "value": 133
         },
         {
           "type": "Pass Accuracy",
-          "value": "86%"
+          "value": "84%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 15
+          "value": 21
         },
         {
           "type": "Total Shots",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Shots on Goal",
@@ -858,7 +906,7 @@
         },
         {
           "type": "Blocked Shots",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Hit Woodwork",
@@ -866,7 +914,7 @@
         },
         {
           "type": "Corner Kicks",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Offsides",
@@ -906,19 +954,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "42%"
+          "value": "40%"
         },
         {
           "type": "Total Passes",
-          "value": 64
+          "value": 77
         },
         {
           "type": "Pass Accuracy",
-          "value": "81%"
+          "value": "79%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 12
+          "value": 16
         },
         {
           "type": "Total Shots",
@@ -954,19 +1002,19 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 1
-        },
-        {
-          "type": "Tackles",
-          "value": 7
-        },
-        {
-          "type": "Fouls",
           "value": 2
         },
         {
+          "type": "Tackles",
+          "value": 9
+        },
+        {
+          "type": "Fouls",
+          "value": 3
+        },
+        {
           "type": "Yellow Cards",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Red Cards",

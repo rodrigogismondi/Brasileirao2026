@@ -7,12 +7,12 @@
       "city": ""
     },
     "status": {
-      "long": "2H",
-      "short": "2H",
-      "elapsed": 88
+      "long": "FT",
+      "short": "FT",
+      "elapsed": 90
     },
-    "timerStart": "2026-09-13T00:37:42.225Z",
-    "timerStatus": "INICIADO"
+    "timerStart": "2026-09-13T01:32:17.068Z",
+    "timerStatus": "PAUSADO"
   },
   "league": {
     "round": "Regular Season - 27"
@@ -39,8 +39,8 @@
       "away": null
     },
     "fulltime": {
-      "home": null,
-      "away": null
+      "home": 1,
+      "away": 1
     }
   },
   "odds": {
@@ -50,6 +50,22 @@
     "source": "betexplorer"
   },
   "events": [
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 263,
+        "name": "Botafogo"
+      },
+      "type": "Important",
+      "detail": "Jogadores do Botafogo saem vaiados de campo após empate em casa. Equipe está há um mês sem vencer no Brasileirão e não conseguiu vitória mesmo com um a mais durante todo segundo tempo.",
+      "player": {
+        "name": "VAIAS DA TORCIDA!"
+      },
+      "assist": null
+    },
     {
       "time": {
         "elapsed": 0,
@@ -2198,11 +2214,323 @@
       "type": "subst",
       "detail": "Substitution 1",
       "player": {
+        "name": "Matheus Fernandes"
+      },
+      "assist": {
+        "name": "Fabinho"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 86,
+        "extra": null
+      },
+      "team": {
+        "id": 280,
+        "name": "Bragantino"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
         "name": "Gabriel"
       },
       "assist": {
         "name": "Eric Ramires"
       }
+    },
+    {
+      "time": {
+        "elapsed": 87,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Que partida no Nilton Santos! O Bragantino abriu o placar aos 29 minutos com gol contra de Monzón, mas viu seu cenário mudar com a expulsão de Wallace Yan no fim do primeiro tempo. Na segunda etapa, com um a mais, o Botafogo cresceu e empatou com Vitinho, de cabeça. Agora, aos 42 minutos, o time da casa pressiona em busca da virada, enquanto o Bragantino se defende e assusta nos contra-ataques.",
+      "player": {
+        "name": "Expulsão, gols e emoção até o fim"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 87,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Kadir tenta disparar no contra-ataque, mas é parado com falta por Gabriel no setor de meio-campo.",
+      "player": {
+        "name": "Kadir tenta disparar no contra-ataque, mas é par"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 88,
+        "extra": null
+      },
+      "team": {
+        "id": 263,
+        "name": "Botafogo"
+      },
+      "type": "Important",
+      "detail": "Danilo lança Kadir, atacante tenta ajeitar de cabeça, mas se atrapalha e perde controle da bola. Botafogo não consegue chegar com a qualidade de antes no ataque",
+      "player": {
+        "name": "Danilo lança Kadir, atacante tenta ajeitar de ca"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 89,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O jogo entra na reta final com o placar em 1 a 1! O Bragantino abriu o placar com gol contra de Monzón e dominava, mas a expulsão de Wallace Yan mudou o cenário. No segundo tempo, o Botafogo aproveitou a vantagem numérica e empatou com Vitinho, de cabeça. Apesar da pressão alvinegra, o Bragantino segue perigoso nos contra-ataques, obrigando Gabriel Batista a fazer uma defesa milagrosa.",
+      "player": {
+        "name": "Tudo igual e final dramático no Nilton Santos"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 89,
+        "extra": null
+      },
+      "team": {
+        "id": 263,
+        "name": "Botafogo"
+      },
+      "type": "Important",
+      "detail": "Bragantino sai em contra-ataque com Fernando, que dispara e acha lindo passe para Herrera. O atacante fica de cara para Gabriel Batista, mas finaliza mal e goleiro do Botafogo faz ótima defesa para salvar o time",
+      "player": {
+        "name": "Gabriel Batista"
+      },
+      "assist": {
+        "name": "SALVA GABRIEL BATISTA!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 90,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Oito de acréscimo. Segunda etapa vai até os 53 minutos.",
+      "player": {
+        "name": "Oito de acréscimo. Segunda etapa vai até os 53 m"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 91,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Jogo já nos acréscimos. Botafogo insiste em bolas na área, enquanto o Bragantino se fecha na defesa",
+      "player": {
+        "name": "Jogo já nos acréscimos. Botafogo insiste em bola"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 93,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Após o Bragantino abrir o placar com gol contra de Monzón aos 29', o jogo mudou com a expulsão de Wallace Yan. O Botafogo aproveitou a superioridade numérica na segunda etapa para empatar com Vitinho, deixando o placar em 1 a 1. Na reta final, a partida segue indefinida, com o time da casa pressionando e os visitantes ameaçando nos contra-ataques, com direito a grande defesa de Gabriel Batista.",
+      "player": {
+        "name": "Expulsão, gols e emoção: tudo igual no Niltão!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 93,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Botafogo tenta furar a defesa do Bragantino e circula bola no campo de ataque. Todos os jogadores estão no setor ofensivo",
+      "player": {
+        "name": "Botafogo tenta furar a defesa do Bragantino e ci"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 94,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "13.548 torcedores presentes no Nilton Santos",
+      "player": {
+        "name": "PÚBLICO PRESENTE"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 94,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Que jogo no Nilton Santos! O Bragantino saiu na frente com gol contra de Monzón, mas teve Wallace Yan expulso no fim do primeiro tempo. Com um a mais, o Botafogo voltou melhor para a segunda etapa e empatou com um gol de cabeça de Vitinho. A pressão alvinegra pela virada é intensa nos minutos finais, mas o time paulista, com dez, segue perigoso nos contra-ataques. Tudo aberto neste 1 a 1.",
+      "player": {
+        "name": "Tudo igual e emoção até o apito final"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 94,
+        "extra": null
+      },
+      "team": {
+        "id": 263,
+        "name": "Botafogo"
+      },
+      "type": "Important",
+      "detail": "Montoro acha belo cruzamento para Tiquinho, que aparece sozinho na área, mas cabeceia para fora. Lance já estava parado por impedimento do atacante do Botafogo",
+      "player": {
+        "name": "Tiquinho Soares"
+      },
+      "assist": {
+        "name": "QUASE O DELE!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 96,
+        "extra": null
+      },
+      "team": {
+        "id": 280,
+        "name": "Bragantino"
+      },
+      "type": "Important",
+      "detail": "Bragantino tenta sair em velocidade, mas esbarra no cansaço de Fernando. Atacante foi muito exigido na partida e já não consegue repetir as escapadas",
+      "player": {
+        "name": "Bragantino tenta sair em velocidade, mas esbarra"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 97,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Que jogaço no apagar das luzes! O Bragantino abriu o placar com um gol contra de Monzón, mas teve Wallace Yan expulso no fim do primeiro tempo. Com um a mais, o Botafogo foi pra cima e empatou com Vitinho, de cabeça. Mesmo em desvantagem numérica, o time paulista criou chances claras, parando em grandes defesas de Gabriel Batista. O jogo segue 1 a 1 e completamente aberto nos minutos finais.",
+      "player": {
+        "name": "Empate eletrizante com um a menos no Niltão"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 97,
+        "extra": null
+      },
+      "team": {
+        "id": 263,
+        "name": "Botafogo"
+      },
+      "type": "Important",
+      "detail": "Ferraresi aparece para cabecear e Hurtado afasta!",
+      "player": {
+        "name": "Ferraresi"
+      },
+      "assist": {
+        "name": "UUUUHHHH!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 97,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Partida de reviravoltas no Nilton Santos! O Bragantino saiu na frente com um gol contra de Monzón, mas tudo mudou com a expulsão de Wallace Yan ainda no primeiro tempo. Com um a mais, o Botafogo empatou na segunda etapa em cabeçada de Vitinho e agora, já nos acréscimos, pressiona em busca da virada. O Bragantino, mesmo com dez, se defende e segue perigosíssimo nos contra-ataques.",
+      "player": {
+        "name": "Final eletrizante após empate e expulsão!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 97,
+        "extra": null
+      },
+      "team": {
+        "id": 263,
+        "name": "Botafogo"
+      },
+      "type": "Important",
+      "detail": "Tiquinho tenta finalização, a bola desvia e vai pela linha de fundo. Escanteio no último minuto!",
+      "player": {
+        "name": "Escanteio para o Botafogo!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 98,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Botafogo e Bragantino empatam em 1 a 1 no Nilton Santos!",
+      "player": {
+        "name": "FIM DE JOGO!"
+      },
+      "assist": null
     }
   ],
   "lineups": [
@@ -2660,11 +2988,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "54%"
+          "value": "56%"
         },
         {
           "type": "Total Passes",
-          "value": 410
+          "value": 505
         },
         {
           "type": "Pass Accuracy",
@@ -2672,11 +3000,11 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 69
+          "value": 86
         },
         {
           "type": "Total Shots",
-          "value": 21
+          "value": 22
         },
         {
           "type": "Shots on Goal",
@@ -2688,7 +3016,7 @@
         },
         {
           "type": "Blocked Shots",
-          "value": 4
+          "value": 5
         },
         {
           "type": "Hit Woodwork",
@@ -2696,11 +3024,11 @@
         },
         {
           "type": "Corner Kicks",
-          "value": 3
+          "value": 5
         },
         {
           "type": "Offsides",
-          "value": 3
+          "value": 4
         },
         {
           "type": "Penalties",
@@ -2712,11 +3040,11 @@
         },
         {
           "type": "Tackles",
-          "value": 9
+          "value": 10
         },
         {
           "type": "Fouls",
-          "value": 9
+          "value": 11
         },
         {
           "type": "Yellow Cards",
@@ -2736,11 +3064,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "46%"
+          "value": "44%"
         },
         {
           "type": "Total Passes",
-          "value": 294
+          "value": 327
         },
         {
           "type": "Pass Accuracy",
@@ -2748,15 +3076,15 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 61
+          "value": 70
         },
         {
           "type": "Total Shots",
-          "value": 13
+          "value": 14
         },
         {
           "type": "Shots on Goal",
-          "value": 7
+          "value": 8
         },
         {
           "type": "Shots off Goal",
@@ -2784,15 +3112,15 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 12
+          "value": 13
         },
         {
           "type": "Tackles",
-          "value": 11
+          "value": 15
         },
         {
           "type": "Fouls",
-          "value": 8
+          "value": 9
         },
         {
           "type": "Yellow Cards",

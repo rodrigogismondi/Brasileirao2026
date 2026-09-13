@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 94
+      "elapsed": 97
     },
     "timerStart": "2026-09-13T20:10:33.658Z",
     "timerStatus": "INICIADO"
@@ -2018,6 +2018,22 @@
         "extra": null
       },
       "team": {
+        "id": 287,
+        "name": "Vitória"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Mateus Silva"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 93,
+        "extra": null
+      },
+      "team": {
         "id": 0,
         "name": ""
       },
@@ -2025,6 +2041,70 @@
       "detail": "O Vitória construiu um 2 a 0 no primeiro tempo com dois gols de Renê, aproveitando falhas da defesa do Mirassol. A equipe visitante chegou a ter um gol anulado pelo VAR na etapa final, mas viu o time da casa crescer. Após diminuir com Bruno Santos, o Mirassol pressionou, acertou a trave duas vezes seguidas e, aos 45 minutos, buscou um empate heroico com gol de Edson Carioca, fechando o placar em 2 a 2.",
       "player": {
         "name": "Reação incrível: Mirassol busca o empate!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 94,
+        "extra": null
+      },
+      "team": {
+        "id": 2305,
+        "name": "Mirassol"
+      },
+      "type": "Important",
+      "detail": "Lucas Oliveira cabeceia após o escanteio, mas manda para fora.",
+      "player": {
+        "name": "Lucas Oliveira"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 94,
+        "extra": null
+      },
+      "team": {
+        "id": 2305,
+        "name": "Mirassol"
+      },
+      "type": "Important",
+      "detail": "Mirassol ganha escanteio.",
+      "player": {
+        "name": "Mirassol ganha escanteio."
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 96,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Que jogo! Depois de sair perdendo por 2 a 0, com dois gols de Renê para o Vitória, o Mirassol iniciou uma reação incrível. A equipe da casa teve um gol adversário anulado pelo VAR, pressionou intensamente e acertou a trave duas vezes. A insistência foi premiada: Bruno Santos diminuiu e, já aos 45 do segundo tempo, Edson Carioca recebeu passe de Shaylon para empatar o jogo em 2 a 2.",
+      "player": {
+        "name": "Mirassol busca empate nos acréscimos!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 96,
+        "extra": null
+      },
+      "team": {
+        "id": 2305,
+        "name": "Mirassol"
+      },
+      "type": "Important",
+      "detail": "Mirassol ganha outro escanteio.",
+      "player": {
+        "name": "Mirassol ganha outro escanteio."
       },
       "assist": null
     }
@@ -2488,7 +2568,7 @@
         },
         {
           "type": "Total Passes",
-          "value": 621
+          "value": 632
         },
         {
           "type": "Pass Accuracy",
@@ -2496,11 +2576,11 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 79
+          "value": 80
         },
         {
           "type": "Total Shots",
-          "value": 22
+          "value": 23
         },
         {
           "type": "Shots on Goal",
@@ -2512,7 +2592,7 @@
         },
         {
           "type": "Blocked Shots",
-          "value": 6
+          "value": 7
         },
         {
           "type": "Hit Woodwork",
@@ -2564,7 +2644,7 @@
         },
         {
           "type": "Total Passes",
-          "value": 210
+          "value": 211
         },
         {
           "type": "Pass Accuracy",
@@ -2608,7 +2688,7 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 11
+          "value": 12
         },
         {
           "type": "Tackles",
@@ -2620,7 +2700,7 @@
         },
         {
           "type": "Yellow Cards",
-          "value": 3
+          "value": 4
         },
         {
           "type": "Red Cards",

@@ -7,12 +7,12 @@
       "city": ""
     },
     "status": {
-      "long": "2H",
-      "short": "2H",
-      "elapsed": 95
+      "long": "FT",
+      "short": "FT",
+      "elapsed": 90
     },
-    "timerStart": "2026-09-13T01:09:12.548Z",
-    "timerStatus": "INICIADO"
+    "timerStart": "2026-09-13T01:59:37.938Z",
+    "timerStatus": "PAUSADO"
   },
   "league": {
     "round": "Regular Season - 27"
@@ -39,8 +39,8 @@
       "away": null
     },
     "fulltime": {
-      "home": null,
-      "away": null
+      "home": 2,
+      "away": 1
     }
   },
   "odds": {
@@ -50,6 +50,24 @@
     "source": "betexplorer"
   },
   "events": [
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 277,
+        "name": "Santos"
+      },
+      "type": "Important",
+      "detail": "— Estou me sentindo em casa desde que eu cheguei. São poucos dias. Já tinha jogado com metade do elenco. Isso facilita muito a adaptação. Me senti muito bem hoje, apesar de fazer um tempo que eu não começava uma partida, eu acho que dois meses. Me senti muito bem. Na metade do segundo tempo, deu uma abafa, que é normal pelo tempo sem estar iniciando. Estou me sentindo em casa, com a camisa do Santos, na Vila Belmiro, é muito especial. Começando com o pé direito, com a vitória. Faltou o gol. Tinha até falado na minha apresentação, da ansiedade de querer fazer o gol. Hoje não saiu, mas tenho certeza que logo logo vai sair.",
+      "player": {
+        "name": "Everton"
+      },
+      "assist": {
+        "name": "Fala, Everton Cebolinha"
+      }
+    },
     {
       "time": {
         "elapsed": 0,
@@ -2812,6 +2830,40 @@
         "name": ""
       },
       "type": "Important",
+      "detail": "Um jogo de dois atos! O Santos foi avassalador, construiu 2 a 0 com Rollheiser e um gol contra de Fabricio Bruno, e só não goleou porque parou em milagres do goleiro Otávio e desperdiçou chances incríveis. Mas quem não faz, leva. Na reta final, Matheus Pereira diminuiu para o Cruzeiro aos 44 minutos e o time mineiro pressionou com tudo, quase empatando em um final de partida dramático.",
+      "player": {
+        "name": "Santos abre 2 a 0, mas sofre no fim!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 92,
+        "extra": null
+      },
+      "team": {
+        "id": 283,
+        "name": "Cruzeiro"
+      },
+      "type": "Important",
+      "detail": "Fabricio Bruno pega a bola na direita e cruza para a área. Zé Lucas consegue tocar de cabeça, mandando pertinho do gol de Gabriel Brazão. Quase o empate do Cruzeiro!",
+      "player": {
+        "name": "Zé Lucas"
+      },
+      "assist": {
+        "name": "Uuuuuh"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 92,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
       "detail": "O Santos dominou a partida e construiu uma vantagem de 2 a 0 com um gol de Rollheiser e outro contra de Fabrício Bruno ainda no primeiro tempo. Apesar das inúmeras chances criadas e desperdiçadas, o time da casa não conseguiu ampliar. Já na reta final, aos 44 do segundo tempo, Matheus Pereira aproveitou um cruzamento na área e diminuiu para o Cruzeiro, deixando o placar em 2 a 1 e prometendo fogo nos minutos finais.",
       "player": {
         "name": "Cruzeiro reage e esquenta o final do jogo!"
@@ -2831,6 +2883,86 @@
       "detail": "Wesley cruza da esquerda para a área, e Luan Peres tira de cabeça.",
       "player": {
         "name": "Wesley cruza da esquerda para a área, e Luan Per"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 93,
+        "extra": null
+      },
+      "team": {
+        "id": 277,
+        "name": "Santos"
+      },
+      "type": "Important",
+      "detail": "Arthur trabalha com Willian Arão, se aproxima da linha de fundo e toca em cima do adversário para ganhar escanteio para o Santos.",
+      "player": {
+        "name": "Arthur trabalha com Willian Arão, se aproxima da"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 93,
+        "extra": null
+      },
+      "team": {
+        "id": 283,
+        "name": "Cruzeiro"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Fabrício Bruno"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 94,
+        "extra": null
+      },
+      "team": {
+        "id": 277,
+        "name": "Santos"
+      },
+      "type": "Important",
+      "detail": "Arthur dribla pra lá e pra cá para gastar o tempo dentro da área e ganha novo escanteio para o Santos.",
+      "player": {
+        "name": "Arthur dribla pra lá e pra cá para gastar o temp"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 95,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Santos dominou a partida desde o início e construiu a vantagem no primeiro tempo. Rollheiser abriu o placar aos 27 minutos, e pouco depois, um gol contra de Fabricio Bruno ampliou para 2 a 0. O time da casa empilhou chances perdidas, especialmente com Rony e Rollheiser. O Cruzeiro reagiu na reta final, e Matheus Pereira diminuiu aos 44 do segundo tempo, mas a vitória ficou com o Santos por 2 a 1.",
+      "player": {
+        "name": "Santos vence o Cruzeiro em jogo de muitas chances"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 95,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Árbitro encerra a partida. Vitória do Santos por 2 a 1 contra o Cruzeiro.",
+      "player": {
+        "name": "Fim de jogo"
       },
       "assist": null
     }
@@ -3294,15 +3426,15 @@
         },
         {
           "type": "Total Passes",
-          "value": 529
+          "value": 533
         },
         {
           "type": "Pass Accuracy",
-          "value": "87%"
+          "value": "86%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 71
+          "value": 72
         },
         {
           "type": "Total Shots",
@@ -3418,7 +3550,7 @@
         },
         {
           "type": "Tackles",
-          "value": 16
+          "value": 17
         },
         {
           "type": "Fouls",

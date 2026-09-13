@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 91
+      "elapsed": 94
     },
     "timerStart": "2026-09-13T20:10:33.658Z",
     "timerStatus": "INICIADO"
@@ -1954,13 +1954,13 @@
         "extra": null
       },
       "team": {
-        "id": 2305,
-        "name": "Mirassol"
+        "id": 0,
+        "name": ""
       },
       "type": "Important",
-      "detail": "Que reação do Mirassol! Depois de diminuir com Bruno Santos, o time da casa partiu para uma pressão alucinante no fim do jogo. A equipe acertou a trave duas vezes em sequência, com Bruno Santos e Edson Carioca, em lances incríveis. A insistência valeu a pena e, aos 45 do segundo tempo, Edson Carioca marcou o gol que deixou o placar em 2 a 2. Um final de partida espetacular",
+      "detail": "O Vitória abriu 2 a 0 no primeiro tempo com dois gols de Renê, aproveitando falhas defensivas do Mirassol. A reação começou no segundo tempo, após o time visitante ter um gol anulado pelo VAR. Bruno Santos diminuiu aos 22 minutos e iniciou uma pressão avassaladora. O Mirassol acertou a trave duas vezes antes de Edson Carioca, aos 45, marcar o gol que decretou o empate em 2 a 2.",
       "player": {
-        "name": "Mirassol empata em final de tirar o fôlego!"
+        "name": "Do abismo ao empate: Mirassol reage!"
       },
       "assist": null
     },
@@ -1977,6 +1977,54 @@
       "detail": "Normal Goal",
       "player": {
         "name": "Edson Carioca"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 90,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "vamos até os 55 minutos neste segundo tempo.",
+      "player": {
+        "name": "mais dez"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 91,
+        "extra": null
+      },
+      "team": {
+        "id": 2305,
+        "name": "Mirassol"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Edson Carioca"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 93,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Vitória construiu um 2 a 0 no primeiro tempo com dois gols de Renê, aproveitando falhas da defesa do Mirassol. A equipe visitante chegou a ter um gol anulado pelo VAR na etapa final, mas viu o time da casa crescer. Após diminuir com Bruno Santos, o Mirassol pressionou, acertou a trave duas vezes seguidas e, aos 45 minutos, buscou um empate heroico com gol de Edson Carioca, fechando o placar em 2 a 2.",
+      "player": {
+        "name": "Reação incrível: Mirassol busca o empate!"
       },
       "assist": null
     }
@@ -2440,7 +2488,7 @@
         },
         {
           "type": "Total Passes",
-          "value": 600
+          "value": 621
         },
         {
           "type": "Pass Accuracy",
@@ -2448,15 +2496,15 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 78
+          "value": 79
         },
         {
           "type": "Total Shots",
-          "value": 21
+          "value": 22
         },
         {
           "type": "Shots on Goal",
-          "value": 5
+          "value": 6
         },
         {
           "type": "Shots off Goal",
@@ -2496,7 +2544,7 @@
         },
         {
           "type": "Yellow Cards",
-          "value": 3
+          "value": 4
         },
         {
           "type": "Red Cards",
@@ -2516,7 +2564,7 @@
         },
         {
           "type": "Total Passes",
-          "value": 209
+          "value": 210
         },
         {
           "type": "Pass Accuracy",
@@ -2524,7 +2572,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 67
+          "value": 68
         },
         {
           "type": "Total Shots",
@@ -2564,15 +2612,15 @@
         },
         {
           "type": "Tackles",
-          "value": 22
+          "value": 24
         },
         {
           "type": "Fouls",
-          "value": 15
+          "value": 16
         },
         {
           "type": "Yellow Cards",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Red Cards",

@@ -13311,7 +13311,7 @@
         "status": {
           "long": "2H",
           "short": "2H",
-          "elapsed": 91
+          "elapsed": 94
         },
         "timerStart": "2026-09-13T20:10:33.658Z",
         "timerStatus": "INICIADO"
@@ -13363,7 +13363,7 @@
         "status": {
           "long": "1H",
           "short": "1H",
-          "elapsed": 27
+          "elapsed": 30
         },
         "timerStart": "2026-09-13T20:30:09.941Z",
         "timerStatus": "INICIADO"
@@ -18776,28 +18776,6 @@
             {
               "rank": 10,
               "team": {
-                "id": 287,
-                "name": "Vitória",
-                "logo": "https://s.sde.globo.com/media/organizations/2025/12/18/Vitoria_2025.svg"
-              },
-              "points": 35,
-              "goalsDiff": -11,
-              "form": "WLLWW",
-              "description": "Copa Sudamericana",
-              "all": {
-                "played": 27,
-                "win": 10,
-                "draw": 5,
-                "lose": 12,
-                "goals": {
-                  "for": 27,
-                  "against": 38
-                }
-              }
-            },
-            {
-              "rank": 11,
-              "team": {
                 "id": 277,
                 "name": "Santos",
                 "logo": "https://s.sde.globo.com/media/organizations/2018/03/12/santos.svg"
@@ -18818,7 +18796,7 @@
               }
             },
             {
-              "rank": 12,
+              "rank": 11,
               "team": {
                 "id": 276,
                 "name": "São Paulo",
@@ -18827,7 +18805,7 @@
               "points": 33,
               "goalsDiff": 1,
               "form": "DLWWL",
-              "description": null,
+              "description": "Copa Sudamericana",
               "all": {
                 "played": 26,
                 "win": 9,
@@ -18836,6 +18814,28 @@
                 "goals": {
                   "for": 31,
                   "against": 30
+                }
+              }
+            },
+            {
+              "rank": 12,
+              "team": {
+                "id": 287,
+                "name": "Vitória",
+                "logo": "https://s.sde.globo.com/media/organizations/2025/12/18/Vitoria_2025.svg"
+              },
+              "points": 33,
+              "goalsDiff": -12,
+              "form": "WLLWD",
+              "description": null,
+              "all": {
+                "played": 27,
+                "win": 9,
+                "draw": 6,
+                "lose": 12,
+                "goals": {
+                  "for": 27,
+                  "against": 39
                 }
               }
             },
@@ -18886,6 +18886,28 @@
             {
               "rank": 15,
               "team": {
+                "id": 2305,
+                "name": "Mirassol",
+                "logo": "https://s.sde.globo.com/media/organizations/2026/07/17/MIrassol.svg"
+              },
+              "points": 29,
+              "goalsDiff": -11,
+              "form": "LDDWD",
+              "description": null,
+              "all": {
+                "played": 27,
+                "win": 7,
+                "draw": 8,
+                "lose": 12,
+                "goals": {
+                  "for": 31,
+                  "against": 42
+                }
+              }
+            },
+            {
+              "rank": 16,
+              "team": {
                 "id": 284,
                 "name": "Grêmio",
                 "logo": "https://s.sde.globo.com/media/organizations/2018/03/12/gremio.svg"
@@ -18902,28 +18924,6 @@
                 "goals": {
                   "for": 28,
                   "against": 35
-                }
-              }
-            },
-            {
-              "rank": 16,
-              "team": {
-                "id": 2305,
-                "name": "Mirassol",
-                "logo": "https://s.sde.globo.com/media/organizations/2026/07/17/MIrassol.svg"
-              },
-              "points": 28,
-              "goalsDiff": -12,
-              "form": "LDDWL",
-              "description": null,
-              "all": {
-                "played": 27,
-                "win": 7,
-                "draw": 7,
-                "lose": 13,
-                "goals": {
-                  "for": 30,
-                  "against": 42
                 }
               }
             },
@@ -20129,7 +20129,7 @@
     "mode": "live",
     "liveIntervalMs": 20000
   },
-  "fetchedAt": "2026-09-13T20:57:14.784Z",
+  "fetchedAt": "2026-09-13T21:00:20.896Z",
   "source": "ge-globo",
   "meta": {
     "rodada": 27,

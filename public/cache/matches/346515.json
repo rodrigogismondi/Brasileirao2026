@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 27
+      "elapsed": 30
     },
     "timerStart": "2026-09-13T20:30:09.941Z",
     "timerStatus": "INICIADO"
@@ -791,6 +791,86 @@
       "assist": {
         "name": "Desperdiçou chance"
       }
+    },
+    {
+      "time": {
+        "elapsed": 25,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Flamengo domina as ações desde o apito inicial, encurralando o Corinthians e colecionando escanteios. Aos 21 minutos, o gol pareceu certo em uma chance dupla: Pedro finalizou para defesa espetacular de Hugo Souza e, no rebote, Ayrton Lucas viu João Pedro Tchoca salvar de cabeça em cima da linha. O Corinthians respondeu com um peixinho perigoso de Gui Negão, mas o placar segue zerado.",
+      "player": {
+        "name": "Pressão do Fla e milagre corintiano"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 25,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Corinthians troca passes no campo defensivo, sob marcação alta do Flamengo.",
+      "player": {
+        "name": "Corinthians troca passes no campo defensivo, sob"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 26,
+        "extra": null
+      },
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "Important",
+      "detail": "Flamengo troca passes no campo ofensivo.",
+      "player": {
+        "name": "Flamengo troca passes no campo ofensivo."
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 27,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Paquetá recebe passe de Samuel Lino e cruza para a área. Raniele sobe para tirar de cabeça.",
+      "player": {
+        "name": "Paquetá recebe passe de Samuel Lino e cruza para"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 28,
+        "extra": null
+      },
+      "team": {
+        "id": 264,
+        "name": "Corinthians"
+      },
+      "type": "Important",
+      "detail": "Charles chuta a sola do pé alto de Paquetá, e o árbitro Wilton Pereira Sampaio marca falta para o Corinthians.",
+      "player": {
+        "name": "Charles chuta a sola do pé alto de Paquetá, e o "
+      },
+      "assist": null
     }
   ],
   "lineups": [
@@ -1248,11 +1328,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "68%"
+          "value": "65%"
         },
         {
           "type": "Total Passes",
-          "value": 219
+          "value": 238
         },
         {
           "type": "Pass Accuracy",
@@ -1260,7 +1340,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 22
+          "value": 23
         },
         {
           "type": "Total Shots",
@@ -1304,7 +1384,7 @@
         },
         {
           "type": "Fouls",
-          "value": 3
+          "value": 4
         },
         {
           "type": "Yellow Cards",
@@ -1324,15 +1404,15 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "32%"
+          "value": "35%"
         },
         {
           "type": "Total Passes",
-          "value": 91
+          "value": 102
         },
         {
           "type": "Pass Accuracy",
-          "value": "84%"
+          "value": "85%"
         },
         {
           "type": "Incomplete Passes",

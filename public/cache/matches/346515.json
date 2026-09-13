@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 81
+      "elapsed": 85
     },
     "timerStart": "2026-09-13T21:35:10.931Z",
     "timerStatus": "INICIADO"
@@ -2526,9 +2526,9 @@
         "name": ""
       },
       "type": "Important",
-      "detail": "O segundo tempo começou elétrico! Logo aos 2 minutos, Lucas Paquetá aproveitou a sobra de um escanteio e abriu o placar para o Flamengo. A equipe carioca seguiu dominando e criando chances, mas o Corinthians, valente, buscou o empate na raça. Aos 32 minutos, Gui Negão apareceu para marcar e deixar tudo igual: 1 a 1. O clássico pega fogo na reta final.",
+      "detail": "O Flamengo transformou a pressão em gol no início do segundo tempo. Aos 2 minutos, Lucas Paquetá aproveitou a sobra de um escanteio e abriu o placar. O jogo parecia controlado, mas as trocas de Fernando Diniz mudaram o cenário. Aos 32, em linda trama coletiva, Kaio César encontrou Gui Negão, que não perdoou e empatou para o Corinthians. Tudo igual, 1 a 1, e o clássico pega fogo",
       "player": {
-        "name": "Paquetá abre, Gui Negão empata: 1 a 1!"
+        "name": "Corinthians reage e empata o clássico!"
       },
       "assist": null
     },
@@ -2547,6 +2547,126 @@
         "name": "Gui Negão"
       },
       "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 78,
+        "extra": null
+      },
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Jorginho"
+      },
+      "assist": {
+        "name": "Arrascaeta"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 79,
+        "extra": null
+      },
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "Important",
+      "detail": "Bruno Henrique é lançado em velocidade no ataque e toca fraco para defesa de Hugo Souza.",
+      "player": {
+        "name": "Bruno Henrique"
+      },
+      "assist": {
+        "name": "Escapada"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 79,
+        "extra": null
+      },
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Carrascal"
+      },
+      "assist": {
+        "name": "Plata"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 80,
+        "extra": null
+      },
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "Important",
+      "detail": "Samuel Lino escapa pela esquerda e cruza para a área. Hugo Souza faz a defesa puxando a bola para dentro do campo, mas o árbitro assistenta marca saída pela linha de fundo. É escanteio para o Flamengo.",
+      "player": {
+        "name": "Samuel Lino escapa pela esquerda e cruza para a "
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 80,
+        "extra": null
+      },
+      "team": {
+        "id": 264,
+        "name": "Corinthians"
+      },
+      "type": "Important",
+      "detail": "Carrascal cobra escanteio da esquerda para dentro, e a zaga do Corinthians tira.",
+      "player": {
+        "name": "Carrascal cobra escanteio da esquerda para dentr"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 80,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Após um primeiro tempo de forte pressão do Flamengo e milagres de Hugo Souza, o placar finalmente saiu do zero no segundo tempo. Aos 2 minutos, Lucas Paquetá aproveitou uma sobra na área e fuzilou para abrir o placar. O Corinthians, com as mudanças de Diniz, reagiu e, aos 32, Gui Negão empatou após bela trama de Kaio César e Garro. O jogo segue aberto, com Hugo salvando outra chance de Paquetá.",
+      "player": {
+        "name": "Fla sai na frente, mas Corinthians reage e empata!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 80,
+        "extra": null
+      },
+      "team": {
+        "id": 264,
+        "name": "Corinthians"
+      },
+      "type": "Important",
+      "detail": "Samuel Lino escapa pela esquerda e serve Paquetá em infiltração na zaga do Corinthians. Hugo Souza fecha o ângulo do chute de Paquetá.",
+      "player": {
+        "name": "Lucas Paquetá"
+      },
+      "assist": {
+        "name": "Uuuh"
+      }
     }
   ],
   "lineups": [
@@ -3004,11 +3124,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "62%"
+          "value": "61%"
         },
         {
           "type": "Total Passes",
-          "value": 604
+          "value": 622
         },
         {
           "type": "Pass Accuracy",
@@ -3016,15 +3136,15 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 68
+          "value": 70
         },
         {
           "type": "Total Shots",
-          "value": 24
+          "value": 25
         },
         {
           "type": "Shots on Goal",
-          "value": 7
+          "value": 8
         },
         {
           "type": "Shots off Goal",
@@ -3040,7 +3160,7 @@
         },
         {
           "type": "Corner Kicks",
-          "value": 14
+          "value": 16
         },
         {
           "type": "Offsides",
@@ -3060,7 +3180,7 @@
         },
         {
           "type": "Fouls",
-          "value": 11
+          "value": 12
         },
         {
           "type": "Yellow Cards",
@@ -3080,11 +3200,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "38%"
+          "value": "39%"
         },
         {
           "type": "Total Passes",
-          "value": 315
+          "value": 322
         },
         {
           "type": "Pass Accuracy",
@@ -3092,7 +3212,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 47
+          "value": 48
         },
         {
           "type": "Total Shots",
@@ -3128,7 +3248,7 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 15
+          "value": 16
         },
         {
           "type": "Tackles",

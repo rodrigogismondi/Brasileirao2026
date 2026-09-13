@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 55
+      "elapsed": 58
     },
     "timerStart": "2026-09-13T21:35:10.931Z",
     "timerStatus": "INICIADO"
@@ -1762,13 +1762,45 @@
         "extra": null
       },
       "team": {
+        "id": 264,
+        "name": "Corinthians"
+      },
+      "type": "Important",
+      "detail": "Varela escapa pelo lado direito e tenta o cruzamento, mas a bola bate em Angileri e depois nele mesmo, saindo pela linha de fundo. É tiro de meta para o Corinthians.",
+      "player": {
+        "name": "Varela escapa pelo lado direito e tenta o cruzam"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 54,
+        "extra": null
+      },
+      "team": {
         "id": 262,
         "name": "Flamengo"
       },
       "type": "Important",
-      "detail": "Após um primeiro tempo de domínio total, com o goleiro Hugo Souza operando milagres e uma bola salva em cima da linha, o Flamengo finalmente abriu o placar. Logo aos 2 minutos da segunda etapa, após escanteio de Arrascaeta e uma saída ruim do goleiro, Lucas Paquetá aproveitou a sobra e encheu o pé para fazer 1 a 0. O gol coroa a intensa pressão rubro-negra na partida.",
+      "detail": "Samuel Lino tenta tabela com Arrascaeta e Pedro Milans consegue interceptar a bola para impedir a progressão do Flamengo.",
       "player": {
-        "name": "Paquetá quebra o ferrolho corintiano!"
+        "name": "Samuel Lino tenta tabela com Arrascaeta e Pedro "
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 54,
+        "extra": null
+      },
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "Important",
+      "detail": "Após um primeiro tempo de intensa pressão do Flamengo, com direito a bola salva em cima da linha por João Pedro Tchoca e defesas incríveis de Hugo Souza, o placar finalmente foi inaugurado. Logo aos 2 minutos da segunda etapa, em cobrança de escanteio, Lucas Paquetá aproveitou a sobra na área após saída ruim do goleiro e encheu o pé para fazer 1 a 0 para o time da casa.",
+      "player": {
+        "name": "Fla sai na frente com gol de Paquetá!"
       },
       "assist": null
     },
@@ -1803,6 +1835,56 @@
         "name": "Flamengo se lança novamente ao ataque, trocando "
       },
       "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 56,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Dieguinho trabalha com Raniele, que aciona Gui Negão dentro da área. Léo Ortiz faz a proteção para Rossi ficar com a bola.",
+      "player": {
+        "name": "Dieguinho trabalha com Raniele, que aciona Gui N"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 56,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Raniele serve Lingard na frente. O inglês tenta passar pela marcação, mas Danilo faz o corte.",
+      "player": {
+        "name": "Raniele serve Lingard na frente. O inglês tenta "
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 57,
+        "extra": null
+      },
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "Important",
+      "detail": "Samuel Lino domina na entrada da área, chuta de perna esquerda e manda para fora.",
+      "player": {
+        "name": "Samuel Lino"
+      },
+      "assist": {
+        "name": "Uuuh"
+      }
     }
   ],
   "lineups": [
@@ -2260,11 +2342,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "68%"
+          "value": "65%"
         },
         {
           "type": "Total Passes",
-          "value": 451
+          "value": 477
         },
         {
           "type": "Pass Accuracy",
@@ -2272,7 +2354,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 50
+          "value": 54
         },
         {
           "type": "Total Shots",
@@ -2312,11 +2394,11 @@
         },
         {
           "type": "Tackles",
-          "value": 7
+          "value": 12
         },
         {
           "type": "Fouls",
-          "value": 7
+          "value": 8
         },
         {
           "type": "Yellow Cards",
@@ -2336,11 +2418,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "32%"
+          "value": "35%"
         },
         {
           "type": "Total Passes",
-          "value": 169
+          "value": 197
         },
         {
           "type": "Pass Accuracy",
@@ -2348,7 +2430,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 31
+          "value": 35
         },
         {
           "type": "Total Shots",
@@ -2392,7 +2474,7 @@
         },
         {
           "type": "Fouls",
-          "value": 3
+          "value": 4
         },
         {
           "type": "Yellow Cards",

@@ -13261,7 +13261,7 @@
         "status": {
           "long": "2H",
           "short": "2H",
-          "elapsed": 88
+          "elapsed": 95
         },
         "timerStart": "2026-09-13T01:09:12.548Z",
         "timerStatus": "INICIADO"
@@ -13283,7 +13283,7 @@
       },
       "goals": {
         "home": 2,
-        "away": 0
+        "away": 1
       },
       "score": {
         "halftime": {
@@ -18691,7 +18691,7 @@
                 "logo": "https://s.sde.globo.com/media/organizations/2021/02/13/cruzeiro_2021.svg"
               },
               "points": 42,
-              "goalsDiff": -1,
+              "goalsDiff": 0,
               "form": "WWLWL",
               "description": "Copa Sudamericana",
               "all": {
@@ -18700,7 +18700,7 @@
                 "draw": 6,
                 "lose": 9,
                 "goals": {
-                  "for": 38,
+                  "for": 39,
                   "against": 39
                 }
               }
@@ -18779,7 +18779,7 @@
                 "logo": "https://s.sde.globo.com/media/organizations/2018/03/12/santos.svg"
               },
               "points": 35,
-              "goalsDiff": 1,
+              "goalsDiff": 0,
               "form": "WDWWW",
               "description": "Copa Sudamericana",
               "all": {
@@ -18789,7 +18789,7 @@
                 "lose": 9,
                 "goals": {
                   "for": 39,
-                  "against": 38
+                  "against": 39
                 }
               }
             },
@@ -19220,6 +19220,28 @@
     {
       "player": {
         "id": 10,
+        "name": "Matheus Pereira",
+        "photo": "https://s.sde.globo.com/media/person_role/2025/04/01/photo_140x140_paqfi1w.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "name": "Cruzeiro",
+            "logo": "https://s.sde.globo.com/media/organizations/2021/02/13/65_cruzeiro-2021.png"
+          },
+          "goals": {
+            "total": 8,
+            "assists": null
+          },
+          "games": {
+            "appearences": 0
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 11,
         "name": "Pedro Rocha",
         "photo": "https://s.sde.globo.com/media/person_role/2025/02/26/photo_140x140_OEA2Hhd.png"
       },
@@ -19241,7 +19263,7 @@
     },
     {
       "player": {
-        "id": 11,
+        "id": 12,
         "name": "Luciano Juba",
         "photo": "https://s.sde.globo.com/media/person_role/2026/07/06/photo_140x140_JKUCf8p.png"
       },
@@ -19263,7 +19285,7 @@
     },
     {
       "player": {
-        "id": 12,
+        "id": 13,
         "name": "Danilo",
         "photo": "https://s.sde.globo.com/media/person_role/2026/07/06/photo_140x140_z4bUUy7.png"
       },
@@ -19285,7 +19307,7 @@
     },
     {
       "player": {
-        "id": 13,
+        "id": 14,
         "name": "Calleri",
         "photo": "https://s.sde.globo.com/media/person_role/2026/02/20/photo_140x140_2u6NnKV.png"
       },
@@ -19307,7 +19329,7 @@
     },
     {
       "player": {
-        "id": 14,
+        "id": 15,
         "name": "Maurício",
         "photo": "https://s.sde.globo.com/media/person_role/2026/08/19/photo_140x140_6MjlXVn.png"
       },
@@ -19329,7 +19351,7 @@
     },
     {
       "player": {
-        "id": 15,
+        "id": 16,
         "name": "Arthur Cabral",
         "photo": "https://s.sde.globo.com/media/person_role/2026/07/06/photo_140x140_LWtebKu.png"
       },
@@ -19338,28 +19360,6 @@
           "team": {
             "name": "Botafogo",
             "logo": "https://s.sde.globo.com/media/organizations/2019/02/04/botafogo-65.png"
-          },
-          "goals": {
-            "total": 7,
-            "assists": null
-          },
-          "games": {
-            "appearences": 0
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 16,
-        "name": "Matheus Pereira",
-        "photo": "https://s.sde.globo.com/media/person_role/2025/04/01/photo_140x140_paqfi1w.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "name": "Cruzeiro",
-            "logo": "https://s.sde.globo.com/media/organizations/2021/02/13/65_cruzeiro-2021.png"
           },
           "goals": {
             "total": 7,
@@ -20127,7 +20127,7 @@
     "mode": "live",
     "liveIntervalMs": 20000
   },
-  "fetchedAt": "2026-09-13T01:52:50.062Z",
+  "fetchedAt": "2026-09-13T01:59:36.210Z",
   "source": "ge-globo",
   "meta": {
     "rodada": 27,

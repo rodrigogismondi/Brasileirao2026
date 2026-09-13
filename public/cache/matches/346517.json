@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 88
+      "elapsed": 95
     },
     "timerStart": "2026-09-13T01:09:12.548Z",
     "timerStatus": "INICIADO"
@@ -31,7 +31,7 @@
   },
   "goals": {
     "home": 2,
-    "away": 0
+    "away": 1
   },
   "score": {
     "halftime": {
@@ -2698,9 +2698,139 @@
         "name": ""
       },
       "type": "Important",
+      "detail": "Arthur trabalha a bola no lado esquerdo com Miguelito, que recebe falta de Zé Lucas.",
+      "player": {
+        "name": "Arthur trabalha a bola no lado esquerdo com Migu"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 87,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Santos vai vencendo por 2 a 0 já na reta final do segundo tempo. A equipe da casa construiu o placar ainda na primeira etapa, com Rollheiser aproveitando rebote e um gol contra de Fabrício Bruno. Apesar da vantagem, o time santista desperdiçou várias chances de ampliar, principalmente com Rony. O Cruzeiro reagiu e quase diminuiu, mas parou em uma defesa milagrosa de Gabriel Brazão em cabeçada de Matheus Pereira.",
+      "player": {
+        "name": "Peixe na frente em jogo de muitas chances"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 87,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
       "detail": "Na cobrança da falta, Matheus Pereira joga a bola na segunda trave e João Marcelo toca desequilibrado de cabeça para fora.",
       "player": {
         "name": "Na cobrança da falta, Matheus Pereira joga a bol"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 88,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Já na reta final do segundo tempo, o Santos vence por 2 a 0, com gols de Rollheiser e um contra de Fabrício Bruno. O time da casa domina a partida e acumula chances perdidas, especialmente com Rony. O goleiro do Cruzeiro, Otávio, fez grandes defesas, enquanto Gabriel Brazão operou um milagre em cabeçada de Matheus Pereira para evitar o gol de honra do adversário, mantendo a vantagem santista.",
+      "player": {
+        "name": "Santos na frente, mas placar poderia ser maior"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 88,
+        "extra": null
+      },
+      "team": {
+        "id": 277,
+        "name": "Santos"
+      },
+      "type": "Important",
+      "detail": "Arthur cobra falta em direção à área. Thaciano, em posição de impedimento, finaliza duas vezes em cima de Otávio, que defende os dois chutes. Na sequência, lance é anulado em razão da posição irregular do atacante do Santos.",
+      "player": {
+        "name": "Thaciano"
+      },
+      "assist": {
+        "name": "Finalizações em impedimento"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 89,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Santos impôs um ritmo forte e abriu 2 a 0 no primeiro tempo, com gol de Rollheiser e um gol contra de Fabricio Bruno. A equipe da casa continuou pressionando e desperdiçou várias chances claras de ampliar, principalmente com Rony. O Cruzeiro, que contou com grandes defesas de Otávio, reagiu nos minutos finais com gol de Matheus Pereira, deixando a partida em 2 a 1 e prometendo um final eletrizante.",
+      "player": {
+        "name": "Santos abre vantagem, mas Cruzeiro diminui no fim!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 89,
+        "extra": null
+      },
+      "team": {
+        "id": 283,
+        "name": "Cruzeiro"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "player": {
+        "name": "Matheus Pereira"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 92,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Santos dominou a partida e construiu uma vantagem de 2 a 0 com um gol de Rollheiser e outro contra de Fabrício Bruno ainda no primeiro tempo. Apesar das inúmeras chances criadas e desperdiçadas, o time da casa não conseguiu ampliar. Já na reta final, aos 44 do segundo tempo, Matheus Pereira aproveitou um cruzamento na área e diminuiu para o Cruzeiro, deixando o placar em 2 a 1 e prometendo fogo nos minutos finais.",
+      "player": {
+        "name": "Cruzeiro reage e esquenta o final do jogo!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 92,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Wesley cruza da esquerda para a área, e Luan Peres tira de cabeça.",
+      "player": {
+        "name": "Wesley cruza da esquerda para a área, e Luan Per"
       },
       "assist": null
     }
@@ -3164,7 +3294,7 @@
         },
         {
           "type": "Total Passes",
-          "value": 492
+          "value": 529
         },
         {
           "type": "Pass Accuracy",
@@ -3172,15 +3302,15 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 65
+          "value": 71
         },
         {
           "type": "Total Shots",
-          "value": 30
+          "value": 31
         },
         {
           "type": "Shots on Goal",
-          "value": 8
+          "value": 9
         },
         {
           "type": "Shots off Goal",
@@ -3196,11 +3326,11 @@
         },
         {
           "type": "Corner Kicks",
-          "value": 10
+          "value": 11
         },
         {
           "type": "Offsides",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Penalties",
@@ -3212,11 +3342,11 @@
         },
         {
           "type": "Tackles",
-          "value": 19
+          "value": 20
         },
         {
           "type": "Fouls",
-          "value": 17
+          "value": 19
         },
         {
           "type": "Yellow Cards",
@@ -3240,27 +3370,27 @@
         },
         {
           "type": "Total Passes",
-          "value": 384
+          "value": 423
         },
         {
           "type": "Pass Accuracy",
-          "value": "86%"
+          "value": "85%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 55
+          "value": 62
         },
         {
           "type": "Total Shots",
-          "value": 6
+          "value": 8
         },
         {
           "type": "Shots on Goal",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Shots off Goal",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Blocked Shots",
@@ -3284,7 +3414,7 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 13
+          "value": 14
         },
         {
           "type": "Tackles",
@@ -3292,11 +3422,11 @@
         },
         {
           "type": "Fouls",
-          "value": 11
+          "value": 14
         },
         {
           "type": "Yellow Cards",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Red Cards",

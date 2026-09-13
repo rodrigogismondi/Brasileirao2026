@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 19
+      "elapsed": 20
     },
     "timerStart": "2026-09-13T00:01:16.550Z",
     "timerStatus": "INICIADO"
@@ -480,6 +480,22 @@
         "extra": null
       },
       "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "A partida começou com bastante movimentação nos primeiros 15 minutos. O Cruzeiro teve a primeira grande chance em cabeçada de Kaio Jorge, que passou por cima do gol. O Santos respondeu com chegadas perigosas de Gabriel Bontempo e Everton Cebolinha, levando perigo em finalizações desviadas. O jogo ainda teve um momento de apreensão, com Luan Peres deixando o campo após um choque de cabeça.",
+      "player": {
+        "name": "Início aberto com chances e lance preocupante"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 15,
+        "extra": null
+      },
+      "team": {
         "id": 277,
         "name": "Santos"
       },
@@ -523,6 +539,74 @@
         "name": "Matheus Pereira erra o passe no lado direito do "
       },
       "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 17,
+        "extra": null
+      },
+      "team": {
+        "id": 283,
+        "name": "Cruzeiro"
+      },
+      "type": "Important",
+      "detail": "Everton Cebolinha carrega a bola, toca para Gabriel Bontempo, recebe de volta e finaliza em cima da marcação do Cruzeiro.",
+      "player": {
+        "name": "Everton"
+      },
+      "assist": {
+        "name": "Outra vez ele"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 17,
+        "extra": null
+      },
+      "team": {
+        "id": 283,
+        "name": "Cruzeiro"
+      },
+      "type": "Important",
+      "detail": "Na cobrança de escanteio de Rollheiser, a zaga do Cruzeiro tira de cabeça na primeira trave.",
+      "player": {
+        "name": "Na cobrança de escanteio de Rollheiser, a zaga d"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 18,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O jogo começou com o Cruzeiro desperdiçando uma ótima chance de cabeça com Kaio Jorge. O Santos respondeu e equilibrou as ações, criando perigo principalmente com Everton Cebolinha. A partida, que já teve um susto com a lesão de Luan Peres, esquentou perto dos 20 minutos, quando Otávio fez grande defesa em finalização de Gustavo Henrique para manter o placar zerado em um duelo aberto.",
+      "player": {
+        "name": "Início agitado com chances para os dois lados"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 18,
+        "extra": null
+      },
+      "team": {
+        "id": 277,
+        "name": "Santos"
+      },
+      "type": "Important",
+      "detail": "Santos troca passes no campo ofensivo, jogando de pé em pé. Rodinei cruza da direita para o meio e Gustavo Henrique aproveita uma ajeitada de cabeça para encher o pé. Otávio faz a defesa.",
+      "player": {
+        "name": "Gustavo Henrique"
+      },
+      "assist": {
+        "name": "Uuuuuuh"
+      }
     }
   ],
   "lineups": [
@@ -980,23 +1064,23 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "49%"
+          "value": "47%"
         },
         {
           "type": "Total Passes",
-          "value": 75
+          "value": 87
         },
         {
           "type": "Pass Accuracy",
-          "value": "81%"
+          "value": "82%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 14
+          "value": 16
         },
         {
           "type": "Total Shots",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Shots on Goal",
@@ -1004,7 +1088,7 @@
         },
         {
           "type": "Shots off Goal",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Blocked Shots",
@@ -1016,7 +1100,7 @@
         },
         {
           "type": "Corner Kicks",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Offsides",
@@ -1056,19 +1140,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "51%"
+          "value": "53%"
         },
         {
           "type": "Total Passes",
-          "value": 48
+          "value": 88
         },
         {
           "type": "Pass Accuracy",
-          "value": "79%"
+          "value": "86%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 10
+          "value": 12
         },
         {
           "type": "Total Shots",
@@ -1104,11 +1188,11 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Tackles",
-          "value": 5
+          "value": 6
         },
         {
           "type": "Fouls",

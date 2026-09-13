@@ -13209,12 +13209,12 @@
           "city": ""
         },
         "status": {
-          "long": "HT",
-          "short": "HT",
-          "elapsed": 45
+          "long": "2H",
+          "short": "2H",
+          "elapsed": 55
         },
-        "timerStart": "2026-09-13T00:20:44.126Z",
-        "timerStatus": "PAUSADO"
+        "timerStart": "2026-09-13T00:37:42.225Z",
+        "timerStatus": "INICIADO"
       },
       "league": {
         "round": "Regular Season - 27"
@@ -13263,7 +13263,7 @@
         "status": {
           "long": "1H",
           "short": "1H",
-          "elapsed": 37
+          "elapsed": 47
         },
         "timerStart": "2026-09-13T00:01:16.550Z",
         "timerStatus": "INICIADO"
@@ -18693,7 +18693,7 @@
                 "logo": "https://s.sde.globo.com/media/organizations/2021/02/13/cruzeiro_2021.svg"
               },
               "points": 42,
-              "goalsDiff": 0,
+              "goalsDiff": -1,
               "form": "WWLWL",
               "description": "Copa Sudamericana",
               "all": {
@@ -18703,7 +18703,7 @@
                 "lose": 9,
                 "goals": {
                   "for": 38,
-                  "against": 38
+                  "against": 39
                 }
               }
             },
@@ -18781,7 +18781,7 @@
                 "logo": "https://s.sde.globo.com/media/organizations/2018/03/12/santos.svg"
               },
               "points": 35,
-              "goalsDiff": 0,
+              "goalsDiff": 1,
               "form": "WDWWW",
               "description": "Copa Sudamericana",
               "all": {
@@ -18790,7 +18790,7 @@
                 "draw": 8,
                 "lose": 9,
                 "goals": {
-                  "for": 38,
+                  "for": 39,
                   "against": 38
                 }
               }
@@ -20129,7 +20129,7 @@
     "mode": "live",
     "liveIntervalMs": 20000
   },
-  "fetchedAt": "2026-09-13T00:38:38.338Z",
+  "fetchedAt": "2026-09-13T00:48:30.401Z",
   "source": "ge-globo",
   "meta": {
     "rodada": 27,

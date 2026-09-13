@@ -7,12 +7,12 @@
       "city": ""
     },
     "status": {
-      "long": "1H",
-      "short": "1H",
-      "elapsed": 48
+      "long": "HT",
+      "short": "HT",
+      "elapsed": 45
     },
-    "timerStart": "2026-09-13T20:30:09.941Z",
-    "timerStatus": "INICIADO"
+    "timerStart": "2026-09-13T21:17:51.496Z",
+    "timerStatus": "PAUSADO"
   },
   "league": {
     "round": "Regular Season - 27"
@@ -1415,6 +1415,106 @@
         "name": "Samuel Lino toca para Arrascaeta no lado esquerd"
       },
       "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 45,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "+2 minutos.",
+      "player": {
+        "name": "Acréscimos"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 45,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O placar de 0 a 0 no Maracanã não reflete o que acontece em campo. O Flamengo domina completamente e acumula chances perdidas, parando em uma atuação monumental do goleiro Hugo Souza. Aos 21 minutos, ele fez um milagre em toque de Pedro, e na sequência, João Pedro Tchoca salvou em cima da linha. Com o Corinthians recuado, o time da casa segue pressionando em busca do gol antes do intervalo.",
+      "player": {
+        "name": "Muralha corintiana e pressão rubro-negra"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 45,
+        "extra": null
+      },
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "Important",
+      "detail": "Gui Negão toca errado para trás e Varela chuta de perna esquerda para fora. Mais uma chance perigosa para o Flamengo.",
+      "player": {
+        "name": "Varela"
+      },
+      "assist": {
+        "name": "Que chance"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 46,
+        "extra": null
+      },
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "Important",
+      "detail": "Raniele rouba a bola no campo defensivo e dispara em velocidade pelo meio-campo, passando por vários adversário. Ele só é parado dentro da área do Flamengo.",
+      "player": {
+        "name": "Raniele"
+      },
+      "assist": {
+        "name": "Partiu em velocidade"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 46,
+        "extra": null
+      },
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "Important",
+      "detail": "Flamengo troca passes no campo ofensivo.",
+      "player": {
+        "name": "Flamengo troca passes no campo ofensivo."
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 47,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Árbitro Wilton Pereira Sampaio encerra a etapa inicial.",
+      "player": {
+        "name": "Fim de primeiro tempo"
+      },
+      "assist": null
     }
   ],
   "lineups": [
@@ -1872,11 +1972,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "66%"
+          "value": "67%"
         },
         {
           "type": "Total Passes",
-          "value": 397
+          "value": 420
         },
         {
           "type": "Pass Accuracy",
@@ -1884,7 +1984,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 44
+          "value": 46
         },
         {
           "type": "Total Shots",
@@ -1948,19 +2048,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "34%"
+          "value": "33%"
         },
         {
           "type": "Total Passes",
-          "value": 134
+          "value": 135
         },
         {
           "type": "Pass Accuracy",
-          "value": "80%"
+          "value": "79%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 27
+          "value": 28
         },
         {
           "type": "Total Shots",
@@ -1996,7 +2096,7 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 12
+          "value": 13
         },
         {
           "type": "Tackles",

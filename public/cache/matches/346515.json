@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 64
+      "elapsed": 67
     },
     "timerStart": "2026-09-13T21:35:10.931Z",
     "timerStatus": "INICIADO"
@@ -2008,6 +2008,22 @@
         "extra": null
       },
       "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "Important",
+      "detail": "A pressão do Flamengo finalmente deu resultado! Depois de um bombardeio na primeira etapa, com o goleiro Hugo Souza fechando o gol corintiano, a rede balançou no início do segundo tempo. Aos 2 minutos, após escanteio e uma saída confusa do goleiro, Lucas Paquetá pegou a sobra na área e soltou a bomba para fazer 1 a 0. O jogo segue intenso, com o Fla criando mais chances até os 17 minutos.",
+      "player": {
+        "name": "Paquetá abre o placar no Maracanã!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 62,
+        "extra": null
+      },
+      "team": {
         "id": 264,
         "name": "Corinthians"
       },
@@ -2015,6 +2031,88 @@
       "detail": "Matheuzinho, Matheus Bidu e Breno Bidon se preparam para entrar em campo pelo Corinthians.",
       "player": {
         "name": "Matheuzinho, Matheus Bidu e Breno Bidon se prepa"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 63,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Após um primeiro tempo de forte pressão, o Flamengo abriu o placar no início da segunda etapa. Aos 2 minutos, em escanteio de Arrascaeta, Hugo Souza saiu mal e a bola sobrou para Lucas Paquetá, que não perdoou e fez 1 a 0. O time da casa segue com o controle do jogo e continua criando chances perigosas, enquanto o Corinthians busca espaços para reagir na partida.",
+      "player": {
+        "name": "Tanto insistiu que marcou: Fla na frente!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 63,
+        "extra": null
+      },
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "Important",
+      "detail": "Arrascaeta carrega a bola e trabalha com Samuel Lino. Plata recebe na direita e chuta em cima da marcação de Iago Machado, ganhando escanteio para o Flamengo.",
+      "player": {
+        "name": "Plata"
+      },
+      "assist": {
+        "name": "Uuuuh"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 64,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Plata cobra escanteio para a área, e Matheus Pereira toca de cabeça para trás.",
+      "player": {
+        "name": "Plata cobra escanteio para a área, e Matheus Per"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 65,
+        "extra": null
+      },
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "Important",
+      "detail": "Flamengo rouba a bola, e Samuel Lino sai na frente da área e finaliza para fora.",
+      "player": {
+        "name": "Flamengo rouba a bola, e Samuel Lino sai na fren"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 65,
+        "extra": null
+      },
+      "team": {
+        "id": 264,
+        "name": "Corinthians"
+      },
+      "type": "Important",
+      "detail": "Kaio César também será outra novidade do Corinthians. Técnico Fernando Diniz prepara quatro substituições.",
+      "player": {
+        "name": "Kaio César também será outra novidade do Corinth"
       },
       "assist": null
     }
@@ -2474,11 +2572,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "63%"
+          "value": "62%"
         },
         {
           "type": "Total Passes",
-          "value": 523
+          "value": 538
         },
         {
           "type": "Pass Accuracy",
@@ -2486,11 +2584,11 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 57
+          "value": 59
         },
         {
           "type": "Total Shots",
-          "value": 22
+          "value": 23
         },
         {
           "type": "Shots on Goal",
@@ -2498,7 +2596,7 @@
         },
         {
           "type": "Shots off Goal",
-          "value": 10
+          "value": 11
         },
         {
           "type": "Blocked Shots",
@@ -2510,7 +2608,7 @@
         },
         {
           "type": "Corner Kicks",
-          "value": 13
+          "value": 14
         },
         {
           "type": "Offsides",
@@ -2530,7 +2628,7 @@
         },
         {
           "type": "Fouls",
-          "value": 8
+          "value": 9
         },
         {
           "type": "Yellow Cards",
@@ -2550,11 +2648,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "37%"
+          "value": "38%"
         },
         {
           "type": "Total Passes",
-          "value": 252
+          "value": 262
         },
         {
           "type": "Pass Accuracy",
@@ -2562,7 +2660,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 41
+          "value": 42
         },
         {
           "type": "Total Shots",
@@ -2598,7 +2696,7 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 14
+          "value": 15
         },
         {
           "type": "Tackles",

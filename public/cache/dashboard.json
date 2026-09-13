@@ -13211,7 +13211,7 @@
         "status": {
           "long": "2H",
           "short": "2H",
-          "elapsed": 56
+          "elapsed": 70
         },
         "timerStart": "2026-09-13T00:37:42.225Z",
         "timerStatus": "INICIADO"
@@ -13232,7 +13232,7 @@
         }
       },
       "goals": {
-        "home": 0,
+        "home": 1,
         "away": 1
       },
       "score": {
@@ -13261,12 +13261,12 @@
           "city": ""
         },
         "status": {
-          "long": "1H",
-          "short": "1H",
-          "elapsed": 48
+          "long": "HT",
+          "short": "HT",
+          "elapsed": 45
         },
-        "timerStart": "2026-09-13T00:01:16.550Z",
-        "timerStatus": "INICIADO"
+        "timerStart": "2026-09-13T00:51:45.368Z",
+        "timerStatus": "PAUSADO"
       },
       "league": {
         "round": "Regular Season - 27"
@@ -18732,28 +18732,6 @@
             {
               "rank": 8,
               "team": {
-                "id": 280,
-                "name": "Bragantino",
-                "logo": "https://s.sde.globo.com/media/organizations/2021/06/28/bragantino.svg"
-              },
-              "points": 38,
-              "goalsDiff": 4,
-              "form": "DWLLW",
-              "description": "Copa Sudamericana",
-              "all": {
-                "played": 26,
-                "win": 11,
-                "draw": 5,
-                "lose": 10,
-                "goals": {
-                  "for": 32,
-                  "against": 28
-                }
-              }
-            },
-            {
-              "rank": 9,
-              "team": {
                 "id": 294,
                 "name": "Coritiba",
                 "logo": "https://s.sde.globo.com/media/organizations/2018/03/11/coritiba.svg"
@@ -18770,6 +18748,28 @@
                 "goals": {
                   "for": 37,
                   "against": 38
+                }
+              }
+            },
+            {
+              "rank": 9,
+              "team": {
+                "id": 280,
+                "name": "Bragantino",
+                "logo": "https://s.sde.globo.com/media/organizations/2021/06/28/bragantino.svg"
+              },
+              "points": 36,
+              "goalsDiff": 3,
+              "form": "DWLLD",
+              "description": "Copa Sudamericana",
+              "all": {
+                "played": 26,
+                "win": 10,
+                "draw": 6,
+                "lose": 10,
+                "goals": {
+                  "for": 32,
+                  "against": 29
                 }
               }
             },
@@ -18868,17 +18868,17 @@
                 "name": "Botafogo",
                 "logo": "https://s.sde.globo.com/media/organizations/2019/02/04/botafogo-svg.svg"
               },
-              "points": 31,
-              "goalsDiff": -4,
-              "form": "LLLDL",
+              "points": 32,
+              "goalsDiff": -3,
+              "form": "LLLDD",
               "description": null,
               "all": {
                 "played": 26,
                 "win": 8,
-                "draw": 7,
-                "lose": 11,
+                "draw": 8,
+                "lose": 10,
                 "goals": {
-                  "for": 37,
+                  "for": 38,
                   "against": 41
                 }
               }
@@ -20129,7 +20129,7 @@
     "mode": "live",
     "liveIntervalMs": 20000
   },
-  "fetchedAt": "2026-09-13T00:49:34.218Z",
+  "fetchedAt": "2026-09-13T01:03:21.115Z",
   "source": "ge-globo",
   "meta": {
     "rodada": 27,

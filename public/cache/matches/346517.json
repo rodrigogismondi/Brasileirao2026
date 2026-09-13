@@ -7,12 +7,12 @@
       "city": ""
     },
     "status": {
-      "long": "1H",
-      "short": "1H",
-      "elapsed": 48
+      "long": "HT",
+      "short": "HT",
+      "elapsed": 45
     },
-    "timerStart": "2026-09-13T00:01:16.550Z",
-    "timerStatus": "INICIADO"
+    "timerStart": "2026-09-13T00:51:45.368Z",
+    "timerStatus": "PAUSADO"
   },
   "league": {
     "round": "Regular Season - 27"
@@ -50,6 +50,42 @@
     "source": "betexplorer"
   },
   "events": [
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 277,
+        "name": "Santos"
+      },
+      "type": "Important",
+      "detail": "— Quando você trabalha certinho e tem o pensamento positivo, sabendo que muitas das vezes o nosso trabalho não é só derrota. Nosso grupo está se fortalecendo ainda mais com as vitórias. Isso nos dá muita confiança. A nossa equipe cada vez está se fortalecendo. E agora está virando realmente um time que a nossa torcida quer. O mais importante é pensar desse jeito, que as coisas viraram. Eu acredito que, com esse pensamento, nós vamos conseguir o nosso objetivo neste ano.",
+      "player": {
+        "name": "Rony"
+      },
+      "assist": {
+        "name": "Fala, Rony!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 283,
+        "name": "Cruzeiro"
+      },
+      "type": "Important",
+      "detail": "— Nitidamente a gente não fez um primeiro tempo como a gente imaginava. Agora é ver o que o professor tem para dizer para coririgir do primeiro tempo, para voltar aqui e pelo menos empatar a partida, se der vencer. A gente tem que mudar a atitude, porque não foi um primeiro tempo como a gente imaginava. A gente sabe da nossa condição. Vamos ver o que fizemos de errado para tentar corrigir no segundo tempo.",
+      "player": {
+        "name": "Matheus Henrique"
+      },
+      "assist": {
+        "name": "Fala, Matheus Henrique!"
+      }
+    },
     {
       "time": {
         "elapsed": 0,
@@ -1174,6 +1210,22 @@
         "extra": null
       },
       "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O jogo é de um time só até aqui! O Santos impôs um ritmo alucinante e transformou o domínio em gols. Aos 27 minutos, após bate e rebate na área, Rollheiser abriu o placar. Logo depois, aos 31, Rodinei cruzou e Fabricio Bruno marcou contra, ampliando para 2 a 0. O Cruzeiro quase diminuiu em jogadaça de Gabriel Rojas salva em cima da linha, mas o Peixe segue dominando a partida.",
+      "player": {
+        "name": "Santos atropela e faz 2 a 0 no primeiro tempo!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 44,
+        "extra": null
+      },
+      "team": {
         "id": 283,
         "name": "Cruzeiro"
       },
@@ -1196,9 +1248,123 @@
         "name": ""
       },
       "type": "Important",
+      "detail": "Everton Cebolinha recebe passe meio torto do lado esquerdo e não domina. Na sequência, acaba cometendo falta no campo ofensivo.",
+      "player": {
+        "name": "Everton Cebolinha recebe passe meio torto do lad"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 45,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
       "detail": "+5 minutos.",
       "player": {
         "name": "Acréscimos"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 46,
+        "extra": null
+      },
+      "team": {
+        "id": 283,
+        "name": "Cruzeiro"
+      },
+      "type": "Important",
+      "detail": "Matheus Pereira recebe na entrada da área e é derrubado por Gustavo Henrique. Falta frontal perigosa para o Cruzeiro.",
+      "player": {
+        "name": "Matheus Pereira recebe na entrada da área e é de"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 47,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Santos impôs um ritmo alucinante e dominou o primeiro tempo. Aos 27 minutos, Rollheiser aproveitou um rebote na área e abriu o placar. Pouco depois, aos 31, Rodinei cruzou e Fabrício Bruno marcou contra, ampliando para 2 a 0. O time da casa criou muitas outras chances, parando em grandes defesas de Otávio, enquanto o Cruzeiro teve um gol salvo em cima da linha por Luan Peres.",
+      "player": {
+        "name": "Santos avassalador abre 2 a 0 na primeira etapa"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 47,
+        "extra": null
+      },
+      "team": {
+        "id": 283,
+        "name": "Cruzeiro"
+      },
+      "type": "Important",
+      "detail": "Arroyo chuta por cima da barreira e Gabriel Brazão faz a defesa em dois tempos.",
+      "player": {
+        "name": "Arroyo"
+      },
+      "assist": {
+        "name": "Finalização perigosa"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 49,
+        "extra": null
+      },
+      "team": {
+        "id": 283,
+        "name": "Cruzeiro"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Kaio Jorge"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 50,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Santos foi para o intervalo com uma grande vantagem de 2 a 0 após um primeiro tempo de amplo domínio. A pressão santista foi intensa, e o placar foi aberto aos 27 minutos com Rollheiser, aproveitando um rebote na área. Pouco depois, Rodinei cruzou e o zagueiro Fabricio Bruno marcou contra. O goleiro Otávio evitou uma goleada com grandes defesas, enquanto o Cruzeiro quase diminuiu em jogada de Rojas salva em cima da linha.",
+      "player": {
+        "name": "Peixe castiga e abre 2 a 0 no primeiro tempo"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 50,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Árbitro Bruno Arleu de Araújo encerra a etapa inicial, com vitória parcial do Santos contra o Cruzeiro por 2 a 0.",
+      "player": {
+        "name": "Fim de primeiro tempo"
       },
       "assist": null
     }
@@ -1658,11 +1824,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "54%"
+          "value": "53%"
         },
         {
           "type": "Total Passes",
-          "value": 266
+          "value": 294
         },
         {
           "type": "Pass Accuracy",
@@ -1670,23 +1836,23 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 36
+          "value": 40
         },
         {
           "type": "Total Shots",
-          "value": 13
+          "value": 16
         },
         {
           "type": "Shots on Goal",
-          "value": 5
+          "value": 6
         },
         {
           "type": "Shots off Goal",
-          "value": 5
+          "value": 6
         },
         {
           "type": "Blocked Shots",
-          "value": 3
+          "value": 4
         },
         {
           "type": "Hit Woodwork",
@@ -1706,15 +1872,15 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 0
+          "value": 2
         },
         {
           "type": "Tackles",
-          "value": 8
+          "value": 10
         },
         {
           "type": "Fouls",
-          "value": 6
+          "value": 8
         },
         {
           "type": "Yellow Cards",
@@ -1734,27 +1900,27 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "46%"
+          "value": "47%"
         },
         {
           "type": "Total Passes",
-          "value": 192
+          "value": 223
         },
         {
           "type": "Pass Accuracy",
-          "value": "84%"
+          "value": "86%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 30
+          "value": 31
         },
         {
           "type": "Total Shots",
-          "value": 3
+          "value": 5
         },
         {
           "type": "Shots on Goal",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Shots off Goal",
@@ -1762,7 +1928,7 @@
         },
         {
           "type": "Blocked Shots",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Hit Woodwork",
@@ -1782,19 +1948,19 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 9
-        },
-        {
-          "type": "Tackles",
           "value": 10
         },
         {
+          "type": "Tackles",
+          "value": 12
+        },
+        {
           "type": "Fouls",
-          "value": 3
+          "value": 5
         },
         {
           "type": "Yellow Cards",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Red Cards",

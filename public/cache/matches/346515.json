@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 76
+      "elapsed": 79
     },
     "timerStart": "2026-09-13T21:35:10.931Z",
     "timerStatus": "INICIADO"
@@ -2394,6 +2394,24 @@
       "type": "subst",
       "detail": "Substitution 1",
       "player": {
+        "name": "Alex Sandro"
+      },
+      "assist": {
+        "name": "Ayrton Lucas"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 73,
+        "extra": null
+      },
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
         "name": "Bruno Henrique"
       },
       "assist": {
@@ -2417,6 +2435,70 @@
       "assist": {
         "name": "Matheus Pereira"
       }
+    },
+    {
+      "time": {
+        "elapsed": 74,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Breno Bidon carrega a bola pelo meio-campo e toca errado para Lingard, mandando forte demais para o lado direito.",
+      "player": {
+        "name": "Breno Bidon carrega a bola pelo meio-campo e toc"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 75,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Após um bombardeio no primeiro tempo, parado por defesas incríveis de Hugo Souza, o Flamengo enfim abriu o placar. Logo aos 2 minutos da segunda etapa, Lucas Paquetá aproveitou uma sobra na área após cobrança de escanteio e fuzilou para fazer 1 a 0. O Corinthians mexeu quatro vezes para buscar a reação, mas o time carioca segue com o controle do jogo e mais presente no ataque aos 30 minutos.",
+      "player": {
+        "name": "Paquetá abre o placar para o Flamengo!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 75,
+        "extra": null
+      },
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "Important",
+      "detail": "Flamengo troca passes no meio-campo.",
+      "player": {
+        "name": "Flamengo troca passes no meio-campo."
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 76,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Varela é acionado no ataque e desloca Matheus Bidu com o braço. Árbitro Wilton Pereira Sampaio vê falta no lance.",
+      "player": {
+        "name": "Varela é acionado no ataque e desloca Matheus Bi"
+      },
+      "assist": null
     }
   ],
   "lineups": [
@@ -2878,7 +2960,7 @@
         },
         {
           "type": "Total Passes",
-          "value": 581
+          "value": 594
         },
         {
           "type": "Pass Accuracy",
@@ -2886,7 +2968,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 63
+          "value": 66
         },
         {
           "type": "Total Shots",
@@ -2954,7 +3036,7 @@
         },
         {
           "type": "Total Passes",
-          "value": 288
+          "value": 305
         },
         {
           "type": "Pass Accuracy",
@@ -2962,7 +3044,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 44
+          "value": 47
         },
         {
           "type": "Total Shots",

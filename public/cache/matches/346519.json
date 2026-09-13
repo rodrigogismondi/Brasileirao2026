@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 47
+      "elapsed": 50
     },
     "timerStart": "2026-09-13T19:01:17.978Z",
     "timerStatus": "INICIADO"
@@ -773,6 +773,70 @@
         "name": "mais seis!"
       },
       "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 46,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Jogo é novamente paralisado após um choque de cabeça. Desta vez, foi entre Gabriel Knesowitsch e Renê.",
+      "player": {
+        "name": "Jogo é novamente paralisado após um choque de ca"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 47,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Que primeiro tempo intenso! O Vitória foi letal e aproveitou duas falhas da defesa do Mirassol para abrir 2 a 0. Renê não perdoou, marcando aos 2 e aos 12 minutos, explorando saídas ruins do goleiro Alex Muralha. O time da casa tenta responder, mas sem sucesso. O jogo é pegado, com cartões para os dois lados e até uma substituição forçada de Gustavo Mosquito após um choque de cabeça.",
+      "player": {
+        "name": "Vitória é fatal e abre 2 a 0 no início"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 48,
+        "extra": null
+      },
+      "team": {
+        "id": 287,
+        "name": "Vitória"
+      },
+      "type": "Important",
+      "detail": "Defesa do Vitória prevalece no escanteio.",
+      "player": {
+        "name": "Defesa do Vitória prevalece no escanteio."
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 48,
+        "extra": null
+      },
+      "team": {
+        "id": 2305,
+        "name": "Mirassol"
+      },
+      "type": "Important",
+      "detail": "Mirassol tem escanteio pela esquerda.",
+      "player": {
+        "name": "Mirassol tem escanteio pela esquerda."
+      },
+      "assist": null
     }
   ],
   "lineups": [
@@ -1234,7 +1298,7 @@
         },
         {
           "type": "Total Passes",
-          "value": 262
+          "value": 277
         },
         {
           "type": "Pass Accuracy",
@@ -1242,7 +1306,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 34
+          "value": 36
         },
         {
           "type": "Total Shots",
@@ -1282,7 +1346,7 @@
         },
         {
           "type": "Tackles",
-          "value": 10
+          "value": 11
         },
         {
           "type": "Fouls",
@@ -1310,7 +1374,7 @@
         },
         {
           "type": "Total Passes",
-          "value": 126
+          "value": 127
         },
         {
           "type": "Pass Accuracy",
@@ -1358,7 +1422,7 @@
         },
         {
           "type": "Tackles",
-          "value": 11
+          "value": 12
         },
         {
           "type": "Fouls",

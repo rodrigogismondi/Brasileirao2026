@@ -13311,7 +13311,7 @@
         "status": {
           "long": "1H",
           "short": "1H",
-          "elapsed": 3
+          "elapsed": 4
         },
         "timerStart": "2026-09-13T19:01:17.978Z",
         "timerStatus": "INICIADO"
@@ -18822,14 +18822,14 @@
                 "name": "Vitória",
                 "logo": "https://s.sde.globo.com/media/organizations/2025/12/18/Vitoria_2025.svg"
               },
-              "points": 32,
+              "points": 33,
               "goalsDiff": -12,
-              "form": "LWLLW",
+              "form": "WLLWD",
               "description": null,
               "all": {
-                "played": 26,
+                "played": 27,
                 "win": 9,
-                "draw": 5,
+                "draw": 6,
                 "lose": 12,
                 "goals": {
                   "for": 25,
@@ -18884,6 +18884,28 @@
             {
               "rank": 15,
               "team": {
+                "id": 2305,
+                "name": "Mirassol",
+                "logo": "https://s.sde.globo.com/media/organizations/2026/07/17/MIrassol.svg"
+              },
+              "points": 29,
+              "goalsDiff": -11,
+              "form": "LDDWD",
+              "description": null,
+              "all": {
+                "played": 27,
+                "win": 7,
+                "draw": 8,
+                "lose": 12,
+                "goals": {
+                  "for": 29,
+                  "against": 40
+                }
+              }
+            },
+            {
+              "rank": 16,
+              "team": {
                 "id": 284,
                 "name": "Grêmio",
                 "logo": "https://s.sde.globo.com/media/organizations/2018/03/12/gremio.svg"
@@ -18900,28 +18922,6 @@
                 "goals": {
                   "for": 28,
                   "against": 35
-                }
-              }
-            },
-            {
-              "rank": 16,
-              "team": {
-                "id": 2305,
-                "name": "Mirassol",
-                "logo": "https://s.sde.globo.com/media/organizations/2026/07/17/MIrassol.svg"
-              },
-              "points": 28,
-              "goalsDiff": -11,
-              "form": "LLDDW",
-              "description": null,
-              "all": {
-                "played": 26,
-                "win": 7,
-                "draw": 7,
-                "lose": 12,
-                "goals": {
-                  "for": 29,
-                  "against": 40
                 }
               }
             },
@@ -19440,17 +19440,17 @@
     {
       "player": {
         "id": 20,
-        "name": "Neymar",
-        "photo": "https://s.sde.globo.com/media/person_role/2026/08/19/photo_140x140_Aji3JX5.png"
+        "name": "Renê",
+        "photo": "https://s.sde.globo.com/media/person_role/2026/03/31/photo_140x140_3LaEnb6.png"
       },
       "statistics": [
         {
           "team": {
-            "name": "Santos",
-            "logo": "https://s.sde.globo.com/media/organizations/2014/04/14/santos_60x60.png"
+            "name": "Vitória",
+            "logo": "https://s.sde.globo.com/media/organizations/2025/12/18/Vitoria-2025-65.png"
           },
           "goals": {
-            "total": 6,
+            "total": 7,
             "assists": null
           },
           "games": {
@@ -19462,14 +19462,14 @@
     {
       "player": {
         "id": 21,
-        "name": "Renê",
-        "photo": "https://s.sde.globo.com/media/person_role/2026/03/31/photo_140x140_3LaEnb6.png"
+        "name": "Neymar",
+        "photo": "https://s.sde.globo.com/media/person_role/2026/08/19/photo_140x140_Aji3JX5.png"
       },
       "statistics": [
         {
           "team": {
-            "name": "Vitória",
-            "logo": "https://s.sde.globo.com/media/organizations/2025/12/18/Vitoria-2025-65.png"
+            "name": "Santos",
+            "logo": "https://s.sde.globo.com/media/organizations/2014/04/14/santos_60x60.png"
           },
           "goals": {
             "total": 6,
@@ -20127,7 +20127,7 @@
     "mode": "live",
     "liveIntervalMs": 20000
   },
-  "fetchedAt": "2026-09-13T19:04:27.585Z",
+  "fetchedAt": "2026-09-13T19:06:17.631Z",
   "source": "ge-globo",
   "meta": {
     "rodada": 27,

@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 26
+      "elapsed": 29
     },
     "timerStart": "2026-09-13T19:01:17.978Z",
     "timerStatus": "INICIADO"
@@ -419,6 +419,90 @@
       "detail": "Alesson finaliza cruzado, mas a bola bate nas costas de Gustavo Mosquito.",
       "player": {
         "name": "Alesson finaliza cruzado, mas a bola bate nas co"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 23,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Que começo fulminante do Vitória! Em menos de 15 minutos, o time visitante já construiu 2 a 0 no placar, com dois gols de Renê. O atacante foi letal ao aproveitar duas falhas enormes do goleiro Alex Muralha, que saiu mal do gol em ambos os lances. O Mirassol, que até começou com uma chance, se desestabilizou e vê o rival dominar. O clima esquentou com um amarelo para Brítez, do Vitória.",
+      "player": {
+        "name": "Renê marca duas vezes e Vitória dispara na frente!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 23,
+        "extra": null
+      },
+      "team": {
+        "id": 287,
+        "name": "Vitória"
+      },
+      "type": "Important",
+      "detail": "Zé Vitor finaliza da entrada da área, e o goleiro Alex Muralha encaixa a bola.",
+      "player": {
+        "name": "Zé Vitor"
+      },
+      "assist": {
+        "name": "Encaixou!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 24,
+        "extra": null
+      },
+      "team": {
+        "id": 2305,
+        "name": "Mirassol"
+      },
+      "type": "Important",
+      "detail": "Chico Kim cruza, a bola pega um efeito e o goleiro Lucas Arcanjo dá um soco para evitar o gol.",
+      "player": {
+        "name": "Chico Kim"
+      },
+      "assist": {
+        "name": "Que efeito!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 26,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Começo de jogo fulminante do Vitória, que aproveita falhas do Mirassol para construir um belo placar. Aos 2 minutos, Renê abriu o marcador após uma saída desastrosa do goleiro Alex Muralha. Aos 12, o mesmo Renê ampliou para 2 a 0, encobrindo Muralha novamente. O time da casa busca reagir e já forçou boa defesa de Lucas Arcanjo, mas segue errando muito no ataque após 25 minutos.",
+      "player": {
+        "name": "Início fatal do Vitória com show de Renê"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 26,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Vitória tenta mais uma jogada de transição, mas, desta vez, a defesa do Mirassol estava esperta.",
+      "player": {
+        "name": "Vitória tenta mais uma jogada de transição, mas,"
       },
       "assist": null
     }
@@ -882,15 +966,15 @@
         },
         {
           "type": "Total Passes",
-          "value": 133
+          "value": 163
         },
         {
           "type": "Pass Accuracy",
-          "value": "84%"
+          "value": "86%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 21
+          "value": 23
         },
         {
           "type": "Total Shots",
@@ -926,15 +1010,15 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Tackles",
-          "value": 7
+          "value": 9
         },
         {
           "type": "Fouls",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Yellow Cards",
@@ -958,23 +1042,23 @@
         },
         {
           "type": "Total Passes",
-          "value": 77
+          "value": 82
         },
         {
           "type": "Pass Accuracy",
-          "value": "79%"
+          "value": "78%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 16
+          "value": 18
         },
         {
           "type": "Total Shots",
-          "value": 3
+          "value": 4
         },
         {
           "type": "Shots on Goal",
-          "value": 3
+          "value": 4
         },
         {
           "type": "Shots off Goal",

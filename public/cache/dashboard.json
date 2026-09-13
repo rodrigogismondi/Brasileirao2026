@@ -13361,7 +13361,7 @@
         "status": {
           "long": "2H",
           "short": "2H",
-          "elapsed": 79
+          "elapsed": 81
         },
         "timerStart": "2026-09-13T21:35:10.931Z",
         "timerStatus": "INICIADO"
@@ -18576,28 +18576,6 @@
             {
               "rank": 1,
               "team": {
-                "id": 262,
-                "name": "Flamengo",
-                "logo": "https://s.sde.globo.com/media/organizations/2018/04/10/Flamengo-2018.svg"
-              },
-              "points": 57,
-              "goalsDiff": 31,
-              "form": "WLWWW",
-              "description": "Copa Libertadores",
-              "all": {
-                "played": 27,
-                "win": 17,
-                "draw": 6,
-                "lose": 4,
-                "goals": {
-                  "for": 52,
-                  "against": 21
-                }
-              }
-            },
-            {
-              "rank": 2,
-              "team": {
                 "id": 275,
                 "name": "Palmeiras",
                 "logo": "https://s.sde.globo.com/media/organizations/2019/07/06/Palmeiras.svg"
@@ -18614,6 +18592,28 @@
                 "goals": {
                   "for": 47,
                   "against": 21
+                }
+              }
+            },
+            {
+              "rank": 2,
+              "team": {
+                "id": 262,
+                "name": "Flamengo",
+                "logo": "https://s.sde.globo.com/media/organizations/2018/04/10/Flamengo-2018.svg"
+              },
+              "points": 55,
+              "goalsDiff": 30,
+              "form": "WLWWD",
+              "description": "Copa Libertadores",
+              "all": {
+                "played": 27,
+                "win": 16,
+                "draw": 7,
+                "lose": 4,
+                "goals": {
+                  "for": 52,
+                  "against": 22
                 }
               }
             },
@@ -18844,17 +18844,17 @@
                 "name": "Corinthians",
                 "logo": "https://s.sde.globo.com/media/organizations/2024/10/09/Corinthians_2024_Q4ahot4.svg"
               },
-              "points": 32,
-              "goalsDiff": -1,
-              "form": "LLLLL",
+              "points": 33,
+              "goalsDiff": 0,
+              "form": "LLLLD",
               "description": null,
               "all": {
                 "played": 27,
                 "win": 8,
-                "draw": 8,
-                "lose": 11,
+                "draw": 9,
+                "lose": 10,
                 "goals": {
-                  "for": 27,
+                  "for": 28,
                   "against": 28
                 }
               }
@@ -20127,7 +20127,7 @@
     "mode": "live",
     "liveIntervalMs": 20000
   },
-  "fetchedAt": "2026-09-13T22:10:07.597Z",
+  "fetchedAt": "2026-09-13T22:12:09.175Z",
   "source": "ge-globo",
   "meta": {
     "rodada": 27,

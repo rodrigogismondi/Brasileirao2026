@@ -7,12 +7,12 @@
       "city": ""
     },
     "status": {
-      "long": "HT",
-      "short": "HT",
-      "elapsed": 45
+      "long": "2H",
+      "short": "2H",
+      "elapsed": 52
     },
-    "timerStart": "2026-09-13T21:17:51.496Z",
-    "timerStatus": "PAUSADO"
+    "timerStart": "2026-09-13T21:35:10.931Z",
+    "timerStatus": "INICIADO"
   },
   "league": {
     "round": "Regular Season - 27"
@@ -30,7 +30,7 @@
     }
   },
   "goals": {
-    "home": 0,
+    "home": 1,
     "away": 0
   },
   "score": {
@@ -1552,6 +1552,22 @@
         "extra": null
       },
       "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Samuel Lino é acionado dentro da área e dá um toque de cabeça para trás, tentando buscar Pedro. Hugo Souza se adianta e fica com a bola.",
+      "player": {
+        "name": "Samuel Lino é acionado dentro da área e dá um to"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 46,
+        "extra": null
+      },
+      "team": {
         "id": 262,
         "name": "Flamengo"
       },
@@ -1586,6 +1602,54 @@
         "extra": null
       },
       "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "Important",
+      "detail": "Após um primeiro tempo de forte pressão do Flamengo, com o goleiro Hugo Souza fazendo defesas incríveis e João Pedro Tchoca salvando um gol em cima da linha, o placar finalmente foi aberto. Logo aos 2 minutos da segunda etapa, após cobrança de escanteio de Arrascaeta e uma saída ruim de Hugo Souza, a bola sobrou para Lucas Paquetá, que encheu o pé para fazer 1 a 0 no Maracanã.",
+      "player": {
+        "name": "Paquetá aproveita falha e Fla sai na frente!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 47,
+        "extra": null
+      },
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "player": {
+        "name": "Lucas Paquetá"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 47,
+        "extra": null
+      },
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "Important",
+      "detail": "Arrascaeta recebe na entrada da área e tabela com Samuel Lino, mas Pedro Milans se antecipa e faz o corte. Ele disputa a bola com Ayrton Lucas e não consegue se sobressair. Bola sai pela linha de fundo, dando escanteio para o Flamengo.",
+      "player": {
+        "name": "Arrascaeta recebe na entrada da área e tabela co"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 47,
+        "extra": null
+      },
+      "team": {
         "id": 0,
         "name": ""
       },
@@ -1593,6 +1657,86 @@
       "detail": "Árbitro Wilton Pereira Sampaio encerra a etapa inicial.",
       "player": {
         "name": "Fim de primeiro tempo"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 49,
+        "extra": null
+      },
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Lucas Paquetá"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 50,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Após um primeiro tempo de ataque contra defesa, com o goleiro Hugo Souza e o zagueiro João Pedro Tchoca salvando o Corinthians em lances incríveis, o Flamengo finalmente furou o bloqueio. Logo aos 2 minutos da segunda etapa, após escanteio de Arrascaeta e uma saída ruim do goleiro, Lucas Paquetá aproveitou a sobra na área para encher o pé e fazer 1 a 0 para o time da casa.",
+      "player": {
+        "name": "Fla insiste e Paquetá abre o placar!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 50,
+        "extra": null
+      },
+      "team": {
+        "id": 264,
+        "name": "Corinthians"
+      },
+      "type": "Important",
+      "detail": "Corinthians troca passes no campo defensivo.",
+      "player": {
+        "name": "Corinthians troca passes no campo defensivo."
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 51,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Angileri rouba a bola no lado esquerdo, Raniele pega a bola e inverte o jogo para a direita e Pedro Milans, ao dominar, é derrubado por Samuel Lino.",
+      "player": {
+        "name": "Angileri rouba a bola no lado esquerdo, Raniele "
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 51,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Corinthians troca passes no campo defensivo, pressionado pela marcação alta do Flamengo.",
+      "player": {
+        "name": "Corinthians troca passes no campo defensivo, pre"
       },
       "assist": null
     }
@@ -2056,7 +2200,7 @@
         },
         {
           "type": "Total Passes",
-          "value": 421
+          "value": 447
         },
         {
           "type": "Pass Accuracy",
@@ -2064,15 +2208,15 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 46
+          "value": 49
         },
         {
           "type": "Total Shots",
-          "value": 18
+          "value": 19
         },
         {
           "type": "Shots on Goal",
-          "value": 6
+          "value": 7
         },
         {
           "type": "Shots off Goal",
@@ -2088,7 +2232,7 @@
         },
         {
           "type": "Corner Kicks",
-          "value": 11
+          "value": 12
         },
         {
           "type": "Offsides",
@@ -2104,7 +2248,7 @@
         },
         {
           "type": "Tackles",
-          "value": 3
+          "value": 4
         },
         {
           "type": "Fouls",
@@ -2132,7 +2276,7 @@
         },
         {
           "type": "Total Passes",
-          "value": 135
+          "value": 139
         },
         {
           "type": "Pass Accuracy",
@@ -2140,7 +2284,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 28
+          "value": 29
         },
         {
           "type": "Total Shots",

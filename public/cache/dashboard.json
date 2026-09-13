@@ -13359,12 +13359,12 @@
           "city": ""
         },
         "status": {
-          "long": "HT",
-          "short": "HT",
-          "elapsed": 45
+          "long": "2H",
+          "short": "2H",
+          "elapsed": 52
         },
-        "timerStart": "2026-09-13T21:17:51.496Z",
-        "timerStatus": "PAUSADO"
+        "timerStart": "2026-09-13T21:35:10.931Z",
+        "timerStatus": "INICIADO"
       },
       "league": {
         "round": "Regular Season - 27"
@@ -13382,7 +13382,7 @@
         }
       },
       "goals": {
-        "home": 0,
+        "home": 1,
         "away": 0
       },
       "score": {
@@ -18576,6 +18576,28 @@
             {
               "rank": 1,
               "team": {
+                "id": 262,
+                "name": "Flamengo",
+                "logo": "https://s.sde.globo.com/media/organizations/2018/04/10/Flamengo-2018.svg"
+              },
+              "points": 57,
+              "goalsDiff": 31,
+              "form": "WLWWW",
+              "description": "Copa Libertadores",
+              "all": {
+                "played": 27,
+                "win": 17,
+                "draw": 6,
+                "lose": 4,
+                "goals": {
+                  "for": 52,
+                  "against": 21
+                }
+              }
+            },
+            {
+              "rank": 2,
+              "team": {
                 "id": 275,
                 "name": "Palmeiras",
                 "logo": "https://s.sde.globo.com/media/organizations/2019/07/06/Palmeiras.svg"
@@ -18591,28 +18613,6 @@
                 "lose": 3,
                 "goals": {
                   "for": 47,
-                  "against": 21
-                }
-              }
-            },
-            {
-              "rank": 2,
-              "team": {
-                "id": 262,
-                "name": "Flamengo",
-                "logo": "https://s.sde.globo.com/media/organizations/2018/04/10/Flamengo-2018.svg"
-              },
-              "points": 55,
-              "goalsDiff": 30,
-              "form": "WLWWD",
-              "description": "Copa Libertadores",
-              "all": {
-                "played": 27,
-                "win": 16,
-                "draw": 7,
-                "lose": 4,
-                "goals": {
-                  "for": 51,
                   "against": 21
                 }
               }
@@ -18844,18 +18844,18 @@
                 "name": "Corinthians",
                 "logo": "https://s.sde.globo.com/media/organizations/2024/10/09/Corinthians_2024_Q4ahot4.svg"
               },
-              "points": 33,
-              "goalsDiff": 0,
-              "form": "LLLLD",
+              "points": 32,
+              "goalsDiff": -1,
+              "form": "LLLLL",
               "description": null,
               "all": {
                 "played": 27,
                 "win": 8,
-                "draw": 9,
-                "lose": 10,
+                "draw": 8,
+                "lose": 11,
                 "goals": {
                   "for": 27,
-                  "against": 27
+                  "against": 28
                 }
               }
             },
@@ -19682,6 +19682,28 @@
     {
       "player": {
         "id": 31,
+        "name": "Lucas Paquetá",
+        "photo": "https://s.sde.globo.com/media/person_role/2026/08/19/photo_140x140_ewujbw1.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "name": "Flamengo",
+            "logo": "https://s.sde.globo.com/media/organizations/2018/04/09/Flamengo-65.png"
+          },
+          "goals": {
+            "total": 5,
+            "assists": null
+          },
+          "games": {
+            "appearences": 0
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 32,
         "name": "Cuello",
         "photo": "https://s.sde.globo.com/media/person_role/2025/04/04/photo_140x140_aWdBvuS.png"
       },
@@ -19703,7 +19725,7 @@
     },
     {
       "player": {
-        "id": 32,
+        "id": 33,
         "name": "Isidro Pitta",
         "photo": "https://s.sde.globo.com/media/person_role/2025/04/02/photo_140x140_2kh4pC4.png"
       },
@@ -19725,7 +19747,7 @@
     },
     {
       "player": {
-        "id": 33,
+        "id": 34,
         "name": "Marcinho",
         "photo": "https://s.sde.globo.com/media/person_role/2023/03/07/photo_140x140_qGyi5zN.png"
       },
@@ -19747,7 +19769,7 @@
     },
     {
       "player": {
-        "id": 34,
+        "id": 35,
         "name": "Barreal",
         "photo": "https://s.sde.globo.com/media/person_role/2025/04/03/photo_140x140_wzd9jAt.png"
       },
@@ -19769,7 +19791,7 @@
     },
     {
       "player": {
-        "id": 35,
+        "id": 36,
         "name": "Carrascal",
         "photo": "https://s.sde.globo.com/media/person_role/2026/05/25/photo_140x140_cMvap9e.png"
       },
@@ -19791,7 +19813,7 @@
     },
     {
       "player": {
-        "id": 36,
+        "id": 37,
         "name": "Victor Hugo",
         "photo": "https://s.sde.globo.com/media/person_role/2026/02/02/photo_140x140_Sg1n7DD.png"
       },
@@ -19813,7 +19835,7 @@
     },
     {
       "player": {
-        "id": 37,
+        "id": 38,
         "name": "Renato Kayzer",
         "photo": "https://s.sde.globo.com/media/person_role/2025/04/11/photo_140x140_xVBPNKg.png"
       },
@@ -19835,7 +19857,7 @@
     },
     {
       "player": {
-        "id": 38,
+        "id": 39,
         "name": "Lucho Acosta",
         "photo": "https://s.sde.globo.com/media/person_role/2026/07/06/photo_140x140_DdPgkDh.png"
       },
@@ -19857,7 +19879,7 @@
     },
     {
       "player": {
-        "id": 39,
+        "id": 40,
         "name": "Eduardo",
         "photo": "https://s.sde.globo.com/media/person_role/2026/02/09/photo_140x140_DV6aQbI.png"
       },
@@ -19879,7 +19901,7 @@
     },
     {
       "player": {
-        "id": 40,
+        "id": 41,
         "name": "Matheus Martins",
         "photo": "https://s.sde.globo.com/media/person_role/2026/07/06/photo_140x140_FUctM0X.png"
       },
@@ -19901,7 +19923,7 @@
     },
     {
       "player": {
-        "id": 41,
+        "id": 42,
         "name": "Igor Formiga",
         "photo": "https://s.sde.globo.com/media/person_role/2026/02/09/photo_140x140_0jSFM8a.png"
       },
@@ -19923,7 +19945,7 @@
     },
     {
       "player": {
-        "id": 42,
+        "id": 43,
         "name": "Ramón Sosa",
         "photo": "https://s.sde.globo.com/media/person_role/2026/08/19/photo_140x140_ZCpsfVa.png"
       },
@@ -19945,7 +19967,7 @@
     },
     {
       "player": {
-        "id": 43,
+        "id": 44,
         "name": "Allan",
         "photo": "https://s.sde.globo.com/media/person_role/2025/04/01/photo_140x140_rAnxDU2.png"
       },
@@ -19967,7 +19989,7 @@
     },
     {
       "player": {
-        "id": 44,
+        "id": 45,
         "name": "Gustavo Gómez",
         "photo": "https://s.sde.globo.com/media/person_role/2025/04/01/photo_140x140_jyEJbYJ.png"
       },
@@ -19989,7 +20011,7 @@
     },
     {
       "player": {
-        "id": 45,
+        "id": 46,
         "name": "Edenílson",
         "photo": "https://s.sde.globo.com/media/person_role/2026/07/08/photo_140x140_Cnped9h.png"
       },
@@ -20011,7 +20033,7 @@
     },
     {
       "player": {
-        "id": 46,
+        "id": 47,
         "name": "Alan Patrick",
         "photo": "https://s.sde.globo.com/media/person_role/2025/04/03/photo_140x140_sDx9vFU.png"
       },
@@ -20033,7 +20055,7 @@
     },
     {
       "player": {
-        "id": 47,
+        "id": 48,
         "name": "Erick",
         "photo": "https://s.sde.globo.com/media/person_role/2026/07/06/photo_140x140_fOGg2fL.png"
       },
@@ -20055,7 +20077,7 @@
     },
     {
       "player": {
-        "id": 48,
+        "id": 49,
         "name": "Arias",
         "photo": "https://s.sde.globo.com/media/person_role/2026/08/19/photo_140x140_mdm3UM1.png"
       },
@@ -20077,7 +20099,7 @@
     },
     {
       "player": {
-        "id": 49,
+        "id": 50,
         "name": "Rodrigo Castillo",
         "photo": "https://s.sde.globo.com/media/person_role/2026/07/06/photo_140x140_FuaIXQB.png"
       },
@@ -20086,28 +20108,6 @@
           "team": {
             "name": "Fluminense",
             "logo": "https://s.sde.globo.com/media/organizations/2014/04/14/fluminense_60x60.png"
-          },
-          "goals": {
-            "total": 4,
-            "assists": null
-          },
-          "games": {
-            "appearences": 0
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 50,
-        "name": "Gabriel Taliari",
-        "photo": "https://s.sde.globo.com/media/person_role/2026/03/27/photo_140x140_o40VlL4.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "name": "Remo",
-            "logo": "https://s.sde.globo.com/media/organizations/2013/10/11/REmo-65.png"
           },
           "goals": {
             "total": 4,
@@ -20127,7 +20127,7 @@
     "mode": "live",
     "liveIntervalMs": 20000
   },
-  "fetchedAt": "2026-09-13T21:39:24.617Z",
+  "fetchedAt": "2026-09-13T21:42:24.525Z",
   "source": "ge-globo",
   "meta": {
     "rodada": 27,

@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 12
+      "elapsed": 19
     },
     "timerStart": "2026-09-13T00:01:16.550Z",
     "timerStatus": "INICIADO"
@@ -359,6 +359,168 @@
       "detail": "Rollheiser trabalha a bola pela esquerda e toca para Everton Cebolinha. Ele pega a bola e cruza para a área, e Gabriel Rojas tira de cabeça.",
       "player": {
         "name": "Rollheiser trabalha a bola pela esquerda e toca "
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 11,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Matheus Pereira tenta sair jogando em contra-ataque, mas Gerson é derrubado. O árbitro marca falta.",
+      "player": {
+        "name": "Matheus Pereira tenta sair jogando em contra-ata"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 11,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Everton Cebolinha recebe na entrada da área e, ao preparar a finalização, é desarmado por Gerson.",
+      "player": {
+        "name": "Everton Cebolinha recebe na entrada da área e, a"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 12,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Que começo de jogo! Com menos de 3 minutos, o Cruzeiro teve a chance de ouro, mas Kaio Jorge cabeceou por cima, livre na área. O Santos não se intimidou e respondeu com um chute de Everton e uma bela jogada de Gabriel Bontempo. A partida ainda teve uma pausa para o atendimento a Luan Peres, que se machucou e precisou sair. Ritmo bom e chances para os dois lados nesses primeiros 12 minutos.",
+      "player": {
+        "name": "Cruzeiro assusta e Santos responde"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 12,
+        "extra": null
+      },
+      "team": {
+        "id": 283,
+        "name": "Cruzeiro"
+      },
+      "type": "Important",
+      "detail": "Willian Arão corta ataque do Cruzeiro e manda para a frente em direção a Rony. Fabricio Bruno faz o corte de cabeça e, na disputa com Rony, João Marcelo completa para fora.",
+      "player": {
+        "name": "Willian Arão corta ataque do Cruzeiro e manda pa"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 13,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Gabriel Bontempo é desarmado por Gerson. Santos mantém a marcação alta na saída de bola do Cruzeiro, que troca passes no campo defensivo.",
+      "player": {
+        "name": "Gabriel Bontempo é desarmado por Gerson. Santos "
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 13,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Santos troca passes no lado direito, consegue sair da marcação avançada do Cruzeiro e chega ao campo ofensivo.",
+      "player": {
+        "name": "Santos troca passes no lado direito, consegue sa"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 14,
+        "extra": null
+      },
+      "team": {
+        "id": 283,
+        "name": "Cruzeiro"
+      },
+      "type": "Important",
+      "detail": "Cruzeiro troca passes no campo ofensivo.",
+      "player": {
+        "name": "Cruzeiro troca passes no campo ofensivo."
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 15,
+        "extra": null
+      },
+      "team": {
+        "id": 277,
+        "name": "Santos"
+      },
+      "type": "Important",
+      "detail": "Everton Cebolinha recebe no meio-, dribla o marcador duas vezes e, de perna esquerda, chuta em direção ao gol. A bola desvia e sai para escanteio.",
+      "player": {
+        "name": "Everton"
+      },
+      "assist": {
+        "name": "Uuuuuh"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 15,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Início de jogo bem disputado nestes primeiros 15 minutos! O Cruzeiro teve a grande chance de abrir o placar logo aos 2 minutos, mas Kaio Jorge cabeceou por cima do gol. O Santos reagiu e chegou com perigo em chute de Everton Cebolinha e uma boa trama de Gabriel Bontempo que gerou escanteio. A partida também ficou marcada pelo atendimento a Luan Peres, que se machucou e precisou deixar o campo.",
+      "player": {
+        "name": "Chance perdida e susto nos primeiros minutos"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 15,
+        "extra": null
+      },
+      "team": {
+        "id": 277,
+        "name": "Santos"
+      },
+      "type": "Important",
+      "detail": "Matheus Pereira erra o passe no lado direito do ataque e dá a bola para o Santos.",
+      "player": {
+        "name": "Matheus Pereira erra o passe no lado direito do "
       },
       "assist": null
     }
@@ -772,6 +934,15 @@
         },
         {
           "player": {
+            "id": "marquinhos-alencar",
+            "name": "Marquinhos",
+            "number": 11,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
             "id": "wesley-corinthians",
             "name": "Wesley",
             "number": 20,
@@ -784,15 +955,6 @@
             "id": "joao-gabriel-costa",
             "name": "João Costa",
             "number": 67,
-            "pos": "Ata",
-            "grid": null
-          }
-        },
-        {
-          "player": {
-            "id": "marquinhos-alencar",
-            "name": "Marquinhos",
-            "number": 11,
             "pos": "Ata",
             "grid": null
           }
@@ -818,19 +980,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "37%"
+          "value": "49%"
         },
         {
           "type": "Total Passes",
-          "value": 44
+          "value": 75
         },
         {
           "type": "Pass Accuracy",
-          "value": "75%"
+          "value": "81%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 11
+          "value": 14
         },
         {
           "type": "Total Shots",
@@ -874,7 +1036,7 @@
         },
         {
           "type": "Fouls",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Yellow Cards",
@@ -894,19 +1056,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "63%"
+          "value": "51%"
         },
         {
           "type": "Total Passes",
-          "value": 35
+          "value": 48
         },
         {
           "type": "Pass Accuracy",
-          "value": "86%"
+          "value": "79%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 5
+          "value": 10
         },
         {
           "type": "Total Shots",
@@ -946,7 +1108,7 @@
         },
         {
           "type": "Tackles",
-          "value": 3
+          "value": 5
         },
         {
           "type": "Fouls",

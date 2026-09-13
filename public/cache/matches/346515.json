@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 88
+      "elapsed": 91
     },
     "timerStart": "2026-09-13T21:35:10.931Z",
     "timerStatus": "INICIADO"
@@ -30,7 +30,7 @@
     }
   },
   "goals": {
-    "home": 1,
+    "home": 2,
     "away": 1
   },
   "score": {
@@ -2829,6 +2829,88 @@
         "name": "Breno Bidon"
       },
       "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 87,
+        "extra": null
+      },
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "Important",
+      "detail": "Samuel Lino aproveita uma sobra do corte de Iago Machado, domina no peito e chuta, mas Kaio César faz o corte para escanteio.",
+      "player": {
+        "name": "Samuel Lino"
+      },
+      "assist": {
+        "name": "Uuuuh"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 88,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O jogo, que parecia caminhar para o empate, ganhou contornos dramáticos no fim! O Flamengo abriu o placar com Lucas Paquetá logo no início da segunda etapa, mas viu o Corinthians reagir e buscar o 1 a 1 com Gui Negão. A partida seguiu intensa até que, aos 43 minutos, Bruno Henrique, vindo do banco, marcou o gol que coloca o Rubro-Negro na frente por 2 a 1. Que final de jogo",
+      "player": {
+        "name": "Gol no fim! Bruno Henrique decide para o Fla!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 88,
+        "extra": null
+      },
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "player": {
+        "name": "Bruno Henrique"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 88,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "No terceiro escanteio seguido, Carrascal cruza para a área, e Iago Machado tira de cabeça.",
+      "player": {
+        "name": "No terceiro escanteio seguido, Carrascal cruza p"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 88,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Em cobrança de escanteio, João Pedro Tchoca tira de cabeça.",
+      "player": {
+        "name": "Em cobrança de escanteio, João Pedro Tchoca tira"
+      },
+      "assist": null
     }
   ],
   "lineups": [
@@ -3286,19 +3368,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "61%"
+          "value": "60%"
         },
         {
           "type": "Total Passes",
-          "value": 645
+          "value": 659
         },
         {
           "type": "Pass Accuracy",
-          "value": "89%"
+          "value": "88%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 73
+          "value": 76
         },
         {
           "type": "Total Shots",
@@ -3338,7 +3420,7 @@
         },
         {
           "type": "Tackles",
-          "value": 16
+          "value": 17
         },
         {
           "type": "Fouls",
@@ -3362,11 +3444,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "39%"
+          "value": "40%"
         },
         {
           "type": "Total Passes",
-          "value": 347
+          "value": 352
         },
         {
           "type": "Pass Accuracy",
@@ -3374,11 +3456,11 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 49
+          "value": 50
         },
         {
           "type": "Total Shots",
-          "value": 3
+          "value": 4
         },
         {
           "type": "Shots on Goal",
@@ -3386,7 +3468,7 @@
         },
         {
           "type": "Shots off Goal",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Blocked Shots",
@@ -3422,7 +3504,7 @@
         },
         {
           "type": "Yellow Cards",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Red Cards",

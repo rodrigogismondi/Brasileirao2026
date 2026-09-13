@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 61
+      "elapsed": 64
     },
     "timerStart": "2026-09-13T21:35:10.931Z",
     "timerStatus": "INICIADO"
@@ -1944,6 +1944,22 @@
         "name": "Flamengo"
       },
       "type": "Important",
+      "detail": "Após um bombardeio no primeiro tempo, com direito a bola tirada em cima da linha e milagres do goleiro Hugo Souza, o Flamengo enfim abriu o placar. Logo aos 2 minutos da etapa final, Lucas Paquetá aproveitou a sobra de um escanteio e fuzilou para fazer 1 a 0. O time da casa segue com o controle do jogo e, com 14 minutos, continua pressionando em busca de ampliar o marcador.",
+      "player": {
+        "name": "Gol de Paquetá quebra o ferrolho!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 59,
+        "extra": null
+      },
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "Important",
       "detail": "Arrascaeta faz linda jogada com toque de calcanhar e recebe de volta de Plata invadindo a área, mas Angileri e João Pedro Tchoca apertam na marcação e atrapalham a finalização. Flamengo ganha escanteio.",
       "player": {
         "name": "Arrascaeta"
@@ -1951,6 +1967,56 @@
       "assist": {
         "name": "Que lance!"
       }
+    },
+    {
+      "time": {
+        "elapsed": 60,
+        "extra": null
+      },
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "Important",
+      "detail": "Na sobra do escanteio, Ayrton Lucas arrisca de longe e manda por cima do gol de Hugo Souza.",
+      "player": {
+        "name": "Ayrton Lucas"
+      },
+      "assist": {
+        "name": "Para fora"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 61,
+        "extra": null
+      },
+      "team": {
+        "id": 264,
+        "name": "Corinthians"
+      },
+      "type": "Important",
+      "detail": "Raniele se antecipa na marcação, rouba a bola e carrega pelo meio. Ele toca para Dieguinho pelo lado direito, mas Ayrton Lucas faz bem a proteção para evitar o ataque do Corinthians.",
+      "player": {
+        "name": "Raniele se antecipa na marcação, rouba a bola e "
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 62,
+        "extra": null
+      },
+      "team": {
+        "id": 264,
+        "name": "Corinthians"
+      },
+      "type": "Important",
+      "detail": "Matheuzinho, Matheus Bidu e Breno Bidon se preparam para entrar em campo pelo Corinthians.",
+      "player": {
+        "name": "Matheuzinho, Matheus Bidu e Breno Bidon se prepa"
+      },
+      "assist": null
     }
   ],
   "lineups": [
@@ -2408,11 +2474,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "64%"
+          "value": "63%"
         },
         {
           "type": "Total Passes",
-          "value": 511
+          "value": 523
         },
         {
           "type": "Pass Accuracy",
@@ -2420,11 +2486,11 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 55
+          "value": 57
         },
         {
           "type": "Total Shots",
-          "value": 20
+          "value": 22
         },
         {
           "type": "Shots on Goal",
@@ -2432,7 +2498,7 @@
         },
         {
           "type": "Shots off Goal",
-          "value": 8
+          "value": 10
         },
         {
           "type": "Blocked Shots",
@@ -2444,7 +2510,7 @@
         },
         {
           "type": "Corner Kicks",
-          "value": 12
+          "value": 13
         },
         {
           "type": "Offsides",
@@ -2484,19 +2550,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "36%"
+          "value": "37%"
         },
         {
           "type": "Total Passes",
-          "value": 232
+          "value": 252
         },
         {
           "type": "Pass Accuracy",
-          "value": "83%"
+          "value": "84%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 39
+          "value": 41
         },
         {
           "type": "Total Shots",
@@ -2532,11 +2598,11 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 13
+          "value": 14
         },
         {
           "type": "Tackles",
-          "value": 9
+          "value": 10
         },
         {
           "type": "Fouls",

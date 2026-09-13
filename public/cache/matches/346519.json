@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 97
+      "elapsed": 100
     },
     "timerStart": "2026-09-13T20:10:33.658Z",
     "timerStatus": "INICIADO"
@@ -2086,6 +2086,22 @@
         "name": ""
       },
       "type": "Important",
+      "detail": "Lucas Arcanjo tira de soco, na cobrança de escanteio.",
+      "player": {
+        "name": "Lucas Arcanjo tira de soco, na cobrança de escan"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 96,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
       "detail": "Que jogo! Depois de sair perdendo por 2 a 0, com dois gols de Renê para o Vitória, o Mirassol iniciou uma reação incrível. A equipe da casa teve um gol adversário anulado pelo VAR, pressionou intensamente e acertou a trave duas vezes. A insistência foi premiada: Bruno Santos diminuiu e, já aos 45 do segundo tempo, Edson Carioca recebeu passe de Shaylon para empatar o jogo em 2 a 2.",
       "player": {
         "name": "Mirassol busca empate nos acréscimos!"
@@ -2105,6 +2121,104 @@
       "detail": "Mirassol ganha outro escanteio.",
       "player": {
         "name": "Mirassol ganha outro escanteio."
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 97,
+        "extra": null
+      },
+      "team": {
+        "id": 287,
+        "name": "Vitória"
+      },
+      "type": "Important",
+      "detail": "Reinaldo cobra fraco, e a defesa do Vitória tira com facilidade.",
+      "player": {
+        "name": "Reinaldo cobra fraco, e a defesa do Vitória tira"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 97,
+        "extra": null
+      },
+      "team": {
+        "id": 2305,
+        "name": "Mirassol"
+      },
+      "type": "Important",
+      "detail": "É mais um escanteio para o Mirassol.",
+      "player": {
+        "name": "É mais um escanteio para o Mirassol."
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 97,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Mirassol segue pressionando o Vitória.",
+      "player": {
+        "name": "Mirassol segue pressionando o Vitória."
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 98,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Que segundo tempo! Depois de o Vitória abrir 2 a 0 com Renê aproveitando falhas do Mirassol e ter um gol anulado pelo VAR, o jogo virou. O time da casa diminuiu com Bruno Santos aos 22 minutos e iniciou uma pressão incrível, carimbando a trave duas vezes. A insistência foi premiada aos 45, quando Edson Carioca empatou a partida em 2 a 2, incendiando os minutos finais.",
+      "player": {
+        "name": "Mirassol busca empate épico no final!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 98,
+        "extra": null
+      },
+      "team": {
+        "id": 2305,
+        "name": "Mirassol"
+      },
+      "type": "Important",
+      "detail": "Chico Kim finaliza de fora da área, e a bola passa perto da trave direita de Lucas Arcanjo.",
+      "player": {
+        "name": "Chico Kim"
+      },
+      "assist": {
+        "name": "Uhhh!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 99,
+        "extra": null
+      },
+      "team": {
+        "id": 287,
+        "name": "Vitória"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Edenílson"
       },
       "assist": null
     }
@@ -2564,11 +2678,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "67%"
+          "value": "68%"
         },
         {
           "type": "Total Passes",
-          "value": 632
+          "value": 653
         },
         {
           "type": "Pass Accuracy",
@@ -2576,11 +2690,11 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 80
+          "value": 83
         },
         {
           "type": "Total Shots",
-          "value": 23
+          "value": 26
         },
         {
           "type": "Shots on Goal",
@@ -2588,7 +2702,7 @@
         },
         {
           "type": "Shots off Goal",
-          "value": 8
+          "value": 11
         },
         {
           "type": "Blocked Shots",
@@ -2600,7 +2714,7 @@
         },
         {
           "type": "Corner Kicks",
-          "value": 9
+          "value": 11
         },
         {
           "type": "Offsides",
@@ -2620,7 +2734,7 @@
         },
         {
           "type": "Fouls",
-          "value": 12
+          "value": 13
         },
         {
           "type": "Yellow Cards",
@@ -2640,19 +2754,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "33%"
+          "value": "32%"
         },
         {
           "type": "Total Passes",
-          "value": 211
+          "value": 213
         },
         {
           "type": "Pass Accuracy",
-          "value": "68%"
+          "value": "67%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 68
+          "value": 70
         },
         {
           "type": "Total Shots",
@@ -2688,7 +2802,7 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 12
+          "value": 14
         },
         {
           "type": "Tackles",

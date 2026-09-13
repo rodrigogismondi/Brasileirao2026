@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 82
+      "elapsed": 85
     },
     "timerStart": "2026-09-13T20:10:33.658Z",
     "timerStatus": "INICIADO"
@@ -1726,9 +1726,11 @@
       "type": "Important",
       "detail": "Reinaldo finaliza de fora da área, mas a bola bate em André Luís, no próprio companheiro de Mirassol.",
       "player": {
-        "name": "Fogo amigo"
+        "name": "Reinaldo"
       },
-      "assist": null
+      "assist": {
+        "name": "Fogo amigo"
+      }
     },
     {
       "time": {
@@ -1745,6 +1747,124 @@
         "name": "Mirassol ganha escanteio pela direita do ataque."
       },
       "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 80,
+        "extra": null
+      },
+      "team": {
+        "id": 287,
+        "name": "Vitória"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Renato Kayzer"
+      },
+      "assist": {
+        "name": "Renê"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 80,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O jogo mudou completamente na segunda etapa! O Vitória chegou a fazer 3 a 0 com Zé Vitor, mas o gol foi anulado pelo VAR, o que deu um novo fôlego ao Mirassol. Pouco depois, aos 22 minutos, Bruno Santos girou na área e marcou um golaço para diminuir o placar para 2 a 1. Agora, com 35 minutos, o time da casa pressiona com tudo em busca do empate, enquanto o Vitória se defende.",
+      "player": {
+        "name": "Gol anulado e reação: jogo pega fogo!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 80,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Reinaldo chuta de fora da área, mas é bloqueado.",
+      "player": {
+        "name": "Reinaldo chuta de fora da área, mas é bloqueado."
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 82,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Vitória continua totalmente fechado, enquanto o Mirassol aumenta a pressão.",
+      "player": {
+        "name": "Vitória continua totalmente fechado, enquanto o "
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 83,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O jogo esquentou na reta final! Depois de o Vitória abrir 2 a 0 no primeiro tempo com dois gols de Renê, o Mirassol voltou com tudo. Aos 22 da segunda etapa, Bruno Santos diminuiu e colocou fogo na partida. O Vitória até teve um gol anulado pelo VAR, mas agora se segura na defesa. Aos 38, o empate quase veio em cabeçada de Bruno Santos que parou na trave. Pressão total do time da casa",
+      "player": {
+        "name": "Mirassol reage e pressiona pelo empate!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 83,
+        "extra": null
+      },
+      "team": {
+        "id": 2305,
+        "name": "Mirassol"
+      },
+      "type": "Important",
+      "detail": "Shaylon cruza na medida para Bruno Santos, que cabeceia no canto, mas a bola bate na trave.",
+      "player": {
+        "name": "Bruno Santos"
+      },
+      "assist": {
+        "name": "Na trave!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 84,
+        "extra": null
+      },
+      "team": {
+        "id": 2305,
+        "name": "Mirassol"
+      },
+      "type": "Important",
+      "detail": "Edson Carioca chuta de fora da área, e a bola explode na trave de Lucas Arcanjo, que estava batido no lance. Mirassol manda duas seguidas na trave.",
+      "player": {
+        "name": "Edson Carioca"
+      },
+      "assist": {
+        "name": "Na trave de novo!"
+      }
     }
   ],
   "lineups": [
@@ -2206,7 +2326,7 @@
         },
         {
           "type": "Total Passes",
-          "value": 529
+          "value": 550
         },
         {
           "type": "Pass Accuracy",
@@ -2214,11 +2334,11 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 69
+          "value": 73
         },
         {
           "type": "Total Shots",
-          "value": 16
+          "value": 17
         },
         {
           "type": "Shots on Goal",
@@ -2230,7 +2350,7 @@
         },
         {
           "type": "Blocked Shots",
-          "value": 4
+          "value": 5
         },
         {
           "type": "Hit Woodwork",
@@ -2254,7 +2374,7 @@
         },
         {
           "type": "Tackles",
-          "value": 14
+          "value": 15
         },
         {
           "type": "Fouls",
@@ -2282,7 +2402,7 @@
         },
         {
           "type": "Total Passes",
-          "value": 194
+          "value": 196
         },
         {
           "type": "Pass Accuracy",
@@ -2326,15 +2446,15 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 9
+          "value": 10
         },
         {
           "type": "Tackles",
-          "value": 19
+          "value": 21
         },
         {
           "type": "Fouls",
-          "value": 13
+          "value": 14
         },
         {
           "type": "Yellow Cards",

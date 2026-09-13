@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 44
+      "elapsed": 47
     },
     "timerStart": "2026-09-13T19:01:17.978Z",
     "timerStatus": "INICIADO"
@@ -657,6 +657,122 @@
         "name": "Jogo é paralisado para atendimento médico a Cacá"
       },
       "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 41,
+        "extra": null
+      },
+      "team": {
+        "id": 2305,
+        "name": "Mirassol"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Edson Carioca"
+      },
+      "assist": {
+        "name": "Gustavo Mosquito"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 41,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Que início fulminante do Vitória! Aproveitando duas falhas graves do goleiro Alex Muralha, Renê se tornou o nome do jogo. Primeiro, aos 2 minutos, ele empurrou para o gol vazio. Depois, aos 12, tocou por cima para fazer 2 a 0. O Mirassol busca a reação e já criou chances com Gustavo Mosquito e Chico Kim, mas o time da casa parece abalado com os erros e a eficiência do adversário.",
+      "player": {
+        "name": "Vitória aproveita falhas e abre 2 a 0"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 41,
+        "extra": null
+      },
+      "team": {
+        "id": 287,
+        "name": "Vitória"
+      },
+      "type": "Important",
+      "detail": "Jamerson chuta da entrada da área, e o goleiro Alex Muralha espalma para escanteio.",
+      "player": {
+        "name": "Jamerson"
+      },
+      "assist": {
+        "name": "Espalma!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 41,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Gustavo Mosquito não vai ter mais condições de jogo e será substituído.",
+      "player": {
+        "name": "Gustavo Mosquito não vai ter mais condições de j"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 44,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Vitória começou com tudo e abriu o placar logo aos 2 minutos com Renê, que aproveitou uma falha incrível do goleiro Alex Muralha. Aos 12, a cena se repetiu: lançamento para Renê, saída ruim de Muralha e o atacante marcou de novo, fazendo 2 a 0. O Mirassol tenta reagir e cria chances, mas para nas defesas de Lucas Arcanjo. O jogo é pegado e, perto do fim do 1º tempo, o Vitória domina.",
+      "player": {
+        "name": "Dois gols de Renê e domínio do Vitória!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 44,
+        "extra": null
+      },
+      "team": {
+        "id": 287,
+        "name": "Vitória"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Caíque"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 45,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Vamos até os 51 minutos.",
+      "player": {
+        "name": "mais seis!"
+      },
+      "assist": null
     }
   ],
   "lineups": [
@@ -1114,11 +1230,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "63%"
+          "value": "62%"
         },
         {
           "type": "Total Passes",
-          "value": 246
+          "value": 262
         },
         {
           "type": "Pass Accuracy",
@@ -1126,7 +1242,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 31
+          "value": 34
         },
         {
           "type": "Total Shots",
@@ -1166,7 +1282,7 @@
         },
         {
           "type": "Tackles",
-          "value": 9
+          "value": 10
         },
         {
           "type": "Fouls",
@@ -1190,31 +1306,31 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "37%"
+          "value": "38%"
         },
         {
           "type": "Total Passes",
-          "value": 119
+          "value": 126
         },
         {
           "type": "Pass Accuracy",
-          "value": "76%"
+          "value": "75%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 29
+          "value": 32
         },
         {
           "type": "Total Shots",
-          "value": 6
+          "value": 8
         },
         {
           "type": "Shots on Goal",
-          "value": 5
+          "value": 6
         },
         {
           "type": "Shots off Goal",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Blocked Shots",
@@ -1226,7 +1342,7 @@
         },
         {
           "type": "Corner Kicks",
-          "value": 3
+          "value": 4
         },
         {
           "type": "Offsides",
@@ -1242,15 +1358,15 @@
         },
         {
           "type": "Tackles",
-          "value": 10
+          "value": 11
         },
         {
           "type": "Fouls",
-          "value": 6
+          "value": 7
         },
         {
           "type": "Yellow Cards",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Red Cards",

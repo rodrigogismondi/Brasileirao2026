@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 23
+      "elapsed": 29
     },
     "timerStart": "2026-09-12T23:31:28.942Z",
     "timerStatus": "INICIADO"
@@ -539,6 +539,56 @@
         "name": "Novo escanteio para o Bragantino!"
       },
       "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 23,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O jogo começou em alta velocidade, com o Botafogo pressionando e Montoro testando o goleiro Volpi. No entanto, o Bragantino equilibrou e passou a criar as melhores oportunidades após os 15 minutos. Gabriel Batista fez uma defesa espetacular em cabeçada de Fernando, Ramires acertou um chute que tirou tinta da trave e, em escanteio, Capixaba também levou muito perigo pelo alto.",
+      "player": {
+        "name": "Ritmo forte e Bragantino perto do gol"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 23,
+        "extra": null
+      },
+      "team": {
+        "id": 280,
+        "name": "Bragantino"
+      },
+      "type": "Important",
+      "detail": "Capixaba sobe bem após cobrança de escanteio e quase abre o placar com cabeçada",
+      "player": {
+        "name": "Juninho Capixaba"
+      },
+      "assist": {
+        "name": "MAIS UMA CHANCE!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 24,
+        "extra": null
+      },
+      "team": {
+        "id": 263,
+        "name": "Botafogo"
+      },
+      "type": "Important",
+      "detail": "Botafogo tenta acalmar a partida e troca passes na defesa",
+      "player": {
+        "name": "Botafogo tenta acalmar a partida e troca passes "
+      },
+      "assist": null
     }
   ],
   "lineups": [
@@ -996,19 +1046,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "44%"
+          "value": "43%"
         },
         {
           "type": "Total Passes",
-          "value": 99
+          "value": 120
         },
         {
           "type": "Pass Accuracy",
-          "value": "82%"
+          "value": "80%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 18
+          "value": 24
         },
         {
           "type": "Total Shots",
@@ -1052,7 +1102,7 @@
         },
         {
           "type": "Fouls",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Yellow Cards",
@@ -1072,23 +1122,23 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "56%"
+          "value": "57%"
         },
         {
           "type": "Total Passes",
-          "value": 133
+          "value": 148
         },
         {
           "type": "Pass Accuracy",
-          "value": "84%"
+          "value": "82%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 21
+          "value": 26
         },
         {
           "type": "Total Shots",
-          "value": 4
+          "value": 5
         },
         {
           "type": "Shots on Goal",
@@ -1096,7 +1146,7 @@
         },
         {
           "type": "Shots off Goal",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Blocked Shots",
@@ -1108,7 +1158,7 @@
         },
         {
           "type": "Corner Kicks",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Offsides",
@@ -1124,11 +1174,11 @@
         },
         {
           "type": "Tackles",
-          "value": 1
+          "value": 3
         },
         {
           "type": "Fouls",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Yellow Cards",

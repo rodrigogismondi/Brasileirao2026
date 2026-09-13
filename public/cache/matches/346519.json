@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 29
+      "elapsed": 32
     },
     "timerStart": "2026-09-13T19:01:17.978Z",
     "timerStatus": "INICIADO"
@@ -505,6 +505,74 @@
         "name": "Vitória tenta mais uma jogada de transição, mas,"
       },
       "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 28,
+        "extra": null
+      },
+      "team": {
+        "id": 2305,
+        "name": "Mirassol"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Alesson"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 30,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Vitória começou com tudo e abriu 2 a 0 em apenas 12 minutos. O nome do jogo é Renê, que marcou os dois gols aproveitando falhas do goleiro Alex Muralha. No primeiro, aos 2 minutos, Muralha saiu muito mal do gol. No segundo, Renê o encobriu após bobeada da zaga. O Mirassol tenta responder, mas esbarra nos próprios erros. O jogo já teve cartões amarelos para Brítez e Alesson.",
+      "player": {
+        "name": "Show de Renê e falhas de Muralha!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 30,
+        "extra": null
+      },
+      "team": {
+        "id": 287,
+        "name": "Vitória"
+      },
+      "type": "Important",
+      "detail": "Jamerson cobra falta de muito longe, e o goleiro Alex Muralha agarra a bola no chão.",
+      "player": {
+        "name": "Jamerson"
+      },
+      "assist": {
+        "name": "Muralha defende!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 31,
+        "extra": null
+      },
+      "team": {
+        "id": 2305,
+        "name": "Mirassol"
+      },
+      "type": "Important",
+      "detail": "Gustavo Mosquito finaliza da entrada da área, e o goleiro Lucas Arcanjo defende em dois tempos.",
+      "player": {
+        "name": "Gustavo Mosquito"
+      },
+      "assist": {
+        "name": "Em dois tempos!"
+      }
     }
   ],
   "lineups": [
@@ -962,11 +1030,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "60%"
+          "value": "63%"
         },
         {
           "type": "Total Passes",
-          "value": 163
+          "value": 187
         },
         {
           "type": "Pass Accuracy",
@@ -974,7 +1042,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 23
+          "value": 27
         },
         {
           "type": "Total Shots",
@@ -1018,7 +1086,7 @@
         },
         {
           "type": "Fouls",
-          "value": 2
+          "value": 4
         },
         {
           "type": "Yellow Cards",
@@ -1038,11 +1106,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "40%"
+          "value": "37%"
         },
         {
           "type": "Total Passes",
-          "value": 82
+          "value": 99
         },
         {
           "type": "Pass Accuracy",
@@ -1050,7 +1118,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 18
+          "value": 22
         },
         {
           "type": "Total Shots",
@@ -1090,7 +1158,7 @@
         },
         {
           "type": "Tackles",
-          "value": 9
+          "value": 10
         },
         {
           "type": "Fouls",

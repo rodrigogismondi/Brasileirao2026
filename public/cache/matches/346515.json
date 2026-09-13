@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 6
+      "elapsed": 9
     },
     "timerStart": "2026-09-13T20:30:09.941Z",
     "timerStatus": "INICIADO"
@@ -225,6 +225,104 @@
         "name": "Corinthians troca passes no campo defensivo, aci"
       },
       "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 5,
+        "extra": null
+      },
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "Important",
+      "detail": "Flamengo segue com a posse de bola, trocando passes no meio-campo.",
+      "player": {
+        "name": "Flamengo segue com a posse de bola, trocando pas"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 5,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Arrascaeta busca jogada com Plata dentro da área, e Angileri intercepta a bola e recua para Hugo Souza, que chuta para a lateral.",
+      "player": {
+        "name": "Arrascaeta busca jogada com Plata dentro da área"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 6,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O clássico começa equilibrado, com as duas equipes se estudando. O Corinthians teve a primeira investida com Gui Negão, enquanto o Flamengo busca o controle da posse de bola, mas comete erros de passe. Com quase sete minutos de jogo, Samuel Lino fez boa jogada pela ponta e, após um drible de Varela, a defesa corintiana cedeu o primeiro escanteio. A partida segue sem grandes chances de gol.",
+      "player": {
+        "name": "Início de estudo no Maracanã"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 6,
+        "extra": null
+      },
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "Important",
+      "detail": "Samuel Lino domina para cima da marcação de Dieguinho e faz o levantamento para a área, Angileri tira de cabeça. O Flamengo dá sequência à jogada, e Varela tenta driblar Angileri, mas o jogador do Corinthians toca para escanteio.",
+      "player": {
+        "name": "No ataque"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 7,
+        "extra": null
+      },
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "Important",
+      "detail": "Flamengo trabalha a bola pelo lado esquerdo, e Plata recebe no meio, domina e chuta com a perna esquerda para defesa de Hugo Souza.",
+      "player": {
+        "name": "Plata"
+      },
+      "assist": {
+        "name": "Finalização"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 7,
+        "extra": null
+      },
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "Important",
+      "detail": "Flamengo troca passes no meio-campo.",
+      "player": {
+        "name": "Flamengo troca passes no meio-campo."
+      },
+      "assist": null
     }
   ],
   "lineups": [
@@ -387,18 +485,18 @@
         },
         {
           "player": {
-            "id": "jorginho-verona",
-            "name": "Jorginho",
-            "number": 21,
+            "id": "saulniguez",
+            "name": "Saúl",
+            "number": 8,
             "pos": "Mei",
             "grid": null
           }
         },
         {
           "player": {
-            "id": "saulniguez",
-            "name": "Saúl",
-            "number": 8,
+            "id": "jorginho-verona",
+            "name": "Jorginho",
+            "number": 21,
             "pos": "Mei",
             "grid": null
           }
@@ -682,19 +780,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "50%"
+          "value": "67%"
         },
         {
           "type": "Total Passes",
-          "value": 19
+          "value": 61
         },
         {
           "type": "Pass Accuracy",
-          "value": "95%"
+          "value": "93%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 1
+          "value": 4
         },
         {
           "type": "Total Shots",
@@ -718,7 +816,7 @@
         },
         {
           "type": "Corner Kicks",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Offsides",
@@ -758,19 +856,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "50%"
+          "value": "33%"
         },
         {
           "type": "Total Passes",
-          "value": 12
+          "value": 16
         },
         {
           "type": "Pass Accuracy",
-          "value": "67%"
+          "value": "69%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 4
+          "value": 5
         },
         {
           "type": "Total Shots",

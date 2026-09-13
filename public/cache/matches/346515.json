@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 42
+      "elapsed": 45
     },
     "timerStart": "2026-09-13T20:30:09.941Z",
     "timerStatus": "INICIADO"
@@ -1239,6 +1239,86 @@
         "name": "Ayrton Lucas toca para Arrascaeta na frente. Ele"
       },
       "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 40,
+        "extra": null
+      },
+      "team": {
+        "id": 264,
+        "name": "Corinthians"
+      },
+      "type": "Important",
+      "detail": "Pulgar faz levantamento para a área, mas manda forte demais, e a bola sai pela linha de fundo. É tiro de meta para o Corinthians.",
+      "player": {
+        "name": "Pulgar faz levantamento para a área, mas manda f"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 40,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Arrascaeta pega a bola na entrada da árae e joga por cima para dentro da área. João Pedro Tchoca tira de cabeça.",
+      "player": {
+        "name": "Arrascaeta pega a bola na entrada da árae e joga"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 40,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Após 40 minutos de um verdadeiro ataque contra defesa, o Flamengo empilha chances, mas para em uma atuação espetacular do goleiro Hugo Souza. O Corinthians se segura como pode, e o placar segue 0 a 0 graças a defesas incríveis em chutes de Pedro e Samuel Lino. O lance capital foi uma bola tirada de cabeça por João Pedro Tchoca em cima da linha. O time paulista só respondeu uma vez, com Gui Negão.",
+      "player": {
+        "name": "Hugo Souza para o bombardeio do Flamengo"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 40,
+        "extra": null
+      },
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "Important",
+      "detail": "Flamengo troca passes no campo ofensivo.",
+      "player": {
+        "name": "Flamengo troca passes no campo ofensivo."
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 41,
+        "extra": null
+      },
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "Important",
+      "detail": "Hugo Souza cobra tiro de meta chutando para o ataque. Flamengo retoma a posse de bola.",
+      "player": {
+        "name": "Hugo Souza cobra tiro de meta chutando para o at"
+      },
+      "assist": null
     }
   ],
   "lineups": [
@@ -1696,11 +1776,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "64%"
+          "value": "65%"
         },
         {
           "type": "Total Passes",
-          "value": 318
+          "value": 366
         },
         {
           "type": "Pass Accuracy",
@@ -1708,11 +1788,11 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 35
+          "value": 40
         },
         {
           "type": "Total Shots",
-          "value": 15
+          "value": 16
         },
         {
           "type": "Shots on Goal",
@@ -1720,7 +1800,7 @@
         },
         {
           "type": "Shots off Goal",
-          "value": 5
+          "value": 6
         },
         {
           "type": "Blocked Shots",
@@ -1772,11 +1852,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "36%"
+          "value": "35%"
         },
         {
           "type": "Total Passes",
-          "value": 124
+          "value": 129
         },
         {
           "type": "Pass Accuracy",
@@ -1784,7 +1864,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 23
+          "value": 25
         },
         {
           "type": "Total Shots",
@@ -1824,7 +1904,7 @@
         },
         {
           "type": "Tackles",
-          "value": 8
+          "value": 9
         },
         {
           "type": "Fouls",

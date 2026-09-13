@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 67
+      "elapsed": 69
     },
     "timerStart": "2026-09-13T21:35:10.931Z",
     "timerStatus": "INICIADO"
@@ -2090,6 +2090,24 @@
         "extra": null
       },
       "team": {
+        "id": 264,
+        "name": "Corinthians"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Kaio César"
+      },
+      "assist": {
+        "name": "Dieguinho"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 65,
+        "extra": null
+      },
+      "team": {
         "id": 262,
         "name": "Flamengo"
       },
@@ -2113,6 +2131,108 @@
       "detail": "Kaio César também será outra novidade do Corinthians. Técnico Fernando Diniz prepara quatro substituições.",
       "player": {
         "name": "Kaio César também será outra novidade do Corinth"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 66,
+        "extra": null
+      },
+      "team": {
+        "id": 264,
+        "name": "Corinthians"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Matheus Bidu"
+      },
+      "assist": {
+        "name": "Angileri"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 66,
+        "extra": null
+      },
+      "team": {
+        "id": 264,
+        "name": "Corinthians"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Matheuzinho"
+      },
+      "assist": {
+        "name": "Milans"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 66,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "A insistência do Flamengo foi premiada no início do segundo tempo! Após cobrança de escanteio, Lucas Paquetá aproveitou a sobra na área depois de uma saída confusa de Hugo Souza e estufou a rede, fazendo 1 a 0. O gol coroa o domínio rubro-negro, que na primeira etapa já havia parado em defesas incríveis do goleiro e em um corte de João Pedro em cima da linha. O jogo chega aos 21 minutos com o Corinthians buscando reagir.",
+      "player": {
+        "name": "Fla na frente: Paquetá marca no clássico!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 66,
+        "extra": null
+      },
+      "team": {
+        "id": 264,
+        "name": "Corinthians"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Breno Bidon"
+      },
+      "assist": {
+        "name": "Charles"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 67,
+        "extra": null
+      },
+      "team": {
+        "id": 264,
+        "name": "Corinthians"
+      },
+      "type": "Important",
+      "detail": "Arrascaeta e Samuel Lino trabalham a bola pelo lado esquerdo, e Matheuzinho faz o desarme para retomar a bola para o Corinthians.",
+      "player": {
+        "name": "Arrascaeta e Samuel Lino trabalham a bola pelo l"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 68,
+        "extra": null
+      },
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "Important",
+      "detail": "Lingard é desarmado por Samuel Lino e depois comete falta no jogador do Flamengo.",
+      "player": {
+        "name": "Lingard é desarmado por Samuel Lino e depois com"
       },
       "assist": null
     }
@@ -2572,11 +2692,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "62%"
+          "value": "63%"
         },
         {
           "type": "Total Passes",
-          "value": 538
+          "value": 549
         },
         {
           "type": "Pass Accuracy",
@@ -2584,11 +2704,11 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 59
+          "value": 60
         },
         {
           "type": "Total Shots",
-          "value": 23
+          "value": 24
         },
         {
           "type": "Shots on Goal",
@@ -2596,7 +2716,7 @@
         },
         {
           "type": "Shots off Goal",
-          "value": 11
+          "value": 12
         },
         {
           "type": "Blocked Shots",
@@ -2624,11 +2744,11 @@
         },
         {
           "type": "Tackles",
-          "value": 14
+          "value": 15
         },
         {
           "type": "Fouls",
-          "value": 9
+          "value": 10
         },
         {
           "type": "Yellow Cards",
@@ -2648,11 +2768,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "38%"
+          "value": "37%"
         },
         {
           "type": "Total Passes",
-          "value": 262
+          "value": 273
         },
         {
           "type": "Pass Accuracy",
@@ -2660,7 +2780,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 42
+          "value": 43
         },
         {
           "type": "Total Shots",
@@ -2700,7 +2820,7 @@
         },
         {
           "type": "Tackles",
-          "value": 10
+          "value": 12
         },
         {
           "type": "Fouls",

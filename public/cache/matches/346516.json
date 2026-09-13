@@ -7,12 +7,12 @@
       "city": ""
     },
     "status": {
-      "long": "1H",
-      "short": "1H",
-      "elapsed": 50
+      "long": "HT",
+      "short": "HT",
+      "elapsed": 45
     },
-    "timerStart": "2026-09-12T23:31:28.942Z",
-    "timerStatus": "INICIADO"
+    "timerStart": "2026-09-13T00:20:44.126Z",
+    "timerStatus": "PAUSADO"
   },
   "league": {
     "round": "Regular Season - 27"
@@ -50,6 +50,22 @@
     "source": "betexplorer"
   },
   "events": [
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Bragantino faz jus ao placar nesta primeira etapa. A equipe paulista foi superior no primeiro tempo, teve mais oportunidades e conseguiu ter o domínio da partida. Sem a bola, pressionava bem e, com a bola, tinha controle do jogo. A superioridade foi transformada em vantagem em bela jogada pela direita, que terminou com gol contra de Monzón. O Botafogo não consegue aproveitar o fator casa e joga mal no Nilton Santos. A equipe alvinegra erra muitos passes no campo de defesa, não consegue ficar com a segunda bola após divididas e praticamente sobreviveu ao primeiro tempo. Na reta final, Wallace Yan foi expulso. Na interpretação do árbitro, ele deixou o braço no rosto de Ferraresi durante a corrida. Jogo fica mais aberto para o Botafogo na segunda etapa.",
+      "player": {
+        "name": "RESUMO DO PRIMEIRO TEMPO"
+      },
+      "assist": null
+    },
     {
       "time": {
         "elapsed": 0,
@@ -1024,9 +1040,41 @@
         "name": ""
       },
       "type": "Important",
+      "detail": "O Bragantino pressionou, criou as melhores chances com Gabriel Batista fazendo grande defesa, e abriu o placar aos 29 minutos em gol contra de Lucas Monzón. Quando parecia dominar, o cenário mudou: Wallace Yan, autor da jogada do gol, foi expulso após revisão do VAR aos 43. Com um jogador a mais, o Botafogo foi para cima nos acréscimos em busca do empate antes do intervalo.",
+      "player": {
+        "name": "Gol contra, VAR e reviravolta no Nilton Santos"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 48,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
       "detail": "Mais 4 minutos de acréscimo. Jogo vai até os 49.",
       "player": {
         "name": "Mais 4 minutos de acréscimo. Jogo vai até os 49."
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 49,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Bragantino vai vencendo o Botafogo por 1 a 0 no Nilton Santos",
+      "player": {
+        "name": "Fim do primeiro tempo!"
       },
       "assist": null
     }
@@ -1490,15 +1538,15 @@
         },
         {
           "type": "Total Passes",
-          "value": 197
+          "value": 203
         },
         {
           "type": "Pass Accuracy",
-          "value": "81%"
+          "value": "80%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 38
+          "value": 40
         },
         {
           "type": "Total Shots",
@@ -1526,7 +1574,7 @@
         },
         {
           "type": "Offsides",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Penalties",
@@ -1566,7 +1614,7 @@
         },
         {
           "type": "Total Passes",
-          "value": 231
+          "value": 232
         },
         {
           "type": "Pass Accuracy",
@@ -1574,7 +1622,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 39
+          "value": 40
         },
         {
           "type": "Total Shots",

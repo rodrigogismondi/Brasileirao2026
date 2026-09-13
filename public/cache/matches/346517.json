@@ -7,12 +7,12 @@
       "city": ""
     },
     "status": {
-      "long": "HT",
-      "short": "HT",
-      "elapsed": 45
+      "long": "2H",
+      "short": "2H",
+      "elapsed": 56
     },
-    "timerStart": "2026-09-13T00:51:45.368Z",
-    "timerStatus": "PAUSADO"
+    "timerStart": "2026-09-13T01:09:12.548Z",
+    "timerStatus": "INICIADO"
   },
   "league": {
     "round": "Regular Season - 27"
@@ -50,6 +50,40 @@
     "source": "betexplorer"
   },
   "events": [
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 283,
+        "name": "Cruzeiro"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Wesley"
+      },
+      "assist": {
+        "name": "Lucas Romero"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Santos fez um primeiro tempo dominante, e a vitória parcial por 2 a 0 ficou barata para o Cruzeiro. O time da casa teve maior volume de jogo, criou várias chances e finalizou muito (16 a 5), especialmente com Everton Cebolinha, que chutou seis vezes na etapa inicial. Depois de enorme pressão do Santos, Rollheiser abriu o placar aos 27 minutos. Ele aproveitou o rebote de chutes primeiro de Gabriel Bontempo e depois de Cebolinha para tocar para o fundo da rede. Quatro minutos depois, Rodinei escapou pela direita e cruzou para a área. Fabrício Bruno tentou impedir que a bola chegasse em Gabriel Bontempo e tocou contra o próprio gol, dando o segundo gol para o Santos. O Peixe continuou pressionando e só não terminou os 50 minutos iniciais com goleada no placar porque Otávio fez cinco defesas, muitas delas difíceis e decisivas.",
+      "player": {
+        "name": "Resumo do primeiro tempo"
+      },
+      "assist": null
+    },
     {
       "time": {
         "elapsed": 0,
@@ -1248,6 +1282,38 @@
         "name": ""
       },
       "type": "Important",
+      "detail": "Rollheiser trabalha com Everton Cebolinha pelo lado esquerdo e mantém a bola no campo ofensivo, buscando espaço para atacar.",
+      "player": {
+        "name": "Rollheiser trabalha com Everton Cebolinha pelo l"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 45,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Começa o segundo tempo.",
+      "player": {
+        "name": "Está valendo"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 45,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
       "detail": "Everton Cebolinha recebe passe meio torto do lado esquerdo e não domina. Na sequência, acaba cometendo falta no campo ofensivo.",
       "player": {
         "name": "Everton Cebolinha recebe passe meio torto do lad"
@@ -1276,6 +1342,58 @@
         "extra": null
       },
       "team": {
+        "id": 277,
+        "name": "Santos"
+      },
+      "type": "Important",
+      "detail": "Gustavo Henrique domina a bola e chuta de longe, sem força, mandando pelo lado direito do goleiro Otávio.",
+      "player": {
+        "name": "Gustavo Henrique"
+      },
+      "assist": {
+        "name": "Tentou de longe"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 46,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Santos impôs um ritmo forte e foi para o intervalo vencendo por 2 a 0. Rollheiser abriu o placar aos 27 minutos aproveitando um rebote, e Fabrício Bruno marcou contra aos 31, ampliando para o time da casa. O Peixe criou várias chances, com destaque para a movimentação de Everton Cebolinha, e só não fez mais gols graças às defesas de Otávio. O Cruzeiro reagiu e quase marcou, mas Luan Peres salvou em cima da linha.",
+      "player": {
+        "name": "Peixe avassalador abre boa vantagem"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 46,
+        "extra": null
+      },
+      "team": {
+        "id": 277,
+        "name": "Santos"
+      },
+      "type": "Important",
+      "detail": "Rony tabela no meio-campo e, mesmo de longe, chuta forte, obrigando Otávio a trabalhar de novo para evitar gol do Santos.",
+      "player": {
+        "name": "Rony"
+      },
+      "assist": {
+        "name": "Chute de longe"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 46,
+        "extra": null
+      },
+      "team": {
         "id": 283,
         "name": "Cruzeiro"
       },
@@ -1283,6 +1401,56 @@
       "detail": "Matheus Pereira recebe na entrada da área e é derrubado por Gustavo Henrique. Falta frontal perigosa para o Cruzeiro.",
       "player": {
         "name": "Matheus Pereira recebe na entrada da área e é de"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 47,
+        "extra": null
+      },
+      "team": {
+        "id": 283,
+        "name": "Cruzeiro"
+      },
+      "type": "Important",
+      "detail": "Rollheiser cobra falta jogando a bola na área, e Gabriel Bontempo toca de cabeça desequilibrado e manda para fora. É tiro de meta para o Cruzeiro.",
+      "player": {
+        "name": "Gabriel Bontempo"
+      },
+      "assist": {
+        "name": "Tentou de cabeça"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 47,
+        "extra": null
+      },
+      "team": {
+        "id": 277,
+        "name": "Santos"
+      },
+      "type": "Important",
+      "detail": "Santos tem uma falta para cobrar no seu lado direito no ataque.",
+      "player": {
+        "name": "Santos tem uma falta para cobrar no seu lado dir"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 47,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Gabriel Brazão lança para Rodinei na direita. Ele corta para o meio e acaba desarmado por Gerson.",
+      "player": {
+        "name": "Gabriel Brazão lança para Rodinei na direita. El"
       },
       "assist": null
     },
@@ -1322,6 +1490,104 @@
     },
     {
       "time": {
+        "elapsed": 48,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Rollheiser cobra falta jogando a bola por cima, e Otávio tira de soco da área.",
+      "player": {
+        "name": "Rollheiser cobra falta jogando a bola por cima, "
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 48,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Gustavo Henrique sofre falta no campo ofensivo pelo lado direito.",
+      "player": {
+        "name": "Gustavo Henrique sofre falta no campo ofensivo p"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 49,
+        "extra": null
+      },
+      "team": {
+        "id": 277,
+        "name": "Santos"
+      },
+      "type": "Important",
+      "detail": "Outro cruzamento na área, a bola passa por todo mundo dentro da área e sobra para Willian Arão pelo lado direito. Ele chuta para fora, mas o árbitro assistente levanta a bandeira para assinalar impedimento.",
+      "player": {
+        "name": "Willian Arão"
+      },
+      "assist": {
+        "name": "Lance impedido"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 49,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Everton Cebolinha trabalha com Rollheiser e cruza para a área, e Gerson tira de cabeça.",
+      "player": {
+        "name": "Everton Cebolinha trabalha com Rollheiser e cruz"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 49,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Santos impõe um ritmo forte desde o início do jogo e abriu 2 a 0 ainda no primeiro tempo. Aos 27 minutos, Rollheiser aproveitou um rebote para marcar. Pouco depois, Rodinei cruzou e Fabrício Bruno fez contra, ampliando a vantagem. O time da casa segue no ataque no início da segunda etapa, com Otávio fazendo grandes defesas para o Cruzeiro, que também viu Luan Peres salvar um gol em cima da linha.",
+      "player": {
+        "name": "Santos domina e abre 2 a 0 no placar!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 49,
+        "extra": null
+      },
+      "team": {
+        "id": 277,
+        "name": "Santos"
+      },
+      "type": "Important",
+      "detail": "Everton Cebolinha parte para cima da marcação de Fagner e é bloqueado. Santos tem escanteio pelo lado esquerdo.",
+      "player": {
+        "name": "Everton Cebolinha parte para cima da marcação de"
+      },
+      "assist": null
+    },
+    {
+      "time": {
         "elapsed": 49,
         "extra": null
       },
@@ -1335,6 +1601,40 @@
         "name": "Kaio Jorge"
       },
       "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 50,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Santos impôs um ritmo forte e construiu uma vantagem de 2 a 0 ainda no primeiro tempo, que terminou com domínio total dos donos da casa. Rollheiser abriu o placar aos 27 minutos aproveitando um rebote, e aos 31, Fabricio Bruno marcou contra ao tentar cortar um cruzamento. O Cruzeiro respondeu com uma bola salva em cima da linha, mas o Santos segue melhor no início da segunda etapa.",
+      "player": {
+        "name": "Santos avassalador abre 2 a 0 no placar"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 50,
+        "extra": null
+      },
+      "team": {
+        "id": 277,
+        "name": "Santos"
+      },
+      "type": "Important",
+      "detail": "Rollheiser faz lindo lançamento do ataque para a frente. Everson Cebolinha domina em velocidade, parte para cima da marcação de Fagner e chuta cruzado, mandando perto do gol de Otávio.",
+      "player": {
+        "name": "Everton"
+      },
+      "assist": {
+        "name": "Uuuuuuh"
+      }
     },
     {
       "time": {
@@ -1365,6 +1665,86 @@
       "detail": "Árbitro Bruno Arleu de Araújo encerra a etapa inicial, com vitória parcial do Santos contra o Cruzeiro por 2 a 0.",
       "player": {
         "name": "Fim de primeiro tempo"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 52,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Outro cruzamento do Cruzeiro para a área, e Wesley ensaia um voleio, mas a zaga do Santos corta antes de a bola chegar no atacante cruzeirense.",
+      "player": {
+        "name": "Outro cruzamento do Cruzeiro para a área, e Wesl"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 52,
+        "extra": null
+      },
+      "team": {
+        "id": 277,
+        "name": "Santos"
+      },
+      "type": "Important",
+      "detail": "Rojas cruza com veneno do lado esquerdo para todo mundo, e a bola passa por todo mundo na área do Santos.",
+      "player": {
+        "name": "Rojas cruza com veneno do lado esquerdo para tod"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 53,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Santos impôs um ritmo alucinante no primeiro tempo e construiu a vantagem de 2 a 0. Aos 27 minutos, Rollheiser aproveitou rebote para abrir o placar. Pouco depois, Fabricio Bruno marcou contra ao tentar cortar um cruzamento. O Peixe segue no ataque no início do segundo tempo, parando em grandes defesas de Otávio, enquanto o Cruzeiro teve uma bola salva em cima da linha, mas cria pouco.",
+      "player": {
+        "name": "Peixe domina e abre vantagem contra o Cruzeiro"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 53,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Willian Arão lança da zaga para o meio, e Gustavo Henrique recebe falta.",
+      "player": {
+        "name": "Willian Arão lança da zaga para o meio, e Gustav"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 54,
+        "extra": null
+      },
+      "team": {
+        "id": 283,
+        "name": "Cruzeiro"
+      },
+      "type": "Important",
+      "detail": "Cruzeiro trabalha a bola no ataque, e Matheus Pereira é derrubado por João Schmidt. É falta para o Cruzeiro.",
+      "player": {
+        "name": "Cruzeiro trabalha a bola no ataque, e Matheus Pe"
       },
       "assist": null
     }
@@ -1824,11 +2204,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "53%"
+          "value": "54%"
         },
         {
           "type": "Total Passes",
-          "value": 294
+          "value": 333
         },
         {
           "type": "Pass Accuracy",
@@ -1836,19 +2216,19 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 40
+          "value": 45
         },
         {
           "type": "Total Shots",
-          "value": 16
+          "value": 20
         },
         {
           "type": "Shots on Goal",
-          "value": 6
+          "value": 7
         },
         {
           "type": "Shots off Goal",
-          "value": 6
+          "value": 9
         },
         {
           "type": "Blocked Shots",
@@ -1860,11 +2240,11 @@
         },
         {
           "type": "Corner Kicks",
-          "value": 4
+          "value": 5
         },
         {
           "type": "Offsides",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Penalties",
@@ -1880,7 +2260,7 @@
         },
         {
           "type": "Fouls",
-          "value": 8
+          "value": 10
         },
         {
           "type": "Yellow Cards",
@@ -1900,19 +2280,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "47%"
+          "value": "46%"
         },
         {
           "type": "Total Passes",
-          "value": 223
+          "value": 251
         },
         {
           "type": "Pass Accuracy",
-          "value": "86%"
+          "value": "85%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 31
+          "value": 38
         },
         {
           "type": "Total Shots",
@@ -1920,7 +2300,7 @@
         },
         {
           "type": "Shots on Goal",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Shots off Goal",
@@ -1928,7 +2308,7 @@
         },
         {
           "type": "Blocked Shots",
-          "value": 2
+          "value": 1
         },
         {
           "type": "Hit Woodwork",
@@ -1948,15 +2328,15 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 10
+          "value": 11
         },
         {
           "type": "Tackles",
-          "value": 12
+          "value": 13
         },
         {
           "type": "Fouls",
-          "value": 5
+          "value": 8
         },
         {
           "type": "Yellow Cards",

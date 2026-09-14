@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 13
+      "elapsed": 16
     },
     "timerStart": "2026-09-14T23:01:55.020Z",
     "timerStatus": "INICIADO"
@@ -257,6 +257,54 @@
         "name": "Pikachu manda para área, mas Galeano acaba perde"
       },
       "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 10,
+        "extra": null
+      },
+      "team": {
+        "id": 265,
+        "name": "Bahia"
+      },
+      "type": "Important",
+      "detail": "Entenda parceria do Bahia com Federação Indígena e origem de camisa utilizada contra o Remo.",
+      "player": {
+        "name": "PARCERIA DO BAHIA"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 11,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Bahia tomou a iniciativa nos primeiros minutos, com um chute de Rodrigo Nestor bloqueado pela zaga. O jogo ficou mais tenso aos 7 minutos, quando Acevedo recebeu cartão amarelo por falta em Galeano. O Remo tenta se organizar e chegou a levar perigo em cruzamento de Pikachu, mas sem sucesso na finalização. A partida segue equilibrada e muito disputada no meio-campo após os 11 minutos iniciais.",
+      "player": {
+        "name": "Cartão cedo e jogo estudado em Salvador"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 11,
+        "extra": null
+      },
+      "team": {
+        "id": 265,
+        "name": "Bahia"
+      },
+      "type": "Important",
+      "detail": "Kanu tenta entrar na área do tricolor, mas acaba passando a bola para lateral, que acaba saindo.",
+      "player": {
+        "name": "Kanu tenta entrar na área do tricolor, mas acaba"
+      },
+      "assist": null
     }
   ],
   "lineups": [
@@ -446,15 +494,6 @@
         },
         {
           "player": {
-            "id": "ruan-pablo",
-            "name": "Ruan Pablo",
-            "number": 77,
-            "pos": "Ata",
-            "grid": null
-          }
-        },
-        {
-          "player": {
             "id": "ademirsant",
             "name": "Ademir",
             "number": 7,
@@ -476,6 +515,15 @@
             "id": "everaldo211",
             "name": "Everaldo",
             "number": 27,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "ruan-pablo",
+            "name": "Ruan Pablo",
+            "number": 77,
             "pos": "Ata",
             "grid": null
           }
@@ -714,11 +762,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "73%"
+          "value": "74%"
         },
         {
           "type": "Total Passes",
-          "value": 96
+          "value": 137
         },
         {
           "type": "Pass Accuracy",
@@ -726,7 +774,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 10
+          "value": 14
         },
         {
           "type": "Total Shots",
@@ -790,19 +838,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "27%"
+          "value": "26%"
         },
         {
           "type": "Total Passes",
-          "value": 23
+          "value": 29
         },
         {
           "type": "Pass Accuracy",
-          "value": "74%"
+          "value": "69%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 6
+          "value": 9
         },
         {
           "type": "Total Shots",
@@ -842,7 +890,7 @@
         },
         {
           "type": "Tackles",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Fouls",

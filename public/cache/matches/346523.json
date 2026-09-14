@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 4
+      "elapsed": 8
     },
     "timerStart": "2026-09-14T23:01:55.020Z",
     "timerStatus": "INICIADO"
@@ -127,6 +127,22 @@
       "detail": "Em cobrança de escanteio, Nestor manda para área, mas a defesa azulina afasta a bola.",
       "player": {
         "name": "Em cobrança de escanteio, Nestor manda para área"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 2,
+        "extra": null
+      },
+      "team": {
+        "id": 265,
+        "name": "Bahia"
+      },
+      "type": "Important",
+      "detail": "Bahia troca passes no meio de campo e busca espaço para entrar na área do Leão paraense.",
+      "player": {
+        "name": "Bahia troca passes no meio de campo e busca espa"
       },
       "assist": null
     }
@@ -590,15 +606,15 @@
         },
         {
           "type": "Total Passes",
-          "value": 27
+          "value": 51
         },
         {
           "type": "Pass Accuracy",
-          "value": "81%"
+          "value": "88%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 5
+          "value": 6
         },
         {
           "type": "Total Shots",
@@ -638,11 +654,11 @@
         },
         {
           "type": "Tackles",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Fouls",
-          "value": 0
+          "value": 2
         },
         {
           "type": "Yellow Cards",
@@ -666,11 +682,11 @@
         },
         {
           "type": "Total Passes",
-          "value": 3
+          "value": 7
         },
         {
           "type": "Pass Accuracy",
-          "value": "67%"
+          "value": "86%"
         },
         {
           "type": "Incomplete Passes",
@@ -718,7 +734,7 @@
         },
         {
           "type": "Fouls",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Yellow Cards",

@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 8
+      "elapsed": 10
     },
     "timerStart": "2026-09-14T23:01:55.020Z",
     "timerStatus": "INICIADO"
@@ -88,6 +88,22 @@
         "extra": null
       },
       "team": {
+        "id": 265,
+        "name": "Bahia"
+      },
+      "type": "Important",
+      "detail": "O Bahia entrou em campo com crianças indígenas, como parte das ações em parceria com a Federação Indígena das Nações Pataxó e Tupinambá do Extremo Sul da Bahia (FINPAT), que está também no novo uniforme da equipe.",
+      "player": {
+        "name": "O Bahia entrou em campo com crianças indígenas, "
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
         "id": 0,
         "name": ""
       },
@@ -143,6 +159,70 @@
       "detail": "Bahia troca passes no meio de campo e busca espaço para entrar na área do Leão paraense.",
       "player": {
         "name": "Bahia troca passes no meio de campo e busca espa"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 5,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O jogo começou com o Bahia tomando a iniciativa. Com menos de um minuto, Rodrigo Nestor já arriscou um chute que a defesa do Remo bloqueou para escanteio. O time da casa mantém a posse de bola, trocando passes e buscando espaços no campo de ataque. O Leão se defende bem e tentou responder em uma cobrança de falta por volta dos cinco minutos, mas a zaga baiana afastou o perigo. Início de jogo com o Esquadrão controlando as ações.",
+      "player": {
+        "name": "Bahia dita o ritmo nos primeiros minutos"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 5,
+        "extra": null
+      },
+      "team": {
+        "id": 265,
+        "name": "Bahia"
+      },
+      "type": "Important",
+      "detail": "Em cobrança de falta, o Leão chuta para área, mas a bola bate na defesa do Bahia e acaba afastando a bola.",
+      "player": {
+        "name": "Em cobrança de falta, o Leão chuta para área, ma"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 6,
+        "extra": null
+      },
+      "team": {
+        "id": 265,
+        "name": "Bahia"
+      },
+      "type": "Important",
+      "detail": "Zé Ricardo tenta sair com a vola buscando espaço para entrar na área do Bahia, mas a defesa do Esquedrão manda para lateral.",
+      "player": {
+        "name": "Zé Ricardo tenta sair com a vola buscando espaço"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 7,
+        "extra": null
+      },
+      "team": {
+        "id": 265,
+        "name": "Bahia"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Acevedo"
       },
       "assist": null
     }
@@ -602,19 +682,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "50%"
+          "value": "67%"
         },
         {
           "type": "Total Passes",
-          "value": 51
+          "value": 55
         },
         {
           "type": "Pass Accuracy",
-          "value": "88%"
+          "value": "87%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 6
+          "value": 7
         },
         {
           "type": "Total Shots",
@@ -650,19 +730,19 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Tackles",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Fouls",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Yellow Cards",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Red Cards",
@@ -678,23 +758,23 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "50%"
+          "value": "33%"
         },
         {
           "type": "Total Passes",
-          "value": 7
+          "value": 17
         },
         {
           "type": "Pass Accuracy",
-          "value": "86%"
+          "value": "71%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 1
+          "value": 5
         },
         {
           "type": "Total Shots",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Shots on Goal",
@@ -706,7 +786,7 @@
         },
         {
           "type": "Blocked Shots",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Hit Woodwork",

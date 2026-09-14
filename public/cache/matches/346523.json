@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 10
+      "elapsed": 13
     },
     "timerStart": "2026-09-14T23:01:55.020Z",
     "timerStatus": "INICIADO"
@@ -223,6 +223,38 @@
       "detail": "Yellow Card",
       "player": {
         "name": "Acevedo"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 8,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Bahia começou tentando impor seu ritmo e teve a primeira chance com menos de um minuto, em chute de Rodrigo Nestor que a zaga do Remo bloqueou. A partida segue disputada no meio-campo, com as duas equipes buscando espaços. O clima esquentou aos 7 minutos, quando Acevedo fez falta dura em Galeano e recebeu o primeiro cartão amarelo do jogo, mostrando que o duelo promete ser intenso.",
+      "player": {
+        "name": "Jogo quente com cartão nos minutos iniciais"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 8,
+        "extra": null
+      },
+      "team": {
+        "id": 364,
+        "name": "Remo"
+      },
+      "type": "Important",
+      "detail": "Pikachu manda para área, mas Galeano acaba perdendo a bola que sai pela linha de fundo.",
+      "player": {
+        "name": "Pikachu manda para área, mas Galeano acaba perde"
       },
       "assist": null
     }
@@ -682,19 +714,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "67%"
+          "value": "73%"
         },
         {
           "type": "Total Passes",
-          "value": 55
+          "value": 96
         },
         {
           "type": "Pass Accuracy",
-          "value": "87%"
+          "value": "90%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 7
+          "value": 10
         },
         {
           "type": "Total Shots",
@@ -758,19 +790,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "33%"
+          "value": "27%"
         },
         {
           "type": "Total Passes",
-          "value": 17
+          "value": 23
         },
         {
           "type": "Pass Accuracy",
-          "value": "71%"
+          "value": "74%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 5
+          "value": 6
         },
         {
           "type": "Total Shots",

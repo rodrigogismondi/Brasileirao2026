@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 37
+      "elapsed": 40
     },
     "timerStart": "2026-09-14T23:01:55.020Z",
     "timerStatus": "INICIADO"
@@ -577,6 +577,38 @@
         "name": "Após nova cobrança de falta, a defesa do tricolo"
       },
       "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 36,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O jogo tem um dono até agora: o Bahia. Aos 19 minutos, Jean Lucas aproveitou um vacilo da defesa para abrir o placar em 1 a 0. Mas o resultado poderia ser maior. O goleiro do Remo, Marcelo Rangel, virou o nome do jogo com defesas incríveis, parando chutes de Nestor e Juba. Aos 30, ele fez um milagre duplo em sequência, salvando um gol certo e mantendo o Remo vivo na partida.",
+      "player": {
+        "name": "Bahia abre o placar e pressiona na Fonte Nova"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 36,
+        "extra": null
+      },
+      "team": {
+        "id": 364,
+        "name": "Remo"
+      },
+      "type": "Important",
+      "detail": "Remo troca passes, Pikachu chuta para Picco e busca espaço para entrar na área do tricolor.",
+      "player": {
+        "name": "Remo troca passes, Pikachu chuta para Picco e bu"
+      },
+      "assist": null
     }
   ],
   "lineups": [
@@ -1038,15 +1070,15 @@
         },
         {
           "type": "Total Passes",
-          "value": 230
+          "value": 247
         },
         {
           "type": "Pass Accuracy",
-          "value": "91%"
+          "value": "90%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 20
+          "value": 24
         },
         {
           "type": "Total Shots",
@@ -1090,7 +1122,7 @@
         },
         {
           "type": "Fouls",
-          "value": 6
+          "value": 7
         },
         {
           "type": "Yellow Cards",
@@ -1114,15 +1146,15 @@
         },
         {
           "type": "Total Passes",
-          "value": 89
+          "value": 100
         },
         {
           "type": "Pass Accuracy",
-          "value": "78%"
+          "value": "77%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 20
+          "value": 23
         },
         {
           "type": "Total Shots",
@@ -1150,7 +1182,7 @@
         },
         {
           "type": "Offsides",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Penalties",

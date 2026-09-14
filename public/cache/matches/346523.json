@@ -73,15 +73,6 @@
         },
         {
           "player": {
-            "id": "roman-gomez",
-            "name": "Román Gómez",
-            "number": 31,
-            "pos": "Def",
-            "grid": null
-          }
-        },
-        {
-          "player": {
             "id": "marcos-victor",
             "name": "Marcos Victor",
             "number": 44,
@@ -94,6 +85,15 @@
             "id": "davidduarte",
             "name": "David Duarte",
             "number": 33,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "kanu-victor-hugo",
+            "name": "Kanu",
+            "number": 4,
             "pos": "Def",
             "grid": null
           }
@@ -275,7 +275,116 @@
           }
         }
       ],
-      "substitutes": []
+      "substitutes": [
+        {
+          "player": {
+            "id": "ygor-vinhas",
+            "name": "Ygor Vinhas",
+            "number": 94,
+            "pos": "Gol",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "ivan-quaresma",
+            "name": "Ivan",
+            "number": 97,
+            "pos": "Gol",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "matheusalexandre",
+            "name": "Matheus Alexandre",
+            "number": 2,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "marllon",
+            "name": "Marllon",
+            "number": 13,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "leoandrade",
+            "name": "Léo Andrade",
+            "number": 5,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "josewelison",
+            "name": "José Welison",
+            "number": 28,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "jaderson",
+            "name": "Jáderson",
+            "number": 10,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "vitor-bueno",
+            "name": "Vitor Bueno",
+            "number": 15,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "david_braga",
+            "name": "David Braga",
+            "number": 26,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "gabrielpoveda",
+            "name": "Gabriel Poveda",
+            "number": 9,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "alefmanga",
+            "name": "Alef Manga",
+            "number": 11,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "gabrieltaliari",
+            "name": "Gabriel Taliari",
+            "number": 19,
+            "pos": "Ata",
+            "grid": null
+          }
+        }
+      ]
     }
   ],
   "statistics": [],

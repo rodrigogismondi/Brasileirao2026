@@ -13411,10 +13411,10 @@
         "status": {
           "long": "1H",
           "short": "1H",
-          "elapsed": null
+          "elapsed": 4
         },
-        "timerStart": "2026-09-14T23:00:11.947Z",
-        "timerStatus": "PAUSADO"
+        "timerStart": "2026-09-14T23:01:55.020Z",
+        "timerStatus": "INICIADO"
       },
       "league": {
         "round": "Regular Season - 27"
@@ -13432,8 +13432,8 @@
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
       "score": {
         "halftime": {
@@ -18713,14 +18713,14 @@
                 "name": "Bahia",
                 "logo": "https://s.sde.globo.com/media/organizations/2018/03/11/bahia.svg"
               },
-              "points": 43,
+              "points": 44,
               "goalsDiff": 8,
-              "form": "DDWWW",
+              "form": "DWWWD",
               "description": "Copa Libertadores Qualifiers",
               "all": {
-                "played": 26,
+                "played": 27,
                 "win": 11,
-                "draw": 10,
+                "draw": 11,
                 "lose": 5,
                 "goals": {
                   "for": 40,
@@ -19021,14 +19021,14 @@
                 "name": "Remo",
                 "logo": "https://s.sde.globo.com/media/organizations/2021/02/25/Remo-PA.svg"
               },
-              "points": 23,
+              "points": 24,
               "goalsDiff": -13,
-              "form": "DDLLL",
+              "form": "DLLLD",
               "description": "Relegation",
               "all": {
-                "played": 26,
+                "played": 27,
                 "win": 5,
-                "draw": 8,
+                "draw": 9,
                 "lose": 13,
                 "goals": {
                   "for": 30,
@@ -20172,7 +20172,7 @@
     "mode": "live",
     "liveIntervalMs": 20000
   },
-  "fetchedAt": "2026-09-14T23:03:18.742Z",
+  "fetchedAt": "2026-09-14T23:06:22.093Z",
   "source": "ge-globo",
   "meta": {
     "rodada": 27,

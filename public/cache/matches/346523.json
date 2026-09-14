@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 19
+      "elapsed": 22
     },
     "timerStart": "2026-09-14T23:01:55.020Z",
     "timerStatus": "INICIADO"
@@ -30,7 +30,7 @@
     }
   },
   "goals": {
-    "home": 0,
+    "home": 1,
     "away": 0
   },
   "score": {
@@ -360,13 +360,45 @@
         "extra": null
       },
       "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Partida começa com muita intensidade e oportunidades. O Bahia tentou se impor logo de cara com Rodrigo Nestor, mas o goleiro Marcelo Rangel fez boa defesa. O Remo não se intimidou e respondeu com Jajá, que teve um chute perigoso bloqueado dentro da área. O clima ficou mais tenso com o amarelo para Acevedo aos 7 minutos, e pouco depois, Erick Pulga desperdiçou boa chance para o Bahia ao escorregar.",
+      "player": {
+        "name": "Início movimentado com chances e cartão"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 16,
+        "extra": null
+      },
+      "team": {
         "id": 265,
         "name": "Bahia"
       },
       "type": "Important",
-      "detail": "Jean Lucas entra na área, mas acaba tropeçando no gramado e o que atrapalha na finalização do Bahia.",
+      "detail": "Erick Pulga entra na área, mas acaba tropeçando no gramado e o que atrapalha na finalização do Bahia.",
       "player": {
-        "name": "Jean Lucas entra na área, mas acaba tropeçando n"
+        "name": "Erick Pulga entra na área, mas acaba tropeçando "
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 19,
+        "extra": null
+      },
+      "team": {
+        "id": 265,
+        "name": "Bahia"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "player": {
+        "name": "Jean Lucas"
       },
       "assist": null
     }
@@ -826,11 +858,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "74%"
+          "value": "73%"
         },
         {
           "type": "Total Passes",
-          "value": 137
+          "value": 162
         },
         {
           "type": "Pass Accuracy",
@@ -838,19 +870,19 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 14
+          "value": 17
         },
         {
           "type": "Total Shots",
-          "value": 0
+          "value": 2
         },
         {
           "type": "Shots on Goal",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Shots off Goal",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Blocked Shots",
@@ -902,19 +934,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "26%"
+          "value": "27%"
         },
         {
           "type": "Total Passes",
-          "value": 29
+          "value": 48
         },
         {
           "type": "Pass Accuracy",
-          "value": "69%"
+          "value": "75%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 9
+          "value": 12
         },
         {
           "type": "Total Shots",
@@ -950,7 +982,7 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 0
+          "value": 2
         },
         {
           "type": "Tackles",

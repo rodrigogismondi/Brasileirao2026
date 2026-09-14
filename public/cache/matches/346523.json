@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 40
+      "elapsed": 43
     },
     "timerStart": "2026-09-14T23:01:55.020Z",
     "timerStatus": "INICIADO"
@@ -609,6 +609,54 @@
         "name": "Remo troca passes, Pikachu chuta para Picco e bu"
       },
       "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 38,
+        "extra": null
+      },
+      "team": {
+        "id": 265,
+        "name": "Bahia"
+      },
+      "type": "Important",
+      "detail": "Bahia tenta chegar no gol, no chute a bola bate na defesa do Leão.",
+      "player": {
+        "name": "Bahia tenta chegar no gol, no chute a bola bate "
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 39,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Bahia aproveitou um vacilo na defesa do Remo para largar na frente aos 19 minutos, com gol de Jean Lucas. O placar de 1 a 0 não reflete a pressão baiana, que parou em uma atuação espetacular do goleiro Marcelo Rangel. O camisa 1 do Leão fez defesas cruciais, incluindo uma sequência incrível após cobrança de falta, mantendo o Remo vivo na partida até aqui.",
+      "player": {
+        "name": "Bahia na frente, Rangel brilha!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 39,
+        "extra": null
+      },
+      "team": {
+        "id": 364,
+        "name": "Remo"
+      },
+      "type": "Important",
+      "detail": "Galeano recebe, sozinho no meio de cinco, o atacante tenta se livrar da marcação e acaba mandando a bola para o meio de campo.",
+      "player": {
+        "name": "Galeano recebe, sozinho no meio de cinco, o atac"
+      },
+      "assist": null
     }
   ],
   "lineups": [
@@ -1066,11 +1114,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "68%"
+          "value": "64%"
         },
         {
           "type": "Total Passes",
-          "value": 247
+          "value": 271
         },
         {
           "type": "Pass Accuracy",
@@ -1078,11 +1126,11 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 24
+          "value": 27
         },
         {
           "type": "Total Shots",
-          "value": 6
+          "value": 7
         },
         {
           "type": "Shots on Goal",
@@ -1094,7 +1142,7 @@
         },
         {
           "type": "Blocked Shots",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Hit Woodwork",
@@ -1142,19 +1190,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "32%"
+          "value": "36%"
         },
         {
           "type": "Total Passes",
-          "value": 100
+          "value": 135
         },
         {
           "type": "Pass Accuracy",
-          "value": "77%"
+          "value": "80%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 23
+          "value": 27
         },
         {
           "type": "Total Shots",
@@ -1190,11 +1238,11 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 3
+          "value": 4
         },
         {
           "type": "Tackles",
-          "value": 5
+          "value": 8
         },
         {
           "type": "Fouls",

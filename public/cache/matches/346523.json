@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 28
+      "elapsed": 31
     },
     "timerStart": "2026-09-14T23:01:55.020Z",
     "timerStatus": "INICIADO"
@@ -456,6 +456,22 @@
         "extra": null
       },
       "team": {
+        "id": 364,
+        "name": "Remo"
+      },
+      "type": "Important",
+      "detail": "Me cobrança de escanteio, a bola sobra para Jajá, que já estava empedido, que chuta forte para o fol e o goleiro, Ronaldo, faz grande defesa.",
+      "player": {
+        "name": "Me cobrança de escanteio, a bola sobra para Jajá"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 26,
+        "extra": null
+      },
+      "team": {
         "id": 0,
         "name": ""
       },
@@ -479,6 +495,22 @@
       "detail": "Na troca de passes do Bahia para entrar na área, a bola acaba batendo no ábitro e atrapalhando a jogada do tricolor.",
       "player": {
         "name": "Ê, meu juiz!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 27,
+        "extra": null
+      },
+      "team": {
+        "id": 364,
+        "name": "Remo"
+      },
+      "type": "Important",
+      "detail": "Pulga cruza para Nestor que manda forte para o gol, mas Rangel salva o Remo.",
+      "player": {
+        "name": "Pulga cruza para Nestor que manda forte para o g"
       },
       "assist": null
     }
@@ -938,11 +970,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "72%"
+          "value": "70%"
         },
         {
           "type": "Total Passes",
-          "value": 206
+          "value": 227
         },
         {
           "type": "Pass Accuracy",
@@ -950,15 +982,15 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 19
+          "value": 20
         },
         {
           "type": "Total Shots",
-          "value": 3
+          "value": 4
         },
         {
           "type": "Shots on Goal",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Shots off Goal",
@@ -990,11 +1022,11 @@
         },
         {
           "type": "Tackles",
-          "value": 4
+          "value": 5
         },
         {
           "type": "Fouls",
-          "value": 5
+          "value": 6
         },
         {
           "type": "Yellow Cards",
@@ -1014,11 +1046,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "28%"
+          "value": "30%"
         },
         {
           "type": "Total Passes",
-          "value": 69
+          "value": 84
         },
         {
           "type": "Pass Accuracy",
@@ -1026,7 +1058,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 16
+          "value": 19
         },
         {
           "type": "Total Shots",
@@ -1050,11 +1082,11 @@
         },
         {
           "type": "Corner Kicks",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Offsides",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Penalties",
@@ -1062,11 +1094,11 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Tackles",
-          "value": 2
+          "value": 5
         },
         {
           "type": "Fouls",

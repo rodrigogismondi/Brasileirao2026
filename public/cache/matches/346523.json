@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 43
+      "elapsed": 47
     },
     "timerStart": "2026-09-14T23:01:55.020Z",
     "timerStatus": "INICIADO"
@@ -657,6 +657,38 @@
         "name": "Galeano recebe, sozinho no meio de cinco, o atac"
       },
       "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 41,
+        "extra": null
+      },
+      "team": {
+        "id": 265,
+        "name": "Bahia"
+      },
+      "type": "Important",
+      "detail": "Christian Oliveira tenta espaço na área do Leão, mas acaba cruzando para o companheiro que perde a bola.",
+      "player": {
+        "name": "Christian Oliveira tenta espaço na área do Leão,"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 43,
+        "extra": null
+      },
+      "team": {
+        "id": 265,
+        "name": "Bahia"
+      },
+      "type": "Important",
+      "detail": "Christian Oliveira dribla a marcação e bate cruzado para Erick Pulga que chuta na trave de Rangel.",
+      "player": {
+        "name": "Christian Oliveira dribla a marcação e bate cruz"
+      },
+      "assist": null
     }
   ],
   "lineups": [
@@ -1114,11 +1146,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "64%"
+          "value": "63%"
         },
         {
           "type": "Total Passes",
-          "value": 271
+          "value": 297
         },
         {
           "type": "Pass Accuracy",
@@ -1126,7 +1158,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 27
+          "value": 29
         },
         {
           "type": "Total Shots",
@@ -1162,7 +1194,7 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Tackles",
@@ -1170,7 +1202,7 @@
         },
         {
           "type": "Fouls",
-          "value": 7
+          "value": 8
         },
         {
           "type": "Yellow Cards",
@@ -1190,23 +1222,23 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "36%"
+          "value": "37%"
         },
         {
           "type": "Total Passes",
-          "value": 135
+          "value": 164
         },
         {
           "type": "Pass Accuracy",
-          "value": "80%"
+          "value": "82%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 27
+          "value": 30
         },
         {
           "type": "Total Shots",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Shots on Goal",
@@ -1218,7 +1250,7 @@
         },
         {
           "type": "Blocked Shots",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Hit Woodwork",
@@ -1242,7 +1274,7 @@
         },
         {
           "type": "Tackles",
-          "value": 8
+          "value": 10
         },
         {
           "type": "Fouls",

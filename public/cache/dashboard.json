@@ -10112,7 +10112,9 @@
           "long": "FT",
           "short": "FT",
           "elapsed": 90
-        }
+        },
+        "timerStart": "2026-07-30T00:34:34.534Z",
+        "timerStatus": "PAUSADO"
       },
       "league": {
         "round": "Regular Season - 21"
@@ -10162,7 +10164,9 @@
           "long": "FT",
           "short": "FT",
           "elapsed": 90
-        }
+        },
+        "timerStart": "2026-07-30T00:29:51.687Z",
+        "timerStatus": "PAUSADO"
       },
       "league": {
         "round": "Regular Season - 21"
@@ -10212,7 +10216,9 @@
           "long": "FT",
           "short": "FT",
           "elapsed": 90
-        }
+        },
+        "timerStart": "2026-07-30T02:31:48.744Z",
+        "timerStatus": "PAUSADO"
       },
       "league": {
         "round": "Regular Season - 21"
@@ -10262,7 +10268,9 @@
           "long": "FT",
           "short": "FT",
           "elapsed": 90
-        }
+        },
+        "timerStart": "2026-07-30T02:32:42.656Z",
+        "timerStatus": "PAUSADO"
       },
       "league": {
         "round": "Regular Season - 21"
@@ -10312,7 +10320,9 @@
           "long": "FT",
           "short": "FT",
           "elapsed": 90
-        }
+        },
+        "timerStart": "2026-07-31T00:37:26.433Z",
+        "timerStatus": "PAUSADO"
       },
       "league": {
         "round": "Regular Season - 21"
@@ -10362,7 +10372,9 @@
           "long": "FT",
           "short": "FT",
           "elapsed": 90
-        }
+        },
+        "timerStart": "2026-07-31T02:34:32.144Z",
+        "timerStatus": "PAUSADO"
       },
       "league": {
         "round": "Regular Season - 21"
@@ -12962,9 +12974,7 @@
           "long": "FT",
           "short": "FT",
           "elapsed": 90
-        },
-        "timerStart": "2026-09-12T02:32:15.049Z",
-        "timerStatus": "PAUSADO"
+        }
       },
       "league": {
         "round": "Regular Season - 27"
@@ -13014,9 +13024,7 @@
           "long": "FT",
           "short": "FT",
           "elapsed": 90
-        },
-        "timerStart": "2026-09-12T21:03:09.649Z",
-        "timerStatus": "PAUSADO"
+        }
       },
       "league": {
         "round": "Regular Season - 27"
@@ -13066,9 +13074,7 @@
           "long": "FT",
           "short": "FT",
           "elapsed": 90
-        },
-        "timerStart": "2026-09-12T21:04:59.860Z",
-        "timerStatus": "PAUSADO"
+        }
       },
       "league": {
         "round": "Regular Season - 27"
@@ -13118,9 +13124,7 @@
           "long": "FT",
           "short": "FT",
           "elapsed": 90
-        },
-        "timerStart": "2026-09-12T22:00:44.205Z",
-        "timerStatus": "PAUSADO"
+        }
       },
       "league": {
         "round": "Regular Season - 27"
@@ -13170,9 +13174,7 @@
           "long": "FT",
           "short": "FT",
           "elapsed": 90
-        },
-        "timerStart": "2026-09-12T23:35:53.322Z",
-        "timerStatus": "PAUSADO"
+        }
       },
       "league": {
         "round": "Regular Season - 27"
@@ -13222,9 +13224,7 @@
           "long": "FT",
           "short": "FT",
           "elapsed": 90
-        },
-        "timerStart": "2026-09-13T01:32:17.068Z",
-        "timerStatus": "PAUSADO"
+        }
       },
       "league": {
         "round": "Regular Season - 27"
@@ -13274,9 +13274,7 @@
           "long": "FT",
           "short": "FT",
           "elapsed": 90
-        },
-        "timerStart": "2026-09-13T02:08:12.315Z",
-        "timerStatus": "PAUSADO"
+        }
       },
       "league": {
         "round": "Regular Season - 27"
@@ -13326,9 +13324,7 @@
           "long": "FT",
           "short": "FT",
           "elapsed": 90
-        },
-        "timerStart": "2026-09-13T21:12:54.352Z",
-        "timerStatus": "PAUSADO"
+        }
       },
       "league": {
         "round": "Regular Season - 27"
@@ -13378,9 +13374,7 @@
           "long": "FT",
           "short": "FT",
           "elapsed": 90
-        },
-        "timerStart": "2026-09-13T22:41:44.800Z",
-        "timerStatus": "PAUSADO"
+        }
       },
       "league": {
         "round": "Regular Season - 27"
@@ -13430,9 +13424,7 @@
           "long": "FT",
           "short": "FT",
           "elapsed": 90
-        },
-        "timerStart": "2026-09-15T01:01:05.635Z",
-        "timerStatus": "PAUSADO"
+        }
       },
       "league": {
         "round": "Regular Season - 27"
@@ -20190,10 +20182,10 @@
     "mode": "idle",
     "liveIntervalMs": 900000
   },
-  "fetchedAt": "2026-09-15T01:30:13.889Z",
+  "fetchedAt": "2026-09-15T01:33:37.055Z",
   "source": "ge-globo",
   "meta": {
-    "rodada": 27,
+    "rodada": 21,
     "ultimaRodada": 38,
     "rounds": [
       1,
@@ -20235,8 +20227,8 @@
       37,
       38
     ],
-    "seasonSyncedAt": "2026-09-14T22:55:02.728Z",
-    "fullSeasonSync": false,
+    "seasonSyncedAt": "2026-09-15T01:33:32.558Z",
+    "fullSeasonSync": true,
     "edicao": "Campeonato Brasileiro 2026",
     "provider": "ge.globo.com",
     "scorersCount": 50,

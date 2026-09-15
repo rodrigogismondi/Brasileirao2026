@@ -13411,7 +13411,7 @@
         "status": {
           "long": "2H",
           "short": "2H",
-          "elapsed": 97
+          "elapsed": 100
         },
         "timerStart": "2026-09-15T00:08:04.513Z",
         "timerStatus": "INICIADO"
@@ -13433,7 +13433,7 @@
       },
       "goals": {
         "home": 2,
-        "away": 0
+        "away": 1
       },
       "score": {
         "halftime": {
@@ -18692,7 +18692,7 @@
                 "logo": "https://s.sde.globo.com/media/organizations/2018/03/11/bahia.svg"
               },
               "points": 46,
-              "goalsDiff": 10,
+              "goalsDiff": 9,
               "form": "DWWWW",
               "description": "Copa Libertadores",
               "all": {
@@ -18702,7 +18702,7 @@
                 "lose": 5,
                 "goals": {
                   "for": 42,
-                  "against": 32
+                  "against": 33
                 }
               }
             },
@@ -19022,7 +19022,7 @@
                 "logo": "https://s.sde.globo.com/media/organizations/2021/02/25/Remo-PA.svg"
               },
               "points": 23,
-              "goalsDiff": -15,
+              "goalsDiff": -14,
               "form": "DLLLL",
               "description": "Relegation",
               "all": {
@@ -19031,7 +19031,7 @@
                 "draw": 8,
                 "lose": 14,
                 "goals": {
-                  "for": 30,
+                  "for": 31,
                   "against": 45
                 }
               }
@@ -20101,6 +20101,28 @@
     {
       "player": {
         "id": 48,
+        "name": "Vitor Bueno",
+        "photo": "https://s.sde.globo.com/media/person_role/2026/02/20/photo_140x140_1NOOKJt.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "name": "Remo",
+            "logo": "https://s.sde.globo.com/media/organizations/2013/10/11/REmo-65.png"
+          },
+          "goals": {
+            "total": 4,
+            "assists": null
+          },
+          "games": {
+            "appearences": 0
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 49,
         "name": "Alan Patrick",
         "photo": "https://s.sde.globo.com/media/person_role/2025/04/03/photo_140x140_sDx9vFU.png"
       },
@@ -20122,7 +20144,7 @@
     },
     {
       "player": {
-        "id": 49,
+        "id": 50,
         "name": "Erick",
         "photo": "https://s.sde.globo.com/media/person_role/2026/07/06/photo_140x140_fOGg2fL.png"
       },
@@ -20131,28 +20153,6 @@
           "team": {
             "name": "Bahia",
             "logo": "https://s.sde.globo.com/media/organizations/2014/04/14/bahia_60x60.png"
-          },
-          "goals": {
-            "total": 4,
-            "assists": null
-          },
-          "games": {
-            "appearences": 0
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 50,
-        "name": "Arias",
-        "photo": "https://s.sde.globo.com/media/person_role/2026/08/19/photo_140x140_mdm3UM1.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "name": "Palmeiras",
-            "logo": "https://s.sde.globo.com/media/organizations/2014/04/14/palmeiras_60x60.png"
           },
           "goals": {
             "total": 4,
@@ -20172,7 +20172,7 @@
     "mode": "live",
     "liveIntervalMs": 20000
   },
-  "fetchedAt": "2026-09-15T01:00:22.671Z",
+  "fetchedAt": "2026-09-15T01:03:13.684Z",
   "source": "ge-globo",
   "meta": {
     "rodada": 27,

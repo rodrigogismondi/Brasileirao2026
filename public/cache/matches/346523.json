@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 97
+      "elapsed": 100
     },
     "timerStart": "2026-09-15T00:08:04.513Z",
     "timerStatus": "INICIADO"
@@ -31,7 +31,7 @@
   },
   "goals": {
     "home": 2,
-    "away": 0
+    "away": 1
   },
   "score": {
     "halftime": {
@@ -1699,6 +1699,120 @@
         "name": "Pênalti para o Leão!"
       },
       "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 95,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Bahia abriu o placar no primeiro tempo com Jean Lucas e seguiu pressionando. A equipe da casa ainda carimbou a trave e teve um gol de Kanu anulado por impedimento no segundo tempo. O jogo parecia definido quando, aos 45 da etapa final, Luciano Juba ampliou de pênalti para 2 a 0. Mas em um final de tirar o fôlego, o Remo teve um pênalti a seu favor aos 48 minutos, e Vitor Bueno converteu, diminuindo o placar.",
+      "player": {
+        "name": "Fim de jogo maluco com dois pênaltis!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 95,
+        "extra": null
+      },
+      "team": {
+        "id": 364,
+        "name": "Remo"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "player": {
+        "name": "Vitor Bueno"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 96,
+        "extra": null
+      },
+      "team": {
+        "id": 265,
+        "name": "Bahia"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Everaldo"
+      },
+      "assist": {
+        "name": "Alejo Véliz"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 96,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Bahia dominou a partida e abriu o placar no primeiro tempo com Jean Lucas. A equipe da casa seguiu pressionando, carimbou a trave e teve até um gol de Kanu anulado. Mas o final de jogo, já nos acréscimos, foi eletrizante! Luciano Juba ampliou para 2 a 0 em cobrança de pênalti. Logo depois, Vitor Bueno também converteu uma penalidade e diminuiu para o Remo, deixando o placar em 2 a 1.",
+      "player": {
+        "name": "Gols de pênalti incendeiam o fim de jogo!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 96,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O árbitro assinala mais um minuto.",
+      "player": {
+        "name": "+1"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 97,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Fim de papo na Fonte Nova! Obrigada por acompanhar nossa transmissão e fique agora com o pós-jogo. Vale!",
+      "player": {
+        "name": "Fim de papo na Fonte Nova! Obrigada por acompanh"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 97,
+        "extra": null
+      },
+      "team": {
+        "id": 265,
+        "name": "Bahia"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Cristian Olivera"
+      },
+      "assist": null
     }
   ],
   "lineups": [
@@ -2216,7 +2330,7 @@
         },
         {
           "type": "Yellow Cards",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Red Cards",
@@ -2248,11 +2362,11 @@
         },
         {
           "type": "Total Shots",
-          "value": 5
+          "value": 6
         },
         {
           "type": "Shots on Goal",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Shots off Goal",

@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 55
+      "elapsed": 58
     },
     "timerStart": "2026-09-15T00:08:04.513Z",
     "timerStatus": "INICIADO"
@@ -969,6 +969,54 @@
       "assist": {
         "name": "Jajá"
       }
+    },
+    {
+      "time": {
+        "elapsed": 52,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O placar foi aberto aos 19 minutos em falha da defesa do Remo, que Jean Lucas não perdoou: 1 a 0 Bahia. Desde então, o goleiro Marcelo Rangel se tornou o destaque do Leão, com defesas difíceis em cobrança de falta de Juba e chutes de Nestor e Cristian Olivera. O time da casa ainda acertou a trave com Erick Pulga e segue pressionando no começo do segundo tempo, diante de um Remo já com quatro trocas.",
+      "player": {
+        "name": "Bahia na frente e Rangel vira herói!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 52,
+        "extra": null
+      },
+      "team": {
+        "id": 265,
+        "name": "Bahia"
+      },
+      "type": "Important",
+      "detail": "Cristian Oliveira, no meio de dois, chuta para o gol e Rangel espalma para fora.",
+      "player": {
+        "name": "Cristian Olivera"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 53,
+        "extra": null
+      },
+      "team": {
+        "id": 265,
+        "name": "Bahia"
+      },
+      "type": "Important",
+      "detail": "Véliz divide com a defesa do Leão e acaba mandando para fora.",
+      "player": {
+        "name": "Alejo Véliz"
+      },
+      "assist": null
     }
   ],
   "lineups": [
@@ -1426,11 +1474,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "64%"
+          "value": "63%"
         },
         {
           "type": "Total Passes",
-          "value": 393
+          "value": 406
         },
         {
           "type": "Pass Accuracy",
@@ -1438,19 +1486,19 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 43
+          "value": 46
         },
         {
           "type": "Total Shots",
-          "value": 10
+          "value": 12
         },
         {
           "type": "Shots on Goal",
-          "value": 5
+          "value": 6
         },
         {
           "type": "Shots off Goal",
-          "value": 3
+          "value": 4
         },
         {
           "type": "Blocked Shots",
@@ -1462,7 +1510,7 @@
         },
         {
           "type": "Corner Kicks",
-          "value": 3
+          "value": 4
         },
         {
           "type": "Offsides",
@@ -1478,7 +1526,7 @@
         },
         {
           "type": "Tackles",
-          "value": 6
+          "value": 7
         },
         {
           "type": "Fouls",
@@ -1502,23 +1550,23 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "36%"
+          "value": "37%"
         },
         {
           "type": "Total Passes",
-          "value": 205
+          "value": 226
         },
         {
           "type": "Pass Accuracy",
-          "value": "80%"
+          "value": "81%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 40
+          "value": 44
         },
         {
           "type": "Total Shots",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Shots on Goal",
@@ -1526,7 +1574,7 @@
         },
         {
           "type": "Shots off Goal",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Blocked Shots",
@@ -1550,7 +1598,7 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 4
+          "value": 5
         },
         {
           "type": "Tackles",

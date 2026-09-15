@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 67
+      "elapsed": 70
     },
     "timerStart": "2026-09-15T00:08:04.513Z",
     "timerStatus": "INICIADO"
@@ -1193,6 +1193,38 @@
         "name": "Véliz rouba a bola no meio de campo e avança par"
       },
       "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 67,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Bahia abriu o placar com Jean Lucas no primeiro tempo, após falha da defesa do Remo, e vai vencendo por 1 a 0. O time da casa domina a partida, criando volume e empilhando chances, com direito a bola na trave de Erick Pulga. O destaque do jogo, no entanto, é o goleiro Marcelo Rangel, que com defesas espetaculares impede um placar mais elástico e mantém o Remo vivo no duelo na Fonte Nova.",
+      "player": {
+        "name": "Bahia na frente, Rangel brilha pelo Remo"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 67,
+        "extra": null
+      },
+      "team": {
+        "id": 265,
+        "name": "Bahia"
+      },
+      "type": "Important",
+      "detail": "Alef Manga recebe e acaba deixando a bola ir mais para frente e perde a posse de bola para defesa do Bahia.",
+      "player": {
+        "name": "Alef Manga"
+      },
+      "assist": null
     }
   ],
   "lineups": [
@@ -1650,11 +1682,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "62%"
+          "value": "61%"
         },
         {
           "type": "Total Passes",
-          "value": 439
+          "value": 451
         },
         {
           "type": "Pass Accuracy",
@@ -1662,15 +1694,15 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 48
+          "value": 50
         },
         {
           "type": "Total Shots",
-          "value": 12
+          "value": 13
         },
         {
           "type": "Shots on Goal",
-          "value": 6
+          "value": 7
         },
         {
           "type": "Shots off Goal",
@@ -1686,7 +1718,7 @@
         },
         {
           "type": "Corner Kicks",
-          "value": 4
+          "value": 5
         },
         {
           "type": "Offsides",
@@ -1698,15 +1730,15 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Tackles",
-          "value": 8
+          "value": 9
         },
         {
           "type": "Fouls",
-          "value": 11
+          "value": 12
         },
         {
           "type": "Yellow Cards",
@@ -1726,11 +1758,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "38%"
+          "value": "39%"
         },
         {
           "type": "Total Passes",
-          "value": 246
+          "value": 265
         },
         {
           "type": "Pass Accuracy",
@@ -1738,7 +1770,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 46
+          "value": 50
         },
         {
           "type": "Total Shots",
@@ -1774,15 +1806,15 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 5
+          "value": 7
         },
         {
           "type": "Tackles",
-          "value": 9
+          "value": 10
         },
         {
           "type": "Fouls",
-          "value": 6
+          "value": 8
         },
         {
           "type": "Yellow Cards",

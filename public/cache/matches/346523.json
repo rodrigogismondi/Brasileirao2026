@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 73
+      "elapsed": 76
     },
     "timerStart": "2026-09-15T00:08:04.513Z",
     "timerStatus": "INICIADO"
@@ -1248,6 +1248,22 @@
         "extra": null
       },
       "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Com 25 minutos da segunda etapa, o Bahia segue dominando e vencendo por 1 a 0, gol de Jean Lucas. A pressão é intensa e o time da casa chegou a ampliar com Kanu, mas o lance foi invalidado por impedimento. O Remo se defende como pode e conta com grande atuação do goleiro Marcelo Rangel, que já fez milagres e evitou um placar mais elástico, enquanto o Bahia segue buscando o segundo gol.",
+      "player": {
+        "name": "Bahia pressiona e tem gol anulado no 2º tempo"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 70,
+        "extra": null
+      },
+      "team": {
         "id": 265,
         "name": "Bahia"
       },
@@ -1255,6 +1271,72 @@
       "detail": "Em cobrança de falta, o Bahia manda a bola para área e Kanu até manda para o fundo da rede, mas a arbitragem assinalou impedimento.",
       "player": {
         "name": "Goooooo... não ta valendo nada!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 71,
+        "extra": null
+      },
+      "team": {
+        "id": 265,
+        "name": "Bahia"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Román Gómez"
+      },
+      "assist": {
+        "name": "Marcos Victor"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 72,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Bahia abriu o placar com Jean Lucas aos 19 do primeiro tempo, aproveitando falha da defesa do Remo. Desde então, o time da casa domina a partida e cria chances em sequência. Erick Pulga carimbou a trave, e o goleiro Marcelo Rangel se tornou o destaque, com defesas cruciais. Na segunda etapa, o roteiro se repete: o Bahia teve um gol de Kanu anulado e segue pressionando após os 25 minutos.",
+      "player": {
+        "name": "Bahia abre o placar e segue no ataque!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 72,
+        "extra": null
+      },
+      "team": {
+        "id": 364,
+        "name": "Remo"
+      },
+      "type": "Important",
+      "detail": "Zé Welison cruza para Vitor Bueno, que chuta forte para o gol, mas a bola vai para fora.",
+      "player": {
+        "name": "Vitor Bueno"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 74,
+        "extra": null
+      },
+      "team": {
+        "id": 265,
+        "name": "Bahia"
+      },
+      "type": "Important",
+      "detail": "Bahia troca passes no meio de campo e busca espaço para entrar na área azulina.",
+      "player": {
+        "name": "Bahia troca passes no meio de campo e busca espa"
       },
       "assist": null
     }

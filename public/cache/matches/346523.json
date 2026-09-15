@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 61
+      "elapsed": 64
     },
     "timerStart": "2026-09-15T00:08:04.513Z",
     "timerStatus": "INICIADO"
@@ -1097,6 +1097,38 @@
         "name": "Em cobrança de escanteio, Vitor Bueno manda para"
       },
       "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 60,
+        "extra": null
+      },
+      "team": {
+        "id": 265,
+        "name": "Bahia"
+      },
+      "type": "Important",
+      "detail": "Zé Welison chega por trás na divida com adversário e acaba dando uma falta para o Bahia.",
+      "player": {
+        "name": "Zé Welison chega por trás na divida com adversár"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 61,
+        "extra": null
+      },
+      "team": {
+        "id": 364,
+        "name": "Remo"
+      },
+      "type": "Important",
+      "detail": "Remo tenta entrar na área, mas a defesa do tricolor rouba a bola para avançar rumo a área azulina.",
+      "player": {
+        "name": "Remo tenta entrar na área, mas a defesa do trico"
+      },
+      "assist": null
     }
   ],
   "lineups": [
@@ -1558,7 +1590,7 @@
         },
         {
           "type": "Total Passes",
-          "value": 420
+          "value": 439
         },
         {
           "type": "Pass Accuracy",
@@ -1566,7 +1598,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 47
+          "value": 48
         },
         {
           "type": "Total Shots",
@@ -1606,11 +1638,11 @@
         },
         {
           "type": "Tackles",
-          "value": 7
+          "value": 8
         },
         {
           "type": "Fouls",
-          "value": 10
+          "value": 11
         },
         {
           "type": "Yellow Cards",
@@ -1634,7 +1666,7 @@
         },
         {
           "type": "Total Passes",
-          "value": 228
+          "value": 246
         },
         {
           "type": "Pass Accuracy",
@@ -1642,7 +1674,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 44
+          "value": 46
         },
         {
           "type": "Total Shots",
@@ -1666,7 +1698,7 @@
         },
         {
           "type": "Corner Kicks",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Offsides",
@@ -1682,11 +1714,11 @@
         },
         {
           "type": "Tackles",
-          "value": 7
+          "value": 9
         },
         {
           "type": "Fouls",
-          "value": 5
+          "value": 6
         },
         {
           "type": "Yellow Cards",

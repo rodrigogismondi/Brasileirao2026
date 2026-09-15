@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 91
+      "elapsed": 94
     },
     "timerStart": "2026-09-15T00:08:04.513Z",
     "timerStatus": "INICIADO"
@@ -30,7 +30,7 @@
     }
   },
   "goals": {
-    "home": 1,
+    "home": 2,
     "away": 0
   },
   "score": {
@@ -1571,6 +1571,102 @@
         "name": "Marlon"
       },
       "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 88,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Bahia vai vencendo por 1 a 0, gol de Jean Lucas ainda no primeiro tempo após falha da defesa do Remo. O time da casa domina a partida, teve um gol de Kanu anulado por impedimento e carimbou a trave com Erick Pulga. O Remo buscou a reação na etapa final, mas esbarrou no goleiro Ronaldo. Aos 43 minutos do segundo tempo, Véliz foi derrubado na área e o juiz marcou pênalti para o Bahia.",
+      "player": {
+        "name": "Pênalti para o Bahia no final do jogo!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 88,
+        "extra": null
+      },
+      "team": {
+        "id": 265,
+        "name": "Bahia"
+      },
+      "type": "Important",
+      "detail": "Após falta de Matheus Felipe contra Alejo Véliz e o juíz assinala penalidade para o Bahia.",
+      "player": {
+        "name": "Penâlti para o Bahia!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 89,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Bahia abriu o placar aos 19 minutos com Jean Lucas, aproveitando falha da zaga do Remo. A equipe baiana pressionou bastante, carimbou a trave com Erick Pulga e só não ampliou o placar graças às grandes defesas do goleiro Marcelo Rangel. Já na reta final do segundo tempo, aos 43 minutos, Alejo Véliz sofreu falta de Matheus Felipe dentro da área e a arbitragem marcou pênalti para o Bahia.",
+      "player": {
+        "name": "Bahia abre o placar e tem pênalti no fim!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 89,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Vamos até 51 neste segundo tempo.",
+      "player": {
+        "name": "+6"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 90,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Com o jogo se aproximando do fim, o Bahia ampliou a vantagem para 2 a 0. Luciano Juba converteu um pênalti sofrido por Véliz aos 45 do segundo tempo, selando o placar. O time da casa já vencia desde a primeira etapa, quando Jean Lucas abriu o placar após falha da zaga. O Remo contou com grandes defesas do goleiro Marcelo Rangel, mas não foi o suficiente para segurar a pressão baiana.",
+      "player": {
+        "name": "Bahia amplia no fim com gol de pênalti!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 90,
+        "extra": null
+      },
+      "team": {
+        "id": 265,
+        "name": "Bahia"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "player": {
+        "name": "Luciano Juba"
+      },
+      "assist": null
     }
   ],
   "lineups": [
@@ -2044,11 +2140,11 @@
         },
         {
           "type": "Total Shots",
-          "value": 14
+          "value": 15
         },
         {
           "type": "Shots on Goal",
-          "value": 8
+          "value": 9
         },
         {
           "type": "Shots off Goal",

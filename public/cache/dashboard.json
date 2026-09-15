@@ -13411,7 +13411,7 @@
         "status": {
           "long": "2H",
           "short": "2H",
-          "elapsed": 91
+          "elapsed": 94
         },
         "timerStart": "2026-09-15T00:08:04.513Z",
         "timerStatus": "INICIADO"
@@ -13432,7 +13432,7 @@
         }
       },
       "goals": {
-        "home": 1,
+        "home": 2,
         "away": 0
       },
       "score": {
@@ -19177,6 +19177,28 @@
     {
       "player": {
         "id": 6,
+        "name": "Luciano Juba",
+        "photo": "https://s.sde.globo.com/media/person_role/2026/07/06/photo_140x140_JKUCf8p.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "name": "Bahia",
+            "logo": "https://s.sde.globo.com/media/organizations/2014/04/14/bahia_60x60.png"
+          },
+          "goals": {
+            "total": 9,
+            "assists": null
+          },
+          "games": {
+            "appearences": 0
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 7,
         "name": "Samuel Lino",
         "photo": "https://s.sde.globo.com/media/person_role/2025/07/30/photo_140x140.png"
       },
@@ -19198,7 +19220,7 @@
     },
     {
       "player": {
-        "id": 7,
+        "id": 8,
         "name": "Flaco López",
         "photo": "https://s.sde.globo.com/media/person_role/2026/08/19/photo_140x140_nrOfcKo.png"
       },
@@ -19220,7 +19242,7 @@
     },
     {
       "player": {
-        "id": 8,
+        "id": 9,
         "name": "Luciano",
         "photo": "https://s.sde.globo.com/media/person_role/2026/03/27/photo_140x140_Gvi1KDn.png"
       },
@@ -19242,7 +19264,7 @@
     },
     {
       "player": {
-        "id": 9,
+        "id": 10,
         "name": "Breno Lopes",
         "photo": "https://s.sde.globo.com/media/person_role/2026/02/09/photo_140x140_q6kEOrG.png"
       },
@@ -19264,7 +19286,7 @@
     },
     {
       "player": {
-        "id": 10,
+        "id": 11,
         "name": "Matheus Pereira",
         "photo": "https://s.sde.globo.com/media/person_role/2025/04/01/photo_140x140_paqfi1w.png"
       },
@@ -19286,7 +19308,7 @@
     },
     {
       "player": {
-        "id": 11,
+        "id": 12,
         "name": "Pedro Rocha",
         "photo": "https://s.sde.globo.com/media/person_role/2025/02/26/photo_140x140_OEA2Hhd.png"
       },
@@ -19295,28 +19317,6 @@
           "team": {
             "name": "Coritiba",
             "logo": "https://s.sde.globo.com/media/organizations/2017/03/29/coritiba65.png"
-          },
-          "goals": {
-            "total": 8,
-            "assists": null
-          },
-          "games": {
-            "appearences": 0
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 12,
-        "name": "Luciano Juba",
-        "photo": "https://s.sde.globo.com/media/person_role/2026/07/06/photo_140x140_JKUCf8p.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "name": "Bahia",
-            "logo": "https://s.sde.globo.com/media/organizations/2014/04/14/bahia_60x60.png"
           },
           "goals": {
             "total": 8,
@@ -20172,7 +20172,7 @@
     "mode": "live",
     "liveIntervalMs": 20000
   },
-  "fetchedAt": "2026-09-15T00:54:16.904Z",
+  "fetchedAt": "2026-09-15T00:57:23.436Z",
   "source": "ge-globo",
   "meta": {
     "rodada": 27,

@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 13
+      "elapsed": 17
     },
     "timerStart": "2026-09-16T22:31:40.916Z",
     "timerStatus": "INICIADO"
@@ -206,9 +206,9 @@
         "name": ""
       },
       "type": "Important",
-      "detail": "Carlos Vinícios é lançado em profundidade, mas Arthur Chaves corta",
+      "detail": "Carlos Vinícius é lançado em profundidade, mas Arthur Chaves corta",
       "player": {
-        "name": "Carlos Vinícios é lançado em profundidade, mas A"
+        "name": "Carlos Vinícius é lançado em profundidade, mas A"
       },
       "assist": null
     },
@@ -259,6 +259,38 @@
       "detail": "Grêmio engata contra-ataque. Caio Paulista carrega com espaço adiante e lança para Carlos Vinícius. Mas passe sai forte demais e o atacante não alcança",
       "player": {
         "name": "Caio Paulista"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 13,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O jogo começou com o Botafogo criando a primeira chance clara logo no minuto inicial, em chute de Montoro que obrigou Weverton a trabalhar. O Grêmio, que sofreu uma baixa de última hora com a saída de Kannemann, tenta equilibrar as ações e aposta na velocidade para acionar Carlos Vinícius na frente, mas a defesa alvinegra, com bons cortes de Arthur Chaves, tem levado a melhor até aqui.",
+      "player": {
+        "name": "Início movimentado e mudança no Grêmio"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 13,
+        "extra": null
+      },
+      "team": {
+        "id": 284,
+        "name": "Grêmio"
+      },
+      "type": "Important",
+      "detail": "Grêmio trabalha a bola na defesa sem pressa",
+      "player": {
+        "name": "Grêmio trabalha a bola na defesa sem pressa"
       },
       "assist": null
     }
@@ -718,27 +750,27 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "53%"
+          "value": "45%"
         },
         {
           "type": "Total Passes",
-          "value": 97
+          "value": 104
         },
         {
           "type": "Pass Accuracy",
-          "value": "85%"
+          "value": "82%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 15
+          "value": 19
         },
         {
           "type": "Total Shots",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Shots on Goal",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Shots off Goal",
@@ -770,7 +802,7 @@
         },
         {
           "type": "Tackles",
-          "value": 1
+          "value": 3
         },
         {
           "type": "Fouls",
@@ -794,23 +826,23 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "47%"
+          "value": "55%"
         },
         {
           "type": "Total Passes",
-          "value": 56
+          "value": 118
         },
         {
           "type": "Pass Accuracy",
-          "value": "84%"
+          "value": "87%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 9
+          "value": 15
         },
         {
           "type": "Total Shots",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Shots on Goal",
@@ -818,7 +850,7 @@
         },
         {
           "type": "Shots off Goal",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Blocked Shots",
@@ -842,7 +874,7 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Tackles",

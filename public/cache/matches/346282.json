@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 38
+      "elapsed": 40
     },
     "timerStart": "2026-09-16T22:31:40.916Z",
     "timerStatus": "INICIADO"
@@ -626,9 +626,9 @@
         "name": ""
       },
       "type": "Important",
-      "detail": "O Botafogo começou melhor e abriu o placar aos 28 minutos com um golaço de Danilo, que iniciou a jogada com uma caneta e concluiu após bela troca de passes. Mas a vantagem durou pouco. Aos 35, o Grêmio buscou o empate em 1 a 1 em cobrança de falta de Jovane Cabral, que desviou em Junior Santos e enganou o goleiro. Jogo movimentado e com dois gols em sequência no primeiro tempo.",
+      "detail": "Que primeiro tempo! O Botafogo saiu na frente aos 28 minutos com um gol espetacular de Danilo. O volante aplicou uma caneta no meio-campo, tabelou com os companheiros e bateu colocado para fazer 1 a 0. Mas a vantagem durou pouco. Aos 35, o Grêmio empatou em cobrança de falta de Jovane Cabral. A bola desviou em Junior Santos no meio do caminho e acertou o ângulo, deixando tudo igual.",
       "player": {
-        "name": "Golaço e desvio: tudo igual no placar!"
+        "name": "Golaço e empate de falta: 1 a 1 no placar!"
       },
       "assist": null
     },
@@ -642,9 +642,9 @@
         "name": ""
       },
       "type": "Important",
-      "detail": "O jogo esquentou de vez! O Botafogo abriu o placar aos 28 minutos com uma pintura de Danilo, que iniciou a jogada com caneta em Villasanti e concluiu após bela tabela para fazer 1 a 0. Mas o Grêmio, que já havia perdido uma chance clara, não demorou a reagir. Aos 35, Jovane Cabral aproveitou sua oportunidade e deixou tudo igual em 1 a 1, incendiando o final do primeiro tempo.",
+      "detail": "O Botafogo começou melhor e abriu o placar aos 28 minutos com um golaço de Danilo, que iniciou a jogada com uma caneta e concluiu após bela troca de passes. Mas a vantagem durou pouco. Aos 35, o Grêmio buscou o empate em 1 a 1 em cobrança de falta de Jovane Cabral, que desviou em Junior Santos e enganou o goleiro. Jogo movimentado e com dois gols em sequência no primeiro tempo.",
       "player": {
-        "name": "Tudo igual com golaços de cada lado!"
+        "name": "Golaço e desvio: tudo igual no placar!"
       },
       "assist": null
     },
@@ -702,6 +702,22 @@
         "extra": null
       },
       "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Krovinovic tenta corta-luz para Carlos Vinícius, mas o atacante está em impedimento e não participa da jogada",
+      "player": {
+        "name": "Krovinovic tenta corta-luz para Carlos Vinícius,"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 37,
+        "extra": null
+      },
+      "team": {
         "id": 284,
         "name": "Grêmio"
       },
@@ -713,6 +729,54 @@
       "assist": {
         "name": "Debutou"
       }
+    },
+    {
+      "time": {
+        "elapsed": 38,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O jogo esquentou! Após um começo de mais posse do Botafogo, Danilo abriu o placar aos 28 minutos com um golaço, concluindo jogada que ele mesmo iniciou. A vantagem, porém, durou pouco. Aos 35, Jovane Cabral cobrou falta, a bola desviou em Junior Santos e empatou para o Grêmio, deixando tudo igual em 1 a 1 nesta reta final do primeiro tempo em uma partida bastante movimentada.",
+      "player": {
+        "name": "Gols relâmpago e tudo igual!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 38,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Montoro aplica drible de corpo em Noriega, que interrompe a jogada com uma rasteira no meia alvinegro",
+      "player": {
+        "name": "Montoro aplica drible de corpo em Noriega, que i"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 39,
+        "extra": null
+      },
+      "team": {
+        "id": 263,
+        "name": "Botafogo"
+      },
+      "type": "Important",
+      "detail": "Noriega avança pelo lado direito e lança para a área do Botafogo, mas Gabriel Batista salta e intercepta",
+      "player": {
+        "name": "Que perigo"
+      },
+      "assist": null
     }
   ],
   "lineups": [
@@ -1170,11 +1234,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "40%"
+          "value": "39%"
         },
         {
           "type": "Total Passes",
-          "value": 185
+          "value": 189
         },
         {
           "type": "Pass Accuracy",
@@ -1182,7 +1246,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 33
+          "value": 34
         },
         {
           "type": "Total Shots",
@@ -1246,11 +1310,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "60%"
+          "value": "61%"
         },
         {
           "type": "Total Passes",
-          "value": 263
+          "value": 267
         },
         {
           "type": "Pass Accuracy",
@@ -1258,15 +1322,15 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 31
+          "value": 32
         },
         {
           "type": "Total Shots",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Shots on Goal",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Shots off Goal",

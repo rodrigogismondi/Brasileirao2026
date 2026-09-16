@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 44
+      "elapsed": 48
     },
     "timerStart": "2026-09-16T22:31:40.916Z",
     "timerStatus": "INICIADO"
@@ -777,6 +777,108 @@
         "name": "Que perigo"
       },
       "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 40,
+        "extra": null
+      },
+      "team": {
+        "id": 284,
+        "name": "Grêmio"
+      },
+      "type": "Important",
+      "detail": "Junior Santos recebe na entrada da área do Grêmio sem marcação e bate cruzado de rasteira, mas Weverton defende com tranquilidade",
+      "player": {
+        "name": "Júnior Santos"
+      },
+      "assist": {
+        "name": "Lá e cá!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 43,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O jogo esquentou na reta final do primeiro tempo! Aos 28 minutos, Danilo abriu o placar para o Botafogo com um golaço, finalizando uma bela jogada coletiva. A resposta do Grêmio veio logo depois, aos 35. Jovane Cabral cobrou falta, a bola desviou em Junior Santos e entrou, empatando a partida em 1 a 1. O duelo segue movimentado e com os dois times buscando o ataque antes do intervalo.",
+      "player": {
+        "name": "Golaço, desvio e tudo igual!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 43,
+        "extra": null
+      },
+      "team": {
+        "id": 263,
+        "name": "Botafogo"
+      },
+      "type": "Important",
+      "detail": "Junior Santos recebe em boa posição na entrada da área, vê Vitinho passar livre, mas não passa. Na sequência, tenta mais um drible e chuta forte. A bola desvia na marcação e vai para fora",
+      "player": {
+        "name": "Júnior Santos"
+      },
+      "assist": {
+        "name": "Para fora!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 45,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Monzón dá uma de ala, avança em velocidade pela esquerda, e é desarmado por Caito",
+      "player": {
+        "name": "Monzón dá uma de ala, avança em velocidade pela "
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 45,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Jovane aplica bonito drible em Vitinho, que para a jogada com falta no meio",
+      "player": {
+        "name": "Jovane aplica bonito drible em Vitinho, que para"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 46,
+        "extra": null
+      },
+      "team": {
+        "id": 263,
+        "name": "Botafogo"
+      },
+      "type": "Important",
+      "detail": "Vitinho busca tabela com Montoro e corre para a área. O argentino faz um lançamento perfeito, como se fosse com a mão, e deixa o lateral de frente para o gol. Mas Vitinho pega muito mal e manda para fora. Chance clara desperdiçada",
+      "player": {
+        "name": "Vitinho"
+      },
+      "assist": {
+        "name": "Na medida"
+      }
     }
   ],
   "lineups": [
@@ -1234,31 +1336,31 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "39%"
+          "value": "37%"
         },
         {
           "type": "Total Passes",
-          "value": 204
+          "value": 213
         },
         {
           "type": "Pass Accuracy",
-          "value": "81%"
+          "value": "80%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 38
+          "value": 42
         },
         {
           "type": "Total Shots",
-          "value": 3
+          "value": 5
         },
         {
           "type": "Shots on Goal",
-          "value": 3
+          "value": 4
         },
         {
           "type": "Shots off Goal",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Blocked Shots",
@@ -1270,7 +1372,7 @@
         },
         {
           "type": "Corner Kicks",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Offsides",
@@ -1290,7 +1392,7 @@
         },
         {
           "type": "Fouls",
-          "value": 3
+          "value": 4
         },
         {
           "type": "Yellow Cards",
@@ -1310,11 +1412,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "61%"
+          "value": "63%"
         },
         {
           "type": "Total Passes",
-          "value": 289
+          "value": 333
         },
         {
           "type": "Pass Accuracy",
@@ -1322,7 +1424,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 36
+          "value": 40
         },
         {
           "type": "Total Shots",
@@ -1358,11 +1460,11 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 2
+          "value": 4
         },
         {
           "type": "Tackles",
-          "value": 3
+          "value": 4
         },
         {
           "type": "Fouls",

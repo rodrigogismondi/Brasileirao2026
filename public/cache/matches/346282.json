@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 10
+      "elapsed": 13
     },
     "timerStart": "2026-09-16T22:31:40.916Z",
     "timerStatus": "INICIADO"
@@ -209,6 +209,56 @@
       "detail": "Carlos Vinícios é lançado em profundidade, mas Arthur Chaves corta",
       "player": {
         "name": "Carlos Vinícios é lançado em profundidade, mas A"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 10,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Botafogo começou impondo o ritmo nos primeiros 10 minutos. Logo no início, Montoro arriscou um chute forte e parou em boa defesa de Weverton. O time da casa seguiu pressionando com Danilo. O Grêmio, que teve o desfalque de última hora do zagueiro Kannemann, substituído por Gustavo Martins, tentou responder em um cruzamento de Caito, mas a zaga botafoguense afastou o perigo.",
+      "player": {
+        "name": "Pressão inicial e baixa de peso no Grêmio"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 10,
+        "extra": null
+      },
+      "team": {
+        "id": 263,
+        "name": "Botafogo"
+      },
+      "type": "Important",
+      "detail": "Danilo carrega pela intermediária e arrisca chute de longe. A bola chega sem força a Weverton, que defende com tranquilidade",
+      "player": {
+        "name": "Danilo"
+      },
+      "assist": {
+        "name": "Daí?"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 11,
+        "extra": null
+      },
+      "team": {
+        "id": 284,
+        "name": "Grêmio"
+      },
+      "type": "Important",
+      "detail": "Grêmio engata contra-ataque. Caio Paulista carrega com espaço adiante e lança para Carlos Vinícius. Mas passe sai forte demais e o atacante não alcança",
+      "player": {
+        "name": "Caio Paulista"
       },
       "assist": null
     }
@@ -476,9 +526,9 @@
         },
         {
           "player": {
-            "id": "kannemann",
-            "name": "Kannemann",
-            "number": 4,
+            "id": "gustavomartins",
+            "name": "Gustavo Martins",
+            "number": 6,
             "pos": "Def",
             "grid": null
           }
@@ -586,18 +636,18 @@
         },
         {
           "player": {
-            "id": "gustavomartins",
-            "name": "Gustavo Martins",
-            "number": 6,
+            "id": "wagner-leonardo",
+            "name": "Wagner Leonardo",
+            "number": 3,
             "pos": "Def",
             "grid": null
           }
         },
         {
           "player": {
-            "id": "wagner-leonardo",
-            "name": "Wagner Leonardo",
-            "number": 3,
+            "id": "kannemann",
+            "name": "Kannemann",
+            "number": 4,
             "pos": "Def",
             "grid": null
           }
@@ -668,19 +718,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "56%"
+          "value": "53%"
         },
         {
           "type": "Total Passes",
-          "value": 61
+          "value": 97
         },
         {
           "type": "Pass Accuracy",
-          "value": "84%"
+          "value": "85%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 10
+          "value": 15
         },
         {
           "type": "Total Shots",
@@ -744,11 +794,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "44%"
+          "value": "47%"
         },
         {
           "type": "Total Passes",
-          "value": 32
+          "value": 56
         },
         {
           "type": "Pass Accuracy",
@@ -756,7 +806,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 5
+          "value": 9
         },
         {
           "type": "Total Shots",
@@ -784,7 +834,7 @@
         },
         {
           "type": "Offsides",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Penalties",

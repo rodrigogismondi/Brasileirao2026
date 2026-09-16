@@ -2,56 +2,6 @@
   "fixtures": [
     {
       "fixture": {
-        "id": 346283,
-        "timestamp": 1769040283,
-        "venue": {
-          "name": "",
-          "city": ""
-        },
-        "status": {
-          "long": "NS",
-          "short": "NS",
-          "elapsed": null
-        }
-      },
-      "league": {
-        "round": "Regular Season - 21"
-      },
-      "teams": {
-        "home": {
-          "id": 276,
-          "name": "São Paulo",
-          "logo": "https://s.sde.globo.com/media/organizations/2018/03/11/sao-paulo.svg"
-        },
-        "away": {
-          "id": 277,
-          "name": "Santos",
-          "logo": "https://s.sde.globo.com/media/organizations/2018/03/12/santos.svg"
-        }
-      },
-      "goals": {
-        "home": null,
-        "away": null
-      },
-      "score": {
-        "halftime": {
-          "home": null,
-          "away": null
-        },
-        "fulltime": {
-          "home": null,
-          "away": null
-        }
-      },
-      "odds": {
-        "home": 2.35,
-        "draw": 3.18,
-        "away": 3.13,
-        "source": "betexplorer"
-      }
-    },
-    {
-      "fixture": {
         "id": 346286,
         "timestamp": 1769040286,
         "venue": {
@@ -14016,6 +13966,56 @@
     },
     {
       "fixture": {
+        "id": 346283,
+        "timestamp": 1790982000,
+        "venue": {
+          "name": "Morumbis",
+          "city": ""
+        },
+        "status": {
+          "long": "NS",
+          "short": "NS",
+          "elapsed": null
+        }
+      },
+      "league": {
+        "round": "Regular Season - 21"
+      },
+      "teams": {
+        "home": {
+          "id": 276,
+          "name": "São Paulo",
+          "logo": "https://s.sde.globo.com/media/organizations/2018/03/11/sao-paulo.svg"
+        },
+        "away": {
+          "id": 277,
+          "name": "Santos",
+          "logo": "https://s.sde.globo.com/media/organizations/2018/03/12/santos.svg"
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {
+        "halftime": {
+          "home": null,
+          "away": null
+        },
+        "fulltime": {
+          "home": null,
+          "away": null
+        }
+      },
+      "odds": {
+        "home": 2.35,
+        "draw": 3.18,
+        "away": 3.13,
+        "source": "betexplorer"
+      }
+    },
+    {
+      "fixture": {
         "id": 346579,
         "timestamp": 1791412200,
         "venue": {
@@ -20184,7 +20184,7 @@
     "mode": "prematch",
     "liveIntervalMs": 120000
   },
-  "fetchedAt": "2026-09-16T17:51:23.098Z",
+  "fetchedAt": "2026-09-16T17:54:18.484Z",
   "source": "ge-globo",
   "meta": {
     "rodada": 21,

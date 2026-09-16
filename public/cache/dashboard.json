@@ -13411,10 +13411,10 @@
         "status": {
           "long": "1H",
           "short": "1H",
-          "elapsed": null
+          "elapsed": 4
         },
-        "timerStart": "2026-09-16T21:30:50.361Z",
-        "timerStatus": "PAUSADO"
+        "timerStart": "2026-09-16T22:31:40.916Z",
+        "timerStatus": "INICIADO"
       },
       "league": {
         "round": "Regular Season - 21"
@@ -18885,6 +18885,28 @@
             {
               "rank": 13,
               "team": {
+                "id": 263,
+                "name": "Botafogo",
+                "logo": "https://s.sde.globo.com/media/organizations/2019/02/04/botafogo-svg.svg"
+              },
+              "points": 33,
+              "goalsDiff": -3,
+              "form": "LLLDD",
+              "description": null,
+              "all": {
+                "played": 27,
+                "win": 8,
+                "draw": 9,
+                "lose": 10,
+                "goals": {
+                  "for": 38,
+                  "against": 41
+                }
+              }
+            },
+            {
+              "rank": 14,
+              "team": {
                 "id": 264,
                 "name": "Corinthians",
                 "logo": "https://s.sde.globo.com/media/organizations/2024/10/09/Corinthians_2024_Q4ahot4.svg"
@@ -18905,29 +18927,29 @@
               }
             },
             {
-              "rank": 14,
+              "rank": 15,
               "team": {
-                "id": 263,
-                "name": "Botafogo",
-                "logo": "https://s.sde.globo.com/media/organizations/2019/02/04/botafogo-svg.svg"
+                "id": 284,
+                "name": "Grêmio",
+                "logo": "https://s.sde.globo.com/media/organizations/2018/03/12/gremio.svg"
               },
-              "points": 32,
-              "goalsDiff": -3,
-              "form": "LLLDD",
+              "points": 29,
+              "goalsDiff": -7,
+              "form": "LLWLL",
               "description": null,
               "all": {
-                "played": 26,
-                "win": 8,
+                "played": 27,
+                "win": 7,
                 "draw": 8,
-                "lose": 10,
+                "lose": 12,
                 "goals": {
-                  "for": 38,
-                  "against": 41
+                  "for": 28,
+                  "against": 35
                 }
               }
             },
             {
-              "rank": 15,
+              "rank": 16,
               "team": {
                 "id": 2305,
                 "name": "Mirassol",
@@ -18945,28 +18967,6 @@
                 "goals": {
                   "for": 31,
                   "against": 42
-                }
-              }
-            },
-            {
-              "rank": 16,
-              "team": {
-                "id": 284,
-                "name": "Grêmio",
-                "logo": "https://s.sde.globo.com/media/organizations/2018/03/12/gremio.svg"
-              },
-              "points": 28,
-              "goalsDiff": -7,
-              "form": "LLWLL",
-              "description": null,
-              "all": {
-                "played": 26,
-                "win": 7,
-                "draw": 7,
-                "lose": 12,
-                "goals": {
-                  "for": 28,
-                  "against": 35
                 }
               }
             },
@@ -20172,7 +20172,7 @@
     "mode": "live",
     "liveIntervalMs": 20000
   },
-  "fetchedAt": "2026-09-16T22:33:58.477Z",
+  "fetchedAt": "2026-09-16T22:36:39.121Z",
   "source": "ge-globo",
   "meta": {
     "rodada": 21,

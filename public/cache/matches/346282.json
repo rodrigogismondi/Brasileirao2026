@@ -9,10 +9,10 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": null
+      "elapsed": 4
     },
-    "timerStart": "2026-09-16T21:30:50.361Z",
-    "timerStatus": "PAUSADO"
+    "timerStart": "2026-09-16T22:31:40.916Z",
+    "timerStatus": "INICIADO"
   },
   "league": {
     "round": "Regular Season - 21"
@@ -49,7 +49,74 @@
     "away": 4.62,
     "source": "betexplorer"
   },
-  "events": [],
+  "events": [
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 263,
+        "name": "Botafogo"
+      },
+      "type": "Important",
+      "detail": "Montoro recebe na ponta esquerda, corta para o meio e chuta forte, mas Weverton tira de soco",
+      "player": {
+        "name": "Montoro"
+      },
+      "assist": {
+        "name": "Primeira chegada!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Bola rolando",
+      "player": {
+        "name": "Começa o jogo"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 1,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Grêmio trabalha a bola no campo de defesa, e o Botafogo sobe a marcação",
+      "player": {
+        "name": "Grêmio trabalha a bola no campo de defesa, e o B"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 2,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Huguinho tenta lançar em profundidade para Danilo, mas Villasanti intercepta",
+      "player": {
+        "name": "Huguinho tenta lançar em profundidade para Danil"
+      },
+      "assist": null
+    }
+  ],
   "lineups": [
     {
       "team": {

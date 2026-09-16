@@ -13411,7 +13411,7 @@
         "status": {
           "long": "1H",
           "short": "1H",
-          "elapsed": 28
+          "elapsed": 32
         },
         "timerStart": "2026-09-16T22:31:40.916Z",
         "timerStatus": "INICIADO"
@@ -13432,7 +13432,7 @@
         }
       },
       "goals": {
-        "home": 0,
+        "home": 1,
         "away": 0
       },
       "score": {
@@ -19265,6 +19265,28 @@
     {
       "player": {
         "id": 10,
+        "name": "Danilo",
+        "photo": "https://s.sde.globo.com/media/person_role/2026/07/06/photo_140x140_z4bUUy7.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "name": "Botafogo",
+            "logo": "https://s.sde.globo.com/media/organizations/2019/02/04/botafogo-65.png"
+          },
+          "goals": {
+            "total": 8,
+            "assists": null
+          },
+          "games": {
+            "appearences": 0
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 11,
         "name": "Breno Lopes",
         "photo": "https://s.sde.globo.com/media/person_role/2026/02/09/photo_140x140_q6kEOrG.png"
       },
@@ -19286,7 +19308,7 @@
     },
     {
       "player": {
-        "id": 11,
+        "id": 12,
         "name": "Matheus Pereira",
         "photo": "https://s.sde.globo.com/media/person_role/2025/04/01/photo_140x140_paqfi1w.png"
       },
@@ -19308,7 +19330,7 @@
     },
     {
       "player": {
-        "id": 12,
+        "id": 13,
         "name": "Pedro Rocha",
         "photo": "https://s.sde.globo.com/media/person_role/2025/02/26/photo_140x140_OEA2Hhd.png"
       },
@@ -19330,7 +19352,7 @@
     },
     {
       "player": {
-        "id": 13,
+        "id": 14,
         "name": "Renê",
         "photo": "https://s.sde.globo.com/media/person_role/2026/03/31/photo_140x140_3LaEnb6.png"
       },
@@ -19342,28 +19364,6 @@
           },
           "goals": {
             "total": 8,
-            "assists": null
-          },
-          "games": {
-            "appearences": 0
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 14,
-        "name": "Danilo",
-        "photo": "https://s.sde.globo.com/media/person_role/2026/07/06/photo_140x140_z4bUUy7.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "name": "Botafogo",
-            "logo": "https://s.sde.globo.com/media/organizations/2019/02/04/botafogo-65.png"
-          },
-          "goals": {
-            "total": 7,
             "assists": null
           },
           "games": {
@@ -20172,7 +20172,7 @@
     "mode": "live",
     "liveIntervalMs": 20000
   },
-  "fetchedAt": "2026-09-16T23:00:25.237Z",
+  "fetchedAt": "2026-09-16T23:04:06.085Z",
   "source": "ge-globo",
   "meta": {
     "rodada": 21,

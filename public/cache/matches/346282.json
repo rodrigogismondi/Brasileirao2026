@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 28
+      "elapsed": 32
     },
     "timerStart": "2026-09-16T22:31:40.916Z",
     "timerStatus": "INICIADO"
@@ -30,7 +30,7 @@
     }
   },
   "goals": {
-    "home": 0,
+    "home": 1,
     "away": 0
   },
   "score": {
@@ -469,6 +469,86 @@
       "detail": "Caio Paulista leva a melhor em dividida com Vitinho, invade a área do Botafogo, mas deixa a bola correr demais e morrer na linha de fundo",
       "player": {
         "name": "Caio Paulista leva a melhor em dividida com Viti"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 26,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "A partida começou movimentada, com Montoro testando o goleiro Weverton logo no primeiro minuto para o Botafogo. O Grêmio, que perdeu Kannemann por lesão antes do início, se recuperou do susto e criou a melhor oportunidade do jogo: aos 15, Jovane apareceu livre e finalizou com muito perigo, tirando tinta da trave. O duelo segue aberto e sem gols depois de 25 minutos de bola rolando.",
+      "player": {
+        "name": "Quase gol do Grêmio marca início de jogo"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 26,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Edenílson sofre falta no meio",
+      "player": {
+        "name": "Edenílson sofre falta no meio"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 27,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Jogo cai bastante de intensidade. Botafogo começou imprimindo um ritmo forte, mas não conseguiu manter e agora vê o Grêmio equilibrar as iniciativas.",
+      "player": {
+        "name": "Panorama"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 28,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Após um início forte do Botafogo, o Grêmio equilibrou as ações e desperdiçou a melhor chance com Jovane Cabral, que chutou para fora. O jogo perdeu ritmo, mas aos 29 minutos, uma pintura abriu o placar. Danilo deu uma caneta em Villasanti, acionou Junior Santos, que cruzou para Montoro ajeitar. O próprio Danilo bateu colocado no canto e fez 1 a 0 para o time alvinegro.",
+      "player": {
+        "name": "Golaço de Danilo abre o placar para o Bota!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 28,
+        "extra": null
+      },
+      "team": {
+        "id": 263,
+        "name": "Botafogo"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "player": {
+        "name": "Danilo"
       },
       "assist": null
     }
@@ -928,27 +1008,27 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "44%"
+          "value": "43%"
         },
         {
           "type": "Total Passes",
-          "value": 151
+          "value": 182
         },
         {
           "type": "Pass Accuracy",
-          "value": "81%"
+          "value": "83%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 29
+          "value": 31
         },
         {
           "type": "Total Shots",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Shots on Goal",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Shots off Goal",
@@ -1004,19 +1084,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "56%"
+          "value": "57%"
         },
         {
           "type": "Total Passes",
-          "value": 183
+          "value": 230
         },
         {
           "type": "Pass Accuracy",
-          "value": "88%"
+          "value": "90%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 22
+          "value": 24
         },
         {
           "type": "Total Shots",
@@ -1060,7 +1140,7 @@
         },
         {
           "type": "Fouls",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Yellow Cards",

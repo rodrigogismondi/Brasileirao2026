@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 59
+      "elapsed": 62
     },
     "timerStart": "2026-09-16T23:36:52.664Z",
     "timerStatus": "INICIADO"
@@ -1186,11 +1186,111 @@
         "name": ""
       },
       "type": "Important",
+      "detail": "O jogo segue movimentado no segundo tempo! Após uma primeira etapa com um golaço de Danilo para o Botafogo e o empate do Grêmio com Jovane Cabral em cobrança de falta desviada, o time da casa voltou a liderar. Já na etapa final, aos 6 minutos, Montoro aproveitou a sobra na área e, com uma linda trivela, mandou para o fundo da rede, deixando o placar em 2 a 1 para o Botafogo.",
+      "player": {
+        "name": "Montoro recoloca o Botafogo na frente!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 57,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
       "detail": "Cabral tenta esticada para Danilo Pereira, mas a defesa intercepta",
       "player": {
         "name": "Cabral tenta esticada para Danilo Pereira, mas a"
       },
       "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 58,
+        "extra": null
+      },
+      "team": {
+        "id": 284,
+        "name": "Grêmio"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Enamorado"
+      },
+      "assist": {
+        "name": "Jovane Cabral"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 59,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Telles faz falta em Enamorado",
+      "player": {
+        "name": "Telles faz falta em Enamorado"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 60,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O placar marca 2 a 1 para o Botafogo com 15 minutos da etapa final! O jogo é marcado por belos gols. No primeiro tempo, Danilo concluiu uma jogadaça coletiva para abrir o marcador. O Grêmio empatou com Jovane Cabral, em cobrança de falta que desviou na barreira. Mas logo no início do segundo tempo, Montoro acertou uma linda trivela de um ângulo difícil para colocar o time da casa em vantagem novamente.",
+      "player": {
+        "name": "Botafogo na frente com show de golaços!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 60,
+        "extra": null
+      },
+      "team": {
+        "id": 263,
+        "name": "Botafogo"
+      },
+      "type": "Important",
+      "detail": "Botafogo troca passes na defesa, tenta cadenciar o jogo",
+      "player": {
+        "name": "Botafogo troca passes na defesa, tenta cadenciar"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 61,
+        "extra": null
+      },
+      "team": {
+        "id": 284,
+        "name": "Grêmio"
+      },
+      "type": "Important",
+      "detail": "Krovinovic chega de primeira e Huguinho aplica um balão no camisa 10 com o bico da chuteira",
+      "player": {
+        "name": "Krovinovic"
+      },
+      "assist": {
+        "name": "Vem tranquilo"
+      }
     }
   ],
   "lineups": [
@@ -1648,19 +1748,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "37%"
+          "value": "35%"
         },
         {
           "type": "Total Passes",
-          "value": 248
+          "value": 251
         },
         {
           "type": "Pass Accuracy",
-          "value": "79%"
+          "value": "78%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 51
+          "value": 54
         },
         {
           "type": "Total Shots",
@@ -1704,7 +1804,7 @@
         },
         {
           "type": "Fouls",
-          "value": 6
+          "value": 7
         },
         {
           "type": "Yellow Cards",
@@ -1724,11 +1824,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "63%"
+          "value": "65%"
         },
         {
           "type": "Total Passes",
-          "value": 419
+          "value": 448
         },
         {
           "type": "Pass Accuracy",
@@ -1736,7 +1836,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 51
+          "value": 52
         },
         {
           "type": "Total Shots",

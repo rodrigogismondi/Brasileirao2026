@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 17
+      "elapsed": 20
     },
     "timerStart": "2026-09-16T22:31:40.916Z",
     "timerStatus": "INICIADO"
@@ -154,8 +154,8 @@
         "extra": null
       },
       "team": {
-        "id": 0,
-        "name": ""
+        "id": 284,
+        "name": "Grêmio"
       },
       "type": "Important",
       "detail": "Felipão e Renato no banco",
@@ -291,6 +291,72 @@
       "detail": "Grêmio trabalha a bola na defesa sem pressa",
       "player": {
         "name": "Grêmio trabalha a bola na defesa sem pressa"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 15,
+        "extra": null
+      },
+      "team": {
+        "id": 284,
+        "name": "Grêmio"
+      },
+      "type": "Important",
+      "detail": "Jovane aparece livre na entrada da área, recebe passe na medida, mas pega mal e chuta rasteiro, para fora. A bola sai raspando a trave! Melhor chance do jogo",
+      "player": {
+        "name": "Jovane Cabral"
+      },
+      "assist": {
+        "name": "Para fora!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 17,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O jogo começou com o Botafogo no ataque e Montoro testando o goleiro Weverton logo no primeiro minuto. O Grêmio, que teve uma mudança de última hora na zaga com a saída de Kannemann, equilibrou as ações e respondeu com a melhor oportunidade da partida até agora: aos 15 minutos, Jovane Cabral recebeu livre na entrada da área, mas pegou mal na bola e chutou para fora, com muito perigo.",
+      "player": {
+        "name": "Chance incrível perdida pelo Grêmio!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 17,
+        "extra": null
+      },
+      "team": {
+        "id": 284,
+        "name": "Grêmio"
+      },
+      "type": "Important",
+      "detail": "Edina Alves aponta toque de mão de Arthur Cabral e marca falta para o Grêmio",
+      "player": {
+        "name": "Edina Alves aponta toque de mão de Arthur Cabral"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 18,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Telles recebe um tostão de Pavón na panturrilha e fica caído com dores por alguns instantes. Mas logo se levanta e retorna ao jogo",
+      "player": {
+        "name": "Sentiu"
       },
       "assist": null
     }
@@ -750,19 +816,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "45%"
+          "value": "43%"
         },
         {
           "type": "Total Passes",
-          "value": 104
+          "value": 117
         },
         {
           "type": "Pass Accuracy",
-          "value": "82%"
+          "value": "81%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 19
+          "value": 22
         },
         {
           "type": "Total Shots",
@@ -806,7 +872,7 @@
         },
         {
           "type": "Fouls",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Yellow Cards",
@@ -826,11 +892,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "55%"
+          "value": "57%"
         },
         {
           "type": "Total Passes",
-          "value": 118
+          "value": 129
         },
         {
           "type": "Pass Accuracy",
@@ -838,7 +904,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 15
+          "value": 17
         },
         {
           "type": "Total Shots",

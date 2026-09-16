@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 32
+      "elapsed": 35
     },
     "timerStart": "2026-09-16T22:31:40.916Z",
     "timerStatus": "INICIADO"
@@ -530,7 +530,7 @@
         "name": ""
       },
       "type": "Important",
-      "detail": "Após um início forte do Botafogo, o Grêmio equilibrou as ações e desperdiçou a melhor chance com Jovane Cabral, que chutou para fora. O jogo perdeu ritmo, mas aos 29 minutos, uma pintura abriu o placar. Danilo deu uma caneta em Villasanti, acionou Junior Santos, que cruzou para Montoro ajeitar. O próprio Danilo bateu colocado no canto e fez 1 a 0 para o time alvinegro.",
+      "detail": "Após um início forte do Botafogo, o Grêmio equilibrou as ações e desperdiçou a melhor chance da partida com Jovane, que chutou para fora. Porém, aos 28 minutos, o time da casa marcou um golaço. Danilo deu uma caneta em Villasanti no meio-campo, a jogada passou por Junior Santos e Montoro, e o próprio Danilo apareceu na área para concluir com categoria, abrindo o placar em 1 a 0.",
       "player": {
         "name": "Golaço de Danilo abre o placar para o Bota!"
       },
@@ -549,6 +549,70 @@
       "detail": "Normal Goal",
       "player": {
         "name": "Danilo"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 32,
+        "extra": null
+      },
+      "team": {
+        "id": 263,
+        "name": "Botafogo"
+      },
+      "type": "Important",
+      "detail": "Caito lança na área do Botafogo buscando Carlos Vinícius, mas Chaves corta",
+      "player": {
+        "name": "Caito lança na área do Botafogo buscando Carlos "
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 32,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Após um início intenso do Botafogo, o Grêmio equilibrou as ações e desperdiçou a melhor chance com Jovane, que chutou para fora. Aos 28 minutos, porém, saiu um golaço! Danilo aplicou uma caneta em Villasanti, iniciou a jogada e apareceu na área para concluir a bela trama, fazendo 1 a 0 para o Botafogo. Com mais de 30 minutos, o time gaúcho agora pressiona em busca do empate.",
+      "player": {
+        "name": "Jogadaça de Danilo e Botafogo na frente!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 32,
+        "extra": null
+      },
+      "team": {
+        "id": 284,
+        "name": "Grêmio"
+      },
+      "type": "Important",
+      "detail": "Grêmio lota o campo de ataque e pressiona",
+      "player": {
+        "name": "Grêmio lota o campo de ataque e pressiona"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 33,
+        "extra": null
+      },
+      "team": {
+        "id": 284,
+        "name": "Grêmio"
+      },
+      "type": "Important",
+      "detail": "Krovinovic recebe na entrada da área e ajeita para Jovane, que pega mal e manda por cima do gol",
+      "player": {
+        "name": "Krovinovic"
       },
       "assist": null
     }

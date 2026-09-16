@@ -13421,8 +13421,8 @@
           "city": ""
         },
         "status": {
-          "long": "NS",
-          "short": "NS",
+          "long": "1H",
+          "short": "1H",
           "elapsed": null
         },
         "timerStart": "2026-09-16T21:30:50.361Z",
@@ -20181,10 +20181,10 @@
   "budget": {
     "used": 0,
     "remaining": 100,
-    "mode": "prematch",
-    "liveIntervalMs": 120000
+    "mode": "live",
+    "liveIntervalMs": 20000
   },
-  "fetchedAt": "2026-09-16T22:27:16.466Z",
+  "fetchedAt": "2026-09-16T22:30:36.944Z",
   "source": "ge-globo",
   "meta": {
     "rodada": 21,

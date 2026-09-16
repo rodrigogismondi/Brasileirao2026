@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 49
+      "elapsed": 52
     },
     "timerStart": "2026-09-16T23:36:52.664Z",
     "timerStatus": "INICIADO"
@@ -888,6 +888,22 @@
         "extra": null
       },
       "team": {
+        "id": 263,
+        "name": "Botafogo"
+      },
+      "type": "Important",
+      "detail": "Monzón saiu por causa de um mal-estar, de acordo com o repórter Ricardo Lay, do Premiere",
+      "player": {
+        "name": "Lucas Monzón"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 45,
+        "extra": null
+      },
+      "team": {
         "id": 0,
         "name": ""
       },
@@ -940,6 +956,22 @@
         "name": ""
       },
       "type": "Important",
+      "detail": "Danilo erra inversão e Jovane Cabral puxa contra-ataque para o Grêmio. Ele carrega até a intermediária do Botafogo e tenta passar para Carlos Vinícius nas costas da defesa, mas Chaves se antecipa e corta",
+      "player": {
+        "name": "Aí, não"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 46,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
       "detail": "O jogo esquentou de vez perto dos 30 minutos! O Botafogo abriu o placar com um golaço de Danilo, concluindo bela jogada coletiva. A resposta do Grêmio foi rápida: aos 35, Jovane Cabral cobrou falta, a bola desviou em Junior Santos e morreu no ângulo, deixando tudo igual em 1 a 1. No apagar das luzes, Vitinho ainda desperdiçou uma chance claríssima para o time da casa.",
       "player": {
         "name": "Gols relâmpago e equilíbrio na primeira etapa"
@@ -962,6 +994,24 @@
       },
       "assist": {
         "name": "Que chance!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 47,
+        "extra": null
+      },
+      "team": {
+        "id": 284,
+        "name": "Grêmio"
+      },
+      "type": "Important",
+      "detail": "Caito avança pela direita, vê espaço aberto à frente e chuta forte. A bola sai sem direção e vai para fora",
+      "player": {
+        "name": "Diego Caito"
+      },
+      "assist": {
+        "name": "Faltou calibrar"
       }
     },
     {
@@ -1436,19 +1486,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "38%"
+          "value": "37%"
         },
         {
           "type": "Total Passes",
-          "value": 222
+          "value": 230
         },
         {
           "type": "Pass Accuracy",
-          "value": "81%"
+          "value": "80%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 43
+          "value": 47
         },
         {
           "type": "Total Shots",
@@ -1492,7 +1542,7 @@
         },
         {
           "type": "Fouls",
-          "value": 5
+          "value": 6
         },
         {
           "type": "Yellow Cards",
@@ -1512,11 +1562,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "62%"
+          "value": "63%"
         },
         {
           "type": "Total Passes",
-          "value": 349
+          "value": 373
         },
         {
           "type": "Pass Accuracy",
@@ -1524,11 +1574,11 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 42
+          "value": 44
         },
         {
           "type": "Total Shots",
-          "value": 3
+          "value": 4
         },
         {
           "type": "Shots on Goal",
@@ -1536,7 +1586,7 @@
         },
         {
           "type": "Shots off Goal",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Blocked Shots",
@@ -1548,7 +1598,7 @@
         },
         {
           "type": "Corner Kicks",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Offsides",

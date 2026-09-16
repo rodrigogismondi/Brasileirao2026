@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 52
+      "elapsed": 55
     },
     "timerStart": "2026-09-16T23:36:52.664Z",
     "timerStatus": "INICIADO"
@@ -30,7 +30,7 @@
     }
   },
   "goals": {
-    "home": 1,
+    "home": 2,
     "away": 1
   },
   "score": {
@@ -1024,9 +1024,89 @@
         "name": ""
       },
       "type": "Important",
+      "detail": "O jogo recomeça no segundo tempo com o placar em 1 a 1. O Botafogo abriu o marcador aos 28 minutos em um golaço de Danilo, que iniciou a jogada com uma caneta e concluiu após passe de Montoro. A resposta do Grêmio veio aos 35, quando Jovane Cabral cobrou falta, a bola desviou em Junior Santos e morreu no ângulo, empatando o duelo. A etapa inicial foi movimentada e com chances para ambos.",
+      "player": {
+        "name": "Gols e equilíbrio marcam a partida"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 48,
+        "extra": null
+      },
+      "team": {
+        "id": 263,
+        "name": "Botafogo"
+      },
+      "type": "Important",
+      "detail": "Escanteio é cobrado fechado na área do Botafogo, a bola passa na frente do gol, Caito tenta cabecear, mas fura. Carlos Vinícius também não consegue alcançar, e a bola vai para fora",
+      "player": {
+        "name": "Para fora por capricho"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 48,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
       "detail": "Fim de primeiro tempo",
       "player": {
         "name": "Termina"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 49,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "A bola é lançada na área do Botafogo novamente. Carlos Vinícius disputa com Justino e reclama de puxão. Outros jogadores do Grêmio também pedem pênalti, mas Edina Alves manda o jogo seguir",
+      "player": {
+        "name": "Reclamação"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 51,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O segundo tempo começa com tudo! Logo aos 6 minutos, Montoro marcou para o Botafogo e colocou o time na frente, fazendo 2 a 1 no placar. O gol esquenta uma partida que já foi agitada na primeira etapa, quando Danilo abriu o marcador para os cariocas em uma bela jogada e Jovane Cabral empatou para o Grêmio em cobrança de falta que desviou no meio do caminho. Que início de segunda etapa",
+      "player": {
+        "name": "Fogão vira o jogo com gol de Montoro!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 51,
+        "extra": null
+      },
+      "team": {
+        "id": 263,
+        "name": "Botafogo"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "player": {
+        "name": "Montoro"
       },
       "assist": null
     }
@@ -1490,7 +1570,7 @@
         },
         {
           "type": "Total Passes",
-          "value": 230
+          "value": 242
         },
         {
           "type": "Pass Accuracy",
@@ -1498,15 +1578,15 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 47
+          "value": 49
         },
         {
           "type": "Total Shots",
-          "value": 5
+          "value": 6
         },
         {
           "type": "Shots on Goal",
-          "value": 4
+          "value": 5
         },
         {
           "type": "Shots off Goal",
@@ -1566,7 +1646,7 @@
         },
         {
           "type": "Total Passes",
-          "value": 373
+          "value": 385
         },
         {
           "type": "Pass Accuracy",
@@ -1574,7 +1654,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 44
+          "value": 48
         },
         {
           "type": "Total Shots",
@@ -1614,11 +1694,11 @@
         },
         {
           "type": "Tackles",
-          "value": 5
+          "value": 6
         },
         {
           "type": "Fouls",
-          "value": 4
+          "value": 5
         },
         {
           "type": "Yellow Cards",

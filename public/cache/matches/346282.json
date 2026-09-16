@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 62
+      "elapsed": 64
     },
     "timerStart": "2026-09-16T23:36:52.664Z",
     "timerStatus": "INICIADO"
@@ -1284,13 +1284,63 @@
         "name": "Grêmio"
       },
       "type": "Important",
-      "detail": "Krovinovic chega de primeira e Huguinho aplica um balão no camisa 10 com o bico da chuteira",
+      "detail": "Carlos Vinícius pega sobra no lado esquerdo da grande área, bate cruzado, mas Gabriel Batista defende com segurança",
+      "player": {
+        "name": "Carlos Vinícius"
+      },
+      "assist": {
+        "name": "Uuuuuh"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 61,
+        "extra": null
+      },
+      "team": {
+        "id": 284,
+        "name": "Grêmio"
+      },
+      "type": "Important",
+      "detail": "Krovinovic chega de primeira, e Huguinho aplica um balão no camisa 10 com o bico da chuteira",
       "player": {
         "name": "Krovinovic"
       },
       "assist": {
         "name": "Vem tranquilo"
       }
+    },
+    {
+      "time": {
+        "elapsed": 63,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Que jogaço temos até aqui! Após um primeiro tempo com um belo gol de Danilo para o Botafogo e o empate de Jovane Cabral para o Grêmio em cobrança de falta com desvio, a segunda etapa começou agitada. Logo aos 6 minutos, Montoro acertou uma trivela espetacular de um ângulo difícil para fazer 2 a 1. Com 18 minutos, o Grêmio tenta pressionar em busca do empate, mas o time da casa se segura.",
+      "player": {
+        "name": "Montoro recoloca o Fogão na frente com golaço!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 63,
+        "extra": null
+      },
+      "team": {
+        "id": 263,
+        "name": "Botafogo"
+      },
+      "type": "Important",
+      "detail": "Botafogo troca passes na defesa",
+      "player": {
+        "name": "Botafogo troca passes na defesa"
+      },
+      "assist": null
     }
   ],
   "lineups": [
@@ -1752,15 +1802,15 @@
         },
         {
           "type": "Total Passes",
-          "value": 251
+          "value": 273
         },
         {
           "type": "Pass Accuracy",
-          "value": "78%"
+          "value": "79%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 54
+          "value": 58
         },
         {
           "type": "Total Shots",
@@ -1804,7 +1854,7 @@
         },
         {
           "type": "Fouls",
-          "value": 7
+          "value": 8
         },
         {
           "type": "Yellow Cards",
@@ -1828,7 +1878,7 @@
         },
         {
           "type": "Total Passes",
-          "value": 448
+          "value": 471
         },
         {
           "type": "Pass Accuracy",
@@ -1836,7 +1886,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 52
+          "value": 56
         },
         {
           "type": "Total Shots",

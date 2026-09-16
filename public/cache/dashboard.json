@@ -13411,7 +13411,7 @@
         "status": {
           "long": "2H",
           "short": "2H",
-          "elapsed": 55
+          "elapsed": 59
         },
         "timerStart": "2026-09-16T23:36:52.664Z",
         "timerStatus": "INICIADO"
@@ -18841,6 +18841,28 @@
             {
               "rank": 11,
               "team": {
+                "id": 263,
+                "name": "Botafogo",
+                "logo": "https://s.sde.globo.com/media/organizations/2019/02/04/botafogo-svg.svg"
+              },
+              "points": 35,
+              "goalsDiff": -2,
+              "form": "LLLDD",
+              "description": "Copa Sudamericana",
+              "all": {
+                "played": 27,
+                "win": 9,
+                "draw": 8,
+                "lose": 10,
+                "goals": {
+                  "for": 40,
+                  "against": 42
+                }
+              }
+            },
+            {
+              "rank": 12,
+              "team": {
                 "id": 276,
                 "name": "São Paulo",
                 "logo": "https://s.sde.globo.com/media/organizations/2018/03/11/sao-paulo.svg"
@@ -18848,7 +18870,7 @@
               "points": 33,
               "goalsDiff": 1,
               "form": "DLWWL",
-              "description": "Copa Sudamericana",
+              "description": null,
               "all": {
                 "played": 26,
                 "win": 9,
@@ -18861,7 +18883,7 @@
               }
             },
             {
-              "rank": 12,
+              "rank": 13,
               "team": {
                 "id": 287,
                 "name": "Vitória",
@@ -18879,28 +18901,6 @@
                 "goals": {
                   "for": 27,
                   "against": 39
-                }
-              }
-            },
-            {
-              "rank": 13,
-              "team": {
-                "id": 263,
-                "name": "Botafogo",
-                "logo": "https://s.sde.globo.com/media/organizations/2019/02/04/botafogo-svg.svg"
-              },
-              "points": 33,
-              "goalsDiff": -3,
-              "form": "LLLDD",
-              "description": null,
-              "all": {
-                "played": 27,
-                "win": 8,
-                "draw": 9,
-                "lose": 10,
-                "goals": {
-                  "for": 39,
-                  "against": 42
                 }
               }
             },
@@ -18929,28 +18929,6 @@
             {
               "rank": 15,
               "team": {
-                "id": 284,
-                "name": "Grêmio",
-                "logo": "https://s.sde.globo.com/media/organizations/2018/03/12/gremio.svg"
-              },
-              "points": 29,
-              "goalsDiff": -7,
-              "form": "LLWLL",
-              "description": null,
-              "all": {
-                "played": 27,
-                "win": 7,
-                "draw": 8,
-                "lose": 12,
-                "goals": {
-                  "for": 29,
-                  "against": 36
-                }
-              }
-            },
-            {
-              "rank": 16,
-              "team": {
                 "id": 2305,
                 "name": "Mirassol",
                 "logo": "https://s.sde.globo.com/media/organizations/2026/07/17/MIrassol.svg"
@@ -18967,6 +18945,28 @@
                 "goals": {
                   "for": 31,
                   "against": 42
+                }
+              }
+            },
+            {
+              "rank": 16,
+              "team": {
+                "id": 284,
+                "name": "Grêmio",
+                "logo": "https://s.sde.globo.com/media/organizations/2018/03/12/gremio.svg"
+              },
+              "points": 28,
+              "goalsDiff": -8,
+              "form": "LLWLL",
+              "description": null,
+              "all": {
+                "played": 27,
+                "win": 7,
+                "draw": 7,
+                "lose": 13,
+                "goals": {
+                  "for": 29,
+                  "against": 37
                 }
               }
             },
@@ -20172,7 +20172,7 @@
     "mode": "live",
     "liveIntervalMs": 20000
   },
-  "fetchedAt": "2026-09-16T23:47:00.085Z",
+  "fetchedAt": "2026-09-16T23:50:54.197Z",
   "source": "ge-globo",
   "meta": {
     "rodada": 21,

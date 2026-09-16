@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 55
+      "elapsed": 59
     },
     "timerStart": "2026-09-16T23:36:52.664Z",
     "timerStatus": "INICIADO"
@@ -1088,9 +1088,9 @@
         "name": ""
       },
       "type": "Important",
-      "detail": "O segundo tempo começa com tudo! Logo aos 6 minutos, Montoro marcou para o Botafogo e colocou o time na frente, fazendo 2 a 1 no placar. O gol esquenta uma partida que já foi agitada na primeira etapa, quando Danilo abriu o marcador para os cariocas em uma bela jogada e Jovane Cabral empatou para o Grêmio em cobrança de falta que desviou no meio do caminho. Que início de segunda etapa",
+      "detail": "Que início de segundo tempo! O Grêmio voltou pressionando e chegou a pedir um pênalti, mas foi o Botafogo quem balançou a rede. Aos 6 minutos, Montoro recebeu no canto e, mesmo sem ângulo, acertou uma trivela espetacular para fazer 2 a 1. O primeiro tempo já havia sido movimentado, com Danilo abrindo o placar em um golaço e Jovane Cabral empatando para os gaúchos em falta que desviou.",
       "player": {
-        "name": "Fogão vira o jogo com gol de Montoro!"
+        "name": "Golaço de trivela e Botafogo na frente!"
       },
       "assist": null
     },
@@ -1107,6 +1107,88 @@
       "detail": "Normal Goal",
       "player": {
         "name": "Montoro"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 53,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Grêmio trabalha a bola no meio, enquanto o Botafogo sobe as linhas",
+      "player": {
+        "name": "Grêmio trabalha a bola no meio, enquanto o Botaf"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 54,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Após um primeiro tempo empatado em 1 a 1, com Danilo marcando para o Botafogo e Jovane Cabral igualando para o Grêmio em cobrança de falta que desviou na barreira, a segunda etapa começou com emoção. Aos 6 minutos, Montoro aproveitou a sobra na área e, com uma linda trivela sem ângulo, colocou o time da casa na frente de novo, fazendo 2 a 1 e incendiando a partida.",
+      "player": {
+        "name": "Botafogo na frente em jogo de golaços!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 54,
+        "extra": null
+      },
+      "team": {
+        "id": 284,
+        "name": "Grêmio"
+      },
+      "type": "Important",
+      "detail": "Junior Santos dispara em direção à área do Grêmio e entrega para Cabral na passagem. Mas o atacante perde o tempo da bola, bate desajeitado e entrega para a defesa",
+      "player": {
+        "name": "Arthur Cabral"
+      },
+      "assist": {
+        "name": "Contra-ataque alvinegro"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 56,
+        "extra": null
+      },
+      "team": {
+        "id": 263,
+        "name": "Botafogo"
+      },
+      "type": "Important",
+      "detail": "A bola é lançada na área do Botafogo. Danilo corta",
+      "player": {
+        "name": "A bola é lançada na área do Botafogo. Danilo cor"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 57,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Cabral tenta esticada para Danilo Pereira, mas a defesa intercepta",
+      "player": {
+        "name": "Cabral tenta esticada para Danilo Pereira, mas a"
       },
       "assist": null
     }
@@ -1570,15 +1652,15 @@
         },
         {
           "type": "Total Passes",
-          "value": 242
+          "value": 248
         },
         {
           "type": "Pass Accuracy",
-          "value": "80%"
+          "value": "79%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 49
+          "value": 51
         },
         {
           "type": "Total Shots",
@@ -1646,7 +1728,7 @@
         },
         {
           "type": "Total Passes",
-          "value": 385
+          "value": 419
         },
         {
           "type": "Pass Accuracy",
@@ -1654,7 +1736,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 48
+          "value": 51
         },
         {
           "type": "Total Shots",

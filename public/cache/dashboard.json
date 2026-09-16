@@ -20181,10 +20181,10 @@
   "budget": {
     "used": 0,
     "remaining": 100,
-    "mode": "idle",
-    "liveIntervalMs": 900000
+    "mode": "prematch",
+    "liveIntervalMs": 120000
   },
-  "fetchedAt": "2026-09-16T06:04:29.966Z",
+  "fetchedAt": "2026-09-16T08:30:36.192Z",
   "source": "ge-globo",
   "meta": {
     "rodada": 21,
@@ -20230,13 +20230,13 @@
       38
     ],
     "seasonSyncedAt": "2026-09-16T06:04:27.496Z",
-    "fullSeasonSync": true,
+    "fullSeasonSync": false,
     "edicao": "Campeonato Brasileiro 2026",
     "provider": "ge.globo.com",
     "scorersCount": 50,
-    "oddsMatched": 299,
-    "oddsPreserved": 3,
-    "oddsAvailable": 265,
+    "oddsMatched": 0,
+    "oddsPreserved": 302,
+    "oddsAvailable": 0,
     "fixturesCount": 380
   }
 }

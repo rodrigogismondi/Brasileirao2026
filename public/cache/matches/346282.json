@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 35
+      "elapsed": 38
     },
     "timerStart": "2026-09-16T22:31:40.916Z",
     "timerStatus": "INICIADO"
@@ -31,7 +31,7 @@
   },
   "goals": {
     "home": 1,
-    "away": 0
+    "away": 1
   },
   "score": {
     "halftime": {
@@ -615,6 +615,104 @@
         "name": "Krovinovic"
       },
       "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 35,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Botafogo começou melhor e abriu o placar aos 28 minutos com um golaço de Danilo, que iniciou a jogada com uma caneta e concluiu após bela troca de passes. Mas a vantagem durou pouco. Aos 35, o Grêmio buscou o empate em 1 a 1 em cobrança de falta de Jovane Cabral, que desviou em Junior Santos e enganou o goleiro. Jogo movimentado e com dois gols em sequência no primeiro tempo.",
+      "player": {
+        "name": "Golaço e desvio: tudo igual no placar!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 35,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O jogo esquentou de vez! O Botafogo abriu o placar aos 28 minutos com uma pintura de Danilo, que iniciou a jogada com caneta em Villasanti e concluiu após bela tabela para fazer 1 a 0. Mas o Grêmio, que já havia perdido uma chance clara, não demorou a reagir. Aos 35, Jovane Cabral aproveitou sua oportunidade e deixou tudo igual em 1 a 1, incendiando o final do primeiro tempo.",
+      "player": {
+        "name": "Tudo igual com golaços de cada lado!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 35,
+        "extra": null
+      },
+      "team": {
+        "id": 284,
+        "name": "Grêmio"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "player": {
+        "name": "Jovane Cabral"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 35,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O jogo começou com o Botafogo pressionando, mas o Grêmio equilibrou e quase marcou com Jovane, que perdeu grande chance. Aos 28 minutos, porém, a estrela de Danilo brilhou: ele deu uma caneta em Villasanti, iniciou a jogada e apareceu na área para concluir o passe de Montoro, fazendo 1 a 0 para o Botafogo em um golaço. O Grêmio agora tenta reagir após o belo gol sofrido.",
+      "player": {
+        "name": "Danilo comanda e Bota sai na frente!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 35,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Falta a favor do Grêmio perto da área do Botafogo",
+      "player": {
+        "name": "Falta a favor do Grêmio perto da área do Botafog"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 37,
+        "extra": null
+      },
+      "team": {
+        "id": 284,
+        "name": "Grêmio"
+      },
+      "type": "Important",
+      "detail": "Gol de falta foi o primeiro de Jovane Cabral com a camisa do Grêmio",
+      "player": {
+        "name": "Jovane Cabral"
+      },
+      "assist": {
+        "name": "Debutou"
+      }
     }
   ],
   "lineups": [
@@ -1072,19 +1170,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "43%"
+          "value": "40%"
         },
         {
           "type": "Total Passes",
-          "value": 182
+          "value": 185
         },
         {
           "type": "Pass Accuracy",
-          "value": "83%"
+          "value": "82%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 31
+          "value": 33
         },
         {
           "type": "Total Shots",
@@ -1128,7 +1226,7 @@
         },
         {
           "type": "Fouls",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Yellow Cards",
@@ -1148,23 +1246,23 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "57%"
+          "value": "60%"
         },
         {
           "type": "Total Passes",
-          "value": 230
+          "value": 263
         },
         {
           "type": "Pass Accuracy",
-          "value": "90%"
+          "value": "88%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 24
+          "value": 31
         },
         {
           "type": "Total Shots",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Shots on Goal",
@@ -1172,7 +1270,7 @@
         },
         {
           "type": "Shots off Goal",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Blocked Shots",
@@ -1184,7 +1282,7 @@
         },
         {
           "type": "Corner Kicks",
-          "value": 0
+          "value": 2
         },
         {
           "type": "Offsides",

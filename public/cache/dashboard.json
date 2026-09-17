@@ -10062,9 +10062,7 @@
           "long": "FT",
           "short": "FT",
           "elapsed": 90
-        },
-        "timerStart": "2026-07-30T00:34:34.534Z",
-        "timerStatus": "PAUSADO"
+        }
       },
       "league": {
         "round": "Regular Season - 21"
@@ -10114,9 +10112,7 @@
           "long": "FT",
           "short": "FT",
           "elapsed": 90
-        },
-        "timerStart": "2026-07-30T00:29:51.687Z",
-        "timerStatus": "PAUSADO"
+        }
       },
       "league": {
         "round": "Regular Season - 21"
@@ -10166,9 +10162,7 @@
           "long": "FT",
           "short": "FT",
           "elapsed": 90
-        },
-        "timerStart": "2026-07-30T02:31:48.744Z",
-        "timerStatus": "PAUSADO"
+        }
       },
       "league": {
         "round": "Regular Season - 21"
@@ -10218,9 +10212,7 @@
           "long": "FT",
           "short": "FT",
           "elapsed": 90
-        },
-        "timerStart": "2026-07-30T02:32:42.656Z",
-        "timerStatus": "PAUSADO"
+        }
       },
       "league": {
         "round": "Regular Season - 21"
@@ -10270,9 +10262,7 @@
           "long": "FT",
           "short": "FT",
           "elapsed": 90
-        },
-        "timerStart": "2026-07-31T00:37:26.433Z",
-        "timerStatus": "PAUSADO"
+        }
       },
       "league": {
         "round": "Regular Season - 21"
@@ -10322,9 +10312,7 @@
           "long": "FT",
           "short": "FT",
           "elapsed": 90
-        },
-        "timerStart": "2026-07-31T02:34:32.144Z",
-        "timerStatus": "PAUSADO"
+        }
       },
       "league": {
         "round": "Regular Season - 21"
@@ -13423,7 +13411,7 @@
         "status": {
           "long": "2H",
           "short": "2H",
-          "elapsed": 80
+          "elapsed": 86
         },
         "timerStart": "2026-09-16T23:36:52.664Z",
         "timerStatus": "INICIADO"
@@ -18858,7 +18846,7 @@
                 "logo": "https://s.sde.globo.com/media/organizations/2019/02/04/botafogo-svg.svg"
               },
               "points": 35,
-              "goalsDiff": -2,
+              "goalsDiff": -1,
               "form": "LLLDD",
               "description": "Copa Sudamericana",
               "all": {
@@ -18867,7 +18855,7 @@
                 "draw": 8,
                 "lose": 10,
                 "goals": {
-                  "for": 40,
+                  "for": 41,
                   "against": 42
                 }
               }
@@ -18968,7 +18956,7 @@
                 "logo": "https://s.sde.globo.com/media/organizations/2018/03/12/gremio.svg"
               },
               "points": 28,
-              "goalsDiff": -8,
+              "goalsDiff": -9,
               "form": "LLWLL",
               "description": null,
               "all": {
@@ -18978,7 +18966,7 @@
                 "lose": 13,
                 "goals": {
                   "for": 29,
-                  "against": 37
+                  "against": 38
                 }
               }
             },
@@ -20184,7 +20172,7 @@
     "mode": "live",
     "liveIntervalMs": 20000
   },
-  "fetchedAt": "2026-09-17T00:12:45.737Z",
+  "fetchedAt": "2026-09-17T00:18:24.513Z",
   "source": "ge-globo",
   "meta": {
     "rodada": 21,
@@ -20230,13 +20218,13 @@
       38
     ],
     "seasonSyncedAt": "2026-09-17T00:12:43.248Z",
-    "fullSeasonSync": true,
+    "fullSeasonSync": false,
     "edicao": "Campeonato Brasileiro 2026",
     "provider": "ge.globo.com",
     "scorersCount": 50,
-    "oddsMatched": 299,
-    "oddsPreserved": 3,
-    "oddsAvailable": 265,
+    "oddsMatched": 0,
+    "oddsPreserved": 302,
+    "oddsAvailable": 0,
     "fixturesCount": 380
   }
 }

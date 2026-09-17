@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 80
+      "elapsed": 86
     },
     "timerStart": "2026-09-16T23:36:52.664Z",
     "timerStatus": "INICIADO"
@@ -1624,6 +1624,24 @@
     },
     {
       "time": {
+        "elapsed": 77,
+        "extra": null
+      },
+      "team": {
+        "id": 284,
+        "name": "Grêmio"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Matheus Nascimento"
+      },
+      "assist": {
+        "name": "Noriega"
+      }
+    },
+    {
+      "time": {
         "elapsed": 78,
         "extra": null
       },
@@ -1632,9 +1650,9 @@
         "name": ""
       },
       "type": "Important",
-      "detail": "Que partida! Após um primeiro tempo encerrado em 1 a 1, com um belo gol de Danilo para o Botafogo e Jovane Cabral empatando de falta para o Grêmio, a etapa final seguiu emocionante. Montoro, com uma pintura de trivela aos 6 minutos, recolocou o time da casa na frente. Aos 33, Danilo marcou seu segundo no jogo, ampliando o placar e dando mais tranquilidade ao Botafogo na partida.",
+      "detail": "O primeiro tempo terminou empatado, com Danilo abrindo o placar para o Botafogo e Jovane Cabral igualando para o Grêmio em cobrança de falta. Na segunda etapa, o time da casa impôs seu ritmo. Aos 6 minutos, Montoro marcou um golaço de trivela. A dupla voltou a brilhar aos 33 minutos: Montoro deu a assistência para Danilo marcar seu segundo no jogo e ampliar a vantagem para 3 a 1.",
       "player": {
-        "name": "Danilo comanda e Botafogo abre vantagem!"
+        "name": "Botafogo na frente com show de Danilo e Montoro"
       },
       "assist": null
     },
@@ -1651,6 +1669,86 @@
       "detail": "Normal Goal",
       "player": {
         "name": "Danilo"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 79,
+        "extra": null
+      },
+      "team": {
+        "id": 284,
+        "name": "Grêmio"
+      },
+      "type": "Important",
+      "detail": "Falta a favor do Grêmio na intermediária de ataque",
+      "player": {
+        "name": "Falta a favor do Grêmio na intermediária de ataq"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 81,
+        "extra": null
+      },
+      "team": {
+        "id": 263,
+        "name": "Botafogo"
+      },
+      "type": "Important",
+      "detail": "Após um primeiro tempo equilibrado que terminou 1 a 1, com gols de Danilo e Jovane Cabral, o Botafogo domina a etapa final. Logo aos 6 minutos, Montoro marcou um golaço de trivela para colocar o time da casa na frente. Aos 33, em outra bela jogada coletiva, Danilo apareceu de novo para marcar seu segundo no jogo e ampliar o placar para 3 a 1, encaminhando a vitória alvinegra.",
+      "player": {
+        "name": "Show de Danilo e Botafogo abre 3 a 1!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 81,
+        "extra": null
+      },
+      "team": {
+        "id": 263,
+        "name": "Botafogo"
+      },
+      "type": "Important",
+      "detail": "Botafogo cadencia o jogo, tenta ganhar tempo",
+      "player": {
+        "name": "Botafogo cadencia o jogo, tenta ganhar tempo"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 82,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Grêmio troca passes no centro, enquanto o Botafogo cerca à distância, sem pressa para dar o bote",
+      "player": {
+        "name": "Grêmio troca passes no centro, enquanto o Botafo"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 84,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Danilo consegue encontrar Pereira nas costas de Wallace. O atacante botafoguense tenta escapar em direção à área, mas o defensor se recupera e consegue cortar para escanteio",
+      "player": {
+        "name": "Danilo consegue encontrar Pereira nas costas de "
       },
       "assist": null
     }
@@ -2114,27 +2212,27 @@
         },
         {
           "type": "Total Passes",
-          "value": 302
+          "value": 318
         },
         {
           "type": "Pass Accuracy",
-          "value": "79%"
+          "value": "78%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 64
+          "value": 69
         },
         {
           "type": "Total Shots",
-          "value": 8
+          "value": 10
         },
         {
           "type": "Shots on Goal",
-          "value": 6
+          "value": 7
         },
         {
           "type": "Shots off Goal",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Blocked Shots",
@@ -2166,7 +2264,7 @@
         },
         {
           "type": "Fouls",
-          "value": 10
+          "value": 11
         },
         {
           "type": "Yellow Cards",
@@ -2190,7 +2288,7 @@
         },
         {
           "type": "Total Passes",
-          "value": 580
+          "value": 611
         },
         {
           "type": "Pass Accuracy",
@@ -2198,7 +2296,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 67
+          "value": 74
         },
         {
           "type": "Total Shots",
@@ -2242,11 +2340,11 @@
         },
         {
           "type": "Fouls",
-          "value": 8
+          "value": 10
         },
         {
           "type": "Yellow Cards",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Red Cards",

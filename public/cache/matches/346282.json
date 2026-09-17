@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 95
+      "elapsed": 99
     },
     "timerStart": "2026-09-16T23:36:52.664Z",
     "timerStatus": "INICIADO"
@@ -1894,12 +1894,12 @@
         "name": "Grêmio"
       },
       "type": "Important",
-      "detail": "Enamorado lança na área do Botafogo. Martins ajeita de cabeça. Vinícius domina e bate no cantinho para empatar",
+      "detail": "Lance foi anulado por impedimento. Enamorado lança na área do Botafogo, Martins ganha no alto e ajeita para Carlos Vinícius dominar e bater no cantinho para empatar.",
       "player": {
         "name": "Carlos Vinícius"
       },
       "assist": {
-        "name": "Gol do Grêmio. Mas não valeu"
+        "name": "Gol do Grêmio... Mas não valeu"
       }
     },
     {
@@ -1947,6 +1947,102 @@
       "detail": "Impedimento semiautomático apontou posição irregular de Carlos Vinícius no momento do domínio. Jogadores do Grêmio reclamam bastante",
       "player": {
         "name": "Anulado na revisão"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 93,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O segundo tempo foi de fortes emoções e muitos gols! O Botafogo abriu 3 a 1 no placar com gols de Montoro, em belo chute de trivela, e outro de Danilo. O Grêmio não se entregou e diminuiu com Gustavo Martins, de cabeça. Nos acréscimos, a partida pegou fogo: Carlos Vinícius chegou a empatar, mas o lance foi anulado por impedimento, mantendo o placar em 3 a 2 em um final dramático.",
+      "player": {
+        "name": "Fim de jogo de tirar o fôlego!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 93,
+        "extra": null
+      },
+      "team": {
+        "id": 284,
+        "name": "Grêmio"
+      },
+      "type": "Important",
+      "detail": "Enamorado limpa Danilo na ponta, carrega para o meio e lança na segunda trave. Carlos Vinícius sobe e cabeceia para fora!",
+      "player": {
+        "name": "Para fora! Pressão do Grêmio!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 94,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Segundo tempo vai até os 52 minutos",
+      "player": {
+        "name": "+2"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 95,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Matheus Nascimento discute com Vitinho, e Edina intercede",
+      "player": {
+        "name": "Clima quente"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 96,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Que final de jogo! O Botafogo vai vencendo por 3 a 2 em um segundo tempo agitado. Danilo, com dois gols, e Montoro marcaram para o time da casa. O Grêmio reagiu com Gustavo Martins e chegou a empatar com Carlos Vinícius, mas o gol foi anulado por impedimento semiautomático. Com o relógio passando dos 51 minutos, o clima esquentou e o VAR agora revisa uma possível expulsão de Matheus Nascimento.",
+      "player": {
+        "name": "Final eletrizante com gol anulado e VAR!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 97,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Após análise, a árbitra não vê irregularidade e manda o jogo seguir",
+      "player": {
+        "name": "Não foi nada"
       },
       "assist": null
     }
@@ -2410,7 +2506,7 @@
         },
         {
           "type": "Total Passes",
-          "value": 343
+          "value": 346
         },
         {
           "type": "Pass Accuracy",
@@ -2418,7 +2514,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 81
+          "value": 83
         },
         {
           "type": "Total Shots",
@@ -2462,7 +2558,7 @@
         },
         {
           "type": "Fouls",
-          "value": 12
+          "value": 13
         },
         {
           "type": "Yellow Cards",
@@ -2486,7 +2582,7 @@
         },
         {
           "type": "Total Passes",
-          "value": 652
+          "value": 658
         },
         {
           "type": "Pass Accuracy",
@@ -2494,11 +2590,11 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 82
+          "value": 83
         },
         {
           "type": "Total Shots",
-          "value": 8
+          "value": 9
         },
         {
           "type": "Shots on Goal",
@@ -2506,7 +2602,7 @@
         },
         {
           "type": "Shots off Goal",
-          "value": 3
+          "value": 4
         },
         {
           "type": "Blocked Shots",

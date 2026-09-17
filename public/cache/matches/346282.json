@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 67
+      "elapsed": 70
     },
     "timerStart": "2026-09-16T23:36:52.664Z",
     "timerStatus": "INICIADO"
@@ -1339,6 +1339,58 @@
       "detail": "Botafogo troca passes na defesa",
       "player": {
         "name": "Botafogo troca passes na defesa"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 64,
+        "extra": null
+      },
+      "team": {
+        "id": 263,
+        "name": "Botafogo"
+      },
+      "type": "Important",
+      "detail": "Danilo Pereira carrega na entrada da área do Botafogo, divide com Enamorado e cai pedindo pênalti. A árbitra Edina Alves considera que o gremista se antecipou e sofreu uma pancada de Danilo antes, e marca falta a favor do Grêmio, o que deixa os jogadores alvinegros indignados",
+      "player": {
+        "name": "Danilo Pereira"
+      },
+      "assist": {
+        "name": "Alvinegros na bronca"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 65,
+        "extra": null
+      },
+      "team": {
+        "id": 284,
+        "name": "Grêmio"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Braithwaite"
+      },
+      "assist": {
+        "name": "Krovinovic"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 66,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Atrás no placar, o Grêmio não consegue ter presença efetiva no ataque e incomodar o gol de Gabriel Batista, enquanto o Botafogo tenta administrar a vantagem e espera oportunidades de contra-atacar",
+      "player": {
+        "name": "Panorama"
       },
       "assist": null
     }

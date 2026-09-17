@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 86
+      "elapsed": 93
     },
     "timerStart": "2026-09-16T23:36:52.664Z",
     "timerStatus": "INICIADO"
@@ -31,7 +31,7 @@
   },
   "goals": {
     "home": 3,
-    "away": 1
+    "away": 2
   },
   "score": {
     "halftime": {
@@ -1746,9 +1746,125 @@
         "name": ""
       },
       "type": "Important",
+      "detail": "Após um primeiro tempo empatado em 1 a 1, com gols de Danilo para o Botafogo e Jovane Cabral para o Grêmio, o time da casa assumiu o controle na etapa final. Logo aos 6 minutos, Montoro marcou um golaço de trivela para recolocar o alvinegro na frente. Aos 33, Danilo apareceu novamente e, em jogada de pé em pé, fez seu segundo gol na partida, ampliando a vantagem para 3 a 1 na reta final.",
+      "player": {
+        "name": "Danilo brilha e Botafogo abre 3 a 1 no placar"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 84,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
       "detail": "Danilo consegue encontrar Pereira nas costas de Wallace. O atacante botafoguense tenta escapar em direção à área, mas o defensor se recupera e consegue cortar para escanteio",
       "player": {
         "name": "Danilo consegue encontrar Pereira nas costas de "
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 85,
+        "extra": null
+      },
+      "team": {
+        "id": 263,
+        "name": "Botafogo"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Tiquinho Soares"
+      },
+      "assist": {
+        "name": "Arthur Cabral"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 85,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Lateraldo Botafogo divide com Enamorado, e sobra braçada e pernada no jogador do Grêmio",
+      "player": {
+        "name": "O que foi isso, Marçal"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 85,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Alex Telles lança na primeira trave, mas a defesa corta",
+      "player": {
+        "name": "Alex Telles lança na primeira trave, mas a defes"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 85,
+        "extra": null
+      },
+      "team": {
+        "id": 263,
+        "name": "Botafogo"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Allan"
+      },
+      "assist": {
+        "name": "Montoro"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 87,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "A partida se encaminhava para uma vitória tranquila do Botafogo, que abriu 3 a 1 com uma atuação de gala de Danilo, autor de dois gols, e Montoro, que também marcou o seu. O time da casa dominava as ações. Contudo, já aos 42 minutos da etapa final, o Grêmio reagiu. Tetê lançou na área e o zagueiro Gustavo Martins subiu para cabecear e diminuir o placar, colocando fogo nos minutos finais do confronto.",
+      "player": {
+        "name": "Grêmio diminui e incendeia o final do jogo!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 87,
+        "extra": null
+      },
+      "team": {
+        "id": 284,
+        "name": "Grêmio"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "player": {
+        "name": "Gustavo Martins"
       },
       "assist": null
     }
@@ -2212,15 +2328,15 @@
         },
         {
           "type": "Total Passes",
-          "value": 318
+          "value": 342
         },
         {
           "type": "Pass Accuracy",
-          "value": "78%"
+          "value": "77%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 69
+          "value": 80
         },
         {
           "type": "Total Shots",
@@ -2244,7 +2360,7 @@
         },
         {
           "type": "Corner Kicks",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Offsides",
@@ -2264,7 +2380,7 @@
         },
         {
           "type": "Fouls",
-          "value": 11
+          "value": 12
         },
         {
           "type": "Yellow Cards",
@@ -2288,23 +2404,23 @@
         },
         {
           "type": "Total Passes",
-          "value": 611
+          "value": 644
         },
         {
           "type": "Pass Accuracy",
-          "value": "88%"
+          "value": "87%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 74
+          "value": 81
         },
         {
           "type": "Total Shots",
-          "value": 7
+          "value": 8
         },
         {
           "type": "Shots on Goal",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Shots off Goal",
@@ -2336,11 +2452,11 @@
         },
         {
           "type": "Tackles",
-          "value": 8
+          "value": 9
         },
         {
           "type": "Fouls",
-          "value": 10
+          "value": 11
         },
         {
           "type": "Yellow Cards",

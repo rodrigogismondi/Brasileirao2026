@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 70
+      "elapsed": 74
     },
     "timerStart": "2026-09-16T23:36:52.664Z",
     "timerStatus": "INICIADO"
@@ -1388,11 +1388,125 @@
         "name": ""
       },
       "type": "Important",
+      "detail": "A partida é movimentada e com belos gols! No primeiro tempo, Danilo abriu o placar para o Botafogo com uma pintura, mas Jovane Cabral empatou para o Grêmio em cobrança de falta que desviou. Já na segunda etapa, aos 6 minutos, Montoro recolocou o time da casa na frente com um golaço de trivela. Com mais de 20 minutos jogados, o Grêmio tenta pressionar, mas o Botafogo administra o 2 a 1.",
+      "player": {
+        "name": "Golaços colocam o Botafogo na liderança!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 66,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
       "detail": "Atrás no placar, o Grêmio não consegue ter presença efetiva no ataque e incomodar o gol de Gabriel Batista, enquanto o Botafogo tenta administrar a vantagem e espera oportunidades de contra-atacar",
       "player": {
         "name": "Panorama"
       },
       "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 67,
+        "extra": null
+      },
+      "team": {
+        "id": 284,
+        "name": "Grêmio"
+      },
+      "type": "Important",
+      "detail": "Montoro lança para Cabral na área do Grêmio. O cruzamento sai muito forte, o atacante tenta alcançar, mas cabeceia para fora",
+      "player": {
+        "name": "Montoro lança para Cabral na área do Grêmio. O c"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 68,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Danilo lança em profundidade para Cabral, mas a defesa fica com a bola",
+      "player": {
+        "name": "Danilo lança em profundidade para Cabral, mas a "
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 70,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O primeiro tempo foi de tirar o fôlego! Danilo abriu o placar para o Botafogo aos 28 minutos com uma pintura, mas Jovane Cabral empatou para o Grêmio em cobrança de falta que desviou. No segundo tempo, Montoro recolocou o Fogão na frente com um golaço de trivela. Com 25 minutos jogados na etapa final, o Grêmio tenta reagir, mas o time da casa administra bem a vantagem e controla a partida.",
+      "player": {
+        "name": "Golaços e emoção: Botafogo lidera!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 70,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Danilo tenta passar para Pereira entre marcadores, erra, mas por pouco Junior Santos não consegue recuperar e finalizar. Na hora decisiva, Martins intecepta",
+      "player": {
+        "name": "Danilo tenta passar para Pereira entre marcadore"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 71,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Villasanti ajeita para Noriega na entrada da área. Ele arrisca chute de longe, mas a bola explode na defesa",
+      "player": {
+        "name": "Villasanti ajeita para Noriega na entrada da áre"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 72,
+        "extra": null
+      },
+      "team": {
+        "id": 263,
+        "name": "Botafogo"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Marçal"
+      },
+      "assist": {
+        "name": "Júnior Santos"
+      }
     }
   ],
   "lineups": [
@@ -1854,7 +1968,7 @@
         },
         {
           "type": "Total Passes",
-          "value": 283
+          "value": 295
         },
         {
           "type": "Pass Accuracy",
@@ -1862,11 +1976,11 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 59
+          "value": 63
         },
         {
           "type": "Total Shots",
-          "value": 6
+          "value": 7
         },
         {
           "type": "Shots on Goal",
@@ -1874,7 +1988,7 @@
         },
         {
           "type": "Shots off Goal",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Blocked Shots",
@@ -1898,15 +2012,15 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 2
-        },
-        {
-          "type": "Tackles",
           "value": 3
         },
         {
+          "type": "Tackles",
+          "value": 4
+        },
+        {
           "type": "Fouls",
-          "value": 9
+          "value": 10
         },
         {
           "type": "Yellow Cards",
@@ -1930,19 +2044,19 @@
         },
         {
           "type": "Total Passes",
-          "value": 492
+          "value": 562
         },
         {
           "type": "Pass Accuracy",
-          "value": "88%"
+          "value": "89%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 59
+          "value": 64
         },
         {
           "type": "Total Shots",
-          "value": 6
+          "value": 7
         },
         {
           "type": "Shots on Goal",
@@ -1954,7 +2068,7 @@
         },
         {
           "type": "Blocked Shots",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Hit Woodwork",
@@ -1978,7 +2092,7 @@
         },
         {
           "type": "Tackles",
-          "value": 6
+          "value": 8
         },
         {
           "type": "Fouls",

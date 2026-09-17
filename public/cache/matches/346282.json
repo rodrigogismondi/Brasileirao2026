@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 74
+      "elapsed": 80
     },
     "timerStart": "2026-09-16T23:36:52.664Z",
     "timerStatus": "INICIADO"
@@ -30,7 +30,7 @@
     }
   },
   "goals": {
-    "home": 2,
+    "home": 3,
     "away": 1
   },
   "score": {
@@ -44,9 +44,9 @@
     }
   },
   "odds": {
-    "home": 1.69,
-    "draw": 3.9,
-    "away": 4.62,
+    "home": 1.72,
+    "draw": 3.87,
+    "away": 4.55,
     "source": "betexplorer"
   },
   "events": [
@@ -1507,6 +1507,152 @@
       "assist": {
         "name": "Júnior Santos"
       }
+    },
+    {
+      "time": {
+        "elapsed": 73,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O jogo tem gols e emoção! Danilo abriu o placar para o Botafogo aos 28 minutos, concluindo uma jogada espetacular. O Grêmio respondeu aos 35 com Jovane Cabral, em cobrança de falta que desviou para empatar. Já no segundo tempo, Montoro fez uma pintura de trivela sem ângulo, colocando o time da casa na frente de novo: 2 a 1. Agora, o Botafogo controla o ritmo, enquanto o Grêmio tenta reagir.",
+      "player": {
+        "name": "Golaços colocam o Botafogo em vantagem!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 73,
+        "extra": null
+      },
+      "team": {
+        "id": 284,
+        "name": "Grêmio"
+      },
+      "type": "Important",
+      "detail": "Cabral carrega pela intermediária e passa para Pereira. Ele tenta corta-luz para Danilo, mas calcula mal o espaço e entrega para a defesa do Grêmio",
+      "player": {
+        "name": "Cabral carrega pela intermediária e passa para P"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 74,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Wallace faz falta em Pereira na intermediária de defesa",
+      "player": {
+        "name": "Wallace faz falta em Pereira na intermediária de"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 75,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Alex Telles cobra falta de muito longe. A bola chega cheia de veneno ao gol e Weverton defende com rebote. Cabral se precipita em direção à bola, mas Villasanti chega antes para afastar",
+      "player": {
+        "name": "Que pancada!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 77,
+        "extra": null
+      },
+      "team": {
+        "id": 284,
+        "name": "Grêmio"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Tetê"
+      },
+      "assist": {
+        "name": "Pavón"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 77,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O jogo é eletrizante e com o placar em 2 a 1 para o Botafogo! No primeiro tempo, Danilo abriu o placar com um golaço após linda jogada coletiva, mas Jovane Cabral empatou para o Grêmio em cobrança de falta que desviou na barreira. Já na segunda etapa, Montoro acertou uma bela trivela para recolocar o time da casa em vantagem. O jogo passa dos 30 minutos e o Grêmio busca a reação.",
+      "player": {
+        "name": "Botafogo na frente com gols de placa!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 77,
+        "extra": null
+      },
+      "team": {
+        "id": 284,
+        "name": "Grêmio"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Villasanti"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 78,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Que partida! Após um primeiro tempo encerrado em 1 a 1, com um belo gol de Danilo para o Botafogo e Jovane Cabral empatando de falta para o Grêmio, a etapa final seguiu emocionante. Montoro, com uma pintura de trivela aos 6 minutos, recolocou o time da casa na frente. Aos 33, Danilo marcou seu segundo no jogo, ampliando o placar e dando mais tranquilidade ao Botafogo na partida.",
+      "player": {
+        "name": "Danilo comanda e Botafogo abre vantagem!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 78,
+        "extra": null
+      },
+      "team": {
+        "id": 263,
+        "name": "Botafogo"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "player": {
+        "name": "Danilo"
+      },
+      "assist": null
     }
   ],
   "lineups": [
@@ -1964,11 +2110,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "35%"
+          "value": "34%"
         },
         {
           "type": "Total Passes",
-          "value": 295
+          "value": 302
         },
         {
           "type": "Pass Accuracy",
@@ -1976,15 +2122,15 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 63
+          "value": 64
         },
         {
           "type": "Total Shots",
-          "value": 7
+          "value": 8
         },
         {
           "type": "Shots on Goal",
-          "value": 5
+          "value": 6
         },
         {
           "type": "Shots off Goal",
@@ -2000,7 +2146,7 @@
         },
         {
           "type": "Corner Kicks",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Offsides",
@@ -2040,19 +2186,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "65%"
+          "value": "66%"
         },
         {
           "type": "Total Passes",
-          "value": 562
+          "value": 580
         },
         {
           "type": "Pass Accuracy",
-          "value": "89%"
+          "value": "88%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 64
+          "value": 67
         },
         {
           "type": "Total Shots",
@@ -2088,7 +2234,7 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 4
+          "value": 5
         },
         {
           "type": "Tackles",
@@ -2096,7 +2242,7 @@
         },
         {
           "type": "Fouls",
-          "value": 6
+          "value": 8
         },
         {
           "type": "Yellow Cards",

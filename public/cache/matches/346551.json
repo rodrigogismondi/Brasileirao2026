@@ -45,8 +45,8 @@
   },
   "odds": {
     "home": 4.05,
-    "draw": 3.58,
-    "away": 1.85,
+    "draw": 3.62,
+    "away": 1.84,
     "source": "betexplorer"
   },
   "events": [],
@@ -73,9 +73,9 @@
         },
         {
           "player": {
-            "id": "crispavon",
-            "name": "Pavón",
-            "number": 7,
+            "id": "diego-caito",
+            "name": "Diego Caito",
+            "number": 27,
             "pos": "Def",
             "grid": null
           }
@@ -136,9 +136,9 @@
         },
         {
           "player": {
-            "id": "tetemat",
-            "name": "Tetê",
-            "number": 11,
+            "id": "crispavon",
+            "name": "Pavón",
+            "number": 7,
             "pos": "Ata",
             "grid": null
           }
@@ -170,7 +170,7 @@
         "name": "Palmeiras",
         "logo": "https://s.sde.globo.com/media/organizations/2019/07/06/Palmeiras.svg"
       },
-      "formation": "4-4-2",
+      "formation": "3-5-2",
       "coach": {
         "name": "Abel Ferreira"
       },
@@ -186,18 +186,18 @@
         },
         {
           "player": {
-            "id": "agugiay",
-            "name": "Giay",
-            "number": 4,
+            "id": "gustavo-gomez",
+            "name": "Gustavo Gómez",
+            "number": 15,
             "pos": "Def",
             "grid": null
           }
         },
         {
           "player": {
-            "id": "gustavo-gomez",
-            "name": "Gustavo Gómez",
-            "number": 15,
+            "id": "bruno-fuchs",
+            "name": "Bruno Fuchs",
+            "number": 3,
             "pos": "Def",
             "grid": null
           }
@@ -213,9 +213,9 @@
         },
         {
           "player": {
-            "id": "piquerez",
-            "name": "Piquerez",
-            "number": 22,
+            "id": "agugiay",
+            "name": "Giay",
+            "number": 4,
             "pos": "Def",
             "grid": null
           }
@@ -233,16 +233,7 @@
           "player": {
             "id": "andreaspereira",
             "name": "Andreas Pereira",
-            "number": null,
-            "pos": "Mei",
-            "grid": null
-          }
-        },
-        {
-          "player": {
-            "id": "mauriciomp",
-            "name": "Maurício",
-            "number": 18,
+            "number": 8,
             "pos": "Mei",
             "grid": null
           }
@@ -253,6 +244,15 @@
             "name": "Arias",
             "number": 11,
             "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "piquerez",
+            "name": "Piquerez",
+            "number": 22,
+            "pos": "Def",
             "grid": null
           }
         },

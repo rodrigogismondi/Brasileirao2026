@@ -44,8 +44,8 @@
     }
   },
   "odds": {
-    "home": 2.84,
-    "draw": 3.26,
+    "home": 2.86,
+    "draw": 3.27,
     "away": 2.44,
     "source": "betexplorer"
   },
@@ -57,7 +57,7 @@
         "name": "Vitória",
         "logo": "https://s.sde.globo.com/media/organizations/2025/12/18/Vitoria_2025.svg"
       },
-      "formation": "4-4-2",
+      "formation": "4-3-3",
       "coach": {
         "name": "Jair Ventura"
       },
@@ -120,7 +120,7 @@
           "player": {
             "id": "emmanuelmartinez",
             "name": "Emmanuel Martínez",
-            "number": null,
+            "number": 6,
             "pos": "Mei",
             "grid": null
           }
@@ -130,15 +130,6 @@
             "id": "ze-vitor-neves",
             "name": "Zé Vitor",
             "number": 88,
-            "pos": "Mei",
-            "grid": null
-          }
-        },
-        {
-          "player": {
-            "id": "matheuzinho-martins",
-            "name": "Matheuzinho",
-            "number": null,
             "pos": "Mei",
             "grid": null
           }
@@ -157,6 +148,15 @@
             "id": "Rene",
             "name": "Renê",
             "number": 91,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "matheuzinho-martins",
+            "name": "Matheuzinho",
+            "number": 10,
             "pos": "Ata",
             "grid": null
           }
@@ -222,9 +222,9 @@
         },
         {
           "player": {
-            "id": "lucasromero",
-            "name": "Lucas Romero",
-            "number": 29,
+            "id": "ze-lucas",
+            "name": "Zé Lucas",
+            "number": null,
             "pos": "Mei",
             "grid": null
           }
@@ -240,9 +240,9 @@
         },
         {
           "player": {
-            "id": "KenyArroyo",
-            "name": "Arroyo",
-            "number": 99,
+            "id": "gersonss",
+            "name": "Gerson",
+            "number": 8,
             "pos": "Mei",
             "grid": null
           }
@@ -258,19 +258,19 @@
         },
         {
           "player": {
-            "id": "gersonss",
-            "name": "Gerson",
-            "number": 8,
-            "pos": "Mei",
+            "id": "kaio-jorge",
+            "name": "Kaio Jorge",
+            "number": 19,
+            "pos": "Ata",
             "grid": null
           }
         },
         {
           "player": {
-            "id": "kaio-jorge",
-            "name": "Kaio Jorge",
-            "number": 19,
-            "pos": "Ata",
+            "id": "KenyArroyo",
+            "name": "Arroyo",
+            "number": 99,
+            "pos": "Mei",
             "grid": null
           }
         }

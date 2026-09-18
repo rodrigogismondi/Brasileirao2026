@@ -2,56 +2,6 @@
   "fixtures": [
     {
       "fixture": {
-        "id": 346286,
-        "timestamp": 1769040286,
-        "venue": {
-          "name": "Arena MRV",
-          "city": ""
-        },
-        "status": {
-          "long": "NS",
-          "short": "NS",
-          "elapsed": null
-        }
-      },
-      "league": {
-        "round": "Regular Season - 21"
-      },
-      "teams": {
-        "home": {
-          "id": 282,
-          "name": "Atlético-MG",
-          "logo": "https://s.sde.globo.com/media/organizations/2018/03/10/atletico-mg.svg"
-        },
-        "away": {
-          "id": 280,
-          "name": "Bragantino",
-          "logo": "https://s.sde.globo.com/media/organizations/2021/06/28/bragantino.svg"
-        }
-      },
-      "goals": {
-        "home": null,
-        "away": null
-      },
-      "score": {
-        "halftime": {
-          "home": null,
-          "away": null
-        },
-        "fulltime": {
-          "home": null,
-          "away": null
-        }
-      },
-      "odds": {
-        "home": 2.05,
-        "draw": 3.27,
-        "away": 3.83,
-        "source": "betexplorer"
-      }
-    },
-    {
-      "fixture": {
         "id": 346290,
         "timestamp": 1769040290,
         "venue": {
@@ -4745,8 +4695,8 @@
       },
       "odds": {
         "home": 1.93,
-        "draw": 3.28,
-        "away": 3.82,
+        "draw": 3.29,
+        "away": 3.83,
         "source": "betexplorer"
       }
     },
@@ -9245,8 +9195,8 @@
       },
       "odds": {
         "home": 2.13,
-        "draw": 3.37,
-        "away": 3.33,
+        "draw": 3.39,
+        "away": 3.34,
         "source": "betexplorer"
       }
     },
@@ -13548,9 +13498,9 @@
         }
       },
       "odds": {
-        "home": 2.18,
-        "draw": 3.43,
-        "away": 3.15,
+        "home": 2.15,
+        "draw": 3.46,
+        "away": 3.22,
         "source": "betexplorer"
       }
     },
@@ -13598,9 +13548,9 @@
         }
       },
       "odds": {
-        "home": 2.8,
-        "draw": 3.27,
-        "away": 2.48,
+        "home": 2.79,
+        "draw": 3.31,
+        "away": 2.47,
         "source": "betexplorer"
       }
     },
@@ -13648,9 +13598,9 @@
         }
       },
       "odds": {
-        "home": 1.55,
-        "draw": 3.98,
-        "away": 6.2,
+        "home": 1.54,
+        "draw": 4.01,
+        "away": 5.9,
         "source": "betexplorer"
       }
     },
@@ -13698,9 +13648,9 @@
         }
       },
       "odds": {
-        "home": 1.84,
-        "draw": 3.48,
-        "away": 4.21,
+        "home": 1.85,
+        "draw": 3.49,
+        "away": 4.18,
         "source": "betexplorer"
       }
     },
@@ -13748,9 +13698,9 @@
         }
       },
       "odds": {
-        "home": 4.12,
-        "draw": 3.55,
-        "away": 1.84,
+        "home": 4.08,
+        "draw": 3.56,
+        "away": 1.85,
         "source": "betexplorer"
       }
     },
@@ -13798,9 +13748,9 @@
         }
       },
       "odds": {
-        "home": 2.12,
+        "home": 2.13,
         "draw": 3.1,
-        "away": 3.67,
+        "away": 3.62,
         "source": "betexplorer"
       }
     },
@@ -13850,9 +13800,9 @@
         }
       },
       "odds": {
-        "home": 2.84,
+        "home": 2.83,
         "draw": 3.22,
-        "away": 2.46,
+        "away": 2.48,
         "source": "betexplorer"
       }
     },
@@ -13901,8 +13851,8 @@
       },
       "odds": {
         "home": 1.35,
-        "draw": 4.9,
-        "away": 8.15,
+        "draw": 4.92,
+        "away": 8.03,
         "source": "betexplorer"
       }
     },
@@ -13953,8 +13903,8 @@
       },
       "odds": {
         "home": 2.13,
-        "draw": 3.37,
-        "away": 3.33,
+        "draw": 3.39,
+        "away": 3.34,
         "source": "betexplorer"
       }
     },
@@ -14002,9 +13952,59 @@
         }
       },
       "odds": {
-        "home": 1.42,
+        "home": 1.41,
         "draw": 4.54,
-        "away": 7.31,
+        "away": 7.15,
+        "source": "betexplorer"
+      }
+    },
+    {
+      "fixture": {
+        "id": 346286,
+        "timestamp": 1791063000,
+        "venue": {
+          "name": "Arena MRV",
+          "city": ""
+        },
+        "status": {
+          "long": "NS",
+          "short": "NS",
+          "elapsed": null
+        }
+      },
+      "league": {
+        "round": "Regular Season - 21"
+      },
+      "teams": {
+        "home": {
+          "id": 282,
+          "name": "Atlético-MG",
+          "logo": "https://s.sde.globo.com/media/organizations/2018/03/10/atletico-mg.svg"
+        },
+        "away": {
+          "id": 280,
+          "name": "Bragantino",
+          "logo": "https://s.sde.globo.com/media/organizations/2021/06/28/bragantino.svg"
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {
+        "halftime": {
+          "home": null,
+          "away": null
+        },
+        "fulltime": {
+          "home": null,
+          "away": null
+        }
+      },
+      "odds": {
+        "home": 2.05,
+        "draw": 3.27,
+        "away": 3.83,
         "source": "betexplorer"
       }
     },
@@ -14052,9 +14052,9 @@
         }
       },
       "odds": {
-        "home": 1.72,
-        "draw": 3.57,
-        "away": 4.37,
+        "home": 1.73,
+        "draw": 3.53,
+        "away": 4.41,
         "source": "betexplorer"
       }
     },
@@ -14102,9 +14102,9 @@
         }
       },
       "odds": {
-        "home": 2.05,
-        "draw": 3.18,
-        "away": 3.45,
+        "home": 2.09,
+        "draw": 3.16,
+        "away": 3.44,
         "source": "betexplorer"
       }
     },
@@ -14152,9 +14152,9 @@
         }
       },
       "odds": {
-        "home": 2.47,
-        "draw": 3.25,
-        "away": 2.65,
+        "home": 2.49,
+        "draw": 3.23,
+        "away": 2.68,
         "source": "betexplorer"
       }
     },
@@ -14202,9 +14202,9 @@
         }
       },
       "odds": {
-        "home": 1.54,
-        "draw": 3.85,
-        "away": 5.5,
+        "home": 1.58,
+        "draw": 3.8,
+        "away": 5.36,
         "source": "betexplorer"
       }
     },
@@ -14252,9 +14252,9 @@
         }
       },
       "odds": {
-        "home": 2.48,
-        "draw": 3.32,
-        "away": 2.58,
+        "home": 2.52,
+        "draw": 3.24,
+        "away": 2.63,
         "source": "betexplorer"
       }
     },
@@ -14302,9 +14302,9 @@
         }
       },
       "odds": {
-        "home": 1.76,
-        "draw": 3.47,
-        "away": 4.28,
+        "home": 1.79,
+        "draw": 3.44,
+        "away": 4.25,
         "source": "betexplorer"
       }
     },
@@ -14352,9 +14352,9 @@
         }
       },
       "odds": {
-        "home": 3.93,
-        "draw": 3.57,
-        "away": 1.82,
+        "home": 3.89,
+        "draw": 3.49,
+        "away": 1.85,
         "source": "betexplorer"
       }
     },
@@ -14403,8 +14403,8 @@
       },
       "odds": {
         "home": 1.93,
-        "draw": 3.28,
-        "away": 3.82,
+        "draw": 3.29,
+        "away": 3.83,
         "source": "betexplorer"
       }
     },
@@ -14452,9 +14452,9 @@
         }
       },
       "odds": {
-        "home": 1.47,
-        "draw": 3.85,
-        "away": 6.38,
+        "home": 1.49,
+        "draw": 3.79,
+        "away": 6.39,
         "source": "betexplorer"
       }
     },
@@ -14502,9 +14502,9 @@
         }
       },
       "odds": {
-        "home": 1.56,
-        "draw": 3.93,
-        "away": 5.15,
+        "home": 1.59,
+        "draw": 3.84,
+        "away": 5.22,
         "source": "betexplorer"
       }
     },
@@ -20178,7 +20178,7 @@
     "mode": "idle",
     "liveIntervalMs": 900000
   },
-  "fetchedAt": "2026-09-18T00:08:03.802Z",
+  "fetchedAt": "2026-09-18T04:42:30.600Z",
   "source": "ge-globo",
   "meta": {
     "rodada": 28,
@@ -20223,8 +20223,8 @@
       37,
       38
     ],
-    "seasonSyncedAt": "2026-09-17T22:00:31.784Z",
-    "fullSeasonSync": false,
+    "seasonSyncedAt": "2026-09-18T04:42:25.961Z",
+    "fullSeasonSync": true,
     "edicao": "Campeonato Brasileiro 2026",
     "provider": "ge.globo.com",
     "scorersCount": 50,

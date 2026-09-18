@@ -44,9 +44,9 @@
     }
   },
   "odds": {
-    "home": 1.54,
-    "draw": 4,
-    "away": 6.1,
+    "home": 1.56,
+    "draw": 4.02,
+    "away": 6.3,
     "source": "betexplorer"
   },
   "events": [],
@@ -188,7 +188,7 @@
           "player": {
             "id": "fabbustos",
             "name": "Bustos",
-            "number": null,
+            "number": 14,
             "pos": "Def",
             "grid": null
           }
@@ -206,7 +206,7 @@
           "player": {
             "id": "rodrigo-moledo",
             "name": "Rodrigo Moledo",
-            "number": null,
+            "number": 4,
             "pos": "Def",
             "grid": null
           }
@@ -249,15 +249,6 @@
         },
         {
           "player": {
-            "id": "lavega",
-            "name": "Lavega",
-            "number": 7,
-            "pos": "Ata",
-            "grid": null
-          }
-        },
-        {
-          "player": {
             "id": "Paulo-Roberto",
             "name": "Paulo Roberto",
             "number": 18,
@@ -270,6 +261,15 @@
             "id": "pedrorocha",
             "name": "Pedro Rocha",
             "number": 32,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "lavega",
+            "name": "Lavega",
+            "number": 7,
             "pos": "Ata",
             "grid": null
           }

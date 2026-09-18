@@ -44,9 +44,9 @@
     }
   },
   "odds": {
-    "home": 2.82,
-    "draw": 3.27,
-    "away": 2.45,
+    "home": 2.84,
+    "draw": 3.26,
+    "away": 2.44,
     "source": "betexplorer"
   },
   "events": [],
@@ -57,7 +57,7 @@
         "name": "Vitória",
         "logo": "https://s.sde.globo.com/media/organizations/2025/12/18/Vitoria_2025.svg"
       },
-      "formation": "4-3-3",
+      "formation": "4-4-2",
       "coach": {
         "name": "Jair Ventura"
       },
@@ -118,6 +118,15 @@
         },
         {
           "player": {
+            "id": "emmanuelmartinez",
+            "name": "Emmanuel Martínez",
+            "number": null,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
             "id": "ze-vitor-neves",
             "name": "Zé Vitor",
             "number": 88,
@@ -129,7 +138,7 @@
           "player": {
             "id": "matheuzinho-martins",
             "name": "Matheuzinho",
-            "number": 10,
+            "number": null,
             "pos": "Mei",
             "grid": null
           }
@@ -148,15 +157,6 @@
             "id": "Rene",
             "name": "Renê",
             "number": 91,
-            "pos": "Ata",
-            "grid": null
-          }
-        },
-        {
-          "player": {
-            "id": "ditarzia",
-            "name": "Tarzia",
-            "number": 12,
             "pos": "Ata",
             "grid": null
           }

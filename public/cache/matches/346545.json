@@ -12,7 +12,7 @@
       "elapsed": null
     },
     "timerStart": null,
-    "timerStatus": null
+    "timerStatus": "PAUSADO"
   },
   "league": {
     "round": "Regular Season - 28"
@@ -44,13 +44,240 @@
     }
   },
   "odds": {
-    "home": 1.37,
-    "draw": 5,
-    "away": 8,
+    "home": 1.36,
+    "draw": 4.95,
+    "away": 7.99,
     "source": "betexplorer"
   },
   "events": [],
-  "lineups": [],
+  "lineups": [
+    {
+      "team": {
+        "id": 262,
+        "name": "Flamengo",
+        "logo": "https://s.sde.globo.com/media/organizations/2018/04/10/Flamengo-2018.svg"
+      },
+      "formation": "4-3-3",
+      "coach": {
+        "name": "Leonardo Jardim"
+      },
+      "startXI": [
+        {
+          "player": {
+            "id": "agustin-rossi",
+            "name": "Rossi",
+            "number": 1,
+            "pos": "Gol",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "emerson-aparecido",
+            "name": "Emerson Royal",
+            "number": 22,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "leo-ortiz",
+            "name": "Léo Ortiz",
+            "number": 3,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "leopereira",
+            "name": "Léo Pereira",
+            "number": 4,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "ayrtonlucas",
+            "name": "Ayrton Lucas",
+            "number": 6,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "jorginho-verona",
+            "name": "Jorginho",
+            "number": 21,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "saulniguez",
+            "name": "Saúl",
+            "number": 8,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "arrascaeta",
+            "name": "Arrascaeta",
+            "number": 10,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "carrascalj",
+            "name": "Carrascal",
+            "number": 15,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "pedro-guilhermea",
+            "name": "Pedro",
+            "number": 9,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "platagonz",
+            "name": "Plata",
+            "number": 19,
+            "pos": "Ata",
+            "grid": null
+          }
+        }
+      ],
+      "substitutes": []
+    },
+    {
+      "team": {
+        "id": 280,
+        "name": "Bragantino",
+        "logo": "https://s.sde.globo.com/media/organizations/2021/06/28/bragantino.svg"
+      },
+      "formation": "4-3-3",
+      "coach": {
+        "name": "Vagner Mancini"
+      },
+      "startXI": [
+        {
+          "player": {
+            "id": "tiagovolpi",
+            "name": "Tiago Volpi",
+            "number": 18,
+            "pos": "Gol",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "santanna",
+            "name": "Sant'Anna",
+            "number": 23,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "alix-vinicius",
+            "name": "Alix Vinicius",
+            "number": 4,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "gustavomarquessantos",
+            "name": "Gustavo Marques",
+            "number": 16,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "caue",
+            "name": "Cauê",
+            "number": 51,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "fabinho-freitas",
+            "name": "Fabinho",
+            "number": 5,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "lucas-barbosa",
+            "name": "Lucas Barbosa",
+            "number": 21,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "rodriguinho11111",
+            "name": "Rodriguinho",
+            "number": null,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "fernando11111",
+            "name": "Fernando",
+            "number": 11,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "pittais",
+            "name": "Isidro Pitta",
+            "number": 9,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "joseherrerama",
+            "name": "Herrera",
+            "number": null,
+            "pos": "Ata",
+            "grid": null
+          }
+        }
+      ],
+      "substitutes": []
+    }
+  ],
   "statistics": [],
   "sportsFieldUrl": null
 }

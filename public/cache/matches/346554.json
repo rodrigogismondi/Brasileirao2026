@@ -11,7 +11,7 @@
       "short": "NS",
       "elapsed": null
     },
-    "timerStart": null,
+    "timerStart": "2026-09-19T20:16:10.922Z",
     "timerStatus": "PAUSADO"
   },
   "league": {
@@ -57,7 +57,7 @@
         "name": "Remo",
         "logo": "https://s.sde.globo.com/media/organizations/2021/02/25/Remo-PA.svg"
       },
-      "formation": "4-3-3",
+      "formation": "4-4-2",
       "coach": {
         "name": "Thiago Carpini"
       },
@@ -127,19 +127,19 @@
         },
         {
           "player": {
-            "id": "vitor-bueno",
-            "name": "Vitor Bueno",
-            "number": 15,
+            "id": "zericardoaraujo",
+            "name": "Zé Ricardo",
+            "number": 55,
             "pos": "Mei",
             "grid": null
           }
         },
         {
           "player": {
-            "id": "yagopikachu",
-            "name": "Yago Pikachu",
-            "number": 22,
-            "pos": "Ata",
+            "id": "vitor-bueno",
+            "name": "Vitor Bueno",
+            "number": 15,
+            "pos": "Mei",
             "grid": null
           }
         },
@@ -154,15 +154,106 @@
         },
         {
           "player": {
+            "id": "antoniogaleano",
+            "name": "Galeano",
+            "number": 21,
+            "pos": "Ata",
+            "grid": null
+          }
+        }
+      ],
+      "substitutes": [
+        {
+          "player": {
+            "id": "ygor-vinhas",
+            "name": "Ygor Vinhas",
+            "number": 94,
+            "pos": "Gol",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "ivan-quaresma",
+            "name": "Ivan",
+            "number": 97,
+            "pos": "Gol",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "matheusalexandre",
+            "name": "Matheus Alexandre",
+            "number": 2,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "leoandrade",
+            "name": "Léo Andrade",
+            "number": 5,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "jaderson",
+            "name": "Jáderson",
+            "number": 10,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "yagopikachu",
+            "name": "Yago Pikachu",
+            "number": 22,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "david_braga",
+            "name": "David Braga",
+            "number": 26,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "gabrielpoveda",
+            "name": "Gabriel Poveda",
+            "number": 9,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
             "id": "alefmanga",
             "name": "Alef Manga",
             "number": 11,
             "pos": "Ata",
             "grid": null
           }
+        },
+        {
+          "player": {
+            "id": "tico-junior",
+            "name": "Tico",
+            "number": 61,
+            "pos": "Ata",
+            "grid": null
+          }
         }
-      ],
-      "substitutes": []
+      ]
     },
     {
       "team": {
@@ -204,9 +295,9 @@
         },
         {
           "player": {
-            "id": "joao-ananias",
-            "name": "João Ananias",
-            "number": 26,
+            "id": "luanperes",
+            "name": "Luan Peres",
+            "number": 14,
             "pos": "Def",
             "grid": null
           }
@@ -222,15 +313,6 @@
         },
         {
           "player": {
-            "id": "joaoschmidt",
-            "name": "João Schmidt",
-            "number": null,
-            "pos": "Mei",
-            "grid": null
-          }
-        },
-        {
-          "player": {
             "id": "olivachris",
             "name": "Oliva",
             "number": 28,
@@ -240,9 +322,18 @@
         },
         {
           "player": {
-            "id": "rollheiser",
-            "name": "Rollheiser",
-            "number": 32,
+            "id": "gustavo-henrique",
+            "name": "Gustavo Henrique",
+            "number": 48,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "arthurhr",
+            "name": "Arthur Melo",
+            "number": 6,
             "pos": "Mei",
             "grid": null
           }
@@ -258,24 +349,133 @@
         },
         {
           "player": {
-            "id": "gabriel-gabigol",
-            "name": "Gabriel",
-            "number": 9,
+            "id": "rony-botafogo",
+            "name": "Rony",
+            "number": 33,
             "pos": "Ata",
             "grid": null
           }
         },
         {
           "player": {
-            "id": "rony-botafogo",
-            "name": "Rony",
-            "number": 11,
+            "id": "gabriel-gabigol",
+            "name": "Gabriel",
+            "number": 9,
             "pos": "Ata",
             "grid": null
           }
         }
       ],
-      "substitutes": []
+      "substitutes": [
+        {
+          "player": {
+            "id": "joaopaulo-santos",
+            "name": "João Paulo",
+            "number": 34,
+            "pos": "Gol",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "igor-vinicius",
+            "name": "Igor Vinícius",
+            "number": 18,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "gabrielmenino",
+            "name": "Gabriel Menino",
+            "number": 25,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "joao-ananias",
+            "name": "João Ananias",
+            "number": 26,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "joao-alencar-santos",
+            "name": "João Alencar",
+            "number": 42,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "joaoschmidt",
+            "name": "João Schmidt",
+            "number": 5,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "thaciano",
+            "name": "Thaciano",
+            "number": 16,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "terceros",
+            "name": "Miguelito",
+            "number": 30,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "guscaballero",
+            "name": "Caballero",
+            "number": 17,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "davizinho",
+            "name": "Davizinho",
+            "number": 27,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "viniciusmoreiradelima",
+            "name": "Lima",
+            "number": 45,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "samuel-pierri",
+            "name": "Samuel Pierri",
+            "number": 81,
+            "pos": "Mei",
+            "grid": null
+          }
+        }
+      ]
     }
   ],
   "statistics": [],

@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 14
+      "elapsed": 25
     },
     "timerStart": "2026-09-19T20:00:46.530Z",
     "timerStatus": "INICIADO"
@@ -30,7 +30,7 @@
     }
   },
   "goals": {
-    "home": 0,
+    "home": 1,
     "away": 0
   },
   "score": {
@@ -243,6 +243,134 @@
       "assist": {
         "name": "Passou por cima!"
       }
+    },
+    {
+      "time": {
+        "elapsed": 12,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Reinaldo tenta lançamento de três dedos para Igor Formiga, Alex Telles ganha em velocidade e toca pela lateral",
+      "player": {
+        "name": "Reinaldo tenta lançamento de três dedos para Igo"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 15,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O jogo começou com o Botafogo criando a primeira boa chance em cabeçada de Arthur Cabral, que passou por cima. O time visitante controlava a posse no ataque, mas foi o Mirassol que abriu o placar aos 15 minutos. Após cruzamento na área, Igor Formiga cabeceou para defesa de Gabriel Batista. No rebote, a bola sobrou para Eduardo, que não perdoou e fez 1 a 0 para a equipe da casa.",
+      "player": {
+        "name": "Mirassol na frente com gol de Eduardo!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 15,
+        "extra": null
+      },
+      "team": {
+        "id": 2305,
+        "name": "Mirassol"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "player": {
+        "name": "Eduardo"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 15,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Após os primeiros 15 minutos, o Botafogo dita o ritmo da partida e joga no campo do Mirassol. Com volume ofensivo, o time carioca criou a única grande chance até agora: aos 10 minutos, Vitinho cruzou da direita e Arthur Cabral subiu livre para cabecear por cima do gol. O Mirassol se defende bem e teve um lampejo individual com Reinaldo, mas ainda encontra dificuldades para criar jogadas de perigo.",
+      "player": {
+        "name": "Botafogo pressiona e quase abre o placar"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 15,
+        "extra": null
+      },
+      "team": {
+        "id": 263,
+        "name": "Botafogo"
+      },
+      "type": "Important",
+      "detail": "Botafogo domina a bola no campo de ataque. Alex Telles cruza na área, Arthur Cabral não alcança e Medina tenta o toque. Mas ela fica nas mãos de Walter.",
+      "player": {
+        "name": "Botafogo domina a bola no campo de ataque. Alex "
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 20,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Botafogo começou melhor, pressionando e criando boas chances com Arthur Cabral, que parou em uma defesa do goleiro e mandou uma cabeçada perigosa para fora. Apesar do domínio visitante, quem marcou foi o Mirassol. Aos 15 minutos, Igor Formiga cabeceou, Gabriel Batista defendeu e, no rebote, Eduardo não perdoou, fazendo 1 a 0 para o time da casa e invertendo o cenário do jogo.",
+      "player": {
+        "name": "Mirassol sai na frente em casa!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 20,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Mirassol mantém a pressão e tenta o segundo gol. Botafogo tenta recuperar a posse de bola para reagir.",
+      "player": {
+        "name": "Mirassol mantém a pressão e tenta o segundo gol."
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 21,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Eduardo faz o lançamento na direção do Bruno Santos, mas Ferraresi faz o corte e fica com a bola.",
+      "player": {
+        "name": "Eduardo faz o lançamento na direção do Bruno San"
+      },
+      "assist": null
     }
   ],
   "lineups": [
@@ -700,31 +828,31 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "29%"
+          "value": "44%"
         },
         {
           "type": "Total Passes",
-          "value": 35
+          "value": 118
         },
         {
           "type": "Pass Accuracy",
-          "value": "80%"
+          "value": "83%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 7
+          "value": 20
         },
         {
           "type": "Total Shots",
-          "value": 0
+          "value": 3
         },
         {
           "type": "Shots on Goal",
-          "value": 0
+          "value": 2
         },
         {
           "type": "Shots off Goal",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Blocked Shots",
@@ -748,11 +876,11 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 0
+          "value": 2
         },
         {
           "type": "Tackles",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Fouls",
@@ -776,35 +904,35 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "71%"
+          "value": "56%"
         },
         {
           "type": "Total Passes",
-          "value": 77
+          "value": 164
         },
         {
           "type": "Pass Accuracy",
-          "value": "81%"
+          "value": "85%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 15
+          "value": 24
         },
         {
           "type": "Total Shots",
-          "value": 0
+          "value": 3
         },
         {
           "type": "Shots on Goal",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Shots off Goal",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Blocked Shots",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Hit Woodwork",
@@ -824,11 +952,11 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Tackles",
-          "value": 2
+          "value": 4
         },
         {
           "type": "Fouls",

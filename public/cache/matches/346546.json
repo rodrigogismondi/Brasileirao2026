@@ -11,7 +11,7 @@
       "short": "NS",
       "elapsed": null
     },
-    "timerStart": null,
+    "timerStart": "2026-09-19T22:30:56.322Z",
     "timerStatus": "PAUSADO"
   },
   "league": {
@@ -82,9 +82,9 @@
         },
         {
           "player": {
-            "id": "cuestacar",
-            "name": "Carlos Cuesta",
-            "number": 46,
+            "id": "saldivia",
+            "name": "Saldivia",
+            "number": 4,
             "pos": "Def",
             "grid": null
           }
@@ -162,7 +162,116 @@
           }
         }
       ],
-      "substitutes": []
+      "substitutes": [
+        {
+          "player": {
+            "id": "danielfuzato",
+            "name": "Daniel Fuzato",
+            "number": 13,
+            "pos": "Gol",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "joserodriguezlu",
+            "name": "Puma Rodríguez",
+            "number": 2,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "gabrielpereira0500",
+            "name": "Gabriel Pereira",
+            "number": 55,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "lucasfreitas",
+            "name": "Lucas Freitas",
+            "number": 43,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "lucas-piton",
+            "name": "Lucas Piton",
+            "number": 6,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "jairrodrigues",
+            "name": "Jair",
+            "number": 8,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "ramon-rique",
+            "name": "Ramon Rique",
+            "number": 83,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "JohanRojas",
+            "name": "Johan Rojas",
+            "number": 10,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "adsonsoares",
+            "name": "Adson",
+            "number": 28,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "david1234",
+            "name": "David",
+            "number": 7,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "spinelli",
+            "name": "Spinelli",
+            "number": 17,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "marinohin",
+            "name": "Marino Hinestroza",
+            "number": 18,
+            "pos": "Ata",
+            "grid": null
+          }
+        }
+      ]
     },
     {
       "team": {
@@ -186,10 +295,10 @@
         },
         {
           "player": {
-            "id": "fabbustos",
-            "name": "Bustos",
-            "number": 14,
-            "pos": "Def",
+            "id": "Vitor-Tissi",
+            "name": "Vitor Tissi",
+            "number": 50,
+            "pos": "Mei",
             "grid": null
           }
         },
@@ -249,9 +358,9 @@
         },
         {
           "player": {
-            "id": "Paulo-Roberto",
-            "name": "Paulo Roberto",
-            "number": 18,
+            "id": "lavega",
+            "name": "Lavega",
+            "number": 7,
             "pos": "Ata",
             "grid": null
           }
@@ -267,15 +376,124 @@
         },
         {
           "player": {
-            "id": "lavega",
-            "name": "Lavega",
-            "number": 7,
+            "id": "fabinholuciano",
+            "name": "Fabinho",
+            "number": 28,
             "pos": "Ata",
             "grid": null
           }
         }
       ],
-      "substitutes": []
+      "substitutes": [
+        {
+          "player": {
+            "id": "pedrorangel",
+            "name": "Pedro Rangel",
+            "number": 22,
+            "pos": "Gol",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "fabbustos",
+            "name": "Bustos",
+            "number": 14,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "maicon7",
+            "name": "Maicon",
+            "number": 3,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "gabriel-ibson",
+            "name": "Gabriel Ibson",
+            "number": 27,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "rodrigo-gelado",
+            "name": "Rodrigo Gelado",
+            "number": 66,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "nicolasfonseca",
+            "name": "Nicolás Fonseca",
+            "number": 5,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "vinipaulista",
+            "name": "Vini Paulista",
+            "number": 36,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "Paulo-Roberto",
+            "name": "Paulo Roberto",
+            "number": 18,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "davidcoxa",
+            "name": "David",
+            "number": 33,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "lucas-crepaldi",
+            "name": "Lucas Crepaldi",
+            "number": 37,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "renatomarques",
+            "name": "Renato Marques",
+            "number": 78,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "rodrigorodrigues",
+            "name": "Rodrigo Rodrigues",
+            "number": 99,
+            "pos": "Ata",
+            "grid": null
+          }
+        }
+      ]
     }
   ],
   "statistics": [],

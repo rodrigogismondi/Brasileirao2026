@@ -7,12 +7,12 @@
       "city": ""
     },
     "status": {
-      "long": "HT",
-      "short": "HT",
-      "elapsed": 45
+      "long": "2H",
+      "short": "2H",
+      "elapsed": 51
     },
-    "timerStart": "2026-09-19T20:51:04.161Z",
-    "timerStatus": "PAUSADO"
+    "timerStart": "2026-09-19T21:07:10.202Z",
+    "timerStatus": "INICIADO"
   },
   "league": {
     "round": "Regular Season - 28"
@@ -56,11 +56,65 @@
         "extra": null
       },
       "team": {
+        "id": 263,
+        "name": "Botafogo"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Edenílson"
+      },
+      "assist": {
+        "name": "Huguinho"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 263,
+        "name": "Botafogo"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Ziyech"
+      },
+      "assist": {
+        "name": "Montoro"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 263,
+        "name": "Botafogo"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Júnior Santos"
+      },
+      "assist": {
+        "name": "Danilo Pereira"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
         "id": 0,
         "name": ""
       },
       "type": "Important",
-      "detail": "Mirassol e Botafogo travaram duelo equilibrado nos primeiros 45 minutos no Maião. O time carioca começou tendo mais controle e posse de bola, mas aos poucos o time da casa foi crescendo na partida, tomando as rédeas e soube ser efetivo nas chances que teve. Primeiro com Edson Carioca aproveitando falha de Alex Telles, finalizando, pegando o rebote e ajeitando para Eduardo na entrada da área abrir o placar. Depois, foi Monzon que comprometeu. Edson novamente cruzou, o zagueiro botafoguense furou a tentativa de corte e a bola sobrou para Eduardo, outra vez, completamente livre na entrada da pequena área para fazer o segundo. O Botafogo até conseguiu construir boas jogadas, mas falhou quase todas as vezes na hora do último passe ou da finalização.",
+      "detail": "Mirassol e Botafogo travaram duelo equilibrado nos primeiros 45 minutos no Maião. O time carioca começou tendo mais controle e posse de bola, mas aos poucos o time da casa foi crescendo na partida, tomando as rédeas e soube ser efetivo nas chances que teve. Primeiro com Igor Formiga aproveitando falha de Alex Telles, finalizando, pegando o rebote e ajeitando para Eduardo na entrada da área abrir o placar. Depois, foi Monzon que comprometeu. Edson Carioca cruzou, o zagueiro botafoguense furou a tentativa de corte e a bola sobrou para Eduardo, outra vez, completamente livre na entrada da pequena área para fazer o segundo. O Botafogo até conseguiu construir boas jogadas, mas falhou quase todas as vezes na hora do último passe ou da finalização.",
       "player": {
         "name": "Resumo do primeiro tempo"
       },
@@ -652,6 +706,38 @@
     },
     {
       "time": {
+        "elapsed": 45,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Ziyech recebe pelo meio, lança Medina na esquerda e recebe de volta na área. O marroquino chuta e a bola explode em Igor Formiga.",
+      "player": {
+        "name": "Cartão de visitas!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 45,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Recomeça a partida entre Mirassol e Botafogo. Vamos para os 45 minutos finais",
+      "player": {
+        "name": "Autoriza o árbitro!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
         "elapsed": 46,
         "extra": null
       },
@@ -713,6 +799,40 @@
         "name": "Acréscimos"
       },
       "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 47,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Que primeiro tempo do Mirassol! O time da casa foi para o intervalo vencendo por 2 a 0, com show de Eduardo. Ele marcou aos 15 minutos, aproveitando rebote do goleiro Gabriel Batista, e ampliou nos acréscimos após falha feia da zaga do Botafogo. O time carioca até ameaçou no início, mas viu Edson Carioca quase fazer o segundo, parado em grande defesa. O segundo tempo começou agora.",
+      "player": {
+        "name": "Dobradinha de Eduardo comanda o Mirassol"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 47,
+        "extra": null
+      },
+      "team": {
+        "id": 263,
+        "name": "Botafogo"
+      },
+      "type": "Important",
+      "detail": "Ziyech lança Vitinho pela ponta direita, ele cruza na segunda trave, Danilo chega e bate rasteiro. Walter defende com o pé e a bola sai pela linha de fundo. A arbitragem marca impedimento de Vitinho ao fim da jogada.",
+      "player": {
+        "name": "Danilo"
+      },
+      "assist": {
+        "name": "Defende, Walter!"
+      }
     },
     {
       "time": {
@@ -1218,11 +1338,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "45%"
+          "value": "44%"
         },
         {
           "type": "Total Passes",
-          "value": 264
+          "value": 267
         },
         {
           "type": "Pass Accuracy",
@@ -1230,7 +1350,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 36
+          "value": 37
         },
         {
           "type": "Total Shots",
@@ -1270,7 +1390,7 @@
         },
         {
           "type": "Tackles",
-          "value": 9
+          "value": 11
         },
         {
           "type": "Fouls",
@@ -1294,11 +1414,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "55%"
+          "value": "56%"
         },
         {
           "type": "Total Passes",
-          "value": 340
+          "value": 368
         },
         {
           "type": "Pass Accuracy",
@@ -1306,7 +1426,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 39
+          "value": 42
         },
         {
           "type": "Total Shots",
@@ -1314,7 +1434,7 @@
         },
         {
           "type": "Shots on Goal",
-          "value": 2
+          "value": 1
         },
         {
           "type": "Shots off Goal",
@@ -1322,7 +1442,7 @@
         },
         {
           "type": "Blocked Shots",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Hit Woodwork",
@@ -1346,7 +1466,7 @@
         },
         {
           "type": "Tackles",
-          "value": 6
+          "value": 7
         },
         {
           "type": "Fouls",

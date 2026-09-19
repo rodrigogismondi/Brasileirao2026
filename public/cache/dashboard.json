@@ -13511,7 +13511,7 @@
         "status": {
           "long": "2H",
           "short": "2H",
-          "elapsed": 73
+          "elapsed": 94
         },
         "timerStart": "2026-09-19T22:37:26.448Z",
         "timerStatus": "INICIADO"
@@ -13532,8 +13532,8 @@
         }
       },
       "goals": {
-        "home": 0,
-        "away": 0
+        "home": 1,
+        "away": 2
       },
       "score": {
         "halftime": {
@@ -18777,6 +18777,28 @@
             {
               "rank": 8,
               "team": {
+                "id": 277,
+                "name": "Santos",
+                "logo": "https://s.sde.globo.com/media/organizations/2018/03/12/santos.svg"
+              },
+              "points": 38,
+              "goalsDiff": 1,
+              "form": "DWWWW",
+              "description": "Copa Sudamericana",
+              "all": {
+                "played": 27,
+                "win": 10,
+                "draw": 8,
+                "lose": 9,
+                "goals": {
+                  "for": 41,
+                  "against": 40
+                }
+              }
+            },
+            {
+              "rank": 9,
+              "team": {
                 "id": 294,
                 "name": "Coritiba",
                 "logo": "https://s.sde.globo.com/media/organizations/2018/03/11/coritiba.svg"
@@ -18797,7 +18819,7 @@
               }
             },
             {
-              "rank": 9,
+              "rank": 10,
               "team": {
                 "id": 280,
                 "name": "Bragantino",
@@ -18815,28 +18837,6 @@
                 "goals": {
                   "for": 32,
                   "against": 29
-                }
-              }
-            },
-            {
-              "rank": 10,
-              "team": {
-                "id": 277,
-                "name": "Santos",
-                "logo": "https://s.sde.globo.com/media/organizations/2018/03/12/santos.svg"
-              },
-              "points": 36,
-              "goalsDiff": 0,
-              "form": "DWWWD",
-              "description": "Copa Sudamericana",
-              "all": {
-                "played": 27,
-                "win": 9,
-                "draw": 9,
-                "lose": 9,
-                "goals": {
-                  "for": 39,
-                  "against": 39
                 }
               }
             },
@@ -19023,18 +19023,18 @@
                 "name": "Remo",
                 "logo": "https://s.sde.globo.com/media/organizations/2021/02/25/Remo-PA.svg"
               },
-              "points": 24,
-              "goalsDiff": -14,
-              "form": "LLLLD",
+              "points": 23,
+              "goalsDiff": -15,
+              "form": "LLLLL",
               "description": "Relegation",
               "all": {
                 "played": 28,
                 "win": 5,
-                "draw": 9,
-                "lose": 14,
+                "draw": 8,
+                "lose": 15,
                 "goals": {
-                  "for": 31,
-                  "against": 45
+                  "for": 32,
+                  "against": 47
                 }
               }
             },
@@ -19113,17 +19113,17 @@
     {
       "player": {
         "id": 3,
-        "name": "Carlos Vinícius",
-        "photo": "https://s.sde.globo.com/media/person_role/2026/02/09/photo_140x140_GTU3C2P.png"
+        "name": "Gabriel",
+        "photo": "https://s.sde.globo.com/media/person_role/2026/03/27/photo_140x140_z4GBWzj.png"
       },
       "statistics": [
         {
           "team": {
-            "name": "Grêmio",
-            "logo": "https://s.sde.globo.com/media/organizations/2014/04/14/gremio_60x60.png"
+            "name": "Santos",
+            "logo": "https://s.sde.globo.com/media/organizations/2014/04/14/santos_60x60.png"
           },
           "goals": {
-            "total": 10,
+            "total": 11,
             "assists": null
           },
           "games": {
@@ -19135,14 +19135,14 @@
     {
       "player": {
         "id": 4,
-        "name": "Gabriel",
-        "photo": "https://s.sde.globo.com/media/person_role/2026/03/27/photo_140x140_z4GBWzj.png"
+        "name": "Carlos Vinícius",
+        "photo": "https://s.sde.globo.com/media/person_role/2026/02/09/photo_140x140_GTU3C2P.png"
       },
       "statistics": [
         {
           "team": {
-            "name": "Santos",
-            "logo": "https://s.sde.globo.com/media/organizations/2014/04/14/santos_60x60.png"
+            "name": "Grêmio",
+            "logo": "https://s.sde.globo.com/media/organizations/2014/04/14/gremio_60x60.png"
           },
           "goals": {
             "total": 10,
@@ -20174,7 +20174,7 @@
     "mode": "live",
     "liveIntervalMs": 20000
   },
-  "fetchedAt": "2026-09-19T23:06:02.653Z",
+  "fetchedAt": "2026-09-19T23:27:09.117Z",
   "source": "ge-globo",
   "meta": {
     "rodada": 28,

@@ -7,12 +7,12 @@
       "city": ""
     },
     "status": {
-      "long": "2H",
-      "short": "2H",
-      "elapsed": 94
+      "long": "FT",
+      "short": "FT",
+      "elapsed": 90
     },
     "timerStart": "2026-09-19T22:37:26.448Z",
-    "timerStatus": "INICIADO"
+    "timerStatus": "PAUSADO"
   },
   "league": {
     "round": "Regular Season - 28"
@@ -39,8 +39,8 @@
       "away": null
     },
     "fulltime": {
-      "home": null,
-      "away": null
+      "home": 1,
+      "away": 2
     }
   },
   "odds": {
@@ -50,6 +50,22 @@
     "source": "betexplorer"
   },
   "events": [
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 277,
+        "name": "Santos"
+      },
+      "type": "Important",
+      "detail": "Alef Manga bate boca com Marllon na saída de campo. Enquanto isso, jogadores do Santos comemoram a vitória.",
+      "player": {
+        "name": "Alef Manga bate boca com Marllon na saída de cam"
+      },
+      "assist": null
+    },
     {
       "time": {
         "elapsed": 0,
@@ -1021,6 +1037,24 @@
         "name": "Finalizações"
       },
       "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 39,
+        "extra": null
+      },
+      "team": {
+        "id": 364,
+        "name": "Remo"
+      },
+      "type": "Important",
+      "detail": "Cartão amarelo para Gabriel Poveda",
+      "player": {
+        "name": "Gabriel Poveda"
+      },
+      "assist": {
+        "name": "Cartão amarelo para Gabriel Poveda"
+      }
     },
     {
       "time": {
@@ -2250,22 +2284,6 @@
     },
     {
       "time": {
-        "elapsed": 84,
-        "extra": null
-      },
-      "team": {
-        "id": 364,
-        "name": "Remo"
-      },
-      "type": "Card",
-      "detail": "Yellow Card",
-      "player": {
-        "name": "Gabriel Poveda"
-      },
-      "assist": null
-    },
-    {
-      "time": {
         "elapsed": 85,
         "extra": null
       },
@@ -2408,6 +2426,302 @@
       },
       "assist": {
         "name": "Mais sete"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 91,
+        "extra": null
+      },
+      "team": {
+        "id": 277,
+        "name": "Santos"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Luan Peres"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 91,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Falta de Luan Peres em Poveda.",
+      "player": {
+        "name": "Falta de Luan Peres em Poveda."
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 91,
+        "extra": null
+      },
+      "team": {
+        "id": 277,
+        "name": "Santos"
+      },
+      "type": "Important",
+      "detail": "Santos se fecha para tentar segurar a vitória.",
+      "player": {
+        "name": "Santos se fecha para tentar segurar a vitória."
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 92,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Zagueiro foi advertido por discussão com Luan Peres.",
+      "player": {
+        "name": "Zagueiro foi advertido por discussão com Luan Pe"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 92,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Que segundo tempo eletrizante! Depois de um jogo amarrado, Rony abriu o placar para o Santos aos 32 minutos. O Remo não se abateu e empatou aos 37 com Marllon, aproveitando uma falha do goleiro Diógenes. Mas a reação do Peixe foi imediata: aos 41, Gabigol marcou após escanteio e fez 2 a 1. Para complicar, Gabriel Poveda foi expulso, deixando o Remo com um a menos nos acréscimos.",
+      "player": {
+        "name": "Chuva de gols e expulsão no fim"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 92,
+        "extra": null
+      },
+      "team": {
+        "id": 364,
+        "name": "Remo"
+      },
+      "type": "Card",
+      "detail": "Red Card",
+      "player": {
+        "name": "Gabriel Poveda"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 92,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Que final de partida! Depois de um jogo amarrado, a rede balançou três vezes em menos de dez minutos. Rony abriu o placar para o Santos aos 32, mas Marllon empatou para o Remo aos 37, aproveitando falha do goleiro. A emoção não parou: aos 41, Gabigol fez 2 a 1 para o Santos. Com 47 minutos, Gabriel Poveda ainda foi expulso, deixando o Remo com um a menos na busca pelo empate.",
+      "player": {
+        "name": "Final com três gols e emoção!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 93,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Yago Pikachu cobra falta em cima da barreira.",
+      "player": {
+        "name": "Yago Pikachu cobra falta em cima da barreira."
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 93,
+        "extra": null
+      },
+      "team": {
+        "id": 277,
+        "name": "Santos"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Gabriel Menino"
+      },
+      "assist": {
+        "name": "Gabriel Bontempo"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 93,
+        "extra": null
+      },
+      "team": {
+        "id": 277,
+        "name": "Santos"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Thaciano"
+      },
+      "assist": {
+        "name": "Gabriel"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 93,
+        "extra": null
+      },
+      "team": {
+        "id": 277,
+        "name": "Santos"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Gabriel Bontempo"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 94,
+        "extra": null
+      },
+      "team": {
+        "id": 364,
+        "name": "Remo"
+      },
+      "type": "Important",
+      "detail": "Novo escanteio para o Remo. Yago Pikachu na bola.",
+      "player": {
+        "name": "Novo escanteio para o Remo. Yago Pikachu na bola"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 95,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O jogo explodiu nos minutos finais! Após um segundo tempo de poucas chances, Rony abriu o placar para o Santos aos 32 minutos. O Remo não se abateu e empatou logo depois com Marllon, aproveitando falha de Diógenes. Mas aos 41, Gabigol marcou de cabeça e deixou o Santos na frente por 2 a 1. A partida ainda teve a expulsão de Poveda e uma defesa salvadora de Diógenes no último lance.",
+      "player": {
+        "name": "Final eletrizante com gols e expulsão!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 95,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Quase o empate. Após cobracobrança de escanteio, Tchamba cabeceia no canto, mas Diógenes consegue fazer a defesa.",
+      "player": {
+        "name": "UUUUUHHH"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 97,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Um segundo tempo de tirar o fôlego! Rony abriu o placar para o Santos aos 32 minutos, mas o Remo buscou o empate com Marllon, aproveitando falha do goleiro Diógenes. A alegria durou pouco, pois Gabigol recolocou o time visitante em vantagem, fazendo 2 a 1. A partida esquentou nos minutos finais, com a expulsão de Poveda, do Remo, e chances claras desperdiçadas por ambos os lados.",
+      "player": {
+        "name": "Virada, gols e emoção no fim do jogo!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 97,
+        "extra": null
+      },
+      "team": {
+        "id": 277,
+        "name": "Santos"
+      },
+      "type": "Important",
+      "detail": "Gabriel Menino sai cara a cara com Marcelo Rangel e desperdiça chance incrível. Ele tenta encobrir o goleiro, mas manda nas mãos dele.",
+      "player": {
+        "name": "Gabriel Bontempo"
+      },
+      "assist": {
+        "name": "Perdeu!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 98,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "É fim de jogo! O Santos vence o Remo no Mangueirão.",
+      "player": {
+        "name": "Apita o árbitro"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 98,
+        "extra": null
+      },
+      "team": {
+        "id": 277,
+        "name": "Santos"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Caballero"
+      },
+      "assist": {
+        "name": "Rony"
       }
     }
   ],
@@ -2848,11 +3162,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "46%"
+          "value": "48%"
         },
         {
           "type": "Total Passes",
-          "value": 514
+          "value": 560
         },
         {
           "type": "Pass Accuracy",
@@ -2860,15 +3174,15 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 76
+          "value": 83
         },
         {
           "type": "Total Shots",
-          "value": 11
+          "value": 14
         },
         {
           "type": "Shots on Goal",
-          "value": 4
+          "value": 5
         },
         {
           "type": "Shots off Goal",
@@ -2876,7 +3190,7 @@
         },
         {
           "type": "Blocked Shots",
-          "value": 3
+          "value": 5
         },
         {
           "type": "Hit Woodwork",
@@ -2884,7 +3198,7 @@
         },
         {
           "type": "Corner Kicks",
-          "value": 4
+          "value": 5
         },
         {
           "type": "Offsides",
@@ -2896,7 +3210,7 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 3
+          "value": 4
         },
         {
           "type": "Tackles",
@@ -2908,11 +3222,11 @@
         },
         {
           "type": "Yellow Cards",
-          "value": 2
+          "value": 1
         },
         {
           "type": "Red Cards",
-          "value": 0
+          "value": 1
         }
       ]
     },
@@ -2924,11 +3238,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "54%"
+          "value": "52%"
         },
         {
           "type": "Total Passes",
-          "value": 528
+          "value": 540
         },
         {
           "type": "Pass Accuracy",
@@ -2936,15 +3250,15 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 52
+          "value": 53
         },
         {
           "type": "Total Shots",
-          "value": 8
+          "value": 9
         },
         {
           "type": "Shots on Goal",
-          "value": 3
+          "value": 4
         },
         {
           "type": "Shots off Goal",
@@ -2972,7 +3286,7 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 6
+          "value": 8
         },
         {
           "type": "Tackles",
@@ -2980,11 +3294,11 @@
         },
         {
           "type": "Fouls",
-          "value": 13
+          "value": 14
         },
         {
           "type": "Yellow Cards",
-          "value": 3
+          "value": 4
         },
         {
           "type": "Red Cards",

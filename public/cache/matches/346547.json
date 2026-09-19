@@ -11,7 +11,7 @@
       "short": "NS",
       "elapsed": null
     },
-    "timerStart": null,
+    "timerStart": "2026-09-19T22:33:36.618Z",
     "timerStatus": "PAUSADO"
   },
   "league": {
@@ -91,27 +91,27 @@
         },
         {
           "player": {
-            "id": "sabino-monteiro",
-            "name": "Sabino",
-            "number": 35,
+            "id": "rafaeltoloi",
+            "name": "Rafael Tolói",
+            "number": 2,
             "pos": "Def",
             "grid": null
           }
         },
         {
           "player": {
-            "id": "lucasramon",
-            "name": "Lucas Ramon",
-            "number": 19,
+            "id": "pedro-lima",
+            "name": "Pedro Lima",
+            "number": 32,
             "pos": "Def",
             "grid": null
           }
         },
         {
           "player": {
-            "id": "danielzinho111",
-            "name": "Danielzinho",
-            "number": 94,
+            "id": "djhordney-ferreira",
+            "name": "Djhordney",
+            "number": 48,
             "pos": "Mei",
             "grid": null
           }
@@ -162,7 +162,116 @@
           }
         }
       ],
-      "substitutes": []
+      "substitutes": [
+        {
+          "player": {
+            "id": "coronelcm",
+            "name": "Coronel",
+            "number": 31,
+            "pos": "Gol",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "lucasramon",
+            "name": "Lucas Ramon",
+            "number": 19,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "sabino-monteiro",
+            "name": "Sabino",
+            "number": 35,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "wendell2",
+            "name": "Wendell",
+            "number": 18,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "danielzinho111",
+            "name": "Danielzinho",
+            "number": 94,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "pedro-ferreira",
+            "name": "Pedro Ferreira",
+            "number": 46,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "cauly-oliveira-souza",
+            "name": "Cauly",
+            "number": 80,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "ferreira01",
+            "name": "Ferreira",
+            "number": 11,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "andresilva",
+            "name": "André Silva",
+            "number": 17,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "victorsa",
+            "name": "Victor Sá",
+            "number": 27,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "gustavo-santana",
+            "name": "Gustavo Santana",
+            "number": 43,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "RyanFrancisco",
+            "name": "Ryan Francisco",
+            "number": 49,
+            "pos": "Ata",
+            "grid": null
+          }
+        }
+      ]
     },
     {
       "team": {
@@ -170,26 +279,17 @@
         "name": "Internacional",
         "logo": "https://s.sde.globo.com/media/organizations/2018/03/11/internacional.svg"
       },
-      "formation": "3-6-1",
+      "formation": "4-3-3",
       "coach": {
         "name": "Paulo Pezzolano"
       },
       "startXI": [
         {
           "player": {
-            "id": "matheus-cunhaq",
-            "name": "Matheus Cunha",
-            "number": 23,
+            "id": "anthoni",
+            "name": "Anthoni",
+            "number": 12,
             "pos": "Gol",
-            "grid": null
-          }
-        },
-        {
-          "player": {
-            "id": "vitornaum",
-            "name": "Vitinho",
-            "number": 28,
-            "pos": "Def",
             "grid": null
           }
         },
@@ -231,15 +331,6 @@
         },
         {
           "player": {
-            "id": "paulinho",
-            "name": "Paulinho",
-            "number": 27,
-            "pos": "Mei",
-            "grid": null
-          }
-        },
-        {
-          "player": {
             "id": "brunohenrique",
             "name": "Bruno Henrique",
             "number": 8,
@@ -249,18 +340,9 @@
         },
         {
           "player": {
-            "id": "carbonerojo",
-            "name": "Carbonero",
-            "number": 7,
-            "pos": "Mei",
-            "grid": null
-          }
-        },
-        {
-          "player": {
-            "id": "bernabei",
-            "name": "Bernabei",
-            "number": 26,
+            "id": "paulinho",
+            "name": "Paulinho",
+            "number": 27,
             "pos": "Mei",
             "grid": null
           }
@@ -270,12 +352,139 @@
             "id": "alanpatrick",
             "name": "Alan Patrick",
             "number": 10,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "vitornaum",
+            "name": "Vitinho",
+            "number": 28,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "carbonerojo",
+            "name": "Carbonero",
+            "number": 7,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "bernabei",
+            "name": "Bernabei",
+            "number": 26,
             "pos": "Ata",
             "grid": null
           }
         }
       ],
-      "substitutes": []
+      "substitutes": [
+        {
+          "player": {
+            "id": "filipesirio",
+            "name": "Filipe Sirio",
+            "number": 24,
+            "pos": "Gol",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "braianaguirre",
+            "name": "Aguirre",
+            "number": 35,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "felixtorres",
+            "name": "Félix Torres",
+            "number": 4,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "juninho-coritiba",
+            "name": "Juninho",
+            "number": 18,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "ronaldo123",
+            "name": "Ronaldo",
+            "number": 16,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "thiagomaia",
+            "name": "Thiago Maia",
+            "number": 29,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "allexsilva",
+            "name": "Allex",
+            "number": 31,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "alerrandro",
+            "name": "Alerrandro",
+            "number": 9,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "eliasson",
+            "name": "Eliasson",
+            "number": 17,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "sanabriatonny",
+            "name": "Sanabria",
+            "number": 19,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "joao-victor",
+            "name": "João Victor",
+            "number": 44,
+            "pos": "Ata",
+            "grid": null
+          }
+        }
+      ]
     }
   ],
   "statistics": [],

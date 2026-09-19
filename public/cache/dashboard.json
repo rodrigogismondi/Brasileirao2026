@@ -13409,12 +13409,12 @@
           "city": ""
         },
         "status": {
-          "long": "HT",
-          "short": "HT",
-          "elapsed": 45
+          "long": "2H",
+          "short": "2H",
+          "elapsed": 55
         },
-        "timerStart": "2026-09-19T19:48:51.902Z",
-        "timerStatus": "PAUSADO"
+        "timerStart": "2026-09-19T20:04:17.323Z",
+        "timerStatus": "INICIADO"
       },
       "league": {
         "round": "Regular Season - 28"
@@ -13463,10 +13463,10 @@
         "status": {
           "long": "1H",
           "short": "1H",
-          "elapsed": null
+          "elapsed": 14
         },
-        "timerStart": "2026-09-19T19:03:27.420Z",
-        "timerStatus": "PAUSADO"
+        "timerStart": "2026-09-19T20:00:46.530Z",
+        "timerStatus": "INICIADO"
       },
       "league": {
         "round": "Regular Season - 28"
@@ -13484,8 +13484,8 @@
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
       "score": {
         "halftime": {
@@ -18821,6 +18821,28 @@
             {
               "rank": 10,
               "team": {
+                "id": 263,
+                "name": "Botafogo",
+                "logo": "https://s.sde.globo.com/media/organizations/2019/02/04/botafogo-svg.svg"
+              },
+              "points": 36,
+              "goalsDiff": -2,
+              "form": "LLDDD",
+              "description": "Copa Sudamericana",
+              "all": {
+                "played": 28,
+                "win": 9,
+                "draw": 9,
+                "lose": 10,
+                "goals": {
+                  "for": 41,
+                  "against": 43
+                }
+              }
+            },
+            {
+              "rank": 11,
+              "team": {
                 "id": 277,
                 "name": "Santos",
                 "logo": "https://s.sde.globo.com/media/organizations/2018/03/12/santos.svg"
@@ -18837,28 +18859,6 @@
                 "goals": {
                   "for": 39,
                   "against": 39
-                }
-              }
-            },
-            {
-              "rank": 11,
-              "team": {
-                "id": 263,
-                "name": "Botafogo",
-                "logo": "https://s.sde.globo.com/media/organizations/2019/02/04/botafogo-svg.svg"
-              },
-              "points": 35,
-              "goalsDiff": -2,
-              "form": "LLLDD",
-              "description": "Copa Sudamericana",
-              "all": {
-                "played": 27,
-                "win": 9,
-                "draw": 8,
-                "lose": 10,
-                "goals": {
-                  "for": 41,
-                  "against": 43
                 }
               }
             },
@@ -18935,14 +18935,14 @@
                 "name": "Mirassol",
                 "logo": "https://s.sde.globo.com/media/organizations/2026/07/17/MIrassol.svg"
               },
-              "points": 29,
+              "points": 30,
               "goalsDiff": -11,
-              "form": "LDDWD",
+              "form": "DDWDD",
               "description": null,
               "all": {
-                "played": 27,
+                "played": 28,
                 "win": 7,
-                "draw": 8,
+                "draw": 9,
                 "lose": 12,
                 "goals": {
                   "for": 31,
@@ -20174,7 +20174,7 @@
     "mode": "live",
     "liveIntervalMs": 20000
   },
-  "fetchedAt": "2026-09-19T19:59:18.541Z",
+  "fetchedAt": "2026-09-19T20:14:54.861Z",
   "source": "ge-globo",
   "meta": {
     "rodada": 28,

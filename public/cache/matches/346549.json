@@ -9,10 +9,10 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": null
+      "elapsed": 14
     },
-    "timerStart": "2026-09-19T19:03:27.420Z",
-    "timerStatus": "PAUSADO"
+    "timerStart": "2026-09-19T20:00:46.530Z",
+    "timerStatus": "INICIADO"
   },
   "league": {
     "round": "Regular Season - 28"
@@ -30,8 +30,8 @@
     }
   },
   "goals": {
-    "home": null,
-    "away": null
+    "home": 0,
+    "away": 0
   },
   "score": {
     "halftime": {
@@ -49,7 +49,202 @@
     "away": 3.45,
     "source": "betexplorer"
   },
-  "events": [],
+  "events": [
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Edson Carioca é lançado na ponta direita, empurra Alex Telles e o árbitro marca falta",
+      "player": {
+        "name": "Edson Carioca é lançado na ponta direita, empurr"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Começa a partida entre Mirassol e Botafogo pelo Campeonato Brasileiro!",
+      "player": {
+        "name": "Bola rolando!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 1,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Medina dispara pela direita, domina e cruza rasteiro para Danilo Pereira. Antes, Reinaldo aparece e faz o corte pela linha lateral",
+      "player": {
+        "name": "Medina dispara pela direita, domina e cruza rast"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 2,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Edson Carioca tenta o lançamente para Bruno Santos, mas Ferraresi ganha na velocidade e ajeita de cabeça para Gabriel Batista",
+      "player": {
+        "name": "Edson Carioca tenta o lançamente para Bruno Sant"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 5,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "A bola rola e o que vemos é um começo de jogo bem estudado. O Botafogo tenta construir pelos lados, primeiro com Medina pela direita e depois com Montoro e Alex Telles na esquerda, mas a defesa do Mirassol se mostra atenta nos cortes. O time da casa aposta na velocidade de Edson Carioca, que busca o jogo, mas ainda sem conseguir criar uma chance clara de gol nestes cinco minutos iniciais.",
+      "player": {
+        "name": "Duelo tático nos primeiros minutos"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 5,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Montoro domina com liberdade pela esquerda, toca atrás para Alex Telles que cruza na área. João Victor dá chutão para tirar a bola da zona perigosa",
+      "player": {
+        "name": "Montoro domina com liberdade pela esquerda, toca"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 7,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Alex Telles cobra o escanteio na primeira trave, e Neto Moura sobe mais que todo mundo para fazer o corte de cabeça",
+      "player": {
+        "name": "Alex Telles cobra o escanteio na primeira trave,"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 7,
+        "extra": null
+      },
+      "team": {
+        "id": 263,
+        "name": "Botafogo"
+      },
+      "type": "Important",
+      "detail": "Montoro disputa com Denilson na ponta esquerda e consegue escanteio para o Botafogo",
+      "player": {
+        "name": "Montoro disputa com Denilson na ponta esquerda e"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 8,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O duelo começa com as equipes se estudando e o jogo concentrado nas laterais. O Botafogo buscou o ataque com Montoro e Medina, que tentou um cruzamento rasteiro, mas a defesa do Mirassol cortou. Perto dos 9 minutos, Reinaldo levantou a torcida com uma linda caneta. Edson Carioca também se mostrou ativo pela direita. Início de muita disputa e poucas chances claras até o momento.",
+      "player": {
+        "name": "Jogo estudado e com brilho individual"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 8,
+        "extra": null
+      },
+      "team": {
+        "id": 2305,
+        "name": "Mirassol"
+      },
+      "type": "Important",
+      "detail": "Reinaldo dá linda caneta em Medina, dispara pela esquerda e é desarmado por Vitinho. Lateral para o Mirassol",
+      "player": {
+        "name": "Reinaldo dá linda caneta em Medina, dispara pela"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 10,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "A partida começa equilibrada, mas é o Botafogo quem cria a primeira grande chance aos dez minutos. Após um bom cruzamento de Vitinho pela direita, Arthur Cabral sobe mais que a zaga e cabeceia com perigo, por cima do gol. Antes disso, o Mirassol já tinha mostrado qualidade individual em uma bela caneta de Reinaldo para cima de Medina. Jogo estudado, mas com momentos de emoção.",
+      "player": {
+        "name": "Cabeçada perigosa agita o começo!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 10,
+        "extra": null
+      },
+      "team": {
+        "id": 263,
+        "name": "Botafogo"
+      },
+      "type": "Important",
+      "detail": "Vitinho recebe com liberdade pela direita, faz a ginga de corpo, leva para o pé esquerdo e cruza para Arthur Cabral. O centroavante ganha pelo alto e cabeceia para fora. Primeira boa finalização da partida.",
+      "player": {
+        "name": "Arthur Cabral"
+      },
+      "assist": {
+        "name": "Passou por cima!"
+      }
+    }
+  ],
   "lineups": [
     {
       "team": {
@@ -496,6 +691,159 @@
       ]
     }
   ],
-  "statistics": [],
+  "statistics": [
+    {
+      "team": {
+        "id": 2305,
+        "name": "Mirassol"
+      },
+      "statistics": [
+        {
+          "type": "Ball Possession",
+          "value": "29%"
+        },
+        {
+          "type": "Total Passes",
+          "value": 35
+        },
+        {
+          "type": "Pass Accuracy",
+          "value": "80%"
+        },
+        {
+          "type": "Incomplete Passes",
+          "value": 7
+        },
+        {
+          "type": "Total Shots",
+          "value": 0
+        },
+        {
+          "type": "Shots on Goal",
+          "value": 0
+        },
+        {
+          "type": "Shots off Goal",
+          "value": 0
+        },
+        {
+          "type": "Blocked Shots",
+          "value": 0
+        },
+        {
+          "type": "Hit Woodwork",
+          "value": 0
+        },
+        {
+          "type": "Corner Kicks",
+          "value": 0
+        },
+        {
+          "type": "Offsides",
+          "value": 0
+        },
+        {
+          "type": "Penalties",
+          "value": 0
+        },
+        {
+          "type": "Goalkeeper Saves",
+          "value": 0
+        },
+        {
+          "type": "Tackles",
+          "value": 1
+        },
+        {
+          "type": "Fouls",
+          "value": 1
+        },
+        {
+          "type": "Yellow Cards",
+          "value": 0
+        },
+        {
+          "type": "Red Cards",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "team": {
+        "id": 263,
+        "name": "Botafogo"
+      },
+      "statistics": [
+        {
+          "type": "Ball Possession",
+          "value": "71%"
+        },
+        {
+          "type": "Total Passes",
+          "value": 77
+        },
+        {
+          "type": "Pass Accuracy",
+          "value": "81%"
+        },
+        {
+          "type": "Incomplete Passes",
+          "value": 15
+        },
+        {
+          "type": "Total Shots",
+          "value": 0
+        },
+        {
+          "type": "Shots on Goal",
+          "value": 0
+        },
+        {
+          "type": "Shots off Goal",
+          "value": 0
+        },
+        {
+          "type": "Blocked Shots",
+          "value": 0
+        },
+        {
+          "type": "Hit Woodwork",
+          "value": 0
+        },
+        {
+          "type": "Corner Kicks",
+          "value": 1
+        },
+        {
+          "type": "Offsides",
+          "value": 0
+        },
+        {
+          "type": "Penalties",
+          "value": 0
+        },
+        {
+          "type": "Goalkeeper Saves",
+          "value": 0
+        },
+        {
+          "type": "Tackles",
+          "value": 2
+        },
+        {
+          "type": "Fouls",
+          "value": 0
+        },
+        {
+          "type": "Yellow Cards",
+          "value": 0
+        },
+        {
+          "type": "Red Cards",
+          "value": 0
+        }
+      ]
+    }
+  ],
   "sportsFieldUrl": null
 }

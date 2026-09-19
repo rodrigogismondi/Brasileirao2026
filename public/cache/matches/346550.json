@@ -7,12 +7,12 @@
       "city": ""
     },
     "status": {
-      "long": "1H",
-      "short": "1H",
-      "elapsed": 41
+      "long": "HT",
+      "short": "HT",
+      "elapsed": 45
     },
-    "timerStart": "2026-09-19T19:00:04.756Z",
-    "timerStatus": "INICIADO"
+    "timerStart": "2026-09-19T19:48:51.902Z",
+    "timerStatus": "PAUSADO"
   },
   "league": {
     "round": "Regular Season - 28"
@@ -30,8 +30,8 @@
     }
   },
   "goals": {
-    "home": 1,
-    "away": 0
+    "home": 0,
+    "away": 1
   },
   "score": {
     "halftime": {
@@ -50,6 +50,58 @@
     "source": "betexplorer"
   },
   "events": [
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 315,
+        "name": "Chapecoense"
+      },
+      "type": "Important",
+      "detail": "O Atlético dominou, passou a maior parte da etapa no campo ofensivo. O time teve boas chances para abrir o placar. Alexsander parou no travessão. Fred teve a finalização cortada em cima da linha por Dudu. Natanael exigiu defesa do goleiro Anderson. Alexsander teve outra chance e mandou para as redes, mas foi marcado impedimento. Nos minutos finais, deixou o ritmo cair e pagou caro. A Chapecoense cresceu no jogo, achou espaços. Assustou com Giovanni Augusto, em chute que desviou na zaga, e com Dudu, que teve o arremate defendido por Gabriel Delfim. Túlio Eduardo abriu o placar aos 43 minutos.",
+      "player": {
+        "name": "PRIMEIRO TEMPO"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 315,
+        "name": "Chapecoense"
+      },
+      "type": "Important",
+      "detail": "- Primeiramente, é inexplicável, né? Acho que grande parte das pessoas conhecem minha história, o que aconteceu, até porque repercutiu. Então, pra mim, além de ser um alívio, né? Estar fazendo um boa partida e realizando um sonho, mas eu queria exaltar toda a equipe, porque a gente merece muito. A gente sabe o quanto a gente trabalha durante a semana. E essa crescente que a gente vem tendo, eu não posso falar de antes, porque eu não tava aqui. Mas desde o momento que eu cheguei, eu falo por mim, eu me doei ao máximo a cada segundo lá. Então, é fruto de muito trabalho.",
+      "player": {
+        "name": "Túlio Eduardo"
+      },
+      "assist": {
+        "name": "FALA, TÚLIO!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 282,
+        "name": "Atlético-MG"
+      },
+      "type": "Important",
+      "detail": "- Falta decidir melhor, ter mais capricho nos últimos momentos. É sair no segundo tempo melhor e concentrado pra gente buscar a virada aqui em casa.",
+      "player": {
+        "name": "Cuello"
+      },
+      "assist": {
+        "name": "FALA, CUELLO!"
+      }
+    },
     {
       "time": {
         "elapsed": 0,
@@ -1083,6 +1135,232 @@
         "name": "Natanael toca no meio para Fred, mas o volante é"
       },
       "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 40,
+        "extra": null
+      },
+      "team": {
+        "id": 315,
+        "name": "Chapecoense"
+      },
+      "type": "Important",
+      "detail": "Marcinho avança pela esquerda e toca na entrada da área para Giovanni Augusto. O meia domina e chuta colocado. A bola desvia e passa por cima do gol. Escanteio.",
+      "player": {
+        "name": "Giovanni Augusto"
+      },
+      "assist": {
+        "name": "UHHh!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 40,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Cuello tenta o cruzamento na área, mas a bola explode em Dudu.",
+      "player": {
+        "name": "Cuello tenta o cruzamento na área, mas a bola ex"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 41,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Giovanni cobra o escanteio na área. Delfim defende.",
+      "player": {
+        "name": "Giovanni cobra o escanteio na área. Delfim defen"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 42,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Atlético-MG começou com tudo, pressionando desde o início. Logo aos 3 minutos, Alexsander acertou o travessão. O time da casa seguiu criando chances, parando em uma defesa em cima da linha de Dudu e tendo um gol de Alexsander anulado por impedimento pelo VAR. A Chapecoense reagiu nos minutos finais e obrigou o goleiro Delfim a fazer grande defesa, mas o placar segue zerado.",
+      "player": {
+        "name": "Pressão, trave e gol anulado!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 42,
+        "extra": null
+      },
+      "team": {
+        "id": 315,
+        "name": "Chapecoense"
+      },
+      "type": "Important",
+      "detail": "Marcinho cruza na área para Dudu, que domina, tira da marcação e chuta. A bola desvia em Túlio. Delfim se estica todo e espalma. O camisa 7 fica com a sobra e finaliza. A zaga tira.",
+      "player": {
+        "name": "PRESSÃO DA CHAPE!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 43,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Atlético-MG pressionou durante quase todo o primeiro tempo. A equipe mineira acertou a trave com Alexsander, teve um gol anulado por impedimento e viu Dudu salvar uma finalização de Fred em cima da linha. Mas quem não faz, leva. Na reta final, a Chapecoense cresceu, equilibrou as ações e marcou aos 43 minutos com Túlio Eduardo, abrindo 1 a 0 no placar.",
+      "player": {
+        "name": "Chapecoense abre o placar no fim da etapa!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 43,
+        "extra": null
+      },
+      "team": {
+        "id": 315,
+        "name": "Chapecoense"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "player": {
+        "name": "Túlio Eduardo"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 45,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Bernard avança pela esquerda e tenta o passe para o meio da área, mas Camilo tira.",
+      "player": {
+        "name": "Bernard avança pela esquerda e tenta o passe par"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 45,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Vamos até os 47 minutos.",
+      "player": {
+        "name": "+2"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 46,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Um primeiro tempo de domínio absoluto do Atlético-MG, que empilhou chances de gol. A equipe acertou o travessão com Alexsander, teve um chute de Fred salvo em cima da linha e um gol anulado pelo VAR. Apesar da pressão, quem marcou foi a Chapecoense. Aos 43 minutos, Túlio Eduardo aproveitou a assistência de Dudu e abriu o placar, fazendo 1 a 0 para os visitantes.",
+      "player": {
+        "name": "Galo pressiona, mas Chape abre o placar"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 46,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Minda toca no meio para Fred, mas é derrubado por Yago Felipe. O árbitro marca.",
+      "player": {
+        "name": "Minda toca no meio para Fred, mas é derrubado po"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 47,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Bernard rola a bola para Maycon, que chuta rasteiro. A sobra fica com Bernard na direita e cruza. O cruzamento explode na defesa e sai em lateral.",
+      "player": {
+        "name": "Bernard rola a bola para Maycon, que chuta raste"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 47,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Atlético-MG dominou completamente a primeira etapa, criando um volume impressionante de chances. A equipe acertou a trave com Alexsander, teve um gol anulado pelo VAR e viu Fred ter um chute salvo em cima da linha por Dudu. Mas quem não faz, leva. A Chapecoense suportou a pressão e, aos 43 minutos, foi letal: Túlio Eduardo aproveitou assistência de Dudu e abriu o placar, fazendo 1 a 0.",
+      "player": {
+        "name": "Chapecoense castiga e abre o placar no fim"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 48,
+        "extra": null
+      },
+      "team": {
+        "id": 315,
+        "name": "Chapecoense"
+      },
+      "type": "Important",
+      "detail": "Fim de primeiro tempo. A Chapecoense vai vencendo o Atlético por 1 a 0.",
+      "player": {
+        "name": "APITA O ÁRBITRO"
+      },
+      "assist": null
     }
   ],
   "lineups": [
@@ -1526,7 +1804,7 @@
         },
         {
           "type": "Total Passes",
-          "value": 308
+          "value": 353
         },
         {
           "type": "Pass Accuracy",
@@ -1534,7 +1812,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 40
+          "value": 46
         },
         {
           "type": "Total Shots",
@@ -1546,11 +1824,11 @@
         },
         {
           "type": "Shots off Goal",
-          "value": 5
+          "value": 4
         },
         {
           "type": "Blocked Shots",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Hit Woodwork",
@@ -1570,7 +1848,7 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Tackles",
@@ -1578,7 +1856,7 @@
         },
         {
           "type": "Fouls",
-          "value": 5
+          "value": 6
         },
         {
           "type": "Yellow Cards",
@@ -1602,7 +1880,7 @@
         },
         {
           "type": "Total Passes",
-          "value": 160
+          "value": 191
         },
         {
           "type": "Pass Accuracy",
@@ -1610,23 +1888,23 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 27
+          "value": 32
         },
         {
           "type": "Total Shots",
-          "value": 2
+          "value": 5
         },
         {
           "type": "Shots on Goal",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Shots off Goal",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Blocked Shots",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Hit Woodwork",
@@ -1634,7 +1912,7 @@
         },
         {
           "type": "Corner Kicks",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Offsides",
@@ -1646,7 +1924,7 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 5
+          "value": 4
         },
         {
           "type": "Tackles",
@@ -1654,7 +1932,7 @@
         },
         {
           "type": "Fouls",
-          "value": 3
+          "value": 6
         },
         {
           "type": "Yellow Cards",

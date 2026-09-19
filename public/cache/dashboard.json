@@ -13409,12 +13409,12 @@
           "city": ""
         },
         "status": {
-          "long": "1H",
-          "short": "1H",
-          "elapsed": 41
+          "long": "HT",
+          "short": "HT",
+          "elapsed": 45
         },
-        "timerStart": "2026-09-19T19:00:04.756Z",
-        "timerStatus": "INICIADO"
+        "timerStart": "2026-09-19T19:48:51.902Z",
+        "timerStatus": "PAUSADO"
       },
       "league": {
         "round": "Regular Season - 28"
@@ -13432,8 +13432,8 @@
         }
       },
       "goals": {
-        "home": 1,
-        "away": 0
+        "home": 0,
+        "away": 1
       },
       "score": {
         "halftime": {
@@ -13461,8 +13461,8 @@
           "city": ""
         },
         "status": {
-          "long": "NS",
-          "short": "NS",
+          "long": "1H",
+          "short": "1H",
           "elapsed": null
         },
         "timerStart": "2026-09-19T19:03:27.420Z",
@@ -18733,28 +18733,6 @@
             {
               "rank": 6,
               "team": {
-                "id": 282,
-                "name": "Atlético-MG",
-                "logo": "https://s.sde.globo.com/media/organizations/2018/03/10/atletico-mg.svg"
-              },
-              "points": 42,
-              "goalsDiff": 5,
-              "form": "DWLWW",
-              "description": "Copa Sudamericana",
-              "all": {
-                "played": 27,
-                "win": 12,
-                "draw": 6,
-                "lose": 9,
-                "goals": {
-                  "for": 36,
-                  "against": 31
-                }
-              }
-            },
-            {
-              "rank": 7,
-              "team": {
                 "id": 283,
                 "name": "Cruzeiro",
                 "logo": "https://s.sde.globo.com/media/organizations/2021/02/13/cruzeiro_2021.svg"
@@ -18771,6 +18749,28 @@
                 "goals": {
                   "for": 39,
                   "against": 39
+                }
+              }
+            },
+            {
+              "rank": 7,
+              "team": {
+                "id": 282,
+                "name": "Atlético-MG",
+                "logo": "https://s.sde.globo.com/media/organizations/2018/03/10/atletico-mg.svg"
+              },
+              "points": 39,
+              "goalsDiff": 3,
+              "form": "DWLWL",
+              "description": "Copa Sudamericana",
+              "all": {
+                "played": 27,
+                "win": 11,
+                "draw": 6,
+                "lose": 10,
+                "goals": {
+                  "for": 35,
+                  "against": 32
                 }
               }
             },
@@ -19045,18 +19045,18 @@
                 "name": "Chapecoense",
                 "logo": "https://s.sde.globo.com/media/organizations/2021/06/21/CHAPECOENSE-2018.svg"
               },
-              "points": 17,
-              "goalsDiff": -25,
-              "form": "WLWLL",
+              "points": 20,
+              "goalsDiff": -23,
+              "form": "WLWLW",
               "description": "Relegation",
               "all": {
                 "played": 27,
-                "win": 3,
+                "win": 4,
                 "draw": 8,
-                "lose": 16,
+                "lose": 15,
                 "goals": {
-                  "for": 28,
-                  "against": 53
+                  "for": 29,
+                  "against": 52
                 }
               }
             }
@@ -20174,7 +20174,7 @@
     "mode": "live",
     "liveIntervalMs": 20000
   },
-  "fetchedAt": "2026-09-19T19:41:53.001Z",
+  "fetchedAt": "2026-09-19T19:59:18.541Z",
   "source": "ge-globo",
   "meta": {
     "rodada": 28,

@@ -13409,12 +13409,12 @@
           "city": ""
         },
         "status": {
-          "long": "NS",
-          "short": "NS",
-          "elapsed": null
+          "long": "1H",
+          "short": "1H",
+          "elapsed": 14
         },
-        "timerStart": "2026-09-19T18:01:30.014Z",
-        "timerStatus": "PAUSADO"
+        "timerStart": "2026-09-19T19:00:04.756Z",
+        "timerStatus": "INICIADO"
       },
       "league": {
         "round": "Regular Season - 28"
@@ -13432,8 +13432,8 @@
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
       "score": {
         "halftime": {
@@ -13464,9 +13464,7 @@
           "long": "NS",
           "short": "NS",
           "elapsed": null
-        },
-        "timerStart": null,
-        "timerStatus": "PAUSADO"
+        }
       },
       "league": {
         "round": "Regular Season - 28"
@@ -13516,9 +13514,7 @@
           "long": "NS",
           "short": "NS",
           "elapsed": null
-        },
-        "timerStart": null,
-        "timerStatus": "PAUSADO"
+        }
       },
       "league": {
         "round": "Regular Season - 28"
@@ -13568,9 +13564,7 @@
           "long": "NS",
           "short": "NS",
           "elapsed": null
-        },
-        "timerStart": null,
-        "timerStatus": "PAUSADO"
+        }
       },
       "league": {
         "round": "Regular Season - 28"
@@ -13620,9 +13614,7 @@
           "long": "NS",
           "short": "NS",
           "elapsed": null
-        },
-        "timerStart": null,
-        "timerStatus": "PAUSADO"
+        }
       },
       "league": {
         "round": "Regular Season - 28"
@@ -13672,9 +13664,7 @@
           "long": "NS",
           "short": "NS",
           "elapsed": null
-        },
-        "timerStart": null,
-        "timerStatus": "PAUSADO"
+        }
       },
       "league": {
         "round": "Regular Season - 28"
@@ -13724,9 +13714,7 @@
           "long": "NS",
           "short": "NS",
           "elapsed": null
-        },
-        "timerStart": null,
-        "timerStatus": "PAUSADO"
+        }
       },
       "league": {
         "round": "Regular Season - 28"
@@ -13776,9 +13764,7 @@
           "long": "NS",
           "short": "NS",
           "elapsed": null
-        },
-        "timerStart": null,
-        "timerStatus": "PAUSADO"
+        }
       },
       "league": {
         "round": "Regular Season - 28"
@@ -13828,9 +13814,7 @@
           "long": "NS",
           "short": "NS",
           "elapsed": null
-        },
-        "timerStart": null,
-        "timerStatus": "PAUSADO"
+        }
       },
       "league": {
         "round": "Regular Season - 28"
@@ -13880,9 +13864,7 @@
           "long": "NS",
           "short": "NS",
           "elapsed": null
-        },
-        "timerStart": null,
-        "timerStatus": "PAUSADO"
+        }
       },
       "league": {
         "round": "Regular Season - 28"
@@ -18775,14 +18757,14 @@
                 "name": "Atlético-MG",
                 "logo": "https://s.sde.globo.com/media/organizations/2018/03/10/atletico-mg.svg"
               },
-              "points": 39,
+              "points": 40,
               "goalsDiff": 4,
               "form": "WDWLW",
               "description": "Copa Sudamericana",
               "all": {
-                "played": 26,
+                "played": 27,
                 "win": 11,
-                "draw": 6,
+                "draw": 7,
                 "lose": 9,
                 "goals": {
                   "for": 35,
@@ -19061,14 +19043,14 @@
                 "name": "Chapecoense",
                 "logo": "https://s.sde.globo.com/media/organizations/2021/06/21/CHAPECOENSE-2018.svg"
               },
-              "points": 17,
+              "points": 18,
               "goalsDiff": -24,
               "form": "DWLWL",
               "description": "Relegation",
               "all": {
-                "played": 26,
+                "played": 27,
                 "win": 3,
-                "draw": 8,
+                "draw": 9,
                 "lose": 15,
                 "goals": {
                   "for": 28,
@@ -20187,10 +20169,10 @@
   "budget": {
     "used": 0,
     "remaining": 100,
-    "mode": "prematch",
-    "liveIntervalMs": 120000
+    "mode": "live",
+    "liveIntervalMs": 20000
   },
-  "fetchedAt": "2026-09-19T18:57:19.362Z",
+  "fetchedAt": "2026-09-19T19:14:55.295Z",
   "source": "ge-globo",
   "meta": {
     "rodada": 28,

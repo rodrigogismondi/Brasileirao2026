@@ -7,12 +7,12 @@
       "city": ""
     },
     "status": {
-      "long": "NS",
-      "short": "NS",
-      "elapsed": null
+      "long": "1H",
+      "short": "1H",
+      "elapsed": 14
     },
-    "timerStart": "2026-09-19T18:01:30.014Z",
-    "timerStatus": "PAUSADO"
+    "timerStart": "2026-09-19T19:00:04.756Z",
+    "timerStatus": "INICIADO"
   },
   "league": {
     "round": "Regular Season - 28"
@@ -30,8 +30,8 @@
     }
   },
   "goals": {
-    "home": null,
-    "away": null
+    "home": 0,
+    "away": 0
   },
   "score": {
     "halftime": {
@@ -49,7 +49,298 @@
     "away": 6.52,
     "source": "betexplorer"
   },
-  "events": [],
+  "events": [
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Pascini avança pela esquerda, corta para o meio, passa por dois, mas é interceptado por Kauan.",
+      "player": {
+        "name": "Pascini avança pela esquerda, corta para o meio,"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 282,
+        "name": "Atlético-MG"
+      },
+      "type": "Important",
+      "detail": "Atlético começa a partida trocando passes e procurando espaços para atacar.",
+      "player": {
+        "name": "Atlético começa a partida trocando passes e proc"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O árbitro apita, e a bola rola. A saída é do Atlético.",
+      "player": {
+        "name": "COMEÇA O JOGO!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 1,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Fred recebe na ponta esquerda, mas Dudu chega e tira. A bola sai em lateral para o Atlético.",
+      "player": {
+        "name": "Fred recebe na ponta esquerda, mas Dudu chega e "
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 3,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O jogo mal começou e o Atlético-MG já pressiona em busca do primeiro gol. A equipe da casa controla a posse de bola e, com apenas três minutos, quase abriu o placar em uma grande chance. Bernard fez boa jogada pela esquerda e tocou para Alexsander, que tentou encobrir o goleiro e carimbou o travessão. A Chapecoense se salvou por muito pouco no lance.",
+      "player": {
+        "name": "Travessão salva a Chapecoense no início!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 3,
+        "extra": null
+      },
+      "team": {
+        "id": 282,
+        "name": "Atlético-MG"
+      },
+      "type": "Important",
+      "detail": "Bernard avança bem pela esquerda e toca na área para Alexsander. O volante tenta encobrir o goleiro. A bola vai no travessão!",
+      "player": {
+        "name": "Alexsander"
+      },
+      "assist": {
+        "name": "NO TRAVESSÃO!!!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 4,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Anderson sai do gol para defender a bola, e Minda acaba pisando no goleiro. Ele fica caído, mas logo se levanta.",
+      "player": {
+        "name": "Anderson sai do gol para defender a bola, e Mind"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 4,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Pascini invade a área e chuta cruzado. Anderson espalma.",
+      "player": {
+        "name": "Pascini invade a área e chuta cruzado. Anderson "
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 5,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Pascini desce pela esquerda e toca em Minda. O atacante domina na entrada da área, mas perde a posse.",
+      "player": {
+        "name": "Pascini desce pela esquerda e toca em Minda. O a"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 6,
+        "extra": null
+      },
+      "team": {
+        "id": 282,
+        "name": "Atlético-MG"
+      },
+      "type": "Important",
+      "detail": "O Atlético-MG começou a partida com uma pressão avassaladora. Com pouco mais de 6 minutos, o time da casa já acumula chances. A melhor delas veio aos 3, quando Alexsander recebeu de Bernard e carimbou o travessão. Pascini também exigiu boa defesa de Anderson, que já foi obrigado a trabalhar para segurar o placar zerado neste início de forte domínio do mandante.",
+      "player": {
+        "name": "Travessão impede o gol do Atlético no início"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 6,
+        "extra": null
+      },
+      "team": {
+        "id": 282,
+        "name": "Atlético-MG"
+      },
+      "type": "Important",
+      "detail": "Cuello toca na ponta direita para Minda, que corta e chuta rasteiro. Anderson defende com tranquilidade.",
+      "player": {
+        "name": "Minda"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 7,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Natanael toca na direita para Cuello. O atacante domina e corta para o meio, mas é interceptado pela zaga.",
+      "player": {
+        "name": "Natanael toca na direita para Cuello. O atacante"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 8,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Marcinho avança pela ponta direita, mas é pressionado por Pascini. Dudu chega para ajudar, mas o lateral do Atlético é esperto e joga a bola em cima dele para ganhar o arremesso.",
+      "player": {
+        "name": "Marcinho avança pela ponta direita, mas é pressi"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 9,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Marcinho desce novamente pela direita e tenta o cruzamento rasteiro na área. Vitor Hugo intercepta. A bola sai em escanteio.",
+      "player": {
+        "name": "Marcinho desce novamente pela direita e tenta o "
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 9,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Marcinho recebe na ponta direita e cruza na grande área. Vitão afasta.",
+      "player": {
+        "name": "Marcinho recebe na ponta direita e cruza na gran"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 9,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Atlético-MG começou a partida em ritmo alucinante, encurralando a Chapecoense em seu campo de defesa. Nos primeiros minutos, Kauã Pascini já exigiu boas defesas do goleiro Anderson. A grande chance veio aos 3 minutos, quando, após passe de Bernard, Alexsander tentou encobrir o goleiro e carimbou o travessão. A pressão do time da casa é total neste início de jogo.",
+      "player": {
+        "name": "Pressão do Galo e bola na trave!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 9,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Fred comete falta em Yago Felipe.",
+      "player": {
+        "name": "Fred comete falta em Yago Felipe."
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 10,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Giovanni cobra o escanteio na entrada da área, mas Garcez domina mal e perde a bola.",
+      "player": {
+        "name": "Giovanni cobra o escanteio na entrada da área, m"
+      },
+      "assist": null
+    }
+  ],
   "lineups": [
     {
       "team": {
@@ -478,6 +769,159 @@
       ]
     }
   ],
-  "statistics": [],
+  "statistics": [
+    {
+      "team": {
+        "id": 282,
+        "name": "Atlético-MG"
+      },
+      "statistics": [
+        {
+          "type": "Ball Possession",
+          "value": "67%"
+        },
+        {
+          "type": "Total Passes",
+          "value": 107
+        },
+        {
+          "type": "Pass Accuracy",
+          "value": "91%"
+        },
+        {
+          "type": "Incomplete Passes",
+          "value": 10
+        },
+        {
+          "type": "Total Shots",
+          "value": 3
+        },
+        {
+          "type": "Shots on Goal",
+          "value": 2
+        },
+        {
+          "type": "Shots off Goal",
+          "value": 0
+        },
+        {
+          "type": "Blocked Shots",
+          "value": 0
+        },
+        {
+          "type": "Hit Woodwork",
+          "value": 1
+        },
+        {
+          "type": "Corner Kicks",
+          "value": 1
+        },
+        {
+          "type": "Offsides",
+          "value": 0
+        },
+        {
+          "type": "Penalties",
+          "value": 0
+        },
+        {
+          "type": "Goalkeeper Saves",
+          "value": 0
+        },
+        {
+          "type": "Tackles",
+          "value": 1
+        },
+        {
+          "type": "Fouls",
+          "value": 2
+        },
+        {
+          "type": "Yellow Cards",
+          "value": 0
+        },
+        {
+          "type": "Red Cards",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "team": {
+        "id": 315,
+        "name": "Chapecoense"
+      },
+      "statistics": [
+        {
+          "type": "Ball Possession",
+          "value": "33%"
+        },
+        {
+          "type": "Total Passes",
+          "value": 44
+        },
+        {
+          "type": "Pass Accuracy",
+          "value": "80%"
+        },
+        {
+          "type": "Incomplete Passes",
+          "value": 9
+        },
+        {
+          "type": "Total Shots",
+          "value": 0
+        },
+        {
+          "type": "Shots on Goal",
+          "value": 0
+        },
+        {
+          "type": "Shots off Goal",
+          "value": 0
+        },
+        {
+          "type": "Blocked Shots",
+          "value": 0
+        },
+        {
+          "type": "Hit Woodwork",
+          "value": 0
+        },
+        {
+          "type": "Corner Kicks",
+          "value": 1
+        },
+        {
+          "type": "Offsides",
+          "value": 0
+        },
+        {
+          "type": "Penalties",
+          "value": 0
+        },
+        {
+          "type": "Goalkeeper Saves",
+          "value": 2
+        },
+        {
+          "type": "Tackles",
+          "value": 4
+        },
+        {
+          "type": "Fouls",
+          "value": 1
+        },
+        {
+          "type": "Yellow Cards",
+          "value": 0
+        },
+        {
+          "type": "Red Cards",
+          "value": 0
+        }
+      ]
+    }
+  ],
   "sportsFieldUrl": null
 }

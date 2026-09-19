@@ -13411,7 +13411,7 @@
         "status": {
           "long": "1H",
           "short": "1H",
-          "elapsed": 14
+          "elapsed": 29
         },
         "timerStart": "2026-09-19T19:00:04.756Z",
         "timerStatus": "INICIADO"
@@ -13432,7 +13432,7 @@
         }
       },
       "goals": {
-        "home": 0,
+        "home": 1,
         "away": 0
       },
       "score": {
@@ -18731,6 +18731,28 @@
             {
               "rank": 6,
               "team": {
+                "id": 282,
+                "name": "Atlético-MG",
+                "logo": "https://s.sde.globo.com/media/organizations/2018/03/10/atletico-mg.svg"
+              },
+              "points": 42,
+              "goalsDiff": 5,
+              "form": "DWLWW",
+              "description": "Copa Sudamericana",
+              "all": {
+                "played": 27,
+                "win": 12,
+                "draw": 6,
+                "lose": 9,
+                "goals": {
+                  "for": 36,
+                  "against": 31
+                }
+              }
+            },
+            {
+              "rank": 7,
+              "team": {
                 "id": 283,
                 "name": "Cruzeiro",
                 "logo": "https://s.sde.globo.com/media/organizations/2021/02/13/cruzeiro_2021.svg"
@@ -18747,28 +18769,6 @@
                 "goals": {
                   "for": 39,
                   "against": 39
-                }
-              }
-            },
-            {
-              "rank": 7,
-              "team": {
-                "id": 282,
-                "name": "Atlético-MG",
-                "logo": "https://s.sde.globo.com/media/organizations/2018/03/10/atletico-mg.svg"
-              },
-              "points": 40,
-              "goalsDiff": 4,
-              "form": "WDWLW",
-              "description": "Copa Sudamericana",
-              "all": {
-                "played": 27,
-                "win": 11,
-                "draw": 7,
-                "lose": 9,
-                "goals": {
-                  "for": 35,
-                  "against": 31
                 }
               }
             },
@@ -19043,18 +19043,18 @@
                 "name": "Chapecoense",
                 "logo": "https://s.sde.globo.com/media/organizations/2021/06/21/CHAPECOENSE-2018.svg"
               },
-              "points": 18,
-              "goalsDiff": -24,
-              "form": "DWLWL",
+              "points": 17,
+              "goalsDiff": -25,
+              "form": "WLWLL",
               "description": "Relegation",
               "all": {
                 "played": 27,
                 "win": 3,
-                "draw": 9,
-                "lose": 15,
+                "draw": 8,
+                "lose": 16,
                 "goals": {
                   "for": 28,
-                  "against": 52
+                  "against": 53
                 }
               }
             }
@@ -20172,7 +20172,7 @@
     "mode": "live",
     "liveIntervalMs": 20000
   },
-  "fetchedAt": "2026-09-19T19:14:55.295Z",
+  "fetchedAt": "2026-09-19T19:29:21.555Z",
   "source": "ge-globo",
   "meta": {
     "rodada": 28,

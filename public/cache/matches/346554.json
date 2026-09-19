@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 56
+      "elapsed": 61
     },
     "timerStart": "2026-09-19T22:37:26.448Z",
     "timerStatus": "INICIADO"
@@ -1468,8 +1468,8 @@
         "extra": null
       },
       "team": {
-        "id": 0,
-        "name": ""
+        "id": 277,
+        "name": "Santos"
       },
       "type": "Important",
       "detail": "Gabriel Taliari finaliza sem força, Diógenes pega com tranquilidade.",
@@ -1603,6 +1603,72 @@
       "detail": "Arthur cobra escanteio na mão do goleiro Marcelo Rangel.",
       "player": {
         "name": "Arthur cobra escanteio na mão do goleiro Marcelo"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 56,
+        "extra": null
+      },
+      "team": {
+        "id": 364,
+        "name": "Remo"
+      },
+      "type": "Important",
+      "detail": "Remo puxa contra-ataque, e a bola é cruzada na entrada da área. Taliari puxa uma bicicleta, mas pega mal e manda por cima do gol.",
+      "player": {
+        "name": "Gabriel Taliari"
+      },
+      "assist": {
+        "name": "Arriscou"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 58,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Aos 13 minutos do segundo tempo, o placar segue zerado, mas os goleiros já trabalharam bastante. O fim da primeira etapa foi agitado, com Diógenes salvando o Santos em chute de Marcelinho e Rony respondendo com uma finalização perigosa. Antes, Marcelo Rangel já tinha feito ótima defesa em chute de Oliva. O Remo começou a etapa final pressionando e Taliari até tentou uma bicicleta, mas sem sucesso.",
+      "player": {
+        "name": "Goleiros brilham e seguram o 0 a 0 no placar"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 58,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Remo 46% x 54% Santos.",
+      "player": {
+        "name": "Posse de bola"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 59,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Arthur tenta lançar Gabriel, mas Tchamba intercepta.",
+      "player": {
+        "name": "Arthur tenta lançar Gabriel, mas Tchamba interce"
       },
       "assist": null
     }
@@ -2048,19 +2114,19 @@
         },
         {
           "type": "Total Passes",
-          "value": 305
+          "value": 355
         },
         {
           "type": "Pass Accuracy",
-          "value": "84%"
+          "value": "85%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 48
+          "value": 53
         },
         {
           "type": "Total Shots",
-          "value": 8
+          "value": 9
         },
         {
           "type": "Shots on Goal",
@@ -2068,7 +2134,7 @@
         },
         {
           "type": "Shots off Goal",
-          "value": 3
+          "value": 4
         },
         {
           "type": "Blocked Shots",
@@ -2096,15 +2162,15 @@
         },
         {
           "type": "Tackles",
-          "value": 10
+          "value": 12
         },
         {
           "type": "Fouls",
-          "value": 5
+          "value": 6
         },
         {
           "type": "Yellow Cards",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Red Cards",
@@ -2124,15 +2190,15 @@
         },
         {
           "type": "Total Passes",
-          "value": 320
+          "value": 334
         },
         {
           "type": "Pass Accuracy",
-          "value": "91%"
+          "value": "90%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 28
+          "value": 33
         },
         {
           "type": "Total Shots",
@@ -2156,7 +2222,7 @@
         },
         {
           "type": "Corner Kicks",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Offsides",
@@ -2172,7 +2238,7 @@
         },
         {
           "type": "Tackles",
-          "value": 6
+          "value": 7
         },
         {
           "type": "Fouls",

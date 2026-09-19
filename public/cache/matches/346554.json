@@ -7,12 +7,12 @@
       "city": ""
     },
     "status": {
-      "long": "HT",
-      "short": "HT",
-      "elapsed": 45
+      "long": "2H",
+      "short": "2H",
+      "elapsed": 56
     },
-    "timerStart": "2026-09-19T22:19:34.444Z",
-    "timerStatus": "PAUSADO"
+    "timerStart": "2026-09-19T22:37:26.448Z",
+    "timerStatus": "INICIADO"
   },
   "league": {
     "round": "Regular Season - 28"
@@ -50,6 +50,38 @@
     "source": "betexplorer"
   },
   "events": [
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Nenhuma alteração. Jogo vai recomeçar.",
+      "player": {
+        "name": "Nenhuma alteração. Jogo vai recomeçar."
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Times de volta para o segundo tempo.",
+      "player": {
+        "name": "Times de volta para o segundo tempo."
+      },
+      "assist": null
+    },
     {
       "time": {
         "elapsed": 0,
@@ -1148,6 +1180,22 @@
         "name": ""
       },
       "type": "Important",
+      "detail": "Bola rolando no segundo tempo.",
+      "player": {
+        "name": "Apita o árbitro"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 45,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
       "detail": "Após um início morno e de muitas faltas, o jogo esquentou a partir dos 30 minutos. O Remo assustou em cobrança de falta de Vitor Bueno e em um chute potente de Marcelinho, ambos parados por boas defesas de Diógenes. O Santos respondeu à altura: Oliva exigiu grande intervenção de Marcelo Rangel e, pouco depois, Bontempo e Rony desperdiçaram chances claras na reta final da primeira etapa.",
       "player": {
         "name": "Goleiros brilham no fim do 1º tempo"
@@ -1264,6 +1312,22 @@
         "name": ""
       },
       "type": "Important",
+      "detail": "Remo troca passes no campo de defesa e o Santos tenta pressionar.",
+      "player": {
+        "name": "Remo troca passes no campo de defesa e o Santos "
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 46,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
       "detail": "Remo busca um último ataque. Marlon cruza na área, mas pega mal na bola. Santos recupera.",
       "player": {
         "name": "Remo busca um último ataque. Marlon cruza na áre"
@@ -1280,9 +1344,265 @@
         "name": ""
       },
       "type": "Important",
+      "detail": "Falta de Oliva em Taliari.",
+      "player": {
+        "name": "Falta de Oliva em Taliari."
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 47,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
       "detail": "Apita o árbitro. Remo e Santos vão para o intervalo com o placar em branco.",
       "player": {
         "name": "Fim de primeiro tempo"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 48,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O primeiro tempo terminou com o 0 a 0 no placar, mas não faltou emoção na reta final. Após um início morno, o Remo assustou em cobrança de falta de Vitor Bueno, que parou em grande defesa de Diógenes. O Santos respondeu com Oliva, forçando Marcelo Rangel a salvar. Nos minutos finais, Rony acertou um chute que passou tirando tinta da trave, e Marcelinho obrigou Diógenes a trabalhar de novo.",
+      "player": {
+        "name": "Goleiros brilham e seguram o placar em branco"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 48,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Arthur é desarmado no campo de ataque.",
+      "player": {
+        "name": "Arthur é desarmado no campo de ataque."
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 50,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Após um início de poucas emoções, o jogo esquentou. O Remo ameaçou primeiro em cobrança de falta de Vitor Bueno, que parou em grande defesa de Diógenes. O Santos respondeu em um chute colocado de Oliva, exigindo ótima intervenção de Marcelo Rangel. No fim da etapa, os times trocaram chances claras com Rony e Marcelinho, mas os goleiros brilharam e garantiram o 0 a 0 no intervalo. A bola já rola para a segunda etapa.",
+      "player": {
+        "name": "Primeiro tempo agitado e placar zerado"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 50,
+        "extra": null
+      },
+      "team": {
+        "id": 364,
+        "name": "Remo"
+      },
+      "type": "Important",
+      "detail": "Marcelinho recebe na ponta direita e faz cruzamento rasteiro buscando Taliari. Rodinei chega bem de carrinho e corta.",
+      "player": {
+        "name": "Jogada perigosa"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 50,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Rony recebe na ponta esquerda, passa por um, passa por outro e... acaba desarmado.",
+      "player": {
+        "name": "Rony recebe na ponta esquerda, passa por um, pas"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 51,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Após um início de poucas emoções, a partida pegou fogo na reta final do primeiro tempo. O Remo levou perigo com Vitor Bueno, em falta bem cobrada que exigiu grande defesa de Diógenes. O Santos respondeu e quase marcou com Oliva, em chute que parou em ótima intervenção de Marcelo Rangel. Com o 0 a 0 no placar, o segundo tempo começa com o Remo já criando uma jogada perigosa pelo lado direito.",
+      "player": {
+        "name": "Goleiros em noite inspirada seguram o placar"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 51,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Gabriel Taliari finaliza sem força, Diógenes pega com tranquilidade.",
+      "player": {
+        "name": "Gabriel Taliari finaliza sem força, Diógenes peg"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 52,
+        "extra": null
+      },
+      "team": {
+        "id": 277,
+        "name": "Santos"
+      },
+      "type": "Important",
+      "detail": "Volante do Santos fica caído no gramado após entrada dura de José Welison. Jogo é parado.",
+      "player": {
+        "name": "Oliva"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 52,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Santos vai com todos os seus jogadores para o campo de ataque. Remo se fecha.",
+      "player": {
+        "name": "Santos vai com todos os seus jogadores para o ca"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 53,
+        "extra": null
+      },
+      "team": {
+        "id": 364,
+        "name": "Remo"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "José Welison"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 53,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Jogador do Remo pisou no tornozelo do atleta do Santos.",
+      "player": {
+        "name": "Jogador do Remo pisou no tornozelo do atleta do "
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 54,
+        "extra": null
+      },
+      "team": {
+        "id": 277,
+        "name": "Santos"
+      },
+      "type": "Important",
+      "detail": "Escoba cruza em cima da marcação. É escanteio para o Santos.",
+      "player": {
+        "name": "Escoba cruza em cima da marcação. É escanteio pa"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 54,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "A partida foi para o intervalo com o placar em branco, mas com um final de primeiro tempo eletrizante. O Remo levou perigo em cobrança de falta de Vitor Bueno e em chute forte de Marcelinho, ambos parados em ótimas defesas de Diógenes. O Santos respondeu com Oliva, que obrigou Marcelo Rangel a fazer um milagre, e com Rony, que bateu tirando tinta da trave. O segundo tempo já começou com cartão para José Welison.",
+      "player": {
+        "name": "Goleiros brilham e placar segue zerado"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 54,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Arthur cobra falta na área. Tchamba tira de cabeça.",
+      "player": {
+        "name": "Arthur cobra falta na área. Tchamba tira de cabe"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 55,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Arthur cobra escanteio na mão do goleiro Marcelo Rangel.",
+      "player": {
+        "name": "Arthur cobra escanteio na mão do goleiro Marcelo"
       },
       "assist": null
     }
@@ -1728,7 +2048,7 @@
         },
         {
           "type": "Total Passes",
-          "value": 264
+          "value": 305
         },
         {
           "type": "Pass Accuracy",
@@ -1736,11 +2056,11 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 42
+          "value": 48
         },
         {
           "type": "Total Shots",
-          "value": 7
+          "value": 8
         },
         {
           "type": "Shots on Goal",
@@ -1752,7 +2072,7 @@
         },
         {
           "type": "Blocked Shots",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Hit Woodwork",
@@ -1776,7 +2096,7 @@
         },
         {
           "type": "Tackles",
-          "value": 9
+          "value": 10
         },
         {
           "type": "Fouls",
@@ -1804,7 +2124,7 @@
         },
         {
           "type": "Total Passes",
-          "value": 260
+          "value": 320
         },
         {
           "type": "Pass Accuracy",
@@ -1812,7 +2132,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 24
+          "value": 28
         },
         {
           "type": "Total Shots",
@@ -1852,11 +2172,11 @@
         },
         {
           "type": "Tackles",
-          "value": 5
+          "value": 6
         },
         {
           "type": "Fouls",
-          "value": 7
+          "value": 8
         },
         {
           "type": "Yellow Cards",

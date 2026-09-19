@@ -9,10 +9,10 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": null
+      "elapsed": 17
     },
-    "timerStart": "2026-09-19T20:16:10.922Z",
-    "timerStatus": "PAUSADO"
+    "timerStart": "2026-09-19T21:32:19.641Z",
+    "timerStatus": "INICIADO"
   },
   "league": {
     "round": "Regular Season - 28"
@@ -30,8 +30,8 @@
     }
   },
   "goals": {
-    "home": null,
-    "away": null
+    "home": 0,
+    "away": 0
   },
   "score": {
     "halftime": {
@@ -44,12 +44,383 @@
     }
   },
   "odds": {
-    "home": 2.87,
-    "draw": 3.3,
-    "away": 2.45,
+    "home": 3.03,
+    "draw": 3.35,
+    "away": 2.3,
     "source": "betexplorer"
   },
-  "events": [],
+  "events": [
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Remo arrisca a primeira chegada. Marcelinho é acionado na ponta direita, mas o lançamento sai com muita força. É tiro de meta para o Santos.",
+      "player": {
+        "name": "Remo arrisca a primeira chegada. Marcelinho é ac"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Bola rolando para Remo x Santos.",
+      "player": {
+        "name": "Apita o árbitro"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 1,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Gabriel Bontempo recebe pelo centro e avança. José Welison chega atrasado, empurra o santista e faz a falta.",
+      "player": {
+        "name": "Gabriel Bontempo recebe pelo centro e avança. Jo"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 2,
+        "extra": null
+      },
+      "team": {
+        "id": 277,
+        "name": "Santos"
+      },
+      "type": "Important",
+      "detail": "Diogenes é o goleiro do Santos nesta noite porque Gabriel Brazão vai passar por uma cirurgia na região do ombro esquerdo. Ele pode voltar a jogar só no ano que vem.",
+      "player": {
+        "name": "Diogenes é o goleiro do Santos nesta noite porqu"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 4,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "A bola rola e os primeiros minutos são de iniciativa dos dois lados. O Remo tentou a primeira chegada com Marcelinho pela direita, mas sem sucesso. O Santos respondeu com Gabriel Bontempo sofrendo falta no meio e, logo depois, teve sua melhor chance até agora: aos 4 minutos, Rony foi acionado na ponta e cruzou na área, mas o lance foi corretamente paralisado por impedimento.",
+      "player": {
+        "name": "Tentativas e um impedimento marcam o início"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 4,
+        "extra": null
+      },
+      "team": {
+        "id": 277,
+        "name": "Santos"
+      },
+      "type": "Important",
+      "detail": "Rony é acionado na ponta direita e faz cruzamento na área. Porém, a arbitragem assinala impedimento.",
+      "player": {
+        "name": "Rony"
+      },
+      "assist": {
+        "name": "Parou, parou!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 5,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Wilton Pereira Sampaio dá uma dura em Picco por falta por trás em Arthur.",
+      "player": {
+        "name": "Wilton Pereira Sampaio dá uma dura em Picco por "
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 6,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Rony aciona Gabigol dentro da área, mas a arbitragem marca novo impedimento.",
+      "player": {
+        "name": "Rony aciona Gabigol dentro da área, mas a arbitr"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 6,
+        "extra": null
+      },
+      "team": {
+        "id": 277,
+        "name": "Santos"
+      },
+      "type": "Important",
+      "detail": "Mesmo pressionado, Arthur consegue girar sobre o marcador e desafoga o Santos no campo de defesa.",
+      "player": {
+        "name": "Mesmo pressionado, Arthur consegue girar sobre o"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 8,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "A bola rola há pouco mais de oito minutos e o Santos já mostra seu cartão de visitas no ataque, mas peca no tempo das jogadas. Rony e Gabigol foram acionados na frente, porém ambos acabaram pegos em impedimento pela arbitragem. O Remo responde com marcação atenta e arriscou uma chegada inicial sem perigo. Jogo de muito estudo e com a defesa do time da casa bem postada.",
+      "player": {
+        "name": "Muitos impedimentos marcam início de jogo"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 8,
+        "extra": null
+      },
+      "team": {
+        "id": 364,
+        "name": "Remo"
+      },
+      "type": "Important",
+      "detail": "Remo tenta puxar contra-ataque, mas a defesa santista consegue se recuperar bem e afasta o perigo.",
+      "player": {
+        "name": "Remo tenta puxar contra-ataque, mas a defesa san"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 9,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Santos tem dificuldade para ficar com a bola. Remo troca passes.",
+      "player": {
+        "name": "Santos tem dificuldade para ficar com a bola. Re"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 10,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Santos baixa as linhas de marcação, e o Remo tem dificuldades para se aproximar da área.",
+      "player": {
+        "name": "Santos baixa as linhas de marcação, e o Remo tem"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 11,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Rodinei acha passe açucarado para Gabriel Bontempo. Ele dribla Tchamba e, na sequência, é derrubado. O árbitro marca falta.",
+      "player": {
+        "name": "Rodinei acha passe açucarado para Gabriel Bontem"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 11,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Os primeiros 11 minutos são de um confronto muito estudado e com poucas emoções. O Remo troca mais passes e tenta controlar o jogo, mas esbarra na defesa bem postada do Santos. Já o time visitante busca acionar Rony e Gabigol no ataque, porém foi pego em impedimento em duas ocasiões. A partida segue marcada por muitas faltas e um ritmo constantemente interrompido pela arbitragem.",
+      "player": {
+        "name": "Jogo tático e de muitas paralisações"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 11,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Falta dura de Gustavinho em cima de Zé Ricardo no meio de campo.",
+      "player": {
+        "name": "Falta dura de Gustavinho em cima de Zé Ricardo n"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 12,
+        "extra": null
+      },
+      "team": {
+        "id": 277,
+        "name": "Santos"
+      },
+      "type": "Important",
+      "detail": "Camisa 8 do Santos recebe atendimento médico e já está recuperado.",
+      "player": {
+        "name": "Gabriel Bontempo"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 13,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Rony chega de carrinho e desarma Marcelinho. O lateral fica caído no gramado, e o árbitro marca falta. Os santistas contestam, dizem que o atacante só pegou a bola.",
+      "player": {
+        "name": "Rony chega de carrinho e desarma Marcelinho. O l"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 13,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Arbitragem voltou atrás e não marcou falta em Bontempo. Jogo reiniciado.",
+      "player": {
+        "name": "Arbitragem voltou atrás e não marcou falta em Bo"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 14,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Com 15 minutos de bola rolando, o duelo é muito disputado no meio-campo, com várias faltas e pouca inspiração ofensiva. O Santos tenta jogadas em velocidade, mas já foi pego em impedimento duas vezes. O Remo tem mais posse de bola, mas encontra dificuldade para furar a marcação santista e só conseguiu finalizar em um chute de José Welison, que foi bloqueado pela defesa.",
+      "player": {
+        "name": "Jogo travado e de poucas chances"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 14,
+        "extra": null
+      },
+      "team": {
+        "id": 277,
+        "name": "Santos"
+      },
+      "type": "Important",
+      "detail": "Vitor Bueno cobra falta rasteira, para trás, e José Welison chega batendo. A bola explode na defesa do Santos.",
+      "player": {
+        "name": "Vitor Bueno cobra falta rasteira, para trás, e J"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 15,
+        "extra": null
+      },
+      "team": {
+        "id": 277,
+        "name": "Santos"
+      },
+      "type": "Important",
+      "detail": "Bola levantada na área do Santos, Diógenes sai para fazer a defesa.",
+      "player": {
+        "name": "Bola levantada na área do Santos, Diógenes sai p"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 16,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Remo 2 x 0 Santos.",
+      "player": {
+        "name": "Finalizações"
+      },
+      "assist": null
+    }
+  ],
   "lineups": [
     {
       "team": {
@@ -478,6 +849,159 @@
       ]
     }
   ],
-  "statistics": [],
+  "statistics": [
+    {
+      "team": {
+        "id": 364,
+        "name": "Remo"
+      },
+      "statistics": [
+        {
+          "type": "Ball Possession",
+          "value": "56%"
+        },
+        {
+          "type": "Total Passes",
+          "value": 101
+        },
+        {
+          "type": "Pass Accuracy",
+          "value": "87%"
+        },
+        {
+          "type": "Incomplete Passes",
+          "value": 13
+        },
+        {
+          "type": "Total Shots",
+          "value": 2
+        },
+        {
+          "type": "Shots on Goal",
+          "value": 0
+        },
+        {
+          "type": "Shots off Goal",
+          "value": 0
+        },
+        {
+          "type": "Blocked Shots",
+          "value": 2
+        },
+        {
+          "type": "Hit Woodwork",
+          "value": 0
+        },
+        {
+          "type": "Corner Kicks",
+          "value": 0
+        },
+        {
+          "type": "Offsides",
+          "value": 0
+        },
+        {
+          "type": "Penalties",
+          "value": 0
+        },
+        {
+          "type": "Goalkeeper Saves",
+          "value": 0
+        },
+        {
+          "type": "Tackles",
+          "value": 2
+        },
+        {
+          "type": "Fouls",
+          "value": 3
+        },
+        {
+          "type": "Yellow Cards",
+          "value": 0
+        },
+        {
+          "type": "Red Cards",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "team": {
+        "id": 277,
+        "name": "Santos"
+      },
+      "statistics": [
+        {
+          "type": "Ball Possession",
+          "value": "44%"
+        },
+        {
+          "type": "Total Passes",
+          "value": 68
+        },
+        {
+          "type": "Pass Accuracy",
+          "value": "88%"
+        },
+        {
+          "type": "Incomplete Passes",
+          "value": 8
+        },
+        {
+          "type": "Total Shots",
+          "value": 0
+        },
+        {
+          "type": "Shots on Goal",
+          "value": 0
+        },
+        {
+          "type": "Shots off Goal",
+          "value": 0
+        },
+        {
+          "type": "Blocked Shots",
+          "value": 0
+        },
+        {
+          "type": "Hit Woodwork",
+          "value": 0
+        },
+        {
+          "type": "Corner Kicks",
+          "value": 0
+        },
+        {
+          "type": "Offsides",
+          "value": 2
+        },
+        {
+          "type": "Penalties",
+          "value": 0
+        },
+        {
+          "type": "Goalkeeper Saves",
+          "value": 2
+        },
+        {
+          "type": "Tackles",
+          "value": 1
+        },
+        {
+          "type": "Fouls",
+          "value": 2
+        },
+        {
+          "type": "Yellow Cards",
+          "value": 0
+        },
+        {
+          "type": "Red Cards",
+          "value": 0
+        }
+      ]
+    }
+  ],
   "sportsFieldUrl": null
 }

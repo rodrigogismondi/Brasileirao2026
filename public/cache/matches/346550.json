@@ -11,7 +11,7 @@
       "short": "FT",
       "elapsed": 90
     },
-    "timerStart": "2026-09-19T20:54:40.517Z",
+    "timerStart": "2026-09-19T21:01:39.875Z",
     "timerStatus": "PAUSADO"
   },
   "league": {
@@ -44,12 +44,48 @@
     }
   },
   "odds": {
-    "home": 1.47,
-    "draw": 4.25,
-    "away": 6.52,
+    "home": 1.39,
+    "draw": 4.54,
+    "away": 7.94,
     "source": "betexplorer"
   },
   "events": [
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 282,
+        "name": "Atlético-MG"
+      },
+      "type": "Important",
+      "detail": "- É uma sensação difícil, não é? Fiquei muito tempo sem marcar. Obviamente, quando eu comecei a entrar, antes não conseguia marcar, começaram as cobranças. Mas foi um tempo muito difícil. Meus companheiros sempre estão me apoiando, minha família, o pessoal aqui no clube. E o jogo, nós criamos muito, não conseguimos ganhar no final, mas sabemos que cada jogo é difícil. Agora vai ter um período de descanso e queremos treinar forte para voltar a ganhar aqui em casa.",
+      "player": {
+        "name": "Cassierra"
+      },
+      "assist": {
+        "name": "FALA, CASSIERRA!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 315,
+        "name": "Chapecoense"
+      },
+      "type": "Important",
+      "detail": "- Cara, primeiramente quero agradecer a Deus por ter me colocado aqui na Chapecoense, estou muito feliz de estar aqui. Foi um ponto importante, jogar contra o Atlético Mineiro é muito difícil aqui. Foi uma partida muito difícil desde o início, conseguimos suportar ali, tivemos chances, conseguimos fazer um gol, conseguimos defender bem. É uma partida importante que vai dar ânimo para a gente para o restante do campeonato.",
+      "player": {
+        "name": "Dudu"
+      },
+      "assist": {
+        "name": "FALA, DUDU!"
+      }
+    },
     {
       "time": {
         "elapsed": 0,
@@ -1400,6 +1436,22 @@
         "extra": null
       },
       "team": {
+        "id": 282,
+        "name": "Atlético-MG"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Vitor Hugo"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 47,
+        "extra": null
+      },
+      "team": {
         "id": 0,
         "name": ""
       },
@@ -1439,22 +1491,6 @@
       "detail": "O Atlético-MG dominou completamente o primeiro tempo, com direito a bola no travessão de Alexsander, um gol anulado pelo VAR e uma bola salva em cima da linha por Dudu. Mas, no futebol, quem não faz... A Chapecoense aproveitou sua chance e, aos 43 minutos, Túlio Eduardo marcou. O segundo tempo já começou com cartão amarelo para Alexsander, e o placar segue 1 a 0 para os visitantes.",
       "player": {
         "name": "Atlético pressiona, mas Chape sai na frente"
-      },
-      "assist": null
-    },
-    {
-      "time": {
-        "elapsed": 48,
-        "extra": null
-      },
-      "team": {
-        "id": 282,
-        "name": "Atlético-MG"
-      },
-      "type": "Card",
-      "detail": "Yellow Card",
-      "player": {
-        "name": "Alexsander"
       },
       "assist": null
     },
@@ -3416,7 +3452,7 @@
         },
         {
           "type": "Tackles",
-          "value": 14
+          "value": 16
         },
         {
           "type": "Fouls",

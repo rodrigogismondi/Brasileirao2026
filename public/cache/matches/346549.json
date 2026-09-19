@@ -7,12 +7,12 @@
       "city": ""
     },
     "status": {
-      "long": "1H",
-      "short": "1H",
-      "elapsed": 42
+      "long": "HT",
+      "short": "HT",
+      "elapsed": 45
     },
-    "timerStart": "2026-09-19T20:00:46.530Z",
-    "timerStatus": "INICIADO"
+    "timerStart": "2026-09-19T20:51:04.161Z",
+    "timerStatus": "PAUSADO"
   },
   "league": {
     "round": "Regular Season - 28"
@@ -30,7 +30,7 @@
     }
   },
   "goals": {
-    "home": 1,
+    "home": 2,
     "away": 0
   },
   "score": {
@@ -50,6 +50,22 @@
     "source": "betexplorer"
   },
   "events": [
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Mirassol e Botafogo travaram duelo equilibrado nos primeiros 45 minutos no Maião. O time carioca começou tendo mais controle e posse de bola, mas aos poucos o time da casa foi crescendo na partida, tomando as rédeas e soube ser efetivo nas chances que teve. Primeiro com Edson Carioca aproveitando falha de Alex Telles, finalizando, pegando o rebote e ajeitando para Eduardo na entrada da área abrir o placar. Depois, foi Monzon que comprometeu. Edson novamente cruzou, o zagueiro botafoguense furou a tentativa de corte e a bola sobrou para Eduardo, outra vez, completamente livre na entrada da pequena área para fazer o segundo. O Botafogo até conseguiu construir boas jogadas, mas falhou quase todas as vezes na hora do último passe ou da finalização.",
+      "player": {
+        "name": "Resumo do primeiro tempo"
+      },
+      "assist": null
+    },
     {
       "time": {
         "elapsed": 0,
@@ -601,6 +617,150 @@
         "name": "Bruno Santos dispara na direita, tenta o cruzame"
       },
       "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 42,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O jogo esquentou aos 15 minutos, quando Eduardo aproveitou o rebote de uma defesa de Gabriel Batista e abriu o placar para o Mirassol: 1 a 0. O time da casa não recuou e quase ampliou em um chute de Edson Carioca, que parou em uma defesaça do goleiro. O Botafogo tentou reagir em chegadas de Arthur Cabral e Medina, mas pecou na finalização. O duelo se aproxima do intervalo com pressão do Mirassol.",
+      "player": {
+        "name": "Mirassol na frente e pressiona o Botafogo"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 42,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Botafogo vai tentando pressionar o Mirassol no campo de defesa, mas falha no momento final",
+      "player": {
+        "name": "Botafogo vai tentando pressionar o Mirassol no c"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 46,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Que primeiro tempo do Mirassol! O time da casa se impôs e abriu o placar aos 15 minutos com Eduardo, aproveitando rebote do goleiro. O Botafogo sentiu o golpe e, apesar de uma cabeçada perigosa de Arthur Cabral no início, viu Gabriel Batista fazer um milagre para evitar o segundo em chute de Edson Carioca. Mas nos acréscimos não teve jeito: após falha de Monzon, Eduardo marcou de novo e levou o placar para 2 a 0.",
+      "player": {
+        "name": "Mirassol atropela com dois de Eduardo!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 46,
+        "extra": null
+      },
+      "team": {
+        "id": 2305,
+        "name": "Mirassol"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "player": {
+        "name": "Eduardo"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 46,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O jogo começou com o Botafogo criando a primeira boa chance em cabeçada de Arthur Cabral. No entanto, aos 15 minutos, foi o Mirassol que abriu o placar. Após rebote do goleiro em finalização de Igor Formiga, Eduardo aproveitou a sobra e fez 1 a 0. O time da casa seguiu pressionando e quase ampliou com Edson Carioca, em chute que parou em defesaça de Gabriel Batista. O Botafogo tenta reagir.",
+      "player": {
+        "name": "Gol de Eduardo põe o Mirassol em vantagem!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 46,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Mais quatro minutos por jogar",
+      "player": {
+        "name": "Acréscimos"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 49,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Que primeiro tempo do Mirassol! A equipe da casa abriu o placar aos 15 minutos, quando Eduardo aproveitou rebote de Gabriel Batista para marcar. O Botafogo buscou reagir, principalmente com Arthur Cabral, mas foi o Mirassol que seguiu mais perigoso, com Edson Carioca forçando um milagre do goleiro. Já nos acréscimos, após falha da defesa, Eduardo apareceu de novo e fechou a etapa em 2 a 0.",
+      "player": {
+        "name": "Eduardo comanda e Mirassol abre vantagem"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 49,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O árbitro acrescenta mais um minuto",
+      "player": {
+        "name": "O árbitro acrescenta mais um minuto"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 50,
+        "extra": null
+      },
+      "team": {
+        "id": 2305,
+        "name": "Mirassol"
+      },
+      "type": "Important",
+      "detail": "Acaba o primeiro tempo em Mirassol!",
+      "player": {
+        "name": "Fim de papo!"
+      },
+      "assist": null
     }
   ],
   "lineups": [
@@ -1058,11 +1218,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "48%"
+          "value": "45%"
         },
         {
           "type": "Total Passes",
-          "value": 208
+          "value": 264
         },
         {
           "type": "Pass Accuracy",
@@ -1070,15 +1230,15 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 29
+          "value": 36
         },
         {
           "type": "Total Shots",
-          "value": 6
+          "value": 7
         },
         {
           "type": "Shots on Goal",
-          "value": 3
+          "value": 4
         },
         {
           "type": "Shots off Goal",
@@ -1110,11 +1270,11 @@
         },
         {
           "type": "Tackles",
-          "value": 6
+          "value": 9
         },
         {
           "type": "Fouls",
-          "value": 1
+          "value": 4
         },
         {
           "type": "Yellow Cards",
@@ -1134,19 +1294,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "52%"
+          "value": "55%"
         },
         {
           "type": "Total Passes",
-          "value": 242
+          "value": 340
         },
         {
           "type": "Pass Accuracy",
-          "value": "88%"
+          "value": "89%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 30
+          "value": 39
         },
         {
           "type": "Total Shots",
@@ -1186,7 +1346,7 @@
         },
         {
           "type": "Tackles",
-          "value": 4
+          "value": 6
         },
         {
           "type": "Fouls",

@@ -13409,12 +13409,12 @@
           "city": ""
         },
         "status": {
-          "long": "2H",
-          "short": "2H",
-          "elapsed": 84
+          "long": "FT",
+          "short": "FT",
+          "elapsed": 90
         },
-        "timerStart": "2026-09-19T20:04:17.323Z",
-        "timerStatus": "INICIADO"
+        "timerStart": "2026-09-19T20:54:40.517Z",
+        "timerStatus": "PAUSADO"
       },
       "league": {
         "round": "Regular Season - 28"
@@ -13441,8 +13441,8 @@
           "away": null
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 1
         }
       },
       "odds": {
@@ -13461,12 +13461,12 @@
           "city": ""
         },
         "status": {
-          "long": "1H",
-          "short": "1H",
-          "elapsed": 42
+          "long": "HT",
+          "short": "HT",
+          "elapsed": 45
         },
-        "timerStart": "2026-09-19T20:00:46.530Z",
-        "timerStatus": "INICIADO"
+        "timerStart": "2026-09-19T20:51:04.161Z",
+        "timerStatus": "PAUSADO"
       },
       "league": {
         "round": "Regular Season - 28"
@@ -13484,7 +13484,7 @@
         }
       },
       "goals": {
-        "home": 1,
+        "home": 2,
         "away": 0
       },
       "score": {
@@ -18848,7 +18848,7 @@
                 "logo": "https://s.sde.globo.com/media/organizations/2019/02/04/botafogo-svg.svg"
               },
               "points": 35,
-              "goalsDiff": -3,
+              "goalsDiff": -4,
               "form": "LLDDL",
               "description": "Copa Sudamericana",
               "all": {
@@ -18858,7 +18858,7 @@
                 "lose": 11,
                 "goals": {
                   "for": 41,
-                  "against": 44
+                  "against": 45
                 }
               }
             },
@@ -18936,7 +18936,7 @@
                 "logo": "https://s.sde.globo.com/media/organizations/2026/07/17/MIrassol.svg"
               },
               "points": 32,
-              "goalsDiff": -10,
+              "goalsDiff": -9,
               "form": "DDWDW",
               "description": null,
               "all": {
@@ -18945,7 +18945,7 @@
                 "draw": 8,
                 "lose": 12,
                 "goals": {
-                  "for": 32,
+                  "for": 33,
                   "against": 42
                 }
               }
@@ -19509,6 +19509,28 @@
     {
       "player": {
         "id": 21,
+        "name": "Eduardo",
+        "photo": "https://s.sde.globo.com/media/person_role/2026/02/09/photo_140x140_DV6aQbI.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "name": "Mirassol",
+            "logo": "https://s.sde.globo.com/media/organizations/2026/07/17/65-_0000_MIrassol.png"
+          },
+          "goals": {
+            "total": 6,
+            "assists": null
+          },
+          "games": {
+            "appearences": 0
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 22,
         "name": "Neymar",
         "photo": "https://s.sde.globo.com/media/person_role/2026/08/19/photo_140x140_Aji3JX5.png"
       },
@@ -19530,7 +19552,7 @@
     },
     {
       "player": {
-        "id": 22,
+        "id": 23,
         "name": "Vitor Roque",
         "photo": "https://s.sde.globo.com/media/person_role/2025/04/01/photo_140x140_UbLy5Jq.png"
       },
@@ -19552,7 +19574,7 @@
     },
     {
       "player": {
-        "id": 23,
+        "id": 24,
         "name": "Mendoza",
         "photo": "https://s.sde.globo.com/media/person_role/2026/02/02/photo_140x140_HdPEhEa.png"
       },
@@ -19561,28 +19583,6 @@
           "team": {
             "name": "Athletico-PR",
             "logo": "https://s.sde.globo.com/media/organizations/2019/09/09/Athletico-PR-65x65.png"
-          },
-          "goals": {
-            "total": 5,
-            "assists": null
-          },
-          "games": {
-            "appearences": 0
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 24,
-        "name": "Eduardo",
-        "photo": "https://s.sde.globo.com/media/person_role/2026/02/09/photo_140x140_DV6aQbI.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "name": "Mirassol",
-            "logo": "https://s.sde.globo.com/media/organizations/2026/07/17/65-_0000_MIrassol.png"
           },
           "goals": {
             "total": 5,
@@ -20174,7 +20174,7 @@
     "mode": "live",
     "liveIntervalMs": 20000
   },
-  "fetchedAt": "2026-09-19T20:43:33.728Z",
+  "fetchedAt": "2026-09-19T20:59:18.010Z",
   "source": "ge-globo",
   "meta": {
     "rodada": 28,

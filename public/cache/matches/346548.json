@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 92
+      "elapsed": 95
     },
     "timerStart": "2026-09-20T20:06:55.470Z",
     "timerStatus": "INICIADO"
@@ -31,7 +31,7 @@
   },
   "goals": {
     "home": 1,
-    "away": 2
+    "away": 3
   },
   "score": {
     "halftime": {
@@ -2495,6 +2495,22 @@
         "extra": null
       },
       "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O segundo tempo começou com uma pressão avassaladora do Corinthians, que chegou ao empate com Gustavo Henrique aos 10 minutos, após grande defesa de Fábio. A virada parecia madura, mas o Fluminense foi letal em um contra-ataque aos 30: Hulk finalizou de fora da área, a bola desviou e recolocou o time carioca em vantagem. Na reta final, o Flu ainda perdeu chances claras para ampliar o placar.",
+      "player": {
+        "name": "Hulk castiga e recoloca o Flu na frente!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 89,
+        "extra": null
+      },
+      "team": {
         "id": 266,
         "name": "Fluminense"
       },
@@ -2506,6 +2522,136 @@
       "assist": {
         "name": "PASSOU LONGE!"
       }
+    },
+    {
+      "time": {
+        "elapsed": 90,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Segunda etapa vai até os 52 minutos",
+      "player": {
+        "name": "MAIS SETE!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 91,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Defesa tricolor afasta bola",
+      "player": {
+        "name": "Defesa tricolor afasta bola"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 91,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Que segundo tempo em São Paulo! O Corinthians voltou avassalador, pressionou muito e conseguiu o empate com Gustavo Henrique aos 10 minutos. O time da casa buscava a virada e parava em grandes defesas de Fábio. Mas aos 30, num contra-ataque fulminante, Hulk chutou de fora, a bola desviou e recolocou o Fluminense na frente: 2 a 1. O jogo se aproxima do fim com o time da casa em busca do empate.",
+      "player": {
+        "name": "Flu na frente em jogo de reviravoltas!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 91,
+        "extra": null
+      },
+      "team": {
+        "id": 264,
+        "name": "Corinthians"
+      },
+      "type": "Important",
+      "detail": "Raniele recebe dentro da área e finaliza, mas é travado por Renê em cima da hora! Escanteio para o Corinthians",
+      "player": {
+        "name": "Raniele"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 91,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O segundo tempo é eletrizante! O Corinthians voltou com tudo, pressionou e empatou com Gustavo Henrique aos 10 minutos, após bombardeio e milagre de Fábio. Mas quando a virada parecia próxima, Hulk brilhou de novo. Aos 30, o atacante do Fluminense acertou um chute de fora da área que desviou e matou o goleiro, fazendo 2 a 1. Já nos acréscimos, a partida segue aberta e emocionante.",
+      "player": {
+        "name": "Reviravolta e golaços em São Paulo!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 91,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "Important",
+      "detail": "Garro arrisca chute de muito longe e goleiro tricolor faz linda defesa",
+      "player": {
+        "name": "Fábio"
+      },
+      "assist": {
+        "name": "DEFESAÇA DE FÁBIO!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 92,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O segundo tempo foi eletrizante! O Corinthians pressionou muito e conseguiu o empate com Gustavo Henrique aos 10 minutos. O time da casa parecia perto da virada, mas o Fluminense foi letal. Aos 30, Hulk recolocou o time carioca na frente em um chute desviado. E nos acréscimos, aos 47 minutos, Serna marcou o terceiro, ampliando a vantagem para 3 a 1 na Neo Química Arena.",
+      "player": {
+        "name": "Fluminense marca no fim e encaminha vitória!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 92,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "player": {
+        "name": "Serna"
+      },
+      "assist": null
     }
   ],
   "lineups": [
@@ -2967,7 +3113,7 @@
         },
         {
           "type": "Total Passes",
-          "value": 545
+          "value": 563
         },
         {
           "type": "Pass Accuracy",
@@ -2975,15 +3121,15 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 74
+          "value": 77
         },
         {
           "type": "Total Shots",
-          "value": 18
+          "value": 19
         },
         {
           "type": "Shots on Goal",
-          "value": 6
+          "value": 7
         },
         {
           "type": "Shots off Goal",
@@ -2999,7 +3145,7 @@
         },
         {
           "type": "Corner Kicks",
-          "value": 10
+          "value": 11
         },
         {
           "type": "Offsides",
@@ -3015,7 +3161,7 @@
         },
         {
           "type": "Tackles",
-          "value": 15
+          "value": 16
         },
         {
           "type": "Fouls",
@@ -3043,7 +3189,7 @@
         },
         {
           "type": "Total Passes",
-          "value": 381
+          "value": 388
         },
         {
           "type": "Pass Accuracy",
@@ -3051,19 +3197,19 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 68
+          "value": 69
         },
         {
           "type": "Total Shots",
-          "value": 8
+          "value": 10
         },
         {
           "type": "Shots on Goal",
-          "value": 5
+          "value": 6
         },
         {
           "type": "Shots off Goal",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Blocked Shots",
@@ -3087,15 +3233,15 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 6
+          "value": 8
         },
         {
           "type": "Tackles",
-          "value": 15
+          "value": 16
         },
         {
           "type": "Fouls",
-          "value": 19
+          "value": 20
         },
         {
           "type": "Yellow Cards",

@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 9
+      "elapsed": 19
     },
     "timerStart": "2026-09-20T00:00:01.843Z",
     "timerStatus": "INICIADO"
@@ -30,7 +30,7 @@
     }
   },
   "goals": {
-    "home": 0,
+    "home": 1,
     "away": 0
   },
   "score": {
@@ -191,6 +191,134 @@
       "detail": "Djhordney bate com a mão na bola",
       "player": {
         "name": "Mão!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 8,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Important",
+      "detail": "São Paulo avança pela direita! Domingos Duarte recebe na área e chuta, mas manda longe do gol de Anthoni",
+      "player": {
+        "name": "Sem direção!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 10,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O São Paulo dita o ritmo nestes primeiros 10 minutos de jogo. A equipe da casa controla a posse de bola e busca o ataque, principalmente com investidas pela direita com Artur e Pedro Lima. A defesa do Internacional, porém, mostra-se atenta, com Maripán e Bruno Gomes fazendo cortes importantes. A única finalização partiu dos pés de Domingos Duarte, mas o chute foi longe do gol. Jogo de iniciativa do Tricolor, mas sem perigo real até agora.",
+      "player": {
+        "name": "Pressão do São Paulo marca início no Morumbis"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 10,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Bernabei tenta o passe, mas cai no gramado",
+      "player": {
+        "name": "Derrapou!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 12,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O São Paulo começou a partida tomando a iniciativa no Morumbis. O time da casa buscou o ataque desde o início com Artur e Calleri, mas a defesa do Internacional, com Maripán e Bruno Gomes, vinha cortando as jogadas. A pressão tricolor surtiu efeito e, aos 12 minutos, a arbitragem marcou pênalti de Maripán em Luciano. Momento decisivo logo no começo do jogo.",
+      "player": {
+        "name": "Clima esquenta: pênalti para o São Paulo!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 12,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Bruno Arleu marca pênalti de Maripán em Luciano",
+      "player": {
+        "name": "Pênalti!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 13,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Important",
+      "detail": "Pezzolano muito incomodado com a marcação de pênalti para o São Paulo",
+      "player": {
+        "name": "Na bronca!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 14,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O São Paulo tomou a iniciativa desde o começo e, após pressionar a defesa do Internacional, conseguiu a sua recompensa. Aos 12 minutos, o árbitro marcou pênalti de Maripán em Luciano, gerando reclamações do banco colorado. Na cobrança, aos 14, Calleri bateu rasteiro no canto. O goleiro Anthoni até acertou o lado, mas não conseguiu alcançar a bola. O placar está 1 a 0 para o time da casa.",
+      "player": {
+        "name": "Calleri abre o placar no Morumbis!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 14,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "player": {
+        "name": "Calleri"
       },
       "assist": null
     }
@@ -641,11 +769,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "75%"
+          "value": "65%"
         },
         {
           "type": "Total Passes",
-          "value": 74
+          "value": 106
         },
         {
           "type": "Pass Accuracy",
@@ -653,23 +781,23 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 8
+          "value": 12
         },
         {
           "type": "Total Shots",
-          "value": 0
+          "value": 3
         },
         {
           "type": "Shots on Goal",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Shots off Goal",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Blocked Shots",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Hit Woodwork",
@@ -685,7 +813,7 @@
         },
         {
           "type": "Penalties",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Goalkeeper Saves",
@@ -693,7 +821,7 @@
         },
         {
           "type": "Tackles",
-          "value": 3
+          "value": 5
         },
         {
           "type": "Fouls",
@@ -717,19 +845,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "25%"
+          "value": "35%"
         },
         {
           "type": "Total Passes",
-          "value": 12
+          "value": 44
         },
         {
           "type": "Pass Accuracy",
-          "value": "50%"
+          "value": "64%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 6
+          "value": 16
         },
         {
           "type": "Total Shots",
@@ -773,7 +901,7 @@
         },
         {
           "type": "Fouls",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Yellow Cards",

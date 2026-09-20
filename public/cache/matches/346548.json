@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 62
+      "elapsed": 65
     },
     "timerStart": "2026-09-20T20:06:55.470Z",
     "timerStatus": "INICIADO"
@@ -1527,7 +1527,7 @@
         "name": "Fluminense"
       },
       "type": "Important",
-      "detail": "Garro cruza para a área, defesa do Flu afasta com Millán e no rebote Matheuzinho isola finalização. Tiro de meta para Fábio",
+      "detail": "Garro cruza para a área, defesa do Flu afasta com Millán e no rebote Matheuzinho isola a finalização. Tiro de meta para Fábio",
       "player": {
         "name": "Garro cruza para a área, defesa do Flu afasta co"
       },
@@ -1698,6 +1698,54 @@
       "assist": {
         "name": "Samuel Xavier"
       }
+    },
+    {
+      "time": {
+        "elapsed": 59,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "Important",
+      "detail": "Após sofrer gol de empate, Marcão coloca gás na equipe tricolor e chama Fidelis e Ganso.",
+      "player": {
+        "name": "MEXIDAS NO FLU!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 61,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Após um primeiro tempo com vantagem do Fluminense, que marcou com Hulk, o Corinthians voltou para a segunda etapa com outra postura. A pressão foi intensa desde o início, com o time da casa empilhando chances e obrigando o goleiro Fábio a fazer defesas espetaculares. De tanto insistir, o empate veio aos 11 minutos: Gustavo Henrique aproveitou o rebote e deixou tudo igual, 1 a 1, em Itaquera.",
+      "player": {
+        "name": "Pressão dá resultado e Corinthians empata!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 61,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Canobbio"
+      },
+      "assist": null
     }
   ],
   "lineups": [
@@ -2155,11 +2203,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "57%"
+          "value": "56%"
         },
         {
           "type": "Total Passes",
-          "value": 382
+          "value": 393
         },
         {
           "type": "Pass Accuracy",
@@ -2167,7 +2215,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 49
+          "value": 51
         },
         {
           "type": "Total Shots",
@@ -2207,11 +2255,11 @@
         },
         {
           "type": "Tackles",
-          "value": 10
+          "value": 11
         },
         {
           "type": "Fouls",
-          "value": 9
+          "value": 13
         },
         {
           "type": "Yellow Cards",
@@ -2231,19 +2279,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "43%"
+          "value": "44%"
         },
         {
           "type": "Total Passes",
-          "value": 255
+          "value": 272
         },
         {
           "type": "Pass Accuracy",
-          "value": "82%"
+          "value": "83%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 45
+          "value": 47
         },
         {
           "type": "Total Shots",
@@ -2283,15 +2331,15 @@
         },
         {
           "type": "Tackles",
-          "value": 9
+          "value": 10
         },
         {
           "type": "Fouls",
-          "value": 8
+          "value": 9
         },
         {
           "type": "Yellow Cards",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Red Cards",

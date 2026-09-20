@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 23
+      "elapsed": 26
     },
     "timerStart": "2026-09-20T21:30:48.895Z",
     "timerStatus": "INICIADO"
@@ -458,6 +458,74 @@
       "assist": {
         "name": "Uuuuh!"
       }
+    },
+    {
+      "time": {
+        "elapsed": 20,
+        "extra": null
+      },
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "Important",
+      "detail": "Flamengo monta contra-ataque com vantagem numérica. Pedro passa para Arrascaeta na entrada da área. O meia deixa escapar do domínio e, em vez de chutar, tenta cruzamento, mas a defesa consegue bloquear",
+      "player": {
+        "name": "Arrascaeta"
+      },
+      "assist": {
+        "name": "Faltou a conclusão"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 21,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O jogo começou com o Bragantino perdendo uma chance clara com Rodriguinho. O Flamengo, apesar da lesão de Ayrton Lucas, respondeu com tudo: Arrascaeta carimbou a trave antes da rede balançar. Aos 12 minutos, Carrascal deu um belo passe e Varela surgiu como surpresa para abrir o placar: 1 a 0. O time da casa segue com o controle da partida e pressionando forte aos 21 minutos.",
+      "player": {
+        "name": "Fla na frente após início intenso!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 21,
+        "extra": null
+      },
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "Important",
+      "detail": "Pitta é lançado em boa posição no campo do Flamengo, mas Ortiz se antecipa e faz o corte.",
+      "player": {
+        "name": "Isidro Pitta"
+      },
+      "assist": {
+        "name": "Reação"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 24,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Flamengo empurra o Bragantino para a intermediária de defesa e busca espaços para se infiltrar",
+      "player": {
+        "name": "Pressão contínua"
+      },
+      "assist": null
     }
   ],
   "lineups": [
@@ -915,19 +983,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "65%"
+          "value": "61%"
         },
         {
           "type": "Total Passes",
-          "value": 126
+          "value": 136
         },
         {
           "type": "Pass Accuracy",
-          "value": "87%"
+          "value": "86%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 16
+          "value": 19
         },
         {
           "type": "Total Shots",
@@ -991,19 +1059,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "35%"
+          "value": "39%"
         },
         {
           "type": "Total Passes",
-          "value": 62
+          "value": 83
         },
         {
           "type": "Pass Accuracy",
-          "value": "74%"
+          "value": "77%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 16
+          "value": 19
         },
         {
           "type": "Total Shots",
@@ -1039,7 +1107,7 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 2
+          "value": 1
         },
         {
           "type": "Tackles",
@@ -1047,7 +1115,7 @@
         },
         {
           "type": "Fouls",
-          "value": 4
+          "value": 5
         },
         {
           "type": "Yellow Cards",

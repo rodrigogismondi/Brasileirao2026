@@ -13711,7 +13711,7 @@
         "status": {
           "long": "2H",
           "short": "2H",
-          "elapsed": 77
+          "elapsed": 80
         },
         "timerStart": "2026-09-20T20:06:55.470Z",
         "timerStatus": "INICIADO"
@@ -13763,7 +13763,7 @@
         "status": {
           "long": "2H",
           "short": "2H",
-          "elapsed": 74
+          "elapsed": 77
         },
         "timerStart": "2026-09-20T20:09:38.062Z",
         "timerStatus": "INICIADO"
@@ -18667,6 +18667,28 @@
             {
               "rank": 3,
               "team": {
+                "id": 266,
+                "name": "Fluminense",
+                "logo": "https://s.sde.globo.com/media/organizations/2018/03/11/fluminense.svg"
+              },
+              "points": 48,
+              "goalsDiff": 7,
+              "form": "WDWLW",
+              "description": "Copa Libertadores",
+              "all": {
+                "played": 28,
+                "win": 13,
+                "draw": 9,
+                "lose": 6,
+                "goals": {
+                  "for": 43,
+                  "against": 36
+                }
+              }
+            },
+            {
+              "rank": 4,
+              "team": {
                 "id": 293,
                 "name": "Athletico-PR",
                 "logo": "https://s.sde.globo.com/media/organizations/2026/01/07/Athletico-PR.svg"
@@ -18687,7 +18709,7 @@
               }
             },
             {
-              "rank": 4,
+              "rank": 5,
               "team": {
                 "id": 265,
                 "name": "Bahia",
@@ -18696,7 +18718,7 @@
               "points": 46,
               "goalsDiff": 9,
               "form": "DWWWW",
-              "description": "Copa Libertadores",
+              "description": "Copa Libertadores Qualifiers",
               "all": {
                 "played": 27,
                 "win": 12,
@@ -18705,28 +18727,6 @@
                 "goals": {
                   "for": 42,
                   "against": 33
-                }
-              }
-            },
-            {
-              "rank": 5,
-              "team": {
-                "id": 266,
-                "name": "Fluminense",
-                "logo": "https://s.sde.globo.com/media/organizations/2018/03/11/fluminense.svg"
-              },
-              "points": 46,
-              "goalsDiff": 6,
-              "form": "WDWLD",
-              "description": "Copa Libertadores Qualifiers",
-              "all": {
-                "played": 28,
-                "win": 12,
-                "draw": 10,
-                "lose": 6,
-                "goals": {
-                  "for": 42,
-                  "against": 36
                 }
               }
             },
@@ -18913,18 +18913,18 @@
                 "name": "Corinthians",
                 "logo": "https://s.sde.globo.com/media/organizations/2024/10/09/Corinthians_2024_Q4ahot4.svg"
               },
-              "points": 33,
-              "goalsDiff": -1,
-              "form": "LLLLD",
+              "points": 32,
+              "goalsDiff": -2,
+              "form": "LLLLL",
               "description": null,
               "all": {
                 "played": 28,
                 "win": 8,
-                "draw": 9,
-                "lose": 11,
+                "draw": 8,
+                "lose": 12,
                 "goals": {
                   "for": 29,
-                  "against": 30
+                  "against": 31
                 }
               }
             },
@@ -19443,6 +19443,28 @@
     {
       "player": {
         "id": 18,
+        "name": "Hulk",
+        "photo": "https://s.sde.globo.com/media/person_role/2026/07/06/photo_140x140_KvAp9Mg.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "name": "Fluminense",
+            "logo": "https://s.sde.globo.com/media/organizations/2014/04/14/fluminense_60x60.png"
+          },
+          "goals": {
+            "total": 7,
+            "assists": null
+          },
+          "games": {
+            "appearences": 0
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 19,
         "name": "Kaio Jorge",
         "photo": "https://s.sde.globo.com/media/person_role/2025/04/01/photo_140x140_1G1qpE6.png"
       },
@@ -19464,7 +19486,7 @@
     },
     {
       "player": {
-        "id": 19,
+        "id": 20,
         "name": "Carbonero",
         "photo": "https://s.sde.globo.com/media/person_role/2026/08/19/photo_140x140_tohWfor.png"
       },
@@ -19486,7 +19508,7 @@
     },
     {
       "player": {
-        "id": 20,
+        "id": 21,
         "name": "Jajá",
         "photo": "https://s.sde.globo.com/media/person_role/2026/03/31/photo_140x140_HhBEQDC.png"
       },
@@ -19508,7 +19530,7 @@
     },
     {
       "player": {
-        "id": 21,
+        "id": 22,
         "name": "Eduardo",
         "photo": "https://s.sde.globo.com/media/person_role/2026/02/09/photo_140x140_DV6aQbI.png"
       },
@@ -19517,28 +19539,6 @@
           "team": {
             "name": "Mirassol",
             "logo": "https://s.sde.globo.com/media/organizations/2026/07/17/65-_0000_MIrassol.png"
-          },
-          "goals": {
-            "total": 6,
-            "assists": null
-          },
-          "games": {
-            "appearences": 0
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 22,
-        "name": "Hulk",
-        "photo": "https://s.sde.globo.com/media/person_role/2026/07/06/photo_140x140_KvAp9Mg.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "name": "Fluminense",
-            "logo": "https://s.sde.globo.com/media/organizations/2014/04/14/fluminense_60x60.png"
           },
           "goals": {
             "total": 6,
@@ -20174,7 +20174,7 @@
     "mode": "live",
     "liveIntervalMs": 20000
   },
-  "fetchedAt": "2026-09-20T20:39:19.235Z",
+  "fetchedAt": "2026-09-20T20:42:11.206Z",
   "source": "ge-globo",
   "meta": {
     "rodada": 28,

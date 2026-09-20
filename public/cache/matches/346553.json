@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 74
+      "elapsed": 77
     },
     "timerStart": "2026-09-20T20:09:38.062Z",
     "timerStatus": "INICIADO"
@@ -1192,6 +1192,40 @@
         "name": "Kaio Jorge faz grande jogada e deixa Arroyo em g"
       },
       "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 72,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Após Renê abrir o placar para o Vitória aos 38 do primeiro tempo, o cenário mudou completamente na segunda etapa. O Cruzeiro voltou com tudo e empatou logo no primeiro minuto, com gol de Arroyo. Aos 20, Villalba aproveitou cruzamento na área e virou o jogo para 2 a 1. Com quase 30 minutos jogados, o time visitante controla a partida e busca ampliar a vantagem no placar.",
+      "player": {
+        "name": "Virada do Cruzeiro agita o Barradão!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 72,
+        "extra": null
+      },
+      "team": {
+        "id": 287,
+        "name": "Vitória"
+      },
+      "type": "Important",
+      "detail": "Jamerson recebe pela ponta esquerda e arrisca chute perigoso. Bola é desviada e sai em escanteio.",
+      "player": {
+        "name": "Jamerson"
+      },
+      "assist": {
+        "name": "Fora!"
+      }
     }
   ],
   "lineups": [
@@ -1653,7 +1687,7 @@
         },
         {
           "type": "Total Passes",
-          "value": 293
+          "value": 310
         },
         {
           "type": "Pass Accuracy",
@@ -1661,11 +1695,11 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 52
+          "value": 56
         },
         {
           "type": "Total Shots",
-          "value": 11
+          "value": 13
         },
         {
           "type": "Shots on Goal",
@@ -1673,7 +1707,7 @@
         },
         {
           "type": "Shots off Goal",
-          "value": 6
+          "value": 8
         },
         {
           "type": "Blocked Shots",
@@ -1685,7 +1719,7 @@
         },
         {
           "type": "Corner Kicks",
-          "value": 3
+          "value": 5
         },
         {
           "type": "Offsides",
@@ -1729,7 +1763,7 @@
         },
         {
           "type": "Total Passes",
-          "value": 444
+          "value": 468
         },
         {
           "type": "Pass Accuracy",
@@ -1737,11 +1771,11 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 54
+          "value": 58
         },
         {
           "type": "Total Shots",
-          "value": 10
+          "value": 11
         },
         {
           "type": "Shots on Goal",
@@ -1749,7 +1783,7 @@
         },
         {
           "type": "Shots off Goal",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Blocked Shots",
@@ -1773,11 +1807,11 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 5
+          "value": 7
         },
         {
           "type": "Tackles",
-          "value": 16
+          "value": 18
         },
         {
           "type": "Fouls",

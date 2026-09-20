@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 77
+      "elapsed": 80
     },
     "timerStart": "2026-09-20T20:06:55.470Z",
     "timerStatus": "INICIADO"
@@ -2083,9 +2083,9 @@
         "name": ""
       },
       "type": "Important",
-      "detail": "O Corinthians voltou avassalador para o segundo tempo e, após muita pressão e um milagre de Fábio, empatou o jogo com Gustavo Henrique no rebote. O time da casa seguiu dominando, mas quem marcou foi o Fluminense. Aos 30 minutos, Hulk aproveitou a chance que teve e balançou as redes, colocando o placar em 2 a 1 e jogando um balde de água fria na reação corintiana.",
+      "detail": "Após um segundo tempo de intensa pressão do Corinthians, que empatou com Gustavo Henrique, o jogo mudou de novo. O time da casa seguiu criando chances, exigindo milagre de Fábio e levando perigo em bola parada. Porém, aos 31 minutos, o Fluminense foi letal no contra-ataque: Hulk arriscou de fora da área, a bola desviou e entrou, colocando o Tricolor na frente com o placar de 2 a 1.",
       "player": {
-        "name": "Hulk castiga e recoloca o Flu na frente!"
+        "name": "Hulk marca de novo e põe o Flu em vantagem!"
       },
       "assist": null
     },
@@ -2102,6 +2102,122 @@
       "detail": "Normal Goal",
       "player": {
         "name": "Hulk"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 77,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Corinthians era melhor no segundo tempo e parecia mais perto da virada, mas lance de muita qualidade do Fluminense coloca o time carioca na frente em São Paulo",
+      "player": {
+        "name": "BANHO DE ÁGUA FRIA!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 77,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Hércules"
+      },
+      "assist": {
+        "name": "Nonato"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 77,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Riquelme Felipe"
+      },
+      "assist": {
+        "name": "Canobbio"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 78,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Hércules faz falta em Garro no meio-campo",
+      "player": {
+        "name": "Hércules faz falta em Garro no meio-campo"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 78,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Que reviravolta na Neo Química Arena! Depois de uma pressão avassaladora no segundo tempo, o Corinthians chegou ao empate com Gustavo Henrique e parecia perto da virada. Mas, por volta dos 30 minutos, em um contra-ataque letal, Hulk recebeu de Ganso e chutou de fora da área. A bola desviou na zaga e matou o goleiro Hugo Souza, colocando o Fluminense novamente na frente por 2 a 1.",
+      "player": {
+        "name": "Hulk decide e Flu retoma a vantagem!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 78,
+        "extra": null
+      },
+      "team": {
+        "id": 264,
+        "name": "Corinthians"
+      },
+      "type": "Important",
+      "detail": "Lingard foi chamado pelo treinador do Corinthians",
+      "player": {
+        "name": "DINIZ VAI MEXER!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 79,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Garro cruza bola direto na área, Raniele aparece para desviar, mas a bola vai direto pela linha de fundo",
+      "player": {
+        "name": "Garro cruza bola direto na área, Raniele aparece"
       },
       "assist": null
     }
@@ -2565,7 +2681,7 @@
         },
         {
           "type": "Total Passes",
-          "value": 451
+          "value": 472
         },
         {
           "type": "Pass Accuracy",
@@ -2573,7 +2689,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 61
+          "value": 64
         },
         {
           "type": "Total Shots",
@@ -2641,23 +2757,23 @@
         },
         {
           "type": "Total Passes",
-          "value": 315
+          "value": 334
         },
         {
           "type": "Pass Accuracy",
-          "value": "83%"
+          "value": "82%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 55
+          "value": 60
         },
         {
           "type": "Total Shots",
-          "value": 6
+          "value": 7
         },
         {
           "type": "Shots on Goal",
-          "value": 3
+          "value": 4
         },
         {
           "type": "Shots off Goal",
@@ -2689,7 +2805,7 @@
         },
         {
           "type": "Tackles",
-          "value": 10
+          "value": 11
         },
         {
           "type": "Fouls",

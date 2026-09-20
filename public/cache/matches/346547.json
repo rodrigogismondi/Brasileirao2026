@@ -7,12 +7,12 @@
       "city": ""
     },
     "status": {
-      "long": "NS",
-      "short": "NS",
-      "elapsed": null
+      "long": "1H",
+      "short": "1H",
+      "elapsed": 9
     },
-    "timerStart": "2026-09-19T22:33:36.618Z",
-    "timerStatus": "PAUSADO"
+    "timerStart": "2026-09-20T00:00:01.843Z",
+    "timerStatus": "INICIADO"
   },
   "league": {
     "round": "Regular Season - 28"
@@ -30,8 +30,8 @@
     }
   },
   "goals": {
-    "home": null,
-    "away": null
+    "home": 0,
+    "away": 0
   },
   "score": {
     "halftime": {
@@ -49,7 +49,152 @@
     "away": 4.38,
     "source": "betexplorer"
   },
-  "events": [],
+  "events": [
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Começa São Paulo x Inter no Morumbis!",
+      "player": {
+        "name": "Bola rolando!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 1,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Important",
+      "detail": "O São Paulo segue no ataque! Artur tenta o cruzamento, mas a bola sai pela linha de fundo",
+      "player": {
+        "name": "Acabou o campo!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 1,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Calleri toca para Artur, mas Bruno Gomes desarma",
+      "player": {
+        "name": "Aqui não!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 2,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Lançamento para Luciano, mas Maripán antecipa e corta de cabeça",
+      "player": {
+        "name": "Aqui não!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 3,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O São Paulo começou o jogo no Morumbis tomando a iniciativa. Desde o apito inicial, o Tricolor se instalou no campo de ataque com jogadas de Artur e Calleri, mas a defesa do Internacional, bem postada, conseguiu cortar as investidas com Bruno Gomes e Maripán. O time da casa controla a bola e busca o primeiro gol nestes minutos iniciais, pressionando a saída colorada.",
+      "player": {
+        "name": "São Paulo dita o ritmo no começo"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 3,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Pedro Lima dispara pela direita e cruza. A bola desvia em Matheus Bahia e chega tranquila até Anthoni",
+      "player": {
+        "name": "Tá em casa!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 6,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Pedro Lima tenta avançar pela direita, mas sofre falta de Bernabei",
+      "player": {
+        "name": "Derrubado!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 6,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O São Paulo começou com tudo, buscando o ataque desde o primeiro minuto. O Tricolor tenta pressionar com Artur e Pedro Lima, mas encontra uma defesa do Internacional bem postada. Bruno Gomes e Maripán já fizeram desarmes cruciais, impedindo as chegadas de Luciano e Calleri. Aos 6 minutos, o cenário é de domínio paulista na posse de bola, contra uma zaga colorada atenta.",
+      "player": {
+        "name": "Início com pressão do São Paulo"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 6,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Djhordney bate com a mão na bola",
+      "player": {
+        "name": "Mão!"
+      },
+      "assist": null
+    }
+  ],
   "lineups": [
     {
       "team": {
@@ -487,6 +632,159 @@
       ]
     }
   ],
-  "statistics": [],
+  "statistics": [
+    {
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "statistics": [
+        {
+          "type": "Ball Possession",
+          "value": "75%"
+        },
+        {
+          "type": "Total Passes",
+          "value": 74
+        },
+        {
+          "type": "Pass Accuracy",
+          "value": "89%"
+        },
+        {
+          "type": "Incomplete Passes",
+          "value": 8
+        },
+        {
+          "type": "Total Shots",
+          "value": 0
+        },
+        {
+          "type": "Shots on Goal",
+          "value": 0
+        },
+        {
+          "type": "Shots off Goal",
+          "value": 0
+        },
+        {
+          "type": "Blocked Shots",
+          "value": 0
+        },
+        {
+          "type": "Hit Woodwork",
+          "value": 0
+        },
+        {
+          "type": "Corner Kicks",
+          "value": 0
+        },
+        {
+          "type": "Offsides",
+          "value": 0
+        },
+        {
+          "type": "Penalties",
+          "value": 0
+        },
+        {
+          "type": "Goalkeeper Saves",
+          "value": 0
+        },
+        {
+          "type": "Tackles",
+          "value": 3
+        },
+        {
+          "type": "Fouls",
+          "value": 1
+        },
+        {
+          "type": "Yellow Cards",
+          "value": 0
+        },
+        {
+          "type": "Red Cards",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "team": {
+        "id": 285,
+        "name": "Internacional"
+      },
+      "statistics": [
+        {
+          "type": "Ball Possession",
+          "value": "25%"
+        },
+        {
+          "type": "Total Passes",
+          "value": 12
+        },
+        {
+          "type": "Pass Accuracy",
+          "value": "50%"
+        },
+        {
+          "type": "Incomplete Passes",
+          "value": 6
+        },
+        {
+          "type": "Total Shots",
+          "value": 0
+        },
+        {
+          "type": "Shots on Goal",
+          "value": 0
+        },
+        {
+          "type": "Shots off Goal",
+          "value": 0
+        },
+        {
+          "type": "Blocked Shots",
+          "value": 0
+        },
+        {
+          "type": "Hit Woodwork",
+          "value": 0
+        },
+        {
+          "type": "Corner Kicks",
+          "value": 0
+        },
+        {
+          "type": "Offsides",
+          "value": 0
+        },
+        {
+          "type": "Penalties",
+          "value": 0
+        },
+        {
+          "type": "Goalkeeper Saves",
+          "value": 0
+        },
+        {
+          "type": "Tackles",
+          "value": 1
+        },
+        {
+          "type": "Fouls",
+          "value": 1
+        },
+        {
+          "type": "Yellow Cards",
+          "value": 0
+        },
+        {
+          "type": "Red Cards",
+          "value": 0
+        }
+      ]
+    }
+  ],
   "sportsFieldUrl": null
 }

@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 17
+      "elapsed": 38
     },
     "timerStart": "2026-09-19T23:31:33.137Z",
     "timerStatus": "INICIADO"
@@ -30,7 +30,7 @@
     }
   },
   "goals": {
-    "home": 0,
+    "home": 1,
     "away": 0
   },
   "score": {
@@ -337,6 +337,320 @@
       "detail": "O Coritiba puxa contra-ataque com Lavega nas costas da defesa do Vasco. O atacante Colídio se aproxima na marcação, recebe a bola entre as pernas e acaba fazendo falta",
       "player": {
         "name": "Driblou bonito"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 16,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Com 16 minutos, o Vasco dita o ritmo do jogo. O time da casa já criou as melhores chances, com Andrés Gómez forçando uma grande defesa do goleiro Morisco após um chute potente de fora da área. Colidio também participa bastante do ataque. O Coritiba se segura na defesa e busca os contra-ataques com Lavega, mas ainda sem conseguir levar perigo real ao gol de Léo Jardim. Início de pressão vascaína.",
+      "player": {
+        "name": "Vasco pressiona, Morisco salva o Coxa!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 16,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Josué cobra falta na área do Vasco, a bola desvia na defesa e sai em escanteio para o Coxa",
+      "player": {
+        "name": "Josué cobra falta na área do Vasco, a bola desvi"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 17,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Josué cobra escanteio fechado, em direção ao gol, e a bola sai raspando o travessão",
+      "player": {
+        "name": "Com veneno"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 18,
+        "extra": null
+      },
+      "team": {
+        "id": 294,
+        "name": "Coritiba"
+      },
+      "type": "Important",
+      "detail": "Coritiba trabalha a bola de pé em pé no campo de defesa. Colídio, mais uma vez, se precipita na marcação e recebe uma caneta de Josué",
+      "player": {
+        "name": "Feche as pernas"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 20,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Vasco tomou a iniciativa nestes primeiros 20 minutos e criou as melhores oportunidades, parando em grande defesa do goleiro Morisco após chute forte de Andrés Gómez. O Coritiba respondeu à altura e quase abriu o placar em um escanteio venenoso cobrado por Josué, que passou raspando o travessão. A partida segue aberta, com os dois times buscando o ataque e o placar ainda zerado.",
+      "player": {
+        "name": "Vasco pressiona, mas Coxa leva perigo"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 20,
+        "extra": null
+      },
+      "team": {
+        "id": 267,
+        "name": "Vasco"
+      },
+      "type": "Important",
+      "detail": "Vasco passeia ao redor da área do Coritiba com cadência. Thiago Mendes passa na medida para Lescano, que se aproxima da área e bate colocado por cima do gol",
+      "player": {
+        "name": "Lescano"
+      },
+      "assist": {
+        "name": "Para fora! Boa chegada!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 21,
+        "extra": null
+      },
+      "team": {
+        "id": 294,
+        "name": "Coritiba"
+      },
+      "type": "Important",
+      "detail": "Colídio faz falta em Tissi no campo do Coritiba",
+      "player": {
+        "name": "Colídio faz falta em Tissi no campo do Coritiba"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 23,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Vasco domina as ações desde o início, empilhando chances com Andrés Gómez e Lescano, que pararam em boas defesas de Morisco. O Coritiba assustou em cobrança de escanteio de Josué, que passou rente ao travessão. Mas a insistência do time da casa deu resultado aos 23 minutos: após jogada de Paulo Henrique, Colidio aproveitou o rebote na pequena área para marcar e deixar o placar em 1 a 0.",
+      "player": {
+        "name": "Vasco pressiona e abre o placar!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 23,
+        "extra": null
+      },
+      "team": {
+        "id": 267,
+        "name": "Vasco"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "player": {
+        "name": "Colidio"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 25,
+        "extra": null
+      },
+      "team": {
+        "id": 267,
+        "name": "Vasco"
+      },
+      "type": "Important",
+      "detail": "Vasco acelera em contra-ataque, e Thiago Mendes recebe na grande área, mas não consegue o domínio e perde a chance de finalização",
+      "player": {
+        "name": "Thiago Mendes"
+      },
+      "assist": {
+        "name": "Ritmo forte"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 25,
+        "extra": null
+      },
+      "team": {
+        "id": 294,
+        "name": "Coritiba"
+      },
+      "type": "Important",
+      "detail": "A bola é lançada na área do Vasco. Pedro Rocha ajeita de cabeça e Lavega chuta forte, mas para no bloqueio da marcação",
+      "player": {
+        "name": "Lavega"
+      },
+      "assist": {
+        "name": "Resposta do Coritiba"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 28,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Pedro Rocha é lançado em profundidade, mas Saldívia se antecipa e faz o corte",
+      "player": {
+        "name": "Pedro Rocha é lançado em profundidade, mas Saldí"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 29,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Vasco assumiu o controle do jogo desde o início, criando chances com Andrés Gómez e parando em boas defesas de Morisco. O Coritiba respondeu em cobrança de escanteio de Josué que passou perto do travessão. Mas a pressão cruz-maltina deu resultado aos 23 minutos: após cruzamento de Paulo Henrique, Colidio aproveitou a sobra na pequena área e mandou para a rede, fazendo 1 a 0.",
+      "player": {
+        "name": "Vasco insiste e Colidio abre o placar!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 29,
+        "extra": null
+      },
+      "team": {
+        "id": 294,
+        "name": "Coritiba"
+      },
+      "type": "Important",
+      "detail": "PH é lançado pelo lado direito, mas não consegue dominar e cede lateral ao Coritiba",
+      "player": {
+        "name": "PH é lançado pelo lado direito, mas não consegue"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 31,
+        "extra": null
+      },
+      "team": {
+        "id": 267,
+        "name": "Vasco"
+      },
+      "type": "Important",
+      "detail": "Vasco desacelera o jogo e mantém a posse na defesa",
+      "player": {
+        "name": "Vasco desacelera o jogo e mantém a posse na defe"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 33,
+        "extra": null
+      },
+      "team": {
+        "id": 294,
+        "name": "Coritiba"
+      },
+      "type": "Important",
+      "detail": "Josué recebe carrinho forte de Cuiabano no tornozelo, cai com dores, mas o árbitro resolve apenas na conversa",
+      "player": {
+        "name": "Josué"
+      },
+      "assist": {
+        "name": "Chegou forte"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 33,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Vasco impôs seu ritmo desde o início e transformou a pressão em vantagem. Após criar chances com Andrés Gómez e o próprio Colidio, parando em boa defesa de Morisco, o time da casa abriu o placar aos 23 minutos. Paulo Henrique foi à linha de fundo e, após ajeitada de Lescano, Colidio aproveitou o rebote na pequena área para fazer 1 a 0. O Coritiba tentou responder, mas o jogo se acalmou.",
+      "player": {
+        "name": "Colidio marca e Vasco abre o placar!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 33,
+        "extra": null
+      },
+      "team": {
+        "id": 294,
+        "name": "Coritiba"
+      },
+      "type": "Important",
+      "detail": "Goleiro do Coritiba sai mal, é pressionado por Gómez na área e acaba chutando a bola em cima do atacante. Por sorte, a sobra fica com Josué",
+      "player": {
+        "name": "Pedro Morisco"
+      },
+      "assist": {
+        "name": "O que foi isso, Morisco?"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 35,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Com o resultado, o Vasco vai saindo momentaneamente da zona de rebaixamento. A equipe de Pedro Emanuel chega a 31 pontos, na 16ª posição, e ultrapassa o Grêmio e Internacional. O Coritiba, por sua vez, cai para o nono lugar.",
+      "player": {
+        "name": "Tabela"
       },
       "assist": null
     }
@@ -796,11 +1110,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "59%"
+          "value": "58%"
         },
         {
           "type": "Total Passes",
-          "value": 119
+          "value": 252
         },
         {
           "type": "Pass Accuracy",
@@ -808,23 +1122,23 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 22
+          "value": 46
         },
         {
           "type": "Total Shots",
-          "value": 4
+          "value": 8
         },
         {
           "type": "Shots on Goal",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Shots off Goal",
-          "value": 1
+          "value": 3
         },
         {
           "type": "Blocked Shots",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Hit Woodwork",
@@ -832,7 +1146,7 @@
         },
         {
           "type": "Corner Kicks",
-          "value": 2
+          "value": 4
         },
         {
           "type": "Offsides",
@@ -844,15 +1158,15 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Tackles",
-          "value": 0
+          "value": 8
         },
         {
           "type": "Fouls",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Yellow Cards",
@@ -872,11 +1186,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "41%"
+          "value": "42%"
         },
         {
           "type": "Total Passes",
-          "value": 70
+          "value": 161
         },
         {
           "type": "Pass Accuracy",
@@ -884,11 +1198,11 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 14
+          "value": 33
         },
         {
           "type": "Total Shots",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Shots on Goal",
@@ -900,7 +1214,7 @@
         },
         {
           "type": "Blocked Shots",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Hit Woodwork",
@@ -908,7 +1222,7 @@
         },
         {
           "type": "Corner Kicks",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Offsides",
@@ -920,11 +1234,11 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 3
+          "value": 4
         },
         {
           "type": "Tackles",
-          "value": 3
+          "value": 4
         },
         {
           "type": "Fouls",

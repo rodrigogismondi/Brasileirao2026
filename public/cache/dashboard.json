@@ -13561,7 +13561,7 @@
         "status": {
           "long": "1H",
           "short": "1H",
-          "elapsed": 17
+          "elapsed": 38
         },
         "timerStart": "2026-09-19T23:31:33.137Z",
         "timerStatus": "INICIADO"
@@ -13582,7 +13582,7 @@
         }
       },
       "goals": {
-        "home": 0,
+        "home": 1,
         "away": 0
       },
       "score": {
@@ -13611,12 +13611,12 @@
           "city": ""
         },
         "status": {
-          "long": "NS",
-          "short": "NS",
-          "elapsed": null
+          "long": "1H",
+          "short": "1H",
+          "elapsed": 9
         },
-        "timerStart": "2026-09-19T22:33:36.618Z",
-        "timerStatus": "PAUSADO"
+        "timerStart": "2026-09-20T00:00:01.843Z",
+        "timerStatus": "INICIADO"
       },
       "league": {
         "round": "Regular Season - 28"
@@ -13634,8 +13634,8 @@
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
       "score": {
         "halftime": {
@@ -18777,28 +18777,6 @@
             {
               "rank": 8,
               "team": {
-                "id": 294,
-                "name": "Coritiba",
-                "logo": "https://s.sde.globo.com/media/organizations/2018/03/11/coritiba.svg"
-              },
-              "points": 39,
-              "goalsDiff": -1,
-              "form": "WWLDD",
-              "description": "Copa Sudamericana",
-              "all": {
-                "played": 28,
-                "win": 10,
-                "draw": 9,
-                "lose": 9,
-                "goals": {
-                  "for": 37,
-                  "against": 38
-                }
-              }
-            },
-            {
-              "rank": 9,
-              "team": {
                 "id": 277,
                 "name": "Santos",
                 "logo": "https://s.sde.globo.com/media/organizations/2018/03/12/santos.svg"
@@ -18815,6 +18793,28 @@
                 "goals": {
                   "for": 41,
                   "against": 40
+                }
+              }
+            },
+            {
+              "rank": 9,
+              "team": {
+                "id": 294,
+                "name": "Coritiba",
+                "logo": "https://s.sde.globo.com/media/organizations/2018/03/11/coritiba.svg"
+              },
+              "points": 38,
+              "goalsDiff": -2,
+              "form": "WWLDL",
+              "description": "Copa Sudamericana",
+              "all": {
+                "played": 28,
+                "win": 10,
+                "draw": 8,
+                "lose": 10,
+                "goals": {
+                  "for": 37,
+                  "against": 39
                 }
               }
             },
@@ -18869,14 +18869,14 @@
                 "name": "São Paulo",
                 "logo": "https://s.sde.globo.com/media/organizations/2018/03/11/sao-paulo.svg"
               },
-              "points": 33,
+              "points": 34,
               "goalsDiff": 1,
-              "form": "DLWWL",
+              "form": "LWWLD",
               "description": null,
               "all": {
-                "played": 26,
+                "played": 27,
                 "win": 9,
-                "draw": 6,
+                "draw": 7,
                 "lose": 11,
                 "goals": {
                   "for": 31,
@@ -18957,23 +18957,45 @@
                 "name": "Vasco",
                 "logo": "https://s.sde.globo.com/media/organizations/2021/09/04/vasco_SVG.svg"
               },
-              "points": 29,
-              "goalsDiff": -12,
-              "form": "LWLWD",
+              "points": 31,
+              "goalsDiff": -11,
+              "form": "LWLWW",
               "description": null,
               "all": {
                 "played": 27,
-                "win": 7,
-                "draw": 8,
+                "win": 8,
+                "draw": 7,
                 "lose": 12,
                 "goals": {
-                  "for": 29,
+                  "for": 30,
                   "against": 41
                 }
               }
             },
             {
               "rank": 17,
+              "team": {
+                "id": 285,
+                "name": "Internacional",
+                "logo": "https://s.sde.globo.com/media/organizations/2018/03/11/internacional.svg"
+              },
+              "points": 29,
+              "goalsDiff": -5,
+              "form": "DLLWD",
+              "description": "Relegation",
+              "all": {
+                "played": 28,
+                "win": 6,
+                "draw": 11,
+                "lose": 11,
+                "goals": {
+                  "for": 30,
+                  "against": 35
+                }
+              }
+            },
+            {
+              "rank": 18,
               "team": {
                 "id": 284,
                 "name": "Grêmio",
@@ -18991,28 +19013,6 @@
                 "goals": {
                   "for": 30,
                   "against": 38
-                }
-              }
-            },
-            {
-              "rank": 18,
-              "team": {
-                "id": 285,
-                "name": "Internacional",
-                "logo": "https://s.sde.globo.com/media/organizations/2018/03/11/internacional.svg"
-              },
-              "points": 28,
-              "goalsDiff": -5,
-              "form": "DDLLW",
-              "description": "Relegation",
-              "all": {
-                "played": 27,
-                "win": 6,
-                "draw": 10,
-                "lose": 11,
-                "goals": {
-                  "for": 30,
-                  "against": 35
                 }
               }
             },
@@ -20174,7 +20174,7 @@
     "mode": "live",
     "liveIntervalMs": 20000
   },
-  "fetchedAt": "2026-09-19T23:48:34.452Z",
+  "fetchedAt": "2026-09-20T00:09:41.453Z",
   "source": "ge-globo",
   "meta": {
     "rodada": 28,

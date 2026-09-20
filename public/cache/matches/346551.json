@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 63
+      "elapsed": 70
     },
     "timerStart": "2026-09-20T15:10:25.469Z",
     "timerStatus": "INICIADO"
@@ -898,6 +898,138 @@
         "name": "Marlon Freitas"
       },
       "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 62,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O jogo avança pelo segundo tempo com um ritmo eletrizante, mas o placar segue zerado. O grande protagonista até aqui tem sido o travessão, acertado duas vezes pelo Palmeiras, com Marlon Freitas e Vitor Roque, e uma pelo Grêmio, em cabeçada de Gustavo Martins. Os goleiros também brilham: Weverton e Carlos Miguel já operaram milagres e garantem a igualdade em um duelo de muitas finalizações.",
+      "player": {
+        "name": "Travessão e goleiros seguram o 0 a 0"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 62,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Amuzu é lançado no contra-ataque, gira para cima de Giay, invade a área e finaliza cruzado acertando o travessão. No entanto, o assistente marca posição de impedimento do atacante gremista.",
+      "player": {
+        "name": "Amuzu é lançado no contra-ataque, gira para cima"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 63,
+        "extra": null
+      },
+      "team": {
+        "id": 284,
+        "name": "Grêmio"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "João Pedro"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 66,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "A partida passa dos 20 minutos do segundo tempo e o placar segue zerado por detalhe. O Palmeiras domina as ações e já acertou o travessão duas vezes, com Marlon Freitas e Vitor Roque, além de exigir defesas espetaculares de Weverton. O Grêmio aposta nos contra-ataques e também parou em grandes intervenções de Carlos Miguel. O jogo é tenso, com quatro cartões amarelos distribuídos até aqui.",
+      "player": {
+        "name": "Goleiros e trave seguram o placar"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 66,
+        "extra": null
+      },
+      "team": {
+        "id": 284,
+        "name": "Grêmio"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Carlos Vinícius"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 67,
+        "extra": null
+      },
+      "team": {
+        "id": 284,
+        "name": "Grêmio"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Jovane Cabral"
+      },
+      "assist": {
+        "name": "Amuzu"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 67,
+        "extra": null
+      },
+      "team": {
+        "id": 284,
+        "name": "Grêmio"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Enamorado"
+      },
+      "assist": {
+        "name": "Pavón"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 68,
+        "extra": null
+      },
+      "team": {
+        "id": 284,
+        "name": "Grêmio"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Gustavo Martins"
+      },
+      "assist": null
     }
   ],
   "lineups": [
@@ -1355,19 +1487,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "35%"
+          "value": "34%"
         },
         {
           "type": "Total Passes",
-          "value": 200
+          "value": 205
         },
         {
           "type": "Pass Accuracy",
-          "value": "79%"
+          "value": "78%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 43
+          "value": 46
         },
         {
           "type": "Total Shots",
@@ -1395,7 +1527,7 @@
         },
         {
           "type": "Offsides",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Penalties",
@@ -1403,7 +1535,7 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 8
+          "value": 9
         },
         {
           "type": "Tackles",
@@ -1411,11 +1543,11 @@
         },
         {
           "type": "Fouls",
-          "value": 10
+          "value": 15
         },
         {
           "type": "Yellow Cards",
-          "value": 1
+          "value": 4
         },
         {
           "type": "Red Cards",
@@ -1431,11 +1563,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "65%"
+          "value": "66%"
         },
         {
           "type": "Total Passes",
-          "value": 455
+          "value": 505
         },
         {
           "type": "Pass Accuracy",
@@ -1443,19 +1575,19 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 54
+          "value": 62
         },
         {
           "type": "Total Shots",
-          "value": 16
+          "value": 18
         },
         {
           "type": "Shots on Goal",
-          "value": 5
+          "value": 6
         },
         {
           "type": "Shots off Goal",
-          "value": 3
+          "value": 4
         },
         {
           "type": "Blocked Shots",
@@ -1467,7 +1599,7 @@
         },
         {
           "type": "Corner Kicks",
-          "value": 4
+          "value": 6
         },
         {
           "type": "Offsides",
@@ -1483,7 +1615,7 @@
         },
         {
           "type": "Tackles",
-          "value": 12
+          "value": 13
         },
         {
           "type": "Fouls",

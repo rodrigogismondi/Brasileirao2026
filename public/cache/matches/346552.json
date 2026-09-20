@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 26
+      "elapsed": 29
     },
     "timerStart": "2026-09-20T22:30:40.838Z",
     "timerStatus": "INICIADO"
@@ -31,7 +31,7 @@
   },
   "goals": {
     "home": 1,
-    "away": 0
+    "away": 1
   },
   "score": {
     "halftime": {
@@ -354,6 +354,54 @@
       "detail": "Bahia tenta trabalhar jogadas para o ataque, mas esbarra na marcação do Athletico e só consegue criar com bolas longas.",
       "player": {
         "name": "Bahia tenta trabalhar jogadas para o ataque, mas"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 24,
+        "extra": null
+      },
+      "team": {
+        "id": 265,
+        "name": "Bahia"
+      },
+      "type": "Important",
+      "detail": "Athletico segue valorizando a posse de bola e explora os dois lados para cercar a área do Bahia.",
+      "player": {
+        "name": "Athletico segue valorizando a posse de bola e ex"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 25,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "A partida começou com o Athletico-PR mais incisivo, criando perigo com Mendoza, que parou em boa defesa de Ronaldo. A pressão deu resultado e, aos 15 minutos, Esquivel abriu o placar após ótima jogada coletiva. Mas o Bahia não se abateu e, aos 25, aproveitou uma falha do goleiro Mycael em cruzamento para empatar com Erick Pulga, deixando tudo igual em 1 a 1 na Arena da Baixada.",
+      "player": {
+        "name": "Gols para os dois lados e tudo igual!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 25,
+        "extra": null
+      },
+      "team": {
+        "id": 265,
+        "name": "Bahia"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "player": {
+        "name": "Erick Pulga"
       },
       "assist": null
     }
@@ -813,15 +861,15 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "59%"
+          "value": "56%"
         },
         {
           "type": "Total Passes",
-          "value": 158
+          "value": 172
         },
         {
           "type": "Pass Accuracy",
-          "value": "87%"
+          "value": "88%"
         },
         {
           "type": "Incomplete Passes",
@@ -889,27 +937,27 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "41%"
+          "value": "44%"
         },
         {
           "type": "Total Passes",
-          "value": 82
+          "value": 93
         },
         {
           "type": "Pass Accuracy",
-          "value": "88%"
+          "value": "87%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 10
+          "value": 12
         },
         {
           "type": "Total Shots",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Shots on Goal",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Shots off Goal",
@@ -941,7 +989,7 @@
         },
         {
           "type": "Tackles",
-          "value": 6
+          "value": 7
         },
         {
           "type": "Fouls",

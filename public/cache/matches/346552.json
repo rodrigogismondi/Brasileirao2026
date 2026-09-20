@@ -63,6 +63,24 @@
       "type": "subst",
       "detail": "Substitution 1",
       "player": {
+        "name": "Dudu"
+      },
+      "assist": {
+        "name": "Aguirre"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 293,
+        "name": "Athletico-PR"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
         "name": "Jorge Rivaldo"
       },
       "assist": {
@@ -677,6 +695,22 @@
         "name": "Bahia"
       },
       "type": "Important",
+      "detail": "Athletico e Bahia já estão em ação para os 45 minutos finais.",
+      "player": {
+        "name": "Bola rolando!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 45,
+        "extra": null
+      },
+      "team": {
+        "id": 265,
+        "name": "Bahia"
+      },
+      "type": "Important",
       "detail": "O primeiro tempo foi eletrizante na Arena da Baixada. O Athletico começou melhor e abriu o placar aos 15 minutos, com Esquivel, após bela jogada de Mendoza e Vargas. O Bahia não se abateu e buscou o empate aos 25, quando Erick Pulga aproveitou um rebote do goleiro Mycael para deixar tudo igual. Com o 1 a 1 no placar, a partida seguiu intensa e com cartões para ambos os lados.",
       "player": {
         "name": "Gols para os dois lados e tudo igual na Baixada"
@@ -1223,15 +1257,15 @@
         },
         {
           "type": "Total Passes",
-          "value": 286
+          "value": 308
         },
         {
           "type": "Pass Accuracy",
-          "value": "86%"
+          "value": "87%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 39
+          "value": 41
         },
         {
           "type": "Total Shots",
@@ -1299,7 +1333,7 @@
         },
         {
           "type": "Total Passes",
-          "value": 263
+          "value": 277
         },
         {
           "type": "Pass Accuracy",
@@ -1307,7 +1341,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 25
+          "value": 28
         },
         {
           "type": "Total Shots",
@@ -1343,7 +1377,7 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 3
+          "value": 4
         },
         {
           "type": "Tackles",

@@ -7,12 +7,12 @@
       "city": ""
     },
     "status": {
-      "long": "HT",
-      "short": "HT",
-      "elapsed": 45
+      "long": "2H",
+      "short": "2H",
+      "elapsed": 50
     },
-    "timerStart": "2026-09-20T00:19:39.111Z",
-    "timerStatus": "PAUSADO"
+    "timerStart": "2026-09-20T00:36:45.541Z",
+    "timerStatus": "INICIADO"
   },
   "league": {
     "round": "Regular Season - 28"
@@ -50,6 +50,60 @@
     "source": "betexplorer"
   },
   "events": [
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 294,
+        "name": "Coritiba"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Nicolás Fonseca"
+      },
+      "assist": {
+        "name": "Thiago Santos"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 294,
+        "name": "Coritiba"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Bustos"
+      },
+      "assist": {
+        "name": "Vitor Tissi"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 294,
+        "name": "Coritiba"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Paulo Roberto"
+      },
+      "assist": {
+        "name": "Fabinho"
+      }
+    },
     {
       "time": {
         "elapsed": 0,
@@ -826,6 +880,40 @@
         "extra": null
       },
       "team": {
+        "id": 267,
+        "name": "Vasco"
+      },
+      "type": "Important",
+      "detail": "A bola é lançada para Duarte no meio. O atacante ajeita de cabeça para Gómez, que avança em posição de impedimento. Ele se aproxima da área e encobre Morisco. Mas, na sequência, a assistente levanta a bandeira",
+      "player": {
+        "name": "Andrés Gómez"
+      },
+      "assist": {
+        "name": "Gol...mas não valeu"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 45,
+        "extra": null
+      },
+      "team": {
+        "id": 267,
+        "name": "Vasco"
+      },
+      "type": "Important",
+      "detail": "Vasco com a bola",
+      "player": {
+        "name": "Recomeça"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 45,
+        "extra": null
+      },
+      "team": {
         "id": 0,
         "name": ""
       },
@@ -833,6 +921,22 @@
       "detail": "Vasco domina o jogo em sua casa. Homens de ataque e do meio campo consegue controler a posse de bola e ditar o ritmo do jogo. O Coritiba tenta apostar nos contra-ataques, mas as melhores chances têm saído de bolas aéreas de Josué.",
       "player": {
         "name": "Panorama"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 46,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Coritiba tenta sair jogando, mas é pressionado pelo Vasco",
+      "player": {
+        "name": "Coritiba tenta sair jogando, mas é pressionado p"
       },
       "assist": null
     },
@@ -878,9 +982,57 @@
         "name": ""
       },
       "type": "Important",
+      "detail": "Falta de Saldívia em Pedro Rocha no meio",
+      "player": {
+        "name": "Falta de Saldívia em Pedro Rocha no meio"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 47,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Morisco recebe passe na foqueira, deixa a bola quicar e manda uma balão para longe da área",
+      "player": {
+        "name": "Morisco recebe passe na foqueira, deixa a bola q"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 47,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
       "detail": "Colídio passa para Cuiabano na ponta. O lateral cruza rasteiro para a área, mas Cóser corta",
       "player": {
         "name": "Colídio passa para Cuiabano na ponta. O lateral "
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 49,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Léo Jardim recebe recuo, deixa a bola correr no domínio e quase é desarmado por Paulo Roberto",
+      "player": {
+        "name": "Léo Jardim recebe recuo, deixa a bola correr no "
       },
       "assist": null
     }
@@ -1340,19 +1492,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "60%"
+          "value": "61%"
         },
         {
           "type": "Total Passes",
-          "value": 321
+          "value": 331
         },
         {
           "type": "Pass Accuracy",
-          "value": "83%"
+          "value": "82%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 56
+          "value": 58
         },
         {
           "type": "Total Shots",
@@ -1364,11 +1516,11 @@
         },
         {
           "type": "Shots off Goal",
-          "value": 4
+          "value": 5
         },
         {
           "type": "Blocked Shots",
-          "value": 3
+          "value": 2
         },
         {
           "type": "Hit Woodwork",
@@ -1380,7 +1532,7 @@
         },
         {
           "type": "Offsides",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Penalties",
@@ -1392,11 +1544,11 @@
         },
         {
           "type": "Tackles",
-          "value": 10
+          "value": 14
         },
         {
           "type": "Fouls",
-          "value": 4
+          "value": 5
         },
         {
           "type": "Yellow Cards",
@@ -1416,11 +1568,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "40%"
+          "value": "39%"
         },
         {
           "type": "Total Passes",
-          "value": 190
+          "value": 204
         },
         {
           "type": "Pass Accuracy",
@@ -1428,7 +1580,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 40
+          "value": 43
         },
         {
           "type": "Total Shots",
@@ -1468,7 +1620,7 @@
         },
         {
           "type": "Tackles",
-          "value": 7
+          "value": 8
         },
         {
           "type": "Fouls",

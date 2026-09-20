@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 86
+      "elapsed": 89
     },
     "timerStart": "2026-09-20T20:06:55.470Z",
     "timerStatus": "INICIADO"
@@ -2331,9 +2331,9 @@
         "name": ""
       },
       "type": "Important",
-      "detail": "O segundo tempo é eletrizante! O Corinthians voltou com tudo, pressionou e chegou ao empate com Gustavo Henrique aos 10 minutos, após grande defesa de Fábio. O time da casa seguiu melhor e parecia perto da virada. Mas, aos 30, em um contra-ataque letal, Hulk chutou de fora, a bola desviou e recolocou o Fluminense na frente: 2 a 1. Jogo intenso na reta final",
+      "detail": "Que segundo tempo! O Corinthians voltou com tudo, pressionou e conseguiu o empate com Gustavo Henrique aos 10 minutos. O time da casa dominava e parecia perto da virada, com o goleiro Fábio fazendo milagres. Mas, aos 30, em um contra-ataque, Hulk finalizou de fora da área, a bola desviou e entrou, colocando o Fluminense na frente por 2 a 1 e jogando um balde de água fria na arena.",
       "player": {
-        "name": "Hulk brilha e Flu volta à frente!"
+        "name": "Hulk castiga e recoloca o Flu na frente!"
       },
       "assist": null
     },
@@ -2352,6 +2352,92 @@
         "name": "Riquelme Felipe"
       },
       "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 85,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Hulk faz falta em Breno Bidon no meio",
+      "player": {
+        "name": "Hulk faz falta em Breno Bidon no meio"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 86,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Que segundo tempo! O Corinthians voltou com tudo, amassou o Fluminense e empatou o jogo com Gustavo Henrique aos 10 minutos, após uma blitz ofensiva. O time da casa seguiu melhor e parecia perto da virada, mas foi castigado. Aos 30, Hulk aproveitou um contra-ataque, chutou de fora, a bola desviou e entrou. Um banho de água fria na arena, com o Fluminense fazendo 2 a 1.",
+      "player": {
+        "name": "Hulk brilha e põe o Flu na frente de novo!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 86,
+        "extra": null
+      },
+      "team": {
+        "id": 264,
+        "name": "Corinthians"
+      },
+      "type": "Important",
+      "detail": "Garro cobra falta na área, Gustavo Henrique escora para o meio e bola fica boa para Gui Negão finalizar. Atacante do Corinthians pega muito mal e isola",
+      "player": {
+        "name": "Gui Negão"
+      },
+      "assist": {
+        "name": "PERDEU!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 86,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Rodrigo Castillo"
+      },
+      "assist": {
+        "name": "Hulk"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 87,
+        "extra": null
+      },
+      "team": {
+        "id": 264,
+        "name": "Corinthians"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Matheus Pereira"
+      },
+      "assist": {
+        "name": "Breno Bidon"
+      }
     }
   ],
   "lineups": [
@@ -2813,19 +2899,19 @@
         },
         {
           "type": "Total Passes",
-          "value": 511
+          "value": 535
         },
         {
           "type": "Pass Accuracy",
-          "value": "86%"
+          "value": "87%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 69
+          "value": 71
         },
         {
           "type": "Total Shots",
-          "value": 16
+          "value": 17
         },
         {
           "type": "Shots on Goal",
@@ -2837,7 +2923,7 @@
         },
         {
           "type": "Blocked Shots",
-          "value": 3
+          "value": 4
         },
         {
           "type": "Hit Woodwork",
@@ -2849,7 +2935,7 @@
         },
         {
           "type": "Offsides",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Penalties",
@@ -2861,7 +2947,7 @@
         },
         {
           "type": "Tackles",
-          "value": 13
+          "value": 15
         },
         {
           "type": "Fouls",
@@ -2889,15 +2975,15 @@
         },
         {
           "type": "Total Passes",
-          "value": 356
+          "value": 360
         },
         {
           "type": "Pass Accuracy",
-          "value": "83%"
+          "value": "82%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 62
+          "value": 64
         },
         {
           "type": "Total Shots",
@@ -2937,11 +3023,11 @@
         },
         {
           "type": "Tackles",
-          "value": 12
+          "value": 14
         },
         {
           "type": "Fouls",
-          "value": 17
+          "value": 19
         },
         {
           "type": "Yellow Cards",

@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 83
+      "elapsed": 86
     },
     "timerStart": "2026-09-20T20:09:38.062Z",
     "timerStatus": "INICIADO"
@@ -1340,6 +1340,90 @@
       "assist": {
         "name": "Gerson"
       }
+    },
+    {
+      "time": {
+        "elapsed": 82,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Vitória saiu na frente no primeiro tempo com gol de Renê, mas viu o cenário mudar completamente na etapa final. O Cruzeiro empatou logo no primeiro minuto com Arroyo, aproveitando falha do goleiro. Aos 20, Villalba marcou o gol da virada. Com 37 minutos, a Raposa controla o jogo e já perdeu chance de ampliar, enquanto o Vitória busca forças para reagir diante de sua torcida.",
+      "player": {
+        "name": "Cruzeiro vira e comanda o jogo no Barradão!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 82,
+        "extra": null
+      },
+      "team": {
+        "id": 287,
+        "name": "Vitória"
+      },
+      "type": "Important",
+      "detail": "Matheuzinho arrisca chute da entrada da área, Otávio dá rebote, mas Renê se desequilibra dentro da área na hora de completar a finalização.",
+      "player": {
+        "name": "Boa chance!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 83,
+        "extra": null
+      },
+      "team": {
+        "id": 287,
+        "name": "Vitória"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Renato Kayzer"
+      },
+      "assist": {
+        "name": "Matheuzinho"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 83,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O jogo mudou completamente na segunda etapa! Após o Vitória sair na frente com gol de Renê no primeiro tempo, o Cruzeiro voltou com tudo. Logo no minuto inicial, Arroyo empatou a partida. Aos 20, a virada veio com Villalba, que aproveitou sobra na área para fazer 2 a 1. Com o placar a seu favor, a equipe mineira controla o ritmo e busca ampliar o resultado nos minutos finais do jogo.",
+      "player": {
+        "name": "Cruzeiro reage e vira o jogo no Barradão!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 83,
+        "extra": null
+      },
+      "team": {
+        "id": 283,
+        "name": "Cruzeiro"
+      },
+      "type": "Important",
+      "detail": "Matheus Pereira recebe de Kaio Jorge depois de boa trama em contra-ataque, mas camisa 10 manda por cima da meta de Lucas Arcanjo.",
+      "player": {
+        "name": "Matheus Pereira"
+      },
+      "assist": {
+        "name": "por cima"
+      }
     }
   ],
   "lineups": [
@@ -1797,11 +1881,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "41%"
+          "value": "42%"
         },
         {
           "type": "Total Passes",
-          "value": 339
+          "value": 359
         },
         {
           "type": "Pass Accuracy",
@@ -1809,15 +1893,15 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 60
+          "value": 65
         },
         {
           "type": "Total Shots",
-          "value": 16
+          "value": 18
         },
         {
           "type": "Shots on Goal",
-          "value": 4
+          "value": 5
         },
         {
           "type": "Shots off Goal",
@@ -1825,7 +1909,7 @@
         },
         {
           "type": "Blocked Shots",
-          "value": 4
+          "value": 5
         },
         {
           "type": "Hit Woodwork",
@@ -1873,11 +1957,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "59%"
+          "value": "58%"
         },
         {
           "type": "Total Passes",
-          "value": 474
+          "value": 479
         },
         {
           "type": "Pass Accuracy",
@@ -1885,11 +1969,11 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 63
+          "value": 64
         },
         {
           "type": "Total Shots",
-          "value": 11
+          "value": 12
         },
         {
           "type": "Shots on Goal",
@@ -1897,7 +1981,7 @@
         },
         {
           "type": "Shots off Goal",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Blocked Shots",
@@ -1921,7 +2005,7 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 8
+          "value": 9
         },
         {
           "type": "Tackles",

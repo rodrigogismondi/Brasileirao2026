@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 5
+      "elapsed": 8
     },
     "timerStart": "2026-09-20T21:30:48.895Z",
     "timerStatus": "INICIADO"
@@ -105,6 +105,22 @@
         "extra": null
       },
       "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O jogo mal começou e já tem drama! Aos 2 minutos, o Bragantino armou um contra-ataque fulminante. Fernando ganhou na velocidade de Ayrton Lucas, invadiu a área e serviu Rodriguinho, que teve duas oportunidades, mas finalizou para fora na melhor chance da partida. Na jogada, Ayrton Lucas sentiu a coxa esquerda e deixou o campo de maca, chorando. Início de muita preocupação para o Flamengo.",
+      "player": {
+        "name": "Início dramático: chance incrível e lesão"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 3,
+        "extra": null
+      },
+      "team": {
         "id": 262,
         "name": "Flamengo"
       },
@@ -116,6 +132,72 @@
       "assist": {
         "name": "Preocupação"
       }
+    },
+    {
+      "time": {
+        "elapsed": 4,
+        "extra": null
+      },
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Alex Sandro"
+      },
+      "assist": {
+        "name": "Ayrton Lucas"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 5,
+        "extra": null
+      },
+      "team": {
+        "id": 280,
+        "name": "Bragantino"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Fernando"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 6,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O jogo mal começou e já tem drama. Aos 2 minutos, o Bragantino perdeu uma chance inacreditável: Fernando fez grande jogada e serviu Rodriguinho, que finalizou para fora. Na jogada, Ayrton Lucas sentiu a coxa, saiu de maca chorando e foi substituído por Alex Sandro no Flamengo. O clima esquentou com um cartão amarelo para Fernando logo em seguida, marcando um início intenso e acidentado.",
+      "player": {
+        "name": "Começo agitado com lesão e chance incrível"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 6,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Carrascal passa para Alex Sandro no lado esquerdo do ataque. O lateral manda um balão para a área, ninguém chega e a bola morre na linha de fundo",
+      "player": {
+        "name": "Carrascal passa para Alex Sandro no lado esquerd"
+      },
+      "assist": null
     }
   ],
   "lineups": [
@@ -573,19 +655,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "66%"
+          "value": "56%"
         },
         {
           "type": "Total Passes",
-          "value": 9
+          "value": 23
         },
         {
           "type": "Pass Accuracy",
-          "value": "89%"
+          "value": "87%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 1
+          "value": 3
         },
         {
           "type": "Total Shots",
@@ -649,23 +731,23 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "34%"
+          "value": "44%"
         },
         {
           "type": "Total Passes",
-          "value": 8
+          "value": 11
         },
         {
           "type": "Pass Accuracy",
-          "value": "63%"
+          "value": "45%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 3
+          "value": 6
         },
         {
           "type": "Total Shots",
-          "value": 0
+          "value": 2
         },
         {
           "type": "Shots on Goal",
@@ -673,11 +755,11 @@
         },
         {
           "type": "Shots off Goal",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Blocked Shots",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Hit Woodwork",
@@ -705,11 +787,11 @@
         },
         {
           "type": "Fouls",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Yellow Cards",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Red Cards",

@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 26
+      "elapsed": 29
     },
     "timerStart": "2026-09-20T21:30:48.895Z",
     "timerStatus": "INICIADO"
@@ -521,9 +521,41 @@
         "name": ""
       },
       "type": "Important",
+      "detail": "O jogo começou elétrico! O Bragantino perdeu uma chance incrível com Rodriguinho logo aos 2 minutos e, pouco depois, o drama: Ayrton Lucas se lesionou e saiu chorando. O Flamengo não se abateu, acertou a trave com Arrascaeta e abriu o placar aos 12 minutos com Varela, que apareceu de surpresa na área para fazer 1 a 0. Desde então, o time rubro-negro domina e pressiona um adversário acuado.",
+      "player": {
+        "name": "Gol, lesão e domínio do Fla"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 24,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
       "detail": "Flamengo empurra o Bragantino para a intermediária de defesa e busca espaços para se infiltrar",
       "player": {
         "name": "Pressão contínua"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 25,
+        "extra": null
+      },
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "Important",
+      "detail": "Alex Sandro é lançado em profundidade, mas o árbitro indica posição de impedimento",
+      "player": {
+        "name": "Alex Sandro"
       },
       "assist": null
     }
@@ -983,27 +1015,27 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "61%"
+          "value": "67%"
         },
         {
           "type": "Total Passes",
-          "value": 136
+          "value": 189
         },
         {
           "type": "Pass Accuracy",
-          "value": "86%"
+          "value": "89%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 19
+          "value": 20
         },
         {
           "type": "Total Shots",
-          "value": 4
+          "value": 5
         },
         {
           "type": "Shots on Goal",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Shots off Goal",
@@ -1023,7 +1055,7 @@
         },
         {
           "type": "Offsides",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Penalties",
@@ -1039,7 +1071,7 @@
         },
         {
           "type": "Fouls",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Yellow Cards",
@@ -1059,19 +1091,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "39%"
+          "value": "33%"
         },
         {
           "type": "Total Passes",
-          "value": 83
+          "value": 84
         },
         {
           "type": "Pass Accuracy",
-          "value": "77%"
+          "value": "76%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 19
+          "value": 20
         },
         {
           "type": "Total Shots",
@@ -1107,7 +1139,7 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Tackles",

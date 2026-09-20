@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 77
+      "elapsed": 80
     },
     "timerStart": "2026-09-20T20:09:38.062Z",
     "timerStatus": "INICIADO"
@@ -1226,6 +1226,70 @@
       "assist": {
         "name": "Fora!"
       }
+    },
+    {
+      "time": {
+        "elapsed": 76,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Depois do Vitória sair na frente com gol de Renê ainda na etapa inicial, o Cruzeiro reagiu de forma fulminante no segundo tempo. Logo no primeiro minuto, Arroyo aproveitou falha do goleiro Arcanjo para empatar. Aos 20, Villalba, que saiu do banco, marcou o gol da virada. Com mais de 30 minutos jogados, a Raposa controla o jogo e vence por 2 a 1, deixando o time da casa em apuros.",
+      "player": {
+        "name": "Cruzeiro vira e comanda no Barradão!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 76,
+        "extra": null
+      },
+      "team": {
+        "id": 287,
+        "name": "Vitória"
+      },
+      "type": "Important",
+      "detail": "Depois de cobranças de escanteio improdutivas do Vitória, Luan Cândido testa finalização de longa distância e vê Otávio encaixar a bola.",
+      "player": {
+        "name": "Luan Cândido"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 77,
+        "extra": null
+      },
+      "team": {
+        "id": 283,
+        "name": "Cruzeiro"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Gerson"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 78,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Zé Vitor solta o pé, mas bola explode na barreira.",
+      "player": {
+        "name": "Zé Vitor solta o pé, mas bola explode na barreir"
+      },
+      "assist": null
     }
   ],
   "lineups": [
@@ -1687,7 +1751,7 @@
         },
         {
           "type": "Total Passes",
-          "value": 310
+          "value": 320
         },
         {
           "type": "Pass Accuracy",
@@ -1695,15 +1759,15 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 56
+          "value": 57
         },
         {
           "type": "Total Shots",
-          "value": 13
+          "value": 14
         },
         {
           "type": "Shots on Goal",
-          "value": 3
+          "value": 4
         },
         {
           "type": "Shots off Goal",
@@ -1719,7 +1783,7 @@
         },
         {
           "type": "Corner Kicks",
-          "value": 5
+          "value": 7
         },
         {
           "type": "Offsides",
@@ -1739,7 +1803,7 @@
         },
         {
           "type": "Fouls",
-          "value": 7
+          "value": 8
         },
         {
           "type": "Yellow Cards",
@@ -1763,15 +1827,15 @@
         },
         {
           "type": "Total Passes",
-          "value": 468
+          "value": 470
         },
         {
           "type": "Pass Accuracy",
-          "value": "88%"
+          "value": "87%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 58
+          "value": 60
         },
         {
           "type": "Total Shots",
@@ -1807,11 +1871,11 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 7
+          "value": 8
         },
         {
           "type": "Tackles",
-          "value": 18
+          "value": 19
         },
         {
           "type": "Fouls",

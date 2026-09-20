@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 80
+      "elapsed": 83
     },
     "timerStart": "2026-09-20T20:06:55.470Z",
     "timerStatus": "INICIADO"
@@ -2220,6 +2220,58 @@
         "name": "Garro cruza bola direto na área, Raniele aparece"
       },
       "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 80,
+        "extra": null
+      },
+      "team": {
+        "id": 264,
+        "name": "Corinthians"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Lingard"
+      },
+      "assist": {
+        "name": "André"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 80,
+        "extra": null
+      },
+      "team": {
+        "id": 264,
+        "name": "Corinthians"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Pedro Raul"
+      },
+      "assist": {
+        "name": "Memphis Depay"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 80,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Hulk é lançado por Renê, sai cara a cara com Hugo, mas lance já estava parado por impedimento do atacante tricolor",
+      "player": {
+        "name": "Hulk é lançado por Renê, sai cara a cara com Hug"
+      },
+      "assist": null
     }
   ],
   "lineups": [
@@ -2681,19 +2733,19 @@
         },
         {
           "type": "Total Passes",
-          "value": 472
+          "value": 500
         },
         {
           "type": "Pass Accuracy",
-          "value": "86%"
+          "value": "87%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 64
+          "value": 67
         },
         {
           "type": "Total Shots",
-          "value": 15
+          "value": 16
         },
         {
           "type": "Shots on Goal",
@@ -2701,7 +2753,7 @@
         },
         {
           "type": "Shots off Goal",
-          "value": 6
+          "value": 7
         },
         {
           "type": "Blocked Shots",
@@ -2757,7 +2809,7 @@
         },
         {
           "type": "Total Passes",
-          "value": 334
+          "value": 340
         },
         {
           "type": "Pass Accuracy",
@@ -2765,7 +2817,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 60
+          "value": 61
         },
         {
           "type": "Total Shots",
@@ -2805,11 +2857,11 @@
         },
         {
           "type": "Tackles",
-          "value": 11
+          "value": 12
         },
         {
           "type": "Fouls",
-          "value": 14
+          "value": 16
         },
         {
           "type": "Yellow Cards",

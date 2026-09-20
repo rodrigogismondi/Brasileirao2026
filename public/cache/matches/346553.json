@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 22
+      "elapsed": 26
     },
     "timerStart": "2026-09-20T19:01:08.985Z",
     "timerStatus": "INICIADO"
@@ -324,6 +324,74 @@
         "name": "Gabriel Rojas"
       },
       "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 19,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O jogo começou elétrico no Barradão! Com quase 20 minutos, o Vitória impõe um ritmo forte e já acumula chances claras de gol. Renê e Erick pararam em duas grandes defesas seguidas do goleiro Otávio, que se tornou o destaque do Cruzeiro. Pouco depois, Mateus Silva arriscou de longe e exigiu outra boa intervenção. A Raposa até balançou a rede com Matheus Pereira, mas a jogada foi invalidada por impedimento.",
+      "player": {
+        "name": "Início intenso com chances e gol anulado"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 19,
+        "extra": null
+      },
+      "team": {
+        "id": 283,
+        "name": "Cruzeiro"
+      },
+      "type": "Important",
+      "detail": "Arroyo é acionado com grande lançamento dentro da área e serve Matheus Pereira quase na marca do pênalti, que exige grande defesa de Arcanjo no cantinho. Arbitragem, porém, sinaliza impedimento na jogada.",
+      "player": {
+        "name": "Matheus Pereira"
+      },
+      "assist": {
+        "name": "Impedido"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 21,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Vitória começou com tudo e empilha chances nos primeiros 20 minutos. O grande nome até aqui é o goleiro Otávio, que já fez duas defesas espetaculares em sequência, parando Renê e Erick. O time da casa ainda teve um chute perigoso de Mateus Silva e uma chance clara desperdiçada por Tarzia. O Cruzeiro respondeu com uma jogada de Matheus Pereira que parou em Arcanjo, mas o lance já estava impedido.",
+      "player": {
+        "name": "Vitória pressiona e Otávio salva o Cruzeiro"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 21,
+        "extra": null
+      },
+      "team": {
+        "id": 287,
+        "name": "Vitória"
+      },
+      "type": "Important",
+      "detail": "Tarzia recebe ótimo lançamento de Lucas Arcanjo, supera marcação da defesa pela esquerda e chuta por cima do gol depois de sair de cara com Otávio.",
+      "player": {
+        "name": "Tarzia"
+      },
+      "assist": {
+        "name": "Pra fora!"
+      }
     }
   ],
   "lineups": [
@@ -781,23 +849,23 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "42%"
+          "value": "41%"
         },
         {
           "type": "Total Passes",
-          "value": 92
+          "value": 102
         },
         {
           "type": "Pass Accuracy",
-          "value": "88%"
+          "value": "85%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 11
+          "value": 15
         },
         {
           "type": "Total Shots",
-          "value": 4
+          "value": 5
         },
         {
           "type": "Shots on Goal",
@@ -805,7 +873,7 @@
         },
         {
           "type": "Shots off Goal",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Blocked Shots",
@@ -837,7 +905,7 @@
         },
         {
           "type": "Fouls",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Yellow Cards",
@@ -857,19 +925,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "58%"
+          "value": "59%"
         },
         {
           "type": "Total Passes",
-          "value": 137
+          "value": 149
         },
         {
           "type": "Pass Accuracy",
-          "value": "90%"
+          "value": "89%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 14
+          "value": 17
         },
         {
           "type": "Total Shots",
@@ -909,11 +977,11 @@
         },
         {
           "type": "Tackles",
-          "value": 6
+          "value": 7
         },
         {
           "type": "Fouls",
-          "value": 3
+          "value": 4
         },
         {
           "type": "Yellow Cards",

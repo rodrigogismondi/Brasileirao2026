@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 24
+      "elapsed": 27
     },
     "timerStart": "2026-09-20T19:00:08.010Z",
     "timerStatus": "INICIADO"
@@ -577,6 +577,22 @@
         "extra": null
       },
       "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Corinthians iniciou pressionando, mas as melhores chances dos primeiros 20 minutos foram do Fluminense. Primeiro, Canobbio parou em grande defesa de Hugo Souza e, depois, Serna também finalizou com perigo. O time da casa respondeu em um erro da zaga tricolor, mas Memphis foi travado na hora do chute. O duelo é equilibrado, intenso e já teve cartão amarelo para Memphis Depay.",
+      "player": {
+        "name": "Goleiros trabalham em início movimentado"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 22,
+        "extra": null
+      },
+      "team": {
         "id": 266,
         "name": "Fluminense"
       },
@@ -584,6 +600,22 @@
       "detail": "Fluminense troca passes no campo de defesa",
       "player": {
         "name": "Fluminense troca passes no campo de defesa"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 23,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "A partida tem um ritmo intenso em São Paulo. O Corinthians tentou pressionar no começo, mas foi o Fluminense que levou mais perigo, primeiro em chute de Canobbio defendido por Hugo Souza. Aos 23 minutos, a rede chegou a balançar para o time carioca com Hulk, mas o gol foi anulado por impedimento. O duelo segue equilibrado, com um cartão amarelo para Memphis Depay e chances para os dois lados.",
+      "player": {
+        "name": "Flu tem gol anulado em jogo movimentado"
       },
       "assist": null
     }
@@ -1043,11 +1075,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "64%"
+          "value": "59%"
         },
         {
           "type": "Total Passes",
-          "value": 146
+          "value": 149
         },
         {
           "type": "Pass Accuracy",
@@ -1055,7 +1087,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 17
+          "value": 18
         },
         {
           "type": "Total Shots",
@@ -1119,15 +1151,15 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "36%"
+          "value": "41%"
         },
         {
           "type": "Total Passes",
-          "value": 83
+          "value": 100
         },
         {
           "type": "Pass Accuracy",
-          "value": "84%"
+          "value": "87%"
         },
         {
           "type": "Incomplete Passes",
@@ -1159,7 +1191,7 @@
         },
         {
           "type": "Offsides",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Penalties",

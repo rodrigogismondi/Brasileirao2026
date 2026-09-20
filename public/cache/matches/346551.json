@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 8
+      "elapsed": 21
     },
     "timerStart": "2026-09-20T14:04:23.414Z",
     "timerStatus": "INICIADO"
@@ -166,6 +166,122 @@
       "assist": {
         "name": "Por cima"
       }
+    },
+    {
+      "time": {
+        "elapsed": 6,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Apesar da posse de bola inicial do Palmeiras, foi o Grêmio quem criou a primeira grande chance do jogo. Aos 3 minutos, Amuzu fez a jogada pela esquerda e Pavón finalizou para ótima defesa de Carlos Miguel. O Palmeiras tentou responder em uma cobrança de falta de Arias, mas a bola saiu por cima. Um começo de partida com o time da casa sendo mais incisivo nos primeiros 6 minutos.",
+      "player": {
+        "name": "Grêmio assusta e goleiro do Verdão trabalha!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 7,
+        "extra": null
+      },
+      "team": {
+        "id": 275,
+        "name": "Palmeiras"
+      },
+      "type": "Important",
+      "detail": "Vitor Roque recebe do lado esquerdo, leva a bola para dentro e arrisca de fora da área. O chute sai muito forte e rasteiro, mas Weverton cai bem para fazer a defesa em dois tempos.",
+      "player": {
+        "name": "Vitor Roque"
+      },
+      "assist": {
+        "name": "Pancada de fora!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 10,
+        "extra": null
+      },
+      "team": {
+        "id": 275,
+        "name": "Palmeiras"
+      },
+      "type": "Important",
+      "detail": "A partida começou com os dois times buscando o ataque. Logo aos 3 minutos, Pavón exigiu grande defesa de Carlos Miguel. O Palmeiras respondeu com um chute perigoso de Vitor Roque, mas o grande lance veio aos 10: Weverton defendeu finalização de Flaco López e, na sobra, Marlon Freitas acertou o travessão de cabeça. Início de jogo com muita intensidade e chances claras para ambos os lados.",
+      "player": {
+        "name": "Início eletrizante e bola na trave!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 10,
+        "extra": null
+      },
+      "team": {
+        "id": 275,
+        "name": "Palmeiras"
+      },
+      "type": "Important",
+      "detail": "Palmeiras puxa contra-ataque com Arias, que toca para Flaco. O atacante corta a marcação e finaliza cruzado para grande defesa de Weverton. Na sobra, Vitor Roque cruza para a chegada de Marlon Freitas, que cabeceia firme e acerta o travessão!",
+      "player": {
+        "name": "Marlon Freitas"
+      },
+      "assist": {
+        "name": "No travessão!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 13,
+        "extra": null
+      },
+      "team": {
+        "id": 275,
+        "name": "Palmeiras"
+      },
+      "type": "Important",
+      "detail": "O jogo começou em ritmo acelerado, com chances para os dois lados. Logo aos 3 minutos, Pavón testou Carlos Miguel, que fez grande defesa para o Palmeiras. A resposta veio forte: Weverton trabalhou em chute de Vitor Roque e depois operou um milagre em finalização de Flaco López, mas não pôde evitar a cabeçada de Marlon Freitas que explodiu no travessão. Partida aberta e emocionante",
+      "player": {
+        "name": "Travessão e grandes defesas!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 13,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Palmeiras pressiona com a posse de bola de busca espaço para entrar na defesa do Grêmio. Os gaúchos fecham as linhas e se armam para o contra-ataque.",
+      "player": {
+        "name": "Palmeiras pressiona com a posse de bola de busca"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 14,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Amuzu acha lindo passe para a ultrapassagem de Pavón na direita. Ele cruza rasteiro na pequena área para Carlos Vinícius, mas Giay aparece bem no meio do caminho e afasta o perigo.",
+      "player": {
+        "name": "Tira a zaga!"
+      },
+      "assist": null
     }
   ],
   "lineups": [
@@ -623,23 +739,23 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "50%"
+          "value": "27%"
         },
         {
           "type": "Total Passes",
-          "value": 3
+          "value": 38
         },
         {
           "type": "Pass Accuracy",
-          "value": "100%"
+          "value": "74%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 0
+          "value": 10
         },
         {
           "type": "Total Shots",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Shots on Goal",
@@ -651,7 +767,7 @@
         },
         {
           "type": "Blocked Shots",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Hit Woodwork",
@@ -671,15 +787,15 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 0
+          "value": 3
         },
         {
           "type": "Tackles",
-          "value": 0
+          "value": 3
         },
         {
           "type": "Fouls",
-          "value": 1
+          "value": 4
         },
         {
           "type": "Yellow Cards",
@@ -699,43 +815,43 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "50%"
+          "value": "73%"
         },
         {
           "type": "Total Passes",
-          "value": 37
+          "value": 168
         },
         {
           "type": "Pass Accuracy",
-          "value": "92%"
+          "value": "91%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 3
+          "value": 15
         },
         {
           "type": "Total Shots",
-          "value": 0
+          "value": 5
         },
         {
           "type": "Shots on Goal",
-          "value": 0
+          "value": 2
         },
         {
           "type": "Shots off Goal",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Blocked Shots",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Hit Woodwork",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Corner Kicks",
-          "value": 0
+          "value": 2
         },
         {
           "type": "Offsides",
@@ -751,7 +867,7 @@
         },
         {
           "type": "Tackles",
-          "value": 0
+          "value": 3
         },
         {
           "type": "Fouls",

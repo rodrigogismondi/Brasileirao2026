@@ -13884,8 +13884,8 @@
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
       "score": {
         "halftime": {
@@ -18693,14 +18693,14 @@
                 "name": "Athletico-PR",
                 "logo": "https://s.sde.globo.com/media/organizations/2026/01/07/Athletico-PR.svg"
               },
-              "points": 46,
+              "points": 47,
               "goalsDiff": 10,
-              "form": "DWDLD",
+              "form": "WDLDD",
               "description": "Copa Libertadores",
               "all": {
-                "played": 27,
+                "played": 28,
                 "win": 13,
-                "draw": 7,
+                "draw": 8,
                 "lose": 7,
                 "goals": {
                   "for": 41,
@@ -18715,14 +18715,14 @@
                 "name": "Bahia",
                 "logo": "https://s.sde.globo.com/media/organizations/2018/03/11/bahia.svg"
               },
-              "points": 46,
+              "points": 47,
               "goalsDiff": 9,
-              "form": "DWWWW",
+              "form": "WWWWD",
               "description": "Copa Libertadores Qualifiers",
               "all": {
-                "played": 27,
+                "played": 28,
                 "win": 12,
-                "draw": 10,
+                "draw": 11,
                 "lose": 5,
                 "goals": {
                   "for": 42,
@@ -20174,7 +20174,7 @@
     "mode": "live",
     "liveIntervalMs": 20000
   },
-  "fetchedAt": "2026-09-20T22:30:14.854Z",
+  "fetchedAt": "2026-09-20T22:33:25.675Z",
   "source": "ge-globo",
   "meta": {
     "rodada": 28,

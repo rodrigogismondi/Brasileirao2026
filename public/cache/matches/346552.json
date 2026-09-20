@@ -30,8 +30,8 @@
     }
   },
   "goals": {
-    "home": null,
-    "away": null
+    "home": 0,
+    "away": 0
   },
   "score": {
     "halftime": {
@@ -50,7 +50,24 @@
     "source": "betexplorer"
   },
   "_geUrl": "https://ge.globo.com/pr/futebol/brasileirao-serie-a/jogo/20-09-2026/atletico-pr-bahia.ghtml",
-  "events": [],
+  "events": [
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 265,
+        "name": "Bahia"
+      },
+      "type": "Important",
+      "detail": "Bola rolando para Athletico e Bahia na Arena da Baixada.",
+      "player": {
+        "name": "Começou!"
+      },
+      "assist": null
+    }
+  ],
   "lineups": [
     {
       "team": {
@@ -497,6 +514,159 @@
       ]
     }
   ],
-  "statistics": [],
+  "statistics": [
+    {
+      "team": {
+        "id": 293,
+        "name": "Athletico-PR"
+      },
+      "statistics": [
+        {
+          "type": "Ball Possession",
+          "value": "50%"
+        },
+        {
+          "type": "Total Passes",
+          "value": 19
+        },
+        {
+          "type": "Pass Accuracy",
+          "value": "89%"
+        },
+        {
+          "type": "Incomplete Passes",
+          "value": 2
+        },
+        {
+          "type": "Total Shots",
+          "value": 0
+        },
+        {
+          "type": "Shots on Goal",
+          "value": 0
+        },
+        {
+          "type": "Shots off Goal",
+          "value": 0
+        },
+        {
+          "type": "Blocked Shots",
+          "value": 0
+        },
+        {
+          "type": "Hit Woodwork",
+          "value": 0
+        },
+        {
+          "type": "Corner Kicks",
+          "value": 0
+        },
+        {
+          "type": "Offsides",
+          "value": 0
+        },
+        {
+          "type": "Penalties",
+          "value": 0
+        },
+        {
+          "type": "Goalkeeper Saves",
+          "value": 0
+        },
+        {
+          "type": "Tackles",
+          "value": 0
+        },
+        {
+          "type": "Fouls",
+          "value": 0
+        },
+        {
+          "type": "Yellow Cards",
+          "value": 0
+        },
+        {
+          "type": "Red Cards",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "team": {
+        "id": 265,
+        "name": "Bahia"
+      },
+      "statistics": [
+        {
+          "type": "Ball Possession",
+          "value": "50%"
+        },
+        {
+          "type": "Total Passes",
+          "value": 3
+        },
+        {
+          "type": "Pass Accuracy",
+          "value": "33%"
+        },
+        {
+          "type": "Incomplete Passes",
+          "value": 2
+        },
+        {
+          "type": "Total Shots",
+          "value": 0
+        },
+        {
+          "type": "Shots on Goal",
+          "value": 0
+        },
+        {
+          "type": "Shots off Goal",
+          "value": 0
+        },
+        {
+          "type": "Blocked Shots",
+          "value": 0
+        },
+        {
+          "type": "Hit Woodwork",
+          "value": 0
+        },
+        {
+          "type": "Corner Kicks",
+          "value": 0
+        },
+        {
+          "type": "Offsides",
+          "value": 0
+        },
+        {
+          "type": "Penalties",
+          "value": 0
+        },
+        {
+          "type": "Goalkeeper Saves",
+          "value": 0
+        },
+        {
+          "type": "Tackles",
+          "value": 1
+        },
+        {
+          "type": "Fouls",
+          "value": 0
+        },
+        {
+          "type": "Yellow Cards",
+          "value": 0
+        },
+        {
+          "type": "Red Cards",
+          "value": 0
+        }
+      ]
+    }
+  ],
   "sportsFieldUrl": null
 }

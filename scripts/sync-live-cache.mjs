@@ -299,6 +299,8 @@ function minimalMatchDetail(fixtureRow) {
   };
 }
 
+const IN_PLAY_SHORT = ["1H", "HT", "2H", "LIVE", "ET", "BT", "P"];
+
 /** Keep last-known lineups when GE temporarily omits squads on re-enrich. */
 function loadPreviousLineups(fixtureId) {
   const path = join(MATCHES_DIR, `${fixtureId}.json`);
@@ -311,6 +313,91 @@ function loadPreviousLineups(fixtureId) {
     /* ignore corrupt cache */
   }
   return null;
+}
+
+function loadMatchDetail(fixtureId) {
+  const path = join(MATCHES_DIR, `${fixtureId}.json`);
+  if (!existsSync(path)) return null;
+  try {
+    return JSON.parse(readFileSync(path, "utf8"));
+  } catch {
+    return null;
+  }
+}
+
+/** Lista often drops transmissao.url after FT — keep the last known page for re-enrich. */
+function restoreGeUrl(fixtureRow) {
+  if (fixtureRow._geUrl) return fixtureRow;
+  const prev = loadMatchDetail(fixtureRow.fixture.id);
+  if (prev?._geUrl) fixtureRow._geUrl = prev._geUrl;
+  return fixtureRow;
+}
+
+function promoteDetailToFt(detail, fixtureRow) {
+  const goalsHome = fixtureRow.goals?.home ?? detail.goals?.home ?? null;
+  const goalsAway = fixtureRow.goals?.away ?? detail.goals?.away ?? null;
+  return {
+    ...detail,
+    fixture: {
+      ...detail.fixture,
+      status: { long: "FT", short: "FT", elapsed: 90 },
+      timerStatus: "PAUSADO",
+    },
+    goals: { home: goalsHome, away: goalsAway },
+    score: {
+      ...(detail.score || {}),
+      halftime: detail.score?.halftime ?? { home: null, away: null },
+      fulltime: { home: goalsHome, away: goalsAway },
+    },
+  };
+}
+
+/**
+ * When lista already says FT (or kickoff-age proves the period is stale) but the
+ * match file is still 1H/HT/2H, promote without clobbering events/lineups/stats.
+ * liveOnly skips FT enrich, so this closes the dash-FT / match-2H gap.
+ */
+function shouldPromoteMatchFileToFt(fixtureRow, detail, nowSec = Math.floor(Date.now() / 1000)) {
+  const detailStatus = detail?.fixture?.status?.short;
+  if (!detailStatus || !IN_PLAY_SHORT.includes(detailStatus)) return false;
+  if (fixtureRow.fixture.status.short === "FT") return true;
+  const ageMin = Math.floor((nowSec - Number(fixtureRow.fixture.timestamp || 0)) / 60);
+  if (!Number.isFinite(ageMin) || ageMin < 0) return false;
+  if (detailStatus === "1H" && ageMin >= 70) return true;
+  if (detailStatus === "HT") {
+    const pauseMs = Date.parse(detail.fixture?.timerStart || "");
+    const pauseMin = Number.isFinite(pauseMs) ? (Date.now() - pauseMs) / 60000 : null;
+    return pauseMin != null ? pauseMin >= 30 : ageMin >= 90;
+  }
+  if (["2H", "LIVE", "ET"].includes(detailStatus) && ageMin >= 150) return true;
+  return false;
+}
+
+function reconcileFinishedMatchFiles(fixtures, payload, nowSec = Math.floor(Date.now() / 1000)) {
+  let promoted = 0;
+  for (const f of fixtures) {
+    const detailPath = join(MATCHES_DIR, `${f.fixture.id}.json`);
+    const detail = loadMatchDetail(f.fixture.id);
+    if (!detail || !shouldPromoteMatchFileToFt(f, detail, nowSec)) continue;
+    const next = promoteDetailToFt(detail, f);
+    if (f._geUrl && !next._geUrl) next._geUrl = f._geUrl;
+    writeFileSync(detailPath, JSON.stringify(next, null, 2));
+    const idx = payload.fixtures.findIndex((x) => x.fixture.id === f.fixture.id);
+    if (idx >= 0) {
+      payload.fixtures[idx] = {
+        ...payload.fixtures[idx],
+        fixture: {
+          ...payload.fixtures[idx].fixture,
+          status: next.fixture.status,
+          timerStatus: next.fixture.timerStatus,
+        },
+        goals: next.goals,
+        score: next.score,
+      };
+    }
+    promoted++;
+  }
+  return promoted;
 }
 
 function momentToElapsed(moment, periodAbbr) {
@@ -591,7 +678,13 @@ function isPastKickoffWindow(fixtureRow, nowSec = Math.floor(Date.now() / 1000))
 function shouldEnrich(fixtureRow, rodadaAtual, { liveOnly = false } = {}) {
   if (!fixtureRow._geUrl) return false;
   const st = fixtureRow.fixture.status.short;
-  if (["1H", "HT", "2H", "LIVE", "ET", "BT", "P"].includes(st)) return true;
+  if (IN_PLAY_SHORT.includes(st)) return true;
+  // Lista FT but match file still in-play — re-fetch so maybePromotePeriod can heal.
+  if (st === "FT") {
+    const prev = loadMatchDetail(fixtureRow.fixture.id);
+    const prevSt = prev?.fixture?.status?.short;
+    if (prevSt && IN_PLAY_SHORT.includes(prevSt)) return true;
+  }
   // GE lista often stays NS for a few minutes after kickoff — still enrich.
   if (st === "NS" && isPastKickoffWindow(fixtureRow)) return true;
   // Prematch warm-up: pull lineups in the last 30 min before kickoff.
@@ -1016,6 +1109,8 @@ async function enrichFromTransmission(fixtureRow) {
   const hideLiveFeed = status.short === "NS" && !pastKickoff;
   return {
     ...base,
+    // Persist for later ticks — lista often drops transmissao.url after FT.
+    ...(_geUrl ? { _geUrl } : {}),
     fixture: {
       ...base.fixture,
       status,
@@ -1346,6 +1441,7 @@ async function main() {
     let enriched = 0;
     let failed = 0;
     for (const f of fixtures) {
+      restoreGeUrl(f);
       const enrich = shouldEnrich(f, rodada, { liveOnly });
       // Fast path: only rewrite match files we actually re-fetched.
       // Never clobber a previously enriched finished match with a minimal stub.
@@ -1386,7 +1482,14 @@ async function main() {
       if (!isValidOdds(detail.odds)) {
         detail.odds = f.odds ?? previousOdds.get(f.fixture.id) ?? null;
       }
+      if (f._geUrl && !detail._geUrl) detail._geUrl = f._geUrl;
       writeFileSync(join(MATCHES_DIR, `${f.fixture.id}.json`), JSON.stringify(detail, null, 2));
+    }
+
+    // Lista FT / age-stuck periods: heal match files enrich skipped (liveOnly or no URL).
+    const reconciled = reconcileFinishedMatchFiles(fixtures, payload, nowSec);
+    if (reconciled) {
+      console.warn(`Reconciled ${reconciled} match file(s) to FT (lista/age)`);
     }
 
     // Enrichment can promote 2H→FT (FIM_DE_JOGO); recompute budget from final statuses.
@@ -1433,7 +1536,7 @@ async function main() {
     }
 
     console.log(
-      `Synced GE cache: rodada ${rodada}/${ultimaRodada}, ${fixtures.length} jogos, fullSeason=${fullSeason}, enriched=${enriched}, failed=${failed}, scorers=${scorers.length}, odds=${oddsMatched}/${oddsMap.size} (kept ${oddsPreserved}), mode=${finalMode}, source=${payload.source}`
+      `Synced GE cache: rodada ${rodada}/${ultimaRodada}, ${fixtures.length} jogos, fullSeason=${fullSeason}, enriched=${enriched}, failed=${failed}, reconciled=${reconciled}, scorers=${scorers.length}, odds=${oddsMatched}/${oddsMap.size} (kept ${oddsPreserved}), mode=${finalMode}, source=${payload.source}`
     );
   } catch (err) {
     writeDemoFallback(err instanceof Error ? err.message : String(err));

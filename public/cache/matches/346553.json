@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 68
+      "elapsed": 71
     },
     "timerStart": "2026-09-20T20:09:38.062Z",
     "timerStatus": "INICIADO"
@@ -1089,9 +1089,9 @@
         "name": ""
       },
       "type": "Important",
-      "detail": "Depois de o Vitória sair na frente com gol de Renê no primeiro tempo, o Cruzeiro voltou para a etapa final com outra postura. Arroyo empatou logo no início, aproveitando assistência de Kaio Jorge. A Raposa seguiu melhor e, aos 20 minutos, o zagueiro Villalba, que havia entrado há pouco, aproveitou a chance para virar o placar e colocar o time mineiro na frente por 2 a 1.",
+      "detail": "Após Renê abrir o placar para o Vitória no primeiro tempo, o Cruzeiro voltou com tudo para a etapa final. Logo no primeiro minuto, Arroyo empatou com assistência de Kaio Jorge, aproveitando uma falha do goleiro. O time visitante cresceu, assumiu o controle e, aos 20 minutos, conseguiu a virada com um gol de Villalba, deixando o placar em 2 a 1 e incendiando a partida.",
       "player": {
-        "name": "Virada do Cruzeiro no Barradão!"
+        "name": "Cruzeiro vira o jogo no Barradão!"
       },
       "assist": null
     },
@@ -1110,6 +1110,56 @@
         "name": "Villalba"
       },
       "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 67,
+        "extra": null
+      },
+      "team": {
+        "id": 287,
+        "name": "Vitória"
+      },
+      "type": "Important",
+      "detail": "Torcida do Vitória ensaia vaias em direção a alguns jogadores do time no Barradão.",
+      "player": {
+        "name": "Torcida do Vitória ensaia vaias em direção a alg"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 68,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Após um primeiro tempo de pressão do Vitória, que abriu o placar com Renê, o cenário mudou completamente na segunda etapa. O Cruzeiro empatou logo no primeiro minuto com Arroyo, aproveitando falha de Arcanjo. A virada veio aos 20 minutos, com Villalba, que aproveitou sobra na área para fazer 2 a 1. Com o placar adverso, o time da casa sente a pressão e o Cruzeiro controla o jogo no Barradão.",
+      "player": {
+        "name": "Virada relâmpago do Cruzeiro no Barradão!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 68,
+        "extra": null
+      },
+      "team": {
+        "id": 287,
+        "name": "Vitória"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Lucas Silva"
+      },
+      "assist": {
+        "name": "Erick"
+      }
     }
   ],
   "lineups": [
@@ -1571,15 +1621,15 @@
         },
         {
           "type": "Total Passes",
-          "value": 275
+          "value": 293
         },
         {
           "type": "Pass Accuracy",
-          "value": "83%"
+          "value": "82%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 48
+          "value": 52
         },
         {
           "type": "Total Shots",
@@ -1619,7 +1669,7 @@
         },
         {
           "type": "Tackles",
-          "value": 10
+          "value": 12
         },
         {
           "type": "Fouls",
@@ -1647,7 +1697,7 @@
         },
         {
           "type": "Total Passes",
-          "value": 427
+          "value": 444
         },
         {
           "type": "Pass Accuracy",
@@ -1655,7 +1705,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 51
+          "value": 54
         },
         {
           "type": "Total Shots",
@@ -1699,7 +1749,7 @@
         },
         {
           "type": "Fouls",
-          "value": 13
+          "value": 14
         },
         {
           "type": "Yellow Cards",

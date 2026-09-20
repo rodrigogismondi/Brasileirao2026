@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 73
+      "elapsed": 76
     },
     "timerStart": "2026-09-20T22:37:25.624Z",
     "timerStatus": "INICIADO"
@@ -1528,10 +1528,78 @@
         "id": 262,
         "name": "Flamengo"
       },
+      "type": "Important",
+      "detail": "O Flamengo, que já pressionava intensamente e perdia muitas chances, finalmente ampliou o placar. Após Varela abrir o marcador no primeiro tempo, o time seguiu empilhando oportunidades, com Carrascal parando em grandes defesas de Volpi. Aos 25 do segundo tempo, a insistência valeu a pena: após escanteio de Arrascaeta e desvio de Jorginho, Pedro completou para o gol, fazendo 2 a 0.",
+      "player": {
+        "name": "Fla domina, perde chances e amplia com Pedro"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 70,
+        "extra": null
+      },
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
       "type": "Goal",
       "detail": "Normal Goal",
       "player": {
         "name": "Pedro"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 71,
+        "extra": null
+      },
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Luiz Araújo"
+      },
+      "assist": {
+        "name": "Carrascal"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 71,
+        "extra": null
+      },
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Bruno Henrique"
+      },
+      "assist": {
+        "name": "Pedro"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 72,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Plata carrega pelo lado direito, faz fila e passa para Bruno Henrique na pequena área. A marcação consegue se antecipar para fazer o corte e evitar o gol",
+      "player": {
+        "name": "Enfileirou"
       },
       "assist": null
     }
@@ -1995,7 +2063,7 @@
         },
         {
           "type": "Total Passes",
-          "value": 559
+          "value": 563
         },
         {
           "type": "Pass Accuracy",
@@ -2003,7 +2071,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 60
+          "value": 61
         },
         {
           "type": "Total Shots",
@@ -2027,7 +2095,7 @@
         },
         {
           "type": "Corner Kicks",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Offsides",
@@ -2071,7 +2139,7 @@
         },
         {
           "type": "Total Passes",
-          "value": 219
+          "value": 227
         },
         {
           "type": "Pass Accuracy",
@@ -2079,7 +2147,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 60
+          "value": 61
         },
         {
           "type": "Total Shots",

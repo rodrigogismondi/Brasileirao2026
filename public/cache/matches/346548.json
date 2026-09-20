@@ -9,10 +9,10 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 2
+      "elapsed": 6
     },
-    "timerStart": "2026-09-20T17:49:20.124Z",
-    "timerStatus": "PAUSADO"
+    "timerStart": "2026-09-20T19:00:08.010Z",
+    "timerStatus": "INICIADO"
   },
   "league": {
     "round": "Regular Season - 28"
@@ -114,6 +114,56 @@
       "detail": "Fluminense tentar sair com a bola no pé e Corinthains marca em cima",
       "player": {
         "name": "Fluminense tentar sair com a bola no pé e Corint"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 3,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Corinthians começou em alta intensidade, pressionando a saída de bola e conseguindo um escanteio no primeiro minuto que terminou em chute para fora de Breno Bidon. O Fluminense, no entanto, respondeu com a melhor oportunidade até aqui: aos 3 minutos, em linda tabela entre Nonato e Hulk, Canobbio saiu na cara do gol, mas parou em uma ótima intervenção do goleiro Hugo Souza.",
+      "player": {
+        "name": "Pressão e chance clara marcam o começo"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 3,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "Important",
+      "detail": "Nonato antecipa bola no meio-campo e tabela com Hulk. Em seguida, acha lindo passe para Canobbio, que arranca e tenta finalizar, mas é travado por Hugo Souza. Boa chegada do Flu!",
+      "player": {
+        "name": "Canobbio"
+      },
+      "assist": {
+        "name": "PERDEU!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 4,
+        "extra": null
+      },
+      "team": {
+        "id": 264,
+        "name": "Corinthians"
+      },
+      "type": "Important",
+      "detail": "Corinthians tem a bola e troca passes no setor defensivo",
+      "player": {
+        "name": "Corinthians tem a bola e troca passes no setor d"
       },
       "assist": null
     }
@@ -573,19 +623,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "50%"
+          "value": "71%"
         },
         {
           "type": "Total Passes",
-          "value": 2
+          "value": 29
         },
         {
           "type": "Pass Accuracy",
-          "value": "50%"
+          "value": "83%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 1
+          "value": 5
         },
         {
           "type": "Total Shots",
@@ -609,7 +659,7 @@
         },
         {
           "type": "Corner Kicks",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Offsides",
@@ -625,7 +675,7 @@
         },
         {
           "type": "Tackles",
-          "value": 0
+          "value": 2
         },
         {
           "type": "Fouls",
@@ -649,19 +699,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "50%"
+          "value": "29%"
         },
         {
           "type": "Total Passes",
-          "value": 3
+          "value": 14
         },
         {
           "type": "Pass Accuracy",
-          "value": "67%"
+          "value": "79%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 1
+          "value": 3
         },
         {
           "type": "Total Shots",

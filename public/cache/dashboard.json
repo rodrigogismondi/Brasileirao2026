@@ -13711,10 +13711,10 @@
         "status": {
           "long": "1H",
           "short": "1H",
-          "elapsed": 2
+          "elapsed": 6
         },
-        "timerStart": "2026-09-20T17:49:20.124Z",
-        "timerStatus": "PAUSADO"
+        "timerStart": "2026-09-20T19:00:08.010Z",
+        "timerStatus": "INICIADO"
       },
       "league": {
         "round": "Regular Season - 28"
@@ -13763,10 +13763,10 @@
         "status": {
           "long": "1H",
           "short": "1H",
-          "elapsed": null
+          "elapsed": 5
         },
-        "timerStart": "2026-09-20T17:59:44.923Z",
-        "timerStatus": "PAUSADO"
+        "timerStart": "2026-09-20T19:01:08.985Z",
+        "timerStatus": "INICIADO"
       },
       "league": {
         "round": "Regular Season - 28"
@@ -13784,8 +13784,8 @@
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
       "score": {
         "halftime": {
@@ -18715,14 +18715,14 @@
                 "name": "Fluminense",
                 "logo": "https://s.sde.globo.com/media/organizations/2018/03/11/fluminense.svg"
               },
-              "points": 45,
+              "points": 46,
               "goalsDiff": 6,
               "form": "WDWLD",
               "description": "Copa Libertadores Qualifiers",
               "all": {
-                "played": 27,
+                "played": 28,
                 "win": 12,
-                "draw": 9,
+                "draw": 10,
                 "lose": 6,
                 "goals": {
                   "for": 41,
@@ -18737,14 +18737,14 @@
                 "name": "Cruzeiro",
                 "logo": "https://s.sde.globo.com/media/organizations/2021/02/13/cruzeiro_2021.svg"
               },
-              "points": 42,
+              "points": 43,
               "goalsDiff": 0,
-              "form": "WWLWL",
+              "form": "WLWLD",
               "description": "Copa Sudamericana",
               "all": {
-                "played": 27,
+                "played": 28,
                 "win": 12,
-                "draw": 6,
+                "draw": 7,
                 "lose": 9,
                 "goals": {
                   "for": 39,
@@ -18891,14 +18891,14 @@
                 "name": "Vitória",
                 "logo": "https://s.sde.globo.com/media/organizations/2025/12/18/Vitoria_2025.svg"
               },
-              "points": 33,
+              "points": 34,
               "goalsDiff": -12,
-              "form": "WLLWD",
+              "form": "LLWDD",
               "description": null,
               "all": {
-                "played": 27,
+                "played": 28,
                 "win": 9,
-                "draw": 6,
+                "draw": 7,
                 "lose": 12,
                 "goals": {
                   "for": 27,
@@ -18913,14 +18913,14 @@
                 "name": "Corinthians",
                 "logo": "https://s.sde.globo.com/media/organizations/2024/10/09/Corinthians_2024_Q4ahot4.svg"
               },
-              "points": 32,
+              "points": 33,
               "goalsDiff": -1,
               "form": "LLLLD",
               "description": null,
               "all": {
-                "played": 27,
+                "played": 28,
                 "win": 8,
-                "draw": 8,
+                "draw": 9,
                 "lose": 11,
                 "goals": {
                   "for": 28,
@@ -20174,7 +20174,7 @@
     "mode": "live",
     "liveIntervalMs": 20000
   },
-  "fetchedAt": "2026-09-20T19:03:12.429Z",
+  "fetchedAt": "2026-09-20T19:06:16.276Z",
   "source": "ge-globo",
   "meta": {
     "rodada": 28,

@@ -9,10 +9,10 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": null
+      "elapsed": 5
     },
-    "timerStart": "2026-09-20T17:59:44.923Z",
-    "timerStatus": "PAUSADO"
+    "timerStart": "2026-09-20T19:01:08.985Z",
+    "timerStatus": "INICIADO"
   },
   "league": {
     "round": "Regular Season - 28"
@@ -30,8 +30,8 @@
     }
   },
   "goals": {
-    "home": null,
-    "away": null
+    "home": 0,
+    "away": 0
   },
   "score": {
     "halftime": {
@@ -50,7 +50,88 @@
     "source": "betexplorer"
   },
   "_geUrl": "https://ge.globo.com/ba/futebol/brasileirao-serie-a/jogo/20-09-2026/vitoria-cruzeiro.ghtml",
-  "events": [],
+  "events": [
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Bola rolando para Vitória e Cruzeiro no Barradão!",
+      "player": {
+        "name": "Começou!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 1,
+        "extra": null
+      },
+      "team": {
+        "id": 283,
+        "name": "Cruzeiro"
+      },
+      "type": "Important",
+      "detail": "No primeiro ataque do jogo, Matheus Pereira aproveita vacilo de Caíque Gonçalves e serve Gerson na intermediária. O camisa 8, porém, manda nas mãos de Arcanjo.",
+      "player": {
+        "name": "No primeiro ataque do jogo, Matheus Pereira apro"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 2,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O jogo começou em alta velocidade no Barradão! Logo no primeiro minuto, Gerson arriscou para o Cruzeiro, mas parou em defesa tranquila de Arcanjo. A resposta do Vitória foi fulminante aos dois minutos: Renê foi acionado e parou em Otávio. No rebote, após trapalhada do goleiro, Erick finalizou para outra grande intervenção do camisa 1 da Raposa, que evitou o gol em duas oportunidades seguidas.",
+      "player": {
+        "name": "Vitória pressiona e Otávio salva o Cruzeiro!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 2,
+        "extra": null
+      },
+      "team": {
+        "id": 283,
+        "name": "Cruzeiro"
+      },
+      "type": "Important",
+      "detail": "Renê é acionado em profundidade por Erick na intermediária, mas Otávio fecha ângulo do atacante e faz a defesa. No rebote, em trapalhada do próprio Otávio, Erick chuta colocado e exige mais uma boa defesa do goleiro da Raposa.",
+      "player": {
+        "name": "O que foi isso?!! Quase gol"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 3,
+        "extra": null
+      },
+      "team": {
+        "id": 287,
+        "name": "Vitória"
+      },
+      "type": "Important",
+      "detail": "Vitória começa o jogo em cima do Cruzeiro. Primeiro escanteio para o Leão.",
+      "player": {
+        "name": "Vitória começa o jogo em cima do Cruzeiro. Prime"
+      },
+      "assist": null
+    }
+  ],
   "lineups": [
     {
       "team": {
@@ -497,6 +578,159 @@
       ]
     }
   ],
-  "statistics": [],
+  "statistics": [
+    {
+      "team": {
+        "id": 287,
+        "name": "Vitória"
+      },
+      "statistics": [
+        {
+          "type": "Ball Possession",
+          "value": "50%"
+        },
+        {
+          "type": "Total Passes",
+          "value": 24
+        },
+        {
+          "type": "Pass Accuracy",
+          "value": "92%"
+        },
+        {
+          "type": "Incomplete Passes",
+          "value": 2
+        },
+        {
+          "type": "Total Shots",
+          "value": 0
+        },
+        {
+          "type": "Shots on Goal",
+          "value": 0
+        },
+        {
+          "type": "Shots off Goal",
+          "value": 0
+        },
+        {
+          "type": "Blocked Shots",
+          "value": 0
+        },
+        {
+          "type": "Hit Woodwork",
+          "value": 0
+        },
+        {
+          "type": "Corner Kicks",
+          "value": 0
+        },
+        {
+          "type": "Offsides",
+          "value": 0
+        },
+        {
+          "type": "Penalties",
+          "value": 0
+        },
+        {
+          "type": "Goalkeeper Saves",
+          "value": 0
+        },
+        {
+          "type": "Tackles",
+          "value": 1
+        },
+        {
+          "type": "Fouls",
+          "value": 0
+        },
+        {
+          "type": "Yellow Cards",
+          "value": 0
+        },
+        {
+          "type": "Red Cards",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "team": {
+        "id": 283,
+        "name": "Cruzeiro"
+      },
+      "statistics": [
+        {
+          "type": "Ball Possession",
+          "value": "50%"
+        },
+        {
+          "type": "Total Passes",
+          "value": 15
+        },
+        {
+          "type": "Pass Accuracy",
+          "value": "73%"
+        },
+        {
+          "type": "Incomplete Passes",
+          "value": 4
+        },
+        {
+          "type": "Total Shots",
+          "value": 0
+        },
+        {
+          "type": "Shots on Goal",
+          "value": 0
+        },
+        {
+          "type": "Shots off Goal",
+          "value": 0
+        },
+        {
+          "type": "Blocked Shots",
+          "value": 0
+        },
+        {
+          "type": "Hit Woodwork",
+          "value": 0
+        },
+        {
+          "type": "Corner Kicks",
+          "value": 0
+        },
+        {
+          "type": "Offsides",
+          "value": 0
+        },
+        {
+          "type": "Penalties",
+          "value": 0
+        },
+        {
+          "type": "Goalkeeper Saves",
+          "value": 1
+        },
+        {
+          "type": "Tackles",
+          "value": 2
+        },
+        {
+          "type": "Fouls",
+          "value": 1
+        },
+        {
+          "type": "Yellow Cards",
+          "value": 0
+        },
+        {
+          "type": "Red Cards",
+          "value": 0
+        }
+      ]
+    }
+  ],
   "sportsFieldUrl": null
 }

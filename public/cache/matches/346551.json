@@ -58,7 +58,7 @@
         "name": "Grêmio",
         "logo": "https://s.sde.globo.com/media/organizations/2018/03/12/gremio.svg"
       },
-      "formation": "4-3-3",
+      "formation": "3-4-3",
       "coach": {
         "name": "Renato Gaúcho"
       },
@@ -74,9 +74,9 @@
         },
         {
           "player": {
-            "id": "diego-caito",
-            "name": "Diego Caito",
-            "number": 27,
+            "id": "fbalbuena",
+            "name": "Balbuena",
+            "number": 2,
             "pos": "Def",
             "grid": null
           }
@@ -101,9 +101,9 @@
         },
         {
           "player": {
-            "id": "pedro-gabriel-pinheiro",
-            "name": "Pedro Gabriel",
-            "number": 54,
+            "id": "joaopedro06",
+            "name": "João Pedro",
+            "number": 18,
             "pos": "Def",
             "grid": null
           }
@@ -128,10 +128,10 @@
         },
         {
           "player": {
-            "id": "krovinovic",
-            "name": "Krovinovic",
-            "number": 10,
-            "pos": "Mei",
+            "id": "pedro-gabriel-pinheiro",
+            "name": "Pedro Gabriel",
+            "number": 54,
+            "pos": "Def",
             "grid": null
           }
         },
@@ -155,15 +155,124 @@
         },
         {
           "player": {
+            "id": "francis-amuzu",
+            "name": "Amuzu",
+            "number": 9,
+            "pos": "Ata",
+            "grid": null
+          }
+        }
+      ],
+      "substitutes": [
+        {
+          "player": {
+            "id": "gabriel-grando",
+            "name": "Gabriel Grando",
+            "number": 12,
+            "pos": "Gol",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "wagner-leonardo",
+            "name": "Wagner Leonardo",
+            "number": 3,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "marcosrocha2",
+            "name": "Marcos Rocha",
+            "number": 14,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "luis-eduardo-guedes",
+            "name": "Luis Eduardo",
+            "number": 43,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "krovinovic",
+            "name": "Krovinovic",
+            "number": 10,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "danilobarbosa",
+            "name": "Danilo Barbosa",
+            "number": 15,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "bernardo-zortea",
+            "name": "Bernardo Zortea",
+            "number": 50,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "tetemat",
+            "name": "Tetê",
+            "number": 11,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "braithwaite",
+            "name": "Braithwaite",
+            "number": 22,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "matheusnascimento",
+            "name": "Matheus Nascimento",
+            "number": 30,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
             "id": "jovane",
             "name": "Jovane Cabral",
             "number": 77,
             "pos": "Ata",
             "grid": null
           }
+        },
+        {
+          "player": {
+            "id": "enamorado",
+            "name": "Enamorado",
+            "number": 99,
+            "pos": "Ata",
+            "grid": null
+          }
         }
-      ],
-      "substitutes": []
+      ]
     },
     {
       "team": {
@@ -171,7 +280,7 @@
         "name": "Palmeiras",
         "logo": "https://s.sde.globo.com/media/organizations/2019/07/06/Palmeiras.svg"
       },
-      "formation": "3-5-2",
+      "formation": "4-4-2",
       "coach": {
         "name": "Abel Ferreira"
       },
@@ -187,18 +296,18 @@
         },
         {
           "player": {
-            "id": "gustavo-gomez",
-            "name": "Gustavo Gómez",
-            "number": 15,
+            "id": "agugiay",
+            "name": "Giay",
+            "number": 4,
             "pos": "Def",
             "grid": null
           }
         },
         {
           "player": {
-            "id": "bruno-fuchs",
-            "name": "Bruno Fuchs",
-            "number": 3,
+            "id": "gustavo-gomez",
+            "name": "Gustavo Gómez",
+            "number": 15,
             "pos": "Def",
             "grid": null
           }
@@ -214,9 +323,9 @@
         },
         {
           "player": {
-            "id": "agugiay",
-            "name": "Giay",
-            "number": 4,
+            "id": "piquerez",
+            "name": "Piquerez",
+            "number": 22,
             "pos": "Def",
             "grid": null
           }
@@ -226,6 +335,15 @@
             "id": "marlon-freitas",
             "name": "Marlon Freitas",
             "number": 17,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "lucasevangelista",
+            "name": "Lucas Evangelista",
+            "number": 30,
             "pos": "Mei",
             "grid": null
           }
@@ -245,15 +363,6 @@
             "name": "Arias",
             "number": 11,
             "pos": "Mei",
-            "grid": null
-          }
-        },
-        {
-          "player": {
-            "id": "piquerez",
-            "name": "Piquerez",
-            "number": 22,
-            "pos": "Def",
             "grid": null
           }
         },

@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 41
+      "elapsed": 44
     },
     "timerStart": "2026-09-20T19:01:08.985Z",
     "timerStatus": "INICIADO"
@@ -536,6 +536,86 @@
         "name": "Tarzia manda à meia altura na primeira trave, ma"
       },
       "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 38,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O jogo começou elétrico! O Vitória pressionou desde o início e obrigou o goleiro Otávio a operar milagres, com duas defesas em sequência em lances de Renê e Erick. O Cruzeiro respondeu com um gol de Matheus Pereira bem anulado por impedimento. O ritmo seguiu intenso até que, aos 38 minutos, Matheuzinho deu um belo passe para Renê, que não perdoou e marcou, fazendo 1 a 0 para o time da casa.",
+      "player": {
+        "name": "Gol de Renê abre o placar no Barradão!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 38,
+        "extra": null
+      },
+      "team": {
+        "id": 287,
+        "name": "Vitória"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "player": {
+        "name": "Renê"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 39,
+        "extra": null
+      },
+      "team": {
+        "id": 283,
+        "name": "Cruzeiro"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Jonathan Jesus"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 40,
+        "extra": null
+      },
+      "team": {
+        "id": 287,
+        "name": "Vitória"
+      },
+      "type": "Important",
+      "detail": "Tarzia cobra falta na segunda trave, e Cacá sobe mais alto que a marcação para mandar por cima da meta.",
+      "player": {
+        "name": "Cacá"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 43,
+        "extra": null
+      },
+      "team": {
+        "id": 287,
+        "name": "Vitória"
+      },
+      "type": "Important",
+      "detail": "Vitória tem boa escapada para contra-ataque com Renê, mas jogada acaba com finalização de Erick bloqueada pela defesa do Cruzeiro.",
+      "player": {
+        "name": "Vitória tem boa escapada para contra-ataque com "
+      },
+      "assist": null
     }
   ],
   "lineups": [
@@ -993,23 +1073,23 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "41%"
+          "value": "42%"
         },
         {
           "type": "Total Passes",
-          "value": 157
+          "value": 173
         },
         {
           "type": "Pass Accuracy",
-          "value": "85%"
+          "value": "86%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 24
+          "value": 25
         },
         {
           "type": "Total Shots",
-          "value": 6
+          "value": 8
         },
         {
           "type": "Shots on Goal",
@@ -1017,11 +1097,11 @@
         },
         {
           "type": "Shots off Goal",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Blocked Shots",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Hit Woodwork",
@@ -1045,7 +1125,7 @@
         },
         {
           "type": "Tackles",
-          "value": 3
+          "value": 5
         },
         {
           "type": "Fouls",
@@ -1069,19 +1149,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "59%"
+          "value": "58%"
         },
         {
           "type": "Total Passes",
-          "value": 218
+          "value": 245
         },
         {
           "type": "Pass Accuracy",
-          "value": "87%"
+          "value": "88%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 28
+          "value": 30
         },
         {
           "type": "Total Shots",
@@ -1117,19 +1197,19 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Tackles",
-          "value": 9
+          "value": 10
         },
         {
           "type": "Fouls",
-          "value": 7
+          "value": 8
         },
         {
           "type": "Yellow Cards",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Red Cards",

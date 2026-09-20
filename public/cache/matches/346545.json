@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 50
+      "elapsed": 53
     },
     "timerStart": "2026-09-20T21:30:48.895Z",
     "timerStatus": "INICIADO"
@@ -51,6 +51,24 @@
   },
   "_geUrl": "https://ge.globo.com/rj/futebol/brasileirao-serie-a/jogo/20-09-2026/flamengo-bragantino.ghtml",
   "events": [
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 280,
+        "name": "Bragantino"
+      },
+      "type": "Important",
+      "detail": "No último minuto, Lucas Barbosa tentou desarmar Saúl, no meio, e acabou ficando com dores por causa do encontrão. A ver como voltará do intervalo",
+      "player": {
+        "name": "Lucas Barbosa"
+      },
+      "assist": {
+        "name": "Preocupação"
+      }
+    },
     {
       "time": {
         "elapsed": 0,
@@ -940,6 +958,72 @@
         "name": "Acréscimos"
       },
       "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 47,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Um primeiro tempo intenso! O Flamengo se impôs e abriu o placar de 1 a 0 aos 12 minutos com Varela, após passe de Carrascal. O time da casa pressionou, acertou a trave com Arrascaeta e só não ampliou graças a grandes defesas do goleiro Volpi. O Bragantino, apesar da dificuldade, respondeu no fim com uma bomba de Lucas Barbosa que também explodiu na trave, mas vai para o intervalo em desvantagem.",
+      "player": {
+        "name": "Fla na frente em tempo agitado"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 47,
+        "extra": null
+      },
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "Important",
+      "detail": "Arrascaeta passa para Carrascal no fundo. O colombiano domina, limpa marcador com drible para dentro e chuta forte na bochecha da rede, pelo lado de fora",
+      "player": {
+        "name": "Carrascal"
+      },
+      "assist": {
+        "name": "Na rede pelo lado de fora"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 49,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Fim de primeiro tempo",
+      "player": {
+        "name": "Termina"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 49,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Vanderlan carrega na intermediária de ataque e sofre o desarme de Arrascaeta",
+      "player": {
+        "name": "Vanderlan carrega na intermediária de ataque e s"
+      },
+      "assist": null
     }
   ],
   "lineups": [
@@ -1397,11 +1481,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "67%"
+          "value": "68%"
         },
         {
           "type": "Total Passes",
-          "value": 352
+          "value": 365
         },
         {
           "type": "Pass Accuracy",
@@ -1409,7 +1493,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 30
+          "value": 32
         },
         {
           "type": "Total Shots",
@@ -1449,7 +1533,7 @@
         },
         {
           "type": "Tackles",
-          "value": 11
+          "value": 12
         },
         {
           "type": "Fouls",
@@ -1473,19 +1557,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "33%"
+          "value": "32%"
         },
         {
           "type": "Total Passes",
-          "value": 146
+          "value": 152
         },
         {
           "type": "Pass Accuracy",
-          "value": "75%"
+          "value": "76%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 36
+          "value": 37
         },
         {
           "type": "Total Shots",
@@ -1525,7 +1609,7 @@
         },
         {
           "type": "Tackles",
-          "value": 7
+          "value": 8
         },
         {
           "type": "Fouls",

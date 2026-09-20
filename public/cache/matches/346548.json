@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 74
+      "elapsed": 77
     },
     "timerStart": "2026-09-20T20:06:55.470Z",
     "timerStatus": "INICIADO"
@@ -31,7 +31,7 @@
   },
   "goals": {
     "home": 1,
-    "away": 1
+    "away": 2
   },
   "score": {
     "halftime": {
@@ -1841,7 +1841,7 @@
         "name": ""
       },
       "type": "Important",
-      "detail": "Fluminense tenta sair em velocidade com Canobbio, mas defesa corinthiana vai muito bem de novo. Pressão do Corinthians!",
+      "detail": "Fluminense tenta sair em velocidade com Canobbio, mas defesa do Corinthians vai muito bem de novo. Pressão do time da casa!",
       "player": {
         "name": "Fluminense tenta sair em velocidade com Canobbio"
       },
@@ -1933,6 +1933,38 @@
         "extra": null
       },
       "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Nonato"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 70,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Que mudança de cenário! O Fluminense foi para o intervalo vencendo com gol de Hulk, mas o Corinthians voltou com uma pressão avassaladora para a segunda etapa. Após uma blitz intensa e defesas de Fábio, Gustavo Henrique aproveitou o rebote aos 10 minutos e empatou o jogo em 1 a 1. Aos 25, o time da casa segue sufocando o adversário em busca da virada. Partida totalmente aberta",
+      "player": {
+        "name": "Empate e pressão total em Itaquera"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 70,
+        "extra": null
+      },
+      "team": {
         "id": 0,
         "name": ""
       },
@@ -1940,6 +1972,136 @@
       "detail": "Falta de Canobbio em Matheus Bidu no meio-campo",
       "player": {
         "name": "Falta de Canobbio em Matheus Bidu no meio-campo"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 71,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Corinthians voltou do intervalo com outra postura e impôs uma blitz avassaladora. Após parar em milagres do goleiro Fábio, que salvou o Fluminense em cabeçada de Gui Negão e em chute de Memphis, o time da casa chegou ao empate aos 10 minutos com Gustavo Henrique, aproveitando rebote. O placar agora é de 1 a 1 e o jogo segue com pressão total corintiana e muitos cartões amarelos.",
+      "player": {
+        "name": "Timão busca o empate em jogo quente!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 71,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "Important",
+      "detail": "Raniele cruza na área do Flu, e Matheuzinho aparece para desviar com perigo! Bola passa ao lado do gol do Fábio",
+      "player": {
+        "name": "Matheuzinho"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 72,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "Important",
+      "detail": "Fluminense dispara em velocidade com Hulk, que cruza para Canobbio. Uruguaio armava o chute dentro da área, mas Bidu apareceu para cortar",
+      "player": {
+        "name": "Matheus Bidu"
+      },
+      "assist": {
+        "name": "SALVA BIDU!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 73,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Corinthians roda bola no campo de ataque e insiste em cruzamentos na área do Flu",
+      "player": {
+        "name": "Corinthians roda bola no campo de ataque e insis"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 74,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Após um primeiro tempo com gol de Hulk para o Fluminense, o Corinthians voltou com uma postura avassaladora na segunda etapa. A pressão intensa funcionou, e depois de uma blitz ofensiva e defesas milagrosas de Fábio, Gustavo Henrique marcou aos 10 minutos para deixar tudo igual. Aos 29, o time da casa segue no ataque, enquanto o Fluminense tenta se segurar e sair nos contra-ataques.",
+      "player": {
+        "name": "Jogo pega fogo com empate do Corinthians!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 74,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "Important",
+      "detail": "Marcão chamou Hércules e Riquelme",
+      "player": {
+        "name": "Flu vai mexer!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 75,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Corinthians voltou avassalador para o segundo tempo e, após muita pressão e um milagre de Fábio, empatou o jogo com Gustavo Henrique no rebote. O time da casa seguiu dominando, mas quem marcou foi o Fluminense. Aos 30 minutos, Hulk aproveitou a chance que teve e balançou as redes, colocando o placar em 2 a 1 e jogando um balde de água fria na reação corintiana.",
+      "player": {
+        "name": "Hulk castiga e recoloca o Flu na frente!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 75,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "player": {
+        "name": "Hulk"
       },
       "assist": null
     }
@@ -2399,11 +2561,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "57%"
+          "value": "56%"
         },
         {
           "type": "Total Passes",
-          "value": 427
+          "value": 451
         },
         {
           "type": "Pass Accuracy",
@@ -2411,11 +2573,11 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 58
+          "value": 61
         },
         {
           "type": "Total Shots",
-          "value": 14
+          "value": 15
         },
         {
           "type": "Shots on Goal",
@@ -2423,7 +2585,7 @@
         },
         {
           "type": "Shots off Goal",
-          "value": 5
+          "value": 6
         },
         {
           "type": "Blocked Shots",
@@ -2475,19 +2637,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "43%"
+          "value": "44%"
         },
         {
           "type": "Total Passes",
-          "value": 301
+          "value": 315
         },
         {
           "type": "Pass Accuracy",
-          "value": "82%"
+          "value": "83%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 53
+          "value": 55
         },
         {
           "type": "Total Shots",
@@ -2531,11 +2693,11 @@
         },
         {
           "type": "Fouls",
-          "value": 11
+          "value": 14
         },
         {
           "type": "Yellow Cards",
-          "value": 4
+          "value": 5
         },
         {
           "type": "Red Cards",

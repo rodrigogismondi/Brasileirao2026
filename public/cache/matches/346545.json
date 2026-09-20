@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 58
+      "elapsed": 61
     },
     "timerStart": "2026-09-20T22:37:25.624Z",
     "timerStatus": "INICIADO"
@@ -1306,6 +1306,56 @@
         "name": "Flamengo chega à área do Bragantino tabelando cu"
       },
       "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 57,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O jogo avança no segundo tempo e o placar segue 1 a 0 para o Flamengo, gol de Varela. Apesar da vantagem mínima, o time da casa impõe um domínio impressionante e cria uma chance atrás da outra. O nome do jogo até aqui é o goleiro Volpi, que opera milagres e impede um placar mais elástico. O Bragantino, que já carimbou a trave, segue vivo na partida graças ao seu paredão.",
+      "player": {
+        "name": "Flamengo domina, mas Volpi impede goleada"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 57,
+        "extra": null
+      },
+      "team": {
+        "id": 280,
+        "name": "Bragantino"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Herrera"
+      },
+      "assist": {
+        "name": "Vanderlan"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 59,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Flamengo trabalha a bola no meio, enquanto o Bragantino se defende todo no campo de defesa",
+      "player": {
+        "name": "Flamengo trabalha a bola no meio, enquanto o Bra"
+      },
+      "assist": null
     }
   ],
   "lineups": [
@@ -1767,7 +1817,7 @@
         },
         {
           "type": "Total Passes",
-          "value": 447
+          "value": 483
         },
         {
           "type": "Pass Accuracy",
@@ -1775,7 +1825,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 45
+          "value": 49
         },
         {
           "type": "Total Shots",
@@ -1815,7 +1865,7 @@
         },
         {
           "type": "Tackles",
-          "value": 12
+          "value": 13
         },
         {
           "type": "Fouls",
@@ -1843,15 +1893,15 @@
         },
         {
           "type": "Total Passes",
-          "value": 183
+          "value": 192
         },
         {
           "type": "Pass Accuracy",
-          "value": "74%"
+          "value": "73%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 48
+          "value": 52
         },
         {
           "type": "Total Shots",

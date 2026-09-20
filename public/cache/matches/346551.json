@@ -7,12 +7,12 @@
       "city": ""
     },
     "status": {
-      "long": "1H",
-      "short": "1H",
-      "elapsed": 52
+      "long": "2H",
+      "short": "2H",
+      "elapsed": 49
     },
-    "timerStart": "2026-09-20T14:04:23.414Z",
-    "timerStatus": "INICIADO"
+    "timerStart": "2026-09-20T15:10:15.189Z",
+    "timerStatus": "PAUSADO"
   },
   "league": {
     "round": "Regular Season - 28"
@@ -51,6 +51,76 @@
   },
   "_geUrl": "https://ge.globo.com/rs/futebol/brasileirao-serie-a/jogo/20-09-2026/gremio-palmeiras.ghtml",
   "events": [
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 284,
+        "name": "Grêmio"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Danilo Barbosa"
+      },
+      "assist": {
+        "name": "Noriega"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Os primeiros 45 minutos foram muito movimentados na Arena do Grêmio. O Palmeiras acertou duas bolas no travessão, com Vitor Roque, e o Grêmio colocou uma no travessão do outro lado, com Gustavo Martins. O time visitante teve o domínio da posse de bola e tentou criar jogadas durante todo o tempo, mas os gaúchos se mostraram bem postados para sair no contra-ataque e criaram também ótimas chances de gol. Dentro de sua proposta, cada time fez um bom primeiro tempo.",
+      "player": {
+        "name": "Resumo do primeiro tempo"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 275,
+        "name": "Palmeiras"
+      },
+      "type": "Important",
+      "detail": "\"Estamos tentando encaixar bem baixo quando o Palmeiras tem a bola. Tivemos oportunidade no contra-ataque, mas precisamos aproveitar rmais para conseguir o gol. Estamos bem, seguros. Espero que dê tudo certo na segunda parte.\"",
+      "player": {
+        "name": "Pavón"
+      },
+      "assist": {
+        "name": "Fala, Pavón"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 284,
+        "name": "Grêmio"
+      },
+      "type": "Important",
+      "detail": "\"Estamos bem no jogo, propondo bem. Mas tem uma coisa que já sabíamos e estamos comentendo o erro, que é a transiação do Grêmio. Já tiveram várias e precisamos corrigir. Temos uma estratégia e precisamos colocar no jogo. É caprichar no último terço para sairmos com o resultado.\"",
+      "player": {
+        "name": "Marlon Freitas"
+      },
+      "assist": {
+        "name": "Fala, Marlon Freitas"
+      }
+    },
     {
       "time": {
         "elapsed": 0,
@@ -569,6 +639,22 @@
     },
     {
       "time": {
+        "elapsed": 45,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Bola volta a rolar na Arena.",
+      "player": {
+        "name": "Começa o segundo tempo"
+      },
+      "assist": null
+    },
+    {
+      "time": {
         "elapsed": 47,
         "extra": null
       },
@@ -603,6 +689,22 @@
     },
     {
       "time": {
+        "elapsed": 47,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O primeiro tempo é de tirar o fôlego, com o Palmeiras pressionando e acertando o travessão duas vezes, em finalizações de Marlon Freitas e Vitor Roque. O goleiro Weverton tem sido o destaque do Grêmio, com defesas cruciais para segurar o placar. Do outro lado, o time gaúcho aposta nos contra-ataques e também desperdiçou chances claras, parando em boas intervenções de Carlos Miguel.",
+      "player": {
+        "name": "Travessão e milagres dos goleiros!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
         "elapsed": 48,
         "extra": null
       },
@@ -618,6 +720,22 @@
       "assist": {
         "name": "Carlos Miguel e travessão!"
       }
+    },
+    {
+      "time": {
+        "elapsed": 48,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Que primeiro tempo! O Palmeiras pressionou e carimbou o travessão duas vezes, com Marlon Freitas e Vitor Roque, parando também em grandes defesas de Weverton. O Grêmio respondeu em contra-ataques perigosos, principalmente com Amuzu e Pavón, exigindo boas intervenções de Carlos Miguel. No lance final, o Grêmio ainda acertou o travessão após cabeceio de Gustavo Martins e defesa do goleiro palmeirense.",
+      "player": {
+        "name": "Show de goleiros e bolas na trave!"
+      },
+      "assist": null
     }
   ],
   "lineups": [
@@ -1075,11 +1193,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "31%"
+          "value": "33%"
         },
         {
           "type": "Total Passes",
-          "value": 135
+          "value": 148
         },
         {
           "type": "Pass Accuracy",
@@ -1087,7 +1205,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 30
+          "value": 32
         },
         {
           "type": "Total Shots",
@@ -1151,11 +1269,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "69%"
+          "value": "67%"
         },
         {
           "type": "Total Passes",
-          "value": 353
+          "value": 354
         },
         {
           "type": "Pass Accuracy",

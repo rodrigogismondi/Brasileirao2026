@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 17
+      "elapsed": 20
     },
     "timerStart": "2026-09-20T21:30:48.895Z",
     "timerStatus": "INICIADO"
@@ -351,6 +351,22 @@
         "extra": null
       },
       "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "Important",
+      "detail": "Varela recebe novamente nas cosas da defesa, invade a área e tenta passar para Pedro. O passe sai forte demais e o atacante não domina, facilitando para Fabinho",
+      "player": {
+        "name": "Varela"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 15,
+        "extra": null
+      },
+      "team": {
         "id": 0,
         "name": ""
       },
@@ -374,6 +390,22 @@
       "detail": "Arrascaeta sofre falta na saída da defesa",
       "player": {
         "name": "Arrascaeta sofre falta na saída da defesa"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 16,
+        "extra": null
+      },
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "Important",
+      "detail": "Flamengo chega novamente de pé em pé. Plata ajeita para Jorginho na entrada da área, e o meia solta uma pancada de perna direita, mas a defesa bloqueia",
+      "player": {
+        "name": "Jorginho"
       },
       "assist": null
     }
@@ -833,11 +865,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "69%"
+          "value": "67%"
         },
         {
           "type": "Total Passes",
-          "value": 85
+          "value": 105
         },
         {
           "type": "Pass Accuracy",
@@ -845,7 +877,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 11
+          "value": 14
         },
         {
           "type": "Total Shots",
@@ -889,7 +921,7 @@
         },
         {
           "type": "Fouls",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Yellow Cards",
@@ -909,19 +941,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "31%"
+          "value": "33%"
         },
         {
           "type": "Total Passes",
-          "value": 22
+          "value": 35
         },
         {
           "type": "Pass Accuracy",
-          "value": "59%"
+          "value": "63%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 9
+          "value": 13
         },
         {
           "type": "Total Shots",
@@ -957,7 +989,7 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Tackles",
@@ -965,7 +997,7 @@
         },
         {
           "type": "Fouls",
-          "value": 3
+          "value": 4
         },
         {
           "type": "Yellow Cards",

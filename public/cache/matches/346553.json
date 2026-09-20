@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 80
+      "elapsed": 83
     },
     "timerStart": "2026-09-20T20:09:38.062Z",
     "timerStatus": "INICIADO"
@@ -1290,6 +1290,56 @@
         "name": "Zé Vitor solta o pé, mas bola explode na barreir"
       },
       "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 79,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "A segunda etapa mudou o cenário do jogo. O Vitória, que abriu o placar com Renê no primeiro tempo, sofreu o empate logo no início com Arroyo, em falha de Arcanjo. Aos 20 minutos, Villalba aproveitou sobra na área para fazer 2 a 1 para o Cruzeiro. Com o jogo passando dos 30 minutos, o time mineiro controla a vantagem e administra o resultado, enquanto o Vitória tenta reagir sob vaias da torcida.",
+      "player": {
+        "name": "Virada do Cruzeiro incendeia o Barradão!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 79,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Ao todo, 12.952 torcedores foram ao Barradão acompanhar a partida entre Vitória e Cruzeiro.",
+      "player": {
+        "name": "Público total"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 80,
+        "extra": null
+      },
+      "team": {
+        "id": 283,
+        "name": "Cruzeiro"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Fabrício Bruno"
+      },
+      "assist": {
+        "name": "Gerson"
+      }
     }
   ],
   "lineups": [
@@ -1747,11 +1797,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "40%"
+          "value": "41%"
         },
         {
           "type": "Total Passes",
-          "value": 320
+          "value": 339
         },
         {
           "type": "Pass Accuracy",
@@ -1759,11 +1809,11 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 57
+          "value": 60
         },
         {
           "type": "Total Shots",
-          "value": 14
+          "value": 16
         },
         {
           "type": "Shots on Goal",
@@ -1775,7 +1825,7 @@
         },
         {
           "type": "Blocked Shots",
-          "value": 2
+          "value": 4
         },
         {
           "type": "Hit Woodwork",
@@ -1823,11 +1873,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "60%"
+          "value": "59%"
         },
         {
           "type": "Total Passes",
-          "value": 470
+          "value": 474
         },
         {
           "type": "Pass Accuracy",
@@ -1835,7 +1885,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 60
+          "value": 63
         },
         {
           "type": "Total Shots",
@@ -1879,11 +1929,11 @@
         },
         {
           "type": "Fouls",
-          "value": 14
+          "value": 16
         },
         {
           "type": "Yellow Cards",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Red Cards",

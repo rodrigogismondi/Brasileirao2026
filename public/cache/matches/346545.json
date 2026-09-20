@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 97
+      "elapsed": 100
     },
     "timerStart": "2026-09-20T22:37:25.624Z",
     "timerStatus": "INICIADO"
@@ -2183,6 +2183,24 @@
         "extra": null
       },
       "team": {
+        "id": 280,
+        "name": "Bragantino"
+      },
+      "type": "Important",
+      "detail": "Mosquera avança pelo lado esquerdo do ataque e lança para a área. Fernando cabeceia, de peixinho, para fora",
+      "player": {
+        "name": "Fernando"
+      },
+      "assist": {
+        "name": "Para fora!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 96,
+        "extra": null
+      },
+      "team": {
         "id": 0,
         "name": ""
       },
@@ -2190,6 +2208,54 @@
       "detail": "Lucas Barbosa é lançado em profundidade, mas Saúl se antecipa, protege e deixa a bola sair pela linha de fundo",
       "player": {
         "name": "Lucas Barbosa é lançado em profundidade, mas Saú"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 97,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Flamengo controlou a partida e abriu 2 a 0 com gols de Varela, no primeiro tempo, e Pedro, no segundo. A equipe carioca empilhou chances, mas viu o Bragantino diminuir aos 40 minutos da etapa final, quando um cruzamento de Sosa desviou em Bruno Henrique e entrou. Com o placar em 2 a 1, o jogo esquentou nos acréscimos, com o time paulista buscando o empate a todo custo em um final eletrizante.",
+      "player": {
+        "name": "Bragantino reage e põe fogo no fim do jogo!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 97,
+        "extra": null
+      },
+      "team": {
+        "id": 280,
+        "name": "Bragantino"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Sant'Anna"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 98,
+        "extra": null
+      },
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "Important",
+      "detail": "Vitória do Flamengo!",
+      "player": {
+        "name": "Fim de jogo!"
       },
       "assist": null
     }
@@ -2653,15 +2719,15 @@
         },
         {
           "type": "Total Passes",
-          "value": 598
+          "value": 606
         },
         {
           "type": "Pass Accuracy",
-          "value": "89%"
+          "value": "88%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 68
+          "value": 71
         },
         {
           "type": "Total Shots",
@@ -2701,7 +2767,7 @@
         },
         {
           "type": "Tackles",
-          "value": 15
+          "value": 14
         },
         {
           "type": "Fouls",
@@ -2729,7 +2795,7 @@
         },
         {
           "type": "Total Passes",
-          "value": 313
+          "value": 320
         },
         {
           "type": "Pass Accuracy",
@@ -2737,7 +2803,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 73
+          "value": 75
         },
         {
           "type": "Total Shots",
@@ -2777,15 +2843,15 @@
         },
         {
           "type": "Tackles",
-          "value": 14
+          "value": 15
         },
         {
           "type": "Fouls",
-          "value": 13
+          "value": 14
         },
         {
           "type": "Yellow Cards",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Red Cards",

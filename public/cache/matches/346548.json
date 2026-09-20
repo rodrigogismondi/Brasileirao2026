@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 27
+      "elapsed": 30
     },
     "timerStart": "2026-09-20T19:00:08.010Z",
     "timerStatus": "INICIADO"
@@ -31,7 +31,7 @@
   },
   "goals": {
     "home": 0,
-    "away": 0
+    "away": 1
   },
   "score": {
     "halftime": {
@@ -613,11 +613,61 @@
         "name": ""
       },
       "type": "Important",
-      "detail": "A partida tem um ritmo intenso em São Paulo. O Corinthians tentou pressionar no começo, mas foi o Fluminense que levou mais perigo, primeiro em chute de Canobbio defendido por Hugo Souza. Aos 23 minutos, a rede chegou a balançar para o time carioca com Hulk, mas o gol foi anulado por impedimento. O duelo segue equilibrado, com um cartão amarelo para Memphis Depay e chances para os dois lados.",
+      "detail": "A partida começou com o Corinthians tentando impor seu ritmo, mas foi o Fluminense que teve a primeira grande chance, em finalização de Canobbio defendida por Hugo Souza. O jogo seguiu aberto, com Serna também parando no goleiro corintiano e o time da casa aproveitando um erro da zaga tricolor para levar perigo. Passados 20 minutos, o equilíbrio marca o confronto, que já teve cartão amarelo para Memphis Depay.",
       "player": {
-        "name": "Flu tem gol anulado em jogo movimentado"
+        "name": "Equilíbrio e chances claras em São Paulo"
       },
       "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 23,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "player": {
+        "name": "Hulk"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 25,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O jogo começou movimentado, com o Corinthians pressionando no início, mas foi o Fluminense quem criou as melhores chances, parando em boas defesas de Hugo Souza em lances de Canobbio e Serna. Após um cartão amarelo para Memphis Depay, a rede balançou aos 25 minutos: depois da checagem do VAR, o gol foi validado! Canobbio, Lucho Acosta e Hulk triangularam para o atacante abrir o placar, fazendo 1 a 0.",
+      "player": {
+        "name": "Hulk abre o placar para o Fluminense!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 28,
+        "extra": null
+      },
+      "team": {
+        "id": 264,
+        "name": "Corinthians"
+      },
+      "type": "Important",
+      "detail": "Corinthians sai jogando errado, Martinelli recupera e toca para Lucho. O argentino acha Hulk, que escora para Serna dentro da área. O atacante colombiano sai de cara para Hugo, mas finaliza para fora. Quase o segundo!",
+      "player": {
+        "name": "Serna"
+      },
+      "assist": {
+        "name": "INACREDITÁVEL!"
+      }
     }
   ],
   "lineups": [
@@ -1075,11 +1125,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "59%"
+          "value": "60%"
         },
         {
           "type": "Total Passes",
-          "value": 149
+          "value": 165
         },
         {
           "type": "Pass Accuracy",
@@ -1087,7 +1137,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 18
+          "value": 20
         },
         {
           "type": "Total Shots",
@@ -1127,7 +1177,7 @@
         },
         {
           "type": "Tackles",
-          "value": 3
+          "value": 4
         },
         {
           "type": "Fouls",
@@ -1151,27 +1201,27 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "41%"
+          "value": "40%"
         },
         {
           "type": "Total Passes",
-          "value": 100
+          "value": 108
         },
         {
           "type": "Pass Accuracy",
-          "value": "87%"
+          "value": "86%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 13
+          "value": 15
         },
         {
           "type": "Total Shots",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Shots on Goal",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Shots off Goal",
@@ -1191,7 +1241,7 @@
         },
         {
           "type": "Offsides",
-          "value": 1
+          "value": 0
         },
         {
           "type": "Penalties",
@@ -1203,7 +1253,7 @@
         },
         {
           "type": "Tackles",
-          "value": 3
+          "value": 4
         },
         {
           "type": "Fouls",

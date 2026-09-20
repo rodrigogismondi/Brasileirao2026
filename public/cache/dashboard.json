@@ -13711,7 +13711,7 @@
         "status": {
           "long": "1H",
           "short": "1H",
-          "elapsed": 27
+          "elapsed": 30
         },
         "timerStart": "2026-09-20T19:00:08.010Z",
         "timerStatus": "INICIADO"
@@ -13733,7 +13733,7 @@
       },
       "goals": {
         "home": 0,
-        "away": 0
+        "away": 1
       },
       "score": {
         "halftime": {
@@ -13763,7 +13763,7 @@
         "status": {
           "long": "1H",
           "short": "1H",
-          "elapsed": 26
+          "elapsed": 29
         },
         "timerStart": "2026-09-20T19:01:08.985Z",
         "timerStatus": "INICIADO"
@@ -19531,6 +19531,28 @@
     {
       "player": {
         "id": 22,
+        "name": "Hulk",
+        "photo": "https://s.sde.globo.com/media/person_role/2026/07/06/photo_140x140_KvAp9Mg.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "name": "Fluminense",
+            "logo": "https://s.sde.globo.com/media/organizations/2014/04/14/fluminense_60x60.png"
+          },
+          "goals": {
+            "total": 6,
+            "assists": null
+          },
+          "games": {
+            "appearences": 0
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 23,
         "name": "Neymar",
         "photo": "https://s.sde.globo.com/media/person_role/2026/08/19/photo_140x140_Aji3JX5.png"
       },
@@ -19552,7 +19574,7 @@
     },
     {
       "player": {
-        "id": 23,
+        "id": 24,
         "name": "Vitor Roque",
         "photo": "https://s.sde.globo.com/media/person_role/2025/04/01/photo_140x140_UbLy5Jq.png"
       },
@@ -19574,7 +19596,7 @@
     },
     {
       "player": {
-        "id": 24,
+        "id": 25,
         "name": "Mendoza",
         "photo": "https://s.sde.globo.com/media/person_role/2026/02/02/photo_140x140_HdPEhEa.png"
       },
@@ -19596,7 +19618,7 @@
     },
     {
       "player": {
-        "id": 25,
+        "id": 26,
         "name": "Alef Manga",
         "photo": "https://s.sde.globo.com/media/person_role/2026/02/09/photo_140x140_vvMsJPI.png"
       },
@@ -19618,7 +19640,7 @@
     },
     {
       "player": {
-        "id": 26,
+        "id": 27,
         "name": "Lavega",
         "photo": "https://s.sde.globo.com/media/person_role/2026/02/09/photo_140x140_LeapY03.png"
       },
@@ -19627,28 +19649,6 @@
           "team": {
             "name": "Coritiba",
             "logo": "https://s.sde.globo.com/media/organizations/2017/03/29/coritiba65.png"
-          },
-          "goals": {
-            "total": 5,
-            "assists": null
-          },
-          "games": {
-            "appearences": 0
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 27,
-        "name": "Hulk",
-        "photo": "https://s.sde.globo.com/media/person_role/2026/07/06/photo_140x140_KvAp9Mg.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "name": "Fluminense",
-            "logo": "https://s.sde.globo.com/media/organizations/2014/04/14/fluminense_60x60.png"
           },
           "goals": {
             "total": 5,
@@ -20174,7 +20174,7 @@
     "mode": "live",
     "liveIntervalMs": 20000
   },
-  "fetchedAt": "2026-09-20T19:27:09.253Z",
+  "fetchedAt": "2026-09-20T19:30:21.483Z",
   "source": "ge-globo",
   "meta": {
     "rodada": 28,

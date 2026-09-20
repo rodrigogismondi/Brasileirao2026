@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 50
+      "elapsed": 53
     },
     "timerStart": "2026-09-20T22:30:40.838Z",
     "timerStatus": "INICIADO"
@@ -664,6 +664,22 @@
         "name": "+ 6"
       },
       "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 47,
+        "extra": null
+      },
+      "team": {
+        "id": 265,
+        "name": "Bahia"
+      },
+      "type": "Important",
+      "detail": "Em mais um lançamento perigoso de Juba, Ademir ganha da defesa na corrida e por pouco não consegue finalizar de cara com Mycael.",
+      "player": {
+        "name": "Em mais um lançamento perigoso de Juba, Ademir g"
+      },
+      "assist": null
     }
   ],
   "lineups": [
@@ -1121,11 +1137,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "47%"
+          "value": "45%"
         },
         {
           "type": "Total Passes",
-          "value": 261
+          "value": 280
         },
         {
           "type": "Pass Accuracy",
@@ -1133,15 +1149,15 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 36
+          "value": 38
         },
         {
           "type": "Total Shots",
-          "value": 3
+          "value": 4
         },
         {
           "type": "Shots on Goal",
-          "value": 3
+          "value": 4
         },
         {
           "type": "Shots off Goal",
@@ -1197,11 +1213,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "53%"
+          "value": "55%"
         },
         {
           "type": "Total Passes",
-          "value": 245
+          "value": 264
         },
         {
           "type": "Pass Accuracy",
@@ -1209,11 +1225,11 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 25
+          "value": 26
         },
         {
           "type": "Total Shots",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Shots on Goal",
@@ -1225,7 +1241,7 @@
         },
         {
           "type": "Blocked Shots",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Hit Woodwork",
@@ -1245,11 +1261,11 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Tackles",
-          "value": 12
+          "value": 13
         },
         {
           "type": "Fouls",

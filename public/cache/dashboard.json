@@ -13811,7 +13811,7 @@
         "status": {
           "long": "2H",
           "short": "2H",
-          "elapsed": 88
+          "elapsed": 91
         },
         "timerStart": "2026-09-20T22:37:25.624Z",
         "timerStatus": "INICIADO"
@@ -13863,7 +13863,7 @@
         "status": {
           "long": "1H",
           "short": "1H",
-          "elapsed": 50
+          "elapsed": 53
         },
         "timerStart": "2026-09-20T22:30:40.838Z",
         "timerStatus": "INICIADO"
@@ -18628,7 +18628,7 @@
                 "logo": "https://s.sde.globo.com/media/organizations/2018/04/10/Flamengo-2018.svg"
               },
               "points": 60,
-              "goalsDiff": 33,
+              "goalsDiff": 32,
               "form": "LWWWW",
               "description": "Copa Libertadores",
               "all": {
@@ -18638,7 +18638,7 @@
                 "lose": 4,
                 "goals": {
                   "for": 55,
-                  "against": 22
+                  "against": 23
                 }
               }
             },
@@ -18821,6 +18821,28 @@
             {
               "rank": 10,
               "team": {
+                "id": 280,
+                "name": "Bragantino",
+                "logo": "https://s.sde.globo.com/media/organizations/2021/06/28/bragantino.svg"
+              },
+              "points": 36,
+              "goalsDiff": 2,
+              "form": "WLLDL",
+              "description": "Copa Sudamericana",
+              "all": {
+                "played": 27,
+                "win": 10,
+                "draw": 6,
+                "lose": 11,
+                "goals": {
+                  "for": 33,
+                  "against": 31
+                }
+              }
+            },
+            {
+              "rank": 11,
+              "team": {
                 "id": 276,
                 "name": "São Paulo",
                 "logo": "https://s.sde.globo.com/media/organizations/2018/03/11/sao-paulo.svg"
@@ -18837,28 +18859,6 @@
                 "goals": {
                   "for": 32,
                   "against": 30
-                }
-              }
-            },
-            {
-              "rank": 11,
-              "team": {
-                "id": 280,
-                "name": "Bragantino",
-                "logo": "https://s.sde.globo.com/media/organizations/2021/06/28/bragantino.svg"
-              },
-              "points": 36,
-              "goalsDiff": 1,
-              "form": "WLLDL",
-              "description": "Copa Sudamericana",
-              "all": {
-                "played": 27,
-                "win": 10,
-                "draw": 6,
-                "lose": 11,
-                "goals": {
-                  "for": 32,
-                  "against": 31
                 }
               }
             },
@@ -20174,7 +20174,7 @@
     "mode": "live",
     "liveIntervalMs": 20000
   },
-  "fetchedAt": "2026-09-20T23:21:14.045Z",
+  "fetchedAt": "2026-09-20T23:24:23.781Z",
   "source": "ge-globo",
   "meta": {
     "rodada": 28,

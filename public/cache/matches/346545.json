@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 88
+      "elapsed": 91
     },
     "timerStart": "2026-09-20T22:37:25.624Z",
     "timerStatus": "INICIADO"
@@ -1948,6 +1948,88 @@
         "name": "Daí?"
       },
       "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 87,
+        "extra": null
+      },
+      "team": {
+        "id": 280,
+        "name": "Bragantino"
+      },
+      "type": "Important",
+      "detail": "Bragantino cresce, sobe com todos os jogadores para o campo de ataque e vai buscar o empate",
+      "player": {
+        "name": "Pressão"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 88,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Flamengo construiu uma vantagem de 2 a 0 com gols de Varela e Pedro, dominando a maior parte do jogo e desperdiçando várias chances. Quando a vitória parecia encaminhada, o Bragantino reagiu. Aos 40 minutos da segunda etapa, Sosa fez grande jogada e o cruzamento desviou em Bruno Henrique, diminuindo o placar para 2 a 1 e colocando fogo nos minutos finais da partida.",
+      "player": {
+        "name": "Bragantino diminui e incendeia o final do jogo!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 88,
+        "extra": null
+      },
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Bruno Henrique"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 90,
+        "extra": null
+      },
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Joaquín Freitas"
+      },
+      "assist": {
+        "name": "Plata"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 90,
+        "extra": null
+      },
+      "team": {
+        "id": 280,
+        "name": "Bragantino"
+      },
+      "type": "Important",
+      "detail": "Arrascaeta puxa Alix Vinícius no meio e o árbitro marca falta. Jogadores do Bragantino pedem cartão, mas o árbitro não dá",
+      "player": {
+        "name": "Arrascaeta puxa Alix Vinícius no meio e o árbitr"
+      },
+      "assist": null
     }
   ],
   "lineups": [
@@ -2405,11 +2487,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "65%"
+          "value": "63%"
         },
         {
           "type": "Total Passes",
-          "value": 591
+          "value": 592
         },
         {
           "type": "Pass Accuracy",
@@ -2417,7 +2499,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 64
+          "value": 65
         },
         {
           "type": "Total Shots",
@@ -2457,15 +2539,15 @@
         },
         {
           "type": "Tackles",
-          "value": 13
+          "value": 14
         },
         {
           "type": "Fouls",
-          "value": 7
+          "value": 9
         },
         {
           "type": "Yellow Cards",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Red Cards",
@@ -2481,19 +2563,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "35%"
+          "value": "37%"
         },
         {
           "type": "Total Passes",
-          "value": 276
+          "value": 296
         },
         {
           "type": "Pass Accuracy",
-          "value": "75%"
+          "value": "76%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 68
+          "value": 71
         },
         {
           "type": "Total Shots",

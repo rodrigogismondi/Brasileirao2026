@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 55
+      "elapsed": 58
     },
     "timerStart": "2026-09-20T23:41:23.222Z",
     "timerStatus": "INICIADO"
@@ -880,6 +880,38 @@
       "assist": {
         "name": "Isolou"
       }
+    },
+    {
+      "time": {
+        "elapsed": 54,
+        "extra": null
+      },
+      "team": {
+        "id": 265,
+        "name": "Bahia"
+      },
+      "type": "Important",
+      "detail": "Que jogo na Arena! O Athletico saiu na frente aos 15 do primeiro tempo, em bela trama concluída por Esquivel. A resposta do Bahia veio rápido: aos 25, Erick Pulga aproveitou falha do goleiro Mycael e deixou tudo igual, 1 a 1. Desde então, a partida é lá e cá. Já no segundo tempo, com quase dez minutos corridos, os times seguem buscando o ataque em um confronto totalmente aberto e equilibrado.",
+      "player": {
+        "name": "Gols e emoção: tudo igual na Arena da Baixada"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 54,
+        "extra": null
+      },
+      "team": {
+        "id": 293,
+        "name": "Athletico-PR"
+      },
+      "type": "Important",
+      "detail": "Athletico chega com perigo em descida de Dudu pela ponta esquerda, mas cruzamento é bloqueado na hora certa por David Duarte.",
+      "player": {
+        "name": "Athletico chega com perigo em descida de Dudu pe"
+      },
+      "assist": null
     }
   ],
   "lineups": [
@@ -1337,11 +1369,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "45%"
+          "value": "46%"
         },
         {
           "type": "Total Passes",
-          "value": 317
+          "value": 359
         },
         {
           "type": "Pass Accuracy",
@@ -1349,7 +1381,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 44
+          "value": 52
         },
         {
           "type": "Total Shots",
@@ -1373,7 +1405,7 @@
         },
         {
           "type": "Corner Kicks",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Offsides",
@@ -1413,11 +1445,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "55%"
+          "value": "54%"
         },
         {
           "type": "Total Passes",
-          "value": 314
+          "value": 321
         },
         {
           "type": "Pass Accuracy",
@@ -1425,11 +1457,11 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 33
+          "value": 34
         },
         {
           "type": "Total Shots",
-          "value": 4
+          "value": 5
         },
         {
           "type": "Shots on Goal",
@@ -1437,7 +1469,7 @@
         },
         {
           "type": "Shots off Goal",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Blocked Shots",
@@ -1465,11 +1497,11 @@
         },
         {
           "type": "Tackles",
-          "value": 15
+          "value": 16
         },
         {
           "type": "Fouls",
-          "value": 6
+          "value": 7
         },
         {
           "type": "Yellow Cards",

@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 12
+      "elapsed": 15
     },
     "timerStart": "2026-09-20T19:00:08.010Z",
     "timerStatus": "INICIADO"
@@ -305,9 +305,9 @@
         "name": ""
       },
       "type": "Important",
-      "detail": "Defesa do Fluminense afasta cruzamento na área e Corinthians volta a ter a posse de bola no setor defensivo",
+      "detail": "Defesa do Fluminense afasta cruzamento na área. Corinthians volta a ter a posse de bola no setor defensivo",
       "player": {
-        "name": "Defesa do Fluminense afasta cruzamento na área e"
+        "name": "Defesa do Fluminense afasta cruzamento na área. "
       },
       "assist": null
     },
@@ -324,6 +324,38 @@
       "detail": "Bidon cobra para Bidu na segunda trave e defesa tricolor afasta",
       "player": {
         "name": "ESCANTEIO PARA O CORINTHIANS!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 11,
+        "extra": null
+      },
+      "team": {
+        "id": 264,
+        "name": "Corinthians"
+      },
+      "type": "Important",
+      "detail": "Corinthians é superior nos primeiros 10 minutos, mas ainda não conseguiu transformar posse de bola em criatividade. Fábio não foi exigido.",
+      "player": {
+        "name": "Corinthians é superior nos primeiros 10 minutos,"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 13,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "Important",
+      "detail": "Partida continua morna até aqui. Fluminense tem mais dificuldade para sair com a bola no pé, mas compensa com boa marcação",
+      "player": {
+        "name": "Partida continua morna até aqui. Fluminense tem "
       },
       "assist": null
     }
@@ -783,19 +815,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "76%"
+          "value": "78%"
         },
         {
           "type": "Total Passes",
-          "value": 79
+          "value": 112
         },
         {
           "type": "Pass Accuracy",
-          "value": "89%"
+          "value": "87%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 9
+          "value": 15
         },
         {
           "type": "Total Shots",
@@ -859,15 +891,15 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "24%"
+          "value": "22%"
         },
         {
           "type": "Total Passes",
-          "value": 19
+          "value": 25
         },
         {
           "type": "Pass Accuracy",
-          "value": "74%"
+          "value": "80%"
         },
         {
           "type": "Incomplete Passes",

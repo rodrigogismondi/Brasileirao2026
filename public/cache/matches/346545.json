@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 32
+      "elapsed": 35
     },
     "timerStart": "2026-09-20T21:30:48.895Z",
     "timerStatus": "INICIADO"
@@ -610,6 +610,40 @@
       "assist": {
         "name": "Perdeu de novo!"
       }
+    },
+    {
+      "time": {
+        "elapsed": 29,
+        "extra": null
+      },
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "Important",
+      "detail": "Carrascal avança com espaço na esquerda e lança para a área. Ramires faz o desvio e a bola chega no alto, na direção de Pedro, mas Gúzman se recupera e consegue cortar!",
+      "player": {
+        "name": "Carrascal"
+      },
+      "assist": {
+        "name": "Guzmán providencial"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 30,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Flamengo impõe uma intensidade muito forte no campo de ataque e empilha chances de gol, e só não ampliou por falta de precisão. Do outro lado, Mancini reclama bastante da falta de aplicação de seus jogadores no combate. A marcação do Bragantino tem se mostrado muito frágil ao pressionar a bola e, depois, ao buscar a recomposição",
+      "player": {
+        "name": "Panorama"
+      },
+      "assist": null
     }
   ],
   "lineups": [
@@ -1067,11 +1101,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "67%"
+          "value": "68%"
         },
         {
           "type": "Total Passes",
-          "value": 189
+          "value": 225
         },
         {
           "type": "Pass Accuracy",
@@ -1079,15 +1113,15 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 20
+          "value": 25
         },
         {
           "type": "Total Shots",
-          "value": 5
+          "value": 6
         },
         {
           "type": "Shots on Goal",
-          "value": 3
+          "value": 4
         },
         {
           "type": "Shots off Goal",
@@ -1107,7 +1141,7 @@
         },
         {
           "type": "Offsides",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Penalties",
@@ -1119,7 +1153,7 @@
         },
         {
           "type": "Tackles",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Fouls",
@@ -1143,11 +1177,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "33%"
+          "value": "32%"
         },
         {
           "type": "Total Passes",
-          "value": 84
+          "value": 94
         },
         {
           "type": "Pass Accuracy",
@@ -1155,7 +1189,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 20
+          "value": 23
         },
         {
           "type": "Total Shots",

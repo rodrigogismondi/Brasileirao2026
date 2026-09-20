@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 20
+      "elapsed": 22
     },
     "timerStart": "2026-09-20T19:01:08.985Z",
     "timerStatus": "INICIADO"
@@ -255,9 +255,9 @@
         "name": ""
       },
       "type": "Important",
-      "detail": "Que começo de jogo no Barradão! O Vitória impõe um ritmo forte e pressiona desde o início. Logo aos 2 minutos, Renê e Erick pararam em uma defesaça dupla de Otávio. O goleiro do Cruzeiro voltou a trabalhar em chute perigoso de Mateus Silva de fora da área. A Raposa respondeu com um foguete de Wesley, bloqueado de cabeça por Caíque. Partida intensa com o Leão criando mais e o goleiro visitante sendo o destaque até os 12 minutos.",
+      "detail": "O jogo começou em alta velocidade! Logo no primeiro minuto, Gerson testou Arcanjo para o Cruzeiro. A resposta do Vitória foi fulminante: Renê parou em Otávio, que se atrapalhou no rebote e precisou fazer outra grande defesa em chute de Erick. Com 11 minutos, a partida segue intensa, com Wesley arriscando forte e o Vitória reclamando de um pênalti não marcado em Mateus Silva.",
       "player": {
-        "name": "Pressão do Vitória e show de Otávio!"
+        "name": "Início quente com chances no Barradão!"
       },
       "assist": null
     },
@@ -271,7 +271,7 @@
         "name": "Vitória"
       },
       "type": "Important",
-      "detail": "Mateus Silva arrisca de fora da área e exige boa defesa de Otávio no canto direito.",
+      "detail": "Mateus Silva arrisca de fora da área e exige grande de defesa de Otávio no canto direito.",
       "player": {
         "name": "Mateus Silva"
       },
@@ -290,6 +290,38 @@
       "detail": "Mateus Silva cruza na medida para Matheuzinho na segunda trave, mas o camisa 10 cabeceia mal e manda por cima do gol, sem perigo.",
       "player": {
         "name": "Mateus Silva cruza na medida para Matheuzinho na"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 17,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O jogo começou com tudo no Barradão! Com menos de 20 minutos, o Vitória impõe o ritmo e já criou a melhor chance: Renê parou em defesa de Otávio, que se atrapalhou no rebote, mas se redimiu ao salvar o chute de Erick. O Cruzeiro respondeu em finalização de Gerson no início e com um chute forte de Wesley, bloqueado de cabeça por Caíque. Partida aberta e com o time da casa mais perto do gol.",
+      "player": {
+        "name": "Vitória pressiona e Otávio salva o Cruzeiro"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 17,
+        "extra": null
+      },
+      "team": {
+        "id": 283,
+        "name": "Cruzeiro"
+      },
+      "type": "Important",
+      "detail": "Rojas conduz a bola pela esquerda e tenta cruzamento em direção a Kaio Jorge na segunda trave, mas lançamento sai muito forte e vai direto para fora.",
+      "player": {
+        "name": "Gabriel Rojas"
       },
       "assist": null
     }
@@ -749,19 +781,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "43%"
+          "value": "42%"
         },
         {
           "type": "Total Passes",
-          "value": 77
+          "value": 92
         },
         {
           "type": "Pass Accuracy",
-          "value": "87%"
+          "value": "88%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 10
+          "value": 11
         },
         {
           "type": "Total Shots",
@@ -789,7 +821,7 @@
         },
         {
           "type": "Offsides",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Penalties",
@@ -801,7 +833,7 @@
         },
         {
           "type": "Tackles",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Fouls",
@@ -825,19 +857,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "57%"
+          "value": "58%"
         },
         {
           "type": "Total Passes",
-          "value": 114
+          "value": 137
         },
         {
           "type": "Pass Accuracy",
-          "value": "89%"
+          "value": "90%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 12
+          "value": 14
         },
         {
           "type": "Total Shots",
@@ -865,7 +897,7 @@
         },
         {
           "type": "Offsides",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Penalties",
@@ -877,7 +909,7 @@
         },
         {
           "type": "Tackles",
-          "value": 5
+          "value": 6
         },
         {
           "type": "Fouls",

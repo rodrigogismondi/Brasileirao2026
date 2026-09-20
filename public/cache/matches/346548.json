@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 48
+      "elapsed": 51
     },
     "timerStart": "2026-09-20T19:00:08.010Z",
     "timerStatus": "INICIADO"
@@ -1095,6 +1095,22 @@
         "extra": null
       },
       "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Após um começo de jogo com o Corinthians pressionando, o Fluminense cresceu e abriu o placar aos 23 minutos. Lucho Acosta fez um cruzamento perfeito para Hulk, que de carrinho mandou para o fundo do gol: 1 a 0 para o time visitante. Pouco depois, Serna teve a chance de ampliar, mas desperdiçou cara a cara com o goleiro. O Corinthians sentiu o gol e, apesar de tentar, não conseguiu levar perigo.",
+      "player": {
+        "name": "Hulk marca e Fluminense sai na frente!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 46,
+        "extra": null
+      },
+      "team": {
         "id": 264,
         "name": "Corinthians"
       },
@@ -1105,6 +1121,40 @@
       },
       "assist": {
         "name": "PRA FORA!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 47,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Corinthians circula a área do Fluminense com a posse de bola, mas não consegue levar perigo. Time tricolor está bem postado no campo de defesa",
+      "player": {
+        "name": "Corinthians circula a área do Fluminense com a p"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 48,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "Important",
+      "detail": "Fluminense sai com a velocidade de Serna, que arranca desde o campo de defesa e cruza para Hulk. O atacante tricolor desvia na direção do gol e Hugo Souza faz defesa incrível!",
+      "player": {
+        "name": "Hugo Souza"
+      },
+      "assist": {
+        "name": "MILAGRE DE HUGO SOUZA!"
       }
     }
   ],
@@ -1563,23 +1613,23 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "53%"
+          "value": "55%"
         },
         {
           "type": "Total Passes",
-          "value": 265
+          "value": 301
         },
         {
           "type": "Pass Accuracy",
-          "value": "89%"
+          "value": "90%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 29
+          "value": 30
         },
         {
           "type": "Total Shots",
-          "value": 3
+          "value": 5
         },
         {
           "type": "Shots on Goal",
@@ -1587,11 +1637,11 @@
         },
         {
           "type": "Shots off Goal",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Blocked Shots",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Hit Woodwork",
@@ -1615,7 +1665,7 @@
         },
         {
           "type": "Tackles",
-          "value": 7
+          "value": 8
         },
         {
           "type": "Fouls",
@@ -1639,19 +1689,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "47%"
+          "value": "45%"
         },
         {
           "type": "Total Passes",
-          "value": 216
+          "value": 225
         },
         {
           "type": "Pass Accuracy",
-          "value": "85%"
+          "value": "84%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 33
+          "value": 36
         },
         {
           "type": "Total Shots",
@@ -1687,11 +1737,11 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Tackles",
-          "value": 7
+          "value": 8
         },
         {
           "type": "Fouls",

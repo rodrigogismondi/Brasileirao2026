@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 36
+      "elapsed": 39
     },
     "timerStart": "2026-09-20T19:00:08.010Z",
     "timerStatus": "INICIADO"
@@ -814,6 +814,54 @@
       "assist": {
         "name": "QUASE O EMPATE!"
       }
+    },
+    {
+      "time": {
+        "elapsed": 34,
+        "extra": null
+      },
+      "team": {
+        "id": 264,
+        "name": "Corinthians"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Matheuzinho"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 34,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "Important",
+      "detail": "Serna lança Canobbio, que sai em velocidade, mas erra no momento do passe final. Bola é desviada pela defesa corinthiana",
+      "player": {
+        "name": "Flu desperdiça boa chance!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 35,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Iago Machado tenta desarmar Hulk no meio, mas acaba cometendo falta",
+      "player": {
+        "name": "Iago Machado tenta desarmar Hulk no meio, mas ac"
+      },
+      "assist": null
     }
   ],
   "lineups": [
@@ -1271,15 +1319,15 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "59%"
+          "value": "57%"
         },
         {
           "type": "Total Passes",
-          "value": 191
+          "value": 202
         },
         {
           "type": "Pass Accuracy",
-          "value": "87%"
+          "value": "88%"
         },
         {
           "type": "Incomplete Passes",
@@ -1287,11 +1335,11 @@
         },
         {
           "type": "Total Shots",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Shots on Goal",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Shots off Goal",
@@ -1307,7 +1355,7 @@
         },
         {
           "type": "Corner Kicks",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Offsides",
@@ -1327,11 +1375,11 @@
         },
         {
           "type": "Fouls",
-          "value": 5
+          "value": 7
         },
         {
           "type": "Yellow Cards",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Red Cards",
@@ -1347,11 +1395,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "41%"
+          "value": "43%"
         },
         {
           "type": "Total Passes",
-          "value": 124
+          "value": 155
         },
         {
           "type": "Pass Accuracy",
@@ -1359,7 +1407,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 19
+          "value": 23
         },
         {
           "type": "Total Shots",
@@ -1395,11 +1443,11 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Tackles",
-          "value": 4
+          "value": 5
         },
         {
           "type": "Fouls",

@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 32
+      "elapsed": 35
     },
     "timerStart": "2026-09-20T19:01:08.985Z",
     "timerStatus": "INICIADO"
@@ -438,6 +438,54 @@
       "detail": "Jogo fica lento neste momento, com trocas de passes inofensivas do Vitória e marcação passiva do Cruzeiro.",
       "player": {
         "name": "Jogo fica lento neste momento, com trocas de pas"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 29,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O jogo começou elétrico no Barradão, com quase 30 minutos de muitas chances. O Vitória partiu para cima e obrigou o goleiro Otávio a fazer um milagre em defesa dupla nos lances de Renê e Erick. O time da casa seguiu criando e teve outra oportunidade clara com Tarzia, que saiu cara a cara mas chutou por cima. O Cruzeiro respondeu com um gol de Matheus Pereira, mas a jogada foi anulada por impedimento.",
+      "player": {
+        "name": "Otávio brilha e segura o ímpeto do Vitória"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 29,
+        "extra": null
+      },
+      "team": {
+        "id": 283,
+        "name": "Cruzeiro"
+      },
+      "type": "Important",
+      "detail": "Arroyo recebe passe de Kaio Jorge na ponta direita e arrisca chute de longa distância, mas bola passa à esquerda de Lucas Arcanjo.",
+      "player": {
+        "name": "Arroyo"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 30,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Equipes aproveitam parada para ouvir instruções dos treinadores.",
+      "player": {
+        "name": "Pausa para hidratação"
       },
       "assist": null
     }
@@ -901,7 +949,7 @@
         },
         {
           "type": "Total Passes",
-          "value": 122
+          "value": 125
         },
         {
           "type": "Pass Accuracy",
@@ -909,7 +957,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 18
+          "value": 19
         },
         {
           "type": "Total Shots",
@@ -977,7 +1025,7 @@
         },
         {
           "type": "Total Passes",
-          "value": 187
+          "value": 195
         },
         {
           "type": "Pass Accuracy",
@@ -985,11 +1033,11 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 24
+          "value": 25
         },
         {
           "type": "Total Shots",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Shots on Goal",
@@ -997,7 +1045,7 @@
         },
         {
           "type": "Shots off Goal",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Blocked Shots",
@@ -1025,7 +1073,7 @@
         },
         {
           "type": "Tackles",
-          "value": 7
+          "value": 8
         },
         {
           "type": "Fouls",

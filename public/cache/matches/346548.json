@@ -7,12 +7,12 @@
       "city": ""
     },
     "status": {
-      "long": "2H",
-      "short": "2H",
-      "elapsed": 98
+      "long": "FT",
+      "short": "FT",
+      "elapsed": 90
     },
     "timerStart": "2026-09-20T20:06:55.470Z",
-    "timerStatus": "INICIADO"
+    "timerStatus": "PAUSADO"
   },
   "league": {
     "round": "Regular Season - 28"
@@ -39,8 +39,8 @@
       "away": null
     },
     "fulltime": {
-      "home": null,
-      "away": null
+      "home": 1,
+      "away": 3
     }
   },
   "odds": {
@@ -51,6 +51,22 @@
   },
   "_geUrl": "https://ge.globo.com/sp/futebol/brasileirao-serie-a/jogo/20-09-2026/corinthians-fluminense.ghtml",
   "events": [
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 264,
+        "name": "Corinthians"
+      },
+      "type": "Important",
+      "detail": "Torcida do Corinthians protesta muito na Neo Química Arena.",
+      "player": {
+        "name": "POLICIAMENTO REFORÇADO"
+      },
+      "assist": null
+    },
     {
       "time": {
         "elapsed": 0,
@@ -3189,11 +3205,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "56%"
+          "value": "55%"
         },
         {
           "type": "Total Passes",
-          "value": 567
+          "value": 568
         },
         {
           "type": "Pass Accuracy",
@@ -3209,7 +3225,7 @@
         },
         {
           "type": "Shots on Goal",
-          "value": 7
+          "value": 6
         },
         {
           "type": "Shots off Goal",
@@ -3221,7 +3237,7 @@
         },
         {
           "type": "Hit Woodwork",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Corner Kicks",
@@ -3245,7 +3261,7 @@
         },
         {
           "type": "Fouls",
-          "value": 15
+          "value": 16
         },
         {
           "type": "Yellow Cards",
@@ -3265,11 +3281,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "44%"
+          "value": "45%"
         },
         {
           "type": "Total Passes",
-          "value": 413
+          "value": 420
         },
         {
           "type": "Pass Accuracy",

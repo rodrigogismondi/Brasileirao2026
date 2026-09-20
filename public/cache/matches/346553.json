@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 95
+      "elapsed": 98
     },
     "timerStart": "2026-09-20T20:09:38.062Z",
     "timerStatus": "INICIADO"
@@ -31,7 +31,7 @@
   },
   "goals": {
     "home": 1,
-    "away": 2
+    "away": 3
   },
   "score": {
     "halftime": {
@@ -1522,6 +1522,86 @@
         "name": "+7"
       },
       "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 93,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Após Renê abrir o placar para o Vitória na etapa inicial, o Cruzeiro voltou do intervalo de forma avassaladora. Arroyo empatou logo no primeiro minuto, contando com uma falha do goleiro Arcanjo. A virada veio aos 20 minutos, com gol de Villalba. Já nos acréscimos, a Raposa administra o placar de 2 a 1 e resiste à pressão final do time baiano, que tenta o empate.",
+      "player": {
+        "name": "Raposa vira o jogo no segundo tempo!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 93,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Vitória não consegue sair para o jogo, e Cruzeiro deixa os segundos passarem no campo de ataque.",
+      "player": {
+        "name": "Vitória não consegue sair para o jogo, e Cruzeir"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 95,
+        "extra": null
+      },
+      "team": {
+        "id": 287,
+        "name": "Vitória"
+      },
+      "type": "Important",
+      "detail": "Depois de se embolarem com a bola, Luan Cândido e Alex Bruno não conseguem finalização, e bola fica nas mãos de Otávio.",
+      "player": {
+        "name": "Depois de se embolarem com a bola, Luan Cândido "
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 96,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Vitória até abriu o placar com Renê aos 38 minutos, mas a história do jogo mudou no segundo tempo. O Cruzeiro empatou logo no lance inicial com Arroyo e virou aos 20 com Villalba. O time da casa tentou reagir, mas, já nos acréscimos, a Raposa foi letal: Matheus Pereira aproveitou contra-ataque e selou a vitória por 3 a 1, com grande atuação e duas assistências de Arroyo na etapa final.",
+      "player": {
+        "name": "Cruzeiro reage e vira o jogo no Barradão!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 96,
+        "extra": null
+      },
+      "team": {
+        "id": 283,
+        "name": "Cruzeiro"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "player": {
+        "name": "Matheus Pereira"
+      },
+      "assist": null
     }
   ],
   "lineups": [
@@ -1778,18 +1858,18 @@
         },
         {
           "player": {
-            "id": "jonathan",
-            "name": "Jonathan Jesus",
-            "number": 34,
+            "id": "joaomarcelo",
+            "name": "João Marcelo",
+            "number": 43,
             "pos": "Def",
             "grid": null
           }
         },
         {
           "player": {
-            "id": "joaomarcelo",
-            "name": "João Marcelo",
-            "number": 43,
+            "id": "jonathan",
+            "name": "Jonathan Jesus",
+            "number": 34,
             "pos": "Def",
             "grid": null
           }
@@ -1979,23 +2059,23 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "41%"
+          "value": "42%"
         },
         {
           "type": "Total Passes",
-          "value": 390
+          "value": 420
         },
         {
           "type": "Pass Accuracy",
-          "value": "81%"
+          "value": "79%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 75
+          "value": 87
         },
         {
           "type": "Total Shots",
-          "value": 18
+          "value": 19
         },
         {
           "type": "Shots on Goal",
@@ -2003,7 +2083,7 @@
         },
         {
           "type": "Shots off Goal",
-          "value": 8
+          "value": 9
         },
         {
           "type": "Blocked Shots",
@@ -2015,7 +2095,7 @@
         },
         {
           "type": "Corner Kicks",
-          "value": 7
+          "value": 8
         },
         {
           "type": "Offsides",
@@ -2027,11 +2107,11 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 6
+          "value": 7
         },
         {
           "type": "Tackles",
-          "value": 13
+          "value": 16
         },
         {
           "type": "Fouls",
@@ -2055,27 +2135,27 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "59%"
+          "value": "58%"
         },
         {
           "type": "Total Passes",
-          "value": 527
+          "value": 536
         },
         {
           "type": "Pass Accuracy",
-          "value": "87%"
+          "value": "86%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 71
+          "value": 76
         },
         {
           "type": "Total Shots",
-          "value": 12
+          "value": 13
         },
         {
           "type": "Shots on Goal",
-          "value": 4
+          "value": 5
         },
         {
           "type": "Shots off Goal",
@@ -2103,15 +2183,15 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 10
+          "value": 11
         },
         {
           "type": "Tackles",
-          "value": 20
+          "value": 22
         },
         {
           "type": "Fouls",
-          "value": 18
+          "value": 19
         },
         {
           "type": "Yellow Cards",

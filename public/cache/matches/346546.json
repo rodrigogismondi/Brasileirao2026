@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 50
+      "elapsed": 56
     },
     "timerStart": "2026-09-20T00:36:45.541Z",
     "timerStatus": "INICIADO"
@@ -30,7 +30,7 @@
     }
   },
   "goals": {
-    "home": 2,
+    "home": 3,
     "away": 0
   },
   "score": {
@@ -1026,6 +1026,40 @@
         "extra": null
       },
       "team": {
+        "id": 267,
+        "name": "Vasco"
+      },
+      "type": "Important",
+      "detail": "Cuiabano recebe no meio e acelera até a área. A marcação tenta fechar o espaço, o lateral finaliza sem ângulo, mas a bola explode na defesa",
+      "player": {
+        "name": "Cuiabano"
+      },
+      "assist": {
+        "name": "Disparada"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 49,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Vasco impõe seu ritmo e constrói uma ótima vantagem. Aos 23 minutos, Colidio aproveitou uma sobra na pequena área para abrir o placar. Perto do fim do primeiro tempo, aos 43, foi a vez de Bruno Duarte ampliar para 2 a 0, concluindo jogada iniciada por Colidio. O Coritiba até assustou em bola parada, mas vê o time da casa seguir no controle no começo da segunda etapa.",
+      "player": {
+        "name": "Vasco comanda e abre 2 a 0 em casa"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 49,
+        "extra": null
+      },
+      "team": {
         "id": 0,
         "name": ""
       },
@@ -1033,6 +1067,72 @@
       "detail": "Léo Jardim recebe recuo, deixa a bola correr no domínio e quase é desarmado por Paulo Roberto",
       "player": {
         "name": "Léo Jardim recebe recuo, deixa a bola correr no "
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 51,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Coritiba encontra muito dificuldade para chegar ao campo de ataque. O Vasco sobe a marcação e dá pouco espaço para a transição. Josué, principal armador, tem sempre alguém no encalço e, por enquanto, tem ações neutralizadas",
+      "player": {
+        "name": "Panorama"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 53,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Vasco comanda o jogo desde o início! Após muita pressão, Colidio abriu o placar aos 23 minutos. Perto do intervalo, Bruno Duarte ampliou para 2 a 0, aproveitando rebote de outra finalização de Colidio. O Coritiba até assustou em bola parada, mas parou em Léo Jardim. O segundo tempo começou com gol anulado do Vasco e, aos 8 minutos, a equipe conquistou um pênalti sofrido por Lescano.",
+      "player": {
+        "name": "Vasco domina, abre 2 a 0 e tem pênalti!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 53,
+        "extra": null
+      },
+      "team": {
+        "id": 267,
+        "name": "Vasco"
+      },
+      "type": "Important",
+      "detail": "Vasco passa a bola de pé em pé. Lescano é derrubado na grande área, e o árbitro Bráulio Machado marca pênalti",
+      "player": {
+        "name": "Lescano"
+      },
+      "assist": {
+        "name": "Pênalti para o Vasco"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 55,
+        "extra": null
+      },
+      "team": {
+        "id": 267,
+        "name": "Vasco"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "player": {
+        "name": "Lescano"
       },
       "assist": null
     }
@@ -1492,23 +1592,23 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "61%"
+          "value": "58%"
         },
         {
           "type": "Total Passes",
-          "value": 331
+          "value": 361
         },
         {
           "type": "Pass Accuracy",
-          "value": "82%"
+          "value": "83%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 58
+          "value": 63
         },
         {
           "type": "Total Shots",
-          "value": 12
+          "value": 13
         },
         {
           "type": "Shots on Goal",
@@ -1520,7 +1620,7 @@
         },
         {
           "type": "Blocked Shots",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Hit Woodwork",
@@ -1528,7 +1628,7 @@
         },
         {
           "type": "Corner Kicks",
-          "value": 5
+          "value": 6
         },
         {
           "type": "Offsides",
@@ -1536,7 +1636,7 @@
         },
         {
           "type": "Penalties",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Goalkeeper Saves",
@@ -1544,7 +1644,7 @@
         },
         {
           "type": "Tackles",
-          "value": 14
+          "value": 16
         },
         {
           "type": "Fouls",
@@ -1568,19 +1668,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "39%"
+          "value": "42%"
         },
         {
           "type": "Total Passes",
-          "value": 204
+          "value": 238
         },
         {
           "type": "Pass Accuracy",
-          "value": "79%"
+          "value": "80%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 43
+          "value": 48
         },
         {
           "type": "Total Shots",
@@ -1616,7 +1716,7 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 6
+          "value": 7
         },
         {
           "type": "Tackles",
@@ -1624,7 +1724,7 @@
         },
         {
           "type": "Fouls",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Yellow Cards",

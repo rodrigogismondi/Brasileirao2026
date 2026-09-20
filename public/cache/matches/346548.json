@@ -9,10 +9,10 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 51
+      "elapsed": 53
     },
-    "timerStart": "2026-09-20T20:06:40.628Z",
-    "timerStatus": "PAUSADO"
+    "timerStart": "2026-09-20T20:06:55.470Z",
+    "timerStatus": "INICIADO"
   },
   "league": {
     "round": "Regular Season - 28"
@@ -1113,6 +1113,24 @@
         "extra": null
       },
       "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "Important",
+      "detail": "Memphis cobra escanteio, bola fica viva na área do Fluminense e Kaio César aparece para cabecear. Bola bate na cabeça de Serna e sai em escanteio",
+      "player": {
+        "name": "Kaio César"
+      },
+      "assist": {
+        "name": "QUASE O EMPATE!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 45,
+        "extra": null
+      },
+      "team": {
         "id": 0,
         "name": ""
       },
@@ -1247,6 +1265,38 @@
         "name": ""
       },
       "type": "Important",
+      "detail": "O Fluminense foi mais letal e saiu na frente no primeiro tempo. Aos 23 minutos, Lucho Acosta cruzou na medida e Hulk empurrou para o gol, abrindo o placar. Depois disso, o Flu dominou e quase ampliou com Serna, que perdeu chance clara, e em finalização de Hulk, defendida de forma espetacular por Hugo Souza. O Corinthians voltou para o segundo tempo com alteração ofensiva e pressiona em busca do empate.",
+      "player": {
+        "name": "Fluminense abre o placar; Timão busca reação"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 48,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Fluminense afasta sequência de bolas pelo alto e o Corinthians segue no campo de ataque! Equipe paulista tem falta no meio campo",
+      "player": {
+        "name": "PRESSÃO CORINTHIANA!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 48,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
       "detail": "O Fluminense foi letal e abriu o placar aos 23 minutos, com gol de Hulk após cruzamento de Lucho Acosta. Desde então, o time carioca domina a partida e já teve chances de ouro para ampliar o marcador. Serna perdeu uma oportunidade incrível cara a cara com o goleiro, e já no fim do primeiro tempo, Hugo Souza operou um milagre em finalização de Hulk, mantendo o Corinthians no jogo com o placar em 1 a 0.",
       "player": {
         "name": "Hulk marca e Flu domina o Timão"
@@ -1281,9 +1331,59 @@
         "name": "Fluminense"
       },
       "type": "Important",
+      "detail": "Bidon arranca pela esquerda, sofre falta, mas a bola sobra para Bidu, que bate com muita força e bola sai em lateral para o Fluminense",
+      "player": {
+        "name": "Matheus Bidu"
+      },
+      "assist": {
+        "name": "PEGOU MAL!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 49,
+        "extra": null
+      },
+      "team": {
+        "id": 264,
+        "name": "Corinthians"
+      },
+      "type": "Important",
+      "detail": "Direto pra fora! Garro cobra com muita força, e bola sai em tiro de meta para Fábio",
+      "player": {
+        "name": "Garro"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 49,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "Important",
       "detail": "Jogadores do Corinthians reclamam de possível pênalti, mas o árbitro já mandou seguir. Escanteio para o Flu",
       "player": {
         "name": "JOGO PARADO!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 50,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Memphis tenta cruzamento pela esquerda e zagueiro tricolor afasta",
+      "player": {
+        "name": "AFASTA THIAGO!"
       },
       "assist": null
     },
@@ -1795,15 +1895,15 @@
         },
         {
           "type": "Total Passes",
-          "value": 334
+          "value": 354
         },
         {
           "type": "Pass Accuracy",
-          "value": "90%"
+          "value": "89%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 35
+          "value": 40
         },
         {
           "type": "Total Shots",
@@ -1827,7 +1927,7 @@
         },
         {
           "type": "Corner Kicks",
-          "value": 3
+          "value": 4
         },
         {
           "type": "Offsides",
@@ -1871,15 +1971,15 @@
         },
         {
           "type": "Total Passes",
-          "value": 235
+          "value": 239
         },
         {
           "type": "Pass Accuracy",
-          "value": "83%"
+          "value": "82%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 39
+          "value": 42
         },
         {
           "type": "Total Shots",
@@ -1915,7 +2015,7 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 3
+          "value": 4
         },
         {
           "type": "Tackles",
@@ -1923,7 +2023,7 @@
         },
         {
           "type": "Fouls",
-          "value": 6
+          "value": 7
         },
         {
           "type": "Yellow Cards",

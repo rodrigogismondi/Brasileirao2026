@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 8
+      "elapsed": 11
     },
     "timerStart": "2026-09-20T19:01:08.985Z",
     "timerStatus": "INICIADO"
@@ -178,6 +178,40 @@
         "name": "Rojas tenta chegar pelo lado esquerdo da área de"
       },
       "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 7,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O jogo começou em alta rotação no Barradão! Após um primeiro arremate do Cruzeiro com Gerson, o Vitória respondeu de forma avassaladora. Em uma jogada só, Otávio precisou fazer duas defesas espetaculares em finalizações de Renê e Erick para salvar o time visitante. O duelo segue intenso, com Wesley também levando perigo em chute forte, bloqueado de cabeça por Caíque Gonçalves. Início muito movimentado.",
+      "player": {
+        "name": "Vitória pressiona e Otávio salva o Cruzeiro!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 7,
+        "extra": null
+      },
+      "team": {
+        "id": 287,
+        "name": "Vitória"
+      },
+      "type": "Important",
+      "detail": "Wesley solta o pé da entrada da área, e Caíque Gonçalves coloca a cabeça na frente da bola para bloquear a finalização. Volante do Vitória cai no chão, mas levanta sem precisar de atendimento médico.",
+      "player": {
+        "name": "Caíque"
+      },
+      "assist": {
+        "name": "Nocaute"
+      }
     }
   ],
   "lineups": [
@@ -635,15 +669,15 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "54%"
+          "value": "47%"
         },
         {
           "type": "Total Passes",
-          "value": 40
+          "value": 49
         },
         {
           "type": "Pass Accuracy",
-          "value": "88%"
+          "value": "90%"
         },
         {
           "type": "Incomplete Passes",
@@ -683,7 +717,7 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Tackles",
@@ -691,7 +725,7 @@
         },
         {
           "type": "Fouls",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Yellow Cards",
@@ -711,15 +745,15 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "46%"
+          "value": "53%"
         },
         {
           "type": "Total Passes",
-          "value": 33
+          "value": 55
         },
         {
           "type": "Pass Accuracy",
-          "value": "79%"
+          "value": "87%"
         },
         {
           "type": "Incomplete Passes",
@@ -727,7 +761,7 @@
         },
         {
           "type": "Total Shots",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Shots on Goal",
@@ -739,7 +773,7 @@
         },
         {
           "type": "Blocked Shots",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Hit Woodwork",
@@ -759,7 +793,7 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 2
+          "value": 1
         },
         {
           "type": "Tackles",
@@ -767,7 +801,7 @@
         },
         {
           "type": "Fouls",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Yellow Cards",

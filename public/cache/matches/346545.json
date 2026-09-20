@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 14
+      "elapsed": 17
     },
     "timerStart": "2026-09-20T21:30:48.895Z",
     "timerStatus": "INICIADO"
@@ -64,22 +64,6 @@
       "detail": "Bola rolando",
       "player": {
         "name": "Começa o jogo"
-      },
-      "assist": null
-    },
-    {
-      "time": {
-        "elapsed": 0,
-        "extra": null
-      },
-      "team": {
-        "id": 262,
-        "name": "Flamengo"
-      },
-      "type": "Goal",
-      "detail": "Normal Goal",
-      "player": {
-        "name": "Varela"
       },
       "assist": null
     },
@@ -299,6 +283,22 @@
     },
     {
       "time": {
+        "elapsed": 11,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Flamengo aumenta a intensidade no campo de ataque e causa mais problemas ao Bragantino, que tem postura bastante conservadora",
+      "player": {
+        "name": "Flamengo aumenta a intensidade no campo de ataqu"
+      },
+      "assist": null
+    },
+    {
+      "time": {
         "elapsed": 12,
         "extra": null
       },
@@ -323,9 +323,57 @@
         "name": ""
       },
       "type": "Important",
-      "detail": "Flamengo aumenta a intensidade no campo de ataque e causa mais problemas ao Bragantino, que tem postura bastante conservadora",
+      "detail": "Um início de jogo agitadíssimo! O Bragantino teve a chance de ouro logo aos 2 minutos, mas Rodriguinho desperdiçou. O Flamengo, que perdeu Ayrton Lucas por lesão, reagiu com força. Primeiro, Arrascaeta acertou a trave. Logo depois, aos 12 minutos, a rede balançou: Carrascal serviu Varela, que surgiu como elemento surpresa e fez 1 a 0 para o time da casa.",
       "player": {
-        "name": "Flamengo aumenta a intensidade no campo de ataqu"
+        "name": "Início tenso e Fla sai na frente!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 12,
+        "extra": null
+      },
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "player": {
+        "name": "Varela"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 15,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "A partida começou com o Bragantino perdendo uma chance clara com Rodriguinho. Pouco depois, o Flamengo sofreu um baque com a lesão de Ayrton Lucas, que saiu chorando. Mas a reação foi imediata: Arrascaeta acertou a trave e, na sequência da pressão, aos 12 minutos, Varela apareceu na área para desviar o passe de Carrascal e abrir o placar, fazendo 1 a 0 para a equipe da casa.",
+      "player": {
+        "name": "Início com lesão, trave e gol do Flamengo"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 15,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Arrascaeta sofre falta na saída da defesa",
+      "player": {
+        "name": "Arrascaeta sofre falta na saída da defesa"
       },
       "assist": null
     }

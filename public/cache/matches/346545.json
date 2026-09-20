@@ -7,12 +7,12 @@
       "city": ""
     },
     "status": {
-      "long": "2H",
-      "short": "2H",
-      "elapsed": 100
+      "long": "FT",
+      "short": "FT",
+      "elapsed": 90
     },
     "timerStart": "2026-09-20T22:37:25.624Z",
-    "timerStatus": "INICIADO"
+    "timerStatus": "PAUSADO"
   },
   "league": {
     "round": "Regular Season - 28"
@@ -39,8 +39,8 @@
       "away": null
     },
     "fulltime": {
-      "home": null,
-      "away": null
+      "home": 2,
+      "away": 1
     }
   },
   "odds": {
@@ -2715,11 +2715,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "63%"
+          "value": "62%"
         },
         {
           "type": "Total Passes",
-          "value": 606
+          "value": 610
         },
         {
           "type": "Pass Accuracy",
@@ -2727,7 +2727,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 71
+          "value": 72
         },
         {
           "type": "Total Shots",
@@ -2791,11 +2791,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "37%"
+          "value": "38%"
         },
         {
           "type": "Total Passes",
-          "value": 320
+          "value": 319
         },
         {
           "type": "Pass Accuracy",
@@ -2803,11 +2803,11 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 75
+          "value": 74
         },
         {
           "type": "Total Shots",
-          "value": 12
+          "value": 13
         },
         {
           "type": "Shots on Goal",
@@ -2815,7 +2815,7 @@
         },
         {
           "type": "Shots off Goal",
-          "value": 4
+          "value": 5
         },
         {
           "type": "Blocked Shots",
@@ -2847,11 +2847,11 @@
         },
         {
           "type": "Fouls",
-          "value": 14
+          "value": 15
         },
         {
           "type": "Yellow Cards",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Red Cards",

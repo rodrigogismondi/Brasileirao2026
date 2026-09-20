@@ -13412,9 +13412,7 @@
           "long": "FT",
           "short": "FT",
           "elapsed": 90
-        },
-        "timerStart": "2026-09-19T21:01:39.875Z",
-        "timerStatus": "PAUSADO"
+        }
       },
       "league": {
         "round": "Regular Season - 28"
@@ -13464,9 +13462,7 @@
           "long": "FT",
           "short": "FT",
           "elapsed": 90
-        },
-        "timerStart": "2026-09-19T22:04:29.097Z",
-        "timerStatus": "PAUSADO"
+        }
       },
       "league": {
         "round": "Regular Season - 28"
@@ -13516,9 +13512,7 @@
           "long": "FT",
           "short": "FT",
           "elapsed": 90
-        },
-        "timerStart": "2026-09-19T23:35:52.141Z",
-        "timerStatus": "PAUSADO"
+        }
       },
       "league": {
         "round": "Regular Season - 28"
@@ -13568,9 +13562,7 @@
           "long": "FT",
           "short": "FT",
           "elapsed": 90
-        },
-        "timerStart": "2026-09-20T01:37:38.242Z",
-        "timerStatus": "PAUSADO"
+        }
       },
       "league": {
         "round": "Regular Season - 28"
@@ -13620,9 +13612,7 @@
           "long": "FT",
           "short": "FT",
           "elapsed": 90
-        },
-        "timerStart": "2026-09-20T02:04:14.410Z",
-        "timerStatus": "PAUSADO"
+        }
       },
       "league": {
         "round": "Regular Season - 28"
@@ -13672,9 +13662,7 @@
           "long": "FT",
           "short": "FT",
           "elapsed": 90
-        },
-        "timerStart": "2026-09-20T16:12:13.811Z",
-        "timerStatus": "PAUSADO"
+        }
       },
       "league": {
         "round": "Regular Season - 28"
@@ -13723,7 +13711,7 @@
         "status": {
           "long": "1H",
           "short": "1H",
-          "elapsed": null
+          "elapsed": 2
         },
         "timerStart": "2026-09-20T17:49:20.124Z",
         "timerStatus": "PAUSADO"
@@ -13744,8 +13732,8 @@
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
       "score": {
         "halftime": {
@@ -13828,9 +13816,7 @@
           "long": "NS",
           "short": "NS",
           "elapsed": null
-        },
-        "timerStart": null,
-        "timerStatus": "PAUSADO"
+        }
       },
       "league": {
         "round": "Regular Season - 28"
@@ -13880,9 +13866,7 @@
           "long": "NS",
           "short": "NS",
           "elapsed": null
-        },
-        "timerStart": null,
-        "timerStatus": "PAUSADO"
+        }
       },
       "league": {
         "round": "Regular Season - 28"
@@ -18733,7 +18717,7 @@
               },
               "points": 45,
               "goalsDiff": 6,
-              "form": "WWDWL",
+              "form": "WDWLD",
               "description": "Copa Libertadores Qualifiers",
               "all": {
                 "played": 27,
@@ -18931,7 +18915,7 @@
               },
               "points": 32,
               "goalsDiff": -1,
-              "form": "LLLLL",
+              "form": "LLLLD",
               "description": null,
               "all": {
                 "played": 27,
@@ -20190,7 +20174,7 @@
     "mode": "live",
     "liveIntervalMs": 20000
   },
-  "fetchedAt": "2026-09-20T19:00:14.605Z",
+  "fetchedAt": "2026-09-20T19:03:12.429Z",
   "source": "ge-globo",
   "meta": {
     "rodada": 28,

@@ -7,12 +7,12 @@
       "city": ""
     },
     "status": {
-      "long": "2H",
-      "short": "2H",
-      "elapsed": 98
+      "long": "FT",
+      "short": "FT",
+      "elapsed": 90
     },
-    "timerStart": "2026-09-20T00:36:45.541Z",
-    "timerStatus": "INICIADO"
+    "timerStart": "2026-09-20T01:37:38.242Z",
+    "timerStatus": "PAUSADO"
   },
   "league": {
     "round": "Regular Season - 28"
@@ -39,8 +39,8 @@
       "away": null
     },
     "fulltime": {
-      "home": null,
-      "away": null
+      "home": 5,
+      "away": 0
     }
   },
   "odds": {
@@ -49,6 +49,7 @@
     "away": 7.42,
     "source": "betexplorer"
   },
+  "_geUrl": "https://ge.globo.com/rj/futebol/brasileirao-serie-a/jogo/19-09-2026/vasco-coritiba.ghtml",
   "events": [
     {
       "time": {
@@ -1917,6 +1918,38 @@
       "assist": {
         "name": "Na trave!"
       }
+    },
+    {
+      "time": {
+        "elapsed": 96,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Que atuação do Vasco! O time da casa dominou o Coritiba do início ao fim e construiu uma goleada por 5 a 0. Colidio abriu o placar, Bruno Duarte ampliou e, no segundo tempo, Lescano de pênalti, Andrés Gómez em jogada individual e Ramon Rique fecharam o massacre. A equipe ainda teve um gol anulado, bola na trave de bicicleta com Robert Renan e um domínio absoluto até o apito final.",
+      "player": {
+        "name": "Vasco atropela o Coritiba em show de gols"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 96,
+        "extra": null
+      },
+      "team": {
+        "id": 267,
+        "name": "Vasco"
+      },
+      "type": "Important",
+      "detail": "Goleada do Vasco",
+      "player": {
+        "name": "Fim de jogo"
+      },
+      "assist": null
     }
   ],
   "lineups": [
@@ -2378,19 +2411,19 @@
         },
         {
           "type": "Total Passes",
-          "value": 598
+          "value": 619
         },
         {
           "type": "Pass Accuracy",
-          "value": "85%"
+          "value": "86%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 87
+          "value": 89
         },
         {
           "type": "Total Shots",
-          "value": 28
+          "value": 30
         },
         {
           "type": "Shots on Goal",
@@ -2398,7 +2431,7 @@
         },
         {
           "type": "Shots off Goal",
-          "value": 9
+          "value": 11
         },
         {
           "type": "Blocked Shots",
@@ -2414,7 +2447,7 @@
         },
         {
           "type": "Offsides",
-          "value": 1
+          "value": 0
         },
         {
           "type": "Penalties",
@@ -2426,11 +2459,11 @@
         },
         {
           "type": "Tackles",
-          "value": 22
+          "value": 25
         },
         {
           "type": "Fouls",
-          "value": 6
+          "value": 7
         },
         {
           "type": "Yellow Cards",
@@ -2454,7 +2487,7 @@
         },
         {
           "type": "Total Passes",
-          "value": 347
+          "value": 355
         },
         {
           "type": "Pass Accuracy",
@@ -2462,7 +2495,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 74
+          "value": 76
         },
         {
           "type": "Total Shots",
@@ -2506,7 +2539,7 @@
         },
         {
           "type": "Fouls",
-          "value": 6
+          "value": 7
         },
         {
           "type": "Yellow Cards",

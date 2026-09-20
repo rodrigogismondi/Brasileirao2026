@@ -7,12 +7,12 @@
       "city": ""
     },
     "status": {
-      "long": "HT",
-      "short": "HT",
-      "elapsed": 45
+      "long": "2H",
+      "short": "2H",
+      "elapsed": 52
     },
-    "timerStart": "2026-09-20T22:20:26.998Z",
-    "timerStatus": "PAUSADO"
+    "timerStart": "2026-09-20T22:37:25.624Z",
+    "timerStatus": "INICIADO"
   },
   "league": {
     "round": "Regular Season - 28"
@@ -1101,6 +1101,22 @@
         "extra": null
       },
       "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "A partida começou com drama: Ayrton Lucas se lesionou cedo e o Bragantino perdeu uma chance clara com Rodriguinho. O Flamengo respondeu com uma bola na trave de Arrascaeta e, aos 12 minutos, abriu o placar em 1 a 0 com Varela. A partir daí, o time da casa pressionou e só não ampliou por grandes defesas de Volpi. O Bragantino também acertou a trave no fim, e o segundo tempo acaba de começar.",
+      "player": {
+        "name": "Gol, lesão e bolas na trave agitam o jogo"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 48,
+        "extra": null
+      },
+      "team": {
         "id": 262,
         "name": "Flamengo"
       },
@@ -1112,6 +1128,22 @@
       "assist": {
         "name": "Situação de Ayrton Lucas"
       }
+    },
+    {
+      "time": {
+        "elapsed": 49,
+        "extra": null
+      },
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "Important",
+      "detail": "A entrada do zagueiro Alix Vinícius no lugar do meia Rodrigo, em tese, fecha espaços cedidos ao Flamengo no primeiro tempo, e dá mais liberdade aos laterais para atacar",
+      "player": {
+        "name": "Cenário"
+      },
+      "assist": null
     },
     {
       "time": {
@@ -1142,6 +1174,38 @@
       "detail": "Vanderlan carrega na intermediária de ataque e sofre o desarme de Arrascaeta",
       "player": {
         "name": "Vanderlan carrega na intermediária de ataque e s"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 50,
+        "extra": null
+      },
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Varela"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 51,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Gúzman cobra a falta muito mal e acerta a barreira",
+      "player": {
+        "name": "Gúzman cobra a falta muito mal e acerta a barrei"
       },
       "assist": null
     }
@@ -1605,7 +1669,7 @@
         },
         {
           "type": "Total Passes",
-          "value": 384
+          "value": 402
         },
         {
           "type": "Pass Accuracy",
@@ -1613,7 +1677,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 35
+          "value": 38
         },
         {
           "type": "Total Shots",
@@ -1653,7 +1717,7 @@
         },
         {
           "type": "Tackles",
-          "value": 12
+          "value": 13
         },
         {
           "type": "Fouls",
@@ -1681,15 +1745,15 @@
         },
         {
           "type": "Total Passes",
-          "value": 159
+          "value": 166
         },
         {
           "type": "Pass Accuracy",
-          "value": "75%"
+          "value": "73%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 40
+          "value": 44
         },
         {
           "type": "Total Shots",
@@ -1713,7 +1777,7 @@
         },
         {
           "type": "Corner Kicks",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Offsides",
@@ -1729,7 +1793,7 @@
         },
         {
           "type": "Tackles",
-          "value": 8
+          "value": 10
         },
         {
           "type": "Fouls",

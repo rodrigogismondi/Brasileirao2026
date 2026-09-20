@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 44
+      "elapsed": 47
     },
     "timerStart": "2026-09-20T21:30:48.895Z",
     "timerStatus": "INICIADO"
@@ -858,6 +858,38 @@
         "name": "Flamengo roda o jogo na defesa, tenta atrair o B"
       },
       "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 43,
+        "extra": null
+      },
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "Important",
+      "detail": "Carrascal lança para Plata na área, mas o atacante não alcança, e Gúzman sai jogando",
+      "player": {
+        "name": "Carrascal"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 44,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Saúl faz fila na intermediária de ataque, é puxado por Fabinho e o árbitro marca falta",
+      "player": {
+        "name": "Saúl faz fila na intermediária de ataque, é puxa"
+      },
+      "assist": null
     }
   ],
   "lineups": [
@@ -1315,11 +1347,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "65%"
+          "value": "67%"
         },
         {
           "type": "Total Passes",
-          "value": 284
+          "value": 326
         },
         {
           "type": "Pass Accuracy",
@@ -1327,7 +1359,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 25
+          "value": 29
         },
         {
           "type": "Total Shots",
@@ -1355,7 +1387,7 @@
         },
         {
           "type": "Offsides",
-          "value": 3
+          "value": 4
         },
         {
           "type": "Penalties",
@@ -1367,7 +1399,7 @@
         },
         {
           "type": "Tackles",
-          "value": 8
+          "value": 9
         },
         {
           "type": "Fouls",
@@ -1391,19 +1423,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "35%"
+          "value": "33%"
         },
         {
           "type": "Total Passes",
-          "value": 137
+          "value": 142
         },
         {
           "type": "Pass Accuracy",
-          "value": "78%"
+          "value": "77%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 30
+          "value": 33
         },
         {
           "type": "Total Shots",

@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 56
+      "elapsed": 63
     },
     "timerStart": "2026-09-20T15:10:25.469Z",
     "timerStatus": "INICIADO"
@@ -75,8 +75,8 @@
         "extra": null
       },
       "team": {
-        "id": 0,
-        "name": ""
+        "id": 275,
+        "name": "Palmeiras"
       },
       "type": "Important",
       "detail": "Os primeiros 45 minutos foram muito movimentados na Arena do Grêmio. O Palmeiras acertou duas bolas no travessão, com Vitor Roque, e o Grêmio colocou uma no travessão do outro lado, com Gustavo Martins. O time visitante teve o domínio da posse de bola e tentou criar jogadas durante todo o tempo, mas os gaúchos se mostraram bem postados para sair no contra-ataque e criaram também ótimas chances de gol. Dentro de sua proposta, cada time fez um bom primeiro tempo.",
@@ -834,6 +834,70 @@
       "assist": {
         "name": "Defesaça!"
       }
+    },
+    {
+      "time": {
+        "elapsed": 56,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O jogo segue eletrizante após um primeiro tempo de tirar o fôlego. O Palmeiras pressionou e carimbou o travessão duas vezes, com Marlon Freitas e Vitor Roque. Weverton foi o grande nome do Grêmio, acumulando defesas difíceis. O time gaúcho respondeu em contra-ataques velozes, parando em Carlos Miguel. O segundo tempo já começou e, aos 8 minutos, Weverton fez outro milagre em cabeçada de Vitor Roque.",
+      "player": {
+        "name": "Travessão e milagres marcam jogaço!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 59,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Que jogaço! Com 14 minutos do segundo tempo, o 0 a 0 não reflete a intensidade da partida. O Palmeiras pressiona e já carimbou o travessão duas vezes, com Marlon Freitas e Vitor Roque, parando em Weverton, que faz defesas espetaculares. O Grêmio, perigoso nos contra-ataques, também acertou a trave no fim da primeira etapa e exigiu ótimas intervenções de Carlos Miguel. Duelo totalmente aberto.",
+      "player": {
+        "name": "Goleiros e traves brilham na Arena"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 59,
+        "extra": null
+      },
+      "team": {
+        "id": 275,
+        "name": "Palmeiras"
+      },
+      "type": "Important",
+      "detail": "Depois de um início mais dividido, Palmeiras começa a retomar as ações do jogo e trocar passes no campo ofensivo.",
+      "player": {
+        "name": "Depois de um início mais dividido, Palmeiras com"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 61,
+        "extra": null
+      },
+      "team": {
+        "id": 275,
+        "name": "Palmeiras"
+      },
+      "type": "Important",
+      "detail": "Arias cobra escanteio e Marlon Freitas desvia na primeira trave, mas Weverton faz a defesa com tranquilidade.",
+      "player": {
+        "name": "Marlon Freitas"
+      },
+      "assist": null
     }
   ],
   "lineups": [
@@ -1291,11 +1355,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "36%"
+          "value": "35%"
         },
         {
           "type": "Total Passes",
-          "value": 187
+          "value": 200
         },
         {
           "type": "Pass Accuracy",
@@ -1303,7 +1367,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 40
+          "value": 43
         },
         {
           "type": "Total Shots",
@@ -1343,7 +1407,7 @@
         },
         {
           "type": "Tackles",
-          "value": 11
+          "value": 13
         },
         {
           "type": "Fouls",
@@ -1367,27 +1431,27 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "64%"
+          "value": "65%"
         },
         {
           "type": "Total Passes",
-          "value": 401
+          "value": 455
         },
         {
           "type": "Pass Accuracy",
-          "value": "89%"
+          "value": "88%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 46
+          "value": 54
         },
         {
           "type": "Total Shots",
-          "value": 15
+          "value": 16
         },
         {
           "type": "Shots on Goal",
-          "value": 4
+          "value": 5
         },
         {
           "type": "Shots off Goal",
@@ -1403,7 +1467,7 @@
         },
         {
           "type": "Corner Kicks",
-          "value": 3
+          "value": 4
         },
         {
           "type": "Offsides",
@@ -1419,7 +1483,7 @@
         },
         {
           "type": "Tackles",
-          "value": 10
+          "value": 12
         },
         {
           "type": "Fouls",

@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 59
+      "elapsed": 62
     },
     "timerStart": "2026-09-20T20:06:55.470Z",
     "timerStatus": "INICIADO"
@@ -1575,9 +1575,9 @@
         "name": ""
       },
       "type": "Important",
-      "detail": "O Corinthians voltou com tudo para o segundo tempo! Após o Fluminense abrir o placar com Hulk na primeira etapa, o time da casa iniciou uma blitz impressionante. Gustavo Henrique perdeu uma chance clara e Fábio fez um milagre em cabeçada de Gui Negão. Aos 10 minutos, a pressão deu resultado e Gustavo Henrique se redimiu para marcar o gol de empate, deixando o placar em 1 a 1 na Arena",
+      "detail": "O Corinthians voltou para o segundo tempo com outra postura e encurralou o Fluminense. Após parar em um milagre de Fábio em cabeçada de Gui Negão, o time da casa chegou ao empate aos 11 minutos. Depois de um escanteio, Memphis finalizou, Fábio fez outra defesa espetacular, mas Gustavo Henrique aproveitou o rebote para deixar tudo igual: 1 a 1 em Itaquera. O jogo pega fogo",
       "player": {
-        "name": "Blitz surte efeito e Corinthians empata!"
+        "name": "Pressão funciona e Corinthians empata!"
       },
       "assist": null
     },
@@ -1629,6 +1629,74 @@
       },
       "assist": {
         "name": "ESPETACULAR, FÁBIO!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 58,
+        "extra": null
+      },
+      "team": {
+        "id": 264,
+        "name": "Corinthians"
+      },
+      "type": "Important",
+      "detail": "Corinthians pressionava muito até o momento do empate e o gol estava maduro. Gol de empate foi merecido. Equipe mandante é muito melhor no segundo tempo",
+      "player": {
+        "name": "BRIGOU E CONSEGUIU!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 58,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Ganso"
+      },
+      "assist": {
+        "name": "Lucho Acosta"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 58,
+        "extra": null
+      },
+      "team": {
+        "id": 264,
+        "name": "Corinthians"
+      },
+      "type": "Important",
+      "detail": "Que virada de postura do Corinthians! O time voltou para o segundo tempo pressionando e empilhando chances. Fábio operou um milagre em cabeçada de Gui Negão, mas não evitou o pior. Aos 11 minutos, após escanteio e nova defesa espetacular do goleiro, Gustavo Henrique pegou o rebote e fuzilou para empatar o jogo em 1 a 1. A pressão surtiu efeito e incendiou a partida",
+      "player": {
+        "name": "Reação e gol: tudo igual em SP!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 58,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Júlio Fidelis"
+      },
+      "assist": {
+        "name": "Samuel Xavier"
       }
     }
   ],
@@ -2087,11 +2155,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "56%"
+          "value": "57%"
         },
         {
           "type": "Total Passes",
-          "value": 378
+          "value": 382
         },
         {
           "type": "Pass Accuracy",
@@ -2103,11 +2171,11 @@
         },
         {
           "type": "Total Shots",
-          "value": 12
+          "value": 13
         },
         {
           "type": "Shots on Goal",
-          "value": 4
+          "value": 5
         },
         {
           "type": "Shots off Goal",
@@ -2163,11 +2231,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "44%"
+          "value": "43%"
         },
         {
           "type": "Total Passes",
-          "value": 251
+          "value": 255
         },
         {
           "type": "Pass Accuracy",
@@ -2175,7 +2243,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 44
+          "value": 45
         },
         {
           "type": "Total Shots",

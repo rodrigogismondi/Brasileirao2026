@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 56
+      "elapsed": 59
     },
     "timerStart": "2026-09-20T20:09:38.062Z",
     "timerStatus": "INICIADO"
@@ -930,6 +930,74 @@
         "name": "Matheuzinho é acionado na meia-lua, tenta achar "
       },
       "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 55,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Vitória foi premiado pela pressão no primeiro tempo e abriu o placar aos 38 minutos com Renê. Mas a vantagem durou pouco. Logo no início da segunda etapa, o Cruzeiro reagiu e empatou o jogo em 1 a 1 com Arroyo, em jogada que contou com pivô de Kaio Jorge e falha do goleiro Arcanjo. Com 10 minutos, o time mineiro cresce e dita o ritmo da partida.",
+      "player": {
+        "name": "Tudo igual após reação relâmpago do Cruzeiro!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 55,
+        "extra": null
+      },
+      "team": {
+        "id": 283,
+        "name": "Cruzeiro"
+      },
+      "type": "Important",
+      "detail": "Cruzeiro, neste momento, valoriza a posse de bola e troca passes em busca da virada.",
+      "player": {
+        "name": "Cruzeiro, neste momento, valoriza a posse de bol"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 56,
+        "extra": null
+      },
+      "team": {
+        "id": 283,
+        "name": "Cruzeiro"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Matheus Henrique"
+      },
+      "assist": {
+        "name": "Zé Lucas"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 56,
+        "extra": null
+      },
+      "team": {
+        "id": 283,
+        "name": "Cruzeiro"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Villalba"
+      },
+      "assist": {
+        "name": "Gabriel Rojas"
+      }
     }
   ],
   "lineups": [
@@ -1391,7 +1459,7 @@
         },
         {
           "type": "Total Passes",
-          "value": 231
+          "value": 256
         },
         {
           "type": "Pass Accuracy",
@@ -1399,7 +1467,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 40
+          "value": 43
         },
         {
           "type": "Total Shots",
@@ -1435,7 +1503,7 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 3
+          "value": 5
         },
         {
           "type": "Tackles",
@@ -1467,11 +1535,11 @@
         },
         {
           "type": "Total Passes",
-          "value": 329
+          "value": 347
         },
         {
           "type": "Pass Accuracy",
-          "value": "87%"
+          "value": "88%"
         },
         {
           "type": "Incomplete Passes",
@@ -1479,11 +1547,11 @@
         },
         {
           "type": "Total Shots",
-          "value": 5
+          "value": 7
         },
         {
           "type": "Shots on Goal",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Shots off Goal",
@@ -1491,7 +1559,7 @@
         },
         {
           "type": "Blocked Shots",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Hit Woodwork",
@@ -1515,7 +1583,7 @@
         },
         {
           "type": "Tackles",
-          "value": 13
+          "value": 15
         },
         {
           "type": "Fouls",

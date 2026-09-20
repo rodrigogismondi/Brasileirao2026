@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 15
+      "elapsed": 18
     },
     "timerStart": "2026-09-20T19:00:08.010Z",
     "timerStatus": "INICIADO"
@@ -353,11 +353,95 @@
         "name": "Fluminense"
       },
       "type": "Important",
+      "detail": "Fluminense tenta saída em contra-ataque, mas Lucho força passe para Hulk e acaba interceptado por Gustavo Henrique",
+      "player": {
+        "name": "Fluminense tenta saída em contra-ataque, mas Luc"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 13,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O jogo começa movimentado na Neo Química Arena. O Corinthians tentou impor seu ritmo desde o início, com pressão na saída de bola, mas foi o Fluminense que criou a melhor oportunidade até agora: Canobbio arrancou e parou em grande intervenção do goleiro Hugo Souza. A resposta do time da casa veio em um erro da zaga tricolor, mas a finalização de Memphis Depay foi travada. Duelo intenso até os 13 minutos.",
+      "player": {
+        "name": "Pressão e grande chance para cada lado"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 13,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "Important",
       "detail": "Partida continua morna até aqui. Fluminense tem mais dificuldade para sair com a bola no pé, mas compensa com boa marcação",
       "player": {
         "name": "Partida continua morna até aqui. Fluminense tem "
       },
       "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 14,
+        "extra": null
+      },
+      "team": {
+        "id": 264,
+        "name": "Corinthians"
+      },
+      "type": "Important",
+      "detail": "Matheus Bidu recebe na entrada da área pela esquerda, bate rasteiro cruzado, mas bola acaba passando por todo mundo",
+      "player": {
+        "name": "Matheus Bidu"
+      },
+      "assist": {
+        "name": "PASSOU POR TODO MUNDO!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 15,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "Important",
+      "detail": "Fluminense tem mais a bola nesse momento, mas sem ímpeto ofensivo. Equipe troca passes e tenta furar bloqueio corinthiano",
+      "player": {
+        "name": "Fluminense tem mais a bola nesse momento, mas se"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 16,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "Important",
+      "detail": "Serna tabela com Lucho Acosta com velocidade e arranca em direção ao ataque. Ele corta Matheuzinho e finaliza, mas a bola desvia e facilita a defesa de Hugo Souza. Chance perigosa do tricolor",
+      "player": {
+        "name": "Serna"
+      },
+      "assist": {
+        "name": "QUASE O PRIMEIRO DO FLUMINENSE!"
+      }
     }
   ],
   "lineups": [
@@ -815,11 +899,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "78%"
+          "value": "72%"
         },
         {
           "type": "Total Passes",
-          "value": 112
+          "value": 122
         },
         {
           "type": "Pass Accuracy",
@@ -827,7 +911,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 15
+          "value": 16
         },
         {
           "type": "Total Shots",
@@ -891,19 +975,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "22%"
+          "value": "28%"
         },
         {
           "type": "Total Passes",
-          "value": 25
+          "value": 55
         },
         {
           "type": "Pass Accuracy",
-          "value": "80%"
+          "value": "87%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 5
+          "value": 7
         },
         {
           "type": "Total Shots",

@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 83
+      "elapsed": 85
     },
     "timerStart": "2026-09-20T22:37:25.624Z",
     "timerStatus": "INICIADO"
@@ -1786,6 +1786,104 @@
       "assist": {
         "name": "Pancada no joelho"
       }
+    },
+    {
+      "time": {
+        "elapsed": 81,
+        "extra": null
+      },
+      "team": {
+        "id": 280,
+        "name": "Bragantino"
+      },
+      "type": "Important",
+      "detail": "Gúzman dá bom passe para Barbosa na entrada da área. O atacante domina e sofre falta. Boa chance para o Bragantino",
+      "player": {
+        "name": "Gúzman dá bom passe para Barbosa na entrada da á"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 82,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Com o placar em 2 a 0, o Flamengo impõe seu ritmo na etapa final. Pedro ampliou de cabeça após escanteio aos 25 minutos, mas saiu irritado ao ser substituído logo em seguida. O jogo ficou mais tenso, com o Bragantino perdendo o goleiro Volpi por lesão. Aos 37, os visitantes têm uma chance em cobrança de falta perto da área, em meio a um clima quente entre os jogadores.",
+      "player": {
+        "name": "Flamengo amplia e domina o Bragantino"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 82,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Léo Pereira e Guzmán discutem bastante antes de cobrana da falta. O árbitro Rodrigo de Lima precisou intervir para acalmar",
+      "player": {
+        "name": "Confusão"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 83,
+        "extra": null
+      },
+      "team": {
+        "id": 280,
+        "name": "Bragantino"
+      },
+      "type": "Important",
+      "detail": "Sant'Anna cobrou falta em cima de Plata, que estava na barreira. Escanteio para o Bragantino",
+      "player": {
+        "name": "Sant'Anna cobrou falta em cima de Plata, que est"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 84,
+        "extra": null
+      },
+      "team": {
+        "id": 280,
+        "name": "Bragantino"
+      },
+      "type": "Important",
+      "detail": "Herrera recebe bom lançamento na quina da área, domina no alto e solta uma pancada no ângulo, mas Rossi defende!",
+      "player": {
+        "name": "Herrera"
+      },
+      "assist": {
+        "name": "Que bomba!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 84,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Sant'Anna cobra escanteio na primeira trave e Saúl corta de cabeça",
+      "player": {
+        "name": "Sant'Anna cobra escanteio na primeira trave e Sa"
+      },
+      "assist": null
     }
   ],
   "lineups": [
@@ -2291,7 +2389,7 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 5
+          "value": 6
         },
         {
           "type": "Tackles",
@@ -2299,7 +2397,7 @@
         },
         {
           "type": "Fouls",
-          "value": 6
+          "value": 7
         },
         {
           "type": "Yellow Cards",
@@ -2323,19 +2421,19 @@
         },
         {
           "type": "Total Passes",
-          "value": 246
+          "value": 262
         },
         {
           "type": "Pass Accuracy",
-          "value": "75%"
+          "value": "76%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 62
+          "value": 64
         },
         {
           "type": "Total Shots",
-          "value": 8
+          "value": 9
         },
         {
           "type": "Shots on Goal",
@@ -2343,7 +2441,7 @@
         },
         {
           "type": "Shots off Goal",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Blocked Shots",
@@ -2355,7 +2453,7 @@
         },
         {
           "type": "Corner Kicks",
-          "value": 2
+          "value": 4
         },
         {
           "type": "Offsides",

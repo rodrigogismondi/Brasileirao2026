@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 53
+      "elapsed": 56
     },
     "timerStart": "2026-09-20T20:06:55.470Z",
     "timerStatus": "INICIADO"
@@ -1413,6 +1413,38 @@
         "name": ""
       },
       "type": "Important",
+      "detail": "O Fluminense foi para o intervalo em vantagem com gol de Hulk, após bela jogada de Lucho Acosta. A equipe carioca ainda teve chances de ampliar, mas parou em Hugo Souza. No início do segundo tempo, o cenário mudou: o Corinthians voltou com uma alteração ofensiva e agora, com mais de 6 minutos de bola rolando, pressiona e encurrala a defesa tricolor em busca do empate com uma sequência de ataques.",
+      "player": {
+        "name": "Corinthians volta com tudo no 2º tempo!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 51,
+        "extra": null
+      },
+      "team": {
+        "id": 264,
+        "name": "Corinthians"
+      },
+      "type": "Important",
+      "detail": "Zaga tricolor afasta, e Corinthians tem mais um escanteio",
+      "player": {
+        "name": "MAIS UM!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 51,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
       "detail": "O jogo começou equilibrado, mas o Fluminense foi mais eficiente e saiu na frente aos 23 minutos, quando Lucho Acosta cruzou para Hulk marcar: 1 a 0. Após o gol, o time visitante cresceu e quase ampliou com Serna, que perdeu chance incrível, e em finalização de Hulk, defendida milagrosamente por Hugo Souza. O Corinthians tentou reagir, mas vai para o intervalo em desvantagem no placar.",
       "player": {
         "name": "Hulk abre o placar na Neo Química Arena"
@@ -1432,6 +1464,88 @@
       "detail": "Ramon Abatti Abel apita o fim do primeiro tempo! Corinthians 0 x 1 Fluminense.",
       "player": {
         "name": "FIM DE PAPO!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 52,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O segundo tempo começa com o Corinthians buscando o empate a todo custo! O Fluminense abriu o placar na primeira etapa com Hulk, após bela jogada de Lucho Acosta. Com uma alteração ofensiva, o time da casa voltou pressionando e empilhando escanteios. Aos 7 minutos, André fez jogada espetacular e deixou Gustavo Henrique na cara do gol, mas o zagueiro chutou fraco nas mãos de Fábio, perdendo uma chance inacreditável.",
+      "player": {
+        "name": "Flu na frente; Timão perde chance clara!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 52,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "Important",
+      "detail": "André faz linda jogada pela direita, limpa dois defensores do Flu e deixa Gustavo Henrique de cara para o gol. Zagueiro tenta empurrar a bola, mas erra na força e recua bola para Fábio fazer a defesa. Incrível!",
+      "player": {
+        "name": "Gustavo Henrique"
+      },
+      "assist": {
+        "name": "IMPRESSIONANTE!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 52,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Defesa tricolor afasta mais uma bola alçada na área",
+      "player": {
+        "name": "QUARTO SEGUIDO! INCRÍVEL!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 53,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "Important",
+      "detail": "Garro cruza para a área, defesa do Flu afasta com Millán e no rebote Matheuzinho isola finalização. Tiro de meta para Fábio",
+      "player": {
+        "name": "Garro cruza para a área, defesa do Flu afasta co"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 53,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Corinthians tem muito volume ofensivo e já chegou com perigo em pelo menos duas oportunidades nesta segunda etapa! Fluminense se defende",
+      "player": {
+        "name": "OUTRO JOGO!"
       },
       "assist": null
     }
@@ -1891,35 +2005,35 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "56%"
+          "value": "57%"
         },
         {
           "type": "Total Passes",
-          "value": 354
+          "value": 366
         },
         {
           "type": "Pass Accuracy",
-          "value": "89%"
+          "value": "87%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 40
+          "value": 46
         },
         {
           "type": "Total Shots",
-          "value": 5
+          "value": 9
         },
         {
           "type": "Shots on Goal",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Shots off Goal",
-          "value": 2
+          "value": 4
         },
         {
           "type": "Blocked Shots",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Hit Woodwork",
@@ -1927,7 +2041,7 @@
         },
         {
           "type": "Corner Kicks",
-          "value": 4
+          "value": 8
         },
         {
           "type": "Offsides",
@@ -1967,15 +2081,15 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "44%"
+          "value": "43%"
         },
         {
           "type": "Total Passes",
-          "value": 239
+          "value": 243
         },
         {
           "type": "Pass Accuracy",
-          "value": "82%"
+          "value": "83%"
         },
         {
           "type": "Incomplete Passes",
@@ -2015,7 +2129,7 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 4
+          "value": 6
         },
         {
           "type": "Tackles",

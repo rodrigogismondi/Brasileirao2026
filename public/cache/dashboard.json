@@ -13711,7 +13711,7 @@
         "status": {
           "long": "2H",
           "short": "2H",
-          "elapsed": 53
+          "elapsed": 56
         },
         "timerStart": "2026-09-20T20:06:55.470Z",
         "timerStatus": "INICIADO"
@@ -13763,7 +13763,7 @@
         "status": {
           "long": "2H",
           "short": "2H",
-          "elapsed": 50
+          "elapsed": 53
         },
         "timerStart": "2026-09-20T20:09:38.062Z",
         "timerStatus": "INICIADO"
@@ -18737,17 +18737,17 @@
                 "name": "Cruzeiro",
                 "logo": "https://s.sde.globo.com/media/organizations/2021/02/13/cruzeiro_2021.svg"
               },
-              "points": 43,
-              "goalsDiff": 0,
-              "form": "WLWLD",
+              "points": 42,
+              "goalsDiff": -1,
+              "form": "WLWLL",
               "description": "Copa Sudamericana",
               "all": {
                 "played": 28,
                 "win": 12,
-                "draw": 7,
-                "lose": 9,
+                "draw": 6,
+                "lose": 10,
                 "goals": {
-                  "for": 40,
+                  "for": 39,
                   "against": 40
                 }
               }
@@ -18865,6 +18865,28 @@
             {
               "rank": 12,
               "team": {
+                "id": 287,
+                "name": "Vitória",
+                "logo": "https://s.sde.globo.com/media/organizations/2025/12/18/Vitoria_2025.svg"
+              },
+              "points": 36,
+              "goalsDiff": -11,
+              "form": "LLWDW",
+              "description": null,
+              "all": {
+                "played": 28,
+                "win": 10,
+                "draw": 6,
+                "lose": 12,
+                "goals": {
+                  "for": 28,
+                  "against": 39
+                }
+              }
+            },
+            {
+              "rank": 13,
+              "team": {
                 "id": 263,
                 "name": "Botafogo",
                 "logo": "https://s.sde.globo.com/media/organizations/2019/02/04/botafogo-svg.svg"
@@ -18881,28 +18903,6 @@
                 "goals": {
                   "for": 41,
                   "against": 45
-                }
-              }
-            },
-            {
-              "rank": 13,
-              "team": {
-                "id": 287,
-                "name": "Vitória",
-                "logo": "https://s.sde.globo.com/media/organizations/2025/12/18/Vitoria_2025.svg"
-              },
-              "points": 34,
-              "goalsDiff": -12,
-              "form": "LLWDD",
-              "description": null,
-              "all": {
-                "played": 28,
-                "win": 9,
-                "draw": 7,
-                "lose": 12,
-                "goals": {
-                  "for": 28,
-                  "against": 40
                 }
               }
             },
@@ -20174,7 +20174,7 @@
     "mode": "live",
     "liveIntervalMs": 20000
   },
-  "fetchedAt": "2026-09-20T20:15:25.594Z",
+  "fetchedAt": "2026-09-20T20:18:15.956Z",
   "source": "ge-globo",
   "meta": {
     "rodada": 28,

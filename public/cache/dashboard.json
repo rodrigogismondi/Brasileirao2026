@@ -13561,7 +13561,7 @@
         "status": {
           "long": "2H",
           "short": "2H",
-          "elapsed": 56
+          "elapsed": 77
         },
         "timerStart": "2026-09-20T00:36:45.541Z",
         "timerStatus": "INICIADO"
@@ -13582,7 +13582,7 @@
         }
       },
       "goals": {
-        "home": 3,
+        "home": 5,
         "away": 0
       },
       "score": {
@@ -13611,12 +13611,12 @@
           "city": ""
         },
         "status": {
-          "long": "1H",
-          "short": "1H",
-          "elapsed": 48
+          "long": "HT",
+          "short": "HT",
+          "elapsed": 45
         },
-        "timerStart": "2026-09-20T00:00:01.843Z",
-        "timerStatus": "INICIADO"
+        "timerStart": "2026-09-20T00:49:30.957Z",
+        "timerStatus": "PAUSADO"
       },
       "league": {
         "round": "Regular Season - 28"
@@ -18804,7 +18804,7 @@
                 "logo": "https://s.sde.globo.com/media/organizations/2018/03/11/coritiba.svg"
               },
               "points": 38,
-              "goalsDiff": -3,
+              "goalsDiff": -6,
               "form": "WWLDL",
               "description": "Copa Sudamericana",
               "all": {
@@ -18814,7 +18814,7 @@
                 "lose": 10,
                 "goals": {
                   "for": 37,
-                  "against": 40
+                  "against": 43
                 }
               }
             },
@@ -18958,7 +18958,7 @@
                 "logo": "https://s.sde.globo.com/media/organizations/2021/09/04/vasco_SVG.svg"
               },
               "points": 31,
-              "goalsDiff": -10,
+              "goalsDiff": -7,
               "form": "LWLWW",
               "description": null,
               "all": {
@@ -18967,7 +18967,7 @@
                 "draw": 7,
                 "lose": 12,
                 "goals": {
-                  "for": 31,
+                  "for": 34,
                   "against": 41
                 }
               }
@@ -19817,6 +19817,28 @@
     {
       "player": {
         "id": 35,
+        "name": "Andrés Gómez",
+        "photo": "https://s.sde.globo.com/media/person_role/2026/08/19/photo_140x140_zVa1Rch.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "name": "Vasco",
+            "logo": "https://s.sde.globo.com/media/organizations/2021/09/04/ESCUDO-VASCO-RGB_65px.png"
+          },
+          "goals": {
+            "total": 5,
+            "assists": null
+          },
+          "games": {
+            "appearences": 0
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 36,
         "name": "Marcinho",
         "photo": "https://s.sde.globo.com/media/person_role/2023/03/07/photo_140x140_qGyi5zN.png"
       },
@@ -19838,7 +19860,7 @@
     },
     {
       "player": {
-        "id": 36,
+        "id": 37,
         "name": "Barreal",
         "photo": "https://s.sde.globo.com/media/person_role/2025/04/03/photo_140x140_wzd9jAt.png"
       },
@@ -19860,7 +19882,7 @@
     },
     {
       "player": {
-        "id": 37,
+        "id": 38,
         "name": "Carrascal",
         "photo": "https://s.sde.globo.com/media/person_role/2026/05/25/photo_140x140_cMvap9e.png"
       },
@@ -19882,7 +19904,7 @@
     },
     {
       "player": {
-        "id": 38,
+        "id": 39,
         "name": "Victor Hugo",
         "photo": "https://s.sde.globo.com/media/person_role/2026/02/02/photo_140x140_Sg1n7DD.png"
       },
@@ -19904,7 +19926,7 @@
     },
     {
       "player": {
-        "id": 39,
+        "id": 40,
         "name": "Renato Kayzer",
         "photo": "https://s.sde.globo.com/media/person_role/2025/04/11/photo_140x140_xVBPNKg.png"
       },
@@ -19926,7 +19948,7 @@
     },
     {
       "player": {
-        "id": 40,
+        "id": 41,
         "name": "Lucho Acosta",
         "photo": "https://s.sde.globo.com/media/person_role/2026/07/06/photo_140x140_DdPgkDh.png"
       },
@@ -19948,7 +19970,7 @@
     },
     {
       "player": {
-        "id": 41,
+        "id": 42,
         "name": "Jean Lucas",
         "photo": "https://s.sde.globo.com/media/person_role/2026/07/06/photo_140x140_H2IIVl3.png"
       },
@@ -19970,7 +19992,7 @@
     },
     {
       "player": {
-        "id": 42,
+        "id": 43,
         "name": "Matheus Martins",
         "photo": "https://s.sde.globo.com/media/person_role/2026/07/06/photo_140x140_FUctM0X.png"
       },
@@ -19992,7 +20014,7 @@
     },
     {
       "player": {
-        "id": 43,
+        "id": 44,
         "name": "Igor Formiga",
         "photo": "https://s.sde.globo.com/media/person_role/2026/02/09/photo_140x140_0jSFM8a.png"
       },
@@ -20014,7 +20036,7 @@
     },
     {
       "player": {
-        "id": 44,
+        "id": 45,
         "name": "Ramón Sosa",
         "photo": "https://s.sde.globo.com/media/person_role/2026/08/19/photo_140x140_ZCpsfVa.png"
       },
@@ -20036,7 +20058,7 @@
     },
     {
       "player": {
-        "id": 45,
+        "id": 46,
         "name": "Allan",
         "photo": "https://s.sde.globo.com/media/person_role/2025/04/01/photo_140x140_rAnxDU2.png"
       },
@@ -20058,7 +20080,7 @@
     },
     {
       "player": {
-        "id": 46,
+        "id": 47,
         "name": "Gustavo Gómez",
         "photo": "https://s.sde.globo.com/media/person_role/2025/04/01/photo_140x140_jyEJbYJ.png"
       },
@@ -20080,7 +20102,7 @@
     },
     {
       "player": {
-        "id": 47,
+        "id": 48,
         "name": "Edenílson",
         "photo": "https://s.sde.globo.com/media/person_role/2026/07/08/photo_140x140_Cnped9h.png"
       },
@@ -20102,7 +20124,7 @@
     },
     {
       "player": {
-        "id": 48,
+        "id": 49,
         "name": "Vitor Bueno",
         "photo": "https://s.sde.globo.com/media/person_role/2026/02/20/photo_140x140_1NOOKJt.png"
       },
@@ -20124,7 +20146,7 @@
     },
     {
       "player": {
-        "id": 49,
+        "id": 50,
         "name": "Alan Patrick",
         "photo": "https://s.sde.globo.com/media/person_role/2025/04/03/photo_140x140_sDx9vFU.png"
       },
@@ -20133,28 +20155,6 @@
           "team": {
             "name": "Internacional",
             "logo": "https://s.sde.globo.com/media/organizations/2016/05/03/inter65.png"
-          },
-          "goals": {
-            "total": 4,
-            "assists": null
-          },
-          "games": {
-            "appearences": 0
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 50,
-        "name": "Erick",
-        "photo": "https://s.sde.globo.com/media/person_role/2026/07/06/photo_140x140_fOGg2fL.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "name": "Bahia",
-            "logo": "https://s.sde.globo.com/media/organizations/2014/04/14/bahia_60x60.png"
           },
           "goals": {
             "total": 4,
@@ -20174,7 +20174,7 @@
     "mode": "live",
     "liveIntervalMs": 20000
   },
-  "fetchedAt": "2026-09-20T00:48:21.113Z",
+  "fetchedAt": "2026-09-20T01:09:06.754Z",
   "source": "ge-globo",
   "meta": {
     "rodada": 28,

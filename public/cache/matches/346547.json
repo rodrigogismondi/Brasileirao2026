@@ -7,12 +7,12 @@
       "city": ""
     },
     "status": {
-      "long": "1H",
-      "short": "1H",
-      "elapsed": 48
+      "long": "HT",
+      "short": "HT",
+      "elapsed": 45
     },
-    "timerStart": "2026-09-20T00:00:01.843Z",
-    "timerStatus": "INICIADO"
+    "timerStart": "2026-09-20T00:49:30.957Z",
+    "timerStatus": "PAUSADO"
   },
   "league": {
     "round": "Regular Season - 28"
@@ -50,6 +50,90 @@
     "source": "betexplorer"
   },
   "events": [
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 285,
+        "name": "Internacional"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Thiago Maia"
+      },
+      "assist": {
+        "name": "Bruno Henrique"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 285,
+        "name": "Internacional"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Allex"
+      },
+      "assist": {
+        "name": "Matheus Bahia"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Antes dos 15 minutos, o São Paulo já mostrava o domínio e havia aberto o placar. Calleri converteu cobrança de pênalti cometido por Maripán em Luciano e encerrou jejum de mais de dois meses. O Tricolor já se mostrava com as rédeas do jogo, enquanto o Inter tentava sair em velocidade, mas muito desordenado. Aos 17, porém, Vitinho perdeu chance clara ao aproveitar erro de Toloi, avançar e chutar cruzado para fora quase da pequena área. O Inter se organizou melhor a partir dos 20 minutos e subiu de produção, mas sem levar perigo ao gol de Rafael, que fez defesa tranquila em cabeçada de Mercado e só.",
+      "player": {
+        "name": "1º tempo"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "\"É muito importante sair com a vantagem. Queríamos ser campeões, mas não conseguimos. Eles estão no direito de protestar, mas daremos a vida para deixar o time na primeira divisão e lutar para conseguir uma vaga à Libertadores\"",
+      "player": {
+        "name": "Fala, Calleri!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "\"Precisamos preencher mais a área na hora de atacar. Estamos bem postados, mas não chegamos com muita gente na área. O Alan vem marcar e ficamos sem referência\"",
+      "player": {
+        "name": "Fala, Matheus Bahia!"
+      },
+      "assist": null
+    },
     {
       "time": {
         "elapsed": 0,
@@ -867,6 +951,118 @@
         "name": "Sem perigo!"
       },
       "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 46,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O São Paulo sai na frente neste primeiro tempo! Após um pênalti de Maripán em Luciano, Calleri cobrou com categoria aos 14 minutos para abrir o placar em 1 a 0. O Inter buscou a reação, principalmente com Vitinho, mas sem sucesso. O jogo, que se aproxima do intervalo, ficou mais pegado, com cartões amarelos para os dois lados e um princípio de confusão entre os atletas.",
+      "player": {
+        "name": "São Paulo na frente em jogo quente!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 46,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Iremos até os 49",
+      "player": {
+        "name": "Mais 4"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 47,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Luciano rola no gramado com muitas dores",
+      "player": {
+        "name": "Tá doendo!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 48,
+        "extra": null
+      },
+      "team": {
+        "id": 285,
+        "name": "Internacional"
+      },
+      "type": "Important",
+      "detail": "Técnico do Inter se irrita com o erro de Matheus Bahia e chuta a garrafa de água",
+      "player": {
+        "name": "Pezzolano explodiu!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 48,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Matheus Bahia dá um bico na bola pela lateral",
+      "player": {
+        "name": "Que passe foi esse?"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 49,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O São Paulo controlou as ações na primeira etapa e foi recompensado aos 14 minutos, quando Calleri converteu um pênalti sofrido por Luciano, abrindo o placar em 1 a 0. O jogo ficou tenso, com discussões e cartões amarelos para ambos os times. O Internacional tentou responder com Vitinho e em um cabeceio de Mercado, mas sem sucesso. Fim de um primeiro tempo de vantagem e pressão tricolor.",
+      "player": {
+        "name": "Pênalti abre o placar em primeiro tempo quente"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 49,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "São Paulo 1 x 0 Inter",
+      "player": {
+        "name": "Fim de papo!"
+      },
+      "assist": null
     }
   ],
   "lineups": [
@@ -1315,11 +1511,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "52%"
+          "value": "51%"
         },
         {
           "type": "Total Passes",
-          "value": 232
+          "value": 242
         },
         {
           "type": "Pass Accuracy",
@@ -1327,7 +1523,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 33
+          "value": 34
         },
         {
           "type": "Total Shots",
@@ -1367,7 +1563,7 @@
         },
         {
           "type": "Tackles",
-          "value": 7
+          "value": 8
         },
         {
           "type": "Fouls",
@@ -1391,19 +1587,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "48%"
+          "value": "49%"
         },
         {
           "type": "Total Passes",
-          "value": 198
+          "value": 206
         },
         {
           "type": "Pass Accuracy",
-          "value": "84%"
+          "value": "83%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 31
+          "value": 35
         },
         {
           "type": "Total Shots",
@@ -1443,7 +1639,7 @@
         },
         {
           "type": "Tackles",
-          "value": 3
+          "value": 5
         },
         {
           "type": "Fouls",

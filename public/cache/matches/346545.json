@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 76
+      "elapsed": 79
     },
     "timerStart": "2026-09-20T22:37:25.624Z",
     "timerStatus": "INICIADO"
@@ -1602,6 +1602,140 @@
         "name": "Enfileirou"
       },
       "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 73,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Flamengo segue com controle total da partida e, aos 25 do segundo tempo, ampliou a vantagem. Após escanteio de Arrascaeta, Pedro marcou, fazendo 2 a 0. O placar, aberto por Varela no primeiro tempo, reflete o domínio rubro-negro, que criou muitas chances e parou em grandes defesas do goleiro Volpi, enquanto o Bragantino teve dificuldades para sair jogando e reagir.",
+      "player": {
+        "name": "Fla marca o segundo e domina o jogo!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 73,
+        "extra": null
+      },
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "Important",
+      "detail": "Atacante do Flamengo ficou bastante incomodado ao saber da substituição e reclamou ao sair do campo. Leonardo Jardim foi até o atacante, que acabara de marcar, deu um abraço e um tapinha.",
+      "player": {
+        "name": "Pedro"
+      },
+      "assist": {
+        "name": "Pedro não gostou"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 74,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Volpi recebe atendimento médico após lance de dividida com Bruno Henrique",
+      "player": {
+        "name": "Preocupação"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 76,
+        "extra": null
+      },
+      "team": {
+        "id": 280,
+        "name": "Bragantino"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Cleiton"
+      },
+      "assist": {
+        "name": "Tiago Volpi"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 76,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O segundo tempo segue com o Flamengo no controle. Aos 25 minutos, a pressão virou mais um gol: após escanteio de Arrascaeta e desvio de Jorginho, Pedro completou para fazer 2 a 0. O atacante foi substituído logo depois e não gostou. Para piorar a situação do Bragantino, o goleiro Tiago Volpi se machucou em dividida e também precisou deixar o campo.",
+      "player": {
+        "name": "Flamengo amplia e Bragantino perde Volpi"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 76,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Goleiro deixa o campo carregado por Gustavo Marquez e membro da comissão. Não vai continuar na partida",
+      "player": {
+        "name": "Volpi será substituído"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 77,
+        "extra": null
+      },
+      "team": {
+        "id": 280,
+        "name": "Bragantino"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Ignacio Sosa"
+      },
+      "assist": {
+        "name": "Fabinho"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 78,
+        "extra": null
+      },
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "Important",
+      "detail": "Flamengo troca passes no campo de defesa",
+      "player": {
+        "name": "Flamengo troca passes no campo de defesa"
+      },
+      "assist": null
     }
   ],
   "lineups": [
@@ -2139,11 +2273,11 @@
         },
         {
           "type": "Total Passes",
-          "value": 227
+          "value": 234
         },
         {
           "type": "Pass Accuracy",
-          "value": "73%"
+          "value": "74%"
         },
         {
           "type": "Incomplete Passes",

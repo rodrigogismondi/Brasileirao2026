@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 35
+      "elapsed": 38
     },
     "timerStart": "2026-09-20T21:30:48.895Z",
     "timerStatus": "INICIADO"
@@ -639,9 +639,73 @@
         "name": ""
       },
       "type": "Important",
+      "detail": "Que primeiro tempo! O jogo começou com lesão de Ayrton Lucas e uma chance incrível perdida pelo Bragantino. Mas o Flamengo tomou as rédeas: Arrascaeta carimbou a trave e, aos 12 minutos, Varela abriu o placar em 1 a 0 após belo passe de Carrascal. A partir daí, virou um ataque contra defesa. O Fla cria muito, mas o goleiro Volpi já fez milagres para evitar um placar maior.",
+      "player": {
+        "name": "Fla na frente e bombardeio pra cima do Braga"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 30,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
       "detail": "Flamengo impõe uma intensidade muito forte no campo de ataque e empilha chances de gol, e só não ampliou por falta de precisão. Do outro lado, Mancini reclama bastante da falta de aplicação de seus jogadores no combate. A marcação do Bragantino tem se mostrado muito frágil ao pressionar a bola e, depois, ao buscar a recomposição",
       "player": {
         "name": "Panorama"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 33,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O início foi intenso! Após uma lesão que tirou Ayrton Lucas de campo, o Bragantino quase abriu o placar com Rodriguinho. Mas a resposta do Flamengo foi imediata, com bola na trave de Arrascaeta. Aos 12 minutos, a pressão virou gol: Carrascal achou Varela, que fez 1 a 0. A partir daí, o time rubro-negro domina e só não amplia por causa de uma atuação espetacular do goleiro Volpi.",
+      "player": {
+        "name": "Varela abre o placar; Flamengo domina!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 33,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Flamengo 68% x 32% Bragantino",
+      "player": {
+        "name": "Posse de bola"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 34,
+        "extra": null
+      },
+      "team": {
+        "id": 280,
+        "name": "Bragantino"
+      },
+      "type": "Important",
+      "detail": "Bragantino troca passes no meio tentando respirar",
+      "player": {
+        "name": "Bragantino troca passes no meio tentando respira"
       },
       "assist": null
     }
@@ -1101,19 +1165,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "68%"
+          "value": "65%"
         },
         {
           "type": "Total Passes",
-          "value": 225
+          "value": 247
         },
         {
           "type": "Pass Accuracy",
-          "value": "89%"
+          "value": "90%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 25
+          "value": 24
         },
         {
           "type": "Total Shots",
@@ -1141,7 +1205,7 @@
         },
         {
           "type": "Offsides",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Penalties",
@@ -1153,7 +1217,7 @@
         },
         {
           "type": "Tackles",
-          "value": 3
+          "value": 7
         },
         {
           "type": "Fouls",
@@ -1177,19 +1241,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "32%"
+          "value": "35%"
         },
         {
           "type": "Total Passes",
-          "value": 94
+          "value": 119
         },
         {
           "type": "Pass Accuracy",
-          "value": "76%"
+          "value": "77%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 23
+          "value": 27
         },
         {
           "type": "Total Shots",
@@ -1229,7 +1293,7 @@
         },
         {
           "type": "Tackles",
-          "value": 4
+          "value": 5
         },
         {
           "type": "Fouls",

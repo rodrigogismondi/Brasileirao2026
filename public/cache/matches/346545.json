@@ -9,10 +9,10 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": null
+      "elapsed": 2
     },
-    "timerStart": "2026-09-20T20:33:38.514Z",
-    "timerStatus": "PAUSADO"
+    "timerStart": "2026-09-20T21:30:48.895Z",
+    "timerStatus": "INICIADO"
   },
   "league": {
     "round": "Regular Season - 28"
@@ -30,8 +30,8 @@
     }
   },
   "goals": {
-    "home": null,
-    "away": null
+    "home": 0,
+    "away": 0
   },
   "score": {
     "halftime": {
@@ -50,7 +50,24 @@
     "source": "betexplorer"
   },
   "_geUrl": "https://ge.globo.com/rj/futebol/brasileirao-serie-a/jogo/20-09-2026/flamengo-bragantino.ghtml",
-  "events": [],
+  "events": [
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Bola rolando",
+      "player": {
+        "name": "Começa o jogo"
+      },
+      "assist": null
+    }
+  ],
   "lineups": [
     {
       "team": {

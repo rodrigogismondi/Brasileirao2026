@@ -13761,12 +13761,12 @@
           "city": ""
         },
         "status": {
-          "long": "2H",
-          "short": "2H",
-          "elapsed": 98
+          "long": "FT",
+          "short": "FT",
+          "elapsed": 90
         },
         "timerStart": "2026-09-20T20:09:38.062Z",
-        "timerStatus": "INICIADO"
+        "timerStatus": "PAUSADO"
       },
       "league": {
         "round": "Regular Season - 28"
@@ -13793,8 +13793,8 @@
           "away": null
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 3
         }
       },
       "odds": {
@@ -18740,7 +18740,7 @@
                 "logo": "https://s.sde.globo.com/media/organizations/2021/02/13/cruzeiro_2021.svg"
               },
               "points": 45,
-              "goalsDiff": 1,
+              "goalsDiff": 2,
               "form": "WLWLW",
               "description": "Copa Sudamericana",
               "all": {
@@ -18749,7 +18749,7 @@
                 "draw": 6,
                 "lose": 9,
                 "goals": {
-                  "for": 41,
+                  "for": 42,
                   "against": 40
                 }
               }
@@ -18894,7 +18894,7 @@
                 "logo": "https://s.sde.globo.com/media/organizations/2025/12/18/Vitoria_2025.svg"
               },
               "points": 33,
-              "goalsDiff": -13,
+              "goalsDiff": -14,
               "form": "LLWDL",
               "description": null,
               "all": {
@@ -18904,7 +18904,7 @@
                 "lose": 13,
                 "goals": {
                   "for": 28,
-                  "against": 41
+                  "against": 42
                 }
               }
             },
@@ -19203,6 +19203,28 @@
     {
       "player": {
         "id": 7,
+        "name": "Matheus Pereira",
+        "photo": "https://s.sde.globo.com/media/person_role/2025/04/01/photo_140x140_paqfi1w.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "name": "Cruzeiro",
+            "logo": "https://s.sde.globo.com/media/organizations/2021/02/13/65_cruzeiro-2021.png"
+          },
+          "goals": {
+            "total": 9,
+            "assists": null
+          },
+          "games": {
+            "appearences": 0
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 8,
         "name": "Luciano Juba",
         "photo": "https://s.sde.globo.com/media/person_role/2026/07/06/photo_140x140_JKUCf8p.png"
       },
@@ -19224,7 +19246,7 @@
     },
     {
       "player": {
-        "id": 8,
+        "id": 9,
         "name": "Samuel Lino",
         "photo": "https://s.sde.globo.com/media/person_role/2025/07/30/photo_140x140.png"
       },
@@ -19246,7 +19268,7 @@
     },
     {
       "player": {
-        "id": 9,
+        "id": 10,
         "name": "Renê",
         "photo": "https://s.sde.globo.com/media/person_role/2026/03/31/photo_140x140_3LaEnb6.png"
       },
@@ -19268,7 +19290,7 @@
     },
     {
       "player": {
-        "id": 10,
+        "id": 11,
         "name": "Flaco López",
         "photo": "https://s.sde.globo.com/media/person_role/2026/08/19/photo_140x140_nrOfcKo.png"
       },
@@ -19290,7 +19312,7 @@
     },
     {
       "player": {
-        "id": 11,
+        "id": 12,
         "name": "Luciano",
         "photo": "https://s.sde.globo.com/media/person_role/2026/03/27/photo_140x140_Gvi1KDn.png"
       },
@@ -19312,7 +19334,7 @@
     },
     {
       "player": {
-        "id": 12,
+        "id": 13,
         "name": "Calleri",
         "photo": "https://s.sde.globo.com/media/person_role/2026/02/20/photo_140x140_2u6NnKV.png"
       },
@@ -19334,7 +19356,7 @@
     },
     {
       "player": {
-        "id": 13,
+        "id": 14,
         "name": "Breno Lopes",
         "photo": "https://s.sde.globo.com/media/person_role/2026/02/09/photo_140x140_q6kEOrG.png"
       },
@@ -19343,28 +19365,6 @@
           "team": {
             "name": "Coritiba",
             "logo": "https://s.sde.globo.com/media/organizations/2017/03/29/coritiba65.png"
-          },
-          "goals": {
-            "total": 8,
-            "assists": null
-          },
-          "games": {
-            "appearences": 0
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 14,
-        "name": "Matheus Pereira",
-        "photo": "https://s.sde.globo.com/media/person_role/2025/04/01/photo_140x140_paqfi1w.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "name": "Cruzeiro",
-            "logo": "https://s.sde.globo.com/media/organizations/2021/02/13/65_cruzeiro-2021.png"
           },
           "goals": {
             "total": 8,
@@ -20173,10 +20173,10 @@
   "budget": {
     "used": 0,
     "remaining": 100,
-    "mode": "live",
-    "liveIntervalMs": 20000
+    "mode": "prematch",
+    "liveIntervalMs": 120000
   },
-  "fetchedAt": "2026-09-20T21:03:31.918Z",
+  "fetchedAt": "2026-09-20T21:06:31.170Z",
   "source": "ge-globo",
   "meta": {
     "rodada": 28,

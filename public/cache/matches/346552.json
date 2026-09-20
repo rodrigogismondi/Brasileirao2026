@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 47
+      "elapsed": 50
     },
     "timerStart": "2026-09-20T22:30:40.838Z",
     "timerStatus": "INICIADO"
@@ -600,6 +600,70 @@
         "name": "Bahia passa a controlar mais o jogo e tenta acha"
       },
       "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 44,
+        "extra": null
+      },
+      "team": {
+        "id": 293,
+        "name": "Athletico-PR"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Arthur Dias"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 45,
+        "extra": null
+      },
+      "team": {
+        "id": 265,
+        "name": "Bahia"
+      },
+      "type": "Important",
+      "detail": "O primeiro tempo foi eletrizante na Arena da Baixada. O Athletico começou melhor e abriu o placar aos 15 minutos, com Esquivel, após bela jogada de Mendoza e Vargas. O Bahia não se abateu e buscou o empate aos 25, quando Erick Pulga aproveitou um rebote do goleiro Mycael para deixar tudo igual. Com o 1 a 1 no placar, a partida seguiu intensa e com cartões para ambos os lados.",
+      "player": {
+        "name": "Gols para os dois lados e tudo igual na Baixada"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 45,
+        "extra": null
+      },
+      "team": {
+        "id": 265,
+        "name": "Bahia"
+      },
+      "type": "Important",
+      "detail": "Nestor levanta bola direto para o gol e manda por cima da meta de Mycael.",
+      "player": {
+        "name": "Rodrigo Nestor"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 46,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Primeiro tempo vai até os 51 minutos.",
+      "player": {
+        "name": "+ 6"
+      },
+      "assist": null
     }
   ],
   "lineups": [
@@ -1057,11 +1121,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "49%"
+          "value": "47%"
         },
         {
           "type": "Total Passes",
-          "value": 250
+          "value": 261
         },
         {
           "type": "Pass Accuracy",
@@ -1069,7 +1133,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 34
+          "value": 36
         },
         {
           "type": "Total Shots",
@@ -1113,11 +1177,11 @@
         },
         {
           "type": "Fouls",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Yellow Cards",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Red Cards",
@@ -1133,11 +1197,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "51%"
+          "value": "53%"
         },
         {
           "type": "Total Passes",
-          "value": 222
+          "value": 245
         },
         {
           "type": "Pass Accuracy",
@@ -1145,7 +1209,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 22
+          "value": 25
         },
         {
           "type": "Total Shots",
@@ -1185,11 +1249,11 @@
         },
         {
           "type": "Tackles",
-          "value": 11
+          "value": 12
         },
         {
           "type": "Fouls",
-          "value": 4
+          "value": 5
         },
         {
           "type": "Yellow Cards",

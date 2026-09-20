@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 85
+      "elapsed": 88
     },
     "timerStart": "2026-09-20T22:37:25.624Z",
     "timerStatus": "INICIADO"
@@ -31,7 +31,7 @@
   },
   "goals": {
     "home": 2,
-    "away": 0
+    "away": 1
   },
   "score": {
     "halftime": {
@@ -1857,6 +1857,22 @@
         "extra": null
       },
       "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Flamengo aumentou o placar para 2 a 0 na segunda etapa! Aos 25 minutos, Pedro aproveitou um desvio em cobrança de escanteio e marcou. O jogo seguiu quente, com a lesão do goleiro Volpi, que precisou ser substituído. Já perto dos 40 minutos, o Bragantino quase diminuiu com uma bomba de Herrera, mas Rossi apareceu com uma defesa espetacular para manter a vantagem rubro-negra.",
+      "player": {
+        "name": "Fla na frente em jogo movimentado"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 84,
+        "extra": null
+      },
+      "team": {
         "id": 280,
         "name": "Bragantino"
       },
@@ -1882,6 +1898,54 @@
       "detail": "Sant'Anna cobra escanteio na primeira trave e Saúl corta de cabeça",
       "player": {
         "name": "Sant'Anna cobra escanteio na primeira trave e Sa"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 85,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Flamengo dominou a partida e parecia ter o jogo nas mãos. Varela abriu o placar no primeiro tempo e Pedro ampliou de cabeça aos 25 do segundo. O Bragantino, que viu o goleiro Volpi sair lesionado, não se entregou. Aos 41 minutos, Ignacio Sosa fez a jogada pela linha de fundo e, em cruzamento que desviou em Bruno Henrique, diminuiu para 2 a 1, colocando fogo nos minutos finais do jogo",
+      "player": {
+        "name": "Fla faz 2 a 0, mas Braga reage no fim!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 85,
+        "extra": null
+      },
+      "team": {
+        "id": 280,
+        "name": "Bragantino"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "player": {
+        "name": "?"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 85,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Mosquera carrega pela intermediária e chuta forte de longe, mas Rossi corta",
+      "player": {
+        "name": "Daí?"
       },
       "assist": null
     }
@@ -2341,11 +2405,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "66%"
+          "value": "65%"
         },
         {
           "type": "Total Passes",
-          "value": 590
+          "value": 591
         },
         {
           "type": "Pass Accuracy",
@@ -2353,7 +2417,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 63
+          "value": 64
         },
         {
           "type": "Total Shots",
@@ -2381,7 +2445,7 @@
         },
         {
           "type": "Offsides",
-          "value": 4
+          "value": 5
         },
         {
           "type": "Penalties",
@@ -2389,7 +2453,7 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 6
+          "value": 7
         },
         {
           "type": "Tackles",
@@ -2417,27 +2481,27 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "34%"
+          "value": "35%"
         },
         {
           "type": "Total Passes",
-          "value": 262
+          "value": 276
         },
         {
           "type": "Pass Accuracy",
-          "value": "76%"
+          "value": "75%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 64
+          "value": 68
         },
         {
           "type": "Total Shots",
-          "value": 9
+          "value": 11
         },
         {
           "type": "Shots on Goal",
-          "value": 2
+          "value": 4
         },
         {
           "type": "Shots off Goal",
@@ -2453,7 +2517,7 @@
         },
         {
           "type": "Corner Kicks",
-          "value": 4
+          "value": 5
         },
         {
           "type": "Offsides",

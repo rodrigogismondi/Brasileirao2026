@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 86
+      "elapsed": 89
     },
     "timerStart": "2026-09-20T20:09:38.062Z",
     "timerStatus": "INICIADO"
@@ -1424,6 +1424,40 @@
       "assist": {
         "name": "por cima"
       }
+    },
+    {
+      "time": {
+        "elapsed": 84,
+        "extra": null
+      },
+      "team": {
+        "id": 287,
+        "name": "Vitória"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Alex Bruno"
+      },
+      "assist": {
+        "name": "Renê"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 86,
+        "extra": null
+      },
+      "team": {
+        "id": 283,
+        "name": "Cruzeiro"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Felipe Morais"
+      },
+      "assist": null
     }
   ],
   "lineups": [
@@ -1881,11 +1915,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "42%"
+          "value": "41%"
         },
         {
           "type": "Total Passes",
-          "value": 359
+          "value": 365
         },
         {
           "type": "Pass Accuracy",
@@ -1893,11 +1927,11 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 65
+          "value": 67
         },
         {
           "type": "Total Shots",
-          "value": 18
+          "value": 17
         },
         {
           "type": "Shots on Goal",
@@ -1909,7 +1943,7 @@
         },
         {
           "type": "Blocked Shots",
-          "value": 5
+          "value": 4
         },
         {
           "type": "Hit Woodwork",
@@ -1933,11 +1967,11 @@
         },
         {
           "type": "Tackles",
-          "value": 12
+          "value": 13
         },
         {
           "type": "Fouls",
-          "value": 8
+          "value": 9
         },
         {
           "type": "Yellow Cards",
@@ -1957,11 +1991,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "58%"
+          "value": "59%"
         },
         {
           "type": "Total Passes",
-          "value": 479
+          "value": 524
         },
         {
           "type": "Pass Accuracy",
@@ -1969,7 +2003,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 64
+          "value": 70
         },
         {
           "type": "Total Shots",
@@ -2013,11 +2047,11 @@
         },
         {
           "type": "Fouls",
-          "value": 16
+          "value": 17
         },
         {
           "type": "Yellow Cards",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Red Cards",

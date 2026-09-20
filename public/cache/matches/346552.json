@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 53
+      "elapsed": 56
     },
     "timerStart": "2026-09-20T22:30:40.838Z",
     "timerStatus": "INICIADO"
@@ -51,6 +51,38 @@
   },
   "_geUrl": "https://ge.globo.com/pr/futebol/brasileirao-serie-a/jogo/20-09-2026/atletico-pr-bahia.ghtml",
   "events": [
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Athletico aproveitou a superioridade inicial na Arena da Baixada e abriu o placar com Esquivel, logo aos 15 minutos, depois de boa trama pelo lado direito. O Bahia, contudo, não deixou de jogar e chegou ao empate dez minutos depois, quando Erick Pulga aproveitou falha do goleiro Mycael dentro da área. Com o empate, o Tricolor passou a controlar mais o jogo e viu o Furacão criar chances pontuais na reta final.",
+      "player": {
+        "name": "Como foi o primeiro tempo?"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 265,
+        "name": "Bahia"
+      },
+      "type": "Important",
+      "detail": "Por enquanto, Athletico e Bahia vão empatando por 1 a 1.",
+      "player": {
+        "name": "Intervalo"
+      },
+      "assist": null
+    },
     {
       "time": {
         "elapsed": 0,
@@ -680,6 +712,38 @@
         "name": "Em mais um lançamento perigoso de Juba, Ademir g"
       },
       "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 50,
+        "extra": null
+      },
+      "team": {
+        "id": 265,
+        "name": "Bahia"
+      },
+      "type": "Important",
+      "detail": "Que primeiro tempo na Arena da Baixada! Tudo igual, 1 a 1, em uma etapa muito movimentada. O Athletico abriu o placar aos 15 minutos com um belo gol de Esquivel, concluindo ótima jogada coletiva. O Bahia reagiu rápido e, aos 25, Erick Pulga aproveitou falha do goleiro Mycael para empatar. A partida seguiu aberta, com chances para os dois lados e ânimos exaltados até o intervalo.",
+      "player": {
+        "name": "Tudo igual em um primeiro tempo agitado"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 50,
+        "extra": null
+      },
+      "team": {
+        "id": 293,
+        "name": "Athletico-PR"
+      },
+      "type": "Important",
+      "detail": "Leozinho encara marcação de Luciano Juba, puxa para o meio e finaliza com perigo para defesa firme de Ronaldo no canto esquerdo.",
+      "player": {
+        "name": "Leozinho"
+      },
+      "assist": null
     }
   ],
   "lineups": [
@@ -1137,11 +1201,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "45%"
+          "value": "46%"
         },
         {
           "type": "Total Passes",
-          "value": 280
+          "value": 286
         },
         {
           "type": "Pass Accuracy",
@@ -1149,7 +1213,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 38
+          "value": 39
         },
         {
           "type": "Total Shots",
@@ -1213,7 +1277,7 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "55%"
+          "value": "54%"
         },
         {
           "type": "Total Passes",

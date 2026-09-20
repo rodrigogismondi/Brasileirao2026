@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 41
+      "elapsed": 44
     },
     "timerStart": "2026-09-20T22:30:40.838Z",
     "timerStatus": "INICIADO"
@@ -568,6 +568,38 @@
         "name": "Aguirre"
       },
       "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 42,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Athletico-PR saiu na frente aos 15 minutos em bela jogada coletiva, concluída por Esquivel para fazer 1 a 0. A resposta do Bahia veio rápida: aos 25, Erick Pulga foi oportunista, aproveitou uma falha do goleiro Mycael e deixou tudo igual. Com o placar em 1 a 1, a partida segue movimentada, com chances para ambos os lados e um cartão amarelo distribuído para cada time.",
+      "player": {
+        "name": "Jogo aberto e tudo igual na Arena da Baixada"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 42,
+        "extra": null
+      },
+      "team": {
+        "id": 265,
+        "name": "Bahia"
+      },
+      "type": "Important",
+      "detail": "Bahia passa a controlar mais o jogo e tenta achar alternativas para furar o bloqueio do Athletico. Desta vez, Ademir não consegue dominar passe de Alejo Veliz.",
+      "player": {
+        "name": "Bahia passa a controlar mais o jogo e tenta acha"
+      },
+      "assist": null
     }
   ],
   "lineups": [
@@ -1025,19 +1057,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "50%"
+          "value": "49%"
         },
         {
           "type": "Total Passes",
-          "value": 232
+          "value": 250
         },
         {
           "type": "Pass Accuracy",
-          "value": "87%"
+          "value": "86%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 30
+          "value": 34
         },
         {
           "type": "Total Shots",
@@ -1077,7 +1109,7 @@
         },
         {
           "type": "Tackles",
-          "value": 5
+          "value": 7
         },
         {
           "type": "Fouls",
@@ -1101,11 +1133,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "50%"
+          "value": "51%"
         },
         {
           "type": "Total Passes",
-          "value": 175
+          "value": 222
         },
         {
           "type": "Pass Accuracy",
@@ -1113,7 +1145,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 17
+          "value": 22
         },
         {
           "type": "Total Shots",
@@ -1153,7 +1185,7 @@
         },
         {
           "type": "Tackles",
-          "value": 10
+          "value": 11
         },
         {
           "type": "Fouls",

@@ -13711,7 +13711,7 @@
         "status": {
           "long": "2H",
           "short": "2H",
-          "elapsed": 68
+          "elapsed": 71
         },
         "timerStart": "2026-09-20T20:06:55.470Z",
         "timerStatus": "INICIADO"
@@ -13763,7 +13763,7 @@
         "status": {
           "long": "2H",
           "short": "2H",
-          "elapsed": 65
+          "elapsed": 68
         },
         "timerStart": "2026-09-20T20:09:38.062Z",
         "timerStatus": "INICIADO"
@@ -13785,7 +13785,7 @@
       },
       "goals": {
         "home": 1,
-        "away": 1
+        "away": 2
       },
       "score": {
         "halftime": {
@@ -18737,17 +18737,17 @@
                 "name": "Cruzeiro",
                 "logo": "https://s.sde.globo.com/media/organizations/2021/02/13/cruzeiro_2021.svg"
               },
-              "points": 43,
-              "goalsDiff": 0,
-              "form": "WLWLD",
+              "points": 45,
+              "goalsDiff": 1,
+              "form": "WLWLW",
               "description": "Copa Sudamericana",
               "all": {
                 "played": 28,
-                "win": 12,
-                "draw": 7,
+                "win": 13,
+                "draw": 6,
                 "lose": 9,
                 "goals": {
-                  "for": 40,
+                  "for": 41,
                   "against": 40
                 }
               }
@@ -18891,18 +18891,18 @@
                 "name": "Vitória",
                 "logo": "https://s.sde.globo.com/media/organizations/2025/12/18/Vitoria_2025.svg"
               },
-              "points": 34,
-              "goalsDiff": -12,
-              "form": "LLWDD",
+              "points": 33,
+              "goalsDiff": -13,
+              "form": "LLWDL",
               "description": null,
               "all": {
                 "played": 28,
                 "win": 9,
-                "draw": 7,
-                "lose": 12,
+                "draw": 6,
+                "lose": 13,
                 "goals": {
                   "for": 28,
-                  "against": 40
+                  "against": 41
                 }
               }
             },
@@ -20174,7 +20174,7 @@
     "mode": "live",
     "liveIntervalMs": 20000
   },
-  "fetchedAt": "2026-09-20T20:30:21.778Z",
+  "fetchedAt": "2026-09-20T20:33:24.356Z",
   "source": "ge-globo",
   "meta": {
     "rodada": 28,

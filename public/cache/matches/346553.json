@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 65
+      "elapsed": 68
     },
     "timerStart": "2026-09-20T20:09:38.062Z",
     "timerStatus": "INICIADO"
@@ -31,7 +31,7 @@
   },
   "goals": {
     "home": 1,
-    "away": 1
+    "away": 2
   },
   "score": {
     "halftime": {
@@ -1046,6 +1046,70 @@
         "name": "Tarzia cobra falta na ponta direita em direção à"
       },
       "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 64,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Vitória abriu o placar no fim do primeiro tempo com Renê, coroando um bom momento. No entanto, a vantagem durou pouco. Logo no primeiro minuto da etapa final, Arroyo aproveitou passe de Kaio Jorge e deixou tudo igual para o Cruzeiro: 1 a 1. Com quase 20 minutos do segundo tempo, a Raposa cresceu no jogo, controla a posse de bola e agora pressiona em busca da virada no Barradão.",
+      "player": {
+        "name": "Reação rápida e tudo igual no Barradão!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 64,
+        "extra": null
+      },
+      "team": {
+        "id": 283,
+        "name": "Cruzeiro"
+      },
+      "type": "Important",
+      "detail": "Cruzeiro ronda a área do Vitória, tenta achar espaços e para em rebatidas da defesa rubro-negra. Time de Jair Ventura tem dificuldades para sair para o jogo.",
+      "player": {
+        "name": "Cruzeiro ronda a área do Vitória, tenta achar es"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 65,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Depois de o Vitória sair na frente com gol de Renê no primeiro tempo, o Cruzeiro voltou para a etapa final com outra postura. Arroyo empatou logo no início, aproveitando assistência de Kaio Jorge. A Raposa seguiu melhor e, aos 20 minutos, o zagueiro Villalba, que havia entrado há pouco, aproveitou a chance para virar o placar e colocar o time mineiro na frente por 2 a 1.",
+      "player": {
+        "name": "Virada do Cruzeiro no Barradão!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 65,
+        "extra": null
+      },
+      "team": {
+        "id": 283,
+        "name": "Cruzeiro"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "player": {
+        "name": "Villalba"
+      },
+      "assist": null
     }
   ],
   "lineups": [
@@ -1507,7 +1571,7 @@
         },
         {
           "type": "Total Passes",
-          "value": 272
+          "value": 275
         },
         {
           "type": "Pass Accuracy",
@@ -1515,7 +1579,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 47
+          "value": 48
         },
         {
           "type": "Total Shots",
@@ -1551,15 +1615,15 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 5
+          "value": 6
         },
         {
           "type": "Tackles",
-          "value": 9
+          "value": 10
         },
         {
           "type": "Fouls",
-          "value": 6
+          "value": 7
         },
         {
           "type": "Yellow Cards",
@@ -1583,7 +1647,7 @@
         },
         {
           "type": "Total Passes",
-          "value": 421
+          "value": 427
         },
         {
           "type": "Pass Accuracy",
@@ -1595,11 +1659,11 @@
         },
         {
           "type": "Total Shots",
-          "value": 7
+          "value": 10
         },
         {
           "type": "Shots on Goal",
-          "value": 3
+          "value": 4
         },
         {
           "type": "Shots off Goal",
@@ -1607,7 +1671,7 @@
         },
         {
           "type": "Blocked Shots",
-          "value": 3
+          "value": 5
         },
         {
           "type": "Hit Woodwork",

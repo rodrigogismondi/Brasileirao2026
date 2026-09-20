@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 20
+      "elapsed": 23
     },
     "timerStart": "2026-09-20T21:30:48.895Z",
     "timerStatus": "INICIADO"
@@ -408,6 +408,56 @@
         "name": "Jorginho"
       },
       "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 18,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "A partida começou com tudo! O Bragantino desperdiçou uma chance clara com Rodriguinho, mas o Flamengo logo sofreu a perda de Ayrton Lucas por lesão. A resposta rubro-negra foi imediata, com Arrascaeta acertando a trave. Aos 12 minutos, a pressão surtiu efeito: Carrascal achou Varela, que invadiu a área como surpresa e fez 1 a 0. O Fla segue dominando após os 18 minutos de jogo.",
+      "player": {
+        "name": "Fla na frente após início intenso!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 18,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Comportamento do Bragantino com a bola neste momento é bastante carente. A equipe de Mancini sofre com a marcação alta do Flamengo, não consegue segurar a posse e trabalhar a bola.",
+      "player": {
+        "name": "Panorama"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 19,
+        "extra": null
+      },
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "Important",
+      "detail": "Arrascaeta recebe no canto esquerdo da grande área e busca Pedro no miolo. Atento, Volpi se atencipa e corta o cruzamento. A bola fica viva na área, Plata tenta chegar, mas Guzmán leva a melhor em dividida",
+      "player": {
+        "name": "Arrascaeta"
+      },
+      "assist": {
+        "name": "Uuuuh!"
+      }
     }
   ],
   "lineups": [
@@ -865,11 +915,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "67%"
+          "value": "65%"
         },
         {
           "type": "Total Passes",
-          "value": 105
+          "value": 126
         },
         {
           "type": "Pass Accuracy",
@@ -877,11 +927,11 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 14
+          "value": 16
         },
         {
           "type": "Total Shots",
-          "value": 3
+          "value": 4
         },
         {
           "type": "Shots on Goal",
@@ -893,7 +943,7 @@
         },
         {
           "type": "Blocked Shots",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Hit Woodwork",
@@ -941,19 +991,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "33%"
+          "value": "35%"
         },
         {
           "type": "Total Passes",
-          "value": 35
+          "value": 62
         },
         {
           "type": "Pass Accuracy",
-          "value": "63%"
+          "value": "74%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 13
+          "value": 16
         },
         {
           "type": "Total Shots",
@@ -989,11 +1039,11 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Tackles",
-          "value": 3
+          "value": 4
         },
         {
           "type": "Fouls",

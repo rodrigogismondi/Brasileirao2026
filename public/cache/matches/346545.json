@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 11
+      "elapsed": 14
     },
     "timerStart": "2026-09-20T21:30:48.895Z",
     "timerStatus": "INICIADO"
@@ -30,7 +30,7 @@
     }
   },
   "goals": {
-    "home": 0,
+    "home": 1,
     "away": 0
   },
   "score": {
@@ -64,6 +64,22 @@
       "detail": "Bola rolando",
       "player": {
         "name": "Começa o jogo"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "player": {
+        "name": "Varela"
       },
       "assist": null
     },
@@ -244,6 +260,72 @@
       "detail": "Rodriguinho faz falta sobre Varela no lado direito do ataque",
       "player": {
         "name": "Rodriguinho faz falta sobre Varela no lado direi"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 9,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Que começo de jogo! Com menos de 10 minutos, a partida já teve de tudo. O Bragantino desperdiçou uma chance incrível com Rodriguinho logo aos 2 minutos. Pouco depois, o Flamengo perdeu Ayrton Lucas, que saiu lesionado. A resposta rubro-negra veio forte: Alex Sandro foi ao fundo e cruzou para Arrascaeta acertar a trave. No rebote, Tiago Volpi fez grande defesa em chute de Plata.",
+      "player": {
+        "name": "Lesão, trave e chances perdidas no início!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 9,
+        "extra": null
+      },
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "Important",
+      "detail": "Alex Sandro dribla marcado no lado da grande área, vai ao fundo e passa rasteiro para Arrascaeta, que batee colocado na trave! A sobra fica com Plata. O atacante bate forte, mas Volpi defende. O gol ficou perto",
+      "player": {
+        "name": "Arrascaeta"
+      },
+      "assist": {
+        "name": "Na trave!!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 12,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Bragantino assustou logo aos 2 minutos, perdendo chance clara com Rodriguinho em contra-ataque. A partida seguiu tensa com a lesão de Ayrton Lucas, que deixou o campo chorando. A resposta do Flamengo foi imediata e quase letal: aos 9, Arrascaeta carimbou a trave e, no rebote da finalização de Plata, Volpi salvou. O duelo começou movimentado, com uma chance de ouro para cada lado.",
+      "player": {
+        "name": "Lesão, trave e chances claras no começo"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 12,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Flamengo aumenta a intensidade no campo de ataque e causa mais problemas ao Bragantino, que tem postura bastante conservadora",
+      "player": {
+        "name": "Flamengo aumenta a intensidade no campo de ataqu"
       },
       "assist": null
     }
@@ -703,27 +785,27 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "70%"
+          "value": "69%"
         },
         {
           "type": "Total Passes",
-          "value": 57
+          "value": 85
         },
         {
           "type": "Pass Accuracy",
-          "value": "88%"
+          "value": "87%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 7
+          "value": 11
         },
         {
           "type": "Total Shots",
-          "value": 0
+          "value": 3
         },
         {
           "type": "Shots on Goal",
-          "value": 0
+          "value": 2
         },
         {
           "type": "Shots off Goal",
@@ -735,11 +817,11 @@
         },
         {
           "type": "Hit Woodwork",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Corner Kicks",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Offsides",
@@ -755,7 +837,7 @@
         },
         {
           "type": "Tackles",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Fouls",
@@ -779,15 +861,15 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "30%"
+          "value": "31%"
         },
         {
           "type": "Total Passes",
-          "value": 21
+          "value": 22
         },
         {
           "type": "Pass Accuracy",
-          "value": "57%"
+          "value": "59%"
         },
         {
           "type": "Incomplete Passes",
@@ -831,7 +913,7 @@
         },
         {
           "type": "Tackles",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Fouls",

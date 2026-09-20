@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 56
+      "elapsed": 59
     },
     "timerStart": "2026-09-20T20:06:55.470Z",
     "timerStatus": "INICIADO"
@@ -30,7 +30,7 @@
     }
   },
   "goals": {
-    "home": 0,
+    "home": 1,
     "away": 1
   },
   "score": {
@@ -1548,6 +1548,88 @@
         "name": "OUTRO JOGO!"
       },
       "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 54,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Fluminense tenta resprirar após pressão intensa do Corinthians",
+      "player": {
+        "name": "Fluminense tenta resprirar após pressão intensa "
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 55,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Corinthians voltou com tudo para o segundo tempo! Após o Fluminense abrir o placar com Hulk na primeira etapa, o time da casa iniciou uma blitz impressionante. Gustavo Henrique perdeu uma chance clara e Fábio fez um milagre em cabeçada de Gui Negão. Aos 10 minutos, a pressão deu resultado e Gustavo Henrique se redimiu para marcar o gol de empate, deixando o placar em 1 a 1 na Arena",
+      "player": {
+        "name": "Blitz surte efeito e Corinthians empata!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 55,
+        "extra": null
+      },
+      "team": {
+        "id": 264,
+        "name": "Corinthians"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "player": {
+        "name": "Gustavo Henrique"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 55,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O segundo tempo é outro jogo! O Corinthians voltou do intervalo com uma postura totalmente ofensiva e pressiona o Fluminense sem parar. Aos 10 minutos, o time da casa já acumulava chances, incluindo uma oportunidade inacreditável desperdiçada por Gustavo Henrique e uma cabeçada de Gui Negão que parou em uma defesa espetacular de Fábio. O Flu se segura como pode para manter o 1 a 0 no placar.",
+      "player": {
+        "name": "Fábio segura o Flu e Corinthians pressiona!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 55,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "Important",
+      "detail": "Garro cruza na área, Bidu ajeita para Gui Negão que cabeceia para Fábio fazer um MILAGRE em Itaquera!",
+      "player": {
+        "name": "Fábio"
+      },
+      "assist": {
+        "name": "ESPETACULAR, FÁBIO!"
+      }
     }
   ],
   "lineups": [
@@ -2005,11 +2087,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "57%"
+          "value": "56%"
         },
         {
           "type": "Total Passes",
-          "value": 366
+          "value": 378
         },
         {
           "type": "Pass Accuracy",
@@ -2017,19 +2099,19 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 46
+          "value": 49
         },
         {
           "type": "Total Shots",
-          "value": 9
+          "value": 12
         },
         {
           "type": "Shots on Goal",
-          "value": 2
+          "value": 4
         },
         {
           "type": "Shots off Goal",
-          "value": 4
+          "value": 5
         },
         {
           "type": "Blocked Shots",
@@ -2041,7 +2123,7 @@
         },
         {
           "type": "Corner Kicks",
-          "value": 8
+          "value": 9
         },
         {
           "type": "Offsides",
@@ -2081,19 +2163,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "43%"
+          "value": "44%"
         },
         {
           "type": "Total Passes",
-          "value": 243
+          "value": 251
         },
         {
           "type": "Pass Accuracy",
-          "value": "83%"
+          "value": "82%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 42
+          "value": 44
         },
         {
           "type": "Total Shots",
@@ -2133,11 +2215,11 @@
         },
         {
           "type": "Tackles",
-          "value": 8
+          "value": 9
         },
         {
           "type": "Fouls",
-          "value": 7
+          "value": 8
         },
         {
           "type": "Yellow Cards",

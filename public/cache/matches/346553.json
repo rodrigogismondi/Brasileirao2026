@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 53
+      "elapsed": 56
     },
     "timerStart": "2026-09-20T19:01:08.985Z",
     "timerStatus": "INICIADO"
@@ -51,6 +51,22 @@
   },
   "_geUrl": "https://ge.globo.com/ba/futebol/brasileirao-serie-a/jogo/20-09-2026/vitoria-cruzeiro.ghtml",
   "events": [
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Vitória vai para o vestiário com vantagem de 1 a 0 no placar diante do Cruzeiro.",
+      "player": {
+        "name": "Fim de primeiro tempo"
+      },
+      "assist": null
+    },
     {
       "time": {
         "elapsed": 0,
@@ -1187,7 +1203,7 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "41%"
+          "value": "40%"
         },
         {
           "type": "Total Passes",
@@ -1235,7 +1251,7 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Tackles",
@@ -1263,11 +1279,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "59%"
+          "value": "60%"
         },
         {
           "type": "Total Passes",
-          "value": 296
+          "value": 303
         },
         {
           "type": "Pass Accuracy",
@@ -1279,11 +1295,11 @@
         },
         {
           "type": "Total Shots",
-          "value": 2
+          "value": 4
         },
         {
           "type": "Shots on Goal",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Shots off Goal",
@@ -1291,7 +1307,7 @@
         },
         {
           "type": "Blocked Shots",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Hit Woodwork",

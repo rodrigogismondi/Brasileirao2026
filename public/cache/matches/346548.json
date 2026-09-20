@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 54
+      "elapsed": 57
     },
     "timerStart": "2026-09-20T19:00:08.010Z",
     "timerStatus": "INICIADO"
@@ -51,6 +51,22 @@
   },
   "_geUrl": "https://ge.globo.com/sp/futebol/brasileirao-serie-a/jogo/20-09-2026/corinthians-fluminense.ghtml",
   "events": [
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Jogo é muito estudado e as duas equipes prezam muito pela posse de bola. O Corinthians teve um início melhor, esteve mais presente no campo de ataque, mas o Fluminense soube ser muito sólido defensivamente. Sem sofrer muito na zaga, o time tricolor conseguiu abrir o placar em lance rápido. Canobbio arrancou, achou Lucho pela esquerda, que cruzou para Hulk marcar. Lance ainda passou por análise do VAR, mas foi confirmado. Do gol em diante, Fluminense foi superior e quase ampliou. O Corinthians continuou com a estratégia de rodar bola próximo à área, mas não conseguiu ser efetivo. Apesar dos melhores momentos terem sido da equipe carioca, partida continua aberta em São Paulo.",
+      "player": {
+        "name": "RESUMO DA PRIMEIRA ETAPA"
+      },
+      "assist": null
+    },
     {
       "time": {
         "elapsed": 0,
@@ -1693,7 +1709,7 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "55%"
+          "value": "56%"
         },
         {
           "type": "Total Passes",
@@ -1769,7 +1785,7 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "45%"
+          "value": "44%"
         },
         {
           "type": "Total Passes",

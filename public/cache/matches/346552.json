@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 14
+      "elapsed": 17
     },
     "timerStart": "2026-09-20T22:30:40.838Z",
     "timerStatus": "INICIADO"
@@ -30,7 +30,7 @@
     }
   },
   "goals": {
-    "home": 0,
+    "home": 1,
     "away": 0
   },
   "score": {
@@ -176,6 +176,120 @@
       "detail": "Alejo é acionado em velocidade no campo de ataque depois de grande roubada de David Duarte, mas perde para Dantas na corrida e vê zagueiro do Furacão se recuperar bem.",
       "player": {
         "name": "Alejo Véliz"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 10,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O duelo começou quente na Arena da Baixada! Nos primeiros 10 minutos, o Athletico-PR controla a posse e busca o ataque com cruzamentos, mas o Bahia responde com velocidade. Uma boa chance surgiu para Alejo Véliz, que foi parado em ótima recuperação do zagueiro Dantas. O jogo também é físico, com uma falta dura de Leozinho em Juba, que gerou reclamações, mas ficou sem cartão. Tudo igual e pegado",
+      "player": {
+        "name": "Início pegado e sem gols na Baixada"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 10,
+        "extra": null
+      },
+      "team": {
+        "id": 265,
+        "name": "Bahia"
+      },
+      "type": "Important",
+      "detail": "Jogadores do Bahia pedem cartão para Leozinho depois de falta dura em Juba, mas Daronco fica só na advertência verbal.",
+      "player": {
+        "name": "Jogadores do Bahia pedem cartão para Leozinho de"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 11,
+        "extra": null
+      },
+      "team": {
+        "id": 265,
+        "name": "Bahia"
+      },
+      "type": "Important",
+      "detail": "Mendoza parte em velocidade pela ponta esquerda, passa pela marcação do Bahia e finaliza quase sem ângulo para defesa de Ronaldo.",
+      "player": {
+        "name": "Mendoza"
+      },
+      "assist": {
+        "name": "Nas mãos de Ronaldo"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 13,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "A partida começa intensa na Arena da Baixada. Nos primeiros 13 minutos, o Athletico-PR buscou o controle com posse de bola e criou a melhor oportunidade do jogo: Mendoza fez jogada individual pela esquerda e obrigou o goleiro Ronaldo a fazer grande defesa. O Bahia responde com velocidade nos contra-ataques, mas ainda peca no último passe. O clima já esquentou com lances ríspidos.",
+      "player": {
+        "name": "Início pegado com a primeira grande defesa"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 13,
+        "extra": null
+      },
+      "team": {
+        "id": 265,
+        "name": "Bahia"
+      },
+      "type": "Important",
+      "detail": "Ademir é acionado em velocidade por Nestor nas costas da defesa, mas bola vai muito forte e favorece antecipação de Mycael.",
+      "player": {
+        "name": "Ademir é acionado em velocidade por Nestor nas c"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 15,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O jogo começou disputado, com o Bahia tentando jogadas em velocidade com Ademir e o Athletico respondendo com uma finalização perigosa de Mendoza, defendida por Ronaldo. Após um início com faltas e advertências, a rede balançou aos 15 minutos: Esquivel marcou para o time da casa e inaugurou o placar na Arena da Baixada, deixando o Athletico-PR em vantagem por 1 a 0.",
+      "player": {
+        "name": "Furacão na frente com gol de Esquivel!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 15,
+        "extra": null
+      },
+      "team": {
+        "id": 293,
+        "name": "Athletico-PR"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "player": {
+        "name": "Esquivel"
       },
       "assist": null
     }
@@ -635,11 +749,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "60%"
+          "value": "59%"
         },
         {
           "type": "Total Passes",
-          "value": 78
+          "value": 108
         },
         {
           "type": "Pass Accuracy",
@@ -647,7 +761,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 10
+          "value": 14
         },
         {
           "type": "Total Shots",
@@ -711,19 +825,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "40%"
+          "value": "41%"
         },
         {
           "type": "Total Passes",
-          "value": 38
+          "value": 49
         },
         {
           "type": "Pass Accuracy",
-          "value": "84%"
+          "value": "82%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 6
+          "value": 9
         },
         {
           "type": "Total Shots",
@@ -767,7 +881,7 @@
         },
         {
           "type": "Fouls",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Yellow Cards",

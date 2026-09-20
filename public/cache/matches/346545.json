@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 38
+      "elapsed": 41
     },
     "timerStart": "2026-09-20T21:30:48.895Z",
     "timerStatus": "INICIADO"
@@ -708,6 +708,90 @@
         "name": "Bragantino troca passes no meio tentando respira"
       },
       "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 35,
+        "extra": null
+      },
+      "team": {
+        "id": 280,
+        "name": "Bragantino"
+      },
+      "type": "Important",
+      "detail": "Bragantino constrói de pé em pé. Sant'Anna recebe no lado direito do ataque, carrega para dentro e bate colocado de fora da área, mas a bola chega sem força em Rossi, que encaixa",
+      "player": {
+        "name": "Sant'Anna"
+      },
+      "assist": {
+        "name": "Faltou força"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 36,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "A partida começou com o Bragantino perdendo uma chance incrível com Rodriguinho. Pouco depois, o Flamengo perdeu Ayrton Lucas por lesão, mas não se abalou. Aos 12 minutos, Carrascal deu um belo passe e Varela abriu o placar: 1 a 0. Desde então, o time da casa impõe um domínio avassalador, empilhando oportunidades e parando em grandes defesas do goleiro Volpi, que evita uma vantagem maior.",
+      "player": {
+        "name": "Varela marca e Flamengo domina o Bragantino"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 36,
+        "extra": null
+      },
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Alex Sandro"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 37,
+        "extra": null
+      },
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "Important",
+      "detail": "Flamengo trama perto da área do Bragantino, Pedro tenta caneta em marcador e sofre falta",
+      "player": {
+        "name": "Pedro"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 37,
+        "extra": null
+      },
+      "team": {
+        "id": 280,
+        "name": "Bragantino"
+      },
+      "type": "Important",
+      "detail": "A bola é lançada na área, há um desvio e a sobra fica com Gustavo Marques, que cabeceia no canto. Mas Rossi defende sem susto",
+      "player": {
+        "name": "Gustavo Marques"
+      },
+      "assist": {
+        "name": "Bragantino tenta de novo"
+      }
     }
   ],
   "lineups": [
@@ -1169,7 +1253,7 @@
         },
         {
           "type": "Total Passes",
-          "value": 247
+          "value": 261
         },
         {
           "type": "Pass Accuracy",
@@ -1177,7 +1261,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 24
+          "value": 25
         },
         {
           "type": "Total Shots",
@@ -1213,7 +1297,7 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Tackles",
@@ -1221,11 +1305,11 @@
         },
         {
           "type": "Fouls",
-          "value": 2
+          "value": 4
         },
         {
           "type": "Yellow Cards",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Red Cards",
@@ -1245,23 +1329,23 @@
         },
         {
           "type": "Total Passes",
-          "value": 119
+          "value": 131
         },
         {
           "type": "Pass Accuracy",
-          "value": "77%"
+          "value": "79%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 27
+          "value": 28
         },
         {
           "type": "Total Shots",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Shots on Goal",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Shots off Goal",
@@ -1293,7 +1377,7 @@
         },
         {
           "type": "Tackles",
-          "value": 5
+          "value": 6
         },
         {
           "type": "Fouls",

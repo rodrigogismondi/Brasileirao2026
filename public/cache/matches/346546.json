@@ -7,12 +7,12 @@
       "city": ""
     },
     "status": {
-      "long": "1H",
-      "short": "1H",
-      "elapsed": 48
+      "long": "HT",
+      "short": "HT",
+      "elapsed": 45
     },
-    "timerStart": "2026-09-19T23:31:33.137Z",
-    "timerStatus": "INICIADO"
+    "timerStart": "2026-09-20T00:19:39.111Z",
+    "timerStatus": "PAUSADO"
   },
   "league": {
     "round": "Regular Season - 28"
@@ -50,6 +50,38 @@
     "source": "betexplorer"
   },
   "events": [
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Vasco foi melhor desde o início e terminou o primeiro tempo à frente no placar com justiça. A equipe de Pedro Emanuel conseguiu controlar a posse de bola e ter mais presença ofensiva, apostando na aproximação dos atacantes e homens de meio campo. Aos 7, Gómez recebeu de Colídio e soltou uma pancada, que exigiu uma grande defesa da Morisco. Aos 23, foi a vez do atacante argentino tentar. Ele recebeu ótimo passe de Lescano na área e errou a primeira finalização, mas, na segunda, conseguiu abrir o placar. O Coritiba tentou explorar as costas da defesa do Vasco, apostando na velocidade de Pedro Rocha e Lavega, mas quase sempre os atacantes ficavam isolados contra a marcação. As melhores chances saíam dos lançamentos de Josué. Assim, Cóser quase marcou em bom cabeceio defendido por Léo Jardim. Aos 43, o Vasco fez valer a superioridade para ampliar o resultado. Colídio, ele de novo, soltou uma pancada de longe, que Morisco defende. Na sobra, Gómez mandou a bola na área e Bruno Duarte finalizou para ampliar.",
+      "player": {
+        "name": "Resumo do primeiro tempo"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 267,
+        "name": "Vasco"
+      },
+      "type": "Important",
+      "detail": "Vasco à frente",
+      "player": {
+        "name": "Fim do primeiro tempo"
+      },
+      "assist": null
+    },
     {
       "time": {
         "elapsed": 0,
@@ -787,6 +819,70 @@
         "name": "Bruno Duarte"
       },
       "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 45,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Vasco domina o jogo em sua casa. Homens de ataque e do meio campo consegue controler a posse de bola e ditar o ritmo do jogo. O Coritiba tenta apostar nos contra-ataques, mas as melhores chances têm saído de bolas aéreas de Josué.",
+      "player": {
+        "name": "Panorama"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 46,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Vasco impõe seu ritmo e domina as ações no primeiro tempo. Após pressionar desde o início, Colidio abriu o placar aos 23 minutos, aproveitando sobra na pequena área. O Coritiba respondeu em bolas paradas, obrigando Léo Jardim a fazer uma grande defesa. Mas no final da etapa, aos 43, Bruno Duarte aproveitou um rebote para ampliar e deixar o placar em 2 a 0 para o time da casa.",
+      "player": {
+        "name": "Vasco domina e abre boa vantagem no 1º tempo"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 46,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "+3",
+      "player": {
+        "name": "Acréscimos"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 47,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Colídio passa para Cuiabano na ponta. O lateral cruza rasteiro para a área, mas Cóser corta",
+      "player": {
+        "name": "Colídio passa para Cuiabano na ponta. O lateral "
+      },
+      "assist": null
     }
   ],
   "lineups": [
@@ -1244,19 +1340,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "59%"
+          "value": "60%"
         },
         {
           "type": "Total Passes",
-          "value": 302
+          "value": 321
         },
         {
           "type": "Pass Accuracy",
-          "value": "82%"
+          "value": "83%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 55
+          "value": 56
         },
         {
           "type": "Total Shots",
@@ -1296,7 +1392,7 @@
         },
         {
           "type": "Tackles",
-          "value": 8
+          "value": 10
         },
         {
           "type": "Fouls",
@@ -1320,11 +1416,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "41%"
+          "value": "40%"
         },
         {
           "type": "Total Passes",
-          "value": 189
+          "value": 190
         },
         {
           "type": "Pass Accuracy",
@@ -1332,11 +1428,11 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 39
+          "value": 40
         },
         {
           "type": "Total Shots",
-          "value": 3
+          "value": 2
         },
         {
           "type": "Shots on Goal",
@@ -1344,7 +1440,7 @@
         },
         {
           "type": "Shots off Goal",
-          "value": 1
+          "value": 0
         },
         {
           "type": "Blocked Shots",
@@ -1372,7 +1468,7 @@
         },
         {
           "type": "Tackles",
-          "value": 5
+          "value": 7
         },
         {
           "type": "Fouls",

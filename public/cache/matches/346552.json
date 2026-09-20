@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 17
+      "elapsed": 20
     },
     "timerStart": "2026-09-20T22:30:40.838Z",
     "timerStatus": "INICIADO"
@@ -267,11 +267,11 @@
         "extra": null
       },
       "team": {
-        "id": 0,
-        "name": ""
+        "id": 293,
+        "name": "Athletico-PR"
       },
       "type": "Important",
-      "detail": "O jogo começou disputado, com o Bahia tentando jogadas em velocidade com Ademir e o Athletico respondendo com uma finalização perigosa de Mendoza, defendida por Ronaldo. Após um início com faltas e advertências, a rede balançou aos 15 minutos: Esquivel marcou para o time da casa e inaugurou o placar na Arena da Baixada, deixando o Athletico-PR em vantagem por 1 a 0.",
+      "detail": "O jogo começou movimentado e com um clima tenso após algumas faltas. O Athletico pressionava e já havia obrigado o goleiro Ronaldo a trabalhar em chute de Mendoza. Aos 15 minutos, a insistência deu resultado: em ótima trama ofensiva, Mendoza acionou Vargas, que serviu Esquivel para finalizar no contrapé do goleiro e fazer 1 a 0 para o time da casa na Arena da Baixada.",
       "player": {
         "name": "Furacão na frente com gol de Esquivel!"
       },
@@ -290,6 +290,38 @@
       "detail": "Normal Goal",
       "player": {
         "name": "Esquivel"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 18,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Athletico-PR começou com tudo, controlando a posse e pressionando o Bahia desde o início. Mendoza foi o jogador mais ativo, exigindo boas defesas do goleiro Ronaldo. A insistência deu resultado aos 15 minutos: em jogada bem trabalhada, Mendoza serviu Vargas, que encontrou Esquivel livre para marcar. Após checagem, o VAR confirmou, e o Furacão abriu o placar de 1 a 0 na Arena da Baixada.",
+      "player": {
+        "name": "Athletico sai na frente na Arena!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 18,
+        "extra": null
+      },
+      "team": {
+        "id": 293,
+        "name": "Athletico-PR"
+      },
+      "type": "Important",
+      "detail": "Torcida comemora gol de Esquivel na Arena da Baixada.",
+      "player": {
+        "name": "Gol confirmado!"
       },
       "assist": null
     }
@@ -749,15 +781,15 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "59%"
+          "value": "62%"
         },
         {
           "type": "Total Passes",
-          "value": 108
+          "value": 119
         },
         {
           "type": "Pass Accuracy",
-          "value": "87%"
+          "value": "88%"
         },
         {
           "type": "Incomplete Passes",
@@ -765,11 +797,11 @@
         },
         {
           "type": "Total Shots",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Shots on Goal",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Shots off Goal",
@@ -825,7 +857,7 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "41%"
+          "value": "38%"
         },
         {
           "type": "Total Passes",

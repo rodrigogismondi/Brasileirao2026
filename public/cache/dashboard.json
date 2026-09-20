@@ -13811,7 +13811,7 @@
         "status": {
           "long": "2H",
           "short": "2H",
-          "elapsed": 55
+          "elapsed": 58
         },
         "timerStart": "2026-09-20T22:37:25.624Z",
         "timerStatus": "INICIADO"
@@ -13863,7 +13863,7 @@
         "status": {
           "long": "1H",
           "short": "1H",
-          "elapsed": 17
+          "elapsed": 20
         },
         "timerStart": "2026-09-20T22:30:40.838Z",
         "timerStatus": "INICIADO"
@@ -18667,6 +18667,28 @@
             {
               "rank": 3,
               "team": {
+                "id": 293,
+                "name": "Athletico-PR",
+                "logo": "https://s.sde.globo.com/media/organizations/2026/01/07/Athletico-PR.svg"
+              },
+              "points": 49,
+              "goalsDiff": 11,
+              "form": "WDLDW",
+              "description": "Copa Libertadores",
+              "all": {
+                "played": 28,
+                "win": 14,
+                "draw": 7,
+                "lose": 7,
+                "goals": {
+                  "for": 42,
+                  "against": 31
+                }
+              }
+            },
+            {
+              "rank": 4,
+              "team": {
                 "id": 266,
                 "name": "Fluminense",
                 "logo": "https://s.sde.globo.com/media/organizations/2018/03/11/fluminense.svg"
@@ -18687,46 +18709,24 @@
               }
             },
             {
-              "rank": 4,
-              "team": {
-                "id": 293,
-                "name": "Athletico-PR",
-                "logo": "https://s.sde.globo.com/media/organizations/2026/01/07/Athletico-PR.svg"
-              },
-              "points": 47,
-              "goalsDiff": 10,
-              "form": "WDLDD",
-              "description": "Copa Libertadores",
-              "all": {
-                "played": 28,
-                "win": 13,
-                "draw": 8,
-                "lose": 7,
-                "goals": {
-                  "for": 41,
-                  "against": 31
-                }
-              }
-            },
-            {
               "rank": 5,
               "team": {
                 "id": 265,
                 "name": "Bahia",
                 "logo": "https://s.sde.globo.com/media/organizations/2018/03/11/bahia.svg"
               },
-              "points": 47,
-              "goalsDiff": 9,
-              "form": "WWWWD",
+              "points": 46,
+              "goalsDiff": 8,
+              "form": "WWWWL",
               "description": "Copa Libertadores Qualifiers",
               "all": {
                 "played": 28,
                 "win": 12,
-                "draw": 11,
-                "lose": 5,
+                "draw": 10,
+                "lose": 6,
                 "goals": {
                   "for": 42,
-                  "against": 33
+                  "against": 34
                 }
               }
             },
@@ -20174,7 +20174,7 @@
     "mode": "live",
     "liveIntervalMs": 20000
   },
-  "fetchedAt": "2026-09-20T22:48:22.231Z",
+  "fetchedAt": "2026-09-20T22:51:14.284Z",
   "source": "ge-globo",
   "meta": {
     "rodada": 28,

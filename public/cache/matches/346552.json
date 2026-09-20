@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 29
+      "elapsed": 32
     },
     "timerStart": "2026-09-20T22:30:40.838Z",
     "timerStatus": "INICIADO"
@@ -402,6 +402,56 @@
       "detail": "Normal Goal",
       "player": {
         "name": "Erick Pulga"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 27,
+        "extra": null
+      },
+      "team": {
+        "id": 265,
+        "name": "Bahia"
+      },
+      "type": "Important",
+      "detail": "Em mais uma chegada do Bahia, Nestor levanta na segunda trave e Alejo Veliz cabeceia por cima da meta de Mycael.",
+      "player": {
+        "name": "Alejo Véliz"
+      },
+      "assist": {
+        "name": "Fora!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 29,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Athletico-PR começou melhor e abriu o placar aos 15 minutos em bela jogada coletiva, com Esquivel fazendo 1 a 0. Aos 25, o Bahia respondeu: após um cruzamento na área e falha do goleiro Mycael, Erick Pulga aproveitou o rebote para empatar. O Tricolor quase virou logo depois com Alejo Veliz, e o jogo segue 1 a 1 e aberto, com um cartão amarelo já distribuído para Acevedo.",
+      "player": {
+        "name": "Gols, falha e reação: tudo igual em Curitiba"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 29,
+        "extra": null
+      },
+      "team": {
+        "id": 265,
+        "name": "Bahia"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Acevedo"
       },
       "assist": null
     }
@@ -861,11 +911,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "56%"
+          "value": "57%"
         },
         {
           "type": "Total Passes",
-          "value": 172
+          "value": 190
         },
         {
           "type": "Pass Accuracy",
@@ -873,15 +923,15 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 21
+          "value": 23
         },
         {
           "type": "Total Shots",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Shots on Goal",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Shots off Goal",
@@ -937,23 +987,23 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "44%"
+          "value": "43%"
         },
         {
           "type": "Total Passes",
-          "value": 93
+          "value": 117
         },
         {
           "type": "Pass Accuracy",
-          "value": "87%"
+          "value": "89%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 12
+          "value": 13
         },
         {
           "type": "Total Shots",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Shots on Goal",
@@ -961,7 +1011,7 @@
         },
         {
           "type": "Shots off Goal",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Blocked Shots",
@@ -985,19 +1035,19 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Tackles",
-          "value": 7
+          "value": 9
         },
         {
           "type": "Fouls",
-          "value": 3
+          "value": 4
         },
         {
           "type": "Yellow Cards",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Red Cards",

@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 68
+      "elapsed": 70
     },
     "timerStart": "2026-09-20T22:37:25.624Z",
     "timerStatus": "INICIADO"
@@ -30,7 +30,7 @@
     }
   },
   "goals": {
-    "home": 1,
+    "home": 2,
     "away": 0
   },
   "score": {
@@ -1420,6 +1420,120 @@
         "name": "Flamengo cadencia a bola na defesa e tenta tirar"
       },
       "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 64,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Flamengo abriu o placar aos 12 minutos com Varela, após belo passe de Carrascal, e segue com um domínio absoluto. Já na casa dos 19 minutos da segunda etapa, o time carioca empilha chances de ampliar, mas para em defesas incríveis do goleiro Volpi e em erros de finalização, como uma chance clara perdida por Carrascal. O Bragantino, que acertou a trave, se segura como pode para continuar vivo no jogo.",
+      "player": {
+        "name": "Flamengo domina, mas perde muitos gols"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 64,
+        "extra": null
+      },
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "Important",
+      "detail": "Pedro recebe lançamento com campo aberto no lado esquerdo do ataque. Domina mal e é desarmado por Alix Vinícius. Torcedores do Flamengo imediatamente gritaram por Bruno Henrique, que se aquece do lado de fora do campo",
+      "player": {
+        "name": "Pedro"
+      },
+      "assist": {
+        "name": "Torcida na bronca"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 65,
+        "extra": null
+      },
+      "team": {
+        "id": 280,
+        "name": "Bragantino"
+      },
+      "type": "Important",
+      "detail": "Volpi segura a bola no campo de defesa e manda chutão para Mosquera tentando surpreender a defesa rubro-negra, mas a defesa afasta",
+      "player": {
+        "name": "Tiago Volpi"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 68,
+        "extra": null
+      },
+      "team": {
+        "id": 280,
+        "name": "Bragantino"
+      },
+      "type": "Important",
+      "detail": "Se não é mais contundente no ataque, ao menos, com a nova formação o Bragantino sofre bem menos na defesa em relação ao primeiro tempo. Equipe paulista congestiona os acessos à área e dificulta a vida dos atacantes rubro-negros",
+      "player": {
+        "name": "Panorama"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 68,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Já com 23 minutos do segundo tempo, o Flamengo segue vencendo por 1 a 0, mas o placar não reflete a partida. O gol foi marcado por Varela, que apareceu como elemento surpresa após passe de Carrascal. Desde então, o time rubro-negro empilha chances perdidas, com Carrascal parando duas vezes em grandes defesas de Volpi. O Bragantino, que já acertou a trave, se segura e segue vivo no jogo.",
+      "player": {
+        "name": "Fla domina, mas placar segue apertado"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 68,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Fernando recebe bom lançamento na intermediária, mas pensa demais com a bola e é desarmado",
+      "player": {
+        "name": "Fernando recebe bom lançamento na intermediária,"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 70,
+        "extra": null
+      },
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "player": {
+        "name": "Pedro"
+      },
+      "assist": null
     }
   ],
   "lineups": [
@@ -1877,19 +1991,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "68%"
+          "value": "67%"
         },
         {
           "type": "Total Passes",
-          "value": 518
+          "value": 529
         },
         {
           "type": "Pass Accuracy",
-          "value": "90%"
+          "value": "89%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 53
+          "value": 59
         },
         {
           "type": "Total Shots",
@@ -1929,7 +2043,7 @@
         },
         {
           "type": "Tackles",
-          "value": 14
+          "value": 13
         },
         {
           "type": "Fouls",
@@ -1953,19 +2067,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "32%"
+          "value": "33%"
         },
         {
           "type": "Total Passes",
-          "value": 193
+          "value": 212
         },
         {
           "type": "Pass Accuracy",
-          "value": "73%"
+          "value": "72%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 53
+          "value": 59
         },
         {
           "type": "Total Shots",
@@ -2005,7 +2119,7 @@
         },
         {
           "type": "Tackles",
-          "value": 12
+          "value": 14
         },
         {
           "type": "Fouls",

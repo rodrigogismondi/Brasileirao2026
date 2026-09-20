@@ -7,12 +7,12 @@
       "city": ""
     },
     "status": {
-      "long": "HT",
-      "short": "HT",
-      "elapsed": 45
+      "long": "2H",
+      "short": "2H",
+      "elapsed": 55
     },
-    "timerStart": "2026-09-20T00:49:30.957Z",
-    "timerStatus": "PAUSADO"
+    "timerStart": "2026-09-20T01:07:42.967Z",
+    "timerStatus": "INICIADO"
   },
   "league": {
     "round": "Regular Season - 28"
@@ -954,6 +954,54 @@
     },
     {
       "time": {
+        "elapsed": 45,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Artur avança e chuta, mas Maripán bloqueia",
+      "player": {
+        "name": "Travado!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 45,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Começa o segundo tempo! São Paulo 1 x 0 Inter",
+      "player": {
+        "name": "Bola rolando!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 46,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Artur cruza na área, mas Anthoni segura",
+      "player": {
+        "name": "Por cima é dele!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
         "elapsed": 46,
         "extra": null
       },
@@ -981,6 +1029,22 @@
       "detail": "Iremos até os 49",
       "player": {
         "name": "Mais 4"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 47,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Alan Patrick arrisca, mas a bola bate na zaga. O rebote fica com Bruno Gomes, que manda para fora",
+      "player": {
+        "name": "Travado!"
       },
       "assist": null
     },
@@ -1061,6 +1125,54 @@
       "detail": "São Paulo 1 x 0 Inter",
       "player": {
         "name": "Fim de papo!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 50,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Com o segundo tempo recém-iniciado, o São Paulo vai vencendo por 1 a 0. O gol saiu em uma cobrança de pênalti de Calleri, aos 14 minutos da primeira etapa, após falta de Maripán em Luciano. O jogo é quente, com três cartões amarelos e discussões em campo. O Inter busca a reação e já assustou em cabeceio de Mercado defendido por Rafael, mas o Tricolor segue com a vantagem parcial no placar.",
+      "player": {
+        "name": "São Paulo na frente com gol de pênalti!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 50,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Luciano tenta o lançamento, mas a bola fica com Anthoni",
+      "player": {
+        "name": "Para quem?"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 51,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Alan Patrick aproveita o corte de Arboleda e chuta, mas a bola sai",
+      "player": {
+        "name": "Uhhhh!"
       },
       "assist": null
     }
@@ -1511,87 +1623,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "51%"
-        },
-        {
-          "type": "Total Passes",
-          "value": 242
-        },
-        {
-          "type": "Pass Accuracy",
-          "value": "86%"
-        },
-        {
-          "type": "Incomplete Passes",
-          "value": 34
-        },
-        {
-          "type": "Total Shots",
-          "value": 3
-        },
-        {
-          "type": "Shots on Goal",
-          "value": 1
-        },
-        {
-          "type": "Shots off Goal",
-          "value": 1
-        },
-        {
-          "type": "Blocked Shots",
-          "value": 1
-        },
-        {
-          "type": "Hit Woodwork",
-          "value": 0
-        },
-        {
-          "type": "Corner Kicks",
-          "value": 2
-        },
-        {
-          "type": "Offsides",
-          "value": 1
-        },
-        {
-          "type": "Penalties",
-          "value": 1
-        },
-        {
-          "type": "Goalkeeper Saves",
-          "value": 2
-        },
-        {
-          "type": "Tackles",
-          "value": 8
-        },
-        {
-          "type": "Fouls",
-          "value": 6
-        },
-        {
-          "type": "Yellow Cards",
-          "value": 1
-        },
-        {
-          "type": "Red Cards",
-          "value": 0
-        }
-      ]
-    },
-    {
-      "team": {
-        "id": 285,
-        "name": "Internacional"
-      },
-      "statistics": [
-        {
-          "type": "Ball Possession",
           "value": "49%"
         },
         {
           "type": "Total Passes",
-          "value": 206
+          "value": 275
         },
         {
           "type": "Pass Accuracy",
@@ -1599,7 +1635,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 35
+          "value": 46
         },
         {
           "type": "Total Shots",
@@ -1623,7 +1659,83 @@
         },
         {
           "type": "Corner Kicks",
+          "value": 3
+        },
+        {
+          "type": "Offsides",
+          "value": 1
+        },
+        {
+          "type": "Penalties",
+          "value": 1
+        },
+        {
+          "type": "Goalkeeper Saves",
+          "value": 4
+        },
+        {
+          "type": "Tackles",
+          "value": 10
+        },
+        {
+          "type": "Fouls",
+          "value": 6
+        },
+        {
+          "type": "Yellow Cards",
+          "value": 1
+        },
+        {
+          "type": "Red Cards",
           "value": 0
+        }
+      ]
+    },
+    {
+      "team": {
+        "id": 285,
+        "name": "Internacional"
+      },
+      "statistics": [
+        {
+          "type": "Ball Possession",
+          "value": "51%"
+        },
+        {
+          "type": "Total Passes",
+          "value": 263
+        },
+        {
+          "type": "Pass Accuracy",
+          "value": "84%"
+        },
+        {
+          "type": "Incomplete Passes",
+          "value": 41
+        },
+        {
+          "type": "Total Shots",
+          "value": 8
+        },
+        {
+          "type": "Shots on Goal",
+          "value": 1
+        },
+        {
+          "type": "Shots off Goal",
+          "value": 4
+        },
+        {
+          "type": "Blocked Shots",
+          "value": 3
+        },
+        {
+          "type": "Hit Woodwork",
+          "value": 0
+        },
+        {
+          "type": "Corner Kicks",
+          "value": 1
         },
         {
           "type": "Offsides",
@@ -1635,11 +1747,11 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Tackles",
-          "value": 5
+          "value": 6
         },
         {
           "type": "Fouls",

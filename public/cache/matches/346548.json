@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 6
+      "elapsed": 9
     },
     "timerStart": "2026-09-20T19:00:08.010Z",
     "timerStatus": "INICIADO"
@@ -164,6 +164,86 @@
       "detail": "Corinthians tem a bola e troca passes no setor defensivo",
       "player": {
         "name": "Corinthians tem a bola e troca passes no setor d"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 5,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Millán sobe para disputar no alto e comete falta em Kaio César no meio-campo",
+      "player": {
+        "name": "Millán sobe para disputar no alto e comete falta"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 6,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O jogo começou com o Corinthians pressionando e levando perigo em um escanteio logo no primeiro minuto. Breno Bidon teve a chance, mas finalizou para fora. A resposta do Fluminense veio aos 3 minutos e foi perigosíssima! Em linda jogada, Nonato achou Canobbio, que avançou sozinho, mas parou em uma defesa crucial do goleiro Hugo Souza. Partida movimentada nestes primeiros minutos na arena.",
+      "player": {
+        "name": "Início quente com chances para os dois lados"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 6,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "Important",
+      "detail": "Breno Bidon disputa bola com Nonato e acaba exagerando na dose. Falta para o Fluminense no campo de defesa",
+      "player": {
+        "name": "Breno Bidon disputa bola com Nonato e acaba exag"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 7,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Corinthians chega com boa troca de passes, e Matheuzinho tenta cruzamento rasteiro, mas para em Millán. Em seguida, tiro de meta para o Fluminense",
+      "player": {
+        "name": "AFASTA A ZAGA TRICOLOR!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 7,
+        "extra": null
+      },
+      "team": {
+        "id": 264,
+        "name": "Corinthians"
+      },
+      "type": "Important",
+      "detail": "A torcida do Corinthians deu as costas para o campo antes de a bola rolar. Torcedores protestaram no primeiro jogo depois da eliminação na Copa Libertadores, na última quarta-feira. Veja no vídeo.",
+      "player": {
+        "name": "protesto da torcida do corinthians"
       },
       "assist": null
     }
@@ -623,23 +703,23 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "71%"
+          "value": "74%"
         },
         {
           "type": "Total Passes",
-          "value": 29
+          "value": 54
         },
         {
           "type": "Pass Accuracy",
-          "value": "83%"
+          "value": "89%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 5
+          "value": 6
         },
         {
           "type": "Total Shots",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Shots on Goal",
@@ -647,7 +727,7 @@
         },
         {
           "type": "Shots off Goal",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Blocked Shots",
@@ -671,7 +751,7 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Tackles",
@@ -699,15 +779,15 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "29%"
+          "value": "26%"
         },
         {
           "type": "Total Passes",
-          "value": 14
+          "value": 16
         },
         {
           "type": "Pass Accuracy",
-          "value": "79%"
+          "value": "81%"
         },
         {
           "type": "Incomplete Passes",
@@ -715,7 +795,7 @@
         },
         {
           "type": "Total Shots",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Shots on Goal",
@@ -727,7 +807,7 @@
         },
         {
           "type": "Blocked Shots",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Hit Woodwork",
@@ -751,11 +831,11 @@
         },
         {
           "type": "Tackles",
-          "value": 0
+          "value": 2
         },
         {
           "type": "Fouls",
-          "value": 0
+          "value": 2
         },
         {
           "type": "Yellow Cards",

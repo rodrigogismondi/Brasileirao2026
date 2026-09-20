@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 5
+      "elapsed": 8
     },
     "timerStart": "2026-09-20T19:01:08.985Z",
     "timerStatus": "INICIADO"
@@ -128,6 +128,54 @@
       "detail": "Vitória começa o jogo em cima do Cruzeiro. Primeiro escanteio para o Leão.",
       "player": {
         "name": "Vitória começa o jogo em cima do Cruzeiro. Prime"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 4,
+        "extra": null
+      },
+      "team": {
+        "id": 283,
+        "name": "Cruzeiro"
+      },
+      "type": "Important",
+      "detail": "Depois de cobrança curta, Tarzia cruza, e defesa do Cruzeiro tira o perigo.",
+      "player": {
+        "name": "Depois de cobrança curta, Tarzia cruza, e defesa"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 5,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O jogo mal começou e já pegou fogo! O Cruzeiro até chegou primeiro em chute fraco de Gerson, mas a resposta do Vitória foi imediata e muito perigosa. Aos 2 minutos, Renê foi lançado na cara do gol e parou em Otávio. No rebote, após uma confusão do goleiro, Erick teve a chance de abrir o placar, mas Otávio se recuperou com uma defesa espetacular. Início de pressão total do time da casa",
+      "player": {
+        "name": "Vitória pressiona e Otávio salva o Cruzeiro"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 5,
+        "extra": null
+      },
+      "team": {
+        "id": 283,
+        "name": "Cruzeiro"
+      },
+      "type": "Important",
+      "detail": "Rojas tenta chegar pelo lado esquerdo da área depois de jogada trabalhada do Cruzeiro, mas esbarra na marcação de Martínez.",
+      "player": {
+        "name": "Rojas tenta chegar pelo lado esquerdo da área de"
       },
       "assist": null
     }
@@ -587,27 +635,27 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "50%"
+          "value": "54%"
         },
         {
           "type": "Total Passes",
-          "value": 24
+          "value": 40
         },
         {
           "type": "Pass Accuracy",
-          "value": "92%"
+          "value": "88%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 2
+          "value": 5
         },
         {
           "type": "Total Shots",
-          "value": 0
+          "value": 2
         },
         {
           "type": "Shots on Goal",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Shots off Goal",
@@ -615,7 +663,7 @@
         },
         {
           "type": "Blocked Shots",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Hit Woodwork",
@@ -623,11 +671,11 @@
         },
         {
           "type": "Corner Kicks",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Offsides",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Penalties",
@@ -663,19 +711,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "50%"
+          "value": "46%"
         },
         {
           "type": "Total Passes",
-          "value": 15
+          "value": 33
         },
         {
           "type": "Pass Accuracy",
-          "value": "73%"
+          "value": "79%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 4
+          "value": 7
         },
         {
           "type": "Total Shots",
@@ -711,11 +759,11 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Tackles",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Fouls",

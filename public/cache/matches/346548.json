@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 65
+      "elapsed": 68
     },
     "timerStart": "2026-09-20T20:06:55.470Z",
     "timerStatus": "INICIADO"
@@ -1717,6 +1717,22 @@
     },
     {
       "time": {
+        "elapsed": 60,
+        "extra": null
+      },
+      "team": {
+        "id": 264,
+        "name": "Corinthians"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "André"
+      },
+      "assist": null
+    },
+    {
+      "time": {
         "elapsed": 61,
         "extra": null
       },
@@ -1744,6 +1760,106 @@
       "detail": "Yellow Card",
       "player": {
         "name": "Canobbio"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 62,
+        "extra": null
+      },
+      "team": {
+        "id": 264,
+        "name": "Corinthians"
+      },
+      "type": "Important",
+      "detail": "Matheuzinho recebe de Garro pela direita e cruza rasteiro na área tricolor. Bola passa por tudo mundo e sai direto pela linha de fundo",
+      "player": {
+        "name": "Matheuzinho"
+      },
+      "assist": {
+        "name": "PASSOU DIRETO!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 63,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Júlio Fidelis"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 64,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Fluminense abriu o placar com Hulk no primeiro tempo, mas o Corinthians voltou com tudo para a segunda etapa. Com uma pressão impressionante, o time da casa empilhou chances e exigiu milagres do goleiro Fábio. Aos 10 minutos, a insistência valeu a pena e Gustavo Henrique aproveitou um rebote na área para deixar tudo igual: 1 a 1. O Timão segue em cima e quase virou com Memphis aos 19 minutos.",
+      "player": {
+        "name": "Timão empata após blitz no segundo tempo!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 64,
+        "extra": null
+      },
+      "team": {
+        "id": 264,
+        "name": "Corinthians"
+      },
+      "type": "Important",
+      "detail": "Memphis cobra falta com muita qualidade e Fábio aparece para impedir o segundo gol do Corinthians! Escanteio para o time paulista",
+      "player": {
+        "name": "Memphis Depay"
+      },
+      "assist": {
+        "name": "QUASE A VIRADA!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 66,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Fluminense tenta sair em velocidade com Canobbio, mas defesa corinthiana vai muito bem de novo. Pressão do Corinthians!",
+      "player": {
+        "name": "Fluminense tenta sair em velocidade com Canobbio"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 66,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Corinthians faz blitz no campo de ataque! Fluminense recupera bolas mas não consegue sair jogando",
+      "player": {
+        "name": "Corinthians faz blitz no campo de ataque! Flumin"
       },
       "assist": null
     }
@@ -2207,7 +2323,7 @@
         },
         {
           "type": "Total Passes",
-          "value": 393
+          "value": 401
         },
         {
           "type": "Pass Accuracy",
@@ -2215,15 +2331,15 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 51
+          "value": 53
         },
         {
           "type": "Total Shots",
-          "value": 13
+          "value": 14
         },
         {
           "type": "Shots on Goal",
-          "value": 5
+          "value": 6
         },
         {
           "type": "Shots off Goal",
@@ -2239,7 +2355,7 @@
         },
         {
           "type": "Corner Kicks",
-          "value": 9
+          "value": 10
         },
         {
           "type": "Offsides",
@@ -2255,7 +2371,7 @@
         },
         {
           "type": "Tackles",
-          "value": 11
+          "value": 13
         },
         {
           "type": "Fouls",
@@ -2283,15 +2399,15 @@
         },
         {
           "type": "Total Passes",
-          "value": 272
+          "value": 283
         },
         {
           "type": "Pass Accuracy",
-          "value": "83%"
+          "value": "82%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 47
+          "value": 52
         },
         {
           "type": "Total Shots",
@@ -2335,11 +2451,11 @@
         },
         {
           "type": "Fouls",
-          "value": 9
+          "value": 10
         },
         {
           "type": "Yellow Cards",
-          "value": 3
+          "value": 4
         },
         {
           "type": "Red Cards",

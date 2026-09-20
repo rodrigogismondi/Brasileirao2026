@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 8
+      "elapsed": 11
     },
     "timerStart": "2026-09-20T21:30:48.895Z",
     "timerStatus": "INICIADO"
@@ -196,6 +196,54 @@
       "detail": "Carrascal passa para Alex Sandro no lado esquerdo do ataque. O lateral manda um balão para a área, ninguém chega e a bola morre na linha de fundo",
       "player": {
         "name": "Carrascal passa para Alex Sandro no lado esquerd"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 7,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Flamengo cadencia o jogo na defesa, e o Bragantino sobe a marcação",
+      "player": {
+        "name": "Flamengo cadencia o jogo na defesa, e o Braganti"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 8,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Por enquanto, Flamengo controla a posse de bola contra um Bragantino que espera o momento de contra-atacar",
+      "player": {
+        "name": "Panorama"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 8,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Rodriguinho faz falta sobre Varela no lado direito do ataque",
+      "player": {
+        "name": "Rodriguinho faz falta sobre Varela no lado direi"
       },
       "assist": null
     }
@@ -655,19 +703,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "56%"
+          "value": "70%"
         },
         {
           "type": "Total Passes",
-          "value": 23
+          "value": 57
         },
         {
           "type": "Pass Accuracy",
-          "value": "87%"
+          "value": "88%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 3
+          "value": 7
         },
         {
           "type": "Total Shots",
@@ -707,7 +755,7 @@
         },
         {
           "type": "Tackles",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Fouls",
@@ -731,19 +779,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "44%"
+          "value": "30%"
         },
         {
           "type": "Total Passes",
-          "value": 11
+          "value": 21
         },
         {
           "type": "Pass Accuracy",
-          "value": "45%"
+          "value": "57%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 6
+          "value": 9
         },
         {
           "type": "Total Shots",
@@ -783,11 +831,11 @@
         },
         {
           "type": "Tackles",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Fouls",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Yellow Cards",

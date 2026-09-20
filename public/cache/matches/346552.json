@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 23
+      "elapsed": 26
     },
     "timerStart": "2026-09-20T22:30:40.838Z",
     "timerStatus": "INICIADO"
@@ -322,6 +322,38 @@
       "detail": "Torcida comemora gol de Esquivel na Arena da Baixada.",
       "player": {
         "name": "Gol confirmado!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 22,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Athletico-PR iniciou a partida de forma mais incisiva, criando chances e levando perigo com Mendoza, que parou em defesa de Ronaldo. Aos 15 minutos, a pressão virou gol: após ótima troca de passes, Vargas ajeitou para Esquivel finalizar no contrapé do goleiro e fazer 1 a 0. O lance foi confirmado pelo VAR. Com mais de 20 minutos de jogo, o Bahia tenta reagir, mas esbarra na boa marcação adversária.",
+      "player": {
+        "name": "Furacão na frente na Arena da Baixada!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 22,
+        "extra": null
+      },
+      "team": {
+        "id": 265,
+        "name": "Bahia"
+      },
+      "type": "Important",
+      "detail": "Bahia tenta trabalhar jogadas para o ataque, mas esbarra na marcação do Athletico e só consegue criar com bolas longas.",
+      "player": {
+        "name": "Bahia tenta trabalhar jogadas para o ataque, mas"
       },
       "assist": null
     }
@@ -781,19 +813,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "60%"
+          "value": "59%"
         },
         {
           "type": "Total Passes",
-          "value": 132
+          "value": 158
         },
         {
           "type": "Pass Accuracy",
-          "value": "86%"
+          "value": "87%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 18
+          "value": 21
         },
         {
           "type": "Total Shots",
@@ -857,15 +889,15 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "40%"
+          "value": "41%"
         },
         {
           "type": "Total Passes",
-          "value": 71
+          "value": 82
         },
         {
           "type": "Pass Accuracy",
-          "value": "86%"
+          "value": "88%"
         },
         {
           "type": "Incomplete Passes",
@@ -909,7 +941,7 @@
         },
         {
           "type": "Tackles",
-          "value": 4
+          "value": 6
         },
         {
           "type": "Fouls",

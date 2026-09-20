@@ -9194,9 +9194,9 @@
         }
       },
       "odds": {
-        "home": 2.17,
-        "draw": 3.35,
-        "away": 3.3,
+        "home": 2.2,
+        "draw": 3.38,
+        "away": 3.22,
         "source": "betexplorer"
       }
     },
@@ -13412,7 +13412,9 @@
           "long": "FT",
           "short": "FT",
           "elapsed": 90
-        }
+        },
+        "timerStart": "2026-09-19T21:01:39.875Z",
+        "timerStatus": "PAUSADO"
       },
       "league": {
         "round": "Regular Season - 28"
@@ -13462,7 +13464,9 @@
           "long": "FT",
           "short": "FT",
           "elapsed": 90
-        }
+        },
+        "timerStart": "2026-09-19T22:04:29.097Z",
+        "timerStatus": "PAUSADO"
       },
       "league": {
         "round": "Regular Season - 28"
@@ -13512,7 +13516,9 @@
           "long": "FT",
           "short": "FT",
           "elapsed": 90
-        }
+        },
+        "timerStart": "2026-09-19T23:35:52.141Z",
+        "timerStatus": "PAUSADO"
       },
       "league": {
         "round": "Regular Season - 28"
@@ -13562,7 +13568,9 @@
           "long": "FT",
           "short": "FT",
           "elapsed": 90
-        }
+        },
+        "timerStart": "2026-09-20T01:37:38.242Z",
+        "timerStatus": "PAUSADO"
       },
       "league": {
         "round": "Regular Season - 28"
@@ -13612,7 +13620,9 @@
           "long": "FT",
           "short": "FT",
           "elapsed": 90
-        }
+        },
+        "timerStart": "2026-09-20T02:04:14.410Z",
+        "timerStatus": "PAUSADO"
       },
       "league": {
         "round": "Regular Season - 28"
@@ -13659,12 +13669,12 @@
           "city": ""
         },
         "status": {
-          "long": "2H",
-          "short": "2H",
-          "elapsed": 91
+          "long": "FT",
+          "short": "FT",
+          "elapsed": 90
         },
-        "timerStart": "2026-09-20T15:10:25.469Z",
-        "timerStatus": "INICIADO"
+        "timerStart": "2026-09-20T16:02:28.890Z",
+        "timerStatus": "PAUSADO"
       },
       "league": {
         "round": "Regular Season - 28"
@@ -13691,8 +13701,8 @@
           "away": null
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         }
       },
       "odds": {
@@ -13714,7 +13724,9 @@
           "long": "NS",
           "short": "NS",
           "elapsed": null
-        }
+        },
+        "timerStart": null,
+        "timerStatus": "PAUSADO"
       },
       "league": {
         "round": "Regular Season - 28"
@@ -13746,9 +13758,9 @@
         }
       },
       "odds": {
-        "home": 2.13,
+        "home": 2.09,
         "draw": 3.17,
-        "away": 3.63,
+        "away": 3.7,
         "source": "betexplorer"
       }
     },
@@ -13764,7 +13776,9 @@
           "long": "NS",
           "short": "NS",
           "elapsed": null
-        }
+        },
+        "timerStart": null,
+        "timerStatus": "PAUSADO"
       },
       "league": {
         "round": "Regular Season - 28"
@@ -13796,9 +13810,9 @@
         }
       },
       "odds": {
-        "home": 3,
-        "draw": 3.25,
-        "away": 2.37,
+        "home": 2.97,
+        "draw": 3.35,
+        "away": 2.34,
         "source": "betexplorer"
       }
     },
@@ -13814,7 +13828,9 @@
           "long": "NS",
           "short": "NS",
           "elapsed": null
-        }
+        },
+        "timerStart": null,
+        "timerStatus": "PAUSADO"
       },
       "league": {
         "round": "Regular Season - 28"
@@ -13847,8 +13863,8 @@
       },
       "odds": {
         "home": 1.36,
-        "draw": 5,
-        "away": 7.88,
+        "draw": 5.13,
+        "away": 7.75,
         "source": "betexplorer"
       }
     },
@@ -13864,7 +13880,9 @@
           "long": "NS",
           "short": "NS",
           "elapsed": null
-        }
+        },
+        "timerStart": null,
+        "timerStatus": "PAUSADO"
       },
       "league": {
         "round": "Regular Season - 28"
@@ -13896,9 +13914,9 @@
         }
       },
       "odds": {
-        "home": 2.17,
-        "draw": 3.35,
-        "away": 3.3,
+        "home": 2.2,
+        "draw": 3.38,
+        "away": 3.22,
         "source": "betexplorer"
       }
     },
@@ -13946,9 +13964,9 @@
         }
       },
       "odds": {
-        "home": 4.03,
-        "draw": 3.57,
-        "away": 1.86,
+        "home": 3.97,
+        "draw": 3.53,
+        "away": 1.88,
         "source": "betexplorer"
       }
     },
@@ -14096,8 +14114,8 @@
         }
       },
       "odds": {
-        "home": 2.34,
-        "draw": 3.17,
+        "home": 2.36,
+        "draw": 3.13,
         "away": 3.03,
         "source": "betexplorer"
       }
@@ -20169,10 +20187,10 @@
   "budget": {
     "used": 0,
     "remaining": 100,
-    "mode": "live",
-    "liveIntervalMs": 20000
+    "mode": "prematch",
+    "liveIntervalMs": 120000
   },
-  "fetchedAt": "2026-09-20T15:56:49.652Z",
+  "fetchedAt": "2026-09-20T16:07:02.062Z",
   "source": "ge-globo",
   "meta": {
     "rodada": 28,
@@ -20217,14 +20235,14 @@
       37,
       38
     ],
-    "seasonSyncedAt": "2026-09-20T10:01:21.126Z",
-    "fullSeasonSync": false,
+    "seasonSyncedAt": "2026-09-20T16:06:59.567Z",
+    "fullSeasonSync": true,
     "edicao": "Campeonato Brasileiro 2026",
     "provider": "ge.globo.com",
     "scorersCount": 50,
-    "oddsMatched": 0,
-    "oddsPreserved": 302,
-    "oddsAvailable": 0,
+    "oddsMatched": 300,
+    "oddsPreserved": 2,
+    "oddsAvailable": 266,
     "fixturesCount": 380
   }
 }

@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 39
+      "elapsed": 41
     },
     "timerStart": "2026-09-20T19:00:08.010Z",
     "timerStatus": "INICIADO"
@@ -862,6 +862,54 @@
         "name": "Iago Machado tenta desarmar Hulk no meio, mas ac"
       },
       "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 36,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O jogo começou com o Corinthians com mais posse de bola, mas foi o Fluminense quem criou as melhores chances. Aos 23 minutos, a rede balançou: Lucho Acosta fez um cruzamento perfeito e Hulk desviou para fazer 1 a 0. O gol mudou a partida, e o Flu quase ampliou em seguida, em chance incrível que Serna desperdiçou. O Corinthians sentiu o golpe e erra bastante na saída de bola.",
+      "player": {
+        "name": "Hulk marca e Fluminense assume o controle"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 36,
+        "extra": null
+      },
+      "team": {
+        "id": 264,
+        "name": "Corinthians"
+      },
+      "type": "Important",
+      "detail": "Serna recebe de Renê, faz boa jogada pela esquerda e encontra Canobbio. O uruguaio tenta cruzar e é bloqueado pela defesa adversária. Em seguida, arrisca chute direto para o gol, mas volta a ser travado pela zaga do Corinthians",
+      "player": {
+        "name": "Canobbio"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 38,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Corinthians volta a pressionar saída do Fluminense e recupera a bola no campo de ataque, mas não consegue acelerar o jogo. Equipe troca passes no campo de defesa",
+      "player": {
+        "name": "Corinthians volta a pressionar saída do Fluminen"
+      },
+      "assist": null
     }
   ],
   "lineups": [
@@ -1319,11 +1367,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "57%"
+          "value": "53%"
         },
         {
           "type": "Total Passes",
-          "value": 202
+          "value": 222
         },
         {
           "type": "Pass Accuracy",
@@ -1331,7 +1379,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 24
+          "value": 26
         },
         {
           "type": "Total Shots",
@@ -1367,7 +1415,7 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Tackles",
@@ -1395,23 +1443,23 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "43%"
+          "value": "47%"
         },
         {
           "type": "Total Passes",
-          "value": 155
+          "value": 175
         },
         {
           "type": "Pass Accuracy",
-          "value": "85%"
+          "value": "84%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 23
+          "value": 28
         },
         {
           "type": "Total Shots",
-          "value": 4
+          "value": 5
         },
         {
           "type": "Shots on Goal",
@@ -1423,7 +1471,7 @@
         },
         {
           "type": "Blocked Shots",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Hit Woodwork",
@@ -1447,11 +1495,11 @@
         },
         {
           "type": "Tackles",
-          "value": 5
+          "value": 7
         },
         {
           "type": "Fouls",
-          "value": 4
+          "value": 5
         },
         {
           "type": "Yellow Cards",

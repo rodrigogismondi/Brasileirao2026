@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 6
+      "elapsed": 8
     },
     "timerStart": "2026-09-20T14:04:23.414Z",
     "timerStatus": "INICIADO"
@@ -98,6 +98,74 @@
         "name": "Palmeiras joga bola na área, Flaco tenta de cabe"
       },
       "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 3,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Palmeiras começou com a bola nos pés, trocando passes no ataque, mas foi o Grêmio quem criou a primeira grande chance. Com pouco mais de três minutos, Amuzu avançou pela esquerda e a jogada terminou com a finalização de Pavón, que obrigou Carlos Miguel a fazer uma bela defesa para salvar o time visitante. Partida começa com o time da casa sendo mais perigoso.",
+      "player": {
+        "name": "Defesaça de Carlos Miguel agita o começo!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 3,
+        "extra": null
+      },
+      "team": {
+        "id": 284,
+        "name": "Grêmio"
+      },
+      "type": "Important",
+      "detail": "O Grêmio não precisou ficar com a bola para criar a primeira grande chance. Amuzu escapou pela esquerda, cruzou rasteiro forte, mas a bola não chegou em Pavón que passava livre. O argentino ainda recolheu a bola, partiu para cima da marcação e cortou para dentro para finalizar cruzado de esquerda. Carlos Miguel fez a ponte e bonita defesa.",
+      "player": {
+        "name": "Carlos Miguel"
+      },
+      "assist": {
+        "name": "Defende, Carlos Miguel!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 6,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Palmeiras começou controlando a posse de bola e criou a primeira chegada com Flaco López. A resposta do Grêmio, no entanto, foi mais perigosa: aos 3 minutos, em jogada iniciada por Amuzu, Pavón finalizou forte e obrigou o goleiro Carlos Miguel a fazer uma grande defesa. Com 6 minutos, Arias cobrou falta por cima para o time paulista, mantendo o início de jogo bastante movimentado.",
+      "player": {
+        "name": "Palmeiras domina, Grêmio assusta"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 6,
+        "extra": null
+      },
+      "team": {
+        "id": 275,
+        "name": "Palmeiras"
+      },
+      "type": "Important",
+      "detail": "Arias cobra falta da entrada da área, mas coloca muita força na bola e ela sai por cima do gol de Weverton.",
+      "player": {
+        "name": "Arias"
+      },
+      "assist": {
+        "name": "Por cima"
+      }
     }
   ],
   "lineups": [
@@ -224,15 +292,6 @@
         },
         {
           "player": {
-            "id": "wagner-leonardo",
-            "name": "Wagner Leonardo",
-            "number": 3,
-            "pos": "Def",
-            "grid": null
-          }
-        },
-        {
-          "player": {
             "id": "marcosrocha2",
             "name": "Marcos Rocha",
             "number": 14,
@@ -245,6 +304,15 @@
             "id": "luis-eduardo-guedes",
             "name": "Luis Eduardo",
             "number": 43,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "wagner-leonardo",
+            "name": "Wagner Leonardo",
+            "number": 3,
             "pos": "Def",
             "grid": null
           }

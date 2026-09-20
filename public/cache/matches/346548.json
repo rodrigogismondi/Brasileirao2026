@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 45
+      "elapsed": 48
     },
     "timerStart": "2026-09-20T19:00:08.010Z",
     "timerStatus": "INICIADO"
@@ -1024,6 +1024,88 @@
         "name": "Samuel Xavier"
       },
       "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 44,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "Important",
+      "detail": "Fluminense recupera a bola e troca passes no campo de defesa",
+      "player": {
+        "name": "Fluminense recupera a bola e troca passes no cam"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 45,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Partida vai até os 51 minutos no primeiro tempo",
+      "player": {
+        "name": "MAIS SEIS!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 45,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Após um início equilibrado, o Fluminense marcou aos 23 minutos! Lucho Acosta cruzou na medida para Hulk, que com a ponta da chuteira fez 1 a 0. O gol deu confiança ao Tricolor, que logo depois perdeu uma chance inacreditável com Serna, cara a cara com o goleiro. O Corinthians sentiu o golpe e tenta reagir na base da pressão, mas encontra um time carioca bem postado e controlando o jogo.",
+      "player": {
+        "name": "Hulk abre o placar para o Fluminense!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 45,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Kaio César carrega a bola pelo meio, cruza para Memphis, que está encaixotado entre Millán e Thiago Silva, e não consegue brigar pela bola",
+      "player": {
+        "name": "Kaio César carrega a bola pelo meio, cruza para "
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 46,
+        "extra": null
+      },
+      "team": {
+        "id": 264,
+        "name": "Corinthians"
+      },
+      "type": "Important",
+      "detail": "André recebe pela esquerda, dribla Samuel Xavier e finaliza forte. Bola sobe demais e passa por cima do gol de Fábio",
+      "player": {
+        "name": "André"
+      },
+      "assist": {
+        "name": "PRA FORA!"
+      }
     }
   ],
   "lineups": [
@@ -1481,23 +1563,23 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "55%"
+          "value": "53%"
         },
         {
           "type": "Total Passes",
-          "value": 243
+          "value": 265
         },
         {
           "type": "Pass Accuracy",
-          "value": "88%"
+          "value": "89%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 28
+          "value": 29
         },
         {
           "type": "Total Shots",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Shots on Goal",
@@ -1509,7 +1591,7 @@
         },
         {
           "type": "Blocked Shots",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Hit Woodwork",
@@ -1537,7 +1619,7 @@
         },
         {
           "type": "Fouls",
-          "value": 7
+          "value": 9
         },
         {
           "type": "Yellow Cards",
@@ -1557,11 +1639,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "45%"
+          "value": "47%"
         },
         {
           "type": "Total Passes",
-          "value": 202
+          "value": 216
         },
         {
           "type": "Pass Accuracy",
@@ -1569,7 +1651,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 30
+          "value": 33
         },
         {
           "type": "Total Shots",
@@ -1605,7 +1687,7 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Tackles",
@@ -1617,7 +1699,7 @@
         },
         {
           "type": "Yellow Cards",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Red Cards",

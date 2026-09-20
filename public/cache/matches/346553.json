@@ -7,12 +7,12 @@
       "city": ""
     },
     "status": {
-      "long": "HT",
-      "short": "HT",
-      "elapsed": 45
+      "long": "2H",
+      "short": "2H",
+      "elapsed": 47
     },
-    "timerStart": "2026-09-20T19:52:40.111Z",
-    "timerStatus": "PAUSADO"
+    "timerStart": "2026-09-20T20:09:38.062Z",
+    "timerStatus": "INICIADO"
   },
   "league": {
     "round": "Regular Season - 28"
@@ -31,7 +31,7 @@
   },
   "goals": {
     "home": 1,
-    "away": 0
+    "away": 1
   },
   "score": {
     "halftime": {
@@ -51,6 +51,60 @@
   },
   "_geUrl": "https://ge.globo.com/ba/futebol/brasileirao-serie-a/jogo/20-09-2026/vitoria-cruzeiro.ghtml",
   "events": [
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 287,
+        "name": "Vitória"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Zé Vitor"
+      },
+      "assist": {
+        "name": "Caíque"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 287,
+        "name": "Vitória"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Brítez"
+      },
+      "assist": {
+        "name": "Mateus Silva"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 283,
+        "name": "Cruzeiro"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "William"
+      },
+      "assist": {
+        "name": "Fagner"
+      }
+    },
     {
       "time": {
         "elapsed": 0,
@@ -687,6 +741,38 @@
         "extra": null
       },
       "team": {
+        "id": 283,
+        "name": "Cruzeiro"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "player": {
+        "name": "Arroyo"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 45,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Bola rolando para os 45 minutos finais no Barradão!",
+      "player": {
+        "name": "Recomeçou!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 45,
+        "extra": null
+      },
+      "team": {
         "id": 0,
         "name": ""
       },
@@ -1223,15 +1309,15 @@
         },
         {
           "type": "Total Passes",
-          "value": 188
+          "value": 191
         },
         {
           "type": "Pass Accuracy",
-          "value": "86%"
+          "value": "85%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 27
+          "value": 28
         },
         {
           "type": "Total Shots",
@@ -1311,11 +1397,11 @@
         },
         {
           "type": "Total Shots",
-          "value": 4
+          "value": 5
         },
         {
           "type": "Shots on Goal",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Shots off Goal",

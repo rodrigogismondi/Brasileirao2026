@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 51
+      "elapsed": 56
     },
     "timerStart": "2026-09-20T15:10:25.469Z",
     "timerStatus": "INICIADO"
@@ -763,11 +763,77 @@
         "name": ""
       },
       "type": "Important",
+      "detail": "O primeiro tempo foi eletrizante, com chances claras e três bolas na trave. O Palmeiras pressionou e carimbou o travessão duas vezes, com Marlon Freitas e Vitor Roque, parando também em grandes defesas de Weverton. O Grêmio respondeu em contra-ataques venenosos com Amuzu e Pavón, mas Carlos Miguel salvou o time paulista. No fim, os gaúchos também acertaram o poste. O segundo tempo começa com o placar zerado.",
+      "player": {
+        "name": "Travessão para todo lado e placar zerado!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 50,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
       "detail": "Times começam errando mais passes do que no primeiro tempo e ninguém consegue evoluir jogadas no campo.",
       "player": {
         "name": "Times começam errando mais passes do que no prim"
       },
       "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 51,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "João Pedro cruza na área, Carlos Miguel sai para socar, mas pega estranho na bola, que sobe. O próprio goleiro recolhe e fica com ela.",
+      "player": {
+        "name": "João Pedro cruza na área, Carlos Miguel sai para"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 53,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "A partida segue 0 a 0 no início do segundo tempo, mas o que não faltaram foram chances claras. O Palmeiras pressionou muito e carimbou o travessão duas vezes, com Marlon Freitas e Vitor Roque. O Grêmio respondeu em contra-ataques perigosos, acertando a trave também em cabeçada de Gustavo Martins. Os goleiros Weverton e Carlos Miguel são os grandes nomes, com defesas espetaculares para manter o placar zerado.",
+      "player": {
+        "name": "Travessão e goleiros brilham em jogo intenso"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 53,
+        "extra": null
+      },
+      "team": {
+        "id": 284,
+        "name": "Grêmio"
+      },
+      "type": "Important",
+      "detail": "O Palmeiras chega pela direita e cruza na pequena área. Vitor Roque sobe mais que a marcação e cabeceia firme, mas Weverton faz defesaça e salva o Grêmio.",
+      "player": {
+        "name": "Weverton"
+      },
+      "assist": {
+        "name": "Defesaça!"
+      }
     }
   ],
   "lineups": [
@@ -1229,15 +1295,15 @@
         },
         {
           "type": "Total Passes",
-          "value": 174
+          "value": 187
         },
         {
           "type": "Pass Accuracy",
-          "value": "80%"
+          "value": "79%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 35
+          "value": 40
         },
         {
           "type": "Total Shots",
@@ -1277,7 +1343,7 @@
         },
         {
           "type": "Tackles",
-          "value": 9
+          "value": 11
         },
         {
           "type": "Fouls",
@@ -1305,7 +1371,7 @@
         },
         {
           "type": "Total Passes",
-          "value": 374
+          "value": 401
         },
         {
           "type": "Pass Accuracy",
@@ -1313,7 +1379,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 42
+          "value": 46
         },
         {
           "type": "Total Shots",
@@ -1341,7 +1407,7 @@
         },
         {
           "type": "Offsides",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Penalties",
@@ -1353,7 +1419,7 @@
         },
         {
           "type": "Tackles",
-          "value": 9
+          "value": 10
         },
         {
           "type": "Fouls",

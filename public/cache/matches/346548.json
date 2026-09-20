@@ -9,7 +9,7 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": 18
+      "elapsed": 21
     },
     "timerStart": "2026-09-20T19:00:08.010Z",
     "timerStatus": "INICIADO"
@@ -431,6 +431,22 @@
         "extra": null
       },
       "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "A partida começou com o Corinthians tentando impor seu ritmo, mas é o Fluminense quem cria as melhores chances nestes primeiros 16 minutos. O Tricolor já assustou em duas chegadas perigosas: primeiro com Canobbio e depois com Serna, ambas parando em boas defesas do goleiro Hugo Souza. O time da casa tem mais a posse, mas encontra dificuldades para transformar o volume em finalizações claras.",
+      "player": {
+        "name": "Flu chega com perigo e Hugo Souza se destaca"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 16,
+        "extra": null
+      },
+      "team": {
         "id": 266,
         "name": "Fluminense"
       },
@@ -442,6 +458,38 @@
       "assist": {
         "name": "QUASE O PRIMEIRO DO FLUMINENSE!"
       }
+    },
+    {
+      "time": {
+        "elapsed": 17,
+        "extra": null
+      },
+      "team": {
+        "id": 264,
+        "name": "Corinthians"
+      },
+      "type": "Important",
+      "detail": "Bidon recebe dentro da área pela esquerda, cruza rasteiro e Nonato aparece para cortar a bola. Corinthians chega bem ao ataque tricolor",
+      "player": {
+        "name": "QUE PERIGO!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 17,
+        "extra": null
+      },
+      "team": {
+        "id": 264,
+        "name": "Corinthians"
+      },
+      "type": "Important",
+      "detail": "Kaio César recupera a bola, arranca, mas acaba se complicando e precisa voltar a jogada. Torcida do Corinthians se irrita",
+      "player": {
+        "name": "Kaio César recupera a bola, arranca, mas acaba s"
+      },
+      "assist": null
     }
   ],
   "lineups": [
@@ -899,19 +947,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "72%"
+          "value": "66%"
         },
         {
           "type": "Total Passes",
-          "value": 122
+          "value": 136
         },
         {
           "type": "Pass Accuracy",
-          "value": "87%"
+          "value": "88%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 16
+          "value": 17
         },
         {
           "type": "Total Shots",
@@ -947,15 +995,15 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Tackles",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Fouls",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Yellow Cards",
@@ -975,27 +1023,27 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "28%"
+          "value": "34%"
         },
         {
           "type": "Total Passes",
-          "value": 55
+          "value": 71
         },
         {
           "type": "Pass Accuracy",
-          "value": "87%"
+          "value": "86%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 7
+          "value": 10
         },
         {
           "type": "Total Shots",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Shots on Goal",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Shots off Goal",

@@ -9,10 +9,10 @@
     "status": {
       "long": "1H",
       "short": "1H",
-      "elapsed": null
+      "elapsed": 5
     },
-    "timerStart": "2026-09-20T21:33:36.636Z",
-    "timerStatus": "PAUSADO"
+    "timerStart": "2026-09-20T22:30:40.838Z",
+    "timerStatus": "INICIADO"
   },
   "league": {
     "round": "Regular Season - 28"
@@ -64,6 +64,38 @@
       "detail": "Bola rolando para Athletico e Bahia na Arena da Baixada.",
       "player": {
         "name": "Começou!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 1,
+        "extra": null
+      },
+      "team": {
+        "id": 265,
+        "name": "Bahia"
+      },
+      "type": "Important",
+      "detail": "Jogo parado depois do volante Acevedo levar uma braçada de Mendoza e cair no centro de campo.",
+      "player": {
+        "name": "Acevedo"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 2,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Vida que segue, nada marcado. Acevedo já está de pé.",
+      "player": {
+        "name": "Vida que segue, nada marcado. Acevedo já está de"
       },
       "assist": null
     }

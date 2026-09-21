@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 70
+      "elapsed": 73
     },
     "timerStart": "2026-09-20T23:41:23.222Z",
     "timerStatus": "INICIADO"
@@ -30,7 +30,7 @@
     }
   },
   "goals": {
-    "home": 1,
+    "home": 2,
     "away": 1
   },
   "score": {
@@ -1078,6 +1078,38 @@
         "name": "Pulga faz jogada em profundidade pela esquerda e"
       },
       "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 68,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O jogo, que já teve o placar igualado no primeiro tempo, ganha um novo capítulo! Após Esquivel abrir para o Athletico e Erick Pulga empatar para o Bahia em falha do goleiro, o Furacão volta a liderar. Aos 23 da segunda etapa, Vargas cruzou na medida e Jorge Rivaldo se antecipou à zaga para marcar, fazendo 2 a 1 para o time da casa na Arena da Baixada.",
+      "player": {
+        "name": "Rivaldo coloca o Furacão em vantagem!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 68,
+        "extra": null
+      },
+      "team": {
+        "id": 293,
+        "name": "Athletico-PR"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "player": {
+        "name": "Jorge Rivaldo"
+      },
+      "assist": null
     }
   ],
   "lineups": [
@@ -1539,7 +1571,7 @@
         },
         {
           "type": "Total Passes",
-          "value": 424
+          "value": 429
         },
         {
           "type": "Pass Accuracy",
@@ -1551,15 +1583,15 @@
         },
         {
           "type": "Total Shots",
-          "value": 6
+          "value": 8
         },
         {
           "type": "Shots on Goal",
-          "value": 6
+          "value": 7
         },
         {
           "type": "Shots off Goal",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Blocked Shots",
@@ -1615,7 +1647,7 @@
         },
         {
           "type": "Total Passes",
-          "value": 384
+          "value": 403
         },
         {
           "type": "Pass Accuracy",
@@ -1623,7 +1655,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 43
+          "value": 45
         },
         {
           "type": "Total Shots",
@@ -1667,7 +1699,7 @@
         },
         {
           "type": "Fouls",
-          "value": 9
+          "value": 10
         },
         {
           "type": "Yellow Cards",

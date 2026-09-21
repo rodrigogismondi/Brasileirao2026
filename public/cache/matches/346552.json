@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 94
+      "elapsed": 97
     },
     "timerStart": "2026-09-20T23:41:23.222Z",
     "timerStatus": "INICIADO"
@@ -1489,6 +1489,22 @@
         "extra": null
       },
       "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Que final de jogo na Arena da Baixada! O Athletico saiu na frente com Esquivel, mas Erick Pulga empatou para o Bahia. No segundo tempo, Jorge Rivaldo recolocou o Furacão em vantagem, fazendo 2 a 1. Quando a vitória parecia encaminhada, o VAR interveio e, aos 47 minutos, o árbitro marcou pênalti para o Tricolor após toque de mão de Jadson. Chance de ouro para o Bahia empatar.",
+      "player": {
+        "name": "Reviravolta nos acréscimos: pênalti para o Bahia!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 92,
+        "extra": null
+      },
+      "team": {
         "id": 265,
         "name": "Bahia"
       },
@@ -1498,6 +1514,40 @@
         "name": "É pênalti!"
       },
       "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 93,
+        "extra": null
+      },
+      "team": {
+        "id": 293,
+        "name": "Athletico-PR"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "?"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 94,
+        "extra": null
+      },
+      "team": {
+        "id": 293,
+        "name": "Athletico-PR"
+      },
+      "type": "Important",
+      "detail": "Everaldo bate firme no canto esquerdo Mycael, à meia altura, e goleiro do Furacão faz a defesa.",
+      "player": {
+        "name": "Mycael"
+      },
+      "assist": {
+        "name": "Pegoou, Mycael!"
+      }
     }
   ],
   "lineups": [
@@ -2047,7 +2097,7 @@
         },
         {
           "type": "Total Shots",
-          "value": 8
+          "value": 9
         },
         {
           "type": "Shots on Goal",
@@ -2059,7 +2109,7 @@
         },
         {
           "type": "Blocked Shots",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Hit Woodwork",

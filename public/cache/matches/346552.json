@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 97
+      "elapsed": 100
     },
     "timerStart": "2026-09-20T23:41:23.222Z",
     "timerStatus": "INICIADO"
@@ -1537,17 +1537,65 @@
         "extra": null
       },
       "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O jogo se encaminhava para o fim com o Athletico-PR vencendo por 2 a 1, gol de Jorge Rivaldo, mas a emoção ficou para os acréscimos. Após revisão do VAR, o Bahia teve um pênalti a seu favor. Everaldo cobrou firme, mas parou em uma defesa espetacular de Mycael, que saltou no canto esquerdo e garantiu a vantagem para o Furacão em um final de tirar o fôlego na Arena da Baixada.",
+      "player": {
+        "name": "Que final! Mycael salva o Athletico!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 94,
+        "extra": null
+      },
+      "team": {
         "id": 293,
         "name": "Athletico-PR"
       },
       "type": "Important",
-      "detail": "Everaldo bate firme no canto esquerdo Mycael, à meia altura, e goleiro do Furacão faz a defesa.",
+      "detail": "Everaldo bate firme no canto esquerdo de Mycael, à meia altura, e goleiro do Furacão faz a defesa.",
       "player": {
         "name": "Mycael"
       },
       "assist": {
-        "name": "Pegoou, Mycael!"
+        "name": "Pega, Mycael!"
       }
+    },
+    {
+      "time": {
+        "elapsed": 96,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "A partida foi uma montanha-russa de emoções. O Athletico abriu o placar com Esquivel, mas o Bahia buscou o empate com Erick Pulga. Na etapa final, Jorge Rivaldo recolocou o Furacão na frente, fazendo 2 a 1. O roteiro guardou o melhor para o fim: nos acréscimos, o VAR marcou pênalti para o Bahia, mas Everaldo parou em uma defesa espetacular de Mycael, que viu o técnico Odair Hellmann ser expulso.",
+      "player": {
+        "name": "Final de cinema: Mycael pega pênalti!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 96,
+        "extra": null
+      },
+      "team": {
+        "id": 293,
+        "name": "Athletico-PR"
+      },
+      "type": "Card",
+      "detail": "Red Card",
+      "player": {
+        "name": "?"
+      },
+      "assist": null
     }
   ],
   "lineups": [
@@ -2065,11 +2113,11 @@
         },
         {
           "type": "Yellow Cards",
-          "value": 3
+          "value": 4
         },
         {
           "type": "Red Cards",
-          "value": 0
+          "value": 1
         }
       ]
     },
@@ -2097,11 +2145,11 @@
         },
         {
           "type": "Total Shots",
-          "value": 9
+          "value": 10
         },
         {
           "type": "Shots on Goal",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Shots off Goal",

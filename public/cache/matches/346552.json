@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 73
+      "elapsed": 76
     },
     "timerStart": "2026-09-20T23:41:23.222Z",
     "timerStatus": "INICIADO"
@@ -1089,9 +1089,9 @@
         "name": ""
       },
       "type": "Important",
-      "detail": "O jogo, que já teve o placar igualado no primeiro tempo, ganha um novo capítulo! Após Esquivel abrir para o Athletico e Erick Pulga empatar para o Bahia em falha do goleiro, o Furacão volta a liderar. Aos 23 da segunda etapa, Vargas cruzou na medida e Jorge Rivaldo se antecipou à zaga para marcar, fazendo 2 a 1 para o time da casa na Arena da Baixada.",
+      "detail": "Que jogo na Arena da Baixada! Após um primeiro tempo movimentado, com Esquivel abrindo o placar para o Athletico e Erick Pulga empatando para o Bahia, a segunda etapa seguiu muito disputada. Aos 23 minutos, o equilíbrio foi quebrado: Vargas cruzou da esquerda e Jorge Rivaldo se antecipou à marcação para fazer o segundo do Furacão, deixando o placar em 2 a 1 para o time da casa.",
       "player": {
-        "name": "Rivaldo coloca o Furacão em vantagem!"
+        "name": "Rivaldo coloca o Furacão na frente!"
       },
       "assist": null
     },
@@ -1110,6 +1110,58 @@
         "name": "Jorge Rivaldo"
       },
       "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 70,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Que segundo tempo na Arena da Baixada! Após um primeiro tempo com gols de Esquivel para o Athletico e Erick Pulga para o Bahia, o Furacão voltou a liderar. Aos 23 minutos da etapa final, Vargas cruzou na medida e Jorge Rivaldo apareceu para fazer 2 a 1. Com 25 minutos jogados, a partida segue movimentada e com o time da casa em vantagem no placar.",
+      "player": {
+        "name": "Rivaldo recoloca o Furacão na frente!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 70,
+        "extra": null
+      },
+      "team": {
+        "id": 293,
+        "name": "Athletico-PR"
+      },
+      "type": "Important",
+      "detail": "Mais uma vez, Vargas puxa ataque do Athletico e serve Dudu na meia-lua, que manda por cima do gol de Ronaldo.",
+      "player": {
+        "name": "Dudu"
+      },
+      "assist": {
+        "name": "Fora!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 72,
+        "extra": null
+      },
+      "team": {
+        "id": 265,
+        "name": "Bahia"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Caio Alexandre"
+      },
+      "assist": {
+        "name": "Acevedo"
+      }
     }
   ],
   "lineups": [
@@ -1571,7 +1623,7 @@
         },
         {
           "type": "Total Passes",
-          "value": 429
+          "value": 452
         },
         {
           "type": "Pass Accuracy",
@@ -1579,7 +1631,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 61
+          "value": 65
         },
         {
           "type": "Total Shots",
@@ -1607,7 +1659,7 @@
         },
         {
           "type": "Offsides",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Penalties",
@@ -1647,15 +1699,15 @@
         },
         {
           "type": "Total Passes",
-          "value": 403
+          "value": 412
         },
         {
           "type": "Pass Accuracy",
-          "value": "89%"
+          "value": "88%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 45
+          "value": 48
         },
         {
           "type": "Total Shots",
@@ -1699,11 +1751,11 @@
         },
         {
           "type": "Fouls",
-          "value": 10
+          "value": 12
         },
         {
           "type": "Yellow Cards",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Red Cards",

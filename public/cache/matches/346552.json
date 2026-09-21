@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 61
+      "elapsed": 63
     },
     "timerStart": "2026-09-20T23:41:23.222Z",
     "timerStatus": "INICIADO"
@@ -944,6 +944,40 @@
         "name": "Bahia tenta chegar pelo alto em cobrança de esca"
       },
       "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 59,
+        "extra": null
+      },
+      "team": {
+        "id": 265,
+        "name": "Bahia"
+      },
+      "type": "Important",
+      "detail": "Depois de contra-ataque perdido pelo Bahia, o Athletico tenta encaixar jogada rápida, mas Mendoza tem cruzamento bloqueado por David Duarte.",
+      "player": {
+        "name": "Depois de contra-ataque perdido pelo Bahia, o At"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 60,
+        "extra": null
+      },
+      "team": {
+        "id": 265,
+        "name": "Bahia"
+      },
+      "type": "Important",
+      "detail": "Juba consegue ótima enfiada para Nestor na ponta esquerda, mas camisa 11 chuta sem ângulo e conta com desvio de Mycael antes da bola sair.",
+      "player": {
+        "name": "Rodrigo Nestor"
+      },
+      "assist": {
+        "name": "Quase!"
+      }
     }
   ],
   "lineups": [
@@ -1405,7 +1439,7 @@
         },
         {
           "type": "Total Passes",
-          "value": 370
+          "value": 384
         },
         {
           "type": "Pass Accuracy",
@@ -1413,15 +1447,15 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 56
+          "value": 58
         },
         {
           "type": "Total Shots",
-          "value": 5
+          "value": 6
         },
         {
           "type": "Shots on Goal",
-          "value": 5
+          "value": 6
         },
         {
           "type": "Shots off Goal",
@@ -1437,7 +1471,7 @@
         },
         {
           "type": "Corner Kicks",
-          "value": 3
+          "value": 4
         },
         {
           "type": "Offsides",
@@ -1453,7 +1487,7 @@
         },
         {
           "type": "Tackles",
-          "value": 8
+          "value": 9
         },
         {
           "type": "Fouls",
@@ -1481,7 +1515,7 @@
         },
         {
           "type": "Total Passes",
-          "value": 328
+          "value": 342
         },
         {
           "type": "Pass Accuracy",
@@ -1489,7 +1523,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 36
+          "value": 38
         },
         {
           "type": "Total Shots",
@@ -1525,7 +1559,7 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 4
+          "value": 5
         },
         {
           "type": "Tackles",

@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 91
+      "elapsed": 94
     },
     "timerStart": "2026-09-20T23:41:23.222Z",
     "timerStatus": "INICIADO"
@@ -1427,9 +1427,75 @@
         "name": ""
       },
       "type": "Important",
+      "detail": "Que jogaço na Arena da Baixada! Após um primeiro tempo de trocação, com Esquivel abrindo o placar para o Athletico e Erick Pulga empatando para o Bahia após falha do goleiro Mycael, a segunda etapa seguiu equilibrada. Aos 23 minutos, porém, Vargas fez um belo cruzamento e Jorge Rivaldo apareceu para desempatar, fazendo 2 a 1 para o Furacão e colocando fogo na partida em seus minutos finais.",
+      "player": {
+        "name": "Rivaldo decide e Athletico fica na frente!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 90,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
       "detail": "Partida vai até os 51 minutos.",
       "player": {
         "name": "+ 6"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 91,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O primeiro tempo foi movimentado, com Esquivel abrindo o placar para o Athletico e Erick Pulga empatando para o Bahia. Na segunda etapa, o Furacão voltou a ficar na frente com gol de Jorge Rivaldo, que completou cruzamento de Vargas para fazer 2 a 1. Com o jogo já nos acréscimos, o Tricolor pressiona pelo empate e só não conseguiu porque Mycael fez uma defesaça em chute de Luciano Juba.",
+      "player": {
+        "name": "Furacão vira e segura a pressão do Bahia!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 91,
+        "extra": null
+      },
+      "team": {
+        "id": 265,
+        "name": "Bahia"
+      },
+      "type": "Important",
+      "detail": "Luciano Juba pega sobra de bola na entrada da área e chuta colocado para grande defesa de Mycael no ângulo.",
+      "player": {
+        "name": "Luciano Juba"
+      },
+      "assist": {
+        "name": "Que defesaça!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 92,
+        "extra": null
+      },
+      "team": {
+        "id": 265,
+        "name": "Bahia"
+      },
+      "type": "Important",
+      "detail": "Daronco confirma pênalti para o Tricolor.",
+      "player": {
+        "name": "É pênalti!"
       },
       "assist": null
     }
@@ -1889,11 +1955,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "46%"
+          "value": "45%"
         },
         {
           "type": "Total Passes",
-          "value": 513
+          "value": 514
         },
         {
           "type": "Pass Accuracy",
@@ -1901,19 +1967,19 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 71
+          "value": 72
         },
         {
           "type": "Total Shots",
-          "value": 9
+          "value": 11
         },
         {
           "type": "Shots on Goal",
-          "value": 7
+          "value": 8
         },
         {
           "type": "Shots off Goal",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Blocked Shots",
@@ -1937,7 +2003,7 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 3
+          "value": 4
         },
         {
           "type": "Tackles",
@@ -1945,11 +2011,11 @@
         },
         {
           "type": "Fouls",
-          "value": 6
+          "value": 7
         },
         {
           "type": "Yellow Cards",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Red Cards",
@@ -1965,11 +2031,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "54%"
+          "value": "55%"
         },
         {
           "type": "Total Passes",
-          "value": 495
+          "value": 522
         },
         {
           "type": "Pass Accuracy",
@@ -1977,7 +2043,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 54
+          "value": 57
         },
         {
           "type": "Total Shots",

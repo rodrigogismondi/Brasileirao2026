@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 63
+      "elapsed": 67
     },
     "timerStart": "2026-09-20T23:41:23.222Z",
     "timerStatus": "INICIADO"
@@ -967,6 +967,22 @@
         "extra": null
       },
       "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Athletico-PR saiu na frente aos 15 minutos com um belo gol de Esquivel, concluindo boa trama ofensiva. A resposta do Bahia veio aos 25, quando Erick Pulga aproveitou uma falha do goleiro Mycael e deixou tudo igual em 1 a 1. A partida segue movimentada no segundo tempo, e já com 15 minutos, o Bahia quase virou o placar em chute de Nestor, que parou em uma defesa importante de Mycael.",
+      "player": {
+        "name": "Gols, falha e tudo igual na Baixada"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 60,
+        "extra": null
+      },
+      "team": {
         "id": 265,
         "name": "Bahia"
       },
@@ -977,6 +993,58 @@
       },
       "assist": {
         "name": "Quase!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 62,
+        "extra": null
+      },
+      "team": {
+        "id": 265,
+        "name": "Bahia"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Jean Lucas"
+      },
+      "assist": {
+        "name": "Erick"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 63,
+        "extra": null
+      },
+      "team": {
+        "id": 265,
+        "name": "Bahia"
+      },
+      "type": "Important",
+      "detail": "Que partida na Arena! O Athletico abriu o placar aos 15 minutos em bela trama coletiva finalizada por Esquivel. A resposta do Bahia veio rápida, aos 25, quando Erick Pulga aproveitou uma falha do goleiro Mycael para empatar o jogo em 1 a 1. A partida segue equilibrada, e já com 18 minutos da segunda etapa, o Bahia faz substituições para tentar buscar a virada fora de casa.",
+      "player": {
+        "name": "Tudo igual em jogo movimentado na Baixada"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 63,
+        "extra": null
+      },
+      "team": {
+        "id": 265,
+        "name": "Bahia"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Kauê Furquim"
+      },
+      "assist": {
+        "name": "Ademir"
       }
     }
   ],
@@ -1435,11 +1503,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "47%"
+          "value": "46%"
         },
         {
           "type": "Total Passes",
-          "value": 384
+          "value": 398
         },
         {
           "type": "Pass Accuracy",
@@ -1483,7 +1551,7 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 0
+          "value": 3
         },
         {
           "type": "Tackles",
@@ -1511,11 +1579,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "53%"
+          "value": "54%"
         },
         {
           "type": "Total Passes",
-          "value": 342
+          "value": 347
         },
         {
           "type": "Pass Accuracy",
@@ -1523,23 +1591,23 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 38
+          "value": 39
         },
         {
           "type": "Total Shots",
-          "value": 5
+          "value": 8
         },
         {
           "type": "Shots on Goal",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Shots off Goal",
-          "value": 3
+          "value": 4
         },
         {
           "type": "Blocked Shots",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Hit Woodwork",
@@ -1547,7 +1615,7 @@
         },
         {
           "type": "Corner Kicks",
-          "value": 1
+          "value": 3
         },
         {
           "type": "Offsides",
@@ -1563,11 +1631,11 @@
         },
         {
           "type": "Tackles",
-          "value": 16
+          "value": 17
         },
         {
           "type": "Fouls",
-          "value": 8
+          "value": 9
         },
         {
           "type": "Yellow Cards",

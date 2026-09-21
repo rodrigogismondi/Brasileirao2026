@@ -9,7 +9,7 @@
     "status": {
       "long": "2H",
       "short": "2H",
-      "elapsed": 82
+      "elapsed": 85
     },
     "timerStart": "2026-09-20T23:41:23.222Z",
     "timerStatus": "INICIADO"
@@ -1201,6 +1201,22 @@
         "extra": null
       },
       "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Furacão volta a liderar o placar na Arena da Baixada! Aos 23 minutos do segundo tempo, Vargas fez um ótimo cruzamento e Jorge Rivaldo se antecipou para fazer 2 a 1. A partida é intensa desde o início, quando Esquivel abriu o marcador para o Athletico e Erick Pulga, aproveitando falha do goleiro Mycael, deixou tudo igual para o Bahia ainda na etapa inicial. O duelo segue aberto.",
+      "player": {
+        "name": "Rivaldo recoloca o Furacão em vantagem!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 77,
+        "extra": null
+      },
+      "team": {
         "id": 293,
         "name": "Athletico-PR"
       },
@@ -1211,6 +1227,76 @@
       },
       "assist": {
         "name": "Impedido"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 78,
+        "extra": null
+      },
+      "team": {
+        "id": 293,
+        "name": "Athletico-PR"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Zapelli"
+      },
+      "assist": {
+        "name": "Vargas"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 79,
+        "extra": null
+      },
+      "team": {
+        "id": 293,
+        "name": "Athletico-PR"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Gilberto Junior"
+      },
+      "assist": {
+        "name": "Gilberto"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 81,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Que jogo na Arena da Baixada! Já com 36 minutos na etapa final, o Athletico-PR está na frente por 2 a 1. Esquivel abriu o placar para o Furacão, mas Erick Pulga empatou para o Bahia. O gol que desequilibra o confronto veio dos pés de Jorge Rivaldo, que completou um ótimo cruzamento de Vargas. O time da casa segue perigoso e busca administrar o resultado nesta reta final.",
+      "player": {
+        "name": "Rivaldo coloca o Athletico em vantagem!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 81,
+        "extra": null
+      },
+      "team": {
+        "id": 265,
+        "name": "Bahia"
+      },
+      "type": "Important",
+      "detail": "Mendoza rouba a bola, puxa contra-ataque para o Athletico e tem chute bloqueado pela defesa do Bahia dentro da área.",
+      "player": {
+        "name": "Mendoza"
+      },
+      "assist": {
+        "name": "Speed"
       }
     }
   ],
@@ -1669,11 +1755,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "47%"
+          "value": "46%"
         },
         {
           "type": "Total Passes",
-          "value": 481
+          "value": 504
         },
         {
           "type": "Pass Accuracy",
@@ -1681,11 +1767,11 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 66
+          "value": 70
         },
         {
           "type": "Total Shots",
-          "value": 8
+          "value": 9
         },
         {
           "type": "Shots on Goal",
@@ -1693,7 +1779,7 @@
         },
         {
           "type": "Shots off Goal",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Blocked Shots",
@@ -1705,11 +1791,11 @@
         },
         {
           "type": "Corner Kicks",
-          "value": 4
+          "value": 5
         },
         {
           "type": "Offsides",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Penalties",
@@ -1721,11 +1807,11 @@
         },
         {
           "type": "Tackles",
-          "value": 10
+          "value": 13
         },
         {
           "type": "Fouls",
-          "value": 4
+          "value": 5
         },
         {
           "type": "Yellow Cards",
@@ -1745,19 +1831,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "53%"
+          "value": "54%"
         },
         {
           "type": "Total Passes",
-          "value": 424
+          "value": 485
         },
         {
           "type": "Pass Accuracy",
-          "value": "88%"
+          "value": "89%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 50
+          "value": 54
         },
         {
           "type": "Total Shots",
@@ -1793,11 +1879,11 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 5
+          "value": 6
         },
         {
           "type": "Tackles",
-          "value": 21
+          "value": 22
         },
         {
           "type": "Fouls",

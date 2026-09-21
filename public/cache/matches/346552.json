@@ -7,12 +7,12 @@
       "city": ""
     },
     "status": {
-      "long": "2H",
-      "short": "2H",
-      "elapsed": 100
+      "long": "FT",
+      "short": "FT",
+      "elapsed": 90
     },
     "timerStart": "2026-09-20T23:41:23.222Z",
-    "timerStatus": "INICIADO"
+    "timerStatus": "PAUSADO"
   },
   "league": {
     "round": "Regular Season - 28"
@@ -39,8 +39,8 @@
       "away": null
     },
     "fulltime": {
-      "home": null,
-      "away": null
+      "home": 2,
+      "away": 1
     }
   },
   "odds": {
@@ -51,6 +51,22 @@
   },
   "_geUrl": "https://ge.globo.com/pr/futebol/brasileirao-serie-a/jogo/20-09-2026/atletico-pr-bahia.ghtml",
   "events": [
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 265,
+        "name": "Bahia"
+      },
+      "type": "Important",
+      "detail": "Athletico bate o Bahia por 2 a 1 em confronto direto na Arena da Baixada.",
+      "player": {
+        "name": "Fim de papo!"
+      },
+      "assist": null
+    },
     {
       "time": {
         "elapsed": 0,
@@ -1596,6 +1612,38 @@
         "name": "?"
       },
       "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 99,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O jogo foi intenso do início ao fim! O Athletico abriu o placar com Esquivel, mas o Bahia empatou com Erick Pulga após falha do goleiro Mycael. Na segunda etapa, Jorge Rivaldo recolocou o Furacão na frente, fazendo 2 a 1. A partida caminhava para o fim quando, aos 47, o VAR marcou pênalti para o Bahia. Mas Mycael se redimiu, defendeu a cobrança de Everaldo e garantiu a vitória em um final épico",
+      "player": {
+        "name": "Mycael herói em final de jogo maluco!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 99,
+        "extra": null
+      },
+      "team": {
+        "id": 265,
+        "name": "Bahia"
+      },
+      "type": "Important",
+      "detail": "Daronco acrescenta mais dois minutos, Bahia ronda a área do Athletico e reta final fica dramática.",
+      "player": {
+        "name": "Daronco acrescenta mais dois minutos, Bahia rond"
+      },
+      "assist": null
     }
   ],
   "lineups": [
@@ -2057,15 +2105,15 @@
         },
         {
           "type": "Total Passes",
-          "value": 514
+          "value": 517
         },
         {
           "type": "Pass Accuracy",
-          "value": "86%"
+          "value": "85%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 72
+          "value": 75
         },
         {
           "type": "Total Shots",
@@ -2133,7 +2181,7 @@
         },
         {
           "type": "Total Passes",
-          "value": 522
+          "value": 537
         },
         {
           "type": "Pass Accuracy",
@@ -2141,7 +2189,7 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 57
+          "value": 59
         },
         {
           "type": "Total Shots",

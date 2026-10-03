@@ -7,12 +7,12 @@
       "city": ""
     },
     "status": {
-      "long": "NS",
-      "short": "NS",
-      "elapsed": null
+      "long": "1H",
+      "short": "1H",
+      "elapsed": 54
     },
-    "timerStart": null,
-    "timerStatus": "PAUSADO"
+    "timerStart": "2026-10-03T21:30:10.021Z",
+    "timerStatus": "INICIADO"
   },
   "league": {
     "round": "Regular Season - 21"
@@ -30,8 +30,8 @@
     }
   },
   "goals": {
-    "home": null,
-    "away": null
+    "home": 1,
+    "away": 0
   },
   "score": {
     "halftime": {
@@ -50,7 +50,540 @@
     "source": "betexplorer"
   },
   "_geUrl": "https://ge.globo.com/mg/futebol/brasileirao-serie-a/jogo/03-10-2026/atletico-mg-bragantino.ghtml",
-  "events": [],
+  "events": [
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 280,
+        "name": "Bragantino"
+      },
+      "type": "Important",
+      "detail": "O Bragantino dá o pontapé inicial.",
+      "player": {
+        "name": "COMEÇA O JOGO!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 2,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Jogadores de Atlético-MG e Red Bull Bragantino se chocaram de cabeça e estão recebendo atendimento da equipe médica. Uma ambulância também foi acionada para prestar atendimento aos atletas.",
+      "player": {
+        "name": "Jogadores de Atlético-MG e Red Bull Bragantino s"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 4,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "A partida mal começou e já foi paralisada por um momento de enorme preocupação. Logo aos 2 minutos, Vitor Hugo, do Atlético-MG, e Alix Vinícius, do Bragantino, sofreram um forte choque de cabeça e precisaram de atendimento médico imediato, com uma ambulância entrando em campo. O lance deixou os dois atletas desacordados por instantes e um clima de apreensão total no estádio.",
+      "player": {
+        "name": "Susto marca os primeiros minutos"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 4,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Vitor Hugo, do Atlético-MG, e Alix Vinícius, do Red Bull Bragantino, se chocaram de cabeça e ficaram desacordados por alguns instantes no gramado. Vitor Hugo se recuperou e deixou o campo caminhando. Já Alix Vinícius precisou ser retirado de ambulância para receber atendimento médico.",
+      "player": {
+        "name": "Vitor Hugo, do Atlético-MG, e Alix Vinícius, do "
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 5,
+        "extra": null
+      },
+      "team": {
+        "id": 280,
+        "name": "Bragantino"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Eduardo Santos"
+      },
+      "assist": {
+        "name": "Alix Vinicius"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 7,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O jogo mal começou e já teve um drama. Logo aos 4 minutos, Vitor Hugo, do Atlético-MG, e Alix Vinícius, do Bragantino, se chocaram de cabeça e precisaram de atendimento em campo, com o jogador do time visitante sendo substituído. Após o susto, a bola voltou a rolar e o Atlético-MG criou a primeira chance clara aos 7 minutos, em finalização de Cuello que parou em ótima defesa de Tiago Volpi.",
+      "player": {
+        "name": "Susto, substituição e grande defesa"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 7,
+        "extra": null
+      },
+      "team": {
+        "id": 282,
+        "name": "Atlético-MG"
+      },
+      "type": "Important",
+      "detail": "Lance de perigo do Atlético-MG! Cuello apareceu nas costas da defesa do Bragantino e finalizou para o gol, mas parou em Tiago Volpi, que fez a defesa.",
+      "player": {
+        "name": "Lance de perigo do Atlético-MG! Cuello apareceu "
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 10,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "A partida começou com um grande susto logo aos 4 minutos, quando Vitor Hugo e Alix Vinícius se chocaram de cabeça, forçando a substituição do zagueiro do Bragantino. Após a longa paralisação, o Atlético-MG assumiu o controle e pressionou. Com pouco mais de 10 minutos, o goleiro Tiago Volpi já se tornava destaque com duas ótimas defesas em chutes de Cuello e Fred para manter o 0 a 0.",
+      "player": {
+        "name": "Susto e pressão marcam o início do jogo"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 10,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Atlético-MG chega com perigo novamente! Fred arrisca de fora da área, e Tiago Volpi faz outra boa defesa para salvar o Bragantino.",
+      "player": {
+        "name": "UUUUUH"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 10,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O jogo começou com um susto enorme após um choque de cabeça entre Vitor Hugo e Alix Vinícius, que precisou ser substituído. Depois da longa paralisação, o Atlético-MG assumiu o controle da partida. Aos 10 minutos, o time da casa já acumula chances perigosas com Cuello e Fred, mas esbarra em duas grandes defesas de Tiago Volpi, que vai se tornando o destaque do Bragantino neste início.",
+      "player": {
+        "name": "Susto, pressão e Volpi em ação!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 16,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O jogo começou com um grande susto logo nos primeiros minutos, após um choque de cabeça entre Vitor Hugo e Alix Vinícius que forçou uma substituição no Bragantino. Depois da paralisação, o Atlético-MG passou a dominar as ações. Cuello e Fred criaram boas chances, mas pararam em duas defesas importantes do goleiro Tiago Volpi, que se destaca nesses primeiros 16 minutos de partida.",
+      "player": {
+        "name": "Início tenso e com chances para o Galo"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 16,
+        "extra": null
+      },
+      "team": {
+        "id": 280,
+        "name": "Bragantino"
+      },
+      "type": "Important",
+      "detail": "Bragantino troca passes na defesa.",
+      "player": {
+        "name": "Bragantino troca passes na defesa."
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 17,
+        "extra": null
+      },
+      "team": {
+        "id": 282,
+        "name": "Atlético-MG"
+      },
+      "type": "Important",
+      "detail": "O jogo começou com um grande susto: um choque de cabeça entre Vitor Hugo e Alix Vinícius, que precisou ser substituído. Após a paralisação, o Atlético-MG assumiu o controle, pressionando com chutes de Cuello e Fred, parados em boas defesas de Tiago Volpi. Mas aos 17 minutos, Bernard aproveitou falha da zaga após lançamento do goleiro Gabriel Delfim e abriu o placar: 1 a 0 para o Galo.",
+      "player": {
+        "name": "Galo na frente após início com susto"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 17,
+        "extra": null
+      },
+      "team": {
+        "id": 282,
+        "name": "Atlético-MG"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "player": {
+        "name": "Bernard"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 20,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "A partida começou com um grande susto após um choque de cabeça entre Vitor Hugo e Alix Vinícius, que forçou uma substituição no Bragantino. Depois, só deu Atlético-MG: Tiago Volpi fez grandes defesas em chutes de Cuello e Fred, mas não evitou o gol de Bernard aos 17 minutos, que aproveitou a falha da defesa para fazer 1 a 0. O Galo segue pressionando após abrir o placar.",
+      "player": {
+        "name": "Início tenso e gol do Atlético-MG"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 20,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "A pressão do Atlético-MG não para! O Galo segue em cima do Bragantino e ganha escanteio.",
+      "player": {
+        "name": "SÓ DÁ O GALO"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 20,
+        "extra": null
+      },
+      "team": {
+        "id": 282,
+        "name": "Atlético-MG"
+      },
+      "type": "Important",
+      "detail": "A partida começou com um susto: um choque de cabeça entre Vitor Hugo e Alix Vinícius, que precisou ser substituído. Após a paralisação, o Atlético-MG impôs um forte ritmo. Tiago Volpi fez boas defesas em chutes de Cuello e Fred, mas não evitou o gol de Bernard aos 17 minutos, que aproveitou falha da defesa e abriu o placar: 1 a 0. O Galo segue pressionando após 20 minutos de jogo.",
+      "player": {
+        "name": "Galo na frente após início tenso"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 21,
+        "extra": null
+      },
+      "team": {
+        "id": 282,
+        "name": "Atlético-MG"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Léo Duarte"
+      },
+      "assist": {
+        "name": "Vitor Hugo"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 26,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O jogo começou tenso, com um choque de cabeça que forçou substituições nos dois times. Após a paralisação, o Atlético-MG impôs um ritmo forte, com Cuello e Fred parando em boas defesas de Tiago Volpi. Aos 17 minutos, a insistência deu resultado: Bernard aproveitou falha da defesa do Bragantino e abriu o placar. Com 26 minutos de bola rolando, o time da casa segue dominante e pressionando.",
+      "player": {
+        "name": "Sustos, pressão e gol do Galo!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 26,
+        "extra": null
+      },
+      "team": {
+        "id": 282,
+        "name": "Atlético-MG"
+      },
+      "type": "Important",
+      "detail": "Falta perigosa para o Atlético-MG!",
+      "player": {
+        "name": "Falta perigosa para o Atlético-MG!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 27,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Galo aposta nos lançamentos nas costas da defesa do Bragantino, que marca em pressão alta. O Atlético-MG segue pressionando e buscando espaços na defesa do Massa Bruta.",
+      "player": {
+        "name": "O Galo aposta nos lançamentos nas costas da defe"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 30,
+        "extra": null
+      },
+      "team": {
+        "id": 282,
+        "name": "Atlético-MG"
+      },
+      "type": "Important",
+      "detail": "O jogo começou tenso com um choque de cabeça que forçou duas substituições, uma para cada lado. Após o susto, o Atlético-MG impôs seu ritmo. Cuello e Fred pararam em boas defesas de Tiago Volpi, mas aos 17 minutos não teve jeito: Bernard aproveitou lançamento do goleiro Gabriel Delfim e tocou na saída de Volpi para fazer 1 a 0. O Galo segue dominante e pressionando após 30 minutos de jogo.",
+      "player": {
+        "name": "Galo na frente após susto em campo"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 30,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Bragantino está tentando buscar o ataque, mas está parando na defesa do Atlético-MG.",
+      "player": {
+        "name": "Bragantino está tentando buscar o ataque, mas es"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 33,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "A partida começou com um enorme susto e paralisação por um choque de cabeça que forçou a substituição de Vitor Hugo e Alix Vinícius. Com a bola rolando, o Atlético-MG impôs um ritmo forte. Tiago Volpi salvou o Bragantino em chutes de Cuello e Fred, mas não evitou o gol de Bernard aos 18 minutos, que aproveitou falha da zaga para abrir o placar em 1 a 0. O Galo segue dominante após 30 minutos.",
+      "player": {
+        "name": "Susto, gol e domínio do Galo!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 33,
+        "extra": null
+      },
+      "team": {
+        "id": 280,
+        "name": "Bragantino"
+      },
+      "type": "Important",
+      "detail": "Falta perigosa para o Bragantino.",
+      "player": {
+        "name": "Falta perigosa para o Bragantino."
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 37,
+        "extra": null
+      },
+      "team": {
+        "id": 282,
+        "name": "Atlético-MG"
+      },
+      "type": "Important",
+      "detail": "O jogo começou com um grande susto após um choque de cabeça que forçou substituições nos dois times. Superado o incidente, o Atlético-MG impôs um ritmo forte, criando chances com Cuello e Fred, parando em boas defesas de Tiago Volpi. Aos 17 minutos, Bernard aproveitou um lançamento do goleiro e falha da zaga para abrir o placar: 1 a 0. O Galo segue com domínio total após 30 minutos.",
+      "player": {
+        "name": "Pressão, gol e susto marcam o início"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 37,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Atlético - MG volta a pressão no campo de ataque.",
+      "player": {
+        "name": "Atlético - MG volta a pressão no campo de ataque"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 40,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O jogo começou de forma dramática, com um choque de cabeça que forçou duas substituições. Após o susto, o Atlético-MG impôs um ritmo forte, com Volpi fazendo boas defesas. Aos 17 minutos, Bernard aproveitou um erro da zaga do Bragantino após lançamento do goleiro e marcou, fazendo 1 a 0. O Galo continua pressionando e dominando as ações ofensivas na primeira etapa.",
+      "player": {
+        "name": "Susto, gol e pressão marcam o início"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 40,
+        "extra": null
+      },
+      "team": {
+        "id": 280,
+        "name": "Bragantino"
+      },
+      "type": "Important",
+      "detail": "Falta na lateral do campo de ataque para o Bragantino.",
+      "player": {
+        "name": "Falta na lateral do campo de ataque para o Braga"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 45,
+        "extra": null
+      },
+      "team": {
+        "id": 282,
+        "name": "Atlético-MG"
+      },
+      "type": "Important",
+      "detail": "Que primeiro tempo agitado! A partida começou com um susto enorme após um choque de cabeça que tirou Vitor Hugo e Alix Vinícius de campo. Superado o drama, o Atlético-MG impôs seu ritmo. Tiago Volpi fez boas defesas, mas não evitou o gol de Bernard aos 17 minutos, que aproveitou um lançamento do goleiro e abriu o placar. O Galo faz 1 a 0 e continua pressionando em busca do segundo gol.",
+      "player": {
+        "name": "Início tenso e Galo na frente!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 45,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Primeiro tempo tem oito minutos de acréscimo.",
+      "player": {
+        "name": "ACRÉSCIMOS"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 50,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "A primeira etapa foi marcada por um susto logo no início, com um choque de cabeça que forçou substituições nos dois times. Depois disso, o Atlético-MG assumiu o controle, pressionou e abriu o placar aos 17 minutos com Bernard, que aproveitou falha da zaga para fazer 1 a 0. O Bragantino tentou reagir na reta final, mas o Galo seguiu com mais volume de jogo e manteve a vantagem.",
+      "player": {
+        "name": "Jogo tenso e Galo na frente!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 50,
+        "extra": null
+      },
+      "team": {
+        "id": 280,
+        "name": "Bragantino"
+      },
+      "type": "Important",
+      "detail": "Bragantino troca passes tentando chegar no ataque.",
+      "player": {
+        "name": "Bragantino troca passes tentando chegar no ataqu"
+      },
+      "assist": null
+    }
+  ],
   "lineups": [
     {
       "team": {
@@ -67,7 +600,7 @@
           "player": {
             "id": "gabriel-delfim",
             "name": "Gabriel Delfim",
-            "number": null,
+            "number": 1,
             "pos": "Gol",
             "grid": null
           }
@@ -76,7 +609,7 @@
           "player": {
             "id": "natanaelmoreira",
             "name": "Natanael",
-            "number": null,
+            "number": 2,
             "pos": "Def",
             "grid": null
           }
@@ -85,7 +618,7 @@
           "player": {
             "id": "lyanco",
             "name": "Lyanco",
-            "number": null,
+            "number": 13,
             "pos": "Def",
             "grid": null
           }
@@ -94,7 +627,7 @@
           "player": {
             "id": "vitorhugo02",
             "name": "Vitor Hugo",
-            "number": null,
+            "number": 14,
             "pos": "Def",
             "grid": null
           }
@@ -103,16 +636,16 @@
           "player": {
             "id": "renanlodi",
             "name": "Renan Lodi",
-            "number": null,
+            "number": 6,
             "pos": "Def",
             "grid": null
           }
         },
         {
           "player": {
-            "id": "tomperez213",
-            "name": "Tomás Pérez",
-            "number": null,
+            "id": "mamady-cisse",
+            "name": "Cissé",
+            "number": 39,
             "pos": "Mei",
             "grid": null
           }
@@ -121,7 +654,7 @@
           "player": {
             "id": "mayconab",
             "name": "Maycon",
-            "number": null,
+            "number": 8,
             "pos": "Mei",
             "grid": null
           }
@@ -130,7 +663,7 @@
           "player": {
             "id": "fred45",
             "name": "Fred",
-            "number": null,
+            "number": 7,
             "pos": "Mei",
             "grid": null
           }
@@ -139,7 +672,7 @@
           "player": {
             "id": "cuello",
             "name": "Cuello",
-            "number": null,
+            "number": 28,
             "pos": "Ata",
             "grid": null
           }
@@ -148,7 +681,7 @@
           "player": {
             "id": "reinier",
             "name": "Reinier",
-            "number": null,
+            "number": 19,
             "pos": "Ata",
             "grid": null
           }
@@ -157,13 +690,122 @@
           "player": {
             "id": "bernard3",
             "name": "Bernard",
-            "number": null,
+            "number": 11,
             "pos": "Ata",
             "grid": null
           }
         }
       ],
-      "substitutes": []
+      "substitutes": [
+        {
+          "player": {
+            "id": "robert",
+            "name": "Robert",
+            "number": 31,
+            "pos": "Gol",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "leoduarte",
+            "name": "Léo Duarte",
+            "number": 3,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "samuelsantos",
+            "name": "Samuel",
+            "number": 34,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "alexsander1003",
+            "name": "Alexsander",
+            "number": 5,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "tomperez213",
+            "name": "Tomás Pérez",
+            "number": 25,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "hendel-indio",
+            "name": "Índio",
+            "number": 38,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "igorgomes",
+            "name": "Igor Gomes",
+            "number": 17,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "victor-hugo-gsilva",
+            "name": "Victor Hugo",
+            "number": 30,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "gutte",
+            "name": "Gutte",
+            "number": 48,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "cassierramat",
+            "name": "Cassierra",
+            "number": 9,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "caua-soares",
+            "name": "Cauã Soares",
+            "number": 29,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "dudu",
+            "name": "Dudu",
+            "number": 92,
+            "pos": "Ata",
+            "grid": null
+          }
+        }
+      ]
     },
     {
       "team": {
@@ -171,7 +813,7 @@
         "name": "Bragantino",
         "logo": "https://s.sde.globo.com/media/organizations/2021/06/28/bragantino.svg"
       },
-      "formation": "4-3-3",
+      "formation": "3-4-3",
       "coach": {
         "name": "Vagner Mancini"
       },
@@ -180,17 +822,8 @@
           "player": {
             "id": "tiagovolpi",
             "name": "Tiago Volpi",
-            "number": null,
+            "number": 18,
             "pos": "Gol",
-            "grid": null
-          }
-        },
-        {
-          "player": {
-            "id": "santanna",
-            "name": "Sant'Anna",
-            "number": null,
-            "pos": "Def",
             "grid": null
           }
         },
@@ -198,7 +831,16 @@
           "player": {
             "id": "guzrodriguez",
             "name": "Guzmán Rodríguez",
-            "number": null,
+            "number": 2,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "alix-vinicius",
+            "name": "Alix Vinicius",
+            "number": 4,
             "pos": "Def",
             "grid": null
           }
@@ -207,16 +849,16 @@
           "player": {
             "id": "gustavomarquessantos",
             "name": "Gustavo Marques",
-            "number": null,
+            "number": 16,
             "pos": "Def",
             "grid": null
           }
         },
         {
           "player": {
-            "id": "juninhocapixaba",
-            "name": "Juninho Capixaba",
-            "number": null,
+            "id": "santanna",
+            "name": "Sant'Anna",
+            "number": 23,
             "pos": "Def",
             "grid": null
           }
@@ -225,7 +867,7 @@
           "player": {
             "id": "fabinho-freitas",
             "name": "Fabinho",
-            "number": null,
+            "number": 5,
             "pos": "Mei",
             "grid": null
           }
@@ -234,35 +876,17 @@
           "player": {
             "id": "ericramires",
             "name": "Eric Ramires",
-            "number": null,
+            "number": 7,
             "pos": "Mei",
             "grid": null
           }
         },
         {
           "player": {
-            "id": "lucas-barbosa",
-            "name": "Lucas Barbosa",
-            "number": null,
-            "pos": "Mei",
-            "grid": null
-          }
-        },
-        {
-          "player": {
-            "id": "wallace-yan",
-            "name": "Wallace Yan",
-            "number": null,
-            "pos": "Ata",
-            "grid": null
-          }
-        },
-        {
-          "player": {
-            "id": "pittais",
-            "name": "Isidro Pitta",
-            "number": null,
-            "pos": "Ata",
+            "id": "juninhocapixaba",
+            "name": "Juninho Capixaba",
+            "number": 29,
+            "pos": "Def",
             "grid": null
           }
         },
@@ -270,15 +894,295 @@
           "player": {
             "id": "fernando11111",
             "name": "Fernando",
-            "number": null,
+            "number": 11,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "eduardosasha",
+            "name": "Eduardo Sasha",
+            "number": 8,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "wallace-yan",
+            "name": "Wallace Yan",
+            "number": 47,
             "pos": "Ata",
             "grid": null
           }
         }
       ],
-      "substitutes": []
+      "substitutes": [
+        {
+          "player": {
+            "id": "cleiton-schwengber",
+            "name": "Cleiton",
+            "number": 1,
+            "pos": "Gol",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "eduardomendes",
+            "name": "Eduardo Santos",
+            "number": 3,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "vanderlan",
+            "name": "Vanderlan",
+            "number": 12,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "gabriel41",
+            "name": "Gabriel",
+            "number": 6,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "IgnacioSosa",
+            "name": "Ignacio Sosa",
+            "number": 15,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "matheusfernandes",
+            "name": "Matheus Fernandes",
+            "number": 35,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "bruninho-bragantino",
+            "name": "Bruninho",
+            "number": 19,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "pittais",
+            "name": "Isidro Pitta",
+            "number": 9,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "vinicius-calvas",
+            "name": "Vinicinho",
+            "number": 17,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "lucas-barbosa",
+            "name": "Lucas Barbosa",
+            "number": 21,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "HenryDavidMosqueraSanchez",
+            "name": "Henry Mosquera",
+            "number": 30,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "joseherrerama",
+            "name": "Herrera",
+            "number": 32,
+            "pos": "Ata",
+            "grid": null
+          }
+        }
+      ]
     }
   ],
-  "statistics": [],
+  "statistics": [
+    {
+      "team": {
+        "id": 282,
+        "name": "Atlético-MG"
+      },
+      "statistics": [
+        {
+          "type": "Ball Possession",
+          "value": "45%"
+        },
+        {
+          "type": "Total Passes",
+          "value": 206
+        },
+        {
+          "type": "Pass Accuracy",
+          "value": "83%"
+        },
+        {
+          "type": "Incomplete Passes",
+          "value": 36
+        },
+        {
+          "type": "Total Shots",
+          "value": 5
+        },
+        {
+          "type": "Shots on Goal",
+          "value": 3
+        },
+        {
+          "type": "Shots off Goal",
+          "value": 2
+        },
+        {
+          "type": "Blocked Shots",
+          "value": 0
+        },
+        {
+          "type": "Hit Woodwork",
+          "value": 0
+        },
+        {
+          "type": "Corner Kicks",
+          "value": 4
+        },
+        {
+          "type": "Offsides",
+          "value": 1
+        },
+        {
+          "type": "Penalties",
+          "value": 0
+        },
+        {
+          "type": "Goalkeeper Saves",
+          "value": 4
+        },
+        {
+          "type": "Tackles",
+          "value": 7
+        },
+        {
+          "type": "Fouls",
+          "value": 10
+        },
+        {
+          "type": "Yellow Cards",
+          "value": 0
+        },
+        {
+          "type": "Red Cards",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "team": {
+        "id": 280,
+        "name": "Bragantino"
+      },
+      "statistics": [
+        {
+          "type": "Ball Possession",
+          "value": "55%"
+        },
+        {
+          "type": "Total Passes",
+          "value": 261
+        },
+        {
+          "type": "Pass Accuracy",
+          "value": "82%"
+        },
+        {
+          "type": "Incomplete Passes",
+          "value": 48
+        },
+        {
+          "type": "Total Shots",
+          "value": 6
+        },
+        {
+          "type": "Shots on Goal",
+          "value": 1
+        },
+        {
+          "type": "Shots off Goal",
+          "value": 1
+        },
+        {
+          "type": "Blocked Shots",
+          "value": 4
+        },
+        {
+          "type": "Hit Woodwork",
+          "value": 0
+        },
+        {
+          "type": "Corner Kicks",
+          "value": 1
+        },
+        {
+          "type": "Offsides",
+          "value": 0
+        },
+        {
+          "type": "Penalties",
+          "value": 0
+        },
+        {
+          "type": "Goalkeeper Saves",
+          "value": 2
+        },
+        {
+          "type": "Tackles",
+          "value": 4
+        },
+        {
+          "type": "Fouls",
+          "value": 2
+        },
+        {
+          "type": "Yellow Cards",
+          "value": 0
+        },
+        {
+          "type": "Red Cards",
+          "value": 0
+        }
+      ]
+    }
+  ],
   "sportsFieldUrl": null
 }

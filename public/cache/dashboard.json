@@ -10012,9 +10012,7 @@
           "long": "FT",
           "short": "FT",
           "elapsed": 90
-        },
-        "timerStart": "2026-07-30T00:34:34.534Z",
-        "timerStatus": "PAUSADO"
+        }
       },
       "league": {
         "round": "Regular Season - 21"
@@ -10064,9 +10062,7 @@
           "long": "FT",
           "short": "FT",
           "elapsed": 90
-        },
-        "timerStart": "2026-07-30T00:29:51.687Z",
-        "timerStatus": "PAUSADO"
+        }
       },
       "league": {
         "round": "Regular Season - 21"
@@ -10116,9 +10112,7 @@
           "long": "FT",
           "short": "FT",
           "elapsed": 90
-        },
-        "timerStart": "2026-07-30T02:31:48.744Z",
-        "timerStatus": "PAUSADO"
+        }
       },
       "league": {
         "round": "Regular Season - 21"
@@ -10168,9 +10162,7 @@
           "long": "FT",
           "short": "FT",
           "elapsed": 90
-        },
-        "timerStart": "2026-07-30T02:32:42.656Z",
-        "timerStatus": "PAUSADO"
+        }
       },
       "league": {
         "round": "Regular Season - 21"
@@ -10220,9 +10212,7 @@
           "long": "FT",
           "short": "FT",
           "elapsed": 90
-        },
-        "timerStart": "2026-07-31T00:37:26.433Z",
-        "timerStatus": "PAUSADO"
+        }
       },
       "league": {
         "round": "Regular Season - 21"
@@ -10272,9 +10262,7 @@
           "long": "FT",
           "short": "FT",
           "elapsed": 90
-        },
-        "timerStart": "2026-07-31T02:34:32.144Z",
-        "timerStatus": "PAUSADO"
+        }
       },
       "league": {
         "round": "Regular Season - 21"
@@ -13374,9 +13362,7 @@
           "long": "FT",
           "short": "FT",
           "elapsed": 90
-        },
-        "timerStart": "2026-09-17T00:39:59.124Z",
-        "timerStatus": "PAUSADO"
+        }
       },
       "league": {
         "round": "Regular Season - 21"
@@ -13926,9 +13912,7 @@
           "long": "FT",
           "short": "FT",
           "elapsed": 90
-        },
-        "timerStart": "2026-10-03T01:16:01.620Z",
-        "timerStatus": "PAUSADO"
+        }
       },
       "league": {
         "round": "Regular Season - 21"
@@ -13975,12 +13959,12 @@
           "city": ""
         },
         "status": {
-          "long": "NS",
-          "short": "NS",
-          "elapsed": null
+          "long": "1H",
+          "short": "1H",
+          "elapsed": 54
         },
-        "timerStart": null,
-        "timerStatus": "PAUSADO"
+        "timerStart": "2026-10-03T21:30:10.021Z",
+        "timerStatus": "INICIADO"
       },
       "league": {
         "round": "Regular Season - 21"
@@ -13998,8 +13982,8 @@
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 0
       },
       "score": {
         "halftime": {
@@ -18809,6 +18793,28 @@
             {
               "rank": 7,
               "team": {
+                "id": 282,
+                "name": "Atlético-MG",
+                "logo": "https://s.sde.globo.com/media/organizations/2018/03/10/atletico-mg.svg"
+              },
+              "points": 43,
+              "goalsDiff": 5,
+              "form": "DWLWD",
+              "description": "Copa Sudamericana",
+              "all": {
+                "played": 28,
+                "win": 12,
+                "draw": 7,
+                "lose": 9,
+                "goals": {
+                  "for": 37,
+                  "against": 32
+                }
+              }
+            },
+            {
+              "rank": 8,
+              "team": {
                 "id": 277,
                 "name": "Santos",
                 "logo": "https://s.sde.globo.com/media/organizations/2018/03/12/santos.svg"
@@ -18825,28 +18831,6 @@
                 "goals": {
                   "for": 43,
                   "against": 41
-                }
-              }
-            },
-            {
-              "rank": 8,
-              "team": {
-                "id": 282,
-                "name": "Atlético-MG",
-                "logo": "https://s.sde.globo.com/media/organizations/2018/03/10/atletico-mg.svg"
-              },
-              "points": 40,
-              "goalsDiff": 4,
-              "form": "DWLWD",
-              "description": "Copa Sudamericana",
-              "all": {
-                "played": 27,
-                "win": 11,
-                "draw": 7,
-                "lose": 9,
-                "goals": {
-                  "for": 36,
-                  "against": 32
                 }
               }
             },
@@ -18875,28 +18859,6 @@
             {
               "rank": 10,
               "team": {
-                "id": 280,
-                "name": "Bragantino",
-                "logo": "https://s.sde.globo.com/media/organizations/2021/06/28/bragantino.svg"
-              },
-              "points": 36,
-              "goalsDiff": 2,
-              "form": "WLLDL",
-              "description": "Copa Sudamericana",
-              "all": {
-                "played": 27,
-                "win": 10,
-                "draw": 6,
-                "lose": 11,
-                "goals": {
-                  "for": 33,
-                  "against": 31
-                }
-              }
-            },
-            {
-              "rank": 11,
-              "team": {
                 "id": 276,
                 "name": "São Paulo",
                 "logo": "https://s.sde.globo.com/media/organizations/2018/03/11/sao-paulo.svg"
@@ -18904,6 +18866,28 @@
               "points": 36,
               "goalsDiff": 1,
               "form": "LWWLW",
+              "description": "Copa Sudamericana",
+              "all": {
+                "played": 28,
+                "win": 10,
+                "draw": 6,
+                "lose": 12,
+                "goals": {
+                  "for": 33,
+                  "against": 32
+                }
+              }
+            },
+            {
+              "rank": 11,
+              "team": {
+                "id": 280,
+                "name": "Bragantino",
+                "logo": "https://s.sde.globo.com/media/organizations/2021/06/28/bragantino.svg"
+              },
+              "points": 36,
+              "goalsDiff": 1,
+              "form": "WLLDL",
               "description": "Copa Sudamericana",
               "all": {
                 "played": 28,
@@ -20225,10 +20209,10 @@
   "budget": {
     "used": 0,
     "remaining": 100,
-    "mode": "prematch",
-    "liveIntervalMs": 120000
+    "mode": "live",
+    "liveIntervalMs": 20000
   },
-  "fetchedAt": "2026-10-03T19:32:26.235Z",
+  "fetchedAt": "2026-10-03T22:24:16.636Z",
   "source": "ge-globo",
   "meta": {
     "rodada": 21,

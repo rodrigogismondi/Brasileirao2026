@@ -10,7 +10,9 @@
       "long": "NS",
       "short": "NS",
       "elapsed": null
-    }
+    },
+    "timerStart": null,
+    "timerStatus": "PAUSADO"
   },
   "league": {
     "round": "Regular Season - 29"
@@ -43,12 +45,240 @@
   },
   "odds": {
     "home": 1.48,
-    "draw": 4.17,
-    "away": 6.49,
+    "draw": 4.08,
+    "away": 6.33,
     "source": "betexplorer"
   },
+  "_geUrl": "https://ge.globo.com/rj/futebol/brasileirao-serie-a/jogo/08-10-2026/fluminense-coritiba.ghtml",
   "events": [],
-  "lineups": [],
+  "lineups": [
+    {
+      "team": {
+        "id": 266,
+        "name": "Fluminense",
+        "logo": "https://s.sde.globo.com/media/organizations/2018/03/11/fluminense.svg"
+      },
+      "formation": "4-3-3",
+      "coach": {
+        "name": "Marcão"
+      },
+      "startXI": [
+        {
+          "player": {
+            "id": "fabio",
+            "name": "Fábio",
+            "number": 1,
+            "pos": "Gol",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "guga74567",
+            "name": "Guga",
+            "number": 23,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "thiagosilva",
+            "name": "Thiago Silva",
+            "number": 3,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "julian-millan",
+            "name": "Millán",
+            "number": 29,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "guilhermearana",
+            "name": "Guilherme Arana",
+            "number": null,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "matheusmartinelli",
+            "name": "Martinelli",
+            "number": 8,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "hercules-nascimento",
+            "name": "Hércules",
+            "number": 35,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "phganso",
+            "name": "Ganso",
+            "number": 10,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "hulk",
+            "name": "Hulk",
+            "number": 7,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "soteldo",
+            "name": "Soteldo",
+            "number": 30,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "Serna",
+            "name": "Serna",
+            "number": null,
+            "pos": "Ata",
+            "grid": null
+          }
+        }
+      ],
+      "substitutes": []
+    },
+    {
+      "team": {
+        "id": 294,
+        "name": "Coritiba",
+        "logo": "https://s.sde.globo.com/media/organizations/2018/03/11/coritiba.svg"
+      },
+      "formation": "4-3-3",
+      "coach": {
+        "name": "Fernando Seabra"
+      },
+      "startXI": [
+        {
+          "player": {
+            "id": "pedro-morisco",
+            "name": "Pedro Morisco",
+            "number": 1,
+            "pos": "Gol",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "tiagocoser",
+            "name": "Tiago Cóser",
+            "number": 23,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "rodrigo-moledo",
+            "name": "Rodrigo Moledo",
+            "number": null,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "jacy-maranhao",
+            "name": "Jacy",
+            "number": 55,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "brunomelo",
+            "name": "Bruno Melo",
+            "number": 26,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "thiago_santos",
+            "name": "Thiago Santos",
+            "number": 21,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "sebastiangomezlon",
+            "name": "Sebastián Gómez",
+            "number": 19,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "josuefilipe",
+            "name": "Josué",
+            "number": 10,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "pedrorocha",
+            "name": "Pedro Rocha",
+            "number": 32,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "Paulo-Roberto",
+            "name": "Paulo Roberto",
+            "number": null,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "fabinholuciano",
+            "name": "Fabinho",
+            "number": null,
+            "pos": "Ata",
+            "grid": null
+          }
+        }
+      ],
+      "substitutes": []
+    }
+  ],
   "statistics": [],
   "sportsFieldUrl": null
 }

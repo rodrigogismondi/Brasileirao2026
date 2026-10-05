@@ -10,7 +10,9 @@
       "long": "NS",
       "short": "NS",
       "elapsed": null
-    }
+    },
+    "timerStart": null,
+    "timerStatus": "PAUSADO"
   },
   "league": {
     "round": "Regular Season - 29"
@@ -42,13 +44,241 @@
     }
   },
   "odds": {
-    "home": 1.54,
-    "draw": 4.24,
-    "away": 5.43,
+    "home": 1.53,
+    "draw": 4.14,
+    "away": 5.38,
     "source": "betexplorer"
   },
+  "_geUrl": "https://ge.globo.com/sp/futebol/brasileirao-serie-a/jogo/08-10-2026/palmeiras-bahia.ghtml",
   "events": [],
-  "lineups": [],
+  "lineups": [
+    {
+      "team": {
+        "id": 275,
+        "name": "Palmeiras",
+        "logo": "https://s.sde.globo.com/media/organizations/2019/07/06/Palmeiras.svg"
+      },
+      "formation": "3-6-1",
+      "coach": {
+        "name": "Abel Ferreira"
+      },
+      "startXI": [
+        {
+          "player": {
+            "id": "carlos-miguel-pereira",
+            "name": "Carlos Miguel",
+            "number": 1,
+            "pos": "Gol",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "gustavo-gomez",
+            "name": "Gustavo Gómez",
+            "number": null,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "murilocerqueira",
+            "name": "Murilo",
+            "number": 26,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "alexbarboza",
+            "name": "Alexander Barboza",
+            "number": 2,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "agugiay",
+            "name": "Giay",
+            "number": 4,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "marlon-freitas",
+            "name": "Marlon Freitas",
+            "number": 17,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "andreaspereira",
+            "name": "Andreas Pereira",
+            "number": 8,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "ariasjhon",
+            "name": "Arias",
+            "number": 11,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "piquerez",
+            "name": "Piquerez",
+            "number": 22,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "joselopez",
+            "name": "Flaco López",
+            "number": 42,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "vitorroque",
+            "name": "Vitor Roque",
+            "number": null,
+            "pos": "Ata",
+            "grid": null
+          }
+        }
+      ],
+      "substitutes": []
+    },
+    {
+      "team": {
+        "id": 265,
+        "name": "Bahia",
+        "logo": "https://s.sde.globo.com/media/organizations/2018/03/11/bahia.svg"
+      },
+      "formation": "4-3-3",
+      "coach": {
+        "name": "Rogério Ceni"
+      },
+      "startXI": [
+        {
+          "player": {
+            "id": "ronaldostrada",
+            "name": "Ronaldo",
+            "number": 1,
+            "pos": "Gol",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "marcos-victor",
+            "name": "Marcos Victor",
+            "number": 44,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "davidduarte",
+            "name": "David Duarte",
+            "number": 33,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "kanu-victor-hugo",
+            "name": "Kanu",
+            "number": 4,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "lucianojuba",
+            "name": "Luciano Juba",
+            "number": 46,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "acevedoni",
+            "name": "Acevedo",
+            "number": 5,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "jeanlucassouza",
+            "name": "Jean Lucas",
+            "number": 6,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "rodrigonestor",
+            "name": "Rodrigo Nestor",
+            "number": 11,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "cristianolivera424",
+            "name": "Cristian Olivera",
+            "number": 99,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "velizale",
+            "name": "Alejo Véliz",
+            "number": 9,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "erickpulga",
+            "name": "Erick Pulga",
+            "number": 16,
+            "pos": "Ata",
+            "grid": null
+          }
+        }
+      ],
+      "substitutes": []
+    }
+  ],
   "statistics": [],
   "sportsFieldUrl": null
 }

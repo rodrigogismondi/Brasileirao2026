@@ -10,7 +10,9 @@
       "long": "NS",
       "short": "NS",
       "elapsed": null
-    }
+    },
+    "timerStart": null,
+    "timerStatus": "PAUSADO"
   },
   "league": {
     "round": "Regular Season - 29"
@@ -42,13 +44,241 @@
     }
   },
   "odds": {
-    "home": 2.21,
-    "draw": 3.38,
-    "away": 3.12,
+    "home": 2.19,
+    "draw": 3.36,
+    "away": 3.14,
     "source": "betexplorer"
   },
+  "_geUrl": "https://ge.globo.com/pa/futebol/brasileirao-serie-a/jogo/07-10-2026/remo-gremio.ghtml",
   "events": [],
-  "lineups": [],
+  "lineups": [
+    {
+      "team": {
+        "id": 364,
+        "name": "Remo",
+        "logo": "https://s.sde.globo.com/media/organizations/2021/02/25/Remo-PA.svg"
+      },
+      "formation": "3-5-2",
+      "coach": {
+        "name": "Thiago Carpini"
+      },
+      "startXI": [
+        {
+          "player": {
+            "id": "marcelorangel",
+            "name": "Marcelo Rangel",
+            "number": 88,
+            "pos": "Gol",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "marcelinhors",
+            "name": "Marcelinho",
+            "number": null,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "marllon",
+            "name": "Marllon",
+            "number": null,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "tchamba",
+            "name": "Tchamba",
+            "number": 18,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "marlon-matheus",
+            "name": "Marlon",
+            "number": 6,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "picco",
+            "name": "Picco",
+            "number": 14,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "zericardoaraujo",
+            "name": "Zé Ricardo",
+            "number": null,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "vitor-bueno",
+            "name": "Vitor Bueno",
+            "number": null,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "yagopikachu",
+            "name": "Yago Pikachu",
+            "number": null,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "gabrieltaliari",
+            "name": "Gabriel Taliari",
+            "number": null,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "antoniogaleano",
+            "name": "Galeano",
+            "number": 21,
+            "pos": "Ata",
+            "grid": null
+          }
+        }
+      ],
+      "substitutes": []
+    },
+    {
+      "team": {
+        "id": 284,
+        "name": "Grêmio",
+        "logo": "https://s.sde.globo.com/media/organizations/2018/03/12/gremio.svg"
+      },
+      "formation": "4-3-3",
+      "coach": {
+        "name": "Renato Gaúcho"
+      },
+      "startXI": [
+        {
+          "player": {
+            "id": "weverton2",
+            "name": "Weverton",
+            "number": 1,
+            "pos": "Gol",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "joaopedro06",
+            "name": "João Pedro",
+            "number": null,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "wallace",
+            "name": "Wallace",
+            "number": 82,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "wagner-leonardo",
+            "name": "Wagner Leonardo",
+            "number": null,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "pedro-gabriel-pinheiro",
+            "name": "Pedro Gabriel",
+            "number": null,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "danilobarbosa",
+            "name": "Danilo Barbosa",
+            "number": null,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "nardoni",
+            "name": "Nardoni",
+            "number": null,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "villasanti",
+            "name": "Villasanti",
+            "number": 20,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "crispavon",
+            "name": "Pavón",
+            "number": 7,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "carlosviniciusalves",
+            "name": "Carlos Vinícius",
+            "number": 95,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "francis-amuzu",
+            "name": "Amuzu",
+            "number": null,
+            "pos": "Ata",
+            "grid": null
+          }
+        }
+      ],
+      "substitutes": []
+    }
+  ],
   "statistics": [],
   "sportsFieldUrl": null
 }

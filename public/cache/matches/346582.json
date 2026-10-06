@@ -45,8 +45,8 @@
   },
   "odds": {
     "home": 2.08,
-    "draw": 3.21,
-    "away": 3.68,
+    "draw": 3.26,
+    "away": 3.64,
     "source": "betexplorer"
   },
   "_geUrl": "https://ge.globo.com/pr/futebol/brasileirao-serie-a/jogo/08-10-2026/atletico-pr-atletico-mg.ghtml",
@@ -58,7 +58,7 @@
         "name": "Athletico-PR",
         "logo": "https://s.sde.globo.com/media/organizations/2026/01/07/Athletico-PR.svg"
       },
-      "formation": "3-5-2",
+      "formation": "3-6-1",
       "coach": {
         "name": "Odair Hellmann"
       },
@@ -83,15 +83,6 @@
         },
         {
           "player": {
-            "id": "terancar",
-            "name": "Terán",
-            "number": null,
-            "pos": "Def",
-            "grid": null
-          }
-        },
-        {
-          "player": {
             "id": "arthur-dias",
             "name": "Arthur Dias",
             "number": 4,
@@ -101,9 +92,18 @@
         },
         {
           "player": {
-            "id": "gilberto02",
-            "name": "Gilberto",
-            "number": null,
+            "id": "esquivelal",
+            "name": "Esquivel",
+            "number": 37,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "benavidezgas",
+            "name": "Benavídez",
+            "number": 29,
             "pos": "Def",
             "grid": null
           }
@@ -128,6 +128,15 @@
         },
         {
           "player": {
+            "id": "leozinho",
+            "name": "Leozinho",
+            "number": 21,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
             "id": "joaovictormachadocruz",
             "name": "João Cruz",
             "number": 8,
@@ -137,19 +146,10 @@
         },
         {
           "player": {
-            "id": "esquivelal",
-            "name": "Esquivel",
-            "number": 37,
-            "pos": "Def",
-            "grid": null
-          }
-        },
-        {
-          "player": {
             "id": "s-mendoza",
             "name": "Mendoza",
             "number": 7,
-            "pos": "Ata",
+            "pos": "Def",
             "grid": null
           }
         },
@@ -189,7 +189,7 @@
           "player": {
             "id": "natanaelmoreira",
             "name": "Natanael",
-            "number": null,
+            "number": 2,
             "pos": "Def",
             "grid": null
           }
@@ -250,18 +250,18 @@
         },
         {
           "player": {
-            "id": "reinier",
-            "name": "Reinier",
-            "number": 19,
-            "pos": "Mei",
+            "id": "cuello",
+            "name": "Cuello",
+            "number": 28,
+            "pos": "Ata",
             "grid": null
           }
         },
         {
           "player": {
-            "id": "cuello",
-            "name": "Cuello",
-            "number": 28,
+            "id": "reinier",
+            "name": "Reinier",
+            "number": 19,
             "pos": "Ata",
             "grid": null
           }

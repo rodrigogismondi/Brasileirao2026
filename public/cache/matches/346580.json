@@ -44,9 +44,9 @@
     }
   },
   "odds": {
-    "home": 1.88,
-    "draw": 3.48,
-    "away": 4.03,
+    "home": 1.89,
+    "draw": 3.49,
+    "away": 4,
     "source": "betexplorer"
   },
   "_geUrl": "https://ge.globo.com/mg/futebol/brasileirao-serie-a/jogo/07-10-2026/cruzeiro-sao-paulo.ghtml",
@@ -83,9 +83,9 @@
         },
         {
           "player": {
-            "id": "fabriciobruno",
-            "name": "Fabrício Bruno",
-            "number": 15,
+            "id": "joaomarcelo",
+            "name": "João Marcelo",
+            "number": null,
             "pos": "Def",
             "grid": null
           }
@@ -94,7 +94,7 @@
           "player": {
             "id": "jonathan",
             "name": "Jonathan Jesus",
-            "number": null,
+            "number": 34,
             "pos": "Def",
             "grid": null
           }
@@ -128,15 +128,6 @@
         },
         {
           "player": {
-            "id": "matheushenrique1297",
-            "name": "Matheus Henrique",
-            "number": 7,
-            "pos": "Mei",
-            "grid": null
-          }
-        },
-        {
-          "player": {
             "id": "matheusfcpereira",
             "name": "Matheus Pereira",
             "number": 10,
@@ -161,6 +152,15 @@
             "pos": "Ata",
             "grid": null
           }
+        },
+        {
+          "player": {
+            "id": "wesley-corinthians",
+            "name": "Wesley",
+            "number": null,
+            "pos": "Ata",
+            "grid": null
+          }
         }
       ],
       "substitutes": []
@@ -180,7 +180,7 @@
           "player": {
             "id": "coronelcm",
             "name": "Coronel",
-            "number": null,
+            "number": 31,
             "pos": "Gol",
             "grid": null
           }
@@ -189,7 +189,7 @@
           "player": {
             "id": "rafaeltoloi",
             "name": "Rafael Tolói",
-            "number": null,
+            "number": 2,
             "pos": "Def",
             "grid": null
           }
@@ -214,17 +214,17 @@
         },
         {
           "player": {
-            "id": "lucasramon",
-            "name": "Lucas Ramon",
-            "number": 19,
+            "id": "pedro-lima",
+            "name": "Pedro Lima",
+            "number": 32,
             "pos": "Def",
             "grid": null
           }
         },
         {
           "player": {
-            "id": "bobadillad",
-            "name": "Bobadilla",
+            "id": "pablomaia",
+            "name": "Pablo Maia",
             "number": null,
             "pos": "Mei",
             "grid": null
@@ -232,9 +232,18 @@
         },
         {
           "player": {
-            "id": "marcosantonioss",
-            "name": "Marcos Antônio",
-            "number": 8,
+            "id": "bobadillad",
+            "name": "Bobadilla",
+            "number": 16,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "pedro-ferreira",
+            "name": "Pedro Ferreira",
+            "number": 46,
             "pos": "Mei",
             "grid": null
           }
@@ -243,7 +252,7 @@
           "player": {
             "id": "wendell2",
             "name": "Wendell",
-            "number": null,
+            "number": 18,
             "pos": "Def",
             "grid": null
           }
@@ -261,16 +270,7 @@
           "player": {
             "id": "calleri",
             "name": "Calleri",
-            "number": null,
-            "pos": "Ata",
-            "grid": null
-          }
-        },
-        {
-          "player": {
-            "id": "gustavo-santana",
-            "name": "Gustavo Santana",
-            "number": 43,
+            "number": 9,
             "pos": "Ata",
             "grid": null
           }

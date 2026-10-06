@@ -44,9 +44,9 @@
     }
   },
   "odds": {
-    "home": 4.08,
-    "draw": 3.67,
-    "away": 1.82,
+    "home": 4.24,
+    "draw": 3.63,
+    "away": 1.81,
     "source": "betexplorer"
   },
   "_geUrl": "https://ge.globo.com/sp/santos-e-regiao/futebol/brasileirao-serie-a/jogo/08-10-2026/santos-flamengo.ghtml",
@@ -58,7 +58,7 @@
         "name": "Santos",
         "logo": "https://s.sde.globo.com/media/organizations/2018/03/12/santos.svg"
       },
-      "formation": "4-4-2",
+      "formation": "4-3-3",
       "coach": {
         "name": "Cuca"
       },
@@ -67,7 +67,7 @@
           "player": {
             "id": "diogenesvini",
             "name": "Diógenes",
-            "number": null,
+            "number": 1,
             "pos": "Gol",
             "grid": null
           }
@@ -83,18 +83,18 @@
         },
         {
           "player": {
-            "id": "willianarao",
-            "name": "Willian Arão",
-            "number": 15,
+            "id": "lucasverissimo",
+            "name": "Lucas Veríssimo",
+            "number": 4,
             "pos": "Def",
             "grid": null
           }
         },
         {
           "player": {
-            "id": "lucasverissimo",
-            "name": "Lucas Veríssimo",
-            "number": null,
+            "id": "willianarao",
+            "name": "Willian Arão",
+            "number": 15,
             "pos": "Def",
             "grid": null
           }
@@ -112,7 +112,7 @@
           "player": {
             "id": "olivachris",
             "name": "Oliva",
-            "number": null,
+            "number": 28,
             "pos": "Mei",
             "grid": null
           }
@@ -128,15 +128,6 @@
         },
         {
           "player": {
-            "id": "gabriel-bontempo",
-            "name": "Gabriel Bontempo",
-            "number": 8,
-            "pos": "Mei",
-            "grid": null
-          }
-        },
-        {
-          "player": {
             "id": "rollheiser",
             "name": "Rollheiser",
             "number": 32,
@@ -146,18 +137,27 @@
         },
         {
           "player": {
-            "id": "gabriel-gabigol",
-            "name": "Gabriel",
-            "number": 9,
+            "id": "abarreal",
+            "name": "Barreal",
+            "number": null,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "gabriel-bontempo",
+            "name": "Gabriel Bontempo",
+            "number": 8,
             "pos": "Ata",
             "grid": null
           }
         },
         {
           "player": {
-            "id": "rony-botafogo",
-            "name": "Rony",
-            "number": null,
+            "id": "gabriel-gabigol",
+            "name": "Gabriel",
+            "number": 9,
             "pos": "Ata",
             "grid": null
           }
@@ -216,7 +216,7 @@
           "player": {
             "id": "alexsandro3",
             "name": "Alex Sandro",
-            "number": null,
+            "number": 26,
             "pos": "Def",
             "grid": null
           }
@@ -243,16 +243,16 @@
           "player": {
             "id": "lucaspaqueta",
             "name": "Lucas Paquetá",
-            "number": null,
+            "number": 11,
             "pos": "Mei",
             "grid": null
           }
         },
         {
           "player": {
-            "id": "carrascalj",
-            "name": "Carrascal",
-            "number": 15,
+            "id": "platagonz",
+            "name": "Plata",
+            "number": 19,
             "pos": "Ata",
             "grid": null
           }
@@ -261,7 +261,7 @@
           "player": {
             "id": "pedro-guilhermea",
             "name": "Pedro",
-            "number": null,
+            "number": 9,
             "pos": "Ata",
             "grid": null
           }

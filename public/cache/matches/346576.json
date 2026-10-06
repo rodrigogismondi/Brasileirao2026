@@ -44,9 +44,9 @@
     }
   },
   "odds": {
-    "home": 2.65,
-    "draw": 3.42,
-    "away": 2.52,
+    "home": 2.7,
+    "draw": 3.43,
+    "away": 2.48,
     "source": "betexplorer"
   },
   "_geUrl": "https://ge.globo.com/rj/futebol/brasileirao-serie-a/jogo/07-10-2026/botafogo-vasco.ghtml",
@@ -58,7 +58,7 @@
         "name": "Botafogo",
         "logo": "https://s.sde.globo.com/media/organizations/2019/02/04/botafogo-svg.svg"
       },
-      "formation": "4-3-1-2",
+      "formation": "4-4-2",
       "coach": {
         "name": "Tite"
       },
@@ -85,7 +85,7 @@
           "player": {
             "id": "ferraresi",
             "name": "Ferraresi",
-            "number": null,
+            "number": 5,
             "pos": "Def",
             "grid": null
           }
@@ -119,18 +119,18 @@
         },
         {
           "player": {
-            "id": "medinacris",
-            "name": "Medina",
-            "number": null,
+            "id": "danilodossantos",
+            "name": "Danilo",
+            "number": 8,
             "pos": "Mei",
             "grid": null
           }
         },
         {
           "player": {
-            "id": "danilodossantos",
-            "name": "Danilo",
-            "number": 8,
+            "id": "medinacris",
+            "name": "Medina",
+            "number": 6,
             "pos": "Mei",
             "grid": null
           }
@@ -146,10 +146,10 @@
         },
         {
           "player": {
-            "id": "danilops",
-            "name": "Danilo Pereira",
+            "id": "ziyech",
+            "name": "Ziyech",
             "number": null,
-            "pos": "Ata",
+            "pos": "Mei",
             "grid": null
           }
         },
@@ -189,15 +189,15 @@
           "player": {
             "id": "paulohenrique-parana",
             "name": "Paulo Henrique",
-            "number": null,
+            "number": 96,
             "pos": "Def",
             "grid": null
           }
         },
         {
           "player": {
-            "id": "cuestacar",
-            "name": "Carlos Cuesta",
+            "id": "saldivia",
+            "name": "Saldivia",
             "number": null,
             "pos": "Def",
             "grid": null
@@ -216,7 +216,7 @@
           "player": {
             "id": "cuiabano",
             "name": "Cuiabano",
-            "number": null,
+            "number": 66,
             "pos": "Def",
             "grid": null
           }
@@ -234,7 +234,7 @@
           "player": {
             "id": "thiagomendes",
             "name": "Thiago Mendes",
-            "number": null,
+            "number": 23,
             "pos": "Mei",
             "grid": null
           }
@@ -243,7 +243,7 @@
           "player": {
             "id": "alan-lescano",
             "name": "Lescano",
-            "number": null,
+            "number": 22,
             "pos": "Mei",
             "grid": null
           }
@@ -252,7 +252,7 @@
           "player": {
             "id": "marinohin",
             "name": "Marino Hinestroza",
-            "number": null,
+            "number": 18,
             "pos": "Ata",
             "grid": null
           }
@@ -261,7 +261,7 @@
           "player": {
             "id": "brunoduartesil",
             "name": "Bruno Duarte",
-            "number": null,
+            "number": 19,
             "pos": "Ata",
             "grid": null
           }
@@ -270,7 +270,7 @@
           "player": {
             "id": "colidio",
             "name": "Colidio",
-            "number": null,
+            "number": 9,
             "pos": "Ata",
             "grid": null
           }

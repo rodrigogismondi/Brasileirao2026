@@ -44,9 +44,9 @@
     }
   },
   "odds": {
-    "home": 2.24,
-    "draw": 3.21,
-    "away": 3.24,
+    "home": 2.22,
+    "draw": 3.23,
+    "away": 3.31,
     "source": "betexplorer"
   },
   "_geUrl": "https://ge.globo.com/rs/futebol/brasileirao-serie-a/jogo/07-10-2026/internacional-corinthians.ghtml",
@@ -58,7 +58,7 @@
         "name": "Internacional",
         "logo": "https://s.sde.globo.com/media/organizations/2018/03/11/internacional.svg"
       },
-      "formation": "4-3-3",
+      "formation": "3-5-2",
       "coach": {
         "name": "Eduardo Baptista"
       },
@@ -67,7 +67,7 @@
           "player": {
             "id": "matheus-cunhaq",
             "name": "Matheus Cunha",
-            "number": null,
+            "number": 23,
             "pos": "Gol",
             "grid": null
           }
@@ -83,15 +83,6 @@
         },
         {
           "player": {
-            "id": "maripan",
-            "name": "Maripán",
-            "number": 3,
-            "pos": "Def",
-            "grid": null
-          }
-        },
-        {
-          "player": {
             "id": "mercado11",
             "name": "Mercado",
             "number": 25,
@@ -101,9 +92,18 @@
         },
         {
           "player": {
-            "id": "bernabei",
-            "name": "Bernabei",
-            "number": 26,
+            "id": "juninho-coritiba",
+            "name": "Juninho",
+            "number": 18,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "braianaguirre",
+            "name": "Aguirre",
+            "number": 35,
             "pos": "Def",
             "grid": null
           }
@@ -119,19 +119,28 @@
         },
         {
           "player": {
-            "id": "brunohenrique",
-            "name": "Bruno Henrique",
-            "number": 8,
+            "id": "thiagomaia",
+            "name": "Thiago Maia",
+            "number": 29,
             "pos": "Mei",
             "grid": null
           }
         },
         {
           "player": {
-            "id": "paulinho",
-            "name": "Paulinho",
-            "number": 27,
+            "id": "alanpatrick",
+            "name": "Alan Patrick",
+            "number": 10,
             "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "bernabei",
+            "name": "Bernabei",
+            "number": 26,
+            "pos": "Def",
             "grid": null
           }
         },
@@ -146,18 +155,9 @@
         },
         {
           "player": {
-            "id": "alanpatrick",
-            "name": "Alan Patrick",
-            "number": 10,
-            "pos": "Ata",
-            "grid": null
-          }
-        },
-        {
-          "player": {
-            "id": "carbonerojo",
-            "name": "Carbonero",
-            "number": 7,
+            "id": "alerrandro",
+            "name": "Alerrandro",
+            "number": 9,
             "pos": "Ata",
             "grid": null
           }
@@ -171,7 +171,7 @@
         "name": "Corinthians",
         "logo": "https://s.sde.globo.com/media/organizations/2024/10/09/Corinthians_2024_Q4ahot4.svg"
       },
-      "formation": "4-4-2",
+      "formation": "4-3-3",
       "coach": {
         "name": "Fernando Diniz"
       },
@@ -225,7 +225,7 @@
           "player": {
             "id": "raniele",
             "name": "Raniele",
-            "number": null,
+            "number": 14,
             "pos": "Mei",
             "grid": null
           }
@@ -259,18 +259,18 @@
         },
         {
           "player": {
-            "id": "depay",
-            "name": "Memphis Depay",
-            "number": 10,
+            "id": "yurialberto",
+            "name": "Yuri Alberto",
+            "number": 9,
             "pos": "Ata",
             "grid": null
           }
         },
         {
           "player": {
-            "id": "yurialberto",
-            "name": "Yuri Alberto",
-            "number": null,
+            "id": "depay",
+            "name": "Memphis Depay",
+            "number": 10,
             "pos": "Ata",
             "grid": null
           }

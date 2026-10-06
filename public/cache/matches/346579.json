@@ -44,9 +44,9 @@
     }
   },
   "odds": {
-    "home": 1.78,
-    "draw": 3.7,
-    "away": 4.23,
+    "home": 1.8,
+    "draw": 3.61,
+    "away": 4.26,
     "source": "betexplorer"
   },
   "_geUrl": "https://ge.globo.com/sp/vale-do-paraiba-regiao/futebol/brasileirao-serie-a/jogo/07-10-2026/bragantino-mirassol.ghtml",
@@ -83,18 +83,18 @@
         },
         {
           "player": {
-            "id": "eduardomendes",
-            "name": "Eduardo Santos",
-            "number": null,
+            "id": "gustavomarquessantos",
+            "name": "Gustavo Marques",
+            "number": 16,
             "pos": "Def",
             "grid": null
           }
         },
         {
           "player": {
-            "id": "gustavomarquessantos",
-            "name": "Gustavo Marques",
-            "number": 16,
+            "id": "guzrodriguez",
+            "name": "Guzmán Rodríguez",
+            "number": 2,
             "pos": "Def",
             "grid": null
           }
@@ -119,9 +119,9 @@
         },
         {
           "player": {
-            "id": "rodriguinho11111",
-            "name": "Rodriguinho",
-            "number": null,
+            "id": "ericramires",
+            "name": "Eric Ramires",
+            "number": 7,
             "pos": "Mei",
             "grid": null
           }
@@ -146,9 +146,9 @@
         },
         {
           "player": {
-            "id": "pittais",
-            "name": "Isidro Pitta",
-            "number": 9,
+            "id": "eduardosasha",
+            "name": "Eduardo Sasha",
+            "number": 8,
             "pos": "Ata",
             "grid": null
           }
@@ -171,7 +171,7 @@
         "name": "Mirassol",
         "logo": "https://s.sde.globo.com/media/organizations/2026/07/17/MIrassol.svg"
       },
-      "formation": "4-3-3",
+      "formation": "4-5-1",
       "coach": {
         "name": "Rafael Guanaes"
       },
@@ -180,7 +180,7 @@
           "player": {
             "id": "walter-barbarense",
             "name": "Walter",
-            "number": null,
+            "number": 22,
             "pos": "Gol",
             "grid": null
           }
@@ -198,7 +198,7 @@
           "player": {
             "id": "joao-victor-santana",
             "name": "João Victor",
-            "number": null,
+            "number": 34,
             "pos": "Def",
             "grid": null
           }
@@ -225,16 +225,25 @@
           "player": {
             "id": "denilsonab",
             "name": "Denilson",
-            "number": null,
+            "number": 27,
             "pos": "Mei",
             "grid": null
           }
         },
         {
           "player": {
-            "id": "chico-sorocaba",
-            "name": "Chico Kim",
-            "number": 10,
+            "id": "netomoura",
+            "name": "Neto Moura",
+            "number": 25,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "edsoncarioca",
+            "name": "Edson Carioca",
+            "number": 95,
             "pos": "Mei",
             "grid": null
           }
@@ -250,10 +259,10 @@
         },
         {
           "player": {
-            "id": "edsoncarioca",
-            "name": "Edson Carioca",
-            "number": null,
-            "pos": "Ata",
+            "id": "chico-sorocaba",
+            "name": "Chico Kim",
+            "number": 10,
+            "pos": "Mei",
             "grid": null
           }
         },
@@ -262,15 +271,6 @@
             "id": "brunosantos-americarj",
             "name": "Bruno Santos",
             "number": 30,
-            "pos": "Ata",
-            "grid": null
-          }
-        },
-        {
-          "player": {
-            "id": "alesson",
-            "name": "Alesson",
-            "number": 77,
             "pos": "Ata",
             "grid": null
           }

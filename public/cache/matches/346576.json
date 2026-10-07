@@ -44,9 +44,9 @@
     }
   },
   "odds": {
-    "home": 2.81,
-    "draw": 3.45,
-    "away": 2.35,
+    "home": 3,
+    "draw": 3.5,
+    "away": 2.24,
     "source": "betexplorer"
   },
   "_geUrl": "https://ge.globo.com/rj/futebol/brasileirao-serie-a/jogo/07-10-2026/botafogo-vasco.ghtml",
@@ -128,6 +128,15 @@
         },
         {
           "player": {
+            "id": "ziyech",
+            "name": "Ziyech",
+            "number": 22,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
             "id": "alvamontoro",
             "name": "Montoro",
             "number": 10,
@@ -137,10 +146,10 @@
         },
         {
           "player": {
-            "id": "ziyech",
-            "name": "Ziyech",
-            "number": null,
-            "pos": "Mei",
+            "id": "matheusmartinsss",
+            "name": "Matheus Martins",
+            "number": 11,
+            "pos": "Ata",
             "grid": null
           }
         },
@@ -149,15 +158,6 @@
             "id": "arthurcabral",
             "name": "Arthur Cabral",
             "number": 19,
-            "pos": "Ata",
-            "grid": null
-          }
-        },
-        {
-          "player": {
-            "id": "matheusmartinsss",
-            "name": "Matheus Martins",
-            "number": null,
             "pos": "Ata",
             "grid": null
           }

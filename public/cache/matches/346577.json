@@ -44,9 +44,9 @@
     }
   },
   "odds": {
-    "home": 4.23,
-    "draw": 3.67,
-    "away": 1.8,
+    "home": 4.1,
+    "draw": 3.66,
+    "away": 1.82,
     "source": "betexplorer"
   },
   "_geUrl": "https://ge.globo.com/sp/santos-e-regiao/futebol/brasileirao-serie-a/jogo/08-10-2026/santos-flamengo.ghtml",
@@ -58,7 +58,7 @@
         "name": "Santos",
         "logo": "https://s.sde.globo.com/media/organizations/2018/03/12/santos.svg"
       },
-      "formation": "4-3-3",
+      "formation": "4-5-1",
       "coach": {
         "name": "Cuca"
       },
@@ -128,6 +128,15 @@
         },
         {
           "player": {
+            "id": "gabriel-bontempo",
+            "name": "Gabriel Bontempo",
+            "number": 8,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
             "id": "rollheiser",
             "name": "Rollheiser",
             "number": 32,
@@ -141,15 +150,6 @@
             "name": "Barreal",
             "number": null,
             "pos": "Mei",
-            "grid": null
-          }
-        },
-        {
-          "player": {
-            "id": "gabriel-bontempo",
-            "name": "Gabriel Bontempo",
-            "number": 8,
-            "pos": "Ata",
             "grid": null
           }
         },

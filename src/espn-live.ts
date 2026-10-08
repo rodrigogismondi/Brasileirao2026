@@ -1,4 +1,12 @@
-import type { DashboardData, Match } from "./types";
+import type {
+  DashboardData,
+  Match,
+  MatchCard,
+  MatchDetail,
+  MatchGoal,
+  MatchMoment,
+  MatchSub,
+} from "./types";
 import { isMatchToday, isMatchUpcoming } from "./utils";
 
 /**
@@ -10,12 +18,15 @@ import { isMatchToday, isMatchUpcoming } from "./utils";
 
 const ESPN_SCOREBOARD =
   "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.1/scoreboard";
+const ESPN_SUMMARY =
+  "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.1/summary";
 
 const LIVE_BEFORE_MS = 20 * 60 * 1000;
 const LIVE_AFTER_MS = 4 * 60 * 60 * 1000;
 const KICKOFF_MATCH_MS = 6 * 60 * 60 * 1000;
 
 export interface EspnSnapshot {
+  espnId: string;
   homeKey: string;
   awayKey: string;
   kickoffMs: number;
@@ -24,6 +35,18 @@ export interface EspnSnapshot {
   period: string | null;
   minute: number | null;
   score: [number, number] | null;
+}
+
+/** One narration line from ESPN's Portuguese commentary feed. */
+export interface EspnLance {
+  minuteLabel: string;
+  sortKey: number;
+  text: string;
+  headline: string;
+  type: string;
+  teamName: string | null;
+  players: string[];
+  disallowed: boolean;
 }
 
 let cachedSnaps: EspnSnapshot[] = [];
@@ -118,6 +141,7 @@ export function parseEspnScoreboard(payload: unknown): EspnSnapshot[] {
   const out: EspnSnapshot[] = [];
   for (const event of events) {
     const ev = event as {
+      id?: string | number;
       date?: string;
       competitions?: Array<{
         status?: {
@@ -158,6 +182,7 @@ export function parseEspnScoreboard(payload: unknown): EspnSnapshot[] {
         ? parseMinute(String(comp.status?.displayClock || ""), Number(comp.status?.clock ?? 0))
         : null;
     out.push({
+      espnId: String(ev.id ?? ""),
       homeKey: clubKey(home.team.displayName),
       awayKey: clubKey(away.team.displayName),
       kickoffMs,
@@ -262,6 +287,187 @@ export function applyEspnToDashboard(
       .slice(0, 10),
     fetchedAt: new Date(now),
   };
+}
+
+export function espnEventIdFor(match: Match): string | null {
+  const id = findSnap(match, cachedSnaps)?.espnId;
+  return id ? id : null;
+}
+
+function minuteParts(display: string, seconds: number): { label: string; sortKey: number } {
+  const stop = display.match(/(\d+)\s*'\s*\+\s*(\d+)/);
+  if (stop) {
+    const base = Number(stop[1]);
+    const extra = Number(stop[2]);
+    return { label: `${base}+${extra}`, sortKey: base + extra };
+  }
+  const plain = display.match(/(\d+)/);
+  if (plain && display.trim() !== "0'") {
+    return { label: plain[1], sortKey: Number(plain[1]) };
+  }
+  if (Number.isFinite(seconds) && seconds > 0) {
+    const n = Math.round(seconds / 60);
+    return { label: String(n), sortKey: n };
+  }
+  return { label: "0", sortKey: 0 };
+}
+
+function isGoalType(type: string): boolean {
+  return type === "goal" || type.startsWith("goal-") || type.startsWith("goal---");
+}
+
+function isDisallowedGoal(type: string, text: string): boolean {
+  if (!isGoalType(type) && !/goal/i.test(type)) return false;
+  return /cancelad|anulado|disallow|não há gol|nao ha gol|no goal/i.test(text);
+}
+
+export function parseEspnCommentary(payload: unknown): EspnLance[] {
+  const rows = (payload as { commentary?: unknown[] } | null)?.commentary;
+  if (!Array.isArray(rows)) return [];
+  const out: EspnLance[] = [];
+  rows.forEach((row, index) => {
+    const item = row as {
+      text?: string;
+      time?: { value?: number; displayValue?: string };
+      play?: {
+        type?: { text?: string; type?: string };
+        text?: string;
+        shortText?: string;
+        team?: { displayName?: string };
+        participants?: Array<{ athlete?: { displayName?: string } }>;
+        clock?: { value?: number; displayValue?: string };
+      };
+    };
+    const text = String(item.text || item.play?.text || "").trim();
+    if (!text) return;
+    const type = String(item.play?.type?.type || "").toLowerCase();
+    const headline = String(item.play?.type?.text || item.play?.shortText || "").trim();
+    const clock = item.time?.displayValue || item.play?.clock?.displayValue || "";
+    const seconds = Number(item.time?.value ?? item.play?.clock?.value ?? 0);
+    const minute = minuteParts(String(clock), seconds);
+    const players = (item.play?.participants ?? [])
+      .map((p) => p.athlete?.displayName || "")
+      .filter(Boolean);
+    out.push({
+      minuteLabel: minute.label,
+      // Later lines in the same minute sort above earlier ones.
+      sortKey: minute.sortKey + index / 100000,
+      text,
+      headline,
+      type,
+      teamName: item.play?.team?.displayName || null,
+      players,
+      disallowed: isDisallowedGoal(type, text),
+    });
+  });
+  return out;
+}
+
+function minuteKey(minute: number | string): number {
+  if (typeof minute === "number") return minute;
+  const m = String(minute).match(/^(\d+)(?:\+(\d+))?/);
+  if (!m) return 0;
+  return Number(m[1]) + (m[2] ? Number(m[2]) : 0);
+}
+
+function feedMaxMinute(detail: MatchDetail): number {
+  let max = -1;
+  const bump = (minute: number | string) => {
+    const n = minuteKey(minute);
+    if (n > max) max = n;
+  };
+  for (const g of [...detail.goals1, ...detail.goals2]) bump(g.minute);
+  for (const c of detail.cards) bump(c.minute);
+  for (const s of detail.subs) bump(s.minute);
+  for (const m of detail.moments ?? []) bump(m.minute);
+  return max;
+}
+
+function sideOf(detail: MatchDetail, teamName: string | null): 1 | 2 | null {
+  if (!teamName) return null;
+  const key = clubKey(teamName);
+  if (key && key === clubKey(detail.team1)) return 1;
+  if (key && key === clubKey(detail.team2)) return 2;
+  return null;
+}
+
+/**
+ * Replace the cached GE timeline when ESPN commentary has reached a later minute.
+ * The scoreboard clock was moving while lances stayed on the last GitHub sync.
+ */
+export function applyEspnCommentary<T extends MatchDetail>(detail: T, lances: EspnLance[]): T {
+  if (!lances.length) return detail;
+  const incoming = Math.floor(Math.max(...lances.map((l) => l.sortKey)));
+  const cached = feedMaxMinute(detail);
+  if (incoming < cached) return detail;
+  if (incoming === cached) {
+    const currentCount =
+      detail.goals1.length +
+      detail.goals2.length +
+      detail.cards.length +
+      detail.subs.length +
+      (detail.moments?.length ?? 0);
+    if (lances.length <= currentCount) return detail;
+  }
+
+  const goals1: MatchGoal[] = [];
+  const goals2: MatchGoal[] = [];
+  const cards: MatchCard[] = [];
+  const subs: MatchSub[] = [];
+  const moments: MatchMoment[] = [];
+
+  const ordered = [...lances].sort((a, b) => b.sortKey - a.sortKey);
+  for (const lance of ordered) {
+    const side = sideOf(detail, lance.teamName);
+    const shownMinute = Math.floor(lance.sortKey);
+    const headline =
+      lance.headline && lance.headline !== lance.text ? lance.headline : lance.text.slice(0, 72);
+    if (isGoalType(lance.type) && !lance.disallowed && side) {
+      const goal: MatchGoal = {
+        name: lance.players[0] || headline,
+        minute: lance.minuteLabel,
+        assist: lance.players[1],
+        own: /own-goal|gol contra/i.test(lance.type + " " + lance.text) || undefined,
+      };
+      (side === 1 ? goals1 : goals2).push(goal);
+      continue;
+    }
+    if (/card/.test(lance.type) && side) {
+      const red = /red|vermelh/.test(lance.type + " " + lance.text);
+      cards.push({
+        team: side,
+        minute: shownMinute,
+        name: lance.players[0] || headline,
+        type: red ? "red" : "yellow",
+      });
+      continue;
+    }
+    if (lance.type.includes("substitution") && side) {
+      subs.push({
+        team: side,
+        minute: shownMinute,
+        playerIn: lance.players[0] || "?",
+        playerOut: lance.players[1] || "?",
+      });
+      continue;
+    }
+    moments.push({
+      team: side,
+      minute: lance.minuteLabel,
+      name: headline,
+      title: lance.text,
+      detail: lance.text,
+    });
+  }
+
+  return { ...detail, goals1, goals2, cards, subs, moments };
+}
+
+export async function loadEspnCommentary(eventId: string): Promise<EspnLance[]> {
+  const url = `${ESPN_SUMMARY}?event=${encodeURIComponent(eventId)}&lang=pt`;
+  const res = await fetch(url, { cache: "no-store", signal: AbortSignal.timeout(8_000) });
+  if (!res.ok) throw new Error(`ESPN commentary HTTP ${res.status}`);
+  return parseEspnCommentary(await res.json());
 }
 
 export async function loadEspnSnapshots(dates: string[]): Promise<EspnSnapshot[]> {

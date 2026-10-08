@@ -1,8 +1,11 @@
 import { fetchDashboard, fetchMatchDetail, matchSummaryFromList } from "./api";
 import {
+  applyEspnCommentary,
   applyEspnToDashboard,
   espnDatesFor,
+  espnEventIdFor,
   getEspnSnapshots,
+  loadEspnCommentary,
   loadEspnSnapshots,
   patchMatch,
 } from "./espn-live";
@@ -62,13 +65,31 @@ function patchDetail(detail: MatchDetail | null): MatchDetail | null {
   return patchMatch(detail, snaps);
 }
 
+/** Lances come from the GE cache, which lags the live clock. Refresh the open match. */
+async function withLiveLances(detail: MatchDetail | null): Promise<MatchDetail | null> {
+  if (!detail || (detail.status !== "live" && detail.status !== "finished")) return detail;
+  const eventId = espnEventIdFor(detail);
+  if (!eventId) return detail;
+  try {
+    const lances = await loadEspnCommentary(eventId);
+    return applyEspnCommentary(detail, lances);
+  } catch (err) {
+    console.warn("ESPN commentary failed", err);
+    return detail;
+  }
+}
+
 function mount(): void {
   const root = document.getElementById("app");
   if (!root) return;
 
   const paint = () => {
+    const sheet = root.querySelector(".md-sheet");
+    const scroll = sheet instanceof HTMLElement ? sheet.scrollTop : 0;
     document.documentElement.lang = LOCALE[state.lang];
     root.innerHTML = renderApp(state);
+    const nextSheet = root.querySelector(".md-sheet");
+    if (nextSheet instanceof HTMLElement && scroll > 0) nextSheet.scrollTop = scroll;
     bindEvents(root);
   };
 
@@ -78,7 +99,7 @@ function mount(): void {
       paint();
     }
     try {
-      const detail = patchDetail(await fetchMatchDetail(id));
+      const detail = await withLiveLances(patchDetail(await fetchMatchDetail(id)));
       const fallback = state.data?.all.find((m) => m.id === id);
       const merged =
         detail != null
@@ -144,7 +165,7 @@ function mount(): void {
         if (!state.data) return;
         try {
           const data = await overlayEspn(state.data);
-          const detail = patchDetail(state.matchDetail);
+          const detail = await withLiveLances(patchDetail(state.matchDetail));
           state = {
             ...state,
             data,

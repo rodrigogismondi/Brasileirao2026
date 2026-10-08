@@ -41,7 +41,12 @@
       "away": null
     }
   },
-  "odds": null,
+  "odds": {
+    "home": 1.4,
+    "draw": 4.75,
+    "away": 7,
+    "source": "betexplorer"
+  },
   "events": [],
   "lineups": [],
   "statistics": [],

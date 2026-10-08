@@ -7,12 +7,12 @@
       "city": ""
     },
     "status": {
-      "long": "1H",
-      "short": "1H",
-      "elapsed": 35
+      "long": "FT",
+      "short": "FT",
+      "elapsed": 90
     },
-    "timerStart": "2026-10-08T00:30:28.422Z",
-    "timerStatus": "INICIADO"
+    "timerStart": "2026-10-08T02:32:23.013Z",
+    "timerStatus": "PAUSADO"
   },
   "league": {
     "round": "Regular Season - 29"
@@ -30,7 +30,7 @@
     }
   },
   "goals": {
-    "home": 0,
+    "home": 2,
     "away": 0
   },
   "score": {
@@ -39,8 +39,8 @@
       "away": null
     },
     "fulltime": {
-      "home": null,
-      "away": null
+      "home": 2,
+      "away": 0
     }
   },
   "odds": {
@@ -51,6 +51,114 @@
   },
   "_geUrl": "https://ge.globo.com/mg/futebol/brasileirao-serie-a/jogo/07-10-2026/cruzeiro-sao-paulo.ghtml",
   "events": [
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 283,
+        "name": "Cruzeiro"
+      },
+      "type": "Important",
+      "detail": "- Noite muito especial para mim. Marcar meu primeiro gol como profissional e com essa camisa no Mineirão. Agradecer a Deus e ao Cruzeiro. Seguimos trabalhando firme em busca da vaga na Libertadores. Quero dedicar (o gol) para ele e para toda minha família que é muito importante para mim.",
+      "player": {
+        "name": "Zé Lucas"
+      },
+      "assist": {
+        "name": "Fala, Zé Lucas!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Important",
+      "detail": "- A gente tá com muitas baixas. Estamos sentindo. Os primeiros minutos foi um bom jogo. Não tenho muito para falar. Temos que melhorar o que foi hoje. Fomos abaixo do que a gente treina.",
+      "player": {
+        "name": "Calleri"
+      },
+      "assist": {
+        "name": "Fala, Calleri!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Ferreira"
+      },
+      "assist": {
+        "name": "Sabino"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 283,
+        "name": "Cruzeiro"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Zé Lucas"
+      },
+      "assist": {
+        "name": "Lucas Romero"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 283,
+        "name": "Cruzeiro"
+      },
+      "type": "Important",
+      "detail": "- A gente vem fazendo um bom primeiro tempo. A chance que tive mais clara, conclui bem. Precisamos continuar jogando bem para matar a partida.",
+      "player": {
+        "name": "Kaio Jorge"
+      },
+      "assist": {
+        "name": "Fala, Kaio!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Important",
+      "detail": "- Criamos boas chances, mas não conseguimos concluir em gol. Estamos competindo bem, mas tomamos o gol no final, infelizmente.",
+      "player": {
+        "name": "Wendell"
+      },
+      "assist": {
+        "name": "Fala, Wendell!"
+      }
+    },
     {
       "time": {
         "elapsed": 0,
@@ -563,7 +671,7 @@
         "name": "São Paulo"
       },
       "type": "Important",
-      "detail": "Kaio Jorge aproveita bobeada da defesa do São Paulo, acelera pelo lado direito, bate rasteiro, mas vê Coronel defender.",
+      "detail": "Kaio Jorge aproveita bobeada da defesa do São Paulo, acelera pelo lado esquerdo, bate rasteiro, mas vê Coronel defender.",
       "player": {
         "name": "Kaio Jorge"
       },
@@ -616,6 +724,968 @@
       "detail": "O jogo começou com ritmo acelerado e chances para os dois lados nos primeiros minutos. O Cruzeiro chegou perto com Bruno Rodrigues, enquanto o São Paulo respondeu com Wendell, que parou em defesa de Otávio. Após os 25 minutos, a pressão da casa aumentou: Kaio Jorge acertou a trave em um cabeceio e, logo depois, obrigou o goleiro Coronel a trabalhar. Com dois cartões amarelos, o duelo segue pegado.",
       "player": {
         "name": "Cruzeiro acerta a trave e pressiona no Mineirão"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 35,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "A partida começou com os dois times buscando o ataque. O Cruzeiro assustou logo no primeiro minuto com Bruno Rodrigues, mas o São Paulo respondeu com Wendell, em chute defendido por Otávio. O time da casa ainda pediu pênalti em toque no braço de Tolói, mas a arbitragem mandou seguir. Passados 30 minutos, o placar segue zerado, muito por conta da trave, que salvou o Tricolor em cabeceio de Kaio Jorge.",
+      "player": {
+        "name": "Trave, polêmica e chances perdidas!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 35,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Important",
+      "detail": "Agora é o São Paulo que faz blitz na área do Cruzeiro.",
+      "player": {
+        "name": "Agora é o São Paulo que faz blitz na área do Cru"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 38,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O jogo começou com muita intensidade no Mineirão! O Cruzeiro pressionou desde o início, com Bruno Rodrigues levando perigo. O São Paulo respondeu rápido com Wendell, que parou em grande defesa de Otávio. O clima esquentou com um pedido de pênalti do time da casa não marcado e cartões para os dois lados. Perto dos 30 minutos, Kaio Jorge acertou a trave e depois exigiu boa defesa de Coronel.",
+      "player": {
+        "name": "Cruzeiro na trave e jogo pegado no Mineirão"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 38,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Cruzeiro e São Paulo tentam pressionar, mas chegam sem grande perigo.",
+      "player": {
+        "name": "Cruzeiro e São Paulo tentam pressionar, mas cheg"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 43,
+        "extra": null
+      },
+      "team": {
+        "id": 283,
+        "name": "Cruzeiro"
+      },
+      "type": "Important",
+      "detail": "O jogo teve um início movimentado, com chances para os dois lados e um pedido de pênalti do Cruzeiro ignorado. O time da casa cresceu e passou a pressionar: Kaio Jorge acertou a trave em uma cabeçada e depois parou em boa defesa de Coronel. A insistência foi premiada aos 43 minutos, quando Matheus Pereira serviu Kaio Jorge, que marcou de perto e colocou o Cruzeiro na frente por 1 a 0.",
+      "player": {
+        "name": "Kaio Jorge abre o placar no Mineirão!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 43,
+        "extra": null
+      },
+      "team": {
+        "id": 283,
+        "name": "Cruzeiro"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "player": {
+        "name": "Kaio Jorge"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 43,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O primeiro tempo é de muita intensidade e chances claras, principalmente para o Cruzeiro. O time da casa criou as melhores oportunidades, com Kaio Jorge acertando a trave em uma cabeçada e, pouco depois, parando em grande defesa de Coronel. O São Paulo respondeu com Wendell, mas Otávio defendeu. O jogo já teve cartões para os dois lados e um pedido de pênalti do Cruzeiro ignorado pela arbitragem.",
+      "player": {
+        "name": "Pressão do Cruzeiro e trave salvam o São Paulo"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 43,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Jogo fica menos corrido e mais faltoso.",
+      "player": {
+        "name": "Jogo fica menos corrido e mais faltoso."
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 45,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Os times volta ao jogo com uma mudança de cada lado.",
+      "player": {
+        "name": "Apita o árbitro!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 45,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O primeiro tempo vai até 48 minutos.",
+      "player": {
+        "name": "+3"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 46,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O primeiro tempo foi movimentado, com chances para os dois lados. O São Paulo assustou com Wendell em boa defesa de Otávio, mas foi o Cruzeiro quem criou as melhores oportunidades, chegando a acertar a trave com Kaio Jorge. A insistência da equipe mineira foi premiada aos 43 minutos, quando Matheus Pereira serviu Kaio Jorge, que chutou forte para abrir o placar e deixar o Cruzeiro na frente.",
+      "player": {
+        "name": "Cruzeiro pressiona e faz 1 a 0 no fim!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 47,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Important",
+      "detail": "Coronel defende um chute perigoso de Felipe Morais.",
+      "player": {
+        "name": "Coronel"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 47,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O jogo começou com chances para os dois lados, e o São Paulo assustou em finalização de Wendell defendida por Otávio. Aos poucos, o Cruzeiro assumiu o controle e aumentou a pressão. Kaio Jorge chegou a carimbar a trave aos 27 minutos. A insistência valeu a pena aos 43, quando Matheus Pereira serviu o próprio Kaio Jorge, que fuzilou para a rede e abriu o placar, fazendo 1 a 0 para o time da casa.",
+      "player": {
+        "name": "Cruzeiro martela e abre o placar no fim!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 48,
+        "extra": null
+      },
+      "team": {
+        "id": 283,
+        "name": "Cruzeiro"
+      },
+      "type": "Important",
+      "detail": "O jogo começou aberto, com chances para os dois lados, incluindo uma defesa de Otávio em chute de Wendell. O Cruzeiro cresceu na partida, acertou a trave com Kaio Jorge e reclamou de um pênalti não marcado. Aos 43 minutos, a insistência foi premiada: após jogada de Matheus Pereira, Kaio Jorge marcou e fez 1 a 0. Com o segundo tempo recém-iniciado, a equipe da casa segue em vantagem.",
+      "player": {
+        "name": "Kaio Jorge abre o placar para o Cruzeiro"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 48,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Felipe Morais chega com perigo do lado esquerdo. Wendell afasta a bola.",
+      "player": {
+        "name": "Felipe Morais chega com perigo do lado esquerdo."
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 48,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Acaba o primeiro tempo.",
+      "player": {
+        "name": "Fim de papo!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 49,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Artur lança para Calleri, que gira o jogo e tenta entrar na área.",
+      "player": {
+        "name": "Artur lança para Calleri, que gira o jogo e tent"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 51,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "A partida tem um time da casa dominante. O Cruzeiro pressionou desde o início, teve um pênalti pedido e carimbou a trave com Kaio Jorge. A insistência foi recompensada aos 43 minutos, quando o próprio Kaio Jorge marcou após passe de Matheus Pereira, deixando o placar em 1 a 0. O São Paulo tentou equilibrar, mas o segundo tempo começa com a Raposa em vantagem merecida.",
+      "player": {
+        "name": "Gol de Kaio Jorge dá vantagem ao Cruzeiro"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 51,
+        "extra": null
+      },
+      "team": {
+        "id": 283,
+        "name": "Cruzeiro"
+      },
+      "type": "Important",
+      "detail": "Cruzeiro tenta chega na área adversária. Troca passes no meio-campo.",
+      "player": {
+        "name": "Cruzeiro tenta chega na área adversária. Troca p"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 52,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Cruzeiro cobra falta, e Gerson e Felipe Morais tentam finalizar. Tiro de meta para o São Paulo.",
+      "player": {
+        "name": "Cruzeiro cobra falta, e Gerson e Felipe Morais t"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 54,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Após um primeiro tempo intenso, com direito a bola na trave e gol no fim, o Cruzeiro saiu na frente. Kaio Jorge, aos 43 minutos, aproveitou passe de Matheus Pereira para fazer 1 a 0. O São Paulo, que chegou a assustar com Wendell, voltou para a segunda etapa tentando reagir, mas é o time mineiro que controla as ações e dita o ritmo nos primeiros minutos do segundo tempo.",
+      "player": {
+        "name": "Cruzeiro na frente e domina a 2ª etapa"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 54,
+        "extra": null
+      },
+      "team": {
+        "id": 283,
+        "name": "Cruzeiro"
+      },
+      "type": "Important",
+      "detail": "Cruzeiro tem mais domínio no início do segundo tempo.",
+      "player": {
+        "name": "Cruzeiro tem mais domínio no início do segundo t"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 56,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Depois de Kaio Jorge abrir o placar no fim da primeira etapa, o Cruzeiro voltou para o segundo tempo impondo seu ritmo. E não demorou para ampliar! Aos 11 minutos, em um contra-ataque fulminante, Bruno Rodrigues chutou, Coronel espalmou e, no rebote, Zé Lucas empurrou para as redes, fazendo 2 a 0. A equipe mineira domina a partida e coloca o São Paulo em uma situação bem complicada.",
+      "player": {
+        "name": "Cruzeiro marca de novo e abre vantagem!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 56,
+        "extra": null
+      },
+      "team": {
+        "id": 283,
+        "name": "Cruzeiro"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "player": {
+        "name": "Zé Lucas"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 59,
+        "extra": null
+      },
+      "team": {
+        "id": 283,
+        "name": "Cruzeiro"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Viña"
+      },
+      "assist": {
+        "name": "Gabriel Rojas"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 59,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Cruzeiro controla o jogo e constrói um placar de 2 a 0 no Mineirão. Depois de pressionar e acertar a trave com Kaio Jorge, o próprio atacante abriu o placar aos 43 do primeiro tempo. Já na segunda etapa, aos 11 minutos, foi a vez de Zé Lucas aproveitar um rebote e ampliar a vantagem. O São Paulo busca a reação, mas esbarra em boas intervenções do goleiro Otávio.",
+      "player": {
+        "name": "Cruzeiro abre boa vantagem no segundo tempo"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 59,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Important",
+      "detail": "São Paulo tenta reagir, mas para em Otávio!",
+      "player": {
+        "name": "Otávio"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 60,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Victor Sá"
+      },
+      "assist": {
+        "name": "Ferreira"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 60,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Matheus Pereira e Kaio Jorge tentam puxar mais um contra-ataque. Param em Coronel.",
+      "player": {
+        "name": "Matheus Pereira e Kaio Jorge tentam puxar mais u"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 62,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Newton"
+      },
+      "assist": {
+        "name": "Marcos Antônio"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 62,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Com cerca de 17 minutos do segundo tempo, o Cruzeiro domina e amplia sua vantagem. Kaio Jorge abriu o placar no fim da primeira etapa e já tinha acertado a trave antes. Na segunda etapa, após contra-ataque com defesa de Coronel e outra bola na trave de Kaio Jorge, Zé Lucas aproveitou o rebote para fazer 2 a 0. O time mineiro controla o jogo, enquanto o São Paulo busca uma reação.",
+      "player": {
+        "name": "Cruzeiro implacável e abre 2 a 0 no placar!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 62,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Pedro Ferreira"
+      },
+      "assist": {
+        "name": "Pablo Maia"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 66,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Após um primeiro tempo intenso, o Cruzeiro foi para o intervalo na frente com gol de Kaio Jorge. Aos 11 da segunda etapa, a equipe ampliou para 2 a 0 com Zé Lucas, que marcou no rebote de uma bola na trave. O São Paulo busca a reação e já exigiu duas grandes defesas de Otávio em finalizações de Artur. A partida passa dos 21 minutos com vantagem e controle do time mineiro.",
+      "player": {
+        "name": "Cruzeiro aproveita chances e abre 2 a 0"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 66,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Artur cobra falta com perigo, mas para na defesa de Otávio.",
+      "player": {
+        "name": "DEFENDEU, OTÁVIO!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 67,
+        "extra": null
+      },
+      "team": {
+        "id": 283,
+        "name": "Cruzeiro"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Arroyo"
+      },
+      "assist": {
+        "name": "Bruno Rodrigues"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 70,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Que jogo do Cruzeiro! O time da casa abriu o placar aos 43 minutos com Kaio Jorge, aproveitando passe de Matheus Pereira. Já no segundo tempo, a vantagem aumentou: após contra-ataque e bola na trave, Zé Lucas empurrou para o fundo do gol, fazendo 2 a 0. O São Paulo busca a reação, mas esbarra em boas defesas de Otávio. O Cruzeiro segue no controle e quase ampliou com Kaio Jorge aos 25 minutos.",
+      "player": {
+        "name": "Cruzeiro domina e abre 2 a 0 no São Paulo"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 70,
+        "extra": null
+      },
+      "team": {
+        "id": 283,
+        "name": "Cruzeiro"
+      },
+      "type": "Important",
+      "detail": "Kaio Jorge finaliza por cima do goleiro, a bola cai lentamente para fora do gol.",
+      "player": {
+        "name": "PRA FORA!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 71,
+        "extra": null
+      },
+      "team": {
+        "id": 283,
+        "name": "Cruzeiro"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Matheus Pereira"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 72,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Com 27 minutos do segundo tempo, o Cruzeiro vence por 2 a 0. O time da casa abriu o placar com Kaio Jorge no fim da primeira etapa e ampliou aos 11 minutos da segunda, com Zé Lucas aproveitando o rebote de uma jogada que ainda teve bola na trave. O São Paulo busca reagir, principalmente com Artur, mas esbarra em boas defesas do goleiro Otávio, que vai garantindo a vantagem no placar.",
+      "player": {
+        "name": "Cruzeiro na frente com dois gols!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 72,
+        "extra": null
+      },
+      "team": {
+        "id": 283,
+        "name": "Cruzeiro"
+      },
+      "type": "Important",
+      "detail": "Artur finaliza de chapa, mas acaba chutando pra fora. A bola passa com perigo pelo gol do Cruzeiro.",
+      "player": {
+        "name": "Artur finaliza de chapa, mas acaba chutando pra "
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 74,
+        "extra": null
+      },
+      "team": {
+        "id": 283,
+        "name": "Cruzeiro"
+      },
+      "type": "Important",
+      "detail": "Kaio Jorge recebe na pequena área, sai da defesa, mas erra na finalização.",
+      "player": {
+        "name": "Kaio Jorge"
+      },
+      "assist": {
+        "name": "PRA FORA!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 76,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Após Kaio Jorge abrir o placar no fim do primeiro tempo, o time da casa voltou com tudo. Aos 11 da segunda etapa, numa jogada de contra-ataque com direito a bola na trave, Zé Lucas aproveitou o rebote e ampliou para 2 a 0. O São Paulo tenta reagir com chutes de Artur, mas para em boas defesas de Otávio. Com o jogo passando dos 30 minutos, o Cruzeiro segue criando chances e controlando a partida.",
+      "player": {
+        "name": "Cruzeiro domina e abre 2 a 0 no Mineirão"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 76,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Djhordney"
+      },
+      "assist": {
+        "name": "Bobadilla"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 80,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O jogo esquentou no segundo tempo! Depois de Kaio Jorge abrir o placar no fim da primeira etapa, o Cruzeiro voltou com tudo e ampliou para 2 a 0 com Zé Lucas, aos 11 minutos, após um contra-ataque frenético com bola na trave. O São Paulo tenta responder com Artur, mas para em grandes defesas de Otávio. O time da casa segue perigoso e já desperdiçou chances de fazer o terceiro.",
+      "player": {
+        "name": "Cruzeiro amplia e domina o São Paulo"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 80,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Cruzeiro e São Paulo agora tentam pressionar as saídas de bola.",
+      "player": {
+        "name": "Cruzeiro e São Paulo agora tentam pressionar as "
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 82,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Arroyo tenta na finalização fora da área, mas a bola sobe mais.",
+      "player": {
+        "name": "Arroyo tenta na finalização fora da área, mas a "
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 84,
+        "extra": null
+      },
+      "team": {
+        "id": 283,
+        "name": "Cruzeiro"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Matheus Henrique"
+      },
+      "assist": {
+        "name": "Kaio Jorge"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 84,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Cruzeiro vai construindo uma vitória sólida por 2 a 0 já na reta final do segundo tempo. Kaio Jorge abriu o placar perto do intervalo e Zé Lucas ampliou aos 11 minutos da etapa final, após uma jogada com bola na trave. O time mineiro domina as ações e continua perigoso, enquanto o São Paulo tenta reagir, mas esbarra na falta de pontaria e nas boas defesas do goleiro Otávio para diminuir.",
+      "player": {
+        "name": "Cruzeiro amplia e controla o jogo!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 84,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Wendell recua a ola para Coronel e a bola quse entra no gol. O goleiro consegue escorar para fora.",
+      "player": {
+        "name": "QUASE FALHOU!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 85,
+        "extra": null
+      },
+      "team": {
+        "id": 283,
+        "name": "Cruzeiro"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Lucho Rodríguez"
+      },
+      "assist": {
+        "name": "Gerson"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 88,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Cruzeiro impõe seu ritmo e abre 2 a 0 sobre o São Paulo. Perto do intervalo, Kaio Jorge balançou as redes para colocar a Raposa na frente. Já na segunda etapa, aos 11 minutos, Zé Lucas ampliou em uma jogada de pura insistência, com direito a bola na trave no mesmo lance. O Tricolor busca a reação, mas esbarra em um inspirado Otávio. A partida se encaminha para o final com domínio celeste.",
+      "player": {
+        "name": "Cruzeiro abre 2 a 0 e controla o jogo"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 88,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Important",
+      "detail": "São Paulo tenta diminuir o placar, mas não consegue avançar ao ataque.",
+      "player": {
+        "name": "São Paulo tenta diminuir o placar, mas não conse"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 90,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Partida vai até os 50 minutos.",
+      "player": {
+        "name": "+5"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 91,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Cruzeiro encaminha a vitória com 2 a 0 no placar! Kaio Jorge marcou no fim do primeiro tempo. Já na segunda etapa, Zé Lucas ampliou aos 11 minutos em uma jogada insistente, que teve bola na trave de Kaio Jorge no rebote. O São Paulo até tenta reagir em chutes de Artur, mas para em boas defesas do goleiro Otávio. Com o jogo na reta final, a equipe da casa controla as ações para garantir o resultado.",
+      "player": {
+        "name": "Cruzeiro domina e abre 2 a 0 no Mineirão"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 91,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Important",
+      "detail": "Newton finaliza de fora da área, a bola passa perto do gol, mas acaba saindo.",
+      "player": {
+        "name": "Newton"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 93,
+        "extra": null
+      },
+      "team": {
+        "id": 283,
+        "name": "Cruzeiro"
+      },
+      "type": "Important",
+      "detail": "Mais uma finalização de Felipe Morais do lado esquerdo. Coronel espalma.",
+      "player": {
+        "name": "Felipe Morais"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 94,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Cruzeiro domina e vence por 2 a 0 já nos acréscimos. Kaio Jorge abriu o placar no final do primeiro tempo, após passe de Matheus Pereira. Na segunda etapa, a pressão continuou e Zé Lucas ampliou em um lance de insistência, com direito a defesa do goleiro e bola na trave. O São Paulo até busca uma reação, mas esbarra nas boas intervenções do goleiro Otávio, em partida de claro controle mineiro.",
+      "player": {
+        "name": "Cruzeiro impõe o ritmo e abre boa vantagem"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 94,
+        "extra": null
+      },
+      "team": {
+        "id": 283,
+        "name": "Cruzeiro"
+      },
+      "type": "Important",
+      "detail": "João Marcelo cabeceia, mas para em Coronel.",
+      "player": {
+        "name": "João Marcelo"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 95,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Cruzeiro vence o São Paulo por 2 a 0.",
+      "player": {
+        "name": "ACABA O JOGO!"
       },
       "assist": null
     }
@@ -1075,11 +2145,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "55%"
+          "value": "49%"
         },
         {
           "type": "Total Passes",
-          "value": 165
+          "value": 469
         },
         {
           "type": "Pass Accuracy",
@@ -1087,35 +2157,35 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 28
+          "value": 81
         },
         {
           "type": "Total Shots",
-          "value": 6
+          "value": 22
         },
         {
           "type": "Shots on Goal",
-          "value": 1
+          "value": 9
         },
         {
           "type": "Shots off Goal",
-          "value": 2
+          "value": 8
         },
         {
           "type": "Blocked Shots",
-          "value": 3
+          "value": 4
         },
         {
           "type": "Hit Woodwork",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Corner Kicks",
-          "value": 3
+          "value": 8
         },
         {
           "type": "Offsides",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Penalties",
@@ -1123,19 +2193,19 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 2
+          "value": 8
         },
         {
           "type": "Tackles",
-          "value": 3
+          "value": 20
         },
         {
           "type": "Fouls",
-          "value": 6
+          "value": 12
         },
         {
           "type": "Yellow Cards",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Red Cards",
@@ -1151,35 +2221,35 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "45%"
+          "value": "51%"
         },
         {
           "type": "Total Passes",
-          "value": 120
+          "value": 415
         },
         {
           "type": "Pass Accuracy",
-          "value": "83%"
+          "value": "84%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 20
+          "value": 67
         },
         {
           "type": "Total Shots",
-          "value": 3
+          "value": 16
         },
         {
           "type": "Shots on Goal",
-          "value": 1
+          "value": 3
         },
         {
           "type": "Shots off Goal",
-          "value": 1
+          "value": 8
         },
         {
           "type": "Blocked Shots",
-          "value": 1
+          "value": 5
         },
         {
           "type": "Hit Woodwork",
@@ -1187,11 +2257,11 @@
         },
         {
           "type": "Corner Kicks",
-          "value": 1
+          "value": 9
         },
         {
           "type": "Offsides",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Penalties",
@@ -1199,15 +2269,15 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 3
+          "value": 10
         },
         {
           "type": "Tackles",
-          "value": 2
+          "value": 15
         },
         {
           "type": "Fouls",
-          "value": 7
+          "value": 20
         },
         {
           "type": "Yellow Cards",

@@ -5,6 +5,7 @@ import type {
   MatchDetail,
   MatchGoal,
   MatchMoment,
+  MatchStatRow,
   MatchSub,
 } from "./types";
 import { isMatchToday, isMatchUpcoming } from "./utils";
@@ -13,7 +14,8 @@ import { isMatchToday, isMatchUpcoming } from "./utils";
  * GitHub Actions cron often lags by tens of minutes during a matchday, so the
  * static cache keeps old placares while the on-device clock keeps ticking.
  * ESPN's public scoreboard allows browser CORS and carries the live score,
- * period, and minute. We overlay that onto GE fixtures (matched by club).
+ * period, minute, commentary, and team statistics. We overlay that onto GE
+ * fixtures (matched by club).
  */
 
 const ESPN_SCOREBOARD =
@@ -294,6 +296,19 @@ export function espnEventIdFor(match: Match): string | null {
   return id ? id : null;
 }
 
+/** Scoreboard first, then a targeted fetch when the overlay has not run yet. */
+export async function resolveEspnEventId(match: Match): Promise<string | null> {
+  const cached = espnEventIdFor(match);
+  if (cached) return cached;
+  const dates = espnDatesFor([match]);
+  if (!dates.length && match.datetime > 0) {
+    dates.push(saoPauloDateParam(match.datetime));
+  }
+  if (!dates.length) return null;
+  await loadEspnSnapshots(dates);
+  return espnEventIdFor(match);
+}
+
 function minuteParts(display: string, seconds: number): { label: string; sortKey: number } {
   const stop = display.match(/(\d+)\s*'\s*\+\s*(\d+)/);
   if (stop) {
@@ -463,11 +478,184 @@ export function applyEspnCommentary<T extends MatchDetail>(detail: T, lances: Es
   return { ...detail, goals1, goals2, cards, subs, moments };
 }
 
-export async function loadEspnCommentary(eventId: string): Promise<EspnLance[]> {
+/**
+ * ESPN boxscore `name` → the same labels GE sync writes, so the stats tab
+ * (and its PT translations) stay one list.
+ * `passPct` / `shotPct` arrive as 0–1 ratios ("0.9" = 90%). Possession is
+ * already 0–100. Shots off target and incomplete passes are derived.
+ */
+const ESPN_COUNT_STATS: Array<{ name: string; label: string }> = [
+  { name: "blockedShots", label: "Blocked Shots" },
+  { name: "wonCorners", label: "Corner Kicks" },
+  { name: "offsides", label: "Offsides" },
+  { name: "penaltyKickShots", label: "Penalties" },
+  { name: "saves", label: "Goalkeeper Saves" },
+  { name: "totalTackles", label: "Tackles" },
+  { name: "foulsCommitted", label: "Fouls" },
+  { name: "yellowCards", label: "Yellow Cards" },
+  { name: "redCards", label: "Red Cards" },
+];
+
+function readStatNumber(raw: string | undefined): number | null {
+  if (raw == null) return null;
+  const n = Number(String(raw).replace("%", "").trim());
+  return Number.isFinite(n) ? n : null;
+}
+
+function readCount(side: Record<string, string>, key: string): number | null {
+  const n = readStatNumber(side[key]);
+  return n == null ? null : Math.round(n);
+}
+
+/** 0–1 ratios become percents; values already above 1 are left as percents. */
+function readRatioPercent(raw: string | undefined): number | null {
+  const n = readStatNumber(raw);
+  if (n == null) return null;
+  return n <= 1 ? Math.round(n * 100) : Math.round(n);
+}
+
+function pairCounts(home: number | null, away: number | null): [number, number] | null {
+  if (home == null && away == null) return null;
+  return [home ?? 0, away ?? 0];
+}
+
+function shotsOffTarget(side: Record<string, string>): number | null {
+  const total = readCount(side, "totalShots");
+  if (total == null) return null;
+  const on = readCount(side, "shotsOnTarget") ?? 0;
+  const blocked = readCount(side, "blockedShots") ?? 0;
+  return Math.max(0, total - on - blocked);
+}
+
+function incompletePasses(side: Record<string, string>): number | null {
+  const total = readCount(side, "totalPasses");
+  const accurate = readCount(side, "accuratePasses");
+  if (total == null || accurate == null) return null;
+  return Math.max(0, total - accurate);
+}
+
+function passAccuracy(side: Record<string, string>): number | null {
+  const total = readCount(side, "totalPasses");
+  const accurate = readCount(side, "accuratePasses");
+  if (total != null && total > 0 && accurate != null) {
+    return Math.round((accurate / total) * 100);
+  }
+  if (total === 0) return 0;
+  return readRatioPercent(side.passPct);
+}
+
+function boxscoreSides(payload: unknown): {
+  home: Record<string, string>;
+  away: Record<string, string>;
+} | null {
+  const teams = (payload as { boxscore?: { teams?: unknown[] } } | null)?.boxscore?.teams;
+  if (!Array.isArray(teams)) return null;
+  const home: Record<string, string> = {};
+  const away: Record<string, string> = {};
+  let found = false;
+  for (const team of teams) {
+    const row = team as {
+      homeAway?: string;
+      statistics?: Array<{ name?: string; displayValue?: string | number | null }>;
+    };
+    const side = row.homeAway === "home" ? home : row.homeAway === "away" ? away : null;
+    if (!side) continue;
+    found = true;
+    for (const stat of row.statistics ?? []) {
+      if (!stat?.name || stat.displayValue == null) continue;
+      side[stat.name] = String(stat.displayValue);
+    }
+  }
+  return found ? { home, away } : null;
+}
+
+/** Team statistics from an ESPN summary payload. Empty when the feed has none. */
+export function parseEspnStats(payload: unknown): MatchStatRow[] {
+  const sides = boxscoreSides(payload);
+  if (!sides) return [];
+  const rows: MatchStatRow[] = [];
+  const push = (label: string, values: [string | number, string | number] | null) => {
+    if (!values) return;
+    rows.push({ key: label, values });
+  };
+  const pct = (label: string, home: number | null, away: number | null) => {
+    const pair = pairCounts(home, away);
+    if (!pair) return;
+    push(label, [`${pair[0]}%`, `${pair[1]}%`]);
+  };
+
+  const homePoss = readStatNumber(sides.home.possessionPct);
+  const awayPoss = readStatNumber(sides.away.possessionPct);
+  pct(
+    "Ball Possession",
+    homePoss == null ? null : Math.round(homePoss),
+    awayPoss == null ? null : Math.round(awayPoss)
+  );
+  const countRow = (name: string, label: string) => {
+    push(label, pairCounts(readCount(sides.home, name), readCount(sides.away, name)));
+  };
+  countRow("totalPasses", "Total Passes");
+  pct("Pass Accuracy", passAccuracy(sides.home), passAccuracy(sides.away));
+  push(
+    "Incomplete Passes",
+    pairCounts(incompletePasses(sides.home), incompletePasses(sides.away))
+  );
+  countRow("totalShots", "Total Shots");
+  countRow("shotsOnTarget", "Shots on Goal");
+  push(
+    "Shots off Goal",
+    pairCounts(shotsOffTarget(sides.home), shotsOffTarget(sides.away))
+  );
+  for (const def of ESPN_COUNT_STATS) countRow(def.name, def.label);
+  return rows;
+}
+
+function statMagnitude(stats: MatchStatRow[]): number {
+  let total = 0;
+  for (const row of stats) {
+    for (const value of row.values) {
+      const n = readStatNumber(String(value));
+      if (n != null) total += Math.abs(n);
+    }
+  }
+  return total;
+}
+
+/**
+ * Fill the stats tab from ESPN while the GE cache is still empty or behind.
+ * A finished match that already has GE statistics keeps that feed.
+ */
+export function applyEspnStats<T extends MatchDetail>(detail: T, stats: MatchStatRow[]): T {
+  if (!stats.length) return detail;
+  if (!detail.stats.length) return { ...detail, stats };
+  if (detail.status === "live" && statMagnitude(stats) >= statMagnitude(detail.stats)) {
+    return { ...detail, stats };
+  }
+  return detail;
+}
+
+export interface EspnLiveFeed {
+  lances: EspnLance[];
+  stats: MatchStatRow[];
+}
+
+export function parseEspnLiveFeed(payload: unknown): EspnLiveFeed {
+  return {
+    lances: parseEspnCommentary(payload),
+    stats: parseEspnStats(payload),
+  };
+}
+
+export async function loadEspnLiveFeed(eventId: string): Promise<EspnLiveFeed> {
   const url = `${ESPN_SUMMARY}?event=${encodeURIComponent(eventId)}&lang=pt`;
   const res = await fetch(url, { cache: "no-store", signal: AbortSignal.timeout(8_000) });
-  if (!res.ok) throw new Error(`ESPN commentary HTTP ${res.status}`);
-  return parseEspnCommentary(await res.json());
+  if (!res.ok) throw new Error(`ESPN summary HTTP ${res.status}`);
+  return parseEspnLiveFeed(await res.json());
+}
+
+export async function loadEspnCommentary(eventId: string): Promise<EspnLance[]> {
+  const feed = await loadEspnLiveFeed(eventId);
+  return feed.lances;
 }
 
 export async function loadEspnSnapshots(dates: string[]): Promise<EspnSnapshot[]> {

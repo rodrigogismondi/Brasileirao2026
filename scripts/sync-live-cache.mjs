@@ -662,6 +662,184 @@ function mapStatistics(stats, home, away) {
   ];
 }
 
+const ESPN_SCOREBOARD =
+  "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.1/scoreboard";
+const ESPN_SUMMARY =
+  "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.1/summary";
+
+function espnClubKey(name) {
+  const compact = String(name || "")
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .toLowerCase()
+    .replace(/[^a-z0-9]/g, "");
+  if (compact.includes("athletico") || compact.includes("paranaense")) return "athleticopr";
+  if (
+    compact.includes("atletico") &&
+    (compact.includes("mineiro") || compact.endsWith("mg") || compact.includes("atleticomg"))
+  ) {
+    return "atleticomg";
+  }
+  if (compact.includes("saopaulo")) return "saopaulo";
+  if (compact.includes("bragantino")) return "bragantino";
+  if (compact.includes("santos")) return "santos";
+  if (compact.includes("flamengo")) return "flamengo";
+  if (compact.includes("palmeiras")) return "palmeiras";
+  if (compact.includes("fluminense")) return "fluminense";
+  if (compact.includes("coritiba")) return "coritiba";
+  if (compact.includes("botafogo")) return "botafogo";
+  if (compact.includes("cruzeiro")) return "cruzeiro";
+  if (compact.includes("bahia")) return "bahia";
+  if (compact.includes("gremio")) return "gremio";
+  if (compact.includes("vasco")) return "vasco";
+  if (compact.includes("internacional")) return "internacional";
+  if (compact.includes("mirassol")) return "mirassol";
+  if (compact.includes("vitoria")) return "vitoria";
+  if (compact.includes("chapecoense")) return "chapecoense";
+  if (compact.includes("remo")) return "remo";
+  return compact;
+}
+
+function espnStatNumber(raw) {
+  if (raw == null) return null;
+  const n = Number(String(raw).replace("%", "").trim());
+  return Number.isFinite(n) ? n : null;
+}
+
+function espnCount(side, key) {
+  const n = espnStatNumber(side[key]);
+  return n == null ? null : Math.round(n);
+}
+
+function espnPair(home, away) {
+  if (home == null && away == null) return null;
+  return [home ?? 0, away ?? 0];
+}
+
+function mapEspnBoxscore(payload, home, away) {
+  const teams = payload?.boxscore?.teams;
+  if (!Array.isArray(teams)) return [];
+  const sides = { home: {}, away: {} };
+  for (const team of teams) {
+    const side = team.homeAway === "home" ? sides.home : team.homeAway === "away" ? sides.away : null;
+    if (!side) continue;
+    for (const stat of team.statistics ?? []) {
+      if (!stat?.name || stat.displayValue == null) continue;
+      side[stat.name] = String(stat.displayValue);
+    }
+  }
+  if (!Object.keys(sides.home).length && !Object.keys(sides.away).length) return [];
+
+  const homeRows = [];
+  const awayRows = [];
+  const push = (label, pair, fmt = (n) => n) => {
+    if (!pair) return;
+    homeRows.push({ type: label, value: fmt(pair[0]) });
+    awayRows.push({ type: label, value: fmt(pair[1]) });
+  };
+  const pct = (n) => `${n}%`;
+  const possH = espnStatNumber(sides.home.possessionPct);
+  const possA = espnStatNumber(sides.away.possessionPct);
+  push(
+    "Ball Possession",
+    espnPair(possH == null ? null : Math.round(possH), possA == null ? null : Math.round(possA)),
+    pct
+  );
+  const count = (name, label) =>
+    push(label, espnPair(espnCount(sides.home, name), espnCount(sides.away, name)));
+  count("totalPasses", "Total Passes");
+  const acc = (side) => {
+    const total = espnCount(side, "totalPasses");
+    const accurate = espnCount(side, "accuratePasses");
+    if (total != null && total > 0 && accurate != null) return Math.round((accurate / total) * 100);
+    if (total === 0) return 0;
+    const ratio = espnStatNumber(side.passPct);
+    if (ratio == null) return null;
+    return ratio <= 1 ? Math.round(ratio * 100) : Math.round(ratio);
+  };
+  push("Pass Accuracy", espnPair(acc(sides.home), acc(sides.away)), pct);
+  const incomplete = (side) => {
+    const total = espnCount(side, "totalPasses");
+    const accurate = espnCount(side, "accuratePasses");
+    if (total == null || accurate == null) return null;
+    return Math.max(0, total - accurate);
+  };
+  push("Incomplete Passes", espnPair(incomplete(sides.home), incomplete(sides.away)));
+  count("totalShots", "Total Shots");
+  count("shotsOnTarget", "Shots on Goal");
+  const offTarget = (side) => {
+    const total = espnCount(side, "totalShots");
+    if (total == null) return null;
+    return Math.max(0, total - (espnCount(side, "shotsOnTarget") ?? 0) - (espnCount(side, "blockedShots") ?? 0));
+  };
+  push("Shots off Goal", espnPair(offTarget(sides.home), offTarget(sides.away)));
+  count("blockedShots", "Blocked Shots");
+  count("wonCorners", "Corner Kicks");
+  count("offsides", "Offsides");
+  count("penaltyKickShots", "Penalties");
+  count("saves", "Goalkeeper Saves");
+  count("totalTackles", "Tackles");
+  count("foulsCommitted", "Fouls");
+  count("yellowCards", "Yellow Cards");
+  count("redCards", "Red Cards");
+  if (!homeRows.length) return [];
+  return [
+    { team: { id: home.id, name: home.name }, statistics: homeRows },
+    { team: { id: away.id, name: away.name }, statistics: awayRows },
+  ];
+}
+
+async function findEspnEventId(homeName, awayName, timestamp) {
+  const date = new Date(timestamp * 1000).toISOString().slice(0, 10).replace(/-/g, "");
+  const sp = new Intl.DateTimeFormat("en-CA", {
+    timeZone: "America/Sao_Paulo",
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit",
+  })
+    .format(new Date(timestamp * 1000))
+    .replace(/-/g, "");
+  const dates = [...new Set([sp, date])];
+  const homeKey = espnClubKey(homeName);
+  const awayKey = espnClubKey(awayName);
+  for (const day of dates) {
+    try {
+      const res = await fetch(`${ESPN_SCOREBOARD}?dates=${day}&limit=100`, {
+        headers: { Accept: "application/json" },
+        signal: AbortSignal.timeout(8000),
+      });
+      if (!res.ok) continue;
+      const events = (await res.json())?.events ?? [];
+      for (const ev of events) {
+        const comp = ev.competitions?.[0];
+        const home = comp?.competitors?.find((c) => c.homeAway === "home");
+        const away = comp?.competitors?.find((c) => c.homeAway === "away");
+        if (!home?.team?.displayName || !away?.team?.displayName) continue;
+        if (
+          espnClubKey(home.team.displayName) === homeKey &&
+          espnClubKey(away.team.displayName) === awayKey
+        ) {
+          return String(ev.id ?? "");
+        }
+      }
+    } catch {
+      /* try next date */
+    }
+  }
+  return null;
+}
+
+async function statisticsFromEspn(home, away, timestamp) {
+  const eventId = await findEspnEventId(home.name, away.name, timestamp);
+  if (!eventId) return [];
+  const res = await fetch(`${ESPN_SUMMARY}?event=${encodeURIComponent(eventId)}&lang=pt`, {
+    headers: { Accept: "application/json" },
+    signal: AbortSignal.timeout(8000),
+  });
+  if (!res.ok) return [];
+  return mapEspnBoxscore(await res.json(), home, away);
+}
+
 /** Seconds since scheduled kickoff (negative = not started yet). */
 function ageSinceKickoffSec(fixtureRow, nowSec = Math.floor(Date.now() / 1000)) {
   const ts = Number(fixtureRow?.fixture?.timestamp || 0);
@@ -992,7 +1170,7 @@ async function enrichFromTransmission(fixtureRow) {
   const homeLineup = mapSquadSide(match.squads?.homeTeam, home);
   const awayLineup = mapSquadSide(match.squads?.awayTeam, away);
   const lineups = [homeLineup, awayLineup].filter(Boolean);
-  const statistics = mapStatistics(trv2.statistics, home, away);
+  let statistics = mapStatistics(trv2.statistics, home, away);
 
   const periodAbbr = resolvePeriodAbbr(trv2.transmission, match);
   const listaStatus = fixtureRow.fixture.status;
@@ -1107,6 +1285,16 @@ async function enrichFromTransmission(fixtureRow) {
   // Never strip lances/stats after kickoff — stale NS used to wipe them while
   // lineups remained, which is exactly the recurring "AO VIVO vazio" bug.
   const hideLiveFeed = status.short === "NS" && !pastKickoff;
+  if (!hideLiveFeed && !statistics.length) {
+    try {
+      statistics = await statisticsFromEspn(home, away, fixtureRow.fixture.timestamp);
+    } catch (err) {
+      console.warn(
+        `ESPN stats fallback failed for ${fixtureRow.fixture.id}:`,
+        err instanceof Error ? err.message : String(err)
+      );
+    }
+  }
   return {
     ...base,
     // Persist for later ticks — lista often drops transmissao.url after FT.
@@ -1476,6 +1664,24 @@ async function main() {
             `Match detail enrich failed for ${f.fixture.id}:`,
             err instanceof Error ? err.message : String(err)
           );
+        }
+        if (
+          (!detail.statistics || detail.statistics.length === 0) &&
+          (IN_PLAY_SHORT.includes(detail.fixture?.status?.short) || isPastKickoffWindow(f))
+        ) {
+          try {
+            const espnStats = await statisticsFromEspn(
+              f.teams.home,
+              f.teams.away,
+              f.fixture.timestamp
+            );
+            if (espnStats.length) detail.statistics = espnStats;
+          } catch (err) {
+            console.warn(
+              `ESPN stats fallback failed for ${f.fixture.id}:`,
+              err instanceof Error ? err.message : String(err)
+            );
+          }
         }
         await sleep(120);
       }

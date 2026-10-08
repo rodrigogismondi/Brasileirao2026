@@ -1,7 +1,14 @@
 import { fetchDashboard, fetchMatchDetail, matchSummaryFromList } from "./api";
+import {
+  applyEspnToDashboard,
+  espnDatesFor,
+  getEspnSnapshots,
+  loadEspnSnapshots,
+  patchMatch,
+} from "./espn-live";
 import { detectLang, LOCALE, saveLang, type Lang } from "./i18n";
 import { renderApp, type AppState } from "./render";
-import type { MatchDetailTab, ViewId } from "./types";
+import type { DashboardData, MatchDetail, MatchDetailTab, ViewId } from "./types";
 import { registerSW } from "virtual:pwa-register";
 import "./style.css";
 
@@ -37,7 +44,23 @@ let state: AppState = {
 
 let refreshTimer: ReturnType<typeof setInterval> | null = null;
 let clockTimer: ReturnType<typeof setInterval> | null = null;
+let espnTimer: ReturnType<typeof setInterval> | null = null;
 const LIVE_CLOCK_MS = 15_000;
+const ESPN_POLL_MS = 20_000;
+
+async function overlayEspn(data: DashboardData): Promise<DashboardData> {
+  const dates = espnDatesFor(data.all);
+  if (!dates.length) return data;
+  const snaps = await loadEspnSnapshots(dates);
+  return applyEspnToDashboard(data, snaps);
+}
+
+function patchDetail(detail: MatchDetail | null): MatchDetail | null {
+  if (!detail) return detail;
+  const snaps = getEspnSnapshots();
+  if (!snaps.length) return detail;
+  return patchMatch(detail, snaps);
+}
 
 function mount(): void {
   const root = document.getElementById("app");
@@ -55,7 +78,7 @@ function mount(): void {
       paint();
     }
     try {
-      const detail = await fetchMatchDetail(id);
+      const detail = patchDetail(await fetchMatchDetail(id));
       const fallback = state.data?.all.find((m) => m.id === id);
       const merged =
         detail != null
@@ -112,6 +135,30 @@ function mount(): void {
     refreshTimer = setInterval(() => void load(true), ms);
   };
 
+  const scheduleEspnPoll = () => {
+    if (espnTimer) clearInterval(espnTimer);
+    espnTimer = null;
+    if (!state.data || espnDatesFor(state.data.all).length === 0) return;
+    espnTimer = setInterval(() => {
+      void (async () => {
+        if (!state.data) return;
+        try {
+          const data = await overlayEspn(state.data);
+          const detail = patchDetail(state.matchDetail);
+          state = {
+            ...state,
+            data,
+            matchDetail: detail ?? state.matchDetail,
+          };
+          scheduleLiveClock();
+          paint();
+        } catch (err) {
+          console.warn("ESPN live overlay failed", err);
+        }
+      })();
+    }, ESPN_POLL_MS);
+  };
+
   const scheduleLiveClock = () => {
     if (clockTimer) clearInterval(clockTimer);
     clockTimer = null;
@@ -137,7 +184,12 @@ function mount(): void {
     }
 
     try {
-      const data = await fetchDashboard();
+      let data = await fetchDashboard();
+      try {
+        data = await overlayEspn(data);
+      } catch (err) {
+        console.warn("ESPN live overlay failed", err);
+      }
       state = {
         ...state,
         data,
@@ -149,6 +201,7 @@ function mount(): void {
         data.budget.liveIntervalMs,
         data.live.length > 0 ? "live" : data.budget.mode
       );
+      scheduleEspnPoll();
       scheduleLiveClock();
       if (state.selectedMatchId) {
         await loadMatchDetail(state.selectedMatchId, true);

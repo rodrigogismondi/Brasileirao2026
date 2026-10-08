@@ -90,7 +90,8 @@ export interface MatchSub {
 export interface MatchMoment {
   /** null when GE narration has no reliable side (avoid fake home crest). */
   team: 1 | 2 | null;
-  minute: number;
+  /** Match minute, or "45+3" when the feed reports stoppage. */
+  minute: number | string;
   name: string;
   title: string;
   detail?: string;

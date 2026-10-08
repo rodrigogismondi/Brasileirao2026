@@ -82,14 +82,17 @@ export function resolveLiveMinute(m: Match, now = Date.now()): number | null {
   if (m.status !== "live") return null;
   if (isHalftime(m, now)) return null;
 
+  const period = displayPeriod(m, now);
   const running = String(m.timerStatus || "").toUpperCase() === "INICIADO";
   const startMs = validPeriodTimerStartMs(m);
   if (running && startMs != null) {
     let mins = Math.floor((now - startMs) / 60000);
     if (mins < 0) mins = 0;
     if (mins > 130) mins = 130;
-    if (m.period === "2H") mins = 45 + mins;
-    else if (m.period === "ET") mins = 90 + mins;
+    // 1H timer kept running through the break — don't show 70' as first-half stoppage.
+    if (m.period === "1H" && period === "2H") mins = 45 + Math.max(0, mins - 60);
+    else if (period === "2H" || m.period === "2H") mins = 45 + mins;
+    else if (period === "ET" || m.period === "ET") mins = 90 + mins;
     return mins;
   }
 
@@ -137,12 +140,31 @@ function minutesSinceTimerStart(m: Match, now: number): number | null {
   return Math.floor((now - startMs) / 60000);
 }
 
+/** Stale 1H timer: treat as Intervalo only across a normal break, then 2H. */
+const STALE_HT_START_MIN = 52;
+const STALE_HT_END_MIN = 66;
+
+/**
+ * Period used on the badge. A stale 1H clock is Intervalo only for the break
+ * window. After that the second half has started — staying on Intervalo was
+ * hiding a 2º tempo that other apps already showed.
+ */
+export function displayPeriod(m: Match, now = Date.now()): string | null {
+  if (m.period !== "1H") return m.period;
+  const wallMins = minutesSinceTimerStart(m, now);
+  if (wallMins == null) return m.period;
+  if (wallMins >= STALE_HT_START_MIN && wallMins < STALE_HT_END_MIN) return "HT";
+  if (wallMins >= STALE_HT_END_MIN) return "2H";
+  return "1H";
+}
+
 /** True when GE says Intervalo, or 1H is paused past 45', or cache lagged past typical half length. */
 export function isHalftime(m: Match, now = Date.now()): boolean {
   if (m.status !== "live") return false;
   if (m.period === "HT") return true;
   // Do not treat 2H pause / full-time whistle as Intervalo.
   if (m.period === "2H" || m.period === "ET" || m.period === "FT") return false;
+  if (displayPeriod(m, now) === "2H") return false;
 
   const wallMins = minutesSinceTimerStart(m, now);
   const syncedMins = m.liveMinute ?? 0;
@@ -155,14 +177,13 @@ export function isHalftime(m: Match, now = Date.now()): boolean {
   const paused = String(m.timerStatus || "").toUpperCase() === "PAUSADO";
   if (paused && m.period === "1H") {
     if (kickAgeMins != null && kickAgeMins < 40) return false;
+    // Past the break, a stuck PAUSADO must not stay "Intervalo" for the whole 2nd half.
+    if (wallMins != null && wallMins >= STALE_HT_END_MIN) return false;
     if (syncedMins >= 45 || (wallMins != null && wallMins >= 45)) return true;
   }
 
   // Cache lag: still "1H"/"INICIADO" after a half that should already be over.
-  if (m.period === "1H" && wallMins != null) {
-    // 45' + ~7' stoppage — beyond that the half is almost certainly over (cache lag).
-    if (wallMins >= 52) return true;
-  }
+  if (displayPeriod(m, now) === "HT") return true;
 
   return false;
 }
@@ -172,9 +193,19 @@ export function liveBadgeText(m: Match, lang: Lang, now = Date.now()): string {
   if (isHalftime(m, now)) return t(lang, "statusHT");
   const minute = resolveLiveMinute(m, now);
   if (minute == null) return t(lang, "statusLive");
-  // Stoppage in the 1st half: show 45+N instead of 48'/52'
-  if (m.period === "1H" && minute > 45) return `45+${minute - 45}'`;
-  if (m.period === "2H" && minute > 90) return `90+${minute - 90}'`;
+  const period = displayPeriod(m, now);
+  const kickAge = Number.isFinite(m.datetime)
+    ? Math.floor((now - m.datetime * 1000) / 60000)
+    : null;
+  // Stoppage in the 1st half: show 45+N instead of 48'/52'.
+  // Past the break the kickoff-age fallback already returns a 2nd-half minute;
+  // formatting that as 45+N produced "45+63'" while the half had moved on.
+  if (period === "1H" && minute > 45 && (kickAge == null || kickAge <= 62)) {
+    return `45+${minute - 45}'`;
+  }
+  if ((period === "2H" || m.period === "2H" || (period === "1H" && kickAge != null && kickAge > 62)) && minute > 90) {
+    return `90+${minute - 90}'`;
+  }
   return `${minute}'`;
 }
 

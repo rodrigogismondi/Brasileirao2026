@@ -7,12 +7,12 @@
       "city": ""
     },
     "status": {
-      "long": "NS",
-      "short": "NS",
-      "elapsed": null
+      "long": "1H",
+      "short": "1H",
+      "elapsed": 35
     },
-    "timerStart": null,
-    "timerStatus": "PAUSADO"
+    "timerStart": "2026-10-08T00:30:28.422Z",
+    "timerStatus": "INICIADO"
   },
   "league": {
     "round": "Regular Season - 29"
@@ -30,8 +30,8 @@
     }
   },
   "goals": {
-    "home": null,
-    "away": null
+    "home": 0,
+    "away": 0
   },
   "score": {
     "halftime": {
@@ -44,13 +44,582 @@
     }
   },
   "odds": {
-    "home": 1.78,
-    "draw": 3.6,
-    "away": 4.43,
+    "home": 1.82,
+    "draw": 3.53,
+    "away": 4.31,
     "source": "betexplorer"
   },
   "_geUrl": "https://ge.globo.com/mg/futebol/brasileirao-serie-a/jogo/07-10-2026/cruzeiro-sao-paulo.ghtml",
-  "events": [],
+  "events": [
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Cruzeiro e São Paulo dão o pontapé inicial.",
+      "player": {
+        "name": "COMEÇA O JOGO!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 1,
+        "extra": null
+      },
+      "team": {
+        "id": 283,
+        "name": "Cruzeiro"
+      },
+      "type": "Important",
+      "detail": "O Cruzeiro chega com Bruno Rodrigues e passa pertinho do gol.",
+      "player": {
+        "name": "Bruno Rodrigues"
+      },
+      "assist": {
+        "name": "PRIMEIRA CHANCE!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 2,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Cruzeiro tenta a pressão inicial, perde a bola e comete a falta. São Paulo tenta chegar ao ataque, mas perde a bola no meio-campo.",
+      "player": {
+        "name": "Cruzeiro tenta a pressão inicial, perde a bola e"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 4,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "São Paulo pressiona a saída de bola e ganha um lateral perto da área do Cruzeiro.",
+      "player": {
+        "name": "São Paulo pressiona a saída de bola e ganha um l"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 4,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O jogo mal começou e o Cruzeiro já mostrou a que veio! Logo no primeiro minuto, Bruno Rodrigues teve a primeira grande chance da partida e a bola passou muito perto do gol. O time da casa tentou uma pressão inicial, mas o ritmo diminuiu. Com cerca de quatro minutos, a equipe celeste agora troca passes na defesa, estudando o São Paulo, que ainda busca se encontrar em campo.",
+      "player": {
+        "name": "Início intenso com susto para o São Paulo"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 4,
+        "extra": null
+      },
+      "team": {
+        "id": 283,
+        "name": "Cruzeiro"
+      },
+      "type": "Important",
+      "detail": "Cruzeiro fica com a bola na defesa, estudando a melhor forma de sair jogando.",
+      "player": {
+        "name": "Cruzeiro fica com a bola na defesa, estudando a "
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 5,
+        "extra": null
+      },
+      "team": {
+        "id": 283,
+        "name": "Cruzeiro"
+      },
+      "type": "Important",
+      "detail": "Wendell arranca pela esquerda, finaliza e para em Otávio.",
+      "player": {
+        "name": "Otávio"
+      },
+      "assist": {
+        "name": "Otávio espalma!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 5,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Rojas e Gerson pressinam o ataque do São Paulo e conseguem um lateral para o Cruzeiro.",
+      "player": {
+        "name": "Rojas e Gerson pressinam o ataque do São Paulo e"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 6,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Important",
+      "detail": "São Paulo cora escanteio com perigo.",
+      "player": {
+        "name": "São Paulo cora escanteio com perigo."
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 7,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O jogo começou em alta velocidade! Com menos de oito minutos, o Cruzeiro já assustou em chutes de Bruno Rodrigues e Matheus Pereira. O São Paulo não demorou a responder e quase marcou com Wendell, que parou em boa defesa de Otávio. O clima esquentou quando Felipe Morais finalizou e a bola bateu no braço de Tolói dentro da área, gerando um forte pedido de pênalti por parte do time da casa.",
+      "player": {
+        "name": "Chances para os dois lados e polêmica"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 7,
+        "extra": null
+      },
+      "team": {
+        "id": 283,
+        "name": "Cruzeiro"
+      },
+      "type": "Important",
+      "detail": "Cruzeiro chega ao ataque com William, e a bola fica viva na área. Felipe Morais arrisca chute, bola bate no braço de Tolói, e o Cruzeiro pede pênalti.",
+      "player": {
+        "name": "bate e rebate!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 8,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Wilton Pereira Sampaio manda o jogo seguir.",
+      "player": {
+        "name": "Nada de pênalti!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 9,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "William bate o lateral, mas a arbitragem manda reverter.",
+      "player": {
+        "name": "Reversão!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 9,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Cruzeiro pressiona o meio-campo do São Paulo e consegue ficar com a bola.",
+      "player": {
+        "name": "Cruzeiro pressiona o meio-campo do São Paulo e c"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 12,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O jogo começou elétrico! Com 12 minutos, já tivemos de tudo. O Cruzeiro assustou primeiro com Bruno Rodrigues, que finalizou rente à trave. A resposta do São Paulo foi imediata, com Wendell invadindo a área e obrigando o goleiro Otávio a fazer uma grande defesa. O clima esquentou quando o time da casa pediu pênalti após a bola bater no braço de Tolói, mas a arbitragem mandou seguir.",
+      "player": {
+        "name": "Chances, defesaça e pedido de pênalti"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 12,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Bola fica viva no meio-campo do Mineirão.",
+      "player": {
+        "name": "Bola fica viva no meio-campo do Mineirão."
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 13,
+        "extra": null
+      },
+      "team": {
+        "id": 283,
+        "name": "Cruzeiro"
+      },
+      "type": "Important",
+      "detail": "Cruzeiro retoma a bola no meio-campo e desce para o ataque. Troca passes para chegar na área.",
+      "player": {
+        "name": "Cruzeiro retoma a bola no meio-campo e desce par"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 13,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Important",
+      "detail": "São Paulo tenta chegar ao ataque do lado esquerdo.",
+      "player": {
+        "name": "São Paulo tenta chegar ao ataque do lado esquerd"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 14,
+        "extra": null
+      },
+      "team": {
+        "id": 283,
+        "name": "Cruzeiro"
+      },
+      "type": "Important",
+      "detail": "Cruzeiro continua pressionando.",
+      "player": {
+        "name": "Cruzeiro continua pressionando."
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 15,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O jogo começou eletrizante, com o Cruzeiro criando a primeira chance com Bruno Rodrigues logo no minuto inicial. O São Paulo respondeu rápido, e Wendell obrigou o goleiro Otávio a fazer uma importante defesa. O clima esquentou aos 7 minutos, quando o time da casa pediu pênalti após a bola bater no braço de Tolói dentro da área, mas a arbitragem mandou seguir. Partida aberta e muito disputada.",
+      "player": {
+        "name": "Início agitado e com polêmica no Mineirão"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 18,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Cruzeiro começou pressionando e criou duas chances logo no primeiro minuto, com Matheus Pereira e Bruno Rodrigues. A resposta do São Paulo veio com Wendell, em finalização defendida por Otávio, e com um cabeceio para fora de Tolói. Aos 7 minutos, o time da casa pediu pênalti após a bola bater no braço do zagueiro, mas a arbitragem mandou seguir. Jogo movimentado e equilibrado até aqui.",
+      "player": {
+        "name": "Início quente com chances e polêmica"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 18,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "São Paulo chega pelo lado direito, Bobadilla fica com a bola e tenta finalizar. Para na defesa do Cruzeiro.",
+      "player": {
+        "name": "São Paulo chega pelo lado direito, Bobadilla fic"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 20,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Wendell"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 21,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O jogo começou com o Cruzeiro pressionando e quase abrindo o placar com Bruno Rodrigues logo no primeiro minuto. O São Paulo não se intimidou e respondeu com Wendell, que parou em boa defesa do goleiro Otávio. O clima esquentou com um pedido de pênalti do Cruzeiro após chute de Felipe Morais, mas a arbitragem mandou seguir. Aos 20 minutos, Wendell levou amarelo em um duelo intenso e equilibrado.",
+      "player": {
+        "name": "Início agitado e com polêmica no Mineirão"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 21,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "São Paulo tenta sair parao ataque, mas a bola fica com o Cruzeiro.",
+      "player": {
+        "name": "São Paulo tenta sair parao ataque, mas a bola fi"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 22,
+        "extra": null
+      },
+      "team": {
+        "id": 283,
+        "name": "Cruzeiro"
+      },
+      "type": "Important",
+      "detail": "Cruzeiro chega com Rojas escorando para Bruno Rodrigues tentar finalizar.",
+      "player": {
+        "name": "Cruzeiro chega com Rojas escorando para Bruno Ro"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 23,
+        "extra": null
+      },
+      "team": {
+        "id": 283,
+        "name": "Cruzeiro"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Gabriel Rojas"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 26,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "A partida começou com o Cruzeiro impondo um forte ritmo e quase abrindo o placar com Bruno Rodrigues no primeiro minuto. O São Paulo não se intimidou e respondeu com Wendell, que parou em boa defesa de Otávio. O clima esquentou com um pedido de pênalti do Cruzeiro ignorado pela arbitragem. Após 25 minutos, o duelo segue pegado, com cartões para Wendell e Gabriel Rojas, e chances para os dois lados.",
+      "player": {
+        "name": "Início quente com chances e polêmica"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 26,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Important",
+      "detail": "Matheus Pereira chega com perigo, tenta cruzar para Gerson, mas a defesa do São Paulo afasta.",
+      "player": {
+        "name": "Matheus Pereira chega com perigo, tenta cruzar p"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 27,
+        "extra": null
+      },
+      "team": {
+        "id": 283,
+        "name": "Cruzeiro"
+      },
+      "type": "Important",
+      "detail": "Cruzeiro cobra escanteio, Kaio Jorge cabeceia, mas para na trave.",
+      "player": {
+        "name": "Kaio Jorge"
+      },
+      "assist": {
+        "name": "QUASE!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 28,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O jogo começou com o Cruzeiro buscando o ataque, mas o São Paulo respondeu rápido com Wendell, que parou em defesa de Otávio. A partida seguiu intensa, com um pedido de pênalti do time da casa não marcado e cartões para os dois lados. Perto dos 28 minutos, a pressão do Cruzeiro aumentou: Kaio Jorge carimbou a trave em um cabeceio e, em seguida, obrigou o goleiro Coronel a fazer ótima defesa.",
+      "player": {
+        "name": "Ritmo forte e bola na trave no Mineirão"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 28,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Important",
+      "detail": "Kaio Jorge aproveita bobeada da defesa do São Paulo, acelera pelo lado direito, bate rasteiro, mas vê Coronel defender.",
+      "player": {
+        "name": "Kaio Jorge"
+      },
+      "assist": {
+        "name": "MAIS UMA TENTATIVA!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 29,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Important",
+      "detail": "São Paulo tenta dar o troco, mas para em William. Escanteio para o Tricolor.",
+      "player": {
+        "name": "São Paulo tenta dar o troco, mas para em William"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 30,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Important",
+      "detail": "São Paulo cobra escanteio, William consegue tirar para o lado do campo.",
+      "player": {
+        "name": "São Paulo cobra escanteio, William consegue tira"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 31,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O jogo começou com ritmo acelerado e chances para os dois lados nos primeiros minutos. O Cruzeiro chegou perto com Bruno Rodrigues, enquanto o São Paulo respondeu com Wendell, que parou em defesa de Otávio. Após os 25 minutos, a pressão da casa aumentou: Kaio Jorge acertou a trave em um cabeceio e, logo depois, obrigou o goleiro Coronel a trabalhar. Com dois cartões amarelos, o duelo segue pegado.",
+      "player": {
+        "name": "Cruzeiro acerta a trave e pressiona no Mineirão"
+      },
+      "assist": null
+    }
+  ],
   "lineups": [
     {
       "team": {
@@ -58,7 +627,7 @@
         "name": "Cruzeiro",
         "logo": "https://s.sde.globo.com/media/organizations/2021/02/13/cruzeiro_2021.svg"
       },
-      "formation": "4-5-1",
+      "formation": "4-3-3",
       "coach": {
         "name": "Artur Jorge"
       },
@@ -74,9 +643,9 @@
         },
         {
           "player": {
-            "id": "fagner",
-            "name": "Fagner",
-            "number": 23,
+            "id": "williamasevedo",
+            "name": "William",
+            "number": 12,
             "pos": "Def",
             "grid": null
           }
@@ -85,7 +654,7 @@
           "player": {
             "id": "joaomarcelo",
             "name": "João Marcelo",
-            "number": null,
+            "number": 43,
             "pos": "Def",
             "grid": null
           }
@@ -137,10 +706,10 @@
         },
         {
           "player": {
-            "id": "KenyArroyo",
-            "name": "Arroyo",
-            "number": 99,
-            "pos": "Mei",
+            "id": "brunorodrigues-atleticopr",
+            "name": "Bruno Rodrigues",
+            "number": 9,
+            "pos": "Ata",
             "grid": null
           }
         },
@@ -155,15 +724,124 @@
         },
         {
           "player": {
-            "id": "wesley-corinthians",
-            "name": "Wesley",
-            "number": null,
+            "id": "felipe-morais",
+            "name": "Felipe Morais",
+            "number": 38,
             "pos": "Ata",
             "grid": null
           }
         }
       ],
-      "substitutes": []
+      "substitutes": [
+        {
+          "player": {
+            "id": "cassio-ramos",
+            "name": "Cássio",
+            "number": 1,
+            "pos": "Gol",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "Kaua-Moraes",
+            "name": "Kauã Moraes",
+            "number": 2,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "fagner",
+            "name": "Fagner",
+            "number": 23,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "kelvin-barbosa",
+            "name": "Kelvin",
+            "number": 84,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "mvina",
+            "name": "Viña",
+            "number": 6,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "ze-lucas",
+            "name": "Zé Lucas",
+            "number": 5,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "matheushenrique1297",
+            "name": "Matheus Henrique",
+            "number": 7,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "lucassilva",
+            "name": "Lucas Silva",
+            "number": 16,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "marquinhos-alencar",
+            "name": "Marquinhos",
+            "number": 11,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "wesley-corinthians",
+            "name": "Wesley",
+            "number": 20,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "lucirodri",
+            "name": "Lucho Rodríguez",
+            "number": 97,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "KenyArroyo",
+            "name": "Arroyo",
+            "number": 99,
+            "pos": "Ata",
+            "grid": null
+          }
+        }
+      ]
     },
     {
       "team": {
@@ -171,7 +849,7 @@
         "name": "São Paulo",
         "logo": "https://s.sde.globo.com/media/organizations/2018/03/11/sao-paulo.svg"
       },
-      "formation": "3-4-3",
+      "formation": "3-5-2",
       "coach": {
         "name": "Dorival Júnior"
       },
@@ -225,7 +903,7 @@
           "player": {
             "id": "pablomaia",
             "name": "Pablo Maia",
-            "number": null,
+            "number": 29,
             "pos": "Mei",
             "grid": null
           }
@@ -241,9 +919,9 @@
         },
         {
           "player": {
-            "id": "pedro-ferreira",
-            "name": "Pedro Ferreira",
-            "number": 46,
+            "id": "marcosantonioss",
+            "name": "Marcos Antônio",
+            "number": 8,
             "pos": "Mei",
             "grid": null
           }
@@ -276,9 +954,271 @@
           }
         }
       ],
-      "substitutes": []
+      "substitutes": [
+        {
+          "player": {
+            "id": "joao-pedro",
+            "name": "João Pedro",
+            "number": 41,
+            "pos": "Gol",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "lucasramon",
+            "name": "Lucas Ramon",
+            "number": 19,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "luis-osorio",
+            "name": "Osorio",
+            "number": 54,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "newtonaraujo",
+            "name": "Newton",
+            "number": 28,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "djhordney-ferreira",
+            "name": "Djhordney",
+            "number": 48,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "pedro-bezerra",
+            "name": "Pedro Bezerra",
+            "number": 58,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "pedro-ferreira",
+            "name": "Pedro Ferreira",
+            "number": 46,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "ferreira01",
+            "name": "Ferreira",
+            "number": 11,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "andresilva",
+            "name": "André Silva",
+            "number": 17,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "victorsa",
+            "name": "Victor Sá",
+            "number": 27,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "gustavo-santana",
+            "name": "Gustavo Santana",
+            "number": 43,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "RyanFrancisco",
+            "name": "Ryan Francisco",
+            "number": 49,
+            "pos": "Ata",
+            "grid": null
+          }
+        }
+      ]
     }
   ],
-  "statistics": [],
+  "statistics": [
+    {
+      "team": {
+        "id": 283,
+        "name": "Cruzeiro"
+      },
+      "statistics": [
+        {
+          "type": "Ball Possession",
+          "value": "55%"
+        },
+        {
+          "type": "Total Passes",
+          "value": 165
+        },
+        {
+          "type": "Pass Accuracy",
+          "value": "83%"
+        },
+        {
+          "type": "Incomplete Passes",
+          "value": 28
+        },
+        {
+          "type": "Total Shots",
+          "value": 6
+        },
+        {
+          "type": "Shots on Goal",
+          "value": 1
+        },
+        {
+          "type": "Shots off Goal",
+          "value": 2
+        },
+        {
+          "type": "Blocked Shots",
+          "value": 3
+        },
+        {
+          "type": "Hit Woodwork",
+          "value": 0
+        },
+        {
+          "type": "Corner Kicks",
+          "value": 3
+        },
+        {
+          "type": "Offsides",
+          "value": 0
+        },
+        {
+          "type": "Penalties",
+          "value": 0
+        },
+        {
+          "type": "Goalkeeper Saves",
+          "value": 2
+        },
+        {
+          "type": "Tackles",
+          "value": 3
+        },
+        {
+          "type": "Fouls",
+          "value": 6
+        },
+        {
+          "type": "Yellow Cards",
+          "value": 1
+        },
+        {
+          "type": "Red Cards",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "statistics": [
+        {
+          "type": "Ball Possession",
+          "value": "45%"
+        },
+        {
+          "type": "Total Passes",
+          "value": 120
+        },
+        {
+          "type": "Pass Accuracy",
+          "value": "83%"
+        },
+        {
+          "type": "Incomplete Passes",
+          "value": 20
+        },
+        {
+          "type": "Total Shots",
+          "value": 3
+        },
+        {
+          "type": "Shots on Goal",
+          "value": 1
+        },
+        {
+          "type": "Shots off Goal",
+          "value": 1
+        },
+        {
+          "type": "Blocked Shots",
+          "value": 1
+        },
+        {
+          "type": "Hit Woodwork",
+          "value": 0
+        },
+        {
+          "type": "Corner Kicks",
+          "value": 1
+        },
+        {
+          "type": "Offsides",
+          "value": 1
+        },
+        {
+          "type": "Penalties",
+          "value": 0
+        },
+        {
+          "type": "Goalkeeper Saves",
+          "value": 3
+        },
+        {
+          "type": "Tackles",
+          "value": 2
+        },
+        {
+          "type": "Fouls",
+          "value": 7
+        },
+        {
+          "type": "Yellow Cards",
+          "value": 1
+        },
+        {
+          "type": "Red Cards",
+          "value": 0
+        }
+      ]
+    }
+  ],
   "sportsFieldUrl": null
 }

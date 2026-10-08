@@ -1,11 +1,12 @@
 import { fetchDashboard, fetchMatchDetail, matchSummaryFromList } from "./api";
 import {
   applyEspnCommentary,
+  applyEspnStats,
   applyEspnToDashboard,
   espnDatesFor,
   espnEventIdFor,
   getEspnSnapshots,
-  loadEspnCommentary,
+  loadEspnLiveFeed,
   loadEspnSnapshots,
   patchMatch,
 } from "./espn-live";
@@ -65,16 +66,16 @@ function patchDetail(detail: MatchDetail | null): MatchDetail | null {
   return patchMatch(detail, snaps);
 }
 
-/** Lances come from the GE cache, which lags the live clock. Refresh the open match. */
-async function withLiveLances(detail: MatchDetail | null): Promise<MatchDetail | null> {
+/** Lances and stats come from the GE cache, which lags the live clock. */
+async function withLiveFeed(detail: MatchDetail | null): Promise<MatchDetail | null> {
   if (!detail || (detail.status !== "live" && detail.status !== "finished")) return detail;
   const eventId = espnEventIdFor(detail);
   if (!eventId) return detail;
   try {
-    const lances = await loadEspnCommentary(eventId);
-    return applyEspnCommentary(detail, lances);
+    const feed = await loadEspnLiveFeed(eventId);
+    return applyEspnStats(applyEspnCommentary(detail, feed.lances), feed.stats);
   } catch (err) {
-    console.warn("ESPN commentary failed", err);
+    console.warn("ESPN live feed failed", err);
     return detail;
   }
 }
@@ -99,7 +100,7 @@ function mount(): void {
       paint();
     }
     try {
-      const detail = await withLiveLances(patchDetail(await fetchMatchDetail(id)));
+      const detail = await withLiveFeed(patchDetail(await fetchMatchDetail(id)));
       const fallback = state.data?.all.find((m) => m.id === id);
       const merged =
         detail != null
@@ -165,7 +166,7 @@ function mount(): void {
         if (!state.data) return;
         try {
           const data = await overlayEspn(state.data);
-          const detail = await withLiveLances(patchDetail(state.matchDetail));
+          const detail = await withLiveFeed(patchDetail(state.matchDetail));
           state = {
             ...state,
             data,

@@ -4,11 +4,11 @@ import {
   applyEspnStats,
   applyEspnToDashboard,
   espnDatesFor,
-  espnEventIdFor,
   getEspnSnapshots,
   loadEspnLiveFeed,
   loadEspnSnapshots,
   patchMatch,
+  resolveEspnEventId,
 } from "./espn-live";
 import { detectLang, LOCALE, saveLang, type Lang } from "./i18n";
 import { renderApp, type AppState } from "./render";
@@ -66,12 +66,18 @@ function patchDetail(detail: MatchDetail | null): MatchDetail | null {
   return patchMatch(detail, snaps);
 }
 
+function inLiveWindow(detail: MatchDetail, now = Date.now()): boolean {
+  if (detail.status === "live" || detail.status === "finished") return true;
+  const kick = detail.datetime * 1000;
+  return kick - 20 * 60_000 <= now && now <= kick + 4 * 60 * 60_000;
+}
+
 /** Lances and stats come from the GE cache, which lags the live clock. */
 async function withLiveFeed(detail: MatchDetail | null): Promise<MatchDetail | null> {
-  if (!detail || (detail.status !== "live" && detail.status !== "finished")) return detail;
-  const eventId = espnEventIdFor(detail);
-  if (!eventId) return detail;
+  if (!detail || !inLiveWindow(detail)) return detail;
   try {
+    const eventId = await resolveEspnEventId(detail);
+    if (!eventId) return detail;
     const feed = await loadEspnLiveFeed(eventId);
     return applyEspnStats(applyEspnCommentary(detail, feed.lances), feed.stats);
   } catch (err) {

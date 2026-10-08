@@ -296,6 +296,19 @@ export function espnEventIdFor(match: Match): string | null {
   return id ? id : null;
 }
 
+/** Scoreboard first, then a targeted fetch when the overlay has not run yet. */
+export async function resolveEspnEventId(match: Match): Promise<string | null> {
+  const cached = espnEventIdFor(match);
+  if (cached) return cached;
+  const dates = espnDatesFor([match]);
+  if (!dates.length && match.datetime > 0) {
+    dates.push(saoPauloDateParam(match.datetime));
+  }
+  if (!dates.length) return null;
+  await loadEspnSnapshots(dates);
+  return espnEventIdFor(match);
+}
+
 function minuteParts(display: string, seconds: number): { label: string; sortKey: number } {
   const stop = display.match(/(\d+)\s*'\s*\+\s*(\d+)/);
   if (stop) {

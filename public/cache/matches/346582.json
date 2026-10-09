@@ -7,12 +7,12 @@
       "city": ""
     },
     "status": {
-      "long": "2H",
-      "short": "2H",
-      "elapsed": 65
+      "long": "FT",
+      "short": "FT",
+      "elapsed": 90
     },
-    "timerStart": "2026-10-09T00:06:29.178Z",
-    "timerStatus": "INICIADO"
+    "timerStart": "2026-10-09T01:08:51.581Z",
+    "timerStatus": "PAUSADO"
   },
   "league": {
     "round": "Regular Season - 29"
@@ -31,7 +31,7 @@
   },
   "goals": {
     "home": 2,
-    "away": 1
+    "away": 2
   },
   "score": {
     "halftime": {
@@ -39,18 +39,54 @@
       "away": null
     },
     "fulltime": {
-      "home": null,
-      "away": null
+      "home": 2,
+      "away": 2
     }
   },
   "odds": {
-    "home": 2.03,
-    "draw": 3.36,
-    "away": 3.62,
+    "home": 2.05,
+    "draw": 3.29,
+    "away": 3.61,
     "source": "betexplorer"
   },
   "_geUrl": "https://ge.globo.com/pr/futebol/brasileirao-serie-a/jogo/08-10-2026/atletico-pr-atletico-mg.ghtml",
   "events": [
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 293,
+        "name": "Athletico-PR"
+      },
+      "type": "Important",
+      "detail": "- Não podemos dar um gol do jeito que demos. Temos que nos cobrar mais e estarmos melhores posicionados nos minutos finais. De alguns jogos para cá, é uma cascata que acontece e o cara fica na cara do Mycael. Temos que nos cobrar.",
+      "player": {
+        "name": "Jadson"
+      },
+      "assist": {
+        "name": "Fala, Jadson!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 282,
+        "name": "Atlético-MG"
+      },
+      "type": "Important",
+      "detail": "- O segundo gol, ele ganha do corpo do Vitão, eu vou chegar chutando para fora, mas ela vai no canto. É difícil de explicar. Algumas coisas parecem que só acontecem comigo. Ainda bem que o futebol tem dessas. Minutos depois, a bola sobra e eu acerto o chute. Independente de tudo, temos que ver o jogo que fizemos aqui. Viemos para jogar, ganhar. Acho que foi um jogo justo e importante. É um time que é bom taticamente e individualmente. É ir para casa pensando coisas positivas.",
+      "player": {
+        "name": "Lyanco"
+      },
+      "assist": {
+        "name": "Fala, Lyanco!"
+      }
+    },
     {
       "time": {
         "elapsed": 0,
@@ -639,13 +675,13 @@
         "extra": null
       },
       "team": {
-        "id": 293,
-        "name": "Athletico-PR"
+        "id": 282,
+        "name": "Atlético-MG"
       },
       "type": "Goal",
-      "detail": "Own Goal",
+      "detail": "Normal Goal",
       "player": {
-        "name": "Viveros"
+        "name": "Bernard"
       },
       "assist": null
     },
@@ -1654,6 +1690,962 @@
         "name": "Jogo segue intenso e aberto em Curitiba!"
       },
       "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 64,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O segundo tempo começou com o Atlético-MG perdendo uma chance incrível com Victor Hugo. Aos 19 minutos, o jogo esquentou: o Athletico-PR teve um gol anulado por falta e, no contra-ataque, Cuello carimbou o travessão para o Galo. A partida, que teve gol de Vargas para o Furacão e um gol contra de Viveros no primeiro tempo, segue 1 a 1 e com muita emoção na Arena da Baixada.",
+      "player": {
+        "name": "Gol anulado e trave marcam 2º tempo agitado!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 64,
+        "extra": null
+      },
+      "team": {
+        "id": 282,
+        "name": "Atlético-MG"
+      },
+      "type": "Important",
+      "detail": "Logo após o gol anulado, o Atlético-MG responde com Cuello e carimba o travessão.",
+      "player": {
+        "name": "NO POSTE!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 64,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Atlhletico-PR chega a marcar o segundo gol, mas ele é anulado. O árbitro pega uma falta de Claudinho em Natanael no lance. Segue 1 a 1.",
+      "player": {
+        "name": "GOL ANULADO!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 65,
+        "extra": null
+      },
+      "team": {
+        "id": 293,
+        "name": "Athletico-PR"
+      },
+      "type": "Important",
+      "detail": "Leozinho resolve arriscar de fora da área. Delfim faz firme defesa.",
+      "player": {
+        "name": "Leozinho"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 66,
+        "extra": null
+      },
+      "team": {
+        "id": 282,
+        "name": "Atlético-MG"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Castaño"
+      },
+      "assist": {
+        "name": "Cissé"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 66,
+        "extra": null
+      },
+      "team": {
+        "id": 282,
+        "name": "Atlético-MG"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Tomás Pérez"
+      },
+      "assist": {
+        "name": "Maycon"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 66,
+        "extra": null
+      },
+      "team": {
+        "id": 282,
+        "name": "Atlético-MG"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Cuello"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 67,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O segundo tempo segue em ritmo alucinante, com emoções para todos os lados. Por volta dos 20 minutos, a partida pegou fogo: o Athletico-PR teve um gol anulado por falta de Claudinho e, na sequência, o Atlético-MG respondeu com uma bola no travessão de Cuello! O duelo continua 1 a 1, totalmente aberto e com chances para as duas equipes, em um grande jogo na Arena da Baixada.",
+      "player": {
+        "name": "Emoção, polêmica e bola na trave!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 67,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Não dá para piscar! Os Atléticos protagonizam um grande jogo na Arena da Baixada.",
+      "player": {
+        "name": "JOGO LÁ E CÁ!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 68,
+        "extra": null
+      },
+      "team": {
+        "id": 282,
+        "name": "Atlético-MG"
+      },
+      "type": "Important",
+      "detail": "Bernard recebe pela esquerda, puxa para dentro e bate com efeito. A bola vai pela linha de fundo.",
+      "player": {
+        "name": "Bernard"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 69,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O segundo tempo segue em ritmo alucinante! Por volta dos 19 minutos, o Athletico-PR teve um gol anulado após uma falta de Claudinho no início da jogada. A resposta do Atlético-MG foi imediata e perigosa, com Cuello acertando um chutaço no travessão. Com o jogo passando dos 24 minutos, o duelo é aberto, imprevisível e com chances para os dois lados, mantendo o placar de 1 a 1.",
+      "player": {
+        "name": "Gol anulado e bola na trave agitam a Arena!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 69,
+        "extra": null
+      },
+      "team": {
+        "id": 282,
+        "name": "Atlético-MG"
+      },
+      "type": "Important",
+      "detail": "Reinier encontra Victor Hugo na área. O meia finaliza, mas Mycael faz firme defesa.",
+      "player": {
+        "name": "Reinier"
+      },
+      "assist": {
+        "name": "Boa chegada!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 70,
+        "extra": null
+      },
+      "team": {
+        "id": 293,
+        "name": "Athletico-PR"
+      },
+      "type": "Important",
+      "detail": "Viveros disputa bola com Tomás Pérez e fica caído. O Athletico-PR pede falta. Já o árbitro manda seguir.",
+      "player": {
+        "name": "Viveros"
+      },
+      "assist": {
+        "name": "EITA!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 72,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O segundo tempo está eletrizante! Por volta dos 27 minutos, Tomás Pérez, do Atlético-MG, foi expulso após o VAR flagrar falta em Viveros como último homem. Antes disso, o Athletico-PR teve um gol anulado por falta e, na resposta imediata, Cuello carimbou o travessão para o Galo. Com o placar em 1 a 1, o cenário muda completamente com um jogador a menos para os visitantes.",
+      "player": {
+        "name": "Cartão vermelho esquenta o jogo na Arena!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 72,
+        "extra": null
+      },
+      "team": {
+        "id": 282,
+        "name": "Atlético-MG"
+      },
+      "type": "Card",
+      "detail": "Red Card",
+      "player": {
+        "name": "Tomás Pérez"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 73,
+        "extra": null
+      },
+      "team": {
+        "id": 282,
+        "name": "Atlético-MG"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Castaño"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 73,
+        "extra": null
+      },
+      "team": {
+        "id": 282,
+        "name": "Atlético-MG"
+      },
+      "type": "Important",
+      "detail": "O Atlético-MG prepara mudanças depois da expulsão.",
+      "player": {
+        "name": "O Atlético-MG prepara mudanças depois da expulsã"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 73,
+        "extra": null
+      },
+      "team": {
+        "id": 282,
+        "name": "Atlético-MG"
+      },
+      "type": "Important",
+      "detail": "Cobrança de falta na área. A defesa do Galo consegue cortar.",
+      "player": {
+        "name": "Cobrança de falta na área. A defesa do Galo cons"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 74,
+        "extra": null
+      },
+      "team": {
+        "id": 282,
+        "name": "Atlético-MG"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Igor Gomes"
+      },
+      "assist": {
+        "name": "Bernard"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 74,
+        "extra": null
+      },
+      "team": {
+        "id": 293,
+        "name": "Athletico-PR"
+      },
+      "type": "Important",
+      "detail": "Vargas fica sentindo bastante dor no braço. O jogo é parado.",
+      "player": {
+        "name": "Vargas"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 75,
+        "extra": null
+      },
+      "team": {
+        "id": 293,
+        "name": "Athletico-PR"
+      },
+      "type": "Important",
+      "detail": "Esquivel cobra falta e acerta a barreira. A bola vai pela linha de fundo. Escanteio para o Furacão.",
+      "player": {
+        "name": "Esquivel"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 75,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O jogo pegou fogo na segunda etapa! Com 30 minutos de bola rolando, o Athletico-PR teve um gol anulado por falta aos 19. A resposta do Atlético-MG foi imediata, com Cuello carimbando o travessão. Para completar a reviravolta, Tomás Pérez foi expulso após revisão do VAR, deixando o Galo com um jogador a menos. O placar segue 1 a 1, mas o cenário do jogo mudou completamente.",
+      "player": {
+        "name": "Gol anulado, bola na trave e expulsão!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 75,
+        "extra": null
+      },
+      "team": {
+        "id": 282,
+        "name": "Atlético-MG"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Thiago Borbas"
+      },
+      "assist": {
+        "name": "Reinier"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 76,
+        "extra": null
+      },
+      "team": {
+        "id": 293,
+        "name": "Athletico-PR"
+      },
+      "type": "Important",
+      "detail": "Com um a mais, o Rubro-Negro vai em busca da vitória.",
+      "player": {
+        "name": "Pressão do Furacão!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 76,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O jogo segue em ritmo alucinante no segundo tempo, com o placar em 1 a 1. O Athletico-PR abriu com Vargas, mas o Atlético-MG empatou em gol contra de Viveros. A etapa final já teve gol anulado para o Furacão, bola na trave de Cuello para o Galo e uma reviravolta aos 27 minutos: Tomás Pérez foi expulso após revisão do VAR, deixando o time mineiro com um jogador a menos e sofrendo pressão.",
+      "player": {
+        "name": "Expulsão esquenta duelo de Atléticos!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 76,
+        "extra": null
+      },
+      "team": {
+        "id": 293,
+        "name": "Athletico-PR"
+      },
+      "type": "Important",
+      "detail": "Após cobrança de escanteio, Leozinho acha espaço na área e finaliza com categoria. Gabriel Delfim evita o gol do Furacão. Que defesa.",
+      "player": {
+        "name": "Leozinho"
+      },
+      "assist": {
+        "name": "UHHHHHHH!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 77,
+        "extra": null
+      },
+      "team": {
+        "id": 293,
+        "name": "Athletico-PR"
+      },
+      "type": "Important",
+      "detail": "Mendonza avança pela direita, puxa para o meio e finaliza. Delfim faz a defesa.",
+      "player": {
+        "name": "Mendoza"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 78,
+        "extra": null
+      },
+      "team": {
+        "id": 282,
+        "name": "Atlético-MG"
+      },
+      "type": "Important",
+      "detail": "Atlético fica todo recuado no campo de defesa.",
+      "player": {
+        "name": "Atlético fica todo recuado no campo de defesa."
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 79,
+        "extra": null
+      },
+      "team": {
+        "id": 293,
+        "name": "Athletico-PR"
+      },
+      "type": "Important",
+      "detail": "Esquivel faz cruzamento rasteiro na área. A bola passa por todo mundo. Que perigo!",
+      "player": {
+        "name": "Esquivel"
+      },
+      "assist": {
+        "name": "Passa por todo mundo"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 79,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O segundo tempo está eletrizante! O Athletico-PR teve um gol anulado e, na resposta imediata, Cuello carimbou o travessão para o Atlético-MG. O cenário mudou aos 27 minutos, quando Tomás Pérez foi expulso após revisão do VAR, deixando o Galo com um a menos. Desde então, o Furacão pressiona intensamente, mas o goleiro Delfim faz defesas cruciais para segurar o empate por 1 a 1.",
+      "player": {
+        "name": "Expulsão, pressão e jogaço na Arena!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 79,
+        "extra": null
+      },
+      "team": {
+        "id": 293,
+        "name": "Athletico-PR"
+      },
+      "type": "Important",
+      "detail": "Claudinho aproveita disputa de bola na entrada da área, fica com ela e solta o pé. A bola desvia no Lyanco e passa muito perto do gol.",
+      "player": {
+        "name": "Claudinho"
+      },
+      "assist": {
+        "name": "UHHH!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 80,
+        "extra": null
+      },
+      "team": {
+        "id": 293,
+        "name": "Athletico-PR"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Jorge Rivaldo"
+      },
+      "assist": {
+        "name": "Terán"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 80,
+        "extra": null
+      },
+      "team": {
+        "id": 293,
+        "name": "Athletico-PR"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Zapelli"
+      },
+      "assist": {
+        "name": "Luiz Gustavo"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 81,
+        "extra": null
+      },
+      "team": {
+        "id": 282,
+        "name": "Atlético-MG"
+      },
+      "type": "Important",
+      "detail": "Galo tenta uma descida pela esquerda, mas não vale mais nada. O árbitro pega uma falta de ataque.",
+      "player": {
+        "name": "Galo tenta uma descida pela esquerda, mas não va"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 81,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Lyanco reclama de uma dividida com Rivaldo.",
+      "player": {
+        "name": "Lyanco reclama de uma dividida com Rivaldo."
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 82,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O segundo tempo é eletrizante! O Athletico-PR teve um gol anulado e, na sequência, o Atlético-MG respondeu com uma bola na trave de Cuello. Aos 27 minutos, o jogo mudou: Tomás Pérez foi expulso após revisão do VAR, deixando o Galo com um a menos. Com a vantagem numérica, o Furacão pressiona intensamente em busca da vitória, mas para em grandes defesas de Gabriel Delfim. A partida está 1 a 1 e aberta.",
+      "player": {
+        "name": "Jogo pega fogo com expulsão e pressão!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 82,
+        "extra": null
+      },
+      "team": {
+        "id": 293,
+        "name": "Athletico-PR"
+      },
+      "type": "Important",
+      "detail": "Em cruzamento de Rivaldo, Zapelli pega de primeira na área e manda por cima do gol. O goleiro Gabriel Delfim já estava vendido no lance.",
+      "player": {
+        "name": "Zapelli"
+      },
+      "assist": {
+        "name": "PARA FORA!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 84,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Athletico-PR vai criando um caminhão de oportunidades para sair com a vitória. Do outro lado, o Galo se segura.",
+      "player": {
+        "name": "O JOGO NÃO PARA!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 85,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "A segunda etapa é alucinante! O Athletico-PR teve um gol anulado e, na sequência, viu Cuello carimbar o travessão para o Atlético-MG. O jogo mudou de vez aos 27 minutos, quando Tomás Pérez foi expulso após revisão do VAR, deixando o Galo com um a menos. Desde então, o Furacão impõe uma pressão enorme, com chances de Zapelli e Leozinho, enquanto o goleiro Delfim se destaca para segurar o empate.",
+      "player": {
+        "name": "Furacão aperta o Galo nos minutos finais!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 85,
+        "extra": null
+      },
+      "team": {
+        "id": 293,
+        "name": "Athletico-PR"
+      },
+      "type": "Important",
+      "detail": "Rivaldo recebe na área e tenta de bicicleta, mas manda longe do gol.",
+      "player": {
+        "name": "Jorge Rivaldo"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 86,
+        "extra": null
+      },
+      "team": {
+        "id": 293,
+        "name": "Athletico-PR"
+      },
+      "type": "Important",
+      "detail": "Vireros recebe na área, tenta o drible, mas a zaga faz o corte.",
+      "player": {
+        "name": "Viveros"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 87,
+        "extra": null
+      },
+      "team": {
+        "id": 282,
+        "name": "Atlético-MG"
+      },
+      "type": "Important",
+      "detail": "Cuello segura o jogo e busca o cruzamento. Victor Hugo fica com a bola do outro lado e acalma a partida.",
+      "player": {
+        "name": "Cuello"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 88,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O jogo chega à reta final com tudo igual em 1 a 1. A partida mudou completamente após a expulsão de Tomás Pérez, do Atlético-MG, aos 27 do segundo tempo. Com um jogador a mais, o Athletico-PR partiu para cima e agora empilha chances de gol. Leozinho e Zapelli tiveram grandes oportunidades, mas o goleiro Gabriel Delfim, em grande noite, segura o empate para o Galo. A pressão é total!",
+      "player": {
+        "name": "Expulsão agita o jogo e Furacão pressiona!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 88,
+        "extra": null
+      },
+      "team": {
+        "id": 293,
+        "name": "Athletico-PR"
+      },
+      "type": "Important",
+      "detail": "Leozinho avança pela direita, vai para cima do Lodi, mas finaliza sem direção. Tiro de meta.",
+      "player": {
+        "name": "Leozinho"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 89,
+        "extra": null
+      },
+      "team": {
+        "id": 293,
+        "name": "Athletico-PR"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Gilberto Junior"
+      },
+      "assist": {
+        "name": "Esquivel"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 90,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Reta final de partida na Arena da Baixada.",
+      "player": {
+        "name": "MAIS SETE!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 92,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Um segundo tempo eletrizante! O Athletico-PR teve um gol anulado e, na resposta, Cuello carimbou o travessão do Galo. A partida mudou aos 27 minutos, quando Tomás Pérez foi expulso, deixando o Atlético-MG com um a menos. O Furacão pressionou até que, aos 47, veio o gol inusitado: Lyanco tentou cortar e chutou em Viveros, mandando a bola para a rede e virando o jogo para 2 a 1.",
+      "player": {
+        "name": "Furacão vira com gol bizarro aos 47!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 92,
+        "extra": null
+      },
+      "team": {
+        "id": 293,
+        "name": "Athletico-PR"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "player": {
+        "name": "Viveros"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 94,
+        "extra": null
+      },
+      "team": {
+        "id": 293,
+        "name": "Athletico-PR"
+      },
+      "type": "Important",
+      "detail": "Furacão consegue o segundo gol e vai vencendo.",
+      "player": {
+        "name": "Gol validado!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 96,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Que segundo tempo na Arena da Baixada! Com um jogador a menos desde a expulsão de Tomás Pérez, o Atlético-MG viu o Athletico-PR pressionar e marcar aos 47 minutos com Viveros, fazendo 2 a 1. O gol parecia selar a vitória do Furacão. Mas, no último lance, o zagueiro Lyanco apareceu no ataque e, de forma heroica, empatou o jogo, definindo o placar inacreditável de 2 a 2.",
+      "player": {
+        "name": "Final eletrizante e empate heroico!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 96,
+        "extra": null
+      },
+      "team": {
+        "id": 282,
+        "name": "Atlético-MG"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "player": {
+        "name": "Lyanco"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 96,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Que segundo tempo movimentado! Após um gol anulado para o Athletico-PR e uma bola na trave de Cuello para o Galo, o jogo pegou fogo com a expulsão de Tomás Pérez. Com um a mais, o Furacão pressionou e foi recompensado aos 47 minutos: em jogada bizarra, Lyanco tentou afastar e a bola bateu em Viveros, morrendo no gol. Placar de 2 a 1, mas o Galo quase empatou logo depois com Cuello.",
+      "player": {
+        "name": "Gol de Viveros agita o final do jogo!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 96,
+        "extra": null
+      },
+      "team": {
+        "id": 282,
+        "name": "Atlético-MG"
+      },
+      "type": "Important",
+      "detail": "Cuello recebe na área, ganha do marcador e finaliza forte. Mycael cresce e evita o empate.",
+      "player": {
+        "name": "Cuello"
+      },
+      "assist": {
+        "name": "UHHH!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 97,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Quatro gols, uma expulsão e muitas chances criadas.",
+      "player": {
+        "name": "QUE JOGO É ESSE?"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 98,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Teremos mais três minutos de jogo.",
+      "player": {
+        "name": "MAIS TRÊS"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 99,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Que partida! O Athletico-PR abriu o placar com Vargas, mas Viveros, contra, deixou tudo igual. No segundo tempo, o Atlético-MG teve Tomás Pérez expulso e sofreu forte pressão. Nos acréscimos, Viveros fez 2 a 1 para o Furacão em lance inusitado. Quando tudo parecia perdido, o zagueiro Lyanco, com o Galo com um a menos, buscou um empate heroico no último lance, fechando o placar em 2 a 2.",
+      "player": {
+        "name": "Final insano e tudo igual na Arena!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 99,
+        "extra": null
+      },
+      "team": {
+        "id": 282,
+        "name": "Atlético-MG"
+      },
+      "type": "Important",
+      "detail": "Cuello tenta matar tempo neste fim de jogo.",
+      "player": {
+        "name": "Cuello"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 100,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "E QUE JOGO NA ARENA DA BAIXADA! Athletico-PR 2 x 2 Atlético-MG",
+      "player": {
+        "name": "FIM DE JOGO!"
+      },
+      "assist": null
     }
   ],
   "lineups": [
@@ -2111,31 +3103,31 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "49%"
+          "value": "51%"
         },
         {
           "type": "Total Passes",
-          "value": 372
+          "value": 514
         },
         {
           "type": "Pass Accuracy",
-          "value": "87%"
+          "value": "86%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 49
+          "value": 71
         },
         {
           "type": "Total Shots",
-          "value": 16
+          "value": 26
         },
         {
           "type": "Shots on Goal",
-          "value": 6
+          "value": 10
         },
         {
           "type": "Shots off Goal",
-          "value": 6
+          "value": 12
         },
         {
           "type": "Blocked Shots",
@@ -2147,7 +3139,7 @@
         },
         {
           "type": "Corner Kicks",
-          "value": 7
+          "value": 10
         },
         {
           "type": "Offsides",
@@ -2159,15 +3151,15 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 4
+          "value": 6
         },
         {
           "type": "Tackles",
-          "value": 5
+          "value": 10
         },
         {
           "type": "Fouls",
-          "value": 7
+          "value": 13
         },
         {
           "type": "Yellow Cards",
@@ -2187,31 +3179,31 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "51%"
+          "value": "49%"
         },
         {
           "type": "Total Passes",
-          "value": 387
+          "value": 495
         },
         {
           "type": "Pass Accuracy",
-          "value": "90%"
+          "value": "88%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 40
+          "value": 57
         },
         {
           "type": "Total Shots",
-          "value": 8
+          "value": 14
         },
         {
           "type": "Shots on Goal",
-          "value": 4
+          "value": 8
         },
         {
           "type": "Shots off Goal",
-          "value": 3
+          "value": 4
         },
         {
           "type": "Blocked Shots",
@@ -2219,15 +3211,15 @@
         },
         {
           "type": "Hit Woodwork",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Corner Kicks",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Offsides",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Penalties",
@@ -2235,23 +3227,23 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 9
+          "value": 12
         },
         {
           "type": "Tackles",
-          "value": 4
+          "value": 12
         },
         {
           "type": "Fouls",
-          "value": 7
+          "value": 11
         },
         {
           "type": "Yellow Cards",
-          "value": 0
+          "value": 2
         },
         {
           "type": "Red Cards",
-          "value": 0
+          "value": 1
         }
       ]
     }

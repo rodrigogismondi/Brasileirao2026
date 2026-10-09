@@ -45,8 +45,8 @@
   },
   "odds": {
     "home": 1.7,
-    "draw": 3.83,
-    "away": 4.64,
+    "draw": 3.82,
+    "away": 4.63,
     "source": "betexplorer"
   },
   "_geUrl": "https://ge.globo.com/ba/futebol/brasileirao-serie-a/jogo/11-10-2026/bahia-mirassol.ghtml",
@@ -112,7 +112,7 @@
           "player": {
             "id": "caioalexandre",
             "name": "Caio Alexandre",
-            "number": null,
+            "number": 8,
             "pos": "Mei",
             "grid": null
           }
@@ -121,7 +121,7 @@
           "player": {
             "id": "jeanlucassouza",
             "name": "Jean Lucas",
-            "number": null,
+            "number": 6,
             "pos": "Mei",
             "grid": null
           }
@@ -139,7 +139,7 @@
           "player": {
             "id": "cristianolivera424",
             "name": "Cristian Olivera",
-            "number": null,
+            "number": 99,
             "pos": "Ata",
             "grid": null
           }
@@ -171,7 +171,7 @@
         "name": "Mirassol",
         "logo": "https://s.sde.globo.com/media/organizations/2026/07/17/MIrassol.svg"
       },
-      "formation": "4-3-3",
+      "formation": "4-5-1",
       "coach": {
         "name": "Rafael Guanaes"
       },
@@ -180,7 +180,7 @@
           "player": {
             "id": "walter-barbarense",
             "name": "Walter",
-            "number": null,
+            "number": 22,
             "pos": "Gol",
             "grid": null
           }
@@ -189,7 +189,7 @@
           "player": {
             "id": "igor-formiga",
             "name": "Igor Formiga",
-            "number": null,
+            "number": 32,
             "pos": "Def",
             "grid": null
           }
@@ -198,7 +198,7 @@
           "player": {
             "id": "l-oliveira",
             "name": "Lucas Oliveira",
-            "number": null,
+            "number": 2,
             "pos": "Def",
             "grid": null
           }
@@ -207,7 +207,7 @@
           "player": {
             "id": "willian-machado",
             "name": "Willian Machado",
-            "number": null,
+            "number": 3,
             "pos": "Def",
             "grid": null
           }
@@ -216,17 +216,8 @@
           "player": {
             "id": "reinaldomanoel",
             "name": "Reinaldo",
-            "number": null,
+            "number": 6,
             "pos": "Def",
-            "grid": null
-          }
-        },
-        {
-          "player": {
-            "id": "netomoura",
-            "name": "Neto Moura",
-            "number": null,
-            "pos": "Mei",
             "grid": null
           }
         },
@@ -234,25 +225,16 @@
           "player": {
             "id": "denilsonab",
             "name": "Denilson",
-            "number": null,
+            "number": 27,
             "pos": "Mei",
             "grid": null
           }
         },
         {
           "player": {
-            "id": "chico-sorocaba",
-            "name": "Chico Kim",
-            "number": null,
-            "pos": "Mei",
-            "grid": null
-          }
-        },
-        {
-          "player": {
-            "id": "eduardoca",
-            "name": "Eduardo",
-            "number": null,
+            "id": "netomoura",
+            "name": "Neto Moura",
+            "number": 25,
             "pos": "Mei",
             "grid": null
           }
@@ -261,8 +243,26 @@
           "player": {
             "id": "edsoncarioca",
             "name": "Edson Carioca",
-            "number": null,
-            "pos": "Ata",
+            "number": 95,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "eduardoca",
+            "name": "Eduardo",
+            "number": 33,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "chico-sorocaba",
+            "name": "Chico Kim",
+            "number": 10,
+            "pos": "Mei",
             "grid": null
           }
         },
@@ -270,7 +270,7 @@
           "player": {
             "id": "brunosantos-americarj",
             "name": "Bruno Santos",
-            "number": null,
+            "number": 30,
             "pos": "Ata",
             "grid": null
           }

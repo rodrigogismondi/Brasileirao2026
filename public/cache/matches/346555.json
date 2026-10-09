@@ -44,9 +44,9 @@
     }
   },
   "odds": {
-    "home": 1.41,
-    "draw": 4.49,
-    "away": 6.98,
+    "home": 1.42,
+    "draw": 4.57,
+    "away": 6.87,
     "source": "betexplorer"
   },
   "_geUrl": "https://ge.globo.com/rj/futebol/brasileirao-serie-a/jogo/11-10-2026/flamengo-fluminense.ghtml",
@@ -58,7 +58,7 @@
         "name": "Flamengo",
         "logo": "https://s.sde.globo.com/media/organizations/2018/04/10/Flamengo-2018.svg"
       },
-      "formation": "4-4-2",
+      "formation": "4-3-3",
       "coach": {
         "name": "Leonardo Jardim"
       },
@@ -103,7 +103,7 @@
           "player": {
             "id": "alexsandro3",
             "name": "Alex Sandro",
-            "number": null,
+            "number": 26,
             "pos": "Def",
             "grid": null
           }
@@ -112,7 +112,7 @@
           "player": {
             "id": "pulgar",
             "name": "Erick Pulgar",
-            "number": null,
+            "number": 5,
             "pos": "Mei",
             "grid": null
           }
@@ -121,16 +121,7 @@
           "player": {
             "id": "saulniguez",
             "name": "Saúl",
-            "number": null,
-            "pos": "Mei",
-            "grid": null
-          }
-        },
-        {
-          "player": {
-            "id": "carrascalj",
-            "name": "Carrascal",
-            "number": null,
+            "number": 8,
             "pos": "Mei",
             "grid": null
           }
@@ -139,8 +130,17 @@
           "player": {
             "id": "lucaspaqueta",
             "name": "Lucas Paquetá",
-            "number": null,
+            "number": 11,
             "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "carrascalj",
+            "name": "Carrascal",
+            "number": 15,
+            "pos": "Ata",
             "grid": null
           }
         },
@@ -157,7 +157,7 @@
           "player": {
             "id": "samuel-saobernardo",
             "name": "Samuel Lino",
-            "number": null,
+            "number": 16,
             "pos": "Ata",
             "grid": null
           }
@@ -189,7 +189,7 @@
           "player": {
             "id": "guga74567",
             "name": "Guga",
-            "number": null,
+            "number": 23,
             "pos": "Def",
             "grid": null
           }
@@ -216,17 +216,8 @@
           "player": {
             "id": "guilhermearana",
             "name": "Guilherme Arana",
-            "number": null,
+            "number": 13,
             "pos": "Def",
-            "grid": null
-          }
-        },
-        {
-          "player": {
-            "id": "hercules-nascimento",
-            "name": "Hércules",
-            "number": null,
-            "pos": "Mei",
             "grid": null
           }
         },
@@ -241,9 +232,18 @@
         },
         {
           "player": {
+            "id": "hercules-nascimento",
+            "name": "Hércules",
+            "number": 35,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
             "id": "phganso",
             "name": "Ganso",
-            "number": null,
+            "number": 10,
             "pos": "Mei",
             "grid": null
           }
@@ -259,18 +259,18 @@
         },
         {
           "player": {
-            "id": "Serna",
-            "name": "Serna",
-            "number": 90,
+            "id": "hulk",
+            "name": "Hulk",
+            "number": 7,
             "pos": "Ata",
             "grid": null
           }
         },
         {
           "player": {
-            "id": "hulk",
-            "name": "Hulk",
-            "number": 7,
+            "id": "Serna",
+            "name": "Serna",
+            "number": 90,
             "pos": "Ata",
             "grid": null
           }

@@ -44,9 +44,9 @@
     }
   },
   "odds": {
-    "home": 1.63,
-    "draw": 3.79,
-    "away": 5.32,
+    "home": 1.64,
+    "draw": 3.75,
+    "away": 5.25,
     "source": "betexplorer"
   },
   "_geUrl": "https://ge.globo.com/sp/futebol/brasileirao-serie-a/jogo/10-10-2026/sao-paulo-vitoria.ghtml",
@@ -74,15 +74,6 @@
         },
         {
           "player": {
-            "id": "arboleda",
-            "name": "Arboleda",
-            "number": 5,
-            "pos": "Def",
-            "grid": null
-          }
-        },
-        {
-          "player": {
             "id": "rafaeltoloi",
             "name": "Rafael Tolói",
             "number": 2,
@@ -92,9 +83,18 @@
         },
         {
           "player": {
+            "id": "arboleda",
+            "name": "Arboleda",
+            "number": 5,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
             "id": "sabino-monteiro",
             "name": "Sabino",
-            "number": null,
+            "number": 35,
             "pos": "Def",
             "grid": null
           }
@@ -110,18 +110,9 @@
         },
         {
           "player": {
-            "id": "bobadillad",
-            "name": "Bobadilla",
-            "number": 16,
-            "pos": "Mei",
-            "grid": null
-          }
-        },
-        {
-          "player": {
             "id": "marcosantonioss",
             "name": "Marcos Antônio",
-            "number": null,
+            "number": 8,
             "pos": "Mei",
             "grid": null
           }
@@ -137,9 +128,18 @@
         },
         {
           "player": {
+            "id": "bobadillad",
+            "name": "Bobadilla",
+            "number": 16,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
             "id": "wendell2",
             "name": "Wendell",
-            "number": null,
+            "number": 18,
             "pos": "Def",
             "grid": null
           }
@@ -157,7 +157,7 @@
           "player": {
             "id": "calleri",
             "name": "Calleri",
-            "number": null,
+            "number": 9,
             "pos": "Ata",
             "grid": null
           }
@@ -234,7 +234,7 @@
           "player": {
             "id": "ze-vitor-neves",
             "name": "Zé Vitor",
-            "number": null,
+            "number": 88,
             "pos": "Mei",
             "grid": null
           }
@@ -245,15 +245,6 @@
             "name": "Emmanuel Martínez",
             "number": 6,
             "pos": "Mei",
-            "grid": null
-          }
-        },
-        {
-          "player": {
-            "id": "matheuzinho-martins",
-            "name": "Matheuzinho",
-            "number": 10,
-            "pos": "Ata",
             "grid": null
           }
         },
@@ -271,6 +262,15 @@
             "id": "Rene",
             "name": "Renê",
             "number": 91,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "matheuzinho-martins",
+            "name": "Matheuzinho",
+            "number": 10,
             "pos": "Ata",
             "grid": null
           }

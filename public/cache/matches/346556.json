@@ -44,9 +44,9 @@
     }
   },
   "odds": {
-    "home": 1.31,
-    "draw": 5.16,
-    "away": 9.25,
+    "home": 1.32,
+    "draw": 5.15,
+    "away": 9.18,
     "source": "betexplorer"
   },
   "_geUrl": "https://ge.globo.com/rj/futebol/brasileirao-serie-a/jogo/10-10-2026/vasco-remo.ghtml",
@@ -171,7 +171,7 @@
         "name": "Remo",
         "logo": "https://s.sde.globo.com/media/organizations/2021/02/25/Remo-PA.svg"
       },
-      "formation": "4-4-2",
+      "formation": "4-3-3",
       "coach": {
         "name": "Thiago Carpini"
       },
@@ -207,7 +207,7 @@
           "player": {
             "id": "zeivaldo",
             "name": "Zé Ivaldo",
-            "number": null,
+            "number": 27,
             "pos": "Def",
             "grid": null
           }
@@ -223,24 +223,6 @@
         },
         {
           "player": {
-            "id": "picco",
-            "name": "Picco",
-            "number": 14,
-            "pos": "Mei",
-            "grid": null
-          }
-        },
-        {
-          "player": {
-            "id": "josewelison",
-            "name": "José Welison",
-            "number": 28,
-            "pos": "Mei",
-            "grid": null
-          }
-        },
-        {
-          "player": {
             "id": "zericardoaraujo",
             "name": "Zé Ricardo",
             "number": 55,
@@ -250,9 +232,9 @@
         },
         {
           "player": {
-            "id": "yagopikachu",
-            "name": "Yago Pikachu",
-            "number": null,
+            "id": "picco",
+            "name": "Picco",
+            "number": 14,
             "pos": "Mei",
             "grid": null
           }
@@ -268,9 +250,27 @@
         },
         {
           "player": {
+            "id": "yagopikachu",
+            "name": "Yago Pikachu",
+            "number": 22,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
             "id": "gabrieltaliari",
             "name": "Gabriel Taliari",
             "number": 19,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "jajabreno",
+            "name": "Jajá",
+            "number": 7,
             "pos": "Ata",
             "grid": null
           }

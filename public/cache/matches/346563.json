@@ -44,9 +44,9 @@
     }
   },
   "odds": {
-    "home": 2.01,
-    "draw": 3.42,
-    "away": 3.67,
+    "home": 2.03,
+    "draw": 3.43,
+    "away": 3.58,
     "source": "betexplorer"
   },
   "_geUrl": "https://ge.globo.com/mg/futebol/brasileirao-serie-a/jogo/11-10-2026/atletico-mg-santos.ghtml",
@@ -83,18 +83,18 @@
         },
         {
           "player": {
-            "id": "lyanco",
-            "name": "Lyanco",
-            "number": 13,
+            "id": "vitao",
+            "name": "Vitão",
+            "number": 40,
             "pos": "Def",
             "grid": null
           }
         },
         {
           "player": {
-            "id": "vitao",
-            "name": "Vitão",
-            "number": null,
+            "id": "lyanco",
+            "name": "Lyanco",
+            "number": 13,
             "pos": "Def",
             "grid": null
           }
@@ -112,7 +112,7 @@
           "player": {
             "id": "alanfranco121",
             "name": "Alan Franco",
-            "number": null,
+            "number": 21,
             "pos": "Mei",
             "grid": null
           }
@@ -121,7 +121,7 @@
           "player": {
             "id": "kevcastano",
             "name": "Castaño",
-            "number": null,
+            "number": 15,
             "pos": "Mei",
             "grid": null
           }
@@ -130,17 +130,8 @@
           "player": {
             "id": "victor-hugo-gsilva",
             "name": "Victor Hugo",
-            "number": null,
+            "number": 30,
             "pos": "Mei",
-            "grid": null
-          }
-        },
-        {
-          "player": {
-            "id": "reinier",
-            "name": "Reinier",
-            "number": 19,
-            "pos": "Ata",
             "grid": null
           }
         },
@@ -155,9 +146,18 @@
         },
         {
           "player": {
+            "id": "reinier",
+            "name": "Reinier",
+            "number": 19,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
             "id": "dudu",
             "name": "Dudu",
-            "number": null,
+            "number": 92,
             "pos": "Ata",
             "grid": null
           }
@@ -171,7 +171,7 @@
         "name": "Santos",
         "logo": "https://s.sde.globo.com/media/organizations/2018/03/12/santos.svg"
       },
-      "formation": "4-4-2",
+      "formation": "4-5-1",
       "coach": {
         "name": "Cuca"
       },
@@ -205,8 +205,8 @@
         },
         {
           "player": {
-            "id": "luanperes",
-            "name": "Luan Peres",
+            "id": "willianarao",
+            "name": "Willian Arão",
             "number": null,
             "pos": "Def",
             "grid": null
@@ -225,7 +225,7 @@
           "player": {
             "id": "gustavo-henrique",
             "name": "Gustavo Henrique",
-            "number": null,
+            "number": 48,
             "pos": "Mei",
             "grid": null
           }
@@ -241,27 +241,18 @@
         },
         {
           "player": {
+            "id": "philippecoutinho",
+            "name": "Philippe Coutinho",
+            "number": null,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
             "id": "gabriel-bontempo",
             "name": "Gabriel Bontempo",
-            "number": null,
-            "pos": "Mei",
-            "grid": null
-          }
-        },
-        {
-          "player": {
-            "id": "neymar",
-            "name": "Neymar",
-            "number": null,
-            "pos": "Mei",
-            "grid": null
-          }
-        },
-        {
-          "player": {
-            "id": "abarreal",
-            "name": "Barreal",
-            "number": 22,
+            "number": 8,
             "pos": "Ata",
             "grid": null
           }
@@ -271,6 +262,15 @@
             "id": "gabriel-gabigol",
             "name": "Gabriel",
             "number": 9,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "everton0396",
+            "name": "Everton",
+            "number": null,
             "pos": "Ata",
             "grid": null
           }

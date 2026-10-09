@@ -44,9 +44,9 @@
     }
   },
   "odds": {
-    "home": 2.59,
+    "home": 2.6,
     "draw": 3.45,
-    "away": 2.51,
+    "away": 2.5,
     "source": "betexplorer"
   },
   "_geUrl": "https://ge.globo.com/pr/futebol/brasileirao-serie-a/jogo/12-10-2026/coritiba-botafogo.ghtml",
@@ -76,7 +76,7 @@
           "player": {
             "id": "tinga03",
             "name": "Tinga",
-            "number": null,
+            "number": 2,
             "pos": "Def",
             "grid": null
           }
@@ -94,7 +94,7 @@
           "player": {
             "id": "jacy-maranhao",
             "name": "Jacy",
-            "number": null,
+            "number": 55,
             "pos": "Def",
             "grid": null
           }
@@ -103,7 +103,7 @@
           "player": {
             "id": "rodrigo-gelado",
             "name": "Rodrigo Gelado",
-            "number": null,
+            "number": 66,
             "pos": "Def",
             "grid": null
           }
@@ -137,9 +137,9 @@
         },
         {
           "player": {
-            "id": "brenolopes",
-            "name": "Breno Lopes",
-            "number": null,
+            "id": "fabinholuciano",
+            "name": "Fabinho",
+            "number": 28,
             "pos": "Ata",
             "grid": null
           }
@@ -155,9 +155,9 @@
         },
         {
           "player": {
-            "id": "fabinholuciano",
-            "name": "Fabinho",
-            "number": 28,
+            "id": "brenolopes",
+            "name": "Breno Lopes",
+            "number": 77,
             "pos": "Ata",
             "grid": null
           }
@@ -171,7 +171,7 @@
         "name": "Botafogo",
         "logo": "https://s.sde.globo.com/media/organizations/2019/02/04/botafogo-svg.svg"
       },
-      "formation": "4-4-2",
+      "formation": "4-5-1",
       "coach": {
         "name": "Tite"
       },
@@ -241,15 +241,6 @@
         },
         {
           "player": {
-            "id": "ziyech",
-            "name": "Ziyech",
-            "number": null,
-            "pos": "Mei",
-            "grid": null
-          }
-        },
-        {
-          "player": {
             "id": "alvamontoro",
             "name": "Montoro",
             "number": 10,
@@ -259,10 +250,19 @@
         },
         {
           "player": {
+            "id": "ziyech",
+            "name": "Ziyech",
+            "number": 22,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
             "id": "matheusmartinsss",
             "name": "Matheus Martins",
-            "number": null,
-            "pos": "Ata",
+            "number": 11,
+            "pos": "Mei",
             "grid": null
           }
         },

@@ -10,7 +10,9 @@
       "long": "NS",
       "short": "NS",
       "elapsed": null
-    }
+    },
+    "timerStart": null,
+    "timerStatus": "PAUSADO"
   },
   "league": {
     "round": "Regular Season - 30"
@@ -42,13 +44,241 @@
     }
   },
   "odds": {
-    "home": 2.6,
-    "draw": 3.44,
-    "away": 2.53,
+    "home": 2.59,
+    "draw": 3.45,
+    "away": 2.51,
     "source": "betexplorer"
   },
+  "_geUrl": "https://ge.globo.com/pr/futebol/brasileirao-serie-a/jogo/12-10-2026/coritiba-botafogo.ghtml",
   "events": [],
-  "lineups": [],
+  "lineups": [
+    {
+      "team": {
+        "id": 294,
+        "name": "Coritiba",
+        "logo": "https://s.sde.globo.com/media/organizations/2018/03/11/coritiba.svg"
+      },
+      "formation": "4-3-3",
+      "coach": {
+        "name": "Fernando Seabra"
+      },
+      "startXI": [
+        {
+          "player": {
+            "id": "pedro-morisco",
+            "name": "Pedro Morisco",
+            "number": 1,
+            "pos": "Gol",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "tinga03",
+            "name": "Tinga",
+            "number": null,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "tiagocoser",
+            "name": "Tiago Cóser",
+            "number": 23,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "jacy-maranhao",
+            "name": "Jacy",
+            "number": null,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "rodrigo-gelado",
+            "name": "Rodrigo Gelado",
+            "number": null,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "thiago_santos",
+            "name": "Thiago Santos",
+            "number": 21,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "sebastiangomezlon",
+            "name": "Sebastián Gómez",
+            "number": 19,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "josuefilipe",
+            "name": "Josué",
+            "number": 10,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "brenolopes",
+            "name": "Breno Lopes",
+            "number": null,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "pedrorocha",
+            "name": "Pedro Rocha",
+            "number": 32,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "fabinholuciano",
+            "name": "Fabinho",
+            "number": 28,
+            "pos": "Ata",
+            "grid": null
+          }
+        }
+      ],
+      "substitutes": []
+    },
+    {
+      "team": {
+        "id": 263,
+        "name": "Botafogo",
+        "logo": "https://s.sde.globo.com/media/organizations/2019/02/04/botafogo-svg.svg"
+      },
+      "formation": "4-4-2",
+      "coach": {
+        "name": "Tite"
+      },
+      "startXI": [
+        {
+          "player": {
+            "id": "gabriel-batista",
+            "name": "Gabriel Batista",
+            "number": 12,
+            "pos": "Gol",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "vitinhoalex",
+            "name": "Vitinho",
+            "number": 2,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "ferraresi",
+            "name": "Ferraresi",
+            "number": 5,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "lucasmonzon",
+            "name": "Lucas Monzón",
+            "number": 33,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "alextelles",
+            "name": "Alex Telles",
+            "number": 13,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "huguinho",
+            "name": "Huguinho",
+            "number": 75,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "danilodossantos",
+            "name": "Danilo",
+            "number": 8,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "ziyech",
+            "name": "Ziyech",
+            "number": null,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "alvamontoro",
+            "name": "Montoro",
+            "number": 10,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "matheusmartinsss",
+            "name": "Matheus Martins",
+            "number": null,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "arthurcabral",
+            "name": "Arthur Cabral",
+            "number": 19,
+            "pos": "Ata",
+            "grid": null
+          }
+        }
+      ],
+      "substitutes": []
+    }
+  ],
   "statistics": [],
   "sportsFieldUrl": null
 }

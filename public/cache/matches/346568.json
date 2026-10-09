@@ -10,7 +10,9 @@
       "long": "NS",
       "short": "NS",
       "elapsed": null
-    }
+    },
+    "timerStart": null,
+    "timerStatus": "PAUSADO"
   },
   "league": {
     "round": "Regular Season - 30"
@@ -43,13 +45,240 @@
   },
   "odds": {
     "home": 1.7,
-    "draw": 3.89,
-    "away": 4.52,
+    "draw": 3.83,
+    "away": 4.64,
     "source": "betexplorer"
   },
+  "_geUrl": "https://ge.globo.com/ba/futebol/brasileirao-serie-a/jogo/11-10-2026/bahia-mirassol.ghtml",
   "events": [],
-  "lineups": [],
+  "lineups": [
+    {
+      "team": {
+        "id": 265,
+        "name": "Bahia",
+        "logo": "https://s.sde.globo.com/media/organizations/2018/03/11/bahia.svg"
+      },
+      "formation": "4-3-3",
+      "coach": {
+        "name": "Rogério Ceni"
+      },
+      "startXI": [
+        {
+          "player": {
+            "id": "ronaldostrada",
+            "name": "Ronaldo",
+            "number": 1,
+            "pos": "Gol",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "marcos-victor",
+            "name": "Marcos Victor",
+            "number": 44,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "davidduarte",
+            "name": "David Duarte",
+            "number": 33,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "kanu-victor-hugo",
+            "name": "Kanu",
+            "number": 4,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "lucianojuba",
+            "name": "Luciano Juba",
+            "number": 46,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "caioalexandre",
+            "name": "Caio Alexandre",
+            "number": null,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "jeanlucassouza",
+            "name": "Jean Lucas",
+            "number": null,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "rodrigonestor",
+            "name": "Rodrigo Nestor",
+            "number": 11,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "cristianolivera424",
+            "name": "Cristian Olivera",
+            "number": null,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "velizale",
+            "name": "Alejo Véliz",
+            "number": 9,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "erickpulga",
+            "name": "Erick Pulga",
+            "number": 16,
+            "pos": "Ata",
+            "grid": null
+          }
+        }
+      ],
+      "substitutes": []
+    },
+    {
+      "team": {
+        "id": 2305,
+        "name": "Mirassol",
+        "logo": "https://s.sde.globo.com/media/organizations/2026/07/17/MIrassol.svg"
+      },
+      "formation": "4-3-3",
+      "coach": {
+        "name": "Rafael Guanaes"
+      },
+      "startXI": [
+        {
+          "player": {
+            "id": "walter-barbarense",
+            "name": "Walter",
+            "number": null,
+            "pos": "Gol",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "igor-formiga",
+            "name": "Igor Formiga",
+            "number": null,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "l-oliveira",
+            "name": "Lucas Oliveira",
+            "number": null,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "willian-machado",
+            "name": "Willian Machado",
+            "number": null,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "reinaldomanoel",
+            "name": "Reinaldo",
+            "number": null,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "netomoura",
+            "name": "Neto Moura",
+            "number": null,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "denilsonab",
+            "name": "Denilson",
+            "number": null,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "chico-sorocaba",
+            "name": "Chico Kim",
+            "number": null,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "eduardoca",
+            "name": "Eduardo",
+            "number": null,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "edsoncarioca",
+            "name": "Edson Carioca",
+            "number": null,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "brunosantos-americarj",
+            "name": "Bruno Santos",
+            "number": null,
+            "pos": "Ata",
+            "grid": null
+          }
+        }
+      ],
+      "substitutes": []
+    }
+  ],
   "statistics": [],
-  "sportsFieldUrl": null,
-  "_geUrl": "https://ge.globo.com/ba/futebol/brasileirao-serie-a/jogo/11-10-2026/bahia-mirassol.ghtml"
+  "sportsFieldUrl": null
 }

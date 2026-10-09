@@ -10,7 +10,9 @@
       "long": "NS",
       "short": "NS",
       "elapsed": null
-    }
+    },
+    "timerStart": null,
+    "timerStatus": "PAUSADO"
   },
   "league": {
     "round": "Regular Season - 30"
@@ -43,12 +45,240 @@
   },
   "odds": {
     "home": 1.63,
-    "draw": 3.74,
-    "away": 5.27,
+    "draw": 3.79,
+    "away": 5.32,
     "source": "betexplorer"
   },
+  "_geUrl": "https://ge.globo.com/sp/futebol/brasileirao-serie-a/jogo/10-10-2026/sao-paulo-vitoria.ghtml",
   "events": [],
-  "lineups": [],
+  "lineups": [
+    {
+      "team": {
+        "id": 276,
+        "name": "São Paulo",
+        "logo": "https://s.sde.globo.com/media/organizations/2018/03/11/sao-paulo.svg"
+      },
+      "formation": "3-5-2",
+      "coach": {
+        "name": "Dorival Júnior"
+      },
+      "startXI": [
+        {
+          "player": {
+            "id": "coronelcm",
+            "name": "Coronel",
+            "number": 31,
+            "pos": "Gol",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "arboleda",
+            "name": "Arboleda",
+            "number": 5,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "rafaeltoloi",
+            "name": "Rafael Tolói",
+            "number": 2,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "sabino-monteiro",
+            "name": "Sabino",
+            "number": null,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "pedro-lima",
+            "name": "Pedro Lima",
+            "number": 32,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "bobadillad",
+            "name": "Bobadilla",
+            "number": 16,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "marcosantonioss",
+            "name": "Marcos Antônio",
+            "number": null,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "pablomaia",
+            "name": "Pablo Maia",
+            "number": 29,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "wendell2",
+            "name": "Wendell",
+            "number": null,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "artur-palmeiras",
+            "name": "Artur",
+            "number": 37,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "calleri",
+            "name": "Calleri",
+            "number": null,
+            "pos": "Ata",
+            "grid": null
+          }
+        }
+      ],
+      "substitutes": []
+    },
+    {
+      "team": {
+        "id": 287,
+        "name": "Vitória",
+        "logo": "https://s.sde.globo.com/media/organizations/2025/12/18/Vitoria_2025.svg"
+      },
+      "formation": "4-3-3",
+      "coach": {
+        "name": "Jair Ventura"
+      },
+      "startXI": [
+        {
+          "player": {
+            "id": "lucasarcanjo",
+            "name": "Lucas Arcanjo",
+            "number": 1,
+            "pos": "Gol",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "mateusinho",
+            "name": "Mateus Silva",
+            "number": 98,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "caca-menezes",
+            "name": "Cacá",
+            "number": 25,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "luancandido",
+            "name": "Luan Cândido",
+            "number": 36,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "jamerson-jesus",
+            "name": "Jamerson",
+            "number": 83,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "caique-jesus",
+            "name": "Caíque",
+            "number": 95,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "ze-vitor-neves",
+            "name": "Zé Vitor",
+            "number": null,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "emmanuelmartinez",
+            "name": "Emmanuel Martínez",
+            "number": 6,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "matheuzinho-martins",
+            "name": "Matheuzinho",
+            "number": 10,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "erick-serafim",
+            "name": "Erick",
+            "number": 33,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "Rene",
+            "name": "Renê",
+            "number": 91,
+            "pos": "Ata",
+            "grid": null
+          }
+        }
+      ],
+      "substitutes": []
+    }
+  ],
   "statistics": [],
   "sportsFieldUrl": null
 }

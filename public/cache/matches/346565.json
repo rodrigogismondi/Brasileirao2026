@@ -10,7 +10,9 @@
       "long": "NS",
       "short": "NS",
       "elapsed": null
-    }
+    },
+    "timerStart": null,
+    "timerStatus": "PAUSADO"
   },
   "league": {
     "round": "Regular Season - 30"
@@ -42,13 +44,241 @@
     }
   },
   "odds": {
-    "home": 2.92,
+    "home": 3,
     "draw": 3.33,
-    "away": 2.34,
+    "away": 2.32,
     "source": "betexplorer"
   },
+  "_geUrl": "https://ge.globo.com/rs/futebol/brasileirao-serie-a/jogo/11-10-2026/gremio-internacional.ghtml",
   "events": [],
-  "lineups": [],
+  "lineups": [
+    {
+      "team": {
+        "id": 284,
+        "name": "Grêmio",
+        "logo": "https://s.sde.globo.com/media/organizations/2018/03/12/gremio.svg"
+      },
+      "formation": "4-3-3",
+      "coach": {
+        "name": "Renato Gaúcho"
+      },
+      "startXI": [
+        {
+          "player": {
+            "id": "weverton2",
+            "name": "Weverton",
+            "number": 1,
+            "pos": "Gol",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "joaopedro06",
+            "name": "João Pedro",
+            "number": 18,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "gustavomartins",
+            "name": "Gustavo Martins",
+            "number": 6,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "wallace",
+            "name": "Wallace",
+            "number": 82,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "caio-paulista",
+            "name": "Caio Paulista",
+            "number": null,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "erinoriega",
+            "name": "Noriega",
+            "number": 8,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "danilobarbosa",
+            "name": "Danilo Barbosa",
+            "number": null,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "villasanti",
+            "name": "Villasanti",
+            "number": 20,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "crispavon",
+            "name": "Pavón",
+            "number": 7,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "carlosviniciusalves",
+            "name": "Carlos Vinícius",
+            "number": 95,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "francis-amuzu",
+            "name": "Amuzu",
+            "number": 9,
+            "pos": "Ata",
+            "grid": null
+          }
+        }
+      ],
+      "substitutes": []
+    },
+    {
+      "team": {
+        "id": 285,
+        "name": "Internacional",
+        "logo": "https://s.sde.globo.com/media/organizations/2018/03/11/internacional.svg"
+      },
+      "formation": "3-6-1",
+      "coach": {
+        "name": "Eduardo Baptista"
+      },
+      "startXI": [
+        {
+          "player": {
+            "id": "anthoni",
+            "name": "Anthoni",
+            "number": null,
+            "pos": "Gol",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "brunogomes",
+            "name": "Bruno Gomes",
+            "number": 15,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "mercado11",
+            "name": "Mercado",
+            "number": 25,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "victorgabriel",
+            "name": "Victor Gabriel",
+            "number": null,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "braianaguirre",
+            "name": "Aguirre",
+            "number": null,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "rodrigovillagra",
+            "name": "Villagra",
+            "number": null,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "thiagomaia",
+            "name": "Thiago Maia",
+            "number": null,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "vitornaum",
+            "name": "Vitinho",
+            "number": 28,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "alanpatrick",
+            "name": "Alan Patrick",
+            "number": 10,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "bernabei",
+            "name": "Bernabei",
+            "number": 26,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "alerrandro",
+            "name": "Alerrandro",
+            "number": null,
+            "pos": "Ata",
+            "grid": null
+          }
+        }
+      ],
+      "substitutes": []
+    }
+  ],
   "statistics": [],
   "sportsFieldUrl": null
 }

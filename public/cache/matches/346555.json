@@ -10,7 +10,9 @@
       "long": "NS",
       "short": "NS",
       "elapsed": null
-    }
+    },
+    "timerStart": null,
+    "timerStatus": "PAUSADO"
   },
   "league": {
     "round": "Regular Season - 30"
@@ -42,13 +44,241 @@
     }
   },
   "odds": {
-    "home": 1.49,
-    "draw": 4.25,
-    "away": 6.09,
+    "home": 1.41,
+    "draw": 4.49,
+    "away": 6.98,
     "source": "betexplorer"
   },
+  "_geUrl": "https://ge.globo.com/rj/futebol/brasileirao-serie-a/jogo/11-10-2026/flamengo-fluminense.ghtml",
   "events": [],
-  "lineups": [],
+  "lineups": [
+    {
+      "team": {
+        "id": 262,
+        "name": "Flamengo",
+        "logo": "https://s.sde.globo.com/media/organizations/2018/04/10/Flamengo-2018.svg"
+      },
+      "formation": "4-4-2",
+      "coach": {
+        "name": "Leonardo Jardim"
+      },
+      "startXI": [
+        {
+          "player": {
+            "id": "agustin-rossi",
+            "name": "Rossi",
+            "number": 1,
+            "pos": "Gol",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "guivarela",
+            "name": "Varela",
+            "number": 2,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "leo-ortiz",
+            "name": "Léo Ortiz",
+            "number": 3,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "leopereira",
+            "name": "Léo Pereira",
+            "number": 4,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "alexsandro3",
+            "name": "Alex Sandro",
+            "number": null,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "pulgar",
+            "name": "Erick Pulgar",
+            "number": null,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "saulniguez",
+            "name": "Saúl",
+            "number": null,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "carrascalj",
+            "name": "Carrascal",
+            "number": null,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "lucaspaqueta",
+            "name": "Lucas Paquetá",
+            "number": null,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "pedro-guilhermea",
+            "name": "Pedro",
+            "number": 9,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "samuel-saobernardo",
+            "name": "Samuel Lino",
+            "number": null,
+            "pos": "Ata",
+            "grid": null
+          }
+        }
+      ],
+      "substitutes": []
+    },
+    {
+      "team": {
+        "id": 266,
+        "name": "Fluminense",
+        "logo": "https://s.sde.globo.com/media/organizations/2018/03/11/fluminense.svg"
+      },
+      "formation": "4-3-3",
+      "coach": {
+        "name": "Marcão"
+      },
+      "startXI": [
+        {
+          "player": {
+            "id": "fabio",
+            "name": "Fábio",
+            "number": 1,
+            "pos": "Gol",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "guga74567",
+            "name": "Guga",
+            "number": null,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "thiagosilva",
+            "name": "Thiago Silva",
+            "number": 3,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "julian-millan",
+            "name": "Millán",
+            "number": 29,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "guilhermearana",
+            "name": "Guilherme Arana",
+            "number": null,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "hercules-nascimento",
+            "name": "Hércules",
+            "number": null,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "matheusmartinelli",
+            "name": "Martinelli",
+            "number": 8,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "phganso",
+            "name": "Ganso",
+            "number": null,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "canobbio",
+            "name": "Canobbio",
+            "number": 17,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "Serna",
+            "name": "Serna",
+            "number": 90,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "hulk",
+            "name": "Hulk",
+            "number": 7,
+            "pos": "Ata",
+            "grid": null
+          }
+        }
+      ],
+      "substitutes": []
+    }
+  ],
   "statistics": [],
   "sportsFieldUrl": null
 }

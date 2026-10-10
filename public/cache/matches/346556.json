@@ -7,12 +7,12 @@
       "city": ""
     },
     "status": {
-      "long": "NS",
-      "short": "NS",
-      "elapsed": null
+      "long": "2H",
+      "short": "2H",
+      "elapsed": 64
     },
-    "timerStart": null,
-    "timerStatus": "PAUSADO"
+    "timerStart": "2026-10-10T22:05:28.759Z",
+    "timerStatus": "INICIADO"
   },
   "league": {
     "round": "Regular Season - 30"
@@ -30,8 +30,8 @@
     }
   },
   "goals": {
-    "home": null,
-    "away": null
+    "home": 0,
+    "away": 0
   },
   "score": {
     "halftime": {
@@ -44,13 +44,1320 @@
     }
   },
   "odds": {
-    "home": 1.3,
-    "draw": 5.37,
-    "away": 9.14,
+    "home": 1.27,
+    "draw": 5.85,
+    "away": 10.18,
     "source": "betexplorer"
   },
   "_geUrl": "https://ge.globo.com/rj/futebol/brasileirao-serie-a/jogo/10-10-2026/vasco-remo.ghtml",
-  "events": [],
+  "events": [
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O primeiro tempo teve um domínio de posse de bola do Vasco, mas as chances claras demoraram a aparecer e foram escassas. O time da casa ocupou bastante o campo de ataque para buscar os espaços, mas errou com frequência e bateu de frente com um Remo bem organizado, que tentava sair no contra-ataque em velocidade para criar alguma oportunidade. As melhores finalizações aconteceram com David, aos 32 minutos, em defesa de Marcelo Rangel, e Piton, aos 41.",
+      "player": {
+        "name": "COMO FOI O PRIMEIRO TEMPO"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Apita o árbitro para o fim do primeiro tempo de Vasco 0 x 0 Remo.",
+      "player": {
+        "name": "FIM DO PRIMEIRO TEMPO"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 364,
+        "name": "Remo"
+      },
+      "type": "Important",
+      "detail": "O zagueiro Zé Ivaldo sentiu dores e pediu uma proteção para a mão antes de a bola rolar. Ele teve uma lesão recente no local.",
+      "player": {
+        "name": "REMO EM ALERTA"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Apita o árbitro para Vasco x Remo em São Januário!",
+      "player": {
+        "name": "BOLA ROLANDO!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 2,
+        "extra": null
+      },
+      "team": {
+        "id": 267,
+        "name": "Vasco"
+      },
+      "type": "Important",
+      "detail": "Vasco troca passes e tenta achar os espaços. Colidio recebe na entrada da área e tenta devolver para Lescano, mas é desarmado.",
+      "player": {
+        "name": "Vasco troca passes e tenta achar os espaços. Col"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 4,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "A bola está rolando e o Vasco dita o ritmo nos primeiros minutos. A equipe da casa avança com quase todos os jogadores para o campo de ataque, trocando passes em busca de um espaço na defesa do Remo, que se fecha para conter o ímpeto inicial. Colidio já tentou uma tabela com Lescano na entrada da área, mas a zaga conseguiu o desarme. O cenário é de domínio total do time carioca até aqui.",
+      "player": {
+        "name": "Vasco pressiona no início em São Januário"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 4,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Vasco avança e tem quase todos os jogadores no campo de ataque. Remo se fecha para evitar dar espaços.",
+      "player": {
+        "name": "Vasco avança e tem quase todos os jogadores no c"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 5,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Patrick faz boa jogada pela esquerda e dribla dois, mas Jair chega para desarmar e mandar a bola para escanteio.",
+      "player": {
+        "name": "Patrick faz boa jogada pela esquerda e dribla do"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 6,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "A partida começa com o Vasco tentando ditar o ritmo, mantendo a posse de bola no campo ofensivo e empurrando o Remo para a defesa. Apesar do volume, quem levou mais perigo nos primeiros minutos foi o time visitante. Pela esquerda, Patrick tem sido a principal válvula de escape, primeiro com um drible que resultou em escanteio e depois com um cruzamento que o goleiro Léo Jardim precisou interceptar.",
+      "player": {
+        "name": "Vasco com a bola, Remo com o perigo"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 6,
+        "extra": null
+      },
+      "team": {
+        "id": 364,
+        "name": "Remo"
+      },
+      "type": "Important",
+      "detail": "Remo sai novamente pela esquerda em descida rápida, Patrick tenta o cruzamento na área para Eduardo Melo, mas Léo Jardim fica com ela no meio do caminho.",
+      "player": {
+        "name": "Patrick"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 6,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Após a cobrança de escanteio, Patrick recebe na esquerda e faz o lançamento para Pikachu, mas manda forte demais para fora.",
+      "player": {
+        "name": "Após a cobrança de escanteio, Patrick recebe na "
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 8,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Remo troca passes no campo de defesa e o Vasco pressiona para forçar o erro. Taliari encontra Marlon na fogueira, mas lateral sofre falta de David.",
+      "player": {
+        "name": "Remo troca passes no campo de defesa e o Vasco p"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 9,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Com 10 minutos de bola rolando, o Vasco dita o ritmo com a posse de bola no campo de ataque, mas é o Remo quem cria as jogadas mais incisivas. Pela esquerda, Patrick já conseguiu um drible, forçou um escanteio e um cruzamento interceptado por Léo Jardim. O time da casa respondeu em contra-ataque veloz de Andrés Gomez, mas Zé Welison apareceu com um corte crucial para salvar o Remo.",
+      "player": {
+        "name": "Vasco com a bola, Remo cria perigo"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 9,
+        "extra": null
+      },
+      "team": {
+        "id": 267,
+        "name": "Vasco"
+      },
+      "type": "Important",
+      "detail": "Vasco sai em velocidade no contra-ataque com Andrés Gomez, que tenta o cruzamento, mas Zé Welison se estica todo e corta antes que a bola chegue a David na área.",
+      "player": {
+        "name": "Vasco sai em velocidade no contra-ataque com And"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 11,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Vasco avança pela esquerda com Lucas Piton, que aciona Colidio. Ele encontra David, que faz o cruzamento, mas o Remo afasta.",
+      "player": {
+        "name": "Vasco avança pela esquerda com Lucas Piton, que "
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 12,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Vasco tenta ditar o ritmo em São Januário, trocando passes no ataque e adiantando a marcação. Contudo, o Remo responde com perigo, explorando a velocidade de Patrick em jogadas pela esquerda. Aos 12 minutos, a grande chance do jogo surgiu para o time da casa: após um escanteio, a bola sobrou livre para David dentro da área, mas o atacante furou e desperdiçou uma oportunidade clara.",
+      "player": {
+        "name": "Vasco pressiona e Remo responde com perigo"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 12,
+        "extra": null
+      },
+      "team": {
+        "id": 364,
+        "name": "Remo"
+      },
+      "type": "Important",
+      "detail": "Depois de cobrança de escanteio de Lescano, a bola fica viva na entrada da área do Remo, David tenta recuperar e pressiona. Quando sobra, o atacante se enrola, ensaia a finalização e acaba furando.",
+      "player": {
+        "name": "David"
+      },
+      "assist": {
+        "name": "FUROU!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 15,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O jogo começou com o Vasco tomando a iniciativa e empurrando o Remo para o campo de defesa nos primeiros 15 minutos. A equipe visitante respondeu com perigo em jogadas de velocidade, principalmente com Patrick pela esquerda. A melhor chance, no entanto, foi do time da casa: após a bola sobrar na área, David se enrolou e desperdiçou uma oportunidade claríssima de abrir o placar.",
+      "player": {
+        "name": "Vasco pressiona e perde chance incrível"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 15,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Vasco pressiona a saída de bola do Remo. Puma rouba, e a bola sobra para Andrés Gómez, que vai à linha de fundo e faz o cruzamento para Colidio, mas Marllon chega antes para cortar.",
+      "player": {
+        "name": "Vasco pressiona a saída de bola do Remo. Puma ro"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 17,
+        "extra": null
+      },
+      "team": {
+        "id": 364,
+        "name": "Remo"
+      },
+      "type": "Important",
+      "detail": "Remo parte para o ataque, mas Taliari é desarmado. Colidio puxa o contra-ataque e aciona Thiago Mendes, que se enrola sozinho, perde a bola e desperdiça lance promissor.",
+      "player": {
+        "name": "Remo parte para o ataque, mas Taliari é desarmad"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 19,
+        "extra": null
+      },
+      "team": {
+        "id": 364,
+        "name": "Remo"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Zé Ivaldo"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 19,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Os primeiros 20 minutos em São Januário são de um jogo bem disputado. O Vasco tem mais a bola e pressiona no ataque, criando a melhor oportunidade até aqui em uma finalização que David acabou furando na área. O Remo se defende bem e responde com velocidade, levando perigo principalmente nas jogadas individuais de Patrick pelo lado esquerdo. O placar segue zerado, mas o ritmo é intenso.",
+      "player": {
+        "name": "Vasco pressiona, mas Remo assusta"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 19,
+        "extra": null
+      },
+      "team": {
+        "id": 267,
+        "name": "Vasco"
+      },
+      "type": "Important",
+      "detail": "Vasco sai jogando, mas David é derrubado com falta dura de Zé Ivaldo.",
+      "player": {
+        "name": "Vasco sai jogando, mas David é derrubado com fal"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 20,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Vasco assumiu o controle da partida nestes primeiros 20 minutos, encurralando o Remo em seu campo. Apesar da pressão, o time da casa desperdiçou as melhores chances: David furou uma finalização na área e Lescano cobrou uma falta perigosa por cima do gol. O Remo aposta na velocidade pela esquerda com Patrick e já viu Zé Ivaldo receber o primeiro cartão amarelo do jogo por uma falta dura.",
+      "player": {
+        "name": "Pressão do Vasco e chances perdidas"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 20,
+        "extra": null
+      },
+      "team": {
+        "id": 267,
+        "name": "Vasco"
+      },
+      "type": "Important",
+      "detail": "Lescano vai para a cobrança de falta bem perto da linha do lado direito da área. Ele bate direto para o gol, mas manda por cima do travessão.",
+      "player": {
+        "name": "Lescano"
+      },
+      "assist": {
+        "name": "PARA FORA!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 22,
+        "extra": null
+      },
+      "team": {
+        "id": 267,
+        "name": "Vasco"
+      },
+      "type": "Important",
+      "detail": "Pikachu tenta encontrar Patrick dentro da área, mas o Vasco afasta.",
+      "player": {
+        "name": "Pikachu tenta encontrar Patrick dentro da área, "
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 24,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Vasco domina a posse de bola nos primeiros 25 minutos e empilha chances perdidas. A equipe pressiona, mas peca na hora de concluir, como em uma finalização furada por David e uma cobrança de falta de Lescano que foi para fora. O Remo se defende como pode e já viu seu zagueiro Zé Ivaldo levar um cartão amarelo aos 20 minutos após uma falta dura.",
+      "player": {
+        "name": "Vasco dita o ritmo, mas peca no ataque"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 24,
+        "extra": null
+      },
+      "team": {
+        "id": 267,
+        "name": "Vasco"
+      },
+      "type": "Important",
+      "detail": "Vasco rouba a bola e parte em velocidade pela direita com Puma. Ele aciona Andrés Gómez, que faz o cruzamento, mas Zé Ivaldo corta para a linha de fundo.",
+      "player": {
+        "name": "Vasco rouba a bola e parte em velocidade pela di"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 25,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Vasco tenta se impor em casa e pressiona a saída de bola do Remo, mas desperdiça as chances que cria. A melhor delas foi com David, que se atrapalhou e furou a finalização dentro da área. O time paraense se defende bem e aposta na velocidade pela esquerda, principalmente com Patrick. Aos 20 minutos, Zé Ivaldo recebeu cartão amarelo, e na cobrança, Lescano mandou a falta por cima do gol.",
+      "player": {
+        "name": "Jogo intenso, mas sem gols em São Januário"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 25,
+        "extra": null
+      },
+      "team": {
+        "id": 267,
+        "name": "Vasco"
+      },
+      "type": "Important",
+      "detail": "Após cobrança de escanteio de Colidio, Robert Renan desvia pelo alto, mas Marcelo Rangel fica com ela.",
+      "player": {
+        "name": "Robert Renan"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 26,
+        "extra": null
+      },
+      "team": {
+        "id": 267,
+        "name": "Vasco"
+      },
+      "type": "Important",
+      "detail": "Saldivia tenta dar um corte no alto, mas se enrola e fura. Eduardo Melo fica com a bola e invade a área, mas Saldivia se recupera e faz o desarme.",
+      "player": {
+        "name": "Saldivia"
+      },
+      "assist": {
+        "name": "QUE FURADA!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 29,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Perto dos 30 minutos, o Vasco tem a iniciativa e pressiona no ataque, mas peca na criação. David teve a melhor chance em uma furada dentro da área. O Remo se defende e busca responder com Patrick pela esquerda. O jogo é amarrado, com muitos erros dos dois lados e um cartão amarelo para Zé Ivaldo após falta dura. O placar segue zerado em São Januário.",
+      "player": {
+        "name": "Erros e um amarelo marcam o início"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 29,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Jogo continua sem grandes finalizações para os dois lados. Times erram bastante e têm dificuldade para furar os bloqueios adversários.",
+      "player": {
+        "name": "Jogo continua sem grandes finalizações para os d"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 31,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Vasco tem a iniciativa nestes primeiros 30 minutos, mantendo a posse no campo de ataque, mas sem conseguir furar a defesa do Remo. A equipe visitante responde em descidas rápidas pela esquerda com Patrick. O jogo é pegado e já teve cartão amarelo para Zé Ivaldo. As melhores chances foram do Vasco, em uma furada de David na área e numa falta cobrada por Lescano que passou por cima do gol.",
+      "player": {
+        "name": "Vasco pressiona, mas jogo não engrena"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 31,
+        "extra": null
+      },
+      "team": {
+        "id": 267,
+        "name": "Vasco"
+      },
+      "type": "Important",
+      "detail": "Lescano cobra falta pela esquerda, Thiago Mendes sobe e cabeceia, mas Marcelo Rangel sai com tranquilidade para defender.",
+      "player": {
+        "name": "Thiago Mendes"
+      },
+      "assist": {
+        "name": "CABEÇADA FRACA"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 32,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Vasco dita o ritmo nos primeiros 30 minutos, mantendo a posse de bola no campo de ataque, mas encontra um Remo bem postado na defesa. Zé Ivaldo já foi amarelado por falta dura. Apesar da iniciativa vascaína, o jogo tem muitos erros e poucas chances claras. Na melhor oportunidade até aqui, David chutou forte para boa defesa em dois tempos do goleiro Marcelo Rangel, mantendo o placar zerado.",
+      "player": {
+        "name": "Vasco pressiona, mas Remo se segura"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 32,
+        "extra": null
+      },
+      "team": {
+        "id": 267,
+        "name": "Vasco"
+      },
+      "type": "Important",
+      "detail": "Vasco sai em velocidade, Colidio acha David, que avança em profundidade pela esquerda da área e chuta forte. Marcelo Rangel defende em dois tempos.",
+      "player": {
+        "name": "David"
+      },
+      "assist": {
+        "name": "BOA CHANCE!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 33,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O jogo em São Januário passa dos 30 minutos com o Vasco intensificando a pressão. O Remo começou com descidas perigosas pela esquerda com Patrick, mas aos poucos o time da casa assumiu o controle. Zé Ivaldo já foi amarelado por falta dura. Na reta final, Lescano bateu falta por cima e, na melhor chance, David finalizou forte para uma defesa em dois tempos do goleiro Marcelo Rangel.",
+      "player": {
+        "name": "Vasco aperta, mas goleiro do Remo se destaca"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 33,
+        "extra": null
+      },
+      "team": {
+        "id": 267,
+        "name": "Vasco"
+      },
+      "type": "Important",
+      "detail": "Andrés Gómez recebe e roda o campo em busca de espaço. Ele tenta a jogada individual e faz o cruzamento na esquerda, mas Zé Welison tira.",
+      "player": {
+        "name": "Andrés Gómez"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 35,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Passados 35 minutos, o Vasco dita o ritmo em São Januário, pressionando no ataque e criando as melhores oportunidades. A chance mais clara veio em chute forte de David, que parou em boa defesa de Marcelo Rangel. O Remo responde em descidas pela esquerda e já teve um cartão amarelo para Zé Ivaldo. O jogo é movimentado, mas com muitos erros e poucas finalizações perigosas de ambos os lados.",
+      "player": {
+        "name": "Vasco pressiona, mas placar segue zerado"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 35,
+        "extra": null
+      },
+      "team": {
+        "id": 364,
+        "name": "Remo"
+      },
+      "type": "Important",
+      "detail": "Marcelinho limpa a marcação e cruza na área. Eduardo Melo finaliza de cabeça, mas Léo Jardim faz a defesa com tranquilidade.",
+      "player": {
+        "name": "Eduardo Melo"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 39,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "A partida se aproxima do fim do primeiro tempo com equilíbrio e chances para os dois lados. O Vasco cria mais volume ofensivo e teve sua melhor oportunidade em chute forte de David, bem defendido por Marcelo Rangel. O Remo aposta nos contra-ataques e assusta, principalmente em jogadas de Patrick. Zé Ivaldo já foi punido com cartão amarelo. Apesar da intensidade, o zero a zero persiste em São Januário.",
+      "player": {
+        "name": "Jogo pegado, mas placar segue zerado"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 39,
+        "extra": null
+      },
+      "team": {
+        "id": 267,
+        "name": "Vasco"
+      },
+      "type": "Important",
+      "detail": "Vasco avança para o campo de ataque e troca passes tentando achar os espaços. Puma cruza na área, mas sem sucesso.",
+      "player": {
+        "name": "Vasco avança para o campo de ataque e troca pass"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 40,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Marcelo Rangel bate mal o tiro de meta, a bola fica com David em situação de dois contra um. Ele toca para Colidio, que erra na hora da devolução, e Zé Welison afasta o perigo.",
+      "player": {
+        "name": "QUASE!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 41,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Após 40 minutos, o jogo segue sem gols, mas com o Vasco aumentando a pressão. O time da casa criou as melhores oportunidades na reta final, parando em grandes defesas do goleiro Marcelo Rangel em chutes de David e Lucas Piton. O Remo respondeu em lances pontuais, mas foi o Vasco quem desperdiçou as chances mais claras, incluindo um erro de Rangel que a dupla David e Colidio não aproveitou.",
+      "player": {
+        "name": "Vasco pressiona e Rangel vira o nome do jogo"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 41,
+        "extra": null
+      },
+      "team": {
+        "id": 267,
+        "name": "Vasco"
+      },
+      "type": "Important",
+      "detail": "Lescano dá bom passe de primeira para Lucas Piton. O lateral recebe com liberdade na área e chuta em cima de Marcelo Rangel, que espalma. No rebote, o próprio Piton cabeceia para fora.",
+      "player": {
+        "name": "Lucas Piton"
+      },
+      "assist": {
+        "name": "MAIS UMA CHEGADA!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 44,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "A partida esquentou na reta final do primeiro tempo, com o Vasco enfileirando oportunidades. Aos 32 minutos, David chutou forte e parou em defesa de Marcelo Rangel. O goleiro do Remo quase comprometeu em uma saída errada, mas Colidio desperdiçou o contra-ataque. Aos 41, Rangel salvou de novo em chute de Lucas Piton, que mandou o rebote para fora. Muita pressão do time da casa!",
+      "player": {
+        "name": "Vasco aperta, mas placar segue 0 a 0"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 44,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Andrés Gómez parte em velocidade pela direita e tenta a jogada individual, mas é parado por Zé Ivaldo e Zé Welison.",
+      "player": {
+        "name": "Andrés Gómez parte em velocidade pela direita e "
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 45,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Começa o segundo tempo em São Januário!",
+      "player": {
+        "name": "BOLA ROLANDO"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 45,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O primeiro tempo termina com o Vasco em cima, criando as melhores oportunidades. Marcelo Rangel, goleiro do Remo, virou protagonista com defesas cruciais em finalizações de David e Lucas Piton. O goleiro ainda quase entregou o ouro em uma saída de bola errada, mas o ataque vascaíno não aproveitou a chance. Apesar da pressão na reta final, o placar em São Januário segue zerado.",
+      "player": {
+        "name": "Vasco cresce, mas placar segue zerado"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 45,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Lescano chega pela esquerda e faz o cruzamento. David tenta se esticar, mas a bola passa direto para a linha de fundo.",
+      "player": {
+        "name": "MUITO PERTO"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 45,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "+2 minutos",
+      "player": {
+        "name": "ACRÉSCIMOS"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 46,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Vasco dominou as ações no primeiro tempo, mas parou em grande atuação de Marcelo Rangel. O goleiro do Remo fez defesas importantes em finalizações de David e Lucas Piton. A equipe da casa ainda desperdiçou outras chances, enquanto o Remo buscou responder com jogadas de Patrick. A segunda etapa mal começou e o Vasco já criou um novo perigo em chute de Colidio que foi para fora.",
+      "player": {
+        "name": "Vasco pressiona, mas placar segue zerado"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 46,
+        "extra": null
+      },
+      "team": {
+        "id": 267,
+        "name": "Vasco"
+      },
+      "type": "Important",
+      "detail": "David chega pela esquerda e toca para Colidio, que recebe na área, mas chuta para fora. Jogador fica sentindo dores depois da finalização.",
+      "player": {
+        "name": "Colidio"
+      },
+      "assist": {
+        "name": "QUE PERIGO!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 47,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Não vai dar para Colidio continuar em campo. Puma sinaliza para o banco de reservas a necessidade de substituição.",
+      "player": {
+        "name": "Não vai dar para Colidio continuar em campo. Pum"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 48,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Nuno Moreira vai entrar na vaga de Colidio, que fica caído no gramado.",
+      "player": {
+        "name": "Nuno Moreira vai entrar na vaga de Colidio, que "
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 48,
+        "extra": null
+      },
+      "team": {
+        "id": 267,
+        "name": "Vasco"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Saldivia"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 49,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "A pressão do Vasco aumentou no fim da primeira etapa, com chances claras de David e Lucas Piton, mas o goleiro Marcelo Rangel virou o herói do Remo com defesas cruciais. O segundo tempo começou com um balde de água fria para o time da casa: logo nos primeiros lances, Colidio desperdiçou uma boa finalização, sentiu uma lesão e teve que ser substituído. O jogo segue 0 a 0 e intenso.",
+      "player": {
+        "name": "Vasco pressiona, mas Rangel é o nome do jogo"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 49,
+        "extra": null
+      },
+      "team": {
+        "id": 267,
+        "name": "Vasco"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Nuno Moreira"
+      },
+      "assist": {
+        "name": "Colidio"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 50,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O jogo tem o Vasco com mais volume ofensivo, criando chances claras que pararam nas boas defesas do goleiro Marcelo Rangel, principalmente em finalizações de David e Lucas Piton. O Remo se fecha e tenta surpreender nos contra-ataques. O segundo tempo começou com um problema para o time da casa: Colidio se machucou logo nos primeiros minutos e teve que ser substituído por Nuno Moreira.",
+      "player": {
+        "name": "Vasco pressiona, mas placar segue zerado"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 50,
+        "extra": null
+      },
+      "team": {
+        "id": 267,
+        "name": "Vasco"
+      },
+      "type": "Important",
+      "detail": "Vasco chega ao ataque, Lescano ajeita e Puma finaliza da entrada da área, mas a defesa do Remo afasta.",
+      "player": {
+        "name": "Puma Rodríguez"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 53,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O segundo tempo começa movimentado em São Januário! O placar segue 0 a 0, mas o Vasco continua pressionando. Na primeira etapa, o goleiro do Remo, Marcelo Rangel, foi o destaque ao parar chutes perigosos de David e Lucas Piton. Logo no início da segunda etapa, o Vasco perdeu Colidio, que sentiu uma lesão após finalizar com perigo e precisou ser substituído por Nuno Moreira.",
+      "player": {
+        "name": "Vasco pressiona, mas perde jogador no 2º tempo"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 53,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Saldivia aciona Andrés Gómez em profundidade pela ponta, mas manda forte demais e a bola sai.",
+      "player": {
+        "name": "Saldivia aciona Andrés Gómez em profundidade pel"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 54,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O segundo tempo começou como o primeiro terminou: com o Vasco no ataque. Logo no início, Colidio teve uma boa chance, mas chutou para fora e se machucou no lance, precisando ser substituído. O time da casa segue com mais volume e já criou várias oportunidades, parando em boas defesas de Marcelo Rangel. O Remo se segura e o placar continua zerado no início da etapa final.",
+      "player": {
+        "name": "Pressão do Vasco e lesão marcam o início do 2ºT"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 54,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "David recebe o cruzamento no meio da área e cabeceia para fora, mas o bandeirinha já assinalava o impedimento.",
+      "player": {
+        "name": "NÃO VALIA"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 55,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Thiago Mendes carrega a bola e sofre a falta de Zé Ricardo. Carpini reclama bastante da marcação.",
+      "player": {
+        "name": "Thiago Mendes carrega a bola e sofre a falta de "
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 56,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Saldivia ganha a disputa de bola com Taliari, que fica sentindo. O Vasco segue a jogada, Piton finaliza, mas o Remo afasta para fora.",
+      "player": {
+        "name": "Saldivia ganha a disputa de bola com Taliari, qu"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 57,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O jogo chega aos 13 minutos do segundo tempo e segue com o placar zerado, mas não por falta de chances. O Vasco domina as ações e empilha oportunidades perdidas, parando em grandes defesas do goleiro Marcelo Rangel, do Remo. David e Lucas Piton tiveram as melhores chances. A etapa final começou com um baque para o Vasco: Colidio chutou para fora, se lesionou no lance e precisou ser substituído.",
+      "player": {
+        "name": "Vasco pressiona, mas placar não sai do zero"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 57,
+        "extra": null
+      },
+      "team": {
+        "id": 267,
+        "name": "Vasco"
+      },
+      "type": "Important",
+      "detail": "Nuno dá bom cruzamento para Andrés Gómez, que ajeita para Lescano na área. O argentino quase chega de cara para o goleiro, mas Patrick chega antes e atrapalha a finalização. A bola sobra para Marcelo Rangel.",
+      "player": {
+        "name": "Lescano"
+      },
+      "assist": {
+        "name": "QUASE!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 58,
+        "extra": null
+      },
+      "team": {
+        "id": 364,
+        "name": "Remo"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Mayk"
+      },
+      "assist": {
+        "name": "Marlon"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 59,
+        "extra": null
+      },
+      "team": {
+        "id": 267,
+        "name": "Vasco"
+      },
+      "type": "Important",
+      "detail": "O segundo tempo começou agitado! Logo no início, Colidio perdeu uma boa chance e saiu machucado, dando lugar a Nuno Moreira. O Vasco seguiu no ataque e chegou a balançar as redes com David, mas o lance foi anulado por impedimento. Com quase 15 minutos, a pressão continua, e o time da casa ainda pediu um pênalti em Thiago Mendes, mas o árbitro mandou o jogo seguir. O placar continua 0 a 0.",
+      "player": {
+        "name": "Etapa final quente, mas sem gols em São Januário"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 59,
+        "extra": null
+      },
+      "team": {
+        "id": 267,
+        "name": "Vasco"
+      },
+      "type": "Important",
+      "detail": "Nuno Moreira acha Thiago Mendes, que invade a área e cai em disputa com Marllon. Ele fica pedindo pênalti, mas o árbitro manda seguir.",
+      "player": {
+        "name": "Thiago Mendes"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 59,
+        "extra": null
+      },
+      "team": {
+        "id": 364,
+        "name": "Remo"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "David Braga"
+      },
+      "assist": {
+        "name": "Marcelinho"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 60,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O segundo tempo começou com uma baixa para o Vasco: Colidio se machucou e foi substituído por Nuno Moreira. Mesmo assim, o time da casa segue pressionando. Perto dos 15 minutos, Lescano quase marcou, mas foi travado, e Thiago Mendes pediu pênalti em lance com Marllon. O Remo se defende bem e tenta responder, mas o jogo continua 0 a 0 em São Januário.",
+      "player": {
+        "name": "Placar zerado com lesão e pressão do Vasco"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 60,
+        "extra": null
+      },
+      "team": {
+        "id": 364,
+        "name": "Remo"
+      },
+      "type": "Important",
+      "detail": "David Braga passa para Mayk, que cruza. Eduardo chega para o cabeceio embaixo em disputa com Piton, mas a bola vai para fora em escanteio.",
+      "player": {
+        "name": "Eduardo Melo"
+      },
+      "assist": {
+        "name": "PASSOU PERTO"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 61,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O jogo ganhou emoção aos 16 minutos da etapa final. O Vasco começou o segundo tempo pressionando, mas perdeu Colidio por lesão logo no início. Mesmo assim, criou chances com Lescano e teve um pênalti reclamado por Thiago Mendes. O Remo não se intimidou, ajustou o time com substituições e respondeu com cruzamentos perigosos que terminaram em cabeçadas para fora de Taliari e Eduardo Melo.",
+      "player": {
+        "name": "Jogo cresce em emoção na etapa final"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 61,
+        "extra": null
+      },
+      "team": {
+        "id": 364,
+        "name": "Remo"
+      },
+      "type": "Important",
+      "detail": "Patrick cruza pela esquerda, e Taliari cabeceia para fora, com perigo.",
+      "player": {
+        "name": "Gabriel Taliari"
+      },
+      "assist": {
+        "name": "OLHA O REMO CHEGANDO!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 62,
+        "extra": null
+      },
+      "team": {
+        "id": 267,
+        "name": "Vasco"
+      },
+      "type": "Important",
+      "detail": "Vasco tenta a cobrança rápida da falta, mas o árbitro para a jogada.",
+      "player": {
+        "name": "Vasco tenta a cobrança rápida da falta, mas o ár"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 63,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O segundo tempo começou com um baque para o Vasco: Colidio se machucou logo após desperdiçar uma chance e precisou ser substituído. Mesmo assim, o time da casa seguiu na pressão, com Lescano quase marcando e Thiago Mendes pedindo pênalti. Mas o Remo cresceu no jogo e respondeu à altura, assustando em cabeçadas perigosas de Eduardo Melo e Taliari. A partida esquenta, mas o placar segue zerado.",
+      "player": {
+        "name": "Jogo esquenta, mas o gol não sai"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 63,
+        "extra": null
+      },
+      "team": {
+        "id": 267,
+        "name": "Vasco"
+      },
+      "type": "Important",
+      "detail": "Lescano bate a falta direto para o gol, mas a bola desvia na barreira e vai para fora.",
+      "player": {
+        "name": "Lescano"
+      },
+      "assist": null
+    }
+  ],
   "lineups": [
     {
       "team": {
@@ -74,9 +1381,9 @@
         },
         {
           "player": {
-            "id": "paulohenrique-parana",
-            "name": "Paulo Henrique",
-            "number": 96,
+            "id": "joserodriguezlu",
+            "name": "Puma Rodríguez",
+            "number": 2,
             "pos": "Def",
             "grid": null
           }
@@ -101,18 +1408,18 @@
         },
         {
           "player": {
-            "id": "cuiabano",
-            "name": "Cuiabano",
-            "number": 66,
+            "id": "lucas-piton",
+            "name": "Lucas Piton",
+            "number": 6,
             "pos": "Def",
             "grid": null
           }
         },
         {
           "player": {
-            "id": "sosasanti",
-            "name": "Santiago Sosa",
-            "number": 5,
+            "id": "jairrodrigues",
+            "name": "Jair",
+            "number": 8,
             "pos": "Mei",
             "grid": null
           }
@@ -137,33 +1444,142 @@
         },
         {
           "player": {
-            "id": "carlosgomez",
-            "name": "Andrés Gómez",
-            "number": 11,
-            "pos": "Ata",
-            "grid": null
-          }
-        },
-        {
-          "player": {
-            "id": "brunoduartesil",
-            "name": "Bruno Duarte",
-            "number": 19,
-            "pos": "Ata",
-            "grid": null
-          }
-        },
-        {
-          "player": {
             "id": "colidio",
             "name": "Colidio",
             "number": 9,
             "pos": "Ata",
             "grid": null
           }
+        },
+        {
+          "player": {
+            "id": "david1234",
+            "name": "David",
+            "number": 7,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "carlosgomez",
+            "name": "Andrés Gómez",
+            "number": 11,
+            "pos": "Ata",
+            "grid": null
+          }
         }
       ],
-      "substitutes": []
+      "substitutes": [
+        {
+          "player": {
+            "id": "danielfuzato",
+            "name": "Daniel Fuzato",
+            "number": 13,
+            "pos": "Gol",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "paulohenrique-parana",
+            "name": "Paulo Henrique",
+            "number": 96,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "gabrielpereira0500",
+            "name": "Gabriel Pereira",
+            "number": 55,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "lucasfreitas",
+            "name": "Lucas Freitas",
+            "number": 43,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "cuiabano",
+            "name": "Cuiabano",
+            "number": 66,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "tche-tche",
+            "name": "Tchê Tchê",
+            "number": 3,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "sosasanti",
+            "name": "Santiago Sosa",
+            "number": 5,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "ramon-rique",
+            "name": "Ramon Rique",
+            "number": 83,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "nuno-moreira",
+            "name": "Nuno Moreira",
+            "number": 17,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "adsonsoares",
+            "name": "Adson",
+            "number": 28,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "marinohin",
+            "name": "Marino Hinestroza",
+            "number": 18,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "spinelli",
+            "name": "Spinelli",
+            "number": 77,
+            "pos": "Ata",
+            "grid": null
+          }
+        }
+      ]
     },
     {
       "team": {
@@ -232,18 +1648,18 @@
         },
         {
           "player": {
-            "id": "picco",
-            "name": "Picco",
-            "number": 14,
+            "id": "josewelison",
+            "name": "José Welison",
+            "number": 28,
             "pos": "Mei",
             "grid": null
           }
         },
         {
           "player": {
-            "id": "vitor-bueno",
-            "name": "Vitor Bueno",
-            "number": 15,
+            "id": "patrick01",
+            "name": "Patrick",
+            "number": 8,
             "pos": "Mei",
             "grid": null
           }
@@ -268,17 +1684,279 @@
         },
         {
           "player": {
+            "id": "eduardomelo",
+            "name": "Eduardo Melo",
+            "number": 39,
+            "pos": "Ata",
+            "grid": null
+          }
+        }
+      ],
+      "substitutes": [
+        {
+          "player": {
+            "id": "ygor-vinhas",
+            "name": "Ygor Vinhas",
+            "number": 94,
+            "pos": "Gol",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "ivan-quaresma",
+            "name": "Ivan",
+            "number": 97,
+            "pos": "Gol",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "matheusalexandre",
+            "name": "Matheus Alexandre",
+            "number": 2,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "mayk",
+            "name": "Mayk",
+            "number": 77,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "picco",
+            "name": "Picco",
+            "number": 14,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "jaderson",
+            "name": "Jáderson",
+            "number": 10,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "vitor-bueno",
+            "name": "Vitor Bueno",
+            "number": 15,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "david_braga",
+            "name": "David Braga",
+            "number": 26,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
             "id": "jajabreno",
             "name": "Jajá",
             "number": 7,
             "pos": "Ata",
             "grid": null
           }
+        },
+        {
+          "player": {
+            "id": "gabrielpoveda",
+            "name": "Gabriel Poveda",
+            "number": 9,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "andres-gonzalez",
+            "name": "Andrés González",
+            "number": 20,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "tico-junior",
+            "name": "Tico",
+            "number": 61,
+            "pos": "Ata",
+            "grid": null
+          }
         }
-      ],
-      "substitutes": []
+      ]
     }
   ],
-  "statistics": [],
+  "statistics": [
+    {
+      "team": {
+        "id": 267,
+        "name": "Vasco"
+      },
+      "statistics": [
+        {
+          "type": "Ball Possession",
+          "value": "60%"
+        },
+        {
+          "type": "Total Passes",
+          "value": 405
+        },
+        {
+          "type": "Pass Accuracy",
+          "value": "87%"
+        },
+        {
+          "type": "Incomplete Passes",
+          "value": 54
+        },
+        {
+          "type": "Total Shots",
+          "value": 10
+        },
+        {
+          "type": "Shots on Goal",
+          "value": 4
+        },
+        {
+          "type": "Shots off Goal",
+          "value": 4
+        },
+        {
+          "type": "Blocked Shots",
+          "value": 2
+        },
+        {
+          "type": "Hit Woodwork",
+          "value": 0
+        },
+        {
+          "type": "Corner Kicks",
+          "value": 4
+        },
+        {
+          "type": "Offsides",
+          "value": 1
+        },
+        {
+          "type": "Penalties",
+          "value": 0
+        },
+        {
+          "type": "Goalkeeper Saves",
+          "value": 2
+        },
+        {
+          "type": "Tackles",
+          "value": 16
+        },
+        {
+          "type": "Fouls",
+          "value": 12
+        },
+        {
+          "type": "Yellow Cards",
+          "value": 1
+        },
+        {
+          "type": "Red Cards",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "team": {
+        "id": 364,
+        "name": "Remo"
+      },
+      "statistics": [
+        {
+          "type": "Ball Possession",
+          "value": "40%"
+        },
+        {
+          "type": "Total Passes",
+          "value": 240
+        },
+        {
+          "type": "Pass Accuracy",
+          "value": "75%"
+        },
+        {
+          "type": "Incomplete Passes",
+          "value": 61
+        },
+        {
+          "type": "Total Shots",
+          "value": 2
+        },
+        {
+          "type": "Shots on Goal",
+          "value": 1
+        },
+        {
+          "type": "Shots off Goal",
+          "value": 0
+        },
+        {
+          "type": "Blocked Shots",
+          "value": 1
+        },
+        {
+          "type": "Hit Woodwork",
+          "value": 0
+        },
+        {
+          "type": "Corner Kicks",
+          "value": 1
+        },
+        {
+          "type": "Offsides",
+          "value": 2
+        },
+        {
+          "type": "Penalties",
+          "value": 0
+        },
+        {
+          "type": "Goalkeeper Saves",
+          "value": 6
+        },
+        {
+          "type": "Tackles",
+          "value": 11
+        },
+        {
+          "type": "Fouls",
+          "value": 9
+        },
+        {
+          "type": "Yellow Cards",
+          "value": 1
+        },
+        {
+          "type": "Red Cards",
+          "value": 0
+        }
+      ]
+    }
+  ],
   "sportsFieldUrl": null
 }

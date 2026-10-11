@@ -829,16 +829,95 @@ async function findEspnEventId(homeName, awayName, timestamp) {
   return null;
 }
 
-async function statisticsFromEspn(home, away, timestamp) {
+async function fetchEspnSummary(home, away, timestamp) {
   const eventId = await findEspnEventId(home.name, away.name, timestamp);
-  if (!eventId) return [];
+  if (!eventId) return null;
   const res = await fetch(`${ESPN_SUMMARY}?event=${encodeURIComponent(eventId)}&lang=pt`, {
     headers: { Accept: "application/json" },
     signal: AbortSignal.timeout(8000),
   });
-  if (!res.ok) return [];
-  return mapEspnBoxscore(await res.json(), home, away);
+  if (!res.ok) return null;
+  return res.json();
 }
+
+async function statisticsFromEspn(home, away, timestamp) {
+  const payload = await fetchEspnSummary(home, away, timestamp);
+  if (!payload) return [];
+  return mapEspnBoxscore(payload, home, away);
+}
+
+function espnRosterPos(abbr) {
+  const p = String(abbr || "").toUpperCase();
+  if (!p || p === "SUB") return "";
+  if (["G", "GK"].includes(p)) return "Gol";
+  if (["D", "CB", "LB", "RB", "L", "R", "ZC", "ZE", "ZCD", "ZCE"].includes(p) || p.startsWith("Z")) {
+    return "Def";
+  }
+  if (["M", "MC", "MD", "ME", "MCE", "MA", "CM"].includes(p) || p.startsWith("M")) return "Mei";
+  if (["F", "A", "ST", "ACI", "ATCD", "ATCE"].includes(p) || p.startsWith("A") || p.startsWith("AT")) {
+    return "Ata";
+  }
+  return p.length <= 3 ? p : p.slice(0, 3);
+}
+
+function mapEspnRosterPayload(payload, home, away) {
+  const rows = payload?.rosters;
+  if (!Array.isArray(rows)) return [];
+  const out = [];
+  for (const row of rows) {
+    const meta = row.homeAway === "home" ? home : row.homeAway === "away" ? away : null;
+    if (!meta) continue;
+    const roster = row.roster ?? [];
+    const starters = roster
+      .filter((p) => p.starter)
+      .sort((a, b) => Number(a.formationPlace ?? 99) - Number(b.formationPlace ?? 99))
+      .map((p) => {
+        const num = p.jersey != null && p.jersey !== "" ? Number(p.jersey) : null;
+        return {
+          player: {
+            id: p.athlete?.id ?? null,
+            name: p.athlete?.displayName || p.athlete?.shortName || "?",
+            number: Number.isFinite(num) ? num : null,
+            pos: espnRosterPos(p.position?.abbreviation),
+            grid: p.formationPlace != null ? String(p.formationPlace) : null,
+          },
+        };
+      });
+    if (!starters.length) continue;
+    out.push({
+      team: { id: meta.id, name: meta.name, logo: meta.logo },
+      formation: row.formation || null,
+      coach: { name: "—" },
+      startXI: starters,
+      substitutes: roster
+        .filter((p) => !p.starter)
+        .map((p) => {
+          const num = p.jersey != null && p.jersey !== "" ? Number(p.jersey) : null;
+          return {
+            player: {
+              id: p.athlete?.id ?? null,
+              name: p.athlete?.displayName || p.athlete?.shortName || "?",
+              number: Number.isFinite(num) ? num : null,
+              pos: espnRosterPos(p.position?.abbreviation),
+              grid: null,
+            },
+          };
+        }),
+    });
+  }
+  return out;
+}
+
+function lineupsNeedEspn(lineups) {
+  if (!Array.isArray(lineups) || lineups.length < 2) return true;
+  return lineups.some((l) => {
+    const bench = l.substitutes ?? [];
+    const xi = l.startXI ?? [];
+    const missingNum = xi.filter((p) => p?.player?.number == null).length;
+    return bench.length === 0 || xi.length < 11 || missingNum >= 3;
+  });
+}
+
 
 /** Seconds since scheduled kickoff (negative = not started yet). */
 function ageSinceKickoffSec(fixtureRow, nowSec = Math.floor(Date.now() / 1000)) {
@@ -1665,20 +1744,34 @@ async function main() {
             err instanceof Error ? err.message : String(err)
           );
         }
-        if (
-          (!detail.statistics || detail.statistics.length === 0) &&
-          (IN_PLAY_SHORT.includes(detail.fixture?.status?.short) || isPastKickoffWindow(f))
-        ) {
+        const inPlay =
+          IN_PLAY_SHORT.includes(detail.fixture?.status?.short) || isPastKickoffWindow(f);
+        const needStats = inPlay && (!detail.statistics || detail.statistics.length === 0);
+        const needLineups = inPlay && lineupsNeedEspn(detail.lineups);
+        if (needStats || needLineups) {
           try {
-            const espnStats = await statisticsFromEspn(
-              f.teams.home,
-              f.teams.away,
-              f.fixture.timestamp
-            );
-            if (espnStats.length) detail.statistics = espnStats;
+            const summary = await fetchEspnSummary(f.teams.home, f.teams.away, f.fixture.timestamp);
+            if (summary) {
+              if (needStats) {
+                const espnStats = mapEspnBoxscore(summary, f.teams.home, f.teams.away);
+                if (espnStats.length) detail.statistics = espnStats;
+              }
+              if (needLineups) {
+                const espnLineups = mapEspnRosterPayload(summary, f.teams.home, f.teams.away);
+                if (espnLineups.length >= 2) {
+                  const coachByTeam = new Map(
+                    (detail.lineups ?? []).map((l) => [l.team?.name, l.coach])
+                  );
+                  detail.lineups = espnLineups.map((l) => ({
+                    ...l,
+                    coach: coachByTeam.get(l.team?.name) ?? l.coach,
+                  }));
+                }
+              }
+            }
           } catch (err) {
             console.warn(
-              `ESPN stats fallback failed for ${f.fixture.id}:`,
+              `ESPN fallback failed for ${f.fixture.id}:`,
               err instanceof Error ? err.message : String(err)
             );
           }

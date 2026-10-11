@@ -7,12 +7,12 @@
       "city": ""
     },
     "status": {
-      "long": "NS",
-      "short": "NS",
-      "elapsed": null
+      "long": "1H",
+      "short": "1H",
+      "elapsed": 9
     },
-    "timerStart": null,
-    "timerStatus": "PAUSADO"
+    "timerStart": "2026-10-11T22:31:13.387Z",
+    "timerStatus": "INICIADO"
   },
   "league": {
     "round": "Regular Season - 30"
@@ -30,8 +30,8 @@
     }
   },
   "goals": {
-    "home": null,
-    "away": null
+    "home": 0,
+    "away": 0
   },
   "score": {
     "halftime": {
@@ -44,13 +44,126 @@
     }
   },
   "odds": {
-    "home": 1.68,
-    "draw": 3.8,
-    "away": 4.7,
+    "home": 1.64,
+    "draw": 3.92,
+    "away": 4.77,
     "source": "betexplorer"
   },
   "_geUrl": "https://ge.globo.com/ba/futebol/brasileirao-serie-a/jogo/11-10-2026/bahia-mirassol.ghtml",
-  "events": [],
+  "events": [
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Bola rolando para Bahia e Mirassol na Fonte Nova.",
+      "player": {
+        "name": "Começou!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 1,
+        "extra": null
+      },
+      "team": {
+        "id": 265,
+        "name": "Bahia"
+      },
+      "type": "Important",
+      "detail": "Erick Pulga avança pela esquerda e faz cruzamento nas mãos de Walter.",
+      "player": {
+        "name": "Bahia no ataque"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 3,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "A bola mal rolou e o Bahia já busca o ataque. Com pouco mais de três minutos, o time da casa tentou se impor com cruzamentos para a área. Primeiro, Erick Pulga avançou pela esquerda e alçou para a defesa tranquila de Walter. Na sequência, Cristian Olivera também levantou, mas a zaga do Mirassol afastou o perigo. Início de jogo com o time baiano tentando ditar o ritmo.",
+      "player": {
+        "name": "Bahia começa pressionando na Fonte Nova"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 3,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Mais um cruzamento do Bahia, agora de Kike Olivera e rebatido pela defesa do Mirassol.",
+      "player": {
+        "name": "Mais um cruzamento do Bahia, agora de Kike Olive"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 4,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Kike Olivera recupera uma bola no meio de campo, avança e passa para Erick Pulga, que chuta para fora.",
+      "player": {
+        "name": "Kike Olivera recupera uma bola no meio de campo,"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 5,
+        "extra": null
+      },
+      "team": {
+        "id": 265,
+        "name": "Bahia"
+      },
+      "type": "Important",
+      "detail": "Chico Kin faz falta em Jean Lucas no campo de defesa do Bahia.",
+      "player": {
+        "name": "Chico Kin faz falta em Jean Lucas no campo de de"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 7,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Bahia trocas passes e busca espaços na defesa do Mirassol.",
+      "player": {
+        "name": "Bahia trocas passes e busca espaços na defesa do"
+      },
+      "assist": null
+    }
+  ],
   "lineups": [
     {
       "team": {
@@ -92,9 +205,9 @@
         },
         {
           "player": {
-            "id": "kanu-victor-hugo",
-            "name": "Kanu",
-            "number": 4,
+            "id": "marcomoreno",
+            "name": "Marco Moreno",
+            "number": 3,
             "pos": "Def",
             "grid": null
           }
@@ -163,7 +276,116 @@
           }
         }
       ],
-      "substitutes": []
+      "substitutes": [
+        {
+          "player": {
+            "id": "guiherrera",
+            "name": "Guido Herrera",
+            "number": 17,
+            "pos": "Gol",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "roman-gomez",
+            "name": "Román Gómez",
+            "number": 31,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "kanu-victor-hugo",
+            "name": "Kanu",
+            "number": 4,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "zeguilc",
+            "name": "Zé Guilherme",
+            "number": 66,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "erick-carvalho",
+            "name": "Erick",
+            "number": 14,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "lautalopez",
+            "name": "Lautaro López",
+            "number": 18,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "evertonribeiro",
+            "name": "Everton Ribeiro",
+            "number": 10,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "michelaraujovillar",
+            "name": "Michel Araújo",
+            "number": 15,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "ademirsant",
+            "name": "Ademir",
+            "number": 7,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "willianjose",
+            "name": "Willian José",
+            "number": 12,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "matsanabria",
+            "name": "Sanabria",
+            "number": 23,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "everaldo211",
+            "name": "Everaldo",
+            "number": 27,
+            "pos": "Ata",
+            "grid": null
+          }
+        }
+      ]
     },
     {
       "team": {
@@ -171,7 +393,7 @@
         "name": "Mirassol",
         "logo": "https://s.sde.globo.com/media/organizations/2026/07/17/MIrassol.svg"
       },
-      "formation": "4-5-1",
+      "formation": "4-3-3",
       "coach": {
         "name": "Rafael Guanaes"
       },
@@ -223,15 +445,6 @@
         },
         {
           "player": {
-            "id": "denilsonab",
-            "name": "Denilson",
-            "number": 27,
-            "pos": "Mei",
-            "grid": null
-          }
-        },
-        {
-          "player": {
             "id": "netomoura",
             "name": "Neto Moura",
             "number": 25,
@@ -241,18 +454,9 @@
         },
         {
           "player": {
-            "id": "edsoncarioca",
-            "name": "Edson Carioca",
-            "number": 95,
-            "pos": "Mei",
-            "grid": null
-          }
-        },
-        {
-          "player": {
-            "id": "eduardoca",
-            "name": "Eduardo",
-            "number": 33,
+            "id": "denilsonab",
+            "name": "Denilson",
+            "number": 27,
             "pos": "Mei",
             "grid": null
           }
@@ -268,17 +472,297 @@
         },
         {
           "player": {
+            "id": "gustavo-mosquito",
+            "name": "Gustavo Mosquito",
+            "number": 19,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
             "id": "brunosantos-americarj",
             "name": "Bruno Santos",
             "number": 30,
             "pos": "Ata",
             "grid": null
           }
+        },
+        {
+          "player": {
+            "id": "alesson",
+            "name": "Alesson",
+            "number": 77,
+            "pos": "Ata",
+            "grid": null
+          }
         }
       ],
-      "substitutes": []
+      "substitutes": [
+        {
+          "player": {
+            "id": "thomazella",
+            "name": "Thomazella",
+            "number": 90,
+            "pos": "Gol",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "danielborges",
+            "name": "Daniel Borges",
+            "number": 20,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "gabriel-knesowitsch",
+            "name": "Gabriel Knesowitsch",
+            "number": 44,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "victor-luis",
+            "name": "Victor Luis",
+            "number": 12,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "wallisson425",
+            "name": "Wallisson",
+            "number": 80,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "shaylon",
+            "name": "Shaylon",
+            "number": 7,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "eduardoca",
+            "name": "Eduardo",
+            "number": 33,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "andreluissa",
+            "name": "André Luis",
+            "number": 9,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "fernandinho-jose",
+            "name": "Fernandinho",
+            "number": 17,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "edsoncarioca",
+            "name": "Edson Carioca",
+            "number": 95,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "carloseduardoferreira",
+            "name": "Carlos Eduardo",
+            "number": 96,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "zeroberto-bf",
+            "name": "Zé Roberto",
+            "number": 99,
+            "pos": "Ata",
+            "grid": null
+          }
+        }
+      ]
     }
   ],
-  "statistics": [],
+  "statistics": [
+    {
+      "team": {
+        "id": 265,
+        "name": "Bahia"
+      },
+      "statistics": [
+        {
+          "type": "Ball Possession",
+          "value": "50%"
+        },
+        {
+          "type": "Total Passes",
+          "value": 43
+        },
+        {
+          "type": "Pass Accuracy",
+          "value": "91%"
+        },
+        {
+          "type": "Incomplete Passes",
+          "value": 4
+        },
+        {
+          "type": "Total Shots",
+          "value": 0
+        },
+        {
+          "type": "Shots on Goal",
+          "value": 0
+        },
+        {
+          "type": "Shots off Goal",
+          "value": 0
+        },
+        {
+          "type": "Blocked Shots",
+          "value": 0
+        },
+        {
+          "type": "Hit Woodwork",
+          "value": 0
+        },
+        {
+          "type": "Corner Kicks",
+          "value": 0
+        },
+        {
+          "type": "Offsides",
+          "value": 0
+        },
+        {
+          "type": "Penalties",
+          "value": 0
+        },
+        {
+          "type": "Goalkeeper Saves",
+          "value": 0
+        },
+        {
+          "type": "Tackles",
+          "value": 1
+        },
+        {
+          "type": "Fouls",
+          "value": 0
+        },
+        {
+          "type": "Yellow Cards",
+          "value": 0
+        },
+        {
+          "type": "Red Cards",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "team": {
+        "id": 2305,
+        "name": "Mirassol"
+      },
+      "statistics": [
+        {
+          "type": "Ball Possession",
+          "value": "50%"
+        },
+        {
+          "type": "Total Passes",
+          "value": 15
+        },
+        {
+          "type": "Pass Accuracy",
+          "value": "80%"
+        },
+        {
+          "type": "Incomplete Passes",
+          "value": 3
+        },
+        {
+          "type": "Total Shots",
+          "value": 0
+        },
+        {
+          "type": "Shots on Goal",
+          "value": 0
+        },
+        {
+          "type": "Shots off Goal",
+          "value": 0
+        },
+        {
+          "type": "Blocked Shots",
+          "value": 0
+        },
+        {
+          "type": "Hit Woodwork",
+          "value": 0
+        },
+        {
+          "type": "Corner Kicks",
+          "value": 0
+        },
+        {
+          "type": "Offsides",
+          "value": 1
+        },
+        {
+          "type": "Penalties",
+          "value": 0
+        },
+        {
+          "type": "Goalkeeper Saves",
+          "value": 0
+        },
+        {
+          "type": "Tackles",
+          "value": 1
+        },
+        {
+          "type": "Fouls",
+          "value": 0
+        },
+        {
+          "type": "Yellow Cards",
+          "value": 0
+        },
+        {
+          "type": "Red Cards",
+          "value": 0
+        }
+      ]
+    }
+  ],
   "sportsFieldUrl": null
 }

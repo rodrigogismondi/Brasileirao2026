@@ -7,11 +7,11 @@
       "city": ""
     },
     "status": {
-      "long": "NS",
-      "short": "NS",
-      "elapsed": null
+      "long": "FT",
+      "short": "FT",
+      "elapsed": 90
     },
-    "timerStart": null,
+    "timerStart": "2026-10-11T22:34:17.893Z",
     "timerStatus": "PAUSADO"
   },
   "league": {
@@ -30,8 +30,8 @@
     }
   },
   "goals": {
-    "home": null,
-    "away": null
+    "home": 1,
+    "away": 1
   },
   "score": {
     "halftime": {
@@ -39,18 +39,1969 @@
       "away": null
     },
     "fulltime": {
-      "home": null,
-      "away": null
+      "home": 1,
+      "away": 1
     }
   },
   "odds": {
-    "home": 2.91,
-    "draw": 3.2,
-    "away": 2.47,
+    "home": 2.69,
+    "draw": 3.15,
+    "away": 2.66,
     "source": "betexplorer"
   },
   "_geUrl": "https://ge.globo.com/rs/futebol/brasileirao-serie-a/jogo/11-10-2026/gremio-internacional.ghtml",
-  "events": [],
+  "events": [
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 284,
+        "name": "Grêmio"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Wallace"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 285,
+        "name": "Internacional"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Bruno Henrique"
+      },
+      "assist": {
+        "name": "Alan Patrick"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Um clássico de baixíssima qualidade técnica, mas ao menos bastante movimentado. O Inter, no geral, teve mais domínio das ações. Vitinho teve as primeiras chegadas, em dois chutes de fora da área para fora, sem muito perigo. Quando chegou, o Grêmio teve grande oportunidade. Amuzu recebeu na entrada da área e bateu firme, mas no centro do gol, para defesa de Anthoni. Juninho perdeu ótima chance de cabeça, mas não demorou para o Colorado abrir o placar. Aos 33 minutos, em saída de Weverton com Villasanti, Alerrandro roubou a bola, e Vitinho bateu por cima do goleiro gremista: um golaço para abrir o placar na Arena.",
+      "player": {
+        "name": "1º tempo"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Começa o Gre-Nal 455 na Arena!",
+      "player": {
+        "name": "Bola rolando!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 1,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Pavón recebe a bola, mas é derrubado por Bernabei",
+      "player": {
+        "name": "Outra falta!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 1,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Danilo Barbosa tenta avançar, mas sofre falta de Vitinho",
+      "player": {
+        "name": "Derrubado!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 2,
+        "extra": null
+      },
+      "team": {
+        "id": 284,
+        "name": "Grêmio"
+      },
+      "type": "Important",
+      "detail": "Renato se irrita com a saída de bola errada do Grêmio",
+      "player": {
+        "name": "Na bronca!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 3,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Gre-Nal 455 já começou com os nervos à flor da pele! Com pouco mais de três minutos, o jogo é marcado por paralisações e muitas faltas. O Internacional já parou ataques do Grêmio com infrações de Bernabei e Vitinho, que também ficou caído após um choque com Kannemann. Até o técnico Renato Gaúcho se irritou com um erro do seu time. Jogo muito físico e pouco jogado até aqui.",
+      "player": {
+        "name": "Clima quente no início do Gre-Nal"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 3,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Vitinho tenta passar por Kannemann, cai no gramado e fica caído",
+      "player": {
+        "name": "Tá doendo!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 5,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Faltas e passes errados marcam o início do clássico",
+      "player": {
+        "name": "Jogo tinhoso!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 6,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O clássico começou com o clima esperado: nervos à flor da pele e muita disputa física nos primeiros minutos. O jogo é constantemente interrompido por faltas, com jogadores como Vitinho e Alerrandro parando as jogadas do Grêmio. Com pouco mais de seis minutos, a bola ainda não rolou com fluidez, prevalecendo a marcação forte e as divididas no meio-campo. Pouco futebol e muita tensão até aqui.",
+      "player": {
+        "name": "Início quente e de muita paralisação no Gre-Nal"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 6,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Danilo recebe, mas sofre falta de Alerrandro",
+      "player": {
+        "name": "O jogo não anda!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 8,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Marlon coloca a bola na área, mas Mercado afasta",
+      "player": {
+        "name": "Aqui não!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 9,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O clássico começa com o clima esperado: nervos à flor da pele e muitas interrupções nos primeiros 10 minutos. O jogo é físico e truncado, com faltas que quebram o ritmo. O Grêmio tentou chegar em cruzamento de Marlon, mas Mercado afastou para o Internacional. A primeira finalização só veio aos 9 minutos, com Vitinho arriscando de longe para o Inter, mas a bola acabou saindo sem perigo.",
+      "player": {
+        "name": "Gre-Nal começa tenso e com muitas faltas"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 9,
+        "extra": null
+      },
+      "team": {
+        "id": 285,
+        "name": "Internacional"
+      },
+      "type": "Important",
+      "detail": "Vitinho recebe na intermediária, limpa e chuta, mas a bola sai",
+      "player": {
+        "name": "A primeira finalização!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 10,
+        "extra": null
+      },
+      "team": {
+        "id": 285,
+        "name": "Internacional"
+      },
+      "type": "Important",
+      "detail": "O Inter volta ao ataque! Bruno Gomes toca para Vitinho, que manda por cima do gol de Weverton",
+      "player": {
+        "name": "Uhhh!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 11,
+        "extra": null
+      },
+      "team": {
+        "id": 284,
+        "name": "Grêmio"
+      },
+      "type": "Important",
+      "detail": "Bernabei recebe na esquerda e tenta colocar a bola na área, mas exagera na força. É tiro de meta para o Grêmio",
+      "player": {
+        "name": "Chutou ou cruzou?"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 13,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Alan Patrick tenta o passe, mas manda direto pela linha de fundo",
+      "player": {
+        "name": "Pra quem?"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 13,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Gre-Nal começou com o clima esperado: muita disputa e faltas que travaram o jogo nos primeiros minutos. Após os 9 minutos, o Internacional passou a controlar as ações e criou as únicas chances de perigo até aqui. Vitinho, em duas oportunidades, levou susto ao gol de Weverton, finalizando uma delas por cima do travessão. O Grêmio ainda não conseguiu responder e busca se encontrar na partida.",
+      "player": {
+        "name": "Inter assusta em Gre-Nal de muitas faltas"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 13,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Alan Patrick cruza rasteiro, mas Wallace corta",
+      "player": {
+        "name": "Aqui não!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 15,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Diego Caito tenta o giro, mas sofre falta de Bernabei",
+      "player": {
+        "name": "Derrubado!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 16,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Gre-Nal começou com o clima esperado: muita disputa e faltas duras nos primeiros minutos. O jogo é truncado, mas o Internacional é quem chegou com mais perigo até aqui. Aos 10 minutos, Vitinho teve a melhor chance ao receber dentro da área e chutar por cima do gol de Weverton. O Grêmio ainda não conseguiu criar e mostra dificuldades na saída de bola, deixando o técnico Renato Gaúcho irritado.",
+      "player": {
+        "name": "Clima quente e Inter assusta no início do Gre-Nal"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 16,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Gremistas pedem cartão após falta de Aguirre em Marlon",
+      "player": {
+        "name": "Na bronca!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 17,
+        "extra": null
+      },
+      "team": {
+        "id": 284,
+        "name": "Grêmio"
+      },
+      "type": "Important",
+      "detail": "Villagra rouba a bola no campo de ataque, faz boa jogada, avança, mas, na hora de cruzar, dá um balão na bola. É tiro de meta para o Grêmio",
+      "player": {
+        "name": "Abusou!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 18,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Caito recebe na área e cai quando Bernabei chega e coloca a mão nas costas do gremista. A arbitragem manda o jogo seguir",
+      "player": {
+        "name": "Lance normal?"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 18,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O clássico começou travado e com muitas faltas nos primeiros minutos. Aos poucos, o Internacional passou a criar mais, principalmente com Vitinho, que arriscou dois chutes perigosos. A melhor chance, no entanto, veio aos 18 minutos para o Grêmio: Amuzu recebeu na área e obrigou o goleiro Anthoni a fazer uma grande defesa para manter o zero a zero no placar da Arena.",
+      "player": {
+        "name": "Gre-Nal começa tenso e com chances claras"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 18,
+        "extra": null
+      },
+      "team": {
+        "id": 284,
+        "name": "Grêmio"
+      },
+      "type": "Important",
+      "detail": "Amuzu recebe na área e chuta, mas Anthoni defende",
+      "player": {
+        "name": "Amuzu"
+      },
+      "assist": {
+        "name": "Uhhhh!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 20,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Marlon cobra escanteio, mas manda direto para fora",
+      "player": {
+        "name": "Muito forte"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 21,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Gre-Nal começou com um ritmo muito travado e faltoso nos primeiros minutos. Passado o nervosismo inicial, o Internacional foi o primeiro a chegar com perigo em duas finalizações de Vitinho, ambas para fora. A resposta do Grêmio veio aos 18 minutos, na melhor chance do jogo até aqui: Amuzu chutou da área e obrigou o goleiro Anthoni a fazer uma grande defesa para manter o 0 a 0.",
+      "player": {
+        "name": "Inter assusta, mas Grêmio tem a melhor chance"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 21,
+        "extra": null
+      },
+      "team": {
+        "id": 285,
+        "name": "Internacional"
+      },
+      "type": "Important",
+      "detail": "Pavón chama Bernabei para dançar e cruza, mas carimba o lateral do Inter",
+      "player": {
+        "name": "Travado!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 22,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Amuzu recebe na área e cai após contato com Bruno Gomes. Segue o jogo",
+      "player": {
+        "name": "Mergulhou?"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 24,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Gre-Nal começou com muita disputa e nervos à flor da pele, marcado por faltas nos primeiros minutos. O Internacional foi o primeiro a assustar com Vitinho, que teve duas chances claras, mandando a bola por cima do gol. A resposta do Grêmio veio com Amuzu, que obrigou o goleiro Anthoni a fazer boa defesa. Aos 24 minutos, Alan Patrick levou cartão amarelo, esquentando ainda mais o clássico que segue 0 a 0.",
+      "player": {
+        "name": "Clássico quente com chances, mas sem gols"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 24,
+        "extra": null
+      },
+      "team": {
+        "id": 285,
+        "name": "Internacional"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Alan Patrick"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 25,
+        "extra": null
+      },
+      "team": {
+        "id": 285,
+        "name": "Internacional"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Villagra"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 28,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Alan Patrick cobra falta na área, mas Carlos Vinicius corta",
+      "player": {
+        "name": "Aqui não!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 28,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O clássico começou quente e muito brigado na Arena. Com quase 30 minutos, o jogo é marcado por entradas duras e nervosismo, com cartões amarelos para Alan Patrick e Villagra, do Inter, e para Villasanti, do Grêmio. O Colorado chegou com perigo em dois chutes de Vitinho que saíram pela linha de fundo. A grande chance foi tricolor: Amuzu finalizou na área para uma defesa espetacular de Anthoni.",
+      "player": {
+        "name": "Gre-Nal de muitas faltas e cartões"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 28,
+        "extra": null
+      },
+      "team": {
+        "id": 284,
+        "name": "Grêmio"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Villasanti"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 29,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O clássico começou com muita disputa e faltas. Com quase 30 minutos de jogo, o Internacional criou as primeiras chances, com Vitinho finalizando duas vezes para fora. O Grêmio respondeu aos 18 minutos, quando Anthoni fez uma defesa difícil em chute de Amuzu. O clima esquentou com três cartões amarelos, e Juninho acabou de perder uma boa oportunidade para o Inter de cabeça.",
+      "player": {
+        "name": "Início quente com chances claras no Gre-Nal"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 29,
+        "extra": null
+      },
+      "team": {
+        "id": 285,
+        "name": "Internacional"
+      },
+      "type": "Important",
+      "detail": "Cruzamento de Bernabei na área para Juninho, que manda para fora",
+      "player": {
+        "name": "Juninho"
+      },
+      "assist": {
+        "name": "Perdeu!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 31,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Bernabei cobra falta para Alerrandro, que chuta. Weverton segura sem dificuldade",
+      "player": {
+        "name": "Sem força"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 32,
+        "extra": null
+      },
+      "team": {
+        "id": 285,
+        "name": "Internacional"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "player": {
+        "name": "Vitinho"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 34,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Internacional abriu o placar antes do primeiro minuto com Vitinho, fazendo 1 a 0 no Gre-Nal! Depois do gol, o clássico ficou pegado, com muitas faltas e um ritmo travado. O próprio Vitinho teve outras chances de ampliar para o Inter. O Grêmio só conseguiu responder aos 18 minutos, quando Amuzu finalizou para uma defesaça de Anthoni. A partida segue tensa, já com três cartões amarelos distribuídos.",
+      "player": {
+        "name": "Gol cedo e nervos à flor da pele na Arena"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 37,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Gre-Nal começou tenso, com muitas faltas e um cartão amarelo para cada lado. O Inter foi o primeiro a levar perigo com Vitinho, enquanto o Grêmio respondeu com Amuzu, que parou em boa defesa de Anthoni. Aos 32 minutos, a rede balançou: após erro na saída de bola, Alerrandro recuperou e serviu Vitinho, que com categoria encobriu o goleiro Weverton e abriu o placar para o Inter, 1 a 0.",
+      "player": {
+        "name": "Falha gremista e gol de Vitinho: Inter na frente"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 37,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Caito tenta o passe para Krovinovic, mas Thiago Maia corta de carrinho",
+      "player": {
+        "name": "Sem espaço!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 38,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Caito recebe na direita e tenta o cruzamento, mas Bernabei trava",
+      "player": {
+        "name": "Bloqueado!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 39,
+        "extra": null
+      },
+      "team": {
+        "id": 285,
+        "name": "Internacional"
+      },
+      "type": "Important",
+      "detail": "Colorados pedem cartão a Amuzu por entrada em Thiago Maia",
+      "player": {
+        "name": "Na bronca!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 40,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Gre-Nal começou nervoso e truncado, com muitas faltas e cartões para os dois lados. O Inter levou perigo com Vitinho, enquanto o Grêmio respondeu em chute de Amuzu, parado em grande defesa de Anthoni. Aos 32 minutos, o placar foi aberto após erro fatal de Villasanti na saída de bola. Alerrandro roubou e serviu Vitinho, que com um toque de classe encobriu o goleiro e fez 1 a 0 para o Inter.",
+      "player": {
+        "name": "Erro na saída e golaço: Inter na frente!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 40,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Alan Patrick recebe na área, tenta o giro sobre Villasanti e cai na área, mas a arbitragem manda o jogo seguir",
+      "player": {
+        "name": "Mergulhou!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 41,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Thiago Maia cai no gramado após bolada",
+      "player": {
+        "name": "Desabou!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 43,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O clássico começou tenso e muito disputado no meio-campo, com cartões para Alan Patrick, Villagra e Villasanti. O Inter assustou primeiro com Vitinho, mas o Grêmio respondeu com Amuzu, que parou em grande defesa de Anthoni. Aos 32 minutos, a rede balançou: após erro na saída de bola gremista, Alerrandro serviu Vitinho, que com categoria encobriu o goleiro e abriu o placar para o Inter, 1 a 0.",
+      "player": {
+        "name": "Inter aproveita falha e sai na frente!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 43,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Pavón dispara pela direita e cruza, mas Krovinovic não consegue o cabeceio",
+      "player": {
+        "name": "Não alcançou!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 44,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Villasanti tenta o chute, mas Mercado bloqueia",
+      "player": {
+        "name": "Travado!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 45,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Aguirre avança na direita e chuta, mas acerta Kannemann",
+      "player": {
+        "name": "Carimbado!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 45,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Começa o segundo tempo! Grêmio 0 x 1 Inter",
+      "player": {
+        "name": "Bola rolando!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 46,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Aguirre recebe na direita e cruza, mas não tem ninguém na área",
+      "player": {
+        "name": "Pra quem?"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 46,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Gre-Nal começou pegado, com muitas faltas e poucas chances. O Inter assustou com Vitinho, mas foi o Grêmio que teve a melhor oportunidade, em chute de Amuzu que parou em grande defesa de Anthoni. O jogo esquentou com três amarelos até que, aos 32 minutos, o placar mudou. Após erro na saída de bola, Alerrandro roubou de Villasanti e serviu Vitinho, que marcou um golaço por cobertura: 1 a 0.",
+      "player": {
+        "name": "Inter aproveita erro e abre o placar!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 46,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Iremos até os 51",
+      "player": {
+        "name": "Mais 6"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 47,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Krovinovic tenta jogada pela esquerda, mas perde a bola para Bruno Gomes",
+      "player": {
+        "name": "Aqui não!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 47,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "A torcida joga pipoca no gramado",
+      "player": {
+        "name": "Ihhhh!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 49,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O segundo tempo mal começou e o Gre-Nal já pega fogo. A primeira etapa foi marcada por um jogo truncado, com três cartões amarelos, mas o Inter aproveitou um erro na saída de bola do Grêmio aos 32 minutos: Alerrandro desarmou Villasanti e serviu Vitinho, que marcou um golaço por cobertura para fazer 1 a 0. O Grêmio voltou pressionando e já testou o goleiro Anthoni com um chute de Danilo Barbosa.",
+      "player": {
+        "name": "Vitinho marca e Inter sai na frente no Gre-Nal!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 49,
+        "extra": null
+      },
+      "team": {
+        "id": 284,
+        "name": "Grêmio"
+      },
+      "type": "Important",
+      "detail": "Danilo Barbosa recebe de Villasanti e arrisca de longe. Anthoni defende com o peito",
+      "player": {
+        "name": "Danilo Barbosa"
+      },
+      "assist": {
+        "name": "Uhhh!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 50,
+        "extra": null
+      },
+      "team": {
+        "id": 284,
+        "name": "Grêmio"
+      },
+      "type": "Important",
+      "detail": "Marlon tenta avançar, mas Alerrandro segura o lateral do Grêmio",
+      "player": {
+        "name": "Agarrou!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 50,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Alan Patrick coloca a mão na coxa esquerda",
+      "player": {
+        "name": "Problema?"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 50,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O clássico começou com muita disputa e faltas. O Inter foi o primeiro a levar perigo com Vitinho, mas o Grêmio respondeu com Amuzu, parado em grande defesa de Anthoni. O jogo esquentou com cartões amarelos para os dois lados. Aos 32 minutos, após erro na saída gremista, Alerrandro desarmou Villasanti e serviu Vitinho, que com um toque de classe encobriu Weverton para fazer 1 a 0 para o Inter.",
+      "player": {
+        "name": "Vitinho abre o placar em Gre-Nal tenso!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 50,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Marlon tenta colocar a bola na área, mas manda direto para fora",
+      "player": {
+        "name": "Pra quem?"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 51,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Marlon tenta o lançamento para Pavón, mas manda direto para fora",
+      "player": {
+        "name": "Que virada de jogo..."
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 51,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Grêmio 0 x 1 Inter",
+      "player": {
+        "name": "Fim de papo!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 52,
+        "extra": null
+      },
+      "team": {
+        "id": 285,
+        "name": "Internacional"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Bruno Henrique"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 52,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Internacional vai vencendo por 1 a 0! O gol saiu aos 32 minutos, quando Alerrandro desarmou Villasanti e serviu Vitinho, que com categoria encobriu o goleiro para abrir o placar. O primeiro tempo foi de muita marcação e cartões para os dois lados. No início da segunda etapa, o Grêmio já levou perigo com chute de Danilo Barbosa, mas o Inter respondeu com Bernabei. O clássico segue intenso e indefinido.",
+      "player": {
+        "name": "Inter aproveita erro e lidera o Gre-Nal"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 52,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Bernabei recebe na esquerda, invade a área e chuta. Weverton segura em dois tempos",
+      "player": {
+        "name": "Tá em casa!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 53,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Bernabei chuta a bola em Pavón e fica com o tiro de meta",
+      "player": {
+        "name": "Tá ligado!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 55,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O clássico começou travado e com muitas faltas. Aos 32 minutos, a rede balançou: Villasanti errou na saída, Alerrandro recuperou e serviu Vitinho, que com categoria encobriu o goleiro Weverton para fazer 1 a 0 para o Inter. O Grêmio até teve chance com Amuzu, parada em defesa de Anthoni. Já no segundo tempo, o time da casa busca a reação, mas esbarra nos próprios erros e no goleiro colorado.",
+      "player": {
+        "name": "Vitinho brilha e Inter sai na frente no Gre-Nal!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 55,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Marlon recebe na esquerda e cruza, mas manda direto para fora",
+      "player": {
+        "name": "Pra quem?"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 57,
+        "extra": null
+      },
+      "team": {
+        "id": 285,
+        "name": "Internacional"
+      },
+      "type": "Important",
+      "detail": "Amuzu tenta o cruzamento, mas manda em cima de Aguirre. A bola volta no gremista e sai. É tiro de meta para o Inter",
+      "player": {
+        "name": "Tá ligado!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 59,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Após um primeiro tempo de muitas faltas e cartões, o Internacional aproveitou um erro na saída de bola do Grêmio para abrir o placar. Aos 32 minutos, Alerrandro desarmou Villasanti e serviu Vitinho, que com categoria encobriu o goleiro Weverton para fazer 1 a 0. Com 14 minutos do segundo tempo, o Grêmio pressiona em busca do empate, mas o time colorado se defende bem e segue perigoso.",
+      "player": {
+        "name": "Vitinho marca e Inter sai na frente no Gre-Nal!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 59,
+        "extra": null
+      },
+      "team": {
+        "id": 285,
+        "name": "Internacional"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Carbonero"
+      },
+      "assist": {
+        "name": "Alerrandro"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 61,
+        "extra": null
+      },
+      "team": {
+        "id": 284,
+        "name": "Grêmio"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Braithwaite"
+      },
+      "assist": {
+        "name": "Krovinovic"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 61,
+        "extra": null
+      },
+      "team": {
+        "id": 284,
+        "name": "Grêmio"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Enamorado"
+      },
+      "assist": {
+        "name": "Diego Caito"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 64,
+        "extra": null
+      },
+      "team": {
+        "id": 284,
+        "name": "Grêmio"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Amuzu"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 64,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Internacional saiu na frente aos 32 do primeiro tempo, após falha na saída de bola gremista. Alerrandro roubou e serviu Vitinho, que tocou por cobertura para fazer 1 a 0. No segundo tempo, o Grêmio pressiona e já exigiu defesa de Anthoni em chute de Danilo Barbosa. Com o jogo passando dos 15 minutos, os técnicos já fizeram trocas para tentar mudar o rumo da partida.",
+      "player": {
+        "name": "Gre-Nal: Inter na frente, Grêmio muda!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 64,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Marlon tenta o lançamento, mas Aguirre corta",
+      "player": {
+        "name": "Aqui não!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 65,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Vitinho recebe e tenta o giro, mas sofre falta de Kannemann",
+      "player": {
+        "name": "Derrubado!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 67,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Com mais de 20 minutos no segundo tempo, o Internacional vai vencendo por 1 a 0. O gol saiu na etapa inicial, aos 32 minutos, quando Vitinho aproveitou um erro na saída de bola do Grêmio e marcou por cobertura. O Tricolor busca a reação e já assustou em chute de Danilo Barbosa, mas o clássico segue muito disputado, com várias faltas e cartões amarelos para os dois lados. O clima é tenso.",
+      "player": {
+        "name": "Gol colorado e jogo pegado na Arena"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 67,
+        "extra": null
+      },
+      "team": {
+        "id": 284,
+        "name": "Grêmio"
+      },
+      "type": "Important",
+      "detail": "Aguirre tenta o lançamento para Bruno Henrique, mas a bola sai. É tiro de meta para o Grêmio",
+      "player": {
+        "name": "Pra quem?"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 68,
+        "extra": null
+      },
+      "team": {
+        "id": 285,
+        "name": "Internacional"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Paulinho"
+      },
+      "assist": {
+        "name": "Thiago Maia"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 68,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O técnico coloca a folha no rosto após o erro do atacante",
+      "player": {
+        "name": "Despesero de Renato"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 68,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Amuzu recebe em frente à área e chuta, mas manda longe do gol",
+      "player": {
+        "name": "Que horror!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 70,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O clássico Gre-Nal está tenso e com o Internacional em vantagem! O placar de 1 a 0 foi aberto aos 32 minutos, quando Alerrandro aproveitou um erro na saída de bola do Grêmio e serviu Vitinho, que marcou um golaço por cobertura. Já na segunda etapa, passando dos 25 minutos, o time da casa pressiona em busca do empate, mas para em defesas de Anthoni e peca na pontaria num duelo com muitas faltas.",
+      "player": {
+        "name": "Inter na frente com golaço de Vitinho!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 70,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Villagra desarma Marlon e sofre a falta",
+      "player": {
+        "name": "Derrubado!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 71,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Pavon tenta jogada pela direita, mas sofre falta de Bernabei",
+      "player": {
+        "name": "Derrubado!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 72,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Após sair atrás com um gol de Vitinho para o Inter no primeiro tempo, o Grêmio pressionou na etapa final e conseguiu o empate. Aos 27 minutos, Marlon cobrou falta, o goleiro Anthoni bateu roupa e a bola sobrou para Wallace, que não perdoou e deixou tudo igual: 1 a 1. O clássico está totalmente aberto e com os nervos à flor da pele para a reta final do jogo na Arena!",
+      "player": {
+        "name": "Tudo igual! Grêmio empata e incendeia o Gre-Nal"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 72,
+        "extra": null
+      },
+      "team": {
+        "id": 284,
+        "name": "Grêmio"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "player": {
+        "name": "Wallace"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 73,
+        "extra": null
+      },
+      "team": {
+        "id": 284,
+        "name": "Grêmio"
+      },
+      "type": "Important",
+      "detail": "Carlos Vinicius recebe na área e chuta no canto esquerdo de Anthoni, mas está impedido",
+      "player": {
+        "name": "Carlos Vinícius"
+      },
+      "assist": {
+        "name": "Não valeu!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 75,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Internacional aproveitou um erro na saída de bola do Grêmio para abrir o placar aos 32 do primeiro tempo, com um belo gol de cobertura de Vitinho. Na segunda etapa, o cenário mudou. Pressionando, o Grêmio chegou ao empate aos 27 minutos: Marlon cobrou falta, o goleiro Anthoni falhou e Wallace mandou para a rede, deixando tudo igual em 1 a 1. A Arena agora pulsa com o time da casa buscando a virada.",
+      "player": {
+        "name": "Gre-Nal pega fogo com gols e falhas!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 75,
+        "extra": null
+      },
+      "team": {
+        "id": 284,
+        "name": "Grêmio"
+      },
+      "type": "Important",
+      "detail": "A torcida canta forte e empurra o Grêmio em busca da virada",
+      "player": {
+        "name": "A Arena vem abaixo!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 76,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Marlon cobra escanteio, mas a bola passa por todo mundo",
+      "player": {
+        "name": "Ninguém chega!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 78,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O clássico está eletrizante e empatado em 1 a 1! O Inter saiu na frente aos 32 do primeiro tempo, quando Vitinho aproveitou um erro na saída de bola do Grêmio e marcou por cobertura. Na segunda etapa, o Tricolor buscou a reação e conseguiu o empate aos 27 minutos: após cobrança de falta de Marlon, o goleiro Anthoni bateu roupa e Wallace não perdoou, deixando tudo igual na Arena.",
+      "player": {
+        "name": "Tudo igual na Arena após falhas dos goleiros!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 78,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Marlon cobra falta para Braithwaite, que cabeceia longe do gol de Anthoni",
+      "player": {
+        "name": "Sem direção!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 79,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "É bico pra qualquer lado. Pobre da bola",
+      "player": {
+        "name": "Que pelada!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 80,
+        "extra": null
+      },
+      "team": {
+        "id": 285,
+        "name": "Internacional"
+      },
+      "type": "Important",
+      "detail": "O clássico está empatado em 1 a 1 e pega fogo na Arena! Aos 32 do primeiro tempo, Vitinho aproveitou um erro na saída de bola gremista e abriu o placar para o Inter com um belo toque por cobertura. A resposta tricolor veio aos 27 da segunda etapa: em cobrança de falta de Marlon, o goleiro Anthoni falhou e Wallace empurrou para as redes. Com 35 minutos, o jogo é tenso e aberto.",
+      "player": {
+        "name": "Tudo igual! Gre-Nal com emoção e falhas"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 80,
+        "extra": null
+      },
+      "team": {
+        "id": 285,
+        "name": "Internacional"
+      },
+      "type": "Important",
+      "detail": "Vitinho recebe na entrada da área, gira e chuta. Weverton faz a defesa em dois tempos",
+      "player": {
+        "name": "Vitinho"
+      },
+      "assist": {
+        "name": "Uhhh!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 81,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Danilo Barbosa cruza e Braithwaite aparece às costas de Bruno Gomes para cabecear, mas manda para fora",
+      "player": {
+        "name": "Uhhh!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 83,
+        "extra": null
+      },
+      "team": {
+        "id": 285,
+        "name": "Internacional"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Matheus Bahia"
+      },
+      "assist": {
+        "name": "Bernabei"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 83,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O clássico está empatado em 1 a 1 e o clima é de pura tensão na Arena! O Inter abriu o placar no primeiro tempo com Vitinho, que aproveitou erro na saída de bola e encobriu o goleiro. Mas na etapa final, aos 27 minutos, Wallace aproveitou falha do goleiro Anthoni após falta cobrada por Marlon e deixou tudo igual. Com o jogo se aproximando do fim, os dois times buscam o ataque.",
+      "player": {
+        "name": "Gre-Nal pega fogo com empate do Grêmio!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 83,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Carbonero puxa o contra-ataque e toca para Vitinho, que chuta em cima de Marlon",
+      "player": {
+        "name": "Travado!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 84,
+        "extra": null
+      },
+      "team": {
+        "id": 285,
+        "name": "Internacional"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Félix Torres"
+      },
+      "assist": {
+        "name": "Aguirre"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 85,
+        "extra": null
+      },
+      "team": {
+        "id": 284,
+        "name": "Grêmio"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Caio Paulista"
+      },
+      "assist": {
+        "name": "Marlon"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 85,
+        "extra": null
+      },
+      "team": {
+        "id": 284,
+        "name": "Grêmio"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Gustavo Martins"
+      },
+      "assist": {
+        "name": "Danilo Barbosa"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 85,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Carbonero toca para Paulinho, que cruza às costas de Vitinho",
+      "player": {
+        "name": "Passou da bola!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 86,
+        "extra": null
+      },
+      "team": {
+        "id": 285,
+        "name": "Internacional"
+      },
+      "type": "Important",
+      "detail": "Que jogaço na Arena! Passando dos 40 minutos do segundo tempo, o Gre-Nal está empatado em 1 a 1. O Inter saiu na frente com um belo gol de Vitinho por cobertura, aproveitando erro na saída de bola gremista. A resposta tricolor veio na etapa final: Wallace aproveitou rebote do goleiro Anthoni em falta cobrada por Marlon e deixou tudo igual. O clima é de pura tensão para os minutos finais!",
+      "player": {
+        "name": "Tudo igual! Gre-Nal pega fogo na Arena"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 86,
+        "extra": null
+      },
+      "team": {
+        "id": 284,
+        "name": "Grêmio"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Tetê"
+      },
+      "assist": {
+        "name": "Amuzu"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 88,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Enamorado dá uma caneta em Félix Torres",
+      "player": {
+        "name": "Anotou a placa?"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 89,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Internacional saiu na frente no primeiro tempo com um golaço de Vitinho, que aproveitou erro na saída de bola gremista e encobriu o goleiro. Na etapa final, o Grêmio buscou a reação e, aos 27 minutos, chegou ao empate. Após cobrança de falta de Marlon, o goleiro Anthoni falhou e Wallace empurrou para o fundo da rede, deixando tudo igual em 1 a 1 na reta final do clássico.",
+      "player": {
+        "name": "Gre-Nal pega fogo com empate na Arena!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 89,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "É só chutão para cima",
+      "player": {
+        "name": "Festival de balonismo"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 90,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Iremos até os 50",
+      "player": {
+        "name": "Mais 5"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 93,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O clássico está 1 a 1 e pegando fogo na Arena! O Inter saiu na frente aos 32 do primeiro tempo, quando Vitinho aproveitou um erro na saída de bola do Grêmio e marcou um golaço por cobertura. A reação tricolor veio na segunda etapa: aos 27 minutos, Wallace foi esperto no rebote do goleiro Anthoni após cobrança de falta e deixou tudo igual. Com o relógio nos 48 minutos, o jogo é tenso e aberto.",
+      "player": {
+        "name": "Gre-Nal eletrizante com empate na reta final"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 93,
+        "extra": null
+      },
+      "team": {
+        "id": 285,
+        "name": "Internacional"
+      },
+      "type": "Important",
+      "detail": "Confusão na área. Wallace corte, mas o Inter pede pênalti",
+      "player": {
+        "name": "Lance normal?"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 95,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Gustavo Martins cabeceia para longe do gol de Anthoni",
+      "player": {
+        "name": "Sem direção!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 96,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Gre-Nal terminou empatado em 1 a 1 em um jogo de muita disputa. O Inter abriu o placar aos 32 do primeiro tempo, quando Vitinho aproveitou um erro na saída de bola do Grêmio e marcou um golaço por cobertura. Na etapa final, o Tricolor buscou a reação e igualou aos 27 minutos: Marlon cobrou falta, o goleiro Anthoni falhou e Wallace aproveitou o rebote para dar números finais ao clássico.",
+      "player": {
+        "name": "Tudo igual e muita luta no clássico gaúcho"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 96,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Grêmio 1 x 1 Inter",
+      "player": {
+        "name": "Fim de papo!"
+      },
+      "assist": null
+    }
+  ],
   "lineups": [
     {
       "team": {
@@ -74,18 +2025,9 @@
         },
         {
           "player": {
-            "id": "joaopedro06",
-            "name": "João Pedro",
-            "number": 18,
-            "pos": "Def",
-            "grid": null
-          }
-        },
-        {
-          "player": {
-            "id": "gustavomartins",
-            "name": "Gustavo Martins",
-            "number": 6,
+            "id": "diego-caito",
+            "name": "Diego Caito",
+            "number": 27,
             "pos": "Def",
             "grid": null
           }
@@ -101,19 +2043,19 @@
         },
         {
           "player": {
-            "id": "caio-paulista",
-            "name": "Caio Paulista",
-            "number": 38,
+            "id": "kannemann",
+            "name": "Kannemann",
+            "number": 4,
             "pos": "Def",
             "grid": null
           }
         },
         {
           "player": {
-            "id": "erinoriega",
-            "name": "Noriega",
-            "number": 8,
-            "pos": "Mei",
+            "id": "marlon453453",
+            "name": "Marlon",
+            "number": 23,
+            "pos": "Def",
             "grid": null
           }
         },
@@ -131,6 +2073,15 @@
             "id": "villasanti",
             "name": "Villasanti",
             "number": 20,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "krovinovic",
+            "name": "Krovinovic",
+            "number": 10,
             "pos": "Mei",
             "grid": null
           }
@@ -163,7 +2114,116 @@
           }
         }
       ],
-      "substitutes": []
+      "substitutes": [
+        {
+          "player": {
+            "id": "gabriel-grando",
+            "name": "Gabriel Grando",
+            "number": 12,
+            "pos": "Gol",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "marcosrocha2",
+            "name": "Marcos Rocha",
+            "number": 14,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "fbalbuena",
+            "name": "Balbuena",
+            "number": 2,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "gustavomartins",
+            "name": "Gustavo Martins",
+            "number": 6,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "wagner-leonardo",
+            "name": "Wagner Leonardo",
+            "number": 3,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "caio-paulista",
+            "name": "Caio Paulista",
+            "number": 38,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "pedro-gabriel-pinheiro",
+            "name": "Pedro Gabriel",
+            "number": 54,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "nardoni",
+            "name": "Nardoni",
+            "number": 5,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "erinoriega",
+            "name": "Noriega",
+            "number": 8,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "tetemat",
+            "name": "Tetê",
+            "number": 11,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "braithwaite",
+            "name": "Braithwaite",
+            "number": 22,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "enamorado",
+            "name": "Enamorado",
+            "number": 99,
+            "pos": "Ata",
+            "grid": null
+          }
+        }
+      ]
     },
     {
       "team": {
@@ -171,7 +2231,7 @@
         "name": "Internacional",
         "logo": "https://s.sde.globo.com/media/organizations/2018/03/11/internacional.svg"
       },
-      "formation": "3-6-1",
+      "formation": "3-5-2",
       "coach": {
         "name": "Eduardo Baptista"
       },
@@ -205,9 +2265,9 @@
         },
         {
           "player": {
-            "id": "victorgabriel",
-            "name": "Victor Gabriel",
-            "number": 41,
+            "id": "juninho-coritiba",
+            "name": "Juninho",
+            "number": 18,
             "pos": "Def",
             "grid": null
           }
@@ -241,15 +2301,6 @@
         },
         {
           "player": {
-            "id": "vitornaum",
-            "name": "Vitinho",
-            "number": 28,
-            "pos": "Mei",
-            "grid": null
-          }
-        },
-        {
-          "player": {
             "id": "alanpatrick",
             "name": "Alan Patrick",
             "number": 10,
@@ -268,6 +2319,15 @@
         },
         {
           "player": {
+            "id": "vitornaum",
+            "name": "Vitinho",
+            "number": 28,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
             "id": "alerrandro",
             "name": "Alerrandro",
             "number": 9,
@@ -276,9 +2336,271 @@
           }
         }
       ],
-      "substitutes": []
+      "substitutes": [
+        {
+          "player": {
+            "id": "matheus-cunhaq",
+            "name": "Matheus Cunha",
+            "number": 23,
+            "pos": "Gol",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "felixtorres",
+            "name": "Félix Torres",
+            "number": 4,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "victorgabriel",
+            "name": "Victor Gabriel",
+            "number": 41,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "matheusbahia",
+            "name": "Matheus Bahia",
+            "number": 6,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "brunohenrique",
+            "name": "Bruno Henrique",
+            "number": 8,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "ronaldo123",
+            "name": "Ronaldo",
+            "number": 16,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "paulinho",
+            "name": "Paulinho",
+            "number": 27,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "calebe-silva",
+            "name": "Calebe",
+            "number": 30,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "carbonerojo",
+            "name": "Carbonero",
+            "number": 7,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "eliasson",
+            "name": "Eliasson",
+            "number": 17,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "joao-victor",
+            "name": "João Victor",
+            "number": 44,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "joao-bezerra",
+            "name": "João Bezerra",
+            "number": 49,
+            "pos": "Ata",
+            "grid": null
+          }
+        }
+      ]
     }
   ],
-  "statistics": [],
+  "statistics": [
+    {
+      "team": {
+        "id": 284,
+        "name": "Grêmio"
+      },
+      "statistics": [
+        {
+          "type": "Ball Possession",
+          "value": "60%"
+        },
+        {
+          "type": "Total Passes",
+          "value": 545
+        },
+        {
+          "type": "Pass Accuracy",
+          "value": "81%"
+        },
+        {
+          "type": "Incomplete Passes",
+          "value": 101
+        },
+        {
+          "type": "Total Shots",
+          "value": 10
+        },
+        {
+          "type": "Shots on Goal",
+          "value": 4
+        },
+        {
+          "type": "Shots off Goal",
+          "value": 4
+        },
+        {
+          "type": "Blocked Shots",
+          "value": 2
+        },
+        {
+          "type": "Hit Woodwork",
+          "value": 0
+        },
+        {
+          "type": "Corner Kicks",
+          "value": 6
+        },
+        {
+          "type": "Offsides",
+          "value": 2
+        },
+        {
+          "type": "Penalties",
+          "value": 0
+        },
+        {
+          "type": "Goalkeeper Saves",
+          "value": 6
+        },
+        {
+          "type": "Tackles",
+          "value": 11
+        },
+        {
+          "type": "Fouls",
+          "value": 10
+        },
+        {
+          "type": "Yellow Cards",
+          "value": 3
+        },
+        {
+          "type": "Red Cards",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "team": {
+        "id": 285,
+        "name": "Internacional"
+      },
+      "statistics": [
+        {
+          "type": "Ball Possession",
+          "value": "40%"
+        },
+        {
+          "type": "Total Passes",
+          "value": 309
+        },
+        {
+          "type": "Pass Accuracy",
+          "value": "67%"
+        },
+        {
+          "type": "Incomplete Passes",
+          "value": 102
+        },
+        {
+          "type": "Total Shots",
+          "value": 14
+        },
+        {
+          "type": "Shots on Goal",
+          "value": 4
+        },
+        {
+          "type": "Shots off Goal",
+          "value": 5
+        },
+        {
+          "type": "Blocked Shots",
+          "value": 5
+        },
+        {
+          "type": "Hit Woodwork",
+          "value": 0
+        },
+        {
+          "type": "Corner Kicks",
+          "value": 5
+        },
+        {
+          "type": "Offsides",
+          "value": 0
+        },
+        {
+          "type": "Penalties",
+          "value": 0
+        },
+        {
+          "type": "Goalkeeper Saves",
+          "value": 4
+        },
+        {
+          "type": "Tackles",
+          "value": 15
+        },
+        {
+          "type": "Fouls",
+          "value": 26
+        },
+        {
+          "type": "Yellow Cards",
+          "value": 3
+        },
+        {
+          "type": "Red Cards",
+          "value": 0
+        }
+      ]
+    }
+  ],
   "sportsFieldUrl": null
 }

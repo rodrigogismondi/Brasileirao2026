@@ -7,11 +7,11 @@
       "city": ""
     },
     "status": {
-      "long": "NS",
-      "short": "NS",
-      "elapsed": null
+      "long": "FT",
+      "short": "FT",
+      "elapsed": 90
     },
-    "timerStart": null,
+    "timerStart": "2026-10-11T22:32:08.579Z",
     "timerStatus": "PAUSADO"
   },
   "league": {
@@ -30,8 +30,8 @@
     }
   },
   "goals": {
-    "home": null,
-    "away": null
+    "home": 1,
+    "away": 0
   },
   "score": {
     "halftime": {
@@ -39,18 +39,2247 @@
       "away": null
     },
     "fulltime": {
-      "home": null,
-      "away": null
+      "home": 1,
+      "away": 0
     }
   },
   "odds": {
-    "home": 1.49,
-    "draw": 4.28,
-    "away": 6.25,
+    "home": 1.56,
+    "draw": 4.03,
+    "away": 5.84,
     "source": "betexplorer"
   },
   "_geUrl": "https://ge.globo.com/rj/futebol/brasileirao-serie-a/jogo/11-10-2026/flamengo-fluminense.ghtml",
-  "events": [],
+  "events": [
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Flamengo e Fluminense não saíram do zero no primeiro tempo. A partida começou quente, com defesa de Fábio em chute de Samuel Lino e um pedido de pênalti de Acosta. O ritmo caiu brevemente em meados da etapa inicial, mas o Flamengo terminou o primeiro tempo com um volume mais expressivo de finalizações: 10 a 4. O início do Fla-Flu ainda teve um cartão amarelo para Pulgar por falta em Castillo, com dura entrada e corte no joelho do atacante do Fluminense. Segundo o comentarista de arbitragem PC Oliveira, o lance era para vermelho.",
+      "player": {
+        "name": "NADA DE GOLS"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "Important",
+      "detail": "Pedro sobe e pressiona a saída tricolor. Carrascal fica com a bola pela direita, volta com Pulgar, que acha Lino. O atacante finaliza e força Fábio a saltar para defender! É a primeira chance do jogo!",
+      "player": {
+        "name": "Samuel Lino"
+      },
+      "assist": {
+        "name": "FÁBIO DEFENDE!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Começa o clássico no Maracanã entre Flamengo e Fluminense!",
+      "player": {
+        "name": "BOLA ROLANDO"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 1,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "Important",
+      "detail": "Pedro e Lino trabalham pela esquerda, e o camisa 16 manda a bola na área. Millán faz o corte e afasta o perigo da área do Fluminense. Na sequência, Pulgar pega o rebote e manda para fora, por cima do gol.",
+      "player": {
+        "name": "Pedro e Lino trabalham pela esquerda, e o camisa"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 2,
+        "extra": null
+      },
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "Important",
+      "detail": "Durante o aquecimento, o atacante Luiz Araújo levou uma bolada que deixou hematoma. O camisa 7 do Flamengo segue à disposição de Leonardo Jardim no banco de reservas.",
+      "player": {
+        "name": "Durante o aquecimento, o atacante Luiz Araújo le"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 3,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O jogo mal começou e já teve emoção! O Flamengo partiu para cima e, com menos de um minuto, Samuel Lino finalizou para grande defesa de Fábio. Pouco depois, o Fluminense respondeu com perigo: Lucho Acosta invadiu a área, caiu em dividida com Lino e o time tricolor pediu pênalti, mas a arbitragem mandou o jogo seguir. Início de muita intensidade e com polêmica no clássico.",
+      "player": {
+        "name": "Clássico começa com tudo no Maracanã"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 3,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "Important",
+      "detail": "Canobbio e Lucho Acosta trabalham a bola, o argentino entra na área do Flamengo e cai após dividida com Samuel Lino. Os jogadores do Fluminense reclamam muito de pênalti, mas a arbitragem manda seguir.",
+      "player": {
+        "name": "Lucho Acosta"
+      },
+      "assist": {
+        "name": "PEDIU PÊNALTI!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 5,
+        "extra": null
+      },
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "Important",
+      "detail": "Pedro recebe pelo meio e passa para Paquetá. Arbitragem assinala falta de Ignácio sobre o meia do Flamengo.",
+      "player": {
+        "name": "Pedro recebe pelo meio e passa para Paquetá. Arb"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 6,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O clássico começou com ritmo acelerado. Com menos de um minuto, Samuel Lino já testou o goleiro Fábio, que fez boa defesa para o Fluminense. O Flamengo seguiu no ataque, mas a resposta tricolor veio em seguida: aos 3 minutos, Lucho Acosta invadiu a área e caiu pedindo pênalti, mas o juiz mandou o jogo seguir. Início quente, com chances e reclamações nos primeiros minutos.",
+      "player": {
+        "name": "Início quente e com polêmica no clássico"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 6,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "Important",
+      "detail": "Paquetá, sozinho na cobrança, tenta mandar direto na direção do gol, mas a bola explode na barreira. Fluminense tenta sair rápido com Martinelli e Lucho Acosta.",
+      "player": {
+        "name": "Paquetá, sozinho na cobrança, tenta mandar diret"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 7,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Léo Ortiz tenta a esticada para Varela, mas Arana faz o corte. Na sequência, jogo é paralisado por falta sobre Nonato.",
+      "player": {
+        "name": "Léo Ortiz tenta a esticada para Varela, mas Aran"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 8,
+        "extra": null
+      },
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "Important",
+      "detail": "Ignácio perde a bola em disputa com Lino pelo lado direito da defesa. Na sequência, Paquetá fica com a bola e tenta dar sequência, se desvencilhando da marcação, sem sucesso. Saúl aproveita para chutar no rebote, mas manda para fora!",
+      "player": {
+        "name": "Saúl"
+      },
+      "assist": {
+        "name": "PARA FORA!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 9,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O clássico começou em alta voltagem no Maracanã. Com menos de um minuto, Samuel Lino já obrigou o goleiro Fábio a fazer uma grande defesa para o Fluminense. A resposta tricolor veio com polêmica aos 3 minutos, quando Lucho Acosta caiu na área em dividida com Lino e pediu pênalti, mas a arbitragem mandou seguir. O Flamengo segue com mais volume, mas a partida é disputada e aberta.",
+      "player": {
+        "name": "Pressão, defesaça e polêmica no Fla-Flu"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 9,
+        "extra": null
+      },
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "Important",
+      "detail": "Lino é marcado por três e prefere voltar com Alex Sandro. Flamengo vai trocando passes desde a defesa.",
+      "player": {
+        "name": "Lino é marcado por três e prefere voltar com Ale"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 10,
+        "extra": null
+      },
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "Important",
+      "detail": "Carrascal se livra de Arana, carrega em boa jogada e passa para Paquetá entrando na área. O camisa 11 finaliza para defesa de Fábio! Na sequência, Pedro tenta o chute já caído e não consegue estufar as redes! Fábio fica com a bola no Maracanã.",
+      "player": {
+        "name": "Lucas Paquetá"
+      },
+      "assist": {
+        "name": "QUE CHANCE! FÁBIO DE NOVO!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 12,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O clássico começou em alta velocidade, com o Flamengo tomando a iniciativa e criando as melhores oportunidades. Em pouco mais de 10 minutos, Samuel Lino e Paquetá obrigaram o goleiro Fábio a trabalhar com duas defesas importantes. O Fluminense respondeu em lance polêmico, com Lucho Acosta caindo na área e pedindo pênalti, mas a arbitragem mandou o jogo seguir. Início de forte pressão rubro-negra.",
+      "player": {
+        "name": "Flamengo pressiona e Fábio brilha no início"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 12,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "Important",
+      "detail": "Acosta tenta a bola enfiada para Canobbio, mas uruguaio é parado com falta por Pulgar. Lance perigoso para o Fluminense próximo à área!",
+      "player": {
+        "name": "Acosta tenta a bola enfiada para Canobbio, mas u"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 13,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "Important",
+      "detail": "Lucho Acosta na cobrança de falta. O argentino manda a bola levantada na área, Ignácio desvia de cabeça e Léo Ortiz faz o corte na sequência. Martinelli pega o rebote, mas manda por cima do gol de Rossi!",
+      "player": {
+        "name": "Martinelli"
+      },
+      "assist": {
+        "name": "PASSOU LONGE"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 16,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Flamengo iniciou o clássico em ritmo forte, criando as melhores oportunidades nos primeiros 15 minutos. Samuel Lino, Carrascal e Paquetá levaram perigo, parando em pelo menos duas grandes defesas do goleiro Fábio, o destaque até aqui. O Fluminense reclamou muito de um pênalti em Lucho Acosta não marcado. Apesar do domínio rubro-negro, o placar segue zerado no Maracanã.",
+      "player": {
+        "name": "Fla-Flu quente: Pressão rubro-negra e Fábio brilha"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 16,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "No Nubank Parque, Barboza abre o placar para o Palmeiras, de cabeça, contra o Corinthians! Com os resultados parciais, o clube alviverde assume a liderança do Campeonato Brasileiro.",
+      "player": {
+        "name": "ENQUANTO ISSO..."
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 17,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "Important",
+      "detail": "Pulgar manda bola na área do Fluminense. Léo Ortiz chega batendo de pé direito, mas Fábio fica com ela!",
+      "player": {
+        "name": "Léo Ortiz"
+      },
+      "assist": {
+        "name": "FÁBIO DE NOVO!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 17,
+        "extra": null
+      },
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "Important",
+      "detail": "Falta pelo lado esquerdo do ataque do Flamengo, com Carrascal na cobrança. Léo Ortiz sobe, mas Nonato consegue o corte na sequência.",
+      "player": {
+        "name": "Falta pelo lado esquerdo do ataque do Flamengo, "
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 20,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Com 20 minutos de clássico, o Flamengo impõe um ritmo forte e pressiona no ataque. Samuel Lino, Paquetá e até o zagueiro Léo Ortiz já finalizaram com perigo, mas pararam em grandes defesas do goleiro Fábio, o destaque da partida até aqui. O Fluminense tenta responder e chegou a reclamar de um pênalti em Lucho Acosta, mas o time rubro-negro segue com maior volume e controle das ações.",
+      "player": {
+        "name": "Fábio brilha e segura o Fla no Maracanã"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 20,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "Important",
+      "detail": "Fluminense vai trocando passes enquanto estuda as melhores formas de prosseguir no campo. Arana passa para Acosta, que dá um toque para Castillo. Fluminense consegue lateral.",
+      "player": {
+        "name": "Fluminense vai trocando passes enquanto estuda a"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 21,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Pedro protege e passa para Pulgar, que ajeita para Paquetá. Varela recebe e devolve no volante, que opta por voltar com a bola na defesa rubro-negra.",
+      "player": {
+        "name": "Pedro protege e passa para Pulgar, que ajeita pa"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 23,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O clássico começou com o Flamengo em cima! Passados 23 minutos, o time rubro-negro já criou várias chances com Lino e Paquetá, mas parou em uma atuação espetacular do goleiro Fábio, que fez ao menos três defesas difíceis. O Fluminense reclamou muito de um pênalti em Lucho Acosta, não marcado pela arbitragem. O placar segue 0 a 0 graças à grande performance do goleiro tricolor.",
+      "player": {
+        "name": "Fábio brilha e segura a pressão do Fla"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 23,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Varela recebe bola esticada pela direita, mas Soteldo recupera na sequência. O lateral insiste na dividida com Arana, mas a bola sai pela linha de fundo. Tiro de meta para Fábio.",
+      "player": {
+        "name": "Varela recebe bola esticada pela direita, mas So"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 25,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "Important",
+      "detail": "Samuel Xavier acelera pela direita e manda cruzado na área. Léo Ortiz faz o corte. Na sequência, Arana fica com a bola, levanta na área e Castillo cabeceia! É a primeira defesa de Rossi no jogo!",
+      "player": {
+        "name": "Rodrigo Castillo"
+      },
+      "assist": {
+        "name": "ROSSI DEFENDE!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 26,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O clássico começou com o Flamengo impondo um forte ritmo ofensivo. Com 26 minutos, o time rubro-negro já testou o goleiro Fábio em múltiplas ocasiões, com chutes perigosos de Samuel Lino, Paquetá e Léo Ortiz. O goleiro tricolor se tornou o destaque ao evitar o gol. O Fluminense respondeu com um pedido de pênalti em lance com Lucho Acosta e uma cabeçada de Castillo, que parou em defesa de Rossi.",
+      "player": {
+        "name": "Flamengo pressiona e Fábio brilha no Maracanã"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 26,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Paquetá acha bola enfiada para Lino, que prefere finalizar direto no gol. A bola desvia em Arana antes da defesa de Fábio.",
+      "player": {
+        "name": "Paquetá acha bola enfiada para Lino, que prefere"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 29,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O clássico começou com o Flamengo pressionando e empilhando chances nos primeiros 30 minutos. Samuel Lino e Paquetá exigiram grandes defesas de Fábio, o grande nome do jogo até aqui, que impediu o gol rubro-negro em pelo menos três ocasiões claras. O Fluminense reclamou de um pênalti em Lucho Acosta e só conseguiu responder com um cabeceio de Castillo, bem defendido por Rossi.",
+      "player": {
+        "name": "Muralha Fábio segura o Fla no início"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 29,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Jogo fica um pouco mais disputado pelo meio. Arbitragem assinala falta de Saúl sobre Castillo.",
+      "player": {
+        "name": "Jogo fica um pouco mais disputado pelo meio. Arb"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 30,
+        "extra": null
+      },
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Erick Pulgar"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 31,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "Important",
+      "detail": "Castillo está caído no gramado, com dores e sangramento no joelho, enquanto recebe atendimento médico. Jogadores do Fluminense pedem cartão vermelho para Pulgar.",
+      "player": {
+        "name": "Castillo está caído no gramado, com dores e sang"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 32,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Flamengo começou o clássico com tudo, empilhando chances claras nos primeiros 30 minutos. Samuel Lino e Paquetá pararam em grandes defesas do goleiro Fábio, o grande nome do jogo até aqui. O Fluminense respondeu com um pedido de pênalti em Lucho Acosta e uma cabeçada de Castillo, defendida por Rossi. O clima esquentou com um cartão amarelo para Pulgar por falta dura em Castillo.",
+      "player": {
+        "name": "Fla pressiona, Fábio brilha e clima esquenta"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 32,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Rafael Rodrigo Klein conversa com Marcão, que reclamava do lance entre Pulgar e Castillo. Árbitro manda o jogo seguir no Maracanã.",
+      "player": {
+        "name": "SIGA LA PELOTA"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 34,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Paquetá pressiona a saída do Fluminense, mas Ignácio se atenta e manda para longe. Varela vai cobrar lateral para o Flamengo.",
+      "player": {
+        "name": "Paquetá pressiona a saída do Fluminense, mas Ign"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 36,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O clássico começou com o Flamengo impondo um ritmo forte. Com menos de um minuto, Samuel Lino já obrigou Fábio a trabalhar. O goleiro tricolor virou o nome do jogo, com defesas cruciais em chutes de Paquetá e Léo Ortiz. O Fluminense reclamou de um pênalti em Lucho Acosta e respondeu com uma cabeçada perigosa de Castillo, defendida por Rossi. Aos 30 minutos, Pulgar recebeu amarelo após entrada dura.",
+      "player": {
+        "name": "Fábio brilha e segura o Fla no Maracanã"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 36,
+        "extra": null
+      },
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "Important",
+      "detail": "Em jogada rápida do Flamengo, Lino passa para Pedro, que é desarmado por Samuel Xavier. Lino retoma a posse na sequência, acha Paquetá, que toca para o camisa 9 finalizar muito perto da trave de Fábio!",
+      "player": {
+        "name": "Pedro"
+      },
+      "assist": {
+        "name": "PERDEU!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 38,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Lucho Acosta"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 40,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "Important",
+      "detail": "Arbitragem marca falta de Saúl sobre Canobbio, que tentava sair jogando rápido desde a defesa do Fluminense.",
+      "player": {
+        "name": "Arbitragem marca falta de Saúl sobre Canobbio, q"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 40,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Flamengo impõe o ritmo no clássico e cria as melhores oportunidades, mas para em uma atuação inspirada do goleiro Fábio, que já fez três defesas difíceis em chutes de Lino e Paquetá. O Fluminense reclamou de um pênalti em Lucho Acosta e só assustou em cabeçada de Castillo defendida por Rossi. O jogo, que já tem cartões para Pulgar e Acosta, segue 0 a 0 e com o clima cada vez mais quente no Maracanã.",
+      "player": {
+        "name": "Fla domina, mas Fábio vira muralha"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 40,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "Important",
+      "detail": "Carrascal abre com Varela, que devolve. O colombiano levanta na área, Lino afunda, mas a defesa do Fluminense faz o corte.",
+      "player": {
+        "name": "Carrascal abre com Varela, que devolve. O colomb"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 42,
+        "extra": null
+      },
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "Important",
+      "detail": "Martinelli domina e passa para Acosta, que acha Soteldo entrando livre na área pela direita. Ele tenta passar para Castillo, mas a bola explode na defesa do Flamengo.",
+      "player": {
+        "name": "Martinelli domina e passa para Acosta, que acha "
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 43,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Flamengo começou o clássico em ritmo forte, criando chances claras com Samuel Lino, Paquetá e até o zagueiro Léo Ortiz, mas todos pararam em grandes defesas de Fábio, o nome do jogo. O Fluminense respondeu com um pedido de pênalti em Lucho Acosta e uma cabeçada de Castillo, defendida por Rossi. O clima esquentou com cartões para Pulgar e Acosta, e o placar segue zerado perto do fim do primeiro tempo.",
+      "player": {
+        "name": "Fla pressiona, mas Fábio segura o placar"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 43,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Soteldo toca na entrada da área para Martinelli, que opta por finalizar na direção do gol. A bola desvia em Léo Pereira, mas fica fácil para Rossi defender.",
+      "player": {
+        "name": "Soteldo toca na entrada da área para Martinelli,"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 45,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Arbitragem marca falta de Samuel Xavier sobre Samuel Lino.",
+      "player": {
+        "name": "Arbitragem marca falta de Samuel Xavier sobre Sa"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 45,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "Important",
+      "detail": "Arana arrisca de longe, mas Léo Ortiz faz o corte. Fluminense pressiona no início do segundo tempo!",
+      "player": {
+        "name": "Arana arrisca de longe, mas Léo Ortiz faz o cort"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 45,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Começa o segundo tempo no Maracanã!",
+      "player": {
+        "name": "BOLA ROLANDO"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 45,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Vamos até os 51 minutos neste primeiro tempo no Maracanã.",
+      "player": {
+        "name": "+6"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 45,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Palmeiras amplia no Nubank Parque: Giay faz 2 a 0 no clássico sobre o Corinthians!",
+      "player": {
+        "name": "MAIS UM"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 46,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Alex Sandro afunda e passa para Pedro, que gira e busca opções. Ele acha Paquetá, que tenta a bola enfiada para Lino, mas a bola sai forte demais pela linha de fundo.",
+      "player": {
+        "name": "Alex Sandro afunda e passa para Pedro, que gira "
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 47,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Palmeiras ampliou no primeiro minuto do segundo tempo, com gol contra de Bidu, e agora Giay faz seu segundo sobre o Corinthians. Palmeiras vai vencendo o clássico por 4 a 0 no Nubank Parque.",
+      "player": {
+        "name": "EM SÃO PAULO..."
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 47,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Flamengo pressionou durante todo o primeiro tempo, criando chances claras com Samuel Lino, Paquetá e Pedro, mas parou em uma atuação espetacular do goleiro Fábio, que fez pelo menos quatro grandes defesas. O Fluminense reclamou de um pênalti em Lucho Acosta e levou perigo em cabeceio de Castillo, defendido por Rossi. O clima esquentou com cartões para Pulgar e Acosta, mas o placar segue 0 a 0.",
+      "player": {
+        "name": "Fábio fecha o gol no Maracanã!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 47,
+        "extra": null
+      },
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "Important",
+      "detail": "Lino chega na linha de fundo e faz o cruzamento para Paquetá. O camisa 11 cabeceia no canto direito do gol e Fábio faz a defesa em dois tempos, antes de Pedro chegar na bola!",
+      "player": {
+        "name": "Lucas Paquetá"
+      },
+      "assist": {
+        "name": "DEFENDE FÁBIO!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 48,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O segundo tempo começou com o placar zerado, mas não por falta de chances! O Flamengo dominou a primeira etapa, criando oportunidades com Lino, Paquetá e Pedro, mas parou em uma atuação espetacular de Fábio, que fez defesas cruciais. O Fluminense respondeu em chegadas de Castillo, teve um pênalti reclamado e o clima esquentou com um amarelo para Pulgar após uma entrada dura.",
+      "player": {
+        "name": "Fla pressiona, mas Fábio vira muralha"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 48,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "Important",
+      "detail": "Lino tenta pedalar, mas dá de graça para Nonato. O Fluminense tenta sair jogando, mas Saúl faz falta sobre Canobbio no meio.",
+      "player": {
+        "name": "Lino tenta pedalar, mas dá de graça para Nonato."
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 49,
+        "extra": null
+      },
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Saúl"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 50,
+        "extra": null
+      },
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "Important",
+      "detail": "Escanteio para o Flamengo. Carrascal levanta na área, mas Millán faz o corte. Na sequência, Pulgar manda para fora.",
+      "player": {
+        "name": "Escanteio para o Flamengo. Carrascal levanta na "
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 50,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Flamengo pressiona desde o início, mas para em uma atuação espetacular de Fábio no primeiro tempo. O goleiro tricolor fez defesas cruciais em chutes de Samuel Lino e Paquetá. O Fluminense respondeu em cabeçada de Castillo, defendida por Rossi, e reclamou muito de um pênalti em Lucho Acosta não marcado. O clima esquentou com a entrada dura de Pulgar, que recebeu amarelo e gerou polêmica.",
+      "player": {
+        "name": "Fábio para o Fla e Fla-Flu pega fogo"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 50,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "Important",
+      "detail": "PC Oliveira, comentarista de arbitragem do Grupo Globo, analisou que Pulgar deveria ter sido expulso pela entrada em Castillo. O árbitro ouviu instruções do VAR por alguns segundos, mas mandou o jogo seguir na sequência, sem revisar a cor do cartão amarelo. Leia mais aqui!",
+      "player": {
+        "name": "FICOU BARATO"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 51,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Termina o primeiro tempo no Maracanã: Flamengo 0 x 0 Fluminense.",
+      "player": {
+        "name": "FIM DE PAPO"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 51,
+        "extra": null
+      },
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "Important",
+      "detail": "Acosta acelera e enfia a bola para Castillo, que entra na área do Flamengo pelo lado direito. O atacante chega batendo, mas acaba mandando por cima do gol de Rossi! Esse deve ser o último lance do primeiro tempo no Maracanã.",
+      "player": {
+        "name": "Rodrigo Castillo"
+      },
+      "assist": {
+        "name": "BATEU POR CIMA"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 52,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O segundo tempo começa como terminou o primeiro: intenso. O Flamengo pressionou bastante, criando chances claras com Lino, Paquetá e Pedro, mas parou em uma atuação espetacular do goleiro Fábio, que fez várias defesas. O Fluminense respondeu com perigo, pediu um pênalti em Lucho Acosta e quase marcou com Castillo. O jogo, que já teve três amarelos e polêmica, segue 0 a 0 aos 7 minutos da etapa final.",
+      "player": {
+        "name": "Pressão, polêmica e 0 a 0 no Maraca"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 52,
+        "extra": null
+      },
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "Important",
+      "detail": "Samuel Lino arranca pela esquerda, marcado por Canobbio. Ele inverte com Carrascal, que aperta o passo para impedir a saída pela lateral. O colombiano passa para Pedro, que manda por cima do gol de Fábio!",
+      "player": {
+        "name": "Pedro"
+      },
+      "assist": {
+        "name": "PARA FORA!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 53,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "Important",
+      "detail": "Repórter Richard Souza, da TV Globo, informa que Acosta foi ao banco do Fluminense e recebeu um medicamento da comissão técnica tricolor.",
+      "player": {
+        "name": "Repórter Richard Souza, da TV Globo, informa que"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 54,
+        "extra": null
+      },
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "Important",
+      "detail": "Tabelinha rápida do Flamengo termina com passe de Lino para Paquetá dentro da área. Arana aparece no momento certeiro para fazer o corte e afastar o perigo!",
+      "player": {
+        "name": "Guilherme Arana"
+      },
+      "assist": {
+        "name": "ARANA FAZ O CORTE!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 55,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Com 10 minutos do segundo tempo, o clássico segue 0 a 0 graças a uma atuação de gala de Fábio. O goleiro do Fluminense fez defesas cruciais para segurar a pressão do Flamengo, que domina as ações e cria chances com Lino e Paquetá. O Flu respondeu com Castillo e reclamou de um pênalti. O jogo também teve polêmica com um amarelo para Pulgar que gerou debate e cartões para os dois lados.",
+      "player": {
+        "name": "Fla pressiona, mas o placar não sai do zero"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 55,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "Important",
+      "detail": "Lino domina e passa para o meio, com Pedro. Camisa 9 não consegue dar sequência dentro da área, e a defesa do Fluminense afasta!",
+      "player": {
+        "name": "Lino domina e passa para o meio, com Pedro. Cami"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 56,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Canobbio"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 56,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "Important",
+      "detail": "Jogadores do Fluminense reclamam de possível pênalti de Léo Ortiz sobre Castillo. Juiz manda o jogo seguir. Em um lance seguinte, Canobbio é amarelado por falta em Ortiz no meio.",
+      "player": {
+        "name": "Jogadores do Fluminense reclamam de possível pên"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 57,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "Important",
+      "detail": "Ganso e Serna se preparam para entrar no Fluminense.",
+      "player": {
+        "name": "VAI MUDAR"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 57,
+        "extra": null
+      },
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "Important",
+      "detail": "Irritada com a atuação de Pedro, a torcida no Flamengo no Maracanã grita o nome de Bruno Henrique e pede a entrada do camisa 27.",
+      "player": {
+        "name": "\"AH, É BRUNO HENRIQUE\""
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 58,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Carrascal passa para Lino, que tenta cruzar na área. Nonato tenta afastar e a bola acaba ficando com Pedro, que não consegue o passe rasteiro, e Millán faz o corte parcial. A bola sobra viva na área e Canobbio recorre ao chutão para afastar!",
+      "player": {
+        "name": "Carrascal passa para Lino, que tenta cruzar na á"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 59,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "Important",
+      "detail": "Paquetá tenta levantar bola na área do Fluminense, mas Pedro não alcança. É tiro de meta para Fábio.",
+      "player": {
+        "name": "Paquetá tenta levantar bola na área do Fluminens"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 59,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Serna"
+      },
+      "assist": {
+        "name": "Soteldo"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 59,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Aos 14 minutos do segundo tempo, o clássico segue intenso e no 0 a 0. O Flamengo tem mais volume e cria as melhores oportunidades com Lino e Paquetá, mas para em grandes defesas de Fábio. O Fluminense reclamou de pênaltis e teve boas chegadas com Castillo. Com a torcida rubro-negra impaciente, o Tricolor aposta na entrada de Ganso para tentar mudar o panorama da partida.",
+      "player": {
+        "name": "Jogo tenso e chances perdidas no Maracanã"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 59,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Ganso"
+      },
+      "assist": {
+        "name": "Lucho Acosta"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 61,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "Important",
+      "detail": "Ganso dá belo toque para Martineli, que chega de frente para a área e força Rossi a saltar para defender! É a melhor chance do Fluminense no jogo!",
+      "player": {
+        "name": "Martinelli"
+      },
+      "assist": {
+        "name": "DEFENDE ROSSI! QUE CHANCE!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 62,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O segundo tempo começa com o Fluminense tentando pressionar, mas a grande chance veio aos 16 minutos. Ganso, recém-entrado, deu um passe espetacular para Martinelli, que parou em defesaça de Rossi. O Flamengo continua com mais volume de jogo, explorando a velocidade de Samuel Lino, mas esbarra na organização tricolor. O jogo é disputado e o 0 a 0 persiste graças às boas intervenções dos goleiros.",
+      "player": {
+        "name": "Clássico segue tenso e goleiros se destacam"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 62,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "Important",
+      "detail": "Escanteio para o Fluminense. Ganso levanta na primeira trave, mas Rossi fica com a bola sem sustos após disputa entre Castillo e Paquetá.",
+      "player": {
+        "name": "Escanteio para o Fluminense. Ganso levanta na pr"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 63,
+        "extra": null
+      },
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Joaquín Freitas"
+      },
+      "assist": {
+        "name": "Saúl"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 63,
+        "extra": null
+      },
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Bruno Henrique"
+      },
+      "assist": {
+        "name": "Pedro"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 64,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O segundo tempo ganhou emoção com a entrada de Ganso, que criou a melhor chance do Fluminense em chute de Martinelli, bem defendido por Rossi. O Flamengo respondeu com substituições e, aos 19 minutos, a rede balançou. Lucas Paquetá fez um cruzamento preciso e Carrascal bateu de primeira para fazer 1 a 0, colocando o time da casa em vantagem no clássico.",
+      "player": {
+        "name": "Carrascal abre o placar no Maracanã!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 64,
+        "extra": null
+      },
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "player": {
+        "name": "Carrascal"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 64,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "Important",
+      "detail": "Paquetá enfia para Samuel Lino, que arranca pela esquerda e pisa na área do Fluminense. Ele ajeita para um pé, passa para outro, mas Martinelli faz o corte após o cruzamento rasteiro.",
+      "player": {
+        "name": "Paquetá enfia para Samuel Lino, que arranca pela"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 66,
+        "extra": null
+      },
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "Important",
+      "detail": "Com o resultado parcial no Maracanã, o Flamengo se mantém no topo da tabela do Campeonato Brasileiro: 64 pontos contra 63 do Palmeiras!",
+      "player": {
+        "name": "NA LIDERANÇA"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 68,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Savarino"
+      },
+      "assist": {
+        "name": "Canobbio"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 68,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Hulk"
+      },
+      "assist": {
+        "name": "Rodrigo Castillo"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 68,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Após um primeiro tempo de forte pressão do Flamengo e grandes defesas de Fábio, o segundo tempo começou mais equilibrado. O Fluminense quase marcou com Martinelli, em chance salva por Rossi. Mas por volta dos 20 minutos da etapa final, a rede balançou: Paquetá cruzou na medida e Carrascal, de primeira, fuzilou para fazer 1 a 0 e colocar o time rubro-negro na frente no Maracanã.",
+      "player": {
+        "name": "Carrascal abre o placar para o Flamengo!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 68,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Ganso tenta a tabelinha com Castillo, mas Paquetá faz o corte. Na sequência, arbitragem assinala falta de Nonato sobre Joaquín Freitas.",
+      "player": {
+        "name": "Ganso tenta a tabelinha com Castillo, mas Paquet"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 71,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Após um primeiro tempo de forte pressão do Flamengo e grandes defesas do goleiro Fábio, o placar só foi inaugurado na segunda etapa. Aos 19 minutos, Lucas Paquetá fez um cruzamento preciso e Carrascal apareceu para bater de primeira, abrindo o placar para o Flamengo: 1 a 0. O Fluminense, que já fez trocas no setor ofensivo, agora busca a reação no clássico.",
+      "player": {
+        "name": "Flamengo na frente com gol de Carrascal!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 71,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Martinelli passa para Arana, que levanta a bola. Hulk não consegue passar para Serna, marcado por Varela, e Léo Pereira afasta com chutão na sequência.",
+      "player": {
+        "name": "Martinelli passa para Arana, que levanta a bola."
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 73,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "Important",
+      "detail": "Jogadores do Fluminense pedem novamente um pênalti no Maracanã, desta vez por possível falta de Alex Sandro sobre Savarino. Reclamações se estendem ao banco de reservas, e Guga é um dos mais exaltados.",
+      "player": {
+        "name": "Jogadores do Fluminense pedem novamente um pênal"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 76,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Após um primeiro tempo de domínio do Flamengo, parado por grandes defesas do goleiro Fábio, o Fluminense voltou melhor e quase abriu o placar com Martinelli, em grande intervenção de Rossi. Mas aos 19 minutos da segunda etapa, a rede finalmente balançou: Lucas Paquetá cruzou na medida e Carrascal bateu de primeira para fazer 1 a 0, esquentando de vez o clássico no Maracanã.",
+      "player": {
+        "name": "Carrascal abre o placar para o Fla!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 76,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "Important",
+      "detail": "Fluminense tem paciência para trocar passes e sair jogando. Savarino tenta o passe para Samuel Xavier, que sofre a falta.",
+      "player": {
+        "name": "Fluminense tem paciência para trocar passes e sa"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 77,
+        "extra": null
+      },
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "Important",
+      "detail": "Cobrança de falta na área, mas Léo Ortiz faz o corte. Flamengo sai rápido com Carrascal, Freitas conclui e manda pela linha de fundo.",
+      "player": {
+        "name": "Cobrança de falta na área, mas Léo Ortiz faz o c"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 78,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Wesley Natã"
+      },
+      "assist": {
+        "name": "Martinelli"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 78,
+        "extra": null
+      },
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "De la Cruz"
+      },
+      "assist": {
+        "name": "Samuel Lino"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 78,
+        "extra": null
+      },
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Plata"
+      },
+      "assist": {
+        "name": "Lucas Paquetá"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 79,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O segundo tempo começou intenso, com o Fluminense criando sua melhor chance em chute de Martinelli, defendido por Rossi. A resposta do Flamengo foi fatal: aos 19 minutos, Lucas Paquetá cruzou na medida e Carrascal finalizou de primeira, abrindo o placar. Com o 1 a 0 no placar, o jogo, já na casa dos 35 minutos, segue com muitas trocas e o Tricolor buscando reagir na partida.",
+      "player": {
+        "name": "Flamengo na frente com gol de Carrascal!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 79,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Wesley Natã tabela com Samuel Xavier, mas acaba voltando com Nonato. Ganso abre com Arana, que devolve.",
+      "player": {
+        "name": "Wesley Natã tabela com Samuel Xavier, mas acaba "
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 80,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Arbitragem assinala falta de Pulgar sobre Nonato.",
+      "player": {
+        "name": "Arbitragem assinala falta de Pulgar sobre Nonato"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 81,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "Important",
+      "detail": "Hulk e Savarino na cobrança de falta. O camisa 7 opta pela finalização direta, e a bola passa perto da trave de Rossi!",
+      "player": {
+        "name": "Hulk"
+      },
+      "assist": {
+        "name": "PASSOU PERTO!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 82,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O segundo tempo seguia equilibrado, com chances para os dois lados, incluindo uma grande defesa de Rossi em chute de Martinelli. Mas aos 19 minutos, a rede balançou para o Flamengo! Paquetá cruzou na medida e Carrascal bateu de primeira para fazer 1 a 0. Com o jogo já passando dos 35 minutos, o Fluminense pressiona em busca do empate e Hulk quase marcou em cobrança de falta perigosa.",
+      "player": {
+        "name": "Carrascal abre o placar no Maracanã!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 82,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Ignácio erra na saída de bola e deixa boa para Plata carregar até o meio. O equatoriano é parado com falta pelo próprio Ignácio, que leva amarelo.",
+      "player": {
+        "name": "Ignácio erra na saída de bola e deixa boa para P"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 83,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Léo Pereira e De La Cruz são as opções do Flamengo na cobrança. O uruguaio manda a bola direto na barreira do Fluminense. Escanteio!",
+      "player": {
+        "name": "Léo Pereira e De La Cruz são as opções do Flamen"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 83,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Ignácio"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 84,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Escanteio é cobrado, mas arbitragem logo paralisa o lance e marca falta de Léo Ortiz, que se enroscou com Ganso na área.",
+      "player": {
+        "name": "Escanteio é cobrado, mas arbitragem logo paralis"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 85,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Tentativa de bola enfiada de Carrascal para Plata pela direita, mas o equatoriano não consegue impedir a saída da bola pela linha de fundo. Tiro de meta para Fábio.",
+      "player": {
+        "name": "Tentativa de bola enfiada de Carrascal para Plat"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 85,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Depois de um jogo disputado e com chances para os dois lados, o placar foi inaugurado aos 19 minutos do segundo tempo. Lucas Paquetá cruzou na medida e Carrascal bateu de primeira para fazer 1 a 0 para o Flamengo. Pouco antes, Rossi havia feito grande defesa em chute de Martinelli. Agora, na reta final, o Fluminense se lança ao ataque e já assustou com Hulk em cobrança de falta que passou perto.",
+      "player": {
+        "name": "Carrascal abre o placar no Maracanã!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 85,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "De La Cruz rouba a bola e Bruno Henrique domina. Ele toca para Plata, que dá sequência, mas Freitas não consegue o domínio e se desculpa com Bruno Henrique!",
+      "player": {
+        "name": "De La Cruz rouba a bola e Bruno Henrique domina."
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 86,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Guilherme Arana"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 87,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Palmeiras vence o Corinthians no Nubank Parque: 4 a 1.",
+      "player": {
+        "name": "TERMINA EM SÃO PAULO"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 88,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O segundo tempo seguiu disputado, com chances para os dois lados. O Fluminense assustou em finalização de Martinelli, bem defendida por Rossi. Mas aos 19 minutos, o placar foi inaugurado: Paquetá cruzou e Carrascal bateu de primeira para fazer 1 a 0 para o Flamengo. Com o jogo na reta final, o clima é tenso, com muitas faltas, cartões e reclamações de pênalti do lado tricolor.",
+      "player": {
+        "name": "Gol de Carrascal esquenta o Maracanã!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 88,
+        "extra": null
+      },
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "Important",
+      "detail": "Flamengo sai pela direita com Plata, marcado por Arana e Serna. Ele recua com Varela, que vê Rossi. Hulk pressiona e o goleiro do Flamengo recorre ao chutão.",
+      "player": {
+        "name": "Flamengo sai pela direita com Plata, marcado por"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 89,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "Important",
+      "detail": "Hulk cobra falta perigosa para o Fluminense, Ignácio corre e cabeceia para defesa de Rossi!",
+      "player": {
+        "name": "Ignácio"
+      },
+      "assist": {
+        "name": "QUE PERIGO!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 89,
+        "extra": null
+      },
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Danilo"
+      },
+      "assist": {
+        "name": "Carrascal"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 90,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Vamos até os 52 minutos neste segundo tempo.",
+      "player": {
+        "name": "+7"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 90,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Bola levantada na área, mas Danilo fica com ela e sai arrancando. Ele passa para Plata, que devolve, e Danilo acaba se chocando com Fábio.",
+      "player": {
+        "name": "Bola levantada na área, mas Danilo fica com ela "
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 91,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Jogo é paralisado no Maracanã para atendimento a Fábio e Danilo após o choque entre os dois.",
+      "player": {
+        "name": "Jogo é paralisado no Maracanã para atendimento a"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 91,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Após um primeiro tempo sem gols e com grandes defesas de Fábio, a rede balançou na segunda etapa. Aos 19 minutos, Paquetá cruzou e Carrascal apareceu para fazer 1 a 0 para o Flamengo. O Fluminense partiu para cima e pressionou em busca do empate, criando chances perigosas com Hulk e Ignácio, que pararam em Rossi, e Serna, que desperdiçou uma oportunidade clara já nos acréscimos.",
+      "player": {
+        "name": "Fla marca e segura a pressão no fim do clássico"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 91,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "Important",
+      "detail": "Wesley Natã cruza, Léo Ortiz cabeceia para trás e deixa Serna na boa. O colombiano finaliza, mas não consegue empatar o placar no Maracanã!",
+      "player": {
+        "name": "Serna"
+      },
+      "assist": {
+        "name": "PERDEU!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 92,
+        "extra": null
+      },
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "Important",
+      "detail": "Danilo está com uma gaze na boca para estancar um sangramento. No choque, Fábio acabou batendo com o ombro na boca do zagueiro do Flamengo.",
+      "player": {
+        "name": "Danilo está com uma gaze na boca para estancar u"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 93,
+        "extra": null
+      },
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "Important",
+      "detail": "Bruno Henrique volta com Pulgar, que chama Varela. O lateral manda para Bruno Henrique, mas Flamengo não avança no gramado.",
+      "player": {
+        "name": "Bruno Henrique volta com Pulgar, que chama Varel"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 94,
+        "extra": null
+      },
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Joaquín Freitas"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 94,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O segundo tempo esquentou! Aos 19 minutos, o Flamengo abriu o placar. Paquetá cruzou na medida e Carrascal, de primeira, fez 1 a 0. A partir daí, o Fluminense se lançou ao ataque com as entradas de Hulk e Savarino. A pressão foi intensa no fim! Hulk assustou em cobrança de falta, Rossi salvou cabeçada de Ignácio e, nos acréscimos, Serna teve a bola do jogo, mas perdeu uma chance incrível.",
+      "player": {
+        "name": "Carrascal marca, e o clássico pega fogo!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 94,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Nonato passa para Serna, que é parado por falta de Joaquín Freitas.",
+      "player": {
+        "name": "Nonato passa para Serna, que é parado por falta "
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 95,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "Important",
+      "detail": "Falta distante para o Fluminense, mas Hulk opta por bater direto mesmo assim. A bola sai pela linha de fundo.",
+      "player": {
+        "name": "Falta distante para o Fluminense, mas Hulk opta "
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 96,
+        "extra": null
+      },
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "Important",
+      "detail": "Bruno Henrique abre com Plata na esquerda, que levanta para De La Cruz na entrada da área. Nonato chega e faz falta perigosa para o Flamengo!",
+      "player": {
+        "name": "Bruno Henrique abre com Plata na esquerda, que l"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 97,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Léo Pereira cobra falta, mas a bola desvia em Samuel Xavier antes de sair pela linha de fundo. Escanteio!",
+      "player": {
+        "name": "Léo Pereira cobra falta, mas a bola desvia em Sa"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 97,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O segundo tempo pegou fogo e, aos 19 minutos, a rede balançou! Paquetá cruzou na medida e Carrascal chegou batendo de primeira para abrir o placar: 1 a 0 Flamengo. O Fluminense sentiu o gol e partiu para a pressão. Com as entradas de Hulk e Savarino, o time criou chances, exigindo defesas de Rossi e levando perigo em bolas paradas. Já nos acréscimos, Serna teve a bola do empate, mas desperdiçou.",
+      "player": {
+        "name": "Carrascal marca e Fla vai vencendo o clássico!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 97,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Teremos nove minutos de acréscimos, indo até 54.",
+      "player": {
+        "name": "+2"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 98,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "Important",
+      "detail": "Bruno Henrique pressiona a saída de bola e a arbitragem aponta falta para o Fluminense.",
+      "player": {
+        "name": "Bruno Henrique pressiona a saída de bola e a arb"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 98,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Bruno Henrique e De La Cruz cobram curto. O Fluminense triplica a marcação e, no bate-rebate, o Flamengo consegue mais um escanteio.",
+      "player": {
+        "name": "Bruno Henrique e De La Cruz cobram curto. O Flum"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 99,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Termina o clássico no Maracanã: Flamengo 1 x 0 Fluminense! O Flamengo mantém a liderança do Campeonato Brasileiro!",
+      "player": {
+        "name": "FIM DE PAPO"
+      },
+      "assist": null
+    }
+  ],
   "lineups": [
     {
       "team": {
@@ -163,7 +2392,116 @@
           }
         }
       ],
-      "substitutes": []
+      "substitutes": [
+        {
+          "player": {
+            "id": "andrewventura",
+            "name": "Andrew",
+            "number": 42,
+            "pos": "Gol",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "Dyogo-Alves",
+            "name": "Dyogo Alves",
+            "number": 49,
+            "pos": "Gol",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "emerson-aparecido",
+            "name": "Emerson Royal",
+            "number": 22,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "daniloluiz",
+            "name": "Danilo",
+            "number": 13,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "vitao1",
+            "name": "Vitão",
+            "number": 44,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "johnny-goes",
+            "name": "Johnny",
+            "number": 77,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "delacruznic",
+            "name": "De la Cruz",
+            "number": 18,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "luizaraujo-mirassol",
+            "name": "Luiz Araújo",
+            "number": 7,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "valenciaal",
+            "name": "Valencia",
+            "number": 14,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "platagonz",
+            "name": "Plata",
+            "number": 19,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "bruno-henrique-pinto",
+            "name": "Bruno Henrique",
+            "number": 27,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "joaqufreitas",
+            "name": "Joaquín Freitas",
+            "number": 30,
+            "pos": "Ata",
+            "grid": null
+          }
+        }
+      ]
     },
     {
       "team": {
@@ -189,7 +2527,7 @@
           "player": {
             "id": "samuelxavier",
             "name": "Samuel Xavier",
-            "number": null,
+            "number": 2,
             "pos": "Def",
             "grid": null
           }
@@ -198,7 +2536,7 @@
           "player": {
             "id": "ignacio",
             "name": "Ignácio",
-            "number": null,
+            "number": 4,
             "pos": "Def",
             "grid": null
           }
@@ -234,7 +2572,7 @@
           "player": {
             "id": "nonato45634",
             "name": "Nonato",
-            "number": null,
+            "number": 16,
             "pos": "Mei",
             "grid": null
           }
@@ -243,7 +2581,7 @@
           "player": {
             "id": "lucianoacosta",
             "name": "Lucho Acosta",
-            "number": null,
+            "number": 32,
             "pos": "Mei",
             "grid": null
           }
@@ -259,26 +2597,288 @@
         },
         {
           "player": {
-            "id": "soteldo",
-            "name": "Soteldo",
-            "number": null,
+            "id": "rodricastillo",
+            "name": "Rodrigo Castillo",
+            "number": 19,
             "pos": "Ata",
             "grid": null
           }
         },
         {
           "player": {
-            "id": "rodricastillo",
-            "name": "Rodrigo Castillo",
-            "number": null,
+            "id": "soteldo",
+            "name": "Soteldo",
+            "number": 30,
             "pos": "Ata",
             "grid": null
           }
         }
       ],
-      "substitutes": []
+      "substitutes": [
+        {
+          "player": {
+            "id": "vitoreudes",
+            "name": "Vitor Eudes",
+            "number": 98,
+            "pos": "Gol",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "guga74567",
+            "name": "Guga",
+            "number": 23,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "thiagosilva",
+            "name": "Thiago Silva",
+            "number": 3,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "igor-rabello",
+            "name": "Igor Rabello",
+            "number": 21,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "freytes",
+            "name": "Freytes",
+            "number": 22,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "hercules-nascimento",
+            "name": "Hércules",
+            "number": 35,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "otavio-atletico-pr",
+            "name": "Otávio",
+            "number": 94,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "phganso",
+            "name": "Ganso",
+            "number": 10,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "savarino",
+            "name": "Savarino",
+            "number": 11,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "hulk",
+            "name": "Hulk",
+            "number": 7,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "wesley-nata",
+            "name": "Wesley Natã",
+            "number": 34,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "Serna",
+            "name": "Serna",
+            "number": 90,
+            "pos": "Ata",
+            "grid": null
+          }
+        }
+      ]
     }
   ],
-  "statistics": [],
+  "statistics": [
+    {
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "statistics": [
+        {
+          "type": "Ball Possession",
+          "value": "47%"
+        },
+        {
+          "type": "Total Passes",
+          "value": 438
+        },
+        {
+          "type": "Pass Accuracy",
+          "value": "90%"
+        },
+        {
+          "type": "Incomplete Passes",
+          "value": 44
+        },
+        {
+          "type": "Total Shots",
+          "value": 17
+        },
+        {
+          "type": "Shots on Goal",
+          "value": 6
+        },
+        {
+          "type": "Shots off Goal",
+          "value": 9
+        },
+        {
+          "type": "Blocked Shots",
+          "value": 2
+        },
+        {
+          "type": "Hit Woodwork",
+          "value": 0
+        },
+        {
+          "type": "Corner Kicks",
+          "value": 4
+        },
+        {
+          "type": "Offsides",
+          "value": 0
+        },
+        {
+          "type": "Penalties",
+          "value": 0
+        },
+        {
+          "type": "Goalkeeper Saves",
+          "value": 7
+        },
+        {
+          "type": "Tackles",
+          "value": 17
+        },
+        {
+          "type": "Fouls",
+          "value": 20
+        },
+        {
+          "type": "Yellow Cards",
+          "value": 3
+        },
+        {
+          "type": "Red Cards",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "statistics": [
+        {
+          "type": "Ball Possession",
+          "value": "53%"
+        },
+        {
+          "type": "Total Passes",
+          "value": 567
+        },
+        {
+          "type": "Pass Accuracy",
+          "value": "88%"
+        },
+        {
+          "type": "Incomplete Passes",
+          "value": 69
+        },
+        {
+          "type": "Total Shots",
+          "value": 12
+        },
+        {
+          "type": "Shots on Goal",
+          "value": 4
+        },
+        {
+          "type": "Shots off Goal",
+          "value": 5
+        },
+        {
+          "type": "Blocked Shots",
+          "value": 3
+        },
+        {
+          "type": "Hit Woodwork",
+          "value": 0
+        },
+        {
+          "type": "Corner Kicks",
+          "value": 2
+        },
+        {
+          "type": "Offsides",
+          "value": 0
+        },
+        {
+          "type": "Penalties",
+          "value": 0
+        },
+        {
+          "type": "Goalkeeper Saves",
+          "value": 5
+        },
+        {
+          "type": "Tackles",
+          "value": 16
+        },
+        {
+          "type": "Fouls",
+          "value": 18
+        },
+        {
+          "type": "Yellow Cards",
+          "value": 4
+        },
+        {
+          "type": "Red Cards",
+          "value": 0
+        }
+      ]
+    }
+  ],
   "sportsFieldUrl": null
 }

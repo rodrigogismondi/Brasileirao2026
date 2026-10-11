@@ -1,5 +1,6 @@
 import type {
   DashboardData,
+  LineupPlayer,
   Match,
   MatchCard,
   MatchDetail,
@@ -7,6 +8,7 @@ import type {
   MatchMoment,
   MatchStatRow,
   MatchSub,
+  TeamLineup,
 } from "./types";
 import { isMatchToday, isMatchUpcoming } from "./utils";
 
@@ -328,6 +330,7 @@ function minuteParts(display: string, seconds: number): { label: string; sortKey
 }
 
 function isGoalType(type: string): boolean {
+  if (type.includes("own-goal")) return true;
   return type === "goal" || type.startsWith("goal-") || type.startsWith("goal---");
 }
 
@@ -438,13 +441,17 @@ export function applyEspnCommentary<T extends MatchDetail>(detail: T, lances: Es
     const headline =
       lance.headline && lance.headline !== lance.text ? lance.headline : lance.text.slice(0, 72);
     if (isGoalType(lance.type) && !lance.disallowed && side) {
+      const own = /own-goal|gol contra/i.test(`${lance.type} ${lance.text}`);
+      // ESPN stamps an own goal on the team that scored; the ball belongs
+      // to the player on the other side.
+      const team: 1 | 2 = own ? (side === 1 ? 2 : 1) : side;
       const goal: MatchGoal = {
         name: lance.players[0] || headline,
         minute: lance.minuteLabel,
         assist: lance.players[1],
-        own: /own-goal|gol contra/i.test(lance.type + " " + lance.text) || undefined,
+        own: own || undefined,
       };
-      (side === 1 ? goals1 : goals2).push(goal);
+      (team === 1 ? goals1 : goals2).push(goal);
       continue;
     }
     if (/card/.test(lance.type) && side) {
@@ -634,15 +641,139 @@ export function applyEspnStats<T extends MatchDetail>(detail: T, stats: MatchSta
   return detail;
 }
 
+function espnLineupPos(abbr: string): string {
+  const p = String(abbr || "").toUpperCase();
+  if (!p || p === "SUB") return "";
+  if (["G", "GK", "GKP"].includes(p)) return "Gol";
+  if (
+    ["D", "DF", "CB", "LB", "RB", "LWB", "RWB", "L", "R", "ZC", "ZE", "ZD", "ZCD", "ZCE"].includes(
+      p
+    ) ||
+    p.startsWith("Z")
+  ) {
+    return "Def";
+  }
+  if (
+    ["M", "MF", "CM", "CDM", "CAM", "LM", "RM", "MC", "MD", "ME", "MCE", "MCD", "MA", "VOL"].includes(
+      p
+    ) ||
+    p.startsWith("M")
+  ) {
+    return "Mei";
+  }
+  if (
+    ["F", "FW", "ST", "CF", "LW", "RW", "SS", "A", "AT", "ACI", "ATCD", "ATCE"].includes(p) ||
+    p.startsWith("AT") ||
+    p.startsWith("A")
+  ) {
+    return "Ata";
+  }
+  return p.length <= 3 ? p : p.slice(0, 3);
+}
+
+function mapEspnRosterPlayer(row: {
+  jersey?: string | number;
+  athlete?: { displayName?: string; shortName?: string; jersey?: string | number };
+  position?: { abbreviation?: string };
+  formationPlace?: string | number;
+}): LineupPlayer {
+  const jersey = row.jersey ?? row.athlete?.jersey;
+  const num = jersey == null || jersey === "" ? null : Number(jersey);
+  return {
+    name: row.athlete?.displayName || row.athlete?.shortName || "?",
+    number: Number.isFinite(num) ? num : null,
+    pos: espnLineupPos(row.position?.abbreviation ?? ""),
+    grid: row.formationPlace != null ? String(row.formationPlace) : null,
+  };
+}
+
+/** Starting XI + bench from an ESPN summary. Empty when the feed has no roster. */
+export function parseEspnRosters(payload: unknown): TeamLineup[] {
+  const rows = (payload as { rosters?: unknown[] } | null)?.rosters;
+  if (!Array.isArray(rows)) return [];
+  const out: TeamLineup[] = [];
+  for (const row of rows) {
+    const side = row as {
+      homeAway?: string;
+      formation?: string;
+      team?: { displayName?: string; logo?: string };
+      roster?: Array<{
+        starter?: boolean;
+        jersey?: string | number;
+        athlete?: { displayName?: string; shortName?: string; jersey?: string | number };
+        position?: { abbreviation?: string };
+        formationPlace?: string | number;
+      }>;
+    };
+    const roster = side.roster ?? [];
+    const starters = roster
+      .filter((p) => p.starter)
+      .sort((a, b) => Number(a.formationPlace ?? 99) - Number(b.formationPlace ?? 99))
+      .map(mapEspnRosterPlayer);
+    if (!starters.length) continue;
+    out.push({
+      team: side.team?.displayName || (side.homeAway === "home" ? "Home" : "Away"),
+      logo: side.team?.logo || "",
+      formation: side.formation || "—",
+      coach: "—",
+      startXI: starters,
+      substitutes: roster.filter((p) => !p.starter).map(mapEspnRosterPlayer),
+    });
+  }
+  return out;
+}
+
+function lineupByClub(lineups: TeamLineup[], name: string): TeamLineup | undefined {
+  const key = clubKey(name);
+  return lineups.find((l) => clubKey(l.team) === key);
+}
+
+/**
+ * Prefer a complete ESPN roster (XI + bench + shirt numbers) over a GE
+ * lineup that often drops the banco and some numbers after full time.
+ */
+export function applyEspnLineups<T extends MatchDetail>(detail: T, incoming: TeamLineup[]): T {
+  if (!incoming.length) return detail;
+  const mergeSide = (name: string, logo: string): TeamLineup | null => {
+    const espn = lineupByClub(incoming, name);
+    const ge = lineupByClub(detail.lineups, name);
+    if (!espn && !ge) return null;
+    if (!espn) return ge ?? null;
+    if (!ge || espn.startXI.length >= 11) {
+      return {
+        ...espn,
+        team: ge?.team || name,
+        logo: ge?.logo || logo || espn.logo,
+        coach: ge?.coach && ge.coach !== "—" ? ge.coach : espn.coach,
+        formation: espn.formation && espn.formation !== "—" ? espn.formation : ge?.formation || "—",
+      };
+    }
+    const squad = new Set(
+      [...ge.startXI, ...ge.substitutes].map((p) => p.name).filter(Boolean)
+    );
+    const extraBench = espn.substitutes.filter((p) => !squad.has(p.name));
+    return {
+      ...ge,
+      substitutes: [...ge.substitutes, ...extraBench],
+    };
+  };
+  const home = mergeSide(detail.team1, detail.logo1);
+  const away = mergeSide(detail.team2, detail.logo2);
+  const lineups = [home, away].filter(Boolean) as TeamLineup[];
+  return lineups.length ? { ...detail, lineups } : detail;
+}
+
 export interface EspnLiveFeed {
   lances: EspnLance[];
   stats: MatchStatRow[];
+  lineups: TeamLineup[];
 }
 
 export function parseEspnLiveFeed(payload: unknown): EspnLiveFeed {
   return {
     lances: parseEspnCommentary(payload),
     stats: parseEspnStats(payload),
+    lineups: parseEspnRosters(payload),
   };
 }
 

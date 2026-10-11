@@ -312,8 +312,11 @@ function formatPos(pos: string): string {
   if (!p) return "";
   if (["G", "GK", "GKP", "GOL", "GOALKEEPER"].includes(p) || p.startsWith("GOL")) return "Gol";
   if (
-    ["D", "DF", "DEF", "DEFENDER", "CB", "LB", "RB", "LWB", "RWB"].includes(p) ||
-    p.startsWith("DEF")
+    ["D", "DF", "DEF", "DEFENDER", "CB", "LB", "RB", "LWB", "RWB", "L", "ZC", "ZE", "ZCD", "ZCE"].includes(
+      p
+    ) ||
+    p.startsWith("DEF") ||
+    (p.startsWith("Z") && p.length <= 3)
   ) {
     return "Def";
   }
@@ -358,33 +361,55 @@ function playerNameTokens(name: string): string[] {
  * Fall back to unique token shorthand (e.g. "Cano" → "Germán Cano") only when
  * a single squad member owns that token.
  */
+function longestUnique(names: string[]): string | null {
+  if (names.length === 0) return null;
+  if (names.length === 1) return names[0]!;
+  const ranked = [...names].sort(
+    (a, b) => playerNameTokens(b).length - playerNameTokens(a).length || b.length - a.length
+  );
+  const top = ranked[0]!;
+  const second = ranked[1]!;
+  if (playerNameTokens(top).length > playerNameTokens(second).length) return top;
+  return null;
+}
+
 function resolveSquadPlayer(eventName: string, squadNames: string[]): string | null {
   const ne = normPlayerName(eventName);
   if (!ne || squadNames.length === 0) return null;
 
   const exact = squadNames.filter((n) => normPlayerName(n) === ne);
-  if (exact.length === 1) return exact[0]!;
-  if (exact.length > 1) return exact[0]!;
+  if (exact.length >= 1) return exact[0]!;
 
   const et = playerNameTokens(eventName);
   if (et.length === 0) return null;
+
+  // Lineup popular name is a subset of the ESPN full name ("Giay" ⊂ "Agustín Giay").
+  const contained = squadNames.filter((n) => {
+    const tokens = playerNameTokens(n);
+    return tokens.length > 0 && tokens.every((t) => et.includes(t));
+  });
+  const bestContained = longestUnique(contained);
+  if (bestContained) return bestContained;
+
+  // Event tokens all appear on a longer lineup name.
+  const covers = squadNames.filter((n) => {
+    const tokens = playerNameTokens(n);
+    return et.every((t) => tokens.includes(t));
+  });
+  if (covers.length === 1) return covers[0]!;
+
+  // Unique surname-length token (Carrascal, Barboza). Skip short "André".
+  for (const token of [...et].reverse().filter((t) => t.length >= 4)) {
+    const owners = squadNames.filter((n) => playerNameTokens(n).includes(token));
+    if (owners.length === 1) return owners[0]!;
+  }
 
   if (et.length === 1) {
     const token = et[0]!;
     const owners = squadNames.filter((n) => playerNameTokens(n).includes(token));
     if (owners.length === 1) return owners[0]!;
-    // Ambiguous token (Eduardo vs Carlos Eduardo) — only accept a sole exact name.
-    return null;
   }
-
-  // Multi-token event name: require every token to appear, prefer unique match.
-  const hits = squadNames.filter((n) => {
-    const tokens = playerNameTokens(n);
-    return et.every((t) => tokens.includes(t));
-  });
-  if (hits.length === 1) return hits[0]!;
-  const exactMulti = hits.filter((n) => normPlayerName(n) === ne);
-  return exactMulti[0] ?? null;
+  return null;
 }
 
 function teamSquadNames(detail: MatchDetail, team: 1 | 2): string[] {
@@ -622,7 +647,8 @@ function renderLineupColumn(l: TeamLineup, detail: MatchDetail, lang: Lang): str
         ${logoImg(l.logo, l.team, 22)}
         <div>
           <strong>${escapeHtml(l.team)}</strong>
-          <span class="muted">${escapeHtml(l.formation)} · ${escapeHtml(l.coach)}</span>
+          <span class="muted md-lineup-meta">${escapeHtml(l.formation)}</span>
+          <span class="muted md-lineup-meta">${escapeHtml(l.coach)}</span>
         </div>
       </header>
       <ul class="md-xi">${renderStartingXi(l.startXI, detail, team, lang)}</ul>

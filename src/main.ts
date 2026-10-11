@@ -1,6 +1,7 @@
 import { fetchDashboard, fetchMatchDetail, matchSummaryFromList } from "./api";
 import {
   applyEspnCommentary,
+  applyEspnLineups,
   applyEspnStats,
   applyEspnToDashboard,
   espnDatesFor,
@@ -79,7 +80,10 @@ async function withLiveFeed(detail: MatchDetail | null): Promise<MatchDetail | n
     const eventId = await resolveEspnEventId(detail);
     if (!eventId) return detail;
     const feed = await loadEspnLiveFeed(eventId);
-    return applyEspnStats(applyEspnCommentary(detail, feed.lances), feed.stats);
+    return applyEspnStats(
+      applyEspnCommentary(applyEspnLineups(detail, feed.lineups), feed.lances),
+      feed.stats
+    );
   } catch (err) {
     console.warn("ESPN live feed failed", err);
     return detail;

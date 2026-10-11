@@ -1167,11 +1167,12 @@ a {
   white-space: nowrap;
 }
 
-.md-lineup-card header .muted {
+.md-lineup-card header .muted,
+.md-lineup-card header .md-lineup-meta {
   font-size: 0.7rem;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
+  white-space: normal;
+  overflow: visible;
+  line-height: 1.25;
 }
 
 .md-lineup-card h4 {

@@ -14509,12 +14509,12 @@
           "city": ""
         },
         "status": {
-          "long": "2H",
-          "short": "2H",
-          "elapsed": 64
+          "long": "FT",
+          "short": "FT",
+          "elapsed": 90
         },
-        "timerStart": "2026-10-10T22:05:28.759Z",
-        "timerStatus": "INICIADO"
+        "timerStart": "2026-10-10T22:57:22.739Z",
+        "timerStatus": "PAUSADO"
       },
       "league": {
         "round": "Regular Season - 30"
@@ -14541,8 +14541,8 @@
           "away": null
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         }
       },
       "odds": {
@@ -14561,11 +14561,11 @@
           "city": ""
         },
         "status": {
-          "long": "NS",
-          "short": "NS",
-          "elapsed": null
+          "long": "HT",
+          "short": "HT",
+          "elapsed": 45
         },
-        "timerStart": null,
+        "timerStart": "2026-10-11T00:52:06.101Z",
         "timerStatus": "PAUSADO"
       },
       "league": {
@@ -14584,8 +14584,8 @@
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 1
       },
       "score": {
         "halftime": {
@@ -14616,9 +14616,7 @@
           "long": "NS",
           "short": "NS",
           "elapsed": null
-        },
-        "timerStart": null,
-        "timerStatus": "PAUSADO"
+        }
       },
       "league": {
         "round": "Regular Season - 30"
@@ -14668,9 +14666,7 @@
           "long": "NS",
           "short": "NS",
           "elapsed": null
-        },
-        "timerStart": null,
-        "timerStatus": "PAUSADO"
+        }
       },
       "league": {
         "round": "Regular Season - 30"
@@ -14720,9 +14716,7 @@
           "long": "NS",
           "short": "NS",
           "elapsed": null
-        },
-        "timerStart": null,
-        "timerStatus": "PAUSADO"
+        }
       },
       "league": {
         "round": "Regular Season - 30"
@@ -14772,9 +14766,7 @@
           "long": "NS",
           "short": "NS",
           "elapsed": null
-        },
-        "timerStart": null,
-        "timerStatus": "PAUSADO"
+        }
       },
       "league": {
         "round": "Regular Season - 30"
@@ -14824,9 +14816,7 @@
           "long": "NS",
           "short": "NS",
           "elapsed": null
-        },
-        "timerStart": null,
-        "timerStatus": "PAUSADO"
+        }
       },
       "league": {
         "round": "Regular Season - 30"
@@ -14876,9 +14866,7 @@
           "long": "NS",
           "short": "NS",
           "elapsed": null
-        },
-        "timerStart": null,
-        "timerStatus": "PAUSADO"
+        }
       },
       "league": {
         "round": "Regular Season - 30"
@@ -14928,9 +14916,7 @@
           "long": "NS",
           "short": "NS",
           "elapsed": null
-        },
-        "timerStart": null,
-        "timerStatus": "PAUSADO"
+        }
       },
       "league": {
         "round": "Regular Season - 30"
@@ -14980,9 +14966,7 @@
           "long": "NS",
           "short": "NS",
           "elapsed": null
-        },
-        "timerStart": null,
-        "timerStatus": "PAUSADO"
+        }
       },
       "league": {
         "round": "Regular Season - 30"
@@ -18943,18 +18927,18 @@
                 "name": "São Paulo",
                 "logo": "https://s.sde.globo.com/media/organizations/2018/03/11/sao-paulo.svg"
               },
-              "points": 36,
+              "points": 37,
               "goalsDiff": -1,
-              "form": "WWLWL",
+              "form": "WLWLD",
               "description": "Copa Sudamericana",
               "all": {
-                "played": 29,
+                "played": 30,
                 "win": 10,
-                "draw": 6,
+                "draw": 7,
                 "lose": 13,
                 "goals": {
-                  "for": 33,
-                  "against": 34
+                  "for": 34,
+                  "against": 35
                 }
               }
             },
@@ -18965,18 +18949,18 @@
                 "name": "Vitória",
                 "logo": "https://s.sde.globo.com/media/organizations/2025/12/18/Vitoria_2025.svg"
               },
-              "points": 36,
+              "points": 37,
               "goalsDiff": -10,
-              "form": "LWDLW",
+              "form": "WDLWD",
               "description": null,
               "all": {
-                "played": 29,
+                "played": 30,
                 "win": 10,
-                "draw": 6,
+                "draw": 7,
                 "lose": 13,
                 "goals": {
-                  "for": 32,
-                  "against": 42
+                  "for": 33,
+                  "against": 43
                 }
               }
             },
@@ -19319,6 +19303,28 @@
     {
       "player": {
         "id": 8,
+        "name": "Calleri",
+        "photo": "https://s.sde.globo.com/media/person_role/2026/02/20/photo_140x140_2u6NnKV.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "name": "São Paulo",
+            "logo": "https://s.sde.globo.com/media/organizations/2014/04/14/sao_paulo_60x60.png"
+          },
+          "goals": {
+            "total": 9,
+            "assists": null
+          },
+          "games": {
+            "appearences": 0
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 9,
         "name": "John Kennedy",
         "photo": "https://s.sde.globo.com/media/person_role/2026/07/06/photo_140x140_FY237AY.png"
       },
@@ -19340,7 +19346,7 @@
     },
     {
       "player": {
-        "id": 9,
+        "id": 10,
         "name": "Matheus Pereira",
         "photo": "https://s.sde.globo.com/media/person_role/2025/04/01/photo_140x140_paqfi1w.png"
       },
@@ -19362,7 +19368,7 @@
     },
     {
       "player": {
-        "id": 10,
+        "id": 11,
         "name": "Luciano Juba",
         "photo": "https://s.sde.globo.com/media/person_role/2026/07/06/photo_140x140_JKUCf8p.png"
       },
@@ -19384,7 +19390,7 @@
     },
     {
       "player": {
-        "id": 11,
+        "id": 12,
         "name": "Samuel Lino",
         "photo": "https://s.sde.globo.com/media/person_role/2025/07/30/photo_140x140.png"
       },
@@ -19406,7 +19412,7 @@
     },
     {
       "player": {
-        "id": 12,
+        "id": 13,
         "name": "Renê",
         "photo": "https://s.sde.globo.com/media/person_role/2026/03/31/photo_140x140_3LaEnb6.png"
       },
@@ -19418,28 +19424,6 @@
           },
           "goals": {
             "total": 9,
-            "assists": null
-          },
-          "games": {
-            "appearences": 0
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 13,
-        "name": "Calleri",
-        "photo": "https://s.sde.globo.com/media/person_role/2026/02/20/photo_140x140_2u6NnKV.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "name": "São Paulo",
-            "logo": "https://s.sde.globo.com/media/organizations/2014/04/14/sao_paulo_60x60.png"
-          },
-          "goals": {
-            "total": 8,
             "assists": null
           },
           "games": {
@@ -20270,7 +20254,7 @@
     "mode": "live",
     "liveIntervalMs": 20000
   },
-  "fetchedAt": "2026-10-10T22:25:17.013Z",
+  "fetchedAt": "2026-10-11T01:10:18.219Z",
   "source": "ge-globo",
   "meta": {
     "rodada": 30,
@@ -20316,13 +20300,13 @@
       38
     ],
     "seasonSyncedAt": "2026-10-10T22:25:14.884Z",
-    "fullSeasonSync": true,
+    "fullSeasonSync": false,
     "edicao": "Campeonato Brasileiro 2026",
     "provider": "ge.globo.com",
     "scorersCount": 50,
-    "oddsMatched": 317,
-    "oddsPreserved": 1,
-    "oddsAvailable": 283,
+    "oddsMatched": 0,
+    "oddsPreserved": 318,
+    "oddsAvailable": 0,
     "fixturesCount": 380
   }
 }

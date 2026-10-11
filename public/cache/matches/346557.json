@@ -7,11 +7,11 @@
       "city": ""
     },
     "status": {
-      "long": "HT",
-      "short": "HT",
-      "elapsed": 45
+      "long": "FT",
+      "short": "FT",
+      "elapsed": 90
     },
-    "timerStart": "2026-10-11T00:52:06.101Z",
+    "timerStart": "2026-10-11T02:13:44.702Z",
     "timerStatus": "PAUSADO"
   },
   "league": {
@@ -30,7 +30,7 @@
     }
   },
   "goals": {
-    "home": 1,
+    "home": 2,
     "away": 1
   },
   "score": {
@@ -39,18 +39,88 @@
       "away": null
     },
     "fulltime": {
-      "home": null,
-      "away": null
+      "home": 2,
+      "away": 1
     }
   },
   "odds": {
-    "home": 1.62,
-    "draw": 3.73,
-    "away": 5.48,
+    "home": 1.72,
+    "draw": 3.46,
+    "away": 5.13,
     "source": "betexplorer"
   },
   "_geUrl": "https://ge.globo.com/sp/futebol/brasileirao-serie-a/jogo/10-10-2026/sao-paulo-vitoria.ghtml",
   "events": [
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Important",
+      "detail": "Não tenho palavras para descrever. Desculpa, é difícil conter a emoção. Foram cinco meses de muita dedicação, entrega, sofrimento, e eu não via a hora de pisar no Morumbis de novo, de ver a torcida pulando, cantando, de vestir essa camisa novamente. Eu tenho 34 anos, já passei por muita coisa nessa vida, mas hoje era como se fosse o primeiro jogo da minha vida, porque eu amo fazer isso aqui, amo vestir essa camisa. Foi uma noite muito especial para mim. Muito feliz de estar de volta, poder ajudar, vencer. Eu amo tudo isso aqui.",
+      "player": {
+        "name": "Lucas Moura"
+      },
+      "assist": {
+        "name": "Fala, Lucas"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Important",
+      "detail": "Estou muito feliz, principalmente pela vitória. A gente havia feito um jogo ruim em Belo Horizonte. Hoje era uma final para nós, no Morumbis, diante da nossa gente. Fizemos bons 20 minutos, depois do gol fomos para trás, e o Vitória conseguiu empatar. No segundo tempo, a gente não fez um bom jogo, mas fomos com vontade para ganhar o jogo. Sobrou uma boa bola e fiz o gol. Feliz pelos dois gols. É uma vitória de seis pontos para nós e estamos mais perto dos 45 pontos. É um objetivo pequeno para o São Paulo. Queremos jogar a Libertadores do próximo ano e vamos fazer de tudo para estar lá.",
+      "player": {
+        "name": "Calleri"
+      },
+      "assist": {
+        "name": "Fala, Calleri"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 287,
+        "name": "Vitória"
+      },
+      "type": "Important",
+      "detail": "A gente sabe que precisa melhorar nossas partidas fora de casa, melhorar nossa concentração dentro de campo, ficar atento aos detalhes. Um jogo desse, fora de casa, contra uma equipe qualificada, qualquer detalhe, qualquer desatenção em campo pode ser fatal. O São Paulo aproveitou as oportunidades que teve. Tivemos uma boa oportunidade no fim, não aproveitamos. Temos que seguir trabalhando de cabeça erguida. Sabemos da nossa responsabilidade, a camisa que estamos defendendo. Seguimos concentrados, temos mais oito finais. É seguir trabalhando, concentrados, buscando somar pontos. Nosso objetivo é, no fim do campeonato, deixar o Vitória na melhor posição possível.",
+      "player": {
+        "name": "Cacá"
+      },
+      "assist": {
+        "name": "Fala, Cacá!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Important",
+      "detail": "Acaba o jogo. São Paulo vence no Morumbis.",
+      "player": {
+        "name": "Apita o árbitro!"
+      },
+      "assist": null
+    },
     {
       "time": {
         "elapsed": 0,
@@ -1231,6 +1301,108 @@
         "extra": null
       },
       "team": {
+        "id": 287,
+        "name": "Vitória"
+      },
+      "type": "Important",
+      "detail": "Vitória começa com a bola no campo de ataque. Martínez tenta o drible sobre Sabino no ataque, mas é desarmado.",
+      "player": {
+        "name": "Vitória começa com a bola no campo de ataque. Ma"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 45,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Recomeça a partida.",
+      "player": {
+        "name": "Vamos para os últimos 45 minutos"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 45,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Árbitro recomeçou o jogo.",
+      "player": {
+        "name": "Árbitro recomeçou o jogo."
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 45,
+        "extra": null
+      },
+      "team": {
+        "id": 287,
+        "name": "Vitória"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Zé Vitor"
+      },
+      "assist": {
+        "name": "Matheuzinho"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 45,
+        "extra": null
+      },
+      "team": {
+        "id": 287,
+        "name": "Vitória"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Anderson Pato"
+      },
+      "assist": {
+        "name": "Caíque"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 45,
+        "extra": null
+      },
+      "team": {
+        "id": 287,
+        "name": "Vitória"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Pochettino"
+      },
+      "assist": {
+        "name": "Lucas Silva"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 45,
+        "extra": null
+      },
+      "team": {
         "id": 0,
         "name": ""
       },
@@ -1251,9 +1423,57 @@
         "name": ""
       },
       "type": "Important",
+      "detail": "Gustavo Santana rouba a bola de Cacá e deixa com Artur. O atacante tenta o lançamento, mas erra. Na sequência, fica no chão com a mão no tornozelo esquerdo.",
+      "player": {
+        "name": "Gustavo Santana rouba a bola de Cacá e deixa com"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 46,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
       "detail": "Equipes apostam nos chutões. Momento feio na partida.",
       "player": {
         "name": "Equipes apostam nos chutões. Momento feio na par"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 47,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Matheuzinho recebe boa bola no ataque, gira sobre a marcação e adianta. Bráulio viu toque de mão na origem da jogada e marca falta.",
+      "player": {
+        "name": "Matheuzinho recebe boa bola no ataque, gira sobr"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 47,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Jogador está de volta ao gramado.",
+      "player": {
+        "name": "Jogador está de volta ao gramado."
       },
       "assist": null
     },
@@ -1301,6 +1521,38 @@
         "name": ""
       },
       "type": "Important",
+      "detail": "O São Paulo impôs um ritmo forte desde o início e abriu o placar com um belo gol de cabeça de Calleri aos 19 minutos. O Vitória, que mal conseguia atacar, equilibrou o jogo e buscou o empate aos 38, em chute de Martínez que desviou na zaga e enganou o goleiro, fechando o primeiro tempo em 1 a 1. A partida recomeçou agora para a segunda etapa com o placar totalmente indefinido.",
+      "player": {
+        "name": "Jogo agitado e tudo igual no Morumbis"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 48,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Erick lança Renê no ataque. O atacante tenta a finta sobre Newton, puxa para o meio e arrisca, mas o defensor consegue bloquear.",
+      "player": {
+        "name": "Erick lança Renê no ataque. O atacante tenta a f"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 48,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
       "detail": "Artur cobra mal a falta e a bola sai para tiro de meta.",
       "player": {
         "name": "Artur cobra mal a falta e a bola sai para tiro d"
@@ -1333,9 +1585,57 @@
         "name": ""
       },
       "type": "Important",
+      "detail": "Jamerson cobra lateral para Renê, mas o atacante não consegue o domínio.",
+      "player": {
+        "name": "Jamerson cobra lateral para Renê, mas o atacante"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 49,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
       "detail": "Renê ganha lateral no campo de ataque.",
       "player": {
         "name": "Renê ganha lateral no campo de ataque."
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 50,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O primeiro tempo foi de domínio do São Paulo, que abriu o placar aos 19 minutos com um belo gol de cabeça de Calleri. A equipe da casa pressionou e criou várias chances, mas viu o Vitória crescer na partida. Aos 38, Martínez chutou de fora, a bola desviou e enganou o goleiro, deixando tudo igual: 1 a 1. Com o segundo tempo recém-iniciado, o Vitória já levou perigo em chute de Jamerson.",
+      "player": {
+        "name": "Tudo igual no Morumbis após gols no 1º tempo"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 50,
+        "extra": null
+      },
+      "team": {
+        "id": 287,
+        "name": "Vitória"
+      },
+      "type": "Important",
+      "detail": "A defesa do São Paulo perde a bola e o Vitória recupera. Jamerson recebe na esquerda e arrisca de fora da área. O chute sai ao lado da trave esquerda de Rafael.",
+      "player": {
+        "name": "Jamerson"
       },
       "assist": null
     },
@@ -1368,6 +1668,1048 @@
       "detail": "Bráulio não espera a cobrança e termina o primeiro tempo.",
       "player": {
         "name": "Apita o árbitro!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 51,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O segundo tempo começa com o placar em 1 a 1. O São Paulo pressionou e abriu o placar com Calleri, de cabeça, após cruzamento de Iago. O Vitória reagiu, cresceu no jogo e buscou o empate com Emmanuel Martínez, em chute de fora da área que desviou na zaga. Com 6 minutos da etapa final, o time visitante já levou perigo em um contra-ataque veloz que passou raspando a trave.",
+      "player": {
+        "name": "Jogo aberto e tudo igual no Morumbis!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 51,
+        "extra": null
+      },
+      "team": {
+        "id": 287,
+        "name": "Vitória"
+      },
+      "type": "Important",
+      "detail": "O atacante puxa contra-ataque sozinho, acelera no campo de ataque e chega na meia -lua. O camisa 20 arrisca e a bola passa perto do gol, mas vai para fora.",
+      "player": {
+        "name": "Lucas Silva"
+      },
+      "assist": {
+        "name": "Quase!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 52,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "São Paulo insiste no ataque com bolas cruzadas. Defesa do Vitória consegue afastar.",
+      "player": {
+        "name": "São Paulo insiste no ataque com bolas cruzadas. "
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 53,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Djhordney tenta o cruzamneto e a defesa afasta. A bola sobra para Artur, que tenta avançar pela linha de fundo. Martínez joga para lateral.",
+      "player": {
+        "name": "Djhordney tenta o cruzamneto e a defesa afasta. "
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 54,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O São Paulo começou com tudo e abriu o placar aos 19 minutos com Calleri, de cabeça, após cruzamento de Iago. O time da casa seguiu pressionando, mas o Vitória cresceu no jogo e buscou o empate ainda no primeiro tempo: Martínez chutou de fora da área, a bola desviou e enganou o goleiro. O segundo tempo recomeçou com o time baiano mais perigoso, já criando boas chances em contra-ataques.",
+      "player": {
+        "name": "Gols e emoção: tudo igual no Morumbis"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 54,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Sabino tenta o cruzamento para Lucas Ramon na esquerda e Jamerson tira de cabeça.",
+      "player": {
+        "name": "Sabino tenta o cruzamento para Lucas Ramon na es"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 55,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Renê é lançado em profundidade novamente por Erick. O atacante disputa em prfundidade com Newton. O zagueiro faz o bote e o árbitro marca a falta.",
+      "player": {
+        "name": "Renê é lançado em profundidade novamente por Eri"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 56,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Arboleda disputa com Erick no campo de defesa e ganha um lateral.",
+      "player": {
+        "name": "Arboleda disputa com Erick no campo de defesa e "
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 56,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Mateus Silva cobra, ninguém cabeceia e a bola vai para fora.",
+      "player": {
+        "name": "Mateus Silva cobra, ninguém cabeceia e a bola va"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 58,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Marcos Antônio"
+      },
+      "assist": {
+        "name": "Lucas Ramon"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 58,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Lucas Moura"
+      },
+      "assist": {
+        "name": "Djhordney"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 58,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Iago tenta a jogada individual pela esquerda, chega na linha de fundo e Mateus Silva corta com um carrinho. Árbitro manda o jogo seguir.",
+      "player": {
+        "name": "Iago tenta a jogada individual pela esquerda, ch"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 58,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O São Paulo dominou o início e abriu o placar aos 19 minutos, com Calleri subindo para cabecear após cruzamento de Iago. O Vitória equilibrou as ações e buscou o empate aos 38, quando Martínez chutou de fora da área, a bola desviou e enganou o goleiro. Com 13 minutos do segundo tempo, o placar de 1 a 1 reflete uma partida mais aberta, com os visitantes perigosos nos contra-ataques.",
+      "player": {
+        "name": "Equilíbrio e gols marcam o jogo no Morumbis"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 58,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Calleri tabela com Gustavo Santana no meio de campo. O atacante é derrubado e fica no chão.",
+      "player": {
+        "name": "Calleri tabela com Gustavo Santana no meio de ca"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 59,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Iago cobra lateral para Lucas, que tenta devolver, mas joga para fora. Primeiro lance do meia na partida.",
+      "player": {
+        "name": "Iago cobra lateral para Lucas, que tenta devolve"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 61,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O placar segue 1 a 1 em uma partida movimentada. O São Paulo dominou o início e abriu o placar com um belo gol de cabeça de Calleri aos 19 minutos. O Vitória não se intimidou e buscou o empate ainda na primeira etapa, com um chute de Martínez que desviou e enganou o goleiro. Aos 16 do segundo tempo, o duelo está mais equilibrado, e o Tricolor já colocou Lucas Moura em campo para tentar a vitória.",
+      "player": {
+        "name": "Jogo aberto no Morumbis: tudo igual!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 61,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Important",
+      "detail": "Artur fica com a bola no ataque e parte para cima da marcação. O atacante vai para lá e para cá até conseguir o cruzamento. Iago chega à área, tenta finalizar de ombro, mas a bola sai pela linha de fundo.",
+      "player": {
+        "name": "Iago"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 62,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Calleri disputa dentro da grande área com Caíque e faz falta de ataque.",
+      "player": {
+        "name": "Calleri disputa dentro da grande área com Caíque"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 63,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Mateus Silva se desentende com Gustavo Santana e 'empurra' o jogador até a lateral. Atacante reclamou.",
+      "player": {
+        "name": "Mateus Silva se desentende com Gustavo Santana e"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 64,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Que jogo no Morumbis! O São Paulo pressionou e abriu o placar com Calleri, de cabeça. Mas o Vitória não se intimidou e buscou o empate em chute de Martínez que desviou na zaga. O segundo tempo começou com o time baiano assustando em finalizações perigosas. Aos 19 minutos, a partida segue 1 a 1 e completamente indefinida, com Artur criando chances e Calleri quase desempatando.",
+      "player": {
+        "name": "Jogo aberto e tudo igual no Morumbis!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 64,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Important",
+      "detail": "Artur, novamente, faz jogada pela esquerda, puxa para dentro e cruza fechado. A bola passa em frente ao gol, Calleri se joga, mas não consegue alcançar. Por pouco o argentino não finaliza.",
+      "player": {
+        "name": "Calleri"
+      },
+      "assist": {
+        "name": "Por pouco"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 65,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Lucas tabela com Marcos Antônio no meio de campo, que aciona Artur em velocidade no ataque. O camisa 37 tenta a finta sobre Jamerson para puxar e finalizar, mas o defesnor consegue tirar.",
+      "player": {
+        "name": "Lucas tabela com Marcos Antônio no meio de campo"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 67,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O duelo segue empatado em 1 a 1 aos 22 minutos da etapa final. O São Paulo abriu o placar com um gol de cabeça de Calleri após dominar o início, mas viu o Vitória crescer e empatar com Emmanuel Martínez, em chute desviado. No segundo tempo, o Tricolor voltou a pressionar, com a entrada de Lucas Moura, e quase marcou com Iago e em uma chance que Calleri não alcançou por pouco.",
+      "player": {
+        "name": "Jogo aberto e tudo igual no Morumbis!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 67,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Mateus Silva tabela com Renê, que ao invés de devolver, gira sobre a marcação e chuta. A bola pega na marcação e sai para escanteio.",
+      "player": {
+        "name": "Mateus Silva tabela com Renê, que ao invés de de"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 68,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Jamerson faz boa jogada pelo meio, tenta a tabela com Pochettino, mas o argentino erra o passe. No contra-ataque, a defesa precisa afastar para lateral.",
+      "player": {
+        "name": "Jamerson faz boa jogada pelo meio, tenta a tabel"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 69,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Jogo intenso no Morumbis! Calleri abriu o placar de cabeça para o São Paulo, mas o Vitória buscou o empate ainda no primeiro tempo com Martínez, em chute que desviou na zaga. A segunda etapa começou equilibrada, mas aos 24 minutos o Tricolor voltou à frente. Após grande jogada, Gustavo Santana exigiu defesaça de Lucas Arcanjo, e Calleri não perdoou no rebote para fazer 2 a 1.",
+      "player": {
+        "name": "Calleri marca de novo e vira o placar!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 69,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "player": {
+        "name": "Calleri"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 72,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Important",
+      "detail": "Após um primeiro tempo de 1 a 1, o jogo voltou equilibrado. O São Paulo fez mudanças, com Lucas Moura entrando bem e participando da jogada que recolocou o time na frente aos 24 minutos. Após chute de Bobadilla e um voleio de Gustavo Santana defendido por Lucas Arcanjo, Calleri aproveitou o rebote para fazer 2 a 1 e seu segundo no jogo. O Tricolor segue pressionando em busca de mais.",
+      "player": {
+        "name": "Calleri decide e recoloca o São Paulo na frente!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 72,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Important",
+      "detail": "Iago puxa contra-ataque e encontra Lucas na área. O meia passa para Bobadilla, que cruza. Calleri ajeita de cabeça para a pequena área, e Gustavo Santana chega de peixinho, mas a bola sai à direita de Lucas Arcanjo.",
+      "player": {
+        "name": "Gustavo Santana"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 73,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Iago pressiona Erick no campo de ataque, fica com a bola e sai sozinho contra a marcação. No entanto, Bráulio marca a falta.",
+      "player": {
+        "name": "Iago pressiona Erick no campo de ataque, fica co"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 75,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Pedro Ferreira"
+      },
+      "assist": {
+        "name": "Gustavo Santana"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 75,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Após um primeiro tempo com gols de Calleri e Martínez, o São Paulo retoma a vantagem! Aos 24 da etapa final, Gustavo Santana emendou um voleio, Lucas Arcanjo fez milagre, mas no rebote, Calleri marcou seu segundo gol e fez 2 a 1. Perto dos 30 minutos, o Tricolor cresceu com as substituições e pressiona, enquanto o Vitória busca forças para reagir no Morumbis.",
+      "player": {
+        "name": "Calleri brilha e recoloca o Tricolor na frente!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 75,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Pedro Lima"
+      },
+      "assist": {
+        "name": "Artur"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 76,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Renê tenta jogada individual no ataque, corta para o meio, divide com Sabino e cai. Bráulio manda seguir.",
+      "player": {
+        "name": "Renê tenta jogada individual no ataque, corta pa"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 76,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Sabino"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 77,
+        "extra": null
+      },
+      "team": {
+        "id": 287,
+        "name": "Vitória"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Renato Kayzer"
+      },
+      "assist": {
+        "name": "Renê"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 77,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Iago"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 77,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Pedro Ferreira recebe bom passe na intermediária, gira, finaliza de fora da área e a bola explode na marcação.",
+      "player": {
+        "name": "Pedro Ferreira recebe bom passe na intermediária"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 79,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Após um primeiro tempo de domínio do São Paulo, com Calleri abrindo o placar de cabeça, o Vitória achou o empate com Martínez em um chute desviado. A partida seguiu intensa na segunda etapa e, aos 24 minutos, após um voleio espetacular de Gustavo Santana e grande defesa de Lucas Arcanjo, a bola sobrou limpa para Calleri, que não perdoou e colocou o Tricolor na frente novamente: 2 a 1.",
+      "player": {
+        "name": "Calleri decide e São Paulo vira o jogo!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 79,
+        "extra": null
+      },
+      "team": {
+        "id": 287,
+        "name": "Vitória"
+      },
+      "type": "Important",
+      "detail": "Vitória troca passes no campo de defesa.",
+      "player": {
+        "name": "Vitória troca passes no campo de defesa."
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 80,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Erick tabela com Mateus Silva, avança em direção a grande área, mas Sabino aparece e afasta o perigo.",
+      "player": {
+        "name": "Erick tabela com Mateus Silva, avança em direção"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 81,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Pedro Lima faz jogada pela direita, recua para Lucas Moura, que na entrada da área, dá passe milimétrico para o lateral-direito na área. Arcanjo sai em velocidade e consegue ficar com a bola.",
+      "player": {
+        "name": "Pedro Lima faz jogada pela direita, recua para L"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 82,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O duelo é movimentado no Morumbis! O São Paulo abriu o placar com Calleri de cabeça após pressionar no início. O Vitória equilibrou e empatou com Martínez em chute desviado. No segundo tempo, aos 24 minutos, a insistência tricolor deu resultado: após defesa de Arcanjo em voleio de Gustavo Santana, Calleri apareceu no rebote para fazer 2 a 1, seu segundo no jogo. A partida se aproxima do fim.",
+      "player": {
+        "name": "Calleri marca de novo e vira para o São Paulo!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 82,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Lucas distribui novamente no meio de campo e aciona Iago pela esquerda. O lateral tenta o cruzamento rasteiro e ganha escanteio.",
+      "player": {
+        "name": "Lucas distribui novamente no meio de campo e aci"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 83,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Pedro Lima cruza, Calleri domina, mas perde a bola. O Vitória ensaia um contra-ataque, mas a defesa do São Paulo consegue recuperar.",
+      "player": {
+        "name": "Pedro Lima cruza, Calleri domina, mas perde a bo"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 83,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Rafael Tolói"
+      },
+      "assist": {
+        "name": "Bobadilla"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 84,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Erick encontra Martínez, que aciona Kayser no ataque. O jogador faz a parede para Mateus Silva, que dentro da grande área, fianliza, mas divide com Iago. O lateral está no chão.",
+      "player": {
+        "name": "Erick encontra Martínez, que aciona Kayser no at"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 86,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Público pagante: 22.603 torcedores Renda: R$ 861.880,00",
+      "player": {
+        "name": "Público E Renda"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 86,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Que partida no Morumbis! O São Paulo abriu o placar com Calleri de cabeça aos 19 minutos, mas o Vitória reagiu e empatou ainda no primeiro tempo com Martínez, em chute que desviou na zaga. Já na segunda etapa, aos 24, o artilheiro argentino apareceu de novo: após grande defesa de Lucas Arcanjo em voleio de Gustavo Santana, Calleri conferiu no rebote e colocou o Tricolor na frente por 2 a 1.",
+      "player": {
+        "name": "Calleri brilha e vira o jogo para o São Paulo"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 86,
+        "extra": null
+      },
+      "team": {
+        "id": 287,
+        "name": "Vitória"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Renato Kayzer"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 87,
+        "extra": null
+      },
+      "team": {
+        "id": 287,
+        "name": "Vitória"
+      },
+      "type": "Important",
+      "detail": "Vitória troca passes no campo de defesa.",
+      "player": {
+        "name": "Vitória troca passes no campo de defesa."
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 89,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Que jogo no Morumbis! O São Paulo abriu o placar com Calleri de cabeça, mas viu o Vitória empatar com Martínez, em chute desviado que enganou Rafael. O segundo tempo seguiu disputado, até que a estrela do argentino brilhou de novo: aos 24 minutos, Calleri aproveitou rebote na área para marcar seu segundo no jogo e deixar o placar em 2 a 1, colocando o Tricolor em vantagem na reta final.",
+      "player": {
+        "name": "Calleri decide e São Paulo vira o jogo!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 89,
+        "extra": null
+      },
+      "team": {
+        "id": 287,
+        "name": "Vitória"
+      },
+      "type": "Important",
+      "detail": "Pato fica com a bola na intermediária e, mesmo de muito longe, arrisca do meio da rua. A bola passa por cima do gol.",
+      "player": {
+        "name": "Anderson Pato"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 89,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O jogo no Morumbis é intenso! Calleri abriu o placar para o São Paulo de cabeça no primeiro tempo, mas Martínez empatou para o Vitória em chute que desviou na zaga. Na segunda etapa, a partida seguiu equilibrada até os 24 minutos. Após grande defesa de Lucas Arcanjo em voleio de Gustavo Santana, Calleri apareceu no rebote para marcar seu segundo gol e deixar o placar em 2 a 1 para o Tricolor.",
+      "player": {
+        "name": "Calleri brilha e São Paulo vira o jogo!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 89,
+        "extra": null
+      },
+      "team": {
+        "id": 287,
+        "name": "Vitória"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Alex Bruno"
+      },
+      "assist": {
+        "name": "Emmanuel Martínez"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 91,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Após um primeiro tempo que terminou 1 a 1, com gol de Calleri para o São Paulo e empate de Martínez para o Vitória, a segunda etapa foi eletrizante. Aos 24 minutos, Calleri marcou de novo no rebote de grande defesa de Lucas Arcanjo, colocando o Tricolor na frente: 2 a 1. A emoção ficou para o final, quando Rafael operou um milagre em chute de Mateus Silva e segurou a vitória parcial.",
+      "player": {
+        "name": "São Paulo vira e Rafael salva no fim!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 91,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Important",
+      "detail": "Pato cruza, Alex Bruno trisca de cabeça na área, e a bola sobra para Mateus Silva. Cara a cara com Rafael, o lateral chuta forte, mas o goleiro faz uma defesaça.",
+      "player": {
+        "name": "Rafael"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 92,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Marcos Antônio"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 92,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "+7 minutos.",
+      "player": {
+        "name": "Acréscimos"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 93,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Vitória insiste em chuveirinho, enquanto o São Paulo se protege como pode.",
+      "player": {
+        "name": "Vitória insiste em chuveirinho, enquanto o São P"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 95,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Jogo eletrizante no Morumbis! O São Paulo abriu o placar com Calleri de cabeça, mas o Vitória buscou o empate com Martínez em chute desviado. No segundo tempo, aos 24 minutos, Calleri aproveitou rebote de grande defesa de Lucas Arcanjo para fazer 2 a 1. Já nos acréscimos, o Vitória pressionou e Rafael fez uma defesa espetacular para manter a vantagem tricolor no placar.",
+      "player": {
+        "name": "Calleri decide e o São Paulo segura a vantagem!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 95,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Lucas Moura ganha a bola de Zé Vitor e encontra Marcos Antônio. O meia tenta segurar a posse e recebe a falta.",
+      "player": {
+        "name": "Lucas Moura ganha a bola de Zé Vitor e encontra "
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 96,
+        "extra": null
+      },
+      "team": {
+        "id": 287,
+        "name": "Vitória"
+      },
+      "type": "Important",
+      "detail": "Ataque do Vitória troca passes no campo de ataque. Mesmo com todos os jogadores dentro da área, Zé Vitor arrisca do meio de campo e isola.",
+      "player": {
+        "name": "Ataque do Vitória troca passes no campo de ataqu"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 96,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Marcos Antônio cruza, Calleri tenta o cabeceio, mas Luan Cândido aparece e corta de cabeça.",
+      "player": {
+        "name": "Marcos Antônio cruza, Calleri tenta o cabeceio, "
       },
       "assist": null
     }
@@ -1827,35 +3169,35 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "58%"
+          "value": "56%"
         },
         {
           "type": "Total Passes",
-          "value": 255
+          "value": 473
         },
         {
           "type": "Pass Accuracy",
-          "value": "80%"
+          "value": "81%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 51
+          "value": 90
         },
         {
           "type": "Total Shots",
-          "value": 12
+          "value": 20
         },
         {
           "type": "Shots on Goal",
-          "value": 4
+          "value": 6
         },
         {
           "type": "Shots off Goal",
-          "value": 7
+          "value": 9
         },
         {
           "type": "Blocked Shots",
-          "value": 1
+          "value": 5
         },
         {
           "type": "Hit Woodwork",
@@ -1863,7 +3205,7 @@
         },
         {
           "type": "Corner Kicks",
-          "value": 5
+          "value": 6
         },
         {
           "type": "Offsides",
@@ -1875,19 +3217,19 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 0
+          "value": 3
         },
         {
           "type": "Tackles",
-          "value": 7
+          "value": 18
         },
         {
           "type": "Fouls",
-          "value": 6
+          "value": 13
         },
         {
           "type": "Yellow Cards",
-          "value": 2
+          "value": 5
         },
         {
           "type": "Red Cards",
@@ -1903,35 +3245,35 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "42%"
+          "value": "44%"
         },
         {
           "type": "Total Passes",
-          "value": 169
+          "value": 342
         },
         {
           "type": "Pass Accuracy",
-          "value": "71%"
+          "value": "76%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 49
+          "value": 83
         },
         {
           "type": "Total Shots",
-          "value": 3
+          "value": 11
         },
         {
           "type": "Shots on Goal",
-          "value": 1
-        },
-        {
-          "type": "Shots off Goal",
           "value": 2
         },
         {
+          "type": "Shots off Goal",
+          "value": 7
+        },
+        {
           "type": "Blocked Shots",
-          "value": 0
+          "value": 2
         },
         {
           "type": "Hit Woodwork",
@@ -1939,7 +3281,7 @@
         },
         {
           "type": "Corner Kicks",
-          "value": 0
+          "value": 2
         },
         {
           "type": "Offsides",
@@ -1951,19 +3293,19 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 6
+          "value": 9
         },
         {
           "type": "Tackles",
-          "value": 5
+          "value": 12
         },
         {
           "type": "Fouls",
-          "value": 4
+          "value": 12
         },
         {
           "type": "Yellow Cards",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Red Cards",

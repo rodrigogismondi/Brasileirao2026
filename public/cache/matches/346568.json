@@ -7,12 +7,12 @@
       "city": ""
     },
     "status": {
-      "long": "1H",
-      "short": "1H",
-      "elapsed": 9
+      "long": "FT",
+      "short": "FT",
+      "elapsed": 90
     },
-    "timerStart": "2026-10-11T22:31:13.387Z",
-    "timerStatus": "INICIADO"
+    "timerStart": "2026-10-12T00:41:31.414Z",
+    "timerStatus": "PAUSADO"
   },
   "league": {
     "round": "Regular Season - 30"
@@ -30,7 +30,7 @@
     }
   },
   "goals": {
-    "home": 0,
+    "home": 1,
     "away": 0
   },
   "score": {
@@ -39,18 +39,168 @@
       "away": null
     },
     "fulltime": {
-      "home": null,
-      "away": null
+      "home": 1,
+      "away": 0
     }
   },
   "odds": {
-    "home": 1.64,
-    "draw": 3.92,
-    "away": 4.77,
+    "home": 1.66,
+    "draw": 3.96,
+    "away": 4.82,
     "source": "betexplorer"
   },
   "_geUrl": "https://ge.globo.com/ba/futebol/brasileirao-serie-a/jogo/11-10-2026/bahia-mirassol.ghtml",
   "events": [
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 265,
+        "name": "Bahia"
+      },
+      "type": "Important",
+      "detail": "\"Antes dos jogos a gente recebe uma lista dos possíveis batedores. Acho que é o segundo pênalti que Reinaldo perdeu na carreira dele. O estudo mostrou que tinha mais chance dele bater aberto, era o último lance do jogo, ele foi para o pênalti de confiança dele. Quando vi que ele chutou para fora, fiquei muito feliz, a sorte acompanha os que trabalham\".",
+      "player": {
+        "name": "Fala, Ronaldo!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 2305,
+        "name": "Mirassol"
+      },
+      "type": "Important",
+      "detail": "\"A gente já sabia que ia ser um jogo difícil. Nosso primeiro tempo não foi bom, mas fizemos fomos melhores no segundo tempo. Sobre o Reinaldo, não tem o que falar dele, fez uma ótima partida, errar faz parte, pênalti faz parte. Vamos seguir em frente que tem muito Campeonato pela frente\".",
+      "player": {
+        "name": "Fala, Igor Formiga!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Bahia 1 x 0 Mirassol.",
+      "player": {
+        "name": "Placar final"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 2305,
+        "name": "Mirassol"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Eduardo"
+      },
+      "assist": {
+        "name": "Chico Kim"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 2305,
+        "name": "Mirassol"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Shaylon"
+      },
+      "assist": {
+        "name": "Alesson"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 2305,
+        "name": "Mirassol"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Edson Carioca"
+      },
+      "assist": {
+        "name": "Gustavo Mosquito"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 265,
+        "name": "Bahia"
+      },
+      "type": "Important",
+      "detail": "O primeiro tempo foi dominado pelo Bahia, que controlou as ações do jogo, teve volume ofensivo e praticamente não sofreu. Aos dez minutos Marcos Victor balançou as redes, mas estava em posição irregular e o gol foi anulado. Logo depois Jean Lucas acertou a trave, e as chances continuaram até Reinaldo tocar com o braço na bola dentro da área. Luciano Juba foi para a cobrança e colocou o time da casa na frente do placar aos 37 minutos. No último lance da etapa inicial, Alejo Veliz quase aumentou o placar de cabeça.",
+      "player": {
+        "name": "O jogo até aqui"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 265,
+        "name": "Bahia"
+      },
+      "type": "Important",
+      "detail": "\"Acho que o primeiro tempo a gente teve controle do jogo, chegamos bastante, fizemos gol anulado, bola na trave. Fico feliz de marcar mais um gol com essa camisa, vamos ouvir o Rogério agora para acertar o que precisa e se Deus quiser sair com o triunfo\".",
+      "player": {
+        "name": "Fala, Juba!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 2305,
+        "name": "Mirassol"
+      },
+      "type": "Important",
+      "detail": "\"A gente estava tentando fazer o que treinou, ficar com a bola, diminuir a velocidade deles. Na minha visão não foi pênalti. O juiz fez uma boa leitura, aí veio o VAR e atrapalhou ele\".",
+      "player": {
+        "name": "Fala, Chico Kim!"
+      },
+      "assist": null
+    },
     {
       "time": {
         "elapsed": 0,
@@ -157,9 +307,1455 @@
         "name": ""
       },
       "type": "Important",
+      "detail": "O jogo começou com o Bahia tomando a iniciativa na Fonte Nova. Com quase 10 minutos, o time da casa já acumula chegadas ao ataque, principalmente com Erick Pulga e Cristian Olivera. A melhor chance surgiu quando Olivera serviu Pulga, que chutou para fora. O Mirassol se concentra em conter a pressão inicial e ainda não conseguiu responder, se segurando na defesa.",
+      "player": {
+        "name": "Bahia dita o ritmo nos primeiros minutos"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 7,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
       "detail": "Bahia trocas passes e busca espaços na defesa do Mirassol.",
       "player": {
         "name": "Bahia trocas passes e busca espaços na defesa do"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 9,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O jogo começou com o Bahia tomando a iniciativa e pressionando o Mirassol em seu campo de defesa. Erick Pulga teve uma boa chance de abrir o placar, mas chutou para fora. Aos 9 minutos, a rede até balançou com Marcos Victor, mas o VAR entrou em ação e anulou o gol por impedimento. O placar segue 0 a 0, mas com o time da casa dominando completamente o início da partida na Fonte Nova.",
+      "player": {
+        "name": "Gol anulado e pressão do Bahia"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 9,
+        "extra": null
+      },
+      "team": {
+        "id": 265,
+        "name": "Bahia"
+      },
+      "type": "Important",
+      "detail": "O Bahia balança as redes com Marcos Victor, mas o zagueiro é flagrado em posição irregular pelo árbitro de vídeo.",
+      "player": {
+        "name": "Marcos Victor"
+      },
+      "assist": {
+        "name": "Gol anulado!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 12,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Bahia começou impondo o ritmo na Fonte Nova, com investidas pelas pontas e cruzamentos para a área do Mirassol. A primeira boa chance veio aos 4 minutos, em chute para fora de Erick Pulga. O momento de maior emoção foi aos 9, quando Marcos Victor balançou a rede, mas o lance foi invalidado pelo VAR por impedimento. O Mirassol se segura na defesa e o jogo segue 0 a 0.",
+      "player": {
+        "name": "Bahia pressiona e tem gol anulado"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 12,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Neto Moura rouba bola no meio de campo, mas é desmardo por Marcos Victor na sequência.",
+      "player": {
+        "name": "Neto Moura rouba bola no meio de campo, mas é de"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 14,
+        "extra": null
+      },
+      "team": {
+        "id": 265,
+        "name": "Bahia"
+      },
+      "type": "Important",
+      "detail": "Kike Olivera erra passe no campo de ataque e Alejo Veliz recupera a bola. Na sequência do lance o camisa nove ganha um escanteio para o Bahia.",
+      "player": {
+        "name": "Kike Olivera erra passe no campo de ataque e Ale"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 15,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Bahia começou a partida na Fonte Nova com um ritmo forte. Com 15 minutos de jogo, o time da casa já criou chances com Erick Pulga e Alejo Véliz, que finalizaram para fora. A pressão resultou em um gol de Marcos Victor aos 9 minutos, mas o lance foi invalidado por impedimento após revisão do VAR. O Mirassol se defende como pode e ainda não conseguiu assustar no ataque.",
+      "player": {
+        "name": "Bahia pressiona e tem gol anulado"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 15,
+        "extra": null
+      },
+      "team": {
+        "id": 2305,
+        "name": "Mirassol"
+      },
+      "type": "Important",
+      "detail": "Nestor cobra escanteio e David Duarte cabeceia para fora.",
+      "player": {
+        "name": "Nestor cobra escanteio e David Duarte cabeceia p"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 17,
+        "extra": null
+      },
+      "team": {
+        "id": 265,
+        "name": "Bahia"
+      },
+      "type": "Important",
+      "detail": "Alejo Veliz é desarmado por Willian Machado, mas o Bahia ganha um lateral no campo de ataque.",
+      "player": {
+        "name": "Alejo Veliz é desarmado por Willian Machado, mas"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 18,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Começo de jogo com domínio total do Bahia na Fonte Nova. A equipe da casa pressiona desde o apito inicial, criando chances com Erick Pulga e Alejo Veliz. A rede chegou a balançar aos 9 minutos com Marcos Victor, mas o gol foi anulado por impedimento. O Mirassol se concentra na defesa para tentar segurar o ímpeto do time baiano nestes primeiros minutos de partida.",
+      "player": {
+        "name": "Bahia pressiona e tem gol anulado no início"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 18,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Pulga puxa contra-ataque desde o campo de defesa, mas erra passe para Kike Olivera na entrada da área.",
+      "player": {
+        "name": "Pulga puxa contra-ataque desde o campo de defesa"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 20,
+        "extra": null
+      },
+      "team": {
+        "id": 265,
+        "name": "Bahia"
+      },
+      "type": "Important",
+      "detail": "Lateral para o Bahia no campo de defesa.",
+      "player": {
+        "name": "Lateral para o Bahia no campo de defesa."
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 22,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Que início de pressão do Bahia na Fonte Nova! O time da casa domina completamente as ações nos primeiros 20 minutos. Aos 9, Marcos Victor chegou a balançar as redes, mas o gol foi anulado por impedimento. A insistência continuou e, aos 22 minutos, Jean Lucas carimbou a trave em cabeceio perigoso. O Mirassol se defende como pode e ainda não conseguiu responder ao volume de jogo do adversário.",
+      "player": {
+        "name": "Bahia pressiona, mas o gol não sai"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 22,
+        "extra": null
+      },
+      "team": {
+        "id": 265,
+        "name": "Bahia"
+      },
+      "type": "Important",
+      "detail": "Luciano Juba faz cruzamento na medida e encontra Jean Lucas, que cabeceia sem contestação, mas acerta a trave. No rebote, a bola bate no próprio jogador do Bahia e sai pela linha de fundo.",
+      "player": {
+        "name": "NA TRAVE!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 25,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Bahia domina completamente as ações nestes primeiros 25 minutos na Fonte Nova. A equipe da casa já teve um gol de Marcos Victor anulado pelo VAR e carimbou a trave em cabeçada de Jean Lucas. Erick Pulga e Alejo Véliz também levaram perigo, enquanto o Mirassol se segura na defesa e tenta resistir à forte pressão inicial dos mandantes. O placar segue zerado por muito pouco.",
+      "player": {
+        "name": "Bahia pressiona, tem gol anulado e acerta a trave"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 25,
+        "extra": null
+      },
+      "team": {
+        "id": 2305,
+        "name": "Mirassol"
+      },
+      "type": "Important",
+      "detail": "Lateral para o Mirassol no campo de ataque.",
+      "player": {
+        "name": "Lateral para o Mirassol no campo de ataque."
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 26,
+        "extra": null
+      },
+      "team": {
+        "id": 2305,
+        "name": "Mirassol"
+      },
+      "type": "Important",
+      "detail": "Pulga erra passe para Alejo Veliz, mas a bola sobra para Rodrigo Nestor, que chuta de primeira e manda para fora.",
+      "player": {
+        "name": "Pulga erra passe para Alejo Veliz, mas a bola so"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 27,
+        "extra": null
+      },
+      "team": {
+        "id": 2305,
+        "name": "Mirassol"
+      },
+      "type": "Important",
+      "detail": "Gustavo Silva é derrubado na entrada da área. Falta para o Mirassol.",
+      "player": {
+        "name": "Gustavo Silva é derrubado na entrada da área. Fa"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 28,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Bahia começou com tudo na Fonte Nova, empilhando chances nos primeiros 30 minutos. O time da casa chegou a balançar as redes com Marcos Victor, mas o gol foi anulado pelo VAR. A pressão continuou e Jean Lucas carimbou a trave em um belo cabeceio. O Mirassol se defende como pode e só respondeu em uma cobrança de falta que parou na barreira, vendo o Esquadrão dominar as ações.",
+      "player": {
+        "name": "Bahia pressiona, mas o gol não sai"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 28,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Reinaldo cobra a falta na barreira. No rebote, Denilson chuta fraco e facilita a vida de Ronaldo.",
+      "player": {
+        "name": "Reinaldo cobra a falta na barreira. No rebote, D"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 33,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Bahia domina as ações na Fonte Nova após 30 minutos. O time da casa já teve um gol de Marcos Victor anulado pelo VAR aos 9 minutos e acertou a trave em cabeçada de Jean Lucas. O Mirassol se defende como pode e só assustou em uma cobrança de falta de Reinaldo que parou na barreira. A pressão tricolor é intensa, mas o placar segue zerado.",
+      "player": {
+        "name": "Gol anulado e trave: Bahia pressiona"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 33,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Cruzamento de Pulga para Kike Olivera, que disputa com Reinaldo no alto. O Bahia pede toque na mão do lateral do Mirasssol, mas a arbitragem marca falta do atacante tricolor.",
+      "player": {
+        "name": "Cruzamento de Pulga para Kike Olivera, que dispu"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 35,
+        "extra": null
+      },
+      "team": {
+        "id": 2305,
+        "name": "Mirassol"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Walter"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 36,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Luciano Juba na cobrança.",
+      "player": {
+        "name": "Luciano Juba na cobrança."
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 36,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Bahia começou com tudo, criando chances e até teve um gol de Marcos Victor anulado aos 9 minutos. A pressão continuou e, aos 22, Jean Lucas acertou a trave em cabeceio perigoso. O Mirassol se defendia como podia, mas aos 34 minutos, após revisão do VAR, a arbitragem marcou pênalti para o time da casa por toque no braço de Reinaldo, gerando muita reclamação e cartões amarelos.",
+      "player": {
+        "name": "Bahia pressiona e VAR marca pênalti na Fonte Nova"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 36,
+        "extra": null
+      },
+      "team": {
+        "id": 2305,
+        "name": "Mirassol"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Chico Kim"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 37,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Bahia pressionou desde o início e foi recompensado após 37 minutos. O time da casa já tinha tido um gol anulado com Marcos Victor e acertado a trave em cabeceio de Jean Lucas. O Mirassol respondeu em cobrança de falta que parou na barreira. Aos 34, após revisão do VAR, um pênalti foi marcado por toque de mão de Reinaldo. Luciano Juba cobrou com categoria e abriu o placar: 1 a 0.",
+      "player": {
+        "name": "Pênalti com VAR dá vantagem ao Bahia"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 37,
+        "extra": null
+      },
+      "team": {
+        "id": 265,
+        "name": "Bahia"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "player": {
+        "name": "Luciano Juba"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 39,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Caio Alexandre rouba uma bola no meio de campo e sofre falta.",
+      "player": {
+        "name": "Caio Alexandre rouba uma bola no meio de campo e"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 43,
+        "extra": null
+      },
+      "team": {
+        "id": 265,
+        "name": "Bahia"
+      },
+      "type": "Important",
+      "detail": "O Bahia controlou as ações desde o início, mostrando volume de jogo e criando as melhores oportunidades. A equipe chegou a ter um gol anulado com Marcos Victor e acertou a trave em um cabeceio de Jean Lucas. A pressão foi recompensada aos 34 minutos, quando o VAR confirmou um pênalti. Na cobrança, Luciano Juba deslocou o goleiro Walter e fez 1 a 0 para o time da casa na Fonte Nova.",
+      "player": {
+        "name": "Bahia insiste e abre o placar de pênalti"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 43,
+        "extra": null
+      },
+      "team": {
+        "id": 265,
+        "name": "Bahia"
+      },
+      "type": "Important",
+      "detail": "Pulga cai pela direita, tenta cruzamento e ganha escanteio para o Bahia.",
+      "player": {
+        "name": "Pulga cai pela direita, tenta cruzamento e ganha"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 43,
+        "extra": null
+      },
+      "team": {
+        "id": 265,
+        "name": "Bahia"
+      },
+      "type": "Important",
+      "detail": "Pulga cai pela direita, tenta cruzamento e ganha escanteio para o Bahia.",
+      "player": {
+        "name": "Pulga cai pela direita, tenta cruzamento e ganha"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 44,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Defesa do Mirassol afasta. Mais um escanteio para o Bahia.",
+      "player": {
+        "name": "Defesa do Mirassol afasta. Mais um escanteio par"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 45,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Bola rolando para o segundo tempo de Bahia e Mirassol.",
+      "player": {
+        "name": "Começou!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 45,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Vamos até o minuto 51.",
+      "player": {
+        "name": "+6"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 45,
+        "extra": null
+      },
+      "team": {
+        "id": 2305,
+        "name": "Mirassol"
+      },
+      "type": "Important",
+      "detail": "Agora a bola passa por todo mundo até sair pela linha de fundo. Tiro de meta para o Mirassol.",
+      "player": {
+        "name": "Agora a bola passa por todo mundo até sair pela "
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 46,
+        "extra": null
+      },
+      "team": {
+        "id": 2305,
+        "name": "Mirassol"
+      },
+      "type": "Important",
+      "detail": "Cruzamento rasteiro de Jean Lucas e a zaga do Mirassol afasta.",
+      "player": {
+        "name": "Cruzamento rasteiro de Jean Lucas e a zaga do Mi"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 46,
+        "extra": null
+      },
+      "team": {
+        "id": 265,
+        "name": "Bahia"
+      },
+      "type": "Important",
+      "detail": "Que primeiro tempo na Fonte Nova! O Bahia foi para cima, teve um gol de Marcos Victor anulado pelo VAR e ainda carimbou a trave em cabeceio de Jean Lucas. A insistência foi premiada aos 37 minutos: após o árbitro de vídeo marcar pênalti por toque no braço de Reinaldo, Luciano Juba converteu e abriu o placar. O 1 a 0 reflete o domínio tricolor na partida até aqui.",
+      "player": {
+        "name": "VAR, trave e gol: Bahia na frente!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 46,
+        "extra": null
+      },
+      "team": {
+        "id": 2305,
+        "name": "Mirassol"
+      },
+      "type": "Important",
+      "detail": "Recuo de Willian Machado para Walter sai curto, mas o goleiro consegue chegar antes de Kike Olivera e afastar o perigo.",
+      "player": {
+        "name": "Que susto!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 47,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Bahia dominou a primeira etapa, teve gol anulado de Marcos Victor e acertou a trave com Jean Lucas. A pressão resultou em gol aos 37 minutos, quando Luciano Juba cobrou com categoria um pênalti marcado após revisão do VAR, fazendo 1 a 0. O segundo tempo já começou com o Mirassol assustando em um chute forte de Edson, defendido por Ronaldo. O placar segue com vantagem para os donos da casa.",
+      "player": {
+        "name": "Juba marca e Bahia lidera na Fonte Nova!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 47,
+        "extra": null
+      },
+      "team": {
+        "id": 2305,
+        "name": "Mirassol"
+      },
+      "type": "Important",
+      "detail": "Edson manda uma bomba da entrada da área. Ronaldo faz a defesa.",
+      "player": {
+        "name": "Que bomba!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 48,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Após um primeiro tempo de muita pressão, o Bahia finalmente saiu na frente. O time da casa teve um gol de Marcos Victor anulado e carimbou a trave com Jean Lucas antes de Luciano Juba converter um pênalti, aos 37 minutos, fazendo 1 a 0. Mas o Mirassol voltou com tudo para a segunda etapa e já forçou grande defesa de Ronaldo em chute de Edson, mostrando que o jogo está longe de ser decidido.",
+      "player": {
+        "name": "Bahia abre o placar; Mirassol acorda!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 48,
+        "extra": null
+      },
+      "team": {
+        "id": 2305,
+        "name": "Mirassol"
+      },
+      "type": "Important",
+      "detail": "Bruno Santos fecha na segunda trave e manda de cabeça para fora. O time visitante está no ataque.",
+      "player": {
+        "name": "Bruno Santos"
+      },
+      "assist": {
+        "name": "Mais Mirassol!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 49,
+        "extra": null
+      },
+      "team": {
+        "id": 265,
+        "name": "Bahia"
+      },
+      "type": "Important",
+      "detail": "O Bahia pressionou desde o início e a insistência foi premiada. O time teve um gol anulado com Marcos Victor e acertou a trave em cabeceio de Jean Lucas. O cenário mudou aos 34 minutos, quando o VAR confirmou um pênalti para o time da casa. Na cobrança, Luciano Juba deslocou o goleiro Walter e abriu o placar, fazendo 1 a 0 e transformando o domínio tricolor em vantagem no jogo.",
+      "player": {
+        "name": "VAR em ação e Bahia na frente!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 49,
+        "extra": null
+      },
+      "team": {
+        "id": 265,
+        "name": "Bahia"
+      },
+      "type": "Important",
+      "detail": "Gustavo Silva é desarmado e pega com a mão na bola. Falta para o Bahia no meio de campo.",
+      "player": {
+        "name": "Gustavo Silva é desarmado e pega com a mão na bo"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 50,
+        "extra": null
+      },
+      "team": {
+        "id": 265,
+        "name": "Bahia"
+      },
+      "type": "Important",
+      "detail": "Edson cai dentro da área e os jogadores do Bahia pedem cartão por simulação. A arbitragem manda o jogo seguir.",
+      "player": {
+        "name": "Edson cai dentro da área e os jogadores do Bahia"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 50,
+        "extra": null
+      },
+      "team": {
+        "id": 265,
+        "name": "Bahia"
+      },
+      "type": "Important",
+      "detail": "O Bahia dominou o primeiro tempo na Fonte Nova. O time da casa pressionou desde o início, teve um gol de Marcos Victor anulado pelo VAR e ainda carimbou a trave com Jean Lucas. De tanto insistir, a recompensa veio. Após checagem do árbitro de vídeo, um pênalti foi marcado. Aos 37 minutos, Luciano Juba cobrou com categoria para abrir o placar e fazer 1 a 0 para o Bahia.",
+      "player": {
+        "name": "Bahia martela e abre o placar de pênalti"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 50,
+        "extra": null
+      },
+      "team": {
+        "id": 265,
+        "name": "Bahia"
+      },
+      "type": "Important",
+      "detail": "Kike Olivera cruza para Alejo Veliz, que ganha da marcação pelo alto e manda de cabeça muito perto da trave.",
+      "player": {
+        "name": "Quase o segundo!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 51,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Que partida na Fonte Nova! O Bahia foi para cima desde o apito inicial, teve um gol de Marcos Victor anulado pelo VAR e carimbou a trave duas vezes com Jean Lucas. A insistência foi premiada aos 37 minutos, quando o árbitro marcou pênalti, e Luciano Juba converteu para fazer 1 a 0. O Mirassol voltou melhor para o segundo tempo e já assustou, mas o jogo segue agitado no início da etapa final.",
+      "player": {
+        "name": "Trave, VAR e gol marcam o duelo na Fonte Nova"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 51,
+        "extra": null
+      },
+      "team": {
+        "id": 265,
+        "name": "Bahia"
+      },
+      "type": "Important",
+      "detail": "Jean Lucas acerta a trave pela segunda vez no jogo. Agora ele desvia uma finalização de Rodrigo Nestor e a bola engana Walter, que é salvo pelo poste.",
+      "player": {
+        "name": "Na trave outra vez!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 54,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O primeiro tempo foi do Bahia, que pressionou, teve gol anulado e acertou a trave com Jean Lucas. A insistência foi premiada aos 37 minutos, quando o VAR marcou pênalti e Luciano Juba converteu, fazendo 1 a 0. O Mirassol voltou melhor para a etapa final, assustando com Edson e Bruno Santos, mas o Bahia respondeu com Jean Lucas carimbando o poste pela segunda vez. Jogo movimentado na Fonte Nova!",
+      "player": {
+        "name": "Bahia na frente, mas jogo é aberto!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 54,
+        "extra": null
+      },
+      "team": {
+        "id": 265,
+        "name": "Bahia"
+      },
+      "type": "Important",
+      "detail": "Edson chuta mal da entrada da área. Tiro de meta para o Bahia.",
+      "player": {
+        "name": "Edson chuta mal da entrada da área. Tiro de meta"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 55,
+        "extra": null
+      },
+      "team": {
+        "id": 265,
+        "name": "Bahia"
+      },
+      "type": "Important",
+      "detail": "Marcos Victor sofre falta no campo de defesa do Bahia.",
+      "player": {
+        "name": "Marcos Victor sofre falta no campo de defesa do "
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 57,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Bahia domina e vai vencendo por 1 a 0. O time da casa já teve um gol anulado pelo VAR e carimbou a trave duas vezes com Jean Lucas. O placar foi aberto aos 37 do primeiro tempo, em pênalti convertido por Luciano Juba após revisão no vídeo. O Mirassol voltou melhor para a segunda etapa e assustou com Edson, mas o jogo segue com vantagem para os baianos, já com 12 minutos corridos.",
+      "player": {
+        "name": "Trave, VAR e gol: Bahia em vantagem!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 57,
+        "extra": null
+      },
+      "team": {
+        "id": 265,
+        "name": "Bahia"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Román Gómez"
+      },
+      "assist": {
+        "name": "Marcos Victor"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 58,
+        "extra": null
+      },
+      "team": {
+        "id": 265,
+        "name": "Bahia"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Erick"
+      },
+      "assist": {
+        "name": "Caio Alexandre"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 62,
+        "extra": null
+      },
+      "team": {
+        "id": 265,
+        "name": "Bahia"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Jean Lucas"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 62,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Que jogo na Fonte Nova! O Bahia martelou desde o começo, teve um gol de Marcos Victor anulado e viu Jean Lucas carimbar a trave por duas vezes. A insistência foi premiada aos 37 do primeiro tempo, quando Luciano Juba converteu um pênalti e fez 1 a 0. O Mirassol voltou melhor para a segunda etapa, mas o Bahia mantém o controle da partida aos 17 minutos.",
+      "player": {
+        "name": "Bahia na frente, mas a trave salva o Mirassol!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 62,
+        "extra": null
+      },
+      "team": {
+        "id": 265,
+        "name": "Bahia"
+      },
+      "type": "Important",
+      "detail": "Reinado cobra falta na área, mas a defesa do Bahia leva a melhor.",
+      "player": {
+        "name": "Reinado cobra falta na área, mas a defesa do Bah"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 63,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Bahia domina as ações, mas sofre para ampliar o placar. Após ter um gol anulado e acertar a trave com Jean Lucas, a equipe abriu o placar aos 37 minutos com Luciano Juba, em pênalti marcado pelo VAR: 1 a 0. No segundo tempo, o Mirassol esboçou reação, mas o time da casa voltou a carimbar o poste, de novo com Jean Lucas, e ainda perdeu uma chance clara com Kike Olivera cara a cara com o goleiro Walter.",
+      "player": {
+        "name": "Bahia na frente, mas jogo segue aberto"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 63,
+        "extra": null
+      },
+      "team": {
+        "id": 2305,
+        "name": "Mirassol"
+      },
+      "type": "Important",
+      "detail": "Rodrigo Nestor rouba bola no campo de defesa e avança até a área do Mirassol. O meia passa para Kike Olivera, que fica cara a cara com Walter e perde uma chance incrível.",
+      "player": {
+        "name": "Que chance!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 66,
+        "extra": null
+      },
+      "team": {
+        "id": 2305,
+        "name": "Mirassol"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "André Luis"
+      },
+      "assist": {
+        "name": "Bruno Santos"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 67,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Bahia vai vencendo por 1 a 0, gol de Luciano Juba em pênalti marcado com auxílio do VAR. O time da casa já teve um gol anulado e acertou a trave duas vezes com Jean Lucas, além de perder uma chance clara com Kike Olivera. O Mirassol acordou no segundo tempo e assustou em finalizações de Edson e André Luis, mantendo o duelo aberto e indefinido com 22 minutos da etapa final.",
+      "player": {
+        "name": "Bahia na frente em jogo de chances perdidas"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 67,
+        "extra": null
+      },
+      "team": {
+        "id": 2305,
+        "name": "Mirassol"
+      },
+      "type": "Important",
+      "detail": "Na primeira chance, André Luis recebe cruzamento e leva perigo de cabeça.",
+      "player": {
+        "name": "André Luis"
+      },
+      "assist": {
+        "name": "Quase!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 68,
+        "extra": null
+      },
+      "team": {
+        "id": 265,
+        "name": "Bahia"
+      },
+      "type": "Important",
+      "detail": "Erick Pulga chuta travado e ganha escanteio para o Bahia.",
+      "player": {
+        "name": "Erick Pulga chuta travado e ganha escanteio para"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 72,
+        "extra": null
+      },
+      "team": {
+        "id": 265,
+        "name": "Bahia"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Ademir"
+      },
+      "assist": {
+        "name": "Cristian Olivera"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 72,
+        "extra": null
+      },
+      "team": {
+        "id": 2305,
+        "name": "Mirassol"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Carlos Eduardo"
+      },
+      "assist": {
+        "name": "Denilson"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 72,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O jogo passa dos 27 minutos do segundo tempo com o Bahia na frente! A equipe da casa construiu a vantagem de 1 a 0 com Luciano Juba, de pênalti, ainda na primeira etapa. O domínio baiano é claro, com duas bolas na trave de Jean Lucas e um gol anulado. O Mirassol reagiu no início da segunda etapa com boas chegadas, mas o Bahia segue desperdiçando chances claras, como a de Kike Olivera, e mantém o jogo aberto.",
+      "player": {
+        "name": "Bahia domina, mas placar segue apertado"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 72,
+        "extra": null
+      },
+      "team": {
+        "id": 265,
+        "name": "Bahia"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Everton Ribeiro"
+      },
+      "assist": {
+        "name": "Rodrigo Nestor"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 74,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Everton Ribeiro cobra escanteio e David Duarte manda de cabeça para fora.",
+      "player": {
+        "name": "Everton Ribeiro cobra escanteio e David Duarte m"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 77,
+        "extra": null
+      },
+      "team": {
+        "id": 2305,
+        "name": "Mirassol"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Carlos Eduardo"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 77,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Já na casa dos 32 do segundo tempo, o Bahia vai vencendo por 1 a 0. O gol foi de Luciano Juba, de pênalti, ainda na primeira etapa, após o VAR flagrar um toque de mão. O time da casa, no entanto, poderia ter um placar maior: já teve um gol anulado e acertou a trave duas vezes com Jean Lucas, além de uma chance clara perdida por Olivera. O Mirassol reagiu e já assustou, mas o jogo segue indefinido.",
+      "player": {
+        "name": "Gol de pênalti e chances perdidas em Salvador"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 77,
+        "extra": null
+      },
+      "team": {
+        "id": 2305,
+        "name": "Mirassol"
+      },
+      "type": "Important",
+      "detail": "Willian Machado erra domínio e quase perde a bola para Ademir na defesa do Mirassol.",
+      "player": {
+        "name": "Willian Machado erra domínio e quase perde a bol"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 80,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Bahia construiu a vantagem de 1 a 0 ainda no primeiro tempo, com Luciano Juba convertendo pênalti marcado com auxílio do VAR. O time da casa, que já teve um gol anulado e acertou a trave duas vezes com Jean Lucas, segue dominante e desperdiçando chances claras, como a de Kike Olivera. O Mirassol até tentou reagir no início da segunda etapa, mas o jogo se aproxima do fim com o placar mínimo.",
+      "player": {
+        "name": "VAR e trave marcam jogo com Bahia na frente"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 80,
+        "extra": null
+      },
+      "team": {
+        "id": 2305,
+        "name": "Mirassol"
+      },
+      "type": "Important",
+      "detail": "Neto Moura sofre falta de Ademir e recebe atendimento médico em campo. Jogo parado.",
+      "player": {
+        "name": "Neto Moura sofre falta de Ademir e recebe atendi"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 83,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Aos 38 do segundo tempo, o Bahia vai vencendo por 1 a 0, gol de Luciano Juba em pênalti marcado com auxílio do VAR. O placar, no entanto, não reflete o volume de jogo do time da casa, que teve um gol anulado e acertou a trave duas vezes com Jean Lucas. Kike Olivera ainda perdeu uma chance incrível. O Mirassol reagiu na etapa final e assustou, mas o Bahia segue mais perto do segundo gol.",
+      "player": {
+        "name": "Bahia na frente em jogo de chances perdidas"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 83,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Recomeça a partida na Fonte Nova.",
+      "player": {
+        "name": "Recomeça a partida na Fonte Nova."
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 85,
+        "extra": null
+      },
+      "team": {
+        "id": 265,
+        "name": "Bahia"
+      },
+      "type": "Important",
+      "detail": "Veliz recebe passe de Erick Pulga, mas ao entrar na área não consegue nem finalizar, nem devolver para o colega de time.",
+      "player": {
+        "name": "Bahia no ataque"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 86,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Que partida na Fonte Nova! Com mais de 40 minutos do segundo tempo, o Bahia vai vencendo por 1 a 0, gol de Luciano Juba de pênalti, marcado com auxílio do VAR. A equipe da casa domina as ações, já teve um gol anulado e acertou a trave duas vezes com Jean Lucas. O Mirassol tenta reagir, mas foi o Bahia quem perdeu a chance de ampliar com Kike Olivera, que parou no goleiro Walter.",
+      "player": {
+        "name": "Bahia na frente, mas jogo segue aberto!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 86,
+        "extra": null
+      },
+      "team": {
+        "id": 265,
+        "name": "Bahia"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Willian José"
+      },
+      "assist": {
+        "name": "Alejo Véliz"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 89,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Bahia vai vencendo por 1 a 0, com gol de Luciano Juba de pênalti, marcado com auxílio do VAR ainda no primeiro tempo. Apesar da vantagem mínima, o time da casa domina as ações e já acertou a trave duas vezes com Jean Lucas, além de ter um gol anulado e desperdiçado uma chance clara com Olivera. O Mirassol cresceu no início da segunda etapa e assustou, mas o placar segue inalterado.",
+      "player": {
+        "name": "Bahia na frente em jogo de VAR e bola na trave"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 89,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Vamos até o minuto 51.",
+      "player": {
+        "name": "+6"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 90,
+        "extra": null
+      },
+      "team": {
+        "id": 2305,
+        "name": "Mirassol"
+      },
+      "type": "Important",
+      "detail": "Erick Pulga é acionado em velocidade, invade a área e passa para Ademir, que chuta meio sem jeito e manda para fora.",
+      "player": {
+        "name": "Perdeu!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 93,
+        "extra": null
+      },
+      "team": {
+        "id": 2305,
+        "name": "Mirassol"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Neto Moura"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 93,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Com o jogo nos acréscimos, o Bahia vence por 1 a 0, gol de Luciano Juba de pênalti marcado com auxílio do VAR. O placar, no entanto, não reflete o volume do time da casa, que já acertou a trave duas vezes com Jean Lucas, teve um gol anulado e desperdiçou chances claras com Kike Olivera e Ademir. O Mirassol tentou reagir, mas parou no goleiro Ronaldo e na falta de pontaria.",
+      "player": {
+        "name": "Bahia na frente, mas chances perdidas agitam o jogo"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 93,
+        "extra": null
+      },
+      "team": {
+        "id": 265,
+        "name": "Bahia"
+      },
+      "type": "Important",
+      "detail": "Erick Pulga sofre falta quando saia em contra-ataque para o Bahia.",
+      "player": {
+        "name": "Erick Pulga sofre falta quando saia em contra-at"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 96,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Bahia abriu o placar com Luciano Juba de pênalti, após um primeiro tempo de amplo domínio, com direito a gol anulado e bola na trave de Jean Lucas. Na segunda etapa, o mesmo Jean Lucas acertou o poste novamente. Quando tudo parecia decidido, o Mirassol teve um pênalti a seu favor nos acréscimos, mas Reinaldo cobrou para fora e desperdiçou a chance de igualar o marcador.",
+      "player": {
+        "name": "Mirassol desperdiça empate no apagar das luzes!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 96,
+        "extra": null
+      },
+      "team": {
+        "id": 2305,
+        "name": "Mirassol"
+      },
+      "type": "Important",
+      "detail": "Reinaldo cobra o pênalti muito longe do gol.",
+      "player": {
+        "name": "Reinaldo"
+      },
+      "assist": {
+        "name": "Para fora!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 96,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Bahia abriu o placar com Luciano Juba de pênalti, após dominar o primeiro tempo com gol anulado e duas bolas na trave. A equipe da casa, no entanto, desperdiçou várias chances de ampliar e viu o Mirassol crescer. O drama ficou para o final: aos 51 minutos do segundo tempo, Reinaldo teve a chance de empatar, mas cobrou um pênalti para fora e selou o resultado na Fonte Nova.",
+      "player": {
+        "name": "Final maluco: pênalti perdido salva o Bahia!"
       },
       "assist": null
     }
@@ -619,47 +2215,47 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "50%"
+          "value": "52%"
         },
         {
           "type": "Total Passes",
-          "value": 43
+          "value": 496
         },
         {
           "type": "Pass Accuracy",
-          "value": "91%"
+          "value": "87%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 4
+          "value": 63
         },
         {
           "type": "Total Shots",
-          "value": 0
+          "value": 14
         },
         {
           "type": "Shots on Goal",
-          "value": 0
+          "value": 2
         },
         {
           "type": "Shots off Goal",
-          "value": 0
+          "value": 9
         },
         {
           "type": "Blocked Shots",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Hit Woodwork",
-          "value": 0
+          "value": 2
         },
         {
           "type": "Corner Kicks",
-          "value": 0
+          "value": 6
         },
         {
           "type": "Offsides",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Penalties",
@@ -667,19 +2263,19 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 0
+          "value": 4
         },
         {
           "type": "Tackles",
-          "value": 1
+          "value": 17
         },
         {
           "type": "Fouls",
-          "value": 0
+          "value": 12
         },
         {
           "type": "Yellow Cards",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Red Cards",
@@ -695,35 +2291,35 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "50%"
+          "value": "48%"
         },
         {
           "type": "Total Passes",
-          "value": 15
+          "value": 427
         },
         {
           "type": "Pass Accuracy",
-          "value": "80%"
+          "value": "82%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 3
+          "value": 75
         },
         {
           "type": "Total Shots",
-          "value": 0
+          "value": 10
         },
         {
           "type": "Shots on Goal",
-          "value": 0
+          "value": 2
         },
         {
           "type": "Shots off Goal",
-          "value": 0
+          "value": 5
         },
         {
           "type": "Blocked Shots",
-          "value": 0
+          "value": 3
         },
         {
           "type": "Hit Woodwork",
@@ -731,7 +2327,7 @@
         },
         {
           "type": "Corner Kicks",
-          "value": 0
+          "value": 2
         },
         {
           "type": "Offsides",
@@ -743,19 +2339,19 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 0
+          "value": 4
         },
         {
           "type": "Tackles",
-          "value": 1
+          "value": 11
         },
         {
           "type": "Fouls",
-          "value": 0
+          "value": 15
         },
         {
           "type": "Yellow Cards",
-          "value": 0
+          "value": 4
         },
         {
           "type": "Red Cards",

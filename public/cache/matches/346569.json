@@ -7,12 +7,12 @@
       "city": ""
     },
     "status": {
-      "long": "2H",
-      "short": "2H",
-      "elapsed": 77
+      "long": "FT",
+      "short": "FT",
+      "elapsed": 90
     },
-    "timerStart": "2026-10-12T23:35:37.211Z",
-    "timerStatus": "INICIADO"
+    "timerStart": "2026-10-13T00:26:00.585Z",
+    "timerStatus": "PAUSADO"
   },
   "league": {
     "round": "Regular Season - 30"
@@ -31,7 +31,7 @@
   },
   "goals": {
     "home": 1,
-    "away": 3
+    "away": 4
   },
   "score": {
     "halftime": {
@@ -39,8 +39,8 @@
       "away": null
     },
     "fulltime": {
-      "home": null,
-      "away": null
+      "home": 1,
+      "away": 4
     }
   },
   "odds": {
@@ -346,6 +346,38 @@
       "detail": "Cruzamento pela esquerda do Athletico é afastado pela zaga da Chape",
       "player": {
         "name": "Cruzamento pela esquerda do Athletico é afastado"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 5,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Athletico-PR 1 x 4 Chapecoense | Gols | 30ª rodada | Brasileirão 2026",
+      "player": {
+        "name": "Athletico-PR 1 x 4 Chapecoense | Gols | 30ª rodada | Brasileirão 2026"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 5,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Chapecoense 1 x 4 Athletico-PR | Melhores Momentos | 30ª",
+      "player": {
+        "name": "Chapecoense 1 x 4 Athletico-PR | Melhores Momentos | 30ª"
       },
       "assist": null
     },
@@ -1863,38 +1895,6 @@
     },
     {
       "time": {
-        "elapsed": 68,
-        "extra": null
-      },
-      "team": {
-        "id": 0,
-        "name": ""
-      },
-      "type": "Important",
-      "detail": "Yellow Card by Gilberto",
-      "player": {
-        "name": "Yellow Card by Gilberto"
-      },
-      "assist": null
-    },
-    {
-      "time": {
-        "elapsed": 68,
-        "extra": null
-      },
-      "team": {
-        "id": 0,
-        "name": ""
-      },
-      "type": "Important",
-      "detail": "Yellow Card by Gilberto",
-      "player": {
-        "name": "Yellow Card by Gilberto"
-      },
-      "assist": null
-    },
-    {
-      "time": {
         "elapsed": 69,
         "extra": null
       },
@@ -2056,6 +2056,498 @@
         "name": "Viveros recebe e domina avançando para dentro da"
       },
       "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 77,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Athletico foi cirúrgico e abriu 3 a 0 no primeiro tempo com gols de Leozinho, Luiz Gustavo e Viveros. A Chapecoense voltou para a segunda etapa com tudo, empilhando chances com Garcez e Bolasie, que pararam em defesas espetaculares de Mycael e na trave. Aos 26, Garcez finalmente marcou de peixinho, mas o Furacão respondeu aos 32 com Viveros, que fez seu segundo no jogo e selou o 4 a 1.",
+      "player": {
+        "name": "Furacão é letal e amplia vantagem em Chapecó"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 77,
+        "extra": null
+      },
+      "team": {
+        "id": 293,
+        "name": "Athletico-PR"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "player": {
+        "name": "Viveros"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 78,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Que segundo tempo! Depois de ver o Athletico ser letal e abrir 3 a 0 na primeira etapa, a Chapecoense voltou pressionando. Bolasie comandou o ataque, mas parou num gigante Mycael, que fez milagres. A insistência foi premiada com o gol de peixinho de Garcez aos 26 minutos. No entanto, a reação foi freada pouco depois, quando Viveros, aos 32, marcou o quarto do Furacão, selando o 4 a 1.",
+      "player": {
+        "name": "Chuva de gols e chances na Arena Condá"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 78,
+        "extra": null
+      },
+      "team": {
+        "id": 315,
+        "name": "Chapecoense"
+      },
+      "type": "Important",
+      "detail": "Rodrigo domina , busca espaço e chuta colocado. Mycael fica no golpe de vista e a bola passa à sua direita.",
+      "player": {
+        "name": "Rodrigo"
+      },
+      "assist": {
+        "name": "AO LADO!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 79,
+        "extra": null
+      },
+      "team": {
+        "id": 315,
+        "name": "Chapecoense"
+      },
+      "type": "Important",
+      "detail": "A Chapecoense tem escanteio.",
+      "player": {
+        "name": "A Chapecoense tem escanteio."
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 80,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Athletico-PR constrói uma goleada por 4 a 1 na Arena Condá, mostrando frieza e eficiência. Leozinho abriu o placar com um golaço, e Luiz Gustavo e Viveros (duas vezes) ampliaram. A Chapecoense voltou com tudo para o segundo tempo e descontou com Garcez, após grande pressão e chances criadas por Bolasie. No entanto, o Furacão foi letal e marcou o quarto, frustrando a reação da casa.",
+      "player": {
+        "name": "Chuva de gols e show do Furacão em Chapecó"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 80,
+        "extra": null
+      },
+      "team": {
+        "id": 293,
+        "name": "Athletico-PR"
+      },
+      "type": "Important",
+      "detail": "Luiz Gustavo manda a bomba de fora da área e Anderson faz boa defesa para o lado!",
+      "player": {
+        "name": "Luiz Gustavo"
+      },
+      "assist": {
+        "name": "QUASE O QUINTO!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 80,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Athletico tem tiro de meta.",
+      "player": {
+        "name": "O Athletico tem tiro de meta."
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 81,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Com o jogo já na reta final do segundo tempo, o Athletico-PR vai construindo uma goleada por 4 a 1. O Furacão foi letal com Viveros (duas vezes), Leozinho e Luiz Gustavo. A Chapecoense reagiu, criou muitas chances e diminuiu com um gol de peixinho de Garcez, mas a equipe paranaense respondeu logo depois, com Viveros novamente, em uma partida com muitas oportunidades para os dois lados.",
+      "player": {
+        "name": "Show de gols e chances em Chapecó!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 81,
+        "extra": null
+      },
+      "team": {
+        "id": 293,
+        "name": "Athletico-PR"
+      },
+      "type": "Important",
+      "detail": "Viveros encontra espaço e chuta de fora da área, com muito perigo. A bola rasteira passa muito perto. Teve desvio e é escanteio!",
+      "player": {
+        "name": "Viveros"
+      },
+      "assist": {
+        "name": "ELE QUER O HAT TRICK!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 82,
+        "extra": null
+      },
+      "team": {
+        "id": 315,
+        "name": "Chapecoense"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Rafael Thyere"
+      },
+      "assist": {
+        "name": "Kauan"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 82,
+        "extra": null
+      },
+      "team": {
+        "id": 315,
+        "name": "Chapecoense"
+      },
+      "type": "Important",
+      "detail": "Chapecoense tem tiro de meta após o escanteio do Athletico.",
+      "player": {
+        "name": "Chapecoense tem tiro de meta após o escanteio do"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 83,
+        "extra": null
+      },
+      "team": {
+        "id": 293,
+        "name": "Athletico-PR"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Felipinho"
+      },
+      "assist": {
+        "name": "Gilberto"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 84,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Mendoza arrisca de fora na sobra do escanteio, mas manda na arquibancada.",
+      "player": {
+        "name": "Mendoza arrisca de fora na sobra do escanteio, m"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 84,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "A segunda etapa começou com uma Chapecoense avassaladora, criando chances em série com Bolasie e Garcez, mas parando em defesas espetaculares de Mycael. A insistência foi recompensada aos 26 minutos, quando Garcez diminuiu de peixinho para 3 a 1. Contudo, o Athletico-PR foi letal e respondeu rápido com Viveros, que fez o quarto. A partida entra na reta final com o placar de 4 a 1 para o Furacão.",
+      "player": {
+        "name": "Chuva de gols e show de Mycael em Chapecó"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 84,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Dudu finaliza de fora da área, Anderson faz uma defesa atrapalhada, mas evita o gol. É escanteio.",
+      "player": {
+        "name": "O Athletico ataca!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 87,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Athletico foi letal e abriu 3 a 0 no primeiro tempo com Leozinho, Luiz Gustavo e Viveros. A Chape voltou com tudo para a segunda etapa, criando chances em série com Bolasie e Garcez, mas parou em noite inspirada do goleiro Mycael. A insistência resultou em gol de Garcez, mas Viveros marcou de novo e, já aos 42 minutos, encaminhou a vitória do Furacão por 4 a 1.",
+      "player": {
+        "name": "Athletico-PR letal e show de Mycael!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 87,
+        "extra": null
+      },
+      "team": {
+        "id": 293,
+        "name": "Athletico-PR"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Portilla"
+      },
+      "assist": {
+        "name": "Luiz Gustavo"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 88,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Viveros sofre falta no meio-campo, cometida por Bruno Matias.",
+      "player": {
+        "name": "Viveros sofre falta no meio-campo, cometida por "
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 90,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Athletico-PR aplica um 4 a 1 na Arena Condá em um jogo de muita movimentação. Após abrir 3 a 0 no primeiro tempo, o Furacão viu a Chapecoense reagir na segunda etapa, liderada por um Bolasie incansável. O time da casa descontou com Garcez, mas Viveros, autor de dois gols, marcou de novo e selou o placar. O goleiro Mycael também brilhou com defesas cruciais para o Athletico.",
+      "player": {
+        "name": "Athletico goleia e segura pressão da Chape"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 90,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Cinco minutos de acréscimo.",
+      "player": {
+        "name": "Cinco minutos de acréscimo."
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 91,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Bruno Pacheco cruza, Garcez recupera a bola na linha de fundo e o lance termina com Doma, que fica entre um chute e um lançamento para Bolasie. A bola sai pela linha de fundo, sem perigo.",
+      "player": {
+        "name": "Bruno Pacheco cruza, Garcez recupera a bola na l"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 92,
+        "extra": null
+      },
+      "team": {
+        "id": 315,
+        "name": "Chapecoense"
+      },
+      "type": "Important",
+      "detail": "Chapecoense tem falta na esquerda de ataque e pode alçar a bola na área.",
+      "player": {
+        "name": "Chapecoense tem falta na esquerda de ataque e po"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 93,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Mycael faz a defesa após cabeceio, sem rebote.",
+      "player": {
+        "name": "Mycael faz a defesa após cabeceio, sem rebote."
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 93,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Athletico foi avassalador no primeiro tempo e abriu 3 a 0 com Leozinho, Luiz Gustavo e Viveros. A Chapecoense voltou com tudo para a segunda etapa, pressionou e empilhou chances, principalmente com Bolasie, mas parou em grandes defesas do goleiro Mycael. Garcez diminuiu de peixinho, mas Viveros marcou de novo e, perto do fim, sacramentou o placar de 4 a 1 para o Furacão.",
+      "player": {
+        "name": "Athletico-PR atropela em jogo agitado"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 93,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Garcez domina na área, cruza, mas é bloqueado e tem escanteio.",
+      "player": {
+        "name": "Garcez domina na área, cruza, mas é bloqueado e "
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 94,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Athletico-PR foi letal e construiu uma goleada por 4 a 1 sobre a Chapecoense. No primeiro tempo, abriu 3 a 0 com gols de Leozinho, Luiz Gustavo e Viveros. A Chape reagiu na segunda etapa, pressionou muito com Bolasie e diminuiu com Garcez, mas parou em grandes defesas de Mycael. No fim, Viveros marcou mais um e selou o resultado na Arena Condá após o apito final.",
+      "player": {
+        "name": "Vitória letal do Furacão em Chapecó"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 94,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Cruzamento pela esquerda sai direto, muito longe. Tiro de meta para o Athletico.",
+      "player": {
+        "name": "Cruzamento pela esquerda sai direto, muito longe"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 95,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Fim de papo na Arena Condá! O Athletico-PR aplicou uma goleada de 4 a 1 sobre a Chapecoense em um jogo de muitas chances. O Furacão foi avassalador no primeiro tempo e construiu um placar de 3 a 0 com gols de Leozinho, Luiz Gustavo e Viveros. A Chape reagiu na segunda etapa, pressionou e diminuiu com um gol de Garcez, mas parou em uma noite inspirada do goleiro Mycael, que fez grandes defesas. No fim, Viveros marcou mais um e selou a vitória letal do time paranaense.",
+      "player": {
+        "name": "Athletico é letal e goleia a Chape fora de casa"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 95,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Wilton Pereira Sampaio apita o fim da partida na Arena Condá!",
+      "player": {
+        "name": "FINAL DE JOGO!"
+      },
+      "assist": null
     }
   ],
   "lineups": [
@@ -2099,18 +2591,18 @@
         },
         {
           "player": {
-            "id": "brunopacheco",
-            "name": "Bruno Pacheco",
-            "number": 91,
+            "id": "joaopaulosil",
+            "name": "João Paulo",
+            "number": 4,
             "pos": "Def",
             "grid": null
           }
         },
         {
           "player": {
-            "id": "joaopaulosil",
-            "name": "João Paulo",
-            "number": 4,
+            "id": "brunopacheco",
+            "name": "Bruno Pacheco",
+            "number": 91,
             "pos": "Def",
             "grid": null
           }
@@ -2274,7 +2766,7 @@
           "player": {
             "id": "Rodrigo-Endrio",
             "name": "Rodrigo",
-            "number": 39,
+            "number": 35,
             "pos": "Ata",
             "grid": null
           }
@@ -2287,7 +2779,7 @@
         "name": "Athletico-PR",
         "logo": "https://s.sde.globo.com/media/organizations/2026/01/07/Athletico-PR.svg"
       },
-      "formation": "4-3-3",
+      "formation": "3-6-1",
       "coach": {
         "name": "Odair Hellmann"
       },
@@ -2303,9 +2795,9 @@
         },
         {
           "player": {
-            "id": "gilberto02",
-            "name": "Gilberto",
-            "number": 12,
+            "id": "arthur-dias",
+            "name": "Arthur Dias",
+            "number": 4,
             "pos": "Def",
             "grid": null
           }
@@ -2321,18 +2813,18 @@
         },
         {
           "player": {
-            "id": "arthur-dias",
-            "name": "Arthur Dias",
-            "number": 4,
+            "id": "esquivelal",
+            "name": "Esquivel",
+            "number": 37,
             "pos": "Def",
             "grid": null
           }
         },
         {
           "player": {
-            "id": "esquivelal",
-            "name": "Esquivel",
-            "number": 37,
+            "id": "gilberto02",
+            "name": "Gilberto",
+            "number": 12,
             "pos": "Def",
             "grid": null
           }
@@ -2369,16 +2861,7 @@
             "id": "leozinho",
             "name": "Leozinho",
             "number": 21,
-            "pos": "Ata",
-            "grid": null
-          }
-        },
-        {
-          "player": {
-            "id": "ksviveros",
-            "name": "Viveros",
-            "number": 9,
-            "pos": "Ata",
+            "pos": "Mei",
             "grid": null
           }
         },
@@ -2387,6 +2870,15 @@
             "id": "s-mendoza",
             "name": "Mendoza",
             "number": 7,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "ksviveros",
+            "name": "Viveros",
+            "number": 9,
             "pos": "Ata",
             "grid": null
           }
@@ -2433,7 +2925,7 @@
           "player": {
             "id": "claudinho",
             "name": "Claudinho",
-            "number": 25,
+            "number": 26,
             "pos": "Def",
             "grid": null
           }
@@ -2513,31 +3005,31 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "48%"
+          "value": "46%"
         },
         {
           "type": "Total Passes",
-          "value": 372
+          "value": 437
         },
         {
           "type": "Pass Accuracy",
-          "value": "85%"
+          "value": "84%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 54
+          "value": 68
         },
         {
           "type": "Total Shots",
-          "value": 19
+          "value": 22
         },
         {
           "type": "Shots on Goal",
-          "value": 7
+          "value": 8
         },
         {
           "type": "Shots off Goal",
-          "value": 8
+          "value": 9
         },
         {
           "type": "Blocked Shots",
@@ -2545,11 +3037,11 @@
         },
         {
           "type": "Hit Woodwork",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Corner Kicks",
-          "value": 4
+          "value": 6
         },
         {
           "type": "Offsides",
@@ -2561,15 +3053,15 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 2
+          "value": 5
         },
         {
           "type": "Tackles",
-          "value": 10
+          "value": 14
         },
         {
           "type": "Fouls",
-          "value": 12
+          "value": 17
         },
         {
           "type": "Yellow Cards",
@@ -2589,11 +3081,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "52%"
+          "value": "54%"
         },
         {
           "type": "Total Passes",
-          "value": 406
+          "value": 515
         },
         {
           "type": "Pass Accuracy",
@@ -2601,19 +3093,19 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 49
+          "value": 64
         },
         {
           "type": "Total Shots",
-          "value": 6
+          "value": 11
         },
         {
           "type": "Shots on Goal",
-          "value": 4
+          "value": 7
         },
         {
           "type": "Shots off Goal",
-          "value": 0
+          "value": 2
         },
         {
           "type": "Blocked Shots",
@@ -2625,7 +3117,7 @@
         },
         {
           "type": "Corner Kicks",
-          "value": 4
+          "value": 7
         },
         {
           "type": "Offsides",
@@ -2637,15 +3129,15 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 8
+          "value": 9
         },
         {
           "type": "Tackles",
-          "value": 3
+          "value": 8
         },
         {
           "type": "Fouls",
-          "value": 9
+          "value": 11
         },
         {
           "type": "Yellow Cards",

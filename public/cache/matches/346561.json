@@ -7,12 +7,12 @@
       "city": ""
     },
     "status": {
-      "long": "NS",
-      "short": "NS",
-      "elapsed": null
+      "long": "1H",
+      "short": "1H",
+      "elapsed": 6
     },
-    "timerStart": null,
-    "timerStatus": "PAUSADO"
+    "timerStart": "2026-10-13T00:01:27.057Z",
+    "timerStatus": "INICIADO"
   },
   "league": {
     "round": "Regular Season - 30"
@@ -30,8 +30,8 @@
     }
   },
   "goals": {
-    "home": null,
-    "away": null
+    "home": 0,
+    "away": 0
   },
   "score": {
     "halftime": {
@@ -50,7 +50,88 @@
     "source": "betexplorer"
   },
   "_geUrl": "https://ge.globo.com/sp/vale-do-paraiba-regiao/futebol/brasileirao-serie-a/jogo/12-10-2026/bragantino-cruzeiro.ghtml",
-  "events": [],
+  "events": [
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Começa o jogo em Bragança Paulista.",
+      "player": {
+        "name": "Apita o árbitro!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 1,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Cruzeiro faz a primeira tentativa em bola longa, mas cede tiro de meta para o Bragantino.",
+      "player": {
+        "name": "Cruzeiro faz a primeira tentativa em bola longa,"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 2,
+        "extra": null
+      },
+      "team": {
+        "id": 283,
+        "name": "Cruzeiro"
+      },
+      "type": "Important",
+      "detail": "Cruzeiro troca passes no meio-campo.",
+      "player": {
+        "name": "Cruzeiro troca passes no meio-campo."
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 3,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "A bola rola em Bragança com um início de estudo. Nos primeiros três minutos, o Cruzeiro valoriza a posse de bola no meio-campo e já arriscou a primeira finalização do jogo. Rojas tentou da esquerda, mas o chute saiu sem direção. O Bragantino observa o adversário e aguarda o momento certo para avançar, mantendo o placar zerado neste começo de confronto.",
+      "player": {
+        "name": "Cruzeiro arrisca o primeiro chute da partida"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 3,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Rojas tem a primeira tentativa de finalização pelo lado esquerdo, mas a bola passa longe do gol.",
+      "player": {
+        "name": "Rojas tem a primeira tentativa de finalização pe"
+      },
+      "assist": null
+    }
+  ],
   "lineups": [
     {
       "team": {
@@ -58,7 +139,7 @@
         "name": "Bragantino",
         "logo": "https://s.sde.globo.com/media/organizations/2021/06/28/bragantino.svg"
       },
-      "formation": "4-2-4",
+      "formation": "4-3-3",
       "coach": {
         "name": "Vagner Mancini"
       },
@@ -83,9 +164,9 @@
         },
         {
           "player": {
-            "id": "alix-vinicius",
-            "name": "Alix Vinicius",
-            "number": 4,
+            "id": "guzrodriguez",
+            "name": "Guzmán Rodríguez",
+            "number": 2,
             "pos": "Def",
             "grid": null
           }
@@ -110,9 +191,9 @@
         },
         {
           "player": {
-            "id": "patrickroberto",
-            "name": "Patrick",
-            "number": 28,
+            "id": "fabinho-freitas",
+            "name": "Fabinho",
+            "number": 5,
             "pos": "Mei",
             "grid": null
           }
@@ -122,6 +203,15 @@
             "id": "ericramires",
             "name": "Eric Ramires",
             "number": 7,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "wallace-yan",
+            "name": "Wallace Yan",
+            "number": 47,
             "pos": "Mei",
             "grid": null
           }
@@ -146,15 +236,6 @@
         },
         {
           "player": {
-            "id": "wallace-yan",
-            "name": "Wallace Yan",
-            "number": 47,
-            "pos": "Ata",
-            "grid": null
-          }
-        },
-        {
-          "player": {
             "id": "fernando11111",
             "name": "Fernando",
             "number": 11,
@@ -163,7 +244,116 @@
           }
         }
       ],
-      "substitutes": []
+      "substitutes": [
+        {
+          "player": {
+            "id": "cleiton-schwengber",
+            "name": "Cleiton",
+            "number": 1,
+            "pos": "Gol",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "santanna",
+            "name": "Sant'Anna",
+            "number": 23,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "eduardomendes",
+            "name": "Eduardo Santos",
+            "number": 3,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "vanderlan",
+            "name": "Vanderlan",
+            "number": 12,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "gabriel41",
+            "name": "Gabriel",
+            "number": 6,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "IgnacioSosa",
+            "name": "Ignacio Sosa",
+            "number": 15,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "matheusfernandes",
+            "name": "Matheus Fernandes",
+            "number": 35,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "bruninho-bragantino",
+            "name": "Bruninho",
+            "number": 19,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "Gustavinho3",
+            "name": "Gustavinho",
+            "number": 22,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "pittais",
+            "name": "Isidro Pitta",
+            "number": 9,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "vinicius-calvas",
+            "name": "Vinicinho",
+            "number": 17,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "joseherrerama",
+            "name": "Herrera",
+            "number": 32,
+            "pos": "Ata",
+            "grid": null
+          }
+        }
+      ]
     },
     {
       "team": {
@@ -187,9 +377,9 @@
         },
         {
           "player": {
-            "id": "fagner",
-            "name": "Fagner",
-            "number": 23,
+            "id": "williamasevedo",
+            "name": "William",
+            "number": 12,
             "pos": "Def",
             "grid": null
           }
@@ -223,9 +413,9 @@
         },
         {
           "player": {
-            "id": "lucasromero",
-            "name": "Lucas Romero",
-            "number": 29,
+            "id": "ze-lucas",
+            "name": "Zé Lucas",
+            "number": 5,
             "pos": "Mei",
             "grid": null
           }
@@ -268,17 +458,279 @@
         },
         {
           "player": {
+            "id": "felipe-morais",
+            "name": "Felipe Morais",
+            "number": 38,
+            "pos": "Ata",
+            "grid": null
+          }
+        }
+      ],
+      "substitutes": [
+        {
+          "player": {
+            "id": "cassio-ramos",
+            "name": "Cássio",
+            "number": 1,
+            "pos": "Gol",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "Kaua-Moraes",
+            "name": "Kauã Moraes",
+            "number": 2,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "fabriciobruno",
+            "name": "Fabrício Bruno",
+            "number": 15,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "lvillalba",
+            "name": "Villalba",
+            "number": 25,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "mvina",
+            "name": "Viña",
+            "number": 6,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "matheushenrique1297",
+            "name": "Matheus Henrique",
+            "number": 7,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "lucassilva",
+            "name": "Lucas Silva",
+            "number": 16,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "brunorodrigues-atleticopr",
+            "name": "Bruno Rodrigues",
+            "number": 9,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "marquinhos-alencar",
+            "name": "Marquinhos",
+            "number": 11,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
             "id": "wesley-corinthians",
             "name": "Wesley",
             "number": 20,
             "pos": "Ata",
             "grid": null
           }
+        },
+        {
+          "player": {
+            "id": "KaiqueKenji",
+            "name": "Kaique Kenji",
+            "number": 70,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "lucirodri",
+            "name": "Lucho Rodríguez",
+            "number": 97,
+            "pos": "Ata",
+            "grid": null
+          }
         }
-      ],
-      "substitutes": []
+      ]
     }
   ],
-  "statistics": [],
+  "statistics": [
+    {
+      "team": {
+        "id": 280,
+        "name": "Bragantino"
+      },
+      "statistics": [
+        {
+          "type": "Ball Possession",
+          "value": "27%"
+        },
+        {
+          "type": "Total Passes",
+          "value": 14
+        },
+        {
+          "type": "Pass Accuracy",
+          "value": "71%"
+        },
+        {
+          "type": "Incomplete Passes",
+          "value": 4
+        },
+        {
+          "type": "Total Shots",
+          "value": 0
+        },
+        {
+          "type": "Shots on Goal",
+          "value": 0
+        },
+        {
+          "type": "Shots off Goal",
+          "value": 0
+        },
+        {
+          "type": "Blocked Shots",
+          "value": 0
+        },
+        {
+          "type": "Hit Woodwork",
+          "value": 0
+        },
+        {
+          "type": "Corner Kicks",
+          "value": 0
+        },
+        {
+          "type": "Offsides",
+          "value": 0
+        },
+        {
+          "type": "Penalties",
+          "value": 0
+        },
+        {
+          "type": "Goalkeeper Saves",
+          "value": 0
+        },
+        {
+          "type": "Tackles",
+          "value": 2
+        },
+        {
+          "type": "Fouls",
+          "value": 0
+        },
+        {
+          "type": "Yellow Cards",
+          "value": 0
+        },
+        {
+          "type": "Red Cards",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "team": {
+        "id": 283,
+        "name": "Cruzeiro"
+      },
+      "statistics": [
+        {
+          "type": "Ball Possession",
+          "value": "73%"
+        },
+        {
+          "type": "Total Passes",
+          "value": 50
+        },
+        {
+          "type": "Pass Accuracy",
+          "value": "88%"
+        },
+        {
+          "type": "Incomplete Passes",
+          "value": 6
+        },
+        {
+          "type": "Total Shots",
+          "value": 1
+        },
+        {
+          "type": "Shots on Goal",
+          "value": 0
+        },
+        {
+          "type": "Shots off Goal",
+          "value": 1
+        },
+        {
+          "type": "Blocked Shots",
+          "value": 0
+        },
+        {
+          "type": "Hit Woodwork",
+          "value": 0
+        },
+        {
+          "type": "Corner Kicks",
+          "value": 0
+        },
+        {
+          "type": "Offsides",
+          "value": 0
+        },
+        {
+          "type": "Penalties",
+          "value": 0
+        },
+        {
+          "type": "Goalkeeper Saves",
+          "value": 0
+        },
+        {
+          "type": "Tackles",
+          "value": 1
+        },
+        {
+          "type": "Fouls",
+          "value": 1
+        },
+        {
+          "type": "Yellow Cards",
+          "value": 0
+        },
+        {
+          "type": "Red Cards",
+          "value": 0
+        }
+      ]
+    }
+  ],
   "sportsFieldUrl": null
 }

@@ -15012,7 +15012,9 @@
           "long": "NS",
           "short": "NS",
           "elapsed": null
-        }
+        },
+        "timerStart": null,
+        "timerStatus": "PAUSADO"
       },
       "league": {
         "round": "Regular Season - 31"
@@ -15164,7 +15166,9 @@
           "long": "NS",
           "short": "NS",
           "elapsed": null
-        }
+        },
+        "timerStart": null,
+        "timerStatus": "PAUSADO"
       },
       "league": {
         "round": "Regular Season - 31"
@@ -20254,7 +20258,7 @@
     "mode": "idle",
     "liveIntervalMs": 900000
   },
-  "fetchedAt": "2026-10-14T13:06:58.636Z",
+  "fetchedAt": "2026-10-14T18:00:04.134Z",
   "source": "ge-globo",
   "meta": {
     "rodada": 31,
@@ -20299,8 +20303,8 @@
       37,
       38
     ],
-    "seasonSyncedAt": "2026-10-14T07:45:05.175Z",
-    "fullSeasonSync": false,
+    "seasonSyncedAt": "2026-10-14T17:59:59.527Z",
+    "fullSeasonSync": true,
     "edicao": "Campeonato Brasileiro 2026",
     "provider": "ge.globo.com",
     "scorersCount": 50,

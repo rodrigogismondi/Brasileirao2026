@@ -10,7 +10,9 @@
       "long": "NS",
       "short": "NS",
       "elapsed": null
-    }
+    },
+    "timerStart": null,
+    "timerStatus": "PAUSADO"
   },
   "league": {
     "round": "Regular Season - 31"
@@ -47,8 +49,236 @@
     "away": 3.29,
     "source": "betexplorer"
   },
+  "_geUrl": "https://ge.globo.com/sp/futebol/brasileirao-serie-a/jogo/17-10-2026/sao-paulo-vasco.ghtml",
   "events": [],
-  "lineups": [],
+  "lineups": [
+    {
+      "team": {
+        "id": 276,
+        "name": "São Paulo",
+        "logo": "https://s.sde.globo.com/media/organizations/2018/03/11/sao-paulo.svg"
+      },
+      "formation": "3-5-2",
+      "coach": {
+        "name": "Dorival Júnior"
+      },
+      "startXI": [
+        {
+          "player": {
+            "id": "rafaelpires",
+            "name": "Rafael",
+            "number": 23,
+            "pos": "Gol",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "newtonaraujo",
+            "name": "Newton",
+            "number": null,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "arboleda",
+            "name": "Arboleda",
+            "number": 5,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "sabino-monteiro",
+            "name": "Sabino",
+            "number": 35,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "pedro-lima",
+            "name": "Pedro Lima",
+            "number": 32,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "bobadillad",
+            "name": "Bobadilla",
+            "number": 16,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "marcosantonioss",
+            "name": "Marcos Antônio",
+            "number": 8,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "iago-amaral",
+            "name": "Iago",
+            "number": null,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "artur-palmeiras",
+            "name": "Artur",
+            "number": 37,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "calleri",
+            "name": "Calleri",
+            "number": 9,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "luciano02",
+            "name": "Luciano",
+            "number": null,
+            "pos": "Ata",
+            "grid": null
+          }
+        }
+      ],
+      "substitutes": []
+    },
+    {
+      "team": {
+        "id": 267,
+        "name": "Vasco",
+        "logo": "https://s.sde.globo.com/media/organizations/2021/09/04/vasco_SVG.svg"
+      },
+      "formation": "4-3-3",
+      "coach": {
+        "name": "Pedro Emanuel"
+      },
+      "startXI": [
+        {
+          "player": {
+            "id": "leojardim",
+            "name": "Léo Jardim",
+            "number": 1,
+            "pos": "Gol",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "paulohenrique-parana",
+            "name": "Paulo Henrique",
+            "number": 96,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "saldivia",
+            "name": "Saldivia",
+            "number": 4,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "robertrenan",
+            "name": "Robert Renan",
+            "number": 30,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "cuiabano",
+            "name": "Cuiabano",
+            "number": 66,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "sosasanti",
+            "name": "Santiago Sosa",
+            "number": 5,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "thiagomendes",
+            "name": "Thiago Mendes",
+            "number": 23,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "alan-lescano",
+            "name": "Lescano",
+            "number": 22,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "carlosgomez",
+            "name": "Andrés Gómez",
+            "number": null,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "brunoduartesil",
+            "name": "Bruno Duarte",
+            "number": 19,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "colidio",
+            "name": "Colidio",
+            "number": 9,
+            "pos": "Ata",
+            "grid": null
+          }
+        }
+      ],
+      "substitutes": []
+    }
+  ],
   "statistics": [],
   "sportsFieldUrl": null
 }

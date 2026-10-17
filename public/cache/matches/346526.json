@@ -7,12 +7,12 @@
       "city": ""
     },
     "status": {
-      "long": "1H",
-      "short": "1H",
-      "elapsed": null
+      "long": "2H",
+      "short": "2H",
+      "elapsed": 99
     },
-    "timerStart": "2026-10-17T20:03:40.815Z",
-    "timerStatus": "PAUSADO"
+    "timerStart": "2026-10-17T22:06:45.760Z",
+    "timerStatus": "INICIADO"
   },
   "league": {
     "round": "Regular Season - 31"
@@ -30,8 +30,8 @@
     }
   },
   "goals": {
-    "home": null,
-    "away": null
+    "home": 1,
+    "away": 0
   },
   "score": {
     "halftime": {
@@ -50,7 +50,2454 @@
     "source": "betexplorer"
   },
   "_geUrl": "https://ge.globo.com/rj/futebol/brasileirao-serie-a/jogo/17-10-2026/botafogo-chapecoense.ghtml",
-  "events": [],
+  "events": [
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Bola vai rolar para o segundo tempo!",
+      "player": {
+        "name": "Equipes em campo"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 263,
+        "name": "Botafogo"
+      },
+      "type": "Important",
+      "detail": "O gol marcado pelo atacante do Botafogo encerrou um período de três meses sem o Botafogo ter um jogador do ataque marcando. Veja detalhes na matéria clicando aqui.",
+      "player": {
+        "name": "GOL DE TIQUINHO QUEBRA JEJUM"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Botafogo vai vencendo a Chapecoense por 1 a 0, com gol de Tiquinho Soares, em jogo muito morno no Nilton Santos. A equipe carioca abriu o placar logo no começo da partida e depois levou pouco perigo ao gol da Chape, que também não assustou em nenhum oportunidade. Ziyech, Matheus Martins e Tiquinho ainda tiveram algumas oportunidades de ampliar, mas desperdiçaram ou pararam em Anderson.",
+      "player": {
+        "name": "RESUMO"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 315,
+        "name": "Chapecoense"
+      },
+      "type": "Important",
+      "detail": "Arbitragem marca falta de Marçal em Fernando no primeiro lance do jogo. Chapecoense vai alçar bola na área",
+      "player": {
+        "name": "Arbitragem marca falta de Marçal em Fernando no "
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Bola rolando para Botafogo x Chapecoense",
+      "player": {
+        "name": "TÁ VALENDO!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 1,
+        "extra": null
+      },
+      "team": {
+        "id": 263,
+        "name": "Botafogo"
+      },
+      "type": "Important",
+      "detail": "Defesa do Botafogo afasta o cruzamento e fica com a bola no campo de defesa",
+      "player": {
+        "name": "Defesa do Botafogo afasta o cruzamento e fica co"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 2,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Botafogo circula área da Chapecoense e tenta furar bloqueio para chegar na primeira finalização da partida",
+      "player": {
+        "name": "Botafogo circula área da Chapecoense e tenta fur"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 3,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "A bola rolando já trouxe emoção logo cedo. Com apenas três minutos de jogo, o Botafogo quase abriu o placar após uma saída errada do goleiro Anderson, da Chapecoense. Montoro recuperou a posse e acionou Tiquinho Soares, que de calcanhar serviu Alex Telles. O lateral cruzou fechado e quase surpreendeu o arqueiro, que se recuperou para salvar. O placar segue empatado em zero a zero.",
+      "player": {
+        "name": "Início movimentado com chance clara do Botafogo"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 3,
+        "extra": null
+      },
+      "team": {
+        "id": 263,
+        "name": "Botafogo"
+      },
+      "type": "Important",
+      "detail": "Anderson sai jogando errado e Botafogo recupera a bola no meio. Montoro acha Tiquinho, que dá passe de calcanhar para Alex Telles chegar cruzando. O lateral do Botafogo erra a direção e quase bate direto no gol, mas Anderson aparece para defender",
+      "player": {
+        "name": "Alex Telles"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 4,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Ziyech tenta passar por Bruno Pacheco, que para a jogada com falta no meio-campo",
+      "player": {
+        "name": "Ziyech tenta passar por Bruno Pacheco, que para "
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 5,
+        "extra": null
+      },
+      "team": {
+        "id": 263,
+        "name": "Botafogo"
+      },
+      "type": "Important",
+      "detail": "Bruno Tubarão recebe livre pela lateral-direita, tenta cruzamento rasteiro para Fernando, mas zaga do Botafogo corta no momento da finalização. Em seguida, Bruno erra inversão de bola, e o time da casa recupera a posse de bola",
+      "player": {
+        "name": "LEVOU PERGIGO!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 6,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O confronto começou movimentado. Logo aos 3 minutos, Alex Telles quase surpreendeu o goleiro Anderson. A Chapecoense respondeu com descida perigosa de Bruno Tubarão, mas a zaga carioca afastou. Aos 6 minutos, a pressão do Botafogo deu resultado: Matheus Martins cruzou de trivela e Tiquinho Soares apareceu para marcar um golaço, abrindo o placar em 1 a 0 para os donos da casa.",
+      "player": {
+        "name": "Tiquinho Soares coloca o Botafogo na frente"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 6,
+        "extra": null
+      },
+      "team": {
+        "id": 263,
+        "name": "Botafogo"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "player": {
+        "name": "Tiquinho Soares"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 8,
+        "extra": null
+      },
+      "team": {
+        "id": 263,
+        "name": "Botafogo"
+      },
+      "type": "Important",
+      "detail": "Torcida do Botafogo canta o nome de Tiquinho Soares no Nilton Santos",
+      "player": {
+        "name": "Torcida do Botafogo canta o nome de Tiquinho Soa"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 9,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Botafogo começou impondo seu ritmo no Nilton Santos. Com 3 minutos, Alex Telles quase surpreendeu o goleiro Anderson. A Chapecoense tentou responder com perigo através de Bruno Tubarão, mas a zaga cortou. Aos 6 minutos, após cruzamento de trivela de Matheus Martins, Tiquinho Soares abriu o placar. Com 9 minutos de jogo, a equipe da casa administra a vantagem de 1 a 0 e dita o ritmo.",
+      "player": {
+        "name": "Tiquinho abre o placar para o Botafogo"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 9,
+        "extra": null
+      },
+      "team": {
+        "id": 263,
+        "name": "Botafogo"
+      },
+      "type": "Important",
+      "detail": "Botafogo circula bola no campo de defesa",
+      "player": {
+        "name": "Botafogo circula bola no campo de defesa"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 10,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Mesmo atrás do placar, Chapecoense mantém a estratégia de se fechar no campo de defesa. Botafogo segue circulando bola tentando achar espaços na defesa adversária",
+      "player": {
+        "name": "Mesmo atrás do placar, Chapecoense mantém a estr"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 11,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Chapecoense tenta sair em contra-ataque, Bruno Tubarão acha Túlio Eduardo pela direita, que tenta cruzar, mas a bola passa direto pela área do Botafogo",
+      "player": {
+        "name": "Chapecoense tenta sair em contra-ataque, Bruno T"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 11,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Matheus Martins tenta enfiada de bola para Tiquinho Soares, mas Eduardo Doma afasta o perigo",
+      "player": {
+        "name": "Matheus Martins tenta enfiada de bola para Tiqui"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 13,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O início de jogo é de total domínio alvinegro. Logo aos 6 minutos, Tiquinho Soares abriu o placar para o Botafogo após receber um cruzamento de trivela sob medida de Matheus Martins. A Chapecoense tenta se fechar na defesa para conter a pressão, mas encontra dificuldades para criar. Com 13 minutos, a partida segue movimentada, com direito a cartão amarelo e controle do time carioca.",
+      "player": {
+        "name": "Tiquinho coloca o Botafogo na frente logo cedo"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 13,
+        "extra": null
+      },
+      "team": {
+        "id": 315,
+        "name": "Chapecoense"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Kauan"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 14,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Ferraresi tenta lançamento para Tiquinho Soares, mas Anderson sai de soco e afasta",
+      "player": {
+        "name": "Ferraresi tenta lançamento para Tiquinho Soares,"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 15,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Depois da intensidade do Botafogo no começo da partida, jogo ficou morno. Botafogo troca passes no meio e na defesa em busca de espaços, enquanto a Chape não leva perigo",
+      "player": {
+        "name": "Depois da intensidade do Botafogo no começo da p"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 15,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Yago Felipe faz falta em Tiquinho Soares no meio-campo",
+      "player": {
+        "name": "Yago Felipe faz falta em Tiquinho Soares no meio"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 17,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Botafogo começou pressionando e abriu o placar aos 6 minutos com um golaço de Tiquinho Soares, após lindo cruzamento de trivela de Matheus Martins. Depois de sofrer o gol, a Chapecoense seguiu fechada na defesa. Com 17 minutos de bola rolando, o jogo ficou morno, com o time da casa trocando passes com tranquilidade e os visitantes encontrando dificuldades para criar perigo.",
+      "player": {
+        "name": "Tiquinho coloca o Botafogo em vantagem"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 17,
+        "extra": null
+      },
+      "team": {
+        "id": 263,
+        "name": "Botafogo"
+      },
+      "type": "Important",
+      "detail": "Botafogo tenta mais um lançamento, dessa vez com Marçal, mas a bola vai novamente para as mãos de Anderson",
+      "player": {
+        "name": "Botafogo tenta mais um lançamento, dessa vez com"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 18,
+        "extra": null
+      },
+      "team": {
+        "id": 315,
+        "name": "Chapecoense"
+      },
+      "type": "Important",
+      "detail": "Chapecoense retribui tentativa de lançamento longo e, dessa vez, a bola para nas mãos de Gabriel Batista",
+      "player": {
+        "name": "Chapecoense retribui tentativa de lançamento lon"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 19,
+        "extra": null
+      },
+      "team": {
+        "id": 263,
+        "name": "Botafogo"
+      },
+      "type": "Important",
+      "detail": "Ferraresi sai jogando errado e entrega a bola no pé de Yago Felipe. O jogador da Chape tenta lançar, Vitinho afasta e chuta bola em cima do zagueiro do Botafogo. Depois da lambança, time da casa sai jogando normalmente",
+      "player": {
+        "name": "QUE CONFUSÃO!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 20,
+        "extra": null
+      },
+      "team": {
+        "id": 315,
+        "name": "Chapecoense"
+      },
+      "type": "Important",
+      "detail": "Goleiro da Chapecoense está caído no gramado reclamando de dores e pediu para ser substituído",
+      "player": {
+        "name": "Anderson"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 20,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Com 20 minutos jogados, o Botafogo vai vencendo a Chapecoense por 1 a 0. O placar foi aberto aos 6 minutos, com um golaço de Tiquinho Soares após lindo cruzamento de trivela de Matheus Martins. O time da casa controla o ritmo da partida, enquanto os visitantes se fecham. Matheus Martins ainda levou perigo em chute de fora da área, exigindo boa defesa do goleiro Anderson.",
+      "player": {
+        "name": "Botafogo sai na frente com golaço de Tiquinho"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 20,
+        "extra": null
+      },
+      "team": {
+        "id": 263,
+        "name": "Botafogo"
+      },
+      "type": "Important",
+      "detail": "Matheus Martins recebeu de Montoro pela esquerda e dessa vez decidiu cortar pro meio e finalizar. Chute levou perigo, mas Anderson fez boa defesa",
+      "player": {
+        "name": "Matheus Martins"
+      },
+      "assist": {
+        "name": "ARRISCOU DE FORA!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 21,
+        "extra": null
+      },
+      "team": {
+        "id": 315,
+        "name": "Chapecoense"
+      },
+      "type": "Important",
+      "detail": "Anderson levantou após atendimento e já participou do jogo. Goleiro continua em campo",
+      "player": {
+        "name": "Anderson"
+      },
+      "assist": {
+        "name": "Voltou atrás?"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 22,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Botafogo volta a trocar passes no campo defensivo. Chape ameaça subir marcação, mas não incomoda a zaga adversária",
+      "player": {
+        "name": "Botafogo volta a trocar passes no campo defensiv"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 23,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Botafogo começou impondo seu ritmo e abriu o placar aos 6 minutos com um golaço de Tiquinho Soares, após cruzamento de trivela de Matheus Martins. A Chapecoense tenta se fechar, mas sofre com a pressão. Matheus Martins quase ampliou de fora da área e, aos 23 minutos, Danilo serviu Tiquinho, que foi travado no último segundo. Jogo dinâmico com vantagem justa de 1 a 0 dos mandantes.",
+      "player": {
+        "name": "Tiquinho brilha e Botafogo dita o ritmo"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 23,
+        "extra": null
+      },
+      "team": {
+        "id": 263,
+        "name": "Botafogo"
+      },
+      "type": "Important",
+      "detail": "Danilo roubou bola de Yago Felipe no meio, deixou Tiquinho em boas condições, mas o atacante foi travado na hora da finalização e a bola passou muito perto do gol de Anderson! Escanteio para o Botafogo",
+      "player": {
+        "name": "Tiquinho Soares"
+      },
+      "assist": {
+        "name": "QUASE O SEGUNDO DELE!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 24,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Ziyech cobra escanteio na segunda trave, mas bola sai direto pela linha de fundo",
+      "player": {
+        "name": "Ziyech cobra escanteio na segunda trave, mas bol"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 25,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Chapecoense tenta trocar passes no campo defensivo, mas Botafogo faz pressão e recupera a bola com Tiquinho Soares",
+      "player": {
+        "name": "Chapecoense tenta trocar passes no campo defensi"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 26,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Botafogo começou sufocando e abriu o placar logo aos 6 minutos, com Tiquinho Soares escorando cruzamento de trivela de Matheus Martins para fazer 1 a 0. A Chapecoense tentou equilibrar, mas esbarrou no forte bloqueio. Aos 26 minutos do primeiro tempo, o time da casa segue muito superior, acumulando chances perdidas com Ziyech e o próprio Tiquinho, que quase ampliou.",
+      "player": {
+        "name": "Botafogo domina e lidera com gol de Tiquinho"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 26,
+        "extra": null
+      },
+      "team": {
+        "id": 263,
+        "name": "Botafogo"
+      },
+      "type": "Important",
+      "detail": "Depois de recuperar a bola no campo de ataque, Botafogo trocou passes até chegar em Ziyech. O marroquino ajeitou o corpo e bateu forte, mas Anderson fez a defesa",
+      "player": {
+        "name": "Ziyech"
+      },
+      "assist": {
+        "name": "ASSUSTOU!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 28,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Giovanni Augusto encontra Bruno Pacheco, que tenta cruzamento, mas a bola vai muito forte",
+      "player": {
+        "name": "Giovanni Augusto encontra Bruno Pacheco, que ten"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 29,
+        "extra": null
+      },
+      "team": {
+        "id": 263,
+        "name": "Botafogo"
+      },
+      "type": "Important",
+      "detail": "Cobrança de escanteio sai muito forte e Botafogo recupera a posse. No contra-ataque, Ziyech é parado com falta ainda no campo de defesa",
+      "player": {
+        "name": "Cobrança de escanteio sai muito forte e Botafogo"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 29,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Após 29 minutos de jogo, o Botafogo vai dominando as ações. O placar foi inaugurado logo aos 6 minutos, quando Tiquinho Soares completou um lindo cruzamento de trivela de Matheus Martins para fazer 1 a 0. O time carioca seguiu pressionando e exigiu boas intervenções do goleiro Anderson, da Chapecoense, que tenta segurar o ímpeto ofensivo do adversário neste primeiro tempo.",
+      "player": {
+        "name": "Tiquinho brilha e coloca o Botafogo em vantagem"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 29,
+        "extra": null
+      },
+      "team": {
+        "id": 315,
+        "name": "Chapecoense"
+      },
+      "type": "Important",
+      "detail": "Giovanni Augusto aparece mais uma vez no campo de ataque. Desta vez, o meia tentar fazer cruzamento por conta própria, mas Telles aparece para cortar. Escanteio para a Chape",
+      "player": {
+        "name": "Giovanni Augusto aparece mais uma vez no campo d"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 30,
+        "extra": null
+      },
+      "team": {
+        "id": 263,
+        "name": "Botafogo"
+      },
+      "type": "Important",
+      "detail": "Túlio Eduardo rouba bola de Allan no meio, arranca e arrisca chute de muito longe. A bola sobe e passa por cima do gol do Botafogo",
+      "player": {
+        "name": "Túlio Eduardo"
+      },
+      "assist": {
+        "name": "SUBIU!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 31,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Yago Felipe tenta lançamento longo para a defesa, mas Ferraresi afasta. No contra-ataque, Tiquinho sai em velocidade e acha Vitinho, que tenta cruzamento rasteiro. Anderson antecipa a jogada e impede a finalização",
+      "player": {
+        "name": "Yago Felipe tenta lançamento longo para a defesa"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 33,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Após 34 minutos de jogo, o Botafogo vai vencendo a Chapecoense por 1 a 0. O único gol saiu aos 6 minutos, quando Tiquinho Soares aproveitou belo cruzamento de trivela de Matheus Martins para marcar. O time da casa seguiu superior e quase ampliou com o próprio Tiquinho e em chute forte de Ziyech, enquanto a Chapecoense tenta se fechar e arriscou apenas em batida de longe.",
+      "player": {
+        "name": "Estrela de Tiquinho brilha e Botafogo lidera"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 33,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Chape troca passes no campo de ataque. Botafogo se mantém postado na defesa e dificulta chegada do adversário",
+      "player": {
+        "name": "Chape troca passes no campo de ataque. Botafogo "
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 34,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Com 35 minutos de jogo, o Botafogo vai batendo a Chapecoense por 1 a 0. O gol saiu logo aos seis minutos, com Tiquinho Soares aproveitando um cruzamento de trivela de Matheus Martins. O Alvinegro seguiu dominando as ações e parou em boas defesas do goleiro Anderson, especialmente nos chutes de Ziyech. A Chape tenta se segurar e arriscou apenas em finalização de fora de Túlio Eduardo.",
+      "player": {
+        "name": "Estrela de Tiquinho coloca o Botafogo na frente"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 34,
+        "extra": null
+      },
+      "team": {
+        "id": 315,
+        "name": "Chapecoense"
+      },
+      "type": "Important",
+      "detail": "Danilo arranca pelo lado esquerdo do campo, cruza rasteiro para a entrada da área e Ziyech chega batendo, mas para no goleiro da Chape",
+      "player": {
+        "name": "Ziyech"
+      },
+      "assist": {
+        "name": "Mais uma finalização dele!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 36,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Botafogo volta a subir pressão e dificulta saída da Chape, mas não consegue transformar a marcação em oportunidades claras de gol",
+      "player": {
+        "name": "Botafogo volta a subir pressão e dificulta saída"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 37,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Com quase 38 minutos de jogo, o Botafogo dita o ritmo e vence a Chapecoense por 1 a 0. O gol saiu aos 6 minutos, quando Tiquinho Soares completou lindo cruzamento de trivela de Matheus Martins. O time carioca seguiu pressionando e quase ampliou com Ziyech e Danilo, enquanto os visitantes se fecharam na defesa e assustaram apenas em chute de longe de Túlio Eduardo.",
+      "player": {
+        "name": "Botafogo pressiona e vai vencendo a Chapecoense"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 37,
+        "extra": null
+      },
+      "team": {
+        "id": 263,
+        "name": "Botafogo"
+      },
+      "type": "Important",
+      "detail": "Montoro acha lindo lançamento para Danilo, que invade a área mas é cortado por Bruno Pacheco na hora da finalização. Quase o segundo do Botafogo",
+      "player": {
+        "name": "Bruno Pacheco"
+      },
+      "assist": {
+        "name": "CORTE CRUCIAL!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 37,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Com 37 minutos jogados, o Botafogo vai vencendo a Chapecoense por 1 a 0 no Nilton Santos. O gol saiu cedo, aos 6 minutos, quando Tiquinho Soares aproveitou um cruzamento de trivela de Matheus Martins para balançar as redes. O Botafogo seguiu dominando as ações e quase ampliou com Ziyech e o próprio Tiquinho. A Chapecoense tenta responder arriscando de longe, mas sem sucesso até aqui.",
+      "player": {
+        "name": "Tiquinho coloca o Botafogo na frente no placar"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 37,
+        "extra": null
+      },
+      "team": {
+        "id": 315,
+        "name": "Chapecoense"
+      },
+      "type": "Important",
+      "detail": "Camilo recebe na entrada da área e tenta arriscar de longe, mas Ferraresi corta antes de chegar no gol de Gabriel Batista",
+      "player": {
+        "name": "Camilo"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 39,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Alex Telles sofre falta no meio de campo",
+      "player": {
+        "name": "Alex Telles sofre falta no meio de campo"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 40,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Botafogo começou impondo seu ritmo e abriu o placar aos 6 minutos, num golaço de Tiquinho Soares após cruzamento de trivela de Matheus Martins. Superior no confronto, o time carioca criou boas chances com Ziyech e quase ampliou com Danilo. A Chapecoense se defende como pode e assusta pouco. Passados 40 minutos, os donos da casa dominam as ações e seguram o 1 a 0.",
+      "player": {
+        "name": "Tiquinho coloca o Botafogo em vantagem no início"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 40,
+        "extra": null
+      },
+      "team": {
+        "id": 315,
+        "name": "Chapecoense"
+      },
+      "type": "Important",
+      "detail": "Chapecoense troca passes no campo de defesa, sai jogando com perigo, mas consegue boa escapada. Yago Felipe é segurado por Allan no momento do contra-ataque",
+      "player": {
+        "name": "Chapecoense troca passes no campo de defesa, sai"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 41,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Gabriel Batista afasta cobrança de escanteio da Chapecoense. Na sobra, Yago Felipe tenta novo cruzamento para área, mas a bola fica com o goleiro do Botafogo",
+      "player": {
+        "name": "Gabriel Batista afasta cobrança de escanteio da "
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 41,
+        "extra": null
+      },
+      "team": {
+        "id": 315,
+        "name": "Chapecoense"
+      },
+      "type": "Important",
+      "detail": "Bruno Pacheco cruza para Túlio Eduardo, que tenta cabeçada, mas é travado. Escanteio para a Chape",
+      "player": {
+        "name": "Bruno Pacheco cruza para Túlio Eduardo, que tent"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 42,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Com 43 minutos jogados, o Botafogo dita o ritmo e vence a Chapecoense por 1 a 0. O gol veio cedo, aos 6 minutos, com Tiquinho Soares completando um belo cruzamento de trivela de Matheus Martins. O time da casa seguiu pressionando e levou perigo com Ziyech e Danilo, enquanto a Chapecoense tenta se segurar na defesa e busca responder apenas em chutes raros de longa distância.",
+      "player": {
+        "name": "Tiquinho brilha e coloca Botafogo na frente"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 42,
+        "extra": null
+      },
+      "team": {
+        "id": 263,
+        "name": "Botafogo"
+      },
+      "type": "Important",
+      "detail": "Vitinho recebe em ótimas condições pela direita, tenta cruzamento rasteiro, mas Tiquinho não alcança para finalizar. No rebote, bola sobra em Montoro, que tenta cruzamento. A bola sobra para Ziyech, que arrisca finalização muito forte e a bola passa longe do gol de Anderson",
+      "player": {
+        "name": "Ziyech"
+      },
+      "assist": {
+        "name": "SUBIU!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 44,
+        "extra": null
+      },
+      "team": {
+        "id": 263,
+        "name": "Botafogo"
+      },
+      "type": "Important",
+      "detail": "Defesa do Botafogo afasta cruzamento na área e no rebote Yago Felipe se choca com Marçal. Os dois jogadores já estão de pé",
+      "player": {
+        "name": "CHOQUE FEIO!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 45,
+        "extra": null
+      },
+      "team": {
+        "id": 315,
+        "name": "Chapecoense"
+      },
+      "type": "Important",
+      "detail": "Túlio recebe pela esquerda com espaço, mas cruza errado e Gabriel Batista faz a defesa. Jogada já estava parada por impedimento do jogador da Chapecoense",
+      "player": {
+        "name": "Túlio recebe pela esquerda com espaço, mas cruza"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 45,
+        "extra": null
+      },
+      "team": {
+        "id": 315,
+        "name": "Chapecoense"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Bolasie"
+      },
+      "assist": {
+        "name": "Fernando"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 45,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Tá valendo a segunda etapa no Nilton Santos",
+      "player": {
+        "name": "BOLA ROLANDO!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 45,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Com 45 minutos jogados, o Botafogo vai vencendo a Chapecoense por 1 a 0 e dita o ritmo da partida. O placar foi aberto logo aos 6 minutos com um golaço de Tiquinho Soares, após lindo cruzamento de trivela de Matheus Martins. O time da casa seguiu superior, assustando com Ziyech e parando em uma defesa milagrosa do goleiro Anderson no último lance antes do intervalo.",
+      "player": {
+        "name": "Botafogo pressiona e lidera na etapa inicial"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 45,
+        "extra": null
+      },
+      "team": {
+        "id": 315,
+        "name": "Chapecoense"
+      },
+      "type": "Important",
+      "detail": "Ziyech acha Tiquinho pela direita, o atacante do Botafogo cruza para Telles, que escora para o meio e deixa Matheus Martins em condições claras de gol, mas o goleiro da Chape faz um milagre no Nilton Santos",
+      "player": {
+        "name": "Anderson"
+      },
+      "assist": {
+        "name": "MILAGRE DE ANDERSON!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 46,
+        "extra": null
+      },
+      "team": {
+        "id": 315,
+        "name": "Chapecoense"
+      },
+      "type": "Important",
+      "detail": "Matheus Martins faz bela jogada na entrada da área pela esquerda, tenta cruzamento rasteiro para o meio da área e a zaga da Chape afasta antes de Ziyech finalizar",
+      "player": {
+        "name": "Matheus Martins faz bela jogada na entrada da ár"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 47,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Mais três.",
+      "player": {
+        "name": "Acréscimos:"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 48,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Após três minutos do segundo tempo, o Botafogo vai confirmando a vitória por 1 a 0 graças ao gol de Tiquinho Soares, marcado logo aos 6 minutos da etapa inicial depois de um lindo cruzamento de trivela de Matheus Martins. O time carioca dominou as ações no primeiro tempo e só não ampliou o placar pelas grandes defesas do goleiro Anderson. A Chapecoense tenta reagir na etapa final.",
+      "player": {
+        "name": "Botafogo em vantagem contra a Chapecoense"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 48,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Chapecoense troca muitos passes sem ser ameçada pelo Botafogo, mas não consegue avançar para o ataque. Equipes trocam posse de bola repetidas vezes",
+      "player": {
+        "name": "Chapecoense troca muitos passes sem ser ameçada "
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 48,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Intervalo no Nilton Santos. Botafogo 1 x 0 Chapecoense.",
+      "player": {
+        "name": "Fim de papo!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 48,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Após um primeiro tempo de amplo domínio, o Botafogo vai vencendo a Chapecoense por 1 a 0 no Nilton Santos. Logo no início, Tiquinho Soares completou um belo cruzamento de Matheus Martins para abrir o placar. O time carioca seguiu pressionando e só não ampliou a vantagem porque o goleiro Anderson fez grande atuação, salvando boas chances de Ziyech e um chute de Montoro no fim.",
+      "player": {
+        "name": "Tiquinho abre o placar e Botafogo pressiona"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 48,
+        "extra": null
+      },
+      "team": {
+        "id": 263,
+        "name": "Botafogo"
+      },
+      "type": "Important",
+      "detail": "Bruno Tubarão tenta cruzamento, mas defesa do Botafogo afasta",
+      "player": {
+        "name": "Bruno Tubarão tenta cruzamento, mas defesa do Bo"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 49,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Com cinco minutos do segundo tempo, o Botafogo vai confirmando a vitória parcial por 1 a 0, gol de Tiquinho Soares logo no início do jogo. O time carioca mandou na primeira etapa e só não ampliou graças às boas defesas do goleiro Anderson. Na volta do intervalo, a partida ganhou emoção com Tiquinho quase marcando o segundo e a Chapecoense respondendo perigosamente com Camilo.",
+      "player": {
+        "name": "Botafogo dita o ritmo e segura a vantagem"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 49,
+        "extra": null
+      },
+      "team": {
+        "id": 315,
+        "name": "Chapecoense"
+      },
+      "type": "Important",
+      "detail": "Na jogada seguinte à chance de Tiquinho, Chape chega com muito perigo, mas Camilo acaba finalizando para fora da entrada da área",
+      "player": {
+        "name": "Camilo"
+      },
+      "assist": {
+        "name": "DEVOLVEU!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 49,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Com cerca de cinco minutos do segundo tempo, o Botafogo lidera por 1 a 0 graças ao golaço de cabeça de Tiquinho Soares na primeira etapa. O Glorioso ditou o ritmo desde o início, parando em ótimas intervenções do goleiro Anderson. Na volta do intervalo, a pressão continua, e o próprio Tiquinho quase marcou o segundo. A Chapecoense tenta se defender, mas tem dificuldades para reagir.",
+      "player": {
+        "name": "Tiquinho brilha e Botafogo dita o ritmo do jogo"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 49,
+        "extra": null
+      },
+      "team": {
+        "id": 263,
+        "name": "Botafogo"
+      },
+      "type": "Important",
+      "detail": "Tiquinho recebe novo cruzamento na área, dessa vez de Vitinho, e quase faz gol muito parecido com o primeiro!",
+      "player": {
+        "name": "Tiquinho Soares"
+      },
+      "assist": {
+        "name": "DEJA VU!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 51,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Garcez sai em contra-ataque pela Chape, acha Giovanni Augusto, que tenta cruzamento, mas defesa do Botafogo afasta",
+      "player": {
+        "name": "Garcez sai em contra-ataque pela Chape, acha Gio"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 53,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Com quase dez minutos do segundo tempo, o Botafogo vai vencendo por 1 a 0 graças ao golaço de trivela de Tiquinho Soares no início. O time carioca dominou as ações e parou em grandes defesas do goleiro Anderson, que evitou um placar elástico. A Chapecoense tenta assustar nos contra-ataques, mas os donos da casa seguem ditando o ritmo de jogo e pressionando em busca do segundo.",
+      "player": {
+        "name": "Botafogo pressiona e lidera no Nilton Santos"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 53,
+        "extra": null
+      },
+      "team": {
+        "id": 263,
+        "name": "Botafogo"
+      },
+      "type": "Important",
+      "detail": "Matheus Martins arrisca finalização da entrada da área, mas Anderson faz defesa segura",
+      "player": {
+        "name": "Matheus Martins"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 53,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Com quase 10 minutos do segundo tempo, o Botafogo lidera por 1 a 0. O único gol foi marcado por Tiquinho Soares, aos 6 do primeiro tempo, após lindo cruzamento de Matheus Martins. O time da casa dominou as ações e criou as melhores chances, parando em grandes defesas do goleiro Anderson. A Chapecoense tenta responder na velocidade, mas encontra dificuldades para furar a marcação.",
+      "player": {
+        "name": "Tiquinho coloca o Botafogo na frente do placar"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 53,
+        "extra": null
+      },
+      "team": {
+        "id": 263,
+        "name": "Botafogo"
+      },
+      "type": "Important",
+      "detail": "Quase 10 minutos de um segundo tempo movimentado, mas sem chances claras de gol para nenhuma das duas equipes. Botafogo segue com controle da partida",
+      "player": {
+        "name": "Quase 10 minutos de um segundo tempo movimentado"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 54,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Giovanni Augusto recebe pela esquerda, tenta cruzamento para Bolasie, mas Gabriel Batista aparece para fazer a defesa",
+      "player": {
+        "name": "Giovanni Augusto recebe pela esquerda, tenta cru"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 54,
+        "extra": null
+      },
+      "team": {
+        "id": 263,
+        "name": "Botafogo"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Medina"
+      },
+      "assist": {
+        "name": "Ziyech"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 56,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Com 11 minutos do segundo tempo, o Botafogo vai confirmando a vitória por 1 a 0 sobre a Chapecoense no Nilton Santos. O único gol do confronto foi marcado por Tiquinho Soares ainda na etapa inicial, após belo cruzamento de trivela de Matheus Martins. O time da casa segue superior no jogo e quase ampliou em cabeçada do próprio atacante, que acabou mandando para fora.",
+      "player": {
+        "name": "Botafogo em vantagem com gol de Tiquinho Soares"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 56,
+        "extra": null
+      },
+      "team": {
+        "id": 263,
+        "name": "Botafogo"
+      },
+      "type": "Important",
+      "detail": "Matheus Martins acha Alex Telles na esquerda, que acerta ótimo cruzamento para Tiquinho, mas o atacante do Botafogo não consegue acertar cabeçada",
+      "player": {
+        "name": "Tiquinho Soares"
+      },
+      "assist": {
+        "name": "PERDEU!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 58,
+        "extra": null
+      },
+      "team": {
+        "id": 315,
+        "name": "Chapecoense"
+      },
+      "type": "Important",
+      "detail": "Bolasie recebe de Camilo e tenta finalizar, mas é travado por Marçal. Bola volta para o atacante da Chape, que cruza, mas zaga do Botafogo afasta",
+      "player": {
+        "name": "Bolasie"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 59,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Botafogo dita o ritmo desde o início e lidera por 1 a 0, gol de Tiquinho Soares aos seis minutos de jogo após lindo cruzamento de Matheus Martins. O goleiro Anderson, da Chapecoense, evitou um placar elástico com grandes defesas. Com quase 15 minutos do segundo tempo, os donos da casa continuam empilhando chances de perigo, enquanto a equipe catarinense tenta segurar a pressão.",
+      "player": {
+        "name": "Botafogo pressiona e segura vantagem mínima"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 59,
+        "extra": null
+      },
+      "team": {
+        "id": 263,
+        "name": "Botafogo"
+      },
+      "type": "Important",
+      "detail": "Alex Telles acerta lindo cruzamento na direção de Danilo, mas o volante do Botafogo cabeceia a bola para fora",
+      "player": {
+        "name": "Danilo"
+      },
+      "assist": {
+        "name": "QUASE O SEGUNDO DO BOTAFOGO!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 60,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Chapecoense tem mais a bola que no primeiro tempo, mas segue errando muito e permitindo escapadas do Botafogo em contra-ataque",
+      "player": {
+        "name": "Chapecoense tem mais a bola que no primeiro temp"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 61,
+        "extra": null
+      },
+      "team": {
+        "id": 315,
+        "name": "Chapecoense"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Max"
+      },
+      "assist": {
+        "name": "Giovanni Augusto"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 61,
+        "extra": null
+      },
+      "team": {
+        "id": 315,
+        "name": "Chapecoense"
+      },
+      "type": "Important",
+      "detail": "Vem mudança dupla na Chape.",
+      "player": {
+        "name": "Vem mudança dupla na Chape."
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 62,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Passados 17 minutos do segundo tempo, o Botafogo vai vencendo a Chapecoense por 1 a 0, gol de Tiquinho Soares logo no início da partida, após lindo cruzamento de Matheus Martins. O time da casa dominou a primeira etapa e quase ampliou com Ziyech e Danilo, parando nas ótimas defesas de Anderson. Na etapa final, os visitantes tentam equilibrar, mas o Botafogo segue mais perigoso.",
+      "player": {
+        "name": "Botafogo lidera com gol de Tiquinho no Rio"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 62,
+        "extra": null
+      },
+      "team": {
+        "id": 315,
+        "name": "Chapecoense"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Rodrigo"
+      },
+      "assist": {
+        "name": "Túlio Eduardo"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 63,
+        "extra": null
+      },
+      "team": {
+        "id": 263,
+        "name": "Botafogo"
+      },
+      "type": "Important",
+      "detail": "Botafogo troca passes no campo de defesa",
+      "player": {
+        "name": "Botafogo troca passes no campo de defesa"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 64,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Matheus Martins tenta passe para Tiquinho dentro da área, mas Kauan afasta",
+      "player": {
+        "name": "Matheus Martins tenta passe para Tiquinho dentro"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 64,
+        "extra": null
+      },
+      "team": {
+        "id": 263,
+        "name": "Botafogo"
+      },
+      "type": "Important",
+      "detail": "Botafogo também vai mexer! Domingos e Danilo Pereira foram chamados",
+      "player": {
+        "name": "Botafogo também vai mexer! Domingos e Danilo Per"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 65,
+        "extra": null
+      },
+      "team": {
+        "id": 263,
+        "name": "Botafogo"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Domingos Andrade"
+      },
+      "assist": {
+        "name": "Allan"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 65,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Aos 20 minutos do segundo tempo, o Botafogo vai vencendo a Chapecoense por 1 a 0, gol de Tiquinho Soares logo no início após cruzamento de trivela de Matheus Martins. O time da casa domina as ações e criou as melhores chances, parando em boas defesas de Anderson. A Chape tenta assustar em escapadas, mas os donos da casa seguem controlando o ritmo da partida no Nilton Santos.",
+      "player": {
+        "name": "Botafogo pressiona e mantém vantagem no placar"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 65,
+        "extra": null
+      },
+      "team": {
+        "id": 263,
+        "name": "Botafogo"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Danilo Pereira"
+      },
+      "assist": {
+        "name": "Tiquinho Soares"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 66,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Medina tabela com Montoro, acha bom passe para Vitinho, mas o lateral do Botafogo se atrapalha na hora de driblar o defensor da Chape e sai com a bola pela linha de fundo",
+      "player": {
+        "name": "Medina tabela com Montoro, acha bom passe para V"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 66,
+        "extra": null
+      },
+      "team": {
+        "id": 263,
+        "name": "Botafogo"
+      },
+      "type": "Important",
+      "detail": "Allan saiu bastante vaiado pela torcida do Botafogo.",
+      "player": {
+        "name": "Allan saiu bastante vaiado pela torcida do Botaf"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 67,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Domingos pressiona saída de bola da Chapecoense no meio e recupera bola para o Botafogo",
+      "player": {
+        "name": "Domingos pressiona saída de bola da Chapecoense "
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 68,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Com 23 minutos da etapa final, o Botafogo vai vencendo por 1 a 0 graças ao golaço de Tiquinho Soares, que escorou um cruzamento de trivela espetacular de Matheus Martins. O time da casa controla as ações e acumulou chances reais para ampliar com Ziyech e Danilo, enquanto a Chapecoense se fecha atrás e encontra muitas dificuldades para assustar a defesa adversária.",
+      "player": {
+        "name": "Botafogo domina ações e vai vencendo a Chape"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 68,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Bruno Pacheco carrega bola na lateral-esquerda, tenta cruzamento, mas bola vai direto pela linha de fundo",
+      "player": {
+        "name": "Bruno Pacheco carrega bola na lateral-esquerda, "
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 69,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Botafogo lidera por 1 a 0, graças ao belo gol de Tiquinho Soares no primeiro tempo. O time carioca ditou o ritmo e acumulou chances de ampliar, parando em boas defesas de Anderson. A Chapecoense tenta equilibrar a posse, mas aos 24 minutos da etapa complementar os donos da casa seguem mais perigosos, controlando o meio de campo e buscando o segundo gol para definir o confronto.",
+      "player": {
+        "name": "Botafogo dita o ritmo e segura triunfo parcial"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 69,
+        "extra": null
+      },
+      "team": {
+        "id": 263,
+        "name": "Botafogo"
+      },
+      "type": "Important",
+      "detail": "Danilo consegue bela enfiada de bola para Danilo Pereira, que invade a área e tenta finalização, mas é travado. Escanteio par ao Botafogo",
+      "player": {
+        "name": "Danilo Pereira"
+      },
+      "assist": {
+        "name": "A PRIMEIRA DELE!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 70,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Aos 25 minutos da etapa final, o Botafogo dita o ritmo e mantém a vantagem de 1 a 0 sobre a Chapecoense. O placar foi aberto aos 6 minutos do primeiro tempo, com um golaço de Tiquinho Soares após cruzamento de trivela de Matheus Martins. O time carioca seguiu pressionando e criando as melhores oportunidades, enquanto a equipe catarinense tenta responder em raras escapadas.",
+      "player": {
+        "name": "Botafogo domina ações e segura vantagem mínima"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 70,
+        "extra": null
+      },
+      "team": {
+        "id": 263,
+        "name": "Botafogo"
+      },
+      "type": "Important",
+      "detail": "Domingos rouba mais uma bola na entrada da área, acha Ferraresi, que tenta finalização, mas a bola passa longe do gol",
+      "player": {
+        "name": "Ferraresi"
+      },
+      "assist": {
+        "name": "ZAGUEIRÃO TENTOU..."
+      }
+    },
+    {
+      "time": {
+        "elapsed": 70,
+        "extra": null
+      },
+      "team": {
+        "id": 263,
+        "name": "Botafogo"
+      },
+      "type": "Important",
+      "detail": "Telles cobra na segunda trave, mas a bola passa por todos os jogadores do Botafogo",
+      "player": {
+        "name": "Telles cobra na segunda trave, mas a bola passa "
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 72,
+        "extra": null
+      },
+      "team": {
+        "id": 315,
+        "name": "Chapecoense"
+      },
+      "type": "Important",
+      "detail": "Chapecoense se arrisca e tenta trocar passes no campo de ataque em busca do empate",
+      "player": {
+        "name": "Chapecoense se arrisca e tenta trocar passes no "
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 73,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Com 28 minutos do segundo tempo, o Botafogo vai vencendo por 1 a 0 graças ao golaço de Tiquinho Soares na etapa inicial. O time da casa seguiu criando as melhores chances, exigindo boas defesas do goleiro Anderson e quase ampliando com cabeçadas perigosas de Tiquinho e Danilo. A Chapecoense até tenta se soltar para buscar o empate, mas esbarra na forte marcação e tem dificuldades para criar.",
+      "player": {
+        "name": "Botafogo pressiona e segura vantagem no placar"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 73,
+        "extra": null
+      },
+      "team": {
+        "id": 263,
+        "name": "Botafogo"
+      },
+      "type": "Important",
+      "detail": "Botafogo tenta sair em contra-ataque, mas Danilo erra passe para Danilo Pereira. Jogada não funciona",
+      "player": {
+        "name": "Botafogo tenta sair em contra-ataque, mas Danilo"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 74,
+        "extra": null
+      },
+      "team": {
+        "id": 263,
+        "name": "Botafogo"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Júnior Santos"
+      },
+      "assist": {
+        "name": "Matheus Martins"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 75,
+        "extra": null
+      },
+      "team": {
+        "id": 263,
+        "name": "Botafogo"
+      },
+      "type": "Important",
+      "detail": "Botafogo mexe mais duas vezes e renova fôlego ofensivo para tentar ampliar o placar",
+      "player": {
+        "name": "Botafogo mexe mais duas vezes e renova fôlego of"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 75,
+        "extra": null
+      },
+      "team": {
+        "id": 263,
+        "name": "Botafogo"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Kauan Toledo"
+      },
+      "assist": {
+        "name": "Montoro"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 76,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Aos 31 minutos do segundo tempo, o Botafogo vai vencendo a Chapecoense por 1 a 0, gol de Tiquinho Soares ainda na primeira etapa. O time da casa controla as ações e cria as melhores oportunidades, parando nas defesas do goleiro Anderson. A Chapecoense tenta assustar nos contragolpes, mas os cariocas seguem mais perigosos e pressionam para consolidar a vitória no Nilton Santos.",
+      "player": {
+        "name": "Botafogo domina ações e busca ampliar no Rio"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 76,
+        "extra": null
+      },
+      "team": {
+        "id": 263,
+        "name": "Botafogo"
+      },
+      "type": "Important",
+      "detail": "Danilo arranca, toca para Danilo Pereira dentro da área, mas na hora da finalização o jogador do Botafogo é travado mais uma vez. Mais uma boa chance",
+      "player": {
+        "name": "Danilo Pereira"
+      },
+      "assist": {
+        "name": "TRAVADO DE NOVO!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 77,
+        "extra": null
+      },
+      "team": {
+        "id": 315,
+        "name": "Chapecoense"
+      },
+      "type": "Important",
+      "detail": "Chapecoense tenta sair em contra-ataque, mas quando Garcez entra na área, Ferraresi aparece para fazer corte providencial",
+      "player": {
+        "name": "Chapecoense tenta sair em contra-ataque, mas qua"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 78,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Passados 34 minutos da etapa final, o Botafogo vai vencendo a Chapecoense por 1 a 0, gol de Tiquinho Soares após lindo cruzamento de trivela de Matheus Martins no primeiro tempo. O time carioca domina as ações e empilha chances perdidas, parando em grande atuação do goleiro Anderson, que evitou um placar elástico com defesas espetaculares. A Chape tenta reagir, mas assusta pouco.",
+      "player": {
+        "name": "Pressão do Botafogo e milagres de Anderson"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 78,
+        "extra": null
+      },
+      "team": {
+        "id": 315,
+        "name": "Chapecoense"
+      },
+      "type": "Important",
+      "detail": "Kauan Toledo invade a área pela esquerda após passe de Telles, acha Medina livre, que finaliza, mas para em milagre de Anderson!",
+      "player": {
+        "name": "Anderson"
+      },
+      "assist": {
+        "name": "MAIS UM MILAGRE DE ANDERSON"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 79,
+        "extra": null
+      },
+      "team": {
+        "id": 315,
+        "name": "Chapecoense"
+      },
+      "type": "Important",
+      "detail": "Na sequência, Telles cobra escanteio, mas a defesa da Chape afasta",
+      "player": {
+        "name": "Na sequência, Telles cobra escanteio, mas a defe"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 80,
+        "extra": null
+      },
+      "team": {
+        "id": 315,
+        "name": "Chapecoense"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Dudu"
+      },
+      "assist": {
+        "name": "Bruno Tubarão"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 81,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Aos 37 minutos do segundo tempo, o Botafogo vai confirmando a vitória por 1 a 0 sobre a Chapecoense. O gol de Tiquinho Soares, marcado logo no início da partida, vai garantindo a vantagem em um duelo de amplo controle dos donos da casa. O placar só não é mais elástico porque o goleiro Anderson vem operando verdadeiros milagres para segurar o forte ímpeto ofensivo do Botafogo.",
+      "player": {
+        "name": "Tiquinho decide e goleiro brilha no Nilton Santos"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 81,
+        "extra": null
+      },
+      "team": {
+        "id": 315,
+        "name": "Chapecoense"
+      },
+      "type": "Important",
+      "detail": "Chapecoense troca passes no campo de defesa",
+      "player": {
+        "name": "Chapecoense troca passes no campo de defesa"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 82,
+        "extra": null
+      },
+      "team": {
+        "id": 263,
+        "name": "Botafogo"
+      },
+      "type": "Important",
+      "detail": "Botafogo recupera a bola e também troca passes na defesa. Marçal, Telles e Ferraresi rodam bola",
+      "player": {
+        "name": "Botafogo recupera a bola e também troca passes n"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 83,
+        "extra": null
+      },
+      "team": {
+        "id": 263,
+        "name": "Botafogo"
+      },
+      "type": "Important",
+      "detail": "Yago Felipe puxa Medina no campo de ataque pela direita e árbitro marca falta. Botafogo tem boa chance de cruzar bola na área",
+      "player": {
+        "name": "Yago Felipe puxa Medina no campo de ataque pela "
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 83,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Vitinho recebe pela direita, tenta cruzamento, mas é cortado por Bruno Pacheco",
+      "player": {
+        "name": "Vitinho recebe pela direita, tenta cruzamento, m"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 84,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Perto dos 40 minutos da etapa final, o Botafogo vai vencendo a Chapecoense por 1 a 0. O único gol foi de Tiquinho Soares, no primeiro tempo, após cruzamento de Matheus Martins. Os mandantes seguiram pressionando e exigiram grandes defesas do goleiro Anderson, enquanto o time visitante tenta se lançar ao ataque, mas esbarra na forte marcação defensiva do time da casa.",
+      "player": {
+        "name": "Botafogo dita o ritmo e mantém vantagem no placar"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 84,
+        "extra": null
+      },
+      "team": {
+        "id": 315,
+        "name": "Chapecoense"
+      },
+      "type": "Important",
+      "detail": "Telles cobra falta baixa, e zaga da Chape afasta o perigo",
+      "player": {
+        "name": "Telles cobra falta baixa, e zaga da Chape afasta"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 85,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Botafogo dita o ritmo no Nilton Santos. Logo aos seis minutos, Tiquinho Soares abriu o placar após cruzamento de trivela de Matheus Martins. A Chapecoense tenta reagir, mas esbarra na forte marcação do time da casa. Aos 40 minutos do segundo tempo, o placar de 1 a 0 reflete a superioridade carioca, que quase ampliou em cabeçada de Marçal na trave após cruzamento de Alex Telles.",
+      "player": {
+        "name": "Botafogo segura a vantagem contra a Chapecoense"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 85,
+        "extra": null
+      },
+      "team": {
+        "id": 263,
+        "name": "Botafogo"
+      },
+      "type": "Important",
+      "detail": "Telles recebe no lado direito do campo, puxa para a perna esquerda e acerta lindo cruzamento para Marçal. O zagueiro do Botafogo desvia de cabeça e a bola para na trave de Anderson",
+      "player": {
+        "name": "Marçal"
+      },
+      "assist": {
+        "name": "NA TRAVE!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 86,
+        "extra": null
+      },
+      "team": {
+        "id": 263,
+        "name": "Botafogo"
+      },
+      "type": "Important",
+      "detail": "Bruno Pacheco arrasta a defesa do Botafogo, passa por quatro, invade a área, mas na hora do cruzamento, manda a bola direto para a linha de fundo",
+      "player": {
+        "name": "Bruno Pacheco"
+      },
+      "assist": {
+        "name": "NA HORA DO DEZ..."
+      }
+    },
+    {
+      "time": {
+        "elapsed": 87,
+        "extra": null
+      },
+      "team": {
+        "id": 315,
+        "name": "Chapecoense"
+      },
+      "type": "Important",
+      "detail": "Camilo recebe na esquerda, tenta cruzamento, mas é travado. Escanteio para a Chapecoense",
+      "player": {
+        "name": "Camilo recebe na esquerda, tenta cruzamento, mas"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 88,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Com o relógio passando dos 43 minutos do segundo tempo, o Botafogo vai confirmando a vitória por 1 a 0 sobre a Chapecoense. Tiquinho Soares marcou o único gol do jogo aos 6 minutos, completando cruzamento de Matheus Martins. O Glorioso dominou as ações, exigiu grandes intervenções do goleiro Anderson e chegou a carimbar a trave em cabeceio de Marçal nesta reta final de partida.",
+      "player": {
+        "name": "Botafogo lidera e carimba a trave no fim"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 88,
+        "extra": null
+      },
+      "team": {
+        "id": 263,
+        "name": "Botafogo"
+      },
+      "type": "Important",
+      "detail": "Max cobra escanteio muito mal e zaga do Botafogo corta. Em seguida, Ferraresi sofre falta no campo de defesa",
+      "player": {
+        "name": "Max cobra escanteio muito mal e zaga do Botafogo"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 89,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Público presente 23.306 / Renda 579.14",
+      "player": {
+        "name": "PÚBLICO DO JOGO"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 90,
+        "extra": null
+      },
+      "team": {
+        "id": 315,
+        "name": "Chapecoense"
+      },
+      "type": "Important",
+      "detail": "Max rouba bola de Medina no meio, arrisca finalização de longe, mas a bola sobe",
+      "player": {
+        "name": "Max"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 90,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Mais cinco minutos. Partida vai até os 50'",
+      "player": {
+        "name": "ACRÉSCIMOS"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 90,
+        "extra": null
+      },
+      "team": {
+        "id": 315,
+        "name": "Chapecoense"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Franco Rossi"
+      },
+      "assist": {
+        "name": "Garcez"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 91,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Aos 47 minutos da etapa final, o Botafogo vai vencendo a Chapecoense por 1 a 0. O único gol foi marcado por Tiquinho Soares no primeiro tempo, completando cruzamento de Matheus Martins. O time da casa seguiu melhor, carimbou a trave com Marçal e só não ampliou a vantagem porque parou em grandes defesas do goleiro Anderson, que faz excelente partida no Nilton Santos.",
+      "player": {
+        "name": "Botafogo pressiona e mantém vantagem no placar"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 91,
+        "extra": null
+      },
+      "team": {
+        "id": 315,
+        "name": "Chapecoense"
+      },
+      "type": "Important",
+      "detail": "Kauan Toledo carrega bola pela esquerda, corta para a direita e bate colocado, mas Anderson aparece para salvar mais uma",
+      "player": {
+        "name": "Anderson"
+      },
+      "assist": {
+        "name": "MAIS UMA DEFESAÇA!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 92,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Com a vantagem de 1 a 0 construída no início após golaço de Tiquinho Soares, o Botafogo domina as ações no Nilton Santos. Já nos acréscimos do segundo tempo, o time da casa seguiu empilhando chances claras, parando nas ótimas defesas do goleiro Anderson e em uma cabeçada na trave de Marçal. A Chapecoense tenta assustar em escapadas rápidas, mas o placar magro segue inalterado.",
+      "player": {
+        "name": "Botafogo pressiona e segura vantagem no placar"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 92,
+        "extra": null
+      },
+      "team": {
+        "id": 263,
+        "name": "Botafogo"
+      },
+      "type": "Important",
+      "detail": "Telles tabela com Kauan Toledo, cruza para dentro da área e Anderson aparece para cortar mais uma chegada do Botafogo",
+      "player": {
+        "name": "Anderson"
+      },
+      "assist": {
+        "name": "DE NOVO ELE!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 94,
+        "extra": null
+      },
+      "team": {
+        "id": 263,
+        "name": "Botafogo"
+      },
+      "type": "Important",
+      "detail": "Defesa do Botafogo afasta. Arbitragem já havia parado o lance por falta",
+      "player": {
+        "name": "Defesa do Botafogo afasta. Arbitragem já havia p"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 94,
+        "extra": null
+      },
+      "team": {
+        "id": 315,
+        "name": "Chapecoense"
+      },
+      "type": "Important",
+      "detail": "Telles perde na corrida para Rodrigo, mas Domingos aparece para fazer corte providencial. Escanteio para a Chape",
+      "player": {
+        "name": "Telles perde na corrida para Rodrigo, mas Doming"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 95,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Fim de papo no Nilton Santos! O Botafogo venceu a Chapecoense por 1 a 0, gol de Tiquinho Soares logo aos 6 minutos do primeiro tempo, após cruzamento de trivela de Matheus Martins. O time da casa dominou as ações, carimbou a trave com Marçal e só não ampliou porque o goleiro Anderson fez milagres. A Chape tentou escapar, mas a vitória do Botafogo foi incontestável após 90 minutos.",
+      "player": {
+        "name": "Tiquinho decide e Botafogo vence a Chapecoense"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 95,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Botafogo vence a Chapecoense por 1 a 0 no Nilton Santos!",
+      "player": {
+        "name": "FIM DE JOGO!"
+      },
+      "assist": null
+    }
+  ],
   "lineups": [
     {
       "team": {
@@ -479,6 +2926,159 @@
       ]
     }
   ],
-  "statistics": [],
+  "statistics": [
+    {
+      "team": {
+        "id": 263,
+        "name": "Botafogo"
+      },
+      "statistics": [
+        {
+          "type": "Ball Possession",
+          "value": "54%"
+        },
+        {
+          "type": "Total Passes",
+          "value": 554
+        },
+        {
+          "type": "Pass Accuracy",
+          "value": "89%"
+        },
+        {
+          "type": "Incomplete Passes",
+          "value": 59
+        },
+        {
+          "type": "Total Shots",
+          "value": 20
+        },
+        {
+          "type": "Shots on Goal",
+          "value": 12
+        },
+        {
+          "type": "Shots off Goal",
+          "value": 5
+        },
+        {
+          "type": "Blocked Shots",
+          "value": 2
+        },
+        {
+          "type": "Hit Woodwork",
+          "value": 1
+        },
+        {
+          "type": "Corner Kicks",
+          "value": 4
+        },
+        {
+          "type": "Offsides",
+          "value": 2
+        },
+        {
+          "type": "Penalties",
+          "value": 0
+        },
+        {
+          "type": "Goalkeeper Saves",
+          "value": 3
+        },
+        {
+          "type": "Tackles",
+          "value": 15
+        },
+        {
+          "type": "Fouls",
+          "value": 8
+        },
+        {
+          "type": "Yellow Cards",
+          "value": 0
+        },
+        {
+          "type": "Red Cards",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "team": {
+        "id": 315,
+        "name": "Chapecoense"
+      },
+      "statistics": [
+        {
+          "type": "Ball Possession",
+          "value": "46%"
+        },
+        {
+          "type": "Total Passes",
+          "value": 502
+        },
+        {
+          "type": "Pass Accuracy",
+          "value": "86%"
+        },
+        {
+          "type": "Incomplete Passes",
+          "value": 72
+        },
+        {
+          "type": "Total Shots",
+          "value": 8
+        },
+        {
+          "type": "Shots on Goal",
+          "value": 0
+        },
+        {
+          "type": "Shots off Goal",
+          "value": 5
+        },
+        {
+          "type": "Blocked Shots",
+          "value": 3
+        },
+        {
+          "type": "Hit Woodwork",
+          "value": 0
+        },
+        {
+          "type": "Corner Kicks",
+          "value": 3
+        },
+        {
+          "type": "Offsides",
+          "value": 1
+        },
+        {
+          "type": "Penalties",
+          "value": 0
+        },
+        {
+          "type": "Goalkeeper Saves",
+          "value": 11
+        },
+        {
+          "type": "Tackles",
+          "value": 18
+        },
+        {
+          "type": "Fouls",
+          "value": 11
+        },
+        {
+          "type": "Yellow Cards",
+          "value": 1
+        },
+        {
+          "type": "Red Cards",
+          "value": 0
+        }
+      ]
+    }
+  ],
   "sportsFieldUrl": null
 }

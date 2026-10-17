@@ -7,12 +7,12 @@
       "city": ""
     },
     "status": {
-      "long": "NS",
-      "short": "NS",
-      "elapsed": null
+      "long": "1H",
+      "short": "1H",
+      "elapsed": 29
     },
-    "timerStart": null,
-    "timerStatus": "PAUSADO"
+    "timerStart": "2026-10-17T22:31:53.385Z",
+    "timerStatus": "INICIADO"
   },
   "league": {
     "round": "Regular Season - 31"
@@ -30,8 +30,8 @@
     }
   },
   "goals": {
-    "home": null,
-    "away": null
+    "home": 0,
+    "away": 2
   },
   "score": {
     "halftime": {
@@ -50,7 +50,588 @@
     "source": "betexplorer"
   },
   "_geUrl": "https://ge.globo.com/pr/futebol/brasileirao-serie-a/jogo/17-10-2026/atletico-pr-palmeiras.ghtml",
-  "events": [],
+  "events": [
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Athletico busca a primeira chegada e ganha lateral no campo de ataque.",
+      "player": {
+        "name": "O Athletico busca a primeira chegada e ganha lat"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Bola rolando!",
+      "player": {
+        "name": "Apita o árbitro"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 1,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Carlos Miguel mostrou ao árbitro uma pedra de gelo atirada no campo. O juiz retirou o objeto, antes de a bola voltar a rolar.",
+      "player": {
+        "name": "Carlos Miguel mostrou ao árbitro uma pedra de ge"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 1,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Gilberto, lateral do Athletico, é pego em posição de impedimento.",
+      "player": {
+        "name": "Gilberto, lateral do Athletico, é pego em posiçã"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 4,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "A bola já está rolando e, com apenas quatro minutos de jogo, o duelo começa a ganhar ritmo. O Athletico-PR tentou pressionar primeiro com Gilberto, que acabou pego em impedimento. Logo depois, o goleiro palmeirense Carlos Miguel encontrou uma pedra de gelo no gramado, paralisando a partida. Agora, o Palmeiras tenta se impor e começa a ocupar mais o campo de ataque.",
+      "player": {
+        "name": "Início equilibrado e interrupção curiosa"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 4,
+        "extra": null
+      },
+      "team": {
+        "id": 275,
+        "name": "Palmeiras"
+      },
+      "type": "Important",
+      "detail": "O Palmeiras tenta ficar mais no campo de ataque.",
+      "player": {
+        "name": "O Palmeiras tenta ficar mais no campo de ataque."
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 5,
+        "extra": null
+      },
+      "team": {
+        "id": 275,
+        "name": "Palmeiras"
+      },
+      "type": "Important",
+      "detail": "Com apenas cinco minutos de bola rolando, o Palmeiras já carimbou a sua vantagem. Após um início com direito a paralisação inusitada por uma pedra de gelo atirada no gramado, o time visitante se impôs no ataque. Flaco López serviu Mauricio na área, que bateu sem ângulo para abrir o placar, apesar do desvio do goleiro Mycael. Início de confronto intenso com o placar de 1 a 0.",
+      "player": {
+        "name": "Mauricio abre o placar para o Palmeiras"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 5,
+        "extra": null
+      },
+      "team": {
+        "id": 275,
+        "name": "Palmeiras"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "player": {
+        "name": "Maurício"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 8,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Palmeiras começou impondo seu ritmo fora de casa e abriu o placar logo cedo. Aos 5 minutos, após boa tabela no ataque, Flaco López serviu Mauricio, que bateu quase sem ângulo para fazer 1 a 0. O Athletico-PR tenta se recuperar do golpe inicial, mas o time visitante segue perigoso e, por volta dos 8 minutos, já arrancou mais uma falta no campo ofensivo com Piquerez.",
+      "player": {
+        "name": "Palmeiras larga na frente com gol de Mauricio"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 8,
+        "extra": null
+      },
+      "team": {
+        "id": 275,
+        "name": "Palmeiras"
+      },
+      "type": "Important",
+      "detail": "Piquerez faz a tabela e parte para o campo de ataque, mas é derrubado. Falta para o Palmeiras.",
+      "player": {
+        "name": "Piquerez faz a tabela e parte para o campo de at"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 9,
+        "extra": null
+      },
+      "team": {
+        "id": 275,
+        "name": "Palmeiras"
+      },
+      "type": "Important",
+      "detail": "O Palmeiras começou com tudo na Arena da Baixada. Com apenas dez minutos de jogo, o Verdão já abriu 2 a 0 no placar. O primeiro gol saiu aos 5 minutos, quando Mauricio recebeu de Flaco López e bateu sem ângulo. Logo depois, aos 9, Piquerez cobrou falta com categoria por fora da barreira para ampliar a vantagem, deixando os donos da casa em situação complicada logo no início.",
+      "player": {
+        "name": "Início arrasador coloca o Palmeiras na frente"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 9,
+        "extra": null
+      },
+      "team": {
+        "id": 275,
+        "name": "Palmeiras"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "player": {
+        "name": "Piquerez"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 11,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Athletico tenta a jogada pelo lado esquerdo e ganha escanteio.",
+      "player": {
+        "name": "O Athletico tenta a jogada pelo lado esquerdo e "
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 12,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Com apenas 12 minutos de bola rolando, o Palmeiras dita o ritmo e já vence por 2 a 0 na Arena da Baixada. Logo aos 5 minutos, Maurício abriu o placar após passe de Flaco López. Pouco depois, aos 9, Piquerez ampliou com uma bela cobrança de falta. O Athletico-PR tenta se reestabelecer e assustou com Aguirre em cabeceio para fora, mas o início é totalmente controlado pelos visitantes.",
+      "player": {
+        "name": "Verdão avassalador abre dois gols de vantagem"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 12,
+        "extra": null
+      },
+      "team": {
+        "id": 275,
+        "name": "Palmeiras"
+      },
+      "type": "Important",
+      "detail": "Após cobrança na primeira trave, o toque de Aguirre sobe demais. Tiro de meta para o Palmeiras.",
+      "player": {
+        "name": "Após cobrança na primeira trave, o toque de Agui"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 13,
+        "extra": null
+      },
+      "team": {
+        "id": 275,
+        "name": "Palmeiras"
+      },
+      "type": "Important",
+      "detail": "O Palmeiras começou com tudo e abriu dois a zero antes dos dez minutos de jogo. Logo aos cinco, Mauricio bateu cruzado para balançar a rede. Aos nove, Piquerez cobrou falta com imensa categoria para ampliar. O Athletico tenta reagir e assustou aos 13 minutos com um chutaço de Leozinho, que parou em grande defesa de Carlos Miguel. O início de jogo na Arena é de tirar o fôlego.",
+      "player": {
+        "name": "Verdão avassalador abre boa vantagem no início"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 13,
+        "extra": null
+      },
+      "team": {
+        "id": 293,
+        "name": "Athletico-PR"
+      },
+      "type": "Important",
+      "detail": "Leozinho traz para o meio e solta a bomba de longa distância. Carlos Miguel espalma e manda para escanteio.",
+      "player": {
+        "name": "Leozinho"
+      },
+      "assist": {
+        "name": "Escanteio!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 14,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Barboza dispara ao campo de ataque e comete falta.",
+      "player": {
+        "name": "Barboza dispara ao campo de ataque e comete falt"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 16,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Com apenas 16 minutos do primeiro tempo, o Palmeiras já construiu uma vantagem confortável de 2 a 0 na Arena da Baixada. Mauricio abriu o placar aos 5 minutos após passe de Flaco López, e Piquerez ampliou logo em seguida com uma bela cobrança de falta. O Athletico-PR tenta reagir e assustou com um chute forte de Leozinho, mas o Alviverde dita o ritmo do confronto até aqui.",
+      "player": {
+        "name": "Verdão avassalador abre vantagem cedo na Arena"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 16,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Athletico-PR 48% x 52% Palmeiras.",
+      "player": {
+        "name": "Posse de bola"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 17,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Flaco López pede pênalti após disputa com Arthur Dias, mas o árbitro manda o jogo seguir.",
+      "player": {
+        "name": "Flaco López pede pênalti após disputa com Arthur"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 18,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Viveros parte para cima de Murilo, e o zagueiro manda para escanteio.",
+      "player": {
+        "name": "Viveros parte para cima de Murilo, e o zagueiro "
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 19,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Palmeiras começou de forma arrasadora na Arena da Baixada. Logo aos 5 minutos, Mauricio abriu o placar após passe de Flaco López. Aos 9, Piquerez ampliou cobrando falta com categoria, fazendo 2 a 0. O Athletico-PR tentou reagir em finalização de Leozinho defendida por Carlos Miguel. Com 19 minutos, os visitantes controlam a vantagem diante de um adversário que tenta se impor no ataque.",
+      "player": {
+        "name": "Palmeiras começa com tudo e abre vantagem rápida"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 19,
+        "extra": null
+      },
+      "team": {
+        "id": 275,
+        "name": "Palmeiras"
+      },
+      "type": "Important",
+      "detail": "A defesa do Palmeiras leva a melhor em nova cobrança na área.",
+      "player": {
+        "name": "A defesa do Palmeiras leva a melhor em nova cobr"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 21,
+        "extra": null
+      },
+      "team": {
+        "id": 275,
+        "name": "Palmeiras"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Andreas Pereira"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 21,
+        "extra": null
+      },
+      "team": {
+        "id": 275,
+        "name": "Palmeiras"
+      },
+      "type": "Important",
+      "detail": "O Palmeiras começou com tudo e abriu boa vantagem antes dos dez minutos. Logo aos cinco, Mauricio recebeu de Flaco López e finalizou quase sem ângulo para marcar. Aos nove, Piquerez ampliou cobrando falta com muito estilo. Com 21 minutos de jogo, o Athletico tenta responder na força e em finalizações de longe, mas o time visitante se defende bem e controla o ritmo da partida.",
+      "player": {
+        "name": "Início arrasador do Palmeiras na Arena"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 21,
+        "extra": null
+      },
+      "team": {
+        "id": 275,
+        "name": "Palmeiras"
+      },
+      "type": "Important",
+      "detail": "Barboza lança para Sosa na área, ele domina, mas Mycael sai do gol para fazer o corte. Boa chegada do Verdão.",
+      "player": {
+        "name": "Ramón Sosa"
+      },
+      "assist": {
+        "name": "Sai o goleiro!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 23,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Athletico chega pelo lado direito, e Carlos Miguel sai do gol para ficar com o cruzamento rasteiro.",
+      "player": {
+        "name": "O Athletico chega pelo lado direito, e Carlos Mi"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 25,
+        "extra": null
+      },
+      "team": {
+        "id": 275,
+        "name": "Palmeiras"
+      },
+      "type": "Important",
+      "detail": "O Palmeiras começou de forma arrasadora na Arena da Baixada. Aos 5 minutos, Mauricio abriu o placar após passe de Flaco López, e pouco depois, aos 9, Piquerez ampliou cobrando falta com categoria para fazer 2 a 0. O Athletico tentou responder em chute forte de Leozinho que Carlos Miguel espalmou. Com 25 minutos de jogo, o Verdão controla a vantagem sob forte ritmo ofensivo.",
+      "player": {
+        "name": "Palmeiras começa arrasador e abre boa vantagem"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 25,
+        "extra": null
+      },
+      "team": {
+        "id": 275,
+        "name": "Palmeiras"
+      },
+      "type": "Important",
+      "detail": "Athletico 2 x 2 Palmeiras.",
+      "player": {
+        "name": "Finalizações"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 26,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Murilo comete falta em Viveros perto da linha lateral.",
+      "player": {
+        "name": "Murilo comete falta em Viveros perto da linha la"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 27,
+        "extra": null
+      },
+      "team": {
+        "id": 275,
+        "name": "Palmeiras"
+      },
+      "type": "Important",
+      "detail": "Sosa faz o pivô no meio-campo e sofre falta para o Palmeiras.",
+      "player": {
+        "name": "Sosa faz o pivô no meio-campo e sofre falta para"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 27,
+        "extra": null
+      },
+      "team": {
+        "id": 275,
+        "name": "Palmeiras"
+      },
+      "type": "Important",
+      "detail": "Viveros é lançado na área do Palmeiras, mas não domina. Tiro de meta.",
+      "player": {
+        "name": "Viveros é lançado na área do Palmeiras, mas não "
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 27,
+        "extra": null
+      },
+      "team": {
+        "id": 275,
+        "name": "Palmeiras"
+      },
+      "type": "Important",
+      "detail": "Leozinho cobra na entrada da área, e o chute é travado pela defesa do Palmeiras.",
+      "player": {
+        "name": "Leozinho cobra na entrada da área, e o chute é t"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 28,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Palmeiras começou com tudo e abriu 2 a 0 na Arena da Baixada antes dos 10 minutos. Maurício inaugurou o placar após passe de Flaco López, e Piquerez ampliou em uma bela cobrança de falta. O Athletico-PR tentou responder com perigo em chute de Leozinho defendido por Carlos Miguel. Com quase 30 minutos jogados, o Verdão administra o resultado contra um mandante que busca espaços.",
+      "player": {
+        "name": "Palmeiras impõe ritmo e faz 2 a 0 no Athletico"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 28,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Mauricio chega atrasado e comete falta em Jadson.",
+      "player": {
+        "name": "Mauricio chega atrasado e comete falta em Jadson"
+      },
+      "assist": null
+    }
+  ],
   "lineups": [
     {
       "team": {
@@ -58,7 +639,7 @@
         "name": "Athletico-PR",
         "logo": "https://s.sde.globo.com/media/organizations/2026/01/07/Athletico-PR.svg"
       },
-      "formation": "3-6-1",
+      "formation": "4-4-2",
       "coach": {
         "name": "Odair Hellmann"
       },
@@ -69,6 +650,15 @@
             "name": "Mycael",
             "number": 1,
             "pos": "Gol",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "gilberto02",
+            "name": "Gilberto",
+            "number": 12,
+            "pos": "Def",
             "grid": null
           }
         },
@@ -85,25 +675,16 @@
           "player": {
             "id": "jfaguirre",
             "name": "Aguirre",
-            "number": null,
+            "number": 33,
             "pos": "Def",
             "grid": null
           }
         },
         {
           "player": {
-            "id": "esquivelal",
-            "name": "Esquivel",
-            "number": 37,
-            "pos": "Def",
-            "grid": null
-          }
-        },
-        {
-          "player": {
-            "id": "gilberto02",
-            "name": "Gilberto",
-            "number": 12,
+            "id": "s-mendoza",
+            "name": "Mendoza",
+            "number": 7,
             "pos": "Def",
             "grid": null
           }
@@ -128,6 +709,15 @@
         },
         {
           "player": {
+            "id": "filipinhocs",
+            "name": "Felipinho",
+            "number": 5,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
             "id": "joaovictormachadocruz",
             "name": "João Cruz",
             "number": 8,
@@ -137,18 +727,9 @@
         },
         {
           "player": {
-            "id": "s-mendoza",
-            "name": "Mendoza",
-            "number": 7,
-            "pos": "Def",
-            "grid": null
-          }
-        },
-        {
-          "player": {
             "id": "leozinho",
             "name": "Leozinho",
-            "number": null,
+            "number": 21,
             "pos": "Ata",
             "grid": null
           }
@@ -163,7 +744,116 @@
           }
         }
       ],
-      "substitutes": []
+      "substitutes": [
+        {
+          "player": {
+            "id": "santos6",
+            "name": "Santos",
+            "number": 23,
+            "pos": "Gol",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "claudinho",
+            "name": "Claudinho",
+            "number": 26,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "Baldini",
+            "name": "Bruno Baldini",
+            "number": 55,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "leopele",
+            "name": "Léo",
+            "number": 3,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "juan-portilla",
+            "name": "Portilla",
+            "number": 27,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "diogo-riquelme",
+            "name": "Riquelme",
+            "number": 63,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "zapelli",
+            "name": "Zapelli",
+            "number": 10,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "leo-cerci-0509",
+            "name": "Léo Cerci",
+            "number": 39,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "chiqueti-felipe",
+            "name": "Felipe Chiqueti",
+            "number": 47,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "dudu",
+            "name": "Dudu",
+            "number": 53,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "jorgerivaldo",
+            "name": "Jorge Rivaldo",
+            "number": 19,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "renanpn",
+            "name": "Renan Peixoto",
+            "number": 70,
+            "pos": "Ata",
+            "grid": null
+          }
+        }
+      ]
     },
     {
       "team": {
@@ -171,7 +861,7 @@
         "name": "Palmeiras",
         "logo": "https://s.sde.globo.com/media/organizations/2019/07/06/Palmeiras.svg"
       },
-      "formation": "3-6-1",
+      "formation": "3-5-2",
       "coach": {
         "name": "Abel Ferreira"
       },
@@ -180,7 +870,7 @@
           "player": {
             "id": "carlos-miguel-pereira",
             "name": "Carlos Miguel",
-            "number": null,
+            "number": 1,
             "pos": "Gol",
             "grid": null
           }
@@ -198,7 +888,7 @@
           "player": {
             "id": "bruno-fuchs",
             "name": "Bruno Fuchs",
-            "number": null,
+            "number": 3,
             "pos": "Def",
             "grid": null
           }
@@ -216,17 +906,8 @@
           "player": {
             "id": "khellven",
             "name": "Khellven",
-            "number": null,
+            "number": 12,
             "pos": "Def",
-            "grid": null
-          }
-        },
-        {
-          "player": {
-            "id": "marlon-freitas",
-            "name": "Marlon Freitas",
-            "number": 17,
-            "pos": "Mei",
             "grid": null
           }
         },
@@ -235,15 +916,6 @@
             "id": "lucasevangelista",
             "name": "Lucas Evangelista",
             "number": 30,
-            "pos": "Mei",
-            "grid": null
-          }
-        },
-        {
-          "player": {
-            "id": "ariasjhon",
-            "name": "Arias",
-            "number": null,
             "pos": "Mei",
             "grid": null
           }
@@ -259,9 +931,18 @@
         },
         {
           "player": {
+            "id": "mauriciomp",
+            "name": "Maurício",
+            "number": 18,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
             "id": "piquerez",
             "name": "Piquerez",
-            "number": null,
+            "number": 22,
             "pos": "Def",
             "grid": null
           }
@@ -274,11 +955,282 @@
             "pos": "Ata",
             "grid": null
           }
+        },
+        {
+          "player": {
+            "id": "ramonsosa",
+            "name": "Ramón Sosa",
+            "number": 19,
+            "pos": "Ata",
+            "grid": null
+          }
         }
       ],
-      "substitutes": []
+      "substitutes": [
+        {
+          "player": {
+            "id": "marcelolomba",
+            "name": "Marcelo Lomba",
+            "number": 14,
+            "pos": "Gol",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "bruno-bertinato",
+            "name": "Bruno Bertinato",
+            "number": 21,
+            "pos": "Gol",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "arthurgabr",
+            "name": "Arthur",
+            "number": 56,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "Benedetti",
+            "name": "Benedetti",
+            "number": 43,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "marlon-freitas",
+            "name": "Marlon Freitas",
+            "number": 17,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "emilianomartinezt",
+            "name": "Emiliano Martínez",
+            "number": 32,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "Larson-Torna",
+            "name": "Larson",
+            "number": 48,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "luis-pacheco",
+            "name": "Luis Pacheco",
+            "number": 50,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "felipeanderson",
+            "name": "Felipe Anderson",
+            "number": 7,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "ariasjhon",
+            "name": "Arias",
+            "number": 11,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "bele",
+            "name": "Belé",
+            "number": 45,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "paulohenriquesampaio",
+            "name": "Paulinho",
+            "number": 10,
+            "pos": "Ata",
+            "grid": null
+          }
+        }
+      ]
     }
   ],
-  "statistics": [],
+  "statistics": [
+    {
+      "team": {
+        "id": 293,
+        "name": "Athletico-PR"
+      },
+      "statistics": [
+        {
+          "type": "Ball Possession",
+          "value": "48%"
+        },
+        {
+          "type": "Total Passes",
+          "value": 136
+        },
+        {
+          "type": "Pass Accuracy",
+          "value": "88%"
+        },
+        {
+          "type": "Incomplete Passes",
+          "value": 17
+        },
+        {
+          "type": "Total Shots",
+          "value": 2
+        },
+        {
+          "type": "Shots on Goal",
+          "value": 1
+        },
+        {
+          "type": "Shots off Goal",
+          "value": 0
+        },
+        {
+          "type": "Blocked Shots",
+          "value": 1
+        },
+        {
+          "type": "Hit Woodwork",
+          "value": 0
+        },
+        {
+          "type": "Corner Kicks",
+          "value": 3
+        },
+        {
+          "type": "Offsides",
+          "value": 1
+        },
+        {
+          "type": "Penalties",
+          "value": 0
+        },
+        {
+          "type": "Goalkeeper Saves",
+          "value": 0
+        },
+        {
+          "type": "Tackles",
+          "value": 3
+        },
+        {
+          "type": "Fouls",
+          "value": 2
+        },
+        {
+          "type": "Yellow Cards",
+          "value": 0
+        },
+        {
+          "type": "Red Cards",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "team": {
+        "id": 275,
+        "name": "Palmeiras"
+      },
+      "statistics": [
+        {
+          "type": "Ball Possession",
+          "value": "52%"
+        },
+        {
+          "type": "Total Passes",
+          "value": 153
+        },
+        {
+          "type": "Pass Accuracy",
+          "value": "86%"
+        },
+        {
+          "type": "Incomplete Passes",
+          "value": 21
+        },
+        {
+          "type": "Total Shots",
+          "value": 2
+        },
+        {
+          "type": "Shots on Goal",
+          "value": 2
+        },
+        {
+          "type": "Shots off Goal",
+          "value": 0
+        },
+        {
+          "type": "Blocked Shots",
+          "value": 0
+        },
+        {
+          "type": "Hit Woodwork",
+          "value": 0
+        },
+        {
+          "type": "Corner Kicks",
+          "value": 0
+        },
+        {
+          "type": "Offsides",
+          "value": 0
+        },
+        {
+          "type": "Penalties",
+          "value": 0
+        },
+        {
+          "type": "Goalkeeper Saves",
+          "value": 2
+        },
+        {
+          "type": "Tackles",
+          "value": 4
+        },
+        {
+          "type": "Fouls",
+          "value": 2
+        },
+        {
+          "type": "Yellow Cards",
+          "value": 1
+        },
+        {
+          "type": "Red Cards",
+          "value": 0
+        }
+      ]
+    }
+  ],
   "sportsFieldUrl": null
 }

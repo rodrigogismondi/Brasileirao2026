@@ -15061,11 +15061,11 @@
           "city": ""
         },
         "status": {
-          "long": "NS",
-          "short": "NS",
+          "long": "1H",
+          "short": "1H",
           "elapsed": null
         },
-        "timerStart": null,
+        "timerStart": "2026-10-17T20:03:40.815Z",
         "timerStatus": "PAUSADO"
       },
       "league": {
@@ -15117,7 +15117,7 @@
           "short": "NS",
           "elapsed": null
         },
-        "timerStart": null,
+        "timerStart": "2026-10-17T20:15:19.146Z",
         "timerStatus": "PAUSADO"
       },
       "league": {
@@ -20267,10 +20267,10 @@
   "budget": {
     "used": 0,
     "remaining": 100,
-    "mode": "prematch",
-    "liveIntervalMs": 120000
+    "mode": "live",
+    "liveIntervalMs": 20000
   },
-  "fetchedAt": "2026-10-17T18:38:24.134Z",
+  "fetchedAt": "2026-10-17T20:59:15.915Z",
   "source": "ge-globo",
   "meta": {
     "rodada": 31,
@@ -20315,8 +20315,8 @@
       37,
       38
     ],
-    "seasonSyncedAt": "2026-10-17T13:03:23.244Z",
-    "fullSeasonSync": false,
+    "seasonSyncedAt": "2026-10-17T20:59:10.515Z",
+    "fullSeasonSync": true,
     "edicao": "Campeonato Brasileiro 2026",
     "provider": "ge.globo.com",
     "scorersCount": 50,

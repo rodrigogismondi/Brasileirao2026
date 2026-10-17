@@ -15009,12 +15009,12 @@
           "city": ""
         },
         "status": {
-          "long": "NS",
-          "short": "NS",
-          "elapsed": null
+          "long": "2H",
+          "short": "2H",
+          "elapsed": 82
         },
-        "timerStart": "2026-10-16T21:59:10.485Z",
-        "timerStatus": "PAUSADO"
+        "timerStart": "2026-10-17T00:11:01.071Z",
+        "timerStatus": "INICIADO"
       },
       "league": {
         "round": "Regular Season - 31"
@@ -15032,8 +15032,8 @@
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 0
       },
       "score": {
         "halftime": {
@@ -15064,9 +15064,7 @@
           "long": "NS",
           "short": "NS",
           "elapsed": null
-        },
-        "timerStart": null,
-        "timerStatus": "PAUSADO"
+        }
       },
       "league": {
         "round": "Regular Season - 31"
@@ -15116,9 +15114,7 @@
           "long": "NS",
           "short": "NS",
           "elapsed": null
-        },
-        "timerStart": null,
-        "timerStatus": "PAUSADO"
+        }
       },
       "league": {
         "round": "Regular Season - 31"
@@ -15168,9 +15164,7 @@
           "long": "NS",
           "short": "NS",
           "elapsed": null
-        },
-        "timerStart": null,
-        "timerStatus": "PAUSADO"
+        }
       },
       "league": {
         "round": "Regular Season - 31"
@@ -15220,9 +15214,7 @@
           "long": "NS",
           "short": "NS",
           "elapsed": null
-        },
-        "timerStart": null,
-        "timerStatus": "PAUSADO"
+        }
       },
       "league": {
         "round": "Regular Season - 31"
@@ -15272,9 +15264,7 @@
           "long": "NS",
           "short": "NS",
           "elapsed": null
-        },
-        "timerStart": null,
-        "timerStatus": "PAUSADO"
+        }
       },
       "league": {
         "round": "Regular Season - 31"
@@ -15324,9 +15314,7 @@
           "long": "NS",
           "short": "NS",
           "elapsed": null
-        },
-        "timerStart": null,
-        "timerStatus": "PAUSADO"
+        }
       },
       "league": {
         "round": "Regular Season - 31"
@@ -15376,9 +15364,7 @@
           "long": "NS",
           "short": "NS",
           "elapsed": null
-        },
-        "timerStart": null,
-        "timerStatus": "PAUSADO"
+        }
       },
       "league": {
         "round": "Regular Season - 31"
@@ -15428,9 +15414,7 @@
           "long": "NS",
           "short": "NS",
           "elapsed": null
-        },
-        "timerStart": null,
-        "timerStatus": "PAUSADO"
+        }
       },
       "league": {
         "round": "Regular Season - 31"
@@ -15480,9 +15464,7 @@
           "long": "NS",
           "short": "NS",
           "elapsed": null
-        },
-        "timerStart": null,
-        "timerStatus": "PAUSADO"
+        }
       },
       "league": {
         "round": "Regular Season - 31"
@@ -19005,6 +18987,28 @@
             {
               "rank": 14,
               "team": {
+                "id": 2305,
+                "name": "Mirassol",
+                "logo": "https://s.sde.globo.com/media/organizations/2026/07/17/MIrassol.svg"
+              },
+              "points": 36,
+              "goalsDiff": -9,
+              "form": "DWDLW",
+              "description": null,
+              "all": {
+                "played": 31,
+                "win": 9,
+                "draw": 9,
+                "lose": 13,
+                "goals": {
+                  "for": 35,
+                  "against": 44
+                }
+              }
+            },
+            {
+              "rank": 15,
+              "team": {
                 "id": 267,
                 "name": "Vasco",
                 "logo": "https://s.sde.globo.com/media/organizations/2021/09/04/vasco_SVG.svg"
@@ -19021,28 +19025,6 @@
                 "goals": {
                   "for": 36,
                   "against": 42
-                }
-              }
-            },
-            {
-              "rank": 15,
-              "team": {
-                "id": 2305,
-                "name": "Mirassol",
-                "logo": "https://s.sde.globo.com/media/organizations/2026/07/17/MIrassol.svg"
-              },
-              "points": 33,
-              "goalsDiff": -10,
-              "form": "WDWDL",
-              "description": null,
-              "all": {
-                "played": 30,
-                "win": 8,
-                "draw": 9,
-                "lose": 13,
-                "goals": {
-                  "for": 34,
-                  "against": 44
                 }
               }
             },
@@ -19076,17 +19058,17 @@
                 "logo": "https://s.sde.globo.com/media/organizations/2018/03/11/internacional.svg"
               },
               "points": 32,
-              "goalsDiff": -5,
-              "form": "LWLWD",
+              "goalsDiff": -6,
+              "form": "WLWDL",
               "description": "Relegation",
               "all": {
-                "played": 30,
+                "played": 31,
                 "win": 7,
                 "draw": 11,
-                "lose": 12,
+                "lose": 13,
                 "goals": {
                   "for": 33,
-                  "against": 38
+                  "against": 39
                 }
               }
             },
@@ -19539,6 +19521,28 @@
     {
       "player": {
         "id": 18,
+        "name": "Eduardo",
+        "photo": "https://s.sde.globo.com/media/person_role/2026/02/09/photo_140x140_DV6aQbI.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "name": "Mirassol",
+            "logo": "https://s.sde.globo.com/media/organizations/2026/07/17/65-_0000_MIrassol.png"
+          },
+          "goals": {
+            "total": 7,
+            "assists": null
+          },
+          "games": {
+            "appearences": 0
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 19,
         "name": "Maurício",
         "photo": "https://s.sde.globo.com/media/person_role/2026/08/19/photo_140x140_6MjlXVn.png"
       },
@@ -19560,7 +19564,7 @@
     },
     {
       "player": {
-        "id": 19,
+        "id": 20,
         "name": "Arthur Cabral",
         "photo": "https://s.sde.globo.com/media/person_role/2026/07/06/photo_140x140_LWtebKu.png"
       },
@@ -19582,7 +19586,7 @@
     },
     {
       "player": {
-        "id": 20,
+        "id": 21,
         "name": "Hulk",
         "photo": "https://s.sde.globo.com/media/person_role/2026/07/06/photo_140x140_KvAp9Mg.png"
       },
@@ -19604,7 +19608,7 @@
     },
     {
       "player": {
-        "id": 21,
+        "id": 22,
         "name": "Carbonero",
         "photo": "https://s.sde.globo.com/media/person_role/2026/08/19/photo_140x140_tohWfor.png"
       },
@@ -19626,7 +19630,7 @@
     },
     {
       "player": {
-        "id": 22,
+        "id": 23,
         "name": "Jajá",
         "photo": "https://s.sde.globo.com/media/person_role/2026/03/31/photo_140x140_HhBEQDC.png"
       },
@@ -19638,28 +19642,6 @@
           },
           "goals": {
             "total": 7,
-            "assists": null
-          },
-          "games": {
-            "appearences": 0
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 23,
-        "name": "Eduardo",
-        "photo": "https://s.sde.globo.com/media/person_role/2026/02/09/photo_140x140_DV6aQbI.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "name": "Mirassol",
-            "logo": "https://s.sde.globo.com/media/organizations/2026/07/17/65-_0000_MIrassol.png"
-          },
-          "goals": {
-            "total": 6,
             "assists": null
           },
           "games": {
@@ -20267,10 +20249,10 @@
   "budget": {
     "used": 0,
     "remaining": 100,
-    "mode": "prematch",
-    "liveIntervalMs": 120000
+    "mode": "live",
+    "liveIntervalMs": 20000
   },
-  "fetchedAt": "2026-10-16T22:46:19.080Z",
+  "fetchedAt": "2026-10-17T00:48:57.679Z",
   "source": "ge-globo",
   "meta": {
     "rodada": 31,

@@ -20267,10 +20267,10 @@
   "budget": {
     "used": 0,
     "remaining": 100,
-    "mode": "idle",
-    "liveIntervalMs": 900000
+    "mode": "prematch",
+    "liveIntervalMs": 120000
   },
-  "fetchedAt": "2026-10-17T05:06:10.891Z",
+  "fetchedAt": "2026-10-17T09:18:14.880Z",
   "source": "ge-globo",
   "meta": {
     "rodada": 31,
@@ -20316,7 +20316,7 @@
       38
     ],
     "seasonSyncedAt": "2026-10-17T05:06:05.416Z",
-    "fullSeasonSync": true,
+    "fullSeasonSync": false,
     "edicao": "Campeonato Brasileiro 2026",
     "provider": "ge.globo.com",
     "scorersCount": 50,

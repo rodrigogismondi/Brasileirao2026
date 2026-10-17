@@ -15009,12 +15009,12 @@
           "city": ""
         },
         "status": {
-          "long": "2H",
-          "short": "2H",
-          "elapsed": 82
+          "long": "FT",
+          "short": "FT",
+          "elapsed": 90
         },
-        "timerStart": "2026-10-17T00:11:01.071Z",
-        "timerStatus": "INICIADO"
+        "timerStart": "2026-10-17T01:13:02.282Z",
+        "timerStatus": "PAUSADO"
       },
       "league": {
         "round": "Regular Season - 31"
@@ -15032,7 +15032,7 @@
         }
       },
       "goals": {
-        "home": 1,
+        "home": 2,
         "away": 0
       },
       "score": {
@@ -15041,8 +15041,8 @@
           "away": null
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 2,
+          "away": 0
         }
       },
       "odds": {
@@ -15064,7 +15064,9 @@
           "long": "NS",
           "short": "NS",
           "elapsed": null
-        }
+        },
+        "timerStart": null,
+        "timerStatus": "PAUSADO"
       },
       "league": {
         "round": "Regular Season - 31"
@@ -15114,7 +15116,9 @@
           "long": "NS",
           "short": "NS",
           "elapsed": null
-        }
+        },
+        "timerStart": null,
+        "timerStatus": "PAUSADO"
       },
       "league": {
         "round": "Regular Season - 31"
@@ -15164,7 +15168,9 @@
           "long": "NS",
           "short": "NS",
           "elapsed": null
-        }
+        },
+        "timerStart": null,
+        "timerStatus": "PAUSADO"
       },
       "league": {
         "round": "Regular Season - 31"
@@ -15214,7 +15220,9 @@
           "long": "NS",
           "short": "NS",
           "elapsed": null
-        }
+        },
+        "timerStart": null,
+        "timerStatus": "PAUSADO"
       },
       "league": {
         "round": "Regular Season - 31"
@@ -15264,7 +15272,9 @@
           "long": "NS",
           "short": "NS",
           "elapsed": null
-        }
+        },
+        "timerStart": null,
+        "timerStatus": "PAUSADO"
       },
       "league": {
         "round": "Regular Season - 31"
@@ -15314,7 +15324,9 @@
           "long": "NS",
           "short": "NS",
           "elapsed": null
-        }
+        },
+        "timerStart": null,
+        "timerStatus": "PAUSADO"
       },
       "league": {
         "round": "Regular Season - 31"
@@ -15364,7 +15376,9 @@
           "long": "NS",
           "short": "NS",
           "elapsed": null
-        }
+        },
+        "timerStart": null,
+        "timerStatus": "PAUSADO"
       },
       "league": {
         "round": "Regular Season - 31"
@@ -15414,7 +15428,9 @@
           "long": "NS",
           "short": "NS",
           "elapsed": null
-        }
+        },
+        "timerStart": null,
+        "timerStatus": "PAUSADO"
       },
       "league": {
         "round": "Regular Season - 31"
@@ -15464,7 +15480,9 @@
           "long": "NS",
           "short": "NS",
           "elapsed": null
-        }
+        },
+        "timerStart": null,
+        "timerStatus": "PAUSADO"
       },
       "league": {
         "round": "Regular Season - 31"
@@ -16234,51 +16252,6 @@
     },
     {
       "fixture": {
-        "id": 346442,
-        "timestamp": 1793313000,
-        "venue": {
-          "name": "Couto Pereira",
-          "city": ""
-        },
-        "status": {
-          "long": "NS",
-          "short": "NS",
-          "elapsed": null
-        }
-      },
-      "league": {
-        "round": "Regular Season - 33"
-      },
-      "teams": {
-        "home": {
-          "id": 294,
-          "name": "Coritiba",
-          "logo": "https://s.sde.globo.com/media/organizations/2018/03/11/coritiba.svg"
-        },
-        "away": {
-          "id": 287,
-          "name": "Vitória",
-          "logo": "https://s.sde.globo.com/media/organizations/2025/12/18/Vitoria_2025.svg"
-        }
-      },
-      "goals": {
-        "home": null,
-        "away": null
-      },
-      "score": {
-        "halftime": {
-          "home": null,
-          "away": null
-        },
-        "fulltime": {
-          "home": null,
-          "away": null
-        }
-      },
-      "odds": null
-    },
-    {
-      "fixture": {
         "id": 346436,
         "timestamp": 1793314800,
         "venue": {
@@ -16399,6 +16372,51 @@
           "id": 2305,
           "name": "Mirassol",
           "logo": "https://s.sde.globo.com/media/organizations/2026/07/17/MIrassol.svg"
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {
+        "halftime": {
+          "home": null,
+          "away": null
+        },
+        "fulltime": {
+          "home": null,
+          "away": null
+        }
+      },
+      "odds": null
+    },
+    {
+      "fixture": {
+        "id": 346442,
+        "timestamp": 1793473200,
+        "venue": {
+          "name": "Couto Pereira",
+          "city": ""
+        },
+        "status": {
+          "long": "NS",
+          "short": "NS",
+          "elapsed": null
+        }
+      },
+      "league": {
+        "round": "Regular Season - 33"
+      },
+      "teams": {
+        "home": {
+          "id": 294,
+          "name": "Coritiba",
+          "logo": "https://s.sde.globo.com/media/organizations/2018/03/11/coritiba.svg"
+        },
+        "away": {
+          "id": 287,
+          "name": "Vitória",
+          "logo": "https://s.sde.globo.com/media/organizations/2025/12/18/Vitoria_2025.svg"
         }
       },
       "goals": {
@@ -18992,7 +19010,7 @@
                 "logo": "https://s.sde.globo.com/media/organizations/2026/07/17/MIrassol.svg"
               },
               "points": 36,
-              "goalsDiff": -9,
+              "goalsDiff": -8,
               "form": "DWDLW",
               "description": null,
               "all": {
@@ -19001,7 +19019,7 @@
                 "draw": 9,
                 "lose": 13,
                 "goals": {
-                  "for": 35,
+                  "for": 36,
                   "against": 44
                 }
               }
@@ -19058,7 +19076,7 @@
                 "logo": "https://s.sde.globo.com/media/organizations/2018/03/11/internacional.svg"
               },
               "points": 32,
-              "goalsDiff": -6,
+              "goalsDiff": -7,
               "form": "WLWDL",
               "description": "Relegation",
               "all": {
@@ -19068,7 +19086,7 @@
                 "lose": 13,
                 "goals": {
                   "for": 33,
-                  "against": 39
+                  "against": 40
                 }
               }
             },
@@ -20249,10 +20267,10 @@
   "budget": {
     "used": 0,
     "remaining": 100,
-    "mode": "live",
-    "liveIntervalMs": 20000
+    "mode": "idle",
+    "liveIntervalMs": 900000
   },
-  "fetchedAt": "2026-10-17T00:48:57.679Z",
+  "fetchedAt": "2026-10-17T05:06:10.891Z",
   "source": "ge-globo",
   "meta": {
     "rodada": 31,
@@ -20297,8 +20315,8 @@
       37,
       38
     ],
-    "seasonSyncedAt": "2026-10-16T20:01:49.805Z",
-    "fullSeasonSync": false,
+    "seasonSyncedAt": "2026-10-17T05:06:05.416Z",
+    "fullSeasonSync": true,
     "edicao": "Campeonato Brasileiro 2026",
     "provider": "ge.globo.com",
     "scorersCount": 50,

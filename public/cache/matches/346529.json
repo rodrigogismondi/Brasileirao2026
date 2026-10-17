@@ -7,12 +7,12 @@
       "city": ""
     },
     "status": {
-      "long": "2H",
-      "short": "2H",
-      "elapsed": 82
+      "long": "FT",
+      "short": "FT",
+      "elapsed": 90
     },
-    "timerStart": "2026-10-17T00:11:01.071Z",
-    "timerStatus": "INICIADO"
+    "timerStart": "2026-10-17T01:13:02.282Z",
+    "timerStatus": "PAUSADO"
   },
   "league": {
     "round": "Regular Season - 31"
@@ -30,7 +30,7 @@
     }
   },
   "goals": {
-    "home": 1,
+    "home": 2,
     "away": 0
   },
   "score": {
@@ -39,8 +39,8 @@
       "away": null
     },
     "fulltime": {
-      "home": null,
-      "away": null
+      "home": 2,
+      "away": 0
     }
   },
   "odds": {
@@ -51,6 +51,42 @@
   },
   "_geUrl": "https://ge.globo.com/sp/tem-esporte/futebol/brasileirao-serie-a/jogo/16-10-2026/mirassol-internacional.ghtml",
   "events": [
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 285,
+        "name": "Internacional"
+      },
+      "type": "Important",
+      "detail": "\"Baita vitória, um jogo dificílimo na parte mental. Com um jogador a mais, vimos que dava para vencer, mas mesmo assim erramos muito. Conseguimos o gol no segundo tempo, que nos deu uma tranquilidade, sabemos que o Inter é um baita time e conseguimos. Feliz por essa vitória, que é o mais importante\".",
+      "player": {
+        "name": "Walter"
+      },
+      "assist": {
+        "name": "Diz aí, Walter!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 285,
+        "name": "Internacional"
+      },
+      "type": "Important",
+      "detail": "\"Sabíamos que era um jogo importante, um confronto direto, e infelizmente tivemos um a menos. Estávamos bem, acabamos sofrendo o gol e mesmo assim tivemos oportunidades. Seria um ótimo ponto, não fizemos e no futebol, quem não faz leva. Ainda depende de nós, temos que entender a camisa que estamos vestindo e todos têm de entender a responsabilidade. Honrar esse clube e deixá-lo na Série A\".",
+      "player": {
+        "name": "Bruno Gomes"
+      },
+      "assist": {
+        "name": "Fala, Bruno Gomes!"
+      }
+    },
     {
       "time": {
         "elapsed": 0,
@@ -478,6 +514,22 @@
       "assist": {
         "name": "Segura, Walter!"
       }
+    },
+    {
+      "time": {
+        "elapsed": 13,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Mirassol 2 x 0 Internacional | melhores momentos | 31ª rodada | Brasileirão 2026",
+      "player": {
+        "name": "Mirassol 2 x 0 Internacional | melhores momentos | 31ª rodada | Brasileirão 2026"
+      },
+      "assist": null
     },
     {
       "time": {
@@ -1290,6 +1342,22 @@
       "detail": "Sem espaço para avançar, Neto Moura arrisca de muito longe e erra por muito.",
       "player": {
         "name": "Neto Moura"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 47,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Mirassol 2 x 0 Internacional | gols | 31ª rodada | Brasileirão 2026",
+      "player": {
+        "name": "Mirassol 2 x 0 Internacional | gols | 31ª rodada | Brasileirão 2026"
       },
       "assist": null
     },
@@ -2347,6 +2415,40 @@
         "extra": null
       },
       "team": {
+        "id": 285,
+        "name": "Internacional"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "João Bezerra"
+      },
+      "assist": {
+        "name": "Thiago Maia"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 81,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Após um primeiro tempo marcado pela expulsão do goleiro Matheus Cunha, do Internacional, o Mirassol aproveitou a vantagem numérica logo no início da etapa final. Aos 2 minutos do segundo tempo, Eduardo completou cruzamento de Edson Carioca para abrir o placar. Passados 36 minutos da etapa complementar, o Colorado tenta reagir e já carimbou a trave, mas o Leão segura o 1 a 0.",
+      "player": {
+        "name": "Mirassol na frente em duelo tenso no Maião"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 81,
+        "extra": null
+      },
+      "team": {
         "id": 2305,
         "name": "Mirassol"
       },
@@ -2358,6 +2460,446 @@
       "assist": {
         "name": "Para fora"
       }
+    },
+    {
+      "time": {
+        "elapsed": 82,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Aos 37 minutos da etapa final, o Mirassol vai vencendo o Internacional por 1 a 0. O Colorado joga com um a menos desde a expulsão de Matheus Cunha no primeiro tempo. Eduardo marcou o gol no início do segundo tempo. O duelo segue aberto, com bola na trave de Bruno Gomes para os visitantes e uma defesa espetacular do goleiro Walter mantendo a equipe mandante em vantagem no placar.",
+      "player": {
+        "name": "Mirassol em vantagem após gol e expulsão"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 82,
+        "extra": null
+      },
+      "team": {
+        "id": 2305,
+        "name": "Mirassol"
+      },
+      "type": "Important",
+      "detail": "Félix Torres faz boa jogada pela direita e cruza rasteiro do lado oposto para João Bezerra, que chega batendo de primeira para grande defesa de Walter. Salva o Mirassol o goleiro!",
+      "player": {
+        "name": "João Bezerra"
+      },
+      "assist": {
+        "name": "Defesaça!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 83,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Com quase 40 minutos do segundo tempo, o Mirassol segura a vantagem de 1 a 0 conquistada com gol de Eduardo no início da etapa final. O Internacional, mesmo com um a menos desde a expulsão do goleiro Matheus Cunha no primeiro tempo, pressiona muito e quase empatou em bola na trave de Bruno Gomes e em finalização de João Bezerra salva em cima da linha pela zaga do Mirassol.",
+      "player": {
+        "name": "Mirassol lidera com drama e pressao do Inter"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 83,
+        "extra": null
+      },
+      "team": {
+        "id": 285,
+        "name": "Internacional"
+      },
+      "type": "Important",
+      "detail": "João Bezerra recebe mais uma na área, limpa a marcação e finaliza rasteiro no cantinho. Com Walter batido no lance, João Victor é quem tira em cima da linha.",
+      "player": {
+        "name": "João Bezerra"
+      },
+      "assist": {
+        "name": "Em cima da linha!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 84,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Após a expulsão do goleiro Matheus Cunha ainda no primeiro tempo, o Internacional precisou se desdobrar. O Mirassol aproveitou a vantagem numérica e abriu o placar aos 2 minutos da etapa final com Eduardo. Mas o Colorado não se entregou. Com quase 40 minutos do segundo tempo, o time gaúcho pressiona, já carimbou a trave e parou em uma bola salva em cima da linha. Placar de 1 a 0.",
+      "player": {
+        "name": "Mirassol segura vantagem em duelo dramático"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 84,
+        "extra": null
+      },
+      "team": {
+        "id": 2305,
+        "name": "Mirassol"
+      },
+      "type": "Important",
+      "detail": "Alesson abre espaço na direita e chuta cruzado, sem força, para defesa de Kauan Jesus.",
+      "player": {
+        "name": "Alesson"
+      },
+      "assist": {
+        "name": "Responde o Mirassol!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 85,
+        "extra": null
+      },
+      "team": {
+        "id": 285,
+        "name": "Internacional"
+      },
+      "type": "Important",
+      "detail": "Inter parte para a pressão nos minutos finais.",
+      "player": {
+        "name": "Inter parte para a pressão nos minutos finais."
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 86,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O confronto ficou marcado pela expulsão do goleiro Matheus Cunha ainda no primeiro tempo. Com a vantagem numérica, o Mirassol abriu o placar logo no início da etapa final com Eduardo. O Internacional tentou reagir e carimbou a trave, mas, aos 41 minutos do segundo tempo, André Luis aproveitou contra-ataque letal para fazer 2 a 0 e praticamente encaminhar o triunfo do Leão.",
+      "player": {
+        "name": "Mirassol amplia no fim e fica perto da vitoria"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 86,
+        "extra": null
+      },
+      "team": {
+        "id": 2305,
+        "name": "Mirassol"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "player": {
+        "name": "André Luis"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 88,
+        "extra": null
+      },
+      "team": {
+        "id": 285,
+        "name": "Internacional"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Mercado"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 88,
+        "extra": null
+      },
+      "team": {
+        "id": 285,
+        "name": "Internacional"
+      },
+      "type": "Important",
+      "detail": "Inter acusa o golpe e troca passes sem muita ambição no campo de defesa.",
+      "player": {
+        "name": "Inter acusa o golpe e troca passes sem muita amb"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 90,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Com a expulsão do goleiro do Internacional ainda na etapa inicial, o Mirassol aproveitou a vantagem. Logo aos 2 minutos do segundo tempo, Eduardo abriu o placar. O Colorado pressionou, carimbou a trave e parou na defesa rival, mas aos 41, André Luis ampliou para 2 a 0 em contra-ataque rápido. Já nos acréscimos, o Leão ainda tem um pênalti a seu favor para fechar a conta.",
+      "player": {
+        "name": "Mirassol domina com um a mais e amplia no fim"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 90,
+        "extra": null
+      },
+      "team": {
+        "id": 2305,
+        "name": "Mirassol"
+      },
+      "type": "Important",
+      "detail": "Em mais um contra-ataque, Fernandinho é lançado em velocidade, invade a área e é calçado por Kauan Jesus ao tentar driblar o goleiro.",
+      "player": {
+        "name": "Pênalti para o Mirassol!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 90,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Após a expulsão do goleiro Matheus Cunha aos 14 minutos, o Internacional se desdobrou, mas o Mirassol soube usar a vantagem numérica. Logo aos 2 minutos da etapa final, Eduardo abriu o placar. O Colorado tentou reagir, acertou a trave e parou na zaga adversária. Porém, aos 41 minutos, André Luis recebeu de Fernandinho em contra-ataque letal para decretar o 2 a 0 e liquidar a fatura.",
+      "player": {
+        "name": "Mirassol brilha e encaminha vitória sobre o Inter"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 90,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "João Victor cobra escanteio para o Inter e a defesa do Mirassol afasta.",
+      "player": {
+        "name": "João Victor cobra escanteio para o Inter e a def"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 91,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Com um a mais desde a expulsão do goleiro do Inter aos 14 minutos, o Mirassol ditou o ritmo. Eduardo abriu o placar aos 2 minutos do segundo tempo. O Inter pressionou e parou na trave, mas André Luis ampliou para 2 a 0 aos 41. Agora, aos 46 minutos da etapa final, Reinaldo cobrou pênalti no travessão, mantendo a bela vantagem do time da casa nesta reta final de partida.",
+      "player": {
+        "name": "Mirassol abre vantagem sobre o Inter no fim"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 91,
+        "extra": null
+      },
+      "team": {
+        "id": 2305,
+        "name": "Mirassol"
+      },
+      "type": "Important",
+      "detail": "Na cobrança, Reinaldo desloca Kauan Jesus e bate firme, mas a bola sobe demais e explode no travessão.",
+      "player": {
+        "name": "Reinaldo"
+      },
+      "assist": {
+        "name": "No travessão!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 91,
+        "extra": null
+      },
+      "team": {
+        "id": 285,
+        "name": "Internacional"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Kauan Jesus"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 92,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Torcida grita o nome de Reinaldo após o pênalti perdido, o segundo em dois jogos.",
+      "player": {
+        "name": "Torcida grita o nome de Reinaldo após o pênalti "
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 92,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Jogo vai até os 53 novamente no segundo tempo.",
+      "player": {
+        "name": "+8"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 93,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Wallisson calça Villagra e comete a falta no círculo central.",
+      "player": {
+        "name": "Wallisson calça Villagra e comete a falta no cír"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 94,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Com um a mais desde o início após a expulsão de Matheus Cunha, o Mirassol soube construir o resultado. Aos 2 minutos do segundo tempo, Eduardo abriu o placar de primeira. O Inter tentou reagir e carimbou a trave, mas André Luis ampliou aos 41 após contra-ataque. Reinaldo ainda bateu um pênalti no travessão aos 46. O placar aponta 2 a 0 com 49 minutos jogados na etapa final.",
+      "player": {
+        "name": "Mirassol encaminha triunfo em jogo movimentado"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 95,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Alesson arranca pelo meio, invade a área e finaliza em cima da marcação.",
+      "player": {
+        "name": "Alesson arranca pelo meio, invade a área e final"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 96,
+        "extra": null
+      },
+      "team": {
+        "id": 2305,
+        "name": "Mirassol"
+      },
+      "type": "Important",
+      "detail": "Torcida do Mirassol começa a gritar \"olé\" no Maião.",
+      "player": {
+        "name": "Torcida do Mirassol começa a gritar \"olé\" no Mai"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 97,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Após a expulsão do goleiro colorado Matheus Cunha no início, o Mirassol aproveitou a vantagem. Aos 2 minutos do segundo tempo, Eduardo abriu o placar de primeira. O Inter tentou reagir e carimbou a trave, mas aos 41, André Luis ampliou para 2 a 0. No fim, aos 52 minutos, o Leão ainda desperdiçou um pênalti com Reinaldo, mas dita o ritmo sob os gritos de olé da torcida.",
+      "player": {
+        "name": "Mirassol domina o Inter e encaminha a vitória"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 97,
+        "extra": null
+      },
+      "team": {
+        "id": 285,
+        "name": "Internacional"
+      },
+      "type": "Important",
+      "detail": "Inter troca passes no campo de defesa.",
+      "player": {
+        "name": "Inter troca passes no campo de defesa."
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 98,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Termina a partida no Maião!",
+      "player": {
+        "name": "Fim de papo"
+      },
+      "assist": null
     }
   ],
   "lineups": [
@@ -2815,27 +3357,27 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "61%"
+          "value": "58%"
         },
         {
           "type": "Total Passes",
-          "value": 547
+          "value": 601
         },
         {
           "type": "Pass Accuracy",
-          "value": "88%"
+          "value": "89%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 64
+          "value": 69
         },
         {
           "type": "Total Shots",
-          "value": 15
+          "value": 21
         },
         {
           "type": "Shots on Goal",
-          "value": 5
+          "value": 8
         },
         {
           "type": "Shots off Goal",
@@ -2843,11 +3385,11 @@
         },
         {
           "type": "Blocked Shots",
-          "value": 3
+          "value": 5
         },
         {
           "type": "Hit Woodwork",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Corner Kicks",
@@ -2859,19 +3401,19 @@
         },
         {
           "type": "Penalties",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 7
+          "value": 8
         },
         {
           "type": "Tackles",
-          "value": 12
+          "value": 17
         },
         {
           "type": "Fouls",
-          "value": 11
+          "value": 13
         },
         {
           "type": "Yellow Cards",
@@ -2891,31 +3433,31 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "39%"
+          "value": "42%"
         },
         {
           "type": "Total Passes",
-          "value": 319
+          "value": 416
         },
         {
           "type": "Pass Accuracy",
-          "value": "77%"
+          "value": "78%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 73
+          "value": 90
         },
         {
           "type": "Total Shots",
-          "value": 10
+          "value": 13
         },
         {
           "type": "Shots on Goal",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Shots off Goal",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Blocked Shots",
@@ -2923,11 +3465,11 @@
         },
         {
           "type": "Hit Woodwork",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Corner Kicks",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Offsides",
@@ -2939,19 +3481,19 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 5
+          "value": 9
         },
         {
           "type": "Tackles",
-          "value": 12
+          "value": 15
         },
         {
           "type": "Fouls",
-          "value": 10
+          "value": 12
         },
         {
           "type": "Yellow Cards",
-          "value": 4
+          "value": 6
         },
         {
           "type": "Red Cards",

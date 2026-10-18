@@ -7,12 +7,12 @@
       "city": ""
     },
     "status": {
-      "long": "NS",
-      "short": "NS",
-      "elapsed": null
+      "long": "1H",
+      "short": "1H",
+      "elapsed": 22
     },
-    "timerStart": null,
-    "timerStatus": "PAUSADO"
+    "timerStart": "2026-10-18T19:00:01.831Z",
+    "timerStatus": "INICIADO"
   },
   "league": {
     "round": "Regular Season - 31"
@@ -30,8 +30,8 @@
     }
   },
   "goals": {
-    "home": null,
-    "away": null
+    "home": 1,
+    "away": 0
   },
   "score": {
     "halftime": {
@@ -50,7 +50,426 @@
     "source": "betexplorer"
   },
   "_geUrl": "https://ge.globo.com/rs/futebol/brasileirao-serie-a/jogo/18-10-2026/gremio-cruzeiro.ghtml",
-  "events": [],
+  "events": [
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Bola rolando para Grêmio x Cruzeiro!",
+      "player": {
+        "name": "Começa o jogo!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 1,
+        "extra": null
+      },
+      "team": {
+        "id": 284,
+        "name": "Grêmio"
+      },
+      "type": "Important",
+      "detail": "Zé Lucas tenta infiltrar, mas o Grêmio rouba a bola e tenta sair com qualidade",
+      "player": {
+        "name": "Zé Lucas tenta infiltrar, mas o Grêmio rouba a b"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 1,
+        "extra": null
+      },
+      "team": {
+        "id": 283,
+        "name": "Cruzeiro"
+      },
+      "type": "Important",
+      "detail": "Cruzeiro tenta sair jogando e troca passes no meio de campo",
+      "player": {
+        "name": "Cruzeiro tenta sair jogando e troca passes no me"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 2,
+        "extra": null
+      },
+      "team": {
+        "id": 284,
+        "name": "Grêmio"
+      },
+      "type": "Important",
+      "detail": "Kaio Jorge e Matheus Pereira pressionam a saída de bola do Grêmio",
+      "player": {
+        "name": "Kaio Jorge e Matheus Pereira pressionam a saída "
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 3,
+        "extra": null
+      },
+      "team": {
+        "id": 283,
+        "name": "Cruzeiro"
+      },
+      "type": "Important",
+      "detail": "O Cruzeiro consegue o contra-ataque e Arroyo sai bem na frente. Ele arrisca de longe, mas a bola vai para fora",
+      "player": {
+        "name": "Arroyo"
+      },
+      "assist": {
+        "name": "Resposta imediata"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 3,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "A bola começou a rolar com as duas equipes querendo jogo. O Cruzeiro tentou ditar o ritmo inicial trocando passes e pressionando a saída de bola adversária. Mas foi o Grêmio quem assustou primeiro aos 3 minutos, após Pavón cruzar para a área e Krovinovic cabecear firme, exigindo boa defesa do goleiro Otávio. O placar segue empatado em 0 a 0 neste começo dinâmico e disputado.",
+      "player": {
+        "name": "Começo dinâmico e primeira chance do Grêmio"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 3,
+        "extra": null
+      },
+      "team": {
+        "id": 284,
+        "name": "Grêmio"
+      },
+      "type": "Important",
+      "detail": "Pavón cruza para a área e Krovinovic cabeceia. Otávio fica com a bola!",
+      "player": {
+        "name": "Krovinovic"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 4,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Pavón faz falta em Zé Lucas",
+      "player": {
+        "name": "Pavón faz falta em Zé Lucas"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 5,
+        "extra": null
+      },
+      "team": {
+        "id": 283,
+        "name": "Cruzeiro"
+      },
+      "type": "Important",
+      "detail": "Arroyo tenta sair jogando, mas Danilo Barbosa faz falta dura. Os jogadores do Cruzeiro cobram cartão.",
+      "player": {
+        "name": "Arroyo tenta sair jogando, mas Danilo Barbosa fa"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 6,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Com pouco mais de cinco minutos, a partida começou com muita intensidade. O Grêmio chegou primeiro com Krovinovic cabeceando para defesa de Otávio. A resposta do Cruzeiro veio rápida com Arroyo, que bateu de longe para fora. O jogo ficou tenso após falta dura de Danilo Barbosa em Arroyo, que precisou de atendimento médico no gramado, deixando o clima quente logo no início.",
+      "player": {
+        "name": "Começo movimentado e faltas marcam o duelo"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 6,
+        "extra": null
+      },
+      "team": {
+        "id": 283,
+        "name": "Cruzeiro"
+      },
+      "type": "Important",
+      "detail": "Arroyo está sendo atendido no gramado.",
+      "player": {
+        "name": "Arroyo está sendo atendido no gramado."
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 7,
+        "extra": null
+      },
+      "team": {
+        "id": 283,
+        "name": "Cruzeiro"
+      },
+      "type": "Important",
+      "detail": "Arroyo segue sentido dores no tornozelo direito. Ele fica fora 1 minuto para voltar ao gramado.",
+      "player": {
+        "name": "Arroyo"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 9,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Após 9 minutos de jogo, Grêmio e Cruzeiro vão empatando em 0 a 0 em um início bastante pegado. Os donos da casa ameaçaram primeiro com Krovinovic cabeceando para a defesa de Otávio, enquanto os visitantes responderam na velocidade de Arroyo em chute perigoso de longe. O ritmo seguiu intenso, mas o duelo ficou mais travado no meio-campo após algumas faltas duras.",
+      "player": {
+        "name": "Começo truncado e chances lá e cá na Arena"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 9,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Jonathan Jesus afasta o perigo! Jogo muito travado no meio de campo",
+      "player": {
+        "name": "Jonathan Jesus afasta o perigo! Jogo muito trava"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 10,
+        "extra": null
+      },
+      "team": {
+        "id": 283,
+        "name": "Cruzeiro"
+      },
+      "type": "Important",
+      "detail": "Arroyo vai pela linha de fundo e recebe passe de Kaio Jorge. O camisa 99 bate forte, mas Weverton salva!",
+      "player": {
+        "name": "Arroyo"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 11,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Matheus Pereira cobra o escanteio, mas Gustavo Martins tira.",
+      "player": {
+        "name": "Matheus Pereira cobra o escanteio, mas Gustavo M"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 11,
+        "extra": null
+      },
+      "team": {
+        "id": 283,
+        "name": "Cruzeiro"
+      },
+      "type": "Important",
+      "detail": "Gerson busca o cruzamento e é travado. Escanteio para o Cruzeiro",
+      "player": {
+        "name": "Gerson busca o cruzamento e é travado. Escanteio"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 12,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Após 12 minutos de bola rolando, Grêmio e Cruzeiro fazem um duelo bastante movimentado e com chances para os dois lados. O Grêmio assustou logo cedo com uma cabeçada de Krovinovic, defendida por Otávio. A resposta do Cruzeiro veio com Keny Arroyo, que parou em boa defesa do goleiro Weverton. Com faltas e forte marcação no meio-campo, o placar segue em 0 a 0 neste início de partida.",
+      "player": {
+        "name": "Goleiros trabalham em começo quente no Sul"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 12,
+        "extra": null
+      },
+      "team": {
+        "id": 284,
+        "name": "Grêmio"
+      },
+      "type": "Important",
+      "detail": "Amuzu sai em vantagem no contra-ataque. Zé Lucas breca a jogada.",
+      "player": {
+        "name": "Amuzu sai em vantagem no contra-ataque. Zé Lucas"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 13,
+        "extra": null
+      },
+      "team": {
+        "id": 284,
+        "name": "Grêmio"
+      },
+      "type": "Important",
+      "detail": "Amuzu disputa a bola dentro da áera e é derubado por Zé Lucas!",
+      "player": {
+        "name": "PÊNALTI PARA O GRÊMIO"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 15,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Após 15 minutos de muita intensidade, o duelo entre Grêmio e Cruzeiro esquentou de vez. O Grêmio assustou primeiro com cabeceio de Krovinovic, enquanto o Cruzeiro respondeu em finalizações perigosas de Arroyo. O grande momento da partida aconteceu aos 13 minutos, quando Amuzu sofreu pênalti de Zé Lucas. A cobrança foi confirmada e Carlos Vinícius se prepara para bater.",
+      "player": {
+        "name": "Pênalti para o Grêmio agita o início da partida"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 15,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Pênalti confirmado. Carlos Vinícius na bola.",
+      "player": {
+        "name": "Pênalti confirmado. Carlos Vinícius na bola."
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 16,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O confronto começou movimentado na Arena. Logo cedo, Krovinovic levou perigo de cabeça para o Grêmio, enquanto Arroyo respondeu exigindo boa defesa de Weverton para o Cruzeiro. Aos 13 minutos, a história do duelo mudou: Amuzu foi derrubado por Zé Lucas na área. Com 16 minutos de jogo, Carlos Vinícius cobrou com categoria e abriu o placar, deixando o Grêmio em vantagem por 1 a 0.",
+      "player": {
+        "name": "Pênalti e gol de Carlos Vinícius agitam a Arena"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 16,
+        "extra": null
+      },
+      "team": {
+        "id": 284,
+        "name": "Grêmio"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "player": {
+        "name": "Carlos Vinícius"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 18,
+        "extra": null
+      },
+      "team": {
+        "id": 283,
+        "name": "Cruzeiro"
+      },
+      "type": "Important",
+      "detail": "O Cruzeiro tem a posse, mas encontra dificuldade para sair jogando.",
+      "player": {
+        "name": "O Cruzeiro tem a posse, mas encontra dificuldade"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 18,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Falta em Matheus Pereira.",
+      "player": {
+        "name": "Falta em Matheus Pereira."
+      },
+      "assist": null
+    }
+  ],
   "lineups": [
     {
       "team": {
@@ -58,7 +477,7 @@
         "name": "Grêmio",
         "logo": "https://s.sde.globo.com/media/organizations/2018/03/12/gremio.svg"
       },
-      "formation": "3-4-3",
+      "formation": "4-3-3",
       "coach": {
         "name": "Renato Gaúcho"
       },
@@ -74,18 +493,18 @@
         },
         {
           "player": {
-            "id": "gustavomartins",
-            "name": "Gustavo Martins",
-            "number": null,
+            "id": "diego-caito",
+            "name": "Diego Caito",
+            "number": 27,
             "pos": "Def",
             "grid": null
           }
         },
         {
           "player": {
-            "id": "erinoriega",
-            "name": "Noriega",
-            "number": null,
+            "id": "gustavomartins",
+            "name": "Gustavo Martins",
+            "number": 6,
             "pos": "Def",
             "grid": null
           }
@@ -94,16 +513,16 @@
           "player": {
             "id": "kannemann",
             "name": "Kannemann",
-            "number": null,
+            "number": 4,
             "pos": "Def",
             "grid": null
           }
         },
         {
           "player": {
-            "id": "diego-caito",
-            "name": "Diego Caito",
-            "number": null,
+            "id": "marlon453453",
+            "name": "Marlon",
+            "number": 23,
             "pos": "Def",
             "grid": null
           }
@@ -112,7 +531,7 @@
           "player": {
             "id": "danilobarbosa",
             "name": "Danilo Barbosa",
-            "number": null,
+            "number": 15,
             "pos": "Mei",
             "grid": null
           }
@@ -128,10 +547,10 @@
         },
         {
           "player": {
-            "id": "marlon453453",
-            "name": "Marlon",
-            "number": null,
-            "pos": "Def",
+            "id": "krovinovic",
+            "name": "Krovinovic",
+            "number": 10,
+            "pos": "Mei",
             "grid": null
           }
         },
@@ -163,7 +582,116 @@
           }
         }
       ],
-      "substitutes": []
+      "substitutes": [
+        {
+          "player": {
+            "id": "gabriel-grando",
+            "name": "Gabriel Grando",
+            "number": 12,
+            "pos": "Gol",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "marcosrocha2",
+            "name": "Marcos Rocha",
+            "number": 14,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "joaopedro06",
+            "name": "João Pedro",
+            "number": 18,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "fbalbuena",
+            "name": "Balbuena",
+            "number": 2,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "wagner-leonardo",
+            "name": "Wagner Leonardo",
+            "number": 3,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "caio-paulista",
+            "name": "Caio Paulista",
+            "number": 38,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "pedro-gabriel-pinheiro",
+            "name": "Pedro Gabriel",
+            "number": 54,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "erinoriega",
+            "name": "Noriega",
+            "number": 8,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "dodi-moreira",
+            "name": "Dodi",
+            "number": 17,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "tetemat",
+            "name": "Tetê",
+            "number": 11,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "braithwaite",
+            "name": "Braithwaite",
+            "number": 22,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "enamorado",
+            "name": "Enamorado",
+            "number": 99,
+            "pos": "Ata",
+            "grid": null
+          }
+        }
+      ]
     },
     {
       "team": {
@@ -171,7 +699,7 @@
         "name": "Cruzeiro",
         "logo": "https://s.sde.globo.com/media/organizations/2021/02/13/cruzeiro_2021.svg"
       },
-      "formation": "4-3-3",
+      "formation": "4-4-2",
       "coach": {
         "name": "Artur Jorge"
       },
@@ -214,10 +742,19 @@
         },
         {
           "player": {
-            "id": "rojasgabr",
-            "name": "Gabriel Rojas",
-            "number": 27,
+            "id": "lvillalba",
+            "name": "Villalba",
+            "number": 25,
             "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "ze-lucas",
+            "name": "Zé Lucas",
+            "number": 5,
+            "pos": "Mei",
             "grid": null
           }
         },
@@ -250,18 +787,110 @@
         },
         {
           "player": {
-            "id": "kaio-jorge",
-            "name": "Kaio Jorge",
-            "number": 19,
+            "id": "KenyArroyo",
+            "name": "Arroyo",
+            "number": 99,
             "pos": "Ata",
             "grid": null
           }
         },
         {
           "player": {
-            "id": "KenyArroyo",
-            "name": "Arroyo",
-            "number": null,
+            "id": "kaio-jorge",
+            "name": "Kaio Jorge",
+            "number": 19,
+            "pos": "Ata",
+            "grid": null
+          }
+        }
+      ],
+      "substitutes": [
+        {
+          "player": {
+            "id": "cassio-ramos",
+            "name": "Cássio",
+            "number": 1,
+            "pos": "Gol",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "Kaua-Moraes",
+            "name": "Kauã Moraes",
+            "number": 2,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "fagner",
+            "name": "Fagner",
+            "number": 23,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "fabriciobruno",
+            "name": "Fabrício Bruno",
+            "number": 15,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "mvina",
+            "name": "Viña",
+            "number": 6,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "rojasgabr",
+            "name": "Gabriel Rojas",
+            "number": 27,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "matheushenrique1297",
+            "name": "Matheus Henrique",
+            "number": 7,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "lucassilva",
+            "name": "Lucas Silva",
+            "number": 16,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "brunorodrigues-atleticopr",
+            "name": "Bruno Rodrigues",
+            "number": 9,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "marquinhos-alencar",
+            "name": "Marquinhos",
+            "number": 11,
             "pos": "Ata",
             "grid": null
           }
@@ -270,15 +899,176 @@
           "player": {
             "id": "wesley-corinthians",
             "name": "Wesley",
-            "number": null,
+            "number": 20,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "lucirodri",
+            "name": "Lucho Rodríguez",
+            "number": 97,
             "pos": "Ata",
             "grid": null
           }
         }
-      ],
-      "substitutes": []
+      ]
     }
   ],
-  "statistics": [],
+  "statistics": [
+    {
+      "team": {
+        "id": 284,
+        "name": "Grêmio"
+      },
+      "statistics": [
+        {
+          "type": "Ball Possession",
+          "value": "40%"
+        },
+        {
+          "type": "Total Passes",
+          "value": 52
+        },
+        {
+          "type": "Pass Accuracy",
+          "value": "79%"
+        },
+        {
+          "type": "Incomplete Passes",
+          "value": 11
+        },
+        {
+          "type": "Total Shots",
+          "value": 3
+        },
+        {
+          "type": "Shots on Goal",
+          "value": 2
+        },
+        {
+          "type": "Shots off Goal",
+          "value": 1
+        },
+        {
+          "type": "Blocked Shots",
+          "value": 0
+        },
+        {
+          "type": "Hit Woodwork",
+          "value": 0
+        },
+        {
+          "type": "Corner Kicks",
+          "value": 0
+        },
+        {
+          "type": "Offsides",
+          "value": 0
+        },
+        {
+          "type": "Penalties",
+          "value": 1
+        },
+        {
+          "type": "Goalkeeper Saves",
+          "value": 0
+        },
+        {
+          "type": "Tackles",
+          "value": 5
+        },
+        {
+          "type": "Fouls",
+          "value": 4
+        },
+        {
+          "type": "Yellow Cards",
+          "value": 0
+        },
+        {
+          "type": "Red Cards",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "team": {
+        "id": 283,
+        "name": "Cruzeiro"
+      },
+      "statistics": [
+        {
+          "type": "Ball Possession",
+          "value": "60%"
+        },
+        {
+          "type": "Total Passes",
+          "value": 119
+        },
+        {
+          "type": "Pass Accuracy",
+          "value": "86%"
+        },
+        {
+          "type": "Incomplete Passes",
+          "value": 17
+        },
+        {
+          "type": "Total Shots",
+          "value": 2
+        },
+        {
+          "type": "Shots on Goal",
+          "value": 2
+        },
+        {
+          "type": "Shots off Goal",
+          "value": 0
+        },
+        {
+          "type": "Blocked Shots",
+          "value": 0
+        },
+        {
+          "type": "Hit Woodwork",
+          "value": 0
+        },
+        {
+          "type": "Corner Kicks",
+          "value": 3
+        },
+        {
+          "type": "Offsides",
+          "value": 0
+        },
+        {
+          "type": "Penalties",
+          "value": 0
+        },
+        {
+          "type": "Goalkeeper Saves",
+          "value": 2
+        },
+        {
+          "type": "Tackles",
+          "value": 3
+        },
+        {
+          "type": "Fouls",
+          "value": 0
+        },
+        {
+          "type": "Yellow Cards",
+          "value": 0
+        },
+        {
+          "type": "Red Cards",
+          "value": 0
+        }
+      ]
+    }
+  ],
   "sportsFieldUrl": null
 }

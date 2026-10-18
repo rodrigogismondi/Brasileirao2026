@@ -7,12 +7,12 @@
       "city": ""
     },
     "status": {
-      "long": "NS",
-      "short": "NS",
-      "elapsed": null
+      "long": "1H",
+      "short": "1H",
+      "elapsed": 19
     },
-    "timerStart": null,
-    "timerStatus": "PAUSADO"
+    "timerStart": "2026-10-18T19:02:52.479Z",
+    "timerStatus": "INICIADO"
   },
   "league": {
     "round": "Regular Season - 31"
@@ -30,8 +30,8 @@
     }
   },
   "goals": {
-    "home": null,
-    "away": null
+    "home": 1,
+    "away": 0
   },
   "score": {
     "halftime": {
@@ -50,7 +50,328 @@
     "source": "betexplorer"
   },
   "_geUrl": "https://ge.globo.com/rj/futebol/brasileirao-serie-a/jogo/18-10-2026/fluminense-santos.ghtml",
-  "events": [],
+  "events": [
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Santos tenta jogada ensaiada na saída de bola, mas não dá certo e o Flu recupera a posse.",
+      "player": {
+        "name": "Santos tenta jogada ensaiada na saída de bola, m"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Rola a bola no Maracanã!",
+      "player": {
+        "name": "Está valendo!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 1,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Rodinei avança pela direita e tenta tabela com Bontempo. Renê faz o corte e a bola fica com Fábio.",
+      "player": {
+        "name": "Rodinei avança pela direita e tenta tabela com B"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 1,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Neymar e Coutinho trocam passes no meio de campo.",
+      "player": {
+        "name": "Neymar e Coutinho trocam passes no meio de campo"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 2,
+        "extra": null
+      },
+      "team": {
+        "id": 277,
+        "name": "Santos"
+      },
+      "type": "Important",
+      "detail": "Santos agora avança pela esquerda, mas esbarra na defesa tricolor.",
+      "player": {
+        "name": "Santos agora avança pela esquerda, mas esbarra n"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 3,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Início elétrico no Maracanã! Com apenas quatro minutos de jogo, o Fluminense já está em vantagem. O Santos começou tentando ditar o ritmo com Neymar e Coutinho, mas parou na defesa tricolor. A resposta do Flu veio em grande estilo: após cobrança de escanteio e confusão na área, Rodrigo Castillo apareceu e bateu de canela para superar Diógenes, abrindo o placar de 1 a 0 para os cariocas.",
+      "player": {
+        "name": "Gol de Castillo coloca o Fluminense na frente"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 3,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "player": {
+        "name": "Rodrigo Castillo"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 3,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Com apenas três minutos de bola rolando, o clássico no Maracanã começa em ritmo acelerado. O Santos tentou surpreender logo na saída e buscou trabalhar a bola com Neymar e Coutinho, além de uma descida de Rodinei travada por Renê. O Fluminense respondeu rápido na velocidade de Canobbio pela direita, mas Barreal cortou o cruzamento rasteiro e afastou o perigo.",
+      "player": {
+        "name": "Início bem movimentado e lá e cá no Maracanã"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 3,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Jogo é lá e cá. Canobbio consegue boa arrancada pela direita, invade a área e cruza rasteiro. Barreal aparece bem para fazer o corte.",
+      "player": {
+        "name": "Jogo é lá e cá. Canobbio consegue boa arrancada "
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 6,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Lucho Acosta e Canobbio fazem linda jogada. Argentino e uruguaio tabelam desde o meio de campo, até que o Camisa 17 recebe na área e finaliza com perigo. Defesa afasta para escanteio.",
+      "player": {
+        "name": "Lucho Acosta e Canobbio fazem linda jogada. Arge"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 6,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O início de jogo é elétrico no Maracanã. O Santos tentou se impor trocando passes com Neymar e Coutinho, mas parou na marcação. A resposta tricolor foi letal: aos 3 minutos, após cobrança de escanteio e bate-rebate na área, Rodrigo Castillo balançou as redes para fazer 1 a 0. Chegando aos 6 minutos do primeiro tempo, o Fluminense vai controlando a partida com a vantagem no placar.",
+      "player": {
+        "name": "Castillo coloca o Fluminense em vantagem"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 6,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "Important",
+      "detail": "Fluminense vai pulando para a terceira colocação com a vitória de momento.",
+      "player": {
+        "name": "Fluminense vai pulando para a terceira colocação"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 7,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Lucho cobra escanteio no segundo pau, mas a arbitragem assinala saída de bola.",
+      "player": {
+        "name": "Lucho cobra escanteio no segundo pau, mas a arbi"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 8,
+        "extra": null
+      },
+      "team": {
+        "id": 277,
+        "name": "Santos"
+      },
+      "type": "Important",
+      "detail": "Cebolinha tenta levar o Santos ao ataque, parte para cima da marcação de Samuel Xavier e toca com a bola na mão após bate e rebate. Falta é marcada.",
+      "player": {
+        "name": "Cebolinha tenta levar o Santos ao ataque, parte "
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 10,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Fluminense começou com tudo e abriu o placar logo aos 3 minutos com Rodrigo Castillo, que aproveitou a sobra na área após escanteio para fazer 1 a 0. O Santos tentou responder com Neymar e Coutinho, mas o Tricolor seguiu mais perigoso. Lucho Acosta e Canobbio quase ampliaram em bela tabela. Com 10 minutos jogados, a pressão carioca dita o ritmo de um início de jogo movimentado.",
+      "player": {
+        "name": "Castillo marca e Fluminense larga na frente"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 10,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Lucho Acosta chama o jogo mais uma vez. Meia argentino tenta jogada individual dentro da área, cai e pede pênalti após choque com Bontempo. Nada é marcado.",
+      "player": {
+        "name": "Lucho Acosta chama o jogo mais uma vez. Meia arg"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 11,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "Important",
+      "detail": "Fluminense pressiona. Samuel Xavier fica com sobra de escanteio e arrisca de fora da área com perigo.",
+      "player": {
+        "name": "Fluminense pressiona. Samuel Xavier fica com sob"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 12,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Gabigol recebe em velocidade dentro da área e cruza. Defesa tricolor faz o corte.",
+      "player": {
+        "name": "Gabigol recebe em velocidade dentro da área e cr"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 13,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Com 14 minutos no placar, o Fluminense vai vencendo o Santos por 1 a 0. O gol relâmpago saiu aos 3 minutos, quando Rodrigo Castillo aproveitou a sobra na área para balançar a rede. O Tricolor seguiu melhor, assustando em finalizações de Canobbio e Samuel Xavier. Atrás no marcador, o time santista agora tenta rodar a bola no campo de ataque para acalmar a pressão adversária.",
+      "player": {
+        "name": "Flu abre o placar e pressiona no início"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 13,
+        "extra": null
+      },
+      "team": {
+        "id": 277,
+        "name": "Santos"
+      },
+      "type": "Important",
+      "detail": "Santos troca passes e tenta controlar o jogo com a bola.",
+      "player": {
+        "name": "Santos troca passes e tenta controlar o jogo com"
+      },
+      "assist": null
+    }
+  ],
   "lineups": [
     {
       "team": {
@@ -76,7 +397,7 @@
           "player": {
             "id": "samuelxavier",
             "name": "Samuel Xavier",
-            "number": null,
+            "number": 2,
             "pos": "Def",
             "grid": null
           }
@@ -85,7 +406,117 @@
           "player": {
             "id": "ignacio",
             "name": "Ignácio",
-            "number": null,
+            "number": 4,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "igor-rabello",
+            "name": "Igor Rabello",
+            "number": 21,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "rene12",
+            "name": "Renê",
+            "number": 6,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "nonato45634",
+            "name": "Nonato",
+            "number": 16,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "hercules-nascimento",
+            "name": "Hércules",
+            "number": 35,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "lucianoacosta",
+            "name": "Lucho Acosta",
+            "number": 32,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "canobbio",
+            "name": "Canobbio",
+            "number": 17,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "soteldo",
+            "name": "Soteldo",
+            "number": 30,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "rodricastillo",
+            "name": "Rodrigo Castillo",
+            "number": 19,
+            "pos": "Ata",
+            "grid": null
+          }
+        }
+      ],
+      "substitutes": [
+        {
+          "player": {
+            "id": "marcelopitaluga",
+            "name": "Marcelo Pitaluga",
+            "number": 27,
+            "pos": "Gol",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "guga74567",
+            "name": "Guga",
+            "number": 23,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "thiagosilva",
+            "name": "Thiago Silva",
+            "number": 3,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "freytes",
+            "name": "Freytes",
+            "number": 22,
             "pos": "Def",
             "grid": null
           }
@@ -101,10 +532,10 @@
         },
         {
           "player": {
-            "id": "rene12",
-            "name": "Renê",
-            "number": null,
-            "pos": "Def",
+            "id": "ruan-sales",
+            "name": "Ruan Sales",
+            "number": 41,
+            "pos": "Mei",
             "grid": null
           }
         },
@@ -112,43 +543,43 @@
           "player": {
             "id": "otavio-atletico-pr",
             "name": "Otávio",
-            "number": null,
+            "number": 94,
             "pos": "Mei",
             "grid": null
           }
         },
         {
           "player": {
-            "id": "nonato45634",
-            "name": "Nonato",
-            "number": null,
+            "id": "phganso",
+            "name": "Ganso",
+            "number": 10,
             "pos": "Mei",
             "grid": null
           }
         },
         {
           "player": {
-            "id": "lucianoacosta",
-            "name": "Lucho Acosta",
-            "number": null,
+            "id": "savarino",
+            "name": "Savarino",
+            "number": 11,
             "pos": "Mei",
             "grid": null
           }
         },
         {
           "player": {
-            "id": "rodricastillo",
-            "name": "Rodrigo Castillo",
-            "number": null,
+            "id": "hulk",
+            "name": "Hulk",
+            "number": 7,
             "pos": "Ata",
             "grid": null
           }
         },
         {
           "player": {
-            "id": "soteldo",
-            "name": "Soteldo",
-            "number": null,
+            "id": "wesley-nata",
+            "name": "Wesley Natã",
+            "number": 34,
             "pos": "Ata",
             "grid": null
           }
@@ -157,13 +588,12 @@
           "player": {
             "id": "Serna",
             "name": "Serna",
-            "number": null,
+            "number": 90,
             "pos": "Ata",
             "grid": null
           }
         }
-      ],
-      "substitutes": []
+      ]
     },
     {
       "team": {
@@ -207,16 +637,16 @@
           "player": {
             "id": "luanperes",
             "name": "Luan Peres",
-            "number": null,
+            "number": 14,
             "pos": "Def",
             "grid": null
           }
         },
         {
           "player": {
-            "id": "escobardani",
-            "name": "Escobar",
-            "number": 31,
+            "id": "abarreal",
+            "name": "Barreal",
+            "number": 22,
             "pos": "Def",
             "grid": null
           }
@@ -234,7 +664,7 @@
           "player": {
             "id": "philippecoutinho",
             "name": "Philippe Coutinho",
-            "number": null,
+            "number": 11,
             "pos": "Mei",
             "grid": null
           }
@@ -252,7 +682,7 @@
           "player": {
             "id": "neymar",
             "name": "Neymar",
-            "number": null,
+            "number": 10,
             "pos": "Ata",
             "grid": null
           }
@@ -270,15 +700,277 @@
           "player": {
             "id": "everton0396",
             "name": "Everton",
-            "number": null,
+            "number": 7,
             "pos": "Ata",
             "grid": null
           }
         }
       ],
-      "substitutes": []
+      "substitutes": [
+        {
+          "player": {
+            "id": "joaopaulo-santos",
+            "name": "João Paulo",
+            "number": 34,
+            "pos": "Gol",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "igor-vinicius",
+            "name": "Igor Vinícius",
+            "number": 18,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "gabrielmenino",
+            "name": "Gabriel Menino",
+            "number": 25,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "rafael-gonzaga-0208",
+            "name": "Rafael Gonzaga",
+            "number": 38,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "joao-ananias",
+            "name": "João Ananias",
+            "number": 26,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "joao-alencar-santos",
+            "name": "João Alencar",
+            "number": 42,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "joaoschmidt",
+            "name": "João Schmidt",
+            "number": 5,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "olivachris",
+            "name": "Oliva",
+            "number": 28,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "thaciano",
+            "name": "Thaciano",
+            "number": 16,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "terceros",
+            "name": "Miguelito",
+            "number": 30,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "rollheiser",
+            "name": "Rollheiser",
+            "number": 32,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "rony-botafogo",
+            "name": "Rony",
+            "number": 33,
+            "pos": "Ata",
+            "grid": null
+          }
+        }
+      ]
     }
   ],
-  "statistics": [],
+  "statistics": [
+    {
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "statistics": [
+        {
+          "type": "Ball Possession",
+          "value": "51%"
+        },
+        {
+          "type": "Total Passes",
+          "value": 100
+        },
+        {
+          "type": "Pass Accuracy",
+          "value": "88%"
+        },
+        {
+          "type": "Incomplete Passes",
+          "value": 12
+        },
+        {
+          "type": "Total Shots",
+          "value": 3
+        },
+        {
+          "type": "Shots on Goal",
+          "value": 1
+        },
+        {
+          "type": "Shots off Goal",
+          "value": 1
+        },
+        {
+          "type": "Blocked Shots",
+          "value": 1
+        },
+        {
+          "type": "Hit Woodwork",
+          "value": 0
+        },
+        {
+          "type": "Corner Kicks",
+          "value": 3
+        },
+        {
+          "type": "Offsides",
+          "value": 0
+        },
+        {
+          "type": "Penalties",
+          "value": 0
+        },
+        {
+          "type": "Goalkeeper Saves",
+          "value": 0
+        },
+        {
+          "type": "Tackles",
+          "value": 3
+        },
+        {
+          "type": "Fouls",
+          "value": 2
+        },
+        {
+          "type": "Yellow Cards",
+          "value": 0
+        },
+        {
+          "type": "Red Cards",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "team": {
+        "id": 277,
+        "name": "Santos"
+      },
+      "statistics": [
+        {
+          "type": "Ball Possession",
+          "value": "49%"
+        },
+        {
+          "type": "Total Passes",
+          "value": 92
+        },
+        {
+          "type": "Pass Accuracy",
+          "value": "87%"
+        },
+        {
+          "type": "Incomplete Passes",
+          "value": 12
+        },
+        {
+          "type": "Total Shots",
+          "value": 0
+        },
+        {
+          "type": "Shots on Goal",
+          "value": 0
+        },
+        {
+          "type": "Shots off Goal",
+          "value": 0
+        },
+        {
+          "type": "Blocked Shots",
+          "value": 0
+        },
+        {
+          "type": "Hit Woodwork",
+          "value": 0
+        },
+        {
+          "type": "Corner Kicks",
+          "value": 0
+        },
+        {
+          "type": "Offsides",
+          "value": 0
+        },
+        {
+          "type": "Penalties",
+          "value": 0
+        },
+        {
+          "type": "Goalkeeper Saves",
+          "value": 1
+        },
+        {
+          "type": "Tackles",
+          "value": 1
+        },
+        {
+          "type": "Fouls",
+          "value": 1
+        },
+        {
+          "type": "Yellow Cards",
+          "value": 0
+        },
+        {
+          "type": "Red Cards",
+          "value": 0
+        }
+      ]
+    }
+  ],
   "sportsFieldUrl": null
 }

@@ -15059,12 +15059,12 @@
           "city": ""
         },
         "status": {
-          "long": "2H",
-          "short": "2H",
-          "elapsed": 99
+          "long": "FT",
+          "short": "FT",
+          "elapsed": 90
         },
-        "timerStart": "2026-10-17T22:06:45.760Z",
-        "timerStatus": "INICIADO"
+        "timerStart": "2026-10-17T22:59:44.691Z",
+        "timerStatus": "PAUSADO"
       },
       "league": {
         "round": "Regular Season - 31"
@@ -15091,8 +15091,8 @@
           "away": null
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         }
       },
       "odds": {
@@ -15111,12 +15111,12 @@
           "city": ""
         },
         "status": {
-          "long": "2H",
-          "short": "2H",
-          "elapsed": 70
+          "long": "FT",
+          "short": "FT",
+          "elapsed": 90
         },
-        "timerStart": "2026-10-17T22:35:57.692Z",
-        "timerStatus": "INICIADO"
+        "timerStart": "2026-10-17T23:35:39.211Z",
+        "timerStatus": "PAUSADO"
       },
       "league": {
         "round": "Regular Season - 31"
@@ -15134,7 +15134,7 @@
         }
       },
       "goals": {
-        "home": 0,
+        "home": 1,
         "away": 0
       },
       "score": {
@@ -15143,8 +15143,8 @@
           "away": null
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         }
       },
       "odds": {
@@ -15163,12 +15163,12 @@
           "city": ""
         },
         "status": {
-          "long": "1H",
-          "short": "1H",
-          "elapsed": 29
+          "long": "FT",
+          "short": "FT",
+          "elapsed": 90
         },
-        "timerStart": "2026-10-17T22:31:53.385Z",
-        "timerStatus": "INICIADO"
+        "timerStart": "2026-10-18T00:38:48.382Z",
+        "timerStatus": "PAUSADO"
       },
       "league": {
         "round": "Regular Season - 31"
@@ -15195,8 +15195,8 @@
           "away": null
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 2
         }
       },
       "odds": {
@@ -15215,10 +15215,12 @@
           "city": ""
         },
         "status": {
-          "long": "NS",
-          "short": "NS",
-          "elapsed": null
-        }
+          "long": "HT",
+          "short": "HT",
+          "elapsed": 45
+        },
+        "timerStart": "2026-10-18T00:50:14.759Z",
+        "timerStatus": "PAUSADO"
       },
       "league": {
         "round": "Regular Season - 31"
@@ -15236,8 +15238,8 @@
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
       "score": {
         "halftime": {
@@ -18793,6 +18795,28 @@
             {
               "rank": 5,
               "team": {
+                "id": 282,
+                "name": "Atlético-MG",
+                "logo": "https://s.sde.globo.com/media/organizations/2018/03/10/atletico-mg.svg"
+              },
+              "points": 50,
+              "goalsDiff": 7,
+              "form": "WDDWW",
+              "description": "Copa Libertadores Qualifiers",
+              "all": {
+                "played": 31,
+                "win": 14,
+                "draw": 8,
+                "lose": 9,
+                "goals": {
+                  "for": 42,
+                  "against": 35
+                }
+              }
+            },
+            {
+              "rank": 6,
+              "team": {
                 "id": 265,
                 "name": "Bahia",
                 "logo": "https://s.sde.globo.com/media/organizations/2018/03/11/bahia.svg"
@@ -18800,7 +18824,7 @@
               "points": 49,
               "goalsDiff": 8,
               "form": "WWLLW",
-              "description": "Copa Libertadores Qualifiers",
+              "description": "Copa Sudamericana",
               "all": {
                 "played": 30,
                 "win": 13,
@@ -18813,7 +18837,7 @@
               }
             },
             {
-              "rank": 6,
+              "rank": 7,
               "team": {
                 "id": 283,
                 "name": "Cruzeiro",
@@ -18831,28 +18855,6 @@
                 "goals": {
                   "for": 46,
                   "against": 44
-                }
-              }
-            },
-            {
-              "rank": 7,
-              "team": {
-                "id": 282,
-                "name": "Atlético-MG",
-                "logo": "https://s.sde.globo.com/media/organizations/2018/03/10/atletico-mg.svg"
-              },
-              "points": 48,
-              "goalsDiff": 6,
-              "form": "WDDWD",
-              "description": "Copa Sudamericana",
-              "all": {
-                "played": 31,
-                "win": 13,
-                "draw": 9,
-                "lose": 9,
-                "goals": {
-                  "for": 41,
-                  "against": 35
                 }
               }
             },
@@ -18903,40 +18905,18 @@
             {
               "rank": 10,
               "team": {
-                "id": 294,
-                "name": "Coritiba",
-                "logo": "https://s.sde.globo.com/media/organizations/2018/03/11/coritiba.svg"
-              },
-              "points": 40,
-              "goalsDiff": -10,
-              "form": "DLLDD",
-              "description": "Copa Sudamericana",
-              "all": {
-                "played": 31,
-                "win": 10,
-                "draw": 10,
-                "lose": 11,
-                "goals": {
-                  "for": 38,
-                  "against": 48
-                }
-              }
-            },
-            {
-              "rank": 11,
-              "team": {
                 "id": 276,
                 "name": "São Paulo",
                 "logo": "https://s.sde.globo.com/media/organizations/2018/03/11/sao-paulo.svg"
               },
-              "points": 39,
+              "points": 40,
               "goalsDiff": 0,
-              "form": "WLWLW",
+              "form": "LWLWD",
               "description": "Copa Sudamericana",
               "all": {
-                "played": 30,
+                "played": 31,
                 "win": 11,
-                "draw": 6,
+                "draw": 7,
                 "lose": 13,
                 "goals": {
                   "for": 35,
@@ -18945,7 +18925,7 @@
               }
             },
             {
-              "rank": 12,
+              "rank": 11,
               "team": {
                 "id": 263,
                 "name": "Botafogo",
@@ -18954,7 +18934,7 @@
               "points": 39,
               "goalsDiff": -4,
               "form": "DLLDW",
-              "description": null,
+              "description": "Copa Sudamericana",
               "all": {
                 "played": 31,
                 "win": 10,
@@ -18963,6 +18943,28 @@
                 "goals": {
                   "for": 44,
                   "against": 48
+                }
+              }
+            },
+            {
+              "rank": 12,
+              "team": {
+                "id": 294,
+                "name": "Coritiba",
+                "logo": "https://s.sde.globo.com/media/organizations/2018/03/11/coritiba.svg"
+              },
+              "points": 39,
+              "goalsDiff": -11,
+              "form": "DLLDL",
+              "description": null,
+              "all": {
+                "played": 31,
+                "win": 10,
+                "draw": 9,
+                "lose": 12,
+                "goals": {
+                  "for": 38,
+                  "against": 49
                 }
               }
             },
@@ -18991,6 +18993,28 @@
             {
               "rank": 14,
               "team": {
+                "id": 267,
+                "name": "Vasco",
+                "logo": "https://s.sde.globo.com/media/organizations/2021/09/04/vasco_SVG.svg"
+              },
+              "points": 36,
+              "goalsDiff": -6,
+              "form": "WWWDD",
+              "description": null,
+              "all": {
+                "played": 30,
+                "win": 9,
+                "draw": 9,
+                "lose": 12,
+                "goals": {
+                  "for": 36,
+                  "against": 42
+                }
+              }
+            },
+            {
+              "rank": 15,
+              "team": {
                 "id": 2305,
                 "name": "Mirassol",
                 "logo": "https://s.sde.globo.com/media/organizations/2026/07/17/MIrassol.svg"
@@ -19007,28 +19031,6 @@
                 "goals": {
                   "for": 36,
                   "against": 44
-                }
-              }
-            },
-            {
-              "rank": 15,
-              "team": {
-                "id": 267,
-                "name": "Vasco",
-                "logo": "https://s.sde.globo.com/media/organizations/2021/09/04/vasco_SVG.svg"
-              },
-              "points": 35,
-              "goalsDiff": -6,
-              "form": "LWWWD",
-              "description": null,
-              "all": {
-                "played": 29,
-                "win": 9,
-                "draw": 8,
-                "lose": 12,
-                "goals": {
-                  "for": 36,
-                  "against": 42
                 }
               }
             },
@@ -20256,7 +20258,7 @@
     "mode": "live",
     "liveIntervalMs": 20000
   },
-  "fetchedAt": "2026-10-17T23:01:21.746Z",
+  "fetchedAt": "2026-10-18T00:55:35.745Z",
   "source": "ge-globo",
   "meta": {
     "rodada": 31,

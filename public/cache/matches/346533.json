@@ -7,12 +7,12 @@
       "city": ""
     },
     "status": {
-      "long": "NS",
-      "short": "NS",
-      "elapsed": null
+      "long": "1H",
+      "short": "1H",
+      "elapsed": 8
     },
-    "timerStart": null,
-    "timerStatus": "PAUSADO"
+    "timerStart": "2026-10-18T21:30:15.040Z",
+    "timerStatus": "INICIADO"
   },
   "league": {
     "round": "Regular Season - 31"
@@ -30,8 +30,8 @@
     }
   },
   "goals": {
-    "home": null,
-    "away": null
+    "home": 0,
+    "away": 0
   },
   "score": {
     "halftime": {
@@ -50,7 +50,202 @@
     "source": "betexplorer"
   },
   "_geUrl": "https://ge.globo.com/ba/futebol/brasileirao-serie-a/jogo/18-10-2026/bahia-flamengo.ghtml",
-  "events": [],
+  "events": [
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "A bola mal rolou e o Flamengo quase abriu o placar! Com apenas um minuto de jogo, Jorginho deu um passe espetacular para Pedro finalizar na saída de Ronaldo, mas David Duarte salvou o Bahia. O time baiano tenta marcar alto para forçar o erro do goleiro Rossi, mas os visitantes já mostraram suas garras no primeiro ataque perigoso do duelo. O placar segue em zero a zero.",
+      "player": {
+        "name": "Começo quente e quase gol do Flamengo"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "Important",
+      "detail": "Jorginho acerta um lindo passe para Pedro, que chuta devagar na saída de Ronaldo. David Duarte afasta! Flamengo chega bem!",
+      "player": {
+        "name": "Pedro"
+      },
+      "assist": {
+        "name": "UHHH"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Flamengo é quem sai com a bola. Bahia marca alto e tenta forçar erro de Rossi.",
+      "player": {
+        "name": "Flamengo é quem sai com a bola. Bahia marca alto"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Começa o jogo!",
+      "player": {
+        "name": "BOLA ROLANDO!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 1,
+        "extra": null
+      },
+      "team": {
+        "id": 265,
+        "name": "Bahia"
+      },
+      "type": "Important",
+      "detail": "Royal derruba Kike Olivera no contra-ataque do Bahia. Intensidade no começo do jogo!",
+      "player": {
+        "name": "Royal derruba Kike Olivera no contra-ataque do B"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 2,
+        "extra": null
+      },
+      "team": {
+        "id": 265,
+        "name": "Bahia"
+      },
+      "type": "Important",
+      "detail": "Rossi saiu errado e entregou a bola para Alejo Véliz. Pulgar derrubou o atacante do Bahia. Falta marcada!",
+      "player": {
+        "name": "Rossi saiu errado e entregou a bola para Alejo V"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 2,
+        "extra": null
+      },
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Erick Pulgar"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 2,
+        "extra": null
+      },
+      "team": {
+        "id": 265,
+        "name": "Bahia"
+      },
+      "type": "Important",
+      "detail": "Bahia erra na saída de bola. Carrascal pressiona, mas não consegue continuar a jogada.",
+      "player": {
+        "name": "Bahia erra na saída de bola. Carrascal pressiona"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 4,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Ortiz afasta a cobrança do Rodrigo Nestor.",
+      "player": {
+        "name": "Ortiz afasta a cobrança do Rodrigo Nestor."
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 4,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Com apenas 4 minutos de bola rolando, a partida começou em ritmo forte. O Flamengo quase abriu o placar no primeiro minuto com Pedro, após passe de Jorginho, mas David Duarte salvou o Bahia. A resposta dos mandantes veio após erro do goleiro Rossi na saída, que resultou em falta sofrida por Alejo Véliz, amarelo para Pulgar e cobrança de Jean Lucas que foi para escanteio.",
+      "player": {
+        "name": "Ritmo forte e sustos nos minutos iniciais"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 4,
+        "extra": null
+      },
+      "team": {
+        "id": 265,
+        "name": "Bahia"
+      },
+      "type": "Important",
+      "detail": "Cobrança de falta de Jean Lucas desvia na barreira. Escanteio para o Bahia!",
+      "player": {
+        "name": "Cobrança de falta de Jean Lucas desvia na barrei"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 6,
+        "extra": null
+      },
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "type": "Important",
+      "detail": "Royal cruza da esquerda para corte de David Duarte. Flamengo no ataque.",
+      "player": {
+        "name": "Royal cruza da esquerda para corte de David Duar"
+      },
+      "assist": null
+    }
+  ],
   "lineups": [
     {
       "team": {
@@ -74,9 +269,9 @@
         },
         {
           "player": {
-            "id": "roman-gomez",
-            "name": "Román Gómez",
-            "number": 31,
+            "id": "marcos-victor",
+            "name": "Marcos Victor",
+            "number": 44,
             "pos": "Def",
             "grid": null
           }
@@ -163,7 +358,116 @@
           }
         }
       ],
-      "substitutes": []
+      "substitutes": [
+        {
+          "player": {
+            "id": "guiherrera",
+            "name": "Guido Herrera",
+            "number": 17,
+            "pos": "Gol",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "roman-gomez",
+            "name": "Román Gómez",
+            "number": 31,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "kanu-victor-hugo",
+            "name": "Kanu",
+            "number": 4,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "zeguilc",
+            "name": "Zé Guilherme",
+            "number": 66,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "caioalexandre",
+            "name": "Caio Alexandre",
+            "number": 8,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "erick-carvalho",
+            "name": "Erick",
+            "number": 14,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "evertonribeiro",
+            "name": "Everton Ribeiro",
+            "number": 10,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "michelaraujovillar",
+            "name": "Michel Araújo",
+            "number": 15,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "ademirsant",
+            "name": "Ademir",
+            "number": 7,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "willianjose",
+            "name": "Willian José",
+            "number": 12,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "matsanabria",
+            "name": "Sanabria",
+            "number": 23,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "everaldo211",
+            "name": "Everaldo",
+            "number": 27,
+            "pos": "Ata",
+            "grid": null
+          }
+        }
+      ]
     },
     {
       "team": {
@@ -187,9 +491,9 @@
         },
         {
           "player": {
-            "id": "guivarela",
-            "name": "Varela",
-            "number": null,
+            "id": "emerson-aparecido",
+            "name": "Emerson Royal",
+            "number": 22,
             "pos": "Def",
             "grid": null
           }
@@ -198,7 +502,7 @@
           "player": {
             "id": "leo-ortiz",
             "name": "Léo Ortiz",
-            "number": null,
+            "number": 3,
             "pos": "Def",
             "grid": null
           }
@@ -214,9 +518,9 @@
         },
         {
           "player": {
-            "id": "alexsandro3",
-            "name": "Alex Sandro",
-            "number": 26,
+            "id": "guivarela",
+            "name": "Varela",
+            "number": 2,
             "pos": "Def",
             "grid": null
           }
@@ -241,18 +545,18 @@
         },
         {
           "player": {
-            "id": "lucaspaqueta",
-            "name": "Lucas Paquetá",
-            "number": 11,
+            "id": "carrascalj",
+            "name": "Carrascal",
+            "number": 15,
             "pos": "Mei",
             "grid": null
           }
         },
         {
           "player": {
-            "id": "carrascalj",
-            "name": "Carrascal",
-            "number": 15,
+            "id": "platagonz",
+            "name": "Plata",
+            "number": 19,
             "pos": "Ata",
             "grid": null
           }
@@ -276,9 +580,271 @@
           }
         }
       ],
-      "substitutes": []
+      "substitutes": [
+        {
+          "player": {
+            "id": "andrewventura",
+            "name": "Andrew",
+            "number": 42,
+            "pos": "Gol",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "Dyogo-Alves",
+            "name": "Dyogo Alves",
+            "number": 49,
+            "pos": "Gol",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "vitao1",
+            "name": "Vitão",
+            "number": 44,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "joao-victor-souza-cunha",
+            "name": "João Victor",
+            "number": 61,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "alexsandro3",
+            "name": "Alex Sandro",
+            "number": 26,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "johnny-goes",
+            "name": "Johnny",
+            "number": 77,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "delacruznic",
+            "name": "De la Cruz",
+            "number": 18,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "lucaspaqueta",
+            "name": "Lucas Paquetá",
+            "number": 11,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "luizaraujo-mirassol",
+            "name": "Luiz Araújo",
+            "number": 7,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "valenciaal",
+            "name": "Valencia",
+            "number": 14,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "bruno-henrique-pinto",
+            "name": "Bruno Henrique",
+            "number": 27,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "joaqufreitas",
+            "name": "Joaquín Freitas",
+            "number": 30,
+            "pos": "Ata",
+            "grid": null
+          }
+        }
+      ]
     }
   ],
-  "statistics": [],
+  "statistics": [
+    {
+      "team": {
+        "id": 265,
+        "name": "Bahia"
+      },
+      "statistics": [
+        {
+          "type": "Ball Possession",
+          "value": "49%"
+        },
+        {
+          "type": "Total Passes",
+          "value": 10
+        },
+        {
+          "type": "Pass Accuracy",
+          "value": "80%"
+        },
+        {
+          "type": "Incomplete Passes",
+          "value": 2
+        },
+        {
+          "type": "Total Shots",
+          "value": 1
+        },
+        {
+          "type": "Shots on Goal",
+          "value": 0
+        },
+        {
+          "type": "Shots off Goal",
+          "value": 1
+        },
+        {
+          "type": "Blocked Shots",
+          "value": 0
+        },
+        {
+          "type": "Hit Woodwork",
+          "value": 0
+        },
+        {
+          "type": "Corner Kicks",
+          "value": 2
+        },
+        {
+          "type": "Offsides",
+          "value": 0
+        },
+        {
+          "type": "Penalties",
+          "value": 0
+        },
+        {
+          "type": "Goalkeeper Saves",
+          "value": 0
+        },
+        {
+          "type": "Tackles",
+          "value": 2
+        },
+        {
+          "type": "Fouls",
+          "value": 0
+        },
+        {
+          "type": "Yellow Cards",
+          "value": 0
+        },
+        {
+          "type": "Red Cards",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "team": {
+        "id": 262,
+        "name": "Flamengo"
+      },
+      "statistics": [
+        {
+          "type": "Ball Possession",
+          "value": "51%"
+        },
+        {
+          "type": "Total Passes",
+          "value": 20
+        },
+        {
+          "type": "Pass Accuracy",
+          "value": "90%"
+        },
+        {
+          "type": "Incomplete Passes",
+          "value": 2
+        },
+        {
+          "type": "Total Shots",
+          "value": 1
+        },
+        {
+          "type": "Shots on Goal",
+          "value": 1
+        },
+        {
+          "type": "Shots off Goal",
+          "value": 0
+        },
+        {
+          "type": "Blocked Shots",
+          "value": 0
+        },
+        {
+          "type": "Hit Woodwork",
+          "value": 0
+        },
+        {
+          "type": "Corner Kicks",
+          "value": 0
+        },
+        {
+          "type": "Offsides",
+          "value": 0
+        },
+        {
+          "type": "Penalties",
+          "value": 0
+        },
+        {
+          "type": "Goalkeeper Saves",
+          "value": 0
+        },
+        {
+          "type": "Tackles",
+          "value": 1
+        },
+        {
+          "type": "Fouls",
+          "value": 2
+        },
+        {
+          "type": "Yellow Cards",
+          "value": 1
+        },
+        {
+          "type": "Red Cards",
+          "value": 0
+        }
+      ]
+    }
+  ],
   "sportsFieldUrl": null
 }

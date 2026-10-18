@@ -7,11 +7,11 @@
       "city": ""
     },
     "status": {
-      "long": "HT",
-      "short": "HT",
-      "elapsed": 45
+      "long": "FT",
+      "short": "FT",
+      "elapsed": 90
     },
-    "timerStart": "2026-10-18T00:50:14.759Z",
+    "timerStart": "2026-10-18T02:10:04.515Z",
     "timerStatus": "PAUSADO"
   },
   "league": {
@@ -30,7 +30,7 @@
     }
   },
   "goals": {
-    "home": 0,
+    "home": 1,
     "away": 0
   },
   "score": {
@@ -39,8 +39,8 @@
       "away": null
     },
     "fulltime": {
-      "home": null,
-      "away": null
+      "home": 1,
+      "away": 0
     }
   },
   "odds": {
@@ -51,6 +51,96 @@
   },
   "_geUrl": "https://ge.globo.com/sp/futebol/brasileirao-serie-a/jogo/17-10-2026/sao-paulo-vasco.ghtml",
   "events": [
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 267,
+        "name": "Vasco"
+      },
+      "type": "Important",
+      "detail": "— O time adversário jogou bem. Não quer dizer que não podemos dar o mérito ao adversário. Eles tiveram a posse de bola, pressionaram o tempo todo. Nosso time também soube jogar com a bola, mas, infelizmente, a gente tomou um gol que não estávamos esperando. Faz parte do futebol. Agora é descansar que temos um jogo importante pela Sul-Americana. — A maratona que nosso time vem jogando, jogo quarta-feira, sábado, domingo. Um jogo atrás do outro em sequência. A gente tenta recuperar o máximo que pode, sabemos que tem alguns jogadores desgastados pelo fato de a gente ter jogado na Argentina, com um jogador a menos, muitos estavam realmente cansados. É o futebol. Não temos tempo para lamentar. É descansar porque temos jogo importante, temos que nos classificar.",
+      "player": {
+        "name": "Thiago Mendes"
+      },
+      "assist": {
+        "name": "Fala, Thiago Mendes"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Important",
+      "detail": "— Eu estou muito feliz principalmente pelo triunfo. Estávamos precisando. Toda hora estávamos olhando para a parte de baixo de tabela, agora damos uma respirada. Agora é hora de o São Paulao olhar para cima e conquistar os objetivos. Este clube merece, a torcida merece, nós merecemos. Faz tempo que eu não estava fazendo gol. Eu estava me sentindo incomodado, todo atacante procura fazer gols. Fico muito feliz. Saiu na hora certo, em uma noite inesquecível. — Todo mundo sabe o que está passando no momento do São Paulo. Alguns meses atrás a gente estava fazendo bons jogos e sempre pecando no final do jogo. Era mais falta de concentração. Agora passou. É olhar para a frente e para cima da tabela que a gente merece.",
+      "player": {
+        "name": "Artur"
+      },
+      "assist": {
+        "name": "Fala, Artur!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Sabino"
+      },
+      "assist": {
+        "name": "Rafael Tolói"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Lucas Moura"
+      },
+      "assist": {
+        "name": "Luciano"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 267,
+        "name": "Vasco"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Puma Rodríguez"
+      },
+      "assist": {
+        "name": "Paulo Henrique"
+      }
+    },
     {
       "time": {
         "elapsed": 0,
@@ -1323,6 +1413,54 @@
         "extra": null
       },
       "team": {
+        "id": 267,
+        "name": "Vasco"
+      },
+      "type": "Important",
+      "detail": "Puma Rodríguez cruza da direita para a área, e Arboleda toca de cabeça pela linha de fundo. É escanteio para o Vasco.",
+      "player": {
+        "name": "Puma Rodríguez cruza da direita para a área, e A"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 45,
+        "extra": null
+      },
+      "team": {
+        "id": 267,
+        "name": "Vasco"
+      },
+      "type": "Important",
+      "detail": "Vasco trabalha a bola no campo ofensivo.",
+      "player": {
+        "name": "Vasco trabalha a bola no campo ofensivo."
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 45,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Começa o segundo tempo!",
+      "player": {
+        "name": "Reinício"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 45,
+        "extra": null
+      },
+      "team": {
         "id": 276,
         "name": "São Paulo"
       },
@@ -1359,6 +1497,38 @@
         "name": ""
       },
       "type": "Important",
+      "detail": "Em contra-ataque, Artur escapa e toca para Lucas, que tenta passe para Iago na esquerda, mas passa curto.",
+      "player": {
+        "name": "Em contra-ataque, Artur escapa e toca para Lucas"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 46,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Colidio toca curto para Lescano, recebe de volta e cruza para a área. Newton tira de cabeça.",
+      "player": {
+        "name": "Colidio toca curto para Lescano, recebe de volta"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 46,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
       "detail": "Após 45 minutos de muita intensidade no Morumbis, São Paulo e Vasco empatam por 0 a 0. Os cariocas assustaram no início com as arrancadas perigosas de Andrés Gómez. Já o Tricolor cresceu na reta final da primeira etapa, apostando nos cruzamentos de Iago e nas jogadas aéreas com Luciano e Pedro Lima, mas as chances pararam na forte marcação e nas defesas de Léo Jardim.",
       "player": {
         "name": "Primeiro tempo movimentado termina sem gols"
@@ -1381,6 +1551,40 @@
       },
       "assist": {
         "name": "Cabeceio"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 47,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Important",
+      "detail": "A etapa inicial foi de muita entrega e chances para os dois lados. Andrés Gómez deu trabalho para a zaga do São Paulo, enquanto o Tricolor levou perigo pelo alto com Calleri e Luciano. Agora, aos três minutos do segundo tempo, o placar segue em 0 a 0, mas o ritmo não caiu: Iago já assustou a defesa carioca finalizando para fora após bela jogada coletiva dos donos da casa.",
+      "player": {
+        "name": "Jogo de intensidade e placar zerado no Morumbis"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 47,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Important",
+      "detail": "Artur pega a bola na direita e cruza para a área, Calleri ajeita de cabeça para trás e Iago chega chutando de primeira, mandando para fora.",
+      "player": {
+        "name": "Iago"
+      },
+      "assist": {
+        "name": "Uuuh"
       }
     },
     {
@@ -1437,6 +1641,22 @@
         "extra": null
       },
       "team": {
+        "id": 267,
+        "name": "Vasco"
+      },
+      "type": "Important",
+      "detail": "Vasco troca passes no meio-campo.",
+      "player": {
+        "name": "Vasco troca passes no meio-campo."
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 49,
+        "extra": null
+      },
+      "team": {
         "id": 0,
         "name": ""
       },
@@ -1460,6 +1680,1210 @@
       "detail": "Árbitro encerra a etapa inicial do jogo, empatado em 0 a 0.",
       "player": {
         "name": "Fim de primeiro tempo"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 50,
+        "extra": null
+      },
+      "team": {
+        "id": 267,
+        "name": "Vasco"
+      },
+      "type": "Important",
+      "detail": "Após um primeiro tempo de muito equilíbrio e boas chances para os dois lados, com Calleri assustando para os donos da casa e Andrés Gómez incomodando a zaga paulista, o cenário mudou no início da etapa final. Aos 5 minutos do segundo tempo, Gabriel Pereira cometeu falta em Lucas, recebeu o cartão vermelho e deixou o Vasco com um jogador a menos com o placar ainda zerado.",
+      "player": {
+        "name": "Placar zerado e cartão vermelho no Morumbis"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 50,
+        "extra": null
+      },
+      "team": {
+        "id": 267,
+        "name": "Vasco"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Gabriel Pereira"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 50,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Important",
+      "detail": "Da defesa, Arboleda lança Lucas no ataque. O atacante do São Paulo é puxado por Gabriel Pereira, e o árbitro marca falta.",
+      "player": {
+        "name": "Lançamento"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 53,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Após um primeiro tempo de muita intensidade e chances para os dois lados, São Paulo e Vasco seguem empatados por 0 a 0 no Morumbis. Os visitantes assustaram com as arrancadas de Andrés Gómez, enquanto o Tricolor respondeu com cabeçadas de Calleri e Luciano. Aos 8 minutos da etapa final, a grande polêmica: o árbitro expulsou Gabriel Pereira, mas voltou atrás após consultar o VAR.",
+      "player": {
+        "name": "Equilíbrio, VAR e chances perdidas no Morumbis"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 53,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Depois da análise no VAR, árbitro anula o cartão vermelho e apresenta cartão amarelo a Gabriel Pereira.",
+      "player": {
+        "name": "Depois da análise no VAR, árbitro anula o cartão"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 55,
+        "extra": null
+      },
+      "team": {
+        "id": 267,
+        "name": "Vasco"
+      },
+      "type": "Important",
+      "detail": "Bruno Duarte é acionado na frente pelo lado esquerdo, mas assistente marca posição de impedimento do atacante do Vasco.",
+      "player": {
+        "name": "Bruno Duarte é acionado na frente pelo lado esqu"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 55,
+        "extra": null
+      },
+      "team": {
+        "id": 267,
+        "name": "Vasco"
+      },
+      "type": "Important",
+      "detail": "Vasco troca passes no meio-campo.",
+      "player": {
+        "name": "Vasco troca passes no meio-campo."
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 56,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Após um primeiro tempo bastante disputado com chances para os dois lados, o placar segue 0 a 0 no Morumbis. Passados 11 minutos da etapa final, o jogo ganhou em dramaticidade. Logo no início do segundo tempo, o vascaíno Gabriel Pereira recebeu cartão vermelho direto por falta em Lucas Moura, mas, após revisão recomendada pelo VAR, a decisão foi revogada para cartão amarelo.",
+      "player": {
+        "name": "Equilíbrio e expulsão anulada no Morumbis"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 56,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Puma Rodríguez lança forte demais, e Bruno Duarte se esforça para evitar a saída da bola pela linha de fundo, mas não consegue.",
+      "player": {
+        "name": "Puma Rodríguez lança forte demais, e Bruno Duart"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 57,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Com 12 minutos do segundo tempo, São Paulo e Vasco empatam por 0 a 0 em um duelo bem disputado. Após uma etapa inicial equilibrada, a partida esquentou na volta do intervalo. Gabriel Pereira, do Vasco, chegou a ser expulso por falta em Lucas, mas o árbitro mudou para amarelo após revisão no VAR. Pouco depois, Marcos Antônio desperdiçou uma grande chance de contra-ataque paulista.",
+      "player": {
+        "name": "Placar zerado e VAR movimentam o Morumbis"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 57,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Important",
+      "detail": "Marcos Antonio rouba a bola e parte para o ataque em superioridade númerica do São Paulo. Ele segura demais a bola e toca para Carelli, que é desarmado por Lescano.",
+      "player": {
+        "name": "Desperdício de ataque"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 58,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Após um primeiro tempo de equilíbrio e sem gols, com chances para os dois lados, a etapa final começou quente no Morumbis. Gabriel Pereira levou amarelo após o VAR anular um cartão vermelho. Aos 14 minutos do segundo tempo, o placar segue zerado, mas o confronto ganhou em emoção depois de Lucas exigir uma grande defesa do goleiro Léo Jardim em finalização perigosa.",
+      "player": {
+        "name": "Chances lá e cá e placar zerado no Morumbis"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 58,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Important",
+      "detail": "Lucas domina no lado esquerdo, tira do primeiro marcador, puxa para dentro e chuta com perigo, obrigando Léo Jardim a fazer a defesa e mandar para escanteio, no primeiro chute a gol da partida.",
+      "player": {
+        "name": "Lucas Moura"
+      },
+      "assist": {
+        "name": "Uuuh"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 59,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Calleri é lançado no ataque, só consegue raspar de cabeça, e a bola fica com tranquilidade com Léo Jardim.",
+      "player": {
+        "name": "Calleri é lançado no ataque, só consegue raspar "
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 60,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Important",
+      "detail": "Lucas escapa da marcação no meio-campo e parte para o ataque. Ele vai pelo lado esquerdo e toca em infiltração para de Iago. O lateral chega à linha de fundo e cruza para o meio da área, mas o lance é interrompido devido à posição irregular.",
+      "player": {
+        "name": "No ataque"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 61,
+        "extra": null
+      },
+      "team": {
+        "id": 267,
+        "name": "Vasco"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Brenner"
+      },
+      "assist": {
+        "name": "Bruno Duarte"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 61,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Passados 16 minutos do segundo tempo, o confronto segue muito parelho no Morumbis. Na etapa inicial, Andrés Gómez levou perigo para os visitantes, enquanto o Tricolor respondeu em cabeçadas de Calleri e Luciano. O clima esquentou na etapa final após o VAR salvar Gabriel Pereira da expulsão, e o goleiro Léo Jardim brilhou ao espalmar um chutaço de Lucas, segurando o zero a zero.",
+      "player": {
+        "name": "Equilíbrio e placar zerado agitam o Morumbis"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 61,
+        "extra": null
+      },
+      "team": {
+        "id": 267,
+        "name": "Vasco"
+      },
+      "type": "Important",
+      "detail": "Bruno Duarte arrisca de longe e leva perigo para o gol de Rafael.",
+      "player": {
+        "name": "Bruno Duarte"
+      },
+      "assist": {
+        "name": "Tentou de longe"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 62,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Important",
+      "detail": "Puma Rodríguez recebe bola ajeitada de Lescano e cruza para a área, mas toca forte demais. É tiro de meta para o São Paulo.",
+      "player": {
+        "name": "Puma Rodríguez recebe bola ajeitada de Lescano e"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 62,
+        "extra": null
+      },
+      "team": {
+        "id": 267,
+        "name": "Vasco"
+      },
+      "type": "Important",
+      "detail": "Lucas organiza o meio-campo e toca para Marcos Antônio. Ele tenta lançamento por cima para o ataque, mas a defesa do Vasco faz o corte.",
+      "player": {
+        "name": "Lucas organiza o meio-campo e toca para Marcos A"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 63,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Iago trabalha a bola com Lucas e tenta escapar dentro da área, mas Puma Rodríguez impede a tabela e faz a interceptação.",
+      "player": {
+        "name": "Iago trabalha a bola com Lucas e tenta escapar d"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 64,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Aos 19 minutos da etapa final, São Paulo e Vasco empatam em 0 a 0. No primeiro tempo, os vascaínos assustaram nas arrancadas de Andrés Gómez, enquanto o Tricolor respondeu com cabeçadas de Luciano. No segundo tempo, o clima esquentou após o VAR cancelar a expulsão de Gabriel Pereira, e Lucas quase abriu o placar em chute forte defendido por Léo Jardim. Segue tudo indefinido.",
+      "player": {
+        "name": "Zero a zero franco e movimentado no Morumbis"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 64,
+        "extra": null
+      },
+      "team": {
+        "id": 267,
+        "name": "Vasco"
+      },
+      "type": "Important",
+      "detail": "Colidio chega na entrada da área e tenta o toque, a bola resvala em Artur, e ninguém do São Paulo vai na dividida. Colidio parte em velocidade, e Arboleda faz o corte para evitar a finalização do atacante do Vasco.",
+      "player": {
+        "name": "Colidio"
+      },
+      "assist": {
+        "name": "Deixa que eu deixo"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 65,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Important",
+      "detail": "São Paulo parte para o ataque e, depois de tentar se aproximar da área e não conseguir, recua para o meio-campo. Sabino pega a bola e arrisca de longe, mas manda sem perigo para o gol de Léo Jardim.",
+      "player": {
+        "name": "Sabino"
+      },
+      "assist": {
+        "name": "Tentativa de longe"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 66,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Lescano trabalha a bola com Colidio e Puma Rodríguez recebe no lado direito, mas cruza muito mal e manda para fora.",
+      "player": {
+        "name": "Cruzamento errado"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 67,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Important",
+      "detail": "Após uma primeira etapa equilibrada, o duelo ganhou em emoção na etapa complementar. Aos 22 minutos do segundo tempo, a rede finalmente balançou no Morumbis. Em jogada rápida pela direita, Pedro Lima cruzou por baixo e Artur se antecipou para desviar de pé esquerdo, abrindo o placar e colocando o São Paulo em vantagem por 1 a 0 neste momento do confronto.",
+      "player": {
+        "name": "Artur fura o bloqueio e abre o placar no Morumbis"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 67,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "player": {
+        "name": "Artur"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 69,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Depois da checagem do gol com impedimento semiautomático, gol é confirmado.",
+      "player": {
+        "name": "Depois da checagem do gol com impedimento semiau"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 70,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Important",
+      "detail": "Calleri recebe a bola dentro da área, gira para cima da marcação e finaliza, mesmo sem ângulo, mandando para fora.",
+      "player": {
+        "name": "Calleri"
+      },
+      "assist": {
+        "name": "Girando"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 70,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Após um primeiro tempo equilibrado e de poucas chances reais, o confronto esquentou na etapa final. O defensor Gabriel Pereira, do Vasco, quase foi expulso, mas o VAR converteu em amarelo. Aos 22 minutos do segundo tempo, o São Paulo abriu o placar: Pedro Lima cruzou rasteiro e Artur se antecipou para fazer 1 a 0. Com 25 minutos jogados, a equipe da casa administra a vantagem.",
+      "player": {
+        "name": "São Paulo larga na frente com gol de Artur"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 70,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Pablo Maia"
+      },
+      "assist": {
+        "name": "Marcos Antônio"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 71,
+        "extra": null
+      },
+      "team": {
+        "id": 267,
+        "name": "Vasco"
+      },
+      "type": "Important",
+      "detail": "Ataque do Vasco é lançado, Arboleda tenta fazer o corte e manda a bola para a própria linha de fundo. Rafael evita e chuta a bola para a lateral, evitando o escanteio.",
+      "player": {
+        "name": "Ataque do Vasco é lançado, Arboleda tenta fazer "
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 72,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Após um primeiro tempo equilibrado e sem gols, o panorama mudou na etapa final. O São Paulo cresceu com as investidas de Lucas e abriu o placar aos 22 minutos: Pedro Lima cruzou rasteiro e Artur se antecipou para fazer 1 a 0. O Vasco tentou responder logo em seguida com Andrés Gómez, mas Rafael garantiu a vantagem do São Paulo, que se mantém até os 27 minutos do segundo tempo.",
+      "player": {
+        "name": "Artur marca e coloca o São Paulo em vantagem"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 72,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Important",
+      "detail": "Vasco trabalha em velocidade pelo meio, Tchê Tchê passa para Andrés Gómez, que chuta para defesa segura de Rafael. O goleiro do São Paulo evita o empate.",
+      "player": {
+        "name": "Rafael"
+      },
+      "assist": {
+        "name": "Uuuuh"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 73,
+        "extra": null
+      },
+      "team": {
+        "id": 267,
+        "name": "Vasco"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Thiago Mendes"
+      },
+      "assist": {
+        "name": "Tchê Tchê"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 73,
+        "extra": null
+      },
+      "team": {
+        "id": 267,
+        "name": "Vasco"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Jair"
+      },
+      "assist": {
+        "name": "Santiago Sosa"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 75,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Após primeiro tempo zerado, o jogo esquentou na etapa final. O VAR roubou a cena ao anular um vermelho para o Vasco, mas o São Paulo seguiu pressionando e abriu o placar aos 22 minutos, com Artur completando cruzamento de Pedro Lima para fazer 1 a 0. Passados 30 minutos do segundo tempo, o time carioca tenta reagir e quase empatou com Andrés Gómez, mas o goleiro Rafael salvou.",
+      "player": {
+        "name": "Artur põe o São Paulo em vantagem no Morumbis"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 75,
+        "extra": null
+      },
+      "team": {
+        "id": 267,
+        "name": "Vasco"
+      },
+      "type": "Important",
+      "detail": "Thiago Mendes toca para Colidio, que cruza para a área. Cuiabano consegue finalização e chuta em cima da marcação, conseguindo escanteio para o Vasco.",
+      "player": {
+        "name": "Cuiabano"
+      },
+      "assist": {
+        "name": "Tentativa"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 75,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Após um primeiro tempo de poucas emoções, o panorama mudou na segunda etapa. Aos 22 minutos, Pedro Lima cruzou rasteiro e Artur se antecipou para abrir o placar de 1 a 0 para o São Paulo. O Vasco buscou a reação com Andrés Gómez, mas o goleiro Rafael fez grande defesa. Agora, aos 30 minutos do segundo tempo, o time paulista tenta segurar a vantagem diante da pressão dos visitantes.",
+      "player": {
+        "name": "São Paulo larga na frente com gol de Artur"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 75,
+        "extra": null
+      },
+      "team": {
+        "id": 267,
+        "name": "Vasco"
+      },
+      "type": "Important",
+      "detail": "Arboleta comete falta no meio-campo, e Vasco troca passes.",
+      "player": {
+        "name": "Arboleta comete falta no meio-campo, e Vasco tro"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 76,
+        "extra": null
+      },
+      "team": {
+        "id": 267,
+        "name": "Vasco"
+      },
+      "type": "Important",
+      "detail": "Lescano cobra escanteio e Puma Rodríguez toca de cabeça, em um cabeceio que sai fraco, mas tendo o ângulo como direção. Rafael faz a defesa.",
+      "player": {
+        "name": "Puma Rodríguez"
+      },
+      "assist": {
+        "name": "Lento, mas perigoso"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 77,
+        "extra": null
+      },
+      "team": {
+        "id": 267,
+        "name": "Vasco"
+      },
+      "type": "Important",
+      "detail": "Vasco recomeça o jogo trocando passes no campo defensivo.",
+      "player": {
+        "name": "Vasco recomeça o jogo trocando passes no campo d"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 78,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Após um primeiro tempo zerado, o confronto esquentou na etapa final. Aos 22 minutos, Pedro Lima cruzou rasteiro e Artur se antecipou para fazer 1 a 0 para o São Paulo. O Vasco tentou responder com Andrés Gómez, mas Rafael garantiu a defesa. Aos 33, o próprio Artur quase ampliou ao acertar uma bola na trave. Duelo dinâmico e com o Tricolor segurando a importante vantagem.",
+      "player": {
+        "name": "Artur marca e carimba a trave no segundo tempo"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 78,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Important",
+      "detail": "Artur tira bem da marcação de Thiago Mendes, puxa para o meio e, no mano a mano com Robert Renan, chuta para o gol e a bola bate na trave. Quase o segundo gol do São Paulo!",
+      "player": {
+        "name": "Artur"
+      },
+      "assist": {
+        "name": "Quaaaase"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 79,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Gustavo Santana"
+      },
+      "assist": {
+        "name": "Calleri"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 80,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Público: 31.501 Renda: R$ 1.190.350,00",
+      "player": {
+        "name": "Público: 31.501 Renda: R$ 1.190.350,00"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 81,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Após um primeiro tempo truncado, a partida ganhou ritmo no Morumbis. O São Paulo abriu o placar aos 22 minutos da segunda etapa, quando Artur se antecipou à marcação após passe de Pedro Lima e fez 1 a 0. O Vasco tentou responder com Andrés Gómez, parado pelo goleiro Rafael, mas o Tricolor seguiu perigoso e quase ampliou com o próprio Artur, que carimbou a trave aos 33 minutos.",
+      "player": {
+        "name": "Artur coloca o Tricolor na frente no Morumbis"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 81,
+        "extra": null
+      },
+      "team": {
+        "id": 267,
+        "name": "Vasco"
+      },
+      "type": "Important",
+      "detail": "Vasco troca passes no campo ofensivo.",
+      "player": {
+        "name": "Vasco troca passes no campo ofensivo."
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 82,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Vasco continua com a posse de bola, mas sem conseguir se aproximar da área do São Paulo.",
+      "player": {
+        "name": "Vasco continua com a posse de bola, mas sem cons"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 83,
+        "extra": null
+      },
+      "team": {
+        "id": 267,
+        "name": "Vasco"
+      },
+      "type": "Important",
+      "detail": "Colidio aparece na frente da área e, desequilibrado, chuta para fora. Ele reclama da falta na hora da finalização, mas o árbitro manda o jogo seguir.",
+      "player": {
+        "name": "Colidio"
+      },
+      "assist": {
+        "name": "Chute desequilibrado"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 83,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Andrés Gómez sai do primeiro marcador, mas é parado com falta pelo segundo.",
+      "player": {
+        "name": "Andrés Gómez sai do primeiro marcador, mas é par"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 85,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Após um primeiro tempo zerado, o ritmo subiu na etapa final. Aos 22 minutos do segundo tempo, Artur aproveitou o cruzamento de Pedro Lima e abriu o placar para o São Paulo. O Vasco tentou responder com Andrés Gómez, mas parou em boa defesa de Rafael. O time paulista ainda carimbou a trave com o iluminado Artur, sustentando a vitória por 1 a 0 perto dos 40 minutos.",
+      "player": {
+        "name": "Artur coloca o Sao Paulo na frente no Morumbis"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 85,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Brenner carrega a bola, Colidio vai puxando pelo meio para tirar da marcação e toca para o meio da área, mas Iago faz o corte.",
+      "player": {
+        "name": "Brenner carrega a bola, Colidio vai puxando pelo"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 86,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Vasco parte para o ataque, e Colidio ajeita e chuta em cima da marcação do São Paulo.",
+      "player": {
+        "name": "Vasco parte para o ataque, e Colidio ajeita e ch"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 86,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Cuiabano recebe a bola na direita, mas perde o duelo com Newton, que despacha a bola para a frente.",
+      "player": {
+        "name": "Cuiabano recebe a bola na direita, mas perde o d"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 87,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Osorio"
+      },
+      "assist": {
+        "name": "Artur"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 87,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Vasco troca passes no campo ofensivo e tenta pressionar, enquanto o São Paulo está todo atrás.",
+      "player": {
+        "name": "Vasco troca passes no campo ofensivo e tenta pre"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 88,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Robert Renan lança direto para o ataque, e Arboleda faz o corte com os pés.",
+      "player": {
+        "name": "Robert Renan lança direto para o ataque, e Arbol"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 88,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Após um primeiro tempo truncado, o São Paulo deslanchou na etapa final. Aos 22 minutos do segundo tempo, Artur aproveitou passe de Pedro Lima e mandou para a rede, abrindo o placar de 1 a 0 sobre o Vasco. O tempo corre e aos 43 minutos o Tricolor segura a importante vantagem, após suportar a pressão carioca e quase ampliar com uma bola na trave do próprio Artur.",
+      "player": {
+        "name": "Artur brilha e coloca o São Paulo em vantagem"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 88,
+        "extra": null
+      },
+      "team": {
+        "id": 267,
+        "name": "Vasco"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Adson"
+      },
+      "assist": {
+        "name": "Lescano"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 89,
+        "extra": null
+      },
+      "team": {
+        "id": 267,
+        "name": "Vasco"
+      },
+      "type": "Important",
+      "detail": "Andrés Gómez é acionado na frente, mas, como está em posição de impedimento, o lance de ataque do Vasco é interrompido.",
+      "player": {
+        "name": "Andrés Gómez é acionado na frente, mas, como est"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 90,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "+6 minutos.",
+      "player": {
+        "name": "Acréscimos"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 91,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Após primeiro tempo sem gols, o São Paulo conseguiu furar a defesa do Vasco na etapa final. Aos 22 minutos do segundo tempo, Pedro Lima cruzou rasteiro e Artur garantiu o 1 a 0. O time carioca tentou reagir com Andrés Gómez, parado por Rafael, enquanto Artur ainda carimbou a trave quase ampliando. Já nos acréscimos, o Tricolor se fecha para segurar a vitória.",
+      "player": {
+        "name": "Artur coloca o Tricolor na frente no Morumbis"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 91,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Iago"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 92,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Cuiabano é acionado na frente, mas Osorio leva a melhor na disputa de corpo. O lateral do Vasco cai no gramado pedindo falta. O árbitro só dá tiro de meta para o São Paulo.",
+      "player": {
+        "name": "Cuiabano é acionado na frente, mas Osorio leva a"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 93,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Após um primeiro tempo de poucas emoções e placar zerado, a partida ganhou intensidade na etapa final. O São Paulo abriu o placar aos 22 minutos, com Artur completando passe de Pedro Lima. O Vasco tentou reagir e pressionou, mas Puma Rodríguez desperdiçou grande chance nos acréscimos. Com mais de 48 minutos, o Tricolor se segura para garantir a vitória parcial por 1 a 0.",
+      "player": {
+        "name": "Artur marca e coloca o São Paulo na frente"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 93,
+        "extra": null
+      },
+      "team": {
+        "id": 267,
+        "name": "Vasco"
+      },
+      "type": "Important",
+      "detail": "Andrés Gómez dribla Osorio do lado esquerdo, limpa o lance e toca para o meio da área. Puma Rodríguez chuta por cima do gol e desperdiça a chance do empate.",
+      "player": {
+        "name": "Puma Rodríguez"
+      },
+      "assist": {
+        "name": "Perdeu"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 93,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Vasco troca passes no campo ofensivo e tenta encontrar espaço para avançar e chegar perto da área do São Paulo, que está todo atrás.",
+      "player": {
+        "name": "Vasco troca passes no campo ofensivo e tenta enc"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 94,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Pedro Lima sente a panturrilha, cai no gramado e toca para a lateral.",
+      "player": {
+        "name": "Pedro Lima sente a panturrilha, cai no gramado e"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 96,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "1+ minuto. Jogo vai até 52 minutos.",
+      "player": {
+        "name": "Acréscimo adicional"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 96,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Com mais de 51 minutos da etapa final, o São Paulo vai segurando a vitória por 1 a 0 sobre o Vasco. Após um primeiro tempo zerado, o jogo esquentou. O gol da vantagem tricolor veio aos 22 minutos, quando Artur aproveitou cruzamento de Pedro Lima para balançar a rede. O Vasco pressionou no fim, e Puma Rodríguez desperdiçou chance clara de empatar já nos acréscimos do segundo tempo.",
+      "player": {
+        "name": "Artur brilha e São Paulo segura vantagem no fim"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 96,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Important",
+      "detail": "Pedro Lima pede substituição, mas São Paulo já fez as cinco substituições.",
+      "player": {
+        "name": "Pedro Lima pede substituição, mas São Paulo já f"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 97,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "São Paulo vence o Vasco por 1 a 0 no Morumbis.",
+      "player": {
+        "name": "Fim de jogo"
       },
       "assist": null
     }
@@ -1919,31 +3343,31 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "48%"
+          "value": "43%"
         },
         {
           "type": "Total Passes",
-          "value": 255
+          "value": 395
         },
         {
           "type": "Pass Accuracy",
-          "value": "84%"
+          "value": "79%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 41
+          "value": 82
         },
         {
           "type": "Total Shots",
-          "value": 3
+          "value": 9
         },
         {
           "type": "Shots on Goal",
-          "value": 0
+          "value": 2
         },
         {
           "type": "Shots off Goal",
-          "value": 3
+          "value": 6
         },
         {
           "type": "Blocked Shots",
@@ -1951,15 +3375,15 @@
         },
         {
           "type": "Hit Woodwork",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Corner Kicks",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Offsides",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Penalties",
@@ -1967,19 +3391,19 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 0
+          "value": 5
         },
         {
           "type": "Tackles",
-          "value": 13
+          "value": 32
         },
         {
           "type": "Fouls",
-          "value": 8
+          "value": 14
         },
         {
           "type": "Yellow Cards",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Red Cards",
@@ -1995,11 +3419,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "52%"
+          "value": "57%"
         },
         {
           "type": "Total Passes",
-          "value": 269
+          "value": 592
         },
         {
           "type": "Pass Accuracy",
@@ -2007,23 +3431,23 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 38
+          "value": 85
         },
         {
           "type": "Total Shots",
-          "value": 3
+          "value": 13
         },
         {
           "type": "Shots on Goal",
-          "value": 0
+          "value": 2
         },
         {
           "type": "Shots off Goal",
-          "value": 3
+          "value": 7
         },
         {
           "type": "Blocked Shots",
-          "value": 0
+          "value": 4
         },
         {
           "type": "Hit Woodwork",
@@ -2031,11 +3455,11 @@
         },
         {
           "type": "Corner Kicks",
-          "value": 2
+          "value": 4
         },
         {
           "type": "Offsides",
-          "value": 0
+          "value": 2
         },
         {
           "type": "Penalties",
@@ -2043,19 +3467,19 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Tackles",
-          "value": 11
+          "value": 20
         },
         {
           "type": "Fouls",
-          "value": 10
+          "value": 15
         },
         {
           "type": "Yellow Cards",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Red Cards",

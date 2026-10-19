@@ -7,11 +7,11 @@
       "city": ""
     },
     "status": {
-      "long": "HT",
-      "short": "HT",
-      "elapsed": 45
+      "long": "FT",
+      "short": "FT",
+      "elapsed": 90
     },
-    "timerStart": "2026-10-18T23:25:28.133Z",
+    "timerStart": "2026-10-19T00:38:18.690Z",
     "timerStatus": "PAUSADO"
   },
   "league": {
@@ -30,7 +30,7 @@
     }
   },
   "goals": {
-    "home": 0,
+    "home": 1,
     "away": 1
   },
   "score": {
@@ -39,8 +39,8 @@
       "away": null
     },
     "fulltime": {
-      "home": null,
-      "away": null
+      "home": 1,
+      "away": 1
     }
   },
   "odds": {
@@ -51,6 +51,22 @@
   },
   "_geUrl": "https://ge.globo.com/pa/futebol/brasileirao-serie-a/jogo/18-10-2026/remo-bragantino.ghtml",
   "events": [
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Remo e Bragantino empatam em 1 a 1 no Mangueirão.",
+      "player": {
+        "name": "Fim de papo!"
+      },
+      "assist": null
+    },
     {
       "time": {
         "elapsed": 0,
@@ -835,6 +851,60 @@
         "extra": null
       },
       "team": {
+        "id": 280,
+        "name": "Bragantino"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Alix Vinicius"
+      },
+      "assist": {
+        "name": "Gustavo Marques"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 45,
+        "extra": null
+      },
+      "team": {
+        "id": 364,
+        "name": "Remo"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Eduardo Melo"
+      },
+      "assist": {
+        "name": "David Braga"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 45,
+        "extra": null
+      },
+      "team": {
+        "id": 364,
+        "name": "Remo"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Jajá"
+      },
+      "assist": {
+        "name": "José Welison"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 45,
+        "extra": null
+      },
+      "team": {
         "id": 0,
         "name": ""
       },
@@ -899,6 +969,22 @@
         "extra": null
       },
       "team": {
+        "id": 364,
+        "name": "Remo"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Zé Ivaldo"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 47,
+        "extra": null
+      },
+      "team": {
         "id": 0,
         "name": ""
       },
@@ -906,6 +992,56 @@
       "detail": "Gustavo Marques mergulha para afastar a bola cruzada pelo lateral Marcelinho.",
       "player": {
         "name": "Gustavo Marques mergulha para afastar a bola cru"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 48,
+        "extra": null
+      },
+      "team": {
+        "id": 280,
+        "name": "Bragantino"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Matheus Fernandes"
+      },
+      "assist": {
+        "name": "Eduardo Sasha"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 48,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Remo começou melhor e pressionou, mas foi o Bragantino quem abriu o placar aos 9 minutos de jogo com o giro rápido e chute certeiro de Lucas Barbosa. Após o gol, o Massa Bruta equilibrou e chegou a ter um gol de Fernando anulado pelo VAR por toque de mão. Agora, logo no início do segundo tempo, o placar segue 1 a 0 para os visitantes, que controlam bem o ritmo da partida.",
+      "player": {
+        "name": "Lucas Barbosa coloca o Bragantino na frente"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 48,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Fernando faz boa jogada pela esquerda, mas não consegue fazer o passe chegar no companheiro de ataque.",
+      "player": {
+        "name": "Fernando faz boa jogada pela esquerda, mas não c"
       },
       "assist": null
     },
@@ -938,6 +1074,38 @@
       "detail": "Bragantino gira a bola para achar espaços na defesa do Remo.",
       "player": {
         "name": "Bragantino gira a bola para achar espaços na def"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 51,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Após um início forte do Remo, o Bragantino foi letal e abriu o placar aos 9 minutos de jogo com Lucas Barbosa. O time visitante chegou a marcar o segundo com Fernando, mas o VAR anulou por toque de mão. Agora, aos 6 minutos do segundo tempo, o Massa Bruta segura a vantagem de 1 a 0, enquanto os donos da casa buscam o empate após mudanças na equipe.",
+      "player": {
+        "name": "Bragantino na frente em duelo intenso no Pará"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 51,
+        "extra": null
+      },
+      "team": {
+        "id": 280,
+        "name": "Bragantino"
+      },
+      "type": "Important",
+      "detail": "Zé Ricardo faz boa jogada, serve Marcelinho, que cruza na área e vê a defesa do Bragantino tirar o perigo.",
+      "player": {
+        "name": "Zé Ricardo faz boa jogada, serve Marcelinho, que"
       },
       "assist": null
     },
@@ -986,6 +1154,780 @@
       "detail": "David Braga recebe em velocidade, cruza rasteiro para trás e a bola quase chega em Taliari.",
       "player": {
         "name": "David Braga recebe em velocidade, cruza rasteiro"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 53,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Bragantino vai vencendo o Remo por 1 a 0 no Mangueirão, gol de Lucas Barbosa aos 9 minutos do primeiro tempo. O Remo começou pressionando, mas o rival foi mais efetivo. Fernando teve um gol anulado pelo VAR antes do intervalo. No segundo tempo, aos 8 minutos, o goleiro Tiago Volpi brilhou ao fazer grande defesa após finalizações de Jajá e Taliari, segurando a vantagem.",
+      "player": {
+        "name": "Bragantino lidera com gol de Lucas Barbosa"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 53,
+        "extra": null
+      },
+      "team": {
+        "id": 280,
+        "name": "Bragantino"
+      },
+      "type": "Important",
+      "detail": "Jajá chuta de fora da área, Volpi rebate a bola nos pés de Taliari, que chuta e vê o goleiro do Bragantino se recuperar na jogada e fazer grande defesa.",
+      "player": {
+        "name": "Gabriel Taliari"
+      },
+      "assist": {
+        "name": "Quase o empate!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 54,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Após início forte do Remo, o Bragantino abriu o placar aos 9 minutos da etapa inicial com Lucas Barbosa e ainda teve um gol anulado pelo VAR. Mas o segundo tempo trouxe uma nova história. Aos 9 minutos da etapa final, o iluminado Jajá, que entrou no intervalo, arriscou de fora da área e decretou o empate por 1 a 1, deixando o confronto totalmente aberto no Mangueirão.",
+      "player": {
+        "name": "Jajá sai do banco e empata o jogo no Mangueirão"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 54,
+        "extra": null
+      },
+      "team": {
+        "id": 364,
+        "name": "Remo"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "player": {
+        "name": "Jajá"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 54,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Jajá cruza na área, Eduardo Melo tenta alcançar a bola, mas não consegue.",
+      "player": {
+        "name": "Jajá cruza na área, Eduardo Melo tenta alcançar "
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 54,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "All Assists de Remo x Bragantino no 2º tempo",
+      "player": {
+        "name": "All Assists de Remo x Bragantino no 2º tempo"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 59,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Aos 14 minutos do segundo tempo, o placar aponta 1 a 1 em um confronto de tirar o fôlego. O Bragantino largou na frente com Lucas Barbosa na primeira etapa e ainda teve um gol anulado pelo VAR. Na volta do intervalo, o Remo reagiu e buscou a igualdade com Jajá, que arriscou de fora da área. Os donos da casa quase viraram logo em seguida, mas a jogada acabou anulada por impedimento.",
+      "player": {
+        "name": "Tudo igual em duelo eletrizante no Mangueirão"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 61,
+        "extra": null
+      },
+      "team": {
+        "id": 364,
+        "name": "Remo"
+      },
+      "type": "Important",
+      "detail": "Fernando recebe bom passe na esquerda, puxa para a direita, manda no canto esquerdo de Ivan, porém o goleiro consegue salvar o Leão.",
+      "player": {
+        "name": "Ivan"
+      },
+      "assist": {
+        "name": "Que defesa!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 63,
+        "extra": null
+      },
+      "team": {
+        "id": 280,
+        "name": "Bragantino"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Eric Ramires"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 63,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Que partida movimentada! O Bragantino largou na frente com Lucas Barbosa logo cedo. O Remo não se entregou e, após sofrer com a pressão e ver o rival ter um gol anulado pelo VAR, buscou o empate aos 9 minutos do segundo tempo com um chutaço de Jajá. Com 18 minutos da etapa final, o confronto segue em ritmo acelerado, com grandes defesas de Ivan e Volpi mantendo o placar em 1 a 1.",
+      "player": {
+        "name": "Tudo igual após gols e lances anulados"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 63,
+        "extra": null
+      },
+      "team": {
+        "id": 364,
+        "name": "Remo"
+      },
+      "type": "Important",
+      "detail": "Eduardo Melo recebe, livre, dentro da área, e cabeceia em direção ao goleiro Volpi.",
+      "player": {
+        "name": "Eduardo Melo"
+      },
+      "assist": {
+        "name": "Que chance!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 65,
+        "extra": null
+      },
+      "team": {
+        "id": 364,
+        "name": "Remo"
+      },
+      "type": "Important",
+      "detail": "Ryan Augusto se antecipa e consegue afastar a bola após cruzamento do Remo na área do Massa Bruta.",
+      "player": {
+        "name": "Ryan Augusto se antecipa e consegue afastar a bo"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 67,
+        "extra": null
+      },
+      "team": {
+        "id": 364,
+        "name": "Remo"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Picco"
+      },
+      "assist": {
+        "name": "Patrick"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 67,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Aos 23 minutos da etapa final, Remo e Bragantino empatam por 1 a 1 em um embate eletrizante. Lucas Barbosa marcou para o time visitante no início, mas Jajá saiu do banco para igualar tudo para os donos da casa. O duelo ainda teve dois gols anulados pelo VAR, um para cada lado, mantendo a disputa totalmente aberta no Mangueirão.",
+      "player": {
+        "name": "Tudo igual no Mangueirão em jogo de gols anulados"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 67,
+        "extra": null
+      },
+      "team": {
+        "id": 364,
+        "name": "Remo"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Yago Pikachu"
+      },
+      "assist": {
+        "name": "Galeano"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 69,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Bragantino saiu na frente aos 9 minutos com gol de Lucas Barbosa. O Remo pressionou e empatou na segunda etapa, também aos 9 minutos, com Jajá finalizando de fora da área. Com as duas equipes buscando a vitória e tendo gols anulados pelo VAR, o embate segue aberto. Aos 24 minutos do segundo tempo, o goleiro Ivan operou um milagre e evitou o segundo gol do adversário.",
+      "player": {
+        "name": "Placar igualado e muita emoção no Mangueirão"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 69,
+        "extra": null
+      },
+      "team": {
+        "id": 364,
+        "name": "Remo"
+      },
+      "type": "Important",
+      "detail": "Wallace Yan recebe excelente lançamento em velocidade, entra na área, fica de cara para o gol, mas chuta no meio e vê Ivan defender.",
+      "player": {
+        "name": "Ivan"
+      },
+      "assist": {
+        "name": "Defende!!!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 70,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Pausa para hidratação",
+      "player": {
+        "name": "Pausa para hidratação"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 71,
+        "extra": null
+      },
+      "team": {
+        "id": 280,
+        "name": "Bragantino"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Herrera"
+      },
+      "assist": {
+        "name": "Wallace Yan"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 74,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Passados 29 minutos da etapa final, Remo e Bragantino empatam por 1 a 1 em um embate dinâmico. Lucas Barbosa marcou para o Bragantino aos 9 minutos do primeiro tempo, que ainda teve um gol de Fernando anulado pelo VAR. Na etapa complementar, o substituto Jajá igualou para o Remo com um chute de longe aos 9 minutos. Com boas chances e grandes defesas, o confronto segue totalmente aberto.",
+      "player": {
+        "name": "Empate e muita emoção no Mangueirão"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 74,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Marcelinho demora para bater o lateral e árbitro marca reversão.",
+      "player": {
+        "name": "Marcelinho demora para bater o lateral e árbitro"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 77,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Aos 32 minutos do segundo tempo, o equilíbrio marca o confronto. O Bragantino abriu o placar no início com Lucas Barbosa, mas o Remo não se abateu e buscou o empate na etapa final com Jajá, que saiu do banco para marcar de longe. Com chances claras desperdiçadas de lado a lado e gols anulados pelo VAR, as duas equipes se lançam ao ataque para tentar sair com a vitória no Mangueirão.",
+      "player": {
+        "name": "Equilíbrio e gols agitam o duelo no Mangueirão"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 77,
+        "extra": null
+      },
+      "team": {
+        "id": 364,
+        "name": "Remo"
+      },
+      "type": "Important",
+      "detail": "Marcelinho não consegue cruzar na medida para os atacantes do Remo.",
+      "player": {
+        "name": "Marcelinho não consegue cruzar na medida para os"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 79,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Com 34 minutos do segundo tempo, o duelo segue empatado por 1 a 1 em um confronto de pura emoção. Lucas Barbosa abriu o placar para o Bragantino no início da partida, mas o Remo buscou a reação com Jajá, que empatou na etapa final em belo chute de fora da área. O jogo ainda teve gols anulados pelo VAR de ambos os lados e grandes defesas dos goleiros Ivan e Tiago Volpi.",
+      "player": {
+        "name": "Jogo quente e tudo igualado no Mangueirão"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 79,
+        "extra": null
+      },
+      "team": {
+        "id": 280,
+        "name": "Bragantino"
+      },
+      "type": "Important",
+      "detail": "Fernando dá uma meia-lua em Pikachu, fica de cara para o gol, mas chuta na direção de Ivan e perde uma chance claríssima.",
+      "player": {
+        "name": "Fernando"
+      },
+      "assist": {
+        "name": "Perdeu!!!!!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 79,
+        "extra": null
+      },
+      "team": {
+        "id": 364,
+        "name": "Remo"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Gabriel Taliari"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 81,
+        "extra": null
+      },
+      "team": {
+        "id": 364,
+        "name": "Remo"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Vitor Bueno"
+      },
+      "assist": {
+        "name": "Zé Ricardo"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 84,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Bragantino abriu o placar com Lucas Barbosa aos 9 minutos do primeiro tempo. O Remo voltou forte e empatou por 1 a 1 com Jajá, aos 9 da etapa final. Com dois gols anulados pelo VAR e chances claras desperdiçadas de lado a lado, o confronto segue totalmente aberto. Aos 39 minutos do segundo tempo, o ritmo continua forte e as duas equipes buscam o gol da vitória a qualquer custo.",
+      "player": {
+        "name": "Tudo igual no Mangueirão em duelo movimentado"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 84,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Picco lança Taliari, mas Volpi sai do gol e manda a bola para fora.",
+      "player": {
+        "name": "Picco lança Taliari, mas Volpi sai do gol e mand"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 85,
+        "extra": null
+      },
+      "team": {
+        "id": 280,
+        "name": "Bragantino"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Gabriel"
+      },
+      "assist": {
+        "name": "Fabinho"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 85,
+        "extra": null
+      },
+      "team": {
+        "id": 280,
+        "name": "Bragantino"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Patrick"
+      },
+      "assist": {
+        "name": "Eric Ramires"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 87,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Passados 42 minutos da etapa final, Remo e Bragantino vão empatando por 1 a 1 em um confronto de tirar o fôlego. O Massa Bruta saiu na frente logo aos 9 minutos do primeiro tempo com Lucas Barbosa. O Remo buscou o empate na etapa complementar com Jajá, que arriscou de longe. A partida segue lá e cá, com grandes defesas e muita pressão no ataque.",
+      "player": {
+        "name": "Tudo igual no Mangueirão em duelo pegado"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 87,
+        "extra": null
+      },
+      "team": {
+        "id": 280,
+        "name": "Bragantino"
+      },
+      "type": "Important",
+      "detail": "Vitor Bueno dá belo lançamento para Pikachu, que já manda para o meio da área, mas zaga do Bragantino corta antes de chegar ao Eduardo Melo.",
+      "player": {
+        "name": "Vitor Bueno dá belo lançamento para Pikachu, que"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 88,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Marlon manda para área, mas Capixaba pula mais alto que Pikachu e afasta a bola.",
+      "player": {
+        "name": "Marlon manda para área, mas Capixaba pula mais a"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 90,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Já nos acréscimos do segundo tempo, o empate por 1 a 1 reflete um duelo aberto. O Bragantino saiu na frente aos 9 minutos de jogo com Lucas Barbosa. O Remo pressionou e buscou a igualdade na etapa final com Jajá, que acertou um belo chute de fora da área. Com direito a dois gols anulados pelo VAR e grandes defesas dos goleiros, as duas equipes criaram chances reais para garantir a vitória.",
+      "player": {
+        "name": "Equilíbrio e gols agitam o duelo no Mangueirão"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 90,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Outra vez, árbitro dá setet minutos de acréscimo.",
+      "player": {
+        "name": "+ 7"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 92,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Após escanteio, Marllon cabeceia em direção ao gol, mas ela para em Lucas Barbosa.",
+      "player": {
+        "name": "Após escanteio, Marllon cabeceia em direção ao g"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 93,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Com mais de 48 minutos da etapa final, Remo e Bragantino vão empatando por 1 a 1 em um confronto muito movimentado. Lucas Barbosa abriu o placar para o Massa Bruta no início, mas Jajá igualou para o Leão no segundo tempo após sair do banco. O duelo ainda teve dois gols anulados pelo VAR e grandes defesas dos goleiros Ivan e Volpi, mantendo a igualdade dramática até os acréscimos.",
+      "player": {
+        "name": "Empate franco e chances perdidas no Mangueirão"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 93,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Fernando recebe no campo de ataque, tenta passar por Marllon, mas o zagueiro azulino leva vantagem.",
+      "player": {
+        "name": "Fernando recebe no campo de ataque, tenta passar"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 94,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Capixaba cruza pela esquerda e Marllon afasta.",
+      "player": {
+        "name": "Capixaba cruza pela esquerda e Marllon afasta."
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 95,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Patrick faz grande jogada pela esqueda, cruza na área, mas Matheus Fernandes não consegue mandar para o gol.",
+      "player": {
+        "name": "Patrick faz grande jogada pela esqueda, cruza na"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 96,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Com mais de 50 minutos do segundo tempo, Remo e Bragantino empatam por 1 a 1 em um duelo de tirar o fôlego. Lucas Barbosa abriu o placar para os visitantes no primeiro tempo, mas Jajá, que veio do banco, igualou com um chutaço de fora da área na etapa final. O confronto ainda teve dois gols anulados pelo VAR e grandes defesas dos goleiros Ivan e Volpi para segurar a igualdade.",
+      "player": {
+        "name": "Tudo igual no Mangueirão em jogo movimentado"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 96,
+        "extra": null
+      },
+      "team": {
+        "id": 280,
+        "name": "Bragantino"
+      },
+      "type": "Important",
+      "detail": "Taliari ajeita para Picco, que chuta e a bola bate na defesa do Bragantino e vai para fora.",
+      "player": {
+        "name": "Taliari ajeita para Picco, que chuta e a bola ba"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 97,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Passando dos 52 minutos do segundo tempo, Remo e Bragantino vão empatando por 1 a 1 em um duelo de tirar o fôlego. O Massa Bruta saiu na frente com Lucas Barbosa no primeiro tempo, mas Jajá, vindo do banco, igualou para o Leão na etapa final. O jogo ainda teve gols anulados pelo VAR para ambos os lados e grandes defesas dos goleiros, mantendo a intensidade lá no alto até o fim.",
+      "player": {
+        "name": "Gols e emoção deixam tudo igual no Mangueirão"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 97,
+        "extra": null
+      },
+      "team": {
+        "id": 280,
+        "name": "Bragantino"
+      },
+      "type": "Important",
+      "detail": "Picco cabeceia após escanteio, a bola bate na zaga do Bragantino e passe bem perto da trave.",
+      "player": {
+        "name": "Quaaase!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 98,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Lucas Barbosa abriu o placar para o Bragantino no primeiro tempo. Na etapa final, Jajá veio do banco para empatar para o Remo, deixando o placar em 1 a 1. O confronto segue frenético e, aos 53 minutos do segundo tempo, as duas equipes ainda buscam a vitória após chances desperdiçadas, grandes defesas dos goleiros e gols anulados pelo VAR.",
+      "player": {
+        "name": "Tudo igual em duelo eletrizante no Mangueirão"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 98,
+        "extra": null
+      },
+      "team": {
+        "id": 364,
+        "name": "Remo"
+      },
+      "type": "Important",
+      "detail": "Zé Ivaldo chuta de esquerda, dentro da área, e a bola passa bem perto do gol.",
+      "player": {
+        "name": "Zé Ivaldo chuta de esquerda, dentro da área, e a"
       },
       "assist": null
     }
@@ -1445,35 +2387,35 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "51%"
+          "value": "50%"
         },
         {
           "type": "Total Passes",
-          "value": 289
+          "value": 551
         },
         {
           "type": "Pass Accuracy",
-          "value": "82%"
+          "value": "81%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 51
+          "value": 103
         },
         {
           "type": "Total Shots",
-          "value": 11
+          "value": 23
         },
         {
           "type": "Shots on Goal",
-          "value": 2
+          "value": 5
         },
         {
           "type": "Shots off Goal",
-          "value": 7
+          "value": 13
         },
         {
           "type": "Blocked Shots",
-          "value": 2
+          "value": 5
         },
         {
           "type": "Hit Woodwork",
@@ -1481,11 +2423,11 @@
         },
         {
           "type": "Corner Kicks",
-          "value": 6
+          "value": 14
         },
         {
           "type": "Offsides",
-          "value": 3
+          "value": 4
         },
         {
           "type": "Penalties",
@@ -1493,19 +2435,19 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 4
+          "value": 6
         },
         {
           "type": "Tackles",
-          "value": 10
+          "value": 15
         },
         {
           "type": "Fouls",
-          "value": 2
+          "value": 9
         },
         {
           "type": "Yellow Cards",
-          "value": 0
+          "value": 2
         },
         {
           "type": "Red Cards",
@@ -1521,11 +2463,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "49%"
+          "value": "50%"
         },
         {
           "type": "Total Passes",
-          "value": 253
+          "value": 473
         },
         {
           "type": "Pass Accuracy",
@@ -1533,23 +2475,23 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 37
+          "value": 73
         },
         {
           "type": "Total Shots",
-          "value": 7
+          "value": 15
         },
         {
           "type": "Shots on Goal",
-          "value": 1
+          "value": 5
         },
         {
           "type": "Shots off Goal",
-          "value": 4
+          "value": 7
         },
         {
           "type": "Blocked Shots",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Hit Woodwork",
@@ -1561,7 +2503,7 @@
         },
         {
           "type": "Offsides",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Penalties",
@@ -1569,19 +2511,19 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 8
+          "value": 15
         },
         {
           "type": "Tackles",
-          "value": 7
+          "value": 16
         },
         {
           "type": "Fouls",
-          "value": 8
+          "value": 15
         },
         {
           "type": "Yellow Cards",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Red Cards",

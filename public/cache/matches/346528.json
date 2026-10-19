@@ -7,12 +7,12 @@
       "city": ""
     },
     "status": {
-      "long": "NS",
-      "short": "NS",
-      "elapsed": null
+      "long": "1H",
+      "short": "1H",
+      "elapsed": 41
     },
-    "timerStart": null,
-    "timerStatus": "PAUSADO"
+    "timerStart": "2026-10-19T23:03:32.003Z",
+    "timerStatus": "INICIADO"
   },
   "league": {
     "round": "Regular Season - 31"
@@ -30,8 +30,8 @@
     }
   },
   "goals": {
-    "home": null,
-    "away": null
+    "home": 0,
+    "away": 0
   },
   "score": {
     "halftime": {
@@ -50,7 +50,718 @@
     "source": "betexplorer"
   },
   "_geUrl": "https://ge.globo.com/sp/futebol/brasileirao-serie-a/jogo/19-10-2026/corinthians-vitoria.ghtml",
-  "events": [],
+  "events": [
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 287,
+        "name": "Vitória"
+      },
+      "type": "Important",
+      "detail": "A primeira finalização no jogo é do Vitória. Tarzia recebe fora da área, domina e finaliza sem força para Hugo Souza fazer a defesa sem dificuldades.",
+      "player": {
+        "name": "A primeira finalização no jogo é do Vitória. Tar"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Começa o jogo na Neo Química Arena.",
+      "player": {
+        "name": "Apita o árbitro"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 1,
+        "extra": null
+      },
+      "team": {
+        "id": 264,
+        "name": "Corinthians"
+      },
+      "type": "Important",
+      "detail": "Angileri recebe do lado esquerdo e toca para Lingard na entrada da grande área. O jogador do Corinthians perde a posse.",
+      "player": {
+        "name": "Angileri recebe do lado esquerdo e toca para Lin"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 1,
+        "extra": null
+      },
+      "team": {
+        "id": 264,
+        "name": "Corinthians"
+      },
+      "type": "Important",
+      "detail": "Corinthians fica com a bola no campo de ataque.",
+      "player": {
+        "name": "Corinthians fica com a bola no campo de ataque."
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 3,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "A bola rolou na Neo Química Arena e, com apenas 3 minutos jogados, as duas equipes buscam espaços. O Vitória teve a primeira chance com Tarzia finalizando para defesa tranquila de Hugo Souza. O Corinthians tenta responder ocupando o campo ofensivo, mas peca nos passes decisivos de Lingard e Vitinho. Um início de jogo bastante estudado e com muita disputa pela posse.",
+      "player": {
+        "name": "Começo movimentado na Neo Química Arena"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 3,
+        "extra": null
+      },
+      "team": {
+        "id": 287,
+        "name": "Vitória"
+      },
+      "type": "Important",
+      "detail": "Vitinho fica com a bola no lado direito, tenta fintar a marcação, mas erra o passe para o André. A bola fica com o Vitória.",
+      "player": {
+        "name": "Vitinho fica com a bola no lado direito, tenta f"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 4,
+        "extra": null
+      },
+      "team": {
+        "id": 287,
+        "name": "Vitória"
+      },
+      "type": "Important",
+      "detail": "Matheuzinho, do Vitória, sofre falta no meio de campo.",
+      "player": {
+        "name": "Matheuzinho"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 4,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Bidon toca para Garro, que exagera na força e cruza para o outro lado do campo, sem encontrar ninguém na grande área.",
+      "player": {
+        "name": "Bidon toca para Garro, que exagera na força e cr"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 5,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Mateus Silva cobra a falta, mas exagera na força e a bola sai pela linha de fundo.",
+      "player": {
+        "name": "Mateus Silva cobra a falta, mas exagera na força"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 6,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Com quase sete minutos de bola rolando, a partida começa movimentada na Neo Química Arena. O Vitória finalizou primeiro com Tarzia, mas Hugo Souza defendeu sem sustos. O Corinthians tentou responder controlando as ações no ataque com Lingard e Garro. Na última chance, Vitinho cruzou rasteiro para Yuri Alberto, mas o goleiro Lucas Arcanjo antecipou a jogada para segurar o empate.",
+      "player": {
+        "name": "Início equilibrado na Neo Química Arena"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 6,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Vitinho recebe passe de André e tenta o cruzamento rasteiro para Yuri Alberto. O camisa 9 até antecipa a marcação, mas vê a bola sobrar com o goleiro Lucas Arcanjo depois de tentar o domínio.",
+      "player": {
+        "name": "Vitinho recebe passe de André e tenta o cruzamen"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 8,
+        "extra": null
+      },
+      "team": {
+        "id": 287,
+        "name": "Vitória"
+      },
+      "type": "Important",
+      "detail": "Lingard dá um carrinho no meio de campo, mas não consegue ficar com a bola. Erick recupera a posse para o Vitória e arranca para o campo de ataque. A defesa corintiana consegue afastar pela linha lateral.",
+      "player": {
+        "name": "Lingard dá um carrinho no meio de campo, mas não"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 9,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Com 10 minutos de bola rolando, o duelo na Arena começou em ritmo de muito estudo e forte marcação. O Vitória finalizou primeiro com Tarzia, mas Hugo Souza defendeu sem sustos. O Corinthians tentou responder com Yuri Alberto antecipando a zaga após passe de Vitinho, mas a bola ficou com o goleiro rival. Por enquanto, as defesas levam a melhor e o placar segue zerado.",
+      "player": {
+        "name": "Estudo e marcação forte no início em Itaquera"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 9,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Angileri perde a posse e Erick recupera para o Vitória. Na sequência da jogada, antes de a bola chegar à área do Corinthians, Gabriel Paulista antecipa e tranquiliza o jogo para o Timão.",
+      "player": {
+        "name": "Angileri perde a posse e Erick recupera para o V"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 11,
+        "extra": null
+      },
+      "team": {
+        "id": 264,
+        "name": "Corinthians"
+      },
+      "type": "Important",
+      "detail": "Garro faz jogada pelo lado esquerdo, deixa a marcação para trás e cruza rasteiro para a grande área. A bola passa por Yuri Alberto e sobra para Vitinho, que finaliza por cima do gol adversário.",
+      "player": {
+        "name": "Vitinho"
+      },
+      "assist": {
+        "name": "Faltou capricho"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 11,
+        "extra": null
+      },
+      "team": {
+        "id": 264,
+        "name": "Corinthians"
+      },
+      "type": "Important",
+      "detail": "Rodrigo Garro aciona Yuri Alberto no campo de ataque. O camisa 9 invade á area, divide com Brítez e fica caído no chão. O jogador do Corinthians pede pênalti, mas o árbitro manda o jogo seguir.",
+      "player": {
+        "name": "Rodrigo Garro aciona Yuri Alberto no campo de at"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 13,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Nos primeiros 13 minutos na Neo Química Arena, o placar segue 0 a 0, mas o jogo começou movimentado. O Vitória finalizou primeiro com Tarzia, em defesa fácil de Hugo Souza. O Corinthians logo tomou as rédeas e criou a melhor chance: Vitinho finalizou para fora o cruzamento rasteiro de Garro. Pouco antes, Yuri Alberto caiu na área e pediu pênalti, mas a arbitragem mandou seguir.",
+      "player": {
+        "name": "Corinthians pressiona e assusta o Vitória em casa"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 13,
+        "extra": null
+      },
+      "team": {
+        "id": 287,
+        "name": "Vitória"
+      },
+      "type": "Important",
+      "detail": "Lingard e Garro tabelam do lado esquerdo e a bola sobra para Vitinho na grande área. A defesa do Vitória, no entanto, afasta o perigo.",
+      "player": {
+        "name": "Lingard e Garro tabelam do lado esquerdo e a bol"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 14,
+        "extra": null
+      },
+      "team": {
+        "id": 287,
+        "name": "Vitória"
+      },
+      "type": "Important",
+      "detail": "Vitória cobra falta para a grande área, mas nenhum jogador consegue o desvio e a bola sai pela linha de fundo.",
+      "player": {
+        "name": "Vitória cobra falta para a grande área, mas nenh"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 15,
+        "extra": null
+      },
+      "team": {
+        "id": 264,
+        "name": "Corinthians"
+      },
+      "type": "Important",
+      "detail": "Bidon recebe a bola, arranca e finaliza de fora da área. Lucas Arcanjo faz a defesa sem grandes dificuldades.",
+      "player": {
+        "name": "Breno Bidon"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 16,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Com pouco mais de 15 minutos do primeiro tempo, o duelo na Neo Química Arena segue sem gols, mas com muita intensidade. O Vitória começou assustando com finalização de Tarzia, mas foi o Corinthians quem assumiu o controle. O Timão pressiona e teve grande chance com Vitinho chutando para fora após passe de Garro, além de uma tentativa de longe de Bidon defendida por Lucas Arcanjo.",
+      "player": {
+        "name": "Corinthians pressiona mas Vitória segura o empate"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 16,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Vitinho toca para Matheuzinho, que avança até a linha de fundo. O lateral do Corinthians manda para a área, mas a defesa do Vitória afasta. Na sequência, a bola volta para Lucas Arcanjo.",
+      "player": {
+        "name": "Vitinho toca para Matheuzinho, que avança até a "
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 18,
+        "extra": null
+      },
+      "team": {
+        "id": 264,
+        "name": "Corinthians"
+      },
+      "type": "Important",
+      "detail": "Vitinho recebe a bola no meio do campo e rola para Lingard. O camisa 77 do Corinthians, porém, perde a posse. Na sequência, Vitinho comete falta.",
+      "player": {
+        "name": "Vitinho recebe a bola no meio do campo e rola pa"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 21,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Nos primeiros 20 minutos na Neo Química Arena, o Corinthians tenta tomar a iniciativa, mas esbarra nos erros de passe. Vitinho teve grande chance ao chutar por cima após bom cruzamento de Garro. O Vitória começou assustando com chute fraco de Tarzia e tenta encaixar os contra-ataques com Erick, mas o placar segue zerado diante de um duelo pegado e com muitas faltas.",
+      "player": {
+        "name": "Timão pressiona mas peca na pontaria no início"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 21,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Vitinho comete nova falta no campo de ataque. Dessa vez, em cima de Caíque.",
+      "player": {
+        "name": "Vitinho comete nova falta no campo de ataque. De"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 22,
+        "extra": null
+      },
+      "team": {
+        "id": 264,
+        "name": "Corinthians"
+      },
+      "type": "Important",
+      "detail": "Corinthians tenta sair para o ataque, mas Lingard é parado com falta.",
+      "player": {
+        "name": "Corinthians tenta sair para o ataque, mas Lingar"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 23,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Corinthians pressiona o Vitória no campo de ataque, mas encontra poucos espaços. Vitinho finaliza de fora da área e é travado pela marcação.",
+      "player": {
+        "name": "Corinthians pressiona o Vitória no campo de ataq"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 24,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Com 24 minutos de bola rolando, Corinthians e Vitória fazem um confronto movimentado na Neo Química Arena, mas o placar segue 0 a 0. O time visitante assustou primeiro com Tarzia, enquanto os paulistas responderam na pressão. Vitinho teve grande chance após passe de Garro, mas finalizou para fora. Yuri Alberto também reclamou de pênalti, mas o árbitro mandou seguir o jogo.",
+      "player": {
+        "name": "Início movimentado e placar zerado em Itaquera"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 24,
+        "extra": null
+      },
+      "team": {
+        "id": 287,
+        "name": "Vitória"
+      },
+      "type": "Important",
+      "detail": "Lingard finaliza de fora da área, mas a bola desvia e bate no braço de Vitinho dentro da área. É falta para o Vitória no campo de defesa.",
+      "player": {
+        "name": "Lingard finaliza de fora da área, mas a bola des"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 25,
+        "extra": null
+      },
+      "team": {
+        "id": 264,
+        "name": "Corinthians"
+      },
+      "type": "Important",
+      "detail": "Lingard divide dentro da grande área e a bola sobra para Rodrigo Garro. O camisa 8 do Corinthians finaliza de primeira e manda para fora da meta de Lucas Arcanjo. Passou perto!",
+      "player": {
+        "name": "Garro"
+      },
+      "assist": {
+        "name": "UUUUUH"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 25,
+        "extra": null
+      },
+      "team": {
+        "id": 287,
+        "name": "Vitória"
+      },
+      "type": "Important",
+      "detail": "Vitória troca passes no campo de defesa.",
+      "player": {
+        "name": "Vitória troca passes no campo de defesa."
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 27,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Após 25 minutos de bola rolando na Neo Química Arena, o Corinthians dita o ritmo e pressiona em busca do primeiro gol. O meia Rodrigo Garro quase abriu o placar em um chute de primeira que passou muito perto da trave de Lucas Arcanjo. O Vitória tenta cadenciar o jogo, mas encontra dificuldades para criar chances claras de perigo. O confronto segue empatado em 0 a 0.",
+      "player": {
+        "name": "Pressão do Corinthians dita o ritmo na Arena"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 27,
+        "extra": null
+      },
+      "team": {
+        "id": 287,
+        "name": "Vitória"
+      },
+      "type": "Important",
+      "detail": "Vitória tenta cadenciar o jogo e ficar mais com a posse. Equipe de Jair Ventura volta a trocar passes no campo de defesa.",
+      "player": {
+        "name": "Vitória tenta cadenciar o jogo e ficar mais com "
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 28,
+        "extra": null
+      },
+      "team": {
+        "id": 264,
+        "name": "Corinthians"
+      },
+      "type": "Important",
+      "detail": "Mateus Silva recebe longo lançamento, mas cruza errado e a bola sai pela linha de fundo. É tiro de meta para o Corinthians.",
+      "player": {
+        "name": "Mateus Silva recebe longo lançamento, mas cruza "
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 29,
+        "extra": null
+      },
+      "team": {
+        "id": 264,
+        "name": "Corinthians"
+      },
+      "type": "Important",
+      "detail": "Vitinho divide com Tarzia e recupera a bola para o Corinthians na defesa. Na sequência, Bidon sofre falta no meio de campo.",
+      "player": {
+        "name": "Vitinho divide com Tarzia e recupera a bola para"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 30,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Com 30 minutos de jogo na Neo Química Arena, o Corinthians dita o ritmo e pressiona bastante. A equipe paulista já chegou com muito perigo em finalizações de Vitinho e Rodrigo Garro, que quase abriu o placar ao chutar de primeira rente à trave. O Vitória tenta se fechar na defesa e busca explorar os contra-ataques, mas o placar segue no zero a zero.",
+      "player": {
+        "name": "Domínio corintiano e placar zerado em Itaquera"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 30,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Livre, Vitinho cruza para a grande área, mas exagera na força e a bola sai pela linha de fundo. Yuri Alberto estava no meio da área para receber o passe.",
+      "player": {
+        "name": "Livre, Vitinho cruza para a grande área, mas exa"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 32,
+        "extra": null
+      },
+      "team": {
+        "id": 264,
+        "name": "Corinthians"
+      },
+      "type": "Important",
+      "detail": "André perde a bola, Renê puxa contra-ataque, invade a grande área e tenta o passe. A defesa do Corinthians antecipa a marcação e manda pela lateral.",
+      "player": {
+        "name": "Renê"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 33,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Após 33 minutos na Neo Química Arena, o placar segue 0 a 0, mas o Corinthians é quem dita o ritmo. O time da casa pressiona e já criou boas chances com Vitinho e Garro. A melhor oportunidade veio dos pés de Lingard, que tabelou com Yuri Alberto e parou em uma grande defesa de Lucas Arcanjo. O Vitória tenta se segurar na defesa e busca responder em contra-ataques velozes.",
+      "player": {
+        "name": "Pressão do Corinthians esbarra em Lucas Arcanjo"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 33,
+        "extra": null
+      },
+      "team": {
+        "id": 264,
+        "name": "Corinthians"
+      },
+      "type": "Important",
+      "detail": "Todos os jogadores de linha do Corinthians estão no campo de ataque.",
+      "player": {
+        "name": "Todos os jogadores de linha do Corinthians estão"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 34,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Vitinho fica com a sobra na grande área, tenta uma jogada individual, mas perde a bola.",
+      "player": {
+        "name": "Vitinho fica com a sobra na grande área, tenta u"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 36,
+        "extra": null
+      },
+      "team": {
+        "id": 264,
+        "name": "Corinthians"
+      },
+      "type": "Important",
+      "detail": "Vitinho recebe no lado esquerdo do campo de ataque, na lateral da grande área, e chuta cruzado. A bola passa perto da trave esquerda de Lucas Arcanjo.",
+      "player": {
+        "name": "Vitinho"
+      },
+      "assist": {
+        "name": "Mais uma chance"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 36,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Com 36 minutos de jogo, o Corinthians domina as ações e pressiona na Neo Química Arena. O time paulista quase abriu o placar em finalizações de Vitinho e Garro. A melhor chance, contudo, veio com Lingard, que tabelou com Yuri Alberto e parou em grande defesa de Lucas Arcanjo. O Vitória se segura na defesa e tenta surpreender nos contra-ataques que raramente encontram espaço.",
+      "player": {
+        "name": "Pressão do Timão e placar zerado em Itaquera"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 36,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Matheuzinho cruza para Vitinho, que não consegue cabecear. Na sequência, Angileri manda para a grande área e Luan Cândido afasta.",
+      "player": {
+        "name": "Matheuzinho cruza para Vitinho, que não consegue"
+      },
+      "assist": null
+    }
+  ],
   "lineups": [
     {
       "team": {
@@ -101,18 +812,18 @@
         },
         {
           "player": {
-            "id": "bidumat",
-            "name": "Matheus Bidu",
-            "number": 21,
+            "id": "angileri",
+            "name": "Angileri",
+            "number": 26,
             "pos": "Def",
             "grid": null
           }
         },
         {
           "player": {
-            "id": "allanrs",
-            "name": "Allan",
-            "number": null,
+            "id": "andre-luiz-santos-dias-0606",
+            "name": "André",
+            "number": 49,
             "pos": "Mei",
             "grid": null
           }
@@ -137,9 +848,9 @@
         },
         {
           "player": {
-            "id": "kaiocesar-lima",
-            "name": "Kaio César",
-            "number": 37,
+            "id": "lingard",
+            "name": "Lingard",
+            "number": 77,
             "pos": "Ata",
             "grid": null
           }
@@ -157,13 +868,122 @@
           "player": {
             "id": "vitinho9",
             "name": "Vitinho",
-            "number": null,
+            "number": 11,
             "pos": "Ata",
             "grid": null
           }
         }
       ],
-      "substitutes": []
+      "substitutes": [
+        {
+          "player": {
+            "id": "kauevinicius",
+            "name": "Kauê",
+            "number": 51,
+            "pos": "Gol",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "pedro-milans",
+            "name": "Milans",
+            "number": 20,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "joao-pedro",
+            "name": "João Pedro",
+            "number": 4,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "andreramalho",
+            "name": "André Ramalho",
+            "number": 5,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "bidumat",
+            "name": "Matheus Bidu",
+            "number": 21,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "allanrs",
+            "name": "Allan",
+            "number": 29,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "charlesrm",
+            "name": "Charles",
+            "number": 35,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "carrillo",
+            "name": "Carrillo",
+            "number": 19,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "pedroraul",
+            "name": "Pedro Raul",
+            "number": 18,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "kaiocesar-lima",
+            "name": "Kaio César",
+            "number": 37,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "gui-negao",
+            "name": "Gui Negão",
+            "number": 56,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "dieguinho-lopes",
+            "name": "Dieguinho",
+            "number": 61,
+            "pos": "Ata",
+            "grid": null
+          }
+        }
+      ]
     },
     {
       "team": {
@@ -198,7 +1018,7 @@
           "player": {
             "id": "emabritez",
             "name": "Brítez",
-            "number": null,
+            "number": 2,
             "pos": "Def",
             "grid": null
           }
@@ -276,9 +1096,271 @@
           }
         }
       ],
-      "substitutes": []
+      "substitutes": [
+        {
+          "player": {
+            "id": "yuri-sena",
+            "name": "Yuri Sena",
+            "number": 71,
+            "pos": "Gol",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "edenilsonsnf",
+            "name": "Edenílson",
+            "number": 26,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "walace-gremio",
+            "name": "Walace",
+            "number": 15,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "ruben-ismael",
+            "name": "Rúben Ismael",
+            "number": 16,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "ze-vitor-neves",
+            "name": "Zé Vitor",
+            "number": 88,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "pochettino",
+            "name": "Pochettino",
+            "number": 8,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "marinho2",
+            "name": "Marinho",
+            "number": 7,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "alexbruno-vitoriape",
+            "name": "Alex Bruno",
+            "number": 9,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "lucas-rodrigues",
+            "name": "Lucas Silva",
+            "number": 20,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "fabriciosds",
+            "name": "Fabri",
+            "number": 23,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "laquintana",
+            "name": "Laquintana",
+            "number": 77,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "renatokayzer",
+            "name": "Renato Kayzer",
+            "number": 79,
+            "pos": "Ata",
+            "grid": null
+          }
+        }
+      ]
     }
   ],
-  "statistics": [],
+  "statistics": [
+    {
+      "team": {
+        "id": 264,
+        "name": "Corinthians"
+      },
+      "statistics": [
+        {
+          "type": "Ball Possession",
+          "value": "59%"
+        },
+        {
+          "type": "Total Passes",
+          "value": 302
+        },
+        {
+          "type": "Pass Accuracy",
+          "value": "86%"
+        },
+        {
+          "type": "Incomplete Passes",
+          "value": 43
+        },
+        {
+          "type": "Total Shots",
+          "value": 9
+        },
+        {
+          "type": "Shots on Goal",
+          "value": 2
+        },
+        {
+          "type": "Shots off Goal",
+          "value": 4
+        },
+        {
+          "type": "Blocked Shots",
+          "value": 3
+        },
+        {
+          "type": "Hit Woodwork",
+          "value": 0
+        },
+        {
+          "type": "Corner Kicks",
+          "value": 1
+        },
+        {
+          "type": "Offsides",
+          "value": 0
+        },
+        {
+          "type": "Penalties",
+          "value": 0
+        },
+        {
+          "type": "Goalkeeper Saves",
+          "value": 1
+        },
+        {
+          "type": "Tackles",
+          "value": 12
+        },
+        {
+          "type": "Fouls",
+          "value": 5
+        },
+        {
+          "type": "Yellow Cards",
+          "value": 0
+        },
+        {
+          "type": "Red Cards",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "team": {
+        "id": 287,
+        "name": "Vitória"
+      },
+      "statistics": [
+        {
+          "type": "Ball Possession",
+          "value": "41%"
+        },
+        {
+          "type": "Total Passes",
+          "value": 169
+        },
+        {
+          "type": "Pass Accuracy",
+          "value": "78%"
+        },
+        {
+          "type": "Incomplete Passes",
+          "value": 38
+        },
+        {
+          "type": "Total Shots",
+          "value": 1
+        },
+        {
+          "type": "Shots on Goal",
+          "value": 1
+        },
+        {
+          "type": "Shots off Goal",
+          "value": 0
+        },
+        {
+          "type": "Blocked Shots",
+          "value": 0
+        },
+        {
+          "type": "Hit Woodwork",
+          "value": 0
+        },
+        {
+          "type": "Corner Kicks",
+          "value": 0
+        },
+        {
+          "type": "Offsides",
+          "value": 2
+        },
+        {
+          "type": "Penalties",
+          "value": 0
+        },
+        {
+          "type": "Goalkeeper Saves",
+          "value": 4
+        },
+        {
+          "type": "Tackles",
+          "value": 5
+        },
+        {
+          "type": "Fouls",
+          "value": 6
+        },
+        {
+          "type": "Yellow Cards",
+          "value": 0
+        },
+        {
+          "type": "Red Cards",
+          "value": 0
+        }
+      ]
+    }
+  ],
   "sportsFieldUrl": null
 }

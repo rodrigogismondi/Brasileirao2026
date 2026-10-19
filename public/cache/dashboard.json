@@ -15477,12 +15477,12 @@
           "city": ""
         },
         "status": {
-          "long": "NS",
-          "short": "NS",
-          "elapsed": null
+          "long": "1H",
+          "short": "1H",
+          "elapsed": 41
         },
-        "timerStart": null,
-        "timerStatus": "PAUSADO"
+        "timerStart": "2026-10-19T23:03:32.003Z",
+        "timerStatus": "INICIADO"
       },
       "league": {
         "round": "Regular Season - 31"
@@ -15500,8 +15500,8 @@
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
       "score": {
         "halftime": {
@@ -18987,14 +18987,14 @@
                 "name": "Vitória",
                 "logo": "https://s.sde.globo.com/media/organizations/2025/12/18/Vitoria_2025.svg"
               },
-              "points": 36,
+              "points": 37,
               "goalsDiff": -11,
-              "form": "WDLWL",
+              "form": "DLWLD",
               "description": null,
               "all": {
-                "played": 30,
+                "played": 31,
                 "win": 10,
-                "draw": 6,
+                "draw": 7,
                 "lose": 14,
                 "goals": {
                   "for": 33,
@@ -19053,14 +19053,14 @@
                 "name": "Corinthians",
                 "logo": "https://s.sde.globo.com/media/organizations/2024/10/09/Corinthians_2024_Q4ahot4.svg"
               },
-              "points": 32,
+              "points": 33,
               "goalsDiff": -7,
-              "form": "LLLLL",
+              "form": "LLLLD",
               "description": null,
               "all": {
-                "played": 30,
+                "played": 31,
                 "win": 8,
-                "draw": 8,
+                "draw": 9,
                 "lose": 14,
                 "goals": {
                   "for": 31,
@@ -20267,10 +20267,10 @@
   "budget": {
     "used": 0,
     "remaining": 100,
-    "mode": "prematch",
-    "liveIntervalMs": 120000
+    "mode": "live",
+    "liveIntervalMs": 20000
   },
-  "fetchedAt": "2026-10-19T20:10:48.782Z",
+  "fetchedAt": "2026-10-19T23:44:34.209Z",
   "source": "ge-globo",
   "meta": {
     "rodada": 31,
@@ -20315,8 +20315,8 @@
       37,
       38
     ],
-    "seasonSyncedAt": "2026-10-19T14:35:04.910Z",
-    "fullSeasonSync": false,
+    "seasonSyncedAt": "2026-10-19T23:44:28.852Z",
+    "fullSeasonSync": true,
     "edicao": "Campeonato Brasileiro 2026",
     "provider": "ge.globo.com",
     "scorersCount": 50,

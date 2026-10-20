@@ -16092,12 +16092,12 @@
           "city": ""
         },
         "status": {
-          "long": "1H",
-          "short": "1H",
-          "elapsed": 41
+          "long": "FT",
+          "short": "FT",
+          "elapsed": 90
         },
-        "timerStart": "2026-10-19T23:03:32.003Z",
-        "timerStatus": "INICIADO"
+        "timerStart": "2026-10-20T01:12:24.956Z",
+        "timerStatus": "PAUSADO"
       },
       "league": {
         "round": "Regular Season - 31"
@@ -16115,8 +16115,8 @@
         }
       },
       "goals": {
-        "home": 0,
-        "away": 0
+        "home": 1,
+        "away": 1
       },
       "score": {
         "halftime": {
@@ -16124,8 +16124,8 @@
           "away": null
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 1
         }
       },
       "odds": {
@@ -19686,8 +19686,8 @@
                 "draw": 7,
                 "lose": 14,
                 "goals": {
-                  "for": 33,
-                  "against": 44
+                  "for": 34,
+                  "against": 45
                 }
               }
             },
@@ -19752,8 +19752,8 @@
                 "draw": 9,
                 "lose": 14,
                 "goals": {
-                  "for": 31,
-                  "against": 38
+                  "for": 32,
+                  "against": 39
                 }
               }
             },
@@ -20030,6 +20030,28 @@
     {
       "player": {
         "id": 9,
+        "name": "Renê",
+        "photo": "https://s.sde.globo.com/media/person_role/2026/03/31/photo_140x140_3LaEnb6.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "name": "Vitória",
+            "logo": "https://s.sde.globo.com/media/organizations/2025/12/18/Vitoria-2025-65.png"
+          },
+          "goals": {
+            "total": 10,
+            "assists": null
+          },
+          "games": {
+            "appearences": 0
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 10,
         "name": "Flaco López",
         "photo": "https://s.sde.globo.com/media/person_role/2026/08/19/photo_140x140_nrOfcKo.png"
       },
@@ -20051,7 +20073,7 @@
     },
     {
       "player": {
-        "id": 10,
+        "id": 11,
         "name": "Luciano",
         "photo": "https://s.sde.globo.com/media/person_role/2026/03/27/photo_140x140_Gvi1KDn.png"
       },
@@ -20073,7 +20095,7 @@
     },
     {
       "player": {
-        "id": 11,
+        "id": 12,
         "name": "John Kennedy",
         "photo": "https://s.sde.globo.com/media/person_role/2026/07/06/photo_140x140_FY237AY.png"
       },
@@ -20095,7 +20117,7 @@
     },
     {
       "player": {
-        "id": 12,
+        "id": 13,
         "name": "Matheus Pereira",
         "photo": "https://s.sde.globo.com/media/person_role/2025/04/01/photo_140x140_paqfi1w.png"
       },
@@ -20117,7 +20139,7 @@
     },
     {
       "player": {
-        "id": 13,
+        "id": 14,
         "name": "Samuel Lino",
         "photo": "https://s.sde.globo.com/media/person_role/2025/07/30/photo_140x140.png"
       },
@@ -20126,28 +20148,6 @@
           "team": {
             "name": "Flamengo",
             "logo": "https://s.sde.globo.com/media/organizations/2018/04/09/Flamengo-65.png"
-          },
-          "goals": {
-            "total": 9,
-            "assists": null
-          },
-          "games": {
-            "appearences": 0
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 14,
-        "name": "Renê",
-        "photo": "https://s.sde.globo.com/media/person_role/2026/03/31/photo_140x140_3LaEnb6.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "name": "Vitória",
-            "logo": "https://s.sde.globo.com/media/organizations/2025/12/18/Vitoria-2025-65.png"
           },
           "goals": {
             "total": 9,
@@ -20956,10 +20956,10 @@
   "budget": {
     "used": 0,
     "remaining": 100,
-    "mode": "live",
-    "liveIntervalMs": 20000
+    "mode": "idle",
+    "liveIntervalMs": 900000
   },
-  "fetchedAt": "2026-10-19T23:44:34.209Z",
+  "fetchedAt": "2026-10-20T02:09:36.780Z",
   "source": "ge-globo",
   "meta": {
     "rodada": 31,
@@ -21005,17 +21005,18 @@
       38
     ],
     "seasonSyncedAt": "2026-10-19T23:44:28.852Z",
-    "fullSeasonSync": true,
+    "fullSeasonSync": false,
     "edicao": "Campeonato Brasileiro 2026",
     "provider": "ge.globo.com",
     "scorersCount": 50,
     "oddsMatched": 0,
     "oddsPreserved": 318,
     "oddsAvailable": 0,
-    "fixturesCount": 380,
     "tvMatched": 119,
+    "tvPreserved": 0,
     "tvAvailable": 166,
     "tvSource": "Onde Assistir — https://ondeassistir.com.br/dados",
-    "tvUpdatedAt": "2026-10-19T23:31:23.298195Z"
+    "tvUpdatedAt": "2026-10-20T01:32:24.341083Z",
+    "fixturesCount": 380
   }
 }

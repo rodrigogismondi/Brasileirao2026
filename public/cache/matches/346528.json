@@ -7,12 +7,12 @@
       "city": ""
     },
     "status": {
-      "long": "1H",
-      "short": "1H",
-      "elapsed": 41
+      "long": "FT",
+      "short": "FT",
+      "elapsed": 90
     },
-    "timerStart": "2026-10-19T23:03:32.003Z",
-    "timerStatus": "INICIADO"
+    "timerStart": "2026-10-20T01:12:24.956Z",
+    "timerStatus": "PAUSADO"
   },
   "league": {
     "round": "Regular Season - 31"
@@ -30,8 +30,8 @@
     }
   },
   "goals": {
-    "home": 0,
-    "away": 0
+    "home": 1,
+    "away": 1
   },
   "score": {
     "halftime": {
@@ -39,8 +39,8 @@
       "away": null
     },
     "fulltime": {
-      "home": null,
-      "away": null
+      "home": 1,
+      "away": 1
     }
   },
   "odds": {
@@ -49,8 +49,114 @@
     "away": 5.19,
     "source": "betexplorer"
   },
+  "tv": [
+    "SporTV",
+    "Premiere"
+  ],
   "_geUrl": "https://ge.globo.com/sp/futebol/brasileirao-serie-a/jogo/19-10-2026/corinthians-vitoria.ghtml",
   "events": [
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 287,
+        "name": "Vitória"
+      },
+      "type": "Important",
+      "detail": "- A gente sabe que jogar aqui é difícil pela questão do campo, que é mais rápido, e da torcida também. A gente sabe da nossa força, confiamos no trabalho. Vamos levar um ponto para o Barradão, temos um jogo muito importante.",
+      "player": {
+        "name": "Lucas Arcanjo"
+      },
+      "assist": {
+        "name": "Fala, Lucas Arcanjo"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 287,
+        "name": "Vitória"
+      },
+      "type": "Important",
+      "detail": "- Tivemos um bom primeiro tempo, com grandes oportunidades. Em uma única que eles tiveram acabamos tomando. Nosso objetivo era sair com a vitória, mas não deu certo. Batalhamos até o último minuto. A postura do time é outra, vamos evoluir muito com o professor que não pode estar aqui hoje. Vamos sair dessa juntos, Fiel. Feliz pelo gol, voltar a marcar na Arena. Estou jogando com estômago preso, não sei como. Mas Deus é maravilhoso e pude marcar um gol.",
+      "player": {
+        "name": "Yuri Alberto"
+      },
+      "assist": {
+        "name": "Fala, Yuri"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 264,
+        "name": "Corinthians"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Garro"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "As equipes de Corinthians e Vitória já estão no gramado da Neo Química Arena. O segundo tempo começa em instantes.",
+      "player": {
+        "name": "As equipes de Corinthians e Vitória já estão no "
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Corinthians teve mais posse de bola e foi melhor em boa parte do primeiro tempo. Apesar do volume ofensivo, porém, pecou na eficiência e não conseguiu aproveitar as chances criadas. Já nos acréscimos, o Vitória chegou ao ataque em uma das poucas oportunidades e abriu o placar com Renê.",
+      "player": {
+        "name": "Resumo do primeiro tempo"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 287,
+        "name": "Vitória"
+      },
+      "type": "Important",
+      "detail": "- Feliz com mais um gol. Fruto de muito trabalho, agora vamos para o vestiário ver o que o professor tem para falar. Vamos buscar nossa primeira vitória fora de casa.",
+      "player": {
+        "name": "Renê"
+      },
+      "assist": {
+        "name": "Fala, Renê"
+      }
+    },
     {
       "time": {
         "elapsed": 0,
@@ -306,6 +412,22 @@
       "detail": "Rodrigo Garro aciona Yuri Alberto no campo de ataque. O camisa 9 invade á area, divide com Brítez e fica caído no chão. O jogador do Corinthians pede pênalti, mas o árbitro manda o jogo seguir.",
       "player": {
         "name": "Rodrigo Garro aciona Yuri Alberto no campo de at"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 11,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Corinthians 1 x 1 Vitória | Melhores momentos | 31ª rodada | Brasileirão 2026",
+      "player": {
+        "name": "Corinthians 1 x 1 Vitória | Melhores momentos | 31ª rodada | Brasileirão 2026"
       },
       "assist": null
     },
@@ -758,6 +880,1552 @@
       "detail": "Matheuzinho cruza para Vitinho, que não consegue cabecear. Na sequência, Angileri manda para a grande área e Luan Cândido afasta.",
       "player": {
         "name": "Matheuzinho cruza para Vitinho, que não consegue"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 40,
+        "extra": null
+      },
+      "team": {
+        "id": 264,
+        "name": "Corinthians"
+      },
+      "type": "Important",
+      "detail": "Matheuzinho recupera a posse, invade a área e toca para Yuri Alberto. O camisa 9 bate cruzado, mas a bola sai passa pela área e sai do outro lado, pela lateral.",
+      "player": {
+        "name": "Yuri Alberto"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 40,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Após 40 minutos de jogo na Neo Química Arena, o Corinthians dita o ritmo e pressiona no ataque. O time paulista criou ótimas chances com Garro, que quase marcou em finalização de primeira, e com Vitinho, que mandou um chute cruzado muito perto da trave. O Vitória tenta se defender e buscar os contra-ataques, mantendo o placar zerado em um primeiro tempo bastante movimentado.",
+      "player": {
+        "name": "Corinthians pressiona mas Vitória segura o empate"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 40,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Garro tenta cruzamento na direção de Yuri Alberto, mas Lucas Arcanjo fica com a bola.",
+      "player": {
+        "name": "Garro tenta cruzamento na direção de Yuri Albert"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 42,
+        "extra": null
+      },
+      "team": {
+        "id": 287,
+        "name": "Vitória"
+      },
+      "type": "Important",
+      "detail": "Vitinho se enrola e não consegue dominar o passe. É lateral para o Vitória no campo de defesa.",
+      "player": {
+        "name": "Saiu com bola e tudo"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 43,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Vamos até os 47 minutos do primeiro tempo.",
+      "player": {
+        "name": "+2"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 43,
+        "extra": null
+      },
+      "team": {
+        "id": 287,
+        "name": "Vitória"
+      },
+      "type": "Important",
+      "detail": "Marcado pelo Caíque, Lingard faz a finta e cruza para a área. A defesa do Vitória afasta sem dificuldades.",
+      "player": {
+        "name": "Marcado pelo Caíque, Lingard faz a finta e cruza"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 43,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Após 43 minutos de muita intensidade, o Corinthians domina as ações na Neo Química Arena, mas peca na pontaria. Comandado por Rodrigo Garro e Vitinho, o time paulista empurra o Vitória para o campo de defesa e já teve ótimas chances de abrir o placar, mas a bola teima em não entrar. Do outro lado, os visitantes se fecham e tentam assustar em raros contragolpes. O placar segue 0 a 0.",
+      "player": {
+        "name": "Pressão do Corinthians e placar zerado na Arena"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 43,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Garro faz boa jogada individual, deixa a marcação para trás, invade a grande área e toca para Yuri Alberto. O camisa 9 não consegue finalizar.",
+      "player": {
+        "name": "Garro faz boa jogada individual, deixa a marcaçã"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 44,
+        "extra": null
+      },
+      "team": {
+        "id": 264,
+        "name": "Corinthians"
+      },
+      "type": "Important",
+      "detail": "Luan Cândido finaliza de muito longe e exige grande defesa de Hugo Souza. O goleiro do Corinthians consegue fazer a defesa com a perna.",
+      "player": {
+        "name": "Luan Cândido"
+      },
+      "assist": {
+        "name": "QUASE"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 45,
+        "extra": null
+      },
+      "team": {
+        "id": 264,
+        "name": "Corinthians"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Matheus Bidu"
+      },
+      "assist": {
+        "name": "Lingard"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 45,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Começa o segundo tempo em Itaquera.",
+      "player": {
+        "name": "Apita o árbitro"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 45,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Corinthians pressionou a maior parte do primeiro tempo na Neo Química Arena, criando chances perigosas com Garro e Vitinho. No entanto, o Vitória soube se defender e castigou nos acréscimos. Aos 45 minutos, após grande defesa de Hugo Souza em cabeceio de Luan Cândido, Renê aproveitou o rebote para empurrar para as redes e abrir o placar de 1 a 0 para os visitantes.",
+      "player": {
+        "name": "Vitória marca no fim e sai na frente em Itaquera"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 45,
+        "extra": null
+      },
+      "team": {
+        "id": 287,
+        "name": "Vitória"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "player": {
+        "name": "Renê"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 47,
+        "extra": null
+      },
+      "team": {
+        "id": 264,
+        "name": "Corinthians"
+      },
+      "type": "Important",
+      "detail": "Mateus Silva divide com Lingard e manda pela linha de fundo. É escanteio para o Corinthians.",
+      "player": {
+        "name": "Mateus Silva divide com Lingard e manda pela lin"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 47,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Assim como no primeiro tempo, Corinthians fica com a bola no campo de ataque e tenta encontrar espaços na defesa do Vitória.",
+      "player": {
+        "name": "Assim como no primeiro tempo, Corinthians fica c"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 47,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Garro recebe a bola no contra-ataque, mas erra o passe para Yuri Alberto na grande área.",
+      "player": {
+        "name": "Garro recebe a bola no contra-ataque, mas erra o"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 47,
+        "extra": null
+      },
+      "team": {
+        "id": 264,
+        "name": "Corinthians"
+      },
+      "type": "Important",
+      "detail": "Angileri tenta o cruzamento, mas a bola desvia. Na sequência, Lingard pega de primeira e manda para fora.",
+      "player": {
+        "name": "Lingard"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 48,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Mateus Silva puxa camisa de Lingard e comete a falta.",
+      "player": {
+        "name": "Mateus Silva puxa camisa de Lingard e comete a f"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 48,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Corinthians dominou as ações e criou boas chances com Garro e Vitinho, mas pecou na pontaria. O castigo veio nos acréscimos da etapa inicial: após milagre de Hugo Souza no cabeceio de Luan Cândido, Renê aproveitou o rebote e fez 1 a 0 para o Vitória. Com 3 minutos do segundo tempo, o Timão tenta se impor no ataque para buscar o empate, enquanto os visitantes se fecham bem.",
+      "player": {
+        "name": "Vitoria abre o placar e Corinthians corre atras"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 48,
+        "extra": null
+      },
+      "team": {
+        "id": 287,
+        "name": "Vitória"
+      },
+      "type": "Important",
+      "detail": "Garro cobra escanteio, mas nenhum corintiano alcança. Na sequência, a bola sai pela linha de fundo. É tiro de meta para o Vitória.",
+      "player": {
+        "name": "Garro cobra escanteio, mas nenhum corintiano alc"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 48,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Corinthians tomou a iniciativa no primeiro tempo, criando chances com Garro, Vitinho e Lingard, mas pecou na pontaria. O Vitória se defendeu bem e foi cirúrgico nos acréscimos. Aos 45 minutos, Luan Cândido cabeceou, Hugo Souza espalmou e Renê pegou o rebote para abrir o placar, deixando o Vitória em vantagem por 1 a 0 antes do intervalo da partida na Neo Química Arena.",
+      "player": {
+        "name": "Vitória surpreende e sai na frente em Itaquera"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 48,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Fim de primeiro tempo na Neo Química Arena.",
+      "player": {
+        "name": "Apita o árbitro"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 49,
+        "extra": null
+      },
+      "team": {
+        "id": 287,
+        "name": "Vitória"
+      },
+      "type": "Important",
+      "detail": "Vitinho cobra escanteio para dentro da área, mas a defesa do Vitória afasta.",
+      "player": {
+        "name": "Vitinho cobra escanteio para dentro da área, mas"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 49,
+        "extra": null
+      },
+      "team": {
+        "id": 264,
+        "name": "Corinthians"
+      },
+      "type": "Important",
+      "detail": "Lingard arrisca de fora da área e consegue um escanteio para o Corinthians.",
+      "player": {
+        "name": "Lingard"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 50,
+        "extra": null
+      },
+      "team": {
+        "id": 287,
+        "name": "Vitória"
+      },
+      "type": "Important",
+      "detail": "Yuri Alberto faz falta em Jamerson. É bola para o Vitória no campo de defesa.",
+      "player": {
+        "name": "Yuri Alberto faz falta em Jamerson. É bola para "
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 51,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Corinthians dominou as ações e martelou bastante no primeiro tempo com Garro e Vitinho, mas pecou na pontaria. O castigo veio nos acréscimos da etapa inicial: Renê aproveitou rebote de Hugo Souza e abriu o placar para o Vitória. Agora, aos 6 minutos do segundo tempo, o time paulista tenta pressionar de todas as formas para furar o forte bloqueio defensivo dos visitantes.",
+      "player": {
+        "name": "Vitória resiste à pressão e lidera em Itaquera"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 51,
+        "extra": null
+      },
+      "team": {
+        "id": 287,
+        "name": "Vitória"
+      },
+      "type": "Important",
+      "detail": "Renê fica caído no chão depois de uma dividida com Gabriel Paulista.",
+      "player": {
+        "name": "Renê"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 52,
+        "extra": null
+      },
+      "team": {
+        "id": 287,
+        "name": "Vitória"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Renê"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 52,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Tudo certo com Renê! O atacante já está recuperado e pronto para seguir o jogo.",
+      "player": {
+        "name": "Tudo certo com Renê! O atacante já está recupera"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 53,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Lingard toca para Yuri Alberto, que é derrubado por Mateus Silva. O árbitro manda o jogo seguir.",
+      "player": {
+        "name": "Lingard toca para Yuri Alberto, que é derrubado "
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 54,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Corinthians pressionou bastante na primeira etapa, mas foi o Vitória quem abriu o placar. Aos 45 minutos, Renê pegou rebote de grande defesa de Hugo Souza e mandou para as redes, decretando o 1 a 0. Agora, aos 9 minutos do segundo tempo, o duelo segue truncado, com os mandantes tentando furar o bloqueio baiano e a marcação ficando cada vez mais forte e física em Itaquera.",
+      "player": {
+        "name": "Vitória surpreende e segura vantagem em Itaquera"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 54,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Juiz para o jogo e pede para Gabriel Paulista trocar a camisa rasgada.",
+      "player": {
+        "name": "Juiz para o jogo e pede para Gabriel Paulista tr"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 55,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Angileri toca para Lingard, que se atrapalha e perde a bola. Na sequência, o meia inglês comete a falta.",
+      "player": {
+        "name": "Angileri toca para Lingard, que se atrapalha e p"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 56,
+        "extra": null
+      },
+      "team": {
+        "id": 264,
+        "name": "Corinthians"
+      },
+      "type": "Important",
+      "detail": "Corinthians troca passes na região central do campo.",
+      "player": {
+        "name": "Corinthians troca passes na região central do ca"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 57,
+        "extra": null
+      },
+      "team": {
+        "id": 264,
+        "name": "Corinthians"
+      },
+      "type": "Important",
+      "detail": "Vitinho surpreende e cobra falta direto. Lucas Arcanjo, bem posicionado, faz a defesa e espalma o perigo.",
+      "player": {
+        "name": "Vitinho"
+      },
+      "assist": {
+        "name": "BOA CHANCE"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 57,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Com doze minutos do segundo tempo, o Vitória vai vencendo o Corinthians por um a zero fora de casa. O único gol do duelo foi marcado nos acréscimos da primeira etapa por Renê, que aproveitou um rebote do goleiro Hugo Souza. O time paulista pressionou bastante com chances criadas por Garro e Vitinho, mas pecou na pontaria e agora busca o empate na base da bola parada.",
+      "player": {
+        "name": "Vitória surpreende e segura pressão em Itaquera"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 57,
+        "extra": null
+      },
+      "team": {
+        "id": 264,
+        "name": "Corinthians"
+      },
+      "type": "Important",
+      "detail": "Angileri vai até a linha de fundo e cruza para a grande área. Erick desvia com o braço e o juiz assinala a falta. É uma boa oportunidade para o Corinthians mandar a bola para a área.",
+      "player": {
+        "name": "Angileri vai até a linha de fundo e cruza para a"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 58,
+        "extra": null
+      },
+      "team": {
+        "id": 264,
+        "name": "Corinthians"
+      },
+      "type": "Important",
+      "detail": "André avança pelo lado direito do ataque e cruza para Lingard. O camisa 77 do Corinthians finaliza de voleio para uma nova defesa de Lucas Arcanjo.",
+      "player": {
+        "name": "Lingard"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 61,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Vitória vai surpreendendo em Itaquera. Após um primeiro tempo de pressão do Corinthians, que desperdiçou chances com Garro e Vitinho, os visitantes abriram o placar aos 45 minutos com Renê, após rebote. Com 16 minutos da etapa final, o Corinthians segue em cima buscando o empate, mas esbarra nas defesas de Lucas Arcanjo e na forte marcação adversária.",
+      "player": {
+        "name": "Vitória vai batendo o Corinthians em Itaquera"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 61,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Yellow Card by André",
+      "player": {
+        "name": "Yellow Card by André"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 61,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Yellow Card by André",
+      "player": {
+        "name": "Yellow Card by André"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 63,
+        "extra": null
+      },
+      "team": {
+        "id": 264,
+        "name": "Corinthians"
+      },
+      "type": "Important",
+      "detail": "Depois de consultar o VAR, o árbitro assinala a falta em André dentro da área e a penalidade para o Corinthians.",
+      "player": {
+        "name": "É PÊNALTI"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 64,
+        "extra": null
+      },
+      "team": {
+        "id": 264,
+        "name": "Corinthians"
+      },
+      "type": "Important",
+      "detail": "Yuri Alberto pega a bola e vai para a cobrança.",
+      "player": {
+        "name": "Yuri Alberto"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 64,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Vitória abriu o placar no fim do primeiro tempo com Renê, que aproveitou rebote de Hugo Souza. O Corinthians dominou as ações na maior parte do jogo, mas pecou na pontaria em Itaquera. Agora, aos 19 minutos da segunda etapa, o confronto ganha enorme emoção: após consulta ao VAR, o árbitro anulou o amarelo de André por simulação e assinalou pênalti a favor do time paulista.",
+      "player": {
+        "name": "Vitória lidera e Corinthians tem pênalti após VAR"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 64,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Cartão amarelo retirado para o volante André.",
+      "player": {
+        "name": "Cartão amarelo retirado para o volante André."
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 65,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Vitória saiu na frente no fim do primeiro tempo com Renê, que aproveitou o rebote do goleiro para marcar. Mas o Timão não se entregou. Após forte pressão e checagem do VAR, a arbitragem marcou pênalti sobre André. Aos 20 minutos da etapa final, Yuri Alberto bateu rasteiro e igualou o placar em 1 a 1. O duelo segue muito disputado e com as duas equipes buscando a vitória.",
+      "player": {
+        "name": "Yuri Alberto empata e incendeia o segundo tempo"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 65,
+        "extra": null
+      },
+      "team": {
+        "id": 264,
+        "name": "Corinthians"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "player": {
+        "name": "Yuri Alberto"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 67,
+        "extra": null
+      },
+      "team": {
+        "id": 264,
+        "name": "Corinthians"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Kaio César"
+      },
+      "assist": {
+        "name": "Vitinho"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 68,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Em uma partida intensa, o Vitória abriu o placar no fim do primeiro tempo com Renê, aproveitando rebote do goleiro. O Corinthians correu atrás do prejuízo e, aos 20 minutos da etapa complementar, Yuri Alberto empatou cobrando pênalti marcado com auxílio do VAR. Agora, aos 23 minutos do segundo tempo, o confronto segue totalmente aberto e disputado na Neo Química Arena.",
+      "player": {
+        "name": "Jogo quente e tudo igualado em Itaquera"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 68,
+        "extra": null
+      },
+      "team": {
+        "id": 287,
+        "name": "Vitória"
+      },
+      "type": "Important",
+      "detail": "Rodrigo Garro cobra escanteio, mas o árbitro marca falta na grande área sobre o defensor do Vitória.",
+      "player": {
+        "name": "Rodrigo Garro cobra escanteio, mas o árbitro mar"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 69,
+        "extra": null
+      },
+      "team": {
+        "id": 264,
+        "name": "Corinthians"
+      },
+      "type": "Important",
+      "detail": "Garro toca para Yuri Alberto, que avança no campo de ataque e invade a grande área para finalizar por cima do gol de Lucas Arcanjo.",
+      "player": {
+        "name": "Yuri Alberto"
+      },
+      "assist": {
+        "name": "QUASE A VIRADA"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 71,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Após um primeiro tempo de muita pressão do Corinthians, quem abriu o placar foi o Vitória, com Renê aproveitando rebote nos acréscimos. Na etapa final, a insistência dos donos da casa deu resultado. Aos 20 minutos, após intervenção do VAR, Yuri Alberto bateu pênalti com categoria para deixar tudo igual. Com 26 minutos jogados, o duelo segue aberto e com chances para os dois lados.",
+      "player": {
+        "name": "Empate quente agita a Neo Química Arena"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 71,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Tarzia comete falta em Matheuzinho no meio de campo.",
+      "player": {
+        "name": "Tarzia comete falta em Matheuzinho no meio de ca"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 72,
+        "extra": null
+      },
+      "team": {
+        "id": 287,
+        "name": "Vitória"
+      },
+      "type": "Important",
+      "detail": "Kaio César tenta o drible perto da linha lateral, mas a bola pega na sua própria mão. É falta para o Vitória no campo de defesa.",
+      "player": {
+        "name": "Kaio César tenta o drible perto da linha lateral"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 75,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Yuri Alberto de volta ao gramado.",
+      "player": {
+        "name": "Yuri Alberto de volta ao gramado."
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 75,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Após sair atrás no placar com gol de Renê para o Vitória no fim da etapa inicial, o Corinthians buscou a igualdade. Aos 20 minutos do segundo tempo, Yuri Alberto cobrou pênalti com categoria e definiu o 1 a 1. Passados 30 minutos da etapa final, o confronto segue bastante físico e disputado, com as duas equipes lutando para desempatar o duelo na Neo Química Arena.",
+      "player": {
+        "name": "Tudo igual em duelo movimentado em Itaquera"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 75,
+        "extra": null
+      },
+      "team": {
+        "id": 264,
+        "name": "Corinthians"
+      },
+      "type": "Important",
+      "detail": "Yuri Alberto recebe atendimento médico fora de campo depois de uma dividida no campo de ataque. O camisa 9 do Corinthians está com dores na região da costela.",
+      "player": {
+        "name": "Yuri Alberto recebe atendimento médico fora de c"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 76,
+        "extra": null
+      },
+      "team": {
+        "id": 287,
+        "name": "Vitória"
+      },
+      "type": "Important",
+      "detail": "Yuri Alberto tabela com Rodrigo Garro, que fica caído no chão depois de uma dividida. A bola sobra para Kaio César, mas o atacante não consegue passar da marcação do Vitória.",
+      "player": {
+        "name": "Yuri Alberto tabela com Rodrigo Garro, que fica "
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 77,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Kaio César recebe no lado direito do campo, corta para dentro e cruza para a grande área. Lucas Arcanjo faz a defesa sem dificuldadades.",
+      "player": {
+        "name": "Kaio César recebe no lado direito do campo, cort"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 78,
+        "extra": null
+      },
+      "team": {
+        "id": 264,
+        "name": "Corinthians"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Charles"
+      },
+      "assist": {
+        "name": "André"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 78,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Vitória abriu o placar no fim da primeira etapa com Renê, aproveitando rebote do goleiro. Mas o Corinthians buscou a reação no segundo tempo. Após consulta ao VAR, o árbitro marcou pênalti em André, e Yuri Alberto converteu com categoria aos 20 minutos. Agora, aos 33 da etapa final, o jogo segue em ritmo intenso com as duas equipes buscando o desempate.",
+      "player": {
+        "name": "Jogo quente e tudo igual em Itaquera"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 78,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Jamerson recebe dentro da área e finaliza sem força para a tranquila defesa de Hugo Souza.",
+      "player": {
+        "name": "Jamerson recebe dentro da área e finaliza sem fo"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 79,
+        "extra": null
+      },
+      "team": {
+        "id": 287,
+        "name": "Vitória"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Lucas Silva"
+      },
+      "assist": {
+        "name": "Tarzia"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 79,
+        "extra": null
+      },
+      "team": {
+        "id": 287,
+        "name": "Vitória"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Zé Vitor"
+      },
+      "assist": {
+        "name": "Matheuzinho"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 80,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Angileri cruza para a grande área e Jamerson afasta para escanteio.",
+      "player": {
+        "name": "Angileri cruza para a grande área e Jamerson afa"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 81,
+        "extra": null
+      },
+      "team": {
+        "id": 287,
+        "name": "Vitória"
+      },
+      "type": "Important",
+      "detail": "Garro cobra novo escanteio e a defesa do Vitória afasta.",
+      "player": {
+        "name": "Garro cobra novo escanteio e a defesa do Vitória"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 81,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Vitória largou na frente com gol de Renê no fim do primeiro tempo. Na etapa final, o Corinthians correu atrás e empatou com Yuri Alberto, cobrando pênalti aos 20 minutos após revisão do VAR. Passados 36 minutos do segundo tempo, o duelo segue muito equilibrado e tenso em Itaquera, com os dois times buscando o gol de desempate na base da pressão.",
+      "player": {
+        "name": "Empate e muita emoção na Neo Química Arena"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 81,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Garro cobra escanteio e Brítez desvia novamente para escanteio.",
+      "player": {
+        "name": "Garro cobra escanteio e Brítez desvia novamente "
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 82,
+        "extra": null
+      },
+      "team": {
+        "id": 287,
+        "name": "Vitória"
+      },
+      "type": "Important",
+      "detail": "Matheuzinho tenta o drible, mas a bola sai pela linha de fundo. É tiro de meta para o Vitória.",
+      "player": {
+        "name": "Matheuzinho tenta o drible, mas a bola sai pela "
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 84,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Após um primeiro tempo de pressão corintiana, o Vitória abriu o placar nos acréscimos com Renê, aproveitando rebote. Na segunda etapa, o panorama seguiu intenso e, perto dos 40 minutos da etapa final, o placar aponta 1 a 1. O gol de empate do Corinthians veio aos 20 minutos, em pênalti de Yuri Alberto após revisão do VAR. O confronto segue aberto em Itaquera.",
+      "player": {
+        "name": "Empate disputado na Neo Química Arena"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 84,
+        "extra": null
+      },
+      "team": {
+        "id": 287,
+        "name": "Vitória"
+      },
+      "type": "Important",
+      "detail": "Matheus Bidu vira o jogo para o lado direito, mas Matheuzinho não consegue dominar a bola e entrega um lateral de presente para o Vitória.",
+      "player": {
+        "name": "Matheus Bidu vira o jogo para o lado direito, ma"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 85,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Todos os jogadores de linha do Corinthians estão no campo de ataque. O Vitória se fecha na defesa.",
+      "player": {
+        "name": "Pressão"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 85,
+        "extra": null
+      },
+      "team": {
+        "id": 287,
+        "name": "Vitória"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Fabri"
+      },
+      "assist": {
+        "name": "Renê"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 87,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Após o Vitória abrir o placar aos 45 minutos do primeiro tempo com Renê, aproveitando rebote na área, o Corinthians buscou o empate na etapa final. Aos 20 minutos do segundo tempo, Yuri Alberto converteu pênalti assinalado com auxílio do VAR para deixar tudo igual em 1 a 1. Agora, passando dos 42 minutos, o Timão pressiona no ataque em busca da virada sob forte tensão.",
+      "player": {
+        "name": "Empate quente e pressão no fim em Itaquera"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 87,
+        "extra": null
+      },
+      "team": {
+        "id": 264,
+        "name": "Corinthians"
+      },
+      "type": "Important",
+      "detail": "Lucas Silva recebe e avança pelo lado esquerdo do ataque. Na sequência, Fabri fica com a bola, mas não tem sucesso na finalização de fora da área. A defesa do Corinthians recupera a posse.",
+      "player": {
+        "name": "Lucas Silva recebe e avança pelo lado esquerdo d"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 89,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Jogadores do Corintians pedem pênalti.",
+      "player": {
+        "name": "Jogadores do Corintians pedem pênalti."
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 89,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Garro dá um belo passe para Matheus Bidu, que cruza para a grande área. A bola bate no braço de Brítez e sai pela linha de fundo.",
+      "player": {
+        "name": "Garro dá um belo passe para Matheus Bidu, que cr"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 90,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Vitória saiu na frente com Renê aos 45 do primeiro tempo, aproveitando o rebote. Na etapa final, o Corinthians reagiu e empatou o duelo em 1 a 1 com Yuri Alberto, batendo pênalti aos 20 minutos. Agora, aos 45 minutos do segundo tempo, o confronto ganha contornos dramáticos com o árbitro indo novamente ao VAR para analisar mais um possível pênalti para a equipe paulista.",
+      "player": {
+        "name": "Tensão total e decisão no VAR em Itaquera"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 91,
+        "extra": null
+      },
+      "team": {
+        "id": 287,
+        "name": "Vitória"
+      },
+      "type": "Important",
+      "detail": "O árbitro marca impedimento de Matheus Bidu no lance e o jogo será reiniciado com posse do Vitória.",
+      "player": {
+        "name": "O árbitro marca impedimento de Matheus Bidu no l"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 92,
+        "extra": null
+      },
+      "team": {
+        "id": 264,
+        "name": "Corinthians"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Gui Negão"
+      },
+      "assist": {
+        "name": "Yuri Alberto"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 92,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Vamos até os 53 minutos do segundo tempo.",
+      "player": {
+        "name": "+8"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 93,
+        "extra": null
+      },
+      "team": {
+        "id": 287,
+        "name": "Vitória"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Laquintana"
+      },
+      "assist": {
+        "name": "Erick"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 93,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Já nos acréscimos do segundo tempo, Corinthians e Vitória vão empatando por 1 a 1 em Itaquera. O time baiano abriu o placar aos 45 minutos da etapa inicial com Renê, aproveitando rebote do goleiro. O empate alvinegro veio aos 20 minutos da fase final, quando Yuri Alberto converteu uma penalidade máxima assinalada pelo VAR. O duelo segue dramático e tenso na reta final.",
+      "player": {
+        "name": "Tudo igual e muita tensão nos acréscimos"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 93,
+        "extra": null
+      },
+      "team": {
+        "id": 287,
+        "name": "Vitória"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Walace"
+      },
+      "assist": {
+        "name": "Caíque"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 94,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Angileri domina e finaliza cruzado de fora da área. A bola sai por cima da meta de Lucas Arcanjo.",
+      "player": {
+        "name": "Angileri domina e finaliza cruzado de fora da ár"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 97,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Após um primeiro tempo de pressão do Corinthians, foi o Vitória quem abriu o placar aos 45 minutos com Renê, aproveitando rebote de grande defesa de Hugo Souza. Na etapa final, a insistência dos donos da casa deu resultado: aos 20 minutos, Yuri Alberto empatou de pênalti após revisão do VAR. Já passamos dos 52 minutos do segundo tempo e o placar segue em 1 a 1 sob muita tensão.",
+      "player": {
+        "name": "Tudo igual após gol de pênalti em Itaquera"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 97,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Bidu é empurrado no meio de campo, mas o árbitro dá a vantagem.",
+      "player": {
+        "name": "Bidu é empurrado no meio de campo, mas o árbitro"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 98,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Angileri, na sobra, cruza direto para a linha de fundo.",
+      "player": {
+        "name": "Angileri, na sobra, cruza direto para a linha de"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 98,
+        "extra": null
+      },
+      "team": {
+        "id": 287,
+        "name": "Vitória"
+      },
+      "type": "Important",
+      "detail": "Matheuzinho cobra escanteio e a defesa do Vitória afasta.",
+      "player": {
+        "name": "Matheuzinho cobra escanteio e a defesa do Vitóri"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 98,
+        "extra": null
+      },
+      "team": {
+        "id": 264,
+        "name": "Corinthians"
+      },
+      "type": "Important",
+      "detail": "Garro cruza para a área, Jamerson não consegue dominar e a bola sai pela linha de fundo. É escanteio para o Corinthians.",
+      "player": {
+        "name": "Garro cruza para a área, Jamerson não consegue d"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 100,
+        "extra": null
+      },
+      "team": {
+        "id": 264,
+        "name": "Corinthians"
+      },
+      "type": "Important",
+      "detail": "Gui Negão recebe dentro da área, a bola sobra com Rodrigo Garro e o argentino exige grande defesa de Lucas Arcanjo.",
+      "player": {
+        "name": "Garro"
+      },
+      "assist": {
+        "name": "MUITO PERTO"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 100,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Vitória abriu o placar no fim do primeiro tempo com Renê, após rebote de Hugo Souza. O Corinthians correu atrás e, aos 20 minutos da etapa final, Yuri Alberto empatou em cobrança de pênalti marcada com auxílio do VAR. Passados 55 minutos do segundo tempo, o time da casa pressiona no campo de ataque em busca da virada, enquanto os visitantes se seguram na defesa.",
+      "player": {
+        "name": "Placar igualado em duelo tenso em Itaquera"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 100,
+        "extra": null
+      },
+      "team": {
+        "id": 264,
+        "name": "Corinthians"
+      },
+      "type": "Important",
+      "detail": "Corinthians segue no campo de ataque e busca um último ataque antes do fim do jogo.",
+      "player": {
+        "name": "Corinthians segue no campo de ataque e busca um "
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 101,
+        "extra": null
+      },
+      "team": {
+        "id": 264,
+        "name": "Corinthians"
+      },
+      "type": "Important",
+      "detail": "É escanteio para o Corinthians.",
+      "player": {
+        "name": "É escanteio para o Corinthians."
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 102,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Fim de jogo na Neo Química Arena! Corinthians e Vitória ficam no empate por 1 a 1.",
+      "player": {
+        "name": "Apita o árbitro"
       },
       "assist": null
     }
@@ -1217,35 +2885,35 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "59%"
+          "value": "61%"
         },
         {
           "type": "Total Passes",
-          "value": 302
+          "value": 666
         },
         {
           "type": "Pass Accuracy",
-          "value": "86%"
+          "value": "88%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 43
+          "value": 83
         },
         {
           "type": "Total Shots",
-          "value": 9
+          "value": 19
         },
         {
           "type": "Shots on Goal",
-          "value": 2
+          "value": 6
         },
         {
           "type": "Shots off Goal",
-          "value": 4
+          "value": 9
         },
         {
           "type": "Blocked Shots",
-          "value": 3
+          "value": 4
         },
         {
           "type": "Hit Woodwork",
@@ -1253,31 +2921,31 @@
         },
         {
           "type": "Corner Kicks",
-          "value": 1
+          "value": 9
         },
         {
           "type": "Offsides",
-          "value": 0
-        },
-        {
-          "type": "Penalties",
-          "value": 0
-        },
-        {
-          "type": "Goalkeeper Saves",
           "value": 1
         },
         {
+          "type": "Penalties",
+          "value": 1
+        },
+        {
+          "type": "Goalkeeper Saves",
+          "value": 3
+        },
+        {
           "type": "Tackles",
-          "value": 12
+          "value": 17
         },
         {
           "type": "Fouls",
-          "value": 5
+          "value": 10
         },
         {
           "type": "Yellow Cards",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Red Cards",
@@ -1293,27 +2961,27 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "41%"
+          "value": "39%"
         },
         {
           "type": "Total Passes",
-          "value": 169
+          "value": 338
         },
         {
           "type": "Pass Accuracy",
-          "value": "78%"
+          "value": "75%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 38
+          "value": 83
         },
         {
           "type": "Total Shots",
-          "value": 1
+          "value": 5
         },
         {
           "type": "Shots on Goal",
-          "value": 1
+          "value": 5
         },
         {
           "type": "Shots off Goal",
@@ -1329,11 +2997,11 @@
         },
         {
           "type": "Corner Kicks",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Offsides",
-          "value": 2
+          "value": 4
         },
         {
           "type": "Penalties",
@@ -1341,19 +3009,19 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 4
+          "value": 8
         },
         {
           "type": "Tackles",
-          "value": 5
+          "value": 13
         },
         {
           "type": "Fouls",
-          "value": 6
+          "value": 13
         },
         {
           "type": "Yellow Cards",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Red Cards",

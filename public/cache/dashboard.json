@@ -15597,9 +15597,7 @@
           "long": "FT",
           "short": "FT",
           "elapsed": 90
-        },
-        "timerStart": "2026-10-17T01:13:02.282Z",
-        "timerStatus": "PAUSADO"
+        }
       },
       "league": {
         "round": "Regular Season - 31"
@@ -15653,9 +15651,7 @@
           "long": "FT",
           "short": "FT",
           "elapsed": 90
-        },
-        "timerStart": "2026-10-17T22:59:44.691Z",
-        "timerStatus": "PAUSADO"
+        }
       },
       "league": {
         "round": "Regular Season - 31"
@@ -15709,9 +15705,7 @@
           "long": "FT",
           "short": "FT",
           "elapsed": 90
-        },
-        "timerStart": "2026-10-17T23:35:39.211Z",
-        "timerStatus": "PAUSADO"
+        }
       },
       "league": {
         "round": "Regular Season - 31"
@@ -15764,9 +15758,7 @@
           "long": "FT",
           "short": "FT",
           "elapsed": 90
-        },
-        "timerStart": "2026-10-18T00:38:48.382Z",
-        "timerStatus": "PAUSADO"
+        }
       },
       "league": {
         "round": "Regular Season - 31"
@@ -15817,9 +15809,7 @@
           "long": "FT",
           "short": "FT",
           "elapsed": 90
-        },
-        "timerStart": "2026-10-18T02:10:04.515Z",
-        "timerStatus": "PAUSADO"
+        }
       },
       "league": {
         "round": "Regular Season - 31"
@@ -15873,9 +15863,7 @@
           "long": "FT",
           "short": "FT",
           "elapsed": 90
-        },
-        "timerStart": "2026-10-18T21:07:20.845Z",
-        "timerStatus": "PAUSADO"
+        }
       },
       "league": {
         "round": "Regular Season - 31"
@@ -15929,9 +15917,7 @@
           "long": "FT",
           "short": "FT",
           "elapsed": 90
-        },
-        "timerStart": "2026-10-18T21:07:12.030Z",
-        "timerStatus": "PAUSADO"
+        }
       },
       "league": {
         "round": "Regular Season - 31"
@@ -15985,9 +15971,7 @@
           "long": "FT",
           "short": "FT",
           "elapsed": 90
-        },
-        "timerStart": "2026-10-18T23:28:08.323Z",
-        "timerStatus": "PAUSADO"
+        }
       },
       "league": {
         "round": "Regular Season - 31"
@@ -16040,9 +16024,7 @@
           "long": "FT",
           "short": "FT",
           "elapsed": 90
-        },
-        "timerStart": "2026-10-19T00:38:18.690Z",
-        "timerStatus": "PAUSADO"
+        }
       },
       "league": {
         "round": "Regular Season - 31"
@@ -16095,9 +16077,7 @@
           "long": "FT",
           "short": "FT",
           "elapsed": 90
-        },
-        "timerStart": "2026-10-20T01:12:24.956Z",
-        "timerStatus": "PAUSADO"
+        }
       },
       "league": {
         "round": "Regular Season - 31"
@@ -16151,7 +16131,9 @@
           "long": "NS",
           "short": "NS",
           "elapsed": null
-        }
+        },
+        "timerStart": null,
+        "timerStatus": "PAUSADO"
       },
       "league": {
         "round": "Regular Season - 32"
@@ -16183,7 +16165,10 @@
         }
       },
       "odds": null,
-      "tv": []
+      "tv": [
+        "SporTV",
+        "Premiere"
+      ]
     },
     {
       "fixture": {
@@ -16289,7 +16274,9 @@
           "long": "NS",
           "short": "NS",
           "elapsed": null
-        }
+        },
+        "timerStart": null,
+        "timerStatus": "PAUSADO"
       },
       "league": {
         "round": "Regular Season - 32"
@@ -20959,10 +20946,10 @@
     "mode": "idle",
     "liveIntervalMs": 900000
   },
-  "fetchedAt": "2026-10-20T12:58:06.300Z",
+  "fetchedAt": "2026-10-20T17:54:57.859Z",
   "source": "ge-globo",
   "meta": {
-    "rodada": 31,
+    "rodada": 32,
     "ultimaRodada": 38,
     "rounds": [
       1,
@@ -21004,19 +20991,19 @@
       37,
       38
     ],
-    "seasonSyncedAt": "2026-10-20T07:35:44.066Z",
-    "fullSeasonSync": false,
+    "seasonSyncedAt": "2026-10-20T17:54:51.060Z",
+    "fullSeasonSync": true,
     "edicao": "Campeonato Brasileiro 2026",
     "provider": "ge.globo.com",
     "scorersCount": 50,
     "oddsMatched": 0,
     "oddsPreserved": 318,
     "oddsAvailable": 0,
-    "tvMatched": 119,
+    "tvMatched": 120,
     "tvPreserved": 0,
     "tvAvailable": 166,
     "tvSource": "Onde Assistir — https://ondeassistir.com.br/dados",
-    "tvUpdatedAt": "2026-10-20T12:12:53.000000Z",
+    "tvUpdatedAt": "2026-10-20T17:40:59.280257Z",
     "fixturesCount": 380
   }
 }

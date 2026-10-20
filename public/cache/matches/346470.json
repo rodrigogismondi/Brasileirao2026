@@ -10,7 +10,9 @@
       "long": "NS",
       "short": "NS",
       "elapsed": null
-    }
+    },
+    "timerStart": null,
+    "timerStatus": "PAUSADO"
   },
   "league": {
     "round": "Regular Season - 32"
@@ -42,7 +44,11 @@
     }
   },
   "odds": null,
-  "tv": [],
+  "tv": [
+    "SporTV",
+    "Premiere"
+  ],
+  "_geUrl": "https://ge.globo.com/mg/futebol/brasileirao-serie-a/jogo/23-10-2026/cruzeiro-remo.ghtml",
   "events": [],
   "lineups": [],
   "statistics": [],

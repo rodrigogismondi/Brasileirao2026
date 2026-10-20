@@ -10,7 +10,9 @@
       "long": "NS",
       "short": "NS",
       "elapsed": null
-    }
+    },
+    "timerStart": null,
+    "timerStatus": "PAUSADO"
   },
   "league": {
     "round": "Regular Season - 32"
@@ -48,9 +50,236 @@
     "source": "betexplorer"
   },
   "tv": [],
+  "_geUrl": "https://ge.globo.com/ba/futebol/brasileirao-serie-a/jogo/24-10-2026/vitoria-atletico-pr.ghtml",
   "events": [],
-  "lineups": [],
+  "lineups": [
+    {
+      "team": {
+        "id": 287,
+        "name": "Vitória",
+        "logo": "https://s.sde.globo.com/media/organizations/2025/12/18/Vitoria_2025.svg"
+      },
+      "formation": "4-3-3",
+      "coach": {
+        "name": "Jair Ventura"
+      },
+      "startXI": [
+        {
+          "player": {
+            "id": "lucasarcanjo",
+            "name": "Lucas Arcanjo",
+            "number": 1,
+            "pos": "Gol",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "mateusinho",
+            "name": "Mateus Silva",
+            "number": 98,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "caca-menezes",
+            "name": "Cacá",
+            "number": 25,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "luancandido",
+            "name": "Luan Cândido",
+            "number": 36,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "jamerson-jesus",
+            "name": "Jamerson",
+            "number": 83,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "caique-jesus",
+            "name": "Caíque",
+            "number": 95,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "emmanuelmartinez",
+            "name": "Emmanuel Martínez",
+            "number": 6,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "matheuzinho-martins",
+            "name": "Matheuzinho",
+            "number": 10,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "erick-serafim",
+            "name": "Erick",
+            "number": 33,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "ditarzia",
+            "name": "Tarzia",
+            "number": null,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "renatokayzer",
+            "name": "Renato Kayzer",
+            "number": null,
+            "pos": "Ata",
+            "grid": null
+          }
+        }
+      ],
+      "substitutes": []
+    },
+    {
+      "team": {
+        "id": 293,
+        "name": "Athletico-PR",
+        "logo": "https://s.sde.globo.com/media/organizations/2026/01/07/Athletico-PR.svg"
+      },
+      "formation": "3-6-1",
+      "coach": {
+        "name": "Odair Hellmann"
+      },
+      "startXI": [
+        {
+          "player": {
+            "id": "mycael",
+            "name": "Mycael",
+            "number": 1,
+            "pos": "Gol",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "arthur-dias",
+            "name": "Arthur Dias",
+            "number": 4,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "jfaguirre",
+            "name": "Aguirre",
+            "number": 33,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "esquivelal",
+            "name": "Esquivel",
+            "number": 37,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "gilberto02",
+            "name": "Gilberto",
+            "number": 12,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "luizgustavo",
+            "name": "Luiz Gustavo",
+            "number": 14,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "jadson16",
+            "name": "Jadson",
+            "number": 16,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "joaovictormachadocruz",
+            "name": "João Cruz",
+            "number": 8,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "leozinho",
+            "name": "Leozinho",
+            "number": 21,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "s-mendoza",
+            "name": "Mendoza",
+            "number": 7,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "ksviveros",
+            "name": "Viveros",
+            "number": 9,
+            "pos": "Ata",
+            "grid": null
+          }
+        }
+      ],
+      "substitutes": []
+    }
+  ],
   "statistics": [],
-  "sportsFieldUrl": null,
-  "_geUrl": "https://ge.globo.com/ba/futebol/brasileirao-serie-a/jogo/24-10-2026/vitoria-atletico-pr.ghtml"
+  "sportsFieldUrl": null
 }

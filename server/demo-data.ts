@@ -67,7 +67,8 @@ function fixture(
   timestamp: number,
   round: string,
   venue: string,
-  city = "Brasil"
+  city = "Brasil",
+  tv: string[] = []
 ) {
   return {
     fixture: {
@@ -92,6 +93,7 @@ function fixture(
         away: status.short === "FT" ? goals[1] : null,
       },
     },
+    tv,
   };
 }
 
@@ -107,7 +109,8 @@ export function demoDashboard() {
       tsBrazil(0, 16, 0),
       "Regular Season - 20",
       "Fonte Nova",
-      "Salvador"
+      "Salvador",
+      ["Premiere"]
     ),
     fixture(
       9002,
@@ -118,7 +121,8 @@ export function demoDashboard() {
       tsBrazil(0, 16, 0),
       "Regular Season - 20",
       "Mineirão",
-      "Belo Horizonte"
+      "Belo Horizonte",
+      ["Globo", "Premiere"]
     ),
     fixture(
       9003,
@@ -129,7 +133,8 @@ export function demoDashboard() {
       tsBrazil(0, 18, 30),
       "Regular Season - 20",
       "Cícero de Souza Marques",
-      "Bragança Paulista"
+      "Bragança Paulista",
+      ["Premiere"]
     ),
     fixture(
       9004,
@@ -140,7 +145,8 @@ export function demoDashboard() {
       tsBrazil(0, 18, 30),
       "Regular Season - 20",
       "Maracanã",
-      "Rio de Janeiro"
+      "Rio de Janeiro",
+      ["Globo", "Premiere"]
     ),
     fixture(
       9005,
@@ -151,7 +157,8 @@ export function demoDashboard() {
       tsBrazil(0, 18, 30),
       "Regular Season - 20",
       "Arena do Grêmio",
-      "Porto Alegre"
+      "Porto Alegre",
+      ["Globo", "Premiere"]
     ),
     fixture(
       9006,
@@ -162,7 +169,8 @@ export function demoDashboard() {
       tsBrazil(0, 19, 30),
       "Regular Season - 20",
       "Nubank Parque",
-      "São Paulo"
+      "São Paulo",
+      ["SporTV", "Premiere"]
     ),
     fixture(
       9007,
@@ -173,7 +181,8 @@ export function demoDashboard() {
       tsBrazil(0, 19, 30),
       "Regular Season - 20",
       "Mangueirão",
-      "Belém"
+      "Belém",
+      ["Premiere"]
     ),
     fixture(
       9008,
@@ -184,7 +193,8 @@ export function demoDashboard() {
       tsBrazil(1, 16, 0),
       "Regular Season - 21",
       "São Januário",
-      "Rio de Janeiro"
+      "Rio de Janeiro",
+      ["Record", "Premiere"]
     ),
   ];
 

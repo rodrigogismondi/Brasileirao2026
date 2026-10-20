@@ -26,6 +26,8 @@ export interface Match {
   /** Numeric round (1–38) when known. */
   roundNumber: number | null;
   odds: MatchOdds | null;
+  /** Free-to-air + subscription/PPV TV channels (no radio / streaming-only). */
+  tv: string[];
 }
 
 export interface StandingRow {

@@ -33,7 +33,20 @@ function crestImg(src: string, alt: string): string {
   return `<img class="crest" src="${escapeHtml(src)}" alt="${escapeHtml(alt)}" loading="lazy" width="28" height="28" />`;
 }
 
-function renderMatchRow(m: Match, lang: Lang, compact = false): string {
+function renderTvLine(m: Match, lang: Lang): string {
+  if (!m.tv?.length) return "";
+  return `<p class="match-tv">
+    <span class="match-tv-label">${escapeHtml(t(lang, "tvOn"))}</span>
+    <span class="match-tv-channels">${escapeHtml(m.tv.join(" · "))}</span>
+  </p>`;
+}
+
+function renderMatchRow(
+  m: Match,
+  lang: Lang,
+  compact = false,
+  opts: { showTv?: boolean } = {}
+): string {
   const liveBadge =
     m.status === "live"
       ? `<span class="badge badge-live">${escapeHtml(liveBadgeText(m, lang))}</span>`
@@ -45,6 +58,8 @@ function renderMatchRow(m: Match, lang: Lang, compact = false): string {
         <span class="match-round">${escapeHtml(m.round)}</span>
         <span class="match-venue">${escapeHtml(m.venue)}</span>
       </div>`;
+
+  const tv = opts.showTv ? renderTvLine(m, lang) : "";
 
   return `
     <article class="match-card match-card-clickable ${m.status === "live" ? "match-card-live" : ""}" data-action="open-match" data-match-id="${m.id}" role="button" tabindex="0">
@@ -61,6 +76,7 @@ function renderMatchRow(m: Match, lang: Lang, compact = false): string {
           ${m.score ? `<span class="team-score">${m.score[1]}</span>` : ""}
         </div>
       </div>
+      ${tv}
       <div class="match-footer">
         ${liveBadge}
         <time class="match-time">${escapeHtml(m.status === "finished" ? formatScore(m) : formatKickoff(m, lang))}</time>
@@ -119,6 +135,8 @@ function renderSchedule(
     return `${roundPicker}<div class="empty-state"><p>${escapeHtml(t(lang, "noMatches"))}</p></div>`;
   }
 
+  const showTv = filter === "today" || filter === "live";
+
   return (
     roundPicker +
     [...byDate.entries()]
@@ -127,7 +145,7 @@ function renderSchedule(
         ([date, dayMatches]) => `
       <section class="day-section">
         <h3 class="day-header">${escapeHtml(formatDateHeader(date, lang))}</h3>
-        <div class="match-grid">${dayMatches.map((m) => renderMatchRow(m, lang)).join("")}</div>
+        <div class="match-grid">${dayMatches.map((m) => renderMatchRow(m, lang, false, { showTv })).join("")}</div>
       </section>`
       )
       .join("")
@@ -158,13 +176,13 @@ function renderLive(data: DashboardData, lang: Lang): string {
       <span class="pulse"></span>
       ${escapeHtml(t(lang, progressKey, { n: data.live.length }))}
     </div>
-    <div class="match-grid match-grid-live">${data.live.map((m) => renderMatchRow(m, lang)).join("")}</div>
+    <div class="match-grid match-grid-live">${data.live.map((m) => renderMatchRow(m, lang, false, { showTv: true })).join("")}</div>
     <section class="section-block">
       <h3>${escapeHtml(t(lang, "alsoToday"))}</h3>
       <div class="match-grid">${
         data.all
           .filter((m) => isMatchToday(m) && m.status !== "live")
-          .map((m) => renderMatchRow(m, lang, true))
+          .map((m) => renderMatchRow(m, lang, true, { showTv: true }))
           .join("") || `<p class='muted'>${escapeHtml(t(lang, "noOtherToday"))}</p>`
       }</div>
     </section>`;

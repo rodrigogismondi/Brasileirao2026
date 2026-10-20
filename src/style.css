@@ -426,6 +426,31 @@ a {
   text-align: right;
 }
 
+.match-tv {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.35rem 0.55rem;
+  margin: 0.7rem 0 0;
+  font-size: 0.78rem;
+  line-height: 1.35;
+  color: var(--text-muted);
+}
+
+.match-tv-label {
+  flex-shrink: 0;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  font-size: 0.68rem;
+  color: var(--accent);
+}
+
+.match-tv-channels {
+  color: var(--text);
+  font-weight: 500;
+}
+
 .match-footer {
   display: flex;
   justify-content: space-between;

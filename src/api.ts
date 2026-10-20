@@ -84,6 +84,8 @@ interface RawFixture {
   };
   goals: { home: number | null; away: number | null };
   odds?: { home: number; draw: number; away: number; source?: string } | null;
+  /** Free-to-air + pay TV only (synced from Onde Assistir). */
+  tv?: string[] | null;
 }
 
 function mapMatch(f: RawFixture): Match {
@@ -155,6 +157,7 @@ function mapMatch(f: RawFixture): Match {
     venue: f.fixture.venue?.name || f.fixture.venue?.city || "",
     roundNumber: roundNumberFromLabel(f.league?.round),
     odds,
+    tv: Array.isArray(f.tv) ? f.tv.filter((c) => typeof c === "string" && c.trim()) : [],
   };
 }
 

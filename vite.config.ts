@@ -1,3 +1,5 @@
+import { readFileSync, existsSync } from "node:fs";
+import { join } from "node:path";
 import { defineConfig, loadEnv, type Plugin } from "vite";
 import { VitePWA } from "vite-plugin-pwa";
 import { createStore, getDashboardPayload, getMatchDetailPayload, budgetStatus } from "./server/proxy-store";
@@ -5,6 +7,27 @@ import { demoDashboard, demoMatchDetail } from "./server/demo-data";
 
 const base = process.env.VITE_BASE_PATH ?? "/";
 const store = createStore();
+const CACHE_DASHBOARD = join(process.cwd(), "public", "cache", "dashboard.json");
+const CACHE_MATCHES = join(process.cwd(), "public", "cache", "matches");
+
+function readSyncedDashboard(): unknown | null {
+  if (!existsSync(CACHE_DASHBOARD)) return null;
+  try {
+    return JSON.parse(readFileSync(CACHE_DASHBOARD, "utf8"));
+  } catch {
+    return null;
+  }
+}
+
+function readSyncedMatch(id: number): unknown | null {
+  const path = join(CACHE_MATCHES, `${id}.json`);
+  if (!existsSync(path)) return null;
+  try {
+    return JSON.parse(readFileSync(path, "utf8"));
+  } catch {
+    return null;
+  }
+}
 
 function apiProxyPlugin(apiKey: string, forceDemo: boolean): Plugin {
   return {
@@ -19,19 +42,27 @@ function apiProxyPlugin(apiKey: string, forceDemo: boolean): Plugin {
           const useDemo = forceDemo || !apiKey;
 
           if (url.pathname === "/api/status") {
+            const synced = !forceDemo && !apiKey ? readSyncedDashboard() : null;
             res.end(
               JSON.stringify({
                 ok: true,
-                demo: useDemo,
-                budget: useDemo ? { used: 0, remaining: 100, dailyBudget: 100 } : budgetStatus(store),
+                demo: useDemo && !synced,
+                budget: useDemo
+                  ? { used: 0, remaining: 100, dailyBudget: 100 }
+                  : budgetStatus(store),
               })
             );
             return;
           }
 
           if (url.pathname === "/api/dashboard") {
-            if (useDemo) {
+            if (forceDemo) {
               res.end(JSON.stringify(demoDashboard()));
+              return;
+            }
+            if (!apiKey) {
+              const synced = readSyncedDashboard();
+              res.end(JSON.stringify(synced ?? demoDashboard()));
               return;
             }
             const payload = await getDashboardPayload(store, apiKey);
@@ -42,8 +73,13 @@ function apiProxyPlugin(apiKey: string, forceDemo: boolean): Plugin {
           const detailMatch = url.pathname.match(/^\/api\/match\/(\d+)$/);
           if (detailMatch) {
             const id = Number(detailMatch[1]);
-            if (useDemo) {
+            if (forceDemo) {
               res.end(JSON.stringify(demoMatchDetail(id)));
+              return;
+            }
+            if (!apiKey) {
+              const synced = readSyncedMatch(id);
+              res.end(JSON.stringify(synced ?? demoMatchDetail(id)));
               return;
             }
             const payload = await getMatchDetailPayload(store, apiKey, id);

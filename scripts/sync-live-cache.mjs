@@ -13,9 +13,59 @@ const BETEXPLORER_FIXTURES =
   "https://www.betexplorer.com/football/brazil/serie-a-betano/fixtures/";
 const BETEXPLORER_RESULTS =
   "https://www.betexplorer.com/football/brazil/serie-a-betano/results/";
+/** Open dataset of confirmed TV / streaming broadcasts (CC BY 4.0). */
+const ONDE_ASSISTIR_JOGOS = "https://ondeassistir.com.br/dados/jogos.json";
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
 const CACHE_DIR = join(ROOT, "public", "cache");
 const MATCHES_DIR = join(CACHE_DIR, "matches");
+
+/** Only free-to-air and pay/subscription TV — never radio or streaming-only. */
+const TV_ACCESS_TYPES = new Set(["tv_aberta", "tv_fechada", "pay_per_view"]);
+const TV_ACCESS_RANK = { tv_aberta: 0, tv_fechada: 1, pay_per_view: 2 };
+/** Display names for known free-to-air / pay-TV channels. */
+const TV_DISPLAY_NAMES = new Map([
+  ["globo", "Globo"],
+  ["tv globo", "Globo"],
+  ["record", "Record"],
+  ["tv record", "Record"],
+  ["band", "Band"],
+  ["sbt", "SBT"],
+  ["redetv", "RedeTV!"],
+  ["redetv!", "RedeTV!"],
+  ["rede tv!", "RedeTV!"],
+  ["sportv", "SporTV"],
+  ["premiere", "Premiere"],
+  ["espn", "ESPN"],
+  ["espn 2", "ESPN 2"],
+  ["espn 3", "ESPN 3"],
+  ["espn 4", "ESPN 4"],
+  ["xsports", "Xsports"],
+  ["tnt", "TNT"],
+  ["nsports", "NSports"],
+]);
+/** Streaming / fantasy / audio labels that must never appear as TV. */
+const TV_BLOCKLIST = [
+  "radio",
+  "rádio",
+  "audio",
+  "áudio",
+  "cartola",
+  "globoplay",
+  "cazetv",
+  "caze tv",
+  "youtube",
+  "prime video",
+  "prime vídeo",
+  "disney",
+  "ge tv",
+  "getv",
+  "sportynet",
+  "onefootball",
+  "paramount",
+  "hbo max",
+  "max",
+  "dazn",
+];
 
 const UA =
   "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36";
@@ -1527,6 +1577,162 @@ function findOddsForFixture(oddsMap, homeName, awayName) {
   return null;
 }
 
+/** São Paulo calendar date (YYYY-MM-DD) for a Unix timestamp. */
+function saoPauloDateKey(unixSeconds) {
+  return new Intl.DateTimeFormat("en-CA", {
+    timeZone: "America/Sao_Paulo",
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit",
+  }).format(new Date(Number(unixSeconds) * 1000));
+}
+
+function isSerieACompetition(competition) {
+  const name = String(competition?.name || "");
+  const slug = String(competition?.slug || "").toLowerCase();
+  if (/série\s*b|serie\s*b|série\s*c|serie\s*c|série\s*d|serie\s*d|feminina/i.test(name)) {
+    return false;
+  }
+  if (slug.includes("serie-b") || slug.includes("serie-c") || slug.includes("serie-d")) {
+    return false;
+  }
+  return (
+    /campeonato\s+brasileiro\s+série\s*a/i.test(name) ||
+    /brasileirão\s+série\s*a/i.test(name) ||
+    slug === "brasileirao-serie-a" ||
+    slug === "campeonato-brasileiro-serie-a"
+  );
+}
+
+function normalizeTvChannelName(raw) {
+  const trimmed = String(raw || "").trim();
+  if (!trimmed) return "";
+  const key = trimmed
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .toLowerCase()
+    .replace(/\s+/g, " ")
+    .trim();
+  return TV_DISPLAY_NAMES.get(key) || trimmed;
+}
+
+function isBlockedTvLabel(name) {
+  const key = String(name || "")
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .toLowerCase();
+  return TV_BLOCKLIST.some((blocked) => key.includes(blocked));
+}
+
+/**
+ * Keep free-to-air + subscription/PPV TV only.
+ * Drops radio/audio and streaming-only outlets (YouTube, CazéTV, Prime, etc.).
+ */
+function filterTvBroadcasts(broadcasts) {
+  const ranked = [];
+  for (const b of broadcasts || []) {
+    const access = String(b?.access_type || "").toLowerCase();
+    if (!TV_ACCESS_TYPES.has(access)) continue;
+    const display = normalizeTvChannelName(b?.name);
+    if (!display || isBlockedTvLabel(display)) continue;
+    // pay_per_view is Premiere (and similar) — keep; ignore non-TV PPV leftovers
+    if (access === "pay_per_view" && !TV_DISPLAY_NAMES.has(
+      display
+        .normalize("NFD")
+        .replace(/[\u0300-\u036f]/g, "")
+        .toLowerCase()
+    ) && !/^premiere$/i.test(display)) {
+      continue;
+    }
+    ranked.push({
+      name: display,
+      rank: TV_ACCESS_RANK[access] ?? 9,
+    });
+  }
+  ranked.sort((a, b) => a.rank - b.rank || a.name.localeCompare(b.name, "pt"));
+  const seen = new Set();
+  const out = [];
+  for (const row of ranked) {
+    const key = row.name.toLowerCase();
+    if (seen.has(key)) continue;
+    seen.add(key);
+    out.push(row.name);
+  }
+  return out;
+}
+
+function teamsMatchTv(a, b) {
+  if (!a || !b) return false;
+  if (a === b) return true;
+  if (a.includes(b) || b.includes(a)) return true;
+  return false;
+}
+
+async function fetchOndeAssistirTvIndex() {
+  const res = await fetch(ONDE_ASSISTIR_JOGOS, {
+    headers: {
+      "User-Agent": UA,
+      Accept: "application/json",
+      "Accept-Language": "pt-BR,pt;q=0.9",
+    },
+    signal: AbortSignal.timeout(25000),
+  });
+  if (!res.ok) throw new Error(`Onde Assistir HTTP ${res.status}`);
+  const data = await res.json();
+  const games = Array.isArray(data?.games) ? data.games : [];
+  const index = [];
+  for (const game of games) {
+    if (!isSerieACompetition(game?.competition)) continue;
+    const date = String(game?.date_brt || "").slice(0, 10);
+    if (!/^\d{4}-\d{2}-\d{2}$/.test(date)) continue;
+    const tv = filterTvBroadcasts(game?.broadcasts);
+    index.push({
+      date,
+      homeKey: normalizeTeamKey(game?.home_team?.name),
+      awayKey: normalizeTeamKey(game?.away_team?.name),
+      tv,
+    });
+  }
+  return {
+    index,
+    updatedAt: data?.dataset_updated_at ?? null,
+    attribution: data?.attribution ?? "Onde Assistir — https://ondeassistir.com.br/dados",
+  };
+}
+
+function findTvForFixture(tvIndex, homeName, awayName, unixSeconds) {
+  if (!tvIndex?.length) return null;
+  const date = saoPauloDateKey(unixSeconds);
+  const hk = normalizeTeamKey(homeName);
+  const ak = normalizeTeamKey(awayName);
+  const sameDay = tvIndex.filter((row) => row.date === date);
+  const direct = sameDay.find((row) => row.homeKey === hk && row.awayKey === ak);
+  if (direct) return direct.tv;
+  const fuzzy = sameDay.find(
+    (row) => teamsMatchTv(row.homeKey, hk) && teamsMatchTv(row.awayKey, ak)
+  );
+  return fuzzy ? fuzzy.tv : null;
+}
+
+/** Last-known TV lists when the open broadcast feed is unreachable. */
+function loadPreviousTvById() {
+  const map = new Map();
+  const dashPath = join(CACHE_DIR, "dashboard.json");
+  if (existsSync(dashPath)) {
+    try {
+      const dash = JSON.parse(readFileSync(dashPath, "utf8"));
+      for (const f of dash.fixtures || []) {
+        if (f?.fixture?.id != null && Array.isArray(f.tv) && f.tv.length) {
+          map.set(f.fixture.id, f.tv);
+        }
+      }
+    } catch {
+      /* ignore */
+    }
+  }
+  return map;
+}
+
 function parseScorersFromHtml(html) {
   const sectionMatch = html.match(
     /class="artilharia-wrapper"[\s\S]*?<div class="ranking-content">([\s\S]*?)(?:<\/div>\s*<\/div>\s*<\/section>|<\/section>)/i
@@ -1614,6 +1820,7 @@ async function main() {
         byId.set(f.fixture.id, {
           ...f,
           odds: prev?.odds ?? null,
+          tv: Array.isArray(prev?.tv) ? prev.tv : [],
         });
       }
       fixtures = [...byId.values()].sort(
@@ -1663,6 +1870,43 @@ async function main() {
       }
     }
 
+    const previousTv = loadPreviousTvById();
+    let tvIndex = [];
+    let tvMatched = 0;
+    let tvPreserved = 0;
+    let tvAttribution = null;
+    let tvUpdatedAt = null;
+    try {
+      const tvFeed = await fetchOndeAssistirTvIndex();
+      tvIndex = tvFeed.index;
+      tvAttribution = tvFeed.attribution;
+      tvUpdatedAt = tvFeed.updatedAt;
+    } catch (err) {
+      console.warn(
+        "Onde Assistir TV feed failed:",
+        err instanceof Error ? err.message : String(err)
+      );
+    }
+    for (const f of fixtures) {
+      const fresh = findTvForFixture(
+        tvIndex,
+        f.teams.home.name,
+        f.teams.away.name,
+        f.fixture.timestamp
+      );
+      const kept = Array.isArray(f.tv) && f.tv.length ? f.tv : previousTv.get(f.fixture.id);
+      if (Array.isArray(fresh)) {
+        // Empty array is a valid match (e.g. streaming-only game with no TV).
+        f.tv = fresh;
+        if (fresh.length) tvMatched++;
+      } else if (Array.isArray(kept) && kept.length) {
+        f.tv = kept;
+        tvPreserved++;
+      } else {
+        f.tv = [];
+      }
+    }
+
     const rounds = [
       ...new Set(fixtures.map(fixtureRoundNumber).filter((n) => n > 0)),
     ].sort((a, b) => a - b);
@@ -1692,6 +1936,11 @@ async function main() {
         oddsMatched,
         oddsPreserved,
         oddsAvailable: oddsMap.size,
+        tvMatched,
+        tvPreserved,
+        tvAvailable: tvIndex.length,
+        tvSource: tvAttribution,
+        tvUpdatedAt,
         fixturesCount: fixtures.length,
       },
     };
@@ -1781,6 +2030,7 @@ async function main() {
       if (!isValidOdds(detail.odds)) {
         detail.odds = f.odds ?? previousOdds.get(f.fixture.id) ?? null;
       }
+      detail.tv = Array.isArray(f.tv) ? f.tv : [];
       if (f._geUrl && !detail._geUrl) detail._geUrl = f._geUrl;
       writeFileSync(join(MATCHES_DIR, `${f.fixture.id}.json`), JSON.stringify(detail, null, 2));
     }
@@ -1835,7 +2085,7 @@ async function main() {
     }
 
     console.log(
-      `Synced GE cache: rodada ${rodada}/${ultimaRodada}, ${fixtures.length} jogos, fullSeason=${fullSeason}, enriched=${enriched}, failed=${failed}, reconciled=${reconciled}, scorers=${scorers.length}, odds=${oddsMatched}/${oddsMap.size} (kept ${oddsPreserved}), mode=${finalMode}, source=${payload.source}`
+      `Synced GE cache: rodada ${rodada}/${ultimaRodada}, ${fixtures.length} jogos, fullSeason=${fullSeason}, enriched=${enriched}, failed=${failed}, reconciled=${reconciled}, scorers=${scorers.length}, odds=${oddsMatched}/${oddsMap.size} (kept ${oddsPreserved}), tv=${tvMatched}/${tvIndex.length} (kept ${tvPreserved}), mode=${finalMode}, source=${payload.source}`
     );
   } catch (err) {
     writeDemoFallback(err instanceof Error ? err.message : String(err));

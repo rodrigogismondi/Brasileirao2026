@@ -16214,7 +16214,10 @@
         }
       },
       "odds": null,
-      "tv": []
+      "tv": [
+        "Globo",
+        "Premiere"
+      ]
     },
     {
       "fixture": {
@@ -16260,7 +16263,10 @@
         }
       },
       "odds": null,
-      "tv": []
+      "tv": [
+        "Globo",
+        "Premiere"
+      ]
     },
     {
       "fixture": {
@@ -16313,7 +16319,10 @@
         "away": 3.25,
         "source": "betexplorer"
       },
-      "tv": []
+      "tv": [
+        "Globo",
+        "Premiere"
+      ]
     },
     {
       "fixture": {
@@ -16359,7 +16368,10 @@
         }
       },
       "odds": null,
-      "tv": []
+      "tv": [
+        "Record",
+        "Premiere"
+      ]
     },
     {
       "fixture": {
@@ -16405,7 +16417,9 @@
         }
       },
       "odds": null,
-      "tv": []
+      "tv": [
+        "Premiere"
+      ]
     },
     {
       "fixture": {
@@ -16497,7 +16511,10 @@
         }
       },
       "odds": null,
-      "tv": []
+      "tv": [
+        "SporTV",
+        "Premiere"
+      ]
     },
     {
       "fixture": {
@@ -20946,7 +20963,7 @@
     "mode": "idle",
     "liveIntervalMs": 900000
   },
-  "fetchedAt": "2026-10-21T14:39:42.702Z",
+  "fetchedAt": "2026-10-21T18:57:36.314Z",
   "source": "ge-globo",
   "meta": {
     "rodada": 32,
@@ -20991,19 +21008,19 @@
       37,
       38
     ],
-    "seasonSyncedAt": "2026-10-21T09:34:59.318Z",
-    "fullSeasonSync": false,
+    "seasonSyncedAt": "2026-10-21T18:57:30.219Z",
+    "fullSeasonSync": true,
     "edicao": "Campeonato Brasileiro 2026",
     "provider": "ge.globo.com",
     "scorersCount": 50,
     "oddsMatched": 0,
     "oddsPreserved": 318,
     "oddsAvailable": 0,
-    "tvMatched": 120,
+    "tvMatched": 126,
     "tvPreserved": 0,
-    "tvAvailable": 166,
+    "tvAvailable": 343,
     "tvSource": "Onde Assistir — https://ondeassistir.com.br/dados",
-    "tvUpdatedAt": "2026-10-21T14:13:29.126991Z",
+    "tvUpdatedAt": "2026-10-21T18:14:34.000000Z",
     "fixturesCount": 380
   }
 }

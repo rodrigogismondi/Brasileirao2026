@@ -10,7 +10,9 @@
       "long": "NS",
       "short": "NS",
       "elapsed": null
-    }
+    },
+    "timerStart": null,
+    "timerStatus": "PAUSADO"
   },
   "league": {
     "round": "Regular Season - 32"
@@ -46,8 +48,236 @@
     "Globo",
     "Premiere"
   ],
+  "_geUrl": "https://ge.globo.com/sp/tem-esporte/futebol/brasileirao-serie-a/jogo/24-10-2026/mirassol-sao-paulo.ghtml",
   "events": [],
-  "lineups": [],
+  "lineups": [
+    {
+      "team": {
+        "id": 2305,
+        "name": "Mirassol",
+        "logo": "https://s.sde.globo.com/media/organizations/2026/07/17/MIrassol.svg"
+      },
+      "formation": "4-5-1",
+      "coach": {
+        "name": "Rafael Guanaes"
+      },
+      "startXI": [
+        {
+          "player": {
+            "id": "walter-barbarense",
+            "name": "Walter",
+            "number": 22,
+            "pos": "Gol",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "igor-formiga",
+            "name": "Igor Formiga",
+            "number": 32,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "joao-victor-santana",
+            "name": "João Victor",
+            "number": 34,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "willian-machado",
+            "name": "Willian Machado",
+            "number": 3,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "reinaldomanoel",
+            "name": "Reinaldo",
+            "number": 6,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "denilsonab",
+            "name": "Denilson",
+            "number": 27,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "netomoura",
+            "name": "Neto Moura",
+            "number": 25,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "eduardoca",
+            "name": "Eduardo",
+            "number": 33,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "edsoncarioca",
+            "name": "Edson Carioca",
+            "number": 95,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "brunosantos-americarj",
+            "name": "Bruno Santos",
+            "number": 30,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "alesson",
+            "name": "Alesson",
+            "number": null,
+            "pos": "Ata",
+            "grid": null
+          }
+        }
+      ],
+      "substitutes": []
+    },
+    {
+      "team": {
+        "id": 276,
+        "name": "São Paulo",
+        "logo": "https://s.sde.globo.com/media/organizations/2018/03/11/sao-paulo.svg"
+      },
+      "formation": "3-4-3",
+      "coach": {
+        "name": "Dorival Júnior"
+      },
+      "startXI": [
+        {
+          "player": {
+            "id": "rafaelpires",
+            "name": "Rafael",
+            "number": 23,
+            "pos": "Gol",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "newtonaraujo",
+            "name": "Newton",
+            "number": 28,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "arboleda",
+            "name": "Arboleda",
+            "number": 5,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "sabino-monteiro",
+            "name": "Sabino",
+            "number": 35,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "pedro-lima",
+            "name": "Pedro Lima",
+            "number": null,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "bobadillad",
+            "name": "Bobadilla",
+            "number": 16,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "marcosantonioss",
+            "name": "Marcos Antônio",
+            "number": null,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "iago-amaral",
+            "name": "Iago",
+            "number": 12,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "artur-palmeiras",
+            "name": "Artur",
+            "number": 37,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "calleri",
+            "name": "Calleri",
+            "number": 9,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "luciano02",
+            "name": "Luciano",
+            "number": null,
+            "pos": "Ata",
+            "grid": null
+          }
+        }
+      ],
+      "substitutes": []
+    }
+  ],
   "statistics": [],
   "sportsFieldUrl": null
 }

@@ -10,7 +10,9 @@
       "long": "NS",
       "short": "NS",
       "elapsed": null
-    }
+    },
+    "timerStart": null,
+    "timerStatus": "PAUSADO"
   },
   "league": {
     "round": "Regular Season - 32"
@@ -45,8 +47,236 @@
   "tv": [
     "Premiere"
   ],
+  "_geUrl": "https://ge.globo.com/sp/vale-do-paraiba-regiao/futebol/brasileirao-serie-a/jogo/24-10-2026/palmeiras-bragantino.ghtml",
   "events": [],
-  "lineups": [],
+  "lineups": [
+    {
+      "team": {
+        "id": 275,
+        "name": "Palmeiras",
+        "logo": "https://s.sde.globo.com/media/organizations/2019/07/06/Palmeiras.svg"
+      },
+      "formation": "3-6-1",
+      "coach": {
+        "name": "Abel Ferreira"
+      },
+      "startXI": [
+        {
+          "player": {
+            "id": "carlos-miguel-pereira",
+            "name": "Carlos Miguel",
+            "number": 1,
+            "pos": "Gol",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "murilocerqueira",
+            "name": "Murilo",
+            "number": 26,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "gustavo-gomez",
+            "name": "Gustavo Gómez",
+            "number": 15,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "alexbarboza",
+            "name": "Alexander Barboza",
+            "number": 2,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "agugiay",
+            "name": "Giay",
+            "number": 4,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "marlon-freitas",
+            "name": "Marlon Freitas",
+            "number": 17,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "lucasevangelista",
+            "name": "Lucas Evangelista",
+            "number": 30,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "mauriciomp",
+            "name": "Maurício",
+            "number": null,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "ariasjhon",
+            "name": "Arias",
+            "number": 11,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "arthurgabr",
+            "name": "Arthur",
+            "number": null,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "joselopez",
+            "name": "Flaco López",
+            "number": 42,
+            "pos": "Ata",
+            "grid": null
+          }
+        }
+      ],
+      "substitutes": []
+    },
+    {
+      "team": {
+        "id": 280,
+        "name": "Bragantino",
+        "logo": "https://s.sde.globo.com/media/organizations/2021/06/28/bragantino.svg"
+      },
+      "formation": "4-3-3",
+      "coach": {
+        "name": "Vagner Mancini"
+      },
+      "startXI": [
+        {
+          "player": {
+            "id": "tiagovolpi",
+            "name": "Tiago Volpi",
+            "number": 18,
+            "pos": "Gol",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "ryan-augusto",
+            "name": "Ryan Augusto",
+            "number": 52,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "guzrodriguez",
+            "name": "Guzmán Rodríguez",
+            "number": 2,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "alix-vinicius",
+            "name": "Alix Vinicius",
+            "number": null,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "juninhocapixaba",
+            "name": "Juninho Capixaba",
+            "number": 29,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "gabriel41",
+            "name": "Gabriel",
+            "number": null,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "fabinho-freitas",
+            "name": "Fabinho",
+            "number": 5,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "lucas-barbosa",
+            "name": "Lucas Barbosa",
+            "number": null,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "wallace-yan",
+            "name": "Wallace Yan",
+            "number": 47,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "eduardosasha",
+            "name": "Eduardo Sasha",
+            "number": 8,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "fernando11111",
+            "name": "Fernando",
+            "number": 11,
+            "pos": "Ata",
+            "grid": null
+          }
+        }
+      ],
+      "substitutes": []
+    }
+  ],
   "statistics": [],
   "sportsFieldUrl": null
 }

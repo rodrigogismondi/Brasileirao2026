@@ -16340,7 +16340,9 @@
           "long": "NS",
           "short": "NS",
           "elapsed": null
-        }
+        },
+        "timerStart": null,
+        "timerStatus": "PAUSADO"
       },
       "league": {
         "round": "Regular Season - 32"
@@ -16487,7 +16489,9 @@
           "long": "NS",
           "short": "NS",
           "elapsed": null
-        }
+        },
+        "timerStart": null,
+        "timerStatus": "PAUSADO"
       },
       "league": {
         "round": "Regular Season - 32"
@@ -16570,7 +16574,9 @@
         }
       },
       "odds": null,
-      "tv": []
+      "tv": [
+        "Premiere"
+      ]
     },
     {
       "fixture": {
@@ -16584,7 +16590,9 @@
           "long": "NS",
           "short": "NS",
           "elapsed": null
-        }
+        },
+        "timerStart": null,
+        "timerStatus": "PAUSADO"
       },
       "league": {
         "round": "Regular Season - 32"
@@ -16616,7 +16624,10 @@
         }
       },
       "odds": null,
-      "tv": []
+      "tv": [
+        "SporTV",
+        "Premiere"
+      ]
     },
     {
       "fixture": {
@@ -20859,7 +20870,7 @@
       "player": {
         "id": 46,
         "name": "Victor Hugo",
-        "photo": "https://s.sde.globo.com/media/person_role/2026/02/02/photo_140x140_Sg1n7DD.png"
+        "photo": "https://s.sde.globo.com/media/person_role/2026/10/23/photo_140x140_ogxdiIB.png"
       },
       "statistics": [
         {
@@ -20973,7 +20984,7 @@
     "mode": "prematch",
     "liveIntervalMs": 120000
   },
-  "fetchedAt": "2026-10-23T15:51:02.974Z",
+  "fetchedAt": "2026-10-23T19:39:17.322Z",
   "source": "ge-globo",
   "meta": {
     "rodada": 32,
@@ -21019,18 +21030,18 @@
       38
     ],
     "seasonSyncedAt": "2026-10-23T15:50:55.388Z",
-    "fullSeasonSync": true,
+    "fullSeasonSync": false,
     "edicao": "Campeonato Brasileiro 2026",
     "provider": "ge.globo.com",
     "scorersCount": 50,
     "oddsMatched": 0,
     "oddsPreserved": 318,
     "oddsAvailable": 0,
-    "tvMatched": 126,
+    "tvMatched": 128,
     "tvPreserved": 0,
     "tvAvailable": 343,
     "tvSource": "Onde Assistir — https://ondeassistir.com.br/dados",
-    "tvUpdatedAt": "2026-10-23T15:29:51.001120Z",
+    "tvUpdatedAt": "2026-10-23T19:32:45.290316Z",
     "fixturesCount": 380
   }
 }

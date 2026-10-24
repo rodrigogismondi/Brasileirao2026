@@ -16128,11 +16128,11 @@
           "city": ""
         },
         "status": {
-          "long": "NS",
-          "short": "NS",
-          "elapsed": null
+          "long": "FT",
+          "short": "FT",
+          "elapsed": 90
         },
-        "timerStart": "2026-10-23T21:58:31.689Z",
+        "timerStart": "2026-10-24T01:01:19.662Z",
         "timerStatus": "PAUSADO"
       },
       "league": {
@@ -16151,8 +16151,8 @@
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 0
       },
       "score": {
         "halftime": {
@@ -16160,8 +16160,8 @@
           "away": null
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         }
       },
       "odds": null,
@@ -16182,9 +16182,7 @@
           "long": "NS",
           "short": "NS",
           "elapsed": null
-        },
-        "timerStart": null,
-        "timerStatus": "PAUSADO"
+        }
       },
       "league": {
         "round": "Regular Season - 32"
@@ -16233,9 +16231,7 @@
           "long": "NS",
           "short": "NS",
           "elapsed": null
-        },
-        "timerStart": null,
-        "timerStatus": "PAUSADO"
+        }
       },
       "league": {
         "round": "Regular Season - 32"
@@ -16284,9 +16280,7 @@
           "long": "NS",
           "short": "NS",
           "elapsed": null
-        },
-        "timerStart": null,
-        "timerStatus": "PAUSADO"
+        }
       },
       "league": {
         "round": "Regular Season - 32"
@@ -16340,9 +16334,7 @@
           "long": "NS",
           "short": "NS",
           "elapsed": null
-        },
-        "timerStart": null,
-        "timerStatus": "PAUSADO"
+        }
       },
       "league": {
         "round": "Regular Season - 32"
@@ -16391,9 +16383,7 @@
           "long": "NS",
           "short": "NS",
           "elapsed": null
-        },
-        "timerStart": null,
-        "timerStatus": "PAUSADO"
+        }
       },
       "league": {
         "round": "Regular Season - 32"
@@ -16441,9 +16431,7 @@
           "long": "NS",
           "short": "NS",
           "elapsed": null
-        },
-        "timerStart": null,
-        "timerStatus": "PAUSADO"
+        }
       },
       "league": {
         "round": "Regular Season - 32"
@@ -16489,9 +16477,7 @@
           "long": "NS",
           "short": "NS",
           "elapsed": null
-        },
-        "timerStart": null,
-        "timerStatus": "PAUSADO"
+        }
       },
       "league": {
         "round": "Regular Season - 32"
@@ -16540,9 +16526,7 @@
           "long": "NS",
           "short": "NS",
           "elapsed": null
-        },
-        "timerStart": null,
-        "timerStatus": "PAUSADO"
+        }
       },
       "league": {
         "round": "Regular Season - 32"
@@ -16590,9 +16574,7 @@
           "long": "NS",
           "short": "NS",
           "elapsed": null
-        },
-        "timerStart": null,
-        "timerStatus": "PAUSADO"
+        }
       },
       "league": {
         "round": "Regular Season - 32"
@@ -19477,6 +19459,28 @@
             {
               "rank": 3,
               "team": {
+                "id": 283,
+                "name": "Cruzeiro",
+                "logo": "https://s.sde.globo.com/media/organizations/2021/02/13/cruzeiro_2021.svg"
+              },
+              "points": 54,
+              "goalsDiff": 5,
+              "form": "WWLWW",
+              "description": "Copa Libertadores",
+              "all": {
+                "played": 32,
+                "win": 16,
+                "draw": 6,
+                "lose": 10,
+                "goals": {
+                  "for": 51,
+                  "against": 46
+                }
+              }
+            },
+            {
+              "rank": 4,
+              "team": {
                 "id": 293,
                 "name": "Athletico-PR",
                 "logo": "https://s.sde.globo.com/media/organizations/2026/01/07/Athletico-PR.svg"
@@ -19493,28 +19497,6 @@
                 "goals": {
                   "for": 49,
                   "against": 37
-                }
-              }
-            },
-            {
-              "rank": 4,
-              "team": {
-                "id": 283,
-                "name": "Cruzeiro",
-                "logo": "https://s.sde.globo.com/media/organizations/2021/02/13/cruzeiro_2021.svg"
-              },
-              "points": 51,
-              "goalsDiff": 4,
-              "form": "LWWLW",
-              "description": "Copa Libertadores",
-              "all": {
-                "played": 31,
-                "win": 15,
-                "draw": 6,
-                "lose": 10,
-                "goals": {
-                  "for": 50,
-                  "against": 46
                 }
               }
             },
@@ -19834,17 +19816,17 @@
                 "logo": "https://s.sde.globo.com/media/organizations/2021/02/25/Remo-PA.svg"
               },
               "points": 26,
-              "goalsDiff": -15,
-              "form": "LLDDD",
+              "goalsDiff": -16,
+              "form": "LDDDL",
               "description": "Relegation",
               "all": {
-                "played": 31,
+                "played": 32,
                 "win": 5,
                 "draw": 11,
-                "lose": 15,
+                "lose": 16,
                 "goals": {
                   "for": 34,
-                  "against": 49
+                  "against": 50
                 }
               }
             },
@@ -20981,10 +20963,10 @@
   "budget": {
     "used": 0,
     "remaining": 100,
-    "mode": "prematch",
-    "liveIntervalMs": 120000
+    "mode": "idle",
+    "liveIntervalMs": 900000
   },
-  "fetchedAt": "2026-10-23T22:39:18.976Z",
+  "fetchedAt": "2026-10-24T01:08:12.720Z",
   "source": "ge-globo",
   "meta": {
     "rodada": 32,
@@ -21030,7 +21012,7 @@
       38
     ],
     "seasonSyncedAt": "2026-10-23T22:39:12.481Z",
-    "fullSeasonSync": true,
+    "fullSeasonSync": false,
     "edicao": "Campeonato Brasileiro 2026",
     "provider": "ge.globo.com",
     "scorersCount": 50,
@@ -21041,7 +21023,7 @@
     "tvPreserved": 0,
     "tvAvailable": 343,
     "tvSource": "Onde Assistir — https://ondeassistir.com.br/dados",
-    "tvUpdatedAt": "2026-10-23T22:12:44.464557Z",
+    "tvUpdatedAt": "2026-10-24T00:14:00.986953Z",
     "fixturesCount": 380
   }
 }

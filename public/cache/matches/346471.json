@@ -7,11 +7,11 @@
       "city": ""
     },
     "status": {
-      "long": "NS",
-      "short": "NS",
-      "elapsed": null
+      "long": "1H",
+      "short": "1H",
+      "elapsed": 3
     },
-    "timerStart": null,
+    "timerStart": "2026-10-24T18:00:42.281Z",
     "timerStatus": "PAUSADO"
   },
   "league": {
@@ -30,8 +30,8 @@
     }
   },
   "goals": {
-    "home": null,
-    "away": null
+    "home": 0,
+    "away": 0
   },
   "score": {
     "halftime": {
@@ -49,7 +49,104 @@
     "Premiere"
   ],
   "_geUrl": "https://ge.globo.com/rs/futebol/brasileirao-serie-a/jogo/24-10-2026/internacional-botafogo.ghtml",
-  "events": [],
+  "events": [
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 285,
+        "name": "Internacional"
+      },
+      "type": "Important",
+      "detail": "Tiquinho tenta alcançar a bola e acaba atingindo o joelho do Braian Aguirre. Falta para o Inter logo no início.",
+      "player": {
+        "name": "Tiquinho tenta alcançar a bola e acaba atingindo"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Bola rolando entre Internacional e Botafogo!",
+      "player": {
+        "name": "COMEÇA O JOGO"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 1,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Thiago Maia tenta acionar o Bernabei na velocidade, antes dele, Vitinho chega para mandar para a lateral.",
+      "player": {
+        "name": "Thiago Maia tenta acionar o Bernabei na velocida"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 2,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Bruno Gomes tenta lançamento, mas é travado por Montoro.",
+      "player": {
+        "name": "Bruno Gomes tenta lançamento, mas é travado por "
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 3,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O jogo começa com as duas equipes se estudando muito. Com três minutos de bola rolando, o campo pesado dificulta a troca de passes de Internacional e Botafogo. Tiquinho Soares cometeu falta em Aguirre logo no primeiro lance, e o Inter tenta acionar Bernabéi na velocidade, mas a marcação de Vitinho e Montoro leva a melhor. O placar segue zerado neste início de duelo bastante disputado.",
+      "player": {
+        "name": "Começo amarrado e campo pesado travam as equipes"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 3,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Jogo muito truncado neste início. Campo pesado atrapalha as tentativas de trocas de passes.",
+      "player": {
+        "name": "Jogo muito truncado neste início. Campo pesado a"
+      },
+      "assist": null
+    }
+  ],
   "lineups": [
     {
       "team": {
@@ -109,18 +206,18 @@
         },
         {
           "player": {
-            "id": "thiagomaia",
-            "name": "Thiago Maia",
-            "number": 29,
+            "id": "ronaldo123",
+            "name": "Ronaldo",
+            "number": 16,
             "pos": "Mei",
             "grid": null
           }
         },
         {
           "player": {
-            "id": "ronaldo123",
-            "name": "Ronaldo",
-            "number": 16,
+            "id": "thiagomaia",
+            "name": "Thiago Maia",
+            "number": 29,
             "pos": "Mei",
             "grid": null
           }
@@ -162,7 +259,116 @@
           }
         }
       ],
-      "substitutes": []
+      "substitutes": [
+        {
+          "player": {
+            "id": "filipesirio",
+            "name": "Filipe Sirio",
+            "number": 24,
+            "pos": "Gol",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "henrique-menke",
+            "name": "Henrique Menke",
+            "number": 43,
+            "pos": "Gol",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "victorgabriel",
+            "name": "Victor Gabriel",
+            "number": 41,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "luiz-felipe-morais",
+            "name": "Luiz Felipe",
+            "number": 53,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "brunohenrique",
+            "name": "Bruno Henrique",
+            "number": 8,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "paulinho",
+            "name": "Paulinho",
+            "number": 27,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "calebe-silva",
+            "name": "Calebe",
+            "number": 30,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "allexsilva",
+            "name": "Allex",
+            "number": 31,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "carbonerojo",
+            "name": "Carbonero",
+            "number": 7,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "eliasson",
+            "name": "Eliasson",
+            "number": 17,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "joao-victor",
+            "name": "João Victor",
+            "number": 44,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "joao-bezerra",
+            "name": "João Bezerra",
+            "number": 49,
+            "pos": "Ata",
+            "grid": null
+          }
+        }
+      ]
     },
     {
       "team": {
@@ -231,18 +437,18 @@
         },
         {
           "player": {
-            "id": "danilodossantos",
-            "name": "Danilo",
-            "number": 8,
+            "id": "medinacris",
+            "name": "Medina",
+            "number": 6,
             "pos": "Mei",
             "grid": null
           }
         },
         {
           "player": {
-            "id": "ziyech",
-            "name": "Ziyech",
-            "number": 22,
+            "id": "danilodossantos",
+            "name": "Danilo",
+            "number": 8,
             "pos": "Mei",
             "grid": null
           }
@@ -275,9 +481,271 @@
           }
         }
       ],
-      "substitutes": []
+      "substitutes": [
+        {
+          "player": {
+            "id": "warleson",
+            "name": "Warleson",
+            "number": 17,
+            "pos": "Gol",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "mateoponte",
+            "name": "Mateo Ponte",
+            "number": 4,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "justino",
+            "name": "Justino",
+            "number": 34,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "paulinho-santoandre",
+            "name": "Paulinho",
+            "number": 29,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "huguinho",
+            "name": "Huguinho",
+            "number": 75,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "edenilson2",
+            "name": "Edenílson",
+            "number": 88,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "domingosandra",
+            "name": "Domingos Andrade",
+            "number": 91,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "ziyech",
+            "name": "Ziyech",
+            "number": 22,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "junior-santos",
+            "name": "Júnior Santos",
+            "number": 7,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "arthurcabral",
+            "name": "Arthur Cabral",
+            "number": 19,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "kauan-toledo-0406",
+            "name": "Kauan Toledo",
+            "number": 59,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "danilops",
+            "name": "Danilo Pereira",
+            "number": 90,
+            "pos": "Ata",
+            "grid": null
+          }
+        }
+      ]
     }
   ],
-  "statistics": [],
+  "statistics": [
+    {
+      "team": {
+        "id": 285,
+        "name": "Internacional"
+      },
+      "statistics": [
+        {
+          "type": "Ball Possession",
+          "value": "50%"
+        },
+        {
+          "type": "Total Passes",
+          "value": 8
+        },
+        {
+          "type": "Pass Accuracy",
+          "value": "75%"
+        },
+        {
+          "type": "Incomplete Passes",
+          "value": 2
+        },
+        {
+          "type": "Total Shots",
+          "value": 0
+        },
+        {
+          "type": "Shots on Goal",
+          "value": 0
+        },
+        {
+          "type": "Shots off Goal",
+          "value": 0
+        },
+        {
+          "type": "Blocked Shots",
+          "value": 0
+        },
+        {
+          "type": "Hit Woodwork",
+          "value": 0
+        },
+        {
+          "type": "Corner Kicks",
+          "value": 0
+        },
+        {
+          "type": "Offsides",
+          "value": 0
+        },
+        {
+          "type": "Penalties",
+          "value": 0
+        },
+        {
+          "type": "Goalkeeper Saves",
+          "value": 0
+        },
+        {
+          "type": "Tackles",
+          "value": 0
+        },
+        {
+          "type": "Fouls",
+          "value": 0
+        },
+        {
+          "type": "Yellow Cards",
+          "value": 0
+        },
+        {
+          "type": "Red Cards",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "team": {
+        "id": 263,
+        "name": "Botafogo"
+      },
+      "statistics": [
+        {
+          "type": "Ball Possession",
+          "value": "50%"
+        },
+        {
+          "type": "Total Passes",
+          "value": 5
+        },
+        {
+          "type": "Pass Accuracy",
+          "value": "80%"
+        },
+        {
+          "type": "Incomplete Passes",
+          "value": 1
+        },
+        {
+          "type": "Total Shots",
+          "value": 0
+        },
+        {
+          "type": "Shots on Goal",
+          "value": 0
+        },
+        {
+          "type": "Shots off Goal",
+          "value": 0
+        },
+        {
+          "type": "Blocked Shots",
+          "value": 0
+        },
+        {
+          "type": "Hit Woodwork",
+          "value": 0
+        },
+        {
+          "type": "Corner Kicks",
+          "value": 0
+        },
+        {
+          "type": "Offsides",
+          "value": 0
+        },
+        {
+          "type": "Penalties",
+          "value": 0
+        },
+        {
+          "type": "Goalkeeper Saves",
+          "value": 0
+        },
+        {
+          "type": "Tackles",
+          "value": 0
+        },
+        {
+          "type": "Fouls",
+          "value": 1
+        },
+        {
+          "type": "Yellow Cards",
+          "value": 0
+        },
+        {
+          "type": "Red Cards",
+          "value": 0
+        }
+      ]
+    }
+  ],
   "sportsFieldUrl": null
 }

@@ -7,12 +7,12 @@
       "city": ""
     },
     "status": {
-      "long": "NS",
-      "short": "NS",
-      "elapsed": null
+      "long": "1H",
+      "short": "1H",
+      "elapsed": 7
     },
-    "timerStart": null,
-    "timerStatus": "PAUSADO"
+    "timerStart": "2026-10-24T19:29:52.874Z",
+    "timerStatus": "INICIADO"
   },
   "league": {
     "round": "Regular Season - 32"
@@ -30,8 +30,8 @@
     }
   },
   "goals": {
-    "home": null,
-    "away": null
+    "home": 0,
+    "away": 0
   },
   "score": {
     "halftime": {
@@ -49,7 +49,184 @@
     "Premiere"
   ],
   "_geUrl": "https://ge.globo.com/sp/tem-esporte/futebol/brasileirao-serie-a/jogo/24-10-2026/mirassol-sao-paulo.ghtml",
-  "events": [],
+  "events": [
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Rafael dá chutão para o campo de ataque. Lucas disputa de cabeça, mas Formiga manda para lateral.",
+      "player": {
+        "name": "Rafael dá chutão para o campo de ataque. Lucas d"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Important",
+      "detail": "São Paulo começa a partida com a bola.",
+      "player": {
+        "name": "São Paulo começa a partida com a bola."
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 2305,
+        "name": "Mirassol"
+      },
+      "type": "Important",
+      "detail": "Apita Lucas Casagrande. Bola rolando em Mirassol.",
+      "player": {
+        "name": "Começa o jogo!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 1,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Igor Formiga faz boa jogada pela lateral, finta Bobadilla e ganha o lateral.",
+      "player": {
+        "name": "Igor Formiga faz boa jogada pela lateral, finta "
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 1,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "São Paulo mantém a posse no campo de defesa, enquanto Mirassol sobe a marcação. Iago tenta o lançamento, mas manda sem direção.",
+      "player": {
+        "name": "São Paulo mantém a posse no campo de defesa, enq"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 2,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Arboleda é pressionado no campo de defesa e perde a bola dentro da área. Edson Carioca fica com ela, tenta carregar, mas acaba jogando para tiro de meta.",
+      "player": {
+        "name": "Arboleda é pressionado no campo de defesa e perd"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 3,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "São Paulo sobre a marcação e obriga o Mirassol a trocar passes no campo de defesa.",
+      "player": {
+        "name": "São Paulo sobre a marcação e obriga o Mirassol a"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 3,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O confronto começou movimentado. Nos primeiros 4 minutos, o São Paulo tentou valorizar a posse, mas o Mirassol subiu as linhas e passou a ditar o ritmo. Igor Formiga se destaca pelo lado, e o atacante Edson Carioca quase aproveitou uma roubada de bola sobre Arboleda na área para abrir o placar. Os donos da casa pressionam e o placar segue em 0 a 0.",
+      "player": {
+        "name": "Pressão do Mirassol agita o início de jogo"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 3,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Mirassol fica mais com a bola neste momento. São Paulo fica postado quase todo atrás da linha de meio de campo.",
+      "player": {
+        "name": "Mirassol fica mais com a bola neste momento. São"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 3,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Important",
+      "detail": "Luciano trabalha com Lucas na direita, que ajeita para Djhordney na intermediária. Mesmo longe, o volante arma o chuta e solta uma bomba. A bola sai ao lado da trave esquerda.",
+      "player": {
+        "name": "Djhordney"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 4,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Eduardo se enrola e Marcos Antônio rouba a bola. Luciano recebe na meia-lua, chuta, mas a bola pega na marcação.",
+      "player": {
+        "name": "Eduardo se enrola e Marcos Antônio rouba a bola."
+      },
+      "assist": null
+    }
+  ],
   "lineups": [
     {
       "team": {
@@ -136,9 +313,9 @@
         },
         {
           "player": {
-            "id": "edsoncarioca",
-            "name": "Edson Carioca",
-            "number": 95,
+            "id": "alesson",
+            "name": "Alesson",
+            "number": 77,
             "pos": "Ata",
             "grid": null
           }
@@ -154,15 +331,124 @@
         },
         {
           "player": {
-            "id": "alesson",
-            "name": "Alesson",
-            "number": 77,
+            "id": "edsoncarioca",
+            "name": "Edson Carioca",
+            "number": 95,
             "pos": "Ata",
             "grid": null
           }
         }
       ],
-      "substitutes": []
+      "substitutes": [
+        {
+          "player": {
+            "id": "thomazella",
+            "name": "Thomazella",
+            "number": 90,
+            "pos": "Gol",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "danielborges",
+            "name": "Daniel Borges",
+            "number": 20,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "l-oliveira",
+            "name": "Lucas Oliveira",
+            "number": 2,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "gabriel-knesowitsch",
+            "name": "Gabriel Knesowitsch",
+            "number": 44,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "japa-joao",
+            "name": "Japa",
+            "number": 5,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "wallisson425",
+            "name": "Wallisson",
+            "number": 80,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "shaylon",
+            "name": "Shaylon",
+            "number": 7,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "chico-sorocaba",
+            "name": "Chico Kim",
+            "number": 10,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "fernandinho-jose",
+            "name": "Fernandinho",
+            "number": 17,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "gustavo-mosquito",
+            "name": "Gustavo Mosquito",
+            "number": 19,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "carloseduardoferreira",
+            "name": "Carlos Eduardo",
+            "number": 96,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "zeroberto-bf",
+            "name": "Zé Roberto",
+            "number": 99,
+            "pos": "Ata",
+            "grid": null
+          }
+        }
+      ]
     },
     {
       "team": {
@@ -204,9 +490,9 @@
         },
         {
           "player": {
-            "id": "sabino-monteiro",
-            "name": "Sabino",
-            "number": 35,
+            "id": "luis-osorio",
+            "name": "Osorio",
+            "number": 54,
             "pos": "Def",
             "grid": null
           }
@@ -231,18 +517,18 @@
         },
         {
           "player": {
-            "id": "marcosantonioss",
-            "name": "Marcos Antônio",
-            "number": 8,
+            "id": "djhordney-ferreira",
+            "name": "Djhordney",
+            "number": 48,
             "pos": "Mei",
             "grid": null
           }
         },
         {
           "player": {
-            "id": "lucasmoura",
-            "name": "Lucas Moura",
-            "number": null,
+            "id": "marcosantonioss",
+            "name": "Marcos Antônio",
+            "number": 8,
             "pos": "Mei",
             "grid": null
           }
@@ -258,9 +544,101 @@
         },
         {
           "player": {
+            "id": "lucasmoura",
+            "name": "Lucas Moura",
+            "number": 7,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
             "id": "luciano02",
             "name": "Luciano",
             "number": 10,
+            "pos": "Ata",
+            "grid": null
+          }
+        }
+      ],
+      "substitutes": [
+        {
+          "player": {
+            "id": "coronelcm",
+            "name": "Coronel",
+            "number": 31,
+            "pos": "Gol",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "lucasramon",
+            "name": "Lucas Ramon",
+            "number": 19,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "rafaeltoloi",
+            "name": "Rafael Tolói",
+            "number": 2,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "sabino-monteiro",
+            "name": "Sabino",
+            "number": 35,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "wendell2",
+            "name": "Wendell",
+            "number": 18,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "pablomaia",
+            "name": "Pablo Maia",
+            "number": 29,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "pedro-ferreira",
+            "name": "Pedro Ferreira",
+            "number": 46,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "andresilva",
+            "name": "André Silva",
+            "number": 17,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "victorsa",
+            "name": "Victor Sá",
+            "number": 27,
             "pos": "Ata",
             "grid": null
           }
@@ -273,11 +651,181 @@
             "pos": "Ata",
             "grid": null
           }
+        },
+        {
+          "player": {
+            "id": "lucca",
+            "name": "Lucca",
+            "number": 45,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "RyanFrancisco",
+            "name": "Ryan Francisco",
+            "number": 49,
+            "pos": "Ata",
+            "grid": null
+          }
         }
-      ],
-      "substitutes": []
+      ]
     }
   ],
-  "statistics": [],
+  "statistics": [
+    {
+      "team": {
+        "id": 2305,
+        "name": "Mirassol"
+      },
+      "statistics": [
+        {
+          "type": "Ball Possession",
+          "value": "48%"
+        },
+        {
+          "type": "Total Passes",
+          "value": 33
+        },
+        {
+          "type": "Pass Accuracy",
+          "value": "94%"
+        },
+        {
+          "type": "Incomplete Passes",
+          "value": 2
+        },
+        {
+          "type": "Total Shots",
+          "value": 0
+        },
+        {
+          "type": "Shots on Goal",
+          "value": 0
+        },
+        {
+          "type": "Shots off Goal",
+          "value": 0
+        },
+        {
+          "type": "Blocked Shots",
+          "value": 0
+        },
+        {
+          "type": "Hit Woodwork",
+          "value": 0
+        },
+        {
+          "type": "Corner Kicks",
+          "value": 0
+        },
+        {
+          "type": "Offsides",
+          "value": 0
+        },
+        {
+          "type": "Penalties",
+          "value": 0
+        },
+        {
+          "type": "Goalkeeper Saves",
+          "value": 1
+        },
+        {
+          "type": "Tackles",
+          "value": 0
+        },
+        {
+          "type": "Fouls",
+          "value": 1
+        },
+        {
+          "type": "Yellow Cards",
+          "value": 0
+        },
+        {
+          "type": "Red Cards",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "statistics": [
+        {
+          "type": "Ball Possession",
+          "value": "52%"
+        },
+        {
+          "type": "Total Passes",
+          "value": 24
+        },
+        {
+          "type": "Pass Accuracy",
+          "value": "83%"
+        },
+        {
+          "type": "Incomplete Passes",
+          "value": 4
+        },
+        {
+          "type": "Total Shots",
+          "value": 2
+        },
+        {
+          "type": "Shots on Goal",
+          "value": 0
+        },
+        {
+          "type": "Shots off Goal",
+          "value": 1
+        },
+        {
+          "type": "Blocked Shots",
+          "value": 1
+        },
+        {
+          "type": "Hit Woodwork",
+          "value": 0
+        },
+        {
+          "type": "Corner Kicks",
+          "value": 0
+        },
+        {
+          "type": "Offsides",
+          "value": 0
+        },
+        {
+          "type": "Penalties",
+          "value": 0
+        },
+        {
+          "type": "Goalkeeper Saves",
+          "value": 0
+        },
+        {
+          "type": "Tackles",
+          "value": 2
+        },
+        {
+          "type": "Fouls",
+          "value": 1
+        },
+        {
+          "type": "Yellow Cards",
+          "value": 0
+        },
+        {
+          "type": "Red Cards",
+          "value": 0
+        }
+      ]
+    }
+  ],
   "sportsFieldUrl": null
 }

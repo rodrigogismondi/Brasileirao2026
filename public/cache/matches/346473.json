@@ -7,12 +7,12 @@
       "city": ""
     },
     "status": {
-      "long": "NS",
-      "short": "NS",
-      "elapsed": null
+      "long": "1H",
+      "short": "1H",
+      "elapsed": 7
     },
-    "timerStart": null,
-    "timerStatus": "PAUSADO"
+    "timerStart": "2026-10-24T19:30:30.391Z",
+    "timerStatus": "INICIADO"
   },
   "league": {
     "round": "Regular Season - 32"
@@ -30,8 +30,8 @@
     }
   },
   "goals": {
-    "home": null,
-    "away": null
+    "home": 0,
+    "away": 0
   },
   "score": {
     "halftime": {
@@ -54,7 +54,74 @@
     "Premiere"
   ],
   "_geUrl": "https://ge.globo.com/ba/futebol/brasileirao-serie-a/jogo/24-10-2026/vitoria-atletico-pr.ghtml",
-  "events": [],
+  "events": [
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Começa o jogo no Barradão! Saída do Athletico.",
+      "player": {
+        "name": "Bola rolando!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 1,
+        "extra": null
+      },
+      "team": {
+        "id": 287,
+        "name": "Vitória"
+      },
+      "type": "Important",
+      "detail": "João Cruz divide com Brítez e arbitragem marca a primeira falta do jogo. Oportunidade de bola parada no ataque para o Vitória.",
+      "player": {
+        "name": "Brítez"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 2,
+        "extra": null
+      },
+      "team": {
+        "id": 287,
+        "name": "Vitória"
+      },
+      "type": "Important",
+      "detail": "Mateus Silva cobra a falta pelo lado direito do ataque e Matheuzinho sobe para cabecear para dentro do gol. Arbitragem marca impedimento de Luan Cândido no lance.",
+      "player": {
+        "name": "Matheuzinho"
+      },
+      "assist": {
+        "name": "Gol, mas não valeu!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 4,
+        "extra": null
+      },
+      "team": {
+        "id": 287,
+        "name": "Vitória"
+      },
+      "type": "Important",
+      "detail": "João Cruz recebe a bola pelo lado direito, toca para Luiz Gustavo, que busca Kevin Viveros, mas defesa do Vitória corta.",
+      "player": {
+        "name": "Luiz Gustavo"
+      },
+      "assist": null
+    }
+  ],
   "lineups": [
     {
       "team": {
@@ -87,9 +154,9 @@
         },
         {
           "player": {
-            "id": "caca-menezes",
-            "name": "Cacá",
-            "number": 25,
+            "id": "emabritez",
+            "name": "Brítez",
+            "number": 2,
             "pos": "Def",
             "grid": null
           }
@@ -167,7 +234,116 @@
           }
         }
       ],
-      "substitutes": []
+      "substitutes": [
+        {
+          "player": {
+            "id": "yuri-sena",
+            "name": "Yuri Sena",
+            "number": 71,
+            "pos": "Gol",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "darlan-dutra",
+            "name": "Darlan Dutra",
+            "number": 3,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "edenilsonsnf",
+            "name": "Edenílson",
+            "number": 26,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "walace-gremio",
+            "name": "Walace",
+            "number": 15,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "ze-vitor-neves",
+            "name": "Zé Vitor",
+            "number": 88,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "pochettino",
+            "name": "Pochettino",
+            "number": 8,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "marinho2",
+            "name": "Marinho",
+            "number": 7,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "alexbruno-vitoriape",
+            "name": "Alex Bruno",
+            "number": 9,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "osvaldo6",
+            "name": "Osvaldo",
+            "number": 11,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "lucas-rodrigues",
+            "name": "Lucas Silva",
+            "number": 20,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "fabriciosds",
+            "name": "Fabri",
+            "number": 23,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "laquintana",
+            "name": "Laquintana",
+            "number": 77,
+            "pos": "Ata",
+            "grid": null
+          }
+        }
+      ]
     },
     {
       "team": {
@@ -175,7 +351,7 @@
         "name": "Athletico-PR",
         "logo": "https://s.sde.globo.com/media/organizations/2026/01/07/Athletico-PR.svg"
       },
-      "formation": "3-6-1",
+      "formation": "3-5-2",
       "coach": {
         "name": "Odair Hellmann"
       },
@@ -227,15 +403,6 @@
         },
         {
           "player": {
-            "id": "jadson16",
-            "name": "Jadson",
-            "number": 16,
-            "pos": "Mei",
-            "grid": null
-          }
-        },
-        {
-          "player": {
             "id": "luizgustavo",
             "name": "Luiz Gustavo",
             "number": 14,
@@ -245,9 +412,9 @@
         },
         {
           "player": {
-            "id": "leozinho",
-            "name": "Leozinho",
-            "number": 21,
+            "id": "jadson16",
+            "name": "Jadson",
+            "number": 16,
             "pos": "Mei",
             "grid": null
           }
@@ -272,6 +439,15 @@
         },
         {
           "player": {
+            "id": "leozinho",
+            "name": "Leozinho",
+            "number": 21,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
             "id": "ksviveros",
             "name": "Viveros",
             "number": 9,
@@ -280,9 +456,271 @@
           }
         }
       ],
-      "substitutes": []
+      "substitutes": [
+        {
+          "player": {
+            "id": "santos6",
+            "name": "Santos",
+            "number": 23,
+            "pos": "Gol",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "gilberto-junior",
+            "name": "Gilberto Junior",
+            "number": 2,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "alemao",
+            "name": "Kauan Alemão",
+            "number": 15,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "leopele",
+            "name": "Léo",
+            "number": 3,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "leonardoderik",
+            "name": "Léo Derik",
+            "number": 6,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "filipinhocs",
+            "name": "Felipinho",
+            "number": 5,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "juan-portilla",
+            "name": "Portilla",
+            "number": 27,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "zapelli",
+            "name": "Zapelli",
+            "number": 10,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "chiqueti-felipe",
+            "name": "Felipe Chiqueti",
+            "number": 47,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "dudu",
+            "name": "Dudu",
+            "number": 53,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "jorgerivaldo",
+            "name": "Jorge Rivaldo",
+            "number": 19,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "renanpn",
+            "name": "Renan Peixoto",
+            "number": 70,
+            "pos": "Ata",
+            "grid": null
+          }
+        }
+      ]
     }
   ],
-  "statistics": [],
+  "statistics": [
+    {
+      "team": {
+        "id": 287,
+        "name": "Vitória"
+      },
+      "statistics": [
+        {
+          "type": "Ball Possession",
+          "value": "50%"
+        },
+        {
+          "type": "Total Passes",
+          "value": 12
+        },
+        {
+          "type": "Pass Accuracy",
+          "value": "75%"
+        },
+        {
+          "type": "Incomplete Passes",
+          "value": 3
+        },
+        {
+          "type": "Total Shots",
+          "value": 0
+        },
+        {
+          "type": "Shots on Goal",
+          "value": 0
+        },
+        {
+          "type": "Shots off Goal",
+          "value": 0
+        },
+        {
+          "type": "Blocked Shots",
+          "value": 0
+        },
+        {
+          "type": "Hit Woodwork",
+          "value": 0
+        },
+        {
+          "type": "Corner Kicks",
+          "value": 0
+        },
+        {
+          "type": "Offsides",
+          "value": 0
+        },
+        {
+          "type": "Penalties",
+          "value": 0
+        },
+        {
+          "type": "Goalkeeper Saves",
+          "value": 0
+        },
+        {
+          "type": "Tackles",
+          "value": 0
+        },
+        {
+          "type": "Fouls",
+          "value": 0
+        },
+        {
+          "type": "Yellow Cards",
+          "value": 0
+        },
+        {
+          "type": "Red Cards",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "team": {
+        "id": 293,
+        "name": "Athletico-PR"
+      },
+      "statistics": [
+        {
+          "type": "Ball Possession",
+          "value": "50%"
+        },
+        {
+          "type": "Total Passes",
+          "value": 10
+        },
+        {
+          "type": "Pass Accuracy",
+          "value": "60%"
+        },
+        {
+          "type": "Incomplete Passes",
+          "value": 4
+        },
+        {
+          "type": "Total Shots",
+          "value": 0
+        },
+        {
+          "type": "Shots on Goal",
+          "value": 0
+        },
+        {
+          "type": "Shots off Goal",
+          "value": 0
+        },
+        {
+          "type": "Blocked Shots",
+          "value": 0
+        },
+        {
+          "type": "Hit Woodwork",
+          "value": 0
+        },
+        {
+          "type": "Corner Kicks",
+          "value": 0
+        },
+        {
+          "type": "Offsides",
+          "value": 0
+        },
+        {
+          "type": "Penalties",
+          "value": 0
+        },
+        {
+          "type": "Goalkeeper Saves",
+          "value": 0
+        },
+        {
+          "type": "Tackles",
+          "value": 0
+        },
+        {
+          "type": "Fouls",
+          "value": 0
+        },
+        {
+          "type": "Yellow Cards",
+          "value": 0
+        },
+        {
+          "type": "Red Cards",
+          "value": 0
+        }
+      ]
+    }
+  ],
   "sportsFieldUrl": null
 }

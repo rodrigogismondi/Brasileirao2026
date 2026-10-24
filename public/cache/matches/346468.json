@@ -7,12 +7,12 @@
       "city": ""
     },
     "status": {
-      "long": "NS",
-      "short": "NS",
-      "elapsed": null
+      "long": "1H",
+      "short": "1H",
+      "elapsed": 22
     },
-    "timerStart": null,
-    "timerStatus": "PAUSADO"
+    "timerStart": "2026-10-24T21:31:09.009Z",
+    "timerStatus": "INICIADO"
   },
   "league": {
     "round": "Regular Season - 32"
@@ -30,8 +30,8 @@
     }
   },
   "goals": {
-    "home": null,
-    "away": null
+    "home": 1,
+    "away": 0
   },
   "score": {
     "halftime": {
@@ -48,7 +48,232 @@
     "Premiere"
   ],
   "_geUrl": "https://ge.globo.com/sp/vale-do-paraiba-regiao/futebol/brasileirao-serie-a/jogo/24-10-2026/palmeiras-bragantino.ghtml",
-  "events": [],
+  "events": [
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 275,
+        "name": "Palmeiras"
+      },
+      "type": "Important",
+      "detail": "O Palmeiras dá o pontapé inicial.",
+      "player": {
+        "name": "COMEÇA O JOGO!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 2,
+        "extra": null
+      },
+      "team": {
+        "id": 275,
+        "name": "Palmeiras"
+      },
+      "type": "Important",
+      "detail": "Palmeiras chega com perigo, mas lance é anulado por impedimento.",
+      "player": {
+        "name": "Palmeiras chega com perigo, mas lance é anulado "
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 4,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O duelo começou agitado e segue empatado em 0 a 0. Com apenas quatro minutos jogados, o Palmeiras tomou a iniciativa e partiu para a pressão. Após ter um ataque perigoso anulado por impedimento, o time da casa quase abriu o placar com Arthur, que soltou uma pancada de fora da área para grande defesa de Tiago Volpi. O Bragantino busca equilibrar e já ganhou escanteio no ataque.",
+      "player": {
+        "name": "Palmeiras pressiona no início e Volpi salva"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 4,
+        "extra": null
+      },
+      "team": {
+        "id": 275,
+        "name": "Palmeiras"
+      },
+      "type": "Important",
+      "detail": "Arthur arrisca o chute de fora da área, mas Tiago Volpi faz a defesa e evita o gol do Palmeiras.",
+      "player": {
+        "name": "DEFENDE VOLPI!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 5,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Sosa e Arias puxam a jogada em velocidade, mas a defesa do Bragantino consegue o corte no limite e manda para escanteio.",
+      "player": {
+        "name": "Palmeiras chega no contra-ataque!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 7,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O confronto começou em ritmo acelerado. Com apenas sete minutos de bola rolando, o Palmeiras dita as ações e já criou boas oportunidades, assustando em um lance impedido e na forte finalização de fora da área de Arthur, defendida por Tiago Volpi. O Bragantino se defende das investidas e tenta responder na velocidade, conquistando escanteio com Isidro Pitta.",
+      "player": {
+        "name": "Palmeiras pressiona, mas Bragantino resiste"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 7,
+        "extra": null
+      },
+      "team": {
+        "id": 280,
+        "name": "Bragantino"
+      },
+      "type": "Important",
+      "detail": "O Bragantino responde em velocidade, e Isidro Pitta consegue ganhar o escanteio para o Massa Bruta.",
+      "player": {
+        "name": "O Bragantino responde em velocidade, e Isidro Pi"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 8,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Maurício arrisca o chute de fora da área e leva perigo ao gol de Tiago Volpi. A bola passa perto da trave!",
+      "player": {
+        "name": "UUUUUUUH"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 11,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O duelo começou movimentado e com o Palmeiras buscando o ataque. Nos primeiros 11 minutos, Arthur exigiu boa defesa de Tiago Volpi e Maurício quase abriu o placar em chute de fora da área. O Bragantino tenta responder na velocidade de Isidro Pitta, que já cavou escanteios para equilibrar as ações. Um início intenso e sem espaço para respirar, mas que segue empatado por zero a zero.",
+      "player": {
+        "name": "Palmeiras pressiona, mas Bragantino resiste"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 11,
+        "extra": null
+      },
+      "team": {
+        "id": 280,
+        "name": "Bragantino"
+      },
+      "type": "Important",
+      "detail": "Escanteio para o Bragantino.",
+      "player": {
+        "name": "Escanteio para o Bragantino."
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 14,
+        "extra": null
+      },
+      "team": {
+        "id": 275,
+        "name": "Palmeiras"
+      },
+      "type": "Important",
+      "detail": "Escanteio para o Palmeiras.",
+      "player": {
+        "name": "Escanteio para o Palmeiras."
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 14,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Com 14 minutos de jogo, o confronto começa em ritmo acelerado. O Palmeiras tomou a iniciativa e quase abriu o placar com Arthur, que parou em grande defesa de Tiago Volpi, e com Maurício, em chute rente à trave. O Bragantino não se assustou e equilibrou as ações na velocidade de Isidro Pitta, assustando em finalização de Ryan de fora da área. Placar zerado e jogo muito aberto.",
+      "player": {
+        "name": "Início quente e chances para os dois lados"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 14,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Ryan arrisca a finalização de fora da área.",
+      "player": {
+        "name": "Ryan arrisca a finalização de fora da área."
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 18,
+        "extra": null
+      },
+      "team": {
+        "id": 275,
+        "name": "Palmeiras"
+      },
+      "type": "Important",
+      "detail": "Sosa manda a bola para o fundo das redes, mas a arbitragem marca impedimento e invalida o gol do Verdão.",
+      "player": {
+        "name": "GOL ANULADO DO PALMEIRAS!"
+      },
+      "assist": null
+    }
+  ],
   "lineups": [
     {
       "team": {
@@ -72,9 +297,9 @@
         },
         {
           "player": {
-            "id": "murilocerqueira",
-            "name": "Murilo",
-            "number": 26,
+            "id": "bruno-fuchs",
+            "name": "Bruno Fuchs",
+            "number": 3,
             "pos": "Def",
             "grid": null
           }
@@ -153,6 +378,116 @@
         },
         {
           "player": {
+            "id": "ramonsosa",
+            "name": "Ramón Sosa",
+            "number": 19,
+            "pos": "Ata",
+            "grid": null
+          }
+        }
+      ],
+      "substitutes": [
+        {
+          "player": {
+            "id": "marcelolomba",
+            "name": "Marcelo Lomba",
+            "number": 14,
+            "pos": "Gol",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "bruno-bertinato",
+            "name": "Bruno Bertinato",
+            "number": 21,
+            "pos": "Gol",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "khellven",
+            "name": "Khellven",
+            "number": 12,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "murilocerqueira",
+            "name": "Murilo",
+            "number": 26,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "Benedetti",
+            "name": "Benedetti",
+            "number": 43,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "emilianomartinezt",
+            "name": "Emiliano Martínez",
+            "number": 32,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "Larson-Torna",
+            "name": "Larson",
+            "number": 48,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "luis-pacheco",
+            "name": "Luis Pacheco",
+            "number": 50,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "felipeanderson",
+            "name": "Felipe Anderson",
+            "number": 7,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "bele",
+            "name": "Belé",
+            "number": 45,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "Fabiano",
+            "name": "Fabiano",
+            "number": 37,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
             "id": "joselopez",
             "name": "Flaco López",
             "number": 42,
@@ -160,8 +495,7 @@
             "grid": null
           }
         }
-      ],
-      "substitutes": []
+      ]
     },
     {
       "team": {
@@ -221,15 +555,6 @@
         },
         {
           "player": {
-            "id": "gabriel41",
-            "name": "Gabriel",
-            "number": 6,
-            "pos": "Mei",
-            "grid": null
-          }
-        },
-        {
-          "player": {
             "id": "fabinho-freitas",
             "name": "Fabinho",
             "number": 5,
@@ -239,9 +564,9 @@
         },
         {
           "player": {
-            "id": "wallace-yan",
-            "name": "Wallace Yan",
-            "number": 47,
+            "id": "matheusfernandes",
+            "name": "Matheus Fernandes",
+            "number": 35,
             "pos": "Mei",
             "grid": null
           }
@@ -251,15 +576,24 @@
             "id": "lucas-barbosa",
             "name": "Lucas Barbosa",
             "number": 21,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "joseherrerama",
+            "name": "Herrera",
+            "number": 32,
             "pos": "Ata",
             "grid": null
           }
         },
         {
           "player": {
-            "id": "eduardosasha",
-            "name": "Eduardo Sasha",
-            "number": 8,
+            "id": "pittais",
+            "name": "Isidro Pitta",
+            "number": 9,
             "pos": "Ata",
             "grid": null
           }
@@ -274,9 +608,271 @@
           }
         }
       ],
-      "substitutes": []
+      "substitutes": [
+        {
+          "player": {
+            "id": "cleiton-schwengber",
+            "name": "Cleiton",
+            "number": 1,
+            "pos": "Gol",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "gustareisalca",
+            "name": "Gustavo Reis",
+            "number": 56,
+            "pos": "Gol",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "santanna",
+            "name": "Sant'Anna",
+            "number": 23,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "eduardomendes",
+            "name": "Eduardo Santos",
+            "number": 3,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "vanderlan",
+            "name": "Vanderlan",
+            "number": 12,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "gabriel41",
+            "name": "Gabriel",
+            "number": 6,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "IgnacioSosa",
+            "name": "Ignacio Sosa",
+            "number": 15,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "bruninho-bragantino",
+            "name": "Bruninho",
+            "number": 19,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "marcelinho-braz",
+            "name": "Marcelinho",
+            "number": 57,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "eduardosasha",
+            "name": "Eduardo Sasha",
+            "number": 8,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "vinicius-calvas",
+            "name": "Vinicinho",
+            "number": 17,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "wallace-yan",
+            "name": "Wallace Yan",
+            "number": 47,
+            "pos": "Ata",
+            "grid": null
+          }
+        }
+      ]
     }
   ],
-  "statistics": [],
+  "statistics": [
+    {
+      "team": {
+        "id": 275,
+        "name": "Palmeiras"
+      },
+      "statistics": [
+        {
+          "type": "Ball Possession",
+          "value": "55%"
+        },
+        {
+          "type": "Total Passes",
+          "value": 106
+        },
+        {
+          "type": "Pass Accuracy",
+          "value": "86%"
+        },
+        {
+          "type": "Incomplete Passes",
+          "value": 15
+        },
+        {
+          "type": "Total Shots",
+          "value": 5
+        },
+        {
+          "type": "Shots on Goal",
+          "value": 1
+        },
+        {
+          "type": "Shots off Goal",
+          "value": 3
+        },
+        {
+          "type": "Blocked Shots",
+          "value": 1
+        },
+        {
+          "type": "Hit Woodwork",
+          "value": 0
+        },
+        {
+          "type": "Corner Kicks",
+          "value": 2
+        },
+        {
+          "type": "Offsides",
+          "value": 1
+        },
+        {
+          "type": "Penalties",
+          "value": 0
+        },
+        {
+          "type": "Goalkeeper Saves",
+          "value": 1
+        },
+        {
+          "type": "Tackles",
+          "value": 5
+        },
+        {
+          "type": "Fouls",
+          "value": 0
+        },
+        {
+          "type": "Yellow Cards",
+          "value": 0
+        },
+        {
+          "type": "Red Cards",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "team": {
+        "id": 280,
+        "name": "Bragantino"
+      },
+      "statistics": [
+        {
+          "type": "Ball Possession",
+          "value": "45%"
+        },
+        {
+          "type": "Total Passes",
+          "value": 79
+        },
+        {
+          "type": "Pass Accuracy",
+          "value": "80%"
+        },
+        {
+          "type": "Incomplete Passes",
+          "value": 16
+        },
+        {
+          "type": "Total Shots",
+          "value": 2
+        },
+        {
+          "type": "Shots on Goal",
+          "value": 0
+        },
+        {
+          "type": "Shots off Goal",
+          "value": 1
+        },
+        {
+          "type": "Blocked Shots",
+          "value": 1
+        },
+        {
+          "type": "Hit Woodwork",
+          "value": 0
+        },
+        {
+          "type": "Corner Kicks",
+          "value": 4
+        },
+        {
+          "type": "Offsides",
+          "value": 0
+        },
+        {
+          "type": "Penalties",
+          "value": 0
+        },
+        {
+          "type": "Goalkeeper Saves",
+          "value": 3
+        },
+        {
+          "type": "Tackles",
+          "value": 2
+        },
+        {
+          "type": "Fouls",
+          "value": 1
+        },
+        {
+          "type": "Yellow Cards",
+          "value": 0
+        },
+        {
+          "type": "Red Cards",
+          "value": 0
+        }
+      ]
+    }
+  ],
   "sportsFieldUrl": null
 }

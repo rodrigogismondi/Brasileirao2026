@@ -7,12 +7,12 @@
       "city": ""
     },
     "status": {
-      "long": "NS",
-      "short": "NS",
-      "elapsed": null
+      "long": "1H",
+      "short": "1H",
+      "elapsed": 23
     },
-    "timerStart": null,
-    "timerStatus": "PAUSADO"
+    "timerStart": "2026-10-24T21:30:29.639Z",
+    "timerStatus": "INICIADO"
   },
   "league": {
     "round": "Regular Season - 32"
@@ -30,8 +30,8 @@
     }
   },
   "goals": {
-    "home": null,
-    "away": null
+    "home": 0,
+    "away": 0
   },
   "score": {
     "halftime": {
@@ -49,7 +49,360 @@
     "Premiere"
   ],
   "_geUrl": "https://ge.globo.com/rj/futebol/brasileirao-serie-a/jogo/24-10-2026/vasco-corinthians.ghtml",
-  "events": [],
+  "events": [
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Começa o jogo!",
+      "player": {
+        "name": "BOLA ROLANDO!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 1,
+        "extra": null
+      },
+      "team": {
+        "id": 264,
+        "name": "Corinthians"
+      },
+      "type": "Important",
+      "detail": "Andrés Gómez e Angileri disputam uma bola na linha de fundo, mas o lateral do Corinthians protege bem e ganha o tiro de meta.",
+      "player": {
+        "name": "Andrés Gómez e Angileri disputam uma bola na lin"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 2,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Após jogada de Yuri Alberto na esquerda, a bola fica com Garro na ponta esquerda da grande área. O argentino cruza alto, e Matheus Bidu escora de cabeça. Léo Jardim fica com ela.",
+      "player": {
+        "name": "Após jogada de Yuri Alberto na esquerda, a bola "
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 3,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Com quase 4 minutos de jogo, o Corinthians toma a iniciativa e pressiona o Vasco. Após investida de Yuri Alberto, Garro cruzou para Matheus Bidu cabecear e exigir a primeira defesa de Léo Jardim. Pouco depois, André fez boa jogada pela esquerda, mas Robert Renan apareceu bem para cortar de carrinho e mandar para escanteio. O placar segue 0 a 0 nesse começo de partida acelerado.",
+      "player": {
+        "name": "Início movimentado com Corinthians no ataque"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 3,
+        "extra": null
+      },
+      "team": {
+        "id": 264,
+        "name": "Corinthians"
+      },
+      "type": "Important",
+      "detail": "André faz boa jogada pela esquerda, passa por Sosa e tenta uma bola enfiada, mas Robert Renan dá um carrinho para cortar. Escanteio para o Corinthians.",
+      "player": {
+        "name": "André faz boa jogada pela esquerda, passa por So"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 4,
+        "extra": null
+      },
+      "team": {
+        "id": 267,
+        "name": "Vasco"
+      },
+      "type": "Important",
+      "detail": "O escanteio é cobrado alto na área, e a defesa do Vasco consegue afastar o perigo. Na sobra, Garro cruza outra bola na área, e André tenta subir para cabecear, mas não consegue acertar a bola.",
+      "player": {
+        "name": "O escanteio é cobrado alto na área, e a defesa d"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 6,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "A bola rolou e o confronto começou bem movimentado. O Corinthians tomou a iniciativa e, aos 2 minutos, Matheus Bidu cabeceou para a defesa de Léo Jardim. Os visitantes seguiram pressionando com cruzamentos, mas aos 6 minutos o Vasco respondeu com perigo: Thiago Mendes enfiou para Bruno Duarte finalizar, parando em Hugo Souza, em lance que já não valia por impedimento.",
+      "player": {
+        "name": "Corinthians ataca e Vasco assusta no começo"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 6,
+        "extra": null
+      },
+      "team": {
+        "id": 267,
+        "name": "Vasco"
+      },
+      "type": "Important",
+      "detail": "Thiago Mendes enfia um passe para Bruno Duarte, que aparece entre os zagueiros e finaliza cruzado, obrigando Hugo Souza a defender, mas a arbitragem marca posição de impedimento do atacante vascaíno.",
+      "player": {
+        "name": "Bruno Duarte"
+      },
+      "assist": {
+        "name": "NÃO VALEU!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 7,
+        "extra": null
+      },
+      "team": {
+        "id": 267,
+        "name": "Vasco"
+      },
+      "type": "Important",
+      "detail": "O Vasco tenta um lançamento longo, e Colidio quase chega na bola, mas Matheuzinho toca de cabeça e recua para Hugo Souza.",
+      "player": {
+        "name": "O Vasco tenta um lançamento longo, e Colidio qua"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 8,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Com apenas oito minutos de jogo, Vasco e Corinthians fazem um início movimentado. O Corinthians assustou primeiro em cabeçada de Matheus Bidu que Léo Jardim defendeu. O Vasco respondeu logo depois: primeiro com Bruno Duarte em lance de impedimento, e em seguida com finalização de Colidio na área, parando em uma excelente defesa de Hugo Souza para manter o placar zerado.",
+      "player": {
+        "name": "Hugo Souza brilha e evita gol do Vasco no início"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 8,
+        "extra": null
+      },
+      "team": {
+        "id": 267,
+        "name": "Vasco"
+      },
+      "type": "Important",
+      "detail": "Gómez arranca pela direita, cruza rasteiro para a área e Colidio chega finalizando, mas Hugo Souza faz ótima defesa!",
+      "player": {
+        "name": "Colidio"
+      },
+      "assist": {
+        "name": "QUE DEFESA!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 10,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Após 10 minutos de jogo, o duelo começou bastante movimentado. O Corinthians tentou assustar primeiro em cabeçada de Matheus Bidu defendida por Léo Jardim. Logo depois, o Vasco assumiu as rédeas e criou as melhores chances: primeiro, Hugo Souza fez grande defesa em chute de Colidio e, logo na sequência, Puma Rodríguez finalizou cruzado com perigo para fora. O placar segue zerado.",
+      "player": {
+        "name": "Pressão do Vasco agita o início de jogo"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 10,
+        "extra": null
+      },
+      "team": {
+        "id": 267,
+        "name": "Vasco"
+      },
+      "type": "Important",
+      "detail": "Gómez fica com a bola na grande área, dá um toquinho para Puma, que bate cruzado, mas para fora! O Vasco chega com perigo mais uma vez!",
+      "player": {
+        "name": "Puma Rodríguez"
+      },
+      "assist": {
+        "name": "CHEGA O VASCO!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 12,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Após cortar uma bola, Matheuzinho fica sentindo o joelho no gramado.",
+      "player": {
+        "name": "Após cortar uma bola, Matheuzinho fica sentindo "
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 13,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Após 13 minutos de bola rolando, a partida começou movimentada. O Corinthians tomou a iniciativa com jogadas de Garro e Yuri Alberto, mas foi o Vasco quem assustou para valer. Andrés Gómez acionou Colidio, que parou em grande defesa de Hugo Souza, e depois Puma Rodríguez bateu cruzado com perigo. No fim, Léo Jardim ainda teve que sair da área para abafar o contra-ataque paulista.",
+      "player": {
+        "name": "Vasco e Corinthians começam em ritmo acelerado"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 13,
+        "extra": null
+      },
+      "team": {
+        "id": 267,
+        "name": "Vasco"
+      },
+      "type": "Important",
+      "detail": "Yuri Alberto recebe um lançamento em profundidade, tenta arrancar, mas Léo Jardim sai da área e afasta!",
+      "player": {
+        "name": "Léo Jardim"
+      },
+      "assist": {
+        "name": "LIGADO NO JOGO"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 14,
+        "extra": null
+      },
+      "team": {
+        "id": 267,
+        "name": "Vasco"
+      },
+      "type": "Important",
+      "detail": "Bruno Duarte recebe um passe enfiado, sai cara a cara com Hugo Souza, mas a arbitragem marca impedimento.",
+      "player": {
+        "name": "Bruno Duarte"
+      },
+      "assist": {
+        "name": "SUBIU A BANDEIRA"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 16,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Após os primeiros 16 minutos, Vasco e Corinthians empatam em 0 a 0 em um duelo bastante movimentado. O time paulista levou perigo pelo alto e em escapada com Yuri Alberto. Já o Vasco respondeu com força: Colidio parou em grande defesa de Hugo Souza, e Puma Rodríguez bateu cruzado para fora. O confronto segue aberto, veloz e com boas chances criadas de lado a lado.",
+      "player": {
+        "name": "Lá e cá: Vasco e Corinthians começam no ataque"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 16,
+        "extra": null
+      },
+      "team": {
+        "id": 264,
+        "name": "Corinthians"
+      },
+      "type": "Important",
+      "detail": "Bidon lança Yuri Alberto na área, o centroavante domina, mas não alcança a bola para finalizar. Léo Jardim se atrapalha com a bola, que sobra viva na grande área, mas Dieguinho comete falta de ataque!",
+      "player": {
+        "name": "Yuri Alberto"
+      },
+      "assist": {
+        "name": "QUE CHANCE!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 18,
+        "extra": null
+      },
+      "team": {
+        "id": 267,
+        "name": "Vasco"
+      },
+      "type": "Important",
+      "detail": "O colombiano Andrés Gómez sente uma lesão muscular. O Vasco fica com dez em campo no momento.",
+      "player": {
+        "name": "Andrés Gómez"
+      },
+      "assist": {
+        "name": "PREOCUPAÇÃO"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 18,
+        "extra": null
+      },
+      "team": {
+        "id": 267,
+        "name": "Vasco"
+      },
+      "type": "Important",
+      "detail": "O colombiano Andrés Gómez sente uma lesão muscular e deixa o campo. Vasco com dez jogadores no momento.",
+      "player": {
+        "name": "Andrés Gómez"
+      },
+      "assist": {
+        "name": "PREOCUPAÇÃO"
+      }
+    }
+  ],
   "lineups": [
     {
       "team": {
@@ -75,16 +428,16 @@
           "player": {
             "id": "joserodriguezlu",
             "name": "Puma Rodríguez",
-            "number": null,
+            "number": 2,
             "pos": "Def",
             "grid": null
           }
         },
         {
           "player": {
-            "id": "gabrielpereira0500",
-            "name": "Gabriel Pereira",
-            "number": null,
+            "id": "saldivia",
+            "name": "Saldivia",
+            "number": 4,
             "pos": "Def",
             "grid": null
           }
@@ -145,9 +498,110 @@
         },
         {
           "player": {
+            "id": "brunoduartesil",
+            "name": "Bruno Duarte",
+            "number": 19,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
             "id": "colidio",
             "name": "Colidio",
             "number": 9,
+            "pos": "Ata",
+            "grid": null
+          }
+        }
+      ],
+      "substitutes": [
+        {
+          "player": {
+            "id": "danielfuzato",
+            "name": "Daniel Fuzato",
+            "number": 13,
+            "pos": "Gol",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "paulohenrique-parana",
+            "name": "Paulo Henrique",
+            "number": 96,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "gabrielpereira0500",
+            "name": "Gabriel Pereira",
+            "number": 55,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "lucasfreitas",
+            "name": "Lucas Freitas",
+            "number": 43,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "lucas-piton",
+            "name": "Lucas Piton",
+            "number": 6,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "tche-tche",
+            "name": "Tchê Tchê",
+            "number": 3,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "jairrodrigues",
+            "name": "Jair",
+            "number": 8,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "ramon-rique",
+            "name": "Ramon Rique",
+            "number": 83,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "nuno-moreira",
+            "name": "Nuno Moreira",
+            "number": 17,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "david1234",
+            "name": "David",
+            "number": 7,
             "pos": "Ata",
             "grid": null
           }
@@ -156,13 +610,21 @@
           "player": {
             "id": "marinohin",
             "name": "Marino Hinestroza",
-            "number": null,
+            "number": 18,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "brenner111111",
+            "name": "Brenner",
+            "number": 20,
             "pos": "Ata",
             "grid": null
           }
         }
-      ],
-      "substitutes": []
+      ]
     },
     {
       "team": {
@@ -249,9 +711,9 @@
         },
         {
           "player": {
-            "id": "kaiocesar-lima",
-            "name": "Kaio César",
-            "number": 37,
+            "id": "dieguinho-lopes",
+            "name": "Dieguinho",
+            "number": 61,
             "pos": "Ata",
             "grid": null
           }
@@ -267,17 +729,279 @@
         },
         {
           "player": {
-            "id": "lingard",
-            "name": "Lingard",
-            "number": 77,
+            "id": "bidumat",
+            "name": "Matheus Bidu",
+            "number": 21,
             "pos": "Ata",
             "grid": null
           }
         }
       ],
-      "substitutes": []
+      "substitutes": [
+        {
+          "player": {
+            "id": "kauevinicius",
+            "name": "Kauê",
+            "number": 51,
+            "pos": "Gol",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "pedro-milans",
+            "name": "Milans",
+            "number": 20,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "joao-pedro",
+            "name": "João Pedro",
+            "number": 4,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "iago-machado",
+            "name": "Iago Machado",
+            "number": 55,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "hugofarias",
+            "name": "Hugo",
+            "number": 46,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "matheuspereira1",
+            "name": "Matheus Pereira",
+            "number": 23,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "allanrs",
+            "name": "Allan",
+            "number": 29,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "charlesrm",
+            "name": "Charles",
+            "number": 35,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "lingard",
+            "name": "Lingard",
+            "number": 77,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "pedroraul",
+            "name": "Pedro Raul",
+            "number": 18,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "kaiocesar-lima",
+            "name": "Kaio César",
+            "number": 37,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "gui-negao",
+            "name": "Gui Negão",
+            "number": 56,
+            "pos": "Ata",
+            "grid": null
+          }
+        }
+      ]
     }
   ],
-  "statistics": [],
+  "statistics": [
+    {
+      "team": {
+        "id": 267,
+        "name": "Vasco"
+      },
+      "statistics": [
+        {
+          "type": "Ball Possession",
+          "value": "58%"
+        },
+        {
+          "type": "Total Passes",
+          "value": 134
+        },
+        {
+          "type": "Pass Accuracy",
+          "value": "84%"
+        },
+        {
+          "type": "Incomplete Passes",
+          "value": 22
+        },
+        {
+          "type": "Total Shots",
+          "value": 4
+        },
+        {
+          "type": "Shots on Goal",
+          "value": 2
+        },
+        {
+          "type": "Shots off Goal",
+          "value": 1
+        },
+        {
+          "type": "Blocked Shots",
+          "value": 1
+        },
+        {
+          "type": "Hit Woodwork",
+          "value": 0
+        },
+        {
+          "type": "Corner Kicks",
+          "value": 0
+        },
+        {
+          "type": "Offsides",
+          "value": 1
+        },
+        {
+          "type": "Penalties",
+          "value": 0
+        },
+        {
+          "type": "Goalkeeper Saves",
+          "value": 1
+        },
+        {
+          "type": "Tackles",
+          "value": 1
+        },
+        {
+          "type": "Fouls",
+          "value": 2
+        },
+        {
+          "type": "Yellow Cards",
+          "value": 0
+        },
+        {
+          "type": "Red Cards",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "team": {
+        "id": 264,
+        "name": "Corinthians"
+      },
+      "statistics": [
+        {
+          "type": "Ball Possession",
+          "value": "42%"
+        },
+        {
+          "type": "Total Passes",
+          "value": 80
+        },
+        {
+          "type": "Pass Accuracy",
+          "value": "69%"
+        },
+        {
+          "type": "Incomplete Passes",
+          "value": 25
+        },
+        {
+          "type": "Total Shots",
+          "value": 2
+        },
+        {
+          "type": "Shots on Goal",
+          "value": 1
+        },
+        {
+          "type": "Shots off Goal",
+          "value": 0
+        },
+        {
+          "type": "Blocked Shots",
+          "value": 1
+        },
+        {
+          "type": "Hit Woodwork",
+          "value": 0
+        },
+        {
+          "type": "Corner Kicks",
+          "value": 1
+        },
+        {
+          "type": "Offsides",
+          "value": 0
+        },
+        {
+          "type": "Penalties",
+          "value": 0
+        },
+        {
+          "type": "Goalkeeper Saves",
+          "value": 3
+        },
+        {
+          "type": "Tackles",
+          "value": 5
+        },
+        {
+          "type": "Fouls",
+          "value": 1
+        },
+        {
+          "type": "Yellow Cards",
+          "value": 0
+        },
+        {
+          "type": "Red Cards",
+          "value": 0
+        }
+      ]
+    }
+  ],
   "sportsFieldUrl": null
 }

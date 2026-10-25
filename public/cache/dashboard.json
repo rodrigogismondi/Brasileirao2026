@@ -16131,9 +16131,7 @@
           "long": "FT",
           "short": "FT",
           "elapsed": 90
-        },
-        "timerStart": "2026-10-24T01:09:15.460Z",
-        "timerStatus": "PAUSADO"
+        }
       },
       "league": {
         "round": "Regular Season - 32"
@@ -16182,9 +16180,7 @@
           "long": "FT",
           "short": "FT",
           "elapsed": 90
-        },
-        "timerStart": "2026-10-24T21:40:08.757Z",
-        "timerStatus": "PAUSADO"
+        }
       },
       "league": {
         "round": "Regular Season - 32"
@@ -16233,9 +16229,7 @@
           "long": "FT",
           "short": "FT",
           "elapsed": 90
-        },
-        "timerStart": "2026-10-24T21:38:18.187Z",
-        "timerStatus": "PAUSADO"
+        }
       },
       "league": {
         "round": "Regular Season - 32"
@@ -16284,9 +16278,7 @@
           "long": "FT",
           "short": "FT",
           "elapsed": 90
-        },
-        "timerStart": "2026-10-24T21:42:47.996Z",
-        "timerStatus": "PAUSADO"
+        }
       },
       "league": {
         "round": "Regular Season - 32"
@@ -16337,12 +16329,12 @@
           "city": ""
         },
         "status": {
-          "long": "1H",
-          "short": "1H",
-          "elapsed": 23
+          "long": "FT",
+          "short": "FT",
+          "elapsed": 90
         },
-        "timerStart": "2026-10-24T21:30:29.639Z",
-        "timerStatus": "INICIADO"
+        "timerStart": "2026-10-24T23:37:04.471Z",
+        "timerStatus": "PAUSADO"
       },
       "league": {
         "round": "Regular Season - 32"
@@ -16360,8 +16352,8 @@
         }
       },
       "goals": {
-        "home": 0,
-        "away": 0
+        "home": 3,
+        "away": 2
       },
       "score": {
         "halftime": {
@@ -16369,8 +16361,8 @@
           "away": null
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 3,
+          "away": 2
         }
       },
       "odds": null,
@@ -16388,12 +16380,12 @@
           "city": ""
         },
         "status": {
-          "long": "1H",
-          "short": "1H",
-          "elapsed": 22
+          "long": "FT",
+          "short": "FT",
+          "elapsed": 90
         },
-        "timerStart": "2026-10-24T21:31:09.009Z",
-        "timerStatus": "INICIADO"
+        "timerStart": "2026-10-24T23:41:32.944Z",
+        "timerStatus": "PAUSADO"
       },
       "league": {
         "round": "Regular Season - 32"
@@ -16411,7 +16403,7 @@
         }
       },
       "goals": {
-        "home": 1,
+        "home": 2,
         "away": 0
       },
       "score": {
@@ -16420,8 +16412,8 @@
           "away": null
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 2,
+          "away": 0
         }
       },
       "odds": null,
@@ -16438,12 +16430,12 @@
           "city": ""
         },
         "status": {
-          "long": "NS",
-          "short": "NS",
-          "elapsed": null
+          "long": "2H",
+          "short": "2H",
+          "elapsed": 67
         },
-        "timerStart": "2026-10-24T21:25:17.571Z",
-        "timerStatus": "PAUSADO"
+        "timerStart": "2026-10-24T23:38:03.706Z",
+        "timerStatus": "INICIADO"
       },
       "league": {
         "round": "Regular Season - 32"
@@ -16461,8 +16453,8 @@
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 2,
+        "away": 1
       },
       "score": {
         "halftime": {
@@ -16486,11 +16478,11 @@
           "city": ""
         },
         "status": {
-          "long": "NS",
-          "short": "NS",
+          "long": "1H",
+          "short": "1H",
           "elapsed": null
         },
-        "timerStart": null,
+        "timerStart": "2026-10-24T22:46:22.993Z",
         "timerStatus": "PAUSADO"
       },
       "league": {
@@ -16540,9 +16532,7 @@
           "long": "NS",
           "short": "NS",
           "elapsed": null
-        },
-        "timerStart": null,
-        "timerStatus": "PAUSADO"
+        }
       },
       "league": {
         "round": "Regular Season - 32"
@@ -16590,9 +16580,7 @@
           "long": "NS",
           "short": "NS",
           "elapsed": null
-        },
-        "timerStart": null,
-        "timerStatus": "PAUSADO"
+        }
       },
       "league": {
         "round": "Regular Season - 32"
@@ -19433,6 +19421,28 @@
             {
               "rank": 1,
               "team": {
+                "id": 275,
+                "name": "Palmeiras",
+                "logo": "https://s.sde.globo.com/media/organizations/2019/07/06/Palmeiras.svg"
+              },
+              "points": 69,
+              "goalsDiff": 34,
+              "form": "DWWWW",
+              "description": "Copa Libertadores",
+              "all": {
+                "played": 32,
+                "win": 20,
+                "draw": 9,
+                "lose": 3,
+                "goals": {
+                  "for": 56,
+                  "against": 22
+                }
+              }
+            },
+            {
+              "rank": 2,
+              "team": {
                 "id": 262,
                 "name": "Flamengo",
                 "logo": "https://s.sde.globo.com/media/organizations/2018/04/10/Flamengo-2018.svg"
@@ -19449,28 +19459,6 @@
                 "goals": {
                   "for": 61,
                   "against": 25
-                }
-              }
-            },
-            {
-              "rank": 2,
-              "team": {
-                "id": 275,
-                "name": "Palmeiras",
-                "logo": "https://s.sde.globo.com/media/organizations/2019/07/06/Palmeiras.svg"
-              },
-              "points": 67,
-              "goalsDiff": 32,
-              "form": "DWWWD",
-              "description": "Copa Libertadores",
-              "all": {
-                "played": 32,
-                "win": 19,
-                "draw": 10,
-                "lose": 3,
-                "goals": {
-                  "for": 54,
-                  "against": 22
                 }
               }
             },
@@ -19526,17 +19514,17 @@
                 "logo": "https://s.sde.globo.com/media/organizations/2018/03/11/fluminense.svg"
               },
               "points": 51,
-              "goalsDiff": 10,
-              "form": "LWWLL",
+              "goalsDiff": 9,
+              "form": "WWLLL",
               "description": "Copa Libertadores Qualifiers",
               "all": {
-                "played": 31,
+                "played": 32,
                 "win": 14,
                 "draw": 9,
-                "lose": 8,
+                "lose": 9,
                 "goals": {
-                  "for": 49,
-                  "against": 39
+                  "for": 50,
+                  "against": 41
                 }
               }
             },
@@ -19635,18 +19623,18 @@
                 "name": "Bragantino",
                 "logo": "https://s.sde.globo.com/media/organizations/2021/06/28/bragantino.svg"
               },
-              "points": 42,
-              "goalsDiff": 3,
-              "form": "LDWDD",
+              "points": 41,
+              "goalsDiff": 1,
+              "form": "LDWDL",
               "description": "Copa Sudamericana",
               "all": {
                 "played": 32,
                 "win": 11,
-                "draw": 9,
-                "lose": 12,
+                "draw": 8,
+                "lose": 13,
                 "goals": {
                   "for": 39,
-                  "against": 36
+                  "against": 38
                 }
               }
             },
@@ -19697,6 +19685,28 @@
             {
               "rank": 13,
               "team": {
+                "id": 267,
+                "name": "Vasco",
+                "logo": "https://s.sde.globo.com/media/organizations/2021/09/04/vasco_SVG.svg"
+              },
+              "points": 38,
+              "goalsDiff": -6,
+              "form": "WWDLW",
+              "description": null,
+              "all": {
+                "played": 31,
+                "win": 10,
+                "draw": 8,
+                "lose": 13,
+                "goals": {
+                  "for": 39,
+                  "against": 45
+                }
+              }
+            },
+            {
+              "rank": 14,
+              "team": {
                 "id": 287,
                 "name": "Vitória",
                 "logo": "https://s.sde.globo.com/media/organizations/2025/12/18/Vitoria_2025.svg"
@@ -19717,7 +19727,7 @@
               }
             },
             {
-              "rank": 14,
+              "rank": 15,
               "team": {
                 "id": 2305,
                 "name": "Mirassol",
@@ -19735,28 +19745,6 @@
                 "goals": {
                   "for": 37,
                   "against": 45
-                }
-              }
-            },
-            {
-              "rank": 15,
-              "team": {
-                "id": 267,
-                "name": "Vasco",
-                "logo": "https://s.sde.globo.com/media/organizations/2021/09/04/vasco_SVG.svg"
-              },
-              "points": 36,
-              "goalsDiff": -7,
-              "form": "WWDLD",
-              "description": null,
-              "all": {
-                "played": 31,
-                "win": 9,
-                "draw": 9,
-                "lose": 13,
-                "goals": {
-                  "for": 36,
-                  "against": 43
                 }
               }
             },
@@ -19789,18 +19777,18 @@
                 "name": "Corinthians",
                 "logo": "https://s.sde.globo.com/media/organizations/2024/10/09/Corinthians_2024_Q4ahot4.svg"
               },
-              "points": 34,
-              "goalsDiff": -7,
-              "form": "LLLDD",
+              "points": 33,
+              "goalsDiff": -8,
+              "form": "LLLDL",
               "description": "Relegation",
               "all": {
                 "played": 32,
                 "win": 8,
-                "draw": 10,
-                "lose": 14,
+                "draw": 9,
+                "lose": 15,
                 "goals": {
-                  "for": 32,
-                  "against": 39
+                  "for": 34,
+                  "against": 42
                 }
               }
             },
@@ -19855,18 +19843,18 @@
                 "name": "Chapecoense",
                 "logo": "https://s.sde.globo.com/media/organizations/2021/06/21/CHAPECOENSE-2018.svg"
               },
-              "points": 18,
-              "goalsDiff": -32,
-              "form": "LDLLL",
+              "points": 21,
+              "goalsDiff": -31,
+              "form": "DLLLW",
               "description": "Relegation",
               "all": {
-                "played": 30,
-                "win": 3,
+                "played": 31,
+                "win": 4,
                 "draw": 9,
                 "lose": 18,
                 "goals": {
-                  "for": 30,
-                  "against": 62
+                  "for": 32,
+                  "against": 63
                 }
               }
             }
@@ -20121,6 +20109,28 @@
     {
       "player": {
         "id": 12,
+        "name": "Maurício",
+        "photo": "https://s.sde.globo.com/media/person_role/2026/08/19/photo_140x140_6MjlXVn.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "name": "Palmeiras",
+            "logo": "https://s.sde.globo.com/media/organizations/2014/04/14/palmeiras_60x60.png"
+          },
+          "goals": {
+            "total": 9,
+            "assists": null
+          },
+          "games": {
+            "appearences": 0
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 13,
         "name": "John Kennedy",
         "photo": "https://s.sde.globo.com/media/person_role/2026/07/06/photo_140x140_FY237AY.png"
       },
@@ -20142,7 +20152,7 @@
     },
     {
       "player": {
-        "id": 13,
+        "id": 14,
         "name": "Matheus Pereira",
         "photo": "https://s.sde.globo.com/media/person_role/2025/04/01/photo_140x140_paqfi1w.png"
       },
@@ -20164,7 +20174,7 @@
     },
     {
       "player": {
-        "id": 14,
+        "id": 15,
         "name": "Samuel Lino",
         "photo": "https://s.sde.globo.com/media/person_role/2025/07/30/photo_140x140.png"
       },
@@ -20176,28 +20186,6 @@
           },
           "goals": {
             "total": 9,
-            "assists": null
-          },
-          "games": {
-            "appearences": 0
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 15,
-        "name": "Maurício",
-        "photo": "https://s.sde.globo.com/media/person_role/2026/08/19/photo_140x140_6MjlXVn.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "name": "Palmeiras",
-            "logo": "https://s.sde.globo.com/media/organizations/2014/04/14/palmeiras_60x60.png"
-          },
-          "goals": {
-            "total": 8,
             "assists": null
           },
           "games": {
@@ -20984,7 +20972,7 @@
     "mode": "live",
     "liveIntervalMs": 20000
   },
-  "fetchedAt": "2026-10-24T21:53:55.360Z",
+  "fetchedAt": "2026-10-25T00:00:09.606Z",
   "source": "ge-globo",
   "meta": {
     "rodada": 32,
@@ -21030,7 +21018,7 @@
       38
     ],
     "seasonSyncedAt": "2026-10-24T21:53:46.024Z",
-    "fullSeasonSync": true,
+    "fullSeasonSync": false,
     "edicao": "Campeonato Brasileiro 2026",
     "provider": "ge.globo.com",
     "scorersCount": 50,
@@ -21041,7 +21029,7 @@
     "tvPreserved": 0,
     "tvAvailable": 343,
     "tvSource": "Onde Assistir — https://ondeassistir.com.br/dados",
-    "tvUpdatedAt": "2026-10-24T21:52:31.000000Z",
+    "tvUpdatedAt": "2026-10-24T23:55:40.862160Z",
     "fixturesCount": 380
   }
 }

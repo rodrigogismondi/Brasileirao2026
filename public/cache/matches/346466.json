@@ -7,12 +7,12 @@
       "city": ""
     },
     "status": {
-      "long": "1H",
-      "short": "1H",
-      "elapsed": 23
+      "long": "FT",
+      "short": "FT",
+      "elapsed": 90
     },
-    "timerStart": "2026-10-24T21:30:29.639Z",
-    "timerStatus": "INICIADO"
+    "timerStart": "2026-10-24T23:37:04.471Z",
+    "timerStatus": "PAUSADO"
   },
   "league": {
     "round": "Regular Season - 32"
@@ -30,8 +30,8 @@
     }
   },
   "goals": {
-    "home": 0,
-    "away": 0
+    "home": 3,
+    "away": 2
   },
   "score": {
     "halftime": {
@@ -39,8 +39,8 @@
       "away": null
     },
     "fulltime": {
-      "home": null,
-      "away": null
+      "home": 3,
+      "away": 2
     }
   },
   "odds": null,
@@ -50,6 +50,72 @@
   ],
   "_geUrl": "https://ge.globo.com/rj/futebol/brasileirao-serie-a/jogo/24-10-2026/vasco-corinthians.ghtml",
   "events": [
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Vasco vira de forma incrível e vence o Corinthians em São Januário!",
+      "player": {
+        "name": "ACABOU!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Vasco vai vencendo o Corinthians em São Januário por 1 a 0 e conquistando um resultado fundamental na luta contra o rebaixamento. O time de Clarence Seedorf até ensaiou uma pressão inicial, chegando com mais perigo nos primeiros cinco minutos, mas logo os donos da casa assumiram o protagonismo da partida. Hinestroza ainda poderia ter ampliado em lance que saiu cara a cara com Hugo, mas preferiu passar para Bruno Duarte, que não alcançou. Com o resultado parcial, o Corinthians vai entrando na zona de rebaixamento.",
+      "player": {
+        "name": "RESUMO DO 1º TEMPO"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 267,
+        "name": "Vasco"
+      },
+      "type": "Important",
+      "detail": "— Feliz por essa fase. O que importa é que o Vasco ganhe. Estamos defendendo bem e atacando bem. Temos que cruzar mais bolas na área e ganhar o jogo, que é o que importa.",
+      "player": {
+        "name": "Puma Rodríguez"
+      },
+      "assist": {
+        "name": "FALA, PUMA!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 267,
+        "name": "Vasco"
+      },
+      "type": "Important",
+      "detail": "Fim do primeiro tempo. O Vasco vai vencendo por 1 a 0.",
+      "player": {
+        "name": "APITA O ÁRBITRO"
+      },
+      "assist": null
+    },
     {
       "time": {
         "elapsed": 0,
@@ -386,7 +452,23 @@
     },
     {
       "time": {
-        "elapsed": 18,
+        "elapsed": 19,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Após 20 minutos de pura intensidade, Vasco e Corinthians criam boas chances e consagram os goleiros. Hugo Souza brilhou ao salvar finalização de Colidio, enquanto Léo Jardim evitou o gol de Yuri Alberto em chute perigoso. O ponto de preocupação fica para o lado vascaíno, já que Andrés Gómez sentiu uma lesão muscular e precisou deixar o gramado mais cedo.",
+      "player": {
+        "name": "Goleiros trabalham e placar segue zerado no Rio"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 19,
         "extra": null
       },
       "team": {
@@ -394,13 +476,1333 @@
         "name": "Vasco"
       },
       "type": "Important",
-      "detail": "O colombiano Andrés Gómez sente uma lesão muscular e deixa o campo. Vasco com dez jogadores no momento.",
+      "detail": "Yuri Alberto escapa em velocidade pela esquerda, bate sem ângulo, mas obriga Léo Jardim a esticar o braço para salvar o Vasco!",
+      "player": {
+        "name": "Yuri Alberto"
+      },
+      "assist": {
+        "name": "DEFENDEU!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 21,
+        "extra": null
+      },
+      "team": {
+        "id": 267,
+        "name": "Vasco"
+      },
+      "type": "Important",
+      "detail": "De volta ao campo, Andrés Gómez arrisca uma finalização de fora da área, mas o chute é facilmente encaixado por Hugo Souza.",
       "player": {
         "name": "Andrés Gómez"
       },
       "assist": {
-        "name": "PREOCUPAÇÃO"
+        "name": "BATEU FRACO"
       }
+    },
+    {
+      "time": {
+        "elapsed": 23,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Passados 24 minutos do primeiro tempo, o confronto segue empatado sem gols, mas cheio de alternativas. O Vasco assustou com Colidio e Puma Rodríguez, exigindo grande intervenção de Hugo Souza. Do outro lado, o Corinthians respondeu com Yuri Alberto, que parou em boa defesa de Léo Jardim. Um início dinâmico, com as duas equipes buscando o ataque e os goleiros se destacando.",
+      "player": {
+        "name": "Goleiros brilham em inicio muito movimentado"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 23,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Yuri Alberto domina a bola muito marcado, inteligentemente chuta em direção à perna de um adversário e ganha o lateral.",
+      "player": {
+        "name": "Yuri Alberto domina a bola muito marcado, inteli"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 25,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Dieguinho cruza da esquerda, mas é muito forte. A bola sai em lateral.",
+      "player": {
+        "name": "Dieguinho cruza da esquerda, mas é muito forte. "
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 26,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Com quase 27 minutos jogados, a partida segue muito movimentada. O Vasco levou perigo primeiro com Colidio, que parou em grande defesa de Hugo Souza, e depois com finalização de Puma Rodríguez. O Corinthians respondeu na velocidade de Yuri Alberto, exigindo boa intervenção de Léo Jardim. Apesar das chances criadas de lado a lado e do susto com Gómez, o placar continua 0 a 0.",
+      "player": {
+        "name": "Goleiros trabalham e mantêm placar zerado"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 26,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Vasco troca passes no campo de ataque, tentando furar a defesa do Corinthians, que aguarda pacientemente, até que uma bola sobre para Andrés Gómez, que finaliza rasteiro, mas para fora.",
+      "player": {
+        "name": "O Vasco troca passes no campo de ataque, tentand"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 29,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Após 29 minutos do primeiro tempo, Vasco e Corinthians fazem um duelo franco em campo. O Vasco assustou com Colidio, parando em grande defesa de Hugo Souza, enquanto os visitantes responderam com chegadas perigosas de Yuri Alberto, exigindo atenção de Léo Jardim. Com o jogo travado por faltas e lesões recentes, o placar segue em um movimentado zero a zero.",
+      "player": {
+        "name": "Goleiros trabalham e mantêm o placar zerado"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 29,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Agora é a vez de Breno Bidon sentir uma lesão. Jogo vai ficando mais brigado do que jogado no momento.",
+      "player": {
+        "name": "Agora é a vez de Breno Bidon sentir uma lesão. J"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 30,
+        "extra": null
+      },
+      "team": {
+        "id": 264,
+        "name": "Corinthians"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Garro"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 33,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Com 33 minutos jogados, Vasco e Corinthians fazem um duelo franco e muito disputado. Os goleiros são os grandes nomes até aqui: Hugo Souza salvou o Corinthians em finalização de Colidio, enquanto Léo Jardim evitou o gol de Yuri Alberto em chute cruzado. O jogo também apresenta muita intensidade física, com direito a cartão amarelo para Garro e preocupações médicas para os dois lados.",
+      "player": {
+        "name": "Goleiros se destacam e seguram o zero no placar"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 33,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Angileri e Andrés Gómez disputam uma bola na lateral, trombam, mas o lateral do Corinthians não consegue ficar com a posse. Tiro de meta para o Vasco.",
+      "player": {
+        "name": "Angileri e Andrés Gómez disputam uma bola na lat"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 34,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O confronto começou quente e com boas chances para as duas equipes, exigindo grandes defesas de Hugo Souza e Léo Jardim em tentativas de Colidio e Yuri Alberto. Mas a rede balançou aos 34 minutos: após cruzamento de Cuiabano, a defesa do Corinthians se complicou e a bola sobrou limpa para Puma Rodríguez finalizar e decretar o placar de 1 a 0 a favor do Vasco até o momento.",
+      "player": {
+        "name": "Vasco sai na frente em primeiro tempo movimentado"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 34,
+        "extra": null
+      },
+      "team": {
+        "id": 267,
+        "name": "Vasco"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "player": {
+        "name": "Puma Rodríguez"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 37,
+        "extra": null
+      },
+      "team": {
+        "id": 267,
+        "name": "Vasco"
+      },
+      "type": "Important",
+      "detail": "O confronto começou bem dinâmico em São Januário, com chances perigosas para os dois lados e boas defesas dos goleiros. A igualdade no placar persistiu até os 34 minutos, quando Cuiabano cruzou da esquerda, a defesa corintiana se atrapalhou e Puma Rodríguez aproveitou a sobra para fazer 1 a 0. Com a vantagem vascaína, a partida segue aberta e muito disputada antes do intervalo.",
+      "player": {
+        "name": "Vasco sai na frente em duelo movimentado"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 37,
+        "extra": null
+      },
+      "team": {
+        "id": 267,
+        "name": "Vasco"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Marino Hinestroza"
+      },
+      "assist": {
+        "name": "Andrés Gómez"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 38,
+        "extra": null
+      },
+      "team": {
+        "id": 264,
+        "name": "Corinthians"
+      },
+      "type": "Important",
+      "detail": "Colidio cruza rasteiro da esquerda, Matheus Bidu corta, a bola bate e rebate na área do Corinthians, mas o perigo é afastado pela defesa.",
+      "player": {
+        "name": "Colidio cruza rasteiro da esquerda, Matheus Bidu"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 40,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Perto do fim do primeiro tempo, o Vasco vai vencendo por 1 a 0 em um confronto muito movimentado. O gol saiu aos 34 minutos, quando Puma Rodríguez aproveitou uma falha defensiva na área para balançar as redes. Antes disso, os goleiros já vinham trabalhando bem, com Hugo Souza salvando o Corinthians e Léo Jardim segurando as investidas de Yuri Alberto. Jogo aberto e disputado.",
+      "player": {
+        "name": "Puma coloca o Vasco em vantagem em São Januário"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 40,
+        "extra": null
+      },
+      "team": {
+        "id": 267,
+        "name": "Vasco"
+      },
+      "type": "Important",
+      "detail": "Hinestroza recebe na direita, arranca em velocidade, fica cara a cara com Hugo Souza, dá um toque para Bruno Duarte, que não alcança e vê a defesa desviar para escanteio! Que chance perde o Vasco!",
+      "player": {
+        "name": "NÃO CHUTOU!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 41,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Após 42 minutos de muita intensidade, o Vasco vai vencendo por 1 a 0. O Corinthians começou assustando com Yuri Alberto, mas o time da casa equilibrou e ameaçou com Colidio. Aos 34, após cruzamento de Cuiabano e falha na defesa, Puma Rodríguez mandou para a rede. No fim da etapa inicial, o uruguaio quase marcou o segundo e o Vasco ainda desperdiçou grande chance com Hinestroza.",
+      "player": {
+        "name": "Vasco em vantagem no fim do primeiro tempo"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 41,
+        "extra": null
+      },
+      "team": {
+        "id": 267,
+        "name": "Vasco"
+      },
+      "type": "Important",
+      "detail": "A bola é cruzada na área e Puma Rodríguez aparece com muita liberdade, chega batendo, mas para fora! Quase o uruguaio marca o segundo dele no jogo!",
+      "player": {
+        "name": "Puma Rodríguez"
+      },
+      "assist": {
+        "name": "QUASE O SEGUNDO!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 44,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Vasco vai vencendo o Corinthians por 1 a 0 com gol de Puma Rodríguez aos 34 minutos do primeiro tempo, após rebote na área. O duelo começou equilibrado com Hugo Souza e Léo Jardim trabalhando bem, mas o time da casa tomou conta do ritmo. Na reta final da etapa inicial, a equipe vascaína quase ampliou com o próprio Puma e em contra-ataque rápido armado por Hinestroza.",
+      "player": {
+        "name": "Puma coloca o Vasco em vantagem no primeiro tempo"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 44,
+        "extra": null
+      },
+      "team": {
+        "id": 264,
+        "name": "Corinthians"
+      },
+      "type": "Important",
+      "detail": "Falta de Sosa em Rodrigo Garro. O camisa 8 do Corinthians pede cartão, mas o árbitro não dá.",
+      "player": {
+        "name": "Falta de Sosa em Rodrigo Garro. O camisa 8 do Co"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 45,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Começa o segundo tempo!",
+      "player": {
+        "name": "BOLA ROLANDO!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 45,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Vamos até os 49 minutos.",
+      "player": {
+        "name": "+4"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 46,
+        "extra": null
+      },
+      "team": {
+        "id": 267,
+        "name": "Vasco"
+      },
+      "type": "Important",
+      "detail": "Hinestroza arranca no campo de ataque, toca para Puma na direita, o uruguaio cruza, mas Angileri dá um carrinho na bola. Escanteio para o Vasco.",
+      "player": {
+        "name": "Hinestroza arranca no campo de ataque, toca para"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 47,
+        "extra": null
+      },
+      "team": {
+        "id": 264,
+        "name": "Corinthians"
+      },
+      "type": "Important",
+      "detail": "Após o cruzamento na área, Bidon sofre uma falta de ataque, e a bola fica com o Corinthians.",
+      "player": {
+        "name": "Após o cruzamento na área, Bidon sofre uma falta"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 47,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Após um primeiro tempo de tirar o fôlego, o Vasco vai vencendo o Corinthians por 1 a 0. O duelo começou movimentado, mas o placar só abriu aos 34 minutos, quando Puma Rodríguez aproveitou sobra na área para marcar. O Corinthians teve grande chance de empatar nos acréscimos com Yuri Alberto cara a cara com o goleiro, mas o atacante acabou finalizando para fora.",
+      "player": {
+        "name": "Vasco abre vantagem em primeiro tempo movimentado"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 47,
+        "extra": null
+      },
+      "team": {
+        "id": 264,
+        "name": "Corinthians"
+      },
+      "type": "Important",
+      "detail": "Garro intercepta um passe no meio do campo, lança Yuri Alberto em profundidade, e o centroavante, cara a cara com Léo Jardim, chuta para fora!",
+      "player": {
+        "name": "Yuri Alberto"
+      },
+      "assist": {
+        "name": "PRA FORA!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 48,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Com três minutos do segundo tempo, o Vasco vai vencendo o Corinthians por 1 a 0, gol de Puma Rodríguez aos 34 da etapa inicial. O jogo é muito movimentado e cheio de alternativas. Pelo Corinthians, Yuri Alberto desperdiçou uma chance incrível cara a cara com Léo Jardim, e Matheus Bidu acabou de exigir grande defesa do goleiro vascaíno. O Vasco responde com perigo na velocidade.",
+      "player": {
+        "name": "Puma marca e coloca o Vasco em vantagem"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 48,
+        "extra": null
+      },
+      "team": {
+        "id": 264,
+        "name": "Corinthians"
+      },
+      "type": "Important",
+      "detail": "Matheus Bidu recebe com muito espaço no campo de ataque, arrisca a finalização de longe e obriga Léo Jardim a espalmar!",
+      "player": {
+        "name": "Matheus Bidu"
+      },
+      "assist": {
+        "name": "UHHHH!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 49,
+        "extra": null
+      },
+      "team": {
+        "id": 267,
+        "name": "Vasco"
+      },
+      "type": "Important",
+      "detail": "O Vasco abriu o placar aos 34 minutos do primeiro tempo com Puma Rodríguez aproveitando uma sobra na área. O duelo seguiu aberto, com chances perdidas de lado a lado. Logo aos 5 minutos da etapa final, o cenário mudou: Gustavo Henrique aproveitou cruzamento de Breno Bidon para cabecear livre e empatar em 1 a 1, deixando o confronto totalmente aberto em São Januário.",
+      "player": {
+        "name": "Empate quente agita o duelo em São Januário"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 49,
+        "extra": null
+      },
+      "team": {
+        "id": 264,
+        "name": "Corinthians"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "player": {
+        "name": "Gustavo Henrique"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 51,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Com sete minutos do segundo tempo, Vasco e Corinthians empatam por 1 a 1 em um duelo bem movimentado. Na etapa inicial, Puma Rodríguez colocou os cariocas em vantagem aos 34 minutos após falha defensiva. A resposta paulista veio logo depois do intervalo, aos 4 minutos, com o zagueiro Gustavo Henrique cabeceando livre na área. O clássico segue equilibrado e aberto para os dois lados.",
+      "player": {
+        "name": "Duelo franco e tudo igual em São Januário"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 51,
+        "extra": null
+      },
+      "team": {
+        "id": 267,
+        "name": "Vasco"
+      },
+      "type": "Important",
+      "detail": "Cuiabano toca para Colidio na área, e o argentino deixa para Bruno Duarte, que acerta um bonito chute da entrada da área, mas por cima do gol!",
+      "player": {
+        "name": "Bruno Duarte"
+      },
+      "assist": {
+        "name": "UHHHH!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 53,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O confronto segue equilibrado em 1 a 1 no início do segundo tempo. O Vasco saiu na frente aos 34 minutos da etapa inicial, com Puma Rodríguez aproveitando sobra na área. O Corinthians reagiu e, logo aos 4 minutos do segundo tempo, Gustavo Henrique empatou de cabeça. Com 8 minutos da etapa final, o jogo continua lá e cá, com boas chances criadas e desperdiçadas por ambos os lados.",
+      "player": {
+        "name": "Jogo aberto e placar igualado em Sao Januario"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 53,
+        "extra": null
+      },
+      "team": {
+        "id": 264,
+        "name": "Corinthians"
+      },
+      "type": "Important",
+      "detail": "Gustavo Henrique lança longo para Yuri Alberto, que escapa entre a marcação e arranca em velocidade, mas finaliza para fora!",
+      "player": {
+        "name": "Yuri Alberto"
+      },
+      "assist": {
+        "name": "PERDEU!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 56,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Vasco saiu na frente no primeiro tempo com gol de Puma Rodríguez aos 34 minutos. Porém, a reação do Corinthians foi avassaladora na etapa final. Aos 4 minutos, Gustavo Henrique empatou de cabeça. Pouco depois, aos 11 minutos do segundo tempo, Matheus Bidu desviou chute de Angileri e garantiu a virada por 2 a 1 para os visitantes, que agora ditam o ritmo de jogo.",
+      "player": {
+        "name": "Corinthians consegue virada relâmpago no Rio"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 56,
+        "extra": null
+      },
+      "team": {
+        "id": 264,
+        "name": "Corinthians"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "player": {
+        "name": "Matheus Bidu"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 58,
+        "extra": null
+      },
+      "team": {
+        "id": 264,
+        "name": "Corinthians"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Kaio César"
+      },
+      "assist": {
+        "name": "Dieguinho"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 60,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Vasco saiu na frente no primeiro tempo com gol de Puma Rodríguez. Porém, o rumo do confronto mudou na etapa final. Logo aos 4 minutos, Gustavo Henrique igualou o placar de cabeça. A virada paulista veio aos 11 minutos, após chute de Angileri que desviou em Matheus Bidu. Com 15 minutos do segundo tempo, o Corinthians administra a vitória por 2 a 1 fora de casa.",
+      "player": {
+        "name": "Corinthians vira contra o Vasco em São Januário"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 60,
+        "extra": null
+      },
+      "team": {
+        "id": 264,
+        "name": "Corinthians"
+      },
+      "type": "Important",
+      "detail": "Torcida do Corinthians se empolga com a virada e sobe o som em São Januário. O time sai da zona de rebaixamento com a vitória parcial!",
+      "player": {
+        "name": "FIEL TORCIDA PRESENTE"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 63,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Vasco abriu o placar com Puma Rodríguez aos 34 minutos do primeiro tempo. No entanto, o Corinthians voltou aceso e buscou a virada na etapa final. Gustavo Henrique empatou de cabeça aos 4 minutos, e Matheus Bidu, aos 11, fez o 2 a 1 após chute de Angileri desviar nele. Com 18 minutos do segundo tempo, o jogo segue em ritmo forte com o time da casa lutando para reagir no placar.",
+      "player": {
+        "name": "Virada do Corinthians agita São Januário"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 63,
+        "extra": null
+      },
+      "team": {
+        "id": 264,
+        "name": "Corinthians"
+      },
+      "type": "Important",
+      "detail": "Puma cruza uma bola na área, encontra Bruno Duarte, que se atrapalha no domínio e Matheuzinho consegue dar um toque para salvar o chute! Que grande chance perde o Vasco!",
+      "player": {
+        "name": "Matheuzinho"
+      },
+      "assist": {
+        "name": "SE SALVA O CORINTHIANS!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 64,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Kaio César toca para Garro, que devolve o passe em profundidade. O atacante parte em velocidade, cruza com veneno para a área, mas ninguém alcança a bola!",
+      "player": {
+        "name": "PASSOU POR TODO MUNDO!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 65,
+        "extra": null
+      },
+      "team": {
+        "id": 264,
+        "name": "Corinthians"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Charles"
+      },
+      "assist": {
+        "name": "Breno Bidon"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 66,
+        "extra": null
+      },
+      "team": {
+        "id": 267,
+        "name": "Vasco"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Brenner"
+      },
+      "assist": {
+        "name": "Santiago Sosa"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 66,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Após um primeiro tempo de vantagem do Vasco, com gol de Puma Rodríguez aos 34 minutos, o Corinthians voltou com tudo na etapa complementar. Com mais de 21 minutos do segundo tempo, o placar aponta 2 a 1 para o time paulista. Gustavo Henrique empatou de cabeça aos 4 minutos e Matheus Bidu garantiu a virada aos 11 após desvio involuntário. O duelo segue vivo e com forte marcação.",
+      "player": {
+        "name": "Corinthians vira o jogo em São Januário"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 66,
+        "extra": null
+      },
+      "team": {
+        "id": 264,
+        "name": "Corinthians"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Allan"
+      },
+      "assist": {
+        "name": "Garro"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 68,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Vasco abriu o placar com Puma Rodríguez no primeiro tempo, mas o Corinthians reagiu rápido na etapa final. Gustavo Henrique empatou de cabeça aos 4 minutos e Matheus Bidu, após desvio aos 11, garantiu a virada por 2 a 1. Passados 23 minutos do segundo tempo, a partida segue em ritmo acelerado, com o time paulista segurando a vantagem sob forte pressão dos donos da casa.",
+      "player": {
+        "name": "Corinthians vira o jogo em São Januário"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 68,
+        "extra": null
+      },
+      "team": {
+        "id": 264,
+        "name": "Corinthians"
+      },
+      "type": "Important",
+      "detail": "Yuri Alberto recebe mais um passe entre a marcação, mas é desarmado por Saldivia na hora H! O Corinthians chega com perigo de novo!",
+      "player": {
+        "name": "Yuri Alberto"
+      },
+      "assist": {
+        "name": "SALDIVIA IMPEDE O GOL!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 71,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Após sair atrás no primeiro tempo com gol de Puma Rodríguez para o Vasco, o Corinthians voltou com tudo na etapa final. Com quase 27 minutos do segundo tempo, o placar mostra 2 a 1 para o time paulista, graças ao empate de cabeça de Gustavo Henrique e à virada de Matheus Bidu, que desviou chute de Angileri. O time visitante segue empilhando chances perdidas na reta final.",
+      "player": {
+        "name": "Corinthians vira sobre o Vasco em São Januário"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 71,
+        "extra": null
+      },
+      "team": {
+        "id": 264,
+        "name": "Corinthians"
+      },
+      "type": "Important",
+      "detail": "Matheus Bidu parte em velocidade pela esquerda, cruza para a área buscando Yuri Alberto, Léo Jardim espalma e Kaio César, livre na grande área, finaliza muito mal, para fora! O Corinthians vai empilhando chances!",
+      "player": {
+        "name": "Kaio César"
+      },
+      "assist": {
+        "name": "INACREDITÁVEL!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 72,
+        "extra": null
+      },
+      "team": {
+        "id": 267,
+        "name": "Vasco"
+      },
+      "type": "Important",
+      "detail": "Vem mexida tripla no Vasco. Lucas Piton, David e Nuno Moreira estão prontos na beira do gramado.",
+      "player": {
+        "name": "Vem mexida tripla no Vasco. Lucas Piton, David e"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 73,
+        "extra": null
+      },
+      "team": {
+        "id": 267,
+        "name": "Vasco"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Lucas Piton"
+      },
+      "assist": {
+        "name": "Cuiabano"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 73,
+        "extra": null
+      },
+      "team": {
+        "id": 267,
+        "name": "Vasco"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "David"
+      },
+      "assist": {
+        "name": "Bruno Duarte"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 74,
+        "extra": null
+      },
+      "team": {
+        "id": 264,
+        "name": "Corinthians"
+      },
+      "type": "Important",
+      "detail": "Gui Negão e Lingard são chamados por Seedorf e devem entrar no time do Corinthians.",
+      "player": {
+        "name": "Gui Negão e Lingard são chamados por Seedorf e d"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 74,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Vasco saiu na frente aos 34 minutos do primeiro tempo com Puma Rodríguez aproveitando sobra na área. Mas o Corinthians voltou arrasador na etapa final: Gustavo Henrique empatou de cabeça aos 4 minutos e Matheus Bidu virou aos 11 após desvio. Com quase 30 minutos do segundo tempo, o time paulista lidera por 2 a 1 e empilha chances perdidas, enquanto o Vasco faz mudanças para reagir.",
+      "player": {
+        "name": "Corinthians consegue a virada em São Januário"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 74,
+        "extra": null
+      },
+      "team": {
+        "id": 267,
+        "name": "Vasco"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Nuno Moreira"
+      },
+      "assist": {
+        "name": "Colidio"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 75,
+        "extra": null
+      },
+      "team": {
+        "id": 264,
+        "name": "Corinthians"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Gui Negão"
+      },
+      "assist": {
+        "name": "Yuri Alberto"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 75,
+        "extra": null
+      },
+      "team": {
+        "id": 264,
+        "name": "Corinthians"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Lingard"
+      },
+      "assist": {
+        "name": "Matheus Bidu"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 77,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Após 32 minutos do segundo tempo, o Corinthians vence o Vasco de virada por 2 a 1. O time da casa abriu o placar na etapa inicial com Puma Rodríguez, mas a reação paulista veio forte no segundo tempo. Gustavo Henrique empatou de cabeça e Matheus Bidu garantiu a virada em um chute desviado. Desde então, o Corinthians assumiu as rédeas e empilha grandes chances perdidas.",
+      "player": {
+        "name": "Virada do Corinthians agita São Januário"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 77,
+        "extra": null
+      },
+      "team": {
+        "id": 267,
+        "name": "Vasco"
+      },
+      "type": "Important",
+      "detail": "Piton cruza na área, dois jogadores do Vasco sobem para cabecear, mas ninguém alcança.",
+      "player": {
+        "name": "Piton cruza na área, dois jogadores do Vasco sob"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 79,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Vasco vai com tudo para cima do Corinthians nesses minutos finais. Tentando segurar o resultado, o time de Clarence Seedorf recua e vai se defendendo, mas ainda chega com perigo e aproveita o meio-campo fragilizado do adversário, que tem apenas Thiago Mendes centralizado no momento.",
+      "player": {
+        "name": "PANORAMA"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 82,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Com 37 minutos do segundo tempo, o Corinthians segura a vitória por 2 a 1 em um duelo de tirar o fôlego. O Vasco saiu na frente com gol de Puma Rodríguez na primeira etapa, mas o time paulista reagiu rapidamente no segundo tempo. Gustavo Henrique empatou de cabeça e Matheus Bidu garantiu a virada. Agora, os donos da casa se lançam ao ataque em busca do empate nos instantes finais.",
+      "player": {
+        "name": "Corinthians vira em São Januário e segura pressão"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 82,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Lescano levanta uma bola na área, a zaga do Corinthians afasta o perigo parcialmente, Saldivia tenta a finalização e é bloqueado. Pressão do Vasco.",
+      "player": {
+        "name": "Lescano levanta uma bola na área, a zaga do Cori"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 83,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Após o Vasco abrir o placar com Puma Rodríguez no primeiro tempo, o Corinthians reagiu na etapa final. Gustavo Henrique empatou de cabeça e Matheus Bidu, com um desvio de sorte, garantiu a virada para 2 a 1. Aos 38 minutos do segundo tempo, a pressão vascaína aumentou e David quase empatou, mas Hugo Souza salvou com uma defesaça, mantendo os visitantes na frente neste fim de jogo.",
+      "player": {
+        "name": "Virada do Timão e pressão do Vasco na reta final"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 83,
+        "extra": null
+      },
+      "team": {
+        "id": 267,
+        "name": "Vasco"
+      },
+      "type": "Important",
+      "detail": "Nuno Moreira faz boa jogada na esquerda, cruza, a bola desvia na defesa e sobra para David, cara a cara com Hugo, que faz uma defesaça com as pernas!",
+      "player": {
+        "name": "David"
+      },
+      "assist": {
+        "name": "QUE DEFESA!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 84,
+        "extra": null
+      },
+      "team": {
+        "id": 264,
+        "name": "Corinthians"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Angileri"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 85,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Nuno Moreira bate a falta alta na grande área, Puma sobe para cabecear, mas para fora, sem perigo para Hugo Souza.",
+      "player": {
+        "name": "Nuno Moreira bate a falta alta na grande área, P"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 87,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Vasco e Corinthians fazem um duelo espetacular em São Januário. O time carioca abriu o placar no primeiro tempo com Puma Rodríguez. Na etapa complementar, o Corinthians buscou a virada com gols de Gustavo Henrique e Matheus Bidu. Mas a reação vascaína veio na pressão: aos 42 minutos, Hinestroza acertou um chutaço para decretar o empate por 2 a 2 nesta reta final de partida.",
+      "player": {
+        "name": "Eletrizante e tudo igual na reta final do jogo"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 87,
+        "extra": null
+      },
+      "team": {
+        "id": 267,
+        "name": "Vasco"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "player": {
+        "name": "Marino Hinestroza"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 89,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Que jogaço em São Januário! O Vasco abriu o placar no primeiro tempo com Puma Rodríguez. Na etapa final, o Corinthians reagiu e virou o placar com gols de Gustavo Henrique e Matheus Bidu. Mas a estrela de Marino Hinestroza brilhou no fim. Aos 44 minutos do segundo tempo, o colombiano marcou duas vezes seguidas para garantir a virada histórica por 3 a 2 em um duelo espetacular.",
+      "player": {
+        "name": "Virada espetacular do Vasco no fim de jogo"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 89,
+        "extra": null
+      },
+      "team": {
+        "id": 267,
+        "name": "Vasco"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "player": {
+        "name": "Marino Hinestroza"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 90,
+        "extra": null
+      },
+      "team": {
+        "id": 267,
+        "name": "Vasco"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Marino Hinestroza"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 90,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Vamos até os 52 minutos do segundo tempo!",
+      "player": {
+        "name": "+7"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 92,
+        "extra": null
+      },
+      "team": {
+        "id": 264,
+        "name": "Corinthians"
+      },
+      "type": "Important",
+      "detail": "Gustavo Henrique vira centroavante nos minutos finais. Corinthians vai para o desespero.",
+      "player": {
+        "name": "Gustavo Henrique vira centroavante nos minutos f"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 94,
+        "extra": null
+      },
+      "team": {
+        "id": 264,
+        "name": "Corinthians"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Lingard"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 94,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Que partida espetacular em São Januário! Após Puma Rodríguez abrir o placar para o Vasco, o Corinthians reagiu no segundo tempo e virou com Gustavo Henrique e Matheus Bidu. Porém, a estrela de Marino Hinestroza brilhou. O colombiano saiu do banco e, com dois gols no fim, garantiu a virada para 3 a 2. Aos 49 minutos da etapa final, a torcida empurra os donos da casa rumo à vitória.",
+      "player": {
+        "name": "Virada emocionante do Vasco nos minutos finais"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 94,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Lucas Piton desarma Kaio César, vibra muito e a torcida vai junto em São Januário!",
+      "player": {
+        "name": "Lucas Piton desarma Kaio César, vibra muito e a "
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 96,
+        "extra": null
+      },
+      "team": {
+        "id": 264,
+        "name": "Corinthians"
+      },
+      "type": "Important",
+      "detail": "Com o cartão amarelo, Jesse Lingard está suspenso da próxima partida do Corinthians.",
+      "player": {
+        "name": "Com o cartão amarelo, Jesse Lingard está suspens"
+      },
+      "assist": null
     }
   ],
   "lineups": [
@@ -858,35 +2260,35 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "58%"
+          "value": "60%"
         },
         {
           "type": "Total Passes",
-          "value": 134
+          "value": 575
         },
         {
           "type": "Pass Accuracy",
-          "value": "84%"
+          "value": "86%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 22
+          "value": 83
         },
         {
           "type": "Total Shots",
-          "value": 4
+          "value": 21
         },
         {
           "type": "Shots on Goal",
-          "value": 2
+          "value": 8
         },
         {
           "type": "Shots off Goal",
-          "value": 1
+          "value": 7
         },
         {
           "type": "Blocked Shots",
-          "value": 1
+          "value": 6
         },
         {
           "type": "Hit Woodwork",
@@ -894,11 +2296,11 @@
         },
         {
           "type": "Corner Kicks",
-          "value": 0
+          "value": 3
         },
         {
           "type": "Offsides",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Penalties",
@@ -906,19 +2308,19 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 1
+          "value": 3
         },
         {
           "type": "Tackles",
-          "value": 1
+          "value": 14
         },
         {
           "type": "Fouls",
-          "value": 2
+          "value": 11
         },
         {
           "type": "Yellow Cards",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Red Cards",
@@ -934,35 +2336,35 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "42%"
+          "value": "40%"
         },
         {
           "type": "Total Passes",
-          "value": 80
+          "value": 323
         },
         {
           "type": "Pass Accuracy",
-          "value": "69%"
+          "value": "71%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 25
+          "value": 93
         },
         {
           "type": "Total Shots",
-          "value": 2
+          "value": 9
         },
         {
           "type": "Shots on Goal",
-          "value": 1
+          "value": 4
         },
         {
           "type": "Shots off Goal",
-          "value": 0
+          "value": 3
         },
         {
           "type": "Blocked Shots",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Hit Woodwork",
@@ -970,11 +2372,11 @@
         },
         {
           "type": "Corner Kicks",
-          "value": 1
+          "value": 3
         },
         {
           "type": "Offsides",
-          "value": 0
+          "value": 3
         },
         {
           "type": "Penalties",
@@ -982,19 +2384,19 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 3
+          "value": 10
         },
         {
           "type": "Tackles",
-          "value": 5
+          "value": 17
         },
         {
           "type": "Fouls",
-          "value": 1
+          "value": 14
         },
         {
           "type": "Yellow Cards",
-          "value": 0
+          "value": 3
         },
         {
           "type": "Red Cards",

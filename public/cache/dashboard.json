@@ -16131,7 +16131,9 @@
           "long": "FT",
           "short": "FT",
           "elapsed": 90
-        }
+        },
+        "timerStart": "2026-10-24T01:09:15.460Z",
+        "timerStatus": "PAUSADO"
       },
       "league": {
         "round": "Regular Season - 32"
@@ -16180,7 +16182,9 @@
           "long": "FT",
           "short": "FT",
           "elapsed": 90
-        }
+        },
+        "timerStart": "2026-10-24T21:40:08.757Z",
+        "timerStatus": "PAUSADO"
       },
       "league": {
         "round": "Regular Season - 32"
@@ -16229,7 +16233,9 @@
           "long": "FT",
           "short": "FT",
           "elapsed": 90
-        }
+        },
+        "timerStart": "2026-10-24T21:38:18.187Z",
+        "timerStatus": "PAUSADO"
       },
       "league": {
         "round": "Regular Season - 32"
@@ -16278,7 +16284,9 @@
           "long": "FT",
           "short": "FT",
           "elapsed": 90
-        }
+        },
+        "timerStart": "2026-10-24T21:42:47.996Z",
+        "timerStatus": "PAUSADO"
       },
       "league": {
         "round": "Regular Season - 32"
@@ -16430,12 +16438,12 @@
           "city": ""
         },
         "status": {
-          "long": "2H",
-          "short": "2H",
-          "elapsed": 67
+          "long": "FT",
+          "short": "FT",
+          "elapsed": 90
         },
-        "timerStart": "2026-10-24T23:38:03.706Z",
-        "timerStatus": "INICIADO"
+        "timerStart": "2026-10-25T00:37:17.309Z",
+        "timerStatus": "PAUSADO"
       },
       "league": {
         "round": "Regular Season - 32"
@@ -16462,8 +16470,8 @@
           "away": null
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 2,
+          "away": 1
         }
       },
       "odds": null,
@@ -16478,11 +16486,11 @@
           "city": ""
         },
         "status": {
-          "long": "1H",
-          "short": "1H",
-          "elapsed": null
+          "long": "FT",
+          "short": "FT",
+          "elapsed": 90
         },
-        "timerStart": "2026-10-24T22:46:22.993Z",
+        "timerStart": "2026-10-25T02:20:27.301Z",
         "timerStatus": "PAUSADO"
       },
       "league": {
@@ -16501,8 +16509,8 @@
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 1
       },
       "score": {
         "halftime": {
@@ -16510,8 +16518,8 @@
           "away": null
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 1
         }
       },
       "odds": null,
@@ -16532,7 +16540,9 @@
           "long": "NS",
           "short": "NS",
           "elapsed": null
-        }
+        },
+        "timerStart": null,
+        "timerStatus": "PAUSADO"
       },
       "league": {
         "round": "Regular Season - 32"
@@ -16580,7 +16590,9 @@
           "long": "NS",
           "short": "NS",
           "elapsed": null
-        }
+        },
+        "timerStart": null,
+        "timerStatus": "PAUSADO"
       },
       "league": {
         "round": "Regular Season - 32"
@@ -19557,18 +19569,18 @@
                 "name": "Bahia",
                 "logo": "https://s.sde.globo.com/media/organizations/2018/03/11/bahia.svg"
               },
-              "points": 49,
+              "points": 50,
               "goalsDiff": 5,
-              "form": "WLLWL",
+              "form": "LLWLD",
               "description": "Copa Sudamericana",
               "all": {
-                "played": 31,
+                "played": 32,
                 "win": 13,
-                "draw": 10,
+                "draw": 11,
                 "lose": 8,
                 "goals": {
-                  "for": 44,
-                  "against": 39
+                  "for": 45,
+                  "against": 40
                 }
               }
             },
@@ -19579,18 +19591,18 @@
                 "name": "Santos",
                 "logo": "https://s.sde.globo.com/media/organizations/2018/03/12/santos.svg"
               },
-              "points": 45,
+              "points": 46,
               "goalsDiff": 2,
-              "form": "WWDLW",
+              "form": "WDLWD",
               "description": "Copa Sudamericana",
               "all": {
-                "played": 31,
+                "played": 32,
                 "win": 12,
-                "draw": 9,
+                "draw": 10,
                 "lose": 10,
                 "goals": {
-                  "for": 48,
-                  "against": 46
+                  "for": 49,
+                  "against": 47
                 }
               }
             },
@@ -19955,6 +19967,28 @@
     {
       "player": {
         "id": 5,
+        "name": "Luciano Juba",
+        "photo": "https://s.sde.globo.com/media/person_role/2026/07/06/photo_140x140_JKUCf8p.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "name": "Bahia",
+            "logo": "https://s.sde.globo.com/media/organizations/2014/04/14/bahia_60x60.png"
+          },
+          "goals": {
+            "total": 11,
+            "assists": null
+          },
+          "games": {
+            "appearences": 0
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 6,
         "name": "Kaio Jorge",
         "photo": "https://s.sde.globo.com/media/person_role/2025/04/01/photo_140x140_1G1qpE6.png"
       },
@@ -19976,7 +20010,7 @@
     },
     {
       "player": {
-        "id": 6,
+        "id": 7,
         "name": "Danilo",
         "photo": "https://s.sde.globo.com/media/person_role/2026/07/06/photo_140x140_z4bUUy7.png"
       },
@@ -19998,7 +20032,7 @@
     },
     {
       "player": {
-        "id": 7,
+        "id": 8,
         "name": "Calleri",
         "photo": "https://s.sde.globo.com/media/person_role/2026/02/20/photo_140x140_2u6NnKV.png"
       },
@@ -20007,28 +20041,6 @@
           "team": {
             "name": "São Paulo",
             "logo": "https://s.sde.globo.com/media/organizations/2014/04/14/sao_paulo_60x60.png"
-          },
-          "goals": {
-            "total": 10,
-            "assists": null
-          },
-          "games": {
-            "appearences": 0
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 8,
-        "name": "Luciano Juba",
-        "photo": "https://s.sde.globo.com/media/person_role/2026/07/06/photo_140x140_JKUCf8p.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "name": "Bahia",
-            "logo": "https://s.sde.globo.com/media/organizations/2014/04/14/bahia_60x60.png"
           },
           "goals": {
             "total": 10,
@@ -20969,10 +20981,10 @@
   "budget": {
     "used": 0,
     "remaining": 100,
-    "mode": "live",
-    "liveIntervalMs": 20000
+    "mode": "idle",
+    "liveIntervalMs": 900000
   },
-  "fetchedAt": "2026-10-25T00:00:09.606Z",
+  "fetchedAt": "2026-10-25T04:30:31.538Z",
   "source": "ge-globo",
   "meta": {
     "rodada": 32,
@@ -21017,8 +21029,8 @@
       37,
       38
     ],
-    "seasonSyncedAt": "2026-10-24T21:53:46.024Z",
-    "fullSeasonSync": false,
+    "seasonSyncedAt": "2026-10-25T04:30:21.589Z",
+    "fullSeasonSync": true,
     "edicao": "Campeonato Brasileiro 2026",
     "provider": "ge.globo.com",
     "scorersCount": 50,
@@ -21029,7 +21041,7 @@
     "tvPreserved": 0,
     "tvAvailable": 343,
     "tvSource": "Onde Assistir — https://ondeassistir.com.br/dados",
-    "tvUpdatedAt": "2026-10-24T23:55:40.862160Z",
+    "tvUpdatedAt": "2026-10-25T04:15:19.670341Z",
     "fixturesCount": 380
   }
 }

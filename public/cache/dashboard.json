@@ -16587,12 +16587,12 @@
           "city": ""
         },
         "status": {
-          "long": "2H",
-          "short": "2H",
-          "elapsed": 92
+          "long": "FT",
+          "short": "FT",
+          "elapsed": 90
         },
-        "timerStart": "2026-10-27T00:04:24.895Z",
-        "timerStatus": "INICIADO"
+        "timerStart": "2026-10-27T01:03:38.410Z",
+        "timerStatus": "PAUSADO"
       },
       "league": {
         "round": "Regular Season - 32"
@@ -16610,7 +16610,7 @@
         }
       },
       "goals": {
-        "home": 2,
+        "home": 3,
         "away": 2
       },
       "score": {
@@ -16619,8 +16619,8 @@
           "away": null
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 3,
+          "away": 2
         }
       },
       "odds": null,
@@ -16921,7 +16921,9 @@
         "away": 3.5,
         "source": "betexplorer"
       },
-      "tv": []
+      "tv": [
+        "Premiere"
+      ]
     },
     {
       "fixture": {
@@ -17018,7 +17020,10 @@
         "away": 3.3,
         "source": "betexplorer"
       },
-      "tv": []
+      "tv": [
+        "SporTV",
+        "Premiere"
+      ]
     },
     {
       "fixture": {
@@ -19446,6 +19451,28 @@
             {
               "rank": 1,
               "team": {
+                "id": 262,
+                "name": "Flamengo",
+                "logo": "https://s.sde.globo.com/media/organizations/2018/04/10/Flamengo-2018.svg"
+              },
+              "points": 70,
+              "goalsDiff": 37,
+              "form": "WDWWW",
+              "description": "Copa Libertadores",
+              "all": {
+                "played": 32,
+                "win": 21,
+                "draw": 7,
+                "lose": 4,
+                "goals": {
+                  "for": 64,
+                  "against": 27
+                }
+              }
+            },
+            {
+              "rank": 2,
+              "team": {
                 "id": 275,
                 "name": "Palmeiras",
                 "logo": "https://s.sde.globo.com/media/organizations/2019/07/06/Palmeiras.svg"
@@ -19462,28 +19489,6 @@
                 "goals": {
                   "for": 56,
                   "against": 22
-                }
-              }
-            },
-            {
-              "rank": 2,
-              "team": {
-                "id": 262,
-                "name": "Flamengo",
-                "logo": "https://s.sde.globo.com/media/organizations/2018/04/10/Flamengo-2018.svg"
-              },
-              "points": 68,
-              "goalsDiff": 36,
-              "form": "WDWWD",
-              "description": "Copa Libertadores",
-              "all": {
-                "played": 32,
-                "win": 20,
-                "draw": 8,
-                "lose": 4,
-                "goals": {
-                  "for": 63,
-                  "against": 27
                 }
               }
             },
@@ -19560,18 +19565,18 @@
                 "name": "Atlético-MG",
                 "logo": "https://s.sde.globo.com/media/organizations/2018/03/10/atletico-mg.svg"
               },
-              "points": 51,
-              "goalsDiff": 7,
-              "form": "DDWWD",
+              "points": 50,
+              "goalsDiff": 6,
+              "form": "DDWWL",
               "description": "Copa Sudamericana",
               "all": {
                 "played": 32,
                 "win": 14,
-                "draw": 9,
-                "lose": 9,
+                "draw": 8,
+                "lose": 10,
                 "goals": {
                   "for": 44,
-                  "against": 37
+                  "against": 38
                 }
               }
             },
@@ -19666,28 +19671,6 @@
             {
               "rank": 11,
               "team": {
-                "id": 294,
-                "name": "Coritiba",
-                "logo": "https://s.sde.globo.com/media/organizations/2018/03/11/coritiba.svg"
-              },
-              "points": 40,
-              "goalsDiff": -11,
-              "form": "LLDLD",
-              "description": "Copa Sudamericana",
-              "all": {
-                "played": 32,
-                "win": 10,
-                "draw": 10,
-                "lose": 12,
-                "goals": {
-                  "for": 38,
-                  "against": 49
-                }
-              }
-            },
-            {
-              "rank": 12,
-              "team": {
                 "id": 263,
                 "name": "Botafogo",
                 "logo": "https://s.sde.globo.com/media/organizations/2019/02/04/botafogo-svg.svg"
@@ -19695,7 +19678,7 @@
               "points": 39,
               "goalsDiff": -7,
               "form": "LLDWL",
-              "description": null,
+              "description": "Copa Sudamericana",
               "all": {
                 "played": 32,
                 "win": 10,
@@ -19704,6 +19687,28 @@
                 "goals": {
                   "for": 44,
                   "against": 51
+                }
+              }
+            },
+            {
+              "rank": 12,
+              "team": {
+                "id": 294,
+                "name": "Coritiba",
+                "logo": "https://s.sde.globo.com/media/organizations/2018/03/11/coritiba.svg"
+              },
+              "points": 39,
+              "goalsDiff": -12,
+              "form": "LLDLL",
+              "description": null,
+              "all": {
+                "played": 32,
+                "win": 10,
+                "draw": 9,
+                "lose": 13,
+                "goals": {
+                  "for": 38,
+                  "against": 50
                 }
               }
             },
@@ -19798,6 +19803,28 @@
             {
               "rank": 17,
               "team": {
+                "id": 284,
+                "name": "Grêmio",
+                "logo": "https://s.sde.globo.com/media/organizations/2018/03/12/gremio.svg"
+              },
+              "points": 34,
+              "goalsDiff": -9,
+              "form": "DDDLW",
+              "description": "Relegation",
+              "all": {
+                "played": 32,
+                "win": 8,
+                "draw": 10,
+                "lose": 14,
+                "goals": {
+                  "for": 35,
+                  "against": 44
+                }
+              }
+            },
+            {
+              "rank": 18,
+              "team": {
                 "id": 264,
                 "name": "Corinthians",
                 "logo": "https://s.sde.globo.com/media/organizations/2024/10/09/Corinthians_2024_Q4ahot4.svg"
@@ -19814,28 +19841,6 @@
                 "goals": {
                   "for": 34,
                   "against": 42
-                }
-              }
-            },
-            {
-              "rank": 18,
-              "team": {
-                "id": 284,
-                "name": "Grêmio",
-                "logo": "https://s.sde.globo.com/media/organizations/2018/03/12/gremio.svg"
-              },
-              "points": 32,
-              "goalsDiff": -10,
-              "form": "DDDLD",
-              "description": "Relegation",
-              "all": {
-                "played": 32,
-                "win": 7,
-                "draw": 11,
-                "lose": 14,
-                "goals": {
-                  "for": 34,
-                  "against": 44
                 }
               }
             },
@@ -20442,17 +20447,17 @@
     {
       "player": {
         "id": 26,
-        "name": "Savarino",
-        "photo": "https://s.sde.globo.com/media/person_role/2026/07/06/photo_140x140_gmcshbG.png"
+        "name": "Carrascal",
+        "photo": "https://s.sde.globo.com/media/person_role/2026/05/25/photo_140x140_cMvap9e.png"
       },
       "statistics": [
         {
           "team": {
-            "name": "Fluminense",
-            "logo": "https://s.sde.globo.com/media/organizations/2014/04/14/fluminense_60x60.png"
+            "name": "Flamengo",
+            "logo": "https://s.sde.globo.com/media/organizations/2018/04/09/Flamengo-65.png"
           },
           "goals": {
-            "total": 6,
+            "total": 7,
             "assists": null
           },
           "games": {
@@ -20464,14 +20469,14 @@
     {
       "player": {
         "id": 27,
-        "name": "Carrascal",
-        "photo": "https://s.sde.globo.com/media/person_role/2026/05/25/photo_140x140_cMvap9e.png"
+        "name": "Savarino",
+        "photo": "https://s.sde.globo.com/media/person_role/2026/07/06/photo_140x140_gmcshbG.png"
       },
       "statistics": [
         {
           "team": {
-            "name": "Flamengo",
-            "logo": "https://s.sde.globo.com/media/organizations/2018/04/09/Flamengo-65.png"
+            "name": "Fluminense",
+            "logo": "https://s.sde.globo.com/media/organizations/2014/04/14/fluminense_60x60.png"
           },
           "goals": {
             "total": 6,
@@ -20994,10 +20999,10 @@
   "budget": {
     "used": 0,
     "remaining": 100,
-    "mode": "live",
-    "liveIntervalMs": 20000
+    "mode": "idle",
+    "liveIntervalMs": 900000
   },
-  "fetchedAt": "2026-10-27T00:52:19.169Z",
+  "fetchedAt": "2026-10-27T05:53:19.835Z",
   "source": "ge-globo",
   "meta": {
     "rodada": 32,
@@ -21043,18 +21048,18 @@
       38
     ],
     "seasonSyncedAt": "2026-10-27T00:52:11.054Z",
-    "fullSeasonSync": true,
+    "fullSeasonSync": false,
     "edicao": "Campeonato Brasileiro 2026",
     "provider": "ge.globo.com",
     "scorersCount": 50,
     "oddsMatched": 0,
     "oddsPreserved": 318,
     "oddsAvailable": 0,
-    "tvMatched": 133,
+    "tvMatched": 135,
     "tvPreserved": 0,
     "tvAvailable": 343,
     "tvSource": "Onde Assistir — https://ondeassistir.com.br/dados",
-    "tvUpdatedAt": "2026-10-27T00:32:00.922263Z",
+    "tvUpdatedAt": "2026-10-27T04:34:32.611218Z",
     "fixturesCount": 380
   }
 }

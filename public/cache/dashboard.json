@@ -16618,12 +16618,12 @@
           "city": ""
         },
         "status": {
-          "long": "NS",
-          "short": "NS",
-          "elapsed": null
+          "long": "1H",
+          "short": "1H",
+          "elapsed": 24
         },
-        "timerStart": null,
-        "timerStatus": "PAUSADO"
+        "timerStart": "2026-10-28T22:30:16.821Z",
+        "timerStatus": "INICIADO"
       },
       "league": {
         "round": "Regular Season - 33"
@@ -16641,8 +16641,8 @@
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
       "score": {
         "halftime": {
@@ -16669,12 +16669,12 @@
           "city": ""
         },
         "status": {
-          "long": "NS",
-          "short": "NS",
-          "elapsed": null
+          "long": "1H",
+          "short": "1H",
+          "elapsed": 22
         },
-        "timerStart": null,
-        "timerStatus": "PAUSADO"
+        "timerStart": "2026-10-28T22:31:52.778Z",
+        "timerStatus": "INICIADO"
       },
       "league": {
         "round": "Regular Season - 33"
@@ -16692,8 +16692,8 @@
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
       "score": {
         "halftime": {
@@ -16719,12 +16719,12 @@
           "city": ""
         },
         "status": {
-          "long": "NS",
-          "short": "NS",
-          "elapsed": null
+          "long": "1H",
+          "short": "1H",
+          "elapsed": 24
         },
-        "timerStart": null,
-        "timerStatus": "PAUSADO"
+        "timerStart": "2026-10-28T22:30:17.031Z",
+        "timerStatus": "INICIADO"
       },
       "league": {
         "round": "Regular Season - 33"
@@ -16742,8 +16742,8 @@
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
       "score": {
         "halftime": {
@@ -19482,14 +19482,14 @@
                 "name": "Palmeiras",
                 "logo": "https://s.sde.globo.com/media/organizations/2019/07/06/Palmeiras.svg"
               },
-              "points": 69,
+              "points": 70,
               "goalsDiff": 34,
-              "form": "DWWWW",
+              "form": "WWWWD",
               "description": "Copa Libertadores",
               "all": {
-                "played": 32,
+                "played": 33,
                 "win": 20,
-                "draw": 9,
+                "draw": 10,
                 "lose": 3,
                 "goals": {
                   "for": 56,
@@ -19548,14 +19548,14 @@
                 "name": "Fluminense",
                 "logo": "https://s.sde.globo.com/media/organizations/2018/03/11/fluminense.svg"
               },
-              "points": 51,
+              "points": 52,
               "goalsDiff": 9,
-              "form": "WWLLL",
+              "form": "WLLLD",
               "description": "Copa Libertadores Qualifiers",
               "all": {
-                "played": 32,
+                "played": 33,
                 "win": 14,
-                "draw": 9,
+                "draw": 10,
                 "lose": 9,
                 "goals": {
                   "for": 50,
@@ -19614,14 +19614,14 @@
                 "name": "Santos",
                 "logo": "https://s.sde.globo.com/media/organizations/2018/03/12/santos.svg"
               },
-              "points": 46,
+              "points": 47,
               "goalsDiff": 2,
-              "form": "WDLWD",
+              "form": "DLWDD",
               "description": "Copa Sudamericana",
               "all": {
-                "played": 32,
+                "played": 33,
                 "win": 12,
-                "draw": 10,
+                "draw": 11,
                 "lose": 10,
                 "goals": {
                   "for": 49,
@@ -19658,14 +19658,14 @@
                 "name": "Bragantino",
                 "logo": "https://s.sde.globo.com/media/organizations/2021/06/28/bragantino.svg"
               },
-              "points": 41,
+              "points": 42,
               "goalsDiff": 1,
-              "form": "LDWDL",
+              "form": "DWDLD",
               "description": "Copa Sudamericana",
               "all": {
-                "played": 32,
+                "played": 33,
                 "win": 11,
-                "draw": 8,
+                "draw": 9,
                 "lose": 13,
                 "goals": {
                   "for": 39,
@@ -19790,14 +19790,14 @@
                 "name": "Internacional",
                 "logo": "https://s.sde.globo.com/media/organizations/2018/03/11/internacional.svg"
               },
-              "points": 35,
+              "points": 36,
               "goalsDiff": -4,
-              "form": "LWDLW",
+              "form": "WDLWD",
               "description": null,
               "all": {
-                "played": 32,
+                "played": 33,
                 "win": 8,
-                "draw": 11,
+                "draw": 12,
                 "lose": 13,
                 "goals": {
                   "for": 36,
@@ -19878,14 +19878,14 @@
                 "name": "Chapecoense",
                 "logo": "https://s.sde.globo.com/media/organizations/2021/06/21/CHAPECOENSE-2018.svg"
               },
-              "points": 21,
+              "points": 22,
               "goalsDiff": -31,
-              "form": "DLLLW",
+              "form": "LLLWD",
               "description": "Relegation",
               "all": {
-                "played": 31,
+                "played": 32,
                 "win": 4,
-                "draw": 9,
+                "draw": 10,
                 "lose": 18,
                 "goals": {
                   "for": 32,
@@ -21004,10 +21004,10 @@
   "budget": {
     "used": 0,
     "remaining": 100,
-    "mode": "prematch",
-    "liveIntervalMs": 120000
+    "mode": "live",
+    "liveIntervalMs": 20000
   },
-  "fetchedAt": "2026-10-28T18:48:22.285Z",
+  "fetchedAt": "2026-10-28T22:54:25.778Z",
   "source": "ge-globo",
   "meta": {
     "rodada": 33,
@@ -21052,8 +21052,8 @@
       37,
       38
     ],
-    "seasonSyncedAt": "2026-10-28T13:03:22.952Z",
-    "fullSeasonSync": false,
+    "seasonSyncedAt": "2026-10-28T22:54:19.692Z",
+    "fullSeasonSync": true,
     "edicao": "Campeonato Brasileiro 2026",
     "provider": "ge.globo.com",
     "scorersCount": 50,
@@ -21064,7 +21064,7 @@
     "tvPreserved": 0,
     "tvAvailable": 343,
     "tvSource": "Onde Assistir — https://ondeassistir.com.br/dados",
-    "tvUpdatedAt": "2026-10-28T18:16:49.480537Z",
+    "tvUpdatedAt": "2026-10-28T22:16:07.636860Z",
     "fixturesCount": 380
   }
 }

@@ -7,12 +7,12 @@
       "city": ""
     },
     "status": {
-      "long": "NS",
-      "short": "NS",
-      "elapsed": null
+      "long": "1H",
+      "short": "1H",
+      "elapsed": 24
     },
-    "timerStart": null,
-    "timerStatus": "PAUSADO"
+    "timerStart": "2026-10-28T22:30:17.031Z",
+    "timerStatus": "INICIADO"
   },
   "league": {
     "round": "Regular Season - 33"
@@ -30,8 +30,8 @@
     }
   },
   "goals": {
-    "home": null,
-    "away": null
+    "home": 0,
+    "away": 0
   },
   "score": {
     "halftime": {
@@ -48,7 +48,282 @@
     "Premiere"
   ],
   "_geUrl": "https://ge.globo.com/sp/vale-do-paraiba-regiao/futebol/brasileirao-serie-a/jogo/28-10-2026/bragantino-chapecoense.ghtml",
-  "events": [],
+  "events": [
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 315,
+        "name": "Chapecoense"
+      },
+      "type": "Important",
+      "detail": "Escanteio para Chapecoense.",
+      "player": {
+        "name": "Escanteio para Chapecoense."
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 315,
+        "name": "Chapecoense"
+      },
+      "type": "Important",
+      "detail": "A Chape dá o pontapé inicial.",
+      "player": {
+        "name": "COMEÇA O JOGO!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 1,
+        "extra": null
+      },
+      "team": {
+        "id": 315,
+        "name": "Chapecoense"
+      },
+      "type": "Important",
+      "detail": "Escateneio é cobrado, e Kauan cabeceia para fora.",
+      "player": {
+        "name": "Escateneio é cobrado, e Kauan cabeceia para fora"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 4,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "A bola rolou e o duelo começou em ritmo acelerado. Com cinco minutos de jogo, o placar segue 0 a 0, mas ambas as equipes já assustaram. A Chapecoense começou pressionando e teve chance com Kauan, que cabeceou para fora após cobrança de escanteio. O Bragantino respondeu rápido com Wallace Yan, que bateu forte e exigiu boa defesa do goleiro Anderson.",
+      "player": {
+        "name": "Início movimentado com chances para os dois lados"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 4,
+        "extra": null
+      },
+      "team": {
+        "id": 280,
+        "name": "Bragantino"
+      },
+      "type": "Important",
+      "detail": "Wallace Yan bate para o gol, e Anderson faz a defesa.",
+      "player": {
+        "name": "Wallace Yan"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 6,
+        "extra": null
+      },
+      "team": {
+        "id": 315,
+        "name": "Chapecoense"
+      },
+      "type": "Important",
+      "detail": "Giovanni Augusto cobra falta e joga a bola na área. Bolasie cabeceia, e Cleiton faz a defesa.",
+      "player": {
+        "name": "Giovanni Augusto cobra falta e joga a bola na ár"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 9,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Com dez minutos de jogo, Bragantino e Chapecoense fazem um início bem movimentado. A Chapecoense assustou pelo alto em cabeçadas de Kauan, para fora, e de Bolasie, defendida por Cleiton. O Bragantino respondeu com finalização de Wallace Yan defendida por Anderson, além de boa jogada individual de Fernando. O placar segue zero a zero em um confronto com alternativas para os dois lados.",
+      "player": {
+        "name": "Início movimentado e chances para os dois lados"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 9,
+        "extra": null
+      },
+      "team": {
+        "id": 280,
+        "name": "Bragantino"
+      },
+      "type": "Important",
+      "detail": "Fernando invade a área pela esquerda, dribla a marcação e ganha escanteio para o Bragantino.",
+      "player": {
+        "name": "Fernando invade a área pela esquerda, dribla a m"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 10,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Wallace Yan cobra o escanteio, e Eduardo Sasha não consegue o cabeceio na segunda trave.",
+      "player": {
+        "name": "Wallace Yan cobra o escanteio, e Eduardo Sasha n"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 13,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Com 13 minutos de bola rolando, Bragantino e Chapecoense fazem um duelo equilibrado. O time visitante assustou primeiro em cabeçadas de Kauan e Bolasie, defendida por Cleiton. Os donos da casa responderam com batida de Wallace Yan e chute perigoso de Eric Ramires para fora. Embora o Bragantino tenha mais posse de bola, a Chape se fecha muito bem e mantém o placar zerado.",
+      "player": {
+        "name": "Chances para os dois lados em início movimentado"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 13,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Bragantino tem mais posse de bola, mas não consegue criar jogadas e levar perigo. Chape se defende e ainda não conseguiu encaixar bons contra-ataques.",
+      "player": {
+        "name": "Bragantino tem mais posse de bola, mas não conse"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 14,
+        "extra": null
+      },
+      "team": {
+        "id": 315,
+        "name": "Chapecoense"
+      },
+      "type": "Important",
+      "detail": "Em contra-ataque, Marcinho lança Bolasie no ataque. Ele corre em direção ao gol, mas, quando vai finalizar, acaba escorregando e finaliza mal.",
+      "player": {
+        "name": "Bolasie"
+      },
+      "assist": {
+        "name": "ESCORREGOU"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 16,
+        "extra": null
+      },
+      "team": {
+        "id": 280,
+        "name": "Bragantino"
+      },
+      "type": "Important",
+      "detail": "Sasha recebe na entrada da área e bate colocado no canto. Anderson faz a defesa.",
+      "player": {
+        "name": "Eduardo Sasha"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 16,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Com 16 minutos de jogo, Bragantino e Chapecoense fazem um duelo bastante movimentado. O time da casa tenta propor o jogo com Wallace Yan e Eric Ramires, mas parou no goleiro Anderson. Do outro lado, a equipe visitante assustou com cabeceio de Bolasie defendido por Cleiton, e o próprio atacante desperdiçou grande chance ao escorregar na hora da batida. O placar segue em zero a zero.",
+      "player": {
+        "name": "Início dinâmico e equilíbrio marcam o duelo"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 16,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Wallace Yan finaliza, mas a bola vai para fora.",
+      "player": {
+        "name": "Wallace Yan finaliza, mas a bola vai para fora."
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 17,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Ryan cruza na área, e João Paulo corta a jogada. Escanteio para o Braga.",
+      "player": {
+        "name": "Ryan cruza na área, e João Paulo corta a jogada."
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 18,
+        "extra": null
+      },
+      "team": {
+        "id": 315,
+        "name": "Chapecoense"
+      },
+      "type": "Important",
+      "detail": "Ryan cobra o escanteio, a defesa da Chape afasta.",
+      "player": {
+        "name": "Ryan cobra o escanteio, a defesa da Chape afasta"
+      },
+      "assist": null
+    }
+  ],
   "lineups": [
     {
       "team": {
@@ -81,18 +356,18 @@
         },
         {
           "player": {
-            "id": "guzrodriguez",
-            "name": "Guzmán Rodríguez",
-            "number": 2,
+            "id": "alix-vinicius",
+            "name": "Alix Vinicius",
+            "number": 4,
             "pos": "Def",
             "grid": null
           }
         },
         {
           "player": {
-            "id": "gustavomarquessantos",
-            "name": "Gustavo Marques",
-            "number": null,
+            "id": "guzrodriguez",
+            "name": "Guzmán Rodríguez",
+            "number": 2,
             "pos": "Def",
             "grid": null
           }
@@ -126,18 +401,27 @@
         },
         {
           "player": {
-            "id": "lucas-barbosa",
-            "name": "Lucas Barbosa",
-            "number": 21,
+            "id": "eduardosasha",
+            "name": "Eduardo Sasha",
+            "number": 8,
             "pos": "Mei",
             "grid": null
           }
         },
         {
           "player": {
-            "id": "eduardosasha",
-            "name": "Eduardo Sasha",
-            "number": null,
+            "id": "lucas-barbosa",
+            "name": "Lucas Barbosa",
+            "number": 21,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "wallace-yan",
+            "name": "Wallace Yan",
+            "number": 47,
             "pos": "Ata",
             "grid": null
           }
@@ -150,18 +434,118 @@
             "pos": "Ata",
             "grid": null
           }
+        }
+      ],
+      "substitutes": [
+        {
+          "player": {
+            "id": "gustareisalca",
+            "name": "Gustavo Reis",
+            "number": 56,
+            "pos": "Gol",
+            "grid": null
+          }
         },
         {
           "player": {
-            "id": "wallace-yan",
-            "name": "Wallace Yan",
-            "number": null,
+            "id": "santanna",
+            "name": "Sant'Anna",
+            "number": 23,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "eduardomendes",
+            "name": "Eduardo Santos",
+            "number": 3,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "vanderlan",
+            "name": "Vanderlan",
+            "number": 12,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "matheusfernandes",
+            "name": "Matheus Fernandes",
+            "number": 35,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "bruninho-bragantino",
+            "name": "Bruninho",
+            "number": 19,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "Gustavinho3",
+            "name": "Gustavinho",
+            "number": 22,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "marcelinho-braz",
+            "name": "Marcelinho",
+            "number": 57,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "pittais",
+            "name": "Isidro Pitta",
+            "number": 9,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "vinicius-calvas",
+            "name": "Vinicinho",
+            "number": 17,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "HenryDavidMosqueraSanchez",
+            "name": "Henry Mosquera",
+            "number": 30,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "joseherrerama",
+            "name": "Herrera",
+            "number": 32,
             "pos": "Ata",
             "grid": null
           }
         }
-      ],
-      "substitutes": []
+      ]
     },
     {
       "team": {
@@ -169,7 +553,7 @@
         "name": "Chapecoense",
         "logo": "https://s.sde.globo.com/media/organizations/2021/06/21/CHAPECOENSE-2018.svg"
       },
-      "formation": "4-3-3",
+      "formation": "4-4-2",
       "coach": {
         "name": "Rafael Lacerda"
       },
@@ -203,9 +587,9 @@
         },
         {
           "player": {
-            "id": "eduardodoma",
-            "name": "Eduardo Doma",
-            "number": 3,
+            "id": "joaopaulosil",
+            "name": "João Paulo",
+            "number": 4,
             "pos": "Def",
             "grid": null
           }
@@ -239,19 +623,19 @@
         },
         {
           "player": {
-            "id": "giovanni-augusto",
-            "name": "Giovanni Augusto",
-            "number": 10,
+            "id": "david",
+            "name": "David",
+            "number": 19,
             "pos": "Mei",
             "grid": null
           }
         },
         {
           "player": {
-            "id": "marcinhoantonio",
-            "name": "Marcinho",
-            "number": 7,
-            "pos": "Ata",
+            "id": "giovanni-augusto",
+            "name": "Giovanni Augusto",
+            "number": 10,
+            "pos": "Mei",
             "grid": null
           }
         },
@@ -266,17 +650,261 @@
         },
         {
           "player": {
-            "id": "garcezmau",
-            "name": "Garcez",
-            "number": 31,
+            "id": "marcinhoantonio",
+            "name": "Marcinho",
+            "number": 7,
             "pos": "Ata",
             "grid": null
           }
         }
       ],
-      "substitutes": []
+      "substitutes": [
+        {
+          "player": {
+            "id": "matheusaurelio",
+            "name": "Matheus Aurélio",
+            "number": 30,
+            "pos": "Gol",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "dudu-marques",
+            "name": "Dudu",
+            "number": 23,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "eduardodoma",
+            "name": "Eduardo Doma",
+            "number": 3,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "victorcaetano",
+            "name": "Victor Caetano",
+            "number": 25,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "rosivan",
+            "name": "Rosivan",
+            "number": 55,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "maxdasilva",
+            "name": "Max",
+            "number": 22,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "miguel-carvalho",
+            "name": "Miguel Carvalho",
+            "number": 80,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "tulio-eduardo",
+            "name": "Túlio Eduardo",
+            "number": 9,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "franrossi",
+            "name": "Franco Rossi",
+            "number": 29,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "kevinramirez",
+            "name": "Kevin Ramírez",
+            "number": 94,
+            "pos": "Ata",
+            "grid": null
+          }
+        }
+      ]
     }
   ],
-  "statistics": [],
+  "statistics": [
+    {
+      "team": {
+        "id": 280,
+        "name": "Bragantino"
+      },
+      "statistics": [
+        {
+          "type": "Ball Possession",
+          "value": "60%"
+        },
+        {
+          "type": "Total Passes",
+          "value": 124
+        },
+        {
+          "type": "Pass Accuracy",
+          "value": "85%"
+        },
+        {
+          "type": "Incomplete Passes",
+          "value": 18
+        },
+        {
+          "type": "Total Shots",
+          "value": 5
+        },
+        {
+          "type": "Shots on Goal",
+          "value": 2
+        },
+        {
+          "type": "Shots off Goal",
+          "value": 3
+        },
+        {
+          "type": "Blocked Shots",
+          "value": 0
+        },
+        {
+          "type": "Hit Woodwork",
+          "value": 0
+        },
+        {
+          "type": "Corner Kicks",
+          "value": 2
+        },
+        {
+          "type": "Offsides",
+          "value": 0
+        },
+        {
+          "type": "Penalties",
+          "value": 0
+        },
+        {
+          "type": "Goalkeeper Saves",
+          "value": 0
+        },
+        {
+          "type": "Tackles",
+          "value": 3
+        },
+        {
+          "type": "Fouls",
+          "value": 1
+        },
+        {
+          "type": "Yellow Cards",
+          "value": 0
+        },
+        {
+          "type": "Red Cards",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "team": {
+        "id": 315,
+        "name": "Chapecoense"
+      },
+      "statistics": [
+        {
+          "type": "Ball Possession",
+          "value": "40%"
+        },
+        {
+          "type": "Total Passes",
+          "value": 68
+        },
+        {
+          "type": "Pass Accuracy",
+          "value": "75%"
+        },
+        {
+          "type": "Incomplete Passes",
+          "value": 17
+        },
+        {
+          "type": "Total Shots",
+          "value": 3
+        },
+        {
+          "type": "Shots on Goal",
+          "value": 0
+        },
+        {
+          "type": "Shots off Goal",
+          "value": 2
+        },
+        {
+          "type": "Blocked Shots",
+          "value": 1
+        },
+        {
+          "type": "Hit Woodwork",
+          "value": 0
+        },
+        {
+          "type": "Corner Kicks",
+          "value": 1
+        },
+        {
+          "type": "Offsides",
+          "value": 0
+        },
+        {
+          "type": "Penalties",
+          "value": 0
+        },
+        {
+          "type": "Goalkeeper Saves",
+          "value": 2
+        },
+        {
+          "type": "Tackles",
+          "value": 5
+        },
+        {
+          "type": "Fouls",
+          "value": 2
+        },
+        {
+          "type": "Yellow Cards",
+          "value": 0
+        },
+        {
+          "type": "Red Cards",
+          "value": 0
+        }
+      ]
+    }
+  ],
   "sportsFieldUrl": null
 }

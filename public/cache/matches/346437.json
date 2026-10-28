@@ -7,12 +7,12 @@
       "city": ""
     },
     "status": {
-      "long": "NS",
-      "short": "NS",
-      "elapsed": null
+      "long": "1H",
+      "short": "1H",
+      "elapsed": 22
     },
-    "timerStart": null,
-    "timerStatus": "PAUSADO"
+    "timerStart": "2026-10-28T22:31:52.778Z",
+    "timerStatus": "INICIADO"
   },
   "league": {
     "round": "Regular Season - 33"
@@ -30,8 +30,8 @@
     }
   },
   "goals": {
-    "home": null,
-    "away": null
+    "home": 0,
+    "away": 0
   },
   "score": {
     "halftime": {
@@ -48,7 +48,628 @@
     "Premiere"
   ],
   "_geUrl": "https://ge.globo.com/sp/santos-e-regiao/futebol/brasileirao-serie-a/jogo/28-10-2026/santos-palmeiras.ghtml",
-  "events": [],
+  "events": [
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Palmeiras bateu o centro do campo, mas o Santos ganha a posse pouco depois e avança pelo lado esquerdo do campo.",
+      "player": {
+        "name": "Palmeiras bateu o centro do campo, mas o Santos "
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Bola rolando para Santos x Palmeiras na Vila Belmiro.",
+      "player": {
+        "name": "Começa o clássico!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 1,
+        "extra": null
+      },
+      "team": {
+        "id": 275,
+        "name": "Palmeiras"
+      },
+      "type": "Important",
+      "detail": "Flaco tenta o cruzamento na área pelo lado direito na sequência, mas é travado. Verdão recomeça tudo da linha defensiva.",
+      "player": {
+        "name": "Flaco tenta o cruzamento na área pelo lado direi"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 1,
+        "extra": null
+      },
+      "team": {
+        "id": 275,
+        "name": "Palmeiras"
+      },
+      "type": "Important",
+      "detail": "Giay intercepta pelo lado do campo. Palmeiras tenta uma ligação direta ao ataque na direção de Arias, que domina e toca em Flaco López.",
+      "player": {
+        "name": "Giay intercepta pelo lado do campo. Palmeiras te"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 2,
+        "extra": null
+      },
+      "team": {
+        "id": 275,
+        "name": "Palmeiras"
+      },
+      "type": "Important",
+      "detail": "Flaco carrega a bola pela ponta esquerda do campo contra a marcação de João Alencar, é segurado e ganha falta para o Palmeiras.",
+      "player": {
+        "name": "Falta para o Palmeiras"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 2,
+        "extra": null
+      },
+      "team": {
+        "id": 277,
+        "name": "Santos"
+      },
+      "type": "Important",
+      "detail": "Árbitro marca empurrão de Arias em Gustavo Henrique na tentativa de dominar o lançamento ao ataque.",
+      "player": {
+        "name": "Falta para o Santos"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 3,
+        "extra": null
+      },
+      "team": {
+        "id": 277,
+        "name": "Santos"
+      },
+      "type": "Important",
+      "detail": "Santos puxa o contra-ataque com Everton Cebolinha em campo aberto.",
+      "player": {
+        "name": "Santos puxa o contra-ataque com Everton Cebolinh"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 3,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Andras cobra a falta na área, e Rodinei afasta de cabeça.",
+      "player": {
+        "name": "Andras cobra a falta na área, e Rodinei afasta d"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 3,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O clássico paulista começou com muita intensidade física e marcação forte na Vila Belmiro. Logo nos primeiros minutos, o Santos tentou avançar, mas o Palmeiras equilibrou as ações com Giay e Flaco López no ataque. Com pouco mais de 3 minutos de jogo, após faltas marcadas de lado a lado, o Verdão tem uma boa chance em cobrança de falta levantada na área com Piquerez e Andreas na bola.",
+      "player": {
+        "name": "Início pegado e muita marcação na Vila Belmiro"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 3,
+        "extra": null
+      },
+      "team": {
+        "id": 275,
+        "name": "Palmeiras"
+      },
+      "type": "Important",
+      "detail": "Piquerez e Andreas na bola. Palmeiras terá lançamento na área pelo lado esquerdo.",
+      "player": {
+        "name": "Piquerez e Andreas na bola. Palmeiras terá lança"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 4,
+        "extra": null
+      },
+      "team": {
+        "id": 275,
+        "name": "Palmeiras"
+      },
+      "type": "Important",
+      "detail": "Gabriel Bontempo recebe a bola na entrada da área e finaliza de fora da área, mas acerta a defesa do Palmeiras. Na sequência do lance, bandeirinha marca impedimento de Gabigol.",
+      "player": {
+        "name": "Gabriel Bontempo"
+      },
+      "assist": {
+        "name": "Travado!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 5,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Oliva faz o lançamento à esquerda na direção do ataque, e Giay consegue a proteção.",
+      "player": {
+        "name": "Oliva faz o lançamento à esquerda na direção do "
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 5,
+        "extra": null
+      },
+      "team": {
+        "id": 277,
+        "name": "Santos"
+      },
+      "type": "Important",
+      "detail": "Cebolinha e Giay entram em uma disputa de bola na lateral do campo. O meia do Santos quase consegue avançar, é derrubado, e a arbitragem marca falta para o Peixe.",
+      "player": {
+        "name": "Cebolinha e Giay entram em uma disputa de bola n"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 6,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O clássico na Vila Belmiro começou em alta velocidade. Nos primeiros seis minutos de jogo, as duas equipes buscaram o ataque. Gabriel Bontempo arriscou para o Peixe, mas acabou travado. A resposta do Palmeiras veio em seguida, quando Flaco López puxou contra-ataque rápido e serviu Marlon Freitas, que finalizou para fora. Um início bem movimentado e com forte pegada na marcação.",
+      "player": {
+        "name": "Clássico começa quente e corrido na Vila"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 6,
+        "extra": null
+      },
+      "team": {
+        "id": 275,
+        "name": "Palmeiras"
+      },
+      "type": "Important",
+      "detail": "Flaco López recebe o passe no meio de campo e dispara puxando o contra-ataque diante de dois na defesa. Ele olha para o lado direito, vê Marlon Freitas chegando, e emenda duas tentativas de drible para limpar a marcação antes de mandar a bola no meio. O volante chuta de primeira chapado para fora.",
+      "player": {
+        "name": "Marlon Freitas"
+      },
+      "assist": {
+        "name": "Para fora!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 8,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Flaco lança Giay na ponta direita, ele tenta o drible, e Barreal faz o corte.",
+      "player": {
+        "name": "Flaco lança Giay na ponta direita, ele tenta o d"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 9,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O clássico na Vila Belmiro começou em ritmo acelerado. Nos primeiros dez minutos de jogo, o Santos tentou assustar com finalização bloqueada de Gabriel Bontempo. Já o Palmeiras respondeu na velocidade e desperdiçou uma oportunidade inacreditável, após Arias dar um toque sutil e Giay isolar a bola. O placar segue em 0 a 0, mas a partida promete bastante intensidade.",
+      "player": {
+        "name": "Clássico começa quente e com chance incrível"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 9,
+        "extra": null
+      },
+      "team": {
+        "id": 275,
+        "name": "Palmeiras"
+      },
+      "type": "Important",
+      "detail": "Piquerez carrega a bola da esquerda para o meio dando passe em Marlon Freitas, que lança Arias mais a frente. O colombiano dá um toquinho na tentativa do gol, mas a bola quica e não entra. Giay chega com tudo e termina mandando a bola para longe demais.",
+      "player": {
+        "name": "Giay"
+      },
+      "assist": {
+        "name": "Inacreditável! Grande chance do Palmeiras"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 9,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O clássico começou quente na Vila Belmiro. Com 9 minutos de bola rolando, as duas equipes tentam impor seu ritmo. O Santos chegou a assustar com finalização de Gabriel Bontempo, que acabou travada pela defesa. A resposta do Palmeiras foi rápida e perigosa: Flaco López puxou contra-ataque e serviu Marlon Freitas, que bateu de primeira para fora. Duelo equilibrado e muito corrido.",
+      "player": {
+        "name": "Inicio equilibrado e de muita correria na Vila"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 9,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Palmeiras roda a bola na entrada da área do Santos.",
+      "player": {
+        "name": "Palmeiras roda a bola na entrada da área do Sant"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 10,
+        "extra": null
+      },
+      "team": {
+        "id": 277,
+        "name": "Santos"
+      },
+      "type": "Important",
+      "detail": "O Santos puxa um contra-ataque na sequência do lance, mas não consegue chegar com perigo.",
+      "player": {
+        "name": "O Santos puxa um contra-ataque na sequência do l"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 11,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Rodinei segura a bola no meio de campo, busca espaços e termina recuando na linha defensiva.",
+      "player": {
+        "name": "Rodinei segura a bola no meio de campo, busca es"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 12,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Com quase 13 minutos de jogo, o clássico na Vila Belmiro começa em ritmo de muita disputa. O Palmeiras quase abriu o placar após finalização de Arias que Giay mandou para fora, além de um chute perigoso de Marlon Freitas. O Santos tenta responder na velocidade de Cebolinha e busca Gabigol na área, mas a defesa do Palmeiras se segura bem. O duelo segue muito movimentado.",
+      "player": {
+        "name": "Chances perdidas e ritmo acelerado no clássico"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 12,
+        "extra": null
+      },
+      "team": {
+        "id": 277,
+        "name": "Santos"
+      },
+      "type": "Important",
+      "detail": "Santos insiste mais uma vez pressionando pelo lado direito, e Gabigol arrisca o chute, mas acerta em cima da marcação do Palmeiras.",
+      "player": {
+        "name": "Gabriel"
+      },
+      "assist": {
+        "name": "Pressionando"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 12,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O clássico começou em ritmo acelerado na Vila Belmiro. Nos primeiros 12 minutos, o Palmeiras teve a melhor oportunidade de tirar o zero do placar com Arias e Giay, mas desperdiçou uma chance incrível. O Santos tenta responder explorando as arrancadas de Cebolinha e a movimentação de Gabriel Bontempo no ataque. Por enquanto, o duelo segue muito equilibrado e com forte marcação.",
+      "player": {
+        "name": "Início quente e chances perdidas na Vila Belmiro"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 12,
+        "extra": null
+      },
+      "team": {
+        "id": 275,
+        "name": "Palmeiras"
+      },
+      "type": "Important",
+      "detail": "Bontempo avança ao ataque do Palmeiras, tenta buscar Gabigol, mas termina esticando demais a bola, que fica nas mãos de Carlos Miguel.",
+      "player": {
+        "name": "Bontempo avança ao ataque do Palmeiras, tenta bu"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 13,
+        "extra": null
+      },
+      "team": {
+        "id": 277,
+        "name": "Santos"
+      },
+      "type": "Important",
+      "detail": "Marlon Freitas recupera a bola de graça no erro de passe do Santos no meio de campo.",
+      "player": {
+        "name": "Marlon Freitas recupera a bola de graça no erro "
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 14,
+        "extra": null
+      },
+      "team": {
+        "id": 275,
+        "name": "Palmeiras"
+      },
+      "type": "Important",
+      "detail": "Flaco López recebe a bola de frente para a área, vê espaço e manda um chutaço, mas para muito longe. O argentino leva as mãos à cabeça como quem não acredita.",
+      "player": {
+        "name": "Flaco López"
+      },
+      "assist": {
+        "name": "Para longe!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 15,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Com 15 minutos de bola rolando, Santos e Palmeiras fazem um clássico equilibrado e de forte marcação na Vila Belmiro. O Verdão quase abriu o placar após Arias e Giay desperdiçarem uma chance de ouro, além de chute perigoso de Marlon Freitas. O Peixe tenta responder na velocidade com Everton e Gabriel, mas esbarra na defesa rival. O placar segue em zero a zero.",
+      "player": {
+        "name": "Clássico movimentado e gols perdidos na Vila"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 15,
+        "extra": null
+      },
+      "team": {
+        "id": 277,
+        "name": "Santos"
+      },
+      "type": "Important",
+      "detail": "Santos trabalha a bola pelo lado esquerdo com Luan Peres trocando passes e tentando encontrar espaços.",
+      "player": {
+        "name": "Santos trabalha a bola pelo lado esquerdo com Lu"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 15,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Gómez tenta uma ligação direta com Arias na ponta direita, e João Alencar ganha a bola pelo alto.",
+      "player": {
+        "name": "Gómez tenta uma ligação direta com Arias na pont"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 16,
+        "extra": null
+      },
+      "team": {
+        "id": 275,
+        "name": "Palmeiras"
+      },
+      "type": "Important",
+      "detail": "Gómez entra em dividida com Cebolinha e vai no gramado reclamando de dores. Pouco depois, porém, levanta e segue em campo.",
+      "player": {
+        "name": "Gustavo Gómez"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 17,
+        "extra": null
+      },
+      "team": {
+        "id": 277,
+        "name": "Santos"
+      },
+      "type": "Important",
+      "detail": "Santos ganha falta pelo lado esquerdo do campo em bom posicionamento, por entrada de Giay em Cebolinha.",
+      "player": {
+        "name": "Falta para o Santos"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 18,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Palmeiras devolve puxando o ataque na sequência. Marlon Freitas cruza na ponta direita, Giay tenta outro cruzamento na área, mas manda fora. A bola fica com o Santos.",
+      "player": {
+        "name": "Palmeiras devolve puxando o ataque na sequência."
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 18,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O clássico começou movimentado na Vila Belmiro. Nestes primeiros 18 minutos, o Palmeiras criou a principal chance com Arias e Giay, mas acabou desperdiçando. O Santos tentou responder em escapadas de Cebolinha e finalizações travadas de Gabigol. Com forte marcação e faltas táticas, o placar segue zerado neste início de duelo com muita intensidade.",
+      "player": {
+        "name": "Clássico movimentado e chances perdidas na Vila"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 18,
+        "extra": null
+      },
+      "team": {
+        "id": 277,
+        "name": "Santos"
+      },
+      "type": "Important",
+      "detail": "Coutinho faz a cobrança na área e deixa a bola nas mãos do goleiro Carlos Miguel.",
+      "player": {
+        "name": "Philippe Coutinho"
+      },
+      "assist": {
+        "name": "Deu em nada"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 19,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Palmeiras roda a entrada da área do Santos, a bola passa por Andreas fora de tempo, ele ainda tenta recuperar, mas leva uma pancada em disputa com Rodinei e cai no gramado. O Peixe dá sequência puxando o contra-ataque.",
+      "player": {
+        "name": "Palmeiras roda a entrada da área do Santos, a bo"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 20,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Andreas levanta mancando, mas segue em campo.",
+      "player": {
+        "name": "Andreas levanta mancando, mas segue em campo."
+      },
+      "assist": null
+    }
+  ],
   "lineups": [
     {
       "team": {
@@ -56,7 +677,7 @@
         "name": "Santos",
         "logo": "https://s.sde.globo.com/media/organizations/2018/03/12/santos.svg"
       },
-      "formation": "4-5-1",
+      "formation": "4-2-3-1",
       "coach": {
         "name": "Cuca"
       },
@@ -161,7 +782,116 @@
           }
         }
       ],
-      "substitutes": []
+      "substitutes": [
+        {
+          "player": {
+            "id": "joaopaulo-santos",
+            "name": "João Paulo",
+            "number": 34,
+            "pos": "Gol",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "igor-vinicius",
+            "name": "Igor Vinícius",
+            "number": 18,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "gabrielmenino",
+            "name": "Gabriel Menino",
+            "number": 25,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "joao-ananias",
+            "name": "João Ananias",
+            "number": 26,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "rafael-gonzaga-0208",
+            "name": "Rafael Gonzaga",
+            "number": 38,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "joaoschmidt",
+            "name": "João Schmidt",
+            "number": 5,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "terceros",
+            "name": "Miguelito",
+            "number": 30,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "rollheiser",
+            "name": "Rollheiser",
+            "number": 32,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "viniciusmoreiradelima",
+            "name": "Lima",
+            "number": 45,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "guscaballero",
+            "name": "Caballero",
+            "number": 17,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "rony-botafogo",
+            "name": "Rony",
+            "number": 33,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "pedro-assis-goncalves",
+            "name": "Pedro Assis",
+            "number": 39,
+            "pos": "Ata",
+            "grid": null
+          }
+        }
+      ]
     },
     {
       "team": {
@@ -274,9 +1004,271 @@
           }
         }
       ],
-      "substitutes": []
+      "substitutes": [
+        {
+          "player": {
+            "id": "marcelolomba",
+            "name": "Marcelo Lomba",
+            "number": 14,
+            "pos": "Gol",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "khellven",
+            "name": "Khellven",
+            "number": 12,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "bruno-fuchs",
+            "name": "Bruno Fuchs",
+            "number": 3,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "Benedetti",
+            "name": "Benedetti",
+            "number": 43,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "arthurgabr",
+            "name": "Arthur",
+            "number": 56,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "emilianomartinezt",
+            "name": "Emiliano Martínez",
+            "number": 32,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "Larson-Torna",
+            "name": "Larson",
+            "number": 48,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "luis-pacheco",
+            "name": "Luis Pacheco",
+            "number": 50,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "felipeanderson",
+            "name": "Felipe Anderson",
+            "number": 7,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "mauriciomp",
+            "name": "Maurício",
+            "number": 18,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "bele",
+            "name": "Belé",
+            "number": 45,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "vitorroque",
+            "name": "Vitor Roque",
+            "number": 9,
+            "pos": "Ata",
+            "grid": null
+          }
+        }
+      ]
     }
   ],
-  "statistics": [],
+  "statistics": [
+    {
+      "team": {
+        "id": 277,
+        "name": "Santos"
+      },
+      "statistics": [
+        {
+          "type": "Ball Possession",
+          "value": "49%"
+        },
+        {
+          "type": "Total Passes",
+          "value": 96
+        },
+        {
+          "type": "Pass Accuracy",
+          "value": "83%"
+        },
+        {
+          "type": "Incomplete Passes",
+          "value": 16
+        },
+        {
+          "type": "Total Shots",
+          "value": 2
+        },
+        {
+          "type": "Shots on Goal",
+          "value": 0
+        },
+        {
+          "type": "Shots off Goal",
+          "value": 0
+        },
+        {
+          "type": "Blocked Shots",
+          "value": 2
+        },
+        {
+          "type": "Hit Woodwork",
+          "value": 0
+        },
+        {
+          "type": "Corner Kicks",
+          "value": 0
+        },
+        {
+          "type": "Offsides",
+          "value": 1
+        },
+        {
+          "type": "Penalties",
+          "value": 0
+        },
+        {
+          "type": "Goalkeeper Saves",
+          "value": 0
+        },
+        {
+          "type": "Tackles",
+          "value": 5
+        },
+        {
+          "type": "Fouls",
+          "value": 1
+        },
+        {
+          "type": "Yellow Cards",
+          "value": 0
+        },
+        {
+          "type": "Red Cards",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "team": {
+        "id": 275,
+        "name": "Palmeiras"
+      },
+      "statistics": [
+        {
+          "type": "Ball Possession",
+          "value": "51%"
+        },
+        {
+          "type": "Total Passes",
+          "value": 98
+        },
+        {
+          "type": "Pass Accuracy",
+          "value": "83%"
+        },
+        {
+          "type": "Incomplete Passes",
+          "value": 17
+        },
+        {
+          "type": "Total Shots",
+          "value": 3
+        },
+        {
+          "type": "Shots on Goal",
+          "value": 0
+        },
+        {
+          "type": "Shots off Goal",
+          "value": 3
+        },
+        {
+          "type": "Blocked Shots",
+          "value": 0
+        },
+        {
+          "type": "Hit Woodwork",
+          "value": 0
+        },
+        {
+          "type": "Corner Kicks",
+          "value": 0
+        },
+        {
+          "type": "Offsides",
+          "value": 1
+        },
+        {
+          "type": "Penalties",
+          "value": 0
+        },
+        {
+          "type": "Goalkeeper Saves",
+          "value": 2
+        },
+        {
+          "type": "Tackles",
+          "value": 5
+        },
+        {
+          "type": "Fouls",
+          "value": 4
+        },
+        {
+          "type": "Yellow Cards",
+          "value": 0
+        },
+        {
+          "type": "Red Cards",
+          "value": 0
+        }
+      ]
+    }
+  ],
   "sportsFieldUrl": null
 }

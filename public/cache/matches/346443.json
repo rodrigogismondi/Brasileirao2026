@@ -7,12 +7,12 @@
       "city": ""
     },
     "status": {
-      "long": "2H",
-      "short": "2H",
-      "elapsed": 71
+      "long": "FT",
+      "short": "FT",
+      "elapsed": 90
     },
-    "timerStart": "2026-10-29T01:42:44.622Z",
-    "timerStatus": "INICIADO"
+    "timerStart": "2026-10-29T02:41:32.082Z",
+    "timerStatus": "PAUSADO"
   },
   "league": {
     "round": "Regular Season - 33"
@@ -30,7 +30,7 @@
     }
   },
   "goals": {
-    "home": 2,
+    "home": 3,
     "away": 2
   },
   "score": {
@@ -39,8 +39,8 @@
       "away": null
     },
     "fulltime": {
-      "home": null,
-      "away": null
+      "home": 3,
+      "away": 2
     }
   },
   "odds": null,
@@ -50,6 +50,42 @@
   ],
   "_geUrl": "https://ge.globo.com/ba/futebol/brasileirao-serie-a/jogo/28-10-2026/bahia-sao-paulo.ghtml",
   "events": [
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 265,
+        "name": "Bahia"
+      },
+      "type": "Important",
+      "detail": "\"Meu primeiro gol pelo Esquadrão. Estou muito feliz. Quero pedir desculpas a todos os torcedores do Bahia. Esse gol foi dedicado a eles\"",
+      "player": {
+        "name": "Marcos Victor"
+      },
+      "assist": {
+        "name": "Fala, Marcos Victor"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Important",
+      "detail": "\"Desatenção praticamente nos três gols. Conseguimos o mais difícil que era empatar a partida, até dominar um pouco. No segundo tempo, dormimos novamente no terceiro gol. Coisa que não pode acontecer. Jogo assim, um erro é fatal. Agora é descansar. Não tem muito tempo para lamentar, não. Quarta-feira tem um clássico para a gente jogar\"",
+      "player": {
+        "name": "Lucas Moura"
+      },
+      "assist": {
+        "name": "Fala, Lucas"
+      }
+    },
     {
       "time": {
         "elapsed": 0,
@@ -102,6 +138,22 @@
     },
     {
       "time": {
+        "elapsed": 2,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Bahia 3 x 2 São Paulo | Gols | 32ª rodada | Brasileirão 2026",
+      "player": {
+        "name": "Bahia 3 x 2 São Paulo | Gols | 32ª rodada | Brasileirão 2026"
+      },
+      "assist": null
+    },
+    {
+      "time": {
         "elapsed": 5,
         "extra": null
       },
@@ -129,6 +181,22 @@
       "detail": "Normal Goal",
       "player": {
         "name": "Rodrigo Nestor"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 5,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Bahia 3 x 2 São Paulo | Gols | 33ª rodada | Brasileirão 2026",
+      "player": {
+        "name": "Bahia 3 x 2 São Paulo | Gols | 33ª rodada | Brasileirão 2026"
       },
       "assist": null
     },
@@ -872,9 +940,9 @@
         "name": ""
       },
       "type": "Important",
-      "detail": "O Bahia abriu vantagem com gols de Rodrigo Nestor e Erick Pulga, mas o São Paulo buscou o empate ainda no primeiro tempo com Lucas e Bobadilla. O duelo segue aberto na etapa final, com Nestor quase marcando em falta que parou na trave após grande defesa de Rafael. Aos 24 minutos do segundo tempo, o placar de 2 a 2 reflete um confronto de muita intensidade e boas chances criadas.",
+      "detail": "Após um início avassalador do Bahia, que abriu 2 a 0 com gols de Rodrigo Nestor e Erick Pulga, o São Paulo buscou o empate por 2 a 2 ainda na etapa inicial com Lucas e Bobadilla. O segundo tempo segue equilibrado e, aos 20 minutos, Nestor quase marcou de falta, parando na trave e em grande defesa de Rafael. Jogo tenso e bem jogado aos 23 minutos do segundo tempo.",
       "player": {
-        "name": "Quatro gols e muita emoção na Fonte Nova"
+        "name": "Reação tricolor e trave agitam a Fonte Nova"
       },
       "assist": null
     },
@@ -907,6 +975,388 @@
       "detail": "Yellow Card",
       "player": {
         "name": "Sabino"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 70,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Djhordney"
+      },
+      "assist": {
+        "name": "Luciano"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 73,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Bahia começou avassalador e abriu dois gols de vantagem com Rodrigo Nestor e Erick Pulga antes dos dez minutos. Mas o São Paulo reagiu ainda na etapa inicial, empatando com Lucas Moura e Bobadilla. Passados 29 minutos do segundo tempo, o equilíbrio dita o ritmo, com direito a bola na trave de Nestor em cobrança de falta. O empate por 2 a 2 deixa tudo em aberto na Fonte Nova.",
+      "player": {
+        "name": "Reação tricolor e jogo aberto na Fonte Nova"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 73,
+        "extra": null
+      },
+      "team": {
+        "id": 265,
+        "name": "Bahia"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Caio Alexandre"
+      },
+      "assist": {
+        "name": "Rodrigo Nestor"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 75,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Pablo Maia vacila e perde a bola no meio-campo. Ademir dispara no contra-ataque e invade a área, mas Arboleda chega bem na cobertura e evita a finalização.",
+      "player": {
+        "name": "Pablo Maia vacila e perde a bola no meio-campo. "
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 80,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Após um primeiro tempo de tirar o fôlego, onde o Bahia abriu dois a zero com Rodrigo Nestor e Erick Pulga, o São Paulo buscou o empate com Lucas e Bobadilla. O duelo seguiu parelho na etapa final, mas aos 35 minutos do segundo tempo, Marcos Victor aproveitou o desvio de Erick na área para cabecear para o fundo das redes, deixando o Bahia novamente em vantagem por 3 a 2 no placar.",
+      "player": {
+        "name": "Bahia retoma a frente em jogaço na Fonte Nova"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 80,
+        "extra": null
+      },
+      "team": {
+        "id": 265,
+        "name": "Bahia"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "player": {
+        "name": "Marcos Victor"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 83,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Victor Sá"
+      },
+      "assist": {
+        "name": "Bobadilla"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 83,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Aos 38 minutos da etapa final, o Bahia vai batendo o São Paulo por 3 a 2 em um jogaço na Fonte Nova. Os donos da casa abriram vantagem com Rodrigo Nestor e Erick Pulga, mas os paulistas reagiram buscando o empate com gols de Lucas Moura e Bobadilla. O equilíbrio seguiu forte no segundo tempo até Marcos Victor aproveitar cobrança de falta para recolocar os baianos na liderança.",
+      "player": {
+        "name": "Bahia lidera jogaço de cinco gols na Fonte Nova"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 83,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Danielzinho"
+      },
+      "assist": {
+        "name": "Sabino"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 84,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Gustavo Santana"
+      },
+      "assist": {
+        "name": "Pablo Maia"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 84,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Cauly"
+      },
+      "assist": {
+        "name": "Wendell"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 87,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Jogo fica aberto. São Paulo se lança ao ataque e dá o contra-ataque para o Bahia.",
+      "player": {
+        "name": "Jogo fica aberto. São Paulo se lança ao ataque e"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 87,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Que jogaço na Fonte Nova! O Bahia abriu dois de vantagem com Rodrigo Nestor e Erick Pulga, mas o São Paulo buscou o empate ainda na etapa inicial com golaços de Lucas e Bobadilla. Na reta final, aos 35 minutos do segundo tempo, Marcos Victor recolocou o time baiano na frente. Agora, aos 42 minutos da etapa complementar, o Bahia segura a vitória por 3 a 2 em um duelo eletrizante.",
+      "player": {
+        "name": "Bahia lidera jogaço cheio de reviravoltas"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 87,
+        "extra": null
+      },
+      "team": {
+        "id": 265,
+        "name": "Bahia"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Michel Araújo"
+      },
+      "assist": {
+        "name": "Cristian Olivera"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 89,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Seis minutos de acréscimos.",
+      "player": {
+        "name": "+6"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 90,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Aos 45 minutos do segundo tempo, o Bahia vai vencendo por 3 a 2 em um confronto de tirar o fôlego. O time da casa abriu boa vantagem com gols de Rodrigo Nestor e Erick Pulga, mas o São Paulo buscou o empate ainda na etapa inicial com Lucas e Bobadilla. Na reta final da partida, Marcos Victor completou de cabeça após cobrança de falta para devolver a liderança aos baianos.",
+      "player": {
+        "name": "Bahia lidera duelo de cinco gols na Fonte Nova"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 90,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Gustavo Santana"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 91,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Lucas Moura"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 92,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "?"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 95,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Que partidaça na Fonte Nova! O Bahia abriu vantagem logo cedo com Rodrigo Nestor e Erick Pulga. Ainda na etapa inicial, o São Paulo buscou o empate com gols de Lucas Moura e um golaço de Bobadilla. No segundo tempo, aos 35 minutos, Marcos Victor balançou as redes para colocar os donos da casa na frente, deixando o placar em 3 a 2 aos 50 minutos da etapa final.",
+      "player": {
+        "name": "Cinco gols e muita emoção na Fonte Nova"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 95,
+        "extra": null
+      },
+      "team": {
+        "id": 265,
+        "name": "Bahia"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "David Duarte"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 96,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Arbitragem deu mais um minuto de acréscimos. Vamos a 52.",
+      "player": {
+        "name": "+1"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 97,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Apita o árbitro. Bahia vence o São Paulo por 3 a 2.",
+      "player": {
+        "name": "Fim de jogo"
       },
       "assist": null
     }
@@ -1370,23 +1820,23 @@
         },
         {
           "type": "Total Passes",
-          "value": 342
+          "value": 453
         },
         {
           "type": "Pass Accuracy",
-          "value": "84%"
+          "value": "83%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 55
+          "value": 76
         },
         {
           "type": "Total Shots",
-          "value": 11
+          "value": 12
         },
         {
           "type": "Shots on Goal",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Shots off Goal",
@@ -1414,19 +1864,19 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 3
+          "value": 5
         },
         {
           "type": "Tackles",
-          "value": 7
+          "value": 16
         },
         {
           "type": "Fouls",
-          "value": 6
+          "value": 12
         },
         {
           "type": "Yellow Cards",
-          "value": 0
+          "value": 2
         },
         {
           "type": "Red Cards",
@@ -1446,27 +1896,27 @@
         },
         {
           "type": "Total Passes",
-          "value": 383
+          "value": 536
         },
         {
           "type": "Pass Accuracy",
-          "value": "81%"
+          "value": "84%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 72
+          "value": 87
         },
         {
           "type": "Total Shots",
-          "value": 10
+          "value": 12
         },
         {
           "type": "Shots on Goal",
-          "value": 5
+          "value": 6
         },
         {
           "type": "Shots off Goal",
-          "value": 5
+          "value": 6
         },
         {
           "type": "Blocked Shots",
@@ -1478,7 +1928,7 @@
         },
         {
           "type": "Corner Kicks",
-          "value": 10
+          "value": 11
         },
         {
           "type": "Offsides",
@@ -1494,15 +1944,15 @@
         },
         {
           "type": "Tackles",
-          "value": 12
+          "value": 21
         },
         {
           "type": "Fouls",
-          "value": 7
+          "value": 15
         },
         {
           "type": "Yellow Cards",
-          "value": 0
+          "value": 4
         },
         {
           "type": "Red Cards",

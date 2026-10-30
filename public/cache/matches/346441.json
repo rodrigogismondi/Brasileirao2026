@@ -7,11 +7,11 @@
       "city": ""
     },
     "status": {
-      "long": "NS",
-      "short": "NS",
-      "elapsed": null
+      "long": "FT",
+      "short": "FT",
+      "elapsed": 90
     },
-    "timerStart": "2026-10-29T23:21:41.122Z",
+    "timerStart": "2026-10-30T02:29:20.593Z",
     "timerStatus": "PAUSADO"
   },
   "league": {
@@ -30,8 +30,8 @@
     }
   },
   "goals": {
-    "home": null,
-    "away": null
+    "home": 2,
+    "away": 0
   },
   "score": {
     "halftime": {
@@ -39,8 +39,8 @@
       "away": null
     },
     "fulltime": {
-      "home": null,
-      "away": null
+      "home": 2,
+      "away": 0
     }
   },
   "odds": {
@@ -54,7 +54,2526 @@
     "Premiere"
   ],
   "_geUrl": "https://ge.globo.com/rs/futebol/brasileirao-serie-a/jogo/29-10-2026/gremio-atletico-pr.ghtml",
-  "events": [],
+  "events": [
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "TCHAU, Z-4!",
+      "player": {
+        "name": "TCHAU, Z-4!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 284,
+        "name": "Grêmio"
+      },
+      "type": "Important",
+      "detail": "Vitória do Grêmio sobre o Athletico na Arena.",
+      "player": {
+        "name": "FIM DE JOGO"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 293,
+        "name": "Athletico-PR"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Benavídez"
+      },
+      "assist": {
+        "name": "Léo Derik"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 293,
+        "name": "Athletico-PR"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Zapelli"
+      },
+      "assist": {
+        "name": "Portilla"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Os times voltam para o segundo tempo.",
+      "player": {
+        "name": "VAI RECOMEÇAR"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 284,
+        "name": "Grêmio"
+      },
+      "type": "Important",
+      "detail": "TRICOLOR VAI DEIXANDO A DEGOLA",
+      "player": {
+        "name": "TRICOLOR VAI DEIXANDO A DEGOLA"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 284,
+        "name": "Grêmio"
+      },
+      "type": "Important",
+      "detail": "\"O jogo está muito truncado e sabemos que a bola parada decide jogos, ainda mais na situação que estamos. Precisamos nos defender bem e chegar no segundo gol para matar o jogo\".",
+      "player": {
+        "name": "Marlon"
+      },
+      "assist": {
+        "name": "FALA, MARLON"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 293,
+        "name": "Athletico-PR"
+      },
+      "type": "Important",
+      "detail": "\"Jogo difícil. Temos que acertar no vestiário e voltar para o segundo tempo e conseguir a virar. Pois temos que conquistar esse resultado que é muito importante para nós\".",
+      "player": {
+        "name": "João Cruz"
+      },
+      "assist": {
+        "name": "FALA, JOÃO CRUZ"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 284,
+        "name": "Grêmio"
+      },
+      "type": "Important",
+      "detail": "Grêmio 1x0 Athletico",
+      "player": {
+        "name": "INTERVALO"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Bola rolando em Porto Alegre.",
+      "player": {
+        "name": "COMEÇA O JOGO"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 1,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "A partida em Porto Alegre começou elétrica e o Grêmio quase abriu o placar. Logo após o primeiro minuto de jogo, Marlon cobrou escanteio e Wallace desviou, acertando a trave esquerda do Athletico-PR. No rebote, Carlos Vinicius se atrapalhou e perdeu a chance de inaugurar o marcador. Início quente e com grande oportunidade desperdiçada pelos donos da casa.",
+      "player": {
+        "name": "Bola na trave agita o início em Porto Alegre"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 1,
+        "extra": null
+      },
+      "team": {
+        "id": 284,
+        "name": "Grêmio"
+      },
+      "type": "Important",
+      "detail": "Marlon cobra escanteio pelo lado esquerdo do ataque gremista, Wallace desvia e a bola acerta a trave esquerda do gol do Athletico. No rebote, Carlos Vinicius se atrapalha e não consegue empurrar para a rede.",
+      "player": {
+        "name": "Wallace"
+      },
+      "assist": {
+        "name": "QUE CHANCE"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 2,
+        "extra": null
+      },
+      "team": {
+        "id": 284,
+        "name": "Grêmio"
+      },
+      "type": "Important",
+      "detail": "O lance de perigo logo no início levanta a torcida do Grêmio na Arena.",
+      "player": {
+        "name": "O lance de perigo logo no início levanta a torci"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 3,
+        "extra": null
+      },
+      "team": {
+        "id": 284,
+        "name": "Grêmio"
+      },
+      "type": "Important",
+      "detail": "Noriega fecha o espaço pelo lado direito da defesa do Grêmio e leva a melhor contra Léo Derik para garantir o tiro de meta.",
+      "player": {
+        "name": "Noriega fecha o espaço pelo lado direito da defe"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 4,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O confronto começou quente em Porto Alegre. Logo no primeiro minuto, Marlon cobrou escanteio, Wallace acertou a trave e, no rebote, Carlos Vinicius desperdiçou uma chance incrível para o Grêmio. O Athletico-PR respondeu aos 4 minutos, quando Esquivel cruzou e Mendoza finalizou para fora. Um início lá e cá, com muita intensidade e as duas equipes buscando o ataque.",
+      "player": {
+        "name": "Bola na trave e resposta rápida agitam a Arena"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 4,
+        "extra": null
+      },
+      "team": {
+        "id": 284,
+        "name": "Grêmio"
+      },
+      "type": "Important",
+      "detail": "Léo Derik encontra Esquivel pelo lado esquerdo do ataque do Athletico. Ele vai à linha de fundo e cruza para o meio da área. Mendoza pega de primeira, mas manda a bola para longe do gol do Grêmio.",
+      "player": {
+        "name": "Léo Derik encontra Esquivel pelo lado esquerdo d"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 5,
+        "extra": null
+      },
+      "team": {
+        "id": 284,
+        "name": "Grêmio"
+      },
+      "type": "Important",
+      "detail": "O Athletico busca explorar os espaços deixados pela marcação do Grêmio.",
+      "player": {
+        "name": "O Athletico busca explorar os espaços deixados p"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 6,
+        "extra": null
+      },
+      "team": {
+        "id": 284,
+        "name": "Grêmio"
+      },
+      "type": "Important",
+      "detail": "Em nova tentativa pelo lado esquerdo, Léo Derik força o lançamento para dentro da área do Grêmio, mas a bola vai pla linha de fundo.",
+      "player": {
+        "name": "Em nova tentativa pelo lado esquerdo, Léo Derik "
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 7,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O duelo começou em alta voltagem na Arena e segue 0 a 0. Logo no primeiro minuto, o Grêmio carimbou a trave com Wallace, e Carlos Vinícius desperdiçou o rebote. O Athletico-PR respondeu aos 4 minutos com chute de Mendoza para fora após passe de Esquivel. Com quase 8 minutos de bola rolando, os dois times buscam o ataque em um início de confronto muito dinâmico.",
+      "player": {
+        "name": "Trave e pressão agitam o início em Porto Alegre"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 7,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Wallace recua a bola para Weverton, que é pressionado por Viveros e precisa se livar com um chute para a linha lateral.",
+      "player": {
+        "name": "Wallace recua a bola para Weverton, que é pressi"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 8,
+        "extra": null
+      },
+      "team": {
+        "id": 284,
+        "name": "Grêmio"
+      },
+      "type": "Important",
+      "detail": "João Pedro faz o passe rasteiro buscando Enamorado pelo lado direito do ataque do Grêmio. Esquivel chega antes e afasta para o Athletico.",
+      "player": {
+        "name": "João Pedro faz o passe rasteiro buscando Enamora"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 9,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "João Pedro é lançado pelo lado direito, ganha da zaga do Athletico, mas cruza fraco. O goleiro Mycael agarra com facilidade.",
+      "player": {
+        "name": "João Pedro é lançado pelo lado direito, ganha da"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 10,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "A bola rolou na Arena e o Grêmio quase abriu o placar logo no primeiro minuto, quando Wallace cabeceou na trave após escanteio de Marlon, e Carlos Vinicius desperdiçou o rebote. O Athletico-PR respondeu com Mendoza mandando para fora e, aos 10 minutos, Viveros quase surpreendeu, mas o goleiro Weverton saiu da área para salvar. O início é movimentado e com boas chances para ambos os lados.",
+      "player": {
+        "name": "Começo elétrico e bola na trave em Porto Alegre"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 10,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Viveros recebe lançamento em profundidade, mas Weverton sai da grande área e bloqueia na bola para evitar o gol do Athletico.",
+      "player": {
+        "name": "Viveros recebe lançamento em profundidade, mas W"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 11,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Nos primeiros 11 minutos, a partida começou em alta velocidade na Arena. O Grêmio quase abriu o placar logo no início, quando Wallace cabeceou na trave após cobrança de escanteio de Marlon. O Athletico-PR respondeu rápido com Mendoza finalizando para fora e Viveros pressionando a saída gaúcha. O duelo segue aberto, com os dois times buscando o ataque em um início bem movimentado.",
+      "player": {
+        "name": "Trave e chances lá e cá agitam o início no Sul"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 11,
+        "extra": null
+      },
+      "team": {
+        "id": 284,
+        "name": "Grêmio"
+      },
+      "type": "Important",
+      "detail": "Carlos Vinicius arranca pelo meio, recebe o passe e tenta o drible em cima de Mycael. O goleiro do Athletico toca na bola e faz a defesa. O árbitro, no entanto, marca impedimento no lance.",
+      "player": {
+        "name": "Carlos Vinícius"
+      },
+      "assist": {
+        "name": "ESTAVA IMPEDIDO"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 12,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Nos primeiros 13 minutos, a partida começou em alta velocidade na Arena. Logo no início, Wallace testou na trave e quase abriu o placar para o Grêmio, mas Carlos Vinícius perdeu o rebote. O Athletico-PR respondeu rápido com Mendoza, que bateu de primeira para fora. O jogo segue aberto, com impedimentos frequentes e os goleiros trabalhando para manter o placar zerado.",
+      "player": {
+        "name": "Início elétrico com bola na trave em Porto Alegre"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 12,
+        "extra": null
+      },
+      "team": {
+        "id": 293,
+        "name": "Athletico-PR"
+      },
+      "type": "Important",
+      "detail": "Esquivel faz o passe para Viveros, que domina dentro da área, tira a marcação e finaliza por baixo. Weverton consegue a defesa, mas o auxiliar levanta a bandeira para marcar impedimento do atacante do Athletico.",
+      "player": {
+        "name": "Viveros"
+      },
+      "assist": {
+        "name": "SUBIU A BANDEIRA"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 13,
+        "extra": null
+      },
+      "team": {
+        "id": 284,
+        "name": "Grêmio"
+      },
+      "type": "Important",
+      "detail": "Confronto aberto na Arena do Grêmio e com espaços para os dois lados.",
+      "player": {
+        "name": "Confronto aberto na Arena do Grêmio e com espaço"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 14,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Weverton faz o lançamento buscando Carlos Vinicius. A defesa do Athletico consegue ganhar pelo alto com Arthur Dias.",
+      "player": {
+        "name": "Weverton faz o lançamento buscando Carlos Vinici"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 15,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Nos primeiros 15 minutos, Grêmio e Athletico-PR fazem um duelo bem aberto. O Tricolor quase marcou logo de cara, com cabeçada de Wallace na trave e rebote perdido por Carlos Vinícius. O Furacão respondeu com Mendoza batendo para fora e Viveros parando no goleiro Weverton, em lance de impedimento. O placar segue 0 a 0, com o time paranaense tendo ligeira vantagem na posse de bola.",
+      "player": {
+        "name": "Trave e chances perdidas agitam Porto Alegre"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 15,
+        "extra": null
+      },
+      "team": {
+        "id": 284,
+        "name": "Grêmio"
+      },
+      "type": "Important",
+      "detail": "Grêmio 42% x 58% Athletico",
+      "player": {
+        "name": "POSSE DE BOLA"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 16,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Com 16 minutos de jogo, o placar ainda não saiu do zero a zero, mas o ritmo é intenso na Arena. O Grêmio quase abriu o placar com uma cabeçada de Wallace na trave e um chute forte de Amuzu defendido por Mycael. O Athletico-PR, perigoso na posse de bola, assustou com finalização de Mendoza para fora. Um confronto aberto e de transições rápidas até aqui.",
+      "player": {
+        "name": "Trave e grandes defesas agitam a Arena do Grêmio"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 16,
+        "extra": null
+      },
+      "team": {
+        "id": 284,
+        "name": "Grêmio"
+      },
+      "type": "Important",
+      "detail": "Balbuena dá a bola em Amuzu, que tabela com Carlos Vinicius e solta a pancada de fora da área. Mycael espalma para evitar o gol do Grêmio.",
+      "player": {
+        "name": "Amuzu"
+      },
+      "assist": {
+        "name": "JOGADAÇA"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 17,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Após 17 minutos de muita intensidade, Grêmio e Athletico-PR empatam por 0 a 0. O Grêmio começou com tudo e carimbou a trave logo no início com cabeceio de Wallace. O Athletico respondeu com Mendoza batendo para fora e boa jogada de João Cruz. O goleiro Mycael ainda evitou o gol do Grêmio em pancada de Amuzu de fora da área. Um confronto lá e cá, muito aberto e de velocidade.",
+      "player": {
+        "name": "Trave e grandes chances agitam a Arena do Grêmio"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 17,
+        "extra": null
+      },
+      "team": {
+        "id": 284,
+        "name": "Grêmio"
+      },
+      "type": "Important",
+      "detail": "Marlon cobra o escanteio e manda a bola para o meio da área. Gustavo Martins desvia de cabeça e acerta a rede por cima do gol do Athletico.",
+      "player": {
+        "name": "Gustavo Martins"
+      },
+      "assist": {
+        "name": "PASSA PERTO"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 18,
+        "extra": null
+      },
+      "team": {
+        "id": 284,
+        "name": "Grêmio"
+      },
+      "type": "Important",
+      "detail": "O Grêmio vai para o abafa e pressiona o Athletico na busca do primeiro gol.",
+      "player": {
+        "name": "O Grêmio vai para o abafa e pressiona o Athletic"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 19,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Marlon erra o passe e dá a bola nos pés de Viveros. O atacante do Athletico avança, mas retribui a gentileza deixando a bola com Noriega.",
+      "player": {
+        "name": "Marlon erra o passe e dá a bola nos pés de Viver"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 20,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Com 20 minutos de bola rolando, a partida é bastante movimentada em Porto Alegre. O Grêmio assustou logo no início com uma cabeçada na trave de Wallace, enquanto o Athletico-PR respondeu com perigo em finalização de Mendoza. O duelo segue aberto, com o time da casa pressionando em cabeçada de Gustavo Martins e chute forte de Amuzu, que parou em grande defesa de Mycael.",
+      "player": {
+        "name": "Chances de lado a lado agitam Porto Alegre"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 20,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "+ Veja a classificação atualizada do Campeonato Brasileiro",
+      "player": {
+        "name": "olho na tabela"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 21,
+        "extra": null
+      },
+      "team": {
+        "id": 284,
+        "name": "Grêmio"
+      },
+      "type": "Important",
+      "detail": "Portilla arrisca o chute de longe, mas erra o alvo. Weverton apenas acompanha a bola sair pelo lado esquerdo do gol do Grêmio.",
+      "player": {
+        "name": "Portilla arrisca o chute de longe, mas erra o al"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 22,
+        "extra": null
+      },
+      "team": {
+        "id": 293,
+        "name": "Athletico-PR"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Portilla"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 23,
+        "extra": null
+      },
+      "team": {
+        "id": 284,
+        "name": "Grêmio"
+      },
+      "type": "Important",
+      "detail": "Aos 23 minutos do primeiro tempo, Grêmio e Athletico empatam por 0 a 0 em um duelo bem movimentado. Os donos da casa carimbaram a trave logo no início com Wallace e pararam em Mycael no chute de Amuzu. O Athletico respondeu com chegadas perigosas de Mendoza e João Cruz. Há pouco, Portilla levou amarelo após acertar o rosto de Noriega, esquentando o clima na Arena.",
+      "player": {
+        "name": "Jogo aberto e bola na trave agitam a Arena"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 23,
+        "extra": null
+      },
+      "team": {
+        "id": 284,
+        "name": "Grêmio"
+      },
+      "type": "Important",
+      "detail": "Os jogadores do Grêmio cercam o árbitro Alex Gomes Stefano e pedem a revisão do lance no VAR.",
+      "player": {
+        "name": "Os jogadores do Grêmio cercam o árbitro Alex Gom"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 24,
+        "extra": null
+      },
+      "team": {
+        "id": 284,
+        "name": "Grêmio"
+      },
+      "type": "Important",
+      "detail": "Noriega recebe atendimento médico em campo. O jogador do Grêmio está com sangramento no lábio superior.",
+      "player": {
+        "name": "Noriega recebe atendimento médico em campo. O jo"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 25,
+        "extra": null
+      },
+      "team": {
+        "id": 284,
+        "name": "Grêmio"
+      },
+      "type": "Important",
+      "detail": "A torcida do Grêmio protesta contra a arbitragem, que não solicitou a revisão do lance para possível expulsão de Portilla.",
+      "player": {
+        "name": "A torcida do Grêmio protesta contra a arbitragem"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 26,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Com 26 minutos de confronto aberto na Arena, Grêmio e Athletico-PR fazem um jogo bem movimentado. Logo no início, Wallace cabeceou na trave para o Grêmio. O Athletico-PR respondeu com perigo em finalizações de Mendoza e João Cruz. Recentemente, o clima esquentou após Portilla atingir o rosto de Noriega e levar amarelo. Apesar das chances, o placar segue em zero a zero.",
+      "player": {
+        "name": "Bola na trave e clima tenso agitam Porto Alegre"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 26,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Luiz Gustavo precisa de auxílio médico após cair torto no gramado da Arena. Ele aparenta dores nas costas, mas deixa o campo caminhando e vai ficar um minuto fora por determinação do protocolo.",
+      "player": {
+        "name": "Luiz Gustavo precisa de auxílio médico após cair"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 27,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O confronto em Porto Alegre começou a mil por hora. Logo no primeiro minuto, Wallace carimbou a trave para o Grêmio. O Athletico-PR respondeu com perigo nas chegadas de Mendoza. Amuzu também exigiu grande defesa de Mycael. Com 27 minutos de jogo, o placar segue 0 a 0, mas o clima esquentou após Portilla levar amarelo por atingir Noriega. Um duelo aberto e muito disputado.",
+      "player": {
+        "name": "Trave e clima tenso marcam início em Porto Alegre"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 27,
+        "extra": null
+      },
+      "team": {
+        "id": 284,
+        "name": "Grêmio"
+      },
+      "type": "Important",
+      "detail": "Marlon cobra falta de longe, Carlos Vinicius desvia de cabeça e a bola fica com o goleiro do Athletico.",
+      "player": {
+        "name": "Carlos Vinícius"
+      },
+      "assist": {
+        "name": "TENTATIVA POR CIMA"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 28,
+        "extra": null
+      },
+      "team": {
+        "id": 284,
+        "name": "Grêmio"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Enamorado"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 29,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Assim como no lance entre Portilla e Noriega, o árbitro não é chamado para a revisão pelo VAR.",
+      "player": {
+        "name": "Assim como no lance entre Portilla e Noriega, o "
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 30,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Após 30 minutos de muita intensidade na Arena, Grêmio e Athletico vão empatando sem gols. O time gaúcho começou elétrico e carimbou a trave com Wallace logo no início. O Furacão equilibrou e assustou com Mendoza e João Cruz. O clima também esquentou com faltas duras que renderam cartões amarelos para Portilla e Enamorado, inflamando o jogo.",
+      "player": {
+        "name": "Trave, chances perdidas e clima tenso na Arena"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 30,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Leozinho avança pelo lado direito, mas é bloqueado no momento do cruzamento.",
+      "player": {
+        "name": "Leozinho avança pelo lado direito, mas é bloquea"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 31,
+        "extra": null
+      },
+      "team": {
+        "id": 284,
+        "name": "Grêmio"
+      },
+      "type": "Important",
+      "detail": "Viveros é lançado dentro da área do Grêmio, mas Wallace faz a cobertura e leva o carrinho por trás. Falta marcada no ataque do Athletico.",
+      "player": {
+        "name": "Viveros é lançado dentro da área do Grêmio, mas "
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 32,
+        "extra": null
+      },
+      "team": {
+        "id": 284,
+        "name": "Grêmio"
+      },
+      "type": "Important",
+      "detail": "Portilla levanta a perna para tentar afastar a bola, mas Amuzu ganha a disputa e leva a pior. O árbitro marca a falta, e os jogadores do Grêmio pressinam para mais um cartão amarelo.",
+      "player": {
+        "name": "Portilla levanta a perna para tentar afastar a b"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 33,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Com 33 minutos de bola rolando, Grêmio e Athletico-PR fazem um duelo franco e intenso. O time da casa assustou logo de início com cabeçada de Wallace na trave, enquanto os visitantes responderam em chegadas de Mendoza e João Cruz. O jogo seguiu lá e cá, e o clima esquentou com cartões amarelos para Portilla e Enamorado. Apesar das boas chances de lado a lado, o placar segue zero a zero.",
+      "player": {
+        "name": "Trave, cartões e equilíbrio na Arena do Grêmio"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 33,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Marlon fica com o rebote na intermediária e arrisca o chute. A bola sobe e vai longe do gol do Athletico.",
+      "player": {
+        "name": "Marlon fica com o rebote na intermediária e arri"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 34,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Jogo fica bastante truncado e com muitas faltas.",
+      "player": {
+        "name": "Jogo fica bastante truncado e com muitas faltas."
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 35,
+        "extra": null
+      },
+      "team": {
+        "id": 284,
+        "name": "Grêmio"
+      },
+      "type": "Important",
+      "detail": "Grêmio 6x4 Athletico",
+      "player": {
+        "name": "FINALIZAÇÕES"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 36,
+        "extra": null
+      },
+      "team": {
+        "id": 284,
+        "name": "Grêmio"
+      },
+      "type": "Important",
+      "detail": "Aos 37 minutos do primeiro tempo, Grêmio e Athletico empatam por 0 a 0 em Porto Alegre. O jogo começou elétrico, com Wallace cabeceando na trave logo no primeiro minuto para o Grêmio. O Athletico respondeu em chegadas de Mendoza e João Cruz, mas o duelo perdeu intensidade. Com três cartões amarelos e muitas faltas, o confronto ficou truncado e as defesas vão levando a melhor.",
+      "player": {
+        "name": "Trave, cartões e equilíbrio na Arena do Grêmio"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 36,
+        "extra": null
+      },
+      "team": {
+        "id": 293,
+        "name": "Athletico-PR"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Léo Derik"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 37,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "João Pedro fica caído no gramado e recebe atendimento médico. Na queda, ele bateu com o ombro no gramado e aparenta sentir dores.",
+      "player": {
+        "name": "João Pedro fica caído no gramado e recebe atendi"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 38,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O duelo começou agitado na Arena. Logo de cara, Wallace mandou de cabeça na trave para o Grêmio. O Athletico-PR respondeu com perigo, mas o confronto logo ficou truncado e repleto de faltas duras. O placar foi aberto aos 38 minutos, quando Marlon cobrou falta direta na área, a bola passou por todo mundo e balançou a rede, colocando o Tricolor em vantagem por 1 a 0.",
+      "player": {
+        "name": "Marlon abre o placar e Grêmio lidera na Arena"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 38,
+        "extra": null
+      },
+      "team": {
+        "id": 284,
+        "name": "Grêmio"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "player": {
+        "name": "Marlon"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 39,
+        "extra": null
+      },
+      "team": {
+        "id": 284,
+        "name": "Grêmio"
+      },
+      "type": "Important",
+      "detail": "O gol que vai tirando o Grêmio da zona de rebaixamento e, de quebra, empurra o rival Internacional para a degola.",
+      "player": {
+        "name": "O gol que vai tirando o Grêmio da zona de rebaix"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 40,
+        "extra": null
+      },
+      "team": {
+        "id": 284,
+        "name": "Grêmio"
+      },
+      "type": "Important",
+      "detail": "FESTA NA ARENA",
+      "player": {
+        "name": "FESTA NA ARENA"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 41,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "A bola rola em Porto Alegre com muita intensidade. Logo no início, o Grêmio carimbou a trave com Wallace e seguiu pressionando. O Athletico-PR tentou responder na velocidade, mas foi o time gaúcho quem balançou a rede. Aos 38 minutos, Marlon cobrou falta na área e a bola passou por todo mundo para abrir o placar. Com 41 minutos deste primeiro tempo brigado, o placar é de 1 a 0.",
+      "player": {
+        "name": "Grêmio pressiona e abre o placar na Arena"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 41,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Existe a dúvida se Balbuena resvala na bola, mas o quarto árbitro indica o gol para Marlon.",
+      "player": {
+        "name": "Existe a dúvida se Balbuena resvala na bola, mas"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 42,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Com 42 minutos de um primeiro tempo disputado e cheio de cartões, o Grêmio vai vencendo o Athletico-PR por 1 a 0. Os mandantes começaram pressionando e carimbaram a trave logo no início com Wallace. O Athletico-PR tentou equilibrar as ações, mas o placar foi aberto aos 38 minutos, quando Marlon cobrou falta lateral que enganou o goleiro Mycael e balançou as redes.",
+      "player": {
+        "name": "Marlon coloca o Grêmio na frente na Arena"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 42,
+        "extra": null
+      },
+      "team": {
+        "id": 284,
+        "name": "Grêmio"
+      },
+      "type": "Important",
+      "detail": "Enamorado serve Amuzu dentro da área e o belga faz o pivô para Noriega. O camisa 8 finaliza, mas é bloqueado na entrada da área. A bola sai à direita do gol do Athletico.",
+      "player": {
+        "name": "Noriega"
+      },
+      "assist": {
+        "name": "BOA CHEGADA"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 43,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Luiz Gustavo consegue um chapéu no meio de campo, mas fica sem ter com quem jogar e recua para Arthur Dias.",
+      "player": {
+        "name": "Luiz Gustavo consegue um chapéu no meio de campo"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 44,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "A torcida gremista joga junto e vaia a posse de bola do Athletico.",
+      "player": {
+        "name": "A torcida gremista joga junto e vaia a posse de "
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 45,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Começa o segundo tempo.",
+      "player": {
+        "name": "BOLA ROLANDO"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 46,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Com um minuto do segundo tempo, o Grêmio vai vencendo o Athletico-PR por 1 a 0 na Arena. A primeira etapa teve bola na trave de Wallace e lances ríspidos de lado a lado. Aos 38 minutos, Marlon cobrou falta na área, a bola passou por todo mundo e morreu na rede. O Furacão tentou responder logo na volta do intervalo, com um chute perigoso de Viveros, mantendo o confronto bem acirrado.",
+      "player": {
+        "name": "Grêmio na frente em duelo tenso na Arena"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 46,
+        "extra": null
+      },
+      "team": {
+        "id": 284,
+        "name": "Grêmio"
+      },
+      "type": "Important",
+      "detail": "Viveros tabela com Leozinho e bate da entrada da área. A bola sai á esquerda do gol do Grêmio. Quase o Athletico iguala o placar no início do segundo tempo.",
+      "player": {
+        "name": "Viveros"
+      },
+      "assist": {
+        "name": "QUASE O EMPATE"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 46,
+        "extra": null
+      },
+      "team": {
+        "id": 284,
+        "name": "Grêmio"
+      },
+      "type": "Important",
+      "detail": "Leozinho ganha a disputa contra Marlon e faz o levantamento. Weverton sai de soco e afasta a bola de dentro da área do Grêmio.",
+      "player": {
+        "name": "Leozinho ganha a disputa contra Marlon e faz o l"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 47,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Benavídez acerta o braço no rosto de Noriega. O árbitro marca a falta, mas não apresenta o cartão amarelo.",
+      "player": {
+        "name": "Benavídez acerta o braço no rosto de Noriega. O "
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 47,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Com 47 minutos jogados neste primeiro tempo, o Grêmio vai vencendo o Athletico-PR por 1 a 0 na Arena. O gol surgiu aos 38 minutos, quando Marlon cobrou falta direta que acabou passando por todo mundo e enganando o goleiro. Antes disso, a partida se mostrou muito disputada, com direito a cabeceio na trave de Wallace logo no início e forte marcação de ambos os lados.",
+      "player": {
+        "name": "Marlon coloca o Grêmio na frente em duelo pegado"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 47,
+        "extra": null
+      },
+      "team": {
+        "id": 284,
+        "name": "Grêmio"
+      },
+      "type": "Important",
+      "detail": "Leozinho tenta a tabela com Viveros, mas o atacante erra na devolução. A zaga do Grêmio recupera a bola dentro da área.",
+      "player": {
+        "name": "Leozinho tenta a tabela com Viveros, mas o ataca"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 47,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O primeiro tempo vai até os 52 minutos.",
+      "player": {
+        "name": "+7"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 48,
+        "extra": null
+      },
+      "team": {
+        "id": 284,
+        "name": "Grêmio"
+      },
+      "type": "Important",
+      "detail": "Amuzu ganha de Luiz Gustavo, que empurra o jogador do Grêmio e para o lance de ataque.",
+      "player": {
+        "name": "Amuzu ganha de Luiz Gustavo, que empurra o jogad"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 48,
+        "extra": null
+      },
+      "team": {
+        "id": 284,
+        "name": "Grêmio"
+      },
+      "type": "Important",
+      "detail": "O Athletico vai para cima do Grêmio na reta final do primeiro tempo.",
+      "player": {
+        "name": "O Athletico vai para cima do Grêmio na reta fina"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 49,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Com quatro minutos da etapa final, o Grêmio vai vencendo por 1 a 0. O primeiro tempo foi elétrico, com bola na trave de Wallace e o Athletico-PR ameaçando nos contra-ataques. Após um período de muitas faltas e cartões, Marlon abriu o placar aos 38 minutos em cobrança de falta. Logo no início do segundo tempo, Viveros quase empatou para os visitantes, mantendo o duelo totalmente aberto.",
+      "player": {
+        "name": "Grêmio na frente em duelo truncado na Arena"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 49,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Marlon manda a bola para dentro da área do Athletico na cobrança de falta. A zaga do Athletico afasta com Aguirre.",
+      "player": {
+        "name": "Marlon manda a bola para dentro da área do Athle"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 49,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "João Cruz cobra escanteio pelo lado esquerdo do ataque do Athletico, a bola vai para o meio da área e fica nas mãos do goleiro Weverton.",
+      "player": {
+        "name": "João Cruz cobra escanteio pelo lado esquerdo do "
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 50,
+        "extra": null
+      },
+      "team": {
+        "id": 284,
+        "name": "Grêmio"
+      },
+      "type": "Important",
+      "detail": "O Athletico troca passes no campo de ataque. O Grêmio recua e protege bem a grande área.",
+      "player": {
+        "name": "O Athletico troca passes no campo de ataque. O G"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 50,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Tricolor começou com tudo na Arena e carimbou a trave logo no início com Wallace. O Athletico-PR respondeu e equilibrou as ações, mas o zero saiu do placar aos 38 minutos. Marlon cobrou falta, a bola passou por todo mundo e entrou para fazer 1 a 0. Já nos acréscimos, aos 50 minutos do primeiro tempo, os visitantes rodam a bola buscando espaços, mas esbarram na marcação gremista.",
+      "player": {
+        "name": "Marlon coloca o Grêmio em vantagem na Arena"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 50,
+        "extra": null
+      },
+      "team": {
+        "id": 284,
+        "name": "Grêmio"
+      },
+      "type": "Important",
+      "detail": "O Athletico troca passes, faz a bola rodar de pé em pé, mas o Grêmio fecha os espaços.",
+      "player": {
+        "name": "O Athletico troca passes, faz a bola rodar de pé"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 51,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O primeiro tempo foi elétrico na Arena. Logo no início, Wallace mandou de cabeça na trave para o Grêmio, mas o Athletico-PR respondeu com perigo. O placar saiu do zero aos 38 minutos, quando Marlon cobrou falta direta e garantiu o 1 a 0 dos mandantes. Agora, aos 6 minutos da etapa final, o jogo segue aberto, com os visitantes pressionando e o Tricolor buscando o gol da tranquilidade.",
+      "player": {
+        "name": "Grêmio larga na frente em Porto Alegre"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 51,
+        "extra": null
+      },
+      "team": {
+        "id": 284,
+        "name": "Grêmio"
+      },
+      "type": "Important",
+      "detail": "O Grêmio pressiona a saída do Athletico, recupera a bola com Noriega, que serve Carlos Vinicius. O atacante finaliza da entrada da área, mas o desvio de Aguirre impede o gol.",
+      "player": {
+        "name": "Carlos Vinícius"
+      },
+      "assist": {
+        "name": "PASSA PERTO"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 51,
+        "extra": null
+      },
+      "team": {
+        "id": 284,
+        "name": "Grêmio"
+      },
+      "type": "Important",
+      "detail": "Enamorado toca para Carlos Vinicius, que devolve com força. O camisa 99 do Grêmio acelera, mas Aguirre chega de carrinho para afastar pelo Athletico.",
+      "player": {
+        "name": "Enamorado toca para Carlos Vinicius, que devolve"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 52,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Grêmio começou pressionando e carimbou a trave logo no início, enquanto o Athletico-PR tentava responder nos contra-ataques. Aos 38 minutos do primeiro tempo, Marlon abriu o placar em cobrança de falta. Logo no início da etapa final, aos 7 minutos, Balbuena aproveitou escanteio para ampliar e deixar o placar em 2 a 0, consolidando a superioridade gaúcha em um duelo muito intenso.",
+      "player": {
+        "name": "Grêmio impõe ritmo forte e abre vantagem na Arena"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 52,
+        "extra": null
+      },
+      "team": {
+        "id": 284,
+        "name": "Grêmio"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "player": {
+        "name": "Balbuena"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 52,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Termina o primeiro tempo.",
+      "player": {
+        "name": "ACABOU"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 53,
+        "extra": null
+      },
+      "team": {
+        "id": 284,
+        "name": "Grêmio"
+      },
+      "type": "Important",
+      "detail": "O GENERAL",
+      "player": {
+        "name": "Balbuena"
+      },
+      "assist": {
+        "name": "O GENERAL"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 54,
+        "extra": null
+      },
+      "team": {
+        "id": 284,
+        "name": "Grêmio"
+      },
+      "type": "Important",
+      "detail": "A torcida do Grêmio comanda a festa na Arena.",
+      "player": {
+        "name": "A torcida do Grêmio comanda a festa na Arena."
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 55,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Aos 10 minutos da etapa final, o Grêmio vai construindo uma vitória sólida por 2 a 0 sobre o Athletico-PR. O Tricolor carimbou a trave logo no início, mas abriu o placar aos 38 da primeira etapa, com Marlon cobrando falta direto para a rede. No segundo tempo, aos 7 minutos, Balbuena aproveitou escanteio e ampliou. Jogo pegado, mas controlado pelos gaúchos sob a festa da torcida na Arena.",
+      "player": {
+        "name": "Grêmio amplia na Arena e encaminha vitória"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 55,
+        "extra": null
+      },
+      "team": {
+        "id": 284,
+        "name": "Grêmio"
+      },
+      "type": "Important",
+      "detail": "Grêmio 44% x 56% Athletico",
+      "player": {
+        "name": "POSSE DE BOLA"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 56,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Após Marlon abrir o placar de falta no primeiro tempo, o Grêmio voltou com tudo para a etapa final. Aos 7 minutos, Balbuena aproveitou escanteio e ampliou para 2 a 0. O Athletico-PR ensaiou uma pressão e quase marcou com Viveros, mas, aos 11 minutos do segundo tempo, o Tricolor gaúcho segue mandando no jogo e quase fez o terceiro com Enamorado, parado em grande defesa do goleiro Mycael.",
+      "player": {
+        "name": "Grêmio domina e amplia a vantagem na etapa final"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 56,
+        "extra": null
+      },
+      "team": {
+        "id": 284,
+        "name": "Grêmio"
+      },
+      "type": "Important",
+      "detail": "Enamorado recebe ótimo passe pelo meio, arranca e fica de frente para Mycael. Ele dá o toque, mas o goleiro do Athletico faz a defesa e impede o terceiro gol do Grêmio.",
+      "player": {
+        "name": "Enamorado"
+      },
+      "assist": {
+        "name": "QUE CHANCE"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 57,
+        "extra": null
+      },
+      "team": {
+        "id": 284,
+        "name": "Grêmio"
+      },
+      "type": "Important",
+      "detail": "Carlos Vinicius faz o pivô na frente de Aguirre, mas o zagueiro do Athletico agarra o atacante do Grêmio. O árbitro marca a falta.",
+      "player": {
+        "name": "Carlos Vinicius faz o pivô na frente de Aguirre,"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 58,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Amuzu cobra a falta da entrada da área, coloca força na bola, mas acerta a barreira do Athletico.",
+      "player": {
+        "name": "Amuzu cobra a falta da entrada da área, coloca f"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 59,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Com 14 minutos do segundo tempo, o Grêmio vai construindo uma bela vitória por 2 a 0 sobre o Athletico-PR. O placar começou a ser desenhado no primeiro tempo, quando Marlon bateu falta fechada e a bola entrou direto. Na etapa final, o zagueiro Balbuena aproveitou o escanteio para ampliar. O time gaúcho é superior e já carimbou a trave, enquanto os visitantes tentam responder sem sucesso.",
+      "player": {
+        "name": "Grêmio domina ações e abre boa vantagem na Arena"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 59,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Carlos Vinicius briga pela bola dentro da área, mas ela sobra para Enamorado. Ele finaliza de primeira e manda longe do gol do Athletico.",
+      "player": {
+        "name": "Carlos Vinicius briga pela bola dentro da área, "
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 60,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Com 15 minutos do segundo tempo, o Grêmio vai garantindo uma bela vitória por 2 a 0 sobre o Athletico-PR na Arena. Após um primeiro tempo tenso, Marlon abriu o placar aos 38 minutos com um gol de falta. Logo no início da etapa final, aos 7, o zagueiro Balbuena ampliou após cobrança de escanteio. O Furacão tenta responder com João Cruz, mas esbarra nas boas defesas do goleiro Weverton.",
+      "player": {
+        "name": "Grêmio domina e amplia vantagem na etapa final"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 60,
+        "extra": null
+      },
+      "team": {
+        "id": 293,
+        "name": "Athletico-PR"
+      },
+      "type": "Important",
+      "detail": "Leozinho manda a bola para o meio da área e João Cruz desvia de primeira. Weverton espalma e impede o gol do Athletico.",
+      "player": {
+        "name": "João Cruz"
+      },
+      "assist": {
+        "name": "QUASE O GOL"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 61,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Passados 16 minutos da etapa final, o Grêmio segura a vantagem de 2 a 0 em Porto Alegre. O primeiro gol saiu aos 38 da etapa inicial com Marlon, em falta que surpreendeu a defesa. No segundo tempo, Balbuena ampliou após escanteio. O Athletico-PR tenta responder na base da pressão, mas esbarra nas ótimas defesas do goleiro Weverton, que garante a festa da torcida tricolor até aqui.",
+      "player": {
+        "name": "Grêmio constrói vantagem de dois gols na Arena"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 61,
+        "extra": null
+      },
+      "team": {
+        "id": 293,
+        "name": "Athletico-PR"
+      },
+      "type": "Important",
+      "detail": "Zapelli cobra escanteio pelo lado direito para Aguirre, que desvia de cabeça na primeira trave. Weverton estica o braço e faz mais uma excelente defesa. Gustavo Martins afasta em seguida.",
+      "player": {
+        "name": "Aguirre"
+      },
+      "assist": {
+        "name": "PRESSÃO DO ATHLETICO"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 62,
+        "extra": null
+      },
+      "team": {
+        "id": 293,
+        "name": "Athletico-PR"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Vargas"
+      },
+      "assist": {
+        "name": "Leozinho"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 63,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Enamorado tenta sair jogando pelo meio. Zapelli estica a perna e faz o desarme para o Athletico.",
+      "player": {
+        "name": "Enamorado tenta sair jogando pelo meio. Zapelli "
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 64,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Grêmio dita o ritmo em Porto Alegre. Após Wallace carimbar a trave logo no início, Marlon abriu o placar de falta aos 38 do primeiro tempo. Na etapa final, aos 7 minutos, Balbuena aproveitou escanteio para ampliar para 2 a 0. O Athletico-PR tenta reagir e parou em grandes defesas de Weverton. Com 19 minutos do segundo tempo, o Tricolor controla as ações e segura a vantagem.",
+      "player": {
+        "name": "Grêmio abre vantagem de dois gols na Arena"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 64,
+        "extra": null
+      },
+      "team": {
+        "id": 284,
+        "name": "Grêmio"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Carlos Vinícius"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 65,
+        "extra": null
+      },
+      "team": {
+        "id": 284,
+        "name": "Grêmio"
+      },
+      "type": "Important",
+      "detail": "O Grêmio prepara três mudanças.",
+      "player": {
+        "name": "O Grêmio prepara três mudanças."
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 66,
+        "extra": null
+      },
+      "team": {
+        "id": 284,
+        "name": "Grêmio"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Dodi"
+      },
+      "assist": {
+        "name": "Balbuena"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 66,
+        "extra": null
+      },
+      "team": {
+        "id": 284,
+        "name": "Grêmio"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Tetê"
+      },
+      "assist": {
+        "name": "Enamorado"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 66,
+        "extra": null
+      },
+      "team": {
+        "id": 284,
+        "name": "Grêmio"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Braithwaite"
+      },
+      "assist": {
+        "name": "Carlos Vinícius"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 67,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Com 22 minutos do segundo tempo, o Grêmio vai garantindo um grande resultado na Arena. O Tricolor abriu o placar na etapa inicial com Marlon, em cobrança de falta que passou por todo mundo. No início da segunda etapa, aos 7 minutos, Balbuena ampliou para 2 a 0 após escanteio. O Athletico-PR tenta reagir e parou em grandes defesas de Weverton, mas os donos da casa controlam o jogo.",
+      "player": {
+        "name": "Grêmio se impõe na Arena e abre boa vantagem"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 67,
+        "extra": null
+      },
+      "team": {
+        "id": 284,
+        "name": "Grêmio"
+      },
+      "type": "Important",
+      "detail": "O Athletico fica com a bola no campo de ataque, mas esbarra na marcação do Grêmio.",
+      "player": {
+        "name": "O Athletico fica com a bola no campo de ataque, "
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 68,
+        "extra": null
+      },
+      "team": {
+        "id": 284,
+        "name": "Grêmio"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Noriega"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 69,
+        "extra": null
+      },
+      "team": {
+        "id": 284,
+        "name": "Grêmio"
+      },
+      "type": "Important",
+      "detail": "Wallace divide com João Cruz e a bola sai pela linha lateral. O auxiliar sinaliza posse para o Grêmio.",
+      "player": {
+        "name": "Wallace divide com João Cruz e a bola sai pela l"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 70,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Com 25 minutos do segundo tempo, o Grêmio vai confirmando o triunfo por 2 a 0 diante do Athletico-PR. Marlon inaugurou o placar na etapa inicial em cobrança de falta. No segundo período, aos 7 minutos, Balbuena mostrou oportunismo na área após escanteio para ampliar. O time visitante tenta reagir na bola aérea, mas esbarra em ótimas intervenções do goleiro Weverton.",
+      "player": {
+        "name": "Grêmio dita o ritmo e segura vantagem na Arena"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 70,
+        "extra": null
+      },
+      "team": {
+        "id": 284,
+        "name": "Grêmio"
+      },
+      "type": "Important",
+      "detail": "Aguirre ganha mais uma pelo alto após cobrança de escanteio. A bola acerta a rede sobre o gol do Grêmio.",
+      "player": {
+        "name": "Aguirre"
+      },
+      "assist": {
+        "name": "POR CIMA"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 71,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Luiz Gustavo arranca pelo meio e é derrubado por Villasanti. Falta e boa oportunidade para o Athletico.",
+      "player": {
+        "name": "Luiz Gustavo arranca pelo meio e é derrubado por"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 72,
+        "extra": null
+      },
+      "team": {
+        "id": 284,
+        "name": "Grêmio"
+      },
+      "type": "Important",
+      "detail": "A torcida do Grêmio vai a tentativa do Athletico.",
+      "player": {
+        "name": "A torcida do Grêmio vai a tentativa do Athletico"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 73,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Com 28 minutos do segundo tempo, o Grêmio vai garantindo um grande resultado ao bater o Athletico-PR por 2 a 0. O Tricolor saiu na frente na primeira etapa com Marlon, em cobrança de falta rasteira. Na etapa complementar, o zagueiro Balbuena aproveitou a sobra na área para ampliar. Os visitantes buscam diminuir o prejuízo, mas esbarram na boa postura defensiva dos mandantes.",
+      "player": {
+        "name": "Grêmio constrói boa vantagem na Arena"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 73,
+        "extra": null
+      },
+      "team": {
+        "id": 284,
+        "name": "Grêmio"
+      },
+      "type": "Important",
+      "detail": "João Cruz cobra a falta da entrada da área, mas a bola desvia nas costas de Viveros e vai pela linha de fundo do Grêmio.",
+      "player": {
+        "name": "João Cruz cobra a falta da entrada da área, mas "
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 74,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Arthur Dias lança a bola para Viveros, que tenta o domínio, mas é desarmado por Gustavo Martins.",
+      "player": {
+        "name": "Arthur Dias lança a bola para Viveros, que tenta"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 75,
+        "extra": null
+      },
+      "team": {
+        "id": 284,
+        "name": "Grêmio"
+      },
+      "type": "Important",
+      "detail": "Grêmio 14x12 Athletico",
+      "player": {
+        "name": "FINALIZAÇÕES"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 76,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Com 31 minutos do segundo tempo, o Grêmio vai garantindo uma importante vitória por 2 a 0 na Arena. O placar começou a ser construído aos 38 da primeira etapa, quando Marlon bateu falta direta para a rede. No início da etapa complementar, Balbuena pegou o rebote do escanteio e ampliou. O Athletico-PR tenta reagir e pressiona, mas esbarra nas boas defesas do goleiro Weverton.",
+      "player": {
+        "name": "Grêmio dita o ritmo e segura vantagem na Arena"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 76,
+        "extra": null
+      },
+      "team": {
+        "id": 284,
+        "name": "Grêmio"
+      },
+      "type": "Important",
+      "detail": "Zapelli manda a bola para dentro da área, por cima, e Viveros ajeita de cabeça. A defesa do Grêmio consegue afastar.",
+      "player": {
+        "name": "Zapelli manda a bola para dentro da área, por ci"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 77,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Zapelli bate de longe, a bola desvia em cima de Dodi e vai pela linha de fundo. Escanteio para o Athletico.",
+      "player": {
+        "name": "Zapelli bate de longe, a bola desvia em cima de "
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 78,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "João Cruz cobra o escanteio fechado, e Weverton cai ao tentar sair para socar a bola. O árbitro marca tiro de meta.",
+      "player": {
+        "name": "João Cruz cobra o escanteio fechado, e Weverton "
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 79,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Aos 34 minutos da etapa final, o Grêmio sustenta a vitória por 2 a 0 na Arena. O placar começou a ser construído no primeiro tempo, aos 38 minutos, quando Marlon cobrou falta direta para a rede. Na volta do intervalo, aos 7 minutos, Balbuena aproveitou escanteio para ampliar. O Athletico-PR buscou diminuir, mas parou nas grandes defesas de Weverton em cabeçadas e chutes perigosos.",
+      "player": {
+        "name": "Grêmio domina ações e abre vantagem na Arena"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 79,
+        "extra": null
+      },
+      "team": {
+        "id": 284,
+        "name": "Grêmio"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Caio Paulista"
+      },
+      "assist": {
+        "name": "Amuzu"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 80,
+        "extra": null
+      },
+      "team": {
+        "id": 293,
+        "name": "Athletico-PR"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Jorge Rivaldo"
+      },
+      "assist": {
+        "name": "João Cruz"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 81,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Marlon cobra escanteio na segunda trave, mas Wallace cabeceia a bola em cima da defesa do Athletico.",
+      "player": {
+        "name": "Marlon cobra escanteio na segunda trave, mas Wal"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 82,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Aos 37 minutos da etapa final, o Grêmio vai garantindo uma importante vitória por 2 a 0 sobre o Athletico-PR. O primeiro gol saiu aos 38 da primeira etapa, com Marlon cobrando falta. No segundo tempo, aos 7 minutos, Balbuena ampliou após cobrança de escanteio. O adversário tentou reagir com perigo, mas o goleiro Weverton fez grandes defesas e segurou a ótima vantagem tricolor.",
+      "player": {
+        "name": "Grêmio bate forte e encaminha vitória na Arena"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 82,
+        "extra": null
+      },
+      "team": {
+        "id": 284,
+        "name": "Grêmio"
+      },
+      "type": "Important",
+      "detail": "Esquivel faz o cruzamento pelo lado esquerdo. A defesa do Grêmio tira da área com Noriega.",
+      "player": {
+        "name": "Esquivel faz o cruzamento pelo lado esquerdo. A "
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 83,
+        "extra": null
+      },
+      "team": {
+        "id": 284,
+        "name": "Grêmio"
+      },
+      "type": "Important",
+      "detail": "Rivaldo gira em cima de Wallace e cruza, mas o árbitro marca a saída da bola pela linha de fundo do Grêmio.",
+      "player": {
+        "name": "Rivaldo gira em cima de Wallace e cruza, mas o á"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 84,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Após 40 minutos da etapa final, o Grêmio vai confirmando o triunfo por 2 a 0 sobre o Athletico-PR. Marlon inaugurou o marcador no primeiro tempo em cobrança de falta. No início do segundo período, Balbuena balançou a rede após escanteio e ampliou. Os visitantes tentaram responder com perigo, mas pararam nas defesas de Weverton, enquanto os donos da casa mantêm o controle na Arena.",
+      "player": {
+        "name": "Grêmio impõe o ritmo e encaminha vitória na Arena"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 84,
+        "extra": null
+      },
+      "team": {
+        "id": 284,
+        "name": "Grêmio"
+      },
+      "type": "Important",
+      "detail": "Vargas cruza para trás, a zaga do Grêmio afasta e Mendoza pega a sobra. Ele domina e bate firme, mas Noriega bloqueia. Em seguida, Weverton fica com a bola.",
+      "player": {
+        "name": "Mendoza"
+      },
+      "assist": {
+        "name": "UMA PANCADA"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 85,
+        "extra": null
+      },
+      "team": {
+        "id": 284,
+        "name": "Grêmio"
+      },
+      "type": "Important",
+      "detail": "O Athletico vai para cima e tenta o primeiro gol para pressionar nos minutos finais. O Grêmio suporta bem até o momento.",
+      "player": {
+        "name": "O Athletico vai para cima e tenta o primeiro gol"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 86,
+        "extra": null
+      },
+      "team": {
+        "id": 284,
+        "name": "Grêmio"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Wagner Leonardo"
+      },
+      "assist": {
+        "name": "Villasanti"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 87,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Após início forte com bola na trave, o Grêmio abriu o placar aos 38 minutos do primeiro tempo com gol de falta de Marlon. Na etapa final, Balbuena ampliou aos 7 minutos após cobrança de escanteio. O Athletico-PR buscou reagir e exigiu grandes defesas do goleiro Weverton, mas o Tricolor segurou a pressão. Com 43 minutos do segundo tempo, os mandantes administram a vantagem de 2 a 0.",
+      "player": {
+        "name": "Grêmio encaminha vitória segura na Arena"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 87,
+        "extra": null
+      },
+      "team": {
+        "id": 293,
+        "name": "Athletico-PR"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Zapelli"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 88,
+        "extra": null
+      },
+      "team": {
+        "id": 293,
+        "name": "Athletico-PR"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Dudu"
+      },
+      "assist": {
+        "name": "Mendoza"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 89,
+        "extra": null
+      },
+      "team": {
+        "id": 284,
+        "name": "Grêmio"
+      },
+      "type": "Important",
+      "detail": "Marlon cobra a falta para o Grêmio, mas a bola carimba a barreira do Athletico.",
+      "player": {
+        "name": "Marlon cobra a falta para o Grêmio, mas a bola c"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 90,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Com 45 minutos do segundo tempo, o Grêmio vai confirmando a vitória por 2 a 0 diante do Athletico-PR. O Tricolor começou pressionando e abriu o placar ainda na primeira etapa, com um gol de falta de Marlon. No início do segundo tempo, Balbuena aproveitou a sobra do escanteio para ampliar. O Furacão tentou reagir e exigiu boas defesas de Weverton, mas o controle é gremista.",
+      "player": {
+        "name": "Grêmio dita o ritmo e bate o Athletico na Arena"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 90,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O jogo vai até os 48 minutos.",
+      "player": {
+        "name": "+3"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 91,
+        "extra": null
+      },
+      "team": {
+        "id": 284,
+        "name": "Grêmio"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Weverton"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 92,
+        "extra": null
+      },
+      "team": {
+        "id": 284,
+        "name": "Grêmio"
+      },
+      "type": "Important",
+      "detail": "A torcida do Grêmio faz a festa na Arena. A vitória tira o time da zona de rebaixamento.",
+      "player": {
+        "name": "A torcida do Grêmio faz a festa na Arena. A vitó"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 93,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Fim de papo em Porto Alegre! Com uma atuação segura, o Grêmio venceu o Athletico-PR por 2 a 0 e garantiu três pontos cruciais. Marlon abriu o placar aos 38 minutos do primeiro tempo em cobrança de falta. Na etapa final, logo aos 7 minutos, Balbuena ampliou após rebote de escanteio. O Furacão pressionou na reta final, mas parou em grandes defesas de Weverton, que confirmou a festa na Arena.",
+      "player": {
+        "name": "Grêmio bate o Athletico-PR e respira aliviado"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 93,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Termina o jogo em Porto Alegre.",
+      "player": {
+        "name": "ACABOU"
+      },
+      "assist": null
+    }
+  ],
   "lineups": [
     {
       "team": {
@@ -401,8 +2920,8 @@
         },
         {
           "player": {
-            "id": "gilberto02",
-            "name": "Gilberto",
+            "id": "gilberto-junior",
+            "name": "Gilberto Junior",
             "number": 2,
             "pos": "Def",
             "grid": null
@@ -501,6 +3020,159 @@
       ]
     }
   ],
-  "statistics": [],
+  "statistics": [
+    {
+      "team": {
+        "id": 284,
+        "name": "Grêmio"
+      },
+      "statistics": [
+        {
+          "type": "Ball Possession",
+          "value": "38%"
+        },
+        {
+          "type": "Total Passes",
+          "value": 231
+        },
+        {
+          "type": "Pass Accuracy",
+          "value": "76%"
+        },
+        {
+          "type": "Incomplete Passes",
+          "value": 56
+        },
+        {
+          "type": "Total Shots",
+          "value": 18
+        },
+        {
+          "type": "Shots on Goal",
+          "value": 5
+        },
+        {
+          "type": "Shots off Goal",
+          "value": 6
+        },
+        {
+          "type": "Blocked Shots",
+          "value": 5
+        },
+        {
+          "type": "Hit Woodwork",
+          "value": 2
+        },
+        {
+          "type": "Corner Kicks",
+          "value": 6
+        },
+        {
+          "type": "Offsides",
+          "value": 2
+        },
+        {
+          "type": "Penalties",
+          "value": 0
+        },
+        {
+          "type": "Goalkeeper Saves",
+          "value": 6
+        },
+        {
+          "type": "Tackles",
+          "value": 11
+        },
+        {
+          "type": "Fouls",
+          "value": 13
+        },
+        {
+          "type": "Yellow Cards",
+          "value": 4
+        },
+        {
+          "type": "Red Cards",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "team": {
+        "id": 293,
+        "name": "Athletico-PR"
+      },
+      "statistics": [
+        {
+          "type": "Ball Possession",
+          "value": "62%"
+        },
+        {
+          "type": "Total Passes",
+          "value": 579
+        },
+        {
+          "type": "Pass Accuracy",
+          "value": "87%"
+        },
+        {
+          "type": "Incomplete Passes",
+          "value": 73
+        },
+        {
+          "type": "Total Shots",
+          "value": 15
+        },
+        {
+          "type": "Shots on Goal",
+          "value": 4
+        },
+        {
+          "type": "Shots off Goal",
+          "value": 7
+        },
+        {
+          "type": "Blocked Shots",
+          "value": 4
+        },
+        {
+          "type": "Hit Woodwork",
+          "value": 0
+        },
+        {
+          "type": "Corner Kicks",
+          "value": 8
+        },
+        {
+          "type": "Offsides",
+          "value": 0
+        },
+        {
+          "type": "Penalties",
+          "value": 0
+        },
+        {
+          "type": "Goalkeeper Saves",
+          "value": 7
+        },
+        {
+          "type": "Tackles",
+          "value": 16
+        },
+        {
+          "type": "Fouls",
+          "value": 17
+        },
+        {
+          "type": "Yellow Cards",
+          "value": 3
+        },
+        {
+          "type": "Red Cards",
+          "value": 0
+        }
+      ]
+    }
+  ],
   "sportsFieldUrl": null
 }

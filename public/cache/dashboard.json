@@ -16678,11 +16678,11 @@
           "city": ""
         },
         "status": {
-          "long": "NS",
-          "short": "NS",
-          "elapsed": null
+          "long": "FT",
+          "short": "FT",
+          "elapsed": 90
         },
-        "timerStart": "2026-10-31T17:57:52.402Z",
+        "timerStart": "2026-10-31T21:06:23.890Z",
         "timerStatus": "PAUSADO"
       },
       "league": {
@@ -16701,8 +16701,8 @@
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 2,
+        "away": 0
       },
       "score": {
         "halftime": {
@@ -16710,8 +16710,8 @@
           "away": null
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 2,
+          "away": 0
         }
       },
       "odds": null,
@@ -19329,6 +19329,28 @@
             {
               "rank": 11,
               "team": {
+                "id": 294,
+                "name": "Coritiba",
+                "logo": "https://s.sde.globo.com/media/organizations/2018/03/11/coritiba.svg"
+              },
+              "points": 42,
+              "goalsDiff": -10,
+              "form": "LDLLW",
+              "description": "Copa Sudamericana",
+              "all": {
+                "played": 33,
+                "win": 11,
+                "draw": 9,
+                "lose": 13,
+                "goals": {
+                  "for": 40,
+                  "against": 50
+                }
+              }
+            },
+            {
+              "rank": 12,
+              "team": {
                 "id": 263,
                 "name": "Botafogo",
                 "logo": "https://s.sde.globo.com/media/organizations/2019/02/04/botafogo-svg.svg"
@@ -19336,7 +19358,7 @@
               "points": 39,
               "goalsDiff": -8,
               "form": "LDWLL",
-              "description": "Copa Sudamericana",
+              "description": null,
               "all": {
                 "played": 33,
                 "win": 10,
@@ -19345,28 +19367,6 @@
                 "goals": {
                   "for": 45,
                   "against": 53
-                }
-              }
-            },
-            {
-              "rank": 12,
-              "team": {
-                "id": 294,
-                "name": "Coritiba",
-                "logo": "https://s.sde.globo.com/media/organizations/2018/03/11/coritiba.svg"
-              },
-              "points": 39,
-              "goalsDiff": -12,
-              "form": "LLDLL",
-              "description": null,
-              "all": {
-                "played": 32,
-                "win": 10,
-                "draw": 9,
-                "lose": 13,
-                "goals": {
-                  "for": 38,
-                  "against": 50
                 }
               }
             },
@@ -19400,17 +19400,17 @@
                 "logo": "https://s.sde.globo.com/media/organizations/2025/12/18/Vitoria_2025.svg"
               },
               "points": 38,
-              "goalsDiff": -11,
-              "form": "LWLDD",
+              "goalsDiff": -13,
+              "form": "WLDDL",
               "description": null,
               "all": {
-                "played": 32,
+                "played": 33,
                 "win": 10,
                 "draw": 8,
-                "lose": 14,
+                "lose": 15,
                 "goals": {
                   "for": 35,
-                  "against": 46
+                  "against": 48
                 }
               }
             },
@@ -19885,6 +19885,28 @@
     {
       "player": {
         "id": 16,
+        "name": "Pedro Rocha",
+        "photo": "https://s.sde.globo.com/media/person_role/2025/02/26/photo_140x140_OEA2Hhd.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "name": "Coritiba",
+            "logo": "https://s.sde.globo.com/media/organizations/2017/03/29/coritiba65.png"
+          },
+          "goals": {
+            "total": 9,
+            "assists": null
+          },
+          "games": {
+            "appearences": 0
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 17,
         "name": "Jajá",
         "photo": "https://s.sde.globo.com/media/person_role/2026/03/31/photo_140x140_HhBEQDC.png"
       },
@@ -19906,31 +19928,9 @@
     },
     {
       "player": {
-        "id": 17,
+        "id": 18,
         "name": "Breno Lopes",
         "photo": "https://s.sde.globo.com/media/person_role/2026/02/09/photo_140x140_q6kEOrG.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "name": "Coritiba",
-            "logo": "https://s.sde.globo.com/media/organizations/2017/03/29/coritiba65.png"
-          },
-          "goals": {
-            "total": 8,
-            "assists": null
-          },
-          "games": {
-            "appearences": 0
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 18,
-        "name": "Pedro Rocha",
-        "photo": "https://s.sde.globo.com/media/person_role/2025/02/26/photo_140x140_OEA2Hhd.png"
       },
       "statistics": [
         {
@@ -20657,10 +20657,10 @@
   "budget": {
     "used": 0,
     "remaining": 100,
-    "mode": "prematch",
-    "liveIntervalMs": 120000
+    "mode": "idle",
+    "liveIntervalMs": 900000
   },
-  "fetchedAt": "2026-10-31T18:06:08.318Z",
+  "fetchedAt": "2026-10-31T21:29:42.827Z",
   "source": "ge-globo",
   "meta": {
     "rodada": 33,
@@ -20705,8 +20705,8 @@
       37,
       38
     ],
-    "seasonSyncedAt": "2026-10-31T13:51:48.838Z",
-    "fullSeasonSync": false,
+    "seasonSyncedAt": "2026-10-31T21:29:34.197Z",
+    "fullSeasonSync": true,
     "edicao": "Campeonato Brasileiro 2026",
     "provider": "ge.globo.com",
     "scorersCount": 50,
@@ -20717,7 +20717,7 @@
     "tvPreserved": 0,
     "tvAvailable": 343,
     "tvSource": "Onde Assistir — https://ondeassistir.com.br/dados",
-    "tvUpdatedAt": "2026-10-31T16:16:30.389523Z",
+    "tvUpdatedAt": "2026-10-31T20:13:03.038070Z",
     "fixturesCount": 380
   }
 }

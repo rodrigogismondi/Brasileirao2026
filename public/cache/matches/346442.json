@@ -11,7 +11,7 @@
       "short": "NS",
       "elapsed": null
     },
-    "timerStart": null,
+    "timerStart": "2026-10-31T17:57:52.402Z",
     "timerStatus": "PAUSADO"
   },
   "league": {
@@ -56,7 +56,7 @@
         "name": "Coritiba",
         "logo": "https://s.sde.globo.com/media/organizations/2018/03/11/coritiba.svg"
       },
-      "formation": "4-3-3",
+      "formation": "4-4-2",
       "coach": {
         "name": "Guilherme Bossle"
       },
@@ -65,7 +65,7 @@
           "player": {
             "id": "pedro-morisco",
             "name": "Pedro Morisco",
-            "number": null,
+            "number": 1,
             "pos": "Gol",
             "grid": null
           }
@@ -74,7 +74,7 @@
           "player": {
             "id": "tinga03",
             "name": "Tinga",
-            "number": null,
+            "number": 2,
             "pos": "Def",
             "grid": null
           }
@@ -83,7 +83,7 @@
           "player": {
             "id": "tiagocoser",
             "name": "Tiago Cóser",
-            "number": null,
+            "number": 23,
             "pos": "Def",
             "grid": null
           }
@@ -92,7 +92,7 @@
           "player": {
             "id": "jacy-maranhao",
             "name": "Jacy",
-            "number": null,
+            "number": 55,
             "pos": "Def",
             "grid": null
           }
@@ -101,8 +101,17 @@
           "player": {
             "id": "brunomelo",
             "name": "Bruno Melo",
-            "number": null,
+            "number": 26,
             "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "thiago_santos",
+            "name": "Thiago Santos",
+            "number": 21,
+            "pos": "Mei",
             "grid": null
           }
         },
@@ -110,7 +119,7 @@
           "player": {
             "id": "sebastiangomezlon",
             "name": "Sebastián Gómez",
-            "number": null,
+            "number": 19,
             "pos": "Mei",
             "grid": null
           }
@@ -119,7 +128,7 @@
           "player": {
             "id": "nicolasfonseca",
             "name": "Nicolás Fonseca",
-            "number": null,
+            "number": 5,
             "pos": "Mei",
             "grid": null
           }
@@ -128,26 +137,8 @@
           "player": {
             "id": "josuefilipe",
             "name": "Josué",
-            "number": null,
+            "number": 10,
             "pos": "Mei",
-            "grid": null
-          }
-        },
-        {
-          "player": {
-            "id": "lavega",
-            "name": "Lavega",
-            "number": null,
-            "pos": "Ata",
-            "grid": null
-          }
-        },
-        {
-          "player": {
-            "id": "Paulo-Roberto",
-            "name": "Paulo Roberto",
-            "number": null,
-            "pos": "Ata",
             "grid": null
           }
         },
@@ -155,7 +146,16 @@
           "player": {
             "id": "pedrorocha",
             "name": "Pedro Rocha",
-            "number": null,
+            "number": 32,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "brenolopes",
+            "name": "Breno Lopes",
+            "number": 77,
             "pos": "Ata",
             "grid": null
           }

@@ -20657,10 +20657,10 @@
   "budget": {
     "used": 0,
     "remaining": 100,
-    "mode": "idle",
-    "liveIntervalMs": 900000
+    "mode": "prematch",
+    "liveIntervalMs": 120000
   },
-  "fetchedAt": "2026-10-31T01:45:59.569Z",
+  "fetchedAt": "2026-10-31T07:34:30.439Z",
   "source": "ge-globo",
   "meta": {
     "rodada": 33,
@@ -20705,8 +20705,8 @@
       37,
       38
     ],
-    "seasonSyncedAt": "2026-10-30T22:29:09.086Z",
-    "fullSeasonSync": false,
+    "seasonSyncedAt": "2026-10-31T07:34:21.702Z",
+    "fullSeasonSync": true,
     "edicao": "Campeonato Brasileiro 2026",
     "provider": "ge.globo.com",
     "scorersCount": 50,
@@ -20717,7 +20717,7 @@
     "tvPreserved": 0,
     "tvAvailable": 343,
     "tvSource": "Onde Assistir — https://ondeassistir.com.br/dados",
-    "tvUpdatedAt": "2026-10-31T00:15:02.017875Z",
+    "tvUpdatedAt": "2026-10-31T06:17:07.428938Z",
     "fixturesCount": 380
   }
 }

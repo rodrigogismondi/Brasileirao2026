@@ -16627,11 +16627,11 @@
           "city": ""
         },
         "status": {
-          "long": "NS",
-          "short": "NS",
-          "elapsed": null
+          "long": "FT",
+          "short": "FT",
+          "elapsed": 90
         },
-        "timerStart": "2026-10-30T21:36:25.871Z",
+        "timerStart": "2026-10-31T01:26:28.337Z",
         "timerStatus": "PAUSADO"
       },
       "league": {
@@ -16650,8 +16650,8 @@
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 2,
+        "away": 0
       },
       "score": {
         "halftime": {
@@ -16659,8 +16659,8 @@
           "away": null
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 2,
+          "away": 0
         }
       },
       "odds": null,
@@ -19444,22 +19444,44 @@
                 "logo": "https://s.sde.globo.com/media/organizations/2026/07/17/MIrassol.svg"
               },
               "points": 37,
-              "goalsDiff": -8,
-              "form": "WDLWD",
+              "goalsDiff": -10,
+              "form": "DLWDL",
               "description": null,
               "all": {
-                "played": 32,
+                "played": 33,
                 "win": 9,
                 "draw": 10,
-                "lose": 13,
+                "lose": 14,
                 "goals": {
                   "for": 37,
-                  "against": 45
+                  "against": 47
                 }
               }
             },
             {
               "rank": 17,
+              "team": {
+                "id": 264,
+                "name": "Corinthians",
+                "logo": "https://s.sde.globo.com/media/organizations/2024/10/09/Corinthians_2024_Q4ahot4.svg"
+              },
+              "points": 36,
+              "goalsDiff": -6,
+              "form": "LLDLW",
+              "description": "Relegation",
+              "all": {
+                "played": 33,
+                "win": 9,
+                "draw": 9,
+                "lose": 15,
+                "goals": {
+                  "for": 36,
+                  "against": 42
+                }
+              }
+            },
+            {
+              "rank": 18,
               "team": {
                 "id": 285,
                 "name": "Internacional",
@@ -19476,28 +19498,6 @@
                 "lose": 14,
                 "goals": {
                   "for": 37,
-                  "against": 42
-                }
-              }
-            },
-            {
-              "rank": 18,
-              "team": {
-                "id": 264,
-                "name": "Corinthians",
-                "logo": "https://s.sde.globo.com/media/organizations/2024/10/09/Corinthians_2024_Q4ahot4.svg"
-              },
-              "points": 33,
-              "goalsDiff": -8,
-              "form": "LLLDL",
-              "description": "Relegation",
-              "all": {
-                "played": 32,
-                "win": 8,
-                "draw": 9,
-                "lose": 15,
-                "goals": {
-                  "for": 34,
                   "against": 42
                 }
               }
@@ -20347,6 +20347,28 @@
     {
       "player": {
         "id": 37,
+        "name": "Matheus Bidu",
+        "photo": "https://s.sde.globo.com/media/person_role/2025/04/01/photo_140x140_OSHSlSF.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "name": "Corinthians",
+            "logo": "https://s.sde.globo.com/media/organizations/2024/10/09/Corinthians-2024-65_IYhgZ1u.png"
+          },
+          "goals": {
+            "total": 5,
+            "assists": null
+          },
+          "games": {
+            "appearences": 0
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 38,
         "name": "Canobbio",
         "photo": "https://s.sde.globo.com/media/person_role/2026/07/06/photo_140x140_AyXW0hS.png"
       },
@@ -20368,7 +20390,7 @@
     },
     {
       "player": {
-        "id": 38,
+        "id": 39,
         "name": "Erick",
         "photo": "https://s.sde.globo.com/media/person_role/2025/04/11/photo_140x140_0TgCX7K.png"
       },
@@ -20390,7 +20412,7 @@
     },
     {
       "player": {
-        "id": 39,
+        "id": 40,
         "name": "Christian",
         "photo": "https://s.sde.globo.com/media/person_role/2025/04/01/photo_140x140_1FOgaNC.png"
       },
@@ -20412,7 +20434,7 @@
     },
     {
       "player": {
-        "id": 40,
+        "id": 41,
         "name": "Thiago Mendes",
         "photo": "https://s.sde.globo.com/media/person_role/2026/03/02/photo_140x140.png"
       },
@@ -20434,7 +20456,7 @@
     },
     {
       "player": {
-        "id": 41,
+        "id": 42,
         "name": "Rodrigo Castillo",
         "photo": "https://s.sde.globo.com/media/person_role/2026/07/06/photo_140x140_FuaIXQB.png"
       },
@@ -20456,7 +20478,7 @@
     },
     {
       "player": {
-        "id": 42,
+        "id": 43,
         "name": "Cuello",
         "photo": "https://s.sde.globo.com/media/person_role/2025/04/04/photo_140x140_aWdBvuS.png"
       },
@@ -20478,7 +20500,7 @@
     },
     {
       "player": {
-        "id": 43,
+        "id": 44,
         "name": "Bernard",
         "photo": "https://s.sde.globo.com/media/person_role/2025/04/04/photo_140x140_iv1Lv6o.png"
       },
@@ -20500,7 +20522,7 @@
     },
     {
       "player": {
-        "id": 44,
+        "id": 45,
         "name": "Isidro Pitta",
         "photo": "https://s.sde.globo.com/media/person_role/2025/04/02/photo_140x140_2kh4pC4.png"
       },
@@ -20522,7 +20544,7 @@
     },
     {
       "player": {
-        "id": 45,
+        "id": 46,
         "name": "Bernabei",
         "photo": "https://s.sde.globo.com/media/person_role/2026/08/19/photo_140x140_VnWnBxr.png"
       },
@@ -20544,7 +20566,7 @@
     },
     {
       "player": {
-        "id": 46,
+        "id": 47,
         "name": "Andrés Gómez",
         "photo": "https://s.sde.globo.com/media/person_role/2026/08/19/photo_140x140_zVa1Rch.png"
       },
@@ -20566,7 +20588,7 @@
     },
     {
       "player": {
-        "id": 47,
+        "id": 48,
         "name": "Marcinho",
         "photo": "https://s.sde.globo.com/media/person_role/2023/03/07/photo_140x140_qGyi5zN.png"
       },
@@ -20588,7 +20610,7 @@
     },
     {
       "player": {
-        "id": 48,
+        "id": 49,
         "name": "Barreal",
         "photo": "https://s.sde.globo.com/media/person_role/2025/04/03/photo_140x140_wzd9jAt.png"
       },
@@ -20610,7 +20632,7 @@
     },
     {
       "player": {
-        "id": 49,
+        "id": 50,
         "name": "Erick Pulga",
         "photo": "https://s.sde.globo.com/media/person_role/2026/07/06/photo_140x140_RjErlZx.png"
       },
@@ -20629,38 +20651,16 @@
           }
         }
       ]
-    },
-    {
-      "player": {
-        "id": 50,
-        "name": "Leozinho",
-        "photo": "https://s.sde.globo.com/media/person_role/2025/03/14/photo_140x140_Wofj7zI.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "name": "Athletico-PR",
-            "logo": "https://s.sde.globo.com/media/organizations/2019/09/09/Athletico-PR-65x65.png"
-          },
-          "goals": {
-            "total": 5,
-            "assists": null
-          },
-          "games": {
-            "appearences": 0
-          }
-        }
-      ]
     }
   ],
   "assists": [],
   "budget": {
     "used": 0,
     "remaining": 100,
-    "mode": "prematch",
-    "liveIntervalMs": 120000
+    "mode": "idle",
+    "liveIntervalMs": 900000
   },
-  "fetchedAt": "2026-10-30T22:29:17.456Z",
+  "fetchedAt": "2026-10-31T01:45:59.569Z",
   "source": "ge-globo",
   "meta": {
     "rodada": 33,
@@ -20706,7 +20706,7 @@
       38
     ],
     "seasonSyncedAt": "2026-10-30T22:29:09.086Z",
-    "fullSeasonSync": true,
+    "fullSeasonSync": false,
     "edicao": "Campeonato Brasileiro 2026",
     "provider": "ge.globo.com",
     "scorersCount": 50,
@@ -20717,7 +20717,7 @@
     "tvPreserved": 0,
     "tvAvailable": 343,
     "tvSource": "Onde Assistir — https://ondeassistir.com.br/dados",
-    "tvUpdatedAt": "2026-10-30T22:16:55.840577Z",
+    "tvUpdatedAt": "2026-10-31T00:15:02.017875Z",
     "fixturesCount": 380
   }
 }

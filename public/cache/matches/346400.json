@@ -10,7 +10,9 @@
       "long": "NS",
       "short": "NS",
       "elapsed": null
-    }
+    },
+    "timerStart": null,
+    "timerStatus": "PAUSADO"
   },
   "league": {
     "round": "Regular Season - 34"
@@ -43,9 +45,236 @@
   },
   "odds": null,
   "tv": [],
+  "_geUrl": "https://ge.globo.com/sc/futebol/brasileirao-serie-a/jogo/03-11-2026/chapecoense-mirassol.ghtml",
   "events": [],
-  "lineups": [],
+  "lineups": [
+    {
+      "team": {
+        "id": 315,
+        "name": "Chapecoense",
+        "logo": "https://s.sde.globo.com/media/organizations/2021/06/21/CHAPECOENSE-2018.svg"
+      },
+      "formation": "4-3-3",
+      "coach": {
+        "name": "Rafael Lacerda"
+      },
+      "startXI": [
+        {
+          "player": {
+            "id": "andersonsp",
+            "name": "Anderson",
+            "number": 98,
+            "pos": "Gol",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "brunotubarao",
+            "name": "Bruno Tubarão",
+            "number": 20,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "kauanfg",
+            "name": "Kauan",
+            "number": null,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "eduardodoma",
+            "name": "Eduardo Doma",
+            "number": 3,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "brunopacheco",
+            "name": "Bruno Pacheco",
+            "number": 91,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "camilo-reijers",
+            "name": "Camilo",
+            "number": 27,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "yagofelipe",
+            "name": "Yago Felipe",
+            "number": 88,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "giovanni-augusto",
+            "name": "Giovanni Augusto",
+            "number": 10,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "marcinhoantonio",
+            "name": "Marcinho",
+            "number": 7,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "bolasie",
+            "name": "Bolasie",
+            "number": 11,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "maxdasilva",
+            "name": "Max",
+            "number": null,
+            "pos": "Ata",
+            "grid": null
+          }
+        }
+      ],
+      "substitutes": []
+    },
+    {
+      "team": {
+        "id": 2305,
+        "name": "Mirassol",
+        "logo": "https://s.sde.globo.com/media/organizations/2026/07/17/MIrassol.svg"
+      },
+      "formation": "4-3-3",
+      "coach": {
+        "name": "Rafael Guanaes"
+      },
+      "startXI": [
+        {
+          "player": {
+            "id": "walter-barbarense",
+            "name": "Walter",
+            "number": 22,
+            "pos": "Gol",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "igor-formiga",
+            "name": "Igor Formiga",
+            "number": 32,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "joao-victor-santana",
+            "name": "João Victor",
+            "number": 34,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "willian-machado",
+            "name": "Willian Machado",
+            "number": 3,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "reinaldomanoel",
+            "name": "Reinaldo",
+            "number": 6,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "netomoura",
+            "name": "Neto Moura",
+            "number": 25,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "denilsonab",
+            "name": "Denilson",
+            "number": 27,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "eduardoca",
+            "name": "Eduardo",
+            "number": 33,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "alesson",
+            "name": "Alesson",
+            "number": 77,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "andreluissa",
+            "name": "André Luis",
+            "number": null,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "carloseduardoferreira",
+            "name": "Carlos Eduardo",
+            "number": null,
+            "pos": "Ata",
+            "grid": null
+          }
+        }
+      ],
+      "substitutes": []
+    }
+  ],
   "statistics": [],
-  "sportsFieldUrl": null,
-  "_geUrl": "https://ge.globo.com/sc/futebol/brasileirao-serie-a/jogo/03-11-2026/chapecoense-mirassol.ghtml"
+  "sportsFieldUrl": null
 }

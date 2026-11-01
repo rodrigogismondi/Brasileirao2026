@@ -10,7 +10,9 @@
       "long": "NS",
       "short": "NS",
       "elapsed": null
-    }
+    },
+    "timerStart": null,
+    "timerStatus": "PAUSADO"
   },
   "league": {
     "round": "Regular Season - 34"
@@ -45,9 +47,236 @@
   "tv": [
     "Premiere"
   ],
+  "_geUrl": "https://ge.globo.com/rj/futebol/brasileirao-serie-a/jogo/04-11-2026/flamengo-gremio.ghtml",
   "events": [],
-  "lineups": [],
+  "lineups": [
+    {
+      "team": {
+        "id": 262,
+        "name": "Flamengo",
+        "logo": "https://s.sde.globo.com/media/organizations/2018/04/10/Flamengo-2018.svg"
+      },
+      "formation": "4-4-2",
+      "coach": {
+        "name": "Leonardo Jardim"
+      },
+      "startXI": [
+        {
+          "player": {
+            "id": "agustin-rossi",
+            "name": "Rossi",
+            "number": 1,
+            "pos": "Gol",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "guivarela",
+            "name": "Varela",
+            "number": 2,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "leo-ortiz",
+            "name": "Léo Ortiz",
+            "number": 3,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "leopereira",
+            "name": "Léo Pereira",
+            "number": 4,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "ayrtonlucas",
+            "name": "Ayrton Lucas",
+            "number": null,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "pulgar",
+            "name": "Erick Pulgar",
+            "number": 5,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "jorginho-verona",
+            "name": "Jorginho",
+            "number": 21,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "arrascaeta",
+            "name": "Arrascaeta",
+            "number": 10,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "carrascalj",
+            "name": "Carrascal",
+            "number": null,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "pedro-guilhermea",
+            "name": "Pedro",
+            "number": 9,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "samuel-saobernardo",
+            "name": "Samuel Lino",
+            "number": 16,
+            "pos": "Ata",
+            "grid": null
+          }
+        }
+      ],
+      "substitutes": []
+    },
+    {
+      "team": {
+        "id": 284,
+        "name": "Grêmio",
+        "logo": "https://s.sde.globo.com/media/organizations/2018/03/12/gremio.svg"
+      },
+      "formation": "3-4-3",
+      "coach": {
+        "name": "Renato Gaúcho"
+      },
+      "startXI": [
+        {
+          "player": {
+            "id": "gabriel-grando",
+            "name": "Gabriel Grando",
+            "number": null,
+            "pos": "Gol",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "gustavomartins",
+            "name": "Gustavo Martins",
+            "number": null,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "kannemann",
+            "name": "Kannemann",
+            "number": null,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "wallace",
+            "name": "Wallace",
+            "number": 82,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "joaopedro06",
+            "name": "João Pedro",
+            "number": null,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "erinoriega",
+            "name": "Noriega",
+            "number": 8,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "villasanti",
+            "name": "Villasanti",
+            "number": 20,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "marlon453453",
+            "name": "Marlon",
+            "number": 23,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "crispavon",
+            "name": "Pavón",
+            "number": 7,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "braithwaite",
+            "name": "Braithwaite",
+            "number": null,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "francis-amuzu",
+            "name": "Amuzu",
+            "number": 9,
+            "pos": "Ata",
+            "grid": null
+          }
+        }
+      ],
+      "substitutes": []
+    }
+  ],
   "statistics": [],
-  "sportsFieldUrl": null,
-  "_geUrl": "https://ge.globo.com/rj/futebol/brasileirao-serie-a/jogo/04-11-2026/flamengo-gremio.ghtml"
+  "sportsFieldUrl": null
 }

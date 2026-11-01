@@ -10,7 +10,9 @@
       "long": "NS",
       "short": "NS",
       "elapsed": null
-    }
+    },
+    "timerStart": null,
+    "timerStatus": "PAUSADO"
   },
   "league": {
     "round": "Regular Season - 34"
@@ -48,9 +50,236 @@
     "source": "betexplorer"
   },
   "tv": [],
+  "_geUrl": "https://ge.globo.com/rj/futebol/brasileirao-serie-a/jogo/04-11-2026/botafogo-atletico-mg.ghtml",
   "events": [],
-  "lineups": [],
+  "lineups": [
+    {
+      "team": {
+        "id": 263,
+        "name": "Botafogo",
+        "logo": "https://s.sde.globo.com/media/organizations/2019/02/04/botafogo-svg.svg"
+      },
+      "formation": "4-5-1",
+      "coach": {
+        "name": "Tite"
+      },
+      "startXI": [
+        {
+          "player": {
+            "id": "gabriel-batista",
+            "name": "Gabriel Batista",
+            "number": 12,
+            "pos": "Gol",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "vitinhoalex",
+            "name": "Vitinho",
+            "number": 2,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "ferraresi",
+            "name": "Ferraresi",
+            "number": 5,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "marcalfer",
+            "name": "Marçal",
+            "number": 21,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "alextelles",
+            "name": "Alex Telles",
+            "number": 13,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "allan2",
+            "name": "Allan",
+            "number": 25,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "huguinho",
+            "name": "Huguinho",
+            "number": null,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "medinacris",
+            "name": "Medina",
+            "number": 6,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "alvamontoro",
+            "name": "Montoro",
+            "number": 10,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "matheusmartinsss",
+            "name": "Matheus Martins",
+            "number": 11,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "tiquinhosoares",
+            "name": "Tiquinho Soares",
+            "number": 9,
+            "pos": "Ata",
+            "grid": null
+          }
+        }
+      ],
+      "substitutes": []
+    },
+    {
+      "team": {
+        "id": 282,
+        "name": "Atlético-MG",
+        "logo": "https://s.sde.globo.com/media/organizations/2018/03/10/atletico-mg.svg"
+      },
+      "formation": "4-5-1",
+      "coach": {
+        "name": "Eduardo Domínguez"
+      },
+      "startXI": [
+        {
+          "player": {
+            "id": "gabriel-delfim",
+            "name": "Gabriel Delfim",
+            "number": 1,
+            "pos": "Gol",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "natanaelmoreira",
+            "name": "Natanael",
+            "number": 2,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "leoduarte",
+            "name": "Léo Duarte",
+            "number": null,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "lyanco",
+            "name": "Lyanco",
+            "number": null,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "renanlodi",
+            "name": "Renan Lodi",
+            "number": 6,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "kevcastano",
+            "name": "Castaño",
+            "number": null,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "alanfranco121",
+            "name": "Alan Franco",
+            "number": 21,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "victor-hugo-gsilva",
+            "name": "Victor Hugo",
+            "number": null,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "alexsander1003",
+            "name": "Alexsander",
+            "number": null,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "bernard3",
+            "name": "Bernard",
+            "number": 11,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "caua-soares",
+            "name": "Cauã Soares",
+            "number": null,
+            "pos": "Ata",
+            "grid": null
+          }
+        }
+      ],
+      "substitutes": []
+    }
+  ],
   "statistics": [],
-  "sportsFieldUrl": null,
-  "_geUrl": "https://ge.globo.com/rj/futebol/brasileirao-serie-a/jogo/04-11-2026/botafogo-atletico-mg.ghtml"
+  "sportsFieldUrl": null
 }

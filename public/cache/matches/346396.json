@@ -10,7 +10,9 @@
       "long": "NS",
       "short": "NS",
       "elapsed": null
-    }
+    },
+    "timerStart": null,
+    "timerStatus": "PAUSADO"
   },
   "league": {
     "round": "Regular Season - 34"
@@ -43,9 +45,236 @@
   },
   "odds": null,
   "tv": [],
+  "_geUrl": "https://ge.globo.com/mg/futebol/brasileirao-serie-a/jogo/05-11-2026/cruzeiro-bahia.ghtml",
   "events": [],
-  "lineups": [],
+  "lineups": [
+    {
+      "team": {
+        "id": 283,
+        "name": "Cruzeiro",
+        "logo": "https://s.sde.globo.com/media/organizations/2021/02/13/cruzeiro_2021.svg"
+      },
+      "formation": "4-5-1",
+      "coach": {
+        "name": "Artur Jorge"
+      },
+      "startXI": [
+        {
+          "player": {
+            "id": "otavioeleo",
+            "name": "Otávio",
+            "number": 81,
+            "pos": "Gol",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "fagner",
+            "name": "Fagner",
+            "number": null,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "fabriciobruno",
+            "name": "Fabrício Bruno",
+            "number": null,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "jonathan",
+            "name": "Jonathan Jesus",
+            "number": 34,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "mvina",
+            "name": "Viña",
+            "number": null,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "lucasromero",
+            "name": "Lucas Romero",
+            "number": 29,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "ze-lucas",
+            "name": "Zé Lucas",
+            "number": 5,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "matheushenrique1297",
+            "name": "Matheus Henrique",
+            "number": null,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "gersonss",
+            "name": "Gerson",
+            "number": 8,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "KenyArroyo",
+            "name": "Arroyo",
+            "number": 99,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "kaio-jorge",
+            "name": "Kaio Jorge",
+            "number": 19,
+            "pos": "Ata",
+            "grid": null
+          }
+        }
+      ],
+      "substitutes": []
+    },
+    {
+      "team": {
+        "id": 265,
+        "name": "Bahia",
+        "logo": "https://s.sde.globo.com/media/organizations/2018/03/11/bahia.svg"
+      },
+      "formation": "4-3-3",
+      "coach": {
+        "name": "Rogério Ceni"
+      },
+      "startXI": [
+        {
+          "player": {
+            "id": "ronaldostrada",
+            "name": "Ronaldo",
+            "number": 1,
+            "pos": "Gol",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "marcos-victor",
+            "name": "Marcos Victor",
+            "number": 44,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "davidduarte",
+            "name": "David Duarte",
+            "number": 33,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "kanu-victor-hugo",
+            "name": "Kanu",
+            "number": 4,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "lucianojuba",
+            "name": "Luciano Juba",
+            "number": 46,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "acevedoni",
+            "name": "Acevedo",
+            "number": 5,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "erick-carvalho",
+            "name": "Erick",
+            "number": 14,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "rodrigonestor",
+            "name": "Rodrigo Nestor",
+            "number": 11,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "cristianolivera424",
+            "name": "Cristian Olivera",
+            "number": 99,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "velizale",
+            "name": "Alejo Véliz",
+            "number": 9,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "erickpulga",
+            "name": "Erick Pulga",
+            "number": 16,
+            "pos": "Ata",
+            "grid": null
+          }
+        }
+      ],
+      "substitutes": []
+    }
+  ],
   "statistics": [],
-  "sportsFieldUrl": null,
-  "_geUrl": "https://ge.globo.com/mg/futebol/brasileirao-serie-a/jogo/05-11-2026/cruzeiro-bahia.ghtml"
+  "sportsFieldUrl": null
 }

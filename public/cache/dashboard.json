@@ -16708,11 +16708,11 @@
           "city": ""
         },
         "status": {
-          "long": "NS",
-          "short": "NS",
-          "elapsed": null
+          "long": "FT",
+          "short": "FT",
+          "elapsed": 90
         },
-        "timerStart": null,
+        "timerStart": "2026-11-03T01:09:21.113Z",
         "timerStatus": "PAUSADO"
       },
       "league": {
@@ -16731,8 +16731,8 @@
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 2,
+        "away": 1
       },
       "score": {
         "halftime": {
@@ -16740,8 +16740,8 @@
           "away": null
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 2,
+          "away": 1
         }
       },
       "odds": null,
@@ -19267,44 +19267,44 @@
             {
               "rank": 8,
               "team": {
-                "id": 277,
-                "name": "Santos",
-                "logo": "https://s.sde.globo.com/media/organizations/2018/03/12/santos.svg"
+                "id": 280,
+                "name": "Bragantino",
+                "logo": "https://s.sde.globo.com/media/organizations/2021/06/28/bragantino.svg"
               },
               "points": 47,
-              "goalsDiff": 2,
-              "form": "DLWDD",
+              "goalsDiff": 5,
+              "form": "WDLWW",
               "description": "Copa Sudamericana",
               "all": {
-                "played": 33,
-                "win": 12,
-                "draw": 11,
-                "lose": 10,
+                "played": 34,
+                "win": 13,
+                "draw": 8,
+                "lose": 13,
                 "goals": {
-                  "for": 49,
-                  "against": 47
+                  "for": 44,
+                  "against": 39
                 }
               }
             },
             {
               "rank": 9,
               "team": {
-                "id": 280,
-                "name": "Bragantino",
-                "logo": "https://s.sde.globo.com/media/organizations/2021/06/28/bragantino.svg"
+                "id": 277,
+                "name": "Santos",
+                "logo": "https://s.sde.globo.com/media/organizations/2018/03/12/santos.svg"
               },
-              "points": 44,
-              "goalsDiff": 4,
-              "form": "DWDLW",
+              "points": 47,
+              "goalsDiff": 1,
+              "form": "LWDDL",
               "description": "Copa Sudamericana",
               "all": {
-                "played": 33,
+                "played": 34,
                 "win": 12,
-                "draw": 8,
-                "lose": 13,
+                "draw": 11,
+                "lose": 11,
                 "goals": {
-                  "for": 42,
-                  "against": 38
+                  "for": 50,
+                  "against": 49
                 }
               }
             },
@@ -20661,10 +20661,10 @@
   "budget": {
     "used": 0,
     "remaining": 100,
-    "mode": "prematch",
-    "liveIntervalMs": 120000
+    "mode": "idle",
+    "liveIntervalMs": 900000
   },
-  "fetchedAt": "2026-11-02T18:40:02.819Z",
+  "fetchedAt": "2026-11-03T01:17:48.237Z",
   "source": "ge-globo",
   "meta": {
     "rodada": 34,
@@ -20709,7 +20709,7 @@
       37,
       38
     ],
-    "seasonSyncedAt": "2026-11-02T18:39:50.898Z",
+    "seasonSyncedAt": "2026-11-03T01:17:42.601Z",
     "fullSeasonSync": true,
     "edicao": "Campeonato Brasileiro 2026",
     "provider": "ge.globo.com",
@@ -20721,7 +20721,7 @@
     "tvPreserved": 0,
     "tvAvailable": 364,
     "tvSource": "Onde Assistir — https://ondeassistir.com.br/dados",
-    "tvUpdatedAt": "2026-11-02T18:14:52.429397Z",
+    "tvUpdatedAt": "2026-11-03T00:13:40.021988Z",
     "fixturesCount": 380
   }
 }

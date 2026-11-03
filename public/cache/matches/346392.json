@@ -49,7 +49,10 @@
     "away": 3.02,
     "source": "betexplorer"
   },
-  "tv": [],
+  "tv": [
+    "Globo",
+    "Premiere"
+  ],
   "_geUrl": "https://ge.globo.com/rj/futebol/brasileirao-serie-a/jogo/04-11-2026/botafogo-atletico-mg.ghtml",
   "events": [],
   "lineups": [
@@ -129,18 +132,18 @@
         },
         {
           "player": {
-            "id": "medinacris",
-            "name": "Medina",
-            "number": 6,
+            "id": "ziyech",
+            "name": "Ziyech",
+            "number": null,
             "pos": "Mei",
             "grid": null
           }
         },
         {
           "player": {
-            "id": "ziyech",
-            "name": "Ziyech",
-            "number": null,
+            "id": "medinacris",
+            "name": "Medina",
+            "number": 6,
             "pos": "Mei",
             "grid": null
           }
@@ -172,7 +175,7 @@
         "name": "Atlético-MG",
         "logo": "https://s.sde.globo.com/media/organizations/2018/03/10/atletico-mg.svg"
       },
-      "formation": "4-4-2",
+      "formation": "4-5-1",
       "coach": {
         "name": "Eduardo Domínguez"
       },
@@ -242,8 +245,8 @@
         },
         {
           "player": {
-            "id": "gustavoscarpa",
-            "name": "Gustavo Scarpa",
+            "id": "mindaal",
+            "name": "Minda",
             "number": null,
             "pos": "Mei",
             "grid": null
@@ -260,17 +263,17 @@
         },
         {
           "player": {
-            "id": "caua-soares",
-            "name": "Cauã Soares",
+            "id": "gustavoscarpa",
+            "name": "Gustavo Scarpa",
             "number": null,
-            "pos": "Ata",
+            "pos": "Mei",
             "grid": null
           }
         },
         {
           "player": {
-            "id": "mindaal",
-            "name": "Minda",
+            "id": "caua-soares",
+            "name": "Cauã Soares",
             "number": null,
             "pos": "Ata",
             "grid": null

@@ -44,7 +44,10 @@
     }
   },
   "odds": null,
-  "tv": [],
+  "tv": [
+    "Globo",
+    "Premiere"
+  ],
   "_geUrl": "https://ge.globo.com/sp/futebol/brasileirao-serie-a/jogo/04-11-2026/sao-paulo-corinthians.ghtml",
   "events": [],
   "lineups": [
@@ -54,7 +57,7 @@
         "name": "São Paulo",
         "logo": "https://s.sde.globo.com/media/organizations/2018/03/11/sao-paulo.svg"
       },
-      "formation": "3-5-2",
+      "formation": "3-4-3",
       "coach": {
         "name": "Dorival Júnior"
       },
@@ -133,8 +136,8 @@
         },
         {
           "player": {
-            "id": "calleri",
-            "name": "Calleri",
+            "id": "artur-palmeiras",
+            "name": "Artur",
             "number": null,
             "pos": "Ata",
             "grid": null
@@ -142,8 +145,8 @@
         },
         {
           "player": {
-            "id": "artur-palmeiras",
-            "name": "Artur",
+            "id": "calleri",
+            "name": "Calleri",
             "number": null,
             "pos": "Ata",
             "grid": null
@@ -185,7 +188,7 @@
           "player": {
             "id": "pedro-milans",
             "name": "Milans",
-            "number": null,
+            "number": 20,
             "pos": "Def",
             "grid": null
           }

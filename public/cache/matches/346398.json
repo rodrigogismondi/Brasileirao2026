@@ -44,7 +44,10 @@
     }
   },
   "odds": null,
-  "tv": [],
+  "tv": [
+    "Record",
+    "Premiere"
+  ],
   "_geUrl": "https://ge.globo.com/pr/futebol/brasileirao-serie-a/jogo/04-11-2026/atletico-pr-vasco.ghtml",
   "events": [],
   "lineups": [
@@ -192,18 +195,18 @@
         },
         {
           "player": {
-            "id": "saldivia",
-            "name": "Saldivia",
-            "number": 4,
+            "id": "gabrielpereira0500",
+            "name": "Gabriel Pereira",
+            "number": 55,
             "pos": "Def",
             "grid": null
           }
         },
         {
           "player": {
-            "id": "gabrielpereira0500",
-            "name": "Gabriel Pereira",
-            "number": null,
+            "id": "saldivia",
+            "name": "Saldivia",
+            "number": 4,
             "pos": "Def",
             "grid": null
           }
@@ -246,19 +249,10 @@
         },
         {
           "player": {
-            "id": "colidio",
-            "name": "Colidio",
-            "number": 9,
-            "pos": "Ata",
-            "grid": null
-          }
-        },
-        {
-          "player": {
             "id": "adsonsoares",
             "name": "Adson",
             "number": null,
-            "pos": "Mei",
+            "pos": "Ata",
             "grid": null
           }
         },
@@ -267,6 +261,15 @@
             "id": "brenner111111",
             "name": "Brenner",
             "number": null,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "colidio",
+            "name": "Colidio",
+            "number": 9,
             "pos": "Ata",
             "grid": null
           }

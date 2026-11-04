@@ -11,7 +11,7 @@
       "short": "FT",
       "elapsed": 90
     },
-    "timerStart": "2026-11-04T00:34:56.011Z",
+    "timerStart": "2026-11-04T03:13:44.342Z",
     "timerStatus": "PAUSADO"
   },
   "league": {
@@ -374,6 +374,22 @@
       "detail": "Partida começa equilibrada e bem movimentada em Chapecó.",
       "player": {
         "name": "Partida começa equilibrada e bem movimentada em "
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 11,
+        "extra": null
+      },
+      "team": {
+        "id": 2305,
+        "name": "Mirassol"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "player": {
+        "name": "Shaylon"
       },
       "assist": null
     },
@@ -1488,22 +1504,6 @@
       "detail": "O confronto começou quente em Chapecó. Kauan Farias abriu o placar para a Chapecoense, mas o Mirassol empatou no fim do primeiro tempo com Reinaldo cobrando pênalti, após ele mesmo ter perdido uma cobrança na trave. Com 11 minutos da etapa final, Shaylon arriscou de longe e contou com uma falha do goleiro Anderson para decretar a virada dos visitantes, deixando o placar em 2 a 1.",
       "player": {
         "name": "Virada do Mirassol agita a Arena Condá"
-      },
-      "assist": null
-    },
-    {
-      "time": {
-        "elapsed": 56,
-        "extra": null
-      },
-      "team": {
-        "id": 315,
-        "name": "Chapecoense"
-      },
-      "type": "Goal",
-      "detail": "Own Goal",
-      "player": {
-        "name": "Anderson"
       },
       "assist": null
     },
@@ -2707,7 +2707,7 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 7
+          "value": 6
         },
         {
           "type": "Tackles",

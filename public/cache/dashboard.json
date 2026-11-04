@@ -16763,7 +16763,7 @@
           "short": "FT",
           "elapsed": 90
         },
-        "timerStart": "2026-11-04T00:34:56.011Z",
+        "timerStart": "2026-11-04T03:13:44.342Z",
         "timerStatus": "PAUSADO"
       },
       "league": {
@@ -16809,12 +16809,12 @@
           "city": ""
         },
         "status": {
-          "long": "2H",
-          "short": "2H",
-          "elapsed": 48
+          "long": "FT",
+          "short": "FT",
+          "elapsed": 90
         },
-        "timerStart": "2026-11-04T01:40:12.612Z",
-        "timerStatus": "INICIADO"
+        "timerStart": "2026-11-04T02:46:35.740Z",
+        "timerStatus": "PAUSADO"
       },
       "league": {
         "round": "Regular Season - 34"
@@ -16832,7 +16832,7 @@
         }
       },
       "goals": {
-        "home": 0,
+        "home": 1,
         "away": 0
       },
       "score": {
@@ -16841,8 +16841,8 @@
           "away": null
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         }
       },
       "odds": null,
@@ -19346,18 +19346,18 @@
                 "name": "Coritiba",
                 "logo": "https://s.sde.globo.com/media/organizations/2018/03/11/coritiba.svg"
               },
-              "points": 43,
-              "goalsDiff": -10,
-              "form": "DLLWD",
+              "points": 42,
+              "goalsDiff": -11,
+              "form": "DLLWL",
               "description": "Copa Sudamericana",
               "all": {
                 "played": 34,
                 "win": 11,
-                "draw": 10,
-                "lose": 13,
+                "draw": 9,
+                "lose": 14,
                 "goals": {
                   "for": 40,
-                  "against": 50
+                  "against": 51
                 }
               }
             },
@@ -19452,6 +19452,28 @@
             {
               "rank": 16,
               "team": {
+                "id": 285,
+                "name": "Internacional",
+                "logo": "https://s.sde.globo.com/media/organizations/2018/03/11/internacional.svg"
+              },
+              "points": 38,
+              "goalsDiff": -4,
+              "form": "DLWLW",
+              "description": null,
+              "all": {
+                "played": 34,
+                "win": 9,
+                "draw": 11,
+                "lose": 14,
+                "goals": {
+                  "for": 38,
+                  "against": 42
+                }
+              }
+            },
+            {
+              "rank": 17,
+              "team": {
                 "id": 284,
                 "name": "Grêmio",
                 "logo": "https://s.sde.globo.com/media/organizations/2018/03/12/gremio.svg"
@@ -19459,7 +19481,7 @@
               "points": 37,
               "goalsDiff": -7,
               "form": "DDLWW",
-              "description": null,
+              "description": "Relegation",
               "all": {
                 "played": 33,
                 "win": 9,
@@ -19472,7 +19494,7 @@
               }
             },
             {
-              "rank": 17,
+              "rank": 18,
               "team": {
                 "id": 264,
                 "name": "Corinthians",
@@ -19489,28 +19511,6 @@
                 "lose": 15,
                 "goals": {
                   "for": 36,
-                  "against": 42
-                }
-              }
-            },
-            {
-              "rank": 18,
-              "team": {
-                "id": 285,
-                "name": "Internacional",
-                "logo": "https://s.sde.globo.com/media/organizations/2018/03/11/internacional.svg"
-              },
-              "points": 36,
-              "goalsDiff": -5,
-              "form": "DLWLD",
-              "description": "Relegation",
-              "all": {
-                "played": 34,
-                "win": 8,
-                "draw": 12,
-                "lose": 14,
-                "goals": {
-                  "for": 37,
                   "against": 42
                 }
               }
@@ -20670,10 +20670,10 @@
   "budget": {
     "used": 0,
     "remaining": 100,
-    "mode": "live",
-    "liveIntervalMs": 20000
+    "mode": "idle",
+    "liveIntervalMs": 900000
   },
-  "fetchedAt": "2026-11-04T01:43:51.615Z",
+  "fetchedAt": "2026-11-04T08:06:55.066Z",
   "source": "ge-globo",
   "meta": {
     "rodada": 34,
@@ -20718,7 +20718,7 @@
       37,
       38
     ],
-    "seasonSyncedAt": "2026-11-04T01:43:44.575Z",
+    "seasonSyncedAt": "2026-11-04T08:06:46.069Z",
     "fullSeasonSync": true,
     "edicao": "Campeonato Brasileiro 2026",
     "provider": "ge.globo.com",
@@ -20730,7 +20730,7 @@
     "tvPreserved": 0,
     "tvAvailable": 364,
     "tvSource": "Onde Assistir — https://ondeassistir.com.br/dados",
-    "tvUpdatedAt": "2026-11-04T00:12:19.000000Z",
+    "tvUpdatedAt": "2026-11-04T06:14:54.870425Z",
     "fixturesCount": 380
   }
 }

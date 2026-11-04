@@ -7,12 +7,12 @@
       "city": ""
     },
     "status": {
-      "long": "2H",
-      "short": "2H",
-      "elapsed": 48
+      "long": "FT",
+      "short": "FT",
+      "elapsed": 90
     },
-    "timerStart": "2026-11-04T01:40:12.612Z",
-    "timerStatus": "INICIADO"
+    "timerStart": "2026-11-04T02:46:35.740Z",
+    "timerStatus": "PAUSADO"
   },
   "league": {
     "round": "Regular Season - 34"
@@ -30,7 +30,7 @@
     }
   },
   "goals": {
-    "home": 0,
+    "home": 1,
     "away": 0
   },
   "score": {
@@ -39,8 +39,8 @@
       "away": null
     },
     "fulltime": {
-      "home": null,
-      "away": null
+      "home": 1,
+      "away": 0
     }
   },
   "odds": null,
@@ -49,6 +49,58 @@
   ],
   "_geUrl": "https://ge.globo.com/rs/futebol/brasileirao-serie-a/jogo/03-11-2026/internacional-coritiba.ghtml",
   "events": [
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 285,
+        "name": "Internacional"
+      },
+      "type": "Important",
+      "detail": "\"Eu não gosto muito de falar de arbitragem, porque é ser humano e pode errar. Achei que o time do Inter reclamou muito, nisso ele poderia ter ido melhor. Sobre o jogo, a gente fez uma boa partida, infelizmente foi uma fatalidade o pênalti e teremos tempo para trabalhar\"",
+      "player": {
+        "name": "Jacy"
+      },
+      "assist": {
+        "name": "Fala, Jacy!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 285,
+        "name": "Internacional"
+      },
+      "type": "Important",
+      "detail": "\"Hoje era eu, qualquer pênalti seria eu e fui feliz de fazer o gol e dar a vitória. Eu sou um cara tranquilo, sei do momento que fui mal e errei e sei quando vou bem. Eu sigo trabalhando para poder ajudar o Inter. Vou continuar dando meu máximo para o Inter sair dessa situação\"",
+      "player": {
+        "name": "Alerrandro"
+      },
+      "assist": {
+        "name": "Fala, Alerrandro"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Internacional 1 x 0 Coritiba",
+      "player": {
+        "name": "Internacional 1 x 0 Coritiba"
+      },
+      "assist": null
+    },
     {
       "time": {
         "elapsed": 0,
@@ -78,6 +130,22 @@
       "detail": "Começa o jogo no Beira-Rio!",
       "player": {
         "name": "Bola rolando!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 1,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Internacional 1 x 0 Coritiba | Melhores momentos | 34ª rodada | Brasileirão 2026",
+      "player": {
+        "name": "Internacional 1 x 0 Coritiba | Melhores momentos | 34ª rodada | Brasileirão 2026"
       },
       "assist": null
     },
@@ -1051,11 +1119,61 @@
         "name": "Internacional"
       },
       "type": "Important",
+      "detail": "Josué bate escanteio na primeira trave, Inter fica com a bola e sai em contra-ataque.",
+      "player": {
+        "name": "Josué"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 47,
+        "extra": null
+      },
+      "team": {
+        "id": 285,
+        "name": "Internacional"
+      },
+      "type": "Important",
       "detail": "Breno Lopes percorre todo o corredor direito, vai até a linha de fundo, dribla o defensor do Inter e consegue escanteio.",
       "player": {
         "name": "Breno Lopes"
       },
       "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 48,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Internacional e Coritiba fazem um duelo movimentado, mas o placar segue 0 a 0 no Beira-Rio. No primeiro tempo, Matheus Bahia quase marcou de cabeça, parando em grande defesa de Pedro Morisco, e Breno Lopes teve gol anulado por impedimento para os visitantes. Agora, aos 3 minutos da etapa final, o equilíbrio continua com as duas equipes buscando inaugurar o marcador.",
+      "player": {
+        "name": "Placar zerado e chances perdidas no Beira-Rio"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 48,
+        "extra": null
+      },
+      "team": {
+        "id": 285,
+        "name": "Internacional"
+      },
+      "type": "Important",
+      "detail": "Bruno Gomes chega com espaço e em velocidade, ele tem a opção do passe dentro da área, mas demora. Ele consegue escanteio.",
+      "player": {
+        "name": "Bruno Gomes"
+      },
+      "assist": {
+        "name": "Demorou"
+      }
     },
     {
       "time": {
@@ -1107,6 +1225,22 @@
     },
     {
       "time": {
+        "elapsed": 49,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Inter cobra escanteio com Bruno Gomes e defesa do Coxa sobe para tirar de perigo. Em seguida, Breno Lopes sofre falta.",
+      "player": {
+        "name": "Inter cobra escanteio com Bruno Gomes e defesa d"
+      },
+      "assist": null
+    },
+    {
+      "time": {
         "elapsed": 50,
         "extra": null
       },
@@ -1118,6 +1252,104 @@
       "detail": "Thiago Santos perde a bola e Carbonero fica com ela. Vitinho recebe passe perto da área e Jacy aparece para desarmar.",
       "player": {
         "name": "Jacy"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 51,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Com 7 minutos do segundo tempo, Internacional e Coritiba empatam por 0 a 0 em um duelo movimentado. Na etapa inicial, Breno Lopes marcou para o Coritiba, mas o gol foi anulado por impedimento. Pelo Inter, Matheus Bahia parou em grande defesa de Pedro Morisco. Na volta do intervalo, a pressão do time da casa seguiu forte e Alerrandro quase abriu o placar em finalização defendida.",
+      "player": {
+        "name": "Equilíbrio e boas defesas mantêm o zero a zero"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 51,
+        "extra": null
+      },
+      "team": {
+        "id": 285,
+        "name": "Internacional"
+      },
+      "type": "Important",
+      "detail": "Alerrandro recebe bom passe dentro da área e chuta para o gol. Morisco faz a defesa e é escanteio.",
+      "player": {
+        "name": "Alerrandro"
+      },
+      "assist": {
+        "name": "Chega o Inter!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 51,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Após um primeiro tempo equilibrado, Internacional e Coritiba empatam sem gols no Beira-Rio. Carbonero e Josué ditaram o ritmo, enquanto Matheus Bahia parou em grande defesa de Pedro Morisco. O Coritiba ainda balançou as redes com Breno Lopes, mas o lance foi anulado por impedimento. Com 6 minutos da etapa final, a partida segue aberta e disputada.",
+      "player": {
+        "name": "Equilíbrio e gol anulado agitam o Beira-Rio"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 51,
+        "extra": null
+      },
+      "team": {
+        "id": 285,
+        "name": "Internacional"
+      },
+      "type": "Important",
+      "detail": "Aguirre toca para Vitinho dentro da área. Bola passa pelos zagueiros do Coxa, bate na coxa de Jacy e segue com o Inter.",
+      "player": {
+        "name": "Aguirre toca para Vitinho dentro da área. Bola p"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 52,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Com sete minutos da etapa final, Internacional e Coritiba vão empatando por 0 a 0 em um duelo muito movimentado. O Inter pressiona e quase abriu o placar com cabeceios perigosos de Matheus Bahia e Alerrandro, que pararam no goleiro Pedro Morisco. Do outro lado, o Coritiba assustou no primeiro tempo com um gol de Breno Lopes, que acabou anulado por impedimento. Jogo segue aberto!",
+      "player": {
+        "name": "Emocionante e sem gols no Beira-Rio"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 52,
+        "extra": null
+      },
+      "team": {
+        "id": 285,
+        "name": "Internacional"
+      },
+      "type": "Important",
+      "detail": "Bruno Gomes cobra escanteio e Alerrandro cabeceia para fora. Pressão do Inter!",
+      "player": {
+        "name": "Alerrandro"
       },
       "assist": null
     },
@@ -1166,6 +1398,1136 @@
       "detail": "Inter tenta cruzamento com Alerrandro e bola vai direto nas mãos de Morisco.",
       "player": {
         "name": "Inter tenta cruzamento com Alerrandro e bola vai"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 53,
+        "extra": null
+      },
+      "team": {
+        "id": 285,
+        "name": "Internacional"
+      },
+      "type": "Important",
+      "detail": "Mercado toca para Bruno Gomes pelo lado direito e o camisa 15 tenta o chute direto no gol. Bola vai por cima da meta.",
+      "player": {
+        "name": "Bruno Gomes"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 54,
+        "extra": null
+      },
+      "team": {
+        "id": 285,
+        "name": "Internacional"
+      },
+      "type": "Important",
+      "detail": "Vitinho carrega a bola pelo lado direito, corta e chuta. Jacy aparece bem para fazer o corte, mesmo sentido o joelho.",
+      "player": {
+        "name": "Vitinho"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 55,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Após um primeiro tempo bastante disputado, Internacional e Coritiba seguem empatados por 0 a 0 no Beira-Rio. Aos 11 minutos da etapa final, os donos da casa tentam pressionar com Alerrandro e Carbonero, mas param nas boas intervenções do goleiro Pedro Morisco. O Coxa assustou na primeira etapa com gol anulado de Breno Lopes, mantendo o confronto aberto e muito parelho até aqui.",
+      "player": {
+        "name": "Placar zerado em duelo movimentado no Beira-Rio"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 55,
+        "extra": null
+      },
+      "team": {
+        "id": 294,
+        "name": "Coritiba"
+      },
+      "type": "Important",
+      "detail": "Coxa tenta sair rápido com Breno Lopes, ele toca para Josué que aciona Sebas do lado esquerdo. Na hora do passe para Pedro Rocha, defesa do Inter corta para lateral.",
+      "player": {
+        "name": "Coxa tenta sair rápido com Breno Lopes, ele toca"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 56,
+        "extra": null
+      },
+      "team": {
+        "id": 294,
+        "name": "Coritiba"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Rodrigo Moledo"
+      },
+      "assist": {
+        "name": "Jacy"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 56,
+        "extra": null
+      },
+      "team": {
+        "id": 294,
+        "name": "Coritiba"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Nicolás Fonseca"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 56,
+        "extra": null
+      },
+      "team": {
+        "id": 294,
+        "name": "Coritiba"
+      },
+      "type": "Important",
+      "detail": "Jacy cai em campo e é atendido.",
+      "player": {
+        "name": "Jacy"
+      },
+      "assist": {
+        "name": "Será que fica?"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 58,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Com 13 minutos da segunda etapa, Internacional e Coritiba seguem empatados em 0 a 0 no Beira-Rio. O confronto é movimentado: no primeiro tempo, Matheus Bahia parou em grande defesa de Pedro Morisco, enquanto Breno Lopes teve um gol anulado por impedimento para o Coxa. O Inter voltou pressionando com Alerrandro, mas as defesas vão levando a melhor em um duelo bastante disputado.",
+      "player": {
+        "name": "Emoção e placar zerado no Beira-Rio"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 58,
+        "extra": null
+      },
+      "team": {
+        "id": 285,
+        "name": "Internacional"
+      },
+      "type": "Important",
+      "detail": "Breno Lopes arranca novamente pelo lado direito, mas a defesa do Inter leva a melhor.",
+      "player": {
+        "name": "Breno Lopes"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 60,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Aos 15 minutos do segundo tempo, o placar segue 0 a 0 no Beira-Rio. O Internacional busca mais o ataque e parou em noite inspirada do goleiro Pedro Morisco, autor de grandes defesas em finalizações de Matheus Bahia e Carbonero. O Coritiba tenta responder nos contra-ataques e chegou a balançar as redes com Breno Lopes na primeira etapa, mas o lance acabou anulado por impedimento.",
+      "player": {
+        "name": "Goleiro brilha e placar segue zerado no Beira-Rio"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 60,
+        "extra": null
+      },
+      "team": {
+        "id": 285,
+        "name": "Internacional"
+      },
+      "type": "Important",
+      "detail": "Vitinho arranca pelo lado direito, cruza para o Carbonero no lado esquerdo da área. Ele ajeita e bate para o gol. Morisco espalma!",
+      "player": {
+        "name": "Carbonero"
+      },
+      "assist": {
+        "name": "Defende, Morisco!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 62,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Bruno Gomes faz boa jogada na entrada da área, mas Aguirre faz falta em Bruno Melo no lance.",
+      "player": {
+        "name": "Bruno Gomes faz boa jogada na entrada da área, m"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 64,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Após 20 minutos do segundo tempo, Internacional e Coritiba vão empatando sem gols em um duelo muito movimentado no Beira-Rio. O grande destaque da partida é o goleiro Pedro Morisco, do Coritiba, que operou milagres em finalizações de Matheus Bahia e Carbonero. Do lado paranaense, Breno Lopes balançou as redes na etapa inicial, mas o lance foi anulado por impedimento.",
+      "player": {
+        "name": "Pedro Morisco brilha e segura o zero a zero"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 64,
+        "extra": null
+      },
+      "team": {
+        "id": 285,
+        "name": "Internacional"
+      },
+      "type": "Important",
+      "detail": "Inter recupera, Carbonero toca para Vitinho na área, ele cruza de volta para o camisa 7, mas a bola passa em frente ao gol e vai pela linha de fundo.",
+      "player": {
+        "name": "Vitinho"
+      },
+      "assist": {
+        "name": "Pela linha de fundo!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 66,
+        "extra": null
+      },
+      "team": {
+        "id": 285,
+        "name": "Internacional"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Bernabei"
+      },
+      "assist": {
+        "name": "Matheus Bahia"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 66,
+        "extra": null
+      },
+      "team": {
+        "id": 285,
+        "name": "Internacional"
+      },
+      "type": "Important",
+      "detail": "Aguirre cruza no meio da área, Juninho fica com ela, vai até o lado esquerdo e tenta cruzar. Defesa do Coxa tira, mas acaba devolvendo para o Inter no chutão.",
+      "player": {
+        "name": "Aguirre cruza no meio da área, Juninho fica com "
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 67,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Com 23 minutos do segundo tempo, Internacional e Coritiba vão empatando sem gols em um duelo muito movimentado. O time gaúcho pressiona mais e já exigiu grandes defesas do goleiro Pedro Morisco, principalmente em finalizações de Matheus Bahia e Carbonero. O Coxa assustou com Breno Lopes, que teve gol anulado na etapa inicial. Jogo aberto e de muita entrega física de ambos os lados.",
+      "player": {
+        "name": "Placar zerado e goleiros brilhando no Beira-Rio"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 67,
+        "extra": null
+      },
+      "team": {
+        "id": 294,
+        "name": "Coritiba"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Lavega"
+      },
+      "assist": {
+        "name": "Breno Lopes"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 68,
+        "extra": null
+      },
+      "team": {
+        "id": 294,
+        "name": "Coritiba"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Bustos"
+      },
+      "assist": {
+        "name": "Pedro Rocha"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 68,
+        "extra": null
+      },
+      "team": {
+        "id": 294,
+        "name": "Coritiba"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Vini Paulista"
+      },
+      "assist": {
+        "name": "Nicolás Fonseca"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 71,
+        "extra": null
+      },
+      "team": {
+        "id": 294,
+        "name": "Coritiba"
+      },
+      "type": "Important",
+      "detail": "Aos 26 minutos da etapa final, o placar segue zerado no Beira-Rio, mas não por falta de emoção. O goleiro Pedro Morisco se destaca como o grande nome do Coritiba, salvando finalizações perigosas de Matheus Bahia, Alerrandro e Carbonero. O Coxa chegou a balançar as redes com Breno Lopes no primeiro tempo, mas o gol foi anulado por impedimento. O duelo segue aberto e eletrizante.",
+      "player": {
+        "name": "Morisco brilha e segura o zero no Beira-Rio"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 71,
+        "extra": null
+      },
+      "team": {
+        "id": 285,
+        "name": "Internacional"
+      },
+      "type": "Important",
+      "detail": "Carbonero fica com a bola no meio de campo e toca para Vitinho na entrada da área pelo lado direito. O camisa 28 não encontra espaço e acaba caindo. No lance seguinte. Bruno Gomes faz a falta em Lavega.",
+      "player": {
+        "name": "Sem espaço"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 73,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Com quase 30 minutos do segundo tempo, Internacional e Coritiba vão empatando sem gols no Beira-Rio. A partida é movimentada, com chances para os dois lados. O Coxa chegou a balançar as redes com Breno Lopes na etapa inicial, mas o lance foi anulado por impedimento. Do lado do Inter, Carbonero e Matheus Bahia pararam em grandes defesas do goleiro Pedro Morisco, o grande destaque até aqui.",
+      "player": {
+        "name": "Goleiros brilham e mantêm o zero no Beira-Rio"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 73,
+        "extra": null
+      },
+      "team": {
+        "id": 294,
+        "name": "Coritiba"
+      },
+      "type": "Important",
+      "detail": "Carbonero faz boa jogada pelo lado esquerdo e chuta da entrada da área. Morisco se estica todo para espalmar.",
+      "player": {
+        "name": "Pedro Morisco"
+      },
+      "assist": {
+        "name": "Espalma, Morisco!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 73,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Passados 28 minutos da etapa final, Internacional e Coritiba vão empatando sem gols em um duelo muito movimentado no Beira-Rio. O Colorado pressiona mais e já exigiu grandes intervenções do goleiro Pedro Morisco, especialmente em tentativas de Matheus Bahia e Carbonero. O Coxa assusta em contragolpes e chegou a balançar as redes com Breno Lopes, mas o lance foi anulado por impedimento.",
+      "player": {
+        "name": "Goleiros brilham e placar segue zerado no Sul"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 73,
+        "extra": null
+      },
+      "team": {
+        "id": 294,
+        "name": "Coritiba"
+      },
+      "type": "Important",
+      "detail": "Thiago Santos arranca no meio de campo e faz o passe na entrada da área para Vini Paulista. Kauan Jesus sai na hora certa para ficar com a bola.",
+      "player": {
+        "name": "Thiago Santos"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 75,
+        "extra": null
+      },
+      "team": {
+        "id": 285,
+        "name": "Internacional"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Bruno Henrique"
+      },
+      "assist": {
+        "name": "Thiago Maia"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 75,
+        "extra": null
+      },
+      "team": {
+        "id": 285,
+        "name": "Internacional"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Calebe"
+      },
+      "assist": {
+        "name": "Aguirre"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 75,
+        "extra": null
+      },
+      "team": {
+        "id": 294,
+        "name": "Coritiba"
+      },
+      "type": "Important",
+      "detail": "Na cobrança de escanteio, Mercado faz a falta em Tiago Cóser e Coxa fica com a posse.",
+      "player": {
+        "name": "Mercado"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 75,
+        "extra": null
+      },
+      "team": {
+        "id": 285,
+        "name": "Internacional"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Mercado"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 76,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Passados 31 minutos da etapa final, Internacional e Coritiba seguem no zero a zero. O grande herói do confronto é o goleiro Pedro Morisco, que salvou o Coxa com defesas difíceis em chutes de Alerrandro e Carbonero. O time paranaense chegou a marcar com Breno Lopes, mas o gol foi anulado, e os donos da casa pressionam bastante em busca da vitória neste segundo tempo.",
+      "player": {
+        "name": "Morisco brilha e mantém o placar zerado"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 76,
+        "extra": null
+      },
+      "team": {
+        "id": 285,
+        "name": "Internacional"
+      },
+      "type": "Important",
+      "detail": "Lavega sai no contra-ataque, percorre o corredor esquerdo e cruza na área. Defesa do Inter corta.",
+      "player": {
+        "name": "Lavega"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 78,
+        "extra": null
+      },
+      "team": {
+        "id": 285,
+        "name": "Internacional"
+      },
+      "type": "Important",
+      "detail": "Villagra lança bola para Carbonero, que aparece pelo lado direito, mas a bola vai muito longa direto pela linha de fundo.",
+      "player": {
+        "name": "Villagra lança bola para Carbonero, que aparece "
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 80,
+        "extra": null
+      },
+      "team": {
+        "id": 294,
+        "name": "Coritiba"
+      },
+      "type": "Important",
+      "detail": "Pedro Morisco domina a bola com a coxa, ela escapa um pouco e quase fica nos pés de Carbonero. Ele agarra em seguida para ficar com a bola.",
+      "player": {
+        "name": "Pedro Morisco"
+      },
+      "assist": {
+        "name": "Susto"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 80,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Com 35 minutos do segundo tempo, Internacional e Coritiba vão empatando sem gols em um duelo muito movimentado no Beira-Rio. O goleiro do Coxa, Pedro Morisco, é o grande nome do jogo, operando verdadeiros milagres nas finalizações de Matheus Bahia, Alerrandro e Carbonero. O Alviverde até balançou as redes com Breno Lopes na primeira etapa, mas o lance foi anulado por impedimento.",
+      "player": {
+        "name": "Morisco fecha o gol e segura o Inter no Beira-Rio"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 80,
+        "extra": null
+      },
+      "team": {
+        "id": 294,
+        "name": "Coritiba"
+      },
+      "type": "Important",
+      "detail": "Tinga levanta bola na área e Vini Paulista chuta para fora.",
+      "player": {
+        "name": "Vini Paulista"
+      },
+      "assist": {
+        "name": "Chega o Coxa"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 81,
+        "extra": null
+      },
+      "team": {
+        "id": 285,
+        "name": "Internacional"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "João Bezerra"
+      },
+      "assist": {
+        "name": "Carbonero"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 81,
+        "extra": null
+      },
+      "team": {
+        "id": 285,
+        "name": "Internacional"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Ronaldo"
+      },
+      "assist": {
+        "name": "Bruno Gomes"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 82,
+        "extra": null
+      },
+      "team": {
+        "id": 285,
+        "name": "Internacional"
+      },
+      "type": "Important",
+      "detail": "Vitinho tenta passe na entrada da área para Bezerra, mas erra e bola vai pela linha de fundo.",
+      "player": {
+        "name": "Vitinho"
+      },
+      "assist": {
+        "name": "Aí não!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 83,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Aos 39 minutos do segundo tempo, o placar ainda não saiu do zero no Beira-Rio. O Internacional toma a iniciativa e pressiona, parando em grande atuação do goleiro Pedro Morisco, que salvou finalizações perigosas de Carbonero e Matheus Bahia. O Coritiba se defende bem e chegou a balançar as redes com Breno Lopes, mas o lance foi anulado por impedimento. Jogo tenso e muito disputado.",
+      "player": {
+        "name": "Goleiro brilha e segura o zero no Beira-Rio"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 83,
+        "extra": null
+      },
+      "team": {
+        "id": 294,
+        "name": "Coritiba"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Richard"
+      },
+      "assist": {
+        "name": "Thiago Santos"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 84,
+        "extra": null
+      },
+      "team": {
+        "id": 285,
+        "name": "Internacional"
+      },
+      "type": "Important",
+      "detail": "Bruno Henrique cobra escanteio na primeira trave e Juninho e Mercado sobem para cabecear. Bola vai pelo canto esquerdo de Morisco, com perigo.",
+      "player": {
+        "name": "Bruno Henrique"
+      },
+      "assist": {
+        "name": "UHH"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 84,
+        "extra": null
+      },
+      "team": {
+        "id": 285,
+        "name": "Internacional"
+      },
+      "type": "Important",
+      "detail": "Internacional consegue escanteio pelo lado direito.",
+      "player": {
+        "name": "Internacional consegue escanteio pelo lado direi"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 87,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "A bola insiste em não entrar no Beira-Rio. Chegando aos 43 minutos do segundo tempo, o placar segue 0 a 0. O Internacional pressiona e já exigiu grandes defesas do goleiro Pedro Morisco, especialmente nos chutes de Carbonero e cabeceios de Juninho. O Coritiba assustou com gol anulado de Breno Lopes na etapa inicial, mas o duelo permanece travado com forte marcação de ambos os lados.",
+      "player": {
+        "name": "Pressão do Inter e muralha no gol mantêm o zero"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 87,
+        "extra": null
+      },
+      "team": {
+        "id": 285,
+        "name": "Internacional"
+      },
+      "type": "Important",
+      "detail": "Bruno Henrique cobra escanteio e Juninho sobe mais alto que Moledo para cabecear. Bola vai por cima do gol, muito perto do travessão.",
+      "player": {
+        "name": "Juninho"
+      },
+      "assist": {
+        "name": "Que chance!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 87,
+        "extra": null
+      },
+      "team": {
+        "id": 285,
+        "name": "Internacional"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "João Bezerra"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 87,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Aos 42 minutos do segundo tempo, o placar segue 0 a 0 no Beira-Rio, mas não por falta de tentativa. O Coritiba teve um gol de Breno Lopes anulado na etapa inicial, enquanto o Internacional pressionou bastante na segunda metade. Os goleiros Pedro Morisco e Kauan Jesus se destacaram com defesas importantes, segurando a igualdade em um confronto muito movimentado e físico.",
+      "player": {
+        "name": "Goleiros brilham e mantêm o placar zerado"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 87,
+        "extra": null
+      },
+      "team": {
+        "id": 285,
+        "name": "Internacional"
+      },
+      "type": "Important",
+      "detail": "Vitinho vai até a linha de fundo, cruza e Bruno Melo tira para escanteio.",
+      "player": {
+        "name": "Vitinho"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 88,
+        "extra": null
+      },
+      "team": {
+        "id": 285,
+        "name": "Internacional"
+      },
+      "type": "Important",
+      "detail": "Vitinho carrega bola na intermediária, tenta o chuta de fora da área e bola vai para fora.",
+      "player": {
+        "name": "Vitinho"
+      },
+      "assist": {
+        "name": "Longe"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 89,
+        "extra": null
+      },
+      "team": {
+        "id": 285,
+        "name": "Internacional"
+      },
+      "type": "Important",
+      "detail": "Inter consegue novo escanteio pelo lado direito.",
+      "player": {
+        "name": "Que pressão!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 90,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Aos 45 minutos da etapa final, o placar segue em zero no Beira-Rio, mas não por falta de emoção. O Internacional pressiona intensamente nesta reta final com cabeceios perigosos de Juninho, exigindo muito da defesa paranaense. O goleiro do Coritiba, Pedro Morisco, é o grande destaque com defesas cruciais que vão garantindo o empate dramático até os últimos instantes.",
+      "player": {
+        "name": "Pressão do Inter e muralha do Coxa mantêm o zero"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 90,
+        "extra": null
+      },
+      "team": {
+        "id": 294,
+        "name": "Coritiba"
+      },
+      "type": "Important",
+      "detail": "Bruno Henrique cobra, Moledo corta. No rebote, Bruno Henrique cruza e novamente defesa do Coritiba tira. Juninho cai no chão.",
+      "player": {
+        "name": "Bruno Henrique cobra, Moledo corta. No rebote, B"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 92,
+        "extra": null
+      },
+      "team": {
+        "id": 285,
+        "name": "Internacional"
+      },
+      "type": "Important",
+      "detail": "Arbitragem marca pênalti de Moledo após análise no VAR.",
+      "player": {
+        "name": "É pênalti!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 93,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Após um primeiro tempo de chances para os dois lados e gol anulado do Coritiba, o Internacional dominou a etapa final. O goleiro Pedro Morisco vinha brilhando com grandes defesas nas finalizações de Carbonero e Alerrandro. Contudo, aos 48 minutos do segundo tempo, a história do jogo mudou: após consulta ao VAR, o árbitro marcou pênalti de Moledo em Juninho, inflamando o Beira-Rio.",
+      "player": {
+        "name": "Drama no Beira-Rio com pênalti nos acréscimos"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 93,
+        "extra": null
+      },
+      "team": {
+        "id": 294,
+        "name": "Coritiba"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Rodrigo Moledo"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 94,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Após um duelo de muito equilíbrio e boas chances para os dois lados, a emoção tomou conta do Beira-Rio no fim. Aos 49 minutos do segundo tempo, Alerrandro cobrou pênalti com categoria, no ângulo, para abrir o placar e deixar o Internacional em vantagem por 1 a 0 contra o Coritiba. Antes disso, o goleiro Pedro Morisco brilhava com grandes defesas para segurar a pressão colorada.",
+      "player": {
+        "name": "Pênalti no fim coloca o Inter em vantagem"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 94,
+        "extra": null
+      },
+      "team": {
+        "id": 285,
+        "name": "Internacional"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "player": {
+        "name": "Alerrandro"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 95,
+        "extra": null
+      },
+      "team": {
+        "id": 285,
+        "name": "Internacional"
+      },
+      "type": "Important",
+      "detail": "Após um duelo equilibrado e de boas defesas de Pedro Morisco, a emoção tomou conta do Beira-Rio na reta final. Aos 49 minutos do segundo tempo, Alerrandro converteu um pênalti marcado com auxílio do VAR e abriu o placar para o Internacional, garantindo o 1 a 0. Logo em seguida, aos 50 minutos, uma confusão no gramado resultou na expulsão de Maripán, deixando o clima tenso.",
+      "player": {
+        "name": "Gol de pênalti e cartão vermelho no Beira-Rio"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 95,
+        "extra": null
+      },
+      "team": {
+        "id": 285,
+        "name": "Internacional"
+      },
+      "type": "Card",
+      "detail": "Red Card",
+      "player": {
+        "name": "Maripán"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 95,
+        "extra": null
+      },
+      "team": {
+        "id": 285,
+        "name": "Internacional"
+      },
+      "type": "Important",
+      "detail": "Times iniciam confusão depois do gol do Inter.",
+      "player": {
+        "name": "Confusão"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 97,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Arbitragem já havia dado 6 minutos e dá mais 5 após o gol e a confusão. Vamos até 56 minutos!",
+      "player": {
+        "name": "Mais 5 minutos!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 97,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Jogo recomeça após confusão.",
+      "player": {
+        "name": "Jogo recomeça após confusão."
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 98,
+        "extra": null
+      },
+      "team": {
+        "id": 285,
+        "name": "Internacional"
+      },
+      "type": "Important",
+      "detail": "Após um primeiro tempo bastante equilibrado e de poucas chances claras, a segunda etapa ganhou em emoção com a pressão do Internacional. O duelo caminhava para o empate sem gols até que, aos 49 minutos do segundo tempo, Alerrandro converteu um pênalti assinalado com auxílio do VAR para fazer 1 a 0. O clima esquentou nos acréscimos com expulsão e muita confusão no Beira-Rio.",
+      "player": {
+        "name": "Drama e gol de pênalti agitam o fim no Beira-Rio"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 98,
+        "extra": null
+      },
+      "team": {
+        "id": 294,
+        "name": "Coritiba"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Bruno Melo"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 100,
+        "extra": null
+      },
+      "team": {
+        "id": 285,
+        "name": "Internacional"
+      },
+      "type": "Important",
+      "detail": "Tinga tromba com preparador do Inter na hora de cobrar lateral e nova confusão começa na área técnica.",
+      "player": {
+        "name": "Tinga"
+      },
+      "assist": {
+        "name": "Nova confusão"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 102,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Aos 57 minutos do segundo tempo, o Internacional vai vencendo o Coritiba por 1 a 0 graças ao gol de pênalti de Alerrandro, cobrado com categoria aos 49 minutos após intervenção crucial do VAR. O confronto, que foi marcado por muito equilíbrio e boas defesas de Pedro Morisco, virou um caldeirão na reta final, contando ainda com a expulsão de Maripán e muita confusão em campo.",
+      "player": {
+        "name": "Drama e gol no fim incendeiam o Beira-Rio"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 102,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Vamos até 58 minutos!",
+      "player": {
+        "name": "Mais 2 minutos"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 104,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Internacional vence o Coritiba por 1 a 0 e, momentaneamente, fica fora da zona de rebaixamento!",
+      "player": {
+        "name": "Fim de jogo!"
       },
       "assist": null
     }
@@ -1625,35 +2987,35 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "58%"
+          "value": "61%"
         },
         {
           "type": "Total Passes",
-          "value": 274
+          "value": 543
         },
         {
           "type": "Pass Accuracy",
-          "value": "77%"
+          "value": "79%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 64
+          "value": 116
         },
         {
           "type": "Total Shots",
-          "value": 5
+          "value": 17
         },
         {
           "type": "Shots on Goal",
-          "value": 2
+          "value": 6
         },
         {
           "type": "Shots off Goal",
-          "value": 2
+          "value": 8
         },
         {
           "type": "Blocked Shots",
-          "value": 1
+          "value": 3
         },
         {
           "type": "Hit Woodwork",
@@ -1661,7 +3023,7 @@
         },
         {
           "type": "Corner Kicks",
-          "value": 5
+          "value": 15
         },
         {
           "type": "Offsides",
@@ -1669,7 +3031,7 @@
         },
         {
           "type": "Penalties",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Goalkeeper Saves",
@@ -1677,19 +3039,19 @@
         },
         {
           "type": "Tackles",
-          "value": 3
+          "value": 8
         },
         {
           "type": "Fouls",
-          "value": 6
+          "value": 14
         },
         {
           "type": "Yellow Cards",
-          "value": 1
+          "value": 3
         },
         {
           "type": "Red Cards",
-          "value": 0
+          "value": 1
         }
       ]
     },
@@ -1701,23 +3063,23 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "42%"
+          "value": "39%"
         },
         {
           "type": "Total Passes",
-          "value": 188
+          "value": 314
         },
         {
           "type": "Pass Accuracy",
-          "value": "72%"
+          "value": "67%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 52
+          "value": 103
         },
         {
           "type": "Total Shots",
-          "value": 5
+          "value": 6
         },
         {
           "type": "Shots on Goal",
@@ -1725,7 +3087,7 @@
         },
         {
           "type": "Shots off Goal",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Blocked Shots",
@@ -1737,11 +3099,11 @@
         },
         {
           "type": "Corner Kicks",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Offsides",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Penalties",
@@ -1749,19 +3111,19 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 4
-        },
-        {
-          "type": "Tackles",
           "value": 10
         },
         {
+          "type": "Tackles",
+          "value": 14
+        },
+        {
           "type": "Fouls",
-          "value": 11
+          "value": 17
         },
         {
           "type": "Yellow Cards",
-          "value": 1
+          "value": 4
         },
         {
           "type": "Red Cards",

@@ -16763,7 +16763,7 @@
           "short": "FT",
           "elapsed": 90
         },
-        "timerStart": "2026-11-04T03:13:44.342Z",
+        "timerStart": "2026-11-04T10:40:08.180Z",
         "timerStatus": "PAUSADO"
       },
       "league": {
@@ -17104,7 +17104,9 @@
         }
       },
       "odds": null,
-      "tv": []
+      "tv": [
+        "Premiere"
+      ]
     },
     {
       "fixture": {
@@ -20670,10 +20672,10 @@
   "budget": {
     "used": 0,
     "remaining": 100,
-    "mode": "idle",
-    "liveIntervalMs": 900000
+    "mode": "prematch",
+    "liveIntervalMs": 120000
   },
-  "fetchedAt": "2026-11-04T08:06:55.066Z",
+  "fetchedAt": "2026-11-04T16:16:01.303Z",
   "source": "ge-globo",
   "meta": {
     "rodada": 34,
@@ -20718,7 +20720,7 @@
       37,
       38
     ],
-    "seasonSyncedAt": "2026-11-04T08:06:46.069Z",
+    "seasonSyncedAt": "2026-11-04T16:15:47.221Z",
     "fullSeasonSync": true,
     "edicao": "Campeonato Brasileiro 2026",
     "provider": "ge.globo.com",
@@ -20726,11 +20728,11 @@
     "oddsMatched": 0,
     "oddsPreserved": 318,
     "oddsAvailable": 0,
-    "tvMatched": 9,
+    "tvMatched": 10,
     "tvPreserved": 0,
     "tvAvailable": 364,
     "tvSource": "Onde Assistir — https://ondeassistir.com.br/dados",
-    "tvUpdatedAt": "2026-11-04T06:14:54.870425Z",
+    "tvUpdatedAt": "2026-11-04T16:12:19.000000Z",
     "fixturesCount": 380
   }
 }

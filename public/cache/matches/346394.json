@@ -7,12 +7,12 @@
       "city": ""
     },
     "status": {
-      "long": "NS",
-      "short": "NS",
-      "elapsed": null
+      "long": "1H",
+      "short": "1H",
+      "elapsed": 21
     },
-    "timerStart": null,
-    "timerStatus": "PAUSADO"
+    "timerStart": "2026-11-05T22:30:31.594Z",
+    "timerStatus": "INICIADO"
   },
   "league": {
     "round": "Regular Season - 34"
@@ -30,8 +30,8 @@
     }
   },
   "goals": {
-    "home": null,
-    "away": null
+    "home": 2,
+    "away": 0
   },
   "score": {
     "halftime": {
@@ -48,7 +48,384 @@
     "Premiere"
   ],
   "_geUrl": "https://ge.globo.com/sp/futebol/brasileirao-serie-a/jogo/05-11-2026/palmeiras-remo.ghtml",
-  "events": [],
+  "events": [
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Bola rolando no Nubank Parque.",
+      "player": {
+        "name": "Apita o árbitro"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 1,
+        "extra": null
+      },
+      "team": {
+        "id": 275,
+        "name": "Palmeiras"
+      },
+      "type": "Important",
+      "detail": "Bela jogada do Palmeiras pelo lado direito. Khellven toca em profundidade para Andreas Pereira, que cruza rasteiro, forte. Vitor Roque não consegue chegar para finalizar. Lance perigoso!",
+      "player": {
+        "name": "Vitor Roque"
+      },
+      "assist": {
+        "name": "Não chegou!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 2,
+        "extra": null
+      },
+      "team": {
+        "id": 275,
+        "name": "Palmeiras"
+      },
+      "type": "Important",
+      "detail": "O Palmeiras começou em ritmo acelerado e domina as ações nos primeiros três minutos. A equipe paulista já assustou com um cruzamento perigoso de Andreas Pereira para Vitor Roque. Pouco depois, o mesmo atacante bateu cruzado e quase abriu o placar, mandando rente à trave do goleiro Marcelo Rangel. O time mandante pressiona bastante em busca do primeiro gol no Nubank Parque.",
+      "player": {
+        "name": "Pressão total do Palmeiras no início de jogo"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 2,
+        "extra": null
+      },
+      "team": {
+        "id": 275,
+        "name": "Palmeiras"
+      },
+      "type": "Important",
+      "detail": "Arias toca para Vitor Roque, que bate cruzado. A bola passa perto da trave esquerda do Remo. O Palmeiras começa em ritmo alto!",
+      "player": {
+        "name": "Vitor Roque"
+      },
+      "assist": {
+        "name": "Que perigo!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 2,
+        "extra": null
+      },
+      "team": {
+        "id": 364,
+        "name": "Remo"
+      },
+      "type": "Important",
+      "detail": "Gómez tenta o lançamento para Arias dentro da área do Remo, mas o goleiro Marcelo Rangel sai bem.",
+      "player": {
+        "name": "Gómez tenta o lançamento para Arias dentro da ár"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 3,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Palmeiras começou com tudo no Nubank Parque e precisou de apenas três minutos para abrir o placar contra o Remo. Após pressionar desde o apito inicial com chegadas perigosas de Vitor Roque, o time da casa aproveitou uma roubada de bola no ataque. Andreas Pereira acionou Vitor Roque, que serviu Arias para driblar o goleiro e fazer 1 a 0, inflamando a torcida logo cedo.",
+      "player": {
+        "name": "Palmeiras pressiona e abre o placar no início"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 3,
+        "extra": null
+      },
+      "team": {
+        "id": 275,
+        "name": "Palmeiras"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "player": {
+        "name": "Arias"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 4,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Começo fulminante no Nubank Parque! Com apenas cinco minutos de jogo, o Palmeiras já abriu o placar com Arias, que driblou o goleiro após passe de Vitor Roque para fazer 1 a 0. O Remo tentou responder logo em seguida com uma finalização perigosa de Jajá, mas o goleiro Carlos Miguel espalmou para escanteio. Um início de partida intenso e com chances para os dois lados.",
+      "player": {
+        "name": "Palmeiras larga na frente em início elétrico"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 4,
+        "extra": null
+      },
+      "team": {
+        "id": 364,
+        "name": "Remo"
+      },
+      "type": "Important",
+      "detail": "Jajá recebe na entrada da área, corta para dentro e bate! Carlos Miguel espalma, e o Remo ganha escanteio!",
+      "player": {
+        "name": "Jajá"
+      },
+      "assist": {
+        "name": "A resposta!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 5,
+        "extra": null
+      },
+      "team": {
+        "id": 364,
+        "name": "Remo"
+      },
+      "type": "Important",
+      "detail": "O Remo bate escanteio na ponta esquerda, e Carlos Miguel dá um leve toque para mandar a novo escanteio.",
+      "player": {
+        "name": "O Remo bate escanteio na ponta esquerda, e Carlo"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 6,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Patrick tenta a jogada pelo lado esquerdo, e Murilo dá o carrinho, mandando para lateral.",
+      "player": {
+        "name": "Patrick tenta a jogada pelo lado esquerdo, e Mur"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 7,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Com apenas sete minutos de jogo, o Palmeiras já dita o ritmo no Nubank Parque. O time da casa começou pressionando e abriu o placar logo aos três minutos com Arias, que driblou o goleiro após passe de Vitor Roque. O Remo tentou responder imediatamente com um chute perigoso de Jajá, mas Carlos Miguel apareceu muito bem para espalmar e garantir a vitória parcial por 1 a 0.",
+      "player": {
+        "name": "Palmeiras marca cedo e dita o ritmo no começo"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 7,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Andreas Pereira ganha no meio-campo, mas na hora de fazer o passe, coloca nas costas de Arias.",
+      "player": {
+        "name": "Andreas Pereira ganha no meio-campo, mas na hora"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 10,
+        "extra": null
+      },
+      "team": {
+        "id": 364,
+        "name": "Remo"
+      },
+      "type": "Important",
+      "detail": "David Braga faz o pivô em cima de Bruno Fuchs e ganha falta para o Remo, perto da meia-lua. Chance perigosa para os visitantes.",
+      "player": {
+        "name": "David Braga faz o pivô em cima de Bruno Fuchs e "
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 10,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Com apenas dez minutos jogados, o Palmeiras dita o ritmo no Nubank Parque. O time da casa começou pressionando e abriu o placar logo aos 3 minutos, quando Arias recebeu de Vitor Roque, driblou o goleiro e empurrou para a rede. O Remo tentou responder imediatamente com Jajá finalizando de fora da área para boa defesa de Carlos Miguel, mas os mandantes seguem controlando as ações.",
+      "player": {
+        "name": "Arias coloca o Palmeiras em vantagem no começo"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 10,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Palmeiras tenta a tabela na entrada da área do Remo, mas o passe para Khellven sai com muita força. Marcelo Rangel sai do gol e fica com a bola.",
+      "player": {
+        "name": "O Palmeiras tenta a tabela na entrada da área do"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 12,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O jogo começou elétrico no Nubank Parque. Com forte pressão inicial, o Palmeiras abriu o placar logo aos 3 minutos, após Arias driblar o goleiro e balançar as redes. O Remo tentou responder rapidamente com boas chegadas de Jajá e Zé Welison, mas o goleiro Carlos Miguel garantiu a vantagem de 1 a 0 para os donos da casa com grandes defesas até os 12 minutos do primeiro tempo.",
+      "player": {
+        "name": "Palmeiras marca cedo e segura reação do Remo"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 12,
+        "extra": null
+      },
+      "team": {
+        "id": 275,
+        "name": "Palmeiras"
+      },
+      "type": "Important",
+      "detail": "Zé Welison chuta forte, e o goleiro do Palmeiras encaixa no meio do gol.",
+      "player": {
+        "name": "José Welison"
+      },
+      "assist": {
+        "name": "Carlos Miguel!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 13,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Palmeiras começou com tudo no Nubank Parque e, com apenas 13 minutos de jogo, já lidera por 2 a 0 graças ao brilho de Arias. O camisa 11 abriu o placar logo aos 3 minutos, após passe de Vitor Roque, e ampliou aos 13 escorando cruzamento de Khellven. O Remo tentou responder com Jajá e Zé Welison, mas o goleiro Carlos Miguel apareceu muito seguro para manter a boa vantagem alviverde.",
+      "player": {
+        "name": "Arias brilha e coloca o Palmeiras em vantagem"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 13,
+        "extra": null
+      },
+      "team": {
+        "id": 275,
+        "name": "Palmeiras"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "player": {
+        "name": "Arias"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 15,
+        "extra": null
+      },
+      "team": {
+        "id": 364,
+        "name": "Remo"
+      },
+      "type": "Important",
+      "detail": "Marlon Freitas é lançado na área, tenta ajeitar de cabeça, reclama de um toque na mão do zagueiro do Remo e depois cai no gramado, por receber uma bolada.",
+      "player": {
+        "name": "Marlon Freitas é lançado na área, tenta ajeitar "
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 17,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Com apenas 17 minutos de jogo, o Palmeiras vai impondo seu ritmo no Nubank Parque e já lidera por 2 a 0. O grande nome do início da partida é Arias, que balançou as redes duas vezes: primeiro aos 3 minutos, driblando o goleiro após passe de Vitor Roque, e depois aos 13, completando cruzamento rasteiro de Khellven. O Remo tentou responder com Jajá e Zé Welison, mas parou em Carlos Miguel.",
+      "player": {
+        "name": "Arias brilha e Palmeiras abre vantagem no início"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 17,
+        "extra": null
+      },
+      "team": {
+        "id": 364,
+        "name": "Remo"
+      },
+      "type": "Important",
+      "detail": "Mauricio rouba a bola na área do Remo, mas o árbitro marca falta em Marllon.",
+      "player": {
+        "name": "Mauricio rouba a bola na área do Remo, mas o árb"
+      },
+      "assist": null
+    }
+  ],
   "lineups": [
     {
       "team": {
@@ -90,18 +467,18 @@
         },
         {
           "player": {
-            "id": "alexbarboza",
-            "name": "Alexander Barboza",
-            "number": 2,
+            "id": "bruno-fuchs",
+            "name": "Bruno Fuchs",
+            "number": 3,
             "pos": "Def",
             "grid": null
           }
         },
         {
           "player": {
-            "id": "agugiay",
-            "name": "Giay",
-            "number": 4,
+            "id": "khellven",
+            "name": "Khellven",
+            "number": 12,
             "pos": "Def",
             "grid": null
           }
@@ -119,7 +496,7 @@
           "player": {
             "id": "andreaspereira",
             "name": "Andreas Pereira",
-            "number": null,
+            "number": 8,
             "pos": "Mei",
             "grid": null
           }
@@ -128,7 +505,7 @@
           "player": {
             "id": "mauriciomp",
             "name": "Maurício",
-            "number": null,
+            "number": 18,
             "pos": "Mei",
             "grid": null
           }
@@ -144,10 +521,120 @@
         },
         {
           "player": {
+            "id": "arthurgabr",
+            "name": "Arthur",
+            "number": 56,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "vitorroque",
+            "name": "Vitor Roque",
+            "number": 9,
+            "pos": "Ata",
+            "grid": null
+          }
+        }
+      ],
+      "substitutes": [
+        {
+          "player": {
+            "id": "marcelolomba",
+            "name": "Marcelo Lomba",
+            "number": 14,
+            "pos": "Gol",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "agugiay",
+            "name": "Giay",
+            "number": 4,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "alexbarboza",
+            "name": "Alexander Barboza",
+            "number": 2,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
             "id": "piquerez",
             "name": "Piquerez",
-            "number": null,
+            "number": 22,
             "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "lucasevangelista",
+            "name": "Lucas Evangelista",
+            "number": 30,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "emilianomartinezt",
+            "name": "Emiliano Martínez",
+            "number": 32,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "Larson-Torna",
+            "name": "Larson",
+            "number": 48,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "luis-pacheco",
+            "name": "Luis Pacheco",
+            "number": 50,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "felipeanderson",
+            "name": "Felipe Anderson",
+            "number": 7,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "bele",
+            "name": "Belé",
+            "number": 45,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "Fabiano",
+            "name": "Fabiano",
+            "number": 37,
+            "pos": "Ata",
             "grid": null
           }
         },
@@ -155,13 +642,12 @@
           "player": {
             "id": "joselopez",
             "name": "Flaco López",
-            "number": null,
+            "number": 42,
             "pos": "Ata",
             "grid": null
           }
         }
-      ],
-      "substitutes": []
+      ]
     },
     {
       "team": {
@@ -205,7 +691,7 @@
           "player": {
             "id": "tchamba",
             "name": "Tchamba",
-            "number": null,
+            "number": 18,
             "pos": "Def",
             "grid": null
           }
@@ -232,7 +718,7 @@
           "player": {
             "id": "picco",
             "name": "Picco",
-            "number": null,
+            "number": 14,
             "pos": "Mei",
             "grid": null
           }
@@ -250,7 +736,7 @@
           "player": {
             "id": "david_braga",
             "name": "David Braga",
-            "number": null,
+            "number": 26,
             "pos": "Ata",
             "grid": null
           }
@@ -259,7 +745,7 @@
           "player": {
             "id": "gabrieltaliari",
             "name": "Gabriel Taliari",
-            "number": null,
+            "number": 19,
             "pos": "Ata",
             "grid": null
           }
@@ -274,9 +760,271 @@
           }
         }
       ],
-      "substitutes": []
+      "substitutes": [
+        {
+          "player": {
+            "id": "ygor-vinhas",
+            "name": "Ygor Vinhas",
+            "number": 94,
+            "pos": "Gol",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "ivan-quaresma",
+            "name": "Ivan",
+            "number": 97,
+            "pos": "Gol",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "matheusalexandre",
+            "name": "Matheus Alexandre",
+            "number": 2,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "zeivaldo",
+            "name": "Zé Ivaldo",
+            "number": 27,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "mayk",
+            "name": "Mayk",
+            "number": 77,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "edsonfernando",
+            "name": "Edson Fernando",
+            "number": 35,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "zericardoaraujo",
+            "name": "Zé Ricardo",
+            "number": 55,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "jaderson",
+            "name": "Jáderson",
+            "number": 10,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "vitor-bueno",
+            "name": "Vitor Bueno",
+            "number": 15,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "yagopikachu",
+            "name": "Yago Pikachu",
+            "number": 22,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "antoniogaleano",
+            "name": "Galeano",
+            "number": 21,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "eduardomelo",
+            "name": "Eduardo Melo",
+            "number": 39,
+            "pos": "Ata",
+            "grid": null
+          }
+        }
+      ]
     }
   ],
-  "statistics": [],
+  "statistics": [
+    {
+      "team": {
+        "id": 275,
+        "name": "Palmeiras"
+      },
+      "statistics": [
+        {
+          "type": "Ball Possession",
+          "value": "48%"
+        },
+        {
+          "type": "Total Passes",
+          "value": 90
+        },
+        {
+          "type": "Pass Accuracy",
+          "value": "82%"
+        },
+        {
+          "type": "Incomplete Passes",
+          "value": 16
+        },
+        {
+          "type": "Total Shots",
+          "value": 2
+        },
+        {
+          "type": "Shots on Goal",
+          "value": 2
+        },
+        {
+          "type": "Shots off Goal",
+          "value": 0
+        },
+        {
+          "type": "Blocked Shots",
+          "value": 0
+        },
+        {
+          "type": "Hit Woodwork",
+          "value": 0
+        },
+        {
+          "type": "Corner Kicks",
+          "value": 0
+        },
+        {
+          "type": "Offsides",
+          "value": 1
+        },
+        {
+          "type": "Penalties",
+          "value": 0
+        },
+        {
+          "type": "Goalkeeper Saves",
+          "value": 3
+        },
+        {
+          "type": "Tackles",
+          "value": 3
+        },
+        {
+          "type": "Fouls",
+          "value": 2
+        },
+        {
+          "type": "Yellow Cards",
+          "value": 0
+        },
+        {
+          "type": "Red Cards",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "team": {
+        "id": 364,
+        "name": "Remo"
+      },
+      "statistics": [
+        {
+          "type": "Ball Possession",
+          "value": "52%"
+        },
+        {
+          "type": "Total Passes",
+          "value": 91
+        },
+        {
+          "type": "Pass Accuracy",
+          "value": "80%"
+        },
+        {
+          "type": "Incomplete Passes",
+          "value": 18
+        },
+        {
+          "type": "Total Shots",
+          "value": 3
+        },
+        {
+          "type": "Shots on Goal",
+          "value": 2
+        },
+        {
+          "type": "Shots off Goal",
+          "value": 0
+        },
+        {
+          "type": "Blocked Shots",
+          "value": 1
+        },
+        {
+          "type": "Hit Woodwork",
+          "value": 0
+        },
+        {
+          "type": "Corner Kicks",
+          "value": 2
+        },
+        {
+          "type": "Offsides",
+          "value": 0
+        },
+        {
+          "type": "Penalties",
+          "value": 0
+        },
+        {
+          "type": "Goalkeeper Saves",
+          "value": 0
+        },
+        {
+          "type": "Tackles",
+          "value": 0
+        },
+        {
+          "type": "Fouls",
+          "value": 0
+        },
+        {
+          "type": "Yellow Cards",
+          "value": 0
+        },
+        {
+          "type": "Red Cards",
+          "value": 0
+        }
+      ]
+    }
+  ],
   "sportsFieldUrl": null
 }

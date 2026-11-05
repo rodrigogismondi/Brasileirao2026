@@ -16859,11 +16859,11 @@
           "city": ""
         },
         "status": {
-          "long": "NS",
-          "short": "NS",
-          "elapsed": null
+          "long": "FT",
+          "short": "FT",
+          "elapsed": 90
         },
-        "timerStart": "2026-11-04T21:25:45.230Z",
+        "timerStart": "2026-11-05T00:45:15.690Z",
         "timerStatus": "PAUSADO"
       },
       "league": {
@@ -16882,8 +16882,8 @@
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 3,
+        "away": 1
       },
       "score": {
         "halftime": {
@@ -16891,8 +16891,8 @@
           "away": null
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 3,
+          "away": 1
         }
       },
       "odds": null,
@@ -16909,11 +16909,11 @@
           "city": ""
         },
         "status": {
-          "long": "NS",
-          "short": "NS",
-          "elapsed": null
+          "long": "FT",
+          "short": "FT",
+          "elapsed": 90
         },
-        "timerStart": "2026-11-04T21:28:07.763Z",
+        "timerStart": "2026-11-05T00:37:44.289Z",
         "timerStatus": "PAUSADO"
       },
       "league": {
@@ -16932,8 +16932,8 @@
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 3
       },
       "score": {
         "halftime": {
@@ -16941,8 +16941,8 @@
           "away": null
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 3
         }
       },
       "odds": null,
@@ -16960,12 +16960,12 @@
           "city": ""
         },
         "status": {
-          "long": "NS",
-          "short": "NS",
-          "elapsed": null
+          "long": "2H",
+          "short": "2H",
+          "elapsed": 84
         },
-        "timerStart": null,
-        "timerStatus": "PAUSADO"
+        "timerStart": "2026-11-05T01:34:17.846Z",
+        "timerStatus": "INICIADO"
       },
       "league": {
         "round": "Regular Season - 34"
@@ -16983,8 +16983,8 @@
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 0
       },
       "score": {
         "halftime": {
@@ -17016,12 +17016,12 @@
           "city": ""
         },
         "status": {
-          "long": "NS",
-          "short": "NS",
-          "elapsed": null
+          "long": "2H",
+          "short": "2H",
+          "elapsed": 79
         },
-        "timerStart": null,
-        "timerStatus": "PAUSADO"
+        "timerStart": "2026-11-05T01:39:20.011Z",
+        "timerStatus": "INICIADO"
       },
       "league": {
         "round": "Regular Season - 34"
@@ -17039,8 +17039,8 @@
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
       "score": {
         "halftime": {
@@ -19128,18 +19128,18 @@
                 "name": "Flamengo",
                 "logo": "https://s.sde.globo.com/media/organizations/2018/04/10/Flamengo-2018.svg"
               },
-              "points": 73,
-              "goalsDiff": 40,
-              "form": "DWWWW",
+              "points": 76,
+              "goalsDiff": 42,
+              "form": "WWWWW",
               "description": "Copa Libertadores",
               "all": {
-                "played": 33,
-                "win": 22,
+                "played": 34,
+                "win": 23,
                 "draw": 7,
                 "lose": 4,
                 "goals": {
-                  "for": 68,
-                  "against": 28
+                  "for": 71,
+                  "against": 29
                 }
               }
             },
@@ -19217,17 +19217,17 @@
                 "logo": "https://s.sde.globo.com/media/organizations/2026/01/07/Athletico-PR.svg"
               },
               "points": 54,
-              "goalsDiff": 10,
-              "form": "DWLDL",
+              "goalsDiff": 8,
+              "form": "WLDLL",
               "description": "Copa Libertadores Qualifiers",
               "all": {
-                "played": 33,
+                "played": 34,
                 "win": 15,
                 "draw": 9,
-                "lose": 9,
+                "lose": 10,
                 "goals": {
-                  "for": 50,
-                  "against": 40
+                  "for": 51,
+                  "against": 43
                 }
               }
             },
@@ -19261,17 +19261,17 @@
                 "logo": "https://s.sde.globo.com/media/organizations/2018/03/10/atletico-mg.svg"
               },
               "points": 50,
-              "goalsDiff": 5,
-              "form": "DWWLL",
+              "goalsDiff": 4,
+              "form": "WWLLL",
               "description": "Copa Sudamericana",
               "all": {
-                "played": 33,
+                "played": 34,
                 "win": 14,
                 "draw": 8,
-                "lose": 11,
+                "lose": 12,
                 "goals": {
                   "for": 44,
-                  "against": 39
+                  "against": 40
                 }
               }
             },
@@ -19326,14 +19326,14 @@
                 "name": "São Paulo",
                 "logo": "https://s.sde.globo.com/media/organizations/2018/03/11/sao-paulo.svg"
               },
-              "points": 43,
+              "points": 44,
               "goalsDiff": 0,
-              "form": "LWWDL",
+              "form": "WWDLD",
               "description": "Copa Sudamericana",
               "all": {
-                "played": 33,
+                "played": 34,
                 "win": 12,
-                "draw": 7,
+                "draw": 8,
                 "lose": 14,
                 "goals": {
                   "for": 39,
@@ -19344,6 +19344,28 @@
             {
               "rank": 11,
               "team": {
+                "id": 263,
+                "name": "Botafogo",
+                "logo": "https://s.sde.globo.com/media/organizations/2019/02/04/botafogo-svg.svg"
+              },
+              "points": 42,
+              "goalsDiff": -7,
+              "form": "DWLLW",
+              "description": "Copa Sudamericana",
+              "all": {
+                "played": 34,
+                "win": 11,
+                "draw": 9,
+                "lose": 14,
+                "goals": {
+                  "for": 46,
+                  "against": 53
+                }
+              }
+            },
+            {
+              "rank": 12,
+              "team": {
                 "id": 294,
                 "name": "Coritiba",
                 "logo": "https://s.sde.globo.com/media/organizations/2018/03/11/coritiba.svg"
@@ -19351,7 +19373,7 @@
               "points": 42,
               "goalsDiff": -11,
               "form": "DLLWL",
-              "description": "Copa Sudamericana",
+              "description": null,
               "all": {
                 "played": 34,
                 "win": 11,
@@ -19364,7 +19386,29 @@
               }
             },
             {
-              "rank": 12,
+              "rank": 13,
+              "team": {
+                "id": 267,
+                "name": "Vasco",
+                "logo": "https://s.sde.globo.com/media/organizations/2021/09/04/vasco_SVG.svg"
+              },
+              "points": 41,
+              "goalsDiff": -7,
+              "form": "DLWLW",
+              "description": null,
+              "all": {
+                "played": 33,
+                "win": 11,
+                "draw": 8,
+                "lose": 14,
+                "goals": {
+                  "for": 43,
+                  "against": 50
+                }
+              }
+            },
+            {
+              "rank": 14,
               "team": {
                 "id": 2305,
                 "name": "Mirassol",
@@ -19382,50 +19426,6 @@
                 "goals": {
                   "for": 39,
                   "against": 48
-                }
-              }
-            },
-            {
-              "rank": 13,
-              "team": {
-                "id": 263,
-                "name": "Botafogo",
-                "logo": "https://s.sde.globo.com/media/organizations/2019/02/04/botafogo-svg.svg"
-              },
-              "points": 39,
-              "goalsDiff": -8,
-              "form": "LDWLL",
-              "description": null,
-              "all": {
-                "played": 33,
-                "win": 10,
-                "draw": 9,
-                "lose": 14,
-                "goals": {
-                  "for": 45,
-                  "against": 53
-                }
-              }
-            },
-            {
-              "rank": 14,
-              "team": {
-                "id": 267,
-                "name": "Vasco",
-                "logo": "https://s.sde.globo.com/media/organizations/2021/09/04/vasco_SVG.svg"
-              },
-              "points": 38,
-              "goalsDiff": -9,
-              "form": "WDLWL",
-              "description": null,
-              "all": {
-                "played": 32,
-                "win": 10,
-                "draw": 8,
-                "lose": 14,
-                "goals": {
-                  "for": 40,
-                  "against": 49
                 }
               }
             },
@@ -19476,44 +19476,44 @@
             {
               "rank": 17,
               "team": {
-                "id": 284,
-                "name": "Grêmio",
-                "logo": "https://s.sde.globo.com/media/organizations/2018/03/12/gremio.svg"
+                "id": 264,
+                "name": "Corinthians",
+                "logo": "https://s.sde.globo.com/media/organizations/2024/10/09/Corinthians_2024_Q4ahot4.svg"
               },
               "points": 37,
-              "goalsDiff": -7,
-              "form": "DDLWW",
+              "goalsDiff": -6,
+              "form": "LDLWD",
               "description": "Relegation",
               "all": {
-                "played": 33,
+                "played": 34,
                 "win": 9,
                 "draw": 10,
-                "lose": 14,
+                "lose": 15,
                 "goals": {
-                  "for": 37,
-                  "against": 44
+                  "for": 36,
+                  "against": 42
                 }
               }
             },
             {
               "rank": 18,
               "team": {
-                "id": 264,
-                "name": "Corinthians",
-                "logo": "https://s.sde.globo.com/media/organizations/2024/10/09/Corinthians_2024_Q4ahot4.svg"
+                "id": 284,
+                "name": "Grêmio",
+                "logo": "https://s.sde.globo.com/media/organizations/2018/03/12/gremio.svg"
               },
-              "points": 36,
-              "goalsDiff": -6,
-              "form": "LLDLW",
+              "points": 37,
+              "goalsDiff": -9,
+              "form": "DLWWL",
               "description": "Relegation",
               "all": {
-                "played": 33,
+                "played": 34,
                 "win": 9,
-                "draw": 9,
+                "draw": 10,
                 "lose": 15,
                 "goals": {
-                  "for": 36,
-                  "against": 42
+                  "for": 38,
+                  "against": 47
                 }
               }
             },
@@ -19602,7 +19602,7 @@
             "logo": "https://s.sde.globo.com/media/organizations/2018/04/09/Flamengo-65.png"
           },
           "goals": {
-            "total": 18,
+            "total": 20,
             "assists": null
           },
           "games": {
@@ -19658,6 +19658,28 @@
     {
       "player": {
         "id": 5,
+        "name": "Samuel Lino",
+        "photo": "https://s.sde.globo.com/media/person_role/2025/07/30/photo_140x140.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "name": "Flamengo",
+            "logo": "https://s.sde.globo.com/media/organizations/2018/04/09/Flamengo-65.png"
+          },
+          "goals": {
+            "total": 12,
+            "assists": null
+          },
+          "games": {
+            "appearences": 0
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 6,
         "name": "Carlos Vinícius",
         "photo": "https://s.sde.globo.com/media/person_role/2026/02/09/photo_140x140_GTU3C2P.png"
       },
@@ -19679,7 +19701,7 @@
     },
     {
       "player": {
-        "id": 6,
+        "id": 7,
         "name": "Luciano Juba",
         "photo": "https://s.sde.globo.com/media/person_role/2026/07/06/photo_140x140_JKUCf8p.png"
       },
@@ -19688,28 +19710,6 @@
           "team": {
             "name": "Bahia",
             "logo": "https://s.sde.globo.com/media/organizations/2014/04/14/bahia_60x60.png"
-          },
-          "goals": {
-            "total": 11,
-            "assists": null
-          },
-          "games": {
-            "appearences": 0
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 7,
-        "name": "Samuel Lino",
-        "photo": "https://s.sde.globo.com/media/person_role/2025/07/30/photo_140x140.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "name": "Flamengo",
-            "logo": "https://s.sde.globo.com/media/organizations/2018/04/09/Flamengo-65.png"
           },
           "goals": {
             "total": 11,
@@ -20142,6 +20142,28 @@
     {
       "player": {
         "id": 27,
+        "name": "Mendoza",
+        "photo": "https://s.sde.globo.com/media/person_role/2026/02/02/photo_140x140_HdPEhEa.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "name": "Athletico-PR",
+            "logo": "https://s.sde.globo.com/media/organizations/2019/09/09/Athletico-PR-65x65.png"
+          },
+          "goals": {
+            "total": 6,
+            "assists": null
+          },
+          "games": {
+            "appearences": 0
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 28,
         "name": "Lucho Acosta",
         "photo": "https://s.sde.globo.com/media/person_role/2026/07/06/photo_140x140_DdPgkDh.png"
       },
@@ -20163,7 +20185,29 @@
     },
     {
       "player": {
-        "id": 28,
+        "id": 29,
+        "name": "Edenílson",
+        "photo": "https://s.sde.globo.com/media/person_role/2026/07/08/photo_140x140_Cnped9h.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "name": "Botafogo",
+            "logo": "https://s.sde.globo.com/media/organizations/2019/02/04/botafogo-65.png"
+          },
+          "goals": {
+            "total": 6,
+            "assists": null
+          },
+          "games": {
+            "appearences": 0
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 30,
         "name": "Alan Patrick",
         "photo": "https://s.sde.globo.com/media/person_role/2025/04/03/photo_140x140_sDx9vFU.png"
       },
@@ -20185,7 +20229,7 @@
     },
     {
       "player": {
-        "id": 29,
+        "id": 31,
         "name": "Savarino",
         "photo": "https://s.sde.globo.com/media/person_role/2026/07/06/photo_140x140_gmcshbG.png"
       },
@@ -20207,7 +20251,7 @@
     },
     {
       "player": {
-        "id": 30,
+        "id": 32,
         "name": "Vitor Roque",
         "photo": "https://s.sde.globo.com/media/person_role/2025/04/01/photo_140x140_UbLy5Jq.png"
       },
@@ -20229,29 +20273,7 @@
     },
     {
       "player": {
-        "id": 31,
-        "name": "Mendoza",
-        "photo": "https://s.sde.globo.com/media/person_role/2026/02/02/photo_140x140_HdPEhEa.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "name": "Athletico-PR",
-            "logo": "https://s.sde.globo.com/media/organizations/2019/09/09/Athletico-PR-65x65.png"
-          },
-          "goals": {
-            "total": 5,
-            "assists": null
-          },
-          "games": {
-            "appearences": 0
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 32,
+        "id": 33,
         "name": "Renato Kayzer",
         "photo": "https://s.sde.globo.com/media/person_role/2025/04/11/photo_140x140_xVBPNKg.png"
       },
@@ -20273,7 +20295,7 @@
     },
     {
       "player": {
-        "id": 33,
+        "id": 34,
         "name": "Alef Manga",
         "photo": "https://s.sde.globo.com/media/person_role/2026/02/09/photo_140x140_vvMsJPI.png"
       },
@@ -20282,28 +20304,6 @@
           "team": {
             "name": "Remo",
             "logo": "https://s.sde.globo.com/media/organizations/2013/10/11/REmo-65.png"
-          },
-          "goals": {
-            "total": 5,
-            "assists": null
-          },
-          "games": {
-            "appearences": 0
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 34,
-        "name": "Edenílson",
-        "photo": "https://s.sde.globo.com/media/person_role/2026/07/08/photo_140x140_Cnped9h.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "name": "Botafogo",
-            "logo": "https://s.sde.globo.com/media/organizations/2019/02/04/botafogo-65.png"
           },
           "goals": {
             "total": 5,
@@ -20672,10 +20672,10 @@
   "budget": {
     "used": 0,
     "remaining": 100,
-    "mode": "prematch",
-    "liveIntervalMs": 120000
+    "mode": "live",
+    "liveIntervalMs": 20000
   },
-  "fetchedAt": "2026-11-04T21:58:13.985Z",
+  "fetchedAt": "2026-11-05T02:13:31.621Z",
   "source": "ge-globo",
   "meta": {
     "rodada": 34,
@@ -20720,8 +20720,8 @@
       37,
       38
     ],
-    "seasonSyncedAt": "2026-11-04T16:15:47.221Z",
-    "fullSeasonSync": false,
+    "seasonSyncedAt": "2026-11-05T02:13:21.019Z",
+    "fullSeasonSync": true,
     "edicao": "Campeonato Brasileiro 2026",
     "provider": "ge.globo.com",
     "scorersCount": 50,
@@ -20732,7 +20732,7 @@
     "tvPreserved": 0,
     "tvAvailable": 364,
     "tvSource": "Onde Assistir — https://ondeassistir.com.br/dados",
-    "tvUpdatedAt": "2026-11-04T20:17:18.149263Z",
+    "tvUpdatedAt": "2026-11-05T00:16:51.509117Z",
     "fixturesCount": 380
   }
 }

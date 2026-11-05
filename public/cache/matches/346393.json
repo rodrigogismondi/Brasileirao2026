@@ -7,12 +7,12 @@
       "city": ""
     },
     "status": {
-      "long": "2H",
-      "short": "2H",
-      "elapsed": 79
+      "long": "FT",
+      "short": "FT",
+      "elapsed": 90
     },
-    "timerStart": "2026-11-05T01:39:20.011Z",
-    "timerStatus": "INICIADO"
+    "timerStart": "2026-11-05T02:38:59.896Z",
+    "timerStatus": "PAUSADO"
   },
   "league": {
     "round": "Regular Season - 34"
@@ -39,8 +39,8 @@
       "away": null
     },
     "fulltime": {
-      "home": null,
-      "away": null
+      "home": 0,
+      "away": 0
     }
   },
   "odds": null,
@@ -50,6 +50,42 @@
   ],
   "_geUrl": "https://ge.globo.com/sp/futebol/brasileirao-serie-a/jogo/04-11-2026/sao-paulo-corinthians.ghtml",
   "events": [
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 264,
+        "name": "Corinthians"
+      },
+      "type": "Important",
+      "detail": "- A gente sai hoje frustrado. Um jogador a mais, por tudo que criamos e a expectativa de ganhar esse clássico. Faltou o gol. O gramado atrapalhou a bola correr e o jogador do Corinthians tirou a bola em cima da linha. Se fosse aquele gol a história seria completamente diferente.",
+      "player": {
+        "name": "Rafael"
+      },
+      "assist": {
+        "name": "Fala, Rafael"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 264,
+        "name": "Corinthians"
+      },
+      "type": "Important",
+      "detail": "- Foi um jogo de muita disputa. São clássicos, sabíamos que teríamos que ganhar e fazer um bom jogo. Corinthians vai lutar até o final. Conquistamos um ponto e agora é pensar no Botafogo.",
+      "player": {
+        "name": "Angileri"
+      },
+      "assist": {
+        "name": "Fala, Angileri"
+      }
+    },
     {
       "time": {
         "elapsed": 0,
@@ -1138,6 +1174,22 @@
         "name": ""
       },
       "type": "Important",
+      "detail": "Iago cruza para Calleri, que cabeceia para o meio da área e Gustavo Henrique manda para escanteio.",
+      "player": {
+        "name": "Iago cruza para Calleri, que cabeceia para o mei"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 45,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
       "detail": "Debaixo de forte chuva na Vila Belmiro, São Paulo e Corinthians fazem um clássico movimentado, mas que segue empatado aos 45 minutos do primeiro tempo. Os goleiros Hugo Souza e Rafael brilharam em finalizações perigosas de Luciano e Pedro Milans. Além das chances perdidas, a etapa inicial teve a expulsão de Matheus Pereira no banco alvinegro e a saída de Garro por lesão.",
       "player": {
         "name": "Chuva, chances perdidas e placar zerado na Vila"
@@ -1821,6 +1873,500 @@
         "name": "Yuri Alberto recebe livre no campo de ataque, av"
       },
       "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 75,
+        "extra": null
+      },
+      "team": {
+        "id": 264,
+        "name": "Corinthians"
+      },
+      "type": "Important",
+      "detail": "Memphis Depay perde a posse de forma bisonha. No contra-ataque, Bobadilla lança para Pedro Lima, que deixa Hugo Souza para trás e finaliza. De forma heróica, Angileri dá um carrinho e evita o gol do Tricolor.",
+      "player": {
+        "name": "Angileri"
+      },
+      "assist": {
+        "name": "IMPRESSIONANTE"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 76,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Passados 31 minutos da etapa final, o clássico na Vila Belmiro segue empatado sem gols sob muita chuva. O duelo é tenso: o Corinthians perdeu Garro lesionado e teve gol anulado de Bidu. Do lado do São Paulo, a pressão é forte, e Hugo Souza brilha com grandes defesas. No lance mais incrível do jogo, Gustavo Henrique salvou em cima da linha o chute de Pedro Lima. Que jogo franco!",
+      "player": {
+        "name": "Chuva, gol anulado e milagre na Vila Belmiro"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 76,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Important",
+      "detail": "Ferreirinha faz linda jogada individual dentro da grande área e finaliza para uma linda defesa de Hugo Souza. É pressão total do São Paulo.",
+      "player": {
+        "name": "Hugo Souza"
+      },
+      "assist": {
+        "name": "DEFESAÇA"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 79,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O clássico na Vila Belmiro segue em um movimentado zero a zero. Embaixo de muita chuva, o duelo teve ótimas chances, com destaque para um milagre do corintiano Angileri em cima da linha e grandes defesas de Hugo Souza. Aos 34 minutos da etapa final, a tensão toma conta do estádio, pois o árbitro analisa no VAR uma possível expulsão de Yuri Alberto após falta dura em Ferreirinha.",
+      "player": {
+        "name": "Clássico tenso e sem gols tem decisão no VAR"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 79,
+        "extra": null
+      },
+      "team": {
+        "id": 264,
+        "name": "Corinthians"
+      },
+      "type": "Important",
+      "detail": "Cartão amarelo para Yuri Alberto por carrinho em Ferreirinha. O camisa 9 do Corinthians acerta as travas da chuteira na canela do atacante do São Paulo.",
+      "player": {
+        "name": "Yuri Alberto"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 81,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O duelo sem gols segue tenso na Vila Belmiro. Após um primeiro tempo sob forte chuva, o confronto esquentou na etapa complementar. O São Paulo quase marcou com Pedro Lima, mas Angileri salvou em cima da linha. Aos 36 minutos do segundo tempo, o rumo do clássico mudou: Yuri Alberto foi expulso após falta dura em Ferreirinha, deixando o Corinthians com um a menos na reta final.",
+      "player": {
+        "name": "Expulsão e emoção de sobra no clássico paulista"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 81,
+        "extra": null
+      },
+      "team": {
+        "id": 264,
+        "name": "Corinthians"
+      },
+      "type": "Card",
+      "detail": "Red Card",
+      "player": {
+        "name": "Yuri Alberto"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 82,
+        "extra": null
+      },
+      "team": {
+        "id": 264,
+        "name": "Corinthians"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "João Pedro"
+      },
+      "assist": {
+        "name": "Milans"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 83,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Important",
+      "detail": "Com um jogador a mais, o São Paulo se lança para o campo de ataque e tenta encontrar espaços na defesa do Corinthians para abrir o placar.",
+      "player": {
+        "name": "Pressão do Tricolor"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 83,
+        "extra": null
+      },
+      "team": {
+        "id": 264,
+        "name": "Corinthians"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Charles"
+      },
+      "assist": {
+        "name": "Breno Bidon"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 84,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Pedro Ferreira"
+      },
+      "assist": {
+        "name": "Bobadilla"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 84,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Important",
+      "detail": "O clássico sob forte chuva segue empatado por 0 a 0 aos 40 minutos da etapa final. Ambas as equipes criaram ótimas chances: o corintiano Bidu perdeu um gol incrível no primeiro tempo e, na segunda etapa, Angileri salvou em cima da linha o chute de Pedro Lima. Com a expulsão do atacante Yuri Alberto após o VAR, o São Paulo pressiona na reta final em busca do gol da vitória.",
+      "player": {
+        "name": "Placar zerado e muita tensão no clássico"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 84,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Gustavo Santana"
+      },
+      "assist": {
+        "name": "Luciano"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 86,
+        "extra": null
+      },
+      "team": {
+        "id": 264,
+        "name": "Corinthians"
+      },
+      "type": "Important",
+      "detail": "Pedro Lima cobra escanteio, mas a defesa do Corinthians afasta.",
+      "player": {
+        "name": "Pedro Lima cobra escanteio, mas a defesa do Cori"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 88,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Sob muita chuva na Vila Belmiro, São Paulo e Corinthians fazem um clássico de tirar o fôlego. Aos 43 minutos do segundo tempo, o placar segue 0 a 0. O duelo teve chances incríveis perdidas, milagre de Hugo Souza, gol anulado e Yuri Alberto expulso após o VAR. Com um a mais, o São Paulo pressiona na busca pelo gol salvador no fim.",
+      "player": {
+        "name": "Clássico tenso tem expulsão e placar zerado"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 88,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Ferreira"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 89,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Important",
+      "detail": "Angileri leva mais de cinco segundos para cobrar o lateral e o árbitro marca reversão. A bola é do São Paulo.",
+      "player": {
+        "name": "Angileri"
+      },
+      "assist": {
+        "name": "Que fase..."
+      }
+    },
+    {
+      "time": {
+        "elapsed": 90,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Vamos até os 50 minutos do segundo tempo.",
+      "player": {
+        "name": "+ 5"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 91,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Passando dos 45 minutos do segundo tempo, o clássico na Vila Belmiro segue empatado em 0 a 0. Sob forte chuva, o duelo teve grandes chances para os dois lados, com Hugo Souza brilhando e Angileri salvando uma bola em cima da linha. Na etapa final, a tensão subiu após a expulsão de Yuri Alberto pelo VAR, deixando o Corinthians com um a menos diante da pressão do São Paulo.",
+      "player": {
+        "name": "Expulsão e chances perdidas agitam o clássico"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 91,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Pedro Lima tenta o cruzamento e João Pedro Tchoca tira para o Corinthians. A bola volta para os defensores do São Paulo.",
+      "player": {
+        "name": "Pedro Lima tenta o cruzamento e João Pedro Tchoc"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 92,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Important",
+      "detail": "São Paulo segue no ataque.",
+      "player": {
+        "name": "São Paulo segue no ataque."
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 93,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Ferreirinha faz jogada individual e tenta o passe para Iago, mas exagera na força. A bola sai pela linha de fundo.",
+      "player": {
+        "name": "Ferreirinha faz jogada individual e tenta o pass"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 93,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Pedro Ferreira fica com a sobra fora da área, tenta o chute, mas é travado.",
+      "player": {
+        "name": "Pedro Ferreira fica com a sobra fora da área, te"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 94,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Minuto final na Vila Belmiro.",
+      "player": {
+        "name": "Minuto final na Vila Belmiro."
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 94,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Aos 49 minutos do segundo tempo, o clássico segue empatado em 0 a 0 sob forte chuva. A partida é dramática e muito movimentada, com grandes defesas de Hugo Souza e até salvamento de Angileri em cima da linha. O Corinthians joga com um a menos desde a expulsão de Yuri Alberto na etapa final, enquanto o São Paulo pressiona em busca do gol da vitória nos instantes finais do jogo.",
+      "player": {
+        "name": "Clássico tenso e sem gols caminha para o fim"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 94,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Carrillo comete falta em Iago.",
+      "player": {
+        "name": "Carrillo comete falta em Iago."
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 94,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Nos minutos finais na Vila Belmiro, o clássico segue empatado em 0 a 0. Sob forte chuva, o duelo teve grandes chances para ambos os lados, com direito a milagre de Angileri salvando o Corinthians e grande atuação do goleiro Hugo Souza. Com a expulsão de Yuri Alberto na reta final do segundo tempo, o São Paulo pressiona em busca da vitória, mas peca na pontaria neste fim de jogo dramático.",
+      "player": {
+        "name": "Clássico tenso e sem gols caminha para o fim"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 95,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Fim de jogo na Vila Belmiro.",
+      "player": {
+        "name": "Apita o árbitro"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 95,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Calleri cruza para a área, Pedro Lima cabeceia e Gustavo Henrique afasta de joelho.",
+      "player": {
+        "name": "Calleri cruza para a área, Pedro Lima cabeceia e"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 95,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Após noventa minutos de muita intensidade e debaixo de chuva na Vila Belmiro, o clássico terminou empatado em 0 a 0. O confronto foi marcado por chances perdidas de ambos os lados, com Hugo Souza brilhando no gol alvinegro e Angileri salvando em cima da linha. No segundo tempo, o Corinthians teve Yuri Alberto expulso, mas o São Paulo não conseguiu aproveitar a vantagem numérica.",
+      "player": {
+        "name": "Clássico tenso termina sem gols na Vila Belmiro"
+      },
+      "assist": null
     }
   ],
   "lineups": [
@@ -2278,35 +2824,35 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "51%"
+          "value": "56%"
         },
         {
           "type": "Total Passes",
-          "value": 286
+          "value": 440
         },
         {
           "type": "Pass Accuracy",
-          "value": "77%"
+          "value": "82%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 67
+          "value": 81
         },
         {
           "type": "Total Shots",
-          "value": 11
+          "value": 18
         },
         {
           "type": "Shots on Goal",
-          "value": 4
-        },
-        {
-          "type": "Shots off Goal",
           "value": 6
         },
         {
+          "type": "Shots off Goal",
+          "value": 7
+        },
+        {
           "type": "Blocked Shots",
-          "value": 1
+          "value": 5
         },
         {
           "type": "Hit Woodwork",
@@ -2314,7 +2860,7 @@
         },
         {
           "type": "Corner Kicks",
-          "value": 5
+          "value": 6
         },
         {
           "type": "Offsides",
@@ -2330,15 +2876,15 @@
         },
         {
           "type": "Tackles",
-          "value": 19
+          "value": 22
         },
         {
           "type": "Fouls",
-          "value": 11
+          "value": 13
         },
         {
           "type": "Yellow Cards",
-          "value": 4
+          "value": 5
         },
         {
           "type": "Red Cards",
@@ -2354,19 +2900,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "49%"
+          "value": "44%"
         },
         {
           "type": "Total Passes",
-          "value": 331
+          "value": 356
         },
         {
           "type": "Pass Accuracy",
-          "value": "79%"
+          "value": "77%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 70
+          "value": 81
         },
         {
           "type": "Total Shots",
@@ -2402,15 +2948,15 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 5
+          "value": 11
         },
         {
           "type": "Tackles",
-          "value": 9
+          "value": 12
         },
         {
           "type": "Fouls",
-          "value": 14
+          "value": 16
         },
         {
           "type": "Yellow Cards",
@@ -2418,7 +2964,7 @@
         },
         {
           "type": "Red Cards",
-          "value": 1
+          "value": 2
         }
       ]
     }

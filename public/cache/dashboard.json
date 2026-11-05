@@ -16960,12 +16960,12 @@
           "city": ""
         },
         "status": {
-          "long": "2H",
-          "short": "2H",
-          "elapsed": 84
+          "long": "FT",
+          "short": "FT",
+          "elapsed": 90
         },
-        "timerStart": "2026-11-05T01:34:17.846Z",
-        "timerStatus": "INICIADO"
+        "timerStart": "2026-11-05T02:27:34.355Z",
+        "timerStatus": "PAUSADO"
       },
       "league": {
         "round": "Regular Season - 34"
@@ -16992,8 +16992,8 @@
           "away": null
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 0
         }
       },
       "odds": {
@@ -17016,12 +17016,12 @@
           "city": ""
         },
         "status": {
-          "long": "2H",
-          "short": "2H",
-          "elapsed": 79
+          "long": "FT",
+          "short": "FT",
+          "elapsed": 90
         },
-        "timerStart": "2026-11-05T01:39:20.011Z",
-        "timerStatus": "INICIADO"
+        "timerStart": "2026-11-05T02:38:59.896Z",
+        "timerStatus": "PAUSADO"
       },
       "league": {
         "round": "Regular Season - 34"
@@ -17048,8 +17048,8 @@
           "away": null
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         }
       },
       "odds": null,
@@ -20672,10 +20672,10 @@
   "budget": {
     "used": 0,
     "remaining": 100,
-    "mode": "live",
-    "liveIntervalMs": 20000
+    "mode": "prematch",
+    "liveIntervalMs": 120000
   },
-  "fetchedAt": "2026-11-05T02:13:31.621Z",
+  "fetchedAt": "2026-11-05T09:35:50.006Z",
   "source": "ge-globo",
   "meta": {
     "rodada": 34,
@@ -20720,7 +20720,7 @@
       37,
       38
     ],
-    "seasonSyncedAt": "2026-11-05T02:13:21.019Z",
+    "seasonSyncedAt": "2026-11-05T09:35:38.534Z",
     "fullSeasonSync": true,
     "edicao": "Campeonato Brasileiro 2026",
     "provider": "ge.globo.com",
@@ -20732,7 +20732,7 @@
     "tvPreserved": 0,
     "tvAvailable": 364,
     "tvSource": "Onde Assistir — https://ondeassistir.com.br/dados",
-    "tvUpdatedAt": "2026-11-05T00:16:51.509117Z",
+    "tvUpdatedAt": "2026-11-05T04:17:32.000000Z",
     "fixturesCount": 380
   }
 }

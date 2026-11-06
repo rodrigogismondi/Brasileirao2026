@@ -19185,8 +19185,8 @@
                 "draw": 6,
                 "lose": 10,
                 "goals": {
-                  "for": 55,
-                  "against": 48
+                  "for": 54,
+                  "against": 47
                 }
               }
             },
@@ -19251,8 +19251,8 @@
                 "draw": 11,
                 "lose": 9,
                 "goals": {
-                  "for": 50,
-                  "against": 45
+                  "for": 49,
+                  "against": 44
                 }
               }
             },
@@ -20675,10 +20675,10 @@
   "budget": {
     "used": 0,
     "remaining": 100,
-    "mode": "idle",
-    "liveIntervalMs": 900000
+    "mode": "prematch",
+    "liveIntervalMs": 120000
   },
-  "fetchedAt": "2026-11-06T03:03:57.637Z",
+  "fetchedAt": "2026-11-06T10:45:42.648Z",
   "source": "ge-globo",
   "meta": {
     "rodada": 34,
@@ -20723,7 +20723,7 @@
       37,
       38
     ],
-    "seasonSyncedAt": "2026-11-06T03:03:48.719Z",
+    "seasonSyncedAt": "2026-11-06T10:45:20.607Z",
     "fullSeasonSync": true,
     "edicao": "Campeonato Brasileiro 2026",
     "provider": "ge.globo.com",
@@ -20735,7 +20735,7 @@
     "tvPreserved": 0,
     "tvAvailable": 364,
     "tvSource": "Onde Assistir — https://ondeassistir.com.br/dados",
-    "tvUpdatedAt": "2026-11-06T02:39:27.000000Z",
+    "tvUpdatedAt": "2026-11-06T10:15:24.000000Z",
     "fixturesCount": 380
   }
 }

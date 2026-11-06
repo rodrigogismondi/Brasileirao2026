@@ -16711,7 +16711,9 @@
           "long": "FT",
           "short": "FT",
           "elapsed": 90
-        }
+        },
+        "timerStart": "2026-11-03T01:09:21.113Z",
+        "timerStatus": "PAUSADO"
       },
       "league": {
         "round": "Regular Season - 34"
@@ -16760,7 +16762,9 @@
           "long": "FT",
           "short": "FT",
           "elapsed": 90
-        }
+        },
+        "timerStart": "2026-11-04T10:40:08.180Z",
+        "timerStatus": "PAUSADO"
       },
       "league": {
         "round": "Regular Season - 34"
@@ -16808,7 +16812,9 @@
           "long": "FT",
           "short": "FT",
           "elapsed": 90
-        }
+        },
+        "timerStart": "2026-11-04T02:46:35.740Z",
+        "timerStatus": "PAUSADO"
       },
       "league": {
         "round": "Regular Season - 34"
@@ -16856,7 +16862,9 @@
           "long": "FT",
           "short": "FT",
           "elapsed": 90
-        }
+        },
+        "timerStart": "2026-11-05T00:45:15.690Z",
+        "timerStatus": "PAUSADO"
       },
       "league": {
         "round": "Regular Season - 34"
@@ -16904,7 +16912,9 @@
           "long": "FT",
           "short": "FT",
           "elapsed": 90
-        }
+        },
+        "timerStart": "2026-11-05T00:37:44.289Z",
+        "timerStatus": "PAUSADO"
       },
       "league": {
         "round": "Regular Season - 34"
@@ -16953,7 +16963,9 @@
           "long": "FT",
           "short": "FT",
           "elapsed": 90
-        }
+        },
+        "timerStart": "2026-11-05T02:27:34.355Z",
+        "timerStatus": "PAUSADO"
       },
       "league": {
         "round": "Regular Season - 34"
@@ -17007,7 +17019,9 @@
           "long": "FT",
           "short": "FT",
           "elapsed": 90
-        }
+        },
+        "timerStart": "2026-11-05T02:38:59.896Z",
+        "timerStatus": "PAUSADO"
       },
       "league": {
         "round": "Regular Season - 34"
@@ -17053,12 +17067,12 @@
           "city": ""
         },
         "status": {
-          "long": "1H",
-          "short": "1H",
-          "elapsed": 21
+          "long": "FT",
+          "short": "FT",
+          "elapsed": 90
         },
-        "timerStart": "2026-11-05T22:30:31.594Z",
-        "timerStatus": "INICIADO"
+        "timerStart": "2026-11-06T00:30:11.568Z",
+        "timerStatus": "PAUSADO"
       },
       "league": {
         "round": "Regular Season - 34"
@@ -17076,8 +17090,8 @@
         }
       },
       "goals": {
-        "home": 2,
-        "away": 0
+        "home": 6,
+        "away": 1
       },
       "score": {
         "halftime": {
@@ -17085,8 +17099,8 @@
           "away": null
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 6,
+          "away": 1
         }
       },
       "odds": null,
@@ -17103,10 +17117,12 @@
           "city": ""
         },
         "status": {
-          "long": "NS",
-          "short": "NS",
-          "elapsed": null
-        }
+          "long": "FT",
+          "short": "FT",
+          "elapsed": 90
+        },
+        "timerStart": "2026-11-06T02:33:05.702Z",
+        "timerStatus": "PAUSADO"
       },
       "league": {
         "round": "Regular Season - 34"
@@ -17124,8 +17140,8 @@
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 3,
+        "away": 2
       },
       "score": {
         "halftime": {
@@ -17133,8 +17149,8 @@
           "away": null
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 3,
+          "away": 2
         }
       },
       "odds": null,
@@ -17152,7 +17168,9 @@
           "long": "NS",
           "short": "NS",
           "elapsed": null
-        }
+        },
+        "timerStart": null,
+        "timerStatus": "PAUSADO"
       },
       "league": {
         "round": "Regular Season - 34"
@@ -19136,7 +19154,7 @@
                 "logo": "https://s.sde.globo.com/media/organizations/2019/07/06/Palmeiras.svg"
               },
               "points": 73,
-              "goalsDiff": 36,
+              "goalsDiff": 39,
               "form": "WWWDW",
               "description": "Copa Libertadores",
               "all": {
@@ -19145,8 +19163,8 @@
                 "draw": 10,
                 "lose": 3,
                 "goals": {
-                  "for": 58,
-                  "against": 22
+                  "for": 62,
+                  "against": 23
                 }
               }
             },
@@ -19157,18 +19175,18 @@
                 "name": "Cruzeiro",
                 "logo": "https://s.sde.globo.com/media/organizations/2021/02/13/cruzeiro_2021.svg"
               },
-              "points": 57,
-              "goalsDiff": 6,
-              "form": "WLWWW",
+              "points": 60,
+              "goalsDiff": 7,
+              "form": "LWWWW",
               "description": "Copa Libertadores",
               "all": {
-                "played": 33,
-                "win": 17,
+                "played": 34,
+                "win": 18,
                 "draw": 6,
                 "lose": 10,
                 "goals": {
-                  "for": 52,
-                  "against": 46
+                  "for": 55,
+                  "against": 48
                 }
               }
             },
@@ -19224,17 +19242,17 @@
                 "logo": "https://s.sde.globo.com/media/organizations/2018/03/11/bahia.svg"
               },
               "points": 53,
-              "goalsDiff": 6,
-              "form": "LWLDW",
+              "goalsDiff": 5,
+              "form": "WLDWL",
               "description": "Copa Sudamericana",
               "all": {
-                "played": 33,
+                "played": 34,
                 "win": 14,
                 "draw": 11,
-                "lose": 8,
+                "lose": 9,
                 "goals": {
-                  "for": 48,
-                  "against": 42
+                  "for": 50,
+                  "against": 45
                 }
               }
             },
@@ -19510,7 +19528,7 @@
                 "logo": "https://s.sde.globo.com/media/organizations/2021/02/25/Remo-PA.svg"
               },
               "points": 29,
-              "goalsDiff": -17,
+              "goalsDiff": -20,
               "form": "DDLWL",
               "description": "Relegation",
               "all": {
@@ -19519,8 +19537,8 @@
                 "draw": 11,
                 "lose": 17,
                 "goals": {
-                  "for": 36,
-                  "against": 53
+                  "for": 37,
+                  "against": 57
                 }
               }
             },
@@ -19631,7 +19649,7 @@
             "logo": "https://s.sde.globo.com/media/organizations/2021/02/13/65_cruzeiro-2021.png"
           },
           "goals": {
-            "total": 12,
+            "total": 14,
             "assists": null
           },
           "games": {
@@ -19709,6 +19727,28 @@
     {
       "player": {
         "id": 8,
+        "name": "Flaco López",
+        "photo": "https://s.sde.globo.com/media/person_role/2026/08/19/photo_140x140_nrOfcKo.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "name": "Palmeiras",
+            "logo": "https://s.sde.globo.com/media/organizations/2014/04/14/palmeiras_60x60.png"
+          },
+          "goals": {
+            "total": 10,
+            "assists": null
+          },
+          "games": {
+            "appearences": 0
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 9,
         "name": "Danilo",
         "photo": "https://s.sde.globo.com/media/person_role/2026/07/06/photo_140x140_z4bUUy7.png"
       },
@@ -19730,7 +19770,7 @@
     },
     {
       "player": {
-        "id": 9,
+        "id": 10,
         "name": "Calleri",
         "photo": "https://s.sde.globo.com/media/person_role/2026/02/20/photo_140x140_2u6NnKV.png"
       },
@@ -19752,7 +19792,29 @@
     },
     {
       "player": {
-        "id": 10,
+        "id": 11,
+        "name": "Maurício",
+        "photo": "https://s.sde.globo.com/media/person_role/2026/08/19/photo_140x140_6MjlXVn.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "name": "Palmeiras",
+            "logo": "https://s.sde.globo.com/media/organizations/2014/04/14/palmeiras_60x60.png"
+          },
+          "goals": {
+            "total": 10,
+            "assists": null
+          },
+          "games": {
+            "appearences": 0
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 12,
         "name": "Renê",
         "photo": "https://s.sde.globo.com/media/person_role/2026/03/31/photo_140x140_3LaEnb6.png"
       },
@@ -19774,29 +19836,7 @@
     },
     {
       "player": {
-        "id": 11,
-        "name": "Flaco López",
-        "photo": "https://s.sde.globo.com/media/person_role/2026/08/19/photo_140x140_nrOfcKo.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "name": "Palmeiras",
-            "logo": "https://s.sde.globo.com/media/organizations/2014/04/14/palmeiras_60x60.png"
-          },
-          "goals": {
-            "total": 9,
-            "assists": null
-          },
-          "games": {
-            "appearences": 0
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 12,
+        "id": 13,
         "name": "Luciano",
         "photo": "https://s.sde.globo.com/media/person_role/2026/03/27/photo_140x140_Gvi1KDn.png"
       },
@@ -19805,28 +19845,6 @@
           "team": {
             "name": "São Paulo",
             "logo": "https://s.sde.globo.com/media/organizations/2014/04/14/sao_paulo_60x60.png"
-          },
-          "goals": {
-            "total": 9,
-            "assists": null
-          },
-          "games": {
-            "appearences": 0
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 13,
-        "name": "Maurício",
-        "photo": "https://s.sde.globo.com/media/person_role/2026/08/19/photo_140x140_6MjlXVn.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "name": "Palmeiras",
-            "logo": "https://s.sde.globo.com/media/organizations/2014/04/14/palmeiras_60x60.png"
           },
           "goals": {
             "total": 9,
@@ -20657,10 +20675,10 @@
   "budget": {
     "used": 0,
     "remaining": 100,
-    "mode": "live",
-    "liveIntervalMs": 20000
+    "mode": "idle",
+    "liveIntervalMs": 900000
   },
-  "fetchedAt": "2026-11-05T22:52:16.656Z",
+  "fetchedAt": "2026-11-06T03:03:57.637Z",
   "source": "ge-globo",
   "meta": {
     "rodada": 34,
@@ -20705,8 +20723,8 @@
       37,
       38
     ],
-    "seasonSyncedAt": "2026-11-05T17:38:04.059Z",
-    "fullSeasonSync": false,
+    "seasonSyncedAt": "2026-11-06T03:03:48.719Z",
+    "fullSeasonSync": true,
     "edicao": "Campeonato Brasileiro 2026",
     "provider": "ge.globo.com",
     "scorersCount": 50,
@@ -20717,7 +20735,7 @@
     "tvPreserved": 0,
     "tvAvailable": 364,
     "tvSource": "Onde Assistir — https://ondeassistir.com.br/dados",
-    "tvUpdatedAt": "2026-11-05T22:36:22.000000Z",
+    "tvUpdatedAt": "2026-11-06T02:39:27.000000Z",
     "fixturesCount": 380
   }
 }

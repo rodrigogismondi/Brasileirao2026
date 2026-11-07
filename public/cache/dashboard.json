@@ -16711,9 +16711,7 @@
           "long": "FT",
           "short": "FT",
           "elapsed": 90
-        },
-        "timerStart": "2026-11-03T01:09:21.113Z",
-        "timerStatus": "PAUSADO"
+        }
       },
       "league": {
         "round": "Regular Season - 34"
@@ -16762,9 +16760,7 @@
           "long": "FT",
           "short": "FT",
           "elapsed": 90
-        },
-        "timerStart": "2026-11-04T10:40:08.180Z",
-        "timerStatus": "PAUSADO"
+        }
       },
       "league": {
         "round": "Regular Season - 34"
@@ -16812,9 +16808,7 @@
           "long": "FT",
           "short": "FT",
           "elapsed": 90
-        },
-        "timerStart": "2026-11-04T02:46:35.740Z",
-        "timerStatus": "PAUSADO"
+        }
       },
       "league": {
         "round": "Regular Season - 34"
@@ -16862,9 +16856,7 @@
           "long": "FT",
           "short": "FT",
           "elapsed": 90
-        },
-        "timerStart": "2026-11-05T00:45:15.690Z",
-        "timerStatus": "PAUSADO"
+        }
       },
       "league": {
         "round": "Regular Season - 34"
@@ -16912,9 +16904,7 @@
           "long": "FT",
           "short": "FT",
           "elapsed": 90
-        },
-        "timerStart": "2026-11-05T00:37:44.289Z",
-        "timerStatus": "PAUSADO"
+        }
       },
       "league": {
         "round": "Regular Season - 34"
@@ -16963,9 +16953,7 @@
           "long": "FT",
           "short": "FT",
           "elapsed": 90
-        },
-        "timerStart": "2026-11-05T02:27:34.355Z",
-        "timerStatus": "PAUSADO"
+        }
       },
       "league": {
         "round": "Regular Season - 34"
@@ -17019,9 +17007,7 @@
           "long": "FT",
           "short": "FT",
           "elapsed": 90
-        },
-        "timerStart": "2026-11-05T02:38:59.896Z",
-        "timerStatus": "PAUSADO"
+        }
       },
       "league": {
         "round": "Regular Season - 34"
@@ -17070,9 +17056,7 @@
           "long": "FT",
           "short": "FT",
           "elapsed": 90
-        },
-        "timerStart": "2026-11-06T00:30:11.568Z",
-        "timerStatus": "PAUSADO"
+        }
       },
       "league": {
         "round": "Regular Season - 34"
@@ -17120,9 +17104,7 @@
           "long": "FT",
           "short": "FT",
           "elapsed": 90
-        },
-        "timerStart": "2026-11-06T02:33:05.702Z",
-        "timerStatus": "PAUSADO"
+        }
       },
       "league": {
         "round": "Regular Season - 34"
@@ -17168,9 +17150,7 @@
           "long": "FT",
           "short": "FT",
           "elapsed": 90
-        },
-        "timerStart": "2026-11-07T01:01:57.257Z",
-        "timerStatus": "PAUSADO"
+        }
       },
       "league": {
         "round": "Regular Season - 34"
@@ -17638,7 +17618,9 @@
           "long": "NS",
           "short": "NS",
           "elapsed": null
-        }
+        },
+        "timerStart": null,
+        "timerStatus": "PAUSADO"
       },
       "league": {
         "round": "Regular Season - 35"
@@ -20678,10 +20660,10 @@
     "mode": "idle",
     "liveIntervalMs": 900000
   },
-  "fetchedAt": "2026-11-07T08:55:01.767Z",
+  "fetchedAt": "2026-11-07T15:29:17.184Z",
   "source": "ge-globo",
   "meta": {
-    "rodada": 34,
+    "rodada": 35,
     "ultimaRodada": 38,
     "rounds": [
       1,
@@ -20723,7 +20705,7 @@
       37,
       38
     ],
-    "seasonSyncedAt": "2026-11-07T08:54:42.087Z",
+    "seasonSyncedAt": "2026-11-07T15:28:56.699Z",
     "fullSeasonSync": true,
     "edicao": "Campeonato Brasileiro 2026",
     "provider": "ge.globo.com",
@@ -20735,7 +20717,7 @@
     "tvPreserved": 0,
     "tvAvailable": 364,
     "tvSource": "Onde Assistir — https://ondeassistir.com.br/dados",
-    "tvUpdatedAt": "2026-11-07T08:12:55.000000Z",
+    "tvUpdatedAt": "2026-11-07T15:13:19.652564Z",
     "fixturesCount": 380
   }
 }

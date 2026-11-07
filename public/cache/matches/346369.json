@@ -10,7 +10,9 @@
       "long": "NS",
       "short": "NS",
       "elapsed": null
-    }
+    },
+    "timerStart": null,
+    "timerStatus": "PAUSADO"
   },
   "league": {
     "round": "Regular Season - 35"
@@ -43,9 +45,236 @@
   },
   "odds": null,
   "tv": [],
+  "_geUrl": "https://ge.globo.com/ba/futebol/brasileirao-serie-a/jogo/19-11-2026/vitoria-bragantino.ghtml",
   "events": [],
-  "lineups": [],
+  "lineups": [
+    {
+      "team": {
+        "id": 287,
+        "name": "Vitória",
+        "logo": "https://s.sde.globo.com/media/organizations/2025/12/18/Vitoria_2025.svg"
+      },
+      "formation": "4-3-3",
+      "coach": {
+        "name": "Jair Ventura"
+      },
+      "startXI": [
+        {
+          "player": {
+            "id": "lucasarcanjo",
+            "name": "Lucas Arcanjo",
+            "number": 1,
+            "pos": "Gol",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "emabritez",
+            "name": "Brítez",
+            "number": 2,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "caca-menezes",
+            "name": "Cacá",
+            "number": 25,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "luancandido",
+            "name": "Luan Cândido",
+            "number": null,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "jamerson-jesus",
+            "name": "Jamerson",
+            "number": null,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "caique-jesus",
+            "name": "Caíque",
+            "number": 95,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "emmanuelmartinez",
+            "name": "Emmanuel Martínez",
+            "number": 6,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "matheuzinho-martins",
+            "name": "Matheuzinho",
+            "number": null,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "erick-serafim",
+            "name": "Erick",
+            "number": 33,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "Rene",
+            "name": "Renê",
+            "number": 91,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "ditarzia",
+            "name": "Tarzia",
+            "number": 12,
+            "pos": "Ata",
+            "grid": null
+          }
+        }
+      ],
+      "substitutes": []
+    },
+    {
+      "team": {
+        "id": 280,
+        "name": "Bragantino",
+        "logo": "https://s.sde.globo.com/media/organizations/2021/06/28/bragantino.svg"
+      },
+      "formation": "4-3-3",
+      "coach": {
+        "name": "Vagner Mancini"
+      },
+      "startXI": [
+        {
+          "player": {
+            "id": "tiagovolpi",
+            "name": "Tiago Volpi",
+            "number": 18,
+            "pos": "Gol",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "ryan-augusto",
+            "name": "Ryan Augusto",
+            "number": 52,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "gustavomarquessantos",
+            "name": "Gustavo Marques",
+            "number": 16,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "guzrodriguez",
+            "name": "Guzmán Rodríguez",
+            "number": 2,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "juninhocapixaba",
+            "name": "Juninho Capixaba",
+            "number": 29,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "fabinho-freitas",
+            "name": "Fabinho",
+            "number": 5,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "ericramires",
+            "name": "Eric Ramires",
+            "number": 7,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "wallace-yan",
+            "name": "Wallace Yan",
+            "number": 47,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "joseherrerama",
+            "name": "Herrera",
+            "number": 32,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "eduardosasha",
+            "name": "Eduardo Sasha",
+            "number": 8,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "HenryDavidMosqueraSanchez",
+            "name": "Henry Mosquera",
+            "number": 30,
+            "pos": "Ata",
+            "grid": null
+          }
+        }
+      ],
+      "substitutes": []
+    }
+  ],
   "statistics": [],
-  "sportsFieldUrl": null,
-  "_geUrl": "https://ge.globo.com/ba/futebol/brasileirao-serie-a/jogo/19-11-2026/vitoria-bragantino.ghtml"
+  "sportsFieldUrl": null
 }

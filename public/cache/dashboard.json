@@ -17165,11 +17165,11 @@
           "city": ""
         },
         "status": {
-          "long": "NS",
-          "short": "NS",
-          "elapsed": null
+          "long": "FT",
+          "short": "FT",
+          "elapsed": 90
         },
-        "timerStart": null,
+        "timerStart": "2026-11-07T01:01:57.257Z",
         "timerStatus": "PAUSADO"
       },
       "league": {
@@ -17188,8 +17188,8 @@
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 3
       },
       "score": {
         "halftime": {
@@ -17197,8 +17197,8 @@
           "away": null
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 3
         }
       },
       "odds": null,
@@ -18139,6 +18139,52 @@
     },
     {
       "fixture": {
+        "id": 346280,
+        "timestamp": 1795554000,
+        "venue": {
+          "name": "Arena Condá",
+          "city": ""
+        },
+        "status": {
+          "long": "NS",
+          "short": "NS",
+          "elapsed": null
+        }
+      },
+      "league": {
+        "round": "Regular Season - 37"
+      },
+      "teams": {
+        "home": {
+          "id": 315,
+          "name": "Chapecoense",
+          "logo": "https://s.sde.globo.com/media/organizations/2021/06/21/CHAPECOENSE-2018.svg"
+        },
+        "away": {
+          "id": 275,
+          "name": "Palmeiras",
+          "logo": "https://s.sde.globo.com/media/organizations/2019/07/06/Palmeiras.svg"
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {
+        "halftime": {
+          "home": null,
+          "away": null
+        },
+        "fulltime": {
+          "home": null,
+          "away": null
+        }
+      },
+      "odds": null,
+      "tv": []
+    },
+    {
+      "fixture": {
         "id": 346306,
         "timestamp": 1795647600,
         "venue": {
@@ -18190,10 +18236,56 @@
     },
     {
       "fixture": {
-        "id": 346271,
-        "timestamp": 1795964400,
+        "id": 346273,
+        "timestamp": 1795734000,
         "venue": {
-          "name": "",
+          "name": "Morumbis",
+          "city": ""
+        },
+        "status": {
+          "long": "NS",
+          "short": "NS",
+          "elapsed": null
+        }
+      },
+      "league": {
+        "round": "Regular Season - 37"
+      },
+      "teams": {
+        "home": {
+          "id": 276,
+          "name": "São Paulo",
+          "logo": "https://s.sde.globo.com/media/organizations/2018/03/11/sao-paulo.svg"
+        },
+        "away": {
+          "id": 364,
+          "name": "Remo",
+          "logo": "https://s.sde.globo.com/media/organizations/2021/02/25/Remo-PA.svg"
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {
+        "halftime": {
+          "home": null,
+          "away": null
+        },
+        "fulltime": {
+          "home": null,
+          "away": null
+        }
+      },
+      "odds": null,
+      "tv": []
+    },
+    {
+      "fixture": {
+        "id": 346271,
+        "timestamp": 1795820400,
+        "venue": {
+          "name": "Maracanã",
           "city": ""
         },
         "status": {
@@ -18237,9 +18329,9 @@
     {
       "fixture": {
         "id": 346272,
-        "timestamp": 1795964400,
+        "timestamp": 1795910400,
         "venue": {
-          "name": "",
+          "name": "Nilton Santos (Engenhão)",
           "city": ""
         },
         "status": {
@@ -18282,240 +18374,10 @@
     },
     {
       "fixture": {
-        "id": 346273,
-        "timestamp": 1795964400,
-        "venue": {
-          "name": "",
-          "city": ""
-        },
-        "status": {
-          "long": "NS",
-          "short": "NS",
-          "elapsed": null
-        }
-      },
-      "league": {
-        "round": "Regular Season - 37"
-      },
-      "teams": {
-        "home": {
-          "id": 276,
-          "name": "São Paulo",
-          "logo": "https://s.sde.globo.com/media/organizations/2018/03/11/sao-paulo.svg"
-        },
-        "away": {
-          "id": 364,
-          "name": "Remo",
-          "logo": "https://s.sde.globo.com/media/organizations/2021/02/25/Remo-PA.svg"
-        }
-      },
-      "goals": {
-        "home": null,
-        "away": null
-      },
-      "score": {
-        "halftime": {
-          "home": null,
-          "away": null
-        },
-        "fulltime": {
-          "home": null,
-          "away": null
-        }
-      },
-      "odds": null,
-      "tv": []
-    },
-    {
-      "fixture": {
-        "id": 346274,
-        "timestamp": 1795964400,
-        "venue": {
-          "name": "",
-          "city": ""
-        },
-        "status": {
-          "long": "NS",
-          "short": "NS",
-          "elapsed": null
-        }
-      },
-      "league": {
-        "round": "Regular Season - 37"
-      },
-      "teams": {
-        "home": {
-          "id": 264,
-          "name": "Corinthians",
-          "logo": "https://s.sde.globo.com/media/organizations/2024/10/09/Corinthians_2024_Q4ahot4.svg"
-        },
-        "away": {
-          "id": 284,
-          "name": "Grêmio",
-          "logo": "https://s.sde.globo.com/media/organizations/2018/03/12/gremio.svg"
-        }
-      },
-      "goals": {
-        "home": null,
-        "away": null
-      },
-      "score": {
-        "halftime": {
-          "home": null,
-          "away": null
-        },
-        "fulltime": {
-          "home": null,
-          "away": null
-        }
-      },
-      "odds": null,
-      "tv": []
-    },
-    {
-      "fixture": {
-        "id": 346275,
-        "timestamp": 1795964400,
-        "venue": {
-          "name": "",
-          "city": ""
-        },
-        "status": {
-          "long": "NS",
-          "short": "NS",
-          "elapsed": null
-        }
-      },
-      "league": {
-        "round": "Regular Season - 37"
-      },
-      "teams": {
-        "home": {
-          "id": 2305,
-          "name": "Mirassol",
-          "logo": "https://s.sde.globo.com/media/organizations/2026/07/17/MIrassol.svg"
-        },
-        "away": {
-          "id": 293,
-          "name": "Athletico-PR",
-          "logo": "https://s.sde.globo.com/media/organizations/2026/01/07/Athletico-PR.svg"
-        }
-      },
-      "goals": {
-        "home": null,
-        "away": null
-      },
-      "score": {
-        "halftime": {
-          "home": null,
-          "away": null
-        },
-        "fulltime": {
-          "home": null,
-          "away": null
-        }
-      },
-      "odds": null,
-      "tv": []
-    },
-    {
-      "fixture": {
-        "id": 346276,
-        "timestamp": 1795964400,
-        "venue": {
-          "name": "",
-          "city": ""
-        },
-        "status": {
-          "long": "NS",
-          "short": "NS",
-          "elapsed": null
-        }
-      },
-      "league": {
-        "round": "Regular Season - 37"
-      },
-      "teams": {
-        "home": {
-          "id": 282,
-          "name": "Atlético-MG",
-          "logo": "https://s.sde.globo.com/media/organizations/2018/03/10/atletico-mg.svg"
-        },
-        "away": {
-          "id": 267,
-          "name": "Vasco",
-          "logo": "https://s.sde.globo.com/media/organizations/2021/09/04/vasco_SVG.svg"
-        }
-      },
-      "goals": {
-        "home": null,
-        "away": null
-      },
-      "score": {
-        "halftime": {
-          "home": null,
-          "away": null
-        },
-        "fulltime": {
-          "home": null,
-          "away": null
-        }
-      },
-      "odds": null,
-      "tv": []
-    },
-    {
-      "fixture": {
-        "id": 346277,
-        "timestamp": 1795964400,
-        "venue": {
-          "name": "",
-          "city": ""
-        },
-        "status": {
-          "long": "NS",
-          "short": "NS",
-          "elapsed": null
-        }
-      },
-      "league": {
-        "round": "Regular Season - 37"
-      },
-      "teams": {
-        "home": {
-          "id": 285,
-          "name": "Internacional",
-          "logo": "https://s.sde.globo.com/media/organizations/2018/03/11/internacional.svg"
-        },
-        "away": {
-          "id": 280,
-          "name": "Bragantino",
-          "logo": "https://s.sde.globo.com/media/organizations/2021/06/28/bragantino.svg"
-        }
-      },
-      "goals": {
-        "home": null,
-        "away": null
-      },
-      "score": {
-        "halftime": {
-          "home": null,
-          "away": null
-        },
-        "fulltime": {
-          "home": null,
-          "away": null
-        }
-      },
-      "odds": null,
-      "tv": []
-    },
-    {
-      "fixture": {
         "id": 346278,
-        "timestamp": 1795964400,
+        "timestamp": 1795978800,
         "venue": {
-          "name": "",
+          "name": "Couto Pereira",
           "city": ""
         },
         "status": {
@@ -18559,9 +18421,9 @@
     {
       "fixture": {
         "id": 346279,
-        "timestamp": 1795964400,
+        "timestamp": 1795978800,
         "venue": {
-          "name": "",
+          "name": "Barradão",
           "city": ""
         },
         "status": {
@@ -18604,10 +18466,10 @@
     },
     {
       "fixture": {
-        "id": 346280,
-        "timestamp": 1795964400,
+        "id": 346274,
+        "timestamp": 1795987800,
         "venue": {
-          "name": "",
+          "name": "Neo Química Arena",
           "city": ""
         },
         "status": {
@@ -18621,14 +18483,152 @@
       },
       "teams": {
         "home": {
-          "id": 315,
-          "name": "Chapecoense",
-          "logo": "https://s.sde.globo.com/media/organizations/2021/06/21/CHAPECOENSE-2018.svg"
+          "id": 264,
+          "name": "Corinthians",
+          "logo": "https://s.sde.globo.com/media/organizations/2024/10/09/Corinthians_2024_Q4ahot4.svg"
         },
         "away": {
-          "id": 275,
-          "name": "Palmeiras",
-          "logo": "https://s.sde.globo.com/media/organizations/2019/07/06/Palmeiras.svg"
+          "id": 284,
+          "name": "Grêmio",
+          "logo": "https://s.sde.globo.com/media/organizations/2018/03/12/gremio.svg"
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {
+        "halftime": {
+          "home": null,
+          "away": null
+        },
+        "fulltime": {
+          "home": null,
+          "away": null
+        }
+      },
+      "odds": null,
+      "tv": []
+    },
+    {
+      "fixture": {
+        "id": 346275,
+        "timestamp": 1795987800,
+        "venue": {
+          "name": "Maião",
+          "city": ""
+        },
+        "status": {
+          "long": "NS",
+          "short": "NS",
+          "elapsed": null
+        }
+      },
+      "league": {
+        "round": "Regular Season - 37"
+      },
+      "teams": {
+        "home": {
+          "id": 2305,
+          "name": "Mirassol",
+          "logo": "https://s.sde.globo.com/media/organizations/2026/07/17/MIrassol.svg"
+        },
+        "away": {
+          "id": 293,
+          "name": "Athletico-PR",
+          "logo": "https://s.sde.globo.com/media/organizations/2026/01/07/Athletico-PR.svg"
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {
+        "halftime": {
+          "home": null,
+          "away": null
+        },
+        "fulltime": {
+          "home": null,
+          "away": null
+        }
+      },
+      "odds": null,
+      "tv": []
+    },
+    {
+      "fixture": {
+        "id": 346277,
+        "timestamp": 1795987800,
+        "venue": {
+          "name": "Beira-Rio",
+          "city": ""
+        },
+        "status": {
+          "long": "NS",
+          "short": "NS",
+          "elapsed": null
+        }
+      },
+      "league": {
+        "round": "Regular Season - 37"
+      },
+      "teams": {
+        "home": {
+          "id": 285,
+          "name": "Internacional",
+          "logo": "https://s.sde.globo.com/media/organizations/2018/03/11/internacional.svg"
+        },
+        "away": {
+          "id": 280,
+          "name": "Bragantino",
+          "logo": "https://s.sde.globo.com/media/organizations/2021/06/28/bragantino.svg"
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {
+        "halftime": {
+          "home": null,
+          "away": null
+        },
+        "fulltime": {
+          "home": null,
+          "away": null
+        }
+      },
+      "odds": null,
+      "tv": []
+    },
+    {
+      "fixture": {
+        "id": 346276,
+        "timestamp": 1795991400,
+        "venue": {
+          "name": "Arena MRV",
+          "city": ""
+        },
+        "status": {
+          "long": "NS",
+          "short": "NS",
+          "elapsed": null
+        }
+      },
+      "league": {
+        "round": "Regular Season - 37"
+      },
+      "teams": {
+        "home": {
+          "id": 282,
+          "name": "Atlético-MG",
+          "logo": "https://s.sde.globo.com/media/organizations/2018/03/10/atletico-mg.svg"
+        },
+        "away": {
+          "id": 267,
+          "name": "Vasco",
+          "logo": "https://s.sde.globo.com/media/organizations/2021/09/04/vasco_SVG.svg"
         }
       },
       "goals": {
@@ -18651,9 +18651,9 @@
     {
       "fixture": {
         "id": 346245,
-        "timestamp": 1796223600,
+        "timestamp": 1796257800,
         "venue": {
-          "name": "",
+          "name": "Maracanã",
           "city": ""
         },
         "status": {
@@ -18697,9 +18697,9 @@
     {
       "fixture": {
         "id": 346246,
-        "timestamp": 1796223600,
+        "timestamp": 1796257800,
         "venue": {
-          "name": "",
+          "name": "São Januário",
           "city": ""
         },
         "status": {
@@ -18743,9 +18743,9 @@
     {
       "fixture": {
         "id": 346247,
-        "timestamp": 1796223600,
+        "timestamp": 1796257800,
         "venue": {
-          "name": "",
+          "name": "Vila Belmiro",
           "city": ""
         },
         "status": {
@@ -18789,9 +18789,9 @@
     {
       "fixture": {
         "id": 346248,
-        "timestamp": 1796223600,
+        "timestamp": 1796257800,
         "venue": {
-          "name": "",
+          "name": "Nubank Parque",
           "city": ""
         },
         "status": {
@@ -18835,9 +18835,9 @@
     {
       "fixture": {
         "id": 346249,
-        "timestamp": 1796223600,
+        "timestamp": 1796257800,
         "venue": {
-          "name": "",
+          "name": "Cícero de Souza Marques",
           "city": ""
         },
         "status": {
@@ -18881,9 +18881,9 @@
     {
       "fixture": {
         "id": 346250,
-        "timestamp": 1796223600,
+        "timestamp": 1796257800,
         "venue": {
-          "name": "",
+          "name": "Mineirão",
           "city": ""
         },
         "status": {
@@ -18927,9 +18927,9 @@
     {
       "fixture": {
         "id": 346251,
-        "timestamp": 1796223600,
+        "timestamp": 1796257800,
         "venue": {
-          "name": "",
+          "name": "Arena do Grêmio",
           "city": ""
         },
         "status": {
@@ -18973,9 +18973,9 @@
     {
       "fixture": {
         "id": 346252,
-        "timestamp": 1796223600,
+        "timestamp": 1796257800,
         "venue": {
-          "name": "",
+          "name": "Arena da Baixada",
           "city": ""
         },
         "status": {
@@ -19024,9 +19024,9 @@
     {
       "fixture": {
         "id": 346253,
-        "timestamp": 1796223600,
+        "timestamp": 1796257800,
         "venue": {
-          "name": "",
+          "name": "Arena Fonte Nova",
           "city": ""
         },
         "status": {
@@ -19075,9 +19075,9 @@
     {
       "fixture": {
         "id": 346254,
-        "timestamp": 1796223600,
+        "timestamp": 1796257800,
         "venue": {
-          "name": "",
+          "name": "Mangueirão",
           "city": ""
         },
         "status": {
@@ -19185,8 +19185,8 @@
                 "draw": 6,
                 "lose": 10,
                 "goals": {
-                  "for": 54,
-                  "against": 47
+                  "for": 55,
+                  "against": 48
                 }
               }
             },
@@ -19197,17 +19197,17 @@
                 "name": "Fluminense",
                 "logo": "https://s.sde.globo.com/media/organizations/2018/03/11/fluminense.svg"
               },
-              "points": 54,
-              "goalsDiff": 10,
-              "form": "WLLLW",
+              "points": 57,
+              "goalsDiff": 13,
+              "form": "LLLWW",
               "description": "Copa Libertadores",
               "all": {
-                "played": 33,
-                "win": 15,
+                "played": 34,
+                "win": 16,
                 "draw": 9,
                 "lose": 9,
                 "goals": {
-                  "for": 52,
+                  "for": 55,
                   "against": 42
                 }
               }
@@ -19251,8 +19251,8 @@
                 "draw": 11,
                 "lose": 9,
                 "goals": {
-                  "for": 49,
-                  "against": 44
+                  "for": 50,
+                  "against": 45
                 }
               }
             },
@@ -19440,17 +19440,17 @@
                 "logo": "https://s.sde.globo.com/media/organizations/2025/12/18/Vitoria_2025.svg"
               },
               "points": 38,
-              "goalsDiff": -13,
-              "form": "WLDDL",
+              "goalsDiff": -16,
+              "form": "LDDLL",
               "description": null,
               "all": {
-                "played": 33,
+                "played": 34,
                 "win": 10,
                 "draw": 8,
-                "lose": 15,
+                "lose": 16,
                 "goals": {
                   "for": 35,
-                  "against": 48
+                  "against": 51
                 }
               }
             },
@@ -20123,6 +20123,28 @@
     {
       "player": {
         "id": 26,
+        "name": "Savarino",
+        "photo": "https://s.sde.globo.com/media/person_role/2026/07/06/photo_140x140_gmcshbG.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "name": "Fluminense",
+            "logo": "https://s.sde.globo.com/media/organizations/2014/04/14/fluminense_60x60.png"
+          },
+          "goals": {
+            "total": 7,
+            "assists": null
+          },
+          "games": {
+            "appearences": 0
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 27,
         "name": "Carrascal",
         "photo": "https://s.sde.globo.com/media/person_role/2026/05/25/photo_140x140_cMvap9e.png"
       },
@@ -20144,7 +20166,7 @@
     },
     {
       "player": {
-        "id": 27,
+        "id": 28,
         "name": "Mendoza",
         "photo": "https://s.sde.globo.com/media/person_role/2026/02/02/photo_140x140_HdPEhEa.png"
       },
@@ -20166,7 +20188,7 @@
     },
     {
       "player": {
-        "id": 28,
+        "id": 29,
         "name": "Lucho Acosta",
         "photo": "https://s.sde.globo.com/media/person_role/2026/07/06/photo_140x140_DdPgkDh.png"
       },
@@ -20188,7 +20210,7 @@
     },
     {
       "player": {
-        "id": 29,
+        "id": 30,
         "name": "Edenílson",
         "photo": "https://s.sde.globo.com/media/person_role/2026/07/08/photo_140x140_Cnped9h.png"
       },
@@ -20210,7 +20232,7 @@
     },
     {
       "player": {
-        "id": 30,
+        "id": 31,
         "name": "Alan Patrick",
         "photo": "https://s.sde.globo.com/media/person_role/2025/04/03/photo_140x140_sDx9vFU.png"
       },
@@ -20232,7 +20254,29 @@
     },
     {
       "player": {
-        "id": 31,
+        "id": 32,
+        "name": "Canobbio",
+        "photo": "https://s.sde.globo.com/media/person_role/2026/07/06/photo_140x140_AyXW0hS.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "name": "Fluminense",
+            "logo": "https://s.sde.globo.com/media/organizations/2014/04/14/fluminense_60x60.png"
+          },
+          "goals": {
+            "total": 6,
+            "assists": null
+          },
+          "games": {
+            "appearences": 0
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 33,
         "name": "Arias",
         "photo": "https://s.sde.globo.com/media/person_role/2026/08/19/photo_140x140_mdm3UM1.png"
       },
@@ -20254,9 +20298,9 @@
     },
     {
       "player": {
-        "id": 32,
-        "name": "Savarino",
-        "photo": "https://s.sde.globo.com/media/person_role/2026/07/06/photo_140x140_gmcshbG.png"
+        "id": 34,
+        "name": "Rodrigo Castillo",
+        "photo": "https://s.sde.globo.com/media/person_role/2026/07/06/photo_140x140_FuaIXQB.png"
       },
       "statistics": [
         {
@@ -20276,7 +20320,7 @@
     },
     {
       "player": {
-        "id": 33,
+        "id": 35,
         "name": "Vitor Roque",
         "photo": "https://s.sde.globo.com/media/person_role/2025/04/01/photo_140x140_UbLy5Jq.png"
       },
@@ -20298,7 +20342,7 @@
     },
     {
       "player": {
-        "id": 34,
+        "id": 36,
         "name": "Renato Kayzer",
         "photo": "https://s.sde.globo.com/media/person_role/2025/04/11/photo_140x140_xVBPNKg.png"
       },
@@ -20320,7 +20364,7 @@
     },
     {
       "player": {
-        "id": 35,
+        "id": 37,
         "name": "Alef Manga",
         "photo": "https://s.sde.globo.com/media/person_role/2026/02/09/photo_140x140_vvMsJPI.png"
       },
@@ -20342,7 +20386,7 @@
     },
     {
       "player": {
-        "id": 36,
+        "id": 38,
         "name": "Lavega",
         "photo": "https://s.sde.globo.com/media/person_role/2026/02/09/photo_140x140_LeapY03.png"
       },
@@ -20364,7 +20408,7 @@
     },
     {
       "player": {
-        "id": 37,
+        "id": 39,
         "name": "Matheuzinho",
         "photo": "https://s.sde.globo.com/media/person_role/2026/11/06/photo_140x140_p7MmBhg.png"
       },
@@ -20386,7 +20430,7 @@
     },
     {
       "player": {
-        "id": 38,
+        "id": 40,
         "name": "Matheus Bidu",
         "photo": "https://s.sde.globo.com/media/person_role/2025/04/01/photo_140x140_OSHSlSF.png"
       },
@@ -20408,29 +20452,7 @@
     },
     {
       "player": {
-        "id": 39,
-        "name": "Canobbio",
-        "photo": "https://s.sde.globo.com/media/person_role/2026/07/06/photo_140x140_AyXW0hS.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "name": "Fluminense",
-            "logo": "https://s.sde.globo.com/media/organizations/2014/04/14/fluminense_60x60.png"
-          },
-          "goals": {
-            "total": 5,
-            "assists": null
-          },
-          "games": {
-            "appearences": 0
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 40,
+        "id": 41,
         "name": "Erick",
         "photo": "https://s.sde.globo.com/media/person_role/2026/11/06/photo_140x140.png"
       },
@@ -20452,7 +20474,7 @@
     },
     {
       "player": {
-        "id": 41,
+        "id": 42,
         "name": "Christian",
         "photo": "https://s.sde.globo.com/media/person_role/2025/04/01/photo_140x140_1FOgaNC.png"
       },
@@ -20474,7 +20496,7 @@
     },
     {
       "player": {
-        "id": 42,
+        "id": 43,
         "name": "Thiago Mendes",
         "photo": "https://s.sde.globo.com/media/person_role/2026/03/02/photo_140x140.png"
       },
@@ -20483,28 +20505,6 @@
           "team": {
             "name": "Vasco",
             "logo": "https://s.sde.globo.com/media/organizations/2021/09/04/ESCUDO-VASCO-RGB_65px.png"
-          },
-          "goals": {
-            "total": 5,
-            "assists": null
-          },
-          "games": {
-            "appearences": 0
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 43,
-        "name": "Rodrigo Castillo",
-        "photo": "https://s.sde.globo.com/media/person_role/2026/07/06/photo_140x140_FuaIXQB.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "name": "Fluminense",
-            "logo": "https://s.sde.globo.com/media/organizations/2014/04/14/fluminense_60x60.png"
           },
           "goals": {
             "total": 5,
@@ -20675,10 +20675,10 @@
   "budget": {
     "used": 0,
     "remaining": 100,
-    "mode": "prematch",
-    "liveIntervalMs": 120000
+    "mode": "idle",
+    "liveIntervalMs": 900000
   },
-  "fetchedAt": "2026-11-06T22:25:41.539Z",
+  "fetchedAt": "2026-11-07T02:14:08.880Z",
   "source": "ge-globo",
   "meta": {
     "rodada": 34,
@@ -20723,8 +20723,8 @@
       37,
       38
     ],
-    "seasonSyncedAt": "2026-11-06T17:42:54.591Z",
-    "fullSeasonSync": false,
+    "seasonSyncedAt": "2026-11-07T02:13:57.382Z",
+    "fullSeasonSync": true,
     "edicao": "Campeonato Brasileiro 2026",
     "provider": "ge.globo.com",
     "scorersCount": 50,
@@ -20735,7 +20735,7 @@
     "tvPreserved": 0,
     "tvAvailable": 364,
     "tvSource": "Onde Assistir — https://ondeassistir.com.br/dados",
-    "tvUpdatedAt": "2026-11-06T22:14:44.732364Z",
+    "tvUpdatedAt": "2026-11-07T01:00:34.204293Z",
     "fixturesCount": 380
   }
 }

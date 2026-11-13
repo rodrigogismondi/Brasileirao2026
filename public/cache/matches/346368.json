@@ -10,7 +10,9 @@
       "long": "NS",
       "short": "NS",
       "elapsed": null
-    }
+    },
+    "timerStart": null,
+    "timerStatus": "PAUSADO"
   },
   "league": {
     "round": "Regular Season - 35"
@@ -43,8 +45,236 @@
   },
   "odds": null,
   "tv": [],
+  "_geUrl": "https://ge.globo.com/pr/futebol/brasileirao-serie-a/jogo/18-11-2026/coritiba-santos.ghtml",
   "events": [],
-  "lineups": [],
+  "lineups": [
+    {
+      "team": {
+        "id": 294,
+        "name": "Coritiba",
+        "logo": "https://s.sde.globo.com/media/organizations/2018/03/11/coritiba.svg"
+      },
+      "formation": "4-3-3",
+      "coach": {
+        "name": "Guilherme Bossle"
+      },
+      "startXI": [
+        {
+          "player": {
+            "id": "pedrorangel",
+            "name": "Pedro Rangel",
+            "number": 22,
+            "pos": "Gol",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "tinga03",
+            "name": "Tinga",
+            "number": 2,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "tiagocoser",
+            "name": "Tiago Cóser",
+            "number": 23,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "jacy-maranhao",
+            "name": "Jacy",
+            "number": 55,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "brunomelo",
+            "name": "Bruno Melo",
+            "number": 26,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "thiago_santos",
+            "name": "Thiago Santos",
+            "number": 21,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "sebastiangomezlon",
+            "name": "Sebastián Gómez",
+            "number": 19,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "josuefilipe",
+            "name": "Josué",
+            "number": 10,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "brenolopes",
+            "name": "Breno Lopes",
+            "number": 77,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "pedrorocha",
+            "name": "Pedro Rocha",
+            "number": 32,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "lavega",
+            "name": "Lavega",
+            "number": 7,
+            "pos": "Ata",
+            "grid": null
+          }
+        }
+      ],
+      "substitutes": []
+    },
+    {
+      "team": {
+        "id": 277,
+        "name": "Santos",
+        "logo": "https://s.sde.globo.com/media/organizations/2018/03/12/santos.svg"
+      },
+      "formation": "4-5-1",
+      "coach": {
+        "name": "Cuca"
+      },
+      "startXI": [
+        {
+          "player": {
+            "id": "diogenesvini",
+            "name": "Diógenes",
+            "number": 1,
+            "pos": "Gol",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "rodinei-m",
+            "name": "Rodinei",
+            "number": 23,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "joao-alencar-santos",
+            "name": "João Alencar",
+            "number": 42,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "luanperes",
+            "name": "Luan Peres",
+            "number": 14,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "escobardani",
+            "name": "Escobar",
+            "number": 31,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "gustavo-henrique",
+            "name": "Gustavo Henrique",
+            "number": 48,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "olivachris",
+            "name": "Oliva",
+            "number": 28,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "philippecoutinho",
+            "name": "Philippe Coutinho",
+            "number": 11,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "neymar",
+            "name": "Neymar",
+            "number": 10,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "everton0396",
+            "name": "Everton",
+            "number": 7,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "gabriel-gabigol",
+            "name": "Gabriel",
+            "number": 9,
+            "pos": "Ata",
+            "grid": null
+          }
+        }
+      ],
+      "substitutes": []
+    }
+  ],
   "statistics": [],
   "sportsFieldUrl": null
 }

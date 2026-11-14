@@ -17196,12 +17196,12 @@
           "city": ""
         },
         "status": {
-          "long": "NS",
-          "short": "NS",
-          "elapsed": null
+          "long": "2H",
+          "short": "2H",
+          "elapsed": 84
         },
-        "timerStart": null,
-        "timerStatus": "PAUSADO"
+        "timerStart": "2026-11-14T22:37:21.191Z",
+        "timerStatus": "INICIADO"
       },
       "league": {
         "round": "Regular Season - 35"
@@ -17219,8 +17219,8 @@
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
       "score": {
         "halftime": {
@@ -17247,7 +17247,9 @@
           "long": "NS",
           "short": "NS",
           "elapsed": null
-        }
+        },
+        "timerStart": "2026-11-14T22:33:36.265Z",
+        "timerStatus": "PAUSADO"
       },
       "league": {
         "round": "Regular Season - 21"
@@ -19249,14 +19251,14 @@
                 "name": "Atlético-MG",
                 "logo": "https://s.sde.globo.com/media/organizations/2018/03/10/atletico-mg.svg"
               },
-              "points": 50,
+              "points": 51,
               "goalsDiff": 4,
-              "form": "WWLLL",
+              "form": "WLLLD",
               "description": "Copa Sudamericana",
               "all": {
-                "played": 34,
+                "played": 35,
                 "win": 14,
-                "draw": 8,
+                "draw": 9,
                 "lose": 12,
                 "goals": {
                   "for": 44,
@@ -19403,14 +19405,14 @@
                 "name": "Mirassol",
                 "logo": "https://s.sde.globo.com/media/organizations/2026/07/17/MIrassol.svg"
               },
-              "points": 40,
+              "points": 41,
               "goalsDiff": -9,
-              "form": "LWDLW",
+              "form": "WDLWD",
               "description": null,
               "all": {
-                "played": 34,
+                "played": 35,
                 "win": 10,
-                "draw": 10,
+                "draw": 11,
                 "lose": 14,
                 "goals": {
                   "for": 39,
@@ -20661,10 +20663,10 @@
   "budget": {
     "used": 0,
     "remaining": 100,
-    "mode": "prematch",
-    "liveIntervalMs": 120000
+    "mode": "live",
+    "liveIntervalMs": 20000
   },
-  "fetchedAt": "2026-11-14T19:25:40.102Z",
+  "fetchedAt": "2026-11-14T23:16:48.393Z",
   "source": "ge-globo",
   "meta": {
     "rodada": 35,
@@ -20709,8 +20711,8 @@
       37,
       38
     ],
-    "seasonSyncedAt": "2026-11-14T14:28:27.164Z",
-    "fullSeasonSync": false,
+    "seasonSyncedAt": "2026-11-14T23:16:36.507Z",
+    "fullSeasonSync": true,
     "edicao": "Campeonato Brasileiro 2026",
     "provider": "ge.globo.com",
     "scorersCount": 50,
@@ -20721,7 +20723,7 @@
     "tvPreserved": 0,
     "tvAvailable": 364,
     "tvSource": "Onde Assistir — https://ondeassistir.com.br/dados",
-    "tvUpdatedAt": "2026-11-14T18:14:12.000000Z",
+    "tvUpdatedAt": "2026-11-14T22:13:05.171297Z",
     "fixturesCount": 380
   }
 }

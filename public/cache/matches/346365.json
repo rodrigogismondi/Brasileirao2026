@@ -7,12 +7,12 @@
       "city": ""
     },
     "status": {
-      "long": "2H",
-      "short": "2H",
-      "elapsed": 84
+      "long": "FT",
+      "short": "FT",
+      "elapsed": 90
     },
-    "timerStart": "2026-11-14T22:37:21.191Z",
-    "timerStatus": "INICIADO"
+    "timerStart": "2026-11-15T01:52:11.723Z",
+    "timerStatus": "PAUSADO"
   },
   "league": {
     "round": "Regular Season - 35"
@@ -39,14 +39,30 @@
       "away": null
     },
     "fulltime": {
-      "home": null,
-      "away": null
+      "home": 0,
+      "away": 0
     }
   },
   "odds": null,
   "tv": [],
   "_geUrl": "https://ge.globo.com/sp/tem-esporte/futebol/brasileirao-serie-a/jogo/14-11-2026/mirassol-atletico-mg.ghtml",
   "events": [
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Termina a partida no Maião.",
+      "player": {
+        "name": "Fim de papo"
+      },
+      "assist": null
+    },
     {
       "time": {
         "elapsed": 0,
@@ -224,6 +240,22 @@
       "detail": "Yellow Card",
       "player": {
         "name": "Neto Moura"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 7,
+        "extra": null
+      },
+      "team": {
+        "id": 282,
+        "name": "Atlético-MG"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Fred"
       },
       "assist": null
     },
@@ -1883,6 +1915,22 @@
         "extra": null
       },
       "team": {
+        "id": 2305,
+        "name": "Mirassol"
+      },
+      "type": "Important",
+      "detail": "Scarpa levanta na área e a zaga do Mirassol corta.",
+      "player": {
+        "name": "Scarpa levanta na área e a zaga do Mirassol cort"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 82,
+        "extra": null
+      },
+      "team": {
         "id": 0,
         "name": ""
       },
@@ -1890,6 +1938,344 @@
       "detail": "Atlético tem falta para cobrar pela esquerda. Scarpa na bola.",
       "player": {
         "name": "Atlético tem falta para cobrar pela esquerda. Sc"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 83,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Cissé recebe no círculo central, mas se atrapalha todo e acaba desarmado.",
+      "player": {
+        "name": "Cissé recebe no círculo central, mas se atrapalh"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 85,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O placar segue zerado no Maião aos 40 minutos da etapa final. O duelo é franco, mas o Mirassol teve a chance mais clara ao carimbar a trave duas vezes seguidas no mesmo lance, com Bruno Santos e Lucas Oliveira. O Atlético-MG respondeu com perigo em jogadas de Bernard e Dudu, mas esbarrou na forte marcação mandante. O confronto entra na reta final com as duas equipes buscando a vitória.",
+      "player": {
+        "name": "Trave duas vezes e placar zerado no Maião"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 85,
+        "extra": null
+      },
+      "team": {
+        "id": 2305,
+        "name": "Mirassol"
+      },
+      "type": "Important",
+      "detail": "Atlético fica com a bola e tenta avançar. O Mirassol se fecha.",
+      "player": {
+        "name": "Atlético fica com a bola e tenta avançar. O Mira"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 86,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Público total: 7.277 pessoas | Renda: R$ 186.680",
+      "player": {
+        "name": "Público e renda"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 87,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Edson Carioca puxa o contra-ataque e tenta a tabela com Bruno Santos, que erra a devolução.",
+      "player": {
+        "name": "Edson Carioca puxa o contra-ataque e tenta a tab"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 88,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Aos 43 minutos da etapa final, Mirassol e Atlético-MG seguem no zero a zero em um confronto muito movimentado. O time paulista carimbou a trave duas vezes no mesmo lance com Bruno Santos e Lucas Oliveira, assustando o goleiro Everson. Pelo lado mineiro, Bernard e Dudu criaram excelentes oportunidades, mas pararam na marcação. Um duelo lá e cá, com muita intensidade no interior paulista.",
+      "player": {
+        "name": "Bola na trave e placar zerado na reta final"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 88,
+        "extra": null
+      },
+      "team": {
+        "id": 2305,
+        "name": "Mirassol"
+      },
+      "type": "Important",
+      "detail": "Reinaldo cruza para Eduardo, que sobe e desvia de cabeça, mas não dá direção à bola. Ela sai pela linha lateral.",
+      "player": {
+        "name": "Eduardo"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 89,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Fernandinho recebe de Reinaldo na área e tenta o passe para trás, mas Léo Duarte intercepta.",
+      "player": {
+        "name": "Fernandinho recebe de Reinaldo na área e tenta o"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 90,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Gustavo Scarpa levanta no segundo pau buscando Renan Lodi, mas Igor Formiga, bem posicionado, desvia para escanteio.",
+      "player": {
+        "name": "Gustavo Scarpa levanta no segundo pau buscando R"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 90,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Jogo vai até os 51 minutos neste segundo tempo.",
+      "player": {
+        "name": "+6"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 91,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Aos 46 minutos do segundo tempo, o empate sem gols persiste, mas o jogo é de tirar o fôlego. O Mirassol carimbou a trave duas vezes seguidas na mesma jogada, primeiro com Bruno Santos e depois com Lucas Oliveira. O Atlético-MG também assustou em chegadas perigosas de Bernard e Dudu. O confronto segue aberto e muito disputado nestes instantes finais da partida.",
+      "player": {
+        "name": "Trave dupla e placar zerado agitam o Maião"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 91,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Edson Carioca puxa o contra-ataque, mas erra o passe para Fernandinho.",
+      "player": {
+        "name": "Edson Carioca puxa o contra-ataque, mas erra o p"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 92,
+        "extra": null
+      },
+      "team": {
+        "id": 2305,
+        "name": "Mirassol"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Aldo Filho"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 93,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Nos acréscimos do segundo tempo, Mirassol e Atlético-MG seguem no zero a zero em uma partida bem disputada. O time paulista carimbou a trave duas vezes seguidas no mesmo lance com Bruno Santos e Lucas Oliveira. O Galo respondeu na reta final, também acertando o poste em chute de Gustavo Scarpa. Um confronto lá e cá, com boas chances para os dois lados.",
+      "player": {
+        "name": "Trave impede gols em duelo movimentado no Maião"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 93,
+        "extra": null
+      },
+      "team": {
+        "id": 282,
+        "name": "Atlético-MG"
+      },
+      "type": "Important",
+      "detail": "Gustavo Scarpa abre espaço e arrisca de fora da área, mas carimba a trave. No rebote, Dudu isola e desperdiça chance para o Galo.",
+      "player": {
+        "name": "Gustavo Scarpa"
+      },
+      "assist": {
+        "name": "Na trave!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 93,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Natanael recebe boa inversão de bola, invade a área e divide com Reinaldo. O árbitro manda seguir.",
+      "player": {
+        "name": "Natanael recebe boa inversão de bola, invade a á"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 94,
+        "extra": null
+      },
+      "team": {
+        "id": 282,
+        "name": "Atlético-MG"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Natanael"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 94,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Com 49 minutos do segundo tempo, Mirassol e Atlético-MG vão empatando por 0 a 0 em um duelo de tirar o fôlego. O time paulista carimbou a trave duas vezes seguidas com Bruno Santos e Lucas Oliveira. Já na reta final, foi a vez de Gustavo Scarpa acertar o poste para o Galo. Um confronto franco, de muita intensidade, grandes defesas de lado a lado e chances claras perdidas.",
+      "player": {
+        "name": "Emoção e traves salvam os dois lados no Maião"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 94,
+        "extra": null
+      },
+      "team": {
+        "id": 282,
+        "name": "Atlético-MG"
+      },
+      "type": "Important",
+      "detail": "Renan Lodi cruza fechado por baixo, a bola passa por toda a área e Walter quase se atrapalha, mas afasta o perigo.",
+      "player": {
+        "name": "Renan Lodi"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 95,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Passados 50 minutos do segundo tempo, o placar segue em 0 a 0, mas emoção não faltou. O Mirassol carimbou a trave duas vezes no mesmo lance com Bruno Santos e Lucas Oliveira. Já nos acréscimos, Gustavo Scarpa acertou o poste para o Atlético-MG. No apagar das luzes, Edson Carioca foi expulso de forma bizarra após fazer gestos obscenos para a própria torcida.",
+      "player": {
+        "name": "Jogo de traves e expulsão inusitada no Maião"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 95,
+        "extra": null
+      },
+      "team": {
+        "id": 2305,
+        "name": "Mirassol"
+      },
+      "type": "Card",
+      "detail": "Red Card",
+      "player": {
+        "name": "Edson Carioca"
       },
       "assist": null
     }
@@ -2349,23 +2735,23 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "48%"
+          "value": "45%"
         },
         {
           "type": "Total Passes",
-          "value": 367
+          "value": 409
         },
         {
           "type": "Pass Accuracy",
-          "value": "81%"
+          "value": "80%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 70
+          "value": 83
         },
         {
           "type": "Total Shots",
-          "value": 9
+          "value": 10
         },
         {
           "type": "Shots on Goal",
@@ -2373,7 +2759,7 @@
         },
         {
           "type": "Shots off Goal",
-          "value": 4
+          "value": 5
         },
         {
           "type": "Blocked Shots",
@@ -2397,23 +2783,23 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 5
+          "value": 6
         },
         {
           "type": "Tackles",
-          "value": 7
+          "value": 10
         },
         {
           "type": "Fouls",
-          "value": 5
+          "value": 12
         },
         {
           "type": "Yellow Cards",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Red Cards",
-          "value": 0
+          "value": 1
         }
       ]
     },
@@ -2425,11 +2811,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "52%"
+          "value": "55%"
         },
         {
           "type": "Total Passes",
-          "value": 444
+          "value": 551
         },
         {
           "type": "Pass Accuracy",
@@ -2437,11 +2823,11 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 62
+          "value": 79
         },
         {
           "type": "Total Shots",
-          "value": 12
+          "value": 15
         },
         {
           "type": "Shots on Goal",
@@ -2449,19 +2835,19 @@
         },
         {
           "type": "Shots off Goal",
-          "value": 6
+          "value": 7
         },
         {
           "type": "Blocked Shots",
-          "value": 5
+          "value": 6
         },
         {
           "type": "Hit Woodwork",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Corner Kicks",
-          "value": 3
+          "value": 4
         },
         {
           "type": "Offsides",
@@ -2477,15 +2863,15 @@
         },
         {
           "type": "Tackles",
-          "value": 6
+          "value": 8
         },
         {
           "type": "Fouls",
-          "value": 6
+          "value": 7
         },
         {
           "type": "Yellow Cards",
-          "value": 0
+          "value": 2
         },
         {
           "type": "Red Cards",

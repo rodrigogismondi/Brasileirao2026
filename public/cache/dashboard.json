@@ -17196,12 +17196,12 @@
           "city": ""
         },
         "status": {
-          "long": "2H",
-          "short": "2H",
-          "elapsed": 84
+          "long": "FT",
+          "short": "FT",
+          "elapsed": 90
         },
-        "timerStart": "2026-11-14T22:37:21.191Z",
-        "timerStatus": "INICIADO"
+        "timerStart": "2026-11-15T01:52:11.723Z",
+        "timerStatus": "PAUSADO"
       },
       "league": {
         "round": "Regular Season - 35"
@@ -17228,8 +17228,8 @@
           "away": null
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 0
         }
       },
       "odds": null,
@@ -17244,11 +17244,11 @@
           "city": ""
         },
         "status": {
-          "long": "NS",
-          "short": "NS",
-          "elapsed": null
+          "long": "FT",
+          "short": "FT",
+          "elapsed": 90
         },
-        "timerStart": "2026-11-14T22:33:36.265Z",
+        "timerStart": "2026-11-15T01:41:50.526Z",
         "timerStatus": "PAUSADO"
       },
       "league": {
@@ -17267,8 +17267,8 @@
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 2
       },
       "score": {
         "halftime": {
@@ -17276,8 +17276,8 @@
           "away": null
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 2
         }
       },
       "odds": {
@@ -19335,6 +19335,28 @@
             {
               "rank": 11,
               "team": {
+                "id": 267,
+                "name": "Vasco",
+                "logo": "https://s.sde.globo.com/media/organizations/2021/09/04/vasco_SVG.svg"
+              },
+              "points": 44,
+              "goalsDiff": -5,
+              "form": "DLWLW",
+              "description": "Copa Sudamericana",
+              "all": {
+                "played": 34,
+                "win": 12,
+                "draw": 8,
+                "lose": 14,
+                "goals": {
+                  "for": 45,
+                  "against": 50
+                }
+              }
+            },
+            {
+              "rank": 12,
+              "team": {
                 "id": 263,
                 "name": "Botafogo",
                 "logo": "https://s.sde.globo.com/media/organizations/2019/02/04/botafogo-svg.svg"
@@ -19355,7 +19377,7 @@
               }
             },
             {
-              "rank": 12,
+              "rank": 13,
               "team": {
                 "id": 294,
                 "name": "Coritiba",
@@ -19364,7 +19386,7 @@
               "points": 42,
               "goalsDiff": -11,
               "form": "DLLWL",
-              "description": "Copa Sudamericana",
+              "description": null,
               "all": {
                 "played": 34,
                 "win": 11,
@@ -19373,28 +19395,6 @@
                 "goals": {
                   "for": 40,
                   "against": 51
-                }
-              }
-            },
-            {
-              "rank": 13,
-              "team": {
-                "id": 267,
-                "name": "Vasco",
-                "logo": "https://s.sde.globo.com/media/organizations/2021/09/04/vasco_SVG.svg"
-              },
-              "points": 41,
-              "goalsDiff": -7,
-              "form": "DLWLW",
-              "description": null,
-              "all": {
-                "played": 33,
-                "win": 11,
-                "draw": 8,
-                "lose": 14,
-                "goals": {
-                  "for": 43,
-                  "against": 50
                 }
               }
             },
@@ -19538,17 +19538,17 @@
                 "logo": "https://s.sde.globo.com/media/organizations/2021/06/21/CHAPECOENSE-2018.svg"
               },
               "points": 21,
-              "goalsDiff": -35,
+              "goalsDiff": -37,
               "form": "LLWLL",
               "description": "Relegation",
               "all": {
-                "played": 33,
+                "played": 34,
                 "win": 4,
                 "draw": 9,
-                "lose": 20,
+                "lose": 21,
                 "goals": {
                   "for": 33,
-                  "against": 68
+                  "against": 70
                 }
               }
             }
@@ -20663,10 +20663,10 @@
   "budget": {
     "used": 0,
     "remaining": 100,
-    "mode": "live",
-    "liveIntervalMs": 20000
+    "mode": "idle",
+    "liveIntervalMs": 900000
   },
-  "fetchedAt": "2026-11-14T23:16:48.393Z",
+  "fetchedAt": "2026-11-15T02:50:06.564Z",
   "source": "ge-globo",
   "meta": {
     "rodada": 35,
@@ -20712,7 +20712,7 @@
       38
     ],
     "seasonSyncedAt": "2026-11-14T23:16:36.507Z",
-    "fullSeasonSync": true,
+    "fullSeasonSync": false,
     "edicao": "Campeonato Brasileiro 2026",
     "provider": "ge.globo.com",
     "scorersCount": 50,
@@ -20723,7 +20723,7 @@
     "tvPreserved": 0,
     "tvAvailable": 364,
     "tvSource": "Onde Assistir — https://ondeassistir.com.br/dados",
-    "tvUpdatedAt": "2026-11-14T22:13:05.171297Z",
+    "tvUpdatedAt": "2026-11-15T02:14:26.000000Z",
     "fixturesCount": 380
   }
 }

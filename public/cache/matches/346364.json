@@ -10,7 +10,9 @@
       "long": "NS",
       "short": "NS",
       "elapsed": null
-    }
+    },
+    "timerStart": null,
+    "timerStatus": "PAUSADO"
   },
   "league": {
     "round": "Regular Season - 35"
@@ -43,8 +45,236 @@
   },
   "odds": null,
   "tv": [],
+  "_geUrl": "https://ge.globo.com/sp/futebol/brasileirao-serie-a/jogo/18-11-2026/corinthians-botafogo.ghtml",
   "events": [],
-  "lineups": [],
+  "lineups": [
+    {
+      "team": {
+        "id": 264,
+        "name": "Corinthians",
+        "logo": "https://s.sde.globo.com/media/organizations/2024/10/09/Corinthians_2024_Q4ahot4.svg"
+      },
+      "formation": "4-3-3",
+      "coach": {
+        "name": "Clarence Seedorf"
+      },
+      "startXI": [
+        {
+          "player": {
+            "id": "hugosouzanogueira",
+            "name": "Hugo Souza",
+            "number": 1,
+            "pos": "Gol",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "matheuzinho52",
+            "name": "Matheuzinho",
+            "number": 2,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "joao-pedro",
+            "name": "João Pedro",
+            "number": 4,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "gustavo-henrique",
+            "name": "Gustavo Henrique",
+            "number": 13,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "angileri",
+            "name": "Angileri",
+            "number": 26,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "raniele",
+            "name": "Raniele",
+            "number": null,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "brenobidon",
+            "name": "Breno Bidon",
+            "number": 7,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "vitinho9",
+            "name": "Vitinho",
+            "number": 11,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "kaiocesar-lima",
+            "name": "Kaio César",
+            "number": 37,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "depay",
+            "name": "Memphis Depay",
+            "number": 10,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "bidumat",
+            "name": "Matheus Bidu",
+            "number": 21,
+            "pos": "Ata",
+            "grid": null
+          }
+        }
+      ],
+      "substitutes": []
+    },
+    {
+      "team": {
+        "id": 263,
+        "name": "Botafogo",
+        "logo": "https://s.sde.globo.com/media/organizations/2019/02/04/botafogo-svg.svg"
+      },
+      "formation": "4-5-1",
+      "coach": {
+        "name": "Tite"
+      },
+      "startXI": [
+        {
+          "player": {
+            "id": "gabriel-batista",
+            "name": "Gabriel Batista",
+            "number": 12,
+            "pos": "Gol",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "vitinhoalex",
+            "name": "Vitinho",
+            "number": 2,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "justino",
+            "name": "Justino",
+            "number": 34,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "marcalfer",
+            "name": "Marçal",
+            "number": 21,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "alextelles",
+            "name": "Alex Telles",
+            "number": 13,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "huguinho",
+            "name": "Huguinho",
+            "number": 75,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "medinacris",
+            "name": "Medina",
+            "number": 6,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "alvamontoro",
+            "name": "Montoro",
+            "number": null,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "ziyech",
+            "name": "Ziyech",
+            "number": 22,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "matheusmartinsss",
+            "name": "Matheus Martins",
+            "number": 11,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "tiquinhosoares",
+            "name": "Tiquinho Soares",
+            "number": 9,
+            "pos": "Ata",
+            "grid": null
+          }
+        }
+      ],
+      "substitutes": []
+    }
+  ],
   "statistics": [],
   "sportsFieldUrl": null
 }

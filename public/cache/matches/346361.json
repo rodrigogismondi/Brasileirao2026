@@ -10,7 +10,9 @@
       "long": "NS",
       "short": "NS",
       "elapsed": null
-    }
+    },
+    "timerStart": null,
+    "timerStatus": "PAUSADO"
   },
   "league": {
     "round": "Regular Season - 35"
@@ -43,8 +45,236 @@
   },
   "odds": null,
   "tv": [],
+  "_geUrl": "https://ge.globo.com/rj/futebol/brasileirao-serie-a/jogo/18-11-2026/flamengo-athletico-pr.ghtml",
   "events": [],
-  "lineups": [],
+  "lineups": [
+    {
+      "team": {
+        "id": 262,
+        "name": "Flamengo",
+        "logo": "https://s.sde.globo.com/media/organizations/2018/04/10/Flamengo-2018.svg"
+      },
+      "formation": "4-3-3",
+      "coach": {
+        "name": "Leonardo Jardim"
+      },
+      "startXI": [
+        {
+          "player": {
+            "id": "agustin-rossi",
+            "name": "Rossi",
+            "number": 1,
+            "pos": "Gol",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "guivarela",
+            "name": "Varela",
+            "number": 2,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "leo-ortiz",
+            "name": "Léo Ortiz",
+            "number": 3,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "leopereira",
+            "name": "Léo Pereira",
+            "number": 4,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "alexsandro3",
+            "name": "Alex Sandro",
+            "number": 26,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "pulgar",
+            "name": "Erick Pulgar",
+            "number": 5,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "jorginho-verona",
+            "name": "Jorginho",
+            "number": 21,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "arrascaeta",
+            "name": "Arrascaeta",
+            "number": 10,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "carrascalj",
+            "name": "Carrascal",
+            "number": 15,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "pedro-guilhermea",
+            "name": "Pedro",
+            "number": 9,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "samuel-saobernardo",
+            "name": "Samuel Lino",
+            "number": 16,
+            "pos": "Ata",
+            "grid": null
+          }
+        }
+      ],
+      "substitutes": []
+    },
+    {
+      "team": {
+        "id": 293,
+        "name": "Athletico-PR",
+        "logo": "https://s.sde.globo.com/media/organizations/2026/01/07/Athletico-PR.svg"
+      },
+      "formation": "3-4-3",
+      "coach": {
+        "name": "Odair Hellmann"
+      },
+      "startXI": [
+        {
+          "player": {
+            "id": "mycael",
+            "name": "Mycael",
+            "number": 1,
+            "pos": "Gol",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "benavidezgas",
+            "name": "Benavídez",
+            "number": 29,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "jfaguirre",
+            "name": "Aguirre",
+            "number": 33,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "esquivelal",
+            "name": "Esquivel",
+            "number": 37,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "gilberto02",
+            "name": "Gilberto",
+            "number": 12,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "jadson16",
+            "name": "Jadson",
+            "number": 16,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "juan-portilla",
+            "name": "Portilla",
+            "number": null,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "zapelli",
+            "name": "Zapelli",
+            "number": null,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "joaovictormachadocruz",
+            "name": "João Cruz",
+            "number": 8,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "kerwin-vargas",
+            "name": "Vargas",
+            "number": 18,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "s-mendoza",
+            "name": "Mendoza",
+            "number": null,
+            "pos": "Ata",
+            "grid": null
+          }
+        }
+      ],
+      "substitutes": []
+    }
+  ],
   "statistics": [],
   "sportsFieldUrl": null
 }

@@ -7,12 +7,12 @@
       "city": ""
     },
     "status": {
-      "long": "2H",
-      "short": "2H",
-      "elapsed": 94
+      "long": "FT",
+      "short": "FT",
+      "elapsed": 90
     },
-    "timerStart": "2026-11-18T23:43:19.267Z",
-    "timerStatus": "INICIADO"
+    "timerStart": "2026-11-19T00:40:35.457Z",
+    "timerStatus": "PAUSADO"
   },
   "league": {
     "round": "Regular Season - 35"
@@ -31,7 +31,7 @@
   },
   "goals": {
     "home": 0,
-    "away": 0
+    "away": 1
   },
   "score": {
     "halftime": {
@@ -39,14 +39,32 @@
       "away": null
     },
     "fulltime": {
-      "home": null,
-      "away": null
+      "home": 0,
+      "away": 1
     }
   },
   "odds": null,
   "tv": [],
   "_geUrl": "https://ge.globo.com/pr/futebol/brasileirao-serie-a/jogo/18-11-2026/coritiba-santos.ghtml",
   "events": [
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 294,
+        "name": "Coritiba"
+      },
+      "type": "Important",
+      "detail": "\"Coisa de jogo, Josué me deu ombrada, ele falou coisas que não devia, agora eu acho queles vão cair\", disse Gabigol, à Record, sobre comemoração em cima do camisa 10 do Coritiba.",
+      "player": {
+        "name": "Gabriel"
+      },
+      "assist": {
+        "name": "fala, artilheiro!"
+      }
+    },
     {
       "time": {
         "elapsed": 0,
@@ -2029,6 +2047,22 @@
         "extra": null
       },
       "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Santos e Coritiba fazem um duelo franco, mas o placar segue 0 a 0 já nos acréscimos do segundo tempo. O Santos criou ótimas chances com Neymar, mas pecou na pontaria. Do outro lado, Josué levou perigo para o Coritiba em chutes de fora da área. Já perto do fim, Gabigol chegou a balançar as redes no rebote, mas a arbitragem assinalou impedimento, mantendo o empate sem gols.",
+      "player": {
+        "name": "Placar zerado e emoção de sobra no Couto Pereira"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 92,
+        "extra": null
+      },
+      "team": {
         "id": 277,
         "name": "Santos"
       },
@@ -2040,6 +2074,184 @@
       "assist": {
         "name": "Gol impedido"
       }
+    },
+    {
+      "time": {
+        "elapsed": 93,
+        "extra": null
+      },
+      "team": {
+        "id": 277,
+        "name": "Santos"
+      },
+      "type": "Important",
+      "detail": "Após um duelo de muito equilíbrio e boas chances desperdiçadas por Neymar e Cebolinha, o placar só foi inaugurado nos acréscimos da etapa final. Aos 48 minutos do segundo tempo, Gabriel balançou as redes, e após momentos de suspense pela análise do VAR, o gol do Santos foi confirmado. Com a vantagem de 1 a 0, os visitantes garantem um cenário dramático antes do apito final.",
+      "player": {
+        "name": "Drama do VAR e gol de Gabriel nos acréscimos"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 93,
+        "extra": null
+      },
+      "team": {
+        "id": 277,
+        "name": "Santos"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "player": {
+        "name": "Gabriel"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 93,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Árbitro de vídeo analisa o lance e vai ratificar se houve o impedimento ou se o gol foi legal.",
+      "player": {
+        "name": "VAR em ação"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 94,
+        "extra": null
+      },
+      "team": {
+        "id": 294,
+        "name": "Coritiba"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Jacy"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 95,
+        "extra": null
+      },
+      "team": {
+        "id": 277,
+        "name": "Santos"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Thaciano"
+      },
+      "assist": {
+        "name": "Gabriel"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 96,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Jogo segue em andamento por mais alguns minutos.",
+      "player": {
+        "name": "+3!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 96,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Já nos acréscimos da etapa final, o Santos vai vencendo o Coritiba por 1 a 0 graças ao gol de Gabriel, que aproveitou rebote de Neymar em lance validado pelo VAR aos 48 minutos. Até então, o duelo era equilibrado, com chances para ambos os lados e boa atuação do goleiro Diógenes. Com mais de 51 minutos jogados, o Coxa tenta o empate na pressão e na base do escanteio.",
+      "player": {
+        "name": "Gabriel decide no fim e coloca o Santos na frente"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 96,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Coritiba insiste no ataque e ganha escanteio. Santos se defende como pode.",
+      "player": {
+        "name": "Coritiba insiste no ataque e ganha escanteio. Sa"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 97,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Rollheiser disputa a bola no meio, cai, mas árbitro não marca a falta.",
+      "player": {
+        "name": "Rollheiser disputa a bola no meio, cai, mas árbi"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 98,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Fim de jogo no Couto Pereira.",
+      "player": {
+        "name": "Apita o árbitro!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 98,
+        "extra": null
+      },
+      "team": {
+        "id": 294,
+        "name": "Coritiba"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Ocampo"
+      },
+      "assist": null
     }
   ],
   "lineups": [
@@ -2497,23 +2709,23 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "42%"
+          "value": "43%"
         },
         {
           "type": "Total Passes",
-          "value": 434
+          "value": 465
         },
         {
           "type": "Pass Accuracy",
-          "value": "83%"
+          "value": "81%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 75
+          "value": 87
         },
         {
           "type": "Total Shots",
-          "value": 13
+          "value": 14
         },
         {
           "type": "Shots on Goal",
@@ -2521,7 +2733,7 @@
         },
         {
           "type": "Shots off Goal",
-          "value": 8
+          "value": 9
         },
         {
           "type": "Blocked Shots",
@@ -2533,7 +2745,7 @@
         },
         {
           "type": "Corner Kicks",
-          "value": 3
+          "value": 5
         },
         {
           "type": "Offsides",
@@ -2545,19 +2757,19 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 3
+          "value": 4
         },
         {
           "type": "Tackles",
-          "value": 16
+          "value": 17
         },
         {
           "type": "Fouls",
-          "value": 18
+          "value": 19
         },
         {
           "type": "Yellow Cards",
-          "value": 3
+          "value": 5
         },
         {
           "type": "Red Cards",
@@ -2573,27 +2785,27 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "58%"
+          "value": "57%"
         },
         {
           "type": "Total Passes",
-          "value": 580
+          "value": 589
         },
         {
           "type": "Pass Accuracy",
-          "value": "88%"
+          "value": "87%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 70
+          "value": 74
         },
         {
           "type": "Total Shots",
-          "value": 11
+          "value": 13
         },
         {
           "type": "Shots on Goal",
-          "value": 4
+          "value": 6
         },
         {
           "type": "Shots off Goal",
@@ -2621,11 +2833,11 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 6
+          "value": 7
         },
         {
           "type": "Tackles",
-          "value": 10
+          "value": 13
         },
         {
           "type": "Fouls",

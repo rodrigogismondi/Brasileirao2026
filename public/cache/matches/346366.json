@@ -7,11 +7,11 @@
       "city": ""
     },
     "status": {
-      "long": "HT",
-      "short": "HT",
-      "elapsed": 45
+      "long": "FT",
+      "short": "FT",
+      "elapsed": 90
     },
-    "timerStart": "2026-11-19T00:19:20.963Z",
+    "timerStart": "2026-11-19T01:38:06.753Z",
     "timerStatus": "PAUSADO"
   },
   "league": {
@@ -30,8 +30,8 @@
     }
   },
   "goals": {
-    "home": 0,
-    "away": 0
+    "home": 2,
+    "away": 1
   },
   "score": {
     "halftime": {
@@ -39,14 +39,50 @@
       "away": null
     },
     "fulltime": {
-      "home": null,
-      "away": null
+      "home": 2,
+      "away": 1
     }
   },
   "odds": null,
   "tv": [],
   "_geUrl": "https://ge.globo.com/mg/futebol/brasileirao-serie-a/jogo/18-11-2026/cruzeiro-palmeiras.ghtml",
   "events": [
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 283,
+        "name": "Cruzeiro"
+      },
+      "type": "Important",
+      "detail": "- O time está de parabéns. Mais uma vez, tivemos o controle do jogo durante todo o primeiro tempo. Faltava o gol para a gente. Felizmente, mesmo sofrendo um gol no início do segundo tempo, soubemos ser fortes mais uma vez. Conseguimos fazer dois gols e sabíamos o quanto a bola parada seria importante hoje, além da dificuldade que a equipe deles poderia nos impor. Então, acho que o time está de parabéns. É a quinta vitória seguida, muito bom. Acho que não temos que olhar apenas para essa sequência de cinco vitórias, mas também para o nosso início de campeonato e valorizar a posição em que estamos. Somos merecedores do lugar que ocupamos. É seguir trabalhando e buscando os pontos para que possamos alcançar nosso objetivo. - A comemoração hoje foi porque vamos ser pais mais uma vez. Nosso filho vai ganhar um irmão ou uma irmã. Ainda não sabemos se é menino ou menina, mas estamos muito felizes. Já estava escrito que o gol seria hoje, para poder comemorar por ele ou por ela. Estou muito feliz, principalmente por estar vivendo esse momento pessoalmente também.",
+      "player": {
+        "name": "Matheus Pereira"
+      },
+      "assist": {
+        "name": "FALA, MATHEUS PEREIRA!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 275,
+        "name": "Palmeiras"
+      },
+      "type": "Important",
+      "detail": "- Acho que, independentemente do resultado do Flamengo ou de outra equipe, a gente está sempre pensando no nosso, no que está sob o nosso controle. Infelizmente, não saímos com o resultado positivo daqui. Viemos com uma estratégia um pouco mais recuada, para sair no contra-ataque. No primeiro tempo, por mais que eles tenham tido a posse de bola e o controle do jogo, tivemos algumas chances para matar a partida, mas não fomos felizes e acabamos tomando os dois gols no segundo tempo. Agora é a vida que segue, descansar e continuar trabalhando.",
+      "player": {
+        "name": "Lucas Evangelista"
+      },
+      "assist": {
+        "name": "FALA, EVANGELISTA!"
+      }
+    },
     {
       "time": {
         "elapsed": 0,
@@ -1089,6 +1125,54 @@
         "extra": null
       },
       "team": {
+        "id": 275,
+        "name": "Palmeiras"
+      },
+      "type": "Important",
+      "detail": "Após um primeiro tempo de muito equilíbrio, com Vitor Roque assustando de um lado e Kaio Jorge do outro, o placar finalmente saiu do zero. Logo aos 17 segundos da etapa final, Lucas Evangelista fez o cruzamento e Ramón Sosa mandou um chute cruzado sem chances para o goleiro, colocando o Palmeiras em vantagem por 1 a 0 neste início de segundo tempo.",
+      "player": {
+        "name": "Palmeiras volta ligado e abre o placar em Minas"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 45,
+        "extra": null
+      },
+      "team": {
+        "id": 275,
+        "name": "Palmeiras"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "player": {
+        "name": "Ramón Sosa"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 45,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Bola rolando. Começa o segundo tempo!",
+      "player": {
+        "name": "INÍCIO DO SEGUNDO TEMPO"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 45,
+        "extra": null
+      },
+      "team": {
         "id": 0,
         "name": ""
       },
@@ -1112,6 +1196,22 @@
       "detail": "Yellow Card",
       "player": {
         "name": "Kaio Jorge"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 47,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Matheus Pereira toca na entrada da área para Kaio Jorge, que ao girar, é derrubado por Fuchs. A bola sai em linha de fundo, e o árbitro não marca nada.",
+      "player": {
+        "name": "Matheus Pereira toca na entrada da área para Kai"
       },
       "assist": null
     },
@@ -1160,6 +1260,1344 @@
       "detail": "Benedetti agarra Marquinhos, mas o árbitro não marca falta. A bola sai em lateral.",
       "player": {
         "name": "Benedetti agarra Marquinhos, mas o árbitro não m"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 48,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Após uma primeira etapa equilibrada e com chances para os dois lados, o placar saiu do zero logo no início do segundo tempo. Aos 3 minutos da etapa final, o Palmeiras vence por 1 a 0 graças ao gol de Ramón Sosa, que aproveitou passe de Evangelista para finalizar cruzado logo aos 17 segundos. O Cruzeiro tenta se organizar para reagir e buscar a igualdade em um confronto bem disputado.",
+      "player": {
+        "name": "Sosa abre o placar e põe o Palmeiras na frente"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 48,
+        "extra": null
+      },
+      "team": {
+        "id": 283,
+        "name": "Cruzeiro"
+      },
+      "type": "Important",
+      "detail": "Cruzeiro troca passes e procura espaços para avançar.",
+      "player": {
+        "name": "Cruzeiro troca passes e procura espaços para ava"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 49,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Rojas cobra o escanteio na área. Khellven afasta.",
+      "player": {
+        "name": "Rojas cobra o escanteio na área. Khellven afasta"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 49,
+        "extra": null
+      },
+      "team": {
+        "id": 283,
+        "name": "Cruzeiro"
+      },
+      "type": "Important",
+      "detail": "Escanteio para o Cruzeiro.",
+      "player": {
+        "name": "Escanteio para o Cruzeiro."
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 50,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Fabrício Bruno e Vitor Roque duelam pelo alto na ponta esquerda. A bola toca por último no atacante e sai em tiro de meta.",
+      "player": {
+        "name": "Fabrício Bruno e Vitor Roque duelam pelo alto na"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 51,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Após um primeiro tempo bem parelho e sem gols, o placar saiu do zero logo na retomada da partida. Aos 17 segundos da etapa final, Evangelista serviu Ramón Sosa, que bateu cruzado e fez 1 a 0 para o Palmeiras. Chegando aos 6 minutos do segundo tempo, o Cruzeiro tenta se organizar no campo de ataque para responder ao golpe sofrido e buscar a igualdade em Minas Gerais.",
+      "player": {
+        "name": "Sosa marca no início do segundo tempo em Minas"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 51,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Arthur domina esquerda e levanta na área. Villalba tira.",
+      "player": {
+        "name": "Arthur domina esquerda e levanta na área. Villal"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 52,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Andreas Pereira tenta o passe na frente com Sosa, mas erra. A bola fica com a defesa, que sai jogando.",
+      "player": {
+        "name": "Andreas Pereira tenta o passe na frente com Sosa"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 52,
+        "extra": null
+      },
+      "team": {
+        "id": 283,
+        "name": "Cruzeiro"
+      },
+      "type": "Important",
+      "detail": "Artur Jorge prepara duas substituições no Cruzeiro.",
+      "player": {
+        "name": "Artur Jorge prepara duas substituições no Cruzei"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 53,
+        "extra": null
+      },
+      "team": {
+        "id": 283,
+        "name": "Cruzeiro"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Villarreal"
+      },
+      "assist": {
+        "name": "Marquinhos"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 53,
+        "extra": null
+      },
+      "team": {
+        "id": 283,
+        "name": "Cruzeiro"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Matheus Henrique"
+      },
+      "assist": {
+        "name": "Zé Lucas"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 53,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Vitor Roque comete falta em Romero.",
+      "player": {
+        "name": "Vitor Roque comete falta em Romero."
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 54,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Arthur e Sosa tabelam na ponta esquerda. Ao cruzar, o lateral é travado por William. A sobra fica com Villarreal, que sai jogando.",
+      "player": {
+        "name": "Arthur e Sosa tabelam na ponta esquerda. Ao cruz"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 54,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Após um primeiro tempo bem equilibrado e de boas defesas de Carlos Miguel, o placar foi inaugurado logo no início da etapa final. Aos 17 segundos do segundo tempo, Ramón Sosa recebeu de Evangelista e bateu cruzado para fazer 1 a 0 para o Palmeiras. Agora, com 9 minutos da etapa complementar, o Cruzeiro tenta reagir e já promoveu mudanças na equipe em busca do empate.",
+      "player": {
+        "name": "Gol de Sosa coloca o Palmeiras em vantagem"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 54,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Matheus Pereira cobra a falta com cruzamento na área. Carlos Miguel defende.",
+      "player": {
+        "name": "Matheus Pereira cobra a falta com cruzamento na "
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 56,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Após bate e rebate, Matheus Henrique fica com a bola na área e finaliza. Carlos Miguel defende com tranquilidade.",
+      "player": {
+        "name": "Após bate e rebate, Matheus Henrique fica com a "
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 56,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Fabrício Bruno fica com a bola na intermediária e arrisca. Benedetti trava a finalização.",
+      "player": {
+        "name": "Fabrício Bruno fica com a bola na intermediária "
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 57,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Após um primeiro tempo equilibrado e de boas chances para os dois lados, o placar foi inaugurado logo no início da etapa complementar. Com apenas 17 segundos, Ramón Sosa aproveitou assistência de Evangelista para fazer 1 a 0 para o Palmeiras. Chegando aos 12 minutos do segundo tempo, o Cruzeiro tenta reagir com alterações em campo, enquanto o rival mantém a pressão.",
+      "player": {
+        "name": "Sosa marca e põe o Palmeiras em vantagem"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 57,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Vitor Roque desce bem pela ponta esquerda e cruza no meio da área. Fabrício Bruno manda para escanteio.",
+      "player": {
+        "name": "Vitor Roque desce bem pela ponta esquerda e cruz"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 58,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Andreas Pereira cobra o escanteio curto com Arthur, que devolve para o meia. O camisa 8 levanta a bola na área. Fuchs cabeceia , e Otávio defende.",
+      "player": {
+        "name": "Andreas Pereira cobra o escanteio curto com Arth"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 58,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Abel prepara a entrada de Flaco López.",
+      "player": {
+        "name": "Abel prepara a entrada de Flaco López."
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 59,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Gerson comete entrada dura em Flaco López.",
+      "player": {
+        "name": "Gerson comete entrada dura em Flaco López."
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 59,
+        "extra": null
+      },
+      "team": {
+        "id": 275,
+        "name": "Palmeiras"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Flaco López"
+      },
+      "assist": {
+        "name": "Ramón Sosa"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 59,
+        "extra": null
+      },
+      "team": {
+        "id": 275,
+        "name": "Palmeiras"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Vitor Roque"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 60,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Após uma primeira etapa truncada e sem gols, o cenário mudou no início da etapa complementar. Com menos de um minuto do segundo tempo, Lucas Evangelista serviu Ramón Sosa, que bateu cruzado para fazer 1 a 0 para o Palmeiras. Agora, perto dos 15 minutos, o Cruzeiro tenta reagir com mudanças de Artur Jorge, mas os visitantes seguram a vantagem em um duelo que segue quente.",
+      "player": {
+        "name": "Sosa decide e coloca o Palmeiras em vantagem"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 60,
+        "extra": null
+      },
+      "team": {
+        "id": 283,
+        "name": "Cruzeiro"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Gerson"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 61,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Benedetti comete falta em Villarreal.",
+      "player": {
+        "name": "Benedetti comete falta em Villarreal."
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 63,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Rojas manda a bola para o meio da área, mas Fuchs tira.",
+      "player": {
+        "name": "Rojas manda a bola para o meio da área, mas Fuch"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 63,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Após um primeiro tempo de chances para os dois lados, o Palmeiras surpreendeu logo no início da etapa final. Com apenas um minuto, Ramón Sosa marcou e colocou o placar em 1 a 0. Agora, aos 18 minutos do segundo tempo, o Cruzeiro tenta pressionar em busca do empate, mas a equipe paulista se segura bem na defesa e tenta explorar os contra-ataques para sacramentar a vitória.",
+      "player": {
+        "name": "Palmeiras larga na frente em duelo movimentado"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 63,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Villalba toca na frente para Kaio Jorge. Barboza chega antes e manda para lateral.",
+      "player": {
+        "name": "Villalba toca na frente para Kaio Jorge. Barboza"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 64,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Matheus Pereira é puxado por Evangelista. O árbitro marca a falta.",
+      "player": {
+        "name": "Matheus Pereira é puxado por Evangelista. O árbi"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 65,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Após um primeiro tempo equilibrado de boas defesas e placar zerado, o Palmeiras voltou com tudo. Logo no primeiro minuto da etapa final, Ramón Sosa aproveitou o cruzamento de Evangelista e chutou cruzado para abrir o placar. Passados 20 minutos do segundo tempo, o Cruzeiro tenta reagir, assustando em cobrança de falta de Matheus Pereira, enquanto o jogo segue tenso e com cartões.",
+      "player": {
+        "name": "Sosa marca e coloca o Palmeiras em vantagem"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 65,
+        "extra": null
+      },
+      "team": {
+        "id": 283,
+        "name": "Cruzeiro"
+      },
+      "type": "Important",
+      "detail": "Matheus Pereira cobra a falta com chute colocado. A bola passa com muito perigo!",
+      "player": {
+        "name": "Matheus Pereira"
+      },
+      "assist": {
+        "name": "UHHh!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 66,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Andreas Pereira cobra a falta com cruzamento na área. Flaco cabeceia para fora.",
+      "player": {
+        "name": "Andreas Pereira cobra a falta com cruzamento na "
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 66,
+        "extra": null
+      },
+      "team": {
+        "id": 275,
+        "name": "Palmeiras"
+      },
+      "type": "Important",
+      "detail": "Falta para o Palmeiras na ponta direita.",
+      "player": {
+        "name": "Falta para o Palmeiras na ponta direita."
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 67,
+        "extra": null
+      },
+      "team": {
+        "id": 283,
+        "name": "Cruzeiro"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Viña"
+      },
+      "assist": {
+        "name": "Gabriel Rojas"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 68,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Após um primeiro tempo de muito equilíbrio e poucas chances convertidas, o panorama mudou logo no início da etapa complementar. Aos 23 minutos do segundo tempo, o Palmeiras vai vencendo por 1 a 0 graças ao gol de Ramón Sosa, que balançou as redes logo no primeiro minuto após receber de Evangelista. O Cruzeiro tenta reagir e assustou em cobrança de falta de Matheus Pereira.",
+      "player": {
+        "name": "Sosa põe o Palmeiras na frente no segundo tempo"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 68,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "William cruza na entrada da área para Viña. O lateral chuta de primeira, e a bola sai ao lado do gol. Em seguida, o árbitro marca que a bola saiu no início da jogada.",
+      "player": {
+        "name": "William cruza na entrada da área para Viña. O la"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 69,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Villarreal fica com a posse na entrada da área, gira e chuta mal. A bola sai direto em linha de fundo,",
+      "player": {
+        "name": "Villarreal fica com a posse na entrada da área, "
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 70,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Matheus Pereira recebe a bola no meio, mas é desarmado ao tentar dominar.",
+      "player": {
+        "name": "Matheus Pereira recebe a bola no meio, mas é des"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 71,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Após um primeiro tempo equilibrado e sem gols, o Palmeiras voltou do intervalo com tudo e abriu o placar logo no primeiro minuto da etapa complementar, com gol de Ramón Sosa após passe de Evangelista. O Cruzeiro tenta reagir e assusta em cobranças de falta de Matheus Pereira. Com 26 minutos do segundo tempo, o time paulista segura a vantagem de 1 a 0 em um confronto muito movimentado.",
+      "player": {
+        "name": "Palmeiras em vantagem com gol logo no recomeço"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 71,
+        "extra": null
+      },
+      "team": {
+        "id": 283,
+        "name": "Cruzeiro"
+      },
+      "type": "Important",
+      "detail": "Romero toca no meio para Matheus Pereira. O meia domina e chuta de fora da área. A bola passa por cima do gol.",
+      "player": {
+        "name": "Matheus Pereira"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 72,
+        "extra": null
+      },
+      "team": {
+        "id": 275,
+        "name": "Palmeiras"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Arias"
+      },
+      "assist": {
+        "name": "Vitor Roque"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 72,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Marlon Freitas comete falta em Romero.",
+      "player": {
+        "name": "Marlon Freitas comete falta em Romero."
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 72,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "William levanta a bola na área. Benedetti tira.",
+      "player": {
+        "name": "William levanta a bola na área. Benedetti tira."
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 73,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Após um primeiro tempo bastante disputado e sem gols, a partida esquentou na etapa complementar. Logo no início, Ramón Sosa bateu cruzado para colocar o Palmeiras na frente. O Cruzeiro não se entregou e pressionou até que, aos 28 minutos do segundo tempo, Matheus Pereira cobrou uma falta perfeita na trave e para dentro, deixando tudo igual em 1 a 1 neste grande confronto.",
+      "player": {
+        "name": "Empate quente e golaço de falta agitam o jogo"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 73,
+        "extra": null
+      },
+      "team": {
+        "id": 283,
+        "name": "Cruzeiro"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "player": {
+        "name": "Matheus Pereira"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 76,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Após um primeiro tempo sem gols, o segundo tempo começou agitado. Logo de cara, Ramón Sosa marcou para o Palmeiras. Mas a reação do Cruzeiro veio forte: aos 28 minutos, Matheus Pereira empatou de falta. Pouco depois, aos 31, William bateu escanteio e Khellven fez contra. Com 31 minutos da etapa final, a espetacular virada por 2 a 1 incendeia a partida.",
+      "player": {
+        "name": "Virada sensacional do Cruzeiro na etapa final"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 76,
+        "extra": null
+      },
+      "team": {
+        "id": 275,
+        "name": "Palmeiras"
+      },
+      "type": "Goal",
+      "detail": "Own Goal",
+      "player": {
+        "name": "Khellven"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 76,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Após um primeiro tempo zerado, o confronto esquentou na etapa final. Logo no primeiro minuto, Ramón Sosa bateu cruzado e abriu o placar para o Palmeiras. O Cruzeiro reagiu e, aos 31 minutos do segundo tempo, o placar aponta 1 a 1 graças a um golaço de falta de Matheus Pereira, que acertou a gaveta. A igualdade reflete um jogo aberto, intenso e com grandes defesas dos goleiros.",
+      "player": {
+        "name": "Empate quente e golaço de falta agitam o duelo"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 76,
+        "extra": null
+      },
+      "team": {
+        "id": 283,
+        "name": "Cruzeiro"
+      },
+      "type": "Important",
+      "detail": "Villarreal fica com a bola na entrada da área e chuta rasteiro. Carlos Miguel se estica todo e manda para escanteio.",
+      "player": {
+        "name": "Villarreal"
+      },
+      "assist": {
+        "name": "UHHH!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 79,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Após um primeiro tempo sem gols, a etapa final pegou fogo em Belo Horizonte. Logo no início, Ramón Sosa colocou o Palmeiras em vantagem. O Cruzeiro não se abateu e, aos 28 minutos, Matheus Pereira empatou em uma linda cobrança de falta. Pouco depois, aos 31, William cobrou escanteio e Khellven marcou contra, decretando a virada cruzeirense por 2 a 1 na reta final do confronto.",
+      "player": {
+        "name": "Cruzeiro reage e busca virada na etapa final"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 79,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Kaio Jorge avança pela direita e cruza na área. Carlos Miguel sai do gol e espalma.",
+      "player": {
+        "name": "Kaio Jorge avança pela direita e cruza na área. "
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 80,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Arias toca na direita para Flaco. O atacante avança e chuta cruzado. Otávio defende.",
+      "player": {
+        "name": "Arias toca na direita para Flaco. O atacante ava"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 80,
+        "extra": null
+      },
+      "team": {
+        "id": 275,
+        "name": "Palmeiras"
+      },
+      "type": "Important",
+      "detail": "Palmeiras troca passes no ataque.",
+      "player": {
+        "name": "Palmeiras troca passes no ataque."
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 81,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Evangelista tenta o passe em profundidade para Flaco, mas Matheus Henrique corta.",
+      "player": {
+        "name": "Evangelista tenta o passe em profundidade para F"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 82,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Após um primeiro tempo sem gols, o jogo esquentou na etapa final. O Palmeiras abriu o placar no início com Ramón Sosa, mas o Cruzeiro reagiu. Aos 29 minutos, Matheus Pereira empatou em bela cobrança de falta e, pouco depois, aos 31, um gol contra de Khellven sacramentou a virada dos mandantes para 2 a 1. Chegando aos 38 minutos do segundo tempo, o clima é de pura tensão e disputa em campo.",
+      "player": {
+        "name": "Virada espetacular do Cruzeiro incendeia o jogo"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 82,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Arthur e William ficam sentindo após choque. Ambos estão caídos em campo.",
+      "player": {
+        "name": "Arthur e William ficam sentindo após choque. Amb"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 83,
+        "extra": null
+      },
+      "team": {
+        "id": 275,
+        "name": "Palmeiras"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Belé"
+      },
+      "assist": {
+        "name": "Marlon Freitas"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 84,
+        "extra": null
+      },
+      "team": {
+        "id": 283,
+        "name": "Cruzeiro"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Wanderson"
+      },
+      "assist": {
+        "name": "Gerson"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 84,
+        "extra": null
+      },
+      "team": {
+        "id": 275,
+        "name": "Palmeiras"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Luis Pacheco"
+      },
+      "assist": {
+        "name": "Andreas Pereira"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 84,
+        "extra": null
+      },
+      "team": {
+        "id": 275,
+        "name": "Palmeiras"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Larson"
+      },
+      "assist": {
+        "name": "Alexander Barboza"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 87,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Após um primeiro tempo zerado, a partida pegou fogo na etapa complementar. Logo no início, Ramón Sosa colocou o Palmeiras na frente. A reação do Cruzeiro veio aos 28 minutos com golaço de falta de Matheus Pereira. Apenas três minutos depois, um gol contra de Khellven decretou a virada por 2 a 1. Passados 42 minutos, o confronto segue tenso com a vantagem do time da casa.",
+      "player": {
+        "name": "Cruzeiro busca virada no segundo tempo"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 87,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Fabrício Bruno lança a bola para Kaio Jorge, mas o passe vai com muita força e sai em linha de fundo.",
+      "player": {
+        "name": "Fabrício Bruno lança a bola para Kaio Jorge, mas"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 88,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Após um primeiro tempo zerado, a etapa final começou quente. Logo no início, Ramón Sosa abriu o placar para o Palmeiras. A reação do Cruzeiro veio aos 28 minutos com golaço de falta de Matheus Pereira e, aos 31, a virada veio com gol contra de Khellven, deixando o placar em 2 a 1. Chegando aos 44 minutos, o duelo segue aberto e movimentado nesta reta final.",
+      "player": {
+        "name": "Virada do Cruzeiro incendeia o segundo tempo"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 88,
+        "extra": null
+      },
+      "team": {
+        "id": 275,
+        "name": "Palmeiras"
+      },
+      "type": "Important",
+      "detail": "Belé avança pela esquerda e cruza rasteiro na área. A bola passa por Larson, que se lamenta muito!",
+      "player": {
+        "name": "Larson"
+      },
+      "assist": {
+        "name": "QUE CHANCE!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 89,
+        "extra": null
+      },
+      "team": {
+        "id": 283,
+        "name": "Cruzeiro"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Matheus Henrique"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 90,
+        "extra": null
+      },
+      "team": {
+        "id": 283,
+        "name": "Cruzeiro"
+      },
+      "type": "Important",
+      "detail": "Kaio Jorge avança pelo meio e arrisca de fora da área. A bola explode na marcação e sai em escanteio.",
+      "player": {
+        "name": "Kaio Jorge"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 90,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Arias cobra a galta com cruzamento na área. Matheus Pereira tira de voleio.",
+      "player": {
+        "name": "Arias cobra a galta com cruzamento na área. Math"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 91,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Matheus Pereira cobra o escanteio fechado. Carlos Miguel defende.",
+      "player": {
+        "name": "Matheus Pereira cobra o escanteio fechado. Carlo"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 91,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Após um primeiro tempo zerado, a etapa final pegou fogo. Ramón Sosa abriu o placar para o Palmeiras logo no início, mas o Cruzeiro reagiu de forma avassaladora. Aos 28 minutos, Matheus Pereira empatou em uma linda cobrança de falta. Pouco depois, Khellven marcou contra e decretou a virada por 2 a 1. Já nos acréscimos do segundo tempo, a emoção toma conta na busca pelo apito final.",
+      "player": {
+        "name": "Cruzeiro vira o jogo em segundo tempo eletrizante"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 91,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Vamos até os 53 minutos na etapa final.",
+      "player": {
+        "name": "+8"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 92,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Otávio faz ligação direta para Kaio Jorge, mas Benedetti fica com ela. O zagueiro se atrapalha e quase cede a posse para o atacante. O defensor palmeirense se recupera e sai jogando.",
+      "player": {
+        "name": "Otávio faz ligação direta para Kaio Jorge, mas B"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 94,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Fuchs, Romero e Matheus Pereira se desentendem, mas a situação logo é controlada.",
+      "player": {
+        "name": "Fuchs, Romero e Matheus Pereira se desentendem, "
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 94,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Depois de um primeiro tempo sem gols, a etapa final começou quente. Logo no primeiro minuto, Ramón Sosa abriu o placar para o Palmeiras. A reação do Cruzeiro veio na reta final: aos 28 minutos, Matheus Pereira empatou em bela cobrança de falta e, logo aos 31, Khellven marcou contra, garantindo a virada por 2 a 1. O duelo segue tenso e emocionante aos 49 minutos do segundo tempo.",
+      "player": {
+        "name": "Cruzeiro vira contra o Palmeiras em etapa final"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 94,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Villalba comete falta em Flaco López.",
+      "player": {
+        "name": "Villalba comete falta em Flaco López."
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 95,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Fuchs joga a bola para o meio da área. Pacheco cabeceia para fora.",
+      "player": {
+        "name": "Fuchs joga a bola para o meio da área. Pacheco c"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 95,
+        "extra": null
+      },
+      "team": {
+        "id": 275,
+        "name": "Palmeiras"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Bruno Fuchs"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 95,
+        "extra": null
+      },
+      "team": {
+        "id": 283,
+        "name": "Cruzeiro"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Matheus Pereira"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 96,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Após um primeiro tempo zerado, a etapa final pegou fogo! Ramón Sosa abriu o placar para o Palmeiras, mas o Cruzeiro reagiu e buscou a virada para 2 a 1 com belo gol de falta de Matheus Pereira e gol contra de Khellven. Já passamos dos 51 minutos do segundo tempo e a pressão é dramática nos acréscimos, com o Palmeiras tentando o empate e desperdiçando chance clara na área.",
+      "player": {
+        "name": "Virada emocionante do Cruzeiro agita fim de jogo"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 96,
+        "extra": null
+      },
+      "team": {
+        "id": 275,
+        "name": "Palmeiras"
+      },
+      "type": "Important",
+      "detail": "Larson levanta a bola na pequena área. Benedetti domina e chuta por cima do gol. O zagueiro pede escanteio, mas o árbitro marca o tiro de meta.",
+      "player": {
+        "name": "Benedetti"
+      },
+      "assist": {
+        "name": "QUE PERIGO!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 98,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O árbitro apita. O Cruzeiro vence o Palmeiras por 2 a 1.",
+      "player": {
+        "name": "FIM DE JOGO!"
       },
       "assist": null
     }
@@ -1614,31 +3052,31 @@
         },
         {
           "type": "Total Passes",
-          "value": 248
+          "value": 501
         },
         {
           "type": "Pass Accuracy",
-          "value": "83%"
+          "value": "84%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 42
+          "value": 78
         },
         {
           "type": "Total Shots",
-          "value": 7
+          "value": 16
         },
         {
           "type": "Shots on Goal",
-          "value": 3
+          "value": 5
         },
         {
           "type": "Shots off Goal",
-          "value": 3
+          "value": 8
         },
         {
           "type": "Blocked Shots",
-          "value": 1
+          "value": 3
         },
         {
           "type": "Hit Woodwork",
@@ -1646,7 +3084,7 @@
         },
         {
           "type": "Corner Kicks",
-          "value": 4
+          "value": 7
         },
         {
           "type": "Offsides",
@@ -1658,19 +3096,19 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Tackles",
-          "value": 10
+          "value": 21
         },
         {
           "type": "Fouls",
-          "value": 8
+          "value": 14
         },
         {
           "type": "Yellow Cards",
-          "value": 1
+          "value": 4
         },
         {
           "type": "Red Cards",
@@ -1690,27 +3128,27 @@
         },
         {
           "type": "Total Passes",
-          "value": 152
+          "value": 313
         },
         {
           "type": "Pass Accuracy",
-          "value": "79%"
+          "value": "80%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 32
+          "value": 63
         },
         {
           "type": "Total Shots",
-          "value": 3
+          "value": 8
         },
         {
           "type": "Shots on Goal",
-          "value": 0
+          "value": 3
         },
         {
           "type": "Shots off Goal",
-          "value": 3
+          "value": 5
         },
         {
           "type": "Blocked Shots",
@@ -1722,7 +3160,7 @@
         },
         {
           "type": "Corner Kicks",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Offsides",
@@ -1734,19 +3172,19 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 3
+          "value": 7
         },
         {
           "type": "Tackles",
-          "value": 6
+          "value": 14
         },
         {
           "type": "Fouls",
-          "value": 11
+          "value": 20
         },
         {
           "type": "Yellow Cards",
-          "value": 2
+          "value": 4
         },
         {
           "type": "Red Cards",

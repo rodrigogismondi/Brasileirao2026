@@ -17583,11 +17583,11 @@
           "city": ""
         },
         "status": {
-          "long": "NS",
-          "short": "NS",
-          "elapsed": null
+          "long": "HT",
+          "short": "HT",
+          "elapsed": 45
         },
-        "timerStart": null,
+        "timerStart": "2026-11-19T23:19:07.867Z",
         "timerStatus": "PAUSADO"
       },
       "league": {
@@ -17606,8 +17606,8 @@
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 0
       },
       "score": {
         "halftime": {
@@ -17634,11 +17634,11 @@
           "city": ""
         },
         "status": {
-          "long": "NS",
-          "short": "NS",
-          "elapsed": null
+          "long": "HT",
+          "short": "HT",
+          "elapsed": 45
         },
-        "timerStart": null,
+        "timerStart": "2026-11-19T23:26:09.538Z",
         "timerStatus": "PAUSADO"
       },
       "league": {
@@ -17657,8 +17657,8 @@
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 2,
+        "away": 0
       },
       "score": {
         "halftime": {
@@ -19314,22 +19314,44 @@
                 "logo": "https://s.sde.globo.com/media/organizations/2021/06/28/bragantino.svg"
               },
               "points": 47,
-              "goalsDiff": 5,
-              "form": "WDLWW",
+              "goalsDiff": 3,
+              "form": "DLWWL",
               "description": "Copa Sudamericana",
               "all": {
-                "played": 34,
+                "played": 35,
                 "win": 13,
                 "draw": 8,
-                "lose": 13,
+                "lose": 14,
                 "goals": {
                   "for": 44,
-                  "against": 39
+                  "against": 41
                 }
               }
             },
             {
               "rank": 10,
+              "team": {
+                "id": 267,
+                "name": "Vasco",
+                "logo": "https://s.sde.globo.com/media/organizations/2021/09/04/vasco_SVG.svg"
+              },
+              "points": 45,
+              "goalsDiff": -5,
+              "form": "LWLWW",
+              "description": "Copa Sudamericana",
+              "all": {
+                "played": 35,
+                "win": 12,
+                "draw": 9,
+                "lose": 14,
+                "goals": {
+                  "for": 45,
+                  "against": 50
+                }
+              }
+            },
+            {
+              "rank": 11,
               "team": {
                 "id": 276,
                 "name": "São Paulo",
@@ -19347,28 +19369,6 @@
                 "goals": {
                   "for": 39,
                   "against": 39
-                }
-              }
-            },
-            {
-              "rank": 11,
-              "team": {
-                "id": 267,
-                "name": "Vasco",
-                "logo": "https://s.sde.globo.com/media/organizations/2021/09/04/vasco_SVG.svg"
-              },
-              "points": 44,
-              "goalsDiff": -5,
-              "form": "DLWLW",
-              "description": "Copa Sudamericana",
-              "all": {
-                "played": 34,
-                "win": 12,
-                "draw": 8,
-                "lose": 14,
-                "goals": {
-                  "for": 45,
-                  "against": 50
                 }
               }
             },
@@ -19419,6 +19419,28 @@
             {
               "rank": 14,
               "team": {
+                "id": 287,
+                "name": "Vitória",
+                "logo": "https://s.sde.globo.com/media/organizations/2025/12/18/Vitoria_2025.svg"
+              },
+              "points": 41,
+              "goalsDiff": -14,
+              "form": "DDLLW",
+              "description": null,
+              "all": {
+                "played": 35,
+                "win": 11,
+                "draw": 8,
+                "lose": 16,
+                "goals": {
+                  "for": 37,
+                  "against": 51
+                }
+              }
+            },
+            {
+              "rank": 15,
+              "team": {
                 "id": 2305,
                 "name": "Mirassol",
                 "logo": "https://s.sde.globo.com/media/organizations/2026/07/17/MIrassol.svg"
@@ -19439,7 +19461,7 @@
               }
             },
             {
-              "rank": 15,
+              "rank": 16,
               "team": {
                 "id": 264,
                 "name": "Corinthians",
@@ -19461,42 +19483,20 @@
               }
             },
             {
-              "rank": 16,
-              "team": {
-                "id": 287,
-                "name": "Vitória",
-                "logo": "https://s.sde.globo.com/media/organizations/2025/12/18/Vitoria_2025.svg"
-              },
-              "points": 38,
-              "goalsDiff": -16,
-              "form": "LDDLL",
-              "description": null,
-              "all": {
-                "played": 34,
-                "win": 10,
-                "draw": 8,
-                "lose": 16,
-                "goals": {
-                  "for": 35,
-                  "against": 51
-                }
-              }
-            },
-            {
               "rank": 17,
               "team": {
                 "id": 285,
                 "name": "Internacional",
                 "logo": "https://s.sde.globo.com/media/organizations/2018/03/11/internacional.svg"
               },
-              "points": 38,
+              "points": 39,
               "goalsDiff": -4,
-              "form": "DLWLW",
+              "form": "LWLWL",
               "description": "Relegation",
               "all": {
-                "played": 34,
+                "played": 35,
                 "win": 9,
-                "draw": 11,
+                "draw": 12,
                 "lose": 14,
                 "goals": {
                   "for": 38,
@@ -19733,6 +19733,28 @@
     {
       "player": {
         "id": 8,
+        "name": "Renê",
+        "photo": "https://s.sde.globo.com/media/person_role/2026/11/06/photo_140x140_rNHKW8f.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "name": "Vitória",
+            "logo": "https://s.sde.globo.com/media/organizations/2025/12/18/Vitoria-2025-65.png"
+          },
+          "goals": {
+            "total": 11,
+            "assists": null
+          },
+          "games": {
+            "appearences": 0
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 9,
         "name": "Flaco López",
         "photo": "https://s.sde.globo.com/media/person_role/2026/08/19/photo_140x140_nrOfcKo.png"
       },
@@ -19754,7 +19776,7 @@
     },
     {
       "player": {
-        "id": 9,
+        "id": 10,
         "name": "Danilo",
         "photo": "https://s.sde.globo.com/media/person_role/2026/07/06/photo_140x140_z4bUUy7.png"
       },
@@ -19776,7 +19798,7 @@
     },
     {
       "player": {
-        "id": 10,
+        "id": 11,
         "name": "Calleri",
         "photo": "https://s.sde.globo.com/media/person_role/2026/02/20/photo_140x140_2u6NnKV.png"
       },
@@ -19798,7 +19820,7 @@
     },
     {
       "player": {
-        "id": 11,
+        "id": 12,
         "name": "Maurício",
         "photo": "https://s.sde.globo.com/media/person_role/2026/08/19/photo_140x140_6MjlXVn.png"
       },
@@ -19820,7 +19842,7 @@
     },
     {
       "player": {
-        "id": 12,
+        "id": 13,
         "name": "Matheus Pereira",
         "photo": "https://s.sde.globo.com/media/person_role/2025/04/01/photo_140x140_paqfi1w.png"
       },
@@ -19842,7 +19864,7 @@
     },
     {
       "player": {
-        "id": 13,
+        "id": 14,
         "name": "Jajá",
         "photo": "https://s.sde.globo.com/media/person_role/2026/03/31/photo_140x140_HhBEQDC.png"
       },
@@ -19851,28 +19873,6 @@
           "team": {
             "name": "Remo",
             "logo": "https://s.sde.globo.com/media/organizations/2013/10/11/REmo-65.png"
-          },
-          "goals": {
-            "total": 10,
-            "assists": null
-          },
-          "games": {
-            "appearences": 0
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 14,
-        "name": "Renê",
-        "photo": "https://s.sde.globo.com/media/person_role/2026/11/06/photo_140x140_rNHKW8f.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "name": "Vitória",
-            "logo": "https://s.sde.globo.com/media/organizations/2025/12/18/Vitoria-2025-65.png"
           },
           "goals": {
             "total": 10,
@@ -20283,6 +20283,28 @@
     {
       "player": {
         "id": 33,
+        "name": "Thiago Mendes",
+        "photo": "https://s.sde.globo.com/media/person_role/2026/03/02/photo_140x140.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "name": "Vasco",
+            "logo": "https://s.sde.globo.com/media/organizations/2021/09/04/ESCUDO-VASCO-RGB_65px.png"
+          },
+          "goals": {
+            "total": 6,
+            "assists": null
+          },
+          "games": {
+            "appearences": 0
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 34,
         "name": "Arias",
         "photo": "https://s.sde.globo.com/media/person_role/2026/08/19/photo_140x140_mdm3UM1.png"
       },
@@ -20304,7 +20326,7 @@
     },
     {
       "player": {
-        "id": 34,
+        "id": 35,
         "name": "Rodrigo Castillo",
         "photo": "https://s.sde.globo.com/media/person_role/2026/07/06/photo_140x140_FuaIXQB.png"
       },
@@ -20326,7 +20348,7 @@
     },
     {
       "player": {
-        "id": 35,
+        "id": 36,
         "name": "Kaio César",
         "photo": "https://s.sde.globo.com/media/person_role/2025/04/02/photo_140x140_xbpNMqA.png"
       },
@@ -20348,7 +20370,7 @@
     },
     {
       "player": {
-        "id": 36,
+        "id": 37,
         "name": "Vitor Roque",
         "photo": "https://s.sde.globo.com/media/person_role/2025/04/01/photo_140x140_UbLy5Jq.png"
       },
@@ -20370,7 +20392,7 @@
     },
     {
       "player": {
-        "id": 37,
+        "id": 38,
         "name": "Renato Kayzer",
         "photo": "https://s.sde.globo.com/media/person_role/2025/04/11/photo_140x140_xVBPNKg.png"
       },
@@ -20392,7 +20414,7 @@
     },
     {
       "player": {
-        "id": 38,
+        "id": 39,
         "name": "Alef Manga",
         "photo": "https://s.sde.globo.com/media/person_role/2026/02/09/photo_140x140_vvMsJPI.png"
       },
@@ -20414,7 +20436,7 @@
     },
     {
       "player": {
-        "id": 39,
+        "id": 40,
         "name": "Ramón Sosa",
         "photo": "https://s.sde.globo.com/media/person_role/2026/08/19/photo_140x140_ZCpsfVa.png"
       },
@@ -20436,7 +20458,7 @@
     },
     {
       "player": {
-        "id": 40,
+        "id": 41,
         "name": "Lavega",
         "photo": "https://s.sde.globo.com/media/person_role/2026/02/09/photo_140x140_LeapY03.png"
       },
@@ -20458,7 +20480,7 @@
     },
     {
       "player": {
-        "id": 41,
+        "id": 42,
         "name": "Matheuzinho",
         "photo": "https://s.sde.globo.com/media/person_role/2026/11/06/photo_140x140_p7MmBhg.png"
       },
@@ -20480,7 +20502,7 @@
     },
     {
       "player": {
-        "id": 42,
+        "id": 43,
         "name": "Matheus Bidu",
         "photo": "https://s.sde.globo.com/media/person_role/2025/04/01/photo_140x140_OSHSlSF.png"
       },
@@ -20502,7 +20524,7 @@
     },
     {
       "player": {
-        "id": 43,
+        "id": 44,
         "name": "Erick",
         "photo": "https://s.sde.globo.com/media/person_role/2026/11/06/photo_140x140.png"
       },
@@ -20524,7 +20546,7 @@
     },
     {
       "player": {
-        "id": 44,
+        "id": 45,
         "name": "Christian",
         "photo": "https://s.sde.globo.com/media/person_role/2025/04/01/photo_140x140_1FOgaNC.png"
       },
@@ -20533,28 +20555,6 @@
           "team": {
             "name": "Cruzeiro",
             "logo": "https://s.sde.globo.com/media/organizations/2021/02/13/65_cruzeiro-2021.png"
-          },
-          "goals": {
-            "total": 5,
-            "assists": null
-          },
-          "games": {
-            "appearences": 0
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 45,
-        "name": "Thiago Mendes",
-        "photo": "https://s.sde.globo.com/media/person_role/2026/03/02/photo_140x140.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "name": "Vasco",
-            "logo": "https://s.sde.globo.com/media/organizations/2021/09/04/ESCUDO-VASCO-RGB_65px.png"
           },
           "goals": {
             "total": 5,
@@ -20681,10 +20681,10 @@
   "budget": {
     "used": 0,
     "remaining": 100,
-    "mode": "prematch",
-    "liveIntervalMs": 120000
+    "mode": "live",
+    "liveIntervalMs": 20000
   },
-  "fetchedAt": "2026-11-19T17:02:39.500Z",
+  "fetchedAt": "2026-11-19T23:31:50.592Z",
   "source": "ge-globo",
   "meta": {
     "rodada": 35,
@@ -20729,7 +20729,7 @@
       37,
       38
     ],
-    "seasonSyncedAt": "2026-11-19T17:02:23.271Z",
+    "seasonSyncedAt": "2026-11-19T23:31:30.396Z",
     "fullSeasonSync": true,
     "edicao": "Campeonato Brasileiro 2026",
     "provider": "ge.globo.com",
@@ -20741,7 +20741,7 @@
     "tvPreserved": 0,
     "tvAvailable": 384,
     "tvSource": "Onde Assistir — https://ondeassistir.com.br/dados",
-    "tvUpdatedAt": "2026-11-19T14:16:28.000000Z",
+    "tvUpdatedAt": "2026-11-19T22:14:21.000000Z",
     "fixturesCount": 380
   }
 }

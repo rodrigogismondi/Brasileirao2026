@@ -330,8 +330,12 @@ function minuteParts(display: string, seconds: number): { label: string; sortKey
 }
 
 function isGoalType(type: string): boolean {
-  if (type.includes("own-goal")) return true;
-  return type === "goal" || type.startsWith("goal-") || type.startsWith("goal---");
+  const t = type.toLowerCase();
+  if (t.includes("own-goal")) return true;
+  if (t === "goal" || t.startsWith("goal-") || t.startsWith("goal---")) return true;
+  // ESPN: penalty---scored. Missed/saved penalties must not count.
+  if (t.includes("penalty") && (t.includes("scored") || t.includes("goal"))) return true;
+  return false;
 }
 
 function isDisallowedGoal(type: string, text: string): boolean {

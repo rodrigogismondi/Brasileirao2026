@@ -44,7 +44,10 @@
     }
   },
   "odds": null,
-  "tv": [],
+  "tv": [
+    "SporTV",
+    "Premiere"
+  ],
   "_geUrl": "https://ge.globo.com/rj/futebol/brasileirao-serie-a/jogo/19-11-2026/vasco-internacional.ghtml",
   "events": [],
   "lineups": [
@@ -99,7 +102,7 @@
           "player": {
             "id": "cuiabano",
             "name": "Cuiabano",
-            "number": null,
+            "number": 66,
             "pos": "Def",
             "grid": null
           }
@@ -135,7 +138,7 @@
           "player": {
             "id": "carlosgomez",
             "name": "Andrés Gómez",
-            "number": null,
+            "number": 11,
             "pos": "Ata",
             "grid": null
           }
@@ -167,7 +170,7 @@
         "name": "Internacional",
         "logo": "https://s.sde.globo.com/media/organizations/2018/03/11/internacional.svg"
       },
-      "formation": "3-4-3",
+      "formation": "3-6-1",
       "coach": {
         "name": "Eduardo Baptista"
       },
@@ -230,7 +233,16 @@
           "player": {
             "id": "ronaldo123",
             "name": "Ronaldo",
-            "number": null,
+            "number": 16,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "vitornaum",
+            "name": "Vitinho",
+            "number": 28,
             "pos": "Mei",
             "grid": null
           }
@@ -239,7 +251,7 @@
           "player": {
             "id": "alanpatrick",
             "name": "Alan Patrick",
-            "number": null,
+            "number": 10,
             "pos": "Mei",
             "grid": null
           }
@@ -250,15 +262,6 @@
             "name": "Matheus Bahia",
             "number": 6,
             "pos": "Def",
-            "grid": null
-          }
-        },
-        {
-          "player": {
-            "id": "vitornaum",
-            "name": "Vitinho",
-            "number": 28,
-            "pos": "Ata",
             "grid": null
           }
         },

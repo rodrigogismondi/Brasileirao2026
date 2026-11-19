@@ -7,11 +7,11 @@
       "city": ""
     },
     "status": {
-      "long": "NS",
-      "short": "NS",
+      "long": "1H",
+      "short": "1H",
       "elapsed": null
     },
-    "timerStart": null,
+    "timerStart": "2026-11-19T00:30:42.417Z",
     "timerStatus": "PAUSADO"
   },
   "league": {
@@ -30,8 +30,8 @@
     }
   },
   "goals": {
-    "home": null,
-    "away": null
+    "home": 0,
+    "away": 0
   },
   "score": {
     "halftime": {
@@ -46,7 +46,24 @@
   "odds": null,
   "tv": [],
   "_geUrl": "https://ge.globo.com/rs/futebol/brasileirao-serie-a/jogo/18-11-2026/gremio-bahia.ghtml",
-  "events": [],
+  "events": [
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Bola rolando para Grêmio e Bahia em Porto Alegre.",
+      "player": {
+        "name": "Começou!"
+      },
+      "assist": null
+    }
+  ],
   "lineups": [
     {
       "team": {
@@ -135,7 +152,7 @@
           "player": {
             "id": "crispavon",
             "name": "Pavón",
-            "number": null,
+            "number": 7,
             "pos": "Ata",
             "grid": null
           }
@@ -159,7 +176,116 @@
           }
         }
       ],
-      "substitutes": []
+      "substitutes": [
+        {
+          "player": {
+            "id": "gabriel-grando",
+            "name": "Gabriel Grando",
+            "number": 12,
+            "pos": "Gol",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "marcosrocha2",
+            "name": "Marcos Rocha",
+            "number": 14,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "diego-caito",
+            "name": "Diego Caito",
+            "number": 27,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "wagner-leonardo",
+            "name": "Wagner Leonardo",
+            "number": 3,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "caio-paulista",
+            "name": "Caio Paulista",
+            "number": 38,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "krovinovic",
+            "name": "Krovinovic",
+            "number": 10,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "danilobarbosa",
+            "name": "Danilo Barbosa",
+            "number": 15,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "bernardo-zortea",
+            "name": "Bernardo Zortea",
+            "number": 50,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "tetemat",
+            "name": "Tetê",
+            "number": 11,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "braithwaite",
+            "name": "Braithwaite",
+            "number": 22,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "jovane",
+            "name": "Jovane Cabral",
+            "number": 77,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "enamorado",
+            "name": "Enamorado",
+            "number": 99,
+            "pos": "Ata",
+            "grid": null
+          }
+        }
+      ]
     },
     {
       "team": {
@@ -167,7 +293,7 @@
         "name": "Bahia",
         "logo": "https://s.sde.globo.com/media/organizations/2018/03/11/bahia.svg"
       },
-      "formation": "4-3-3",
+      "formation": "4-5-1",
       "coach": {
         "name": "Rogério Ceni"
       },
@@ -203,7 +329,7 @@
           "player": {
             "id": "kanu-victor-hugo",
             "name": "Kanu",
-            "number": null,
+            "number": 4,
             "pos": "Def",
             "grid": null
           }
@@ -228,9 +354,9 @@
         },
         {
           "player": {
-            "id": "jeanlucassouza",
-            "name": "Jean Lucas",
-            "number": 6,
+            "id": "erick-carvalho",
+            "name": "Erick",
+            "number": 14,
             "pos": "Mei",
             "grid": null
           }
@@ -246,10 +372,19 @@
         },
         {
           "player": {
-            "id": "cristianolivera424",
-            "name": "Cristian Olivera",
-            "number": 99,
-            "pos": "Ata",
+            "id": "jeanlucassouza",
+            "name": "Jean Lucas",
+            "number": 6,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "erickpulga",
+            "name": "Erick Pulga",
+            "number": 16,
+            "pos": "Mei",
             "grid": null
           }
         },
@@ -261,18 +396,118 @@
             "pos": "Ata",
             "grid": null
           }
+        }
+      ],
+      "substitutes": [
+        {
+          "player": {
+            "id": "guiherrera",
+            "name": "Guido Herrera",
+            "number": 17,
+            "pos": "Gol",
+            "grid": null
+          }
         },
         {
           "player": {
-            "id": "erickpulga",
-            "name": "Erick Pulga",
-            "number": 16,
+            "id": "roman-gomez",
+            "name": "Román Gómez",
+            "number": 31,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "marcomoreno",
+            "name": "Marco Moreno",
+            "number": 3,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "luiz-gustavo-dos-santos",
+            "name": "Luiz Gustavo",
+            "number": 43,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "zeguilc",
+            "name": "Zé Guilherme",
+            "number": 66,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "caioalexandre",
+            "name": "Caio Alexandre",
+            "number": 8,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "evertonribeiro",
+            "name": "Everton Ribeiro",
+            "number": 10,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "michelaraujovillar",
+            "name": "Michel Araújo",
+            "number": 15,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "David-Martins",
+            "name": "David Martins",
+            "number": 63,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "ademirsant",
+            "name": "Ademir",
+            "number": 7,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "matsanabria",
+            "name": "Sanabria",
+            "number": 23,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "ruan-pablo",
+            "name": "Ruan Pablo",
+            "number": 77,
             "pos": "Ata",
             "grid": null
           }
         }
-      ],
-      "substitutes": []
+      ]
     }
   ],
   "statistics": [],

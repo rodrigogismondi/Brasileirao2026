@@ -56,6 +56,22 @@
         "id": 294,
         "name": "Coritiba"
       },
+      "type": "Card",
+      "detail": "Red Card",
+      "player": {
+        "name": "?"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 294,
+        "name": "Coritiba"
+      },
       "type": "Important",
       "detail": "\"Coisa de jogo, Josué me deu ombrada, ele falou coisas que não devia, agora eu acho queles vão cair\", disse Gabigol, à Record, sobre comemoração em cima do camisa 10 do Coritiba.",
       "player": {
@@ -64,6 +80,22 @@
       "assist": {
         "name": "fala, artilheiro!"
       }
+    },
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 294,
+        "name": "Coritiba"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "?"
+      },
+      "assist": null
     },
     {
       "time": {
@@ -2769,11 +2801,11 @@
         },
         {
           "type": "Yellow Cards",
-          "value": 5
+          "value": 6
         },
         {
           "type": "Red Cards",
-          "value": 0
+          "value": 1
         }
       ]
     },

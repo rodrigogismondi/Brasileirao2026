@@ -7,11 +7,11 @@
       "city": ""
     },
     "status": {
-      "long": "HT",
-      "short": "HT",
-      "elapsed": 45
+      "long": "FT",
+      "short": "FT",
+      "elapsed": 90
     },
-    "timerStart": "2026-11-19T23:26:09.538Z",
+    "timerStart": "2026-11-20T00:42:19.915Z",
     "timerStatus": "PAUSADO"
   },
   "league": {
@@ -31,7 +31,7 @@
   },
   "goals": {
     "home": 2,
-    "away": 0
+    "away": 1
   },
   "score": {
     "halftime": {
@@ -39,14 +39,134 @@
       "away": null
     },
     "fulltime": {
-      "home": null,
-      "away": null
+      "home": 2,
+      "away": 1
     }
   },
   "odds": null,
   "tv": [],
   "_geUrl": "https://ge.globo.com/ba/futebol/brasileirao-serie-a/jogo/19-11-2026/vitoria-bragantino.ghtml",
   "events": [
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 287,
+        "name": "Vitória"
+      },
+      "type": "Important",
+      "detail": "- Essa vitóiria veio em momento importante, onde precisamos virar a chave. O que passou, passou. temos que pensar nos últimos três jogos. Parabéns para a equipe, parabéns para essa nova comissão que chegou.",
+      "player": {
+        "name": "Baralhas"
+      },
+      "assist": {
+        "name": "FALA, BARALHAS"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 280,
+        "name": "Bragantino"
+      },
+      "type": "Important",
+      "detail": "Não fizemos um bom jogo no primeiro tempo e isso definiu a partida. Viemos para o segundo tempo com mais garra. Aconteceu bastante coisa comigo com a arbitragem. Em nenhum momento, eu não questinei. Ele disse que encostou em mim. Ele viu o lance no VAR e falou: \"poxa, Wallace. Eu vi que pegou, mas não era para pênalti\". Mas não podemos ficar lamentando por um jogo que não fomos bem no primeiro tempo.",
+      "player": {
+        "name": "Wallace Yan"
+      },
+      "assist": {
+        "name": "FALA, WALLACE YAN"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 280,
+        "name": "Bragantino"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Gustavinho"
+      },
+      "assist": {
+        "name": "Herrera"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 280,
+        "name": "Bragantino"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Alix Vinicius"
+      },
+      "assist": {
+        "name": "Guzmán Rodríguez"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Vitória não demorou para encontrar o gol. Logo aos três minutos, Erick levantou a bola na área, e Britez cabeceou para o gol. O Bragantino tentou se lançar ao ataque para empatar, mas teve dificuldades para criar jogadas. De quebra, viu os anfitriões encaixar bons contra-ataques. Em uma dessas subidas, o Vitória ampliou. Aos 23 minutos, Mateus Silva cruzou na área, e Renê desviou para o gol. O Bragantino teve um pênalti anulado de Wallace Yan, após checagem do VAR. E na reta final do primeiro tempo, o terceiro gol do vitória foi anulado por impedimento.",
+      "player": {
+        "name": "RESUMO DO PRIMEIRO TEMPO"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 280,
+        "name": "Bragantino"
+      },
+      "type": "Important",
+      "detail": "- Tomamos o gol muito cedo. Levar um gol com menos de cinco minutos, destrói qualquer plano. Eles passam a jogar atrás e explorar bolas longas nas costas da defesa. Gol cedo acaba com o que viemos propor hoje. Sempre dá para virar. Vamos fazer de tudo para virar o jogo.",
+      "player": {
+        "name": "FALA, VOLPI"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 287,
+        "name": "Vitória"
+      },
+      "type": "Important",
+      "detail": "- Contente pelo primeiro gol com essa camisa. Feliz por abrir o marcador rápido. Soubemos controlar até os 35 minutos. Estamos bem e vamos fazer um segundo tempo melhor para ficar com os três pontos.",
+      "player": {
+        "name": "FALA, BRITEZ"
+      },
+      "assist": null
+    },
     {
       "time": {
         "elapsed": 0,
@@ -613,6 +733,22 @@
     },
     {
       "time": {
+        "elapsed": 45,
+        "extra": null
+      },
+      "team": {
+        "id": 287,
+        "name": "Vitória"
+      },
+      "type": "Important",
+      "detail": "O Vitória tem a posse de bola.",
+      "player": {
+        "name": "RECOMEÇA O JOGO"
+      },
+      "assist": null
+    },
+    {
+      "time": {
         "elapsed": 46,
         "extra": null
       },
@@ -640,6 +776,22 @@
       "detail": "Tarzia é acionado no ataque e faz o cruzamento na área. Erick domina e chuta no canto. A bola entra no gol, mas a jogada é anulada por impedimento de Tarzia.",
       "player": {
         "name": "GOL ANULADO"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 47,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Após cruzamento na área, Agustin Sant'Anna finaliza para fora.",
+      "player": {
+        "name": "Após cruzamento na área, Agustin Sant'Anna final"
       },
       "assist": null
     },
@@ -693,6 +845,86 @@
     },
     {
       "time": {
+        "elapsed": 51,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Após cerca de sete minutos do segundo tempo, o Vitória vai batendo o Bragantino por 2 a 0 em um duelo bastante movimentado. Logo cedo, Brítez abriu o placar de cabeça e Renê ampliou após belo cruzamento. O time paulista tentou reagir, teve um pênalti anulado pelo VAR e agora corre atrás do prejuízo, enquanto os donos da casa administram a vantagem mesmo após a saída do atacante Erick.",
+      "player": {
+        "name": "Vitória impõe ritmo e abre vantagem no Barradão"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 51,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Erick deixa o campo com dores nas costas.",
+      "player": {
+        "name": "Erick deixa o campo com dores nas costas."
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 52,
+        "extra": null
+      },
+      "team": {
+        "id": 280,
+        "name": "Bragantino"
+      },
+      "type": "Important",
+      "detail": "Wallace Yan recebe perto da linha de fundo, corta a marcação e bate cruzado. A bola vai para fora.",
+      "player": {
+        "name": "Wallace Yan"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 54,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Vitória começou firme e abriu o placar logo aos 3 minutos com Brítez de cabeça. O time da casa manteve a intensidade e ampliou aos 23 minutos com gol de Renê, fazendo 2 a 0. O Bragantino tentou reagir, teve um pênalti anulado pelo VAR no primeiro tempo e tenta criar espaços. Passados 10 minutos da etapa final, o time paulista busca pressionar, mas esbarra na defesa adversária.",
+      "player": {
+        "name": "Vitória é eficiente e lidera placar no Barradão"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 54,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Juninho Capixaba faz cruzamento na área, e Fernando cabeceia a bola por cima do gol.",
+      "player": {
+        "name": "Juninho Capixaba faz cruzamento na área, e Ferna"
+      },
+      "assist": null
+    },
+    {
+      "time": {
         "elapsed": 54,
         "extra": null
       },
@@ -720,6 +952,634 @@
       "detail": "O Vitória vai vencendo o Bragantino por 2 a 0.",
       "player": {
         "name": "FIM DO PRIMEIRO TEMPO"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 57,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Com 13 minutos do segundo tempo, o Vitória vai batendo o Bragantino por 2 a 0. O placar começou a ser construído logo no início, quando Brítez escorou de cabeça após cruzamento de Erick. Aos 23, Renê ampliou antecipando a zaga. O time paulista ainda teve um pênalti anulado pelo VAR e tenta reagir na etapa final, mas peca nas finalizações diante da forte defesa baiana.",
+      "player": {
+        "name": "Vitória domina e segura vantagem no Barradão"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 57,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Tarzia cobra falta de longe e chuta por cima do gol.",
+      "player": {
+        "name": "Tarzia cobra falta de longe e chuta por cima do "
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 61,
+        "extra": null
+      },
+      "team": {
+        "id": 287,
+        "name": "Vitória"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Marinho"
+      },
+      "assist": {
+        "name": "Erick"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 61,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Com 16 minutos da etapa final, o Vitória vai batendo o Bragantino por 2 a 0. Os donos da casa construíram o placar cedo: Brítez abriu o marcador de cabeça aos 3 minutos e Renê ampliou aos 23. O Bragantino ainda teve um pênalti anulado após revisão do VAR no primeiro tempo e agora busca diminuir o prejuízo, enquanto os mandantes administram o resultado e controlam o ritmo do duelo.",
+      "player": {
+        "name": "Vitória domina e constrói vantagem no Barradão"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 61,
+        "extra": null
+      },
+      "team": {
+        "id": 287,
+        "name": "Vitória"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Caíque"
+      },
+      "assist": {
+        "name": "Matheuzinho"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 63,
+        "extra": null
+      },
+      "team": {
+        "id": 280,
+        "name": "Bragantino"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Fabinho"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 67,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Vitória abriu vantagem no primeiro tempo com gols de Brítez, de cabeça, e Renê, após cruzamento de Mateus Silva. O Bragantino tentou reagir, teve um pênalti anulado pelo VAR e busca pressionar na etapa final. Passados 22 minutos do segundo tempo, a equipe da casa segura o placar de 2 a 0, enquanto os visitantes lutam para furar o forte bloqueio defensivo do adversário.",
+      "player": {
+        "name": "Vitória impõe força em casa e lidera por 2 a 0"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 67,
+        "extra": null
+      },
+      "team": {
+        "id": 280,
+        "name": "Bragantino"
+      },
+      "type": "Important",
+      "detail": "Bragantino tem escanteio para cobrar.",
+      "player": {
+        "name": "Bragantino tem escanteio para cobrar."
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 68,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Após cobrança curta de escanteio do Bragantino, a defesa do Vitória afasta o perigo.",
+      "player": {
+        "name": "Após cobrança curta de escanteio do Bragantino, "
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 68,
+        "extra": null
+      },
+      "team": {
+        "id": 280,
+        "name": "Bragantino"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Henry Mosquera"
+      },
+      "assist": {
+        "name": "Fabinho"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 68,
+        "extra": null
+      },
+      "team": {
+        "id": 280,
+        "name": "Bragantino"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Vinicinho"
+      },
+      "assist": {
+        "name": "Fernando"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 69,
+        "extra": null
+      },
+      "team": {
+        "id": 287,
+        "name": "Vitória"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Gean"
+      },
+      "assist": {
+        "name": "Mateus Silva"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 70,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Com 25 minutos do segundo tempo, o Vitória vai confirmando o triunfo por 2 a 0 sobre o Bragantino no Barradão. O time da casa construiu o placar ainda na etapa inicial, com Brítez cabeceando para a rede logo no início e Renê ampliando após bom cruzamento. Os paulistas chegaram a ter um pênalti anulado pelo VAR e agora tentam pressionar, mas param nas boas defesas de Lucas Arcanjo.",
+      "player": {
+        "name": "Vitória constrói vantagem e segura o Bragantino"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 70,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "A bola sobra para Wallace Yan, dentro da área. Ele chuta rasteiro, e Lucas Arcanjo faz a defesa.",
+      "player": {
+        "name": "A bola sobra para Wallace Yan, dentro da área. E"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 72,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Vitória começou avassalador no Barradão e abriu dois gols de vantagem no primeiro tempo, com Brítez cabeceando para a rede e Renê ampliando após cruzamento. O Bragantino buscou reagir, teve um pênalti anulado pelo VAR e, aos 28 minutos da etapa final, diminuiu o prejuízo com Henry Mosquera completando na segunda trave. Placar atualizado em 2 a 1 em um duelo muito aberto.",
+      "player": {
+        "name": "Vitória segura vantagem contra o Bragantino"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 72,
+        "extra": null
+      },
+      "team": {
+        "id": 280,
+        "name": "Bragantino"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "player": {
+        "name": "Henry Mosquera"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 74,
+        "extra": null
+      },
+      "team": {
+        "id": 287,
+        "name": "Vitória"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Zé Vitor"
+      },
+      "assist": {
+        "name": "Renê"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 75,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Aos 30 minutos do segundo tempo, o Vitória lidera por 2 a 1 no Barradão. O time baiano construiu a vantagem na etapa inicial com gols de Brítez, aos 3 minutos, e de Renê. O Bragantino chegou a ter um pênalti anulado pelo VAR, mas seguiu lutando e diminuiu a desvantagem aos 27 da etapa final, graças ao gol de Henry Mosquera. O confronto segue aberto e muito tenso na reta final.",
+      "player": {
+        "name": "Bragantino reage, mas Vitória segue na frente"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 75,
+        "extra": null
+      },
+      "team": {
+        "id": 287,
+        "name": "Vitória"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Renato Kayzer"
+      },
+      "assist": {
+        "name": "Baralhas"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 76,
+        "extra": null
+      },
+      "team": {
+        "id": 287,
+        "name": "Vitória"
+      },
+      "type": "Important",
+      "detail": "Sasha é lançado no ataque, e a defesa do Vitória corta o lance.",
+      "player": {
+        "name": "Sasha é lançado no ataque, e a defesa do Vitória"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 77,
+        "extra": null
+      },
+      "team": {
+        "id": 280,
+        "name": "Bragantino"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Matheus Fernandes"
+      },
+      "assist": {
+        "name": "Eric Ramires"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 78,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Aos 33 minutos do segundo tempo, o Vitória vai vencendo o Bragantino por 2 a 1 no Barradão. O time da casa começou muito forte e abriu ótima vantagem com gols de Brítez e Renê ainda na etapa inicial. O Bragantino buscou a reação na etapa complementar e conseguiu descontar com um gol contra de Gean. A reta final do confronto segue aberta e com muita intensidade em campo.",
+      "player": {
+        "name": "Vitória segura pressão do Bragantino no Barradão"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 78,
+        "extra": null
+      },
+      "team": {
+        "id": 280,
+        "name": "Bragantino"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Gustavo Marques"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 80,
+        "extra": null
+      },
+      "team": {
+        "id": 280,
+        "name": "Bragantino"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Matheus Fernandes"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 83,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Vitória abriu boa vantagem com Brítez e Renê no primeiro tempo. O Bragantino tentou reagir e, após ter um pênalti anulado pelo VAR na etapa inicial, conseguiu diminuir aos 27 minutos do segundo tempo em um gol contra de Gean. Passados 38 minutos da etapa final, o jogo segue tenso após Renato Kayzer quase ampliar. O placar de 2 a 1 garante a emoção até o apito final.",
+      "player": {
+        "name": "Vitória segura vantagem em jogo tenso no Barradão"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 83,
+        "extra": null
+      },
+      "team": {
+        "id": 287,
+        "name": "Vitória"
+      },
+      "type": "Important",
+      "detail": "Renato Kayser bota a bola na frente e arranca em velocidade ao ataque. Na saída de Volpi, ele toca no canto. A bola passa raspando na trave e vai para fora.",
+      "player": {
+        "name": "Renato Kayzer"
+      },
+      "assist": {
+        "name": "UUUUHHHHHH"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 85,
+        "extra": null
+      },
+      "team": {
+        "id": 287,
+        "name": "Vitória"
+      },
+      "type": "Important",
+      "detail": "Após cobrança de escanteio, a bola sobra para Marinho. Ele solta um mini missíl e exige grande defesa de Volpi.",
+      "player": {
+        "name": "Marinho"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 87,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Vitória abriu boa vantagem ainda na etapa inicial com gols de Brítez e Renê. O Bragantino pressionou, teve um pênalti anulado pelo VAR e diminuiu para 2 a 1 aos 27 minutos do segundo tempo, com gol contra de Gean. Aos 42 minutos da etapa final, a partida segue aberta, com defesas de Volpi e chances perdidas para ambos os lados no Barradão.",
+      "player": {
+        "name": "Vitória segura vantagem em jogo tenso no Barradão"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 87,
+        "extra": null
+      },
+      "team": {
+        "id": 280,
+        "name": "Bragantino"
+      },
+      "type": "Important",
+      "detail": "Wallace Yan, dentro da área, finaliza para o gol. A bola vai por cima do travessão.",
+      "player": {
+        "name": "Wallace Yan"
+      },
+      "assist": {
+        "name": "POR CIMA"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 90,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Vitória abriu boa vantagem no primeiro tempo com gols de Brítez e Renê. O Bragantino tentou reagir, teve pênalti anulado pelo VAR, mas diminuiu na etapa final após gol contra de Gean. Passados 45 minutos do segundo tempo, o confronto ganha tom dramático no Barradão, com o Bragantino pressionando com tudo em busca do empate e o Vitória tentando segurar o triunfo por 2 a 1.",
+      "player": {
+        "name": "Vitória segura pressão do Bragantino no fim"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 90,
+        "extra": null
+      },
+      "team": {
+        "id": 280,
+        "name": "Bragantino"
+      },
+      "type": "Important",
+      "detail": "Bragantino aperta nos últimos minutos em busca do empate.",
+      "player": {
+        "name": "Bragantino aperta nos últimos minutos em busca d"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 91,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Segundo tempo terá sete minutos de acréscimos.",
+      "player": {
+        "name": "ACRÉSCIMOS"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 94,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Vitória construiu sua vantagem ainda na etapa inicial com gols de Brítez e Renê. No segundo tempo, o Bragantino subiu de produção e descontou após gol contra de Gean. Já nos acréscimos, aos 50 minutos da etapa final, a pressão dos paulistas é sufocante em busca do empate, enquanto os donos da casa se defendem com unhas e dentes para garantir a vitória por 2 a 1.",
+      "player": {
+        "name": "Vitória segura vantagem sob pressão no Barradão"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 94,
+        "extra": null
+      },
+      "team": {
+        "id": 280,
+        "name": "Bragantino"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Wallace Yan"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 95,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Bragantino segue apertando o Vitória, que se defende como pode.",
+      "player": {
+        "name": "Bragantino segue apertando o Vitória, que se def"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 95,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Vitória construiu sua vantagem logo na etapa inicial, balançando as redes com Brítez e Renê. No segundo tempo, o Bragantino diminuiu a desvantagem para dois a um após gol contra de Gean e passou a pressionar forte pelo empate. Passados cinquenta minutos do segundo tempo, nos acréscimos, o clima segue tenso com o time paulista sufocando a defesa baiana, que se segura como pode.",
+      "player": {
+        "name": "Vitória segura vantagem contra o Bragantino"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 96,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Vitória vence o Bragantino por 2 a 1.",
+      "player": {
+        "name": "FIM DE JOGO"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 96,
+        "extra": null
+      },
+      "team": {
+        "id": 287,
+        "name": "Vitória"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Gean"
       },
       "assist": null
     }
@@ -1170,31 +2030,31 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "41%"
+          "value": "40%"
         },
         {
           "type": "Total Passes",
-          "value": 131
+          "value": 230
         },
         {
           "type": "Pass Accuracy",
-          "value": "69%"
+          "value": "65%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 40
+          "value": 81
         },
         {
           "type": "Total Shots",
-          "value": 6
+          "value": 10
         },
         {
           "type": "Shots on Goal",
-          "value": 3
+          "value": 5
         },
         {
           "type": "Shots off Goal",
-          "value": 2
+          "value": 4
         },
         {
           "type": "Blocked Shots",
@@ -1206,7 +2066,7 @@
         },
         {
           "type": "Corner Kicks",
-          "value": 3
+          "value": 7
         },
         {
           "type": "Offsides",
@@ -1218,19 +2078,19 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 5
+          "value": 12
         },
         {
           "type": "Tackles",
-          "value": 8
+          "value": 14
         },
         {
           "type": "Fouls",
-          "value": 6
+          "value": 15
         },
         {
           "type": "Yellow Cards",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Red Cards",
@@ -1246,35 +2106,35 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "59%"
+          "value": "60%"
         },
         {
           "type": "Total Passes",
-          "value": 242
+          "value": 449
         },
         {
           "type": "Pass Accuracy",
-          "value": "84%"
+          "value": "85%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 39
+          "value": 67
         },
         {
           "type": "Total Shots",
-          "value": 7
+          "value": 19
         },
         {
           "type": "Shots on Goal",
-          "value": 3
+          "value": 8
         },
         {
           "type": "Shots off Goal",
-          "value": 3
+          "value": 8
         },
         {
           "type": "Blocked Shots",
-          "value": 1
+          "value": 3
         },
         {
           "type": "Hit Woodwork",
@@ -1282,7 +2142,7 @@
         },
         {
           "type": "Corner Kicks",
-          "value": 7
+          "value": 8
         },
         {
           "type": "Offsides",
@@ -1294,19 +2154,19 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 0
+          "value": 2
         },
         {
           "type": "Tackles",
-          "value": 4
+          "value": 7
         },
         {
           "type": "Fouls",
-          "value": 9
+          "value": 23
         },
         {
           "type": "Yellow Cards",
-          "value": 2
+          "value": 6
         },
         {
           "type": "Red Cards",

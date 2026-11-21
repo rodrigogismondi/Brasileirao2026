@@ -13,6 +13,7 @@ import type {
   StandingRow,
   TeamLineup,
 } from "./types";
+import { recomputeStandings } from "./espn-live";
 import { isMatchToday, isMatchUpcoming } from "./utils";
 
 export type { DashboardData, BudgetInfo } from "./types";
@@ -467,7 +468,7 @@ export async function fetchDashboard(): Promise<DashboardData> {
     today: all.filter(isMatchToday),
     upcoming: all.filter(isMatchUpcoming).slice(0, 20),
     recent,
-    standings: mapStandings(data.standings),
+    standings: recomputeStandings(all, mapStandings(data.standings)),
     scorers: mapPlayerRows(data.scorers, "goals"),
     assists: mapPlayerRows(data.assists, "assists"),
     budget: data.budget,

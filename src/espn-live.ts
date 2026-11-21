@@ -8,6 +8,7 @@ import type {
   MatchMoment,
   MatchStatRow,
   MatchSub,
+  StandingRow,
   TeamLineup,
 } from "./types";
 import { isMatchToday, isMatchUpcoming } from "./utils";
@@ -270,15 +271,168 @@ export function patchMatch<T extends Match>(m: T, snaps: EspnSnapshot[], now = D
   };
 }
 
+function zoneForRank(rank: number): StandingRow["zone"] {
+  if (rank <= 4) return "libertadores";
+  if (rank <= 6) return "pre-libertadores";
+  if (rank <= 12) return "sudamericana";
+  if (rank >= 17) return "relegation";
+  return "mid";
+}
+
+function standingMatch(m: Match): m is Match & { score: [number, number] } {
+  if (m.status === "postponed" || !m.score) return false;
+  return m.status === "live" || m.status === "finished";
+}
+
+type TeamTotals = {
+  key: string;
+  name: string;
+  logo: string;
+  teamId: number;
+  played: number;
+  won: number;
+  drawn: number;
+  lost: number;
+  goalsFor: number;
+  goalsAgainst: number;
+  formParts: Array<{ at: number; code: "W" | "D" | "L" }>;
+};
+
+/**
+ * Rebuild the table from fixture scores so live (and just-finished) results
+ * move points before the GE classificacao scrape catches up.
+ */
+export function recomputeStandings(matches: Match[], previous: StandingRow[]): StandingRow[] {
+  if (!previous.length) return previous;
+  const byKey = new Map<string, TeamTotals>();
+  for (const row of previous) {
+    byKey.set(clubKey(row.name), {
+      key: clubKey(row.name),
+      name: row.name,
+      logo: row.logo,
+      teamId: row.teamId,
+      played: 0,
+      won: 0,
+      drawn: 0,
+      lost: 0,
+      goalsFor: 0,
+      goalsAgainst: 0,
+      formParts: [],
+    });
+  }
+
+  const counted: Array<Match & { score: [number, number] }> = [];
+  for (const m of matches) {
+    if (!standingMatch(m)) continue;
+    const home = byKey.get(clubKey(m.team1));
+    const away = byKey.get(clubKey(m.team2));
+    if (!home || !away) continue;
+    const [hg, ag] = m.score;
+    home.played++;
+    away.played++;
+    home.goalsFor += hg;
+    home.goalsAgainst += ag;
+    away.goalsFor += ag;
+    away.goalsAgainst += hg;
+    let homeCode: "W" | "D" | "L";
+    let awayCode: "W" | "D" | "L";
+    if (hg > ag) {
+      home.won++;
+      away.lost++;
+      homeCode = "W";
+      awayCode = "L";
+    } else if (ag > hg) {
+      away.won++;
+      home.lost++;
+      homeCode = "L";
+      awayCode = "W";
+    } else {
+      home.drawn++;
+      away.drawn++;
+      homeCode = "D";
+      awayCode = "D";
+    }
+    home.formParts.push({ at: m.datetime, code: homeCode });
+    away.formParts.push({ at: m.datetime, code: awayCode });
+    counted.push(m);
+  }
+
+  const h2h = (a: TeamTotals, b: TeamTotals): number => {
+    let aPts = 0;
+    let bPts = 0;
+    let aGd = 0;
+    for (const m of counted) {
+      const homeKey = clubKey(m.team1);
+      const awayKey = clubKey(m.team2);
+      const pair =
+        (homeKey === a.key && awayKey === b.key) || (homeKey === b.key && awayKey === a.key);
+      if (!pair) continue;
+      const [hg, ag] = m.score;
+      if (homeKey === a.key) {
+        if (hg > ag) aPts += 3;
+        else if (hg === ag) {
+          aPts += 1;
+          bPts += 1;
+        } else bPts += 3;
+        aGd += hg - ag;
+      } else {
+        if (ag > hg) aPts += 3;
+        else if (hg === ag) {
+          aPts += 1;
+          bPts += 1;
+        } else bPts += 3;
+        aGd += ag - hg;
+      }
+    }
+    return aPts - bPts || aGd;
+  };
+
+  const rows = [...byKey.values()].sort((a, b) => {
+    const aPts = a.won * 3 + a.drawn;
+    const bPts = b.won * 3 + b.drawn;
+    if (aPts !== bPts) return bPts - aPts;
+    if (a.won !== b.won) return b.won - a.won;
+    const aGd = a.goalsFor - a.goalsAgainst;
+    const bGd = b.goalsFor - b.goalsAgainst;
+    if (aGd !== bGd) return bGd - aGd;
+    if (a.goalsFor !== b.goalsFor) return b.goalsFor - a.goalsFor;
+    return h2h(b, a) || a.name.localeCompare(b.name, "pt");
+  });
+
+  return rows.map((row, index) => {
+    const rank = index + 1;
+    return {
+      rank,
+      teamId: row.teamId,
+      name: row.name,
+      logo: row.logo,
+      played: row.played,
+      won: row.won,
+      drawn: row.drawn,
+      lost: row.lost,
+      goalsFor: row.goalsFor,
+      goalsAgainst: row.goalsAgainst,
+      goalDiff: row.goalsFor - row.goalsAgainst,
+      points: row.won * 3 + row.drawn,
+      form: row.formParts
+        .sort((x, y) => x.at - y.at)
+        .slice(-5)
+        .map((p) => p.code)
+        .join(""),
+      zone: zoneForRank(rank),
+    };
+  });
+}
+
 export function applyEspnToDashboard(
   data: DashboardData,
   snaps: EspnSnapshot[],
   now = Date.now()
 ): DashboardData {
-  if (!snaps.length) return data;
-  const all = data.all.map((m) => patchMatch(m, snaps, now));
+  const all = snaps.length ? data.all.map((m) => patchMatch(m, snaps, now)) : data.all;
   const changed = all.some((m, i) => m !== data.all[i]);
-  if (!changed) return data;
+  const standings = recomputeStandings(all, data.standings);
+  if (!changed && !snaps.length) return { ...data, standings };
   return {
     ...data,
     all,
@@ -289,7 +443,8 @@ export function applyEspnToDashboard(
       .filter((m) => m.status === "finished")
       .sort((a, b) => b.datetime - a.datetime)
       .slice(0, 10),
-    fetchedAt: new Date(now),
+    standings,
+    fetchedAt: snaps.length ? new Date(now) : data.fetchedAt,
   };
 }
 

@@ -7,12 +7,12 @@
       "city": ""
     },
     "status": {
-      "long": "NS",
-      "short": "NS",
-      "elapsed": null
+      "long": "1H",
+      "short": "1H",
+      "elapsed": 17
     },
-    "timerStart": null,
-    "timerStatus": "PAUSADO"
+    "timerStart": "2026-11-22T22:31:44.317Z",
+    "timerStatus": "INICIADO"
   },
   "league": {
     "round": "Regular Season - 36"
@@ -30,8 +30,8 @@
     }
   },
   "goals": {
-    "home": null,
-    "away": null
+    "home": 0,
+    "away": 0
   },
   "score": {
     "halftime": {
@@ -46,7 +46,286 @@
   "odds": null,
   "tv": [],
   "_geUrl": "https://ge.globo.com/sp/vale-do-paraiba-regiao/futebol/brasileirao-serie-a/jogo/22-11-2026/bragantino-vasco.ghtml",
-  "events": [],
+  "events": [
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Começa o jogo em Bragança Paulista",
+      "player": {
+        "name": "BOLA ROLANDO!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 1,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Paulo Henrique tenta passe em profundidade para Bruno Duarte, mas Gustavo Marques intercepta e dá chutão",
+      "player": {
+        "name": "Paulo Henrique tenta passe em profundidade para "
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 1,
+        "extra": null
+      },
+      "team": {
+        "id": 267,
+        "name": "Vasco"
+      },
+      "type": "Important",
+      "detail": "Thiago Mendes busca arrancada e é agarrado no meio-campo. Falta para o Vasco",
+      "player": {
+        "name": "Thiago Mendes busca arrancada e é agarrado no me"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 2,
+        "extra": null
+      },
+      "team": {
+        "id": 280,
+        "name": "Bragantino"
+      },
+      "type": "Important",
+      "detail": "PH dá lançamento com muita força, Andrés Gómez se esforça para evitar a saída mas não consegue. Tiro de meta para o Bragantino",
+      "player": {
+        "name": "PH dá lançamento com muita força, Andrés Gómez s"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 3,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "A bola rola em Bragança Paulista e o confronto começa equilibrado nos primeiros 4 minutos. O Vasco tenta explorar as jogadas com Thiago Mendes no meio e lançamentos de Paulo Henrique para o ataque, mas a defesa do Bragantino se segura bem. O time da casa respondeu com a velocidade de Wallace Yan, que tentou a jogada individual na área, mas acabou perdendo o controle da bola.",
+      "player": {
+        "name": "Estudo e velocidade marcam o início em Bragança"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 3,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Wallace Yan recebe passe de Fabinho, carrega com velocidade, busca drible em cima de Gabriel Pereira dentro da área, mas deixa bola escapar pela linha de fundo na sequência",
+      "player": {
+        "name": "Wallace Yan recebe passe de Fabinho, carrega com"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 5,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Henry Mosquera é lançado, mas Gabriel Pereira se antecipa bem e faz o desarme na ponta esquerda",
+      "player": {
+        "name": "Henry Mosquera é lançado, mas Gabriel Pereira se"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 5,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Andrés Gómez é acionado na direita e busca cruzamento à meia altura para a área. Bola passa por todo mundo e sai pela linha lateral",
+      "player": {
+        "name": "Andrés Gómez é acionado na direita e busca cruza"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 7,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Nos primeiros oito minutos em Bragança Paulista, a partida começou movimentada. O Vasco tentou criar com lançamentos de Paulo Henrique para Andrés Gómez, mas a defesa do Bragantino se segurou. O time da casa respondeu com a velocidade de Wallace Yan, que levantou a torcida ao dar um belo chapéu em Gabriel Pereira antes de cruzar na área. O placar segue no 0 a 0.",
+      "player": {
+        "name": "Chapéu e correria marcam o início em Bragança"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 7,
+        "extra": null
+      },
+      "team": {
+        "id": 280,
+        "name": "Bragantino"
+      },
+      "type": "Important",
+      "detail": "Wallace Yan dá bonito chapéu em cima de Gabriel Pereira e busca cruzamento para Sasha. Defesa consegue o corte na sequência",
+      "player": {
+        "name": "Wallace Yan"
+      },
+      "assist": {
+        "name": "CHAPÉU!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 8,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O confronto em Bragança Paulista começou acelerado e com o placar ainda em 0 a 0. O Bragantino tomou a iniciativa e, aos 7 minutos, Wallace Yan levantou a torcida com um lindo chapéu sobre Gabriel Pereira. Logo depois, aos 8 minutos, veio a primeira grande chance: Sasha aproveitou a falha de Lescano e finalizou forte, parando em ótima defesa de Léo Jardim.",
+      "player": {
+        "name": "Léo Jardim salva o Vasco em começo movimentado"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 8,
+        "extra": null
+      },
+      "team": {
+        "id": 267,
+        "name": "Vasco"
+      },
+      "type": "Important",
+      "detail": "Lescano perde a bola na entrada da área de defesa do Vasco. Juninho Capixaba encontra Eduardo Sasha, que domina e finaliza forte de canhota no meio do gol para Léo Jardim espalmar",
+      "player": {
+        "name": "Eduardo Sasha"
+      },
+      "assist": {
+        "name": "PRIMEIRA CHEGADA!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 10,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Colidio toca para Cuiabano na ponta esquerda. O lateral busca o cruzamento, mas pega mal e manda à meia altura. Defesa consegue afastar mais uma vez",
+      "player": {
+        "name": "Colidio toca para Cuiabano na ponta esquerda. O "
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 11,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Com 12 minutos de jogo, Bragantino e Vasco empatam por 0 a 0. A partida começou movimentada, com Wallace Yan arriscando jogadas de velocidade e aplicando um belo chapéu no setor ofensivo. A melhor chance até aqui foi do Bragantino: Eduardo Sasha aproveitou erro na saída de bola do Vasco e chutou forte, exigindo uma grande defesa do goleiro Léo Jardim para manter o placar zerado.",
+      "player": {
+        "name": "Sasha para em Léo Jardim e placar segue zerado"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 11,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Após troca de passes no meio-campo, Colidio recebe na intermediária e tenta passe em profundidade para Andrés Gómez. Gustavo Marques se antecipa e sai jogando para o Braga",
+      "player": {
+        "name": "Após troca de passes no meio-campo, Colidio rece"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 12,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Com 13 minutos de bola rolando em Bragança Paulista, o zero a zero persiste, mas o Bragantino dita o ritmo. O time da casa já teve duas grandes chances: primeiro com Eduardo Sasha, parado por boa defesa de Léo Jardim, e depois com Eric Ramires, tirando tinta da trave em finalização colocada. O Vasco tenta encaixar saídas rápidas, mas enfrenta dificuldades diante da forte pressão.",
+      "player": {
+        "name": "Braga pressiona Vasco em início movimentado"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 12,
+        "extra": null
+      },
+      "team": {
+        "id": 280,
+        "name": "Bragantino"
+      },
+      "type": "Important",
+      "detail": "Wallace Yan encontra ótimo passe para Eric Ramires na meia-lua. O camisa 7 domina, ajeita para o pé direito e finaliza colocado. A bola passa a centímetros da trave esquerda de Jardim",
+      "player": {
+        "name": "Eric Ramires"
+      },
+      "assist": {
+        "name": "PASSOU MUITO PERTO!"
+      }
+    }
+  ],
   "lineups": [
     {
       "team": {
@@ -70,9 +349,18 @@
         },
         {
           "player": {
-            "id": "santanna",
-            "name": "Sant'Anna",
-            "number": null,
+            "id": "ryan-augusto",
+            "name": "Ryan Augusto",
+            "number": 52,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "alix-vinicius",
+            "name": "Alix Vinicius",
+            "number": 4,
             "pos": "Def",
             "grid": null
           }
@@ -82,15 +370,6 @@
             "id": "gustavomarquessantos",
             "name": "Gustavo Marques",
             "number": 16,
-            "pos": "Def",
-            "grid": null
-          }
-        },
-        {
-          "player": {
-            "id": "guzrodriguez",
-            "name": "Guzmán Rodríguez",
-            "number": 2,
             "pos": "Def",
             "grid": null
           }
@@ -127,16 +406,16 @@
             "id": "lucas-barbosa",
             "name": "Lucas Barbosa",
             "number": 21,
-            "pos": "Ata",
+            "pos": "Mei",
             "grid": null
           }
         },
         {
           "player": {
-            "id": "wallace-yan",
-            "name": "Wallace Yan",
-            "number": 47,
-            "pos": "Mei",
+            "id": "HenryDavidMosqueraSanchez",
+            "name": "Henry Mosquera",
+            "number": 30,
+            "pos": "Ata",
             "grid": null
           }
         },
@@ -151,15 +430,124 @@
         },
         {
           "player": {
-            "id": "HenryDavidMosqueraSanchez",
-            "name": "Henry Mosquera",
-            "number": 30,
+            "id": "wallace-yan",
+            "name": "Wallace Yan",
+            "number": 47,
             "pos": "Ata",
             "grid": null
           }
         }
       ],
-      "substitutes": []
+      "substitutes": [
+        {
+          "player": {
+            "id": "cleiton-schwengber",
+            "name": "Cleiton",
+            "number": 1,
+            "pos": "Gol",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "santanna",
+            "name": "Sant'Anna",
+            "number": 23,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "guzrodriguez",
+            "name": "Guzmán Rodríguez",
+            "number": 2,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "eduardomendes",
+            "name": "Eduardo Santos",
+            "number": 3,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "vanderlan",
+            "name": "Vanderlan",
+            "number": 12,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "gabriel41",
+            "name": "Gabriel",
+            "number": 6,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "IgnacioSosa",
+            "name": "Ignacio Sosa",
+            "number": 15,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "Gustavinho3",
+            "name": "Gustavinho",
+            "number": 22,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "pittais",
+            "name": "Isidro Pitta",
+            "number": 9,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "vinicius-calvas",
+            "name": "Vinicinho",
+            "number": 17,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "joseherrerama",
+            "name": "Herrera",
+            "number": 32,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "jhuan-nunes",
+            "name": "Jhuan Nunes",
+            "number": 67,
+            "pos": "Ata",
+            "grid": null
+          }
+        }
+      ]
     },
     {
       "team": {
@@ -192,9 +580,9 @@
         },
         {
           "player": {
-            "id": "saldivia",
-            "name": "Saldivia",
-            "number": 4,
+            "id": "gabrielpereira0500",
+            "name": "Gabriel Pereira",
+            "number": 55,
             "pos": "Def",
             "grid": null
           }
@@ -272,9 +660,271 @@
           }
         }
       ],
-      "substitutes": []
+      "substitutes": [
+        {
+          "player": {
+            "id": "danielfuzato",
+            "name": "Daniel Fuzato",
+            "number": 13,
+            "pos": "Gol",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "joserodriguezlu",
+            "name": "Puma Rodríguez",
+            "number": 2,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "saldivia",
+            "name": "Saldivia",
+            "number": 4,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "lucasfreitas",
+            "name": "Lucas Freitas",
+            "number": 43,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "lucas-piton",
+            "name": "Lucas Piton",
+            "number": 6,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "jairrodrigues",
+            "name": "Jair",
+            "number": 8,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "ramon-rique",
+            "name": "Ramon Rique",
+            "number": 83,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "mateuscocao",
+            "name": "Mateus Carvalho",
+            "number": 85,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "david1234",
+            "name": "David",
+            "number": 7,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "marinohin",
+            "name": "Marino Hinestroza",
+            "number": 18,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "brenner111111",
+            "name": "Brenner",
+            "number": 20,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "loide-augusto",
+            "name": "Loide Augusto",
+            "number": 45,
+            "pos": "Ata",
+            "grid": null
+          }
+        }
+      ]
     }
   ],
-  "statistics": [],
+  "statistics": [
+    {
+      "team": {
+        "id": 280,
+        "name": "Bragantino"
+      },
+      "statistics": [
+        {
+          "type": "Ball Possession",
+          "value": "54%"
+        },
+        {
+          "type": "Total Passes",
+          "value": 112
+        },
+        {
+          "type": "Pass Accuracy",
+          "value": "82%"
+        },
+        {
+          "type": "Incomplete Passes",
+          "value": 20
+        },
+        {
+          "type": "Total Shots",
+          "value": 3
+        },
+        {
+          "type": "Shots on Goal",
+          "value": 1
+        },
+        {
+          "type": "Shots off Goal",
+          "value": 1
+        },
+        {
+          "type": "Blocked Shots",
+          "value": 1
+        },
+        {
+          "type": "Hit Woodwork",
+          "value": 0
+        },
+        {
+          "type": "Corner Kicks",
+          "value": 0
+        },
+        {
+          "type": "Offsides",
+          "value": 1
+        },
+        {
+          "type": "Penalties",
+          "value": 0
+        },
+        {
+          "type": "Goalkeeper Saves",
+          "value": 0
+        },
+        {
+          "type": "Tackles",
+          "value": 4
+        },
+        {
+          "type": "Fouls",
+          "value": 1
+        },
+        {
+          "type": "Yellow Cards",
+          "value": 0
+        },
+        {
+          "type": "Red Cards",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "team": {
+        "id": 267,
+        "name": "Vasco"
+      },
+      "statistics": [
+        {
+          "type": "Ball Possession",
+          "value": "46%"
+        },
+        {
+          "type": "Total Passes",
+          "value": 93
+        },
+        {
+          "type": "Pass Accuracy",
+          "value": "77%"
+        },
+        {
+          "type": "Incomplete Passes",
+          "value": 21
+        },
+        {
+          "type": "Total Shots",
+          "value": 1
+        },
+        {
+          "type": "Shots on Goal",
+          "value": 1
+        },
+        {
+          "type": "Shots off Goal",
+          "value": 0
+        },
+        {
+          "type": "Blocked Shots",
+          "value": 0
+        },
+        {
+          "type": "Hit Woodwork",
+          "value": 0
+        },
+        {
+          "type": "Corner Kicks",
+          "value": 0
+        },
+        {
+          "type": "Offsides",
+          "value": 0
+        },
+        {
+          "type": "Penalties",
+          "value": 0
+        },
+        {
+          "type": "Goalkeeper Saves",
+          "value": 2
+        },
+        {
+          "type": "Tackles",
+          "value": 5
+        },
+        {
+          "type": "Fouls",
+          "value": 1
+        },
+        {
+          "type": "Yellow Cards",
+          "value": 0
+        },
+        {
+          "type": "Red Cards",
+          "value": 0
+        }
+      ]
+    }
+  ],
   "sportsFieldUrl": null
 }

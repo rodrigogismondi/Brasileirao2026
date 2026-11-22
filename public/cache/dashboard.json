@@ -19179,17 +19179,17 @@
                 "name": "Cruzeiro",
                 "logo": "https://s.sde.globo.com/media/organizations/2021/02/13/cruzeiro_2021.svg"
               },
-              "points": 64,
-              "goalsDiff": 8,
+              "points": 66,
+              "goalsDiff": 9,
               "form": "WWWWW",
               "description": "Copa Libertadores",
               "all": {
                 "played": 36,
-                "win": 19,
-                "draw": 7,
+                "win": 20,
+                "draw": 6,
                 "lose": 10,
                 "goals": {
-                  "for": 58,
+                  "for": 59,
                   "against": 50
                 }
               }
@@ -19553,18 +19553,18 @@
                 "name": "Chapecoense",
                 "logo": "https://s.sde.globo.com/media/organizations/2021/06/21/CHAPECOENSE-2018.svg"
               },
-              "points": 22,
-              "goalsDiff": -39,
+              "points": 21,
+              "goalsDiff": -40,
               "form": "WLLLL",
               "description": "Relegation",
               "all": {
                 "played": 36,
                 "win": 4,
-                "draw": 10,
-                "lose": 22,
+                "draw": 9,
+                "lose": 23,
                 "goals": {
                   "for": 34,
-                  "against": 73
+                  "against": 74
                 }
               }
             }
@@ -20679,10 +20679,10 @@
   "budget": {
     "used": 0,
     "remaining": 100,
-    "mode": "idle",
-    "liveIntervalMs": 900000
+    "mode": "prematch",
+    "liveIntervalMs": 120000
   },
-  "fetchedAt": "2026-11-22T02:14:41.265Z",
+  "fetchedAt": "2026-11-22T09:54:43.199Z",
   "source": "ge-globo",
   "meta": {
     "rodada": 36,
@@ -20727,7 +20727,7 @@
       37,
       38
     ],
-    "seasonSyncedAt": "2026-11-22T02:14:25.541Z",
+    "seasonSyncedAt": "2026-11-22T09:54:30.871Z",
     "fullSeasonSync": true,
     "edicao": "Campeonato Brasileiro 2026",
     "provider": "ge.globo.com",
@@ -20739,7 +20739,7 @@
     "tvPreserved": 0,
     "tvAvailable": 384,
     "tvSource": "Onde Assistir — https://ondeassistir.com.br/dados",
-    "tvUpdatedAt": "2026-11-22T00:12:55.000000Z",
+    "tvUpdatedAt": "2026-11-22T08:14:29.000000Z",
     "fixturesCount": 380
   }
 }

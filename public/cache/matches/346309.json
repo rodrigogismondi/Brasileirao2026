@@ -7,12 +7,12 @@
       "city": ""
     },
     "status": {
-      "long": "2H",
-      "short": "2H",
-      "elapsed": 76
+      "long": "FT",
+      "short": "FT",
+      "elapsed": 90
     },
-    "timerStart": "2026-11-21T21:37:53.905Z",
-    "timerStatus": "INICIADO"
+    "timerStart": "2026-11-21T22:45:27.819Z",
+    "timerStatus": "PAUSADO"
   },
   "league": {
     "round": "Regular Season - 36"
@@ -39,14 +39,84 @@
       "away": null
     },
     "fulltime": {
-      "home": null,
-      "away": null
+      "home": 0,
+      "away": 1
     }
   },
   "odds": null,
   "tv": [],
   "_geUrl": "https://ge.globo.com/ba/futebol/brasileirao-serie-a/jogo/21-11-2026/bahia-coritiba.ghtml",
   "events": [
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 294,
+        "name": "Coritiba"
+      },
+      "type": "Important",
+      "detail": "A gente tem que agradecer a cada um dos atletas. Eu dedico essa vitória ao Moledo, que passou por coisas difíceis, pessoas falando do caráter do cara. Parabenizar o Breno Lopes que é decisivo, já garantiu Libertadores no Palmeiras e aqui deixou o time na Série A.",
+      "player": {
+        "name": "Pedro Morisco"
+      },
+      "assist": {
+        "name": "Fala, Morisco"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 294,
+        "name": "Coritiba"
+      },
+      "type": "Important",
+      "detail": "Jogar aqui é difícil, mas nós tinhamos o compromisso de deixar essa equipe na Série A. Foi sofrido, mas é dia de comemorar. Temos dois jogos ainda e não vamos parar por aqui. Agora é tentar vencer o Flamengo.",
+      "player": {
+        "name": "Breno Lopes"
+      },
+      "assist": {
+        "name": "Fala, Breno Lopes"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 265,
+        "name": "Bahia"
+      },
+      "type": "Important",
+      "detail": "Com todo o respeito, acho que não é hora de pensar no que o Guardiola pensou. É um profissional que a gente respeita e faz parte do grupo City, mas a gente jogou para tentar dar um passo a mais no nosso objetivo. Nossa atuação foi lamentável. É pedir desculpa ao torcedor, precisamos dar a cara a tapa e entender que não está bom. A gente tem dois jogos para tentar amenizar e quem sabe conseguir uma classificação para a Libertadores.",
+      "player": {
+        "name": "Erick"
+      },
+      "assist": {
+        "name": "Fala, Erick"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 294,
+        "name": "Coritiba"
+      },
+      "type": "Important",
+      "detail": "Coritiba chega aos 45 pontos e encaminha permanência na elite do Brasileirão para 2027.",
+      "player": {
+        "name": "45 pontos!"
+      },
+      "assist": null
+    },
     {
       "time": {
         "elapsed": 0,
@@ -1679,9 +1749,9 @@
         "name": ""
       },
       "type": "Important",
-      "detail": "Após uma primeira etapa equilibrada, com bola na trave do Coritiba e gol anulado pelo VAR, o segundo tempo começou com forte pressão do Bahia, que também carimbou a trave com Cristian Olivera. O goleiro Morisco ia se destacando com grandes defesas, mas, aos 28 minutos da etapa final, o cenário mudou. Breno Lopes arrancou em velocidade, venceu a marcação e fez 1 a 0 para o Coxa.",
+      "detail": "Após um primeiro tempo tenso, com direito a bola na trave de Maicon e gol anulado do Coritiba, a partida seguiu eletrizante na etapa complementar. O Bahia pressionou muito e também carimbou a trave com Cristian Olivera, mas parou em grande noite de Morisco. Aos 28 minutos do segundo tempo, Breno Lopes arrancou em velocidade, superou a marcação e fez 1 a 0 para os visitantes.",
       "player": {
-        "name": "Breno Lopes marca e coloca o Coritiba na frente"
+        "name": "Breno Lopes coloca o Coritiba na frente"
       },
       "assist": null
     },
@@ -1730,6 +1800,498 @@
       "detail": "Gol vai ser analisado pelo VAR. Breno Lopes parece impedido.",
       "player": {
         "name": "Gol vai ser analisado pelo VAR. Breno Lopes pare"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 77,
+        "extra": null
+      },
+      "team": {
+        "id": 265,
+        "name": "Bahia"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Jean Lucas"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 77,
+        "extra": null
+      },
+      "team": {
+        "id": 294,
+        "name": "Coritiba"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Breno Lopes"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 77,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Após um primeiro tempo tenso, com direito a gol anulado do Coritiba e bola na trave de Maicon, o Bahia pressionou na etapa final e também carimbou a trave com Cristian Olivera. Mas, aos 32 minutos do segundo tempo, o placar mostra 1 a 0 para o Coritiba. Breno Lopes arrancou em velocidade aos 28 minutos, venceu a marcação e balançou as redes para colocar os visitantes em vantagem.",
+      "player": {
+        "name": "Breno Lopes marca e Coritiba lidera na Fonte Nova"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 77,
+        "extra": null
+      },
+      "team": {
+        "id": 294,
+        "name": "Coritiba"
+      },
+      "type": "Important",
+      "detail": "Ronaldo sai mal do gol, Sebas fica com a bola e aciona Josué. Lavega cruza para Thiago Santos e Ronaldo fica com a bola.",
+      "player": {
+        "name": "Thiago Santos"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 78,
+        "extra": null
+      },
+      "team": {
+        "id": 265,
+        "name": "Bahia"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Ruan Pablo"
+      },
+      "assist": {
+        "name": "Cristian Olivera"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 79,
+        "extra": null
+      },
+      "team": {
+        "id": 265,
+        "name": "Bahia"
+      },
+      "type": "Important",
+      "detail": "Breno Lopes aparece pelo lado direiro, cruza para Lavega e defesa do Bahia corta.",
+      "player": {
+        "name": "Breno Lopes"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 80,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Após uma primeira etapa equilibrada, com bola na trave para cada lado e gol anulado do Coritiba, o segundo tempo pegou fogo. O Bahia pressionou bastante, mas parou nas defesas de Morisco e na trave. Aos 28 minutos da etapa final, Breno Lopes brilhou: arrancou em velocidade e marcou o gol que decretou o 1 a 0 para o Coxa. Com 35 minutos do segundo tempo, os donos da casa tentam reagir.",
+      "player": {
+        "name": "Breno Lopes coloca o Coritiba em vantagem"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 80,
+        "extra": null
+      },
+      "team": {
+        "id": 265,
+        "name": "Bahia"
+      },
+      "type": "Important",
+      "detail": "Cartão amarelo para Acevedo por falta em Thiago Santos. Ele dá um tapa na mão do zagueiro para tirar a bola dele.",
+      "player": {
+        "name": "Acevedo"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 81,
+        "extra": null
+      },
+      "team": {
+        "id": 265,
+        "name": "Bahia"
+      },
+      "type": "Card",
+      "detail": "Red Card",
+      "player": {
+        "name": "Acevedo"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 85,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Após etapa inicial equilibrada, o segundo tempo pegou fogo na Fonte Nova. O Bahia pressionou e carimbou a trave, mas foi o Coritiba quem abriu o placar. Aos 28 minutos, Breno Lopes fez 1 a 0 para os visitantes. A reação baiana ficou difícil após a expulsão de Acevedo aos 36, deixando o time da casa com um a menos aos 40 minutos de jogo.",
+      "player": {
+        "name": "Coritiba larga na frente e Bahia tem expulsão"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 85,
+        "extra": null
+      },
+      "team": {
+        "id": 265,
+        "name": "Bahia"
+      },
+      "type": "Important",
+      "detail": "Everton Ribeiro tenta jogada na entrada da área, Tinga cerca e bola vai pela linha lateral.",
+      "player": {
+        "name": "Everton Ribeiro"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 86,
+        "extra": null
+      },
+      "team": {
+        "id": 294,
+        "name": "Coritiba"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Vitor Tissi"
+      },
+      "assist": {
+        "name": "Breno Lopes"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 86,
+        "extra": null
+      },
+      "team": {
+        "id": 294,
+        "name": "Coritiba"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Paulo Roberto"
+      },
+      "assist": {
+        "name": "Josué"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 88,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Vamos até 53 minutos de jogo!",
+      "player": {
+        "name": "Mais 8 minutos!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 88,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Aos 43 minutos do segundo tempo, o Coritiba vence o Bahia por 1 a 0. Após um primeiro tempo em que Maicon carimbou a trave para o Coxa, os mandantes pressionaram na etapa final e Kike também parou no poste. Mas o gol decisivo veio aos 28 minutos, com Breno Lopes arrancando livre para balançar a rede. Para complicar de vez a reação do Bahia, Acevedo acabou expulso pouco depois.",
+      "player": {
+        "name": "Coritiba lidera com gol de Breno Lopes no fim"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 88,
+        "extra": null
+      },
+      "team": {
+        "id": 265,
+        "name": "Bahia"
+      },
+      "type": "Important",
+      "detail": "Gelado cruza bola na área, Vini Paulista dá toque nela. Bola volta com Paulo Roberto e defesa do Bahia pressiona.",
+      "player": {
+        "name": "Gelado cruza bola na área, Vini Paulista dá toqu"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 89,
+        "extra": null
+      },
+      "team": {
+        "id": 265,
+        "name": "Bahia"
+      },
+      "type": "Important",
+      "detail": "Sanabria faz boa jogada pelo lado esquerdo e aciona Jean Lucas, ele cruza direto nas mãos de Morisco.",
+      "player": {
+        "name": "Sanabria"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 90,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Após enorme pressão do Bahia, com bola na trave de Kike e grandes defesas de Morisco, o Coritiba foi letal no contra-ataque. Aos 28 minutos do segundo tempo, Breno Lopes arrancou e abriu o placar. Para complicar a reação baiana, Acevedo foi expulso aos 36. Passados 45 minutos da etapa final, os visitantes seguram o 1 a 0 com um a mais em um fim de jogo tenso na Fonte Nova.",
+      "player": {
+        "name": "Breno Lopes coloca o Coritiba em vantagem"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 90,
+        "extra": null
+      },
+      "team": {
+        "id": 265,
+        "name": "Bahia"
+      },
+      "type": "Important",
+      "detail": "Paulo Roberto recebe a bola sozinho na área, tira de Ronaldo, mas demora para chutar e defesa do Bahia consegue chegar para fazer o corte.",
+      "player": {
+        "name": "Paulo Roberto"
+      },
+      "assist": {
+        "name": "Demorou"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 93,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Após um primeiro tempo de gols anulados e bolas na trave, o duelo pegou fogo na etapa final. O Bahia pressionou e também carimbou o poste, mas foi o Coritiba quem abriu o placar. Aos 28 minutos, Breno Lopes arrancou e marcou o gol do jogo. Pouco depois, Acevedo foi expulso, deixando os donos da casa com um a menos. Já passamos dos 48 minutos e o Coxa segura o triunfo por 1 a 0.",
+      "player": {
+        "name": "Coritiba lidera na Fonte Nova em reta final tensa"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 93,
+        "extra": null
+      },
+      "team": {
+        "id": 294,
+        "name": "Coritiba"
+      },
+      "type": "Important",
+      "detail": "Lavega dispara pelo lado esquerdo, cruza bem para Paulo Roberto e ele chuta para fora com desvio.",
+      "player": {
+        "name": "Paulo Roberto"
+      },
+      "assist": {
+        "name": "ótima chance"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 93,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O confronto na Fonte Nova é de pura intensidade. Após chances na trave para os dois lados e grandes defesas do goleiro Morisco, o Coritiba abriu o placar aos 28 minutos do segundo tempo com Breno Lopes. O Bahia ainda viu Acevedo ser expulso aos 36 da etapa final. Passados 48 minutos, o Coxa segura a vantagem de 1 a 0 contra um adversário valente, mas desestruturado.",
+      "player": {
+        "name": "Coxa em vantagem na Fonte Nova na reta final"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 93,
+        "extra": null
+      },
+      "team": {
+        "id": 265,
+        "name": "Bahia"
+      },
+      "type": "Important",
+      "detail": "Ruan Pablo carrega a bola pelo lado direito, se livra da defesa, mas chuta direto na rede pelo lado de fora.",
+      "player": {
+        "name": "Ruan Pablo"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 94,
+        "extra": null
+      },
+      "team": {
+        "id": 294,
+        "name": "Coritiba"
+      },
+      "type": "Important",
+      "detail": "Coritiba cobra escanteio curto, mas arbitragem marca irregularidade no lance e Bahia fica com a bola.",
+      "player": {
+        "name": "Coritiba cobra escanteio curto, mas arbitragem m"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 95,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Passados 50 minutos do segundo tempo, o Coritiba vai vencendo o Bahia por 1 a 0. O primeiro tempo teve bola na trave de Maicon para o Coxa. Na etapa final, o Bahia respondeu na mesma moeda com Kike acertando a trave, mas quem balançou as redes foi Breno Lopes, aos 28 minutos. Na reta final, a vida do time baiano complicou com a expulsão de Acevedo, deixando a equipe com um jogador a menos.",
+      "player": {
+        "name": "Coritiba lidera na Fonte Nova em jogo tenso"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 95,
+        "extra": null
+      },
+      "team": {
+        "id": 294,
+        "name": "Coritiba"
+      },
+      "type": "Important",
+      "detail": "Paulo Roberto recebe a bola na intermediária sozinho, chega perto da área e bate rasteiro para fora.",
+      "player": {
+        "name": "Paulo Roberto"
+      },
+      "assist": {
+        "name": "Para fora"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 96,
+        "extra": null
+      },
+      "team": {
+        "id": 294,
+        "name": "Coritiba"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Lavega"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 97,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Everton Ribeiro percorre o corredor direito, mas na hora de tocar manda a bola muito longa.",
+      "player": {
+        "name": "Everton Ribeiro percorre o corredor direito, mas"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 98,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Em um confronto movimentado, o Coritiba venceu o Bahia por 1 a 0 fora de casa. Após chances para os dois lados no primeiro tempo, incluindo bola na trave de Maicon e gol anulado do Coxa, o jogo esquentou ainda mais na etapa final. O Bahia carimbou a trave com Olivera, mas quem balançou as redes de forma definitiva aos 28 minutos foi Breno Lopes. No fim, Acevedo ainda foi expulso.",
+      "player": {
+        "name": "Coritiba vence o Bahia na Fonte Nova"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 98,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Coritiba vence o Bahia por 1 a 0.",
+      "player": {
+        "name": "Fim de jogo!"
       },
       "assist": null
     }
@@ -2193,15 +2755,15 @@
         },
         {
           "type": "Total Passes",
-          "value": 488
+          "value": 612
         },
         {
           "type": "Pass Accuracy",
-          "value": "89%"
+          "value": "88%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 53
+          "value": 73
         },
         {
           "type": "Total Shots",
@@ -2237,23 +2799,23 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 4
+          "value": 5
         },
         {
           "type": "Tackles",
-          "value": 8
-        },
-        {
-          "type": "Fouls",
           "value": 10
         },
         {
+          "type": "Fouls",
+          "value": 13
+        },
+        {
           "type": "Yellow Cards",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Red Cards",
-          "value": 0
+          "value": 1
         }
       ]
     },
@@ -2269,19 +2831,19 @@
         },
         {
           "type": "Total Passes",
-          "value": 329
+          "value": 394
         },
         {
           "type": "Pass Accuracy",
-          "value": "87%"
+          "value": "86%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 43
+          "value": 55
         },
         {
           "type": "Total Shots",
-          "value": 9
+          "value": 11
         },
         {
           "type": "Shots on Goal",
@@ -2289,11 +2851,11 @@
         },
         {
           "type": "Shots off Goal",
-          "value": 3
+          "value": 4
         },
         {
           "type": "Blocked Shots",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Hit Woodwork",
@@ -2301,11 +2863,11 @@
         },
         {
           "type": "Corner Kicks",
-          "value": 7
+          "value": 9
         },
         {
           "type": "Offsides",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Penalties",
@@ -2317,15 +2879,15 @@
         },
         {
           "type": "Tackles",
-          "value": 8
+          "value": 10
         },
         {
           "type": "Fouls",
-          "value": 7
+          "value": 14
         },
         {
           "type": "Yellow Cards",
-          "value": 0
+          "value": 2
         },
         {
           "type": "Red Cards",

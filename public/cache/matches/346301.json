@@ -7,12 +7,12 @@
       "city": ""
     },
     "status": {
-      "long": "2H",
-      "short": "2H",
-      "elapsed": 56
+      "long": "FT",
+      "short": "FT",
+      "elapsed": 90
     },
-    "timerStart": "2026-11-22T22:37:43.738Z",
-    "timerStatus": "INICIADO"
+    "timerStart": "2026-11-22T23:30:57.145Z",
+    "timerStatus": "PAUSADO"
   },
   "league": {
     "round": "Regular Season - 36"
@@ -30,7 +30,7 @@
     }
   },
   "goals": {
-    "home": 0,
+    "home": 1,
     "away": 0
   },
   "score": {
@@ -39,8 +39,8 @@
       "away": null
     },
     "fulltime": {
-      "home": null,
-      "away": null
+      "home": 1,
+      "away": 0
     }
   },
   "odds": null,
@@ -1013,6 +1013,22 @@
         "extra": null
       },
       "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Com 9 minutos da etapa final, o placar de 0 a 0 persiste no Maracanã. O Fluminense pressiona e esbarra na grande atuação do goleiro Walter, que salvou o Mirassol na cabeçada de Canobbio e em uma sequência incrível de defesas em chutes de Lucho e Savarino. O time paulista tenta responder nos contra-ataques, mantendo o duelo aberto e muito disputado sob a chuva carioca.",
+      "player": {
+        "name": "Muralha do Mirassol segura o empate no Maracanã"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 54,
+        "extra": null
+      },
+      "team": {
         "id": 2305,
         "name": "Mirassol"
       },
@@ -1020,6 +1036,868 @@
       "detail": "Guga avança e cruza pela direita, Renê não consegue o cabeceio, e a bola passa por todo mundo sem grandes sustos para a defesa do Mirassol.",
       "player": {
         "name": "Guga avança e cruza pela direita, Renê não conse"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 55,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "Important",
+      "detail": "Que chute de Savarino! O venezuelano recebe de frente pro gol e prefere soltar o pé, mirando na gaveta. Walter acompanha e vê a bola explodir na trave no Maracanã! Fluminense volta bem mais intenso para o segundo tempo.",
+      "player": {
+        "name": "Savarino"
+      },
+      "assist": {
+        "name": "NA TRAVE!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 58,
+        "extra": null
+      },
+      "team": {
+        "id": 2305,
+        "name": "Mirassol"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Gustavo Cazonatti"
+      },
+      "assist": {
+        "name": "Alesson"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 58,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Após um primeiro tempo vaiado e de pouca inspiração, o Fluminense voltou pressionando na etapa final. Aos 13 minutos do segundo tempo, a equipe carioca sufoca o Mirassol e quase abriu o placar com um chutaço de Savarino que carimbou a trave, além de parar nas boas defesas do goleiro Walter. O placar segue 0 a 0 no Maracanã, mas o confronto ganhou muita intensidade no retorno do intervalo.",
+      "player": {
+        "name": "Pressão tricolor e bola na trave agitam o jogo"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 58,
+        "extra": null
+      },
+      "team": {
+        "id": 2305,
+        "name": "Mirassol"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Gustavo Mosquito"
+      },
+      "assist": {
+        "name": "Denilson"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 60,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "Important",
+      "detail": "Fluminense não conseguiu aproveitar o momento de maior pressão para sair do zero no Maracanã. Clube retém a posse, mas ritmo cai um pouco.",
+      "player": {
+        "name": "Fluminense não conseguiu aproveitar o momento de"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 61,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "Important",
+      "detail": "Após um primeiro tempo equilibrado com boas chances para os dois lados, o Fluminense voltou pressionando na etapa final. Aos 10 minutos do segundo tempo, Savarino quase abriu o placar ao acertar uma bola carimbada na trave de Walter, que já vinha operando milagres na partida. Agora, perto dos 17 minutos, o duelo segue empatado por 0 a 0 com os técnicos mexendo nos times.",
+      "player": {
+        "name": "Fluminense pressiona e carimba a trave no Rio"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 61,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "Important",
+      "detail": "Marcão vai promover as primeiras mexidas no Fluminense: Castillo, Martinelli e Ganso.",
+      "player": {
+        "name": "Marcão vai promover as primeiras mexidas no Flum"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 62,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Canobbio domina pela esquerda, mas Igor Formiga consegue o desarme.",
+      "player": {
+        "name": "Canobbio domina pela esquerda, mas Igor Formiga "
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 64,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Hulk é vaiado em alto e bom som ao deixar o gramado no Maracanã. Atacante tem sete gols em 25 jogos no ano.",
+      "player": {
+        "name": "Hulk é vaiado em alto e bom som ao deixar o gram"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 64,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Martinelli"
+      },
+      "assist": {
+        "name": "Hércules"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 64,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Ganso"
+      },
+      "assist": {
+        "name": "Lucho Acosta"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 64,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Rodrigo Castillo"
+      },
+      "assist": {
+        "name": "Hulk"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 64,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Com 19 minutos do segundo tempo, o placar segue 0 a 0 no Maracanã debaixo de chuva. O Fluminense voltou pressionando na etapa final e quase abriu o placar com Savarino, que carimbou a trave logo após o goleiro Walter fazer grandes defesas para salvar os visitantes. O Mirassol tenta segurar o ímpeto carioca e aposta nos contra-ataques para surpreender neste duelo de muita intensidade.",
+      "player": {
+        "name": "Pressão tricolor e bola na trave no Maracanã"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 64,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Bruno Santos passa para Igor Fomiga, que tenta devolver dentro da área, mas Ignácio faz o corte.",
+      "player": {
+        "name": "Bruno Santos passa para Igor Fomiga, que tenta d"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 66,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "Important",
+      "detail": "Ganso abre com Renê, que levanta a bola na área. Canobbio segura, carrega e passa para Ganso, que finaliza por cima do gol de Walter.",
+      "player": {
+        "name": "Ganso"
+      },
+      "assist": {
+        "name": "SUBIU DEMAIS"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 68,
+        "extra": null
+      },
+      "team": {
+        "id": 2305,
+        "name": "Mirassol"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Carlos Eduardo"
+      },
+      "assist": {
+        "name": "Eduardo"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 68,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Com mais de 20 minutos da etapa final, Fluminense e Mirassol empatam em 0 a 0 no Maracanã sob chuva. O time carioca pressionou no início do segundo tempo, parando em duas defesas seguidas de Walter e em um chutaço de Savarino na trave. Na primeira etapa, Canobbio quase marcou de cabeça, enquanto o Mirassol respondeu com Eduardo. Ganso entrou na partida para tentar mudar o placar.",
+      "player": {
+        "name": "Trave e milagres de Walter seguram o empate"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 68,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Canobbio trabalha com Renê, e os dois trocam passes em um espaço curto. Savarino aproveita para bater, mas pega mal na bola e não leva perigo.",
+      "player": {
+        "name": "Canobbio trabalha com Renê, e os dois trocam pas"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 71,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Fluminense e Mirassol protagonizam um duelo de muita intensidade sob chuva no Rio. O Tricolor dita o ritmo e quase abriu o placar com Savarino, que carimbou a trave, mas esbarra na noite inspirada do goleiro Walter, herói dos visitantes com grandes defesas. Aos 26 minutos do segundo tempo, o placar segue zerado e a pressão é total.",
+      "player": {
+        "name": "Walter brilha e trave impede o gol no Maracanã"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 71,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "Important",
+      "detail": "Movimentação inteligente do Fluminense na área. Ganso acha bela bola para Savarino, que chega batendo pela direita, mas Walter faz a defesa.",
+      "player": {
+        "name": "Savarino"
+      },
+      "assist": {
+        "name": "DEFENDE, WALTER!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 72,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Bola levantada na segunda trave, buscando Ignácio. Zagueiro cabeceia e bola pega no braço de Renê.",
+      "player": {
+        "name": "Bola levantada na segunda trave, buscando Ignáci"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 72,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "Important",
+      "detail": "Bola enfiada de Savarino para Guga, mas Lucas Oliveira acompanha e faz o corte. Escanteio para o Fluminense!",
+      "player": {
+        "name": "Bola enfiada de Savarino para Guga, mas Lucas Ol"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 74,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Após 30 minutos do segundo tempo, Fluminense e Mirassol seguem no zero a zero no Maracanã. O time carioca pressionou mais e quase abriu o placar na etapa final, quando Savarino acertou um chutaço na trave. Antes disso, o goleiro Walter já vinha operando milagres, incluindo uma grande defesa em cabeçada de Canobbio. Hulk saiu vaiado, e o duelo segue aberto sob chuva.",
+      "player": {
+        "name": "Walter brilha e segura o zero a zero no Maracanã"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 74,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Savarino abre com Guga, que vê Martinelli se aproximando e faz o passe. Camisa 8 levanta a bola na área buscando Savarino, sem perigo. Marcão manda chamar Riquelme Felipe.",
+      "player": {
+        "name": "Savarino abre com Guga, que vê Martinelli se apr"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 75,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Riquelme Felipe"
+      },
+      "assist": {
+        "name": "Canobbio"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 75,
+        "extra": null
+      },
+      "team": {
+        "id": 2305,
+        "name": "Mirassol"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Zé Roberto"
+      },
+      "assist": {
+        "name": "Bruno Santos"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 76,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Riquelme começa sua participação apertando a saída de Walter. Na sequência, jogo é paralisado por falta de Ignácio sobre Zé Roberto.",
+      "player": {
+        "name": "Riquelme começa sua participação apertando a saí"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 78,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "Important",
+      "detail": "Nonato pisa na área e abre com Guga, que recorre ao cruzamento. Castillo sobe sozinho e cabeceia, mas Walter segura!",
+      "player": {
+        "name": "Rodrigo Castillo"
+      },
+      "assist": {
+        "name": "MAIS UMA CHANCE"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 78,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Aos 33 minutos da etapa final, o placar segue zerado no Maracanã. O Fluminense voltou muito mais aceso no segundo tempo e carimbou a trave com um chutaço de Savarino. Do outro lado, o goleiro Walter virou o grande herói do Mirassol, operando defesas difíceis em cabeçadas de Canobbio e finalizações na área. O jogo se desenha em pura pressão carioca e forte resistência paulista.",
+      "player": {
+        "name": "Trave e Walter seguram o empate no Maracanã"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 78,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "Important",
+      "detail": "Fluminense pressiona e inicia jogada com Riquelme aberto pela direita. Jogadores passam a bola de pé em pé, de frente para o gol, e cabe a Renê finalizar, travado.",
+      "player": {
+        "name": "Fluminense pressiona e inicia jogada com Riquelm"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 80,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Bom passe de Ganso para Savarino, que acha Castillo em condições de finalizar. O atacante chuta, com desvio, e Walter fica com a bola.",
+      "player": {
+        "name": "Bom passe de Ganso para Savarino, que acha Casti"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 81,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Aos 36 minutos do segundo tempo, o placar segue 0 a 0 no Maracanã. O Fluminense domina totalmente a etapa final e busca o gol a todo custo, mas esbarra na trave em chutaço de Savarino e na noite inspirada do goleiro Walter. O Mirassol se segura como pode, enquanto o Tricolor pressiona com finalizações perigosas de Castillo e Savarino para tentar furar o bloqueio paulista.",
+      "player": {
+        "name": "Walter e trave seguram o empate no Maracanã"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 81,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Fluminense é totalmente dominante no segundo tempo, mas não consegue converter as chances em gols. Equipe de Marcão tem 11 finalizações (sete delas no gol) contra cinco do Mirassol (nenhuma no gol).",
+      "player": {
+        "name": "O Fluminense é totalmente dominante no segundo t"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 82,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "Important",
+      "detail": "Riquelme carrega pela direita e manda para a área, mas o lance é paralisado por toque de mão de Castillo. Serna vem aí no Fluminense.",
+      "player": {
+        "name": "Riquelme carrega pela direita e manda para a áre"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 83,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Serna"
+      },
+      "assist": {
+        "name": "Savarino"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 84,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Passados 40 minutos da etapa final, o placar segue 0 a 0 no Maracanã. O Fluminense manda no jogo e tentou de tudo para abrir o placar, incluindo uma bola na trave de Savarino e grandes defesas do goleiro Walter, do Mirassol. O time paulista se segura como pode diante da enorme pressão carioca, que já soma sete finalizações no gol, mas peca na hora de empurrar a bola para a rede.",
+      "player": {
+        "name": "Trave e goleiro Walter seguram o zero no Maracanã"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 84,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "Important",
+      "detail": "Nonato inverte com Riquelme, que acha espaços no meio de três para dar bela bola para Ganso. O camisa 10 toca de calcanhar para Guga, que finaliza, mas Reinaldo faz o corte!",
+      "player": {
+        "name": "Guga"
+      },
+      "assist": {
+        "name": "QUE CHANCE!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 86,
+        "extra": null
+      },
+      "team": {
+        "id": 2305,
+        "name": "Mirassol"
+      },
+      "type": "Important",
+      "detail": "Mais uma bola aberta com Riquelme Felipe. Ele dribla um, dribla dois, mas cai e não consegue dar sequência na área do Mirassol!",
+      "player": {
+        "name": "Mais uma bola aberta com Riquelme Felipe. Ele dr"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 88,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Aos 43 minutos do segundo tempo, o placar segue 0 a 0 no Maracanã. O Fluminense domina completamente a etapa final, tendo as melhores chances para abrir o placar. Savarino carimbou a trave e parou em boas intervenções de Walter. O goleiro do Mirassol se tornou o grande nome do jogo ao salvar também as tentativas de Castillo e Riquelme Felipe, segurando a igualdade até aqui.",
+      "player": {
+        "name": "Fluminense pressiona e esbarra no goleiro Walter"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 88,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "Important",
+      "detail": "Bola longa de Martinelli, que acha belo passe para Riquelme. O jovem atacante ajeita para a perna esquerda, marcado por Reinaldo, e Walter se esticar para defender com o pé esquerdo!",
+      "player": {
+        "name": "Riquelme Felipe"
+      },
+      "assist": {
+        "name": "MAIS UMA DEFESA"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 89,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "Important",
+      "detail": "Só dá Fluminense! Nonato abre com Guga, que cruza, mas João Victor tira de cabeça. Momento de muita pressão tricolor no Maracanã.",
+      "player": {
+        "name": "Só dá Fluminense! Nonato abre com Guga, que cruz"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 90,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Após uma primeira etapa morna e sob forte chuva, o Fluminense voltou avassalador no segundo tempo. A equipe carioca martelou a defesa do Mirassol, parou na trave com Savarino e exigiu grandes defesas do goleiro Walter. A insistência deu resultado: aos 45 minutos da etapa final, o jovem Riquelme Felipe aproveitou rebote na área e marcou o gol que garante a vitória parcial por 1 a 0.",
+      "player": {
+        "name": "Riquelme brilha no fim e coloca o Flu na frente"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 90,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "player": {
+        "name": "Riquelme Felipe"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 90,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Vamos até os 50 minutos neste segundo tempo.",
+      "player": {
+        "name": "+5"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 91,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Riquelme Felipe"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 93,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Este foi o primeiro gol do jovem atacante no futebol profissional, e o moleque de Xerém quer mais um. Riquelme Felipe pisa na área, pedala e finaliza, mas Walter segura.",
+      "player": {
+        "name": "Este foi o primeiro gol do jovem atacante no fut"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 93,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Fluminense pressionou e, já nos acréscimos do segundo tempo, aos 49 minutos, vai vencendo o Mirassol por 1 a 0. Após carimbar a trave com Savarino e parar na grande atuação de Walter, o gol tricolor saiu aos 45 minutos. O jovem Riquelme Felipe aproveitou o rebote da cabeçada de Castillo para balançar as redes no Maracanã, coroando o enorme domínio na etapa complementar.",
+      "player": {
+        "name": "Riquelme Felipe resolve no fim para o Fluminense"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 93,
+        "extra": null
+      },
+      "team": {
+        "id": 2305,
+        "name": "Mirassol"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Gustavo Cazonatti"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 95,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Arbitragem dá mais dois minutos de acréscimos no Maracanã. Vamos até os 52.",
+      "player": {
+        "name": "+2"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 96,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Fluminense dominou a posse na segunda etapa, carimbou a trave com Savarino e parou em grandes defesas de Walter. A insistência deu resultado aos 45 minutos, quando Castillo cabeceou e o jovem Riquelme Felipe completou no rebote para fazer 1 a 0. Com mais de 51 minutos de jogo no Maracanã, o time carioca segura a vantagem contra o Mirassol, que teve dificuldades para atacar.",
+      "player": {
+        "name": "Garoto de Xerém coloca o Fluminense na frente"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 96,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Riquelme volta a pisar na área, com Castillo aberto pela esquerda. O atacante prefere finalizar, sem sucesso. Guga também chuta na sequência.",
+      "player": {
+        "name": "Riquelme volta a pisar na área, com Castillo abe"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 97,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Termina o jogo no Maracanã: Fluminense 1 x 0 Mirassol!",
+      "player": {
+        "name": "FIM DE PAPO"
       },
       "assist": null
     }
@@ -1479,11 +2357,11 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "48%"
+          "value": "55%"
         },
         {
           "type": "Total Passes",
-          "value": 412
+          "value": 783
         },
         {
           "type": "Pass Accuracy",
@@ -1491,31 +2369,31 @@
         },
         {
           "type": "Incomplete Passes",
-          "value": 36
+          "value": 70
         },
         {
           "type": "Total Shots",
-          "value": 6
+          "value": 19
         },
         {
           "type": "Shots on Goal",
-          "value": 4
+          "value": 9
         },
         {
           "type": "Shots off Goal",
-          "value": 2
+          "value": 5
         },
         {
           "type": "Blocked Shots",
-          "value": 0
+          "value": 3
         },
         {
           "type": "Hit Woodwork",
-          "value": 0
+          "value": 2
         },
         {
           "type": "Corner Kicks",
-          "value": 4
+          "value": 8
         },
         {
           "type": "Offsides",
@@ -1531,15 +2409,15 @@
         },
         {
           "type": "Tackles",
-          "value": 4
+          "value": 11
         },
         {
           "type": "Fouls",
-          "value": 9
+          "value": 16
         },
         {
           "type": "Yellow Cards",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Red Cards",
@@ -1555,19 +2433,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "52%"
+          "value": "45%"
         },
         {
           "type": "Total Passes",
-          "value": 348
+          "value": 479
         },
         {
           "type": "Pass Accuracy",
-          "value": "90%"
+          "value": "87%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 36
+          "value": 60
         },
         {
           "type": "Total Shots",
@@ -1603,11 +2481,11 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 2
+          "value": 9
         },
         {
           "type": "Tackles",
-          "value": 8
+          "value": 12
         },
         {
           "type": "Fouls",
@@ -1615,7 +2493,7 @@
         },
         {
           "type": "Yellow Cards",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Red Cards",

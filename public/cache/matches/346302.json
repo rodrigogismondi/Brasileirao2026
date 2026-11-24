@@ -7,12 +7,12 @@
       "city": ""
     },
     "status": {
-      "long": "2H",
-      "short": "2H",
-      "elapsed": 97
+      "long": "FT",
+      "short": "FT",
+      "elapsed": 90
     },
-    "timerStart": "2026-11-24T00:09:05.008Z",
-    "timerStatus": "INICIADO"
+    "timerStart": "2026-11-24T01:05:28.627Z",
+    "timerStatus": "PAUSADO"
   },
   "league": {
     "round": "Regular Season - 36"
@@ -39,8 +39,8 @@
       "away": null
     },
     "fulltime": {
-      "home": null,
-      "away": null
+      "home": 1,
+      "away": 1
     }
   },
   "odds": null,
@@ -2447,9 +2447,9 @@
         "name": ""
       },
       "type": "Important",
-      "detail": "Aos 51 minutos do segundo tempo, Botafogo e São Paulo vão empatando por 1 a 1 no Nilton Santos. Pedro Lima marcou para o time paulista na primeira etapa, mas Tiquinho Soares empatou no segundo tempo. O clima esquentou de vez nos acréscimos com as expulsões de Marçal, pelo lado carioca, e de Wendell, da equipe visitante, após o árbitro consultar o VAR.",
+      "detail": "Com 51 minutos da etapa final, o clássico segue empatado em 1 a 1. Pedro Lima abriu o placar para o São Paulo no primeiro tempo, mas Tiquinho Soares buscou a igualdade para o Botafogo aos 35 do segundo. A reta final do jogo ficou marcada pela alta tensão e duas expulsões diretas após faltas duras: Marçal e Wendell receberam cartão vermelho nos acréscimos eletrizantes.",
       "player": {
-        "name": "Tudo igual e clima tenso no Nilton Santos"
+        "name": "Empate e expulsões agitam os acréscimos no Rio"
       },
       "assist": null
     },
@@ -2459,13 +2459,109 @@
         "extra": null
       },
       "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Card",
+      "detail": "Red Card",
+      "player": {
+        "name": "Wendell"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 97,
+        "extra": null
+      },
+      "team": {
         "id": 0,
         "name": ""
       },
       "type": "Important",
-      "detail": "O árbitro revisa o lance da tela e muda a decisão. Sai o cartão amarelo, e é vermelho direto para o lateral",
+      "detail": "O árbitro dá mais quatro minutos de acréscimos! O jogo vai até os 55 do segundo tempo",
       "player": {
-        "name": "CARTÃO VERMELHO!"
+        "name": "Mais quatro!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 98,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Botafogo tenta uma pressão final em busca da virada. O São Paulo se defende como pode",
+      "player": {
+        "name": "Botafogo tenta uma pressão final em busca da vir"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 99,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Montoro é lançado em velocidade pela direita, mas usa a mão para dominar a bola. Falta marcada",
+      "player": {
+        "name": "Montoro é lançado em velocidade pela direita, ma"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 99,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Com 54 minutos da etapa final, Botafogo e São Paulo empatam por 1 a 1 em um duelo de fortes emoções. Pedro Lima abriu o placar para os paulistas no primeiro tempo após bela jogada coletiva. Na segunda etapa, Tiquinho Soares aproveitou rebote para igualar. O clima esquentou nos acréscimos com as expulsões de Marçal, pelo lado carioca, e de Wendell, pelo time visitante.",
+      "player": {
+        "name": "Tensão e igualdade no placar até o fim"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 99,
+        "extra": null
+      },
+      "team": {
+        "id": 263,
+        "name": "Botafogo"
+      },
+      "type": "Important",
+      "detail": "Alex Telles cruza de muito longe, Arthur Cabral ganha pelo alto e cabeceia para fora",
+      "player": {
+        "name": "Arthur Cabral"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 100,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Botafogo empata em 1 a 1 com o São Paulo pela 36ª rodada",
+      "player": {
+        "name": "Fim de papo!"
       },
       "assist": null
     }
@@ -2925,23 +3021,23 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "51%"
+          "value": "52%"
         },
         {
           "type": "Total Passes",
-          "value": 471
+          "value": 491
         },
         {
           "type": "Pass Accuracy",
-          "value": "81%"
+          "value": "82%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 88
+          "value": 90
         },
         {
           "type": "Total Shots",
-          "value": 18
+          "value": 19
         },
         {
           "type": "Shots on Goal",
@@ -2949,7 +3045,7 @@
         },
         {
           "type": "Shots off Goal",
-          "value": 9
+          "value": 10
         },
         {
           "type": "Blocked Shots",
@@ -2977,11 +3073,11 @@
         },
         {
           "type": "Tackles",
-          "value": 11
+          "value": 13
         },
         {
           "type": "Fouls",
-          "value": 20
+          "value": 21
         },
         {
           "type": "Yellow Cards",
@@ -3001,19 +3097,19 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "49%"
+          "value": "48%"
         },
         {
           "type": "Total Passes",
-          "value": 378
+          "value": 387
         },
         {
           "type": "Pass Accuracy",
-          "value": "80%"
+          "value": "79%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 75
+          "value": 81
         },
         {
           "type": "Total Shots",
@@ -3021,7 +3117,7 @@
         },
         {
           "type": "Shots on Goal",
-          "value": 5
+          "value": 6
         },
         {
           "type": "Shots off Goal",
@@ -3033,7 +3129,7 @@
         },
         {
           "type": "Hit Woodwork",
-          "value": 2
+          "value": 1
         },
         {
           "type": "Corner Kicks",
@@ -3053,11 +3149,11 @@
         },
         {
           "type": "Tackles",
-          "value": 11
+          "value": 14
         },
         {
           "type": "Fouls",
-          "value": 17
+          "value": 19
         },
         {
           "type": "Yellow Cards",
@@ -3065,7 +3161,7 @@
         },
         {
           "type": "Red Cards",
-          "value": 0
+          "value": 1
         }
       ]
     }

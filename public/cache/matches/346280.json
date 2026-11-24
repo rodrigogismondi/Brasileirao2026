@@ -10,7 +10,9 @@
       "long": "NS",
       "short": "NS",
       "elapsed": null
-    }
+    },
+    "timerStart": "2026-11-24T19:58:38.420Z",
+    "timerStatus": "PAUSADO"
   },
   "league": {
     "round": "Regular Season - 37"
@@ -43,9 +45,418 @@
   },
   "odds": null,
   "tv": [],
+  "_geUrl": "https://ge.globo.com/sc/futebol/brasileirao-serie-a/jogo/24-11-2026/chapecoense-palmeiras.ghtml",
   "events": [],
-  "lineups": [],
+  "lineups": [
+    {
+      "team": {
+        "id": 315,
+        "name": "Chapecoense",
+        "logo": "https://s.sde.globo.com/media/organizations/2021/06/21/CHAPECOENSE-2018.svg"
+      },
+      "formation": "3-6-1",
+      "coach": {
+        "name": "Vinícius Bergantin"
+      },
+      "startXI": [
+        {
+          "player": {
+            "id": "matheusaurelio",
+            "name": "Matheus Aurélio",
+            "number": 30,
+            "pos": "Gol",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "kauanfg",
+            "name": "Kauan",
+            "number": 21,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "victorcaetano",
+            "name": "Victor Caetano",
+            "number": 25,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "eduardodoma",
+            "name": "Eduardo Doma",
+            "number": 3,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "heitorfonseca",
+            "name": "Heitor",
+            "number": 5,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "camilo-reijers",
+            "name": "Camilo",
+            "number": 27,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "maxdasilva",
+            "name": "Max",
+            "number": 22,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "david",
+            "name": "David",
+            "number": 19,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "giovanni-augusto",
+            "name": "Giovanni Augusto",
+            "number": 10,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "brunopacheco",
+            "name": "Bruno Pacheco",
+            "number": 91,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "tulio-eduardo",
+            "name": "Túlio Eduardo",
+            "number": 9,
+            "pos": "Ata",
+            "grid": null
+          }
+        }
+      ],
+      "substitutes": [
+        {
+          "player": {
+            "id": "gabriel-werner",
+            "name": "Gabriel Werner",
+            "number": 14,
+            "pos": "Gol",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "brunotubarao",
+            "name": "Bruno Tubarão",
+            "number": 20,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "everton-cruz",
+            "name": "Everton",
+            "number": 26,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "vinicius-eduardo-0205",
+            "name": "Vinicius",
+            "number": 35,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "manchagp",
+            "name": "Mancha",
+            "number": 6,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "fernando-bueno",
+            "name": "Fernando",
+            "number": 12,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "rosivan",
+            "name": "Rosivan",
+            "number": 55,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "juan-ferreira",
+            "name": "Juan Ferreira",
+            "number": 66,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "miguel-carvalho",
+            "name": "Miguel Carvalho",
+            "number": 80,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "marcinhoantonio",
+            "name": "Marcinho",
+            "number": 7,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "Rodrigo-Endrio",
+            "name": "Rodrigo",
+            "number": 39,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "rubensth",
+            "name": "Rubens",
+            "number": 70,
+            "pos": "Ata",
+            "grid": null
+          }
+        }
+      ]
+    },
+    {
+      "team": {
+        "id": 275,
+        "name": "Palmeiras",
+        "logo": "https://s.sde.globo.com/media/organizations/2019/07/06/Palmeiras.svg"
+      },
+      "formation": "3-4-3",
+      "coach": {
+        "name": "Abel Ferreira"
+      },
+      "startXI": [
+        {
+          "player": {
+            "id": "marcelolomba",
+            "name": "Marcelo Lomba",
+            "number": 14,
+            "pos": "Gol",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "emilianomartinezt",
+            "name": "Emiliano Martínez",
+            "number": 32,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "kone",
+            "name": "Koné",
+            "number": 44,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "Benedetti",
+            "name": "Benedetti",
+            "number": 43,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "khellven",
+            "name": "Khellven",
+            "number": 12,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "luis-pacheco",
+            "name": "Luis Pacheco",
+            "number": 50,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "Larson-Torna",
+            "name": "Larson",
+            "number": 48,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "felipeanderson",
+            "name": "Felipe Anderson",
+            "number": 7,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "bele",
+            "name": "Belé",
+            "number": 45,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "heittor",
+            "name": "Heittor",
+            "number": 39,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "Fabiano",
+            "name": "Fabiano",
+            "number": 37,
+            "pos": "Ata",
+            "grid": null
+          }
+        }
+      ],
+      "substitutes": [
+        {
+          "player": {
+            "id": "bruno-bertinato",
+            "name": "Bruno Bertinato",
+            "number": 21,
+            "pos": "Gol",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "kauan-lima",
+            "name": "Kauan Lima",
+            "number": 72,
+            "pos": "Gol",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "geovanne",
+            "name": "Geovanne",
+            "number": 40,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "andre-lucas-ribeiro",
+            "name": "André Lucas",
+            "number": 66,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "robson-santos",
+            "name": "Robson",
+            "number": 63,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "rafael-coutinho",
+            "name": "Rafael Coutinho",
+            "number": 65,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "Miguel-Cinoncelli-Bilong",
+            "name": "Miguel Bilong",
+            "number": 29,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "victor-gabriel-leite",
+            "name": "Victor Gabriel",
+            "number": 47,
+            "pos": "Ata",
+            "grid": null
+          }
+        }
+      ]
+    }
+  ],
   "statistics": [],
-  "sportsFieldUrl": null,
-  "_geUrl": "https://ge.globo.com/sc/futebol/brasileirao-serie-a/jogo/24-11-2026/chapecoense-palmeiras.ghtml"
+  "sportsFieldUrl": null
 }

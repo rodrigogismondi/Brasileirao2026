@@ -18150,12 +18150,10 @@
           "city": ""
         },
         "status": {
-          "long": "NS",
-          "short": "NS",
-          "elapsed": null
-        },
-        "timerStart": "2026-11-24T19:58:38.420Z",
-        "timerStatus": "PAUSADO"
+          "long": "FT",
+          "short": "FT",
+          "elapsed": 90
+        }
       },
       "league": {
         "round": "Regular Season - 37"
@@ -18173,8 +18171,8 @@
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 3,
+        "away": 0
       },
       "score": {
         "halftime": {
@@ -18182,8 +18180,8 @@
           "away": null
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 3,
+          "away": 0
         }
       },
       "odds": null,
@@ -19162,17 +19160,17 @@
                 "logo": "https://s.sde.globo.com/media/organizations/2019/07/06/Palmeiras.svg"
               },
               "points": 74,
-              "goalsDiff": 38,
-              "form": "WDWLD",
+              "goalsDiff": 35,
+              "form": "DWLDL",
               "description": "Copa Libertadores",
               "all": {
-                "played": 36,
+                "played": 37,
                 "win": 21,
                 "draw": 11,
-                "lose": 4,
+                "lose": 5,
                 "goals": {
                   "for": 64,
-                  "against": 26
+                  "against": 29
                 }
               }
             },
@@ -19557,17 +19555,17 @@
                 "name": "Chapecoense",
                 "logo": "https://s.sde.globo.com/media/organizations/2021/06/21/CHAPECOENSE-2018.svg"
               },
-              "points": 21,
-              "goalsDiff": -40,
-              "form": "WLLLL",
+              "points": 24,
+              "goalsDiff": -37,
+              "form": "LLLLW",
               "description": "Relegation",
               "all": {
-                "played": 36,
-                "win": 4,
+                "played": 37,
+                "win": 5,
                 "draw": 9,
                 "lose": 23,
                 "goals": {
-                  "for": 34,
+                  "for": 37,
                   "against": 74
                 }
               }
@@ -20683,10 +20681,10 @@
   "budget": {
     "used": 0,
     "remaining": 100,
-    "mode": "prematch",
-    "liveIntervalMs": 120000
+    "mode": "idle",
+    "liveIntervalMs": 900000
   },
-  "fetchedAt": "2026-11-24T20:56:55.386Z",
+  "fetchedAt": "2026-11-25T04:02:41.243Z",
   "source": "ge-globo",
   "meta": {
     "rodada": 36,
@@ -20731,7 +20729,7 @@
       37,
       38
     ],
-    "seasonSyncedAt": "2026-11-24T20:56:41.898Z",
+    "seasonSyncedAt": "2026-11-25T04:02:20.583Z",
     "fullSeasonSync": true,
     "edicao": "Campeonato Brasileiro 2026",
     "provider": "ge.globo.com",
@@ -20743,7 +20741,7 @@
     "tvPreserved": 0,
     "tvAvailable": 384,
     "tvSource": "Onde Assistir — https://ondeassistir.com.br/dados",
-    "tvUpdatedAt": "2026-11-24T20:15:03.035686Z",
+    "tvUpdatedAt": "2026-11-25T00:15:24.000000Z",
     "fixturesCount": 380
   }
 }

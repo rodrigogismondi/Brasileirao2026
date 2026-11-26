@@ -18196,12 +18196,12 @@
           "city": ""
         },
         "status": {
-          "long": "1H",
-          "short": "1H",
-          "elapsed": 3
+          "long": "FT",
+          "short": "FT",
+          "elapsed": 90
         },
-        "timerStart": "2026-11-25T23:04:23.100Z",
-        "timerStatus": "INICIADO"
+        "timerStart": "2026-11-26T01:14:08.412Z",
+        "timerStatus": "PAUSADO"
       },
       "league": {
         "round": "Regular Season - 36"
@@ -18219,8 +18219,8 @@
         }
       },
       "goals": {
-        "home": 0,
-        "away": 0
+        "home": 1,
+        "away": 1
       },
       "score": {
         "halftime": {
@@ -18228,8 +18228,8 @@
           "away": null
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 1,
+          "away": 1
         }
       },
       "odds": {
@@ -19269,18 +19269,18 @@
                 "name": "Atlético-MG",
                 "logo": "https://s.sde.globo.com/media/organizations/2018/03/10/atletico-mg.svg"
               },
-              "points": 51,
+              "points": 52,
               "goalsDiff": 4,
-              "form": "WLLLD",
+              "form": "LLLDD",
               "description": "Copa Sudamericana",
               "all": {
-                "played": 35,
+                "played": 36,
                 "win": 14,
-                "draw": 9,
+                "draw": 10,
                 "lose": 12,
                 "goals": {
-                  "for": 44,
-                  "against": 40
+                  "for": 45,
+                  "against": 41
                 }
               }
             },
@@ -19441,6 +19441,28 @@
             {
               "rank": 15,
               "team": {
+                "id": 264,
+                "name": "Corinthians",
+                "logo": "https://s.sde.globo.com/media/organizations/2024/10/09/Corinthians_2024_Q4ahot4.svg"
+              },
+              "points": 41,
+              "goalsDiff": -2,
+              "form": "LWDWD",
+              "description": null,
+              "all": {
+                "played": 36,
+                "win": 10,
+                "draw": 11,
+                "lose": 15,
+                "goals": {
+                  "for": 41,
+                  "against": 43
+                }
+              }
+            },
+            {
+              "rank": 16,
+              "team": {
                 "id": 284,
                 "name": "Grêmio",
                 "logo": "https://s.sde.globo.com/media/organizations/2018/03/12/gremio.svg"
@@ -19461,7 +19483,7 @@
               }
             },
             {
-              "rank": 16,
+              "rank": 17,
               "team": {
                 "id": 2305,
                 "name": "Mirassol",
@@ -19470,7 +19492,7 @@
               "points": 41,
               "goalsDiff": -10,
               "form": "DLWDL",
-              "description": null,
+              "description": "Relegation",
               "all": {
                 "played": 36,
                 "win": 10,
@@ -19479,28 +19501,6 @@
                 "goals": {
                   "for": 39,
                   "against": 49
-                }
-              }
-            },
-            {
-              "rank": 17,
-              "team": {
-                "id": 264,
-                "name": "Corinthians",
-                "logo": "https://s.sde.globo.com/media/organizations/2024/10/09/Corinthians_2024_Q4ahot4.svg"
-              },
-              "points": 40,
-              "goalsDiff": -2,
-              "form": "DLWDW",
-              "description": "Relegation",
-              "all": {
-                "played": 35,
-                "win": 10,
-                "draw": 10,
-                "lose": 15,
-                "goals": {
-                  "for": 40,
-                  "against": 42
                 }
               }
             },
@@ -20217,6 +20217,28 @@
     {
       "player": {
         "id": 30,
+        "name": "Kaio César",
+        "photo": "https://s.sde.globo.com/media/person_role/2025/04/02/photo_140x140_xbpNMqA.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "name": "Corinthians",
+            "logo": "https://s.sde.globo.com/media/organizations/2024/10/09/Corinthians-2024-65_IYhgZ1u.png"
+          },
+          "goals": {
+            "total": 7,
+            "assists": null
+          },
+          "games": {
+            "appearences": 0
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 31,
         "name": "Renato Kayzer",
         "photo": "https://s.sde.globo.com/media/person_role/2025/04/11/photo_140x140_xVBPNKg.png"
       },
@@ -20238,7 +20260,7 @@
     },
     {
       "player": {
-        "id": 31,
+        "id": 32,
         "name": "Lucho Acosta",
         "photo": "https://s.sde.globo.com/media/person_role/2026/07/06/photo_140x140_DdPgkDh.png"
       },
@@ -20260,7 +20282,7 @@
     },
     {
       "player": {
-        "id": 32,
+        "id": 33,
         "name": "Edenílson",
         "photo": "https://s.sde.globo.com/media/person_role/2026/07/08/photo_140x140_Cnped9h.png"
       },
@@ -20282,7 +20304,7 @@
     },
     {
       "player": {
-        "id": 33,
+        "id": 34,
         "name": "Alan Patrick",
         "photo": "https://s.sde.globo.com/media/person_role/2025/04/03/photo_140x140_sDx9vFU.png"
       },
@@ -20304,7 +20326,7 @@
     },
     {
       "player": {
-        "id": 34,
+        "id": 35,
         "name": "Canobbio",
         "photo": "https://s.sde.globo.com/media/person_role/2026/07/06/photo_140x140_AyXW0hS.png"
       },
@@ -20326,7 +20348,7 @@
     },
     {
       "player": {
-        "id": 35,
+        "id": 36,
         "name": "Thiago Mendes",
         "photo": "https://s.sde.globo.com/media/person_role/2026/03/02/photo_140x140.png"
       },
@@ -20348,7 +20370,7 @@
     },
     {
       "player": {
-        "id": 36,
+        "id": 37,
         "name": "Rodrigo Castillo",
         "photo": "https://s.sde.globo.com/media/person_role/2026/07/06/photo_140x140_FuaIXQB.png"
       },
@@ -20370,15 +20392,15 @@
     },
     {
       "player": {
-        "id": 37,
-        "name": "Kaio César",
-        "photo": "https://s.sde.globo.com/media/person_role/2025/04/02/photo_140x140_xbpNMqA.png"
+        "id": 38,
+        "name": "Cuello",
+        "photo": "https://s.sde.globo.com/media/person_role/2025/04/04/photo_140x140_aWdBvuS.png"
       },
       "statistics": [
         {
           "team": {
-            "name": "Corinthians",
-            "logo": "https://s.sde.globo.com/media/organizations/2024/10/09/Corinthians-2024-65_IYhgZ1u.png"
+            "name": "Atlético-MG",
+            "logo": "https://s.sde.globo.com/media/organizations/2017/11/23/Atletico-Mineiro-escudo65px.png"
           },
           "goals": {
             "total": 6,
@@ -20392,7 +20414,7 @@
     },
     {
       "player": {
-        "id": 38,
+        "id": 39,
         "name": "Leozinho",
         "photo": "https://s.sde.globo.com/media/person_role/2025/03/14/photo_140x140_Wofj7zI.png"
       },
@@ -20414,7 +20436,7 @@
     },
     {
       "player": {
-        "id": 39,
+        "id": 40,
         "name": "Vitor Roque",
         "photo": "https://s.sde.globo.com/media/person_role/2025/04/01/photo_140x140_UbLy5Jq.png"
       },
@@ -20436,7 +20458,7 @@
     },
     {
       "player": {
-        "id": 40,
+        "id": 41,
         "name": "Alef Manga",
         "photo": "https://s.sde.globo.com/media/person_role/2026/02/09/photo_140x140_vvMsJPI.png"
       },
@@ -20458,7 +20480,7 @@
     },
     {
       "player": {
-        "id": 41,
+        "id": 42,
         "name": "Ramón Sosa",
         "photo": "https://s.sde.globo.com/media/person_role/2026/08/19/photo_140x140_ZCpsfVa.png"
       },
@@ -20480,7 +20502,7 @@
     },
     {
       "player": {
-        "id": 42,
+        "id": 43,
         "name": "Lavega",
         "photo": "https://s.sde.globo.com/media/person_role/2026/02/09/photo_140x140_LeapY03.png"
       },
@@ -20502,7 +20524,7 @@
     },
     {
       "player": {
-        "id": 43,
+        "id": 44,
         "name": "Matheuzinho",
         "photo": "https://s.sde.globo.com/media/person_role/2026/11/06/photo_140x140_p7MmBhg.png"
       },
@@ -20524,7 +20546,7 @@
     },
     {
       "player": {
-        "id": 44,
+        "id": 45,
         "name": "Matheus Bidu",
         "photo": "https://s.sde.globo.com/media/person_role/2025/04/01/photo_140x140_OSHSlSF.png"
       },
@@ -20546,7 +20568,7 @@
     },
     {
       "player": {
-        "id": 45,
+        "id": 46,
         "name": "Erick",
         "photo": "https://s.sde.globo.com/media/person_role/2026/11/06/photo_140x140.png"
       },
@@ -20568,7 +20590,7 @@
     },
     {
       "player": {
-        "id": 46,
+        "id": 47,
         "name": "Hércules",
         "photo": "https://s.sde.globo.com/media/person_role/2026/07/06/photo_140x140_b51MXDq.png"
       },
@@ -20590,7 +20612,7 @@
     },
     {
       "player": {
-        "id": 47,
+        "id": 48,
         "name": "Christian",
         "photo": "https://s.sde.globo.com/media/person_role/2025/04/01/photo_140x140_1FOgaNC.png"
       },
@@ -20599,28 +20621,6 @@
           "team": {
             "name": "Cruzeiro",
             "logo": "https://s.sde.globo.com/media/organizations/2021/02/13/65_cruzeiro-2021.png"
-          },
-          "goals": {
-            "total": 5,
-            "assists": null
-          },
-          "games": {
-            "appearences": 0
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 48,
-        "name": "Cuello",
-        "photo": "https://s.sde.globo.com/media/person_role/2025/04/04/photo_140x140_aWdBvuS.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "name": "Atlético-MG",
-            "logo": "https://s.sde.globo.com/media/organizations/2017/11/23/Atletico-Mineiro-escudo65px.png"
           },
           "goals": {
             "total": 5,
@@ -20681,10 +20681,10 @@
   "budget": {
     "used": 0,
     "remaining": 100,
-    "mode": "live",
-    "liveIntervalMs": 20000
+    "mode": "idle",
+    "liveIntervalMs": 900000
   },
-  "fetchedAt": "2026-11-25T23:08:05.625Z",
+  "fetchedAt": "2026-11-26T05:00:37.722Z",
   "source": "ge-globo",
   "meta": {
     "rodada": 36,
@@ -20730,7 +20730,7 @@
       38
     ],
     "seasonSyncedAt": "2026-11-25T23:07:58.308Z",
-    "fullSeasonSync": true,
+    "fullSeasonSync": false,
     "edicao": "Campeonato Brasileiro 2026",
     "provider": "ge.globo.com",
     "scorersCount": 50,
@@ -20741,7 +20741,7 @@
     "tvPreserved": 0,
     "tvAvailable": 384,
     "tvSource": "Onde Assistir — https://ondeassistir.com.br/dados",
-    "tvUpdatedAt": "2026-11-25T22:15:48.000000Z",
+    "tvUpdatedAt": "2026-11-26T04:19:49.129712Z",
     "fixturesCount": 380
   }
 }

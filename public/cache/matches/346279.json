@@ -10,7 +10,9 @@
       "long": "NS",
       "short": "NS",
       "elapsed": null
-    }
+    },
+    "timerStart": null,
+    "timerStatus": "PAUSADO"
   },
   "league": {
     "round": "Regular Season - 37"
@@ -43,9 +45,236 @@
   },
   "odds": null,
   "tv": [],
+  "_geUrl": "https://ge.globo.com/ba/futebol/brasileirao-serie-a/jogo/29-11-2026/vitoria-santos.ghtml",
   "events": [],
-  "lineups": [],
+  "lineups": [
+    {
+      "team": {
+        "id": 287,
+        "name": "Vitória",
+        "logo": "https://s.sde.globo.com/media/organizations/2025/12/18/Vitoria_2025.svg"
+      },
+      "formation": "4-3-3",
+      "coach": {
+        "name": "Rafael Lacerda"
+      },
+      "startXI": [
+        {
+          "player": {
+            "id": "lucasarcanjo",
+            "name": "Lucas Arcanjo",
+            "number": 1,
+            "pos": "Gol",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "mateusinho",
+            "name": "Mateus Silva",
+            "number": 98,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "caca-menezes",
+            "name": "Cacá",
+            "number": 25,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "emabritez",
+            "name": "Brítez",
+            "number": 2,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "jamerson-jesus",
+            "name": "Jamerson",
+            "number": 83,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "baralhas",
+            "name": "Baralhas",
+            "number": 44,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "ze-vitor-neves",
+            "name": "Zé Vitor",
+            "number": null,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "matheuzinho-martins",
+            "name": "Matheuzinho",
+            "number": 10,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "erick-serafim",
+            "name": "Erick",
+            "number": 33,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "Rene",
+            "name": "Renê",
+            "number": 91,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "ditarzia",
+            "name": "Tarzia",
+            "number": 12,
+            "pos": "Ata",
+            "grid": null
+          }
+        }
+      ],
+      "substitutes": []
+    },
+    {
+      "team": {
+        "id": 277,
+        "name": "Santos",
+        "logo": "https://s.sde.globo.com/media/organizations/2018/03/12/santos.svg"
+      },
+      "formation": "4-4-2",
+      "coach": {
+        "name": "Cuca"
+      },
+      "startXI": [
+        {
+          "player": {
+            "id": "diogenesvini",
+            "name": "Diógenes",
+            "number": 1,
+            "pos": "Gol",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "rodinei-m",
+            "name": "Rodinei",
+            "number": 23,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "joao-alencar-santos",
+            "name": "João Alencar",
+            "number": 42,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "willianarao",
+            "name": "Willian Arão",
+            "number": 15,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "luanperes",
+            "name": "Luan Peres",
+            "number": 14,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "gustavo-henrique",
+            "name": "Gustavo Henrique",
+            "number": 48,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "arthurhr",
+            "name": "Arthur Melo",
+            "number": 6,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "philippecoutinho",
+            "name": "Philippe Coutinho",
+            "number": 11,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "neymar",
+            "name": "Neymar",
+            "number": 10,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "everton0396",
+            "name": "Everton",
+            "number": 7,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "gabriel-gabigol",
+            "name": "Gabriel",
+            "number": 9,
+            "pos": "Ata",
+            "grid": null
+          }
+        }
+      ],
+      "substitutes": []
+    }
+  ],
   "statistics": [],
-  "sportsFieldUrl": null,
-  "_geUrl": "https://ge.globo.com/ba/futebol/brasileirao-serie-a/jogo/29-11-2026/vitoria-santos.ghtml"
+  "sportsFieldUrl": null
 }

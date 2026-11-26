@@ -17716,9 +17716,7 @@
           "long": "FT",
           "short": "FT",
           "elapsed": 90
-        },
-        "timerStart": "2026-11-21T21:30:33.632Z",
-        "timerStatus": "PAUSADO"
+        }
       },
       "league": {
         "round": "Regular Season - 36"
@@ -17764,9 +17762,7 @@
           "long": "FT",
           "short": "FT",
           "elapsed": 90
-        },
-        "timerStart": "2026-11-21T22:45:27.819Z",
-        "timerStatus": "PAUSADO"
+        }
       },
       "league": {
         "round": "Regular Season - 36"
@@ -17812,9 +17808,7 @@
           "long": "FT",
           "short": "FT",
           "elapsed": 90
-        },
-        "timerStart": "2026-11-22T01:54:18.813Z",
-        "timerStatus": "PAUSADO"
+        }
       },
       "league": {
         "round": "Regular Season - 36"
@@ -17860,9 +17854,7 @@
           "long": "FT",
           "short": "FT",
           "elapsed": 90
-        },
-        "timerStart": "2026-11-22T21:06:37.320Z",
-        "timerStatus": "PAUSADO"
+        }
       },
       "league": {
         "round": "Regular Season - 36"
@@ -17913,9 +17905,7 @@
           "long": "FT",
           "short": "FT",
           "elapsed": 90
-        },
-        "timerStart": "2026-11-22T23:30:57.145Z",
-        "timerStatus": "PAUSADO"
+        }
       },
       "league": {
         "round": "Regular Season - 36"
@@ -17961,9 +17951,7 @@
           "long": "FT",
           "short": "FT",
           "elapsed": 90
-        },
-        "timerStart": "2026-11-23T00:34:02.814Z",
-        "timerStatus": "PAUSADO"
+        }
       },
       "league": {
         "round": "Regular Season - 36"
@@ -18009,9 +17997,7 @@
           "long": "FT",
           "short": "FT",
           "elapsed": 90
-        },
-        "timerStart": "2026-11-24T00:35:32.343Z",
-        "timerStatus": "PAUSADO"
+        }
       },
       "league": {
         "round": "Regular Season - 36"
@@ -18057,9 +18043,7 @@
           "long": "FT",
           "short": "FT",
           "elapsed": 90
-        },
-        "timerStart": "2026-11-24T01:05:28.627Z",
-        "timerStatus": "PAUSADO"
+        }
       },
       "league": {
         "round": "Regular Season - 36"
@@ -18105,9 +18089,7 @@
           "long": "FT",
           "short": "FT",
           "elapsed": 90
-        },
-        "timerStart": "2026-11-24T02:19:04.244Z",
-        "timerStatus": "PAUSADO"
+        }
       },
       "league": {
         "round": "Regular Season - 36"
@@ -18153,7 +18135,9 @@
           "long": "FT",
           "short": "FT",
           "elapsed": 90
-        }
+        },
+        "timerStart": "2026-11-24T22:57:54.486Z",
+        "timerStatus": "PAUSADO"
       },
       "league": {
         "round": "Regular Season - 37"
@@ -18199,9 +18183,7 @@
           "long": "FT",
           "short": "FT",
           "elapsed": 90
-        },
-        "timerStart": "2026-11-26T01:14:08.412Z",
-        "timerStatus": "PAUSADO"
+        }
       },
       "league": {
         "round": "Regular Season - 36"
@@ -18249,10 +18231,12 @@
           "city": ""
         },
         "status": {
-          "long": "NS",
-          "short": "NS",
-          "elapsed": null
-        }
+          "long": "1H",
+          "short": "1H",
+          "elapsed": 44
+        },
+        "timerStart": "2026-11-26T23:01:00.217Z",
+        "timerStatus": "INICIADO"
       },
       "league": {
         "round": "Regular Season - 37"
@@ -18270,8 +18254,8 @@
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 0
       },
       "score": {
         "halftime": {
@@ -18298,7 +18282,9 @@
           "long": "NS",
           "short": "NS",
           "elapsed": null
-        }
+        },
+        "timerStart": null,
+        "timerStatus": "PAUSADO"
       },
       "league": {
         "round": "Regular Season - 37"
@@ -18390,7 +18376,9 @@
           "long": "NS",
           "short": "NS",
           "elapsed": null
-        }
+        },
+        "timerStart": null,
+        "timerStatus": "PAUSADO"
       },
       "league": {
         "round": "Regular Season - 37"
@@ -18436,7 +18424,9 @@
           "long": "NS",
           "short": "NS",
           "elapsed": null
-        }
+        },
+        "timerStart": null,
+        "timerStatus": "PAUSADO"
       },
       "league": {
         "round": "Regular Season - 37"
@@ -18528,7 +18518,9 @@
           "long": "NS",
           "short": "NS",
           "elapsed": null
-        }
+        },
+        "timerStart": null,
+        "timerStatus": "PAUSADO"
       },
       "league": {
         "round": "Regular Season - 37"
@@ -19331,6 +19323,28 @@
             {
               "rank": 10,
               "team": {
+                "id": 276,
+                "name": "São Paulo",
+                "logo": "https://s.sde.globo.com/media/organizations/2018/03/11/sao-paulo.svg"
+              },
+              "points": 48,
+              "goalsDiff": 0,
+              "form": "LDLDW",
+              "description": "Copa Sudamericana",
+              "all": {
+                "played": 37,
+                "win": 13,
+                "draw": 9,
+                "lose": 15,
+                "goals": {
+                  "for": 41,
+                  "against": 41
+                }
+              }
+            },
+            {
+              "rank": 11,
+              "team": {
                 "id": 267,
                 "name": "Vasco",
                 "logo": "https://s.sde.globo.com/media/organizations/2021/09/04/vasco_SVG.svg"
@@ -19347,28 +19361,6 @@
                 "goals": {
                   "for": 47,
                   "against": 52
-                }
-              }
-            },
-            {
-              "rank": 11,
-              "team": {
-                "id": 276,
-                "name": "São Paulo",
-                "logo": "https://s.sde.globo.com/media/organizations/2018/03/11/sao-paulo.svg"
-              },
-              "points": 45,
-              "goalsDiff": -1,
-              "form": "DLDLD",
-              "description": "Copa Sudamericana",
-              "all": {
-                "played": 36,
-                "win": 12,
-                "draw": 9,
-                "lose": 15,
-                "goals": {
-                  "for": 40,
-                  "against": 41
                 }
               }
             },
@@ -19534,17 +19526,17 @@
                 "logo": "https://s.sde.globo.com/media/organizations/2021/02/25/Remo-PA.svg"
               },
               "points": 32,
-              "goalsDiff": -20,
-              "form": "LWLWL",
+              "goalsDiff": -21,
+              "form": "WLWLL",
               "description": "Relegation",
               "all": {
-                "played": 36,
+                "played": 37,
                 "win": 7,
                 "draw": 11,
-                "lose": 18,
+                "lose": 19,
                 "goals": {
                   "for": 41,
-                  "against": 61
+                  "against": 62
                 }
               }
             },
@@ -19733,6 +19725,28 @@
     {
       "player": {
         "id": 8,
+        "name": "Calleri",
+        "photo": "https://s.sde.globo.com/media/person_role/2026/02/20/photo_140x140_2u6NnKV.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "name": "São Paulo",
+            "logo": "https://s.sde.globo.com/media/organizations/2014/04/14/sao_paulo_60x60.png"
+          },
+          "goals": {
+            "total": 11,
+            "assists": null
+          },
+          "games": {
+            "appearences": 0
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 9,
         "name": "Matheus Pereira",
         "photo": "https://s.sde.globo.com/media/person_role/2025/04/01/photo_140x140_paqfi1w.png"
       },
@@ -19754,7 +19768,7 @@
     },
     {
       "player": {
-        "id": 9,
+        "id": 10,
         "name": "Luciano Juba",
         "photo": "https://s.sde.globo.com/media/person_role/2026/07/06/photo_140x140_JKUCf8p.png"
       },
@@ -19776,7 +19790,7 @@
     },
     {
       "player": {
-        "id": 10,
+        "id": 11,
         "name": "Flaco López",
         "photo": "https://s.sde.globo.com/media/person_role/2026/08/19/photo_140x140_nrOfcKo.png"
       },
@@ -19798,7 +19812,7 @@
     },
     {
       "player": {
-        "id": 11,
+        "id": 12,
         "name": "Danilo",
         "photo": "https://s.sde.globo.com/media/person_role/2026/07/06/photo_140x140_z4bUUy7.png"
       },
@@ -19807,28 +19821,6 @@
           "team": {
             "name": "Botafogo",
             "logo": "https://s.sde.globo.com/media/organizations/2019/02/04/botafogo-65.png"
-          },
-          "goals": {
-            "total": 10,
-            "assists": null
-          },
-          "games": {
-            "appearences": 0
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 12,
-        "name": "Calleri",
-        "photo": "https://s.sde.globo.com/media/person_role/2026/02/20/photo_140x140_2u6NnKV.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "name": "São Paulo",
-            "logo": "https://s.sde.globo.com/media/organizations/2014/04/14/sao_paulo_60x60.png"
           },
           "goals": {
             "total": 10,
@@ -20681,13 +20673,13 @@
   "budget": {
     "used": 0,
     "remaining": 100,
-    "mode": "prematch",
-    "liveIntervalMs": 120000
+    "mode": "live",
+    "liveIntervalMs": 20000
   },
-  "fetchedAt": "2026-11-26T15:00:33.153Z",
+  "fetchedAt": "2026-11-26T23:45:15.757Z",
   "source": "ge-globo",
   "meta": {
-    "rodada": 36,
+    "rodada": 37,
     "ultimaRodada": 38,
     "rounds": [
       1,
@@ -20729,7 +20721,7 @@
       37,
       38
     ],
-    "seasonSyncedAt": "2026-11-26T15:00:20.050Z",
+    "seasonSyncedAt": "2026-11-26T23:44:57.483Z",
     "fullSeasonSync": true,
     "edicao": "Campeonato Brasileiro 2026",
     "provider": "ge.globo.com",
@@ -20741,7 +20733,7 @@
     "tvPreserved": 0,
     "tvAvailable": 384,
     "tvSource": "Onde Assistir — https://ondeassistir.com.br/dados",
-    "tvUpdatedAt": "2026-11-26T14:17:21.000000Z",
+    "tvUpdatedAt": "2026-11-26T22:14:27.000000Z",
     "fixturesCount": 380
   }
 }

@@ -10,7 +10,9 @@
       "long": "NS",
       "short": "NS",
       "elapsed": null
-    }
+    },
+    "timerStart": null,
+    "timerStatus": "PAUSADO"
   },
   "league": {
     "round": "Regular Season - 37"
@@ -43,9 +45,236 @@
   },
   "odds": null,
   "tv": [],
+  "_geUrl": "https://ge.globo.com/sp/tem-esporte/futebol/brasileirao-serie-a/jogo/29-11-2026/mirassol-atletico-pr.ghtml",
   "events": [],
-  "lineups": [],
+  "lineups": [
+    {
+      "team": {
+        "id": 2305,
+        "name": "Mirassol",
+        "logo": "https://s.sde.globo.com/media/organizations/2026/07/17/MIrassol.svg"
+      },
+      "formation": "4-3-3",
+      "coach": {
+        "name": "Rafael Guanaes"
+      },
+      "startXI": [
+        {
+          "player": {
+            "id": "walter-barbarense",
+            "name": "Walter",
+            "number": 22,
+            "pos": "Gol",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "igor-formiga",
+            "name": "Igor Formiga",
+            "number": 32,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "joao-victor-santana",
+            "name": "João Victor",
+            "number": 34,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "l-oliveira",
+            "name": "Lucas Oliveira",
+            "number": 2,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "reinaldomanoel",
+            "name": "Reinaldo",
+            "number": 6,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "netomoura",
+            "name": "Neto Moura",
+            "number": 25,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "denilsonab",
+            "name": "Denilson",
+            "number": 27,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "eduardoca",
+            "name": "Eduardo",
+            "number": null,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "brunosantos-americarj",
+            "name": "Bruno Santos",
+            "number": 30,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "carloseduardoferreira",
+            "name": "Carlos Eduardo",
+            "number": 96,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "edsoncarioca",
+            "name": "Edson Carioca",
+            "number": null,
+            "pos": "Ata",
+            "grid": null
+          }
+        }
+      ],
+      "substitutes": []
+    },
+    {
+      "team": {
+        "id": 293,
+        "name": "Athletico-PR",
+        "logo": "https://s.sde.globo.com/media/organizations/2026/01/07/Athletico-PR.svg"
+      },
+      "formation": "3-6-1",
+      "coach": {
+        "name": "Odair Hellmann"
+      },
+      "startXI": [
+        {
+          "player": {
+            "id": "mycael",
+            "name": "Mycael",
+            "number": 1,
+            "pos": "Gol",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "benavidezgas",
+            "name": "Benavídez",
+            "number": 29,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "jfaguirre",
+            "name": "Aguirre",
+            "number": 33,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "esquivelal",
+            "name": "Esquivel",
+            "number": 37,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "gilberto02",
+            "name": "Gilberto",
+            "number": 12,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "jadson16",
+            "name": "Jadson",
+            "number": 16,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "luizgustavo",
+            "name": "Luiz Gustavo",
+            "number": null,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "leozinho",
+            "name": "Leozinho",
+            "number": null,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "zapelli",
+            "name": "Zapelli",
+            "number": null,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "s-mendoza",
+            "name": "Mendoza",
+            "number": 7,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "kerwin-vargas",
+            "name": "Vargas",
+            "number": 18,
+            "pos": "Ata",
+            "grid": null
+          }
+        }
+      ],
+      "substitutes": []
+    }
+  ],
   "statistics": [],
-  "sportsFieldUrl": null,
-  "_geUrl": "https://ge.globo.com/sp/tem-esporte/futebol/brasileirao-serie-a/jogo/29-11-2026/mirassol-atletico-pr.ghtml"
+  "sportsFieldUrl": null
 }

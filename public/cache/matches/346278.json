@@ -10,7 +10,9 @@
       "long": "NS",
       "short": "NS",
       "elapsed": null
-    }
+    },
+    "timerStart": null,
+    "timerStatus": "PAUSADO"
   },
   "league": {
     "round": "Regular Season - 37"
@@ -43,9 +45,236 @@
   },
   "odds": null,
   "tv": [],
+  "_geUrl": "https://ge.globo.com/pr/futebol/brasileirao-serie-a/jogo/29-11-2026/coritiba-flamengo.ghtml",
   "events": [],
-  "lineups": [],
+  "lineups": [
+    {
+      "team": {
+        "id": 294,
+        "name": "Coritiba",
+        "logo": "https://s.sde.globo.com/media/organizations/2018/03/11/coritiba.svg"
+      },
+      "formation": "4-4-2",
+      "coach": {
+        "name": "Guilherme Bossle"
+      },
+      "startXI": [
+        {
+          "player": {
+            "id": "pedro-morisco",
+            "name": "Pedro Morisco",
+            "number": null,
+            "pos": "Gol",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "tinga03",
+            "name": "Tinga",
+            "number": 2,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "tiagocoser",
+            "name": "Tiago Cóser",
+            "number": 23,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "jacy-maranhao",
+            "name": "Jacy",
+            "number": 55,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "brunomelo",
+            "name": "Bruno Melo",
+            "number": 26,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "thiago_santos",
+            "name": "Thiago Santos",
+            "number": 21,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "sebastiangomezlon",
+            "name": "Sebastián Gómez",
+            "number": 19,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "nicolasfonseca",
+            "name": "Nicolás Fonseca",
+            "number": 5,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "josuefilipe",
+            "name": "Josué",
+            "number": 10,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "brenolopes",
+            "name": "Breno Lopes",
+            "number": 77,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "pedrorocha",
+            "name": "Pedro Rocha",
+            "number": 32,
+            "pos": "Ata",
+            "grid": null
+          }
+        }
+      ],
+      "substitutes": []
+    },
+    {
+      "team": {
+        "id": 262,
+        "name": "Flamengo",
+        "logo": "https://s.sde.globo.com/media/organizations/2018/04/10/Flamengo-2018.svg"
+      },
+      "formation": "4-3-3",
+      "coach": {
+        "name": "Leonardo Jardim"
+      },
+      "startXI": [
+        {
+          "player": {
+            "id": "agustin-rossi",
+            "name": "Rossi",
+            "number": 1,
+            "pos": "Gol",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "guivarela",
+            "name": "Varela",
+            "number": 2,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "leo-ortiz",
+            "name": "Léo Ortiz",
+            "number": 3,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "leopereira",
+            "name": "Léo Pereira",
+            "number": 4,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "ayrtonlucas",
+            "name": "Ayrton Lucas",
+            "number": null,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "pulgar",
+            "name": "Erick Pulgar",
+            "number": 5,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "jorginho-verona",
+            "name": "Jorginho",
+            "number": 21,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "arrascaeta",
+            "name": "Arrascaeta",
+            "number": 10,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "carrascalj",
+            "name": "Carrascal",
+            "number": 15,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "pedro-guilhermea",
+            "name": "Pedro",
+            "number": 9,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "samuel-saobernardo",
+            "name": "Samuel Lino",
+            "number": 16,
+            "pos": "Ata",
+            "grid": null
+          }
+        }
+      ],
+      "substitutes": []
+    }
+  ],
   "statistics": [],
-  "sportsFieldUrl": null,
-  "_geUrl": "https://ge.globo.com/pr/futebol/brasileirao-serie-a/jogo/29-11-2026/coritiba-flamengo.ghtml"
+  "sportsFieldUrl": null
 }

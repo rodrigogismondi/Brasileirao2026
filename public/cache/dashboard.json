@@ -18279,12 +18279,12 @@
           "city": ""
         },
         "status": {
-          "long": "NS",
-          "short": "NS",
-          "elapsed": null
+          "long": "1H",
+          "short": "1H",
+          "elapsed": 40
         },
-        "timerStart": null,
-        "timerStatus": "PAUSADO"
+        "timerStart": "2026-11-27T23:00:15.375Z",
+        "timerStatus": "INICIADO"
       },
       "league": {
         "round": "Regular Season - 37"
@@ -18302,8 +18302,8 @@
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 1
       },
       "score": {
         "halftime": {
@@ -18570,7 +18570,9 @@
           "long": "NS",
           "short": "NS",
           "elapsed": null
-        }
+        },
+        "timerStart": null,
+        "timerStatus": "PAUSADO"
       },
       "league": {
         "round": "Regular Season - 37"
@@ -19179,17 +19181,17 @@
                 "name": "Cruzeiro",
                 "logo": "https://s.sde.globo.com/media/organizations/2021/02/13/cruzeiro_2021.svg"
               },
-              "points": 66,
-              "goalsDiff": 9,
+              "points": 69,
+              "goalsDiff": 10,
               "form": "WWWWW",
               "description": "Copa Libertadores",
               "all": {
-                "played": 36,
-                "win": 20,
+                "played": 37,
+                "win": 21,
                 "draw": 6,
                 "lose": 10,
                 "goals": {
-                  "for": 59,
+                  "for": 60,
                   "against": 50
                 }
               }
@@ -19202,17 +19204,17 @@
                 "logo": "https://s.sde.globo.com/media/organizations/2018/03/11/fluminense.svg"
               },
               "points": 63,
-              "goalsDiff": 15,
-              "form": "LWWWW",
+              "goalsDiff": 14,
+              "form": "WWWWL",
               "description": "Copa Libertadores",
               "all": {
-                "played": 36,
+                "played": 37,
                 "win": 18,
                 "draw": 9,
-                "lose": 9,
+                "lose": 10,
                 "goals": {
                   "for": 57,
-                  "against": 42
+                  "against": 43
                 }
               }
             },
@@ -19653,7 +19655,7 @@
             "logo": "https://s.sde.globo.com/media/organizations/2021/02/13/65_cruzeiro-2021.png"
           },
           "goals": {
-            "total": 14,
+            "total": 15,
             "assists": null
           },
           "games": {
@@ -20679,10 +20681,10 @@
   "budget": {
     "used": 0,
     "remaining": 100,
-    "mode": "prematch",
-    "liveIntervalMs": 120000
+    "mode": "live",
+    "liveIntervalMs": 20000
   },
-  "fetchedAt": "2026-11-27T15:29:17.143Z",
+  "fetchedAt": "2026-11-27T23:40:55.107Z",
   "source": "ge-globo",
   "meta": {
     "rodada": 37,
@@ -20727,7 +20729,7 @@
       37,
       38
     ],
-    "seasonSyncedAt": "2026-11-27T15:29:10.374Z",
+    "seasonSyncedAt": "2026-11-27T23:40:42.862Z",
     "fullSeasonSync": true,
     "edicao": "Campeonato Brasileiro 2026",
     "provider": "ge.globo.com",
@@ -20739,7 +20741,7 @@
     "tvPreserved": 0,
     "tvAvailable": 384,
     "tvSource": "Onde Assistir — https://ondeassistir.com.br/dados",
-    "tvUpdatedAt": "2026-11-27T14:17:24.000000Z",
+    "tvUpdatedAt": "2026-11-27T22:17:09.713485Z",
     "fixturesCount": 380
   }
 }

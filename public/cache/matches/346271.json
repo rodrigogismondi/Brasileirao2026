@@ -7,12 +7,12 @@
       "city": ""
     },
     "status": {
-      "long": "NS",
-      "short": "NS",
-      "elapsed": null
+      "long": "1H",
+      "short": "1H",
+      "elapsed": 40
     },
-    "timerStart": null,
-    "timerStatus": "PAUSADO"
+    "timerStart": "2026-11-27T23:00:15.375Z",
+    "timerStatus": "INICIADO"
   },
   "league": {
     "round": "Regular Season - 37"
@@ -30,8 +30,8 @@
     }
   },
   "goals": {
-    "home": null,
-    "away": null
+    "home": 0,
+    "away": 1
   },
   "score": {
     "halftime": {
@@ -46,7 +46,892 @@
   "odds": null,
   "tv": [],
   "_geUrl": "https://ge.globo.com/rj/futebol/brasileirao-serie-a/jogo/27-11-2026/fluminense-cruzeiro.ghtml",
-  "events": [],
+  "events": [
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Começa o jogo no Maracanã.",
+      "player": {
+        "name": "BOLA ROLANDO!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 1,
+        "extra": null
+      },
+      "team": {
+        "id": 283,
+        "name": "Cruzeiro"
+      },
+      "type": "Important",
+      "detail": "Cruzeiro tem a primeira troca de passes no ataque, e Matheus Pereira é derrubado por Martinelli.",
+      "player": {
+        "name": "Cruzeiro tem a primeira troca de passes no ataqu"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 2,
+        "extra": null
+      },
+      "team": {
+        "id": 283,
+        "name": "Cruzeiro"
+      },
+      "type": "Important",
+      "detail": "O confronto no Maracanã mal começou e o Cruzeiro já balançou as redes. Após roubada de bola de Matheus Henrique aos dois minutos, a equipe mineira construiu uma bela jogada coletiva. Gerson avançou e acionou Bruno Rodrigues, que serviu Kaio Jorge na direita. O centroavante bateu cruzado para abrir o placar, sem chances para o goleiro Fábio. Placar parcial de 1 a 0 para os visitantes.",
+      "player": {
+        "name": "Cruzeiro surpreende e abre o placar no Maracanã"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 2,
+        "extra": null
+      },
+      "team": {
+        "id": 283,
+        "name": "Cruzeiro"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "player": {
+        "name": "Kaio Jorge"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 2,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Cruzeiro cobra a falta curtinha, tenta nova chegada de pé em pé, mas Kauã erra passe para Gerson. Posse do Flu.",
+      "player": {
+        "name": "Cruzeiro cobra a falta curtinha, tenta nova cheg"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 3,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Fluminense troca passes em busca de espaços. O Cruzeiro se fecha.",
+      "player": {
+        "name": "Fluminense troca passes em busca de espaços. O C"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 4,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Savarino é acionado na ponta direita e cruza na segunda trave. Kauã Moraes surge bem e afasta de cabeça.",
+      "player": {
+        "name": "Savarino é acionado na ponta direita e cruza na "
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 5,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Que começo de jogo no Maracanã! Com apenas 5 minutos de bola rolando, o Cruzeiro já vai vencendo o Fluminense por 1 a 0. O gol relâmpago saiu aos 2 minutos, quando Kaio Jorge bateu cruzado sem chances para Fábio após rápida jogada coletiva. O Tricolor tenta reagir trocando passes e reclamou bastante de uma possível cotovelada de Bruno Rodrigues em Acosta, mas o árbitro mandou seguir.",
+      "player": {
+        "name": "Cruzeiro surpreende o Flu com gol relâmpago"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 5,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "Important",
+      "detail": "Jogadores questionam possível cotovelada de Bruno Rodrigues em Lucho Acosta, mas árbitro manda seguir.",
+      "player": {
+        "name": "RECLAMAÇÃO DO FLU"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 6,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "Important",
+      "detail": "Gerson rouba bem de Hércules e puxa contra-ataque, mas exagera no lançamento para Bruno Rodrigues. Fábio recomeça o jogo para o Flu.",
+      "player": {
+        "name": "Gerson rouba bem de Hércules e puxa contra-ataqu"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 7,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Guga é lançado nas costas de Villalba, Jonathan chega bem na cobertura, mas auxiliar marca impedimento.",
+      "player": {
+        "name": "Guga é lançado nas costas de Villalba, Jonathan "
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 8,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Início quente no Maracanã! Logo aos 2 minutos, o Cruzeiro abriu o placar com Kaio Jorge, que bateu cruzado após bela trama ofensiva iniciada por Matheus Henrique para fazer 1 a 0. O Fluminense tenta responder tocando bola e cruzando com Savarino, mas a defesa visitante se fecha bem e controla as ações neste começo, após pouco mais de 8 minutos de partida.",
+      "player": {
+        "name": "Cruzeiro abre o placar cedo no Maracanã"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 8,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Otávio recebe recuo e busca lançamento na ponta esquerda, mas manda direto pela linha lateral.",
+      "player": {
+        "name": "Otávio recebe recuo e busca lançamento na ponta "
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 9,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Lucho Acosta busca jogada individual pela esquerda, mas é parado com falta por Zé Lucas e pede cartão, que não sai do bolso do árbitro.",
+      "player": {
+        "name": "Lucho Acosta busca jogada individual pela esquer"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 10,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Cruzeiro começou forte no Maracanã e abriu o placar logo no início com Kaio Jorge, que finalizou cruzado após roubada de bola no meio-campo. Atrás por 1 a 0, o Fluminense tentou reagir, reclamou de possível cotovelada em Lucho Acosta e quase empatou aos 10 minutos, quando Hércules limpou a marcação e mandou por cima do gol após assistência de Canobbio.",
+      "player": {
+        "name": "Kaio Jorge marca e coloca o Cruzeiro em vantagem"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 10,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "Important",
+      "detail": "Fluminense faz boa trama pela direita. Canobbio aparece na área e toca para trás. Hércules limpa a marcação e busca o ângulo, mas manda sobre o gol.",
+      "player": {
+        "name": "Hércules"
+      },
+      "assist": {
+        "name": "SUBIU!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 11,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Castillo é acionado na ponta esquerda, fora da área, mas cruza sobre Jonathan Jesus.",
+      "player": {
+        "name": "Castillo é acionado na ponta esquerda, fora da á"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 12,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Fluminense troca passes no ataque, e o Cruzeiro marca com todo o time atrás da linha da bola.",
+      "player": {
+        "name": "Fluminense troca passes no ataque, e o Cruzeiro "
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 13,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Com quase 15 minutos de bola rolando, o Cruzeiro vai vencendo por 1 a 0 no Maracanã. O gol relâmpago saiu logo aos 2 minutos, quando Kaio Jorge recebeu na área e bateu cruzado para abrir o placar. Atrás no marcador, o Fluminense tenta valorizar a posse de bola e pressionar. A melhor chance dos mandantes foi com Hércules, finalizando para fora, mas a defesa mineira se fecha bem.",
+      "player": {
+        "name": "Cruzeiro sai na frente e segura a pressão do Flu"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 13,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "Important",
+      "detail": "Fluminense rouba na defesa e tenta contra-atacar pela esquerda, mas Gerson consegue belo desarme.",
+      "player": {
+        "name": "Fluminense rouba na defesa e tenta contra-atacar"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 14,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "Important",
+      "detail": "Savarino recebe na ponta direita, limpa Villalba e cruza no segundo pau, mas Fabrício Bruno afasta antes de a bola chegar em Castillo.",
+      "player": {
+        "name": "Savarino"
+      },
+      "assist": {
+        "name": "TIRA, FABRÍCIO!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 15,
+        "extra": null
+      },
+      "team": {
+        "id": 283,
+        "name": "Cruzeiro"
+      },
+      "type": "Important",
+      "detail": "Zé Lucas tenta sai de trás, de pé em pé, leva chegada de Lucho Acosta. Jogadores do Cruzeiro reclamam do lance.",
+      "player": {
+        "name": "CALMA AÍ, PESSOAL"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 16,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Cruzeiro começou com tudo no Maracanã e abriu o placar logo aos 2 minutos, com Kaio Jorge finalizando cruzado após bela jogada coletiva. O Fluminense sentiu o golpe, mas tenta reagir. Aos 10, Hércules mandou para fora uma boa chance, e aos 17 Lucho Acosta parou no goleiro Otávio. O time mineiro se fecha bem e tenta explorar os contra-ataques para manter a vantagem de 1 a 0.",
+      "player": {
+        "name": "Cruzeiro larga na frente e segura a reação do Flu"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 16,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "Important",
+      "detail": "Lucho Acosta recebe com liberdade no meio e arrisca da intermediária, mas Otávio segura firme.",
+      "player": {
+        "name": "Lucho Acosta"
+      },
+      "assist": {
+        "name": "SEM REBOTE!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 17,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Cruzeiro pressiona a saída de bola do Fluminense, mas Matheus Henrique comete falta em Hércules.",
+      "player": {
+        "name": "Cruzeiro pressiona a saída de bola do Fluminense"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 18,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Após 18 minutos de muita intensidade, o Cruzeiro vai vencendo o Fluminense por 1 a 0 no Maracanã. O único gol saiu logo no início, quando Kaio Jorge bateu cruzado para abrir o placar. Depois disso, o tricolor se lançou ao ataque e criou boas chances com Hércules, Lucho Acosta e Canobbio, mas o goleiro Otávio apareceu muito bem para garantir a vantagem provisória dos visitantes.",
+      "player": {
+        "name": "Cruzeiro abre o placar e segura pressão do Flu"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 18,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "Important",
+      "detail": "Cannobio é acionado na ponta esquerda, limpa Zé Lucas, leva para a perna direita e finaliza rasteiro. Otávio, bem posicionado, segura firme.",
+      "player": {
+        "name": "Canobbio"
+      },
+      "assist": {
+        "name": "OTÁVIO, DE NOVO!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 19,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Com apenas 20 minutos de bola rolando, o Cruzeiro já vai vencendo o Fluminense por 1 a 0 no Maracanã. Logo aos dois minutos, Kaio Jorge bateu cruzado para abrir o placar após rápida transição. O Fluminense tentou reagir em finalizações de Hércules e Lucho Acosta, mas parou nas defesas de Otávio. No último lance de perigo, Matheus Pereira ainda carimbou a trave do goleiro Fábio.",
+      "player": {
+        "name": "Gol cedo e bola na trave agitam o Maracanã"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 19,
+        "extra": null
+      },
+      "team": {
+        "id": 283,
+        "name": "Cruzeiro"
+      },
+      "type": "Important",
+      "detail": "Gerson inverte bola para Villalba, que escora de cabeça na área. Bruno Rodrigues ajeita para Matheus Pereira, que se movimenta bem e finaliza forte, sem ângulo, carimbando a trave de Fábio.",
+      "player": {
+        "name": "Matheus Pereira"
+      },
+      "assist": {
+        "name": "NA TRAVE!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 20,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Cruzeiro começou com tudo no Maracanã e fez 1 a 0 logo aos dois minutos, com Kaio Jorge batendo cruzado. O Fluminense tentou reagir em finalizações de Canobbio e Lucho Acosta, que pararam no goleiro Otávio. O time mineiro respondeu rápido e quase ampliou aos 19 minutos, quando Matheus Pereira carimbou a trave de Fábio. Início de confronto muito dinâmico e lá e cá.",
+      "player": {
+        "name": "Kaio Jorge coloca o Cruzeiro em vantagem"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 20,
+        "extra": null
+      },
+      "team": {
+        "id": 283,
+        "name": "Cruzeiro"
+      },
+      "type": "Important",
+      "detail": "Bola cruzada na área do Cruzeiro. Villalba ganha de Castillo, mas a sobra fica com Savarino, que emenda bonito, mas a bola explode em Jonathan Jesus.",
+      "player": {
+        "name": "Savarino"
+      },
+      "assist": {
+        "name": "UUUH!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 21,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Cruzeiro surpreendeu no Maracanã e abriu o placar logo aos dois minutos com Kaio Jorge, após rápida transição ofensiva. O Fluminense tentou responder e assustou com finalizações de Hércules e Lucho Acosta. Porém, a equipe visitante seguiu muito perigosa: Matheus Pereira carimbou a trave e Fábio evitou o segundo de Kaio Jorge. Passados 21 minutos, o duelo é franco e de muita velocidade.",
+      "player": {
+        "name": "Cruzeiro abre o placar em início movimentado"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 21,
+        "extra": null
+      },
+      "team": {
+        "id": 283,
+        "name": "Cruzeiro"
+      },
+      "type": "Important",
+      "detail": "Zé Lucas fica com rebote do escanteio e aciona Bruno Rodrigues, que avança pela esquerda e encontra Kaio Jorge. O centroavante domina e finaliza rápido, mas param em Fábio.",
+      "player": {
+        "name": "Kaio Jorge"
+      },
+      "assist": {
+        "name": "SALVA, FÁBIO!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 22,
+        "extra": null
+      },
+      "team": {
+        "id": 283,
+        "name": "Cruzeiro"
+      },
+      "type": "Important",
+      "detail": "Matheus Pereira fica com rebote de escanteio e cruza com veneno. Castillo afasta de cabeça e cede outro tiro de canto para o Cruzeiro.",
+      "player": {
+        "name": "Matheus Pereira fica com rebote de escanteio e c"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 23,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Matheus Pereira cobra escanteio forte, na segunda trave, e Fábio fica com a bola.",
+      "player": {
+        "name": "Matheus Pereira cobra escanteio forte, na segund"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 24,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Após 25 minutos de bola rolando, o Cruzeiro vai vencendo por 1 a 0. O placar foi aberto antes dos três minutos, quando Kaio Jorge finalizou cruzado e balançou as redes. O Fluminense tentou reagir com chutes perigosos de Lucho Acosta e Canobbio, parando em boas defesas de Otávio. O time mineiro seguiu perigoso e quase ampliou com Matheus Pereira, que carimbou a trave de Fábio.",
+      "player": {
+        "name": "Cruzeiro larga na frente em início movimentado"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 24,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Gerson rouba mais uma pela direita e aciona Kauã Moraes, mas Ignácio surge bem na cobertura e fica com a bola.",
+      "player": {
+        "name": "Gerson rouba mais uma pela direita e aciona Kauã"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 25,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Matheus Pereira tenta puxar contra-ataque pelo meio, mas a Martinelli toca com a mão na bola.",
+      "player": {
+        "name": "Matheus Pereira tenta puxar contra-ataque pelo m"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 26,
+        "extra": null
+      },
+      "team": {
+        "id": 283,
+        "name": "Cruzeiro"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Kauã Moraes"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 27,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Com quase trinta minutos de bola rolando, o Cruzeiro vai vencendo o Fluminense por 1 a 0 no Maracanã. Logo aos dois minutos, Kaio Jorge bateu cruzado para abrir o placar. O tricolor tentou reagir com boas chances de Hércules e Acosta, parando na defesa mineira. Mas foi o Cruzeiro que quase ampliou com Matheus Pereira acertando a trave e Kaio Jorge exigindo grande defesa de Fábio.",
+      "player": {
+        "name": "Cruzeiro larga em vantagem em início movimentado"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 27,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "Important",
+      "detail": "Fluminense cobra falta curtinha, Savarino finaliza de fora da área, mas explode em Fabrício Bruno.",
+      "player": {
+        "name": "Fluminense cobra falta curtinha, Savarino finali"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 28,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Fluminense troca passes com todos os jogadores no campo de ataque, e o Cruzeiro se defende.",
+      "player": {
+        "name": "Fluminense troca passes com todos os jogadores n"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 29,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "Important",
+      "detail": "Canobbio se movimenta pela esquerda, tabela com Lucho, vai ao fundo e cruza em direção a Castillo, mas Jonathan afasta.",
+      "player": {
+        "name": "Canobbio"
+      },
+      "assist": {
+        "name": "JONATHAN, PROVIDENCIAL!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 31,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Com 31 minutos de bola rolando, o Cruzeiro vai vencendo o Fluminense por 1 a 0 graças ao gol relâmpago de Kaio Jorge, logo aos dois minutos de jogo. O Tricolor buscou reagir com finalizações de Hércules e Canobbio, mas parou na defesa rival. O time mineiro ainda carimbou a trave com Matheus Pereira e quase ampliou com Kaio Jorge, mantendo a partida aberta e muito movimentada.",
+      "player": {
+        "name": "Cruzeiro em vantagem no Maracanã em jogo franco"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 31,
+        "extra": null
+      },
+      "team": {
+        "id": 283,
+        "name": "Cruzeiro"
+      },
+      "type": "Important",
+      "detail": "Villalba é acionado na ponta esquerda e cruza na segunda trave. Kauã aparece sem ângulo e vai ao chão, alegando toque de Canobbio nas costas.",
+      "player": {
+        "name": "Kauã Moraes"
+      },
+      "assist": {
+        "name": "PEDIDO DE PÊNALTI"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 32,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Jogo segue normalmente. Nada marcado.",
+      "player": {
+        "name": "Jogo segue normalmente. Nada marcado."
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 33,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Jonathan Jesus se aventura no campo de ataque e é desarmado, mas volta rapidamente e para jogada com falta em Savarino.",
+      "player": {
+        "name": "Jonathan Jesus se aventura no campo de ataque e "
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 34,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Com 34 minutos de bola rolando, o Cruzeiro vai vencendo o Fluminense por 1 a 0. O gol saiu logo aos 2 minutos com Kaio Jorge finalizando rápido e cruzado. O time carioca buscou o empate com Lucho Acosta e Canobbio, mas os visitantes assustaram carimbando a trave com Matheus Pereira e parando de novo em Fábio. Um duelo dinâmico e com alternativas para os dois lados.",
+      "player": {
+        "name": "Cruzeiro em vantagem no Maracanã em início veloz"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 34,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "Important",
+      "detail": "Savarino é acionado na direita, após longa troca de passes, e cruza direto pela linha de fundo.",
+      "player": {
+        "name": "Savarino"
+      },
+      "assist": {
+        "name": "PRA QUEM?"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 35,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Lucho recebe na esquerda, dá belo drible em Kauã Moraes, mas exagera na força do cruzamento.",
+      "player": {
+        "name": "Lucho recebe na esquerda, dá belo drible em Kauã"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 36,
+        "extra": null
+      },
+      "team": {
+        "id": 283,
+        "name": "Cruzeiro"
+      },
+      "type": "Important",
+      "detail": "Cruzeiro puxa contra-ataque. Villalba é acionado pela esquerda, tenta drible para o meio,mas é facilmente desarmado por Hércules.",
+      "player": {
+        "name": "Cruzeiro puxa contra-ataque. Villalba é acionado"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 37,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Cruzeiro começou com tudo e abriu o placar logo aos 2 minutos com gol de Kaio Jorge, após bela jogada coletiva. O Fluminense tentou reagir e pressionou bastante, exigindo boas defesas de Otávio com finalizações de Hércules e Canobbio. Mas os mineiros continuam perigosos e quase ampliaram com Matheus Pereira na trave. Passados 35 minutos, o duelo segue em ritmo intenso no Rio.",
+      "player": {
+        "name": "Cruzeiro lidera após início elétrico no Maracanã"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 37,
+        "extra": null
+      },
+      "team": {
+        "id": 283,
+        "name": "Cruzeiro"
+      },
+      "type": "Important",
+      "detail": "Cruzeiro troca passes com calma no campo de ataque.",
+      "player": {
+        "name": "Cruzeiro troca passes com calma no campo de ataq"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 39,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Guga faz boa trama pela direita com Savarino, vai ao fundo, mas fica sem espaço e recomeça a jogada.",
+      "player": {
+        "name": "Guga faz boa trama pela direita com Savarino, va"
+      },
+      "assist": null
+    }
+  ],
   "lineups": [
     {
       "team": {
@@ -159,7 +1044,116 @@
           }
         }
       ],
-      "substitutes": []
+      "substitutes": [
+        {
+          "player": {
+            "id": "vitoreudes",
+            "name": "Vitor Eudes",
+            "number": 98,
+            "pos": "Gol",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "samuelxavier",
+            "name": "Samuel Xavier",
+            "number": 2,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "freytes",
+            "name": "Freytes",
+            "number": 22,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "julian-millan",
+            "name": "Millán",
+            "number": 29,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "guilhermearana",
+            "name": "Guilherme Arana",
+            "number": 13,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "nonato45634",
+            "name": "Nonato",
+            "number": 16,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "phganso",
+            "name": "Ganso",
+            "number": 10,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "hulk",
+            "name": "Hulk",
+            "number": 7,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "german-cano",
+            "name": "Cano",
+            "number": 14,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "riquelme-felipe",
+            "name": "Riquelme Felipe",
+            "number": 28,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "wesley-nata",
+            "name": "Wesley Natã",
+            "number": 34,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "Serna",
+            "name": "Serna",
+            "number": 90,
+            "pos": "Ata",
+            "grid": null
+          }
+        }
+      ]
     },
     {
       "team": {
@@ -167,7 +1161,7 @@
         "name": "Cruzeiro",
         "logo": "https://s.sde.globo.com/media/organizations/2021/02/13/cruzeiro_2021.svg"
       },
-      "formation": "4-3-3",
+      "formation": "4-4-2",
       "coach": {
         "name": "Artur Jorge"
       },
@@ -183,9 +1177,9 @@
         },
         {
           "player": {
-            "id": "fagner",
-            "name": "Fagner",
-            "number": 23,
+            "id": "Kaua-Moraes",
+            "name": "Kauã Moraes",
+            "number": 2,
             "pos": "Def",
             "grid": null
           }
@@ -210,9 +1204,9 @@
         },
         {
           "player": {
-            "id": "rojasgabr",
-            "name": "Gabriel Rojas",
-            "number": 27,
+            "id": "lvillalba",
+            "name": "Villalba",
+            "number": 25,
             "pos": "Def",
             "grid": null
           }
@@ -237,9 +1231,92 @@
         },
         {
           "player": {
+            "id": "matheushenrique1297",
+            "name": "Matheus Henrique",
+            "number": 7,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
             "id": "matheusfcpereira",
             "name": "Matheus Pereira",
             "number": 10,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "brunorodrigues-atleticopr",
+            "name": "Bruno Rodrigues",
+            "number": 9,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "kaio-jorge",
+            "name": "Kaio Jorge",
+            "number": 19,
+            "pos": "Ata",
+            "grid": null
+          }
+        }
+      ],
+      "substitutes": [
+        {
+          "player": {
+            "id": "cassio-ramos",
+            "name": "Cássio",
+            "number": 1,
+            "pos": "Gol",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "fagner",
+            "name": "Fagner",
+            "number": 23,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "Gustavo-Inacio",
+            "name": "Gustavo Alves",
+            "number": 54,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "mvina",
+            "name": "Viña",
+            "number": 6,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "lucassilva",
+            "name": "Lucas Silva",
+            "number": 16,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "felipe-morais",
+            "name": "Felipe Morais",
+            "number": 38,
             "pos": "Mei",
             "grid": null
           }
@@ -255,26 +1332,205 @@
         },
         {
           "player": {
-            "id": "kaio-jorge",
-            "name": "Kaio Jorge",
-            "number": 19,
-            "pos": "Ata",
-            "grid": null
-          }
-        },
-        {
-          "player": {
             "id": "wesley-corinthians",
             "name": "Wesley",
             "number": 20,
             "pos": "Ata",
             "grid": null
           }
+        },
+        {
+          "player": {
+            "id": "villarreal",
+            "name": "Villarreal",
+            "number": 22,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "KaiqueKenji",
+            "name": "Kaique Kenji",
+            "number": 70,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "wanderson123",
+            "name": "Wanderson",
+            "number": 94,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "lucirodri",
+            "name": "Lucho Rodríguez",
+            "number": 97,
+            "pos": "Ata",
+            "grid": null
+          }
         }
-      ],
-      "substitutes": []
+      ]
     }
   ],
-  "statistics": [],
+  "statistics": [
+    {
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "statistics": [
+        {
+          "type": "Ball Possession",
+          "value": "64%"
+        },
+        {
+          "type": "Total Passes",
+          "value": 297
+        },
+        {
+          "type": "Pass Accuracy",
+          "value": "92%"
+        },
+        {
+          "type": "Incomplete Passes",
+          "value": 24
+        },
+        {
+          "type": "Total Shots",
+          "value": 6
+        },
+        {
+          "type": "Shots on Goal",
+          "value": 2
+        },
+        {
+          "type": "Shots off Goal",
+          "value": 2
+        },
+        {
+          "type": "Blocked Shots",
+          "value": 2
+        },
+        {
+          "type": "Hit Woodwork",
+          "value": 0
+        },
+        {
+          "type": "Corner Kicks",
+          "value": 1
+        },
+        {
+          "type": "Offsides",
+          "value": 1
+        },
+        {
+          "type": "Penalties",
+          "value": 0
+        },
+        {
+          "type": "Goalkeeper Saves",
+          "value": 0
+        },
+        {
+          "type": "Tackles",
+          "value": 8
+        },
+        {
+          "type": "Fouls",
+          "value": 4
+        },
+        {
+          "type": "Yellow Cards",
+          "value": 0
+        },
+        {
+          "type": "Red Cards",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "team": {
+        "id": 283,
+        "name": "Cruzeiro"
+      },
+      "statistics": [
+        {
+          "type": "Ball Possession",
+          "value": "36%"
+        },
+        {
+          "type": "Total Passes",
+          "value": 145
+        },
+        {
+          "type": "Pass Accuracy",
+          "value": "86%"
+        },
+        {
+          "type": "Incomplete Passes",
+          "value": 21
+        },
+        {
+          "type": "Total Shots",
+          "value": 3
+        },
+        {
+          "type": "Shots on Goal",
+          "value": 2
+        },
+        {
+          "type": "Shots off Goal",
+          "value": 0
+        },
+        {
+          "type": "Blocked Shots",
+          "value": 0
+        },
+        {
+          "type": "Hit Woodwork",
+          "value": 1
+        },
+        {
+          "type": "Corner Kicks",
+          "value": 2
+        },
+        {
+          "type": "Offsides",
+          "value": 0
+        },
+        {
+          "type": "Penalties",
+          "value": 0
+        },
+        {
+          "type": "Goalkeeper Saves",
+          "value": 5
+        },
+        {
+          "type": "Tackles",
+          "value": 6
+        },
+        {
+          "type": "Fouls",
+          "value": 6
+        },
+        {
+          "type": "Yellow Cards",
+          "value": 1
+        },
+        {
+          "type": "Red Cards",
+          "value": 0
+        }
+      ]
+    }
+  ],
   "sportsFieldUrl": null
 }

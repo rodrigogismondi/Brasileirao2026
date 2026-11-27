@@ -10,7 +10,9 @@
       "long": "NS",
       "short": "NS",
       "elapsed": null
-    }
+    },
+    "timerStart": null,
+    "timerStatus": "PAUSADO"
   },
   "league": {
     "round": "Regular Season - 37"
@@ -43,8 +45,236 @@
   },
   "odds": null,
   "tv": [],
+  "_geUrl": "https://ge.globo.com/rs/futebol/brasileirao-serie-a/jogo/29-11-2026/internacional-bragantino.ghtml",
   "events": [],
-  "lineups": [],
+  "lineups": [
+    {
+      "team": {
+        "id": 285,
+        "name": "Internacional",
+        "logo": "https://s.sde.globo.com/media/organizations/2018/03/11/internacional.svg"
+      },
+      "formation": "3-5-2",
+      "coach": {
+        "name": "Eduardo Baptista"
+      },
+      "startXI": [
+        {
+          "player": {
+            "id": "kauanjesus",
+            "name": "Kauan Jesus",
+            "number": 22,
+            "pos": "Gol",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "brunogomes",
+            "name": "Bruno Gomes",
+            "number": 15,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "maripan",
+            "name": "Maripán",
+            "number": null,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "juninho-coritiba",
+            "name": "Juninho",
+            "number": 18,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "braianaguirre",
+            "name": "Aguirre",
+            "number": null,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "rodrigovillagra",
+            "name": "Villagra",
+            "number": 5,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "ronaldo123",
+            "name": "Ronaldo",
+            "number": null,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "matheusbahia",
+            "name": "Matheus Bahia",
+            "number": null,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "alanpatrick",
+            "name": "Alan Patrick",
+            "number": 10,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "vitornaum",
+            "name": "Vitinho",
+            "number": 28,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "joao-bezerra",
+            "name": "João Bezerra",
+            "number": null,
+            "pos": "Ata",
+            "grid": null
+          }
+        }
+      ],
+      "substitutes": []
+    },
+    {
+      "team": {
+        "id": 280,
+        "name": "Bragantino",
+        "logo": "https://s.sde.globo.com/media/organizations/2021/06/28/bragantino.svg"
+      },
+      "formation": "4-3-3",
+      "coach": {
+        "name": "Vagner Mancini"
+      },
+      "startXI": [
+        {
+          "player": {
+            "id": "tiagovolpi",
+            "name": "Tiago Volpi",
+            "number": 18,
+            "pos": "Gol",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "ryan-augusto",
+            "name": "Ryan Augusto",
+            "number": null,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "gustavomarquessantos",
+            "name": "Gustavo Marques",
+            "number": 16,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "alix-vinicius",
+            "name": "Alix Vinicius",
+            "number": null,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "juninhocapixaba",
+            "name": "Juninho Capixaba",
+            "number": 29,
+            "pos": "Def",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "fabinho-freitas",
+            "name": "Fabinho",
+            "number": 5,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "ericramires",
+            "name": "Eric Ramires",
+            "number": 7,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "lucas-barbosa",
+            "name": "Lucas Barbosa",
+            "number": null,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "fernando11111",
+            "name": "Fernando",
+            "number": 11,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "eduardosasha",
+            "name": "Eduardo Sasha",
+            "number": 8,
+            "pos": "Ata",
+            "grid": null
+          }
+        },
+        {
+          "player": {
+            "id": "HenryDavidMosqueraSanchez",
+            "name": "Henry Mosquera",
+            "number": null,
+            "pos": "Ata",
+            "grid": null
+          }
+        }
+      ],
+      "substitutes": []
+    }
+  ],
   "statistics": [],
   "sportsFieldUrl": null
 }

@@ -18231,12 +18231,12 @@
           "city": ""
         },
         "status": {
-          "long": "1H",
-          "short": "1H",
-          "elapsed": 44
+          "long": "FT",
+          "short": "FT",
+          "elapsed": 90
         },
-        "timerStart": "2026-11-26T23:01:00.217Z",
-        "timerStatus": "INICIADO"
+        "timerStart": "2026-11-27T01:06:31.131Z",
+        "timerStatus": "PAUSADO"
       },
       "league": {
         "round": "Regular Season - 37"
@@ -18254,8 +18254,8 @@
         }
       },
       "goals": {
-        "home": 1,
-        "away": 0
+        "home": 3,
+        "away": 1
       },
       "score": {
         "halftime": {
@@ -18263,8 +18263,8 @@
           "away": null
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 3,
+          "away": 1
         }
       },
       "odds": null,
@@ -18330,7 +18330,9 @@
           "long": "NS",
           "short": "NS",
           "elapsed": null
-        }
+        },
+        "timerStart": null,
+        "timerStatus": "PAUSADO"
       },
       "league": {
         "round": "Regular Season - 37"
@@ -18472,7 +18474,9 @@
           "long": "NS",
           "short": "NS",
           "elapsed": null
-        }
+        },
+        "timerStart": null,
+        "timerStatus": "PAUSADO"
       },
       "league": {
         "round": "Regular Season - 37"
@@ -19328,7 +19332,7 @@
                 "logo": "https://s.sde.globo.com/media/organizations/2018/03/11/sao-paulo.svg"
               },
               "points": 48,
-              "goalsDiff": 0,
+              "goalsDiff": 1,
               "form": "LDLDW",
               "description": "Copa Sudamericana",
               "all": {
@@ -19337,8 +19341,8 @@
                 "draw": 9,
                 "lose": 15,
                 "goals": {
-                  "for": 41,
-                  "against": 41
+                  "for": 43,
+                  "against": 42
                 }
               }
             },
@@ -19526,7 +19530,7 @@
                 "logo": "https://s.sde.globo.com/media/organizations/2021/02/25/Remo-PA.svg"
               },
               "points": 32,
-              "goalsDiff": -21,
+              "goalsDiff": -22,
               "form": "WLWLL",
               "description": "Relegation",
               "all": {
@@ -19535,8 +19539,8 @@
                 "draw": 11,
                 "lose": 19,
                 "goals": {
-                  "for": 41,
-                  "against": 62
+                  "for": 42,
+                  "against": 64
                 }
               }
             },
@@ -19681,6 +19685,28 @@
     {
       "player": {
         "id": 6,
+        "name": "Calleri",
+        "photo": "https://s.sde.globo.com/media/person_role/2026/02/20/photo_140x140_2u6NnKV.png"
+      },
+      "statistics": [
+        {
+          "team": {
+            "name": "São Paulo",
+            "logo": "https://s.sde.globo.com/media/organizations/2014/04/14/sao_paulo_60x60.png"
+          },
+          "goals": {
+            "total": 12,
+            "assists": null
+          },
+          "games": {
+            "appearences": 0
+          }
+        }
+      ]
+    },
+    {
+      "player": {
+        "id": 7,
         "name": "Renê",
         "photo": "https://s.sde.globo.com/media/person_role/2026/11/06/photo_140x140_rNHKW8f.png"
       },
@@ -19702,7 +19728,7 @@
     },
     {
       "player": {
-        "id": 7,
+        "id": 8,
         "name": "Carlos Vinícius",
         "photo": "https://s.sde.globo.com/media/person_role/2026/02/09/photo_140x140_GTU3C2P.png"
       },
@@ -19711,28 +19737,6 @@
           "team": {
             "name": "Grêmio",
             "logo": "https://s.sde.globo.com/media/organizations/2014/04/14/gremio_60x60.png"
-          },
-          "goals": {
-            "total": 11,
-            "assists": null
-          },
-          "games": {
-            "appearences": 0
-          }
-        }
-      ]
-    },
-    {
-      "player": {
-        "id": 8,
-        "name": "Calleri",
-        "photo": "https://s.sde.globo.com/media/person_role/2026/02/20/photo_140x140_2u6NnKV.png"
-      },
-      "statistics": [
-        {
-          "team": {
-            "name": "São Paulo",
-            "logo": "https://s.sde.globo.com/media/organizations/2014/04/14/sao_paulo_60x60.png"
           },
           "goals": {
             "total": 11,
@@ -20673,10 +20677,10 @@
   "budget": {
     "used": 0,
     "remaining": 100,
-    "mode": "live",
-    "liveIntervalMs": 20000
+    "mode": "idle",
+    "liveIntervalMs": 900000
   },
-  "fetchedAt": "2026-11-26T23:45:15.757Z",
+  "fetchedAt": "2026-11-27T05:26:13.571Z",
   "source": "ge-globo",
   "meta": {
     "rodada": 37,
@@ -20722,7 +20726,7 @@
       38
     ],
     "seasonSyncedAt": "2026-11-26T23:44:57.483Z",
-    "fullSeasonSync": true,
+    "fullSeasonSync": false,
     "edicao": "Campeonato Brasileiro 2026",
     "provider": "ge.globo.com",
     "scorersCount": 50,
@@ -20733,7 +20737,7 @@
     "tvPreserved": 0,
     "tvAvailable": 384,
     "tvSource": "Onde Assistir — https://ondeassistir.com.br/dados",
-    "tvUpdatedAt": "2026-11-26T22:14:27.000000Z",
+    "tvUpdatedAt": "2026-11-27T04:11:15.000000Z",
     "fixturesCount": 380
   }
 }

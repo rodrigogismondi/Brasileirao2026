@@ -7,12 +7,12 @@
       "city": ""
     },
     "status": {
-      "long": "1H",
-      "short": "1H",
-      "elapsed": 44
+      "long": "FT",
+      "short": "FT",
+      "elapsed": 90
     },
-    "timerStart": "2026-11-26T23:01:00.217Z",
-    "timerStatus": "INICIADO"
+    "timerStart": "2026-11-27T01:06:31.131Z",
+    "timerStatus": "PAUSADO"
   },
   "league": {
     "round": "Regular Season - 37"
@@ -30,8 +30,8 @@
     }
   },
   "goals": {
-    "home": 1,
-    "away": 0
+    "home": 3,
+    "away": 1
   },
   "score": {
     "halftime": {
@@ -39,14 +39,138 @@
       "away": null
     },
     "fulltime": {
-      "home": null,
-      "away": null
+      "home": 3,
+      "away": 1
     }
   },
   "odds": null,
   "tv": [],
   "_geUrl": "https://ge.globo.com/sp/futebol/brasileirao-serie-a/jogo/26-11-2026/sao-paulo-remo.ghtml",
   "events": [
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Important",
+      "detail": "\"Esse gol é de todos os meninos de Cotia. O professor abraça muito a gente. Desde o primeiro dia, sempre conversou muito, disse que a oportunidade iria chegar. Independentemente de quem fizesse o gol, a comemoração ia ser grande porque esse gol é de Cotia. Ano não foi bom, a torcida tem razão em vaiar, mas a gente tinha que fazer nosso trabalho hoje e foi feito, que foi a vitória.\"",
+      "player": {
+        "name": "Ryan Francisco"
+      },
+      "assist": {
+        "name": "Fala, Ryan!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 364,
+        "name": "Remo"
+      },
+      "type": "Important",
+      "detail": "\"Foi um campeonato muito difícil. Lutamos e no detalhe tomamos três gols depois dos 40 minutos. Essa desatenção mostra como foi nosso campeonato.\"",
+      "player": {
+        "name": "Gabriel Poveda"
+      },
+      "assist": {
+        "name": "Fala, Poveda"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 364,
+        "name": "Remo"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Jáderson"
+      },
+      "assist": {
+        "name": "Picco"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 364,
+        "name": "Remo"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Marlon"
+      },
+      "assist": {
+        "name": "Galeano"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Jogo de pouca inspiração de São Paulo e Remo até aqui. O Tricolor abriu o placar em jogada bizarra em que a bola explodiu no rosto de Edson e sobrou para Calleri. Com a bola nos pés, o time de Dorival erra muitos passes e falha na criação de jogadas. O Remo, com a proposta de se defender, também não incomodou o goleiro Rafael.",
+      "player": {
+        "name": "Resumo do primeiro tempo"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Important",
+      "detail": "\"Viemos com a proposta de ficar fechados e esperar o São Paulo. Vínhamos cumprindo o papel. Infelizmente, em uma falha nossa, acabamos tomando o gol. Não pode acontecer. Vamos voltar do intervalo para tentar empatar e virar.\"",
+      "player": {
+        "name": "Gabriel Taliari"
+      },
+      "assist": {
+        "name": "Fala, Taliari"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Important",
+      "detail": "\"A gente não fez um bom primeiro tempo, acho que o gramado está atrapalhando. Erramos muitos passes no momento fino. Vamos ajeitar no segundo tempo para ganhar o jogo.\"",
+      "player": {
+        "name": "Calleri"
+      },
+      "assist": {
+        "name": "Fala, Calleri"
+      }
+    },
     {
       "time": {
         "elapsed": 0,
@@ -505,9 +629,9 @@
         "name": ""
       },
       "type": "Important",
-      "detail": "O São Paulo controlava a posse de bola no Morumbis, mas encontrava dificuldades para furar o bloqueio do Remo. O panorama mudou aos 38 minutos, quando a zaga paraense se atrapalhou na saída de jogo. Atento, o centroavante Calleri aproveitou a bobeira, invadiu a área e tocou com categoria na saída de Marcelo Rangel para abrir o placar e colocar o time paulista em vantagem por 1 a 0.",
+      "detail": "O São Paulo teve o domínio do jogo no Morumbis, mas esbarrou na forte marcação do Remo e em erros de passe no início. O cenário mudou aos 38 minutos, quando a zaga paraense se atrapalhou na saída e a bola sobrou limpa para Calleri marcar e fazer 1 a 0. Antes disso, o Tricolor assustou com Pedro Lima, enquanto o time visitante tentou escapar em contragolpes sem sucesso.",
       "player": {
-        "name": "São Paulo larga na frente com gol de Calleri"
+        "name": "Falha na zaga e gol de Calleri abrem o placar"
       },
       "assist": null
     },
@@ -524,6 +648,936 @@
       "detail": "Normal Goal",
       "player": {
         "name": "Calleri"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 42,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O São Paulo ditou o ritmo no Morumbis, embora com dificuldade para furar o bloqueio do Remo. A insistência deu resultado aos 38 minutos: a defesa paraense se atrapalhou na saída de bola e o artilheiro Calleri aproveitou para marcar e abrir o placar. Com 42 minutos de jogo, o São Paulo controla a partida com a vantagem de 1 a 0, enquanto os visitantes tentam se reorganizar.",
+      "player": {
+        "name": "Calleri aproveita falha do Remo e abre o placar"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 42,
+        "extra": null
+      },
+      "team": {
+        "id": 364,
+        "name": "Remo"
+      },
+      "type": "Important",
+      "detail": "O Remo volta a se atrapalhar na saída de bola e a bola sobra para Lucas. Ele tenta o passe para dentro da área, mas a zaga do time paraense se recupera e afastar o perigo.",
+      "player": {
+        "name": "O Remo volta a se atrapalhar na saída de bola e "
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 44,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Lucas cobra falta rápido, tabela com Artur e invade a área passando pela marcação, mas acaba perdendo a bola antes de encontrar espaço para finalizar. No rebote, Artur finaliza de esquerda, mas a bola explode no camisa 7, que estava em posição irregular.",
+      "player": {
+        "name": "Lucas cobra falta rápido, tabela com Artur e inv"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 45,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Lucas fica caído no gramado após disputa pelo alto com Pikachu.",
+      "player": {
+        "name": "Lucas fica caído no gramado após disputa pelo al"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 45,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Começa o segundo tempo no Morumbis.",
+      "player": {
+        "name": "Bola rolando"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 45,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O São Paulo dominou as ações e vence por 1 a 0 no Morumbis. Após um início amarrado, o Tricolor abriu o placar aos 38 minutos com Calleri, que aproveitou uma bobeada da defesa do Remo para balançar as redes. A situação ficou ainda melhor nos acréscimos da etapa inicial: aos 45 minutos, Artur foi derrubado na área por Tchamba, e o juiz marcou pênalti para fechar o primeiro tempo em alta.",
+      "player": {
+        "name": "Calleri marca e São Paulo tem pênalti no fim"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 45,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Important",
+      "detail": "Tchamba derruba Artur dentro da área e Bruno Arleu assinala penalidade máxima!",
+      "player": {
+        "name": "Pênalti para o São Paulo!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 47,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Após olhar no monitor, Bruno Arleu de Araújo cancela o pênalti. Ele entende que Tchamba tocou na bola e não em Artur.",
+      "player": {
+        "name": "Pênalti anulado"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 48,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Após um primeiro tempo de muita insistência, o São Paulo vai vencendo o Remo por 1 a 0. O único gol do duelo saiu aos 38 minutos, quando Calleri aproveitou bobeira da zaga para balançar as redes. No fim da etapa inicial, o VAR ainda anulou um pênalti a favor dos donos da casa. Agora, aos 3 minutos do segundo tempo, os visitantes tentam ficar mais com a bola para reagir.",
+      "player": {
+        "name": "Calleri coloca o São Paulo em vantagem no placar"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 48,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Remo procura manter a posse de bola neste início de segundo tempo e troca passes no meio-campo. É a vez do São Paulo esperar.",
+      "player": {
+        "name": "Remo procura manter a posse de bola neste início"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 49,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O primeiro tempo no Morumbis terminou com o São Paulo em vantagem por 1 a 0. Após um início truncado e de pouca criatividade, o time paulista aproveitou uma bobeira da defesa do Remo aos 38 minutos, quando Calleri se antecipou e finalizou para abrir o placar. Nos acréscimos, o árbitro chegou a marcar pênalti em Artur, mas a infração foi anulada com auxílio do VAR.",
+      "player": {
+        "name": "Calleri decide e coloca o São Paulo em vantagem"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 49,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Final do primeiro tempo no Morumbis. São Paulo 1 x 0 Remo.",
+      "player": {
+        "name": "Apita o árbitro"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 51,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Após início truncado e com erros de ambos os lados, o São Paulo abriu o placar aos 38 minutos com Calleri, que aproveitou bobeira da zaga do Remo. O time paulista quase teve um pênalti no fim da etapa inicial, mas o lance foi anulado pelo VAR. Agora, aos seis minutos do segundo tempo e sob forte chuva no Morumbis, o ritmo diminuiu e as duas equipes encontram dificuldades para criar.",
+      "player": {
+        "name": "São Paulo lidera com gol de Calleri no Morumbis"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 51,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Chove bastante no Morumbis e partida esfria. Nenhum dos times consegue avançar aos campos ofensivos.",
+      "player": {
+        "name": "Chove bastante no Morumbis e partida esfria. Nen"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 52,
+        "extra": null
+      },
+      "team": {
+        "id": 364,
+        "name": "Remo"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Edson Fernando"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 53,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Important",
+      "detail": "Na cobrança, Lucas solta a bomba, mas a bola sobe demais e sai sem perigo.",
+      "player": {
+        "name": "Lucas Moura"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 54,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Após primeiro tempo dominado pelo São Paulo, com o artilheiro Calleri abrindo o placar aos 38 minutos após falha defensiva, o Remo buscou a reação. Aos 9 minutos do segundo tempo, Pikachu cruzou da direita e Poveda cabeceou firme para empatar em 1 a 1. Debaixo de muita chuva no Morumbis, o confronto recomeça do zero e promete fortes emoções para a sequência do jogo.",
+      "player": {
+        "name": "Remo reage e busca o empate no Morumbis"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 54,
+        "extra": null
+      },
+      "team": {
+        "id": 364,
+        "name": "Remo"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "player": {
+        "name": "Gabriel Poveda"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 54,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "All Chances Created de São Paulo x Remo no 2º tempo",
+      "player": {
+        "name": "All Chances Created de São Paulo x Remo no 2º tempo"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 57,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Com 12 minutos do segundo tempo, o confronto segue parelho no Morumbis. O São Paulo abriu o placar na etapa inicial com Calleri, aproveitando vacilo da zaga adversária, e ainda teve um pênalti anulado pelo VAR. Sob forte chuva, o Remo voltou mais ligado e deixou tudo igual em 1 a 1 com uma cabeçada certeira de Gabriel Poveda após cruzamento de Pikachu.",
+      "player": {
+        "name": "Calleri marca, mas Remo empata no Morumbis"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 57,
+        "extra": null
+      },
+      "team": {
+        "id": 364,
+        "name": "Remo"
+      },
+      "type": "Important",
+      "detail": "O Remo chega novamente em bom passe para a ultrapassagem de Marlon, mas o bandeira já marcava a posição de impedimento do lateral.",
+      "player": {
+        "name": "O Remo chega novamente em bom passe para a ultra"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 59,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Important",
+      "detail": "O São Paulo chega de novo com Calleri dentro da área, mas a arbitragem já marcava impedimento.",
+      "player": {
+        "name": "O São Paulo chega de novo com Calleri dentro da "
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 63,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Com 19 minutos do segundo tempo, a partida no Morumbis segue empatada por 1 a 1. O São Paulo abriu o placar na etapa inicial com Calleri, aproveitando uma bobeira da defesa adversária. No entanto, o Remo voltou firme e igualou o marcador após um belo cabeceio de Poveda. O jogo segue bem aberto, com o time paraense assustando nos contra-ataques e deixando o confronto tenso.",
+      "player": {
+        "name": "Tudo igual no Morumbis em duelo movimentado"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 63,
+        "extra": null
+      },
+      "team": {
+        "id": 364,
+        "name": "Remo"
+      },
+      "type": "Important",
+      "detail": "O Remo parte em contra-ataque de três contra dois, David Braga recebe na entrada da área, tenta passar por Arboleda e cai. O árbitro manda seguir.",
+      "player": {
+        "name": "O Remo parte em contra-ataque de três contra doi"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 65,
+        "extra": null
+      },
+      "team": {
+        "id": 364,
+        "name": "Remo"
+      },
+      "type": "Important",
+      "detail": "Artur cruza na segunda trave para Iago. Já perto da pequena área e na linha de fundo, ele tenta tocar para dentro da área, mas a defesa do Remo corta.",
+      "player": {
+        "name": "Artur cruza na segunda trave para Iago. Já perto"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 67,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Ryan Francisco"
+      },
+      "assist": {
+        "name": "Luciano"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 67,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Lucca"
+      },
+      "assist": {
+        "name": "Artur"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 67,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Após o São Paulo dominar a etapa inicial e abrir o placar com Calleri aproveitando erro na saída de bola, o Remo voltou ligado para o segundo tempo. Sob forte chuva no Morumbis, aos 9 minutos da etapa final, Poveda subiu bonito para empatar de cabeça após cruzamento de Pikachu. Com 22 minutos jogados, o duelo segue aberto, muito brigado no meio-campo e sem favoritos.",
+      "player": {
+        "name": "Tudo igual no Morumbis em duelo movimentado"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 67,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Pedro Ferreira"
+      },
+      "assist": {
+        "name": "Pablo Maia"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 69,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Equipes erram muitos passes e desperdiçam oportunidades de contra-ataque.",
+      "player": {
+        "name": "Equipes erram muitos passes e desperdiçam oportu"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 70,
+        "extra": null
+      },
+      "team": {
+        "id": 364,
+        "name": "Remo"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Eduardo Melo"
+      },
+      "assist": {
+        "name": "Gabriel Poveda"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 70,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Passados 25 minutos do segundo tempo, a igualdade em 1 a 1 prevalece no placar. O São Paulo abriu o marcador na primeira etapa com Calleri, aproveitando bobeira da defesa adversária. No entanto, o Remo voltou aceso e buscou o empate aos 9 minutos da etapa final, com gol de cabeça de Poveda após cruzamento de Pikachu. Sob muita chuva, o duelo segue equilibrado e tenso no Morumbis.",
+      "player": {
+        "name": "Tudo igual no Morumbis após gols e VAR"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 70,
+        "extra": null
+      },
+      "team": {
+        "id": 364,
+        "name": "Remo"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "?"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 73,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O São Paulo abriu o placar com o artilheiro Calleri após falha da zaga do Remo. A equipe paraense reagiu na segunda etapa e, aos 9 minutos, Gabriel Poveda aproveitou cruzamento de Pikachu para empatar por 1 a 1 de cabeça. Passados 28 minutos do segundo tempo, sob forte chuva e muitos passes errados, o clima ficou tenso e a torcida já protesta nas arquibancadas do Morumbis.",
+      "player": {
+        "name": "Tudo igual e clima tenso no Morumbis"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 73,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Torcedores protestam das arquibancadas do Morumbis.",
+      "player": {
+        "name": "Torcedores protestam das arquibancadas do Morumb"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 74,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Gustavo Santana"
+      },
+      "assist": {
+        "name": "Lucas Moura"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 75,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Newton"
+      },
+      "assist": {
+        "name": "Pedro Lima"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 77,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Após um primeiro tempo de superioridade do São Paulo, coroado com gol de Calleri aproveitando falha defensiva aos 38 minutos, o Remo reagiu. Na etapa final, debaixo de chuva e com o cronômetro passando dos 32 minutos, o time paraense buscou o empate por 1 a 1 com cabeçada certeira de Poveda após cruzamento de Pikachu. O confronto segue equilibrado e com muitas mexidas nos dois lados.",
+      "player": {
+        "name": "Placar igualado e emoção de sobra no Morumbis"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 77,
+        "extra": null
+      },
+      "team": {
+        "id": 364,
+        "name": "Remo"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "João Lucas"
+      },
+      "assist": {
+        "name": "Yago Pikachu"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 78,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Remo cobra escanteio fechado, a bola desvia e quase toma a direção do gol de Rafael. A defesa do São Paulo afasta o perigo.",
+      "player": {
+        "name": "Remo cobra escanteio fechado, a bola desvia e qu"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 78,
+        "extra": null
+      },
+      "team": {
+        "id": 364,
+        "name": "Remo"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Vitor Bueno"
+      },
+      "assist": {
+        "name": "Edson Fernando"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 79,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Público: 16.372 Renda: R$ 574.545,00",
+      "player": {
+        "name": "Público: 16.372 Renda: R$ 574.545,00"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 82,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O São Paulo abriu o placar aos 38 minutos do primeiro tempo com o artilheiro Calleri, aproveitando uma bobeira na saída de bola adversária. No segundo tempo, o Remo voltou mais ligado e buscou o empate aos 9 minutos, com Poveda cabeceando firme após cruzamento de Pikachu. Agora, passados 37 minutos da etapa final, o jogo segue aberto com os dois times errando passes na busca da vitória.",
+      "player": {
+        "name": "Empate e emoção de sobra no Morumbis"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 82,
+        "extra": null
+      },
+      "team": {
+        "id": 364,
+        "name": "Remo"
+      },
+      "type": "Important",
+      "detail": "O Remo chega pela esquerda em boa troca de passes desde o campo defensivo. Marlon ganha de Newton, que cai no gramado, mas se precipita no cruzamento e manda para ninguém.",
+      "player": {
+        "name": "O Remo chega pela esquerda em boa troca de passe"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 83,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Lucca"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 84,
+        "extra": null
+      },
+      "team": {
+        "id": 364,
+        "name": "Remo"
+      },
+      "type": "Important",
+      "detail": "Pikachu cehga pela direita e cruza na medida para Eduardo Melo. Ele entra sozinho na pequena área, mas erra o tempo da finalização e joga por cima do gol. Quase a virada do Remo.",
+      "player": {
+        "name": "Eduardo Melo"
+      },
+      "assist": {
+        "name": "PERDEU!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 86,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Morumbis ferve na reta final! Aos 41 minutos do segundo tempo, o São Paulo lidera por 2 a 1. Calleri inaugurou o marcador na etapa inicial após bobeada da zaga. O Remo buscou a igualdade com uma cabeçada certeira de Gabriel Poveda. Quando o confronto parecia caminhar para o empate, o jovem Ryan Francisco aproveitou a sobra na área e recolocou os paulistas em vantagem no placar.",
+      "player": {
+        "name": "Ryan Francisco brilha no fim e São Paulo lidera"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 86,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "player": {
+        "name": "Ryan Francisco"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 90,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Com mais de 45 minutos da etapa final, o São Paulo vai batendo o Remo por 2 a 1 no Morumbis. Calleri abriu o placar no primeiro tempo após falha defensiva. Na segunda etapa, Poveda deixou tudo igual de cabeça. O Remo quase virou, mas, aos 41 minutos, Ryan Francisco aproveitou a sobra na área para decretar a vantagem dos donos da casa nesta reta final de partida bastante disputada.",
+      "player": {
+        "name": "São Paulo retoma a vantagem no fim do jogo"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 90,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Seis minutos de acréscimos.",
+      "player": {
+        "name": "+6"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 92,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Remo pressiona em falta e escanteio cobrado na área, mas a defesa do São Paulo consegue afastar o perigo.",
+      "player": {
+        "name": "Remo pressiona em falta e escanteio cobrado na á"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 94,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Nos minutos finais do segundo tempo, o São Paulo vai vencendo o Remo por 3 a 1 em um duelo muito movimentado no Morumbis. Calleri abriu o placar na etapa inicial, mas Poveda empatou de cabeça para os visitantes. Na reta final, Ryan Francisco recolocou os paulistas na frente e, já nos acréscimos, aos 49 minutos, Calleri marcou um golaço por cobertura para consolidar a vantagem.",
+      "player": {
+        "name": "Calleri decide e São Paulo encaminha a vitória"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 94,
+        "extra": null
+      },
+      "team": {
+        "id": 276,
+        "name": "São Paulo"
+      },
+      "type": "Goal",
+      "detail": "Normal Goal",
+      "player": {
+        "name": "Calleri"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 95,
+        "extra": null
+      },
+      "team": {
+        "id": 364,
+        "name": "Remo"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Tchamba"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 95,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "A partida no Morumbis foi emocionante! O São Paulo abriu o placar aos 38 minutos com Calleri, mas aos nove do segundo tempo, Poveda empatou para o Remo. A decisão ficou para a reta final: aos 41 minutos da etapa complementar, Ryan Francisco recolocou os donos da casa na frente e, já nos acréscimos, aos 49, Calleri fez um golaço com um balãozinho decretando o placar de 3 a 1.",
+      "player": {
+        "name": "Calleri comanda vitória do São Paulo no Morumbis"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 96,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Fim de jogo no Morumbis. São Paulo 3 x 1 Remo.",
+      "player": {
+        "name": "Fim de jogo no Morumbis. São Paulo 3 x 1 Remo."
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 96,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Fim de papo no Morumbis! O São Paulo bateu o Remo por 3 a 1 em duelo movimentado. Calleri abriu o placar aos 38 do primeiro tempo após erro na zaga rival. O Remo reagiu e empatou aos 9 da etapa final com cabeceio de Poveda. Mas a força tricolor apareceu no fim: aos 41 minutos, o jovem Ryan Francisco desempatou e Calleri, de cobertura nos acréscimos, fechou a grande vitória.",
+      "player": {
+        "name": "Calleri brilha e São Paulo vence Remo por 3 a 1"
       },
       "assist": null
     }
@@ -757,7 +1811,7 @@
         "name": "Remo",
         "logo": "https://s.sde.globo.com/media/organizations/2021/02/25/Remo-PA.svg"
       },
-      "formation": "4-3-3",
+      "formation": "3-5-2",
       "coach": {
         "name": "Thiago Carpini"
       },
@@ -827,6 +1881,15 @@
         },
         {
           "player": {
+            "id": "david_braga",
+            "name": "David Braga",
+            "number": 26,
+            "pos": "Mei",
+            "grid": null
+          }
+        },
+        {
+          "player": {
             "id": "antoniogaleano",
             "name": "Galeano",
             "number": 21,
@@ -836,9 +1899,9 @@
         },
         {
           "player": {
-            "id": "david_braga",
-            "name": "David Braga",
-            "number": 26,
+            "id": "gabrieltaliari",
+            "name": "Gabriel Taliari",
+            "number": 19,
             "pos": "Ata",
             "grid": null
           }
@@ -848,15 +1911,6 @@
             "id": "gabrielpoveda",
             "name": "Gabriel Poveda",
             "number": 9,
-            "pos": "Ata",
-            "grid": null
-          }
-        },
-        {
-          "player": {
-            "id": "gabrieltaliari",
-            "name": "Gabriel Taliari",
-            "number": 19,
             "pos": "Ata",
             "grid": null
           }
@@ -965,31 +2019,31 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "62%"
+          "value": "61%"
         },
         {
           "type": "Total Passes",
-          "value": 296
+          "value": 641
         },
         {
           "type": "Pass Accuracy",
-          "value": "91%"
+          "value": "90%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 28
+          "value": 65
         },
         {
           "type": "Total Shots",
-          "value": 3
+          "value": 7
         },
         {
           "type": "Shots on Goal",
-          "value": 2
+          "value": 4
         },
         {
           "type": "Shots off Goal",
-          "value": 1
+          "value": 3
         },
         {
           "type": "Blocked Shots",
@@ -1001,11 +2055,11 @@
         },
         {
           "type": "Corner Kicks",
-          "value": 4
+          "value": 5
         },
         {
           "type": "Offsides",
-          "value": 2
+          "value": 5
         },
         {
           "type": "Penalties",
@@ -1017,15 +2071,15 @@
         },
         {
           "type": "Tackles",
-          "value": 5
+          "value": 12
         },
         {
           "type": "Fouls",
-          "value": 6
+          "value": 18
         },
         {
           "type": "Yellow Cards",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Red Cards",
@@ -1041,35 +2095,35 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "38%"
+          "value": "39%"
         },
         {
           "type": "Total Passes",
-          "value": 170
+          "value": 357
         },
         {
           "type": "Pass Accuracy",
-          "value": "81%"
+          "value": "79%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 32
+          "value": 75
         },
         {
           "type": "Total Shots",
-          "value": 2
+          "value": 6
         },
         {
           "type": "Shots on Goal",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Shots off Goal",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Blocked Shots",
-          "value": 0
+          "value": 2
         },
         {
           "type": "Hit Woodwork",
@@ -1077,11 +2131,11 @@
         },
         {
           "type": "Corner Kicks",
-          "value": 0
+          "value": 3
         },
         {
           "type": "Offsides",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Penalties",
@@ -1093,15 +2147,15 @@
         },
         {
           "type": "Tackles",
-          "value": 7
+          "value": 12
         },
         {
           "type": "Fouls",
-          "value": 6
+          "value": 14
         },
         {
           "type": "Yellow Cards",
-          "value": 1
+          "value": 4
         },
         {
           "type": "Red Cards",

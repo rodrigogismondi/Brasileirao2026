@@ -18279,12 +18279,12 @@
           "city": ""
         },
         "status": {
-          "long": "1H",
-          "short": "1H",
-          "elapsed": 40
+          "long": "FT",
+          "short": "FT",
+          "elapsed": 90
         },
-        "timerStart": "2026-11-27T23:00:15.375Z",
-        "timerStatus": "INICIADO"
+        "timerStart": "2026-11-28T01:07:00.671Z",
+        "timerStatus": "PAUSADO"
       },
       "league": {
         "round": "Regular Season - 37"
@@ -18311,8 +18311,8 @@
           "away": null
         },
         "fulltime": {
-          "home": null,
-          "away": null
+          "home": 0,
+          "away": 1
         }
       },
       "odds": null,
@@ -20681,10 +20681,10 @@
   "budget": {
     "used": 0,
     "remaining": 100,
-    "mode": "live",
-    "liveIntervalMs": 20000
+    "mode": "idle",
+    "liveIntervalMs": 900000
   },
-  "fetchedAt": "2026-11-27T23:40:55.107Z",
+  "fetchedAt": "2026-11-28T04:59:09.878Z",
   "source": "ge-globo",
   "meta": {
     "rodada": 37,
@@ -20730,7 +20730,7 @@
       38
     ],
     "seasonSyncedAt": "2026-11-27T23:40:42.862Z",
-    "fullSeasonSync": true,
+    "fullSeasonSync": false,
     "edicao": "Campeonato Brasileiro 2026",
     "provider": "ge.globo.com",
     "scorersCount": 50,
@@ -20741,7 +20741,7 @@
     "tvPreserved": 0,
     "tvAvailable": 384,
     "tvSource": "Onde Assistir — https://ondeassistir.com.br/dados",
-    "tvUpdatedAt": "2026-11-27T22:17:09.713485Z",
+    "tvUpdatedAt": "2026-11-28T04:19:49.138480Z",
     "fixturesCount": 380
   }
 }

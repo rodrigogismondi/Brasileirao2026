@@ -7,12 +7,12 @@
       "city": ""
     },
     "status": {
-      "long": "1H",
-      "short": "1H",
-      "elapsed": 40
+      "long": "FT",
+      "short": "FT",
+      "elapsed": 90
     },
-    "timerStart": "2026-11-27T23:00:15.375Z",
-    "timerStatus": "INICIADO"
+    "timerStart": "2026-11-28T01:07:00.671Z",
+    "timerStatus": "PAUSADO"
   },
   "league": {
     "round": "Regular Season - 37"
@@ -39,14 +39,116 @@
       "away": null
     },
     "fulltime": {
-      "home": null,
-      "away": null
+      "home": 0,
+      "away": 1
     }
   },
   "odds": null,
   "tv": [],
   "_geUrl": "https://ge.globo.com/rj/futebol/brasileirao-serie-a/jogo/27-11-2026/fluminense-cruzeiro.ghtml",
   "events": [
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 283,
+        "name": "Cruzeiro"
+      },
+      "type": "Important",
+      "detail": "\"Estou muito feliz. Foi um ano mágico na vida, e hoje pude fazer um grande jogo. O Matheus também tirou uma bola em cima da linha. Hoje, cravamos nosso objeito. Grupo inteiro de parabéns.\"",
+      "player": {
+        "name": "Otávio"
+      },
+      "assist": {
+        "name": "DIGA, OTÁVIO"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "Important",
+      "detail": "\"Não gosto de falar sobre os meus méritos. São 23 anos como profissional, tenho mais de 500 gols, e aqui fui vaiado no segundo ou no terceiro jogo. Nunca vi isso. Por mais experiência que você tenha, pesa um pouco, porque a confiança é tudo para o jogador. Respeito a opinião, mas arremessar o copo vai além do futebol. Pode vaiar, xingar, porque pagaram ingresso, nunca vou questionar. Mas, quando passa para falta de respeito, é lamentável. Erramos mais do que acertamos, mas as pessoas acham que somos máquinas. A gente sempre entra em campo para acertar, mas o importante é terminar o jogo de cabeça erguida.\"",
+      "player": {
+        "name": "Hulk"
+      },
+      "assist": {
+        "name": "FALA, HULK"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 283,
+        "name": "Cruzeiro"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Fagner"
+      },
+      "assist": {
+        "name": "Kauã Moraes"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O primeiro tempo foi corrido e teve volume de chances claras para o Cruzeiro, que abriu o placar logo aos dois minutos. Contra-ataque rápido, com participação de Zé Lucas, Gerson e Bruno Rodrigues, antes de finalização certeira de Kaio Jorge. O Fluminense teve posse no ataque e alguns cruzamentos na área, mas as únicas finalizações certas foram de fora da área, com Lucho e Canobbio, que pararam em defesas tranquilas de Otávio. Apostando em transições rápidas, o Cruzeiro incomodou mais. Matheus Pereira acertou a trave, Kaio Jorge parou em Fábio, e Gerson quase marcou de cavadinha, no fim. Primeiro tempo com vantagem mínima para os mineiros.",
+      "player": {
+        "name": "RESUMÃO"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 283,
+        "name": "Cruzeiro"
+      },
+      "type": "Important",
+      "detail": "\"Dava para a gente ter matado a partida. Fizemos um bom primeiro temp, com volume bom de jogo, mas faltando calma para concluir e matar o jogo.\"",
+      "player": {
+        "name": "Kaio Jorge"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 0,
+        "extra": null
+      },
+      "team": {
+        "id": 283,
+        "name": "Cruzeiro"
+      },
+      "type": "Important",
+      "detail": "\"Temos que controlar o contra-ataque do Cruzeiro, porque fazem bem. No ataque, temos que caprichar um pouco mais para finalizar as jogadas e virar o jogo.\"",
+      "player": {
+        "name": "Savarino"
+      },
+      "assist": null
+    },
     {
       "time": {
         "elapsed": 0,
@@ -108,6 +210,22 @@
       "detail": "Normal Goal",
       "player": {
         "name": "Kaio Jorge"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 2,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Fluminense 0 x 1 Cruzeiro | Gol | 37ª rodada | Brasileirão 2026",
+      "player": {
+        "name": "Fluminense 0 x 1 Cruzeiro | Gol | 37ª rodada | Brasileirão 2026"
       },
       "assist": null
     },
@@ -711,9 +829,9 @@
         "name": "Fluminense"
       },
       "type": "Important",
-      "detail": "Fluminense cobra falta curtinha, Savarino finaliza de fora da área, mas explode em Fabrício Bruno.",
+      "detail": "Fluminense cobra falta curtinha, Renê finaliza de fora da área, mas a bola explode em Fabrício Bruno.",
       "player": {
-        "name": "Fluminense cobra falta curtinha, Savarino finali"
+        "name": "Fluminense cobra falta curtinha, Renê finaliza d"
       },
       "assist": null
     },
@@ -928,6 +1046,1682 @@
       "detail": "Guga faz boa trama pela direita com Savarino, vai ao fundo, mas fica sem espaço e recomeça a jogada.",
       "player": {
         "name": "Guga faz boa trama pela direita com Savarino, va"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 40,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Com 40 minutos de bola rolando, o Cruzeiro vai vencendo o Fluminense por 1 a 0, graças ao gol precoce de Kaio Jorge, aos 2 minutos. O Tricolor buscou reagir com finalizações perigosas de Hércules, Lucho Acosta e Canobbio, mas parou no goleiro Otávio. O time mineiro seguiu perigoso nos contra-ataques e quase ampliou com Matheus Pereira, que carimbou a trave em jogo de ritmo intenso.",
+      "player": {
+        "name": "Cruzeiro lidera com gol relâmpago no Maracanã"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 40,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "Important",
+      "detail": "Jonathan Jesus afasta boa tentativa de infiltração do Fluminense pelo meio, mas Bruno Rodrigues erra passe na puxada de contra-ataque.",
+      "player": {
+        "name": "Jonathan Jesus afasta boa tentativa de infiltraç"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 41,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Canobbio recebe na ponta esquerda, limpa para a perna direita e cruza na segunda trave. Otávio deixa a meta e fica com a bola.",
+      "player": {
+        "name": "Canobbio recebe na ponta esquerda, limpa para a "
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 42,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Kauã Moraes rouba de Canobbio pelo meio, mas é parado com falta pelo atacante uruguaio.",
+      "player": {
+        "name": "Kauã Moraes rouba de Canobbio pelo meio, mas é p"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 43,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Com 43 minutos de bola rolando, o Cruzeiro vai vencendo por 1 a 0 graças ao gol de Kaio Jorge, que bateu cruzado logo aos 2 minutos. O Fluminense buscou o empate com finalizações de Lucho Acosta e Hércules, mas parou na defesa adversária. Muito perigosa nos contra-ataques, a equipe mineira equilibrou as ações e quase ampliou com Matheus Pereira mandando uma bola na trave.",
+      "player": {
+        "name": "Cruzeiro larga na frente em primeiro tempo franco"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 43,
+        "extra": null
+      },
+      "team": {
+        "id": 283,
+        "name": "Cruzeiro"
+      },
+      "type": "Important",
+      "detail": "Bruno Rodrigues recebe inversão na esquerda e cruza para Matheus Pereira, que escora para Villalba. O argentino chuta sem jeito, a bola desvia em Renê e leva perigo ao gol de Fábio. Escanteio para o Cruzeiro.",
+      "player": {
+        "name": "Villalba"
+      },
+      "assist": {
+        "name": "FOGO AMIGO!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 44,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Matheus Pereira cobra escanteio na entrada da pequena área, Fabrício Bruno ganha pelo alto, mas não consegue direcionar cabeceio.",
+      "player": {
+        "name": "Matheus Pereira cobra escanteio na entrada da pe"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 45,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Canobbio arranca pela esquerda, passa por Fagner e é parado com falta por Gerson.",
+      "player": {
+        "name": "Canobbio arranca pela esquerda, passa por Fagner"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 45,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Começa o segundo tempo no Maracanã.",
+      "player": {
+        "name": "TÁ VALENDO!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 45,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Vamos aos 47 minutos.",
+      "player": {
+        "name": "+2"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 46,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Com apenas um minuto do segundo tempo, o Cruzeiro vai vencendo por 1 a 0 graças ao gol relâmpago de Kaio Jorge, logo aos dois minutos de jogo. O time mineiro quase ampliou com bola na trave de Matheus Pereira e grande chance salva por Ignácio. O Fluminense pressiona em busca do empate e parou em boas defesas do goleiro Otávio nas finalizações de Lucho Acosta e Martinelli.",
+      "player": {
+        "name": "Cruzeiro em vantagem contra o Flu no Maracanã"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 46,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "Important",
+      "detail": "Lucho Acosta recebe cobrança de lateral dentro da área, gira rápido e finaliza para defesa firme de Otávio.",
+      "player": {
+        "name": "Lucho Acosta"
+      },
+      "assist": {
+        "name": "QUE PERIGO!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 46,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Cruzeiro abriu o placar logo aos dois minutos de jogo com Kaio Jorge, após rápida descida ao ataque. Desde então, o Fluminense buscou o empate com investidas perigosas de Lucho Acosta e Canobbio, mas parou no goleiro Otávio. Os visitantes também assustaram e carimbaram a trave com Matheus Pereira. Com um minuto do segundo tempo, o placar de 1 a 0 deixa o confronto totalmente aberto.",
+      "player": {
+        "name": "Cruzeiro na frente em duelo aberto no Maracanã"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 46,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "Important",
+      "detail": "Martinelli recebe com liberdade pelo meio e finaliza de longe. Otávio, bem colocado, defende mais uma.",
+      "player": {
+        "name": "Martinelli"
+      },
+      "assist": {
+        "name": "EM DOIS TEMPOS!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 46,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Com 46 minutos de um primeiro tempo franco, o Cruzeiro vai vencendo por 1 a 0 graças ao gol relâmpago de Kaio Jorge, logo aos dois minutos. O Fluminense tentou reagir com boas chegadas de Hércules e Lucho Acosta, mas parou no goleiro Otávio. O time mineiro seguiu perigoso, carimbou a trave com Matheus Pereira e quase ampliou no fim, quando Ignácio salvou uma bola em cima da linha.",
+      "player": {
+        "name": "Cruzeiro larga na frente e pressiona no Maracanã"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 46,
+        "extra": null
+      },
+      "team": {
+        "id": 283,
+        "name": "Cruzeiro"
+      },
+      "type": "Important",
+      "detail": "Matheus Pereira puxa contra-ataque e aciona Kaio Jorge, que limpa o marcador e aciona Gerson. O camisa 8 recebe sem ângulo, cava sobre Fábio, mas Ignácio afasta antes de Matheus Pereira completar para as reses.",
+      "player": {
+        "name": "Gerson"
+      },
+      "assist": {
+        "name": "SALVA, IGNÁCIO!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 47,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Lucho recebe mais uma bola na área, Jonathan desarma bem, e Matheus Pereira aparece na defesa para complementar o corte.",
+      "player": {
+        "name": "Lucho recebe mais uma bola na área, Jonathan des"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 47,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Termina o primeiro tempo no Maracanã.",
+      "player": {
+        "name": "FIM DE JOGO!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 48,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Ignácio, Savarino e Guga tentam triangulação pela direita, mas o zagueiro toca bola direto pela linha de fundo.",
+      "player": {
+        "name": "Ignácio, Savarino e Guga tentam triangulação pel"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 49,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Com bola rolando na etapa final, o Cruzeiro vai vencendo o Fluminense por 1 a 0, gol de Kaio Jorge logo no início da partida. O time mineiro ainda carimbou a trave com Matheus Pereira no primeiro tempo. Já nos primeiros minutos do segundo tempo, o Tricolor tenta pressionar e já exigiu boas defesas do goleiro Otávio em finalizações de Martinelli e Lucho Acosta.",
+      "player": {
+        "name": "Cruzeiro em vantagem no Maracanã"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 49,
+        "extra": null
+      },
+      "team": {
+        "id": 283,
+        "name": "Cruzeiro"
+      },
+      "type": "Important",
+      "detail": "Cruzeiro tenta primeiro ataque pela esquerda, mas Ignácio é soberano para conter lançamento rumo a Bruno Rodrigues.",
+      "player": {
+        "name": "Cruzeiro tenta primeiro ataque pela esquerda, ma"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 50,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Bruno Rodrigues segura bem a bola pela esquerda, tenta tabela com Villalba, que devolve mal.",
+      "player": {
+        "name": "Bruno Rodrigues segura bem a bola pela esquerda,"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 51,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Lucho Acosta"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 52,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Zé Lucas recebe atendimento, e o árbitro ouve análise do VAR.",
+      "player": {
+        "name": "Zé Lucas recebe atendimento, e o árbitro ouve an"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 52,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "No início da etapa complementar, o Cruzeiro vai vencendo o Fluminense por 1 a 0, graças ao gol de Kaio Jorge logo aos dois minutos. O time visitante ainda carimbou a trave com Matheus Pereira e quase ampliou com Gerson. Do outro lado, os donos da casa tentam reagir com investidas de Lucho Acosta e Canobbio, mas esbarram nas boas defesas do goleiro Otávio em um duelo dinâmico.",
+      "player": {
+        "name": "Cruzeiro lidera em duelo movimentado no Maracanã"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 52,
+        "extra": null
+      },
+      "team": {
+        "id": 283,
+        "name": "Cruzeiro"
+      },
+      "type": "Important",
+      "detail": "Jogadores do Cruzeiro pedem cartão vermelho para Lucho Acosta, alegando pisão intencional em Zé Lucas.",
+      "player": {
+        "name": "Jogadores do Cruzeiro pedem cartão vermelho para"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 53,
+        "extra": null
+      },
+      "team": {
+        "id": 283,
+        "name": "Cruzeiro"
+      },
+      "type": "Important",
+      "detail": "VAR não recomenda revisão, e a partida é recomeçada com falta para o Cruzeiro e amarelo para Lucho.",
+      "player": {
+        "name": "SEGUE O JOGO!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 54,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Zé Lucas rouba de Canobbio e puxa contra-ataque. Matheus Pereira é acionado na esquerda e cruza rasteiro para Kaio Jorge, mas Thiago Silva chega antes para afastar.",
+      "player": {
+        "name": "SALVA, THIAGO!"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 55,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Cruzeiro abriu o placar logo aos 2 minutos, com chute cruzado de Kaio Jorge. O Fluminense tentou reagir com boas jogadas de Lucho Acosta e Canobbio, mas parou no goleiro Otávio. A equipe mineira ainda carimbou a trave com Matheus Pereira e quase ampliou no fim do primeiro tempo. Passados 10 minutos da etapa final, os visitantes vão sustentando a vantagem de 1 a 0 no placar.",
+      "player": {
+        "name": "Cruzeiro em vantagem contra o Flu no Maracanã"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 55,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Hércules recebe com liberdade na intermediária, adianta na condução e é desarmado por Matheus Henrique.",
+      "player": {
+        "name": "Hércules recebe com liberdade na intermediária, "
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 56,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "Important",
+      "detail": "Torcida do Fluminense protesta contra Canobbio em campo.",
+      "player": {
+        "name": "Canobbio"
+      },
+      "assist": {
+        "name": "VAIADO!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 57,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Castillo é acionado na ponta esquerda, limpa Jonathan Jesus e é parado com falta. Bola boa para cruzar na área.",
+      "player": {
+        "name": "VAI TER BOLA NA ÁREA"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 57,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Fagner é acionado por Gerson na linha de fundo e cruza firme, na pequena área, mas sem ninguém para completar.",
+      "player": {
+        "name": "Fagner é acionado por Gerson na linha de fundo e"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 58,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Cruzeiro abriu o placar aos 2 minutos com Kaio Jorge e sustenta o 1 a 0. O Fluminense tentou reagir com Lucho Acosta e Canobbio, mas parou em Otávio. Os visitantes quase ampliaram com bola na trave de Matheus Pereira. Com 14 minutos do segundo tempo, o duelo segue tenso, com o time da casa buscando o empate e os visitantes perigosos nos contra-ataques.",
+      "player": {
+        "name": "Cruzeiro lidera com gol precoce de Kaio Jorge"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 58,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "Important",
+      "detail": "Savarino tenta surpreender Otávio com arremate direto, mas manda sobre o gol.",
+      "player": {
+        "name": "Savarino"
+      },
+      "assist": {
+        "name": "SEM DIREÇÃO"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 58,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Com 13 minutos da etapa final, o Cruzeiro segura a vantagem de 1 a 0 sobre o Fluminense. O placar foi inaugurado logo aos 2 minutos de jogo, em batida cruzada de Kaio Jorge. O confronto é de alta intensidade: Matheus Pereira já carimbou a trave para o time visitante, enquanto o goleiro Otávio faz grandes intervenções para frear a forte pressão exercida pelo tricolor carioca.",
+      "player": {
+        "name": "Cruzeiro em vantagem contra o Flu no Maracanã"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 59,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Ganso"
+      },
+      "assist": {
+        "name": "Lucho Acosta"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 59,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Riquelme Felipe"
+      },
+      "assist": {
+        "name": "Canobbio"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 60,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Cruzeiro começou forte e abriu o placar logo aos dois minutos, com gol de Kaio Jorge após rápido contra-ataque. O Fluminense tentou reagir e pressionou com boas chegadas de Canobbio e Lucho Acosta, mas parou no goleiro Otávio. Do outro lado, o time visitante carimbou a trave com Matheus Pereira. Com 15 minutos do segundo tempo, a partida segue aberta com mudanças táticas em campo.",
+      "player": {
+        "name": "Cruzeiro segura vantagem contra o Fluminense"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 60,
+        "extra": null
+      },
+      "team": {
+        "id": 283,
+        "name": "Cruzeiro"
+      },
+      "type": "Important",
+      "detail": "Gerson é acionado pela direita, entra na área e finaliza. A bola desvia em Thiago Silva e sai pela linha de fundo.",
+      "player": {
+        "name": "Gerson"
+      },
+      "assist": {
+        "name": "ESCANTEIO!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 60,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Nonato"
+      },
+      "assist": {
+        "name": "Hércules"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 61,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Matheus Pereira cobra escanteio do lado oposto, fora da área. Bruno Rodrigues domina e precisa recomeçar a jogada.",
+      "player": {
+        "name": "Matheus Pereira cobra escanteio do lado oposto, "
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 62,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "Important",
+      "detail": "Riquelme recebe na direita, limpa Villalba e cruza de canhota, fechadinho, mas Otávio sai com os punhos cerrados para evitar a finalização de Castillo.",
+      "player": {
+        "name": "Riquelme Felipe"
+      },
+      "assist": {
+        "name": "DE SOCO!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 63,
+        "extra": null
+      },
+      "team": {
+        "id": 283,
+        "name": "Cruzeiro"
+      },
+      "type": "Important",
+      "detail": "O Cruzeiro largou na frente logo aos dois minutos com gol de Kaio Jorge e sustenta o 1 a 0 no Maracanã. O duelo seguiu parelho, com bola na trave de Matheus Pereira para os mineiros e o goleiro Otávio brilhando para segurar a pressão carioca. Na etapa final, aos 18 minutos, os donos da casa tentam pressionar após mudanças no time, mas os visitantes se defendem com muita solidez.",
+      "player": {
+        "name": "Kaio Jorge coloca o Cruzeiro na frente no Maracanã"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 63,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Fluminense gira a bola no campo de ataque em busca de espaços. Cruzeiro se fecha.",
+      "player": {
+        "name": "Fluminense gira a bola no campo de ataque em bus"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 64,
+        "extra": null
+      },
+      "team": {
+        "id": 283,
+        "name": "Cruzeiro"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Felipe Morais"
+      },
+      "assist": {
+        "name": "Bruno Rodrigues"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 65,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Fagner é acionado pela direita e cruza na pequena área. Ignácio afasta de cabeça.",
+      "player": {
+        "name": "Fagner é acionado pela direita e cruza na pequen"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 66,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Com 21 minutos do segundo tempo, o Cruzeiro vai vencendo o Fluminense por 1 a 0 no Maracanã. A vantagem visitante foi construída logo no início, com gol de Kaio Jorge aos 2 minutos de jogo. O time da casa tenta reagir e assustou com Martinelli e Lucho Acosta, mas esbarra na forte marcação e nas boas intervenções do goleiro Otávio, que garante a vitória parcial dos mineiros.",
+      "player": {
+        "name": "Cruzeiro segura vantagem contra o Flu no Maracanã"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 66,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "Important",
+      "detail": "Felipe Morais aproveita erro do Fluminense, avança pela esquerda e inverte para Matheus Pereira, que escora no miolo da área. Matheus Henrique chega de trás, mas vacila no domínio.",
+      "player": {
+        "name": "Matheus Henrique"
+      },
+      "assist": {
+        "name": "VACILOU!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 67,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Fabrício Bruno rouba bem na defesa e aciona Kaio Jorge, que opta por desacelerar a jogada.",
+      "player": {
+        "name": "Fabrício Bruno rouba bem na defesa e aciona Kaio"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 68,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Nonato recebe com liberdade pelo meio, conduz e tenta enfiada para Savarino, mas Jonathan Jesus afasta dentro da área.",
+      "player": {
+        "name": "Nonato recebe com liberdade pelo meio, conduz e "
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 69,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Serna"
+      },
+      "assist": {
+        "name": "Savarino"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 69,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Com 24 minutos da etapa final, o Cruzeiro vai segurando a vitória por 1 a 0 no Maracanã, gol de Kaio Jorge logo no comecinho. O Fluminense tentou reagir na base da pressão e parou em boas intervenções do goleiro Otávio. Do outro lado, o time mineiro também assustou, carimbando a trave com Matheus Pereira e exigindo cortes providenciais da zaga carioca em um confronto bem disputado.",
+      "player": {
+        "name": "Cruzeiro segura vantagem contra o Flu no Maracanã"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 69,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Felipe Morais recompõe pela esquerda, desarma Riquelme e lança Matheus Pereira, mas Thiago Silva chega antes no lance.",
+      "player": {
+        "name": "Felipe Morais recompõe pela esquerda, desarma Ri"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 70,
+        "extra": null
+      },
+      "team": {
+        "id": 283,
+        "name": "Cruzeiro"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Viña"
+      },
+      "assist": {
+        "name": "Villalba"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 70,
+        "extra": null
+      },
+      "team": {
+        "id": 283,
+        "name": "Cruzeiro"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Lucas Silva"
+      },
+      "assist": {
+        "name": "Zé Lucas"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 71,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Cruzeiro abriu o placar logo no início com Kaio Jorge e controlou bem as investidas do Fluminense, que parou nas defesas de Otávio. O ritmo seguiu intenso no segundo tempo, com o time carioca buscando o empate após várias substituições. Porém, aos 26 minutos da etapa final, Jonathan Jesus recebeu o cartão vermelho, deixando os visitantes com um a menos para segurar a vantagem de 1 a 0.",
+      "player": {
+        "name": "Cruzeiro na frente e com expulsão no Maracanã"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 71,
+        "extra": null
+      },
+      "team": {
+        "id": 283,
+        "name": "Cruzeiro"
+      },
+      "type": "Card",
+      "detail": "Red Card",
+      "player": {
+        "name": "Jonathan Jesus"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 71,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Felipe Morais é lançado pela esquerda, mas comete falta em Guga.",
+      "player": {
+        "name": "Felipe Morais é lançado pela esquerda, mas comet"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 73,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Riquelme recebe pela direita, pedala, vai ao fundo e cruza fechadinho. Otávio fica com a bola.",
+      "player": {
+        "name": "Riquelme recebe pela direita, pedala, vai ao fun"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 74,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Com quase 30 minutos da etapa final, o Cruzeiro vai segurando o 1 a 0 garantido logo no início por Kaio Jorge. O Fluminense pressionou bastante, exigindo boas defesas de Otávio, mas esbarrou na forte marcação mineira. O panorama ficou tenso após a expulsão de Jonathan Jesus aos 26 minutos. Mesmo com um a menos, os visitantes assustaram com Matheus Pereira tentando por cobertura.",
+      "player": {
+        "name": "Cruzeiro segura o placar com um a menos no Rio"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 74,
+        "extra": null
+      },
+      "team": {
+        "id": 283,
+        "name": "Cruzeiro"
+      },
+      "type": "Important",
+      "detail": "Viña rouba bola de Ganso e toca para Matheus Pereira, que tenta encobrir Fábio, mas manda sobre o gol.",
+      "player": {
+        "name": "Matheus Pereira"
+      },
+      "assist": {
+        "name": "QUASE UMA PINTURA!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 74,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Cruzeiro abriu o placar logo no início com gol de Kaio Jorge e vai garantindo o 1 a 0 fora de casa. O Fluminense tentou pressionar e criou boas chances com Acosta e Canobbio, parando na defesa mineira. Perto dos 29 minutos do segundo tempo, o cenário ficou tenso para os visitantes após a expulsão de Jonathan Jesus, deixando o duelo totalmente aberto para a reta final de jogo.",
+      "player": {
+        "name": "Cruzeiro lidera no Maracanã com um a menos"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 74,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Viña aciona Felipe Morais, que faz o pivô e sofre falta de Ignácio.",
+      "player": {
+        "name": "Viña aciona Felipe Morais, que faz o pivô e sofr"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 75,
+        "extra": null
+      },
+      "team": {
+        "id": 283,
+        "name": "Cruzeiro"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Gustavo Alves"
+      },
+      "assist": {
+        "name": "Gerson"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 76,
+        "extra": null
+      },
+      "team": {
+        "id": 283,
+        "name": "Cruzeiro"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Otávio"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 77,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Com 32 minutos do segundo tempo, o Cruzeiro vence o Fluminense por 1 a 0 no Maracanã, gol de Kaio Jorge no início do jogo. A partida ganhou drama após a expulsão de Jonathan Jesus aos 26 da etapa final. O Fluminense pressiona com as entradas de Ganso e Riquelme, mas esbarra nas boas defesas do goleiro Otávio, que vai garantindo a vantagem do time visitante.",
+      "player": {
+        "name": "Cruzeiro segura vantagem com um jogador a menos"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 77,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Riquelme recebe na direita, limpa para a canhota e cruza fechado. Otávio segura.",
+      "player": {
+        "name": "Riquelme recebe na direita, limpa para a canhota"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 78,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "subst",
+      "detail": "Substitution 1",
+      "player": {
+        "name": "Hulk"
+      },
+      "assist": {
+        "name": "Martinelli"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 78,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Aos 33 minutos do segundo tempo, o Cruzeiro segura a vantagem de 1 a 0 no Maracanã. O gol do jogo foi marcado por Kaio Jorge, logo no início. O Fluminense pressiona bastante na etapa final, principalmente após a expulsão de Jonathan Jesus, mas esbarra nas boas defesas do goleiro Otávio, na forte marcação e na trave, que salvou os mandantes em chute de Matheus Pereira.",
+      "player": {
+        "name": "Cruzeiro lidera no Maracanã com um a menos"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 78,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "Important",
+      "detail": "Serna recebe na ponta esquerda, limpa Fagner e cruza na segunda trave. Riquelme aparece bem e finaliza firme, de canhota, mas acerta o lado de fora da rede.",
+      "player": {
+        "name": "Riquelme Felipe"
+      },
+      "assist": {
+        "name": "PRA FOOORA!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 79,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Fluminense toca a bola no campo ofensivo. Cruzeiro recua.",
+      "player": {
+        "name": "Fluminense toca a bola no campo ofensivo. Cruzei"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 80,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "Important",
+      "detail": "Serna recebe mais uma na esquerda. Desta vez, limpa Fagner para o meio e arrisca. Otávio segura firme.",
+      "player": {
+        "name": "PRESSÃO DO FLU"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 81,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Cruzeiro abriu o placar cedo com Kaio Jorge e vai vencendo por 1 a 0. Aos 36 minutos da etapa final, o Fluminense pressiona em busca do empate, aproveitando que os visitantes jogam com um a menos após a expulsão de Jonathan Jesus. Riquelme Felipe e Serna assustaram em finalizações perigosas, mas o goleiro Otávio vai garantindo o resultado em um duelo de muita entrega no Maracanã.",
+      "player": {
+        "name": "Cruzeiro segura vantagem contra o Flu no Maracanã"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 81,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "Important",
+      "detail": "Riquelme recebe na direita, conduz em direção à entrada do área, tabela e finaliza. A bola desvia e sai pela linha de fundo.",
+      "player": {
+        "name": "Riquelme Felipe"
+      },
+      "assist": {
+        "name": "QUE PERIGO!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 82,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Após dois escanteios seguidos, Hulk cruza na área, Castillo divide com Fabrício Bruno, e a bola sai. Árbitro marca tiro de meta.",
+      "player": {
+        "name": "Após dois escanteios seguidos, Hulk cruza na áre"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 83,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Cruzeiro abriu o placar cedo com Kaio Jorge, logo aos 2 minutos do primeiro tempo, e soube se defender. Na etapa final, a expulsão de Jonathan Jesus aos 26 minutos aumentou a pressão do Fluminense. Com um a mais, o time carioca sufoca e, aos 38 minutos do segundo tempo, Ganso acertou a trave em chute colocado. Jogo dramático no Maracanã com a Raposa segurando a vitória por 1 a 0.",
+      "player": {
+        "name": "Cruzeiro segura vantagem e Ganso carimba a trave"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 83,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "Important",
+      "detail": "Serna recebe na esquerda e toca na entrada da área. Guga dá corta-luz, Ganso bate colocado e acerta o pé da trave esquerda de Otávio.",
+      "player": {
+        "name": "Ganso"
+      },
+      "assist": {
+        "name": "NA TRAAAVE!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 84,
+        "extra": null
+      },
+      "team": {
+        "id": 283,
+        "name": "Cruzeiro"
+      },
+      "type": "Important",
+      "detail": "Cruzeiro puxa contra-ataque com Felipe Morais e Kaio Jorge, mas Matheus Pereira erra lançamento em profundidade.",
+      "player": {
+        "name": "Matheus Pereira"
+      },
+      "assist": {
+        "name": "SEM FORÇA"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 85,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Cruzeiro abriu o placar cedo com Kaio Jorge e sustentou a vantagem de 1 a 0. O Fluminense cresceu no jogo, principalmente após a expulsão de Jonathan Jesus aos 26 minutos da etapa final. Passados 40 minutos do segundo tempo, a pressão dos donos da casa é intensa: Ganso chegou a acertar a trave de Otávio, mas os visitantes se fecham na defesa para garantir o resultado no Maracanã.",
+      "player": {
+        "name": "Cruzeiro segura vantagem com um a menos no fim"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 85,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "Important",
+      "detail": "Guga aparece mais uma vez pelo meio, recebe com liberdade e finaliza com muita força, mas sobre o gol de Otávio.",
+      "player": {
+        "name": "Guga"
+      },
+      "assist": {
+        "name": "POR CIMA!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 86,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Aos 41 minutos da etapa final, o Cruzeiro vai segurando a vitória por 1 a 0 sobre o Fluminense. O gol foi marcado por Kaio Jorge logo no início da partida. No segundo tempo, o time mineiro teve a expulsão de Jonathan Jesus e passou a sofrer grande pressão do Tricolor, que carimbou a trave com Ganso e desperdiçou chances claras para empatar o confronto nos instantes finais.",
+      "player": {
+        "name": "Cruzeiro segura vantagem com um a menos no fim"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 86,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "Important",
+      "detail": "Riquelme lança Hulk, que surge na área após falha de Gustavo Alves, mas finaliza muito mal, mesmo livre.",
+      "player": {
+        "name": "Hulk"
+      },
+      "assist": {
+        "name": "O QUE FOI ISSO?"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 87,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Viña aparece bem em contra-ataque, entra na área com ângulo para finalização, mas opta pelo passe para Kaio Jorge. A zaga afasta.",
+      "player": {
+        "name": "E O CHUTE?"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 88,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "Important",
+      "detail": "Hulk recebe dentro da área, pela esquerda, ganha de Gustavo e finaliza para fora. Assistente marca impedimento.",
+      "player": {
+        "name": "Hulk"
+      },
+      "assist": {
+        "name": "NÃO VALE!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 89,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "O Cruzeiro saiu na frente logo aos dois minutos com gol de Kaio Jorge e segura a vantagem de 1 a 0. No segundo tempo, o Fluminense partiu com tudo para a pressão, especialmente após a expulsão de Jonathan Jesus. Aos 44 minutos da etapa final, Thiago Silva quase empatou, mas Matheus Pereira salvou em cima da linha. Jogo dramático e de pura insistência no Maracanã.",
+      "player": {
+        "name": "Cruzeiro lidera e segura pressão no Maracanã"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 89,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "Important",
+      "detail": "Hulk cobra escanteio curtinho, e Renê cruza na segunda trave. A bola passa por todo mundo, Thiago Silva emenda de pé direito, passa por Otávio, e Matheus Pereira tira sobre a linha.",
+      "player": {
+        "name": "Thiago Silva"
+      },
+      "assist": {
+        "name": "SAAALVA, MATHEUS PEREIRA!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 89,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Com 44 minutos do segundo tempo, o Cruzeiro vence por 1 a 0 graças ao gol precoce de Kaio Jorge. O Fluminense pressiona forte em busca do empate, ainda mais após a expulsão de Jonathan Jesus, que deixou o time visitante com um a menos. Ganso carimbou a trave e a pressão dos mandantes é intensa na área adversária, enquanto a defesa do Cruzeiro se desdobra para segurar o resultado.",
+      "player": {
+        "name": "Cruzeiro segura pressão do Flu na reta final"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 89,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Riquelme faz mais uma jogada pela direita e cruza na segunda trave. Fagner, de cabeça, afasta antes de chegada de Serna.",
+      "player": {
+        "name": "ESCANTEIO"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 90,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Vamos até os 52 minutos.",
+      "player": {
+        "name": "+7"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 90,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "Card",
+      "detail": "Yellow Card",
+      "player": {
+        "name": "Riquelme Felipe"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 91,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Com a vantagem de 1 a 0 desde o gol relâmpago de Kaio Jorge, o Cruzeiro tenta segurar a vitória heróica no Maracanã. Aos 46 minutos da etapa final, a pressão do Fluminense é sufocante, principalmente após a expulsão de Jonathan Jesus. O tricolor já carimbou a trave com Ganso e parou em milagre do goleiro Otávio em chute de Hulk, deixando o final do confronto completamente aberto.",
+      "player": {
+        "name": "Cruzeiro resiste à pressão do Flu no Maracanã"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 91,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "Important",
+      "detail": "Serna recebe mais uma na esquerda e cruza na segunda trave. Thiago Silva escora, Hulk chega batendo forte, mas Otávio faz um milagre.",
+      "player": {
+        "name": "Hulk"
+      },
+      "assist": {
+        "name": "QUE DEFESAÇA!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 92,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "Important",
+      "detail": "Serna avança pela esquerda, tabela, aparece nas costas de Fagner e finaliza sobre Fabrício Bruno.",
+      "player": {
+        "name": "Serna"
+      },
+      "assist": {
+        "name": "FABRÍCIO BRUNO!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 93,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Riquelme Felipe recebe pela esquerda, pedala para cima de Felipe Morais e entra na área, mas Viña afasta.",
+      "player": {
+        "name": "Riquelme Felipe recebe pela esquerda, pedala par"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 94,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Aos 50 minutos do segundo tempo, o Cruzeiro segura a vitória por 1 a 0, gol de Kaio Jorge logo no início. O Fluminense pressiona muito na etapa final, principalmente após a expulsão de Jonathan Jesus. O time mandante carimbou a trave com Ganso, viu a zaga salvar chute em cima da linha e parou em uma defesa milagrosa do goleiro Otávio no chute de Hulk. Pressão total no Maracanã.",
+      "player": {
+        "name": "Cruzeiro segura vantagem contra o Flu no Maracanã"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 94,
+        "extra": null
+      },
+      "team": {
+        "id": 283,
+        "name": "Cruzeiro"
+      },
+      "type": "Important",
+      "detail": "Kaio Jorge consegue escanteio e ganha tempo para o Cruzeiro.",
+      "player": {
+        "name": "Kaio Jorge consegue escanteio e ganha tempo para"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 95,
+        "extra": null
+      },
+      "team": {
+        "id": 283,
+        "name": "Cruzeiro"
+      },
+      "type": "Important",
+      "detail": "Cruzeiro cobra curto e tenta segurar a bola no ataque, mas sem sucesso.",
+      "player": {
+        "name": "Cruzeiro cobra curto e tenta segurar a bola no a"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 96,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Aos 51 minutos do segundo tempo, o Cruzeiro segura a vitória por 1 a 0 sobre o Fluminense, gol de Kaio Jorge no início. O confronto ganhou contornos dramáticos na etapa final com as expulsões de Jonathan Jesus e Samuel Xavier. O Tricolor pressionou muito na base do abafa, acertou a trave com Ganso e exigiu milagres do goleiro Otávio, mas os visitantes resistem bravamente.",
+      "player": {
+        "name": "Cruzeiro segura pressão e mantém a vantagem"
+      },
+      "assist": null
+    },
+    {
+      "time": {
+        "elapsed": 96,
+        "extra": null
+      },
+      "team": {
+        "id": 266,
+        "name": "Fluminense"
+      },
+      "type": "Important",
+      "detail": "Riquelme cruza na segunda trave. Fabrício Bruno afasta momentaneamente, Serna devolve para a pequena área, e Castillo cabeceia para fora.",
+      "player": {
+        "name": "Rodrigo Castillo"
+      },
+      "assist": {
+        "name": "PRA FORA!"
+      }
+    },
+    {
+      "time": {
+        "elapsed": 97,
+        "extra": null
+      },
+      "team": {
+        "id": 0,
+        "name": ""
+      },
+      "type": "Important",
+      "detail": "Cruzeiro segura o Fluminense e confirma terceira colocação do Brasileiro.",
+      "player": {
+        "name": "FIM DE PAPO!"
       },
       "assist": null
     }
@@ -1387,47 +3181,47 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "64%"
+          "value": "65%"
         },
         {
           "type": "Total Passes",
-          "value": 297
+          "value": 734
         },
         {
           "type": "Pass Accuracy",
-          "value": "92%"
+          "value": "91%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 24
+          "value": 63
         },
         {
           "type": "Total Shots",
-          "value": 6
+          "value": 21
         },
         {
           "type": "Shots on Goal",
-          "value": 2
+          "value": 7
         },
         {
           "type": "Shots off Goal",
-          "value": 2
+          "value": 9
         },
         {
           "type": "Blocked Shots",
-          "value": 2
+          "value": 4
         },
         {
           "type": "Hit Woodwork",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Corner Kicks",
-          "value": 1
+          "value": 4
         },
         {
           "type": "Offsides",
-          "value": 1
+          "value": 3
         },
         {
           "type": "Penalties",
@@ -1435,19 +3229,19 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 0
-        },
-        {
-          "type": "Tackles",
-          "value": 8
-        },
-        {
-          "type": "Fouls",
           "value": 4
         },
         {
+          "type": "Tackles",
+          "value": 12
+        },
+        {
+          "type": "Fouls",
+          "value": 10
+        },
+        {
           "type": "Yellow Cards",
-          "value": 0
+          "value": 2
         },
         {
           "type": "Red Cards",
@@ -1463,35 +3257,35 @@
       "statistics": [
         {
           "type": "Ball Possession",
-          "value": "36%"
+          "value": "35%"
         },
         {
           "type": "Total Passes",
-          "value": 145
+          "value": 316
         },
         {
           "type": "Pass Accuracy",
-          "value": "86%"
+          "value": "78%"
         },
         {
           "type": "Incomplete Passes",
-          "value": 21
+          "value": 71
         },
         {
           "type": "Total Shots",
-          "value": 3
+          "value": 8
         },
         {
           "type": "Shots on Goal",
-          "value": 2
+          "value": 3
         },
         {
           "type": "Shots off Goal",
-          "value": 0
+          "value": 3
         },
         {
           "type": "Blocked Shots",
-          "value": 0
+          "value": 1
         },
         {
           "type": "Hit Woodwork",
@@ -1499,7 +3293,7 @@
         },
         {
           "type": "Corner Kicks",
-          "value": 2
+          "value": 5
         },
         {
           "type": "Offsides",
@@ -1511,23 +3305,23 @@
         },
         {
           "type": "Goalkeeper Saves",
-          "value": 5
+          "value": 13
         },
         {
           "type": "Tackles",
-          "value": 6
+          "value": 14
         },
         {
           "type": "Fouls",
-          "value": 6
+          "value": 14
         },
         {
           "type": "Yellow Cards",
-          "value": 1
+          "value": 2
         },
         {
           "type": "Red Cards",
-          "value": 0
+          "value": 1
         }
       ]
     }
